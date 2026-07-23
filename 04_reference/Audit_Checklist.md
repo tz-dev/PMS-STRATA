@@ -1,9 +1,9 @@
 # PMS-STRATA — Audit Checklist
 
-**Status:** Reference Kernel v0 scaffold v0.3.33; Chapter-10-WP2-synchronized  
+**Status:** Reference Kernel v0 scaffold v0.3.35; Chapter-11-WP2-synchronized  
 **Repository role:** `04_reference/*` — executable audit navigation and production control; not an independent theory source  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the synchronized peer scaffolds `04_reference/Cross_Reference_Map.md`, `04_reference/Evidence_Map.md`, and `04_reference/Reader_Pathways.md`, repository `README.md`, and `PMS.yaml` for PMS Base  
-**Current artifact status:** the seven Formal Model Core artifacts, eight canonical smoke records, and `07_model/examples/README.md` are populated and internally audit-passed; Foundations Chapters 0–8 are provisionally locked after integrated local audits; Chapter 8 carries the complete thirteen-pair catalogue and bounded Decision-Tree handoff; Chapter 9 WP1–WP2 are canonical through Sections 9.1–9.9; Sections 9.10–9.12 and Chapters 10–57, substantive cases, appendices, derivatives, and Reader implementation remain pending
+**Current artifact status:** the seven Formal Model Core artifacts, eight canonical smoke records, and `07_model/examples/README.md` are populated and internally audit-passed; Foundations Chapters 0–8 are provisionally locked after integrated local audits; Chapter 8 carries the complete thirteen-pair catalogue and bounded Decision-Tree handoff; Chapters 9–10 are provisionally locked; Chapter 11 WP1–WP2 are canonical through Sections 11.1–11.9; Sections 11.10–11.14 and Chapters 12–57, substantive cases, appendices, derivatives, and Reader implementation remain pending
 
 ---
 
@@ -224,15 +224,15 @@ revision_required ≠ claim_reduction_required
 | 6 | The STRATA Admissibility Band | Foundations | `01_blocks/01_foundations.md` | Admissibility Band and output architecture | provisionally locked after integrated WP4 audit |
 | 7 | Shared Transformation Record | Foundations | `01_blocks/01_foundations.md`; `04_reference/Chapter_7_Preparation_Record.md` | shared transformation record | provisionally locked after integrated WP4 audit |
 | 8 | Foundational Non-Equivalences | Foundations | `01_blocks/01_foundations.md` | foundational non-equivalences | provisionally locked; Foundations completion audit passed |
-| 9 | Temporal Order and Transition | PATH | `01_blocks/02_part_i_path.md` | temporal order and transition | contract-bound / prose pending |
-| 10 | Path | PATH | `01_blocks/02_part_i_path.md` | path | contract-bound / prose pending |
-| 11 | Trajectory | PATH | `01_blocks/02_part_i_path.md` | trajectory | contract-bound / prose pending |
-| 12 | Path Dependence and Sedimentation | PATH | `01_blocks/02_part_i_path.md` | path dependence and sedimentation | contract-bound / prose pending |
-| 13 | Branches, Aborts, Delays, and Unavailable Alternatives | PATH | `01_blocks/02_part_i_path.md` | alternatives and branch structure | contract-bound / prose pending |
-| 14 | Non-Events within Paths and Trajectories | PATH | `01_blocks/02_part_i_path.md` | non-events in temporal composites | contract-bound / prose pending |
-| 15 | COMPOSE: Selection, Formation, and Compression | PATH | `01_blocks/02_part_i_path.md` | COMPOSE procedure | contract-bound / prose pending |
-| 16 | PATH Boundary Conditions | PATH | `01_blocks/02_part_i_path.md` | PATH limits | contract-bound / prose pending |
-| 17 | PATH Cases, Countercases, and Local Audit | PATH | `01_blocks/02_part_i_path.md` | PATH cases and local audit | contract-bound / prose pending |
+| 9 | Temporal Order and Transition | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_9_Preparation_Record.md` | temporal order and transition | provisionally locked |
+| 10 | Path | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_10_Preparation_Record.md` | path | provisionally locked |
+| 11 | Trajectory | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_11_Preparation_Record.md` | trajectory | provisionally locked |
+| 12 | Path Dependence and Sedimentation | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_12_Preparation_Record.md` | path dependence and sedimentation | provisionally locked |
+| 13 | Branches, Aborts, Delays, and Unavailable Alternatives | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_13_Preparation_Record.md` | alternatives and branch structure | provisionally locked |
+| 14 | Non-Events within Paths and Trajectories | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_14_Preparation_Record.md` | non-events in temporal composites | provisionally locked; §§14.1–14.11 complete |
+| 15 | COMPOSE: Selection, Formation, and Compression | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_15_Preparation_Record.md` | COMPOSE procedure | provisionally locked; §§15.1–15.16 complete |
+| 16 | PATH Boundary Conditions | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_16_Preparation_Record.md` | PATH limits | provisionally locked; §§16.1–16.15 complete |
+| 17 | PATH Cases, Countercases, and Local Audit | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_17_Preparation_Record.md`; `03_cases/Case_Index.md` | PATH cases and local audit | Chapter 17 complete through §§17.1–17.17; thirteen artifact sets and integrated PATH Local Audit complete; Part I — PATH provisionally locked after WP4 integrated audit |
 | 18 | The Provisionally Compressed Object | SUB | `01_blocks/03_part_ii_sub.md` | provisional compression | contract-bound / prose pending |
 | 19 | Granularity Change and the Logic of Decomposition | SUB | `01_blocks/03_part_ii_sub.md` | granularity and decomposition logic | contract-bound / prose pending |
 | 20 | DECOMPOSE: Conditions, Procedure, and Preservation Requirements | SUB | `01_blocks/03_part_ii_sub.md` | DECOMPOSE procedure | contract-bound / prose pending |
@@ -1896,3 +1896,762 @@ Canonical control: [`Chapter 10 §§10.1–10.6`](../01_blocks/02_part_i_path.md
 
 Canonical control: [`Chapter 10 §§10.7–10.10`](../01_blocks/02_part_i_path.md#10-7-realized-path).
 
+---
+
+## Chapter 10 WP3 Audit — Sections 10.11–10.14
+
+- [ ] Path comparison declares reference, frame, time, granularity, selection, source, alternatives, compared dimensions, and claim scope.
+- [ ] Frame translation is not treated as frame identity.
+- [ ] Source asymmetry is not treated as historical asymmetry or path importance.
+- [ ] No universal ranking, weighted comparison score, or endpoint-only comparison is introduced.
+- [ ] Incomparability preserves valid local path findings and routes diagnostically, by reduction, failure, or Non-Capture.
+- [ ] Same endpoint is not treated as same path, equivalent cost, equivalent binding, or equivalent continuation.
+- [ ] Historical difference is not automatically treated as current constraint.
+- [ ] A reconstructible path may remain valid without strong path dependence.
+- [ ] Present explanatory sufficiency does not erase history, and historical reconstruction does not prove dependence.
+- [ ] Minimal Path Record remains a view within the Shared Transformation Record and not a second schema.
+- [ ] Record completeness is not treated as historical truth, semantic validity, or admissibility.
+- [ ] Failed load-bearing path blocks stronger derivation through `mandatory_stop` while weaker findings remain.
+- [ ] Rival source-responsible path constructions may route to `non_capture` without merger or validation.
+- [ ] Chapter 11 receives a warranted path object but no trajectory preauthorization.
+- [ ] All seven WP3 pressure cases are represented and bounded.
+
+Canonical route: [`Chapter 10 §§10.11–10.14`](../01_blocks/02_part_i_path.md#10-11-path-comparison).
+
+
+## Chapter 10 Provisional-Lock Audit
+
+Before accepting a Chapter 10 Path claim, verify:
+
+- actual traversal rather than plausible or intended route;
+- individually tested transition lineage;
+- declared reference, frame, temporal cut, granularity, relative level, and periodization;
+- explicit selection, compression, exclusion, uncertainty, irrecoverability, and rival selection;
+- load-bearing intermediate configurations and branch evidence;
+- status qualification by segment, continuation, claim, cut, evidence, and ceiling;
+- comparison-basis alignment or positive incomparability;
+- same-endpoint/different-path and Path/non-dependence separation;
+- Minimal Path Record subordination to the Shared Transformation Record;
+- preserved weaker findings when a stronger Path fails;
+- Mandatory Stop for stronger derivation from a known failed load-bearing Path;
+- Non-Capture for undecidable source-responsible rival Path constructions;
+- no Trajectory, Path-Dependence, `COMPOSE`, causal, target-function, or authority preauthorization.
+
+Canonical return: [`Chapter 10 completion boundary`](../01_blocks/02_part_i_path.md#chapter-10-completion-boundary).
+
+---
+
+## Chapter 11 Preparation Audit — Trajectory Gate
+
+Before canonical Chapter 11 drafting, verify:
+
+1. a warranted Path substrate is present and its failure lineage is preserved;
+2. duration, repetition, persistence, and narrative coherence are not used as sedimentation substitutes;
+3. cumulative change, persistent residue, changed action corridors, and present historical load are separately declared;
+4. directionality remains non-teleological and preserves alternatives, reversals, repair, and current-condition explanations;
+5. `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ` remain occurrence-level relations, not fused operators;
+6. boundary, periodization, compression, and competing constructions are explicit;
+7. False Trajectory preserves weaker valid Path and local accumulation findings;
+8. Chapter 12 Path Dependence, Chapter 15 `COMPOSE`, and RETYPE functions are not preauthorized;
+9. Stop and Non-Capture remain available;
+10. the record remains bounded by Source and Claim Ceiling.
+
+Production control: [`Chapter 11 Preparation Record`](Chapter_11_Preparation_Record.md).
+
+## Chapter 11 WP1 Local Audit — Sections 11.1–11.4
+
+- [x] Chapter 3 remains the foundational temporal-object source; Chapter 11 operationalizes rather than competitively redefines.
+- [x] A warranted Path substrate is necessary and insufficient.
+- [x] Trajectory candidate and warranted Trajectory remain distinct.
+- [x] Historical carrier, cumulative or sedimented relation, present praxis effect, and Source–Result Dependency are non-compensatory.
+- [x] Duration, repetition, persistence, archival survival, remembrance, and narrative coherence do not establish sedimentation automatically.
+- [x] Historical co-determination remains distinct from exclusive causation and Chapter-12 Path Dependence.
+- [x] Current-condition production, historical carry-over, interaction, and underdetermined allocation remain distinguishable.
+- [x] Cumulative change permits threshold effects, erosion, repair, reversal, and non-linear residue without requiring a universal score.
+- [x] Persistent residue remains distinct from permanence and missing information.
+- [x] Directionality is dimension-specific and preserves alternatives, reversals, repairs, contingency, and endpoint-selection pressure.
+- [x] Teleology, destiny, progress/decline automation, original-plan inference, and determined-future claims are blocked.
+- [x] Six assigned WP1 cases are present and do not claim completed `03_cases/*` artifacts.
+- [x] Weaker Path, duration, recurrence, persistence, and local residue findings survive reduction or Failure.
+- [x] No Chapter-12 dependence result, Chapter-15 `COMPOSE` completion, RETYPE target function, fourth operation, new Rule, Output Class, score, or authority layer is introduced.
+- [x] WP1 ends with `admissible_but_provisional` and hands off only to Sections 11.5–11.9.
+
+Canonical source: [`Chapter 11 §§11.1–11.4`](../01_blocks/02_part_i_path.md#11-trajectory).
+
+## Chapter 11 WP2 Local Audit — Sections 11.5–11.9
+
+- [x] `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ` remain occurrence-level relations; no operator fusion or new primitive is introduced.
+- [x] Each profile requires its own historical carrier, temporal trace, present effect, source support, counterpressure, and claim ceiling.
+- [x] Repetition, unequal outcome, multiple commitments, and multiple absences remain insufficient substitutes for profile-specific accumulation.
+- [x] Attractor Sedimentation remains distinct from current recurrence, necessity, legitimacy, and RETYPE attractor-function.
+- [x] Asymmetry Accumulation declares distribution dimensions, role/exit effects, repair, redistribution, and current-condition allocation without person typing or moral rank.
+- [x] Binding Accumulation remains structural and distinct from inner state, consent, moral obligation, enforceability, and mandatory continuation.
+- [x] Residual Accumulation preserves expectation and frame for each `Λ`; missing information, silence, and archival gaps are not converted into Non-Events.
+- [x] Repair, erosion, weakening, transfer, closure, dormancy, redistribution, and partial restoration remain possible across all applicable profiles.
+- [x] No Trajectory is required to instantiate all four profiles; constitutive, contextual, absent, and uncertain profiles remain declared.
+- [x] Profile richness does not compensate for failed Path substrate, missing present effect, failed Continuity, unsupported Source–Result Dependency, or claim-ceiling breach.
+- [x] Changed Action Corridors distinguish accessibility, visibility, authorization, affordability, coordination feasibility, temporal availability, reversibility, expectedness, evidentiary burden, and exposure.
+- [x] Formal openness remains distinct from practical accessibility; narrowed corridor remains distinct from eliminated agency.
+- [x] Historical, current-condition, interactive, and underdetermined contributions remain visible.
+- [x] Five assigned WP2 cases are present and do not claim completed `03_cases/*` artifacts.
+- [x] No Chapter-12 dependence result, Chapter-15 `COMPOSE` completion, RETYPE target function, fourth operation, new Rule, Output Class, score, schema field, or authority layer is introduced.
+- [x] WP2 ends with `admissible_but_provisional` and hands off only to Sections 11.10–11.14.
+
+Canonical source: [`Chapter 11 §§11.5–11.9`](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation).
+
+## Chapter 11 WP3 Local Audit — Sections 11.10–11.14
+
+- [x] Trajectory Boundary declares reference, Frame, beginning, entry rationale, relevant prehistory, included segments, analytical cut, terminal status, open continuation, disputed periodization, and claim scope.
+- [x] Oldest event, end of source window, present analytical cut, and natural historical closure remain distinct.
+- [x] Segment lineage preserves reinforcement, redistribution, interruption, repair, dormancy, re-entry, reversal, Frame translation, and partial closure without automatic identity break.
+- [x] Boundary sensitivity tests claim dependence without permitting endpoint selection or dramatic-period optimization.
+- [x] Boundary revision creates a new testable claim and does not repair earlier missing Path substrate or historical load.
+- [x] Trajectory Compression preserves load-bearing transitions, Non-Events, profile carriers, alternatives, reversals, repairs, current-condition pressure, open continuation, and canonical Loss.
+- [x] Analytical compression remains distinct from missing source information and from Non-Event.
+- [x] Macro-label substitution, monotonic flattening, and source-insensitive labels are rejected.
+- [x] Chapter 15 retains full `COMPOSE` selection, formation, and operation-specific compression mechanics.
+- [x] Competing constructions are compared by common dimensions without forcing commensurability or synthesis.
+- [x] Compatible, complementary, nested, overlapping, incomparable, conflicting, underdetermined, failed, and retained relations do not become new Output Classes.
+- [x] Multiple bounded constructions do not imply one unique truth or all-rivals-validity.
+- [x] False Trajectory remains a diagnostic phrase, not a new object, operation, Rule, or Output Class.
+- [x] Failed Trajectory preserves warranted chronology, Path, recurrence, local profiles, present constraints, and rival constructions.
+- [x] Known failed Trajectory used for Path Dependence or target-function inference receives `mandatory_stop`.
+- [x] Minimal Trajectory Record remains inside the Shared Transformation Record; no second schema is introduced.
+- [x] Record completeness remains distinct from substantive historical-load sufficiency and truth proof.
+- [x] `non_capture` is used only for materially rival source-responsible constructions that cannot be adjudicated and does not validate them.
+- [x] Eight assigned WP3 cases are present and do not claim completed `03_cases/*` artifacts.
+- [x] Chapter 12 retains Path-Dependence testing; RETYPE retains target-function assignment; no authority increase occurs.
+- [x] WP3 ends with `admissible_but_provisional` and hands off only to WP4 synchronization, integrated audit, and possible Provisional Lock.
+
+Canonical source: [`Chapter 11 §§11.10–11.14`](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary).
+
+## Chapter 11 Provisional-Lock Audit
+
+Before accepting a Chapter 11 Trajectory claim, verify:
+
+- a warranted Path substrate rather than chronology, duration, recurrence, or narrative coherence alone;
+- an identifiable historical carrier, cumulative relation, present praxis effect, and Source–Result Dependency;
+- explicit separation of current-condition production, historical carry-over, interaction, and underdetermined allocation;
+- directionality without destiny, progress/decline automation, original-plan inference, necessary endpoint, or prediction;
+- separate occurrence-level `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ` burdens without operator fusion or compensatory scoring;
+- Changed Action Corridors without eliminated agency, recommendation, or target-function assignment;
+- declared Boundary, periodization, segment lineage, open continuation, and boundary sensitivity;
+- Compression with canonical Loss and preserved transitions, Non-Events, alternatives, reversals, repairs, profile carriers, and current conditions;
+- independent burdens for competing constructions, positive incomparability, Failure, and Non-Capture;
+- False Trajectory routing with preserved weaker findings and Mandatory Stop for stronger use of a known failed claim;
+- Minimal Trajectory Record subordination to the Shared Transformation Record;
+- no Path-Dependence, `COMPOSE`, RETYPE, causal, predictive, or authority preauthorization.
+
+Canonical return: [`Chapter 11 completion boundary`](../01_blocks/02_part_i_path.md#chapter-11-completion-boundary).
+
+
+---
+
+## Chapter 12 Preparation-Gate Audit
+
+Before canonical Chapter 12 drafting, verify:
+
+- [x] Chapter 12 receives a warranted Trajectory but no inherited Path-Dependence conclusion.
+- [x] Path Dependence remains a graded property, not an object, primitive, operation, or function.
+- [x] no material dependence, weak order dependence, and strong Path Dependence remain distinct.
+- [x] historical contribution remains distinct from historical indispensability.
+- [x] `Θ` alone is explicitly insufficient.
+- [x] `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ` remain bounded, non-fused, non-scored, and non-compensatory.
+- [x] current-state sufficiency, historical omission, and source-bounded alternative history are explicit counterpressures.
+- [x] `Φ`, `Χ`, `Σ`, and later `Ψ` may modify but cannot erase lineage automatically.
+- [x] earlier `Ψ + Θ` and later `Ψ` occurrences remain separate.
+- [x] dependence remains non-deterministic, non-teleological, non-predictive, and non-authorizing.
+- [x] strong failure can reduce to weak order dependence, Trajectory, Path, sequence, or chronology without erasure.
+- [x] nineteen later case duties include positive, negative, confusion, record, Stop, and Non-Capture pressure.
+- [x] Chapters 13, 15, 24, 46, RETYPE, and LIMITS ownership remains protected.
+- [x] no Rule, operation, Output Class, audit stage, schema field, score, probability, or classifier is added.
+- [x] canonical Chapter 12 prose remains absent.
+
+Gate result: `admissible_but_provisional`.
+
+Production control: [`Chapter 12 Preparation Record`](Chapter_12_Preparation_Record.md).
+
+## Chapter 12 WP1 Local Audit
+
+- [x] Path Dependence remains a property rather than an object, primitive, operation, level, target function, or authority layer.
+- [x] Eligible Path/Trajectory inputs and dimension-specific scope are explicit.
+- [x] No material dependence, weak order dependence, and strong Path Dependence remain distinguishable without new Output Classes.
+- [x] Historical contribution remains distinct from historical indispensability.
+- [x] Current-state sufficiency is treated as real counterpressure.
+- [x] Approximately held-present comparison preserves retained differences and rejects causal isolation.
+- [x] `Θ`, duration, repetition, institutional age, archival density, and Trajectory status are explicitly insufficient alone.
+- [x] Failure preserves warranted Path, Trajectory, sedimentation, residue, and local order findings.
+- [x] Cases `C12-PROP-01` through `C12-THETA-01` are present as chapter pressure cases only.
+- [x] WP2, WP3, Chapter 13, Chapter 15, Chapter 24, Chapter 46, RETYPE, and LIMITS ownership remains protected.
+- [x] No Rule, operation, Output Class, audit stage, score, probability, enum, schema field, or automatic classifier is added.
+
+Local result: `admissible_but_provisional`.
+
+## Chapter 12 WP2 Local Audit
+
+- [x] Chapter-11 sedimentation and Chapter-12 dependence are separated for all four profiles.
+- [x] `Α + Θ` requires recurrence lineage, carrier, present friction/default effect, and current-state challenge.
+- [x] `Ω + Θ` requires temporal distribution, retained differential carrier, present effect, and no person/moral inference.
+- [x] `Ψ + Θ` requires concrete Binding occurrence, reliance/investment trace, present reopening effect, and current-enforceability separation.
+- [x] `Λ + Θ` requires expectation frame, realization window, warranted Non-Event, retained residue, and missing-information control.
+- [x] Profile interaction does not fuse operators, create a universal chain, or generate an additive score.
+- [x] No all-profile requirement is introduced.
+- [x] One supported profile does not spread automatically to whole-object dependence.
+- [x] Profile richness does not compensate for invalid substrate, absent present effect, failed current-state sufficiency, missing Source–Result Dependency, or source/claim ceiling breach.
+- [x] Five assigned WP2 Pressure Cases are present and remain chapter cases rather than produced `03_cases/*` artifacts.
+- [x] WP3 retains the complete Path-Dependence test, modifiers, non-determinism, Failure, Record, Stop, Non-Capture, and re-entry.
+- [x] No operation, Output Class, Rule, audit stage, score, probability, schema field, target function, or authority layer is added.
+
+Canonical route: [Chapter 12 §§12.4–12.7](../01_blocks/02_part_i_path.md#12-4-a-theta-attractor-dependence).
+
+## Chapter 12 WP3 Local Audit
+
+- [x] `Φ` is separated from reset and tested for carrier retention, translation, attenuation, redistribution, replacement, or release.
+- [x] Later `Χ`, `Σ`, and `Ψ` are modifiers without automatic erasure.
+- [x] Earlier `Ψ + Θ` carriers and later `Ψ` occurrences are temporally and referentially separated.
+- [x] Dependence is separated from fate, inevitability, prediction, causal necessity, legitimacy, duty, and recommendation.
+- [x] Input integrity, dimension, Current-State Baseline, carrier, Historical Omission, Alternative History, current-condition allocation, strength finding, Loss, and governance are required.
+- [x] The property test is not a fourth operation.
+- [x] The Minimal Claim View remains inside the Shared Transformation Record.
+- [x] Failure preserves warranted weaker findings and lineage.
+- [x] Resolution Neutrality, Claim Reduction, Mandatory Stop, and Non-Capture remain available.
+- [x] Nine assigned WP3 Pressure Cases are present and remain chapter cases rather than produced `03_cases/*` artifacts.
+- [x] Chapters 13, 15, 24, 46, and RETYPE retain their owned work.
+- [x] No Rule, operation, Output Class, audit stage, score, probability, schema field, classifier, or authority layer is added.
+
+Canonical route: [Chapter 12 §§12.8–12.12](../01_blocks/02_part_i_path.md#12-8-phi-under-path-dependence).
+
+## Chapter 12 Provisional-Lock Audit
+
+- [x] Path Dependence remains a property, not a new primitive, object, operation, level, function, score, or authority layer.
+- [x] Weak and strong dependence are distinguishable.
+- [x] `Θ` alone is explicitly insufficient.
+- [x] Current-State Sufficiency is an actual counterpressure.
+- [x] Approximately held-present comparison avoids identity, experiment, and causal-proof claims.
+- [x] Four dependence-bearing profiles remain separate and non-compensatory.
+- [x] Recontextualization is not reset; modifiers are not erasure.
+- [x] Determinism, teleology, prediction, legitimacy, and recommendation are rejected.
+- [x] The nine-stage local property test is conjunctive and non-compensatory.
+- [x] Failure, Reduction, Resolution Neutrality, Mandatory Stop, and Non-Capture remain available.
+- [x] Minimal Claim View remains inside the Shared Transformation Record.
+- [x] All nineteen Pressure Cases are represented without false artifact or evidence claims.
+- [x] Chapter 13, Chapter 15, Chapter 24, Chapter 46, and RETYPE owners remain protected.
+- [x] No graph, visualization, model, or schema validity is treated as substantive warrant.
+- [x] Chapter 12 is provisionally locked with `admissible_but_provisional`.
+
+Canonical return: [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary).
+
+---
+
+## Chapter 13 Preparation-Gate Audit
+
+Preparation audit result: `admissible_but_provisional`.
+
+- Contract, Structure, PMS Base, Chapters 0–12, and Minified Kernel checked.
+- Sections 13.1–13.12 remain undrafted in the canonical PATH block.
+- Historical availability, temporal window, branch status, later reachability, and Loss burdens are fixed.
+- Rejected/blocked, blocked/impossible, aborted/never-begun, deferred/uninterrupted, and lost/unattractive remain distinct.
+- Nineteen Pressure Cases are assigned across WP1–WP3.
+- Stop, Non-Capture, Claim Reduction, anti-laundering, Reader/graph limits, and protected Chapter 14/15/46/RETYPE handoffs are explicit.
+- No Rule, operation, Output Class, audit stage, score, probability, or schema field is added at this gate.
+
+Next audit target: Chapter 13 WP1.
+
+## Chapter 13 WP1 Local Audit
+
+- [x] alternative claims name the historical cut and temporal window;
+- [x] practical availability is separated from logical possibility and later possibility;
+- [x] at least two material continuations support any Branch-Point claim;
+- [x] later outcomes are not leaked into earlier availability;
+- [x] realization is supported by traversal, not announcement alone;
+- [x] realized is not converted into rational, legitimate, optimal, or inevitable;
+- [x] rejection requires open availability and a rejection trace;
+- [x] rejected remains distinct from blocked, impossible, unrealized, and unsupported;
+- [x] uncertainty and five-part Loss are disclosed;
+- [x] visualization is treated only as traceability support.
+
+## Chapter 13 WP2 Local Audit
+
+- [x] Blocked claims establish earlier availability or preparation and an identifiable prevention relation.
+- [x] Blocked remains distinct from rejected, impossible, merely unrealized, and unsupported.
+- [x] Scope, duration, relational location, prevention window, later reachability, and residue are bounded.
+- [x] Aborted claims include initiation and partial traversal rather than planning or announcement alone.
+- [x] Interruption and residual effects remain visible; aborted is not treated as never begun.
+- [x] Status and interruption mechanism may be recorded separately where necessary.
+- [x] Deferred claims declare original window, deferral trace, intervening changes, and later continuity pressure.
+- [x] Same label or similar endpoint is not treated as uninterrupted continuation.
+- [x] Lost claims establish earlier availability and later unavailability/material unreachability.
+- [x] Lost remains distinct from unattractive, expensive, temporarily blocked, or imagined.
+- [x] Lost Alternative is not added as a sixth canonical `loss` field.
+- [x] All six assigned WP2 Pressure Cases are represented.
+- [x] No branch-status enum, score, truth engine, Rule, operation, Output Class, audit stage, or parallel schema is added.
+- [x] Chapter 14, Chapter 15, Chapter 46, RETYPE, Stop, Non-Capture, and authority boundaries remain protected.
+
+Local result: `admissible_but_provisional`.
+
+Next audit target: Chapter 13 WP3.
+
+## Chapter 13 WP3 Local Audit
+
+- [x] Counterfactual Path begins only from a source-supported historical alternative.
+- [x] Divergence rule, held-stable conditions, source ceiling, and counterfactual horizon are explicit.
+- [x] Historical availability is not converted into knowledge of unrealized success or outcome.
+- [x] Chapter-13 historical counterfactual pressure remains distinct from Chapter-46 general Counterfactual Sensitivity.
+- [x] Non-Selection requires an active decision context, bounded window, and Path-forming consequence.
+- [x] Missing decision information, rejection, blockage, deferral, and automatic `Λ` typing remain distinct.
+- [x] Alternative-Space Compression uses the canonical five-part Loss declaration.
+- [x] Graph and Reader rendering remain Traceability support only.
+- [x] Historical alternatives are not written into the top-level rival-transformation `alternatives` field.
+- [x] The existing owner-bound `extensions` carrier is used; no parallel schema or new required field is added.
+- [x] Record completeness does not establish availability or branch status.
+- [x] Failure, Claim Reduction, `mandatory_stop`, and `non_capture` are operationally available.
+- [x] All eight assigned WP3 Pressure Cases are represented.
+- [x] All nineteen Chapter-13 Pressure Cases are now represented across WP1–WP3.
+- [x] Chapter 14, Chapter 15, Chapter 46, RETYPE, and Reader ownership remain protected.
+- [x] No Rule, operation, Output Class, audit stage, status enum, score, probability, truth engine, causal claim, prediction, person judgment, or application authority is added.
+
+Next audit target: Chapter 13 WP4 integrated audit and Provisional Lock.
+
+## Chapter 13 Provisional-Lock Audit
+
+- [x] Every alternative claim declares a historical window and source basis.
+- [x] Retrospective plausibility is separated from historical availability.
+- [x] Branch Point requires plural contemporaneously reachable continuations.
+- [x] Realized, Rejected, Blocked, Aborted, Deferred, and Lost remain distinct.
+- [x] Status and mechanism remain separable.
+- [x] Same label does not establish continuity.
+- [x] Counterfactual Paths are source-bounded and stop at the counterfactual horizon.
+- [x] Non-Selection requires an active decision context and is not automatically `Λ`.
+- [x] Alternative-Space Compression uses the five-part Loss declaration.
+- [x] Alternative Status Record remains an owner-bound `extensions` view.
+- [x] Rival-transformation `alternatives` is not overloaded.
+- [x] Failure, Claim Reduction, Mandatory Stop, and Non-Capture remain available.
+- [x] All nineteen Pressure Cases are represented without false artifact or evidence claims.
+- [x] Chapter 14/15/16/17/46 and RETYPE owners remain protected.
+- [x] No graph, model, schema, or record completeness is treated as substantive warrant.
+- [x] Chapter 13 is provisionally locked with `admissible_but_provisional`.
+
+Canonical return: [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary).
+
+## Chapter 14 Preparation-Gate Audit
+
+- [x] Chapter 3 retains foundational Non-Event ownership.
+- [x] Chapter 14 receives bounded PATH-specific operational ownership.
+- [x] Absence, missing source, unknown occurrence, and Non-Event remain separate.
+- [x] Expected occurrence, expectation relation, frame, and bounded window are mandatory.
+- [x] Source-supported non-realization, praxis load, and temporal-chain relevance are mandatory.
+- [x] Delay as `Λ` is separated from positive postponement-event chains.
+- [x] repeated Non-Decision is separated from refusal and missing records.
+- [x] Blocked Responsibility does not infer person blame, duty, diagnosis, or sanction.
+- [x] Missing Repair and Missing Exit require independently warranted expectations.
+- [x] repetition and duration do not automatically establish sedimentation.
+- [x] positive sub-events may coexist with the governing Non-Event.
+- [x] Chapter 15 must preserve `Λ` and five-part Loss but is not pre-executed.
+- [x] False Non-Event, Claim Reduction, Mandatory Stop, and Non-Capture remain available.
+- [x] Minimal Non-Event Record is prepared without premature schema change.
+- [x] Chapter 15, Chapter 23, Chapter 49, and RETYPE owners remain protected.
+- [x] Nineteen Pressure Cases are assigned across WP1–WP3.
+- [x] No canonical Chapter-14 prose, new Rule, operation, Output Class, audit stage, score, probability, person classification, or authority is introduced.
+
+Next audit target: **Chapter 14 WP1 — Sections 14.1–14.3**.
+
+## Chapter 14 WP1 Audit
+
+- [x] Chapter 3 retains foundational Non-Event ownership.
+- [x] Chapter 14 adds only PATH-specific operational burden.
+- [x] Expected occurrence, expectation relation, frame, bounded window, non-realization support, load, and temporal relevance are conjunctive.
+- [x] Absence, missing information, unknown occurrence, and `Λ` remain separate.
+- [x] Positive sub-events may coexist with the governing Non-Event.
+- [x] Frame-dependence does not authorize retrospective expectation construction.
+- [x] Source coverage is bounded to the claimed granularity.
+- [x] Delay-as-`Λ` remains distinct from postponement-event chains and Deferred Branch.
+- [x] Later realization does not automatically erase an earlier missed-window Non-Event.
+- [x] Intention, refusal, blame, duty, motive, legitimacy, sanction, operation, target function, and authority are not inferred.
+- [x] `C14-CENT-01`, `C14-FRAME-01`, `C14-DELAY-01`, and `C14-SOURCE-01` are represented exactly once in canonical prose.
+
+Next audit target: **Chapter 14 WP2 — Sections 14.4–14.8**.
+
+## Chapter 14 WP2 Audit
+
+- [x] Repeated Non-Decision requires renewed or recurring decision contexts.
+- [x] One prolonged window, renewed windows, refusal, deferral, blockage, and missing records remain distinct.
+- [x] Blocked Responsibility reconstructs configuration rather than person fault.
+- [x] Responsibility distribution does not automatically establish blockage.
+- [x] Missing Repair requires an independently warranted repair occurrence and completion condition.
+- [x] Missing Exit requires an independently warranted or triggered exit/release occurrence.
+- [x] Exit non-realization does not establish motive, coercion, consent, voluntariness, or incapacity.
+- [x] Repetition and duration do not automatically establish sedimentation.
+- [x] Sedimentation requires a later carrier and changed praxeological structure.
+- [x] Operator-profile interactions remain separate, non-fused, and non-scored.
+- [x] Non-Event Sedimentation does not automatically establish strong Path Dependence.
+- [x] Seven WP2 Pressure Cases are represented exactly once in canonical prose.
+
+Next audit target: **Chapter 14 WP3 — Sections 14.9–14.11**.
+
+## Chapter 14 WP3 Audit
+
+- [x] `Λ` preservation is specified without executing `COMPOSE`.
+- [x] Expectation, frame, window, non-realization, positive sub-events, occurrence architecture, affected roles/alternatives, residue, uncertainty, and canonical Loss are preserved or disclosed.
+- [x] Positive descriptions and sub-events do not erase governing non-realization automatically.
+- [x] False Non-Event remains a local failure description, not an Output Class.
+- [x] Retrospective expectation, open windows, missing sources, mere possibility, and graph gaps do not establish `Λ`.
+- [x] Failed Non-Event does not prove positive occurrence.
+- [x] Existing owner-bound `extensions` is sufficient for the Minimal Non-Event Record.
+- [x] No schema amendment, Smoke migration, parallel schema, enum, score, probability, or truth engine is introduced.
+- [x] Record completeness does not establish semantic warrant.
+- [x] Reduction, Mandatory Stop, and Non-Capture remain available.
+- [x] Chapter 15, Chapter 23, Chapter 49, and RETYPE ownership remain protected.
+- [x] Eight WP3 Pressure Cases are represented exactly once in canonical prose.
+
+Next audit target: **Chapter 14 WP4 — Integrated Audit and Provisional Lock**.
+
+## Chapter 14 Provisional-Lock Audit
+
+- [x] Absence, missing source, unknown occurrence status, and Non-Event remain distinct.
+- [x] Expected occurrence, expectation relation, frame, bounded window, non-realization support, load, and temporal relevance are mandatory and non-compensatory.
+- [x] Positive sub-events may coexist with the governing higher-level `Λ`.
+- [x] Delay remains distinct from postponement-event chain, Deferred Branch, intention, and blame.
+- [x] Repeated Non-Decision requires renewed active decision contexts.
+- [x] Blocked Responsibility remains configuration-level and non-personal.
+- [x] Missing Repair and Missing Exit require independent expectation support.
+- [x] Repetition and duration do not automatically establish sedimentation.
+- [x] Operator-profile interaction remains non-fused, non-scored, and non-compensatory.
+- [x] `Λ` is preserved through later composition or disclosed through canonical Loss.
+- [x] False Non-Event and Claim Reduction remain available.
+- [x] Minimal Non-Event Record remains an owner-bound `extensions` view.
+- [x] Record or graph completeness does not establish semantic validity.
+- [x] Mandatory Stop and Non-Capture remain available.
+- [x] All nineteen Pressure Cases are represented without false artifact, evidence, person, or operation claims.
+- [x] Chapter 15/16/17/23/49 and RETYPE owners remain protected.
+- [x] Chapter 14 is provisionally locked with `admissible_but_provisional`.
+
+Canonical return: [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary).
+
+## Chapter 15 Preparation-Gate Audit
+
+- [x] Chapter 4 retains generic `COMPOSE` identity.
+- [x] Chapter 15 receives complete PATH-specific procedure ownership.
+- [x] Operation type, occurrence, source objects, and target composite remain distinct.
+- [x] Source and target typing are mandatory.
+- [x] Selection, ordering, frame, formation, and constitutive relations remain separate.
+- [x] Chronology, enumeration, aggregation, and macro-labeling remain insufficient.
+- [x] Preservation means reconstructible dependence rather than losslessness.
+- [x] Loss remains exactly preserved/compressed/excluded/uncertain/irrecoverable.
+- [x] Composition claims remain segmented by target class.
+- [x] Path Dependence and target functions are not inherited.
+- [x] Counterfactual sensitivity and overelasticity are prepared.
+- [x] Rival composition and no-composition options remain available.
+- [x] Failure, Claim Reduction, Mandatory Stop, and Non-Capture map to canonical outputs.
+- [x] Existing Operation Registry and Shared Record remain controlling and sufficient for drafting.
+- [x] Chapter 16, Chapter 17, Chapter 24, Chapter 48, and RETYPE owners remain protected.
+- [x] Nineteen pressure cases are assigned across WP1–WP3.
+- [x] No canonical Chapter-15 prose, schema change, new Rule, operation, Output Class, audit stage, score, probability, or authority is introduced.
+
+Next audit target: **Chapter 15 WP1 — Sections 15.1–15.6**.
+
+## Chapter 15 WP1 Audit
+
+- [x] `COMPOSE` purpose adds bounded praxeological discrimination rather than summary convenience.
+- [x] Operation type, occurrence, and target object remain distinct.
+- [x] Entry burdens are conjunctive and non-compensatory.
+- [x] No-composition remains a positive route.
+- [x] Source identity, typing, lineage, support, uncertainty, role, and source-set boundary are explicit.
+- [x] Source origin types remain unchanged.
+- [x] Selection remains explicit, contestable, and non-endpoint-driven.
+- [x] Omission remains distinct from irrelevance or disproof.
+- [x] Linear, partial, overlapping, parallel, recurrent, uncertain, and retrospective order remain distinguishable.
+- [x] Narrative and graph layout do not establish temporal order.
+- [x] Composition frame remains distinct from granularity, level, formation, and target function.
+- [x] Same sources under different frames create different testable claims.
+- [x] All six WP1 Pressure Cases appear exactly once in canonical Chapter-15 prose.
+- [x] WP2 formation and Loss, WP3 sensitivity/record/failure, WP4 lock, Chapter 16/17, Chapter 24, Chapter 48, and RETYPE ownership remain protected.
+- [x] No new Rule, operation, Output Class, audit stage, schema field, score, probability, truth engine, or authority route is introduced.
+
+Next audit target: **Chapter 15 WP2 — Sections 15.7–15.11**.
+
+## Chapter 15 WP2 Audit
+
+- [x] Formation is distinct from selection, order, framing, aggregation, labeling, graph connectivity, and operation completion.
+- [x] Formation Rule, target-object class, constitutive relations, target boundary, source trace, and new praxis discrimination are explicit.
+- [x] Sequence, Path, Trajectory, branch structure, and phase thresholds remain graded.
+- [x] Internal heterogeneity may be preserved without type fusion or forced homogeneity.
+- [x] Preservation means reconstructible source dependence rather than copying or losslessness.
+- [x] `Λ`, `Ω`, `Ψ`, branch, alternative, and inherited-Loss burdens remain visible where constitutive.
+- [x] Compression declares reduced resolution, retained distinctions, recoverability, uncertainty, and Traceability-Ceiling pressure.
+- [x] Exclusion remains explicit, frame-bound, reasoned, contestable, and distinct from falsity, omission, compression, uncertainty, and source absence.
+- [x] Uncertainty remains visible and non-scored.
+- [x] Source-inherited, composition-induced, and mixed irrecoverability remain distinguishable.
+- [x] Exactly the five canonical Loss fields remain in force.
+- [x] Loss presence does not automatically fail a bounded claim, while concealed or constitutive Loss remains disqualifying where material.
+- [x] All six WP2 Pressure Cases appear exactly once in canonical Chapter-15 prose.
+- [x] WP3, WP4, Chapter 16/17, Chapter 24, Chapter 48, and RETYPE ownership remain protected.
+- [x] No new Rule, operation, Output Class, audit stage, schema field, Loss field, score, probability, truth engine, or authority route is introduced.
+
+Next audit target: **Chapter 15 WP3 — Sections 15.12–15.16**.
+
+## Chapter 15 WP3 Audit
+
+- [x] Composite object and composition claim are distinct.
+- [x] Object, relation, and strength claims are separately testable.
+- [x] Claim Ceiling follows the weakest load-bearing burden.
+- [x] Source types remain unchanged and target functions remain owned by `PROJECT_AS`.
+- [x] Nested composites preserve prior Formation, Loss, uncertainty, and lineage burdens.
+- [x] Counterfactual Sensitivity is source-bounded and not free alternative history or causal proof.
+- [x] Constitutive, supporting, and exchangeable load remain claim-relative.
+- [x] Overelasticity is tested through removal, exchange, reorder, recompression, reframing, rival composition, and no-composition pressure.
+- [x] Failure preserves weaker warranted source and object results.
+- [x] New composition creates a new testable claim and does not retroactively repair prior failure.
+- [x] Existing Shared Transformation Record and `composeDetails` remain sufficient.
+- [x] Schema validity remains distinct from substantive admissibility.
+- [x] Mandatory Stop and Non-Capture remain positive canonical routes.
+- [x] All seven WP3 Pressure Cases and all nineteen Chapter-15 case duties appear exactly once in canonical prose.
+- [x] No new Rule, operation, Output Class, audit stage, schema field, Loss field, score, probability, truth engine, or authority route is introduced.
+
+Next audit target: **Chapter 15 WP4 — integrated synchronization, audit, and Provisional Lock**.
+
+## Chapter 15 Provisional-Lock Audit
+
+- [x] Source objects and target object are typed.
+- [x] Operation type, occurrence, and resulting composite remain distinct.
+- [x] Selection, ordering, frame, and Formation Rule remain distinct.
+- [x] Source plurality, chronology, and graph cohesion do not establish formation.
+- [x] No-Composition remains a positive route.
+- [x] Sequence, Path, Trajectory, and stronger claims retain separate thresholds.
+- [x] Source origin types and inherited uncertainty/Loss remain preserved.
+- [x] The canonical five-part Loss structure is complete and unchanged.
+- [x] Source-inherited and composition-induced irrecoverability remain distinct.
+- [x] Object, relation, and strength claims are separately testable.
+- [x] `COMPOSE` does not pre-empt `PROJECT_AS`.
+- [x] Counterfactual Sensitivity and overelasticity are applied without causal overreach.
+- [x] Failure and Claim Reduction preserve weaker warranted structures.
+- [x] Shared Record and `composeDetails` remain sufficient without schema change.
+- [x] Mandatory Stop and Non-Capture remain available.
+- [x] The Contract-required Trajectory composition example includes selection, order, formation, complete Loss, rival composition, and No-Composition.
+- [x] All nineteen Pressure Cases are represented without false case-artifact, evidence, graph, decision, or authority claims.
+- [x] Chapter 16/17/24/48 and RETYPE owners remain protected.
+- [x] Chapter 15 is provisionally locked with `admissible_but_provisional`.
+
+Canonical return: [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary).
+
+## Chapter 16 Preparation-Gate Audit
+
+- [x] General Band ownership remains in Chapter 6 and LIMITS.
+- [x] PATH-local lower and upper boundaries are explicit and non-compensatory.
+- [x] Existing local boundary vocabularies and twelve audit stages remain unchanged.
+- [x] Chronology without gain and Trajectory without trace remain distinct.
+- [x] Compression and punctualization remain distinct.
+- [x] Directionality and teleology are separately testable.
+- [x] Omitted `Λ` and `Ω` receive separate tests.
+- [x] PATH remains separated from SUB and RETYPE.
+- [x] Claim Reduction, optional Stop, `mandatory_stop`, and `non_capture` remain distinct.
+- [x] Level, frame, granularity, graph, label, or operation changes cannot erase a failed claim.
+- [x] Same-material three-way Band example is required.
+- [x] Nineteen Pressure Cases are assigned.
+- [x] Chapter 17 case and audit ownership remains protected.
+- [x] No canonical Chapter-16 prose or formal inventory change is introduced.
+
+Next audit target: **Chapter 16 WP1 — Sections 16.1–16.5**.
+
+## Chapter 16 WP1 Audit
+
+- [x] Lower and upper PATH boundaries remain distinct and non-compensatory.
+- [x] Existing Floor and Ceiling vocabularies are reused without modification.
+- [x] More dates, detail, duration, graph density, formal completeness, or historical rhetoric do not substitute for purchase or trace.
+- [x] Correct chronology remains distinct from Path, Trajectory, sedimentation, and Path Dependence.
+- [x] Neutral chronology remains a positive bounded result where appropriate.
+- [x] Source-to-result dependency remains stronger than citation density.
+- [x] Bounded source removal and reorder pressure expose source-indifferent macro-labels.
+- [x] Trajectory without reconstructible Path trace reduces without erasing weaker findings.
+- [x] Compression remains distinct from punctualization.
+- [x] The canonical five-part Loss structure remains unchanged.
+- [x] Later decompression remains a new `DECOMPOSE` operation rather than automatic inversion.
+- [x] The same-material Contract example produces three non-equivalent outcomes and includes Claim Reduction and Mandatory Stop.
+- [x] All six WP1 Pressure Cases appear exactly once in canonical prose.
+- [x] WP2/WP3/WP4, Chapter 17, SUB, RETYPE, LIMITS, and standalone case ownership remain protected.
+- [x] No new Rule, operation, Output Class, audit stage, boundary value, schema field, score, probability, truth engine, or authority route is introduced.
+
+Next audit target: **Chapter 16 WP2 — Sections 16.6–16.11**.
+
+## Chapter 16 WP2 Audit
+
+- [x] Retrospective ordering remains distinct from original direction.
+- [x] Directionality is dimension-specific and preserves reversals, alternatives, parallel subpaths, periodization sensitivity, and Loss.
+- [x] Endpoint-conditioned selection and necessity inflation are tested separately from compression.
+- [x] Realized endpoint remains distinct from earlier purpose, inevitability, prediction, and normative rank.
+- [x] Constitutive `Λ` omission is tested without inferring Non-Event from missing sources.
+- [x] Constitutive `Ω` omission is tested without inferring blame, legitimacy, diagnosis, or sanction.
+- [x] Positive sub-events do not erase a governing Non-Event.
+- [x] Equal labels or graph geometry do not establish equal practical load.
+- [x] A target-function claim cannot rescue a failed PATH origin claim.
+- [x] Finer detail or interface expansion cannot rescue a failed PATH claim or create truth priority.
+- [x] Lawful later `DECOMPOSE` and `PROJECT_AS` remain new testable claims with separate records.
+- [x] All six WP2 Pressure Cases appear exactly once in canonical prose.
+- [x] WP3/WP4, Chapter 17, SUB, RETYPE, LIMITS, and standalone case ownership remain protected.
+- [x] No new Rule, operation, Output Class, audit stage, vocabulary, schema field, score, probability, truth engine, or authority route is introduced.
+
+Next audit target: **Chapter 16 WP3 — Sections 16.12–16.15**.
+
+## Chapter 16 WP3 Audit
+
+- [x] Purchase remains claim-relative and distinct from narrative interest, source volume, visual density, or additive scoring.
+- [x] Purchase and Trace remain non-compensatory.
+- [x] The Purchase Test states baseline, difference, source dependency, pressure, and boundary result.
+- [x] The Trace Test covers source typing, lineage, order, constitutive relation, preserved load, formation, complete Loss, sensitivity, and claim dependency.
+- [x] Traceability remains possible under declared localized uncertainty and Partial Order.
+- [x] Provisionality remains distinct from Claim Reduction.
+- [x] The complete reduction ladder preserves warranted sources and weaker targets.
+- [x] Optional Stop remains distinct from canonical `mandatory_stop`.
+- [x] Stop remains distinct from Non-Capture.
+- [x] Missing information and uncertainty do not mechanically produce `non_capture`.
+- [x] New frame, level, granularity, graph, SUB, RETYPE, or label does not erase a prior PATH failure.
+- [x] Existing Shared-Record boundary controls remain sufficient; no extension or schema change is required.
+- [x] All seven WP3 Pressure Cases appear exactly once; all nineteen Chapter-16 cases are now represented across WP1–WP3.
+- [x] WP4, Chapter 17, SUB, RETYPE, LIMITS, and standalone case ownership remain protected.
+- [x] No new Rule, operation, Output Class, audit stage, vocabulary, schema field, score, probability, truth engine, or authority route is introduced.
+
+Next audit target: **Chapter 16 WP4 — Integrated Audit and Provisional Lock**.
+
+## Chapter 16 Provisional-Lock Audit
+
+- [x] Both PATH boundaries are explicit, independent, and non-compensatory.
+- [x] The controlled Floor and Ceiling vocabularies remain unchanged.
+- [x] The same-material Trajectory/chronology/macro-label contrast is present.
+- [x] Compression and punctualization are separately testable.
+- [x] Artificial directionality and hidden teleology are separately testable.
+- [x] Constitutive `Λ` and `Ω` omission are tested without creating operator claims from silence.
+- [x] PATH remains distinct from SUB and RETYPE.
+- [x] Purchase and Trace tests are complete and non-scoring.
+- [x] Provisionality and Claim Reduction remain distinct.
+- [x] Optional Stop, `mandatory_stop`, and Non-Capture retain distinct triggers.
+- [x] The anti-rescue rule preserves prior failure across new frames, levels, graphs, SUB, and RETYPE.
+- [x] All nineteen Chapter-16 Pressure Cases are represented exactly once.
+- [x] No new operation, Rule, Output Class, audit stage, boundary value, schema field, or Smoke migration was introduced.
+- [x] Chapter 17, SUB, RETYPE, LIMITS, and Reader owners remain protected.
+
+Next audit target: **Chapter 17 Preparation — PATH Cases, Countercases, and Local Audit**.
+
+## Chapter 17 Preparation-Gate Audit
+
+- [x] PATH case, countercase, and confusion-case classes are distinct.
+- [x] Chapter Pressure Cases remain distinct from standalone artifacts.
+- [x] Three lock-critical Markdown/YAML/audit/mapping sets are required.
+- [x] Weak-Path-Dependence counterpressure is assigned.
+- [x] Every case requires claim scope, Loss, alternatives, admissibility, and output mapping.
+- [x] PATH-local results map only to canonical Output Classes.
+- [x] Local audit fields and Part-I lock conditions are explicit.
+- [x] Stop, Failure, Reduction, and Non-Capture remain distinct.
+- [x] PATH closes without target-function assignment.
+- [x] Existing schemas, templates, Rules, classes, and stages remain sufficient.
+- [x] Nineteen preparation duties are assigned.
+- [x] Chapter 18, RETYPE, LIMITS, appendices, and Reader ownership remain protected.
+- [x] No canonical Chapter-17 prose or case artifact is prematurely produced.
+
+Next audit target: **Chapter 17 WP1 — Case Architecture and Lock-Critical Cases 1–3**.
+
+## Chapter 17 WP1 Audit
+
+- [x] Case, countercase, and confusion-case classes remain distinct.
+- [x] Chapter Pressure Cases remain distinct from standalone artifacts.
+- [x] Sections 17.1–17.4 are present in canonical prose.
+- [x] `C17-LINEAR-01`, `C17-BRANCH-01`, and `C17-LAMBDA-01` occur exactly once in canonical Chapter-17 WP1 prose.
+- [x] Three Markdown case reconstructions are present and cross-linked.
+- [x] Three YAML Shared Transformation Records validate against the current schema.
+- [x] Every case contains all twelve local audit stages.
+- [x] Every case contains complete five-part Loss and alternatives.
+- [x] Every case maps a local result to one canonical Output Class.
+- [x] `C17-LAMBDA-01` satisfies the first lock-critical artifact duty.
+- [x] No case assigns a contextual target function.
+- [x] Stop and Non-Capture remain assessed and available.
+- [x] Case Index Markdown and YAML are synchronized.
+- [x] Case success is not reported as empirical or global validation.
+- [x] Existing schema and operation inventory remain unchanged.
+- [x] WP2, WP3, WP4, SUB, RETYPE, LIMITS, appendices, and Reader ownership remain protected.
+
+Next audit target: **Chapter 17 WP2 — Remaining Positive Cases and Countercases**.
+
+## Chapter 17 WP2-A Audit
+
+- [x] Sections 17.5–17.6 produced once in canonical PATH prose.
+- [x] `C17-HISTORY-01` and `C17-WEAKPD-01` Markdown/YAML artifact pairs present.
+- [x] Both records validate against the Shared Transformation Record schema.
+- [x] Twelve audit stages complete in each record.
+- [x] Five-part Loss, alternatives, Stop, Non-Capture, Claim Ceiling, and authority boundary present.
+- [x] Both local results map to a canonical Output Class.
+- [x] Historical difference does not become total determination.
+- [x] Repetition does not become strong Path Dependence.
+- [x] No target function or authority is assigned.
+- [x] WP2-B/WP2-C countercases complete.
+- [ ] Chapter-17 PATH Local Audit and Part-I lock complete.
+
+## Chapter 17 WP2-B Audit
+
+- [x] Sections 17.7–17.9 produced once in canonical PATH prose.
+- [x] Three Markdown/YAML countercase pairs present.
+- [x] All three records validate against the Shared Transformation Record schema.
+- [x] Twelve audit stages complete in each record.
+- [x] Five-part Loss, alternatives, Stop, Non-Capture, Claim Ceiling, and authority boundary present.
+- [x] Chronology reduction remains distinct from transformation failure.
+- [x] Source material remains preserved after failed macro and teleological compositions.
+- [x] `C17-MACRO-01` completes the second lock-critical artifact duty.
+- [x] No target function or authority is assigned.
+- [ ] WP2-C and full WP2 completion boundary complete.
+- [ ] Chapter-17 PATH Local Audit and Part-I lock complete.
+
+
+## Chapter 17 WP2-C and Full-WP2 Audit
+
+- [x] `C17-OMEGA-01` instantiated as Markdown plus schema-valid YAML.
+- [x] Omitted asymmetry defeats the uniform Trajectory without erasing differentiated source Paths.
+- [x] `C17-FALSEL-01` instantiated as Markdown plus schema-valid YAML.
+- [x] Missing information remains separate from `Λ`; the stronger claim is reduced.
+- [x] Five positive and five countercase artifact sets are indexed.
+- [x] Full WP2 mapping distribution is explicit and non-mechanical.
+- [x] Two of three lock-critical artifacts are complete.
+- [ ] WP3 confusion cases, PATH Local Audit, output mapping, and closing statement complete.
+- [ ] WP4 Part-I integrated audit and provisional lock complete.
+
+
+## Chapter 17 WP3-A Audit
+
+- [x] `C17-PROJ-01` instantiated as the third lock-critical Markdown/YAML/audit/mapping artifact.
+- [x] Origin Trajectory retained; Frame-function claim separated for a future PROJECT_AS record.
+- [x] `C17-RES-01` instantiated with a valid source-supported neutral resolution test.
+- [x] More temporal detail remains separate from new PATH formation and from automatic DECOMPOSE; the actual resolution test is separately declared as DECOMPOSE.
+- [x] `C17-ATTR-01` instantiated with Trajectory retained and Attractor identity/function withheld.
+- [x] All three confusion cases contain twelve audit stages, five-part Loss, alternatives, Stop/Non-Capture, and governance boundaries.
+- [x] All three lock-critical artifacts are present.
+- [ ] WP3-B integrated PATH Local Audit, output mapping, closing statement, and Part-I lock readiness complete.
+- [ ] WP4 integrated Part-I synchronization and provisional lock complete.
+
+
+## Chapter 17 WP3-B Integrated Audit
+
+- [x] All thirteen Chapter-17 records are present and schema-valid.
+- [x] Five positive, five countercase, and three confusion-case classes are represented.
+- [x] All three lock-critical artifacts are complete.
+- [x] Every record contains Claim Scope, five-part Loss, alternatives, twelve audit stages, canonical mapping, Stop, Non-Capture, and authority boundary.
+- [x] Twenty PATH Local Audit controls pass.
+- [x] Local results map only to the ten canonical Output Classes.
+- [x] Uninstantiated classes remain available without quota production.
+- [x] No target function is assigned inside PATH.
+- [x] PATH/SUB and PATH/RETYPE boundaries remain explicit.
+- [x] Chapter 17 is complete.
+- [x] Part-I lock readiness passes.
+- [ ] WP4 integrated Part-I audit and provisional PATH lock complete.
+
+
+## Chapter 17 WP4 Integrated Part-I Audit
+
+- [x] Chapters 9–17 completion boundaries and owner contributions are present.
+- [x] The Chapter-17 Contract completion tests pass.
+- [x] The PATH Gate passes.
+- [x] Thirteen Markdown/YAML artifact sets remain complete and schema-valid.
+- [x] Three of three lock-critical artifacts are complete.
+- [x] Twenty PATH Local Audit controls pass.
+- [x] Complete Loss, alternatives, canonical mapping, Stop, Non-Capture, and governance are preserved.
+- [x] `COMPOSE`, `DECOMPOSE`, and `PROJECT_AS` remain distinct.
+- [x] PATH assigns no target function and grants no authority.
+- [x] References and Formal Model mirrors are synchronized without new theory authority.
+- [x] YAML, JSON, schemas, inventories, fingerprints, links, package, CRC, and roundtrip pass.
+- [x] Part I — PATH is provisionally locked.
+- [ ] Chapter 18 Preparation complete.

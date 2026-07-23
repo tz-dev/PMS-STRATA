@@ -1,6 +1,6 @@
 # PMS-STRATA — Glossary
 
-**Status:** Reference Kernel v0.2.40 — Chapter-10-WP2-synchronized terminology core  
+**Status:** Reference Kernel v0.2.42 — Chapter-11-WP2-synchronized terminology core  
 **Repository role:** `04_reference` navigation and terminology control; not an independent theory source  
 **Authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, the Gate 1 minified kernel, `05_minified/Block_Contracts.md`, and `05_minified/Chapter_Contracts.md`
 
@@ -763,6 +763,7 @@ Included are terms required by Foundations or repeatedly used across PATH, SUB, 
   - full PATH specification in Chapter 11
 - **Current control sources:**
   - [`Chapter 3 Sections 3.1–3.13`](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory)
+  - [`Chapter 11 §11.1`](../01_blocks/02_part_i_path.md#11-1-definition-of-trajectory)
   - `05_minified/Chapter_Contracts.md`
 - **Central non-equivalences:**
   - trajectory ≠ path
@@ -795,6 +796,7 @@ Included are terms required by Foundations or repeatedly used across PATH, SUB, 
   - PATH elaboration in Chapters 11–12
 - **Current control sources:**
   - [`Chapter 3 §3.10`](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory)
+  - [`Chapter 11 §11.3`](../01_blocks/02_part_i_path.md#11-3-historical-sedimentation)
   - `05_minified/PMS_STRATA_Minified_Canonical.md`
 - **Central non-equivalences:**
   - sedimentation ≠ mere duration
@@ -836,6 +838,7 @@ Included are terms required by Foundations or repeatedly used across PATH, SUB, 
 - **Short definition:** The continuing structural relevance of earlier transitions, non-events, costs, asymmetries, bindings, and closed alternatives for a later configuration.
 - **Designated primary definition site:** Chapter 11 — Trajectory
 - **Current control sources:**
+  - [`Chapter 11 §§11.1–11.3`](../01_blocks/02_part_i_path.md#11-1-definition-of-trajectory)
   - `05_minified/PMS_STRATA_Minified_Canonical.md`
 - **Central non-equivalences:**
   - historical load ≠ narrative background
@@ -2755,3 +2758,646 @@ Primary operational site: [`Chapter 10 §10.10`](../01_blocks/02_part_i_path.md#
 
 A segment-, continuation-, claim-, and temporal-cut-relative declaration of realized, blocked, aborted, deferred, or unresolved historical relation. It is not a global essence, PMS operator, STRATA operation, or canonical Output Class.
 
+---
+
+## Chapter 10 WP3 — Comparison and Record Terminology
+
+### Path Comparison
+
+A bounded comparison between path claims whose reference, frame, temporal scope, granularity, selection, source basis, dimensions, uncertainty, and claim scope are explicitly aligned or translated.
+
+```text
+path comparison
+≠ endpoint comparison alone
+≠ universal ranking
+```
+
+Primary definition site: [`Chapter 10 §10.11`](../01_blocks/02_part_i_path.md#10-11-path-comparison).
+
+### Incomparability
+
+A positive bounded result where the declared path comparison cannot be responsibly carried under the available reference, frame, source, selection, or translation relation. It preserves valid local path findings.
+
+### Endpoint Similarity
+
+Similarity between path endpoints in one or more declared dimensions. It does not establish path identity, equivalent historical load, or equivalent continuation.
+
+```text
+same endpoint
+≠ same path
+```
+
+Primary operational site: [`Chapter 10 §10.12`](../01_blocks/02_part_i_path.md#10-12-similar-end-states-different-paths).
+
+### Path without Strong Dependence
+
+A warranted reconstructible path whose earlier order carries weak, absent, or unresolved additional constraint on the current configuration beyond present conditions. It preserves history while withholding a stronger Chapter-12 dependence claim.
+
+Primary operational site: [`Chapter 10 §10.13`](../01_blocks/02_part_i_path.md#10-13-path-without-strong-dependence).
+
+### Minimal Path Record
+
+A compact conceptual view of path-specific fields carried within the Shared Transformation Record. It is not a second schema and does not establish admissibility by completeness.
+
+Primary operational site: [`Chapter 10 §10.14`](../01_blocks/02_part_i_path.md#10-14-minimal-path-record).
+
+
+## Chapter 10 Provisional-Lock Terminology Handoff
+
+**warranted path**  
+An actually traversed, selectively reconstructed and constitutively connected chain of relevant configurations and individually tested transitions within a declared frame, with explicit selection, loss, alternatives, evidence, residue, and claim ceiling. It is not a Trajectory, Path-Dependence claim, operation occurrence, causal mechanism, or authority grant automatically.
+
+**qualified path status**  
+A segment-, continuation-, reference-, claim-, temporal-cut-, evidence-, and ceiling-relative declaration such as realized, blocked, aborted, deferred, open, or unresolved. It is not a global essence, PMS operator, STRATA operation, Output Class, or formal enum.
+
+**Chapter 11 path handoff**  
+A warranted Path record supplied for later Trajectory testing. It transfers actual traversal, selection, status lineage, endpoint, alternatives, evidence, loss, and residue but does not establish cumulative change, sedimentation, historical load, directed continuation, or Trajectory identity.
+
+Primary definition and operational site: [`Chapter 10`](../01_blocks/02_part_i_path.md#chapter-10-path).
+
+---
+
+## Chapter 11 Preparation and WP1 Terminology Handoff
+
+Sections 11.1–11.9 are now canonical. The first nine entries route to WP1–WP2; the remaining entries continue as bounded drafting controls for WP3.
+
+| Term | Preparation definition | Primary canonical destination |
+| --- | --- | --- |
+| Trajectory threshold | additional load by which a warranted Path carries sedimented historical structure into present configuration and continuation possibilities | Chapter 11 §11.1–11.2 |
+| Historical Sedimentation | traceable retention and cumulative transformation of earlier Path structure with present praxis effect | Chapter 11 §11.3 |
+| historical co-determination | bounded present load from earlier Path structure without exclusive causal determination | Chapter 11 §11.2–11.3 |
+| non-teleological directionality | dimension-specific oriented change preserving contingency, alternatives, reversal, and no destiny claim | Chapter 11 §11.4 |
+| Attractor Sedimentation | bounded `Α + Θ` occurrence relation with stabilized continuation accessibility | Chapter 11 §11.5 |
+| Asymmetry Accumulation | bounded `Ω + Θ` occurrence relation with repeated differential load and present effect | Chapter 11 §11.6 |
+| Binding Accumulation | bounded `Ψ + Θ` occurrence relation with persistent commitment or breach/reopening cost | Chapter 11 §11.7 |
+| Residual Accumulation | bounded `Λ + Θ` occurrence relation with persistent expectation-bound residue | Chapter 11 §11.8 |
+| Trajectory Boundary | claim-relative start, endpoint/open cut, prehistory, periodization, and scope of the Trajectory reconstruction | Chapter 11 §11.10 |
+| Trajectory Compression | declared reduction preserving load-bearing transitions, Non-Events, profiles, residue, alternatives, and loss | Chapter 11 §11.11 |
+| Competing Trajectory Construction | materially different bounded reconstruction from shared or overlapping Path material | Chapter 11 §11.12 |
+| False Trajectory | chronology, duration, repetition, or macro-coherence insufficient for a Trajectory claim | Chapter 11 §11.13 |
+| Minimal Trajectory Record | compact Trajectory view inside the Shared Transformation Record | Chapter 11 §11.14 |
+
+Production control: [`Chapter 11 Preparation Record`](Chapter_11_Preparation_Record.md).
+
+## Chapter 11 WP1 Canonical Terminology Synchronization
+
+| Term | Canonical WP1 meaning | Primary route |
+| --- | --- | --- |
+| Trajectory candidate | warranted Path plus a declared historical carrier, cumulative or sedimented relation, present praxis effect, Source–Result Dependency, counterpressure, and bounded claim ceiling | [§§11.1–11.2](../01_blocks/02_part_i_path.md#11-1-definition-of-trajectory) |
+| warranted Trajectory | Trajectory candidate that additionally passes applicable continuity, admissibility, loss, governance, Stop, and Non-Capture tests | [§11.1](../01_blocks/02_part_i_path.md#11-1-definition-of-trajectory) |
+| historical carrier | source-supported relation through which earlier Path structure persists or is translated into the present analytical cut | [§11.3](../01_blocks/02_part_i_path.md#11-3-historical-sedimentation) |
+| historical co-determination | bounded contribution of earlier Path structure to present praxis conditions without exclusive causation or automatic Path Dependence | [§§11.1–11.2](../01_blocks/02_part_i_path.md#11-1-definition-of-trajectory) |
+| present praxis effect | source-supported difference in meaning, cost, role, expectation, access, Asymmetry, Binding, residue, action corridor, or continuation attributable in part to the historical carrier | [§11.3](../01_blocks/02_part_i_path.md#11-3-historical-sedimentation) |
+| non-teleological directionality | dimension-specific historical orientation that preserves alternatives, reversals, repairs, contingencies, and the distinction between accessibility and necessity | [§11.4](../01_blocks/02_part_i_path.md#11-4-directionality-without-teleology) |
+
+These entries do not create new PMS primitives, operation kinds, Output Classes, scores, or machine truth conditions.
+
+## Chapter 11 WP2 Canonical Profile Terminology Synchronization
+
+| Term | Canonical WP2 meaning | Primary route |
+| --- | --- | --- |
+| Attractor Sedimentation | occurrence-level `Α + Θ` relation in which a source-supported historical carrier changes local friction, expectation, visibility, or default continuation accessibility | [§11.5](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation) |
+| local friction | effort, delay, uncertainty, authorization burden, coordination work, or material cost required to enact a bounded continuation | [§11.5](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation) |
+| Asymmetry Accumulation | occurrence-level `Ω + Θ` relation in which differential cost, access, exposure, information, capacity, burden, or exit condition is retained, intensified, redistributed, or hardened | [§11.6](../01_blocks/02_part_i_path.md#11-6-asymmetry-accumulation) |
+| role hardening | repeated allocation through which a role becomes harder to leave, contest, reinterpret, or perform differently without person typing | [§11.6](../01_blocks/02_part_i_path.md#11-6-asymmetry-accumulation) |
+| Binding Accumulation | occurrence-level `Ψ + Θ` relation in which commitments, reliance, coordination investment, breach cost, or reopening conditions remain present-bearing | [§11.7](../01_blocks/02_part_i_path.md#11-7-binding-accumulation) |
+| Residual Accumulation | occurrence-level `Λ + Θ` relation in which expectation- and frame-bound Non-Events leave active, repaired, translated, dormant, or historically delimited residue | [§11.8](../01_blocks/02_part_i_path.md#11-8-residual-accumulation) |
+| Changed Action Corridor | source-supported difference in practical accessibility, visibility, authorization, affordability, coordination feasibility, temporal availability, reversibility, expectedness, evidentiary burden, or exposure at the present analytical cut | [§11.9](../01_blocks/02_part_i_path.md#11-9-changed-action-corridors) |
+| current-condition allocation | explicit separation of historical contribution, current-condition contribution, their interaction, and underdetermined allocation | [§11.9](../01_blocks/02_part_i_path.md#11-9-changed-action-corridors) |
+
+These terms remain derived, occurrence-level, frame-bound, source-sensitive, and non-authorizing. Changed Action Corridors are an integrative present-effect declaration, not a fifth profile, operation, operator, score, prediction, or recommendation.
+
+## Chapter 11 WP3 Canonical Boundary and Record Terminology Synchronization
+
+| Term | Canonical WP3 meaning | Primary route |
+| --- | --- | --- |
+| Trajectory Boundary | claim-sensitive declaration of reference object, temporal beginning, entry rationale, relevant prehistory, included segments, analytical cut, terminal status, open continuation, disputed periodization, and claim scope | [§11.10](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary) |
+| relevant prehistory | earlier source-supported structure that conditions the selected entry but is not included as a full constitutive Trajectory segment | [§11.10](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary) |
+| present analytical cut | declared endpoint of the current reconstruction, which may remain distinct from the end of the Trajectory object | [§11.10](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary) |
+| segment lineage | explicit relation among formation, reinforcement, redistribution, interruption, repair, dormancy, re-entry, reversal, Frame translation, or closure segments of a reference-preserving Trajectory claim | [§11.10](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary) |
+| Trajectory Compression | selective representation of a historically extended object at coarser resolution while retaining constitutive trace and canonical Loss disclosure | [§11.11](../01_blocks/02_part_i_path.md#11-11-trajectory-compression) |
+| macro-label substitution | replacement of traceable Path, transitions, Non-Events, profiles, alternatives, and loss by a large historical label that remains insensitive to source variation | [§11.11](../01_blocks/02_part_i_path.md#11-11-trajectory-compression) |
+| Competing Trajectory Construction | source-responsible reconstruction of overlapping historical material that differs in boundary, periodization, constitutive selection, profile weighting, directionality, or claim scope | [§11.12](../01_blocks/02_part_i_path.md#11-12-competing-trajectory-constructions) |
+| False Trajectory | diagnostic phrase for a failed or overclaimed Trajectory construction; not a new object class or Output Class | [§11.13](../01_blocks/02_part_i_path.md#11-13-false-trajectory) |
+| Minimal Trajectory Record | compact Trajectory-specific view inside the Shared Transformation Record; not an independent schema or substantive warrant | [§11.14](../01_blocks/02_part_i_path.md#11-14-minimal-trajectory-record) |
+
+These terms remain analytical, source-bound, claim-sensitive, revisable, and non-authorizing. Boundary, Compression, competition, and Record completion cannot create sedimentation, Path Dependence, a target function, or application authority.
+
+## Chapter 11 Provisional-Lock Terminology Handoff
+
+| Term | Locked Chapter 11 use | Non-equivalence |
+| --- | --- | --- |
+| Trajectory | warranted Path with source-traceable sedimented historical load co-determining present praxis and continuation possibilities | Trajectory ≠ Path Dependence |
+| Historical Sedimentation | cumulative carried relation with present praxis effect and Source–Result Dependency | sedimentation ≠ duration, repetition, permanence |
+| directionality | dimension-specific historical tendency under preserved contingency | directionality ≠ teleology |
+| accumulation profile | bounded occurrence-level `Α/Ω/Ψ/Λ + Θ` relation | profile ≠ fused operator or score |
+| Changed Action Corridor | historically altered field of practical accessibility across declared dimensions | narrowed corridor ≠ eliminated agency |
+| Trajectory Boundary | claim-sensitive temporal and referential cut with prehistory, segment lineage, and open-continuation status | Boundary ≠ natural seam |
+| Trajectory Compression | bounded representation preserving constitutive trace and canonical Loss | Compression ≠ macro-label substitution |
+| False Trajectory | diagnostic name for a failed or overclaimed construction | False Trajectory ≠ no history or new Output Class |
+
+Primary completion site: [`Chapter 11 completion boundary`](../01_blocks/02_part_i_path.md#chapter-11-completion-boundary).
+
+
+---
+
+## Chapter 12 Preparation Terminology Handoff
+
+| Term | Preparation meaning | Primary canonical destination |
+| --- | --- | --- |
+| Path Dependence | graded property by which prior Path history may be indispensable to an adequate present reconstruction; not an object, operator, or operation | Chapter 12 §12.1 |
+| weak order dependence | bounded local effect of sequence while the present remains largely reconstructible from current conditions | Chapter 12 §12.2 |
+| strong Path Dependence | source-bounded historical indispensability for present meaning, cost, role, credibility, accessibility, reachability, or continuation | Chapter 12 §12.3 |
+| historical indispensability | material inadequacy of the present reconstruction when the relevant prior Path is omitted or responsibly varied | Chapter 12 §§12.1–12.3, 12.11 |
+| current-state baseline | strongest source-supported reconstruction from present rules, resources, roles, frames, constraints, and alternatives without detailed Path history | Chapter 12 §§12.3, 12.11 |
+| historical-omission test | test of what becomes materially wrong, incomplete, or misleading when the relevant prior Path is removed from the reconstruction | Chapter 12 §12.11 |
+| source-bounded alternative-history test | actual comparator, competing reconstruction, or bounded counterfactual variation used to test Source–Result Dependency without prediction | Chapter 12 §12.11 |
+| dependence-bearing carrier | source-traceable `Α/Ω/Ψ/Λ + Θ` occurrence relation that remains present-bearing in a declared dependence dimension | Chapter 12 §§12.4–12.7 |
+| modifier occurrence | later `Φ`, `Χ`, `Σ`, or `Ψ` occurrence that may attenuate, redistribute, redirect, or terminate a carrier without automatic erasure | Chapter 12 §§12.8–12.9 |
+| reset claim | new testable claim that the earlier historical carrier no longer changes the present reconstruction; not inferred from a new label, frame, policy, exit, or repair | Chapter 12 §§12.8–12.9 |
+
+These are bounded preparation definitions only. Canonical definition ownership remains with Chapter 12 after drafting. None creates a new PMS primitive, operation, Output Class, score, probability, causal proof, target function, or authority.
+
+Production control: [`Chapter 12 Preparation Record`](Chapter_12_Preparation_Record.md).
+
+## Chapter 12 WP1 Canonical Terminology Synchronization
+
+| Term | Canonical WP1 meaning | Primary route |
+| --- | --- | --- |
+| Path Dependence | graded property by which a present configuration or bounded continuation field is materially dependent on a prior Path in a declared dimension | [§12.1](../01_blocks/02_part_i_path.md#12-1-path-dependence-as-a-property) |
+| weak order dependence | bounded order-sensitive difference under substantial current-state reconstructibility | [§12.2](../01_blocks/02_part_i_path.md#12-2-weak-order-dependence) |
+| strong Path Dependence | historical-indispensability claim under which the tested present dimension is materially misdescribed or underdescribed without the relevant prior Path | [§12.3](../01_blocks/02_part_i_path.md#12-3-strong-path-dependence) |
+| dependence dimension | bounded current feature—such as meaning, credibility, cost, role, access, reversibility, evidentiary burden, or reachability—for which dependence is tested | [§12.1](../01_blocks/02_part_i_path.md#12-1-path-dependence-as-a-property) |
+| present analytical cut | declared temporal cut at which current conditions and historical carriers are compared without later-outcome leakage | [§12.1](../01_blocks/02_part_i_path.md#12-1-path-dependence-as-a-property) |
+| current-state baseline | explicit reconstruction of current rules, resources, roles, constraints, records, and alternatives used to test whether history is materially indispensable | [§12.3](../01_blocks/02_part_i_path.md#12-3-strong-path-dependence) |
+| historical indispensability | condition under which omission or material alteration of the relevant Path makes the bounded present reconstruction materially inadequate | [§12.3](../01_blocks/02_part_i_path.md#12-3-strong-path-dependence) |
+| approximately held-present comparison | source-bounded comparison that holds declared present features approximately similar while preserving remaining differences and without claiming object identity or causal isolation | [§12.3](../01_blocks/02_part_i_path.md#12-3-strong-path-dependence) |
+
+These terms create no new PMS primitive, STRATA operation, Output Class, score, probability, target function, or authority layer.
+
+## Chapter 12 WP2 Canonical Profile Terminology Synchronization
+
+| Term | Canonical WP2 meaning | Primary route |
+| --- | --- | --- |
+| Attractor Dependence | bounded `Α + Θ` property claim where the prior recurrence lineage is materially indispensable to current friction, expectation, visibility, default, or continuation accessibility | [§12.4](../01_blocks/02_part_i_path.md#12-4-a-theta-attractor-dependence) |
+| Asymmetry Dependence | bounded `Ω + Θ` property claim where prior distribution is materially indispensable to current cost, access, exposure, capacity, information, burden, role, or exit condition | [§12.5](../01_blocks/02_part_i_path.md#12-5-o-theta-asymmetry-dependence) |
+| Binding Dependence | bounded `Ψ + Θ` property claim where prior commitment, reliance, coordination investment, or reopening structure is materially indispensable to the present | [§12.6](../01_blocks/02_part_i_path.md#12-6-ps-theta-binding-dependence) |
+| Residual Dependence | bounded `Λ + Θ` property claim where a warranted expectation-bound Non-Event leaves historically indispensable present residue | [§12.7](../01_blocks/02_part_i_path.md#12-7-lambda-theta-residual-dependence) |
+| dependence-bearing profile | occurrence-level historical carrier relation that passes a profile-specific present-effect and current-state-sufficiency burden; not a fused operator or score | [§§12.4–12.7](../01_blocks/02_part_i_path.md#12-4-a-theta-attractor-dependence) |
+| profile non-compensation | rule that profile richness cannot repair invalid substrate, absent present effect, failed current-state pressure, missing Source–Result Dependency, or source/claim ceiling breach | [§12.7](../01_blocks/02_part_i_path.md#12-7-lambda-theta-residual-dependence) |
+
+These terms remain occurrence-level, source-bound, dimension-specific, revisable, non-deterministic, and non-authorizing. They create no new PMS primitive, STRATA operation, Output Class, target function, score, probability, or authority layer.
+
+## Chapter 12 WP3 Canonical Test and Modifier Terminology Synchronization
+
+| Term | Canonical WP3 meaning | Primary route |
+| --- | --- | --- |
+| recontextualization under dependence | `Φ` occurrence that changes the frame and may preserve, translate, attenuate, redistribute, replace, release, or render irrelevant a historical carrier; not an automatic reset | [§12.8](../01_blocks/02_part_i_path.md#12-8-phi-under-path-dependence) |
+| later modifier | temporally later `Χ`, `Σ`, or `Ψ` occurrence that changes a carrier's present force without automatically erasing the earlier Path | [§12.9](../01_blocks/02_part_i_path.md#12-9-chi-sigma-and-psi-as-later-trajectory-modifiers) |
+| Historical-Omission test | test of what warranted present reconstruction becomes wrong, incomplete, or misleading when the relevant prior Path is omitted | [§12.11](../01_blocks/02_part_i_path.md#12-11-path-dependence-test) |
+| source-bounded Alternative-History test | bounded variation of a source-supported earlier Path used to test Source–Result Dependency; not prediction or causal isolation | [§12.11](../01_blocks/02_part_i_path.md#12-11-path-dependence-test) |
+| Current-State Baseline | strongest source-supported explanation of the tested present feature using current conditions only | [§12.11](../01_blocks/02_part_i_path.md#12-11-path-dependence-test) |
+| Minimal Path-Dependence Claim View | compact view inside the Shared Transformation Record; not a second schema and not proof | [§12.11](../01_blocks/02_part_i_path.md#12-11-path-dependence-test) |
+
+These terms are source-bound, dimension-specific, non-deterministic, revisable, and non-authorizing.
+
+## Chapter 12 Provisional-Lock Terminology Handoff
+
+- **Path Dependence:** graded property of a warranted Path, Trajectory, or bounded segment at a declared present cut and dependence dimension; not an object, primitive, operation, level, target function, score, or authority layer.
+- **Weak Order Dependence:** bounded historical effect under substantial current-state reconstructibility.
+- **Strong Path Dependence:** historical indispensability of a relevant prior Path to adequate reconstruction of a tested present dimension.
+- **Current-State Sufficiency Challenge:** explicit counterpressure asking whether current conditions alone adequately explain the tested present feature.
+- **Historical Omission:** source-bounded test of what becomes materially false, incomplete, or misleading when the relevant prior Path is removed from the reconstruction.
+- **Alternative History:** bounded variation supported by historically available or structurally comparable sources; not free counterfactual storytelling or prediction.
+- **Modifier:** later `Χ`, `Σ`, or `Ψ` occurrence that may alter dependence without automatically erasing it.
+- **Dependence-bearing profile:** occurrence-level `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, or `Λ + Θ` relation carrying a bounded present dependence dimension under independent support.
+
+Canonical return: [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary).
+
+---
+
+## Chapter 13 Preparation Terminology Handoff
+
+| Term | Preparation meaning | Canonical destination |
+| --- | --- | --- |
+| alternative space | source-bounded field of historically reachable, conditionally reachable, prepared, contested, or later-lost continuations material to a Path claim | Chapter 13 §13.1 |
+| branch point | historical configuration and window in which more than one continuation was practically source-supported | Chapter 13 §13.2 |
+| realized branch | actually traversed continuation without rationality, legitimacy, optimality, or necessity inference | Chapter 13 §13.3 |
+| rejected branch | materially available continuation that was source-supported as refused or not selected | Chapter 13 §13.4 |
+| blocked branch | materially available or prepared continuation prevented by an identifiable blocking structure | Chapter 13 §13.5 |
+| aborted branch | initiated continuation later interrupted, with possible sunk cost, expectation, infrastructure, or residue | Chapter 13 §13.6 |
+| deferred branch | continuation shifted beyond its initial window and therefore subject to changed conditions | Chapter 13 §13.7 |
+| lost alternative | earlier source-supported continuation that later became unavailable or materially unreachable | Chapter 13 §13.8 |
+| source-bounded counterfactual Path | hypothetical continuation beginning from a documented alternative and stopping at the source ceiling | Chapter 13 §13.9 |
+| non-selection | source-supported absence of selection inside an active decision context and temporal window | Chapter 13 §13.10 |
+| alternative-space compression | reduced visibility of historically relevant alternatives in a Path or Trajectory representation | Chapter 13 §13.11 |
+| Alternative Status Record | Shared-Record view declaring branch point, availability, status, window, support, later reachability, effect, and uncertainty | Chapter 13 §13.12 |
+
+These are preparation definitions only. They create no PMS primitive, operation, Output Class, forecast, counterfactual truth, completed `COMPOSE`, target function, or authority. Production control: [`Chapter 13 Preparation Record`](Chapter_13_Preparation_Record.md).
+
+## Chapter 13 WP1 Terminology Synchronization
+
+### Alternative Space
+Source-bounded field of continuations materially or conditionally reachable at a declared historical cut. It is not the set of all imaginable possibilities.
+
+### Branch Point
+Declared historical configuration and temporal window at which at least two distinct continuations were source-supported as materially available, conditionally available, prepared, or actively contested.
+
+### Realized Branch
+Continuation actually entered and traversed from a warranted alternative field. Realization does not imply rationality, legitimacy, optimality, intention, or inevitability.
+
+### Rejected Branch
+Materially or conditionally available continuation documented as declined or not selected while the relevant availability window remained open.
+
+Primary definition site: [Chapter 13 WP1](../01_blocks/02_part_i_path.md#13-branches-aborts-delays-and-unavailable-alternatives).
+
+## Chapter 13 WP2 Terminology Synchronization
+
+### Blocked Branch
+Earlier materially or conditionally available, prepared, or attempted continuation prevented inside a declared historical window by an identifiable blocking structure. Blocked is not impossible, rejected, or merely unrealized.
+
+### Aborted Branch
+Continuation actually initiated and partially traversed, then interrupted before the claimed transition or continuation was completed. Initiation trace is mandatory; planning or announcement alone is insufficient.
+
+### Deferred Branch
+Continuation shifted beyond its initially relevant window while later candidacy or reachability remains. Delay is part of the Path and may change the continuation's frame, cost, roles, permissions, bindings, and identity.
+
+### Lost Alternative
+Earlier source-supported continuation that later became unavailable or materially unreachable under a declared frame and claim scope. Lost is not merely unattractive, more expensive, temporarily blocked, or retrospectively imagined.
+
+Primary definition site: [Chapter 13 WP2](../01_blocks/02_part_i_path.md#13-5-blocked-branch).
+
+## Chapter 13 WP3 Terminology Synchronization
+
+### Counterfactual Path
+
+A source-bounded hypothetical continuation beginning from a historically available branch at a declared cut, using an explicit variation rule and stopping at the counterfactual horizon where source support no longer carries the continuation.
+
+### Non-Selection
+
+The source-supported absence of selection inside an active decision context and bounded temporal window where that absence changes later reachability, cost, role, binding, residue, or Path formation. Missing decision information alone is insufficient.
+
+### Alternative-Space Compression
+
+The disclosed reduction of the visible historical alternative field in a Path, Trajectory, record, diagram, or later composition. It is governed by the canonical five-part Loss structure and must not produce retrospective linearization or branch inflation.
+
+### Counterfactual Horizon
+
+The last point at which a Counterfactual Path remains reconstructively anchored. Beyond it, only open possibility, uncertainty, Stop, or Non-Capture may be declared.
+
+### Alternative Status Record Extension
+
+An owner-bound Shared-Record `extensions` entry for one historical continuation, declaring window, availability, source support, selection status, later reachability, residual effect, uncertainty, claim scope, and Output-Class mapping without replacing required fields.
+
+Primary definition site: [Chapter 13 WP3](../01_blocks/02_part_i_path.md#13-9-counterfactual-path).
+
+## Chapter 13 Provisional-Lock Terminology Boundary
+
+Chapter 13 is provisionally locked. `Historical Alternative`, `Branch Point`, `Realized Branch`, `Rejected Branch`, `Blocked Branch`, `Aborted Branch`, `Deferred Branch`, `Lost Alternative`, `Counterfactual Path`, `Non-Selection`, `Alternative-Space Compression`, `counterfactual horizon`, and `Alternative Status Record` retain their source-, window-, and claim-bounded definitions from Sections 13.1–13.12.
+
+None is a PMS primitive, STRATA operation, Output Class, prediction category, causal finding, target function, or authority layer. A later same-labelled continuation does not automatically inherit identity or continuity. A complete Record or graph does not establish availability or status.
+
+Canonical return: [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary).
+
+## Chapter 14 Preparation Terminology Handoff
+
+This handoff prepares PATH-specific Non-Event terminology without replacing the foundational definition in Chapter 3.
+
+| Term | Preparation meaning | Primary owner after drafting | Required non-equivalence |
+| --- | --- | --- | --- |
+| PATH-specific Non-Event | source-supported non-realization of an identifiable expected occurrence inside a warranted frame and bounded window, carrying praxeological and temporal-chain load | Chapter 14, consuming Chapter 3 | ordinary absence; missing source |
+| expectation relation | source-supported commitment, rule, schedule, role, recurrent procedure, adopted plan, trigger, or comparable relation that makes an occurrence due or conditionally due | Chapter 14 | analyst preference; moral intuition |
+| expectation frame | declared institutional, procedural, relational, contractual, or other context in which the expectation relation operates | Chapter 14 | granularity; relative level |
+| expected window | bounded interval, deadline, recurrence window, trigger condition, or sequence position in which realization is due | Chapter 14 | open-ended possibility |
+| source-supported non-realization | evidence capable of establishing that the expected occurrence did not realize inside the declared bound | Chapter 14 with Chapter 49 limits | no record found |
+| Delay as Non-Event | missed warranted realization window whose non-realization changes praxis conditions | Chapter 14 | observed postponement-event chain |
+| repeated Non-Decision | renewed decision contexts in which an expected decision repeatedly fails to realize | Chapter 14 | refusal; repeated missing records |
+| Blocked Responsibility | expected action or decision remains unrealized under a traceable distributed or blocking responsibility structure | Chapter 14 | person blame; diagnosis |
+| Missing Repair | warranted repair, integration, correction, review, or remediation fails within its supported frame and window | Chapter 14 | undefined duty |
+| Missing Exit | warranted or triggered exit/release occurrence fails within its supported condition or window | Chapter 14 | hidden motive; formal exit availability alone |
+| Non-Event Sedimentation | one or more warranted `Λ` occurrences remain active in later meaning, cost, roles, alternatives, bindings, residue, or corridors | Chapter 14 | repetition or duration alone |
+| False Non-Event | local failed claim where expectation, window, source-supported non-realization, load, or relevance is missing | Chapter 14 | proof that a positive event occurred |
+| Minimal Non-Event Record | bounded Shared-Record view prepared for Chapter 14; carrier decision deferred to WP3 | Chapter 14 / Chapter 7 record owner | semantic proof; parallel record schema |
+
+Canonical preparation control: [`Chapter_14_Preparation_Record.md`](Chapter_14_Preparation_Record.md).
+
+## Chapter 14 WP1 Terminology Synchronization
+
+### PATH-Specific Non-Event
+A Chapter-3-eligible Non-Event whose source-supported non-realization materially changes a declared Path relation such as transition completion, configuration persistence, alternatives, costs, roles, bindings, residue, or later meaning.
+
+### Expectation Relation
+Source-supported commitment, rule, procedure, schedule, role relation, recurrent practice, adopted plan, or triggered condition that makes a specified occurrence due or conditionally due.
+
+### Expectation Frame
+Declared contextual structure within which an occurrence becomes expected and its non-realization becomes analytically relevant.
+
+### Expected Window
+Bounded date, interval, recurring window, triggered condition, sequence position, or phase-completion condition within which realization is due.
+
+### Delay as Non-Event
+Source-supported failure of an expected transition within its warranted window where the missed window carries material Path load. Positive postponement events may coexist with the governing non-realization.
+
+Primary definition site: [Chapter 14 WP1](../01_blocks/02_part_i_path.md#14-non-events-within-paths-and-trajectories).
+
+## Chapter 14 WP2 Terminology Synchronization
+
+### Repeated Non-Decision
+A sequence of renewed or recurring decision contexts in which a source-supported expected decision repeatedly remains unrealized. It is not a long silent interval, repeated missing documentation, or repeated refusal.
+
+### Blocked Responsibility
+A configuration-level Non-Event pattern in which distributed, cyclic, conditional, jurisdictional, or authorization-dependent responsibility relations prevent an expected occurrence from resolving. It does not assign person blame, legal duty, diagnosis, or sanction.
+
+### Missing Repair
+A warranted repair, integration, correction, reconciliation, restoration, or closure occurrence that fails within its expected frame and window and leaves material residue or changes later praxis.
+
+### Missing Exit
+A warranted or triggered exit or release occurrence that fails within a bounded realization condition and materially changes the Path. Formal exit availability and observed continuation are insufficient.
+
+### Non-Event Sedimentation
+Traceable carryover of one or more warranted `Λ` occurrences into later meaning, costs, roles, alternatives, bindings, residue, or action corridors.
+
+Primary definition site: [Chapter 14 WP2](../01_blocks/02_part_i_path.md#14-4-repeated-non-decision).
+
+## Chapter 14 WP3 Terminology Synchronization
+
+### False Non-Event
+A claimed `Λ` occurrence that fails one or more constitutive burdens: identifiable expected occurrence, warranted expectation relation, declared frame, bounded window or condition, source-supported non-realization, praxeological load, or temporal-chain relevance. It is a local failure description, not an Output Class and not proof of positive occurrence.
+
+### Minimal Non-Event Record
+An optional owner-bound `extensions` view inside the Shared Transformation Record that preserves one bounded PATH-specific `Λ` claim without replacing required top-level fields.
+
+### Non-Event Preservation Burden
+The requirement that later composition preserve or place under canonical Loss the expectation, frame, window, non-realization, positive sub-events, persistence/repetition, affected roles and alternatives, residue, later carrier, uncertainty, and missing-information distinction.
+
+Primary definition site: [Chapter 14 WP3](../01_blocks/02_part_i_path.md#14-9-preserving-%CE%BB-in-composition).
+
+## Chapter 14 Provisional-Lock Terminology Boundary
+
+Chapter 14 is provisionally locked. `PATH-specific Non-Event`, `Expectation Relation`, `Expectation Frame`, `Expected Window`, `Delay as Non-Event`, `Repeated Non-Decision`, `Blocked Responsibility`, `Missing Repair`, `Missing Exit`, `Non-Event Sedimentation`, `False Non-Event`, and `Minimal Non-Event Record` retain their bounded meanings from Sections 14.1–14.11.
+
+None is a new PMS primitive, STRATA operation, Output Class, person diagnosis, blame category, duty finding, target function, or authority layer. Missing information, an empty interval, a graph gap, later residue, or a complete record does not establish `Λ`.
+
+Canonical return: [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary).
+
+## Chapter 15 Preparation Terminology Handoff
+
+| Term | Preparation meaning | Primary owner | Required non-equivalence |
+| --- | --- | --- | --- |
+| COMPOSE occurrence | one bounded execution of the canonical operation over typed, related sources | Chapter 15 consuming Chapter 4 | operation type; target composite |
+| source set | declared typed objects eligible for one composition claim | Chapter 15 | composite object |
+| selection rule | source- and claim-bound justification for inclusion, omission, load-bearing status, and contestability | Chapter 15 | passive discovery; endpoint convenience |
+| ordering rule | warranted temporal or structural relation among sources | Chapter 15 | storytelling order |
+| formation rule | account of how constitutive relations produce a new composite with added praxis discrimination | Chapter 15 | aggregation; macro-label |
+| constitutive relation | relation whose removal or material change alters target identity or licensed claim | Chapter 15 | illustrative association |
+| preservation duty | requirement that target claims remain reconstructibly dependent on constitutive source load | Chapter 15 | total retention; losslessness |
+| overelastic composition | target label or claim remains unchanged under too many material source alterations | Chapter 15 | robustness automatically |
+| composition claim | bounded claim licensed by one COMPOSE occurrence about a declared target class | Chapter 15 | Path-Dependence or function claim automatically |
+| no-composition option | explicit possibility that the warranted result remains a collection, chronology, or unresolved source field | Chapter 15 | failure to analyze |
+
+Canonical preparation control: [`Chapter_15_Preparation_Record.md`](Chapter_15_Preparation_Record.md).
+
+## Chapter 15 WP1 Terminology Synchronization
+
+### COMPOSE Entry Gate
+Conjunctive and non-compensatory threshold requiring typed sources, scope, relation, selection, ordering where claimed, formation hypothesis, source support, expected praxeological difference, possible five-part Loss, bounded target claim, and rival/no-composition pressure.
+
+### Source-Set Boundary
+Claim-bound declaration of the source domain searched, time range, eligible source families, inaccessible or contested material, and use of later sources.
+
+### Source Role
+Local declaration that a source is load-bearing, supporting, illustrative, redundant, contested, omitted, or excluded. Source roles are not new canonical Output Classes.
+
+### Partial Order
+Warranted ordering in which only some source relations are fixed while other cross-order relations remain unresolved or simultaneous.
+
+### Composition Frame
+Declared contextual boundary connecting the reference object, source frame, target-object frame, temporal scope, roles/contexts, granularity, relative level, Claim Boundary, and Claim Ceiling for one COMPOSE candidate.
+
+Primary definition site: [Chapter 15 WP1](../01_blocks/02_part_i_path.md#15-compose-selection-formation-and-compression).
+
+## Chapter 15 WP2 Terminology Synchronization
+
+### Formation Hypothesis
+Provisional claim that selected, ordered, and framed sources may form a declared composite through specified constitutive relations. It is not a completed formation finding or `COMPOSE` occurrence.
+
+### Formation Finding
+Bounded finding that a target object is more than a collection or chronology because a declared Formation Rule, constitutive relations, source trace, target threshold, and Loss duties are supported.
+
+### Preserved Structure
+Claim-relevant source load that remains reconstructibly connected to the target through representation, explicit relation, stable lineage, or another declared carrier. Preservation is not total copying or losslessness.
+
+### Compression Rule
+Declared method for reducing resolution while specifying what remains represented, what is lost at target level, what remains externally recoverable, and how uncertainty and claim scope change.
+
+### Excluded Structure
+Material explicitly and reasonedly kept outside one target composition. Exclusion is frame-bound and is not disproof, source absence, accidental omission, compression, or uncertainty.
+
+### Source-Inherited Irrecoverability
+Information already unavailable before the composition occurrence and not reconstructible from the available source lineage.
+
+### Composition-Induced Irrecoverability
+Information rendered non-reconstructible by the composition's selection, boundary, relation, or compression procedure.
+
+Primary definition site: [Chapter 15 WP2](../01_blocks/02_part_i_path.md#15-7-formation-rule).
+
+## Chapter 15 WP3 Terminology Synchronization
+
+### Composition Claim
+Bounded claim licensed about a formed composite object. It is distinct from the object, its constitutive-relation finding, and stronger target-level claims.
+
+### Counterfactual Composition Test
+Source-bounded variation of removal, substitution, reorder, recompression, reframing, rival composition, or no-composition used to test whether declared elements and relations are constitutive. It is not free alternative history or causal proof.
+
+### Overelastic Composition
+Composition whose target label and claim remain unchanged under changes that should be material if the declared Formation Rule and constitutive set were genuine.
+
+### Constitutive Load
+Source or relation whose bounded removal or exchange materially changes the target identity, boundary, type, or licensed claim. Constitutive status is claim-relative.
+
+Primary definition site: [Chapter 15 WP3](../01_blocks/02_part_i_path.md#15-12-composition-claim).
+
+## Chapter 15 Provisional-Lock Terminology
+
+### COMPOSE Occurrence
+A particular execution of the canonical `COMPOSE` operation over typed and selected source structures under a declared ordering, frame, Formation Rule, constitutive relation set, target typing, Loss declaration, sensitivity test, Claim Ceiling, and canonical output route.
+
+### Composite Analytical Object
+A new derived object formed by a warranted `COMPOSE` occurrence. It preserves source origin types and does not become a PMS primitive, contextual target function, or authority source.
+
+### Overelastic Composition
+A composition whose target identity and claim remain unchanged under source-bounded variations that should be material if the declared constitutive set and Formation Rule were genuine.
+
+### No-Composition
+Positive analytical result where source relations, praxis purchase, type integrity, traceability, target boundary, or Loss requirements do not support formation of one composite.
+
+Primary definition site: [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary).
+
+## Chapter 16 Preparation Terminology Handoff
+
+| Term | Preparation meaning | Primary owner | Required non-equivalence |
+| --- | --- | --- | --- |
+| Lower PATH Boundary | point below which added temporal differentiation creates no material praxis gain for the tested claim | Chapter 16 consuming Chapter 6 | Upper PATH Boundary |
+| Upper PATH Boundary | point above which a temporal result no longer carries reconstructible load from declared source structures | Chapter 16 consuming Chapter 6 | lower-bound failure |
+| chronology without gain | correct or detailed order that does not alter the licensed praxis reconstruction | Chapter 16 | false chronology; Trajectory |
+| Trajectory without Path trace | historical macro-claim lacking reconstructible configurations, transitions, alternatives, `Λ`, `Ω`, and Loss | Chapter 16 | bounded abstraction |
+| temporal punctualization | collapse of an extended internally differentiated process into a point or homogeneous phase | Chapter 16 | warranted compression |
+| artificial directionality | retrospective order presented as intrinsic historical vector while contingency and reversals are suppressed | Chapter 16 | directionality as bounded finding |
+| hidden teleology | endpoint-conditioned selection or periodization that renders the later outcome necessary or purposive | Chapter 16 | non-teleological directionality |
+| PATH anti-rescue rule | a failed PATH claim remains failed across frame, level, granularity, graph, SUB, RETYPE, or label changes unless retested as a new claim | Chapter 16 | prohibition on new analysis |
+
+Canonical preparation control: [`Chapter_16_Preparation_Record.md`](Chapter_16_Preparation_Record.md).
+
+## Chapter 16 WP1 Terminology Synchronization
+
+### Lower PATH Boundary
+PATH-local application of the Praxeological Relevance Floor. Temporal differentiation passes only where it materially changes a warranted reconstruction of praxis for the tested claim.
+
+### Chronology without Trajectory Gain
+Accurate or useful ordering that does not establish sedimentation, historical load, changed continuation structure, or a stronger temporal claim.
+
+### Upper PATH Boundary
+PATH-local application of the Praxeological Traceability Ceiling. A target remains within the Ceiling only while its identity and claim are reconstructibly dependent on the temporal and structural source load declared as constitutive.
+
+### Trajectory without Path Trace
+A claimed historical direction or sedimentation whose configurations, transitions, turning points, Non-Events, asymmetries, alternatives, repairs, present-bearing load, selection, compression, or Loss cannot be reconstructed sufficiently for the claim.
+
+### Punctualization
+Excessive temporal compression that treats an internally differentiated extended process as one point, event, or homogeneous phase and thereby removes claim-relevant internal temporality.
+
+### Same-Material Band Contrast
+Use of one broad source field to compare an admissible PATH representation, a below-Floor chronology, and an above-Ceiling macro-label without treating them as stylistic equivalents.
+
+Primary definition site: [Chapter 16 WP1](../01_blocks/02_part_i_path.md#16-path-boundary-conditions).
+
+## Chapter 16 WP2 Terminology Synchronization
+
+### Artificial Directionality
+A directionality claim produced by retrospective linearization that suppresses source-supported contingency, reversals, parallel subpaths, alternatives, or periodization dependence and presents one invariant developmental vector.
+
+### Hidden Teleology
+Endpoint-conditioned selection, periodization, or interpretation through which a realized later state is treated as earlier purpose, necessary destination, progress, decline, maturation, convergence, or predictive completion.
+
+### Constitutive Omission
+Removal or translation of a source structure whose restoration materially changes the target boundary or claim. Chapter 16 WP2 applies this to warranted `Λ` and source-supported `Ω` load.
+
+### PATH/RETYPE Rescue
+Prohibited attempt to repair a failed temporal-object claim by assigning the object a contextual target function. A lawful later `PROJECT_AS` is a new claim and preserves the failed origin analysis.
+
+### PATH/SUB Rescue
+Prohibited attempt to repair a failed PATH claim through finer detail or interface expansion. A lawful `DECOMPOSE` requires an identified compressed occurrence or composite, same reference object, explicit reconstruction rule, and separate record.
+
+Primary definition site: [Chapter 16 WP2](../01_blocks/02_part_i_path.md#16-6-artificial-directionality).
+
+## Chapter 16 WP3 Terminology Synchronization
+
+### PATH Praxeological Purchase Test
+Claim-relative test of whether temporal differentiation materially changes a warranted reconstruction of roles, costs, alternatives, bindings, residuals, reachability, Action Corridors, target class, or Claim Ceiling.
+
+### Traceable Path Test
+Test of whether a PATH target and claim remain reconstructibly dependent on typed source structures, warranted order, constitutive load, selection, formation, complete Loss, and bounded sensitivity.
+
+### PATH Claim Reduction
+Controlled withdrawal or narrowing of an unsupported stronger temporal claim while preserving warranted sources, relations, uncertainty, Loss, and weaker target objects.
+
+### PATH Non-Capture
+Canonical `non_capture` result where one adequate temporal object remains unavailable after bounded tests because forced closure would erase decisive heterogeneity, incompatible traces, or unresolved periodization.
+
+Primary definition site: [Chapter 16 WP3](../01_blocks/02_part_i_path.md#16-12-praxeological-purchase-test).
+
+## Chapter 16 Provisional-Lock Terminology
+
+| Term | Locked local meaning | Non-equivalence |
+| --- | --- | --- |
+| PATH Relevance Floor | lower local boundary at which temporal differentiation must materially change the warrantable praxis reconstruction | more dates, duration, or detail |
+| PATH Traceability Ceiling | upper local boundary at which the target and claim must remain reconstructibly dependent on their declared path load | citation density, graph cohesion, or macro-label stability |
+| Purchase Test | claim-relative test of whether temporal differentiation changes roles, costs, alternatives, binding, residues, reachability, or Action Corridors | additive score or whole-object gain |
+| Traceable Path Test | test of typed, lineaged, ordered, relational, loss-declared, and sensitivity-bearing source-to-result dependency | total certainty or forced total order |
+| punctualization | destructive collapse of internally differentiated temporal structure into a point, event, or homogeneous period | bounded compression |
+| artificial directionality | unsupported conversion of retrospective order, visual direction, or endpoint-conditioned selection into historical direction | bounded dimension-specific directionality |
+| PATH anti-rescue rule | prior PATH failure survives frame, level, granularity, graph, SUB, RETYPE, or label changes unless separately retested | prohibition on new analysis |
+
+Primary return: [`Chapter 16 completion boundary`](../01_blocks/02_part_i_path.md#chapter-16-completion-boundary).
+
+## Chapter 17 Preparation Terminology Handoff
+
+**PATH case** — a bounded reconstruction that tests a PATH claim under explicit sources, coordinates, operation decision, Loss, alternatives, Band findings, and canonical output mapping.
+
+**PATH countercase** — a plausible but inadmissible or overextended temporal construction used to discriminate a specific rule, boundary, reduction, Stop, or failure route.
+
+**PATH confusion case** — a case that holds adjacent interpretations or operations apart until the correct object, frame, resolution, or operation boundary is tested.
+
+**lock-critical case artifact** — the required linked set of Markdown reconstruction, schema-valid YAML record, local audit result, and canonical Output-Class mapping.
+
+**PATH local audit** — the Chapter-17 audit that tests case artifacts and Part-I rules without replacing Chapter 53's system-wide audit.
+
+Canonical preparation control: [`Chapter_17_Preparation_Record.md`](Chapter_17_Preparation_Record.md).
+
+## Chapter 17 WP1 Terminology Synchronization
+
+### Standalone PATH Case Artifact
+A linked Markdown reconstruction and schema-valid YAML Shared Transformation Record carrying complete Loss, alternatives, a local audit, canonical output mapping, Stop/Non-Capture status, and governance boundary.
+
+### Local PATH Case Result
+Operation-specific description such as bounded Path, branching Path, or source-sensitive Trajectory. It is not a canonical Output Class and must be mapped explicitly.
+
+### Lock-Critical Case Artifact
+A standalone case set required for provisional Part-I lock. Completion of one such artifact does not satisfy the three-artifact minimum or validate PATH globally.
+
+Primary definition site: [Chapter 17 §17.1](../01_blocks/02_part_i_path.md#17-1-case-architecture).
+
+## Chapter 17 WP2-A Terminology Synchronization
+
+### Dependence Dimension
+A declared present feature—such as burden, reversibility, residual repair, meaning, access, or continuation—for which historical indispensability is tested separately. Dependence in one dimension does not establish total historical determination.
+
+### Current-State Sufficiency
+A bounded finding that present configuration and immediate carrier conditions adequately support the tested present claim without full historical reconstruction. It does not make history irrelevant.
+
+### Weak Path Dependence
+A bounded historical contribution in which order or earlier stabilization changes some local reconstruction while the tested current state remains substantially reconstructible from present conditions.
+
+Primary sites: Chapter 17 §§17.5–17.6.
+
+## Chapter 17 WP2-B Terminology Synchronization
+
+**Chronology Presented as Path** — an accurate ordered source field whose stronger Path label lacks a supported continuation-sensitive Formation Rule.
+
+**Source-indifferent macro target** — a proposed composite whose identity remains unchanged under removal, inversion, or replacement of source structures declared constitutive.
+
+**Teleological composition** — a `COMPOSE` occurrence in which the realized endpoint controls earlier source selection or interpretation, producing retrospective purpose or necessity rather than source-sensitive historical formation.
+
+Primary sites: Chapter 17 §§17.7–17.9.
+
+
+## Chapter 17 WP2-C Terminology Synchronization
+
+**Composition through omitted asymmetry** — A failed `COMPOSE` occurrence in which event order is retained but materially constitutive occurrence-level `Ω` load is removed from target identity.
+
+**False central Non-Event** — An unsupported `Λ` construction formed from missing information without a source-supported expectation frame, expected window, and praxeological non-occurrence effect.
+
+
+## Chapter 17 WP3-A Terminology Synchronization
+
+**Projection claim separation** — Preservation of an origin-typed PATH object while a contextual function claim is withheld for a separate `PROJECT_AS` record.
+
+**Resolution-neutral temporal elaboration** — A valid source-supported temporal refinement that leaves the warranted praxis reconstruction materially unchanged and forms neither a new PATH object nor `DECOMPOSE` automatically.
+
+**Trajectory/Attractor boundary** — Repetition within one historical Trajectory does not establish Attractor identity or a contextual Attractor-function.
+
+
+## Chapter 17 WP3-B Terminology Synchronization
+
+**PATH Local Audit** — chapter-level integration test over the case corpus; distinct from the twelve-stage audit of one Transformation Record.
+
+**Part-I lock readiness** — positive finding that Chapter-17 and PATH Gate prerequisites are complete; not the provisional lock act itself.
+
+**PATH Output census** — descriptive count of selected canonical classes in the current case corpus; never a quota, score, rank, or routing rule.
+
+## Part I — PATH Provisional-Lock Terminology
+
+**Part-I provisional lock** — positive integrated closure of the current Chapters 9–17 PATH corpus under its Contracts, cases, audits, references, model mirrors, and package checks; not final STRATA lock, empirical validation, or authority.
+
+**PATH reopening ground** — concrete Contract, type, operation, source/claim, artifact, schema, mapping, reference, fingerprint, package, or later integrated-audit conflict capable of changing the locked PATH state; not preference for more detail or stronger narrative closure.
+
+**PATH-to-SUB handoff** — transfer of a provisionally locked temporal composite as a possible Chapter-18 source object without inherited truth priority, decomposition requirement, or authority.

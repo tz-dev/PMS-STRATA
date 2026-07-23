@@ -1,0 +1,1269 @@
+schema_version: 0.1.2
+record_id: case.c17-res-01.decompose.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-23T21:15:00+02:00'
+  updated_at: '2026-07-23T21:15:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.Chapter-17-WP3A
+  repository_or_case_pointer: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml
+  record_provenance:
+  - Synthetic PATH confusion case C17-RES-01; no external empirical truth is asserted.
+  - Built against Transformation_Record.schema.json v0.1.3 and source repository ZIP 143.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Standalone PATH/SUB confusion-case record for a declared DECOMPOSE resolution test
+    with a resolution-neutral result.
+claim:
+  claim_id: claim.c17-res-01.decompose.01
+  statement: A declared DECOMPOSE test opens one prior warranted service Path at hourly granularity; the
+    source-supported distinctions leave the warranted praxis reconstruction materially unchanged and therefore
+    yield a resolution-neutral result rather than a new Path or stronger truth claim.
+  claim_type:
+    value: resolution test claim
+    control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: One prior warranted synthetic service Path and its declared hourly-log
+      refinement.
+    operation_occurrence_boundary: Only DECOMPOSE occurrence decompose.c17-res-01.01.
+    frame:
+      value: synthetic service Path resolution-comparison frame
+      control_source: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml#/claim/claim_scope/frame
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls.
+    granularity:
+      value: transition-level Path opened at hourly log granularity
+      control_source: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml#/claim/claim_scope/granularity
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls.
+    relative_level:
+      value: finer reconstruction relative to one retained Path composite
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls.
+    temporal_scope: Synthetic interval R0–R3 with hourly refinement.
+    source_scope: Prior intake/review/allocation/stabilization Path plus source-supported hourly status,
+      queue, acknowledgement, and routing entries.
+    context_scope: Synthetic Chapter 17 confusion case C17-RES-01 only.
+    generalization_boundary: No claim that all finer temporal distinctions are neutral or that every resolution
+      test should stop.
+    excluded_reach:
+    - No new Path, Trajectory, Path Dependence, target function, causal mechanism, prediction, evaluation,
+      application, or authority claim.
+    - Interface expansion alone is not treated as DECOMPOSE; only this separately declared operation occurrence
+      is.
+  validity_scope: Assessment of whether a separately declared finer reconstruction of the same Path reference
+    changes the warranted praxis-relevant structure.
+  claim_ceiling:
+    asserted_relation: The hourly distinctions are valid and reference-preserving but do not alter configuration
+      boundaries, transition identity, alternatives, burden, residue, source function, or Claim Ceiling.
+    reach: One explicit DECOMPOSE resolution test on one synthetic Path.
+    precision: The prior Path and added log distinctions are declared; no new claim-relevant component
+      relation appears.
+    generality: Single synthetic confusion case C17-RES-01.
+    functional_scope: The retained source function is the same bounded Path reconstruction; no contextual
+      target function is projected.
+    dependence_strength: The neutrality finding is limited to the declared distinction set and source
+      packet.
+    inferential_distance: One explicit comparison between the prior warranted reconstruction and its finer
+      source-supported opening.
+    limiting_sources:
+    - source.c17-res-01.prior-path
+    - source.c17-res-01.hourly-logs
+    rationale: The operation tests added resolution without granting finer granularity a truth priority
+      or converting a neutral result into a new PATH object.
+  authority_boundary: Only this synthetic resolution test is classified; no empirical, causal, normative,
+    diagnostic, legal, political, organizational, application, or authority status follows.
+source:
+  reference_object:
+    object_id: composite.path.c17-res-01
+    description: One prior warranted three-transition service Path treated as a provisionally compressed
+      composite for the declared resolution test.
+    typing:
+      value: composite structure
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/source_contract/recognized_object_families
+      inventory_status: current_controlled
+    source_pointer: 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md#2-prior-warranted-reconstruction
+  object_typing:
+    value: composite structure
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/source_contract/recognized_object_families
+    inventory_status: current_controlled
+  frame: &id003
+    value: synthetic service Path resolution-comparison frame
+    control_source: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls.
+  granularity:
+    value: three-transition Path granularity
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/direction/source_form
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls.
+  relative_level:
+    value: source Path composite relative to hourly candidate components
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls.
+  temporal_scope: Synthetic interval R0–R3.
+  source_scope: Exactly the prior warranted Path and the hourly distinctions needed for the declared resolution
+    test.
+  source_basis: &id001
+  - source_item_id: source.c17-res-01.prior-path
+    source_pointer: case://c17-res-01/prior-path
+    provenance_description: Synthetic declaration of the warranted intake → review → allocation → stabilization
+      Path.
+    affected_claim_component: Identity, transitions, alternatives, burden, residue, and Claim Ceiling
+      of the prior reconstruction.
+    support_mode: direct
+    evidence_role:
+      value: synthetic case declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local evidence role used only for formal smoke validation.
+    evidence_availability: available
+    temporal_scope: R0–R3
+    reference_scope: composite.path.c17-res-01
+    uncertainty_or_provenance_limit: Synthetic case source; no external empirical warrant.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.c17-res-01.hourly-logs
+    source_pointer: case://c17-res-01/hourly-logs
+    provenance_description: Synthetic declaration of hourly status, queue, acknowledgement, and routing
+      entries nested within the existing transition boundaries.
+    affected_claim_component: Assessment of whether added distinctions change configuration, transition,
+      alternatives, burden, residue, or source function.
+    support_mode: direct
+    evidence_role:
+      value: synthetic case declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local evidence role used only for formal smoke validation.
+    evidence_availability: available
+    temporal_scope: R0–R3
+    reference_scope: hourly distinctions within composite.path.c17-res-01
+    uncertainty_or_provenance_limit: Supports only the declared distinction set, not all possible finer
+      reconstructions.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+  - trace_id: trace.c17-res-01.prior-path
+    source_feature: Independently identifiable prior warranted Path composite.
+    affected_claim_component: Prior reconstruction preserved by the neutral test.
+    trace_role: load_bearing
+    result_dependency: Without the prior Path there is no same-reference DECOMPOSE question.
+    expected_result_change: Removing or replacing the Path defeats this record.
+    temporal_or_relational_dependency: R0–R3 remains the reference interval.
+    claim_limitation: Supports only the retained Path claim.
+    source_pointer: case://c17-res-01/prior-path
+  - trace_id: trace.c17-res-01.neutrality
+    source_feature: Hourly distinctions contain no source-supported change to a claim-relevant component
+      or relation.
+    affected_claim_component: Praxeological Relevance Floor and unchanged-reconstruction finding.
+    trace_role: limiting
+    result_dependency: The resolution-neutral result depends on the declared unchanged reconstruction.
+    expected_result_change: A materially changed component or relation requires a new record and potentially
+      a different result.
+    temporal_or_relational_dependency: The distinctions remain nested inside the prior transition intervals.
+    claim_limitation: Supports neutrality only for the declared distinction set.
+    source_pointer: case://c17-res-01/hourly-logs
+  known_gaps:
+  - Unrecorded microstates are unavailable.
+  - A different distinction set could reveal a material difference and requires a new record.
+  source_ceiling:
+    asserted_relation: The sources support one reference-preserving finer reconstruction and an unchanged-reconstruction
+      finding.
+    reach: The prior Path and declared hourly entries only.
+    precision: Configuration, transition, alternative, burden, residue, source-function, and Claim Ceiling
+      comparison.
+    generality: Single synthetic case.
+    functional_scope: No target function.
+    dependence_strength: No stronger historical dependence claim.
+    inferential_distance: One declared DECOMPOSE comparison.
+    limiting_sources:
+    - source.c17-res-01.prior-path
+    - source.c17-res-01.hourly-logs
+    rationale: The sources do not support a universal neutrality claim or a new PATH object.
+operation:
+  occurrence_id: decompose.c17-res-01.01
+  kind: DECOMPOSE
+  justification: The prior Path is deliberately opened under finer temporal resolution to test whether
+    the added distinctions change its warranted praxis reconstruction.
+  expected_praxeological_difference: A genuine resolution gain would change a component, relation, transition,
+    alternative, burden, residue, source-function assessment, or Claim Ceiling.
+  selection_rule: Retain the prior Path reference and all declared hourly distinctions; exclude unrelated
+    detail and any target-function claim.
+  transformation_context: Synthetic Chapter 17 PATH/SUB confusion-case resolution test.
+  details:
+    source_function:
+      value: retain one bounded service Path reconstruction
+      control_source: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml#/operation/details/source_function
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls.
+    decomposition_question: Do the hourly distinctions disclose a claim-relevant component or relation
+      that changes the prior warranted Path reconstruction?
+    insufficiency_of_current_compression: The compression is tested rather than presumed insufficient;
+      finer sources permit a bounded Changed-Reconstruction Test.
+    components:
+    - object_id: interval.c17-res-01.1
+      description: Hourly log interval group 1, nested inside an existing Path transition without a declared
+        claim-relevant change.
+      typing:
+        value: temporal log interval group
+        control_source: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml#/operation/details/components
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls.
+      source_pointer: case://c17-res-01/hourly-logs
+    - object_id: interval.c17-res-01.2
+      description: Hourly log interval group 2, nested inside an existing Path transition without a declared
+        claim-relevant change.
+      typing:
+        value: temporal log interval group
+        control_source: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml#/operation/details/components
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls.
+      source_pointer: case://c17-res-01/hourly-logs
+    - object_id: interval.c17-res-01.3
+      description: Hourly log interval group 3, nested inside an existing Path transition without a declared
+        claim-relevant change.
+      typing:
+        value: temporal log interval group
+        control_source: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml#/operation/details/components
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls.
+      source_pointer: case://c17-res-01/hourly-logs
+    component_relations:
+    - relation_id: relation.c17-res-01.1
+      relation_type:
+        value: immediate temporal succession
+        control_source: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml#/operation/details/component_relations
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls.
+      from_object_id: interval.c17-res-01.1
+      to_object_id: interval.c17-res-01.2
+      description: The earlier hourly interval group precedes the next without a claim-relevant transition.
+      constitutive: true
+      source_pointer: case://c17-res-01/hourly-logs
+    - relation_id: relation.c17-res-01.2
+      relation_type:
+        value: immediate temporal succession
+        control_source: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml#/operation/details/component_relations
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls.
+      from_object_id: interval.c17-res-01.2
+      to_object_id: interval.c17-res-01.3
+      description: The earlier hourly interval group precedes the next without a claim-relevant transition.
+      constitutive: true
+      source_pointer: case://c17-res-01/hourly-logs
+    internal_temporality: R0–R3 remains ordered as intake → review → allocation → stabilization; hourly
+      entries are nested within, not substituted for, these transitions.
+    source_support: *id001
+    source_reference_preserved: true
+    prior_source_claim_id: claim.c17-res-01.prior-warranted-path
+    unresolved_structure:
+    - Unrecorded microstates remain unavailable.
+    - Other distinction sets remain untested.
+    counterfactual_component_test: Removing hourly entries reduces trace density but leaves the prior
+      Path unchanged; a materially changed entry requires a new record.
+    source_function_effect_pointer: /result/operation_specific_result/source_function_effect
+    resolution_test_result_pointer: /result/status_declaration/resolution_test_result
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_granularity_pointer: /target/granularity
+target:
+  reference_object:
+    object_id: reconstruction.path.c17-res-01.finer
+    description: A finer relational reconstruction of the same service Path with hourly distinctions retained
+      and no material change to the warranted Path claim.
+    typing: &id002
+      value: finer relational reconstruction of the same reference object
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/target_contract/primary_result_kind
+      inventory_status: extension
+      extension_rationale: Local target description instantiates the DECOMPOSE target contract without
+        replacing the source object.
+    source_pointer: 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md#5-declared-decompose-test
+  object_typing: *id002
+  contextual_function: null
+  frame: *id003
+  granularity:
+    value: hourly relational reconstruction nested within prior transition boundaries
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/direction/target_form
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls.
+  relative_level:
+    value: finer target reconstruction relative to the retained Path composite
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls.
+  temporal_scope: Synthetic interval R0–R3 with hourly distinctions.
+  validity_scope: Only the declared finer reconstruction and unchanged-reconstruction finding.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: C17-RES-01 completes source_and_claim_entry for a reference-preserving DECOMPOSE
+        resolution test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: C17-RES-01 completes operation_classification for a reference-preserving DECOMPOSE
+        resolution test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C17-RES-01 completes relevance_floor for a reference-preserving DECOMPOSE resolution
+        test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C17-RES-01 completes traceability_ceiling for a reference-preserving DECOMPOSE
+        resolution test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C17-RES-01 completes continuity_and_type_integrity for a reference-preserving DECOMPOSE
+        resolution test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C17-RES-01 completes counterfactual_sensitivity for a reference-preserving DECOMPOSE
+        resolution test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C17-RES-01 completes loss_and_selection for a reference-preserving DECOMPOSE resolution
+        test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C17-RES-01 completes alternatives for a reference-preserving DECOMPOSE resolution
+        test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C17-RES-01 completes source_and_calibration_limits for a reference-preserving DECOMPOSE
+        resolution test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: C17-RES-01 completes anti_immunization for a reference-preserving DECOMPOSE resolution
+        test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: C17-RES-01 completes stop_and_non_capture for a reference-preserving DECOMPOSE
+        resolution test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: C17-RES-01 completes claim_and_authority_ceiling for a reference-preserving DECOMPOSE
+        resolution test.
+      rationale: The prior Path, finer distinctions, unchanged-reconstruction finding, limits, and governance
+        boundary are explicit.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: The finer distinctions are valid but leave the warranted praxis reconstruction
+        unchanged.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: neutral
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: traceable_load is bounded and satisfied for the declared C17-RES-01 resolution
+        test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: type_integrity is bounded and satisfied for the declared C17-RES-01 resolution
+        test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: reference_continuity is bounded and satisfied for the declared C17-RES-01 resolution
+        test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: functional_continuity is bounded and satisfied for the declared C17-RES-01 resolution
+        test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: temporal_continuity is bounded and satisfied for the declared C17-RES-01 resolution
+        test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: contextual_boundedness is bounded and satisfied for the declared C17-RES-01 resolution
+        test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: counterfactual_sensitivity is bounded and satisfied for the declared C17-RES-01
+        resolution test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: insensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: source_ceiling is bounded and satisfied for the declared C17-RES-01 resolution
+        test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: calibration is bounded and satisfied for the declared C17-RES-01 resolution test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: selection_and_loss is bounded and satisfied for the declared C17-RES-01 resolution
+        test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: alternatives is bounded and satisfied for the declared C17-RES-01 resolution test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: claim_ceiling is bounded and satisfied for the declared C17-RES-01 resolution
+        test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: authority_ceiling is bounded and satisfied for the declared C17-RES-01 resolution
+        test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: stop is bounded and satisfied for the declared C17-RES-01 resolution test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: optional
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: non_capture is bounded and satisfied for the declared C17-RES-01 resolution test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current stop determination and preserved earlier result are controlled by this
+          rule finding.
+      required_action: Retain the resolution-neutral finding and require a new record if source, distinction,
+        operation, or claim changes.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The valid DECOMPOSE occurrence preserves reference and trace while the Changed-Reconstruction
+    Test is neutral; route to resolution_neutral.
+  anti_immunization_assessment: The DECOMPOSE result is a new test and does not retroactively upgrade
+    any PATH claim; changed grounds require a new record.
+  stop_assessment:
+    reached: true
+    condition_assessed: true
+    rationale: Further identical distinctions add no purchase; Optional Stop preserves the completed neutral
+      result.
+    mode: optional
+    stop_condition: Stop identical further refinement without new source-supported praxis purchase.
+    preserved_result: The prior Path, finer source detail, and resolution-neutral finding remain available.
+    reentry_contemplated: true
+    reentry_conditions:
+    - changed_condition: A new source-supported distinction changes a component, relation, transition,
+        alternative, burden, residue, source function, or Claim Ceiling.
+      new_or_revised_record_id: case.c17-res-01.decompose.reentry
+      rationale: Changed grounds create a new testable claim and require a new record.
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The prior Path and neutral finding are adequately captured for the declared distinction
+      set.
+loss:
+  preserved:
+  - item_id: loss.c17-res-01.preserved.1
+    affected_element: Prior Path reference and hourly details
+    description: The prior Path and valid hourly distinctions remain explicit.
+    reason: The five-part Loss record preserves what the neutral resolution test can and cannot support.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Bound the present result and require a new record for changed grounds.
+  - item_id: loss.c17-res-01.preserved.2
+    affected_element: Prior Path reference and hourly details
+    description: The prior Path and valid hourly distinctions remain explicit.
+    reason: The five-part Loss record preserves what the neutral resolution test can and cannot support.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Bound the present result and require a new record for changed grounds.
+  - item_id: loss.c17-res-01.preserved.3
+    affected_element: Prior Path reference and hourly details
+    description: The prior Path and valid hourly distinctions remain explicit.
+    reason: The five-part Loss record preserves what the neutral resolution test can and cannot support.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Bound the present result and require a new record for changed grounds.
+  compressed:
+  - item_id: loss.c17-res-01.compressed.1
+    affected_element: Repeated identical hourly entries
+    description: Repeated unchanged entries are summarized after the test.
+    reason: The five-part Loss record preserves what the neutral resolution test can and cannot support.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Bound the present result and require a new record for changed grounds.
+    source_or_evidence_pointer: /operation/details/components
+    recoverability_or_reentry_note: Recoverable in a new record if changed evidence establishes a differentiating
+      component or relation.
+  excluded:
+  - item_id: loss.c17-res-01.excluded.1
+    affected_element: Stronger PATH and target-function reach
+    description: No new Path, Trajectory, Path Dependence, target function, prediction, application, or
+      authority is retained.
+    reason: The five-part Loss record preserves what the neutral resolution test can and cannot support.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Bound the present result and require a new record for changed grounds.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: Requires external source material and a new transformation record.
+  uncertain: []
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions:
+  - alternative_id: alternative.c17-res-01.rival_decompositions.1
+    claim_relation: Retain the prior Path, use logs as detail, or run a new changed-ground DECOMPOSE record.
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Requires no stronger claim unless new source-supported praxis difference is shown.
+    current_handling: unresolved
+    rationale: No outcome is inherited beyond the present resolution-neutral test.
+  rival_projections: []
+  no_transformation:
+  - alternative_id: alternative.c17-res-01.no_transformation.1
+    claim_relation: Retain the prior Path, use logs as detail, or run a new changed-ground DECOMPOSE record.
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Requires no stronger claim unless new source-supported praxis difference is shown.
+    current_handling: retained
+    rationale: No outcome is inherited beyond the present resolution-neutral test.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: The resolution-neutral result applies only to the synthetic DECOMPOSE comparison
+    and grants no empirical, causal, normative, diagnostic, legal, organizational, application, or authority
+    status.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - resolution-neutral does not mean no future distinction can matter
+  - finer granularity has no truth priority
+  - interface expansion does not instantiate DECOMPOSE by itself
+  - a valid DECOMPOSE occurrence may end without changed reconstruction
+  - formal validation does not establish substantive truth or authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: The prior Path is validly opened at finer temporal resolution; the distinctions remain traceable
+      but do not alter the warranted praxis reconstruction.
+    result_family:
+      value: resolution-neutral result
+      control_source: 07_model/Output_Classes.yaml#/output_classes/resolution_neutral/representative_local_results
+      inventory_status: current_controlled
+    source_function_effect:
+      value: confirmed
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/reference_logic/recognized_source_function_result_examples
+      inventory_status: current_controlled
+    prior_source_claim_disposition: maintained
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids:
+    - claim.c17-res-01.prior-warranted-path
+  status_declaration:
+    support_status: supported
+    resolution_test_result: resolution_neutral
+    capture_statement:
+      statement: The prior Path and neutral resolution finding are adequately captured; other distinction
+        sets remain open to new tests.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The constitutive conditions for admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: The constitutive conditions for admissible_with_bounded_claim are not decisive for
+          this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_with_bounded_claim result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The constitutive conditions for admissible_but_provisional are not decisive for this
+          delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: selected
+        rationale: The declared DECOMPOSE test is source-supported and leaves the warranted reconstruction
+          unchanged.
+        constitutive_condition_pointers:
+        - /operation/kind
+        - /source/reference_object
+        - /target
+        - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+        - /result/status_declaration/resolution_test_result
+        preserved_finding: The prior Path, finer distinctions, and unchanged-reconstruction finding are
+          retained.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The constitutive conditions for partially_admissible are not decisive for this delimited
+          claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The constitutive conditions for claim_reduction_required are not decisive for this
+          delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The constitutive conditions for mandatory_stop are not decisive for this delimited
+          claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The constitutive conditions for failed_transformation are not decisive for this delimited
+          claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: The constitutive conditions for non_capture are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: resolution_neutral
+    route_id: route_resolution_neutral
+    matched_constitutive_conditions:
+    - /operation/kind
+    - /source/reference_object
+    - /target
+    - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+    - /result/status_declaration/resolution_test_result
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - Hourly distinctions remain valid source detail.
+    - Optional Stop applies only to identical repetition without changed grounds.
+    split_decision:
+      required: false
+      rationale: One declared DECOMPOSE resolution test; no same-occurrence split is required.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The operation is correctly typed as DECOMPOSE, reference and trace are
+      preserved, and the finer reconstruction leaves the warranted praxis claim unchanged.
+    current_claim_disposition:
+      value: maintained
+      rationale: The neutral DECOMPOSE result and prior Path are maintained; no stronger PATH claim is
+        generated.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: resolution_neutral
+    prior_warranted_reconstruction_pointer: /source/reference_object
+    unchanged_reconstruction_finding: Configurations, transitions, alternatives, burden, residue, source
+      function, target identity, and Claim Ceiling remain materially unchanged.
+    rejected_resolution_gain_claim: The hourly distinctions create a stronger Path or possess truth priority
+      because they are finer.
+    rationale: The declared DECOMPOSE occurrence is valid and source-supported, but the distinctions produce
+      no praxeological gain for the tested reconstruction.
+relations:
+  prior_record_ids: []
+  prior_claim_ids:
+  - claim.c17-res-01.prior-warranted-path
+  sibling_claim_or_record_ids: []
+  rival_record_ids: []
+  countercase_refs:
+  - C16-CHRON-01
+  - C17-CHRON-01
+  - C17-PROJ-01
+extensions:
+- extension_id: pms-strata:chapter17:path-confusion-case:c17-res-01:v0.1
+  owner_or_source: PMS-STRATA Chapter 17
+  control_source_pointer: 01_blocks/02_part_i_path.md#1713-confusion-case-path-or-resolution-drift
+  purpose: Carry the Chapter-17 confusion-case wrapper and local audit summary without replacing Shared
+    Transformation Record fields.
+  payload:
+    path_case:
+      case_id: C17-RES-01
+      case_class: confusion_case
+      title: Path or Resolution Drift?
+      markdown_artifact: 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+      yaml_artifact: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml
+      governing_claim: A declared DECOMPOSE test opens one prior warranted service Path at hourly granularity;
+        the source-supported distinctions leave the warranted praxis reconstruction materially unchanged
+        and therefore yield a resolution-neutral result rather than a new Path or stronger truth claim.
+      starting_configuration: One prior warranted three-transition service Path.
+      transitions:
+      - declared DECOMPOSE opening at hourly resolution
+      - unchanged-reconstruction finding
+      events:
+      - source-supported hourly status, queue, acknowledgement, and routing entries
+      non_events: []
+      branches_and_alternatives: Prior Path, log-only route, changed-ground future DECOMPOSE test, and
+        Optional Stop remain separate.
+      compose_decision: No new COMPOSE occurrence is executed; the current record is a DECOMPOSE resolution
+        test on the prior Path composite.
+      path_or_trajectory_result: resolution-neutral finer reconstruction; no new Path or stronger historical
+        claim
+      path_dependence_finding: Unchanged; no stronger historical claim is supported.
+      local_audit_result:
+        status: pass
+        stages_complete: 12
+        warnings: 0
+        errors: 0
+      canonical_output_mapping: resolution_neutral
+      stop_or_non_capture_status: Optional Stop for identical repetition; mandatory Stop and Non-Capture
+        not selected
+      governance_boundary: No target function, causality, person judgment, legitimacy, sanction, application
+        authority, or authority inheritance.
+  does_not_replace_required_field: true

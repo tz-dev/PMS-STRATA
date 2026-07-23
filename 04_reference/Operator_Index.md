@@ -1,6 +1,6 @@
 # PMS-STRATA — Operator Index
 
-**Status:** Reference Kernel v0.1.32 — Chapter-10-WP2-synchronized PMS-operator control  
+**Status:** Reference Kernel v0.1.34 — Chapter-11-WP2-synchronized PMS-operator control  
 **Repository role:** `04_reference` navigation and operator-boundary control; not an independent PMS or STRATA theory source
 **Control sources:** `PMS.yaml` for the repository-reference operator inventory, names, order, dependencies, layers, and Base guardrails; *Towards a Praxeological Meta-Structure Theory* as a supporting PMS explanatory source; [`Chapter 1`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) for the provisionally locked object model and identity burden; `05_minified/*` and `05_minified/Chapter_Contracts.md` for the limits of STRATA inference, transformation, and claim; [`Chapter 2`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) for analytical-coordinate boundaries; [`Chapter 3`](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) for temporal-object burdens; [`Chapter 4`](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) for the closed three-operation grammar; and `04_reference/Chapter_1_Preparation_Record.md` through `04_reference/Chapter_5_Preparation_Record.md` for non-theory production status and handoff
 
@@ -1488,3 +1488,545 @@ PMS operator occurrences may help reconstruct availability, obstruction, non-rea
 
 A status claim remains a derived, frame- and source-bound historical relation. No PMS operator type, ordering, dependency, or identity is changed. Canonical route: [`Chapter 10 §§10.7–10.10`](../01_blocks/02_part_i_path.md#10-7-realized-path).
 
+---
+
+## Chapter 10 WP3 — PMS Operators and Path Comparison
+
+PMS operator occurrences may form compared dimensions within path records, including frame, non-event, asymmetry, temporality, and recontextualization. They do not determine comparability, endpoint equivalence, dependence, ranking, or record validity by themselves.
+
+```text
+shared operator occurrence
+≠ same path automatically
+
+Θ-supported history
+≠ strong path dependence automatically
+
+Φ-supported recontextualization
+≠ endpoint equivalence or path erasure
+```
+
+No PMS operator type, order, dependency, or authority is changed. Canonical route: [`Chapter 10 §§10.11–10.14`](../01_blocks/02_part_i_path.md#10-11-path-comparison).
+
+
+## Chapter 10 WP4 — PMS Occurrence and Path Lock Boundary
+
+Chapter 10 is provisionally locked without changing any Δ–Ψ operator identity, order, or dependency. Operator occurrences may populate configurations, transitions, event clusters, non-event structures, bindings, asymmetries, and residue inside a Path. They do not become Path status, Path identity, or operation selection automatically.
+
+```text
+operator-occurrence sequence
+≠ warranted path automatically
+
+path reconstruction
+≠ new PMS operator
+```
+
+Canonical return: [`Chapter 10`](../01_blocks/02_part_i_path.md#chapter-10-path).
+
+---
+
+## Chapter 11 Preparation — PMS Operator Material and Trajectory Boundary
+
+Chapter 11 may test temporally extended relations among bounded operator occurrences. It does not alter operator types, order, dependencies, or inventory.
+
+| PMS-related material | Permitted Trajectory use | Prohibited inference |
+| --- | --- | --- |
+| `Α + Θ` occurrence relation | supports Attractor Sedimentation where continuation accessibility changes | new combined operator, inevitability, or attractor-function |
+| `Ω + Θ` occurrence relation | supports cumulative differential cost, access, exposure, or exit burden | every unequal result is accumulated Asymmetry |
+| `Ψ + Θ` occurrence relation | supports persistent commitment and breach/reopening costs | moral legitimacy, personal commitment, or permanent binding |
+| `Λ + Θ` occurrence relation | supports expectation-bound persistent residue | missing data or every absence becomes Non-Event |
+| `Φ` occurrence where separately warranted | may recontextualize earlier Trajectory material | abstract frame change becomes `Φ` or `PROJECT_AS` automatically |
+| operator weighting profile | may vary across Trajectory segments | weighting becomes operator replacement or person type |
+
+```text
+operator-profile history
+≠ trajectory automatically
+
+trajectory object
+≠ PMS operator
+≠ STRATA operation
+```
+
+Production control: [`Chapter 11 Preparation Record`](Chapter_11_Preparation_Record.md).
+
+## Chapter 11 WP1 — Operator Occurrence and Trajectory Boundary
+
+Chapter 11 WP1 does not define a Trajectory operator. `Θ` remains the PMS Base operator type for temporal structuring. A Trajectory is a derived temporal object whose warrant depends on occurrence-level historical carriers and present praxis effects.
+
+```text
+Θ operator type
+≠ Θ occurrence
+≠ Trajectory object
+```
+
+`Α`, `Ω`, `Ψ`, and `Λ` occurrences supply the profile-specific sedimentation burdens canonically operationalized in WP2. Their co-presence with `Θ` does not fuse operators, create a fourth operation, or mechanically establish Trajectory.
+
+```text
+operator symbol co-presence
+≠ historical carrier proof
+```
+
+Canonical routes: [`Chapter 11 §§11.1–11.4`](../01_blocks/02_part_i_path.md#11-trajectory) and [`§§11.5–11.9`](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation).
+
+## Chapter 11 WP2 — Operator-Occurrence Profile Control
+
+WP2 operationalizes four bounded occurrence-level temporal relations without altering PMS Base:
+
+| Profile | Permitted occurrence-level reading | Prohibited inference |
+| --- | --- | --- |
+| `Α + Θ` | Attractor occurrence retained or translated across time with changed local friction or continuation accessibility | fused operator, necessity, attractor-function, automatic Trajectory |
+| `Ω + Θ` | Asymmetry occurrence retained, intensified, redistributed, or hardened across time with present differential load | moral rank, legitimacy, deterministic role closure |
+| `Ψ + Θ` | Binding occurrences layered or transformed across time with present reliance, breach, or reopening effect | psychological commitment, consent, moral duty, mandatory continuation |
+| `Λ + Θ` | expectation-bound Non-Event occurrences retained or transformed across time with present residue | missing information, every absence as `Λ`, permanence |
+
+```text
+operator type
+≠ operator occurrence
+≠ temporal profile
+≠ Trajectory object
+```
+
+The profiles are neither exhaustive requirements nor mutually compensatory. A Trajectory may instantiate one or several; constitutive, contextual, absent, and uncertain profiles must remain visible. Canonical route: [`Chapter 11 §§11.5–11.9`](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation).
+
+## Chapter 11 WP3 — Boundary, Compression, and Operator-Type Protection
+
+WP3 does not add or modify an operator. Boundary, Compression, competing construction, False Trajectory, and Minimal Record remain analytical declarations concerning a derived Trajectory object.
+
+| WP3 declaration | Permitted relation to PMS operators | Prohibited inference |
+| --- | --- | --- |
+| Trajectory Boundary | bounds the occurrence-level interval within which `Α`, `Ω`, `Ψ`, `Λ`, and `Θ` carriers are tested | natural layer, operator boundary, or unique periodization |
+| Trajectory Compression | preserves or declares loss concerning operator-typed occurrences and their temporal relations | operator decomposition, fusion, or macro-label replacement |
+| competing construction | compares different occurrence-level selections and carrier claims | new operator, automatic synthesis, or all-rivals-valid conclusion |
+| False Trajectory | marks failure of a derived-object claim while preserving warranted occurrences | failure of PMS operator types or erasure of local occurrences |
+| Minimal Trajectory Record | records occurrence-level profile declarations inside the Shared Record | machine proof of operator application or historical truth |
+
+```text
+boundary / compression / record
+≠ PMS operator
+≠ STRATA operation
+```
+
+Canonical route: [`Chapter 11 §§11.10–11.14`](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary).
+
+## Chapter 11 WP4 — PMS Occurrence and Trajectory Lock Boundary
+
+Chapter 11 is provisionally locked without changing any Δ–Ψ operator identity, order, dependency, or inventory. `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ` identify bounded occurrence-level historical-load relations only.
+
+```text
+operator type
+≠ occurrence profile
+≠ Trajectory object
+
+operator combination
+≠ operator fusion
+≠ new primitive
+```
+
+A Trajectory claim requires occurrence-level source traces and present praxis effects. PMS symbols cannot replace evidence, create Path Dependence, assign a target function, or authorize action.
+
+
+---
+
+## Chapter 12 Preparation — PMS Operator Material and Dependence Boundary
+
+Chapter 12 tests bounded occurrence relations and their present historical load. It does not alter the Δ–Ψ inventory, order, dependencies, names, or type identities.
+
+| PMS-related material | Permitted Path-Dependence use | Prohibited inference |
+| --- | --- | --- |
+| `Θ` | declares sequence, duration, retention, and the temporal relation required by a dependence claim | `Θ` alone proves dependence, necessity, fate, or prediction |
+| `Α + Θ` occurrence relation | may carry historically changed friction, default expectation, visibility, or continuation accessibility | fused operator, universal attractor score, or inevitability |
+| `Ω + Θ` occurrence relation | may carry accumulated differential cost, role, exposure, access, burden, or exit condition | moral/person ranking, legitimacy, or every present inequality is historical dependence |
+| `Ψ + Θ` occurrence relation | may carry commitments, reliance, coordination investment, breach, release, or reopening costs | psychological intention, moral obligation, permanent binding, or authority |
+| `Λ + Θ` occurrence relation | may carry expectation-bound missed windows, non-decision, delayed repair, or persistent residue | missing information or every absence becomes dependence |
+| warranted `Φ` occurrence | may recontextualize, attenuate, amplify, redirect, or redistribute prior load | new frame equals reset or automatic `PROJECT_AS` |
+| later `Χ` occurrence | may interrupt or create distance from a dependence-bearing pattern | distance erases history automatically |
+| later `Σ` occurrence | may integrate contradictory load into a changed present configuration | integration proves resolution, legitimacy, or lossless reset |
+| later `Ψ` occurrence | may stabilize a revised commitment, release, repair, or new binding structure | same occurrence as the earlier `Ψ + Θ` carrier or automatic erasure |
+
+```text
+operator type capacity
+≠ occurrence-level dependence warrant
+
+profile interaction
+≠ operator fusion
+≠ additive dependence score
+```
+
+Production control: [`Chapter 12 Preparation Record`](Chapter_12_Preparation_Record.md).
+
+## Chapter 12 WP1 Operator Handoff
+
+- `Θ` is necessary for sequence and temporal extension but is explicitly insufficient for Path Dependence without a historical carrier, present effect, current-state challenge, and historical-indispensability burden.
+- `Α`, `Ω`, `Ψ`, and `Λ` symbols do not establish dependence-bearing occurrences by co-presence. Their bounded `+ Θ` profiles are owned by Chapter 12 WP2.
+- Path Dependence remains a property of a warranted Path or Trajectory claim; it is not an operator, operator occurrence, composite, or operation.
+- No operator combination creates a universal dependence score, probability, causal law, or target function.
+
+Primary route: [Chapter 12 WP1](../01_blocks/02_part_i_path.md#12-path-dependence-and-sedimentation).
+
+## Chapter 12 WP2 Operator-Profile Handoff
+
+| PMS type relation | STRATA occurrence-level question | Prohibited inference |
+| --- | --- | --- |
+| `Α + Θ` | did prior recurrence make one current route materially history-dependent in friction, expectation, visibility, or accessibility? | recurrence, current default, inevitability, or attractor-function automatically |
+| `Ω + Θ` | did prior distribution make one current differential materially history-dependent? | person rank, guilt, legitimacy, duty, or sanction |
+| `Ψ + Θ` | did prior Binding and reliance make one current commitment or reopening dimension materially history-dependent? | inner intention, moral obligation, permanent commitment, or enforcement authority |
+| `Λ + Θ` | did a warranted expectation-bound Non-Event leave materially history-dependent present residue? | missing information, every absence, blame, or permanent residue |
+
+The combinations remain separate operator occurrences under temporal trace. No operator type is renamed, fused, decomposed, extended, or reordered.
+
+## Chapter 12 WP3 Modifier and Recontextualization Handoff
+
+| Operator occurrence | Chapter-12 role | Prohibited inference |
+| --- | --- | --- |
+| `Φ` | changes frame and tests retention, translation, attenuation, redistribution, replacement, or release of a historical carrier | reset, origin-type change, or target function automatically |
+| later `Χ` | may interrupt automatic continuation and open reflective distance | erased cost, released commitment, or repaired residue automatically |
+| later `Σ` | may integrate conflicting carriers into a workable present | history-free present or retroactive validation |
+| later `Ψ` | may bind repair, release, transition, preservation, or renewed continuation | identity with earlier `Ψ + Θ`, legitimacy, permanent obligation, or authority |
+
+All are occurrence-level modifiers under declared frames and temporal positions. The operator types remain unchanged.
+
+## Chapter 12 WP4 — Operator Occurrence and Dependence Lock Boundary
+
+Chapter 12 uses `Θ` with separately warranted `Α`, `Ω`, `Ψ`, and `Λ` occurrences as possible historical carriers. No combination fuses operators or creates a dependence operator. `Φ`, later `Χ`, `Σ`, and later `Ψ` remain separately typed modifier occurrences.
+
+```text
+operator combination
+≠ operator fusion
+
+operator occurrence support
+≠ property warrant automatically
+```
+
+Canonical return: [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary).
+
+---
+
+## Chapter 13 Preparation — Operator Material and Alternative-Space Boundary
+
+Chapter 13 may use bounded occurrences of `Λ`, `Ω`, `Θ`, `Φ`, and `Ψ` to reconstruct non-selection, blocking, delay, later loss, recontextualization, and binding effects. No symbol or combination classifies a branch automatically.
+
+```text
+operator occurrence support
+≠ branch-status proof
+```
+
+- `Θ` may locate windows, delay, sequence, and later unavailability; time alone does not establish availability or loss.
+- `Ω` may support asymmetrical access, exposure, resources, or blocking; asymmetry alone does not establish blame or blockage.
+- `Ψ` may support binding constraints or accumulated commitment; binding alone does not establish impossibility.
+- `Λ` may support non-selection or missed transition only where an expectation and decision context are warranted.
+- `Φ` may change later reachability without erasing the earlier branch status.
+
+The Δ–Ψ inventory and dependencies remain unchanged.
+
+## Chapter 13 WP1 — Operator Material and Branch-Status Boundary
+
+`Θ`, `Ω`, `Ψ`, `Λ`, and `Φ` occurrences may support window, cost, binding, non-selection, and later-reachability claims. No symbol or combination establishes availability, a Branch Point, realization, or rejection automatically.
+
+```text
+operator occurrence support
+≠ branch-status proof
+```
+
+Primary route: [Chapter 13 WP1](../01_blocks/02_part_i_path.md#13-1-why-path-must-include-alternatives).
+
+## Chapter 13 WP2 — Operator Material and Status Boundary
+
+`□`, `Λ`, `Ω`, `Θ`, `Φ`, and `Ψ` occurrences may support bounded blocking, interruption, deferral, changed-frame, later-reachability, and loss-transition claims. No symbol or combination automatically establishes Blocked, Aborted, Deferred, or Lost status.
+
+```text
+operator occurrence
+≠ branch-status classifier
+```
+
+`Θ`, `Ω`, `Ψ`, `Λ`, or `□` may carry a Lost-Alternative mechanism only where earlier availability, later unavailability, and the source-linked reachability change are independently supported. Operator density, graph complexity, or same-label continuity do not compensate for missing source trace.
+
+Primary route: [Chapter 13 WP2](../01_blocks/02_part_i_path.md#13-5-blocked-branch).
+
+## Chapter 13 WP3 — Operator Material and Counterfactual/Non-Selection Boundary
+
+WP3 may use bounded operator occurrences to describe source-supported historical relations:
+
+- `Θ` may mark windows, sequence, delay, expiry, and counterfactual horizon;
+- `Λ` may support Non-Selection only after the expectation and Non-Event burdens are met;
+- `Ω` may describe differential access, exposure, cost, or capacity across alternatives;
+- `Ψ` may describe commitments or reliance that preserve or close continuations;
+- `□` may describe the historical frame in which an alternative counted as available;
+- `Φ` may describe later reconstitution without retroactive continuity.
+
+No operator or combination establishes a Counterfactual Path, Non-Selection, branch status, unrealized success, or Output Class automatically. `Λ` ownership remains fully tested in Chapter 14.
+
+Primary route: [Chapter 13 WP3](../01_blocks/02_part_i_path.md#13-9-counterfactual-path).
+
+## Chapter 13 Provisional-Lock Operator Boundary
+
+Chapter 13 uses bounded occurrences of `Λ`, `Ω`, `Θ`, `Φ`, and `Ψ` to reconstruct decision windows, asymmetrical availability, temporal deferral, recontextualized reachability, binding, loss, and residual effects. No operator symbol or combination classifies a branch automatically.
+
+`Λ` remains especially protected: Non-Selection, delay, missing decision records, blockage, or loss do not become Non-Events without Chapter-14 expectation-grounded testing.
+
+Canonical return: [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary).
+
+## Chapter 14 Preparation — `Λ` Occurrence and PATH Boundary
+
+Chapter 14 operationalizes `Λ` inside Paths and Trajectories without changing the PMS operator inventory.
+
+```text
+identifiable expected occurrence
++ warranted expectation relation
++ expectation frame
++ bounded expected window
++ source-supported non-realization
++ praxeological load
++ temporal-chain relevance
+→ PATH-specific Λ candidate
+```
+
+`Θ` may carry duration, order, recurrence, and sedimentation pressure, but `Θ` alone does not establish a Non-Event. `Α`, `Ω`, and `Ψ` may interact with `Λ + Θ` through changed default corridors, asymmetric costs, bindings, or residue. These are occurrence interactions, not operator fusion or a new composite operator type.
+
+Protected boundaries:
+
+```text
+Λ ≠ absence
+Λ ≠ missing information
+Λ + Θ ≠ sedimentation automatically
+Λ occurrence ≠ Path Dependence
+Λ occurrence ≠ person motive or blame
+```
+
+Chapter 15 owns later `COMPOSE`; Chapter 23 owns internal decomposition; RETYPE owns any later contextual function.
+
+## Chapter 14 WP1 — `Λ` within PATH
+
+`Λ` remains the unchanged PMS Non-Event occurrence type. Chapter 14 WP1 operationalizes its PATH burden without renaming, fusion, order change, or expansion.
+
+```text
+Λ + Θ
+≠ fused operator
+
+local Λ
+≠ Α, Ω, Ψ, Trajectory, or Path Dependence automatically
+```
+
+Positive sub-events may coexist with a governing `Λ` occurrence at another declared granularity. Operator support does not establish intention, blame, operation result, or authority.
+
+## Chapter 14 WP2 — Repeated and Sedimented `Λ`
+
+WP2 applies the unchanged `Λ` occurrence type across renewed windows and later carriers.
+
+```text
+repeated Λ occurrences
+≠ fused operator
+
+Λ + Θ
+≠ sedimentation automatically
+```
+
+Possible `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ` interactions remain separately supported occurrence profiles. Profile richness cannot repair an invalid expectation or non-realization substrate.
+
+## Chapter 14 WP3 — `Λ` Preservation Boundary
+
+A warranted `Λ` occurrence may enter later composition without changing operator type.
+
+```text
+compressed Λ
+≠ positive event
+≠ fused operator
+```
+
+Positive sub-events may coexist with the governing non-realization. Representation at finer granularity does not erase `Λ` automatically and has no authority privilege.
+
+## Chapter 14 Provisional-Lock Operator Boundary
+
+Chapter 14 operationalizes PATH-specific occurrences of `Λ` and possible `Λ + Θ`, `Α + Θ`, `Ω + Θ`, and `Ψ + Θ` interactions. No symbol, duration, repetition count, profile combination, later residue, or graph pattern classifies a Non-Event automatically.
+
+`Λ` remains expectation-, frame-, window-, source-, granularity-, and load-bound. Its later preservation through `COMPOSE` does not fuse operators or create a new operator type.
+
+Canonical return: [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary).
+
+## Chapter 15 Preparation — Operator-Type and COMPOSE-Occurrence Boundary
+
+Chapter 15 applies the existing `COMPOSE` operation to operator-typed occurrences and other eligible source objects. It does not compose or rewrite the Δ–Ψ operator types themselves.
+
+```text
+operator type
+≠ operator occurrence
+≠ composite
+```
+
+A composite may preserve `Λ`, `Ω`, `Ψ`, `Α`, and other occurrence-level loads without operator fusion. Source occurrence typing remains unchanged. `Θ` may support temporal ordering but does not alone establish Path, Trajectory, sedimentation, or Path Dependence.
+
+`COMPOSE` formation creates a derived analytical object, not a higher-level operator type or target function.
+
+## Chapter 15 WP1 — Operator Occurrences as Typed COMPOSE Sources
+
+Operator-typed occurrences may enter a Chapter-15 source set without changing operator identity.
+
+```text
+source occurrence type before COMPOSE
+=
+source occurrence type after COMPOSE
+```
+
+`Λ`, `Ω`, `Ψ`, `Α`, and other occurrence-level loads remain distinct where preserved. Their joint inclusion does not fuse operator types, create a higher-level operator, establish a target function, or increase authority.
+
+Chapter 15 WP1 records source identity, type, lineage, frame, granularity, level, support, uncertainty, and role before formation is tested.
+
+## Chapter 15 WP2 — Operator Load in Formation and Loss
+
+Operator-typed occurrences may be constitutive, supporting, compressed, excluded, uncertain, or irrecoverably unavailable within one `COMPOSE` occurrence without changing operator identity.
+
+```text
+operator load preserved in composite
+≠ operator fusion
+≠ higher-level operator
+```
+
+A chronology that omits claim-relevant `Λ`, `Ω`, `Ψ`, or `Α` load does not preserve the praxeological object merely because dates remain correct. A later residue cannot retroactively establish an invalid source occurrence, and compression cannot convert a Non-Event into a positive event.
+
+Chapter 15 WP2 creates no operator type, profile score, target function, or authority route.
+
+## Chapter 15 WP3 — Operator-Type Preservation through COMPOSE
+
+```text
+operator-typed source before COMPOSE
+=
+operator-typed source after COMPOSE
+```
+
+Constitutive or supporting role inside one composition does not create a new operator type, fuse operators, or assign a contextual target function. Counterfactual removal of operator load tests the composition claim; it does not prove causal necessity or erase source identity.
+
+## Chapter 15 Provisional-Lock Operator Boundary
+
+Operator-typed occurrences may be selected as `COMPOSE` sources and may carry constitutive or supporting load. Composition does not fuse operators, change their origin types, create a new operator, or assign a contextual target function.
+
+```text
+operator role inside a composite
+≠ operator-type change
+```
+
+Canonical return: [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary).
+
+## Chapter 16 Preparation — Omitted Operator-Load Boundary
+
+Chapter 16 tests whether a PATH result preserves occurrence-level operator load where constitutive. It does not redefine or fuse Δ–Ψ.
+
+```text
+positive-event sequence
+≠ complete Path where Λ is constitutive
+
+same event label
+≠ same practical load where Ω differs
+```
+
+`Λ` and `Ω` omissions receive separate pressure tests. `Ψ`, `Α`, and other occurrence-level loads remain visible where claim-relevant. No operator occurrence automatically establishes Path, Trajectory, teleology, or output class.
+
+## Chapter 16 WP1 — Operator Load at the PATH Boundaries
+
+Operator occurrences remain relevant to the Ceiling where they are constitutive to the temporal object or claim. In particular, `Λ`, `Ω`, `Ψ`, and residual load may not be translated into generic development language or hidden by punctualization.
+
+```text
+operator-bearing source removed
++ target unchanged
+→ constitutive claim under pressure
+```
+
+WP1 does not fuse operator types, infer omitted load automatically, or decide the later WP2 omission tests. It establishes only that a target claiming such load must remain traceable to it.
+
+## Chapter 16 WP2 — Constitutive `Λ` and `Ω` Preservation
+
+A PATH target remains under upper-bound pressure where source-supported `Λ` or `Ω` load is constitutive but removed, translated into generic event language, or made invisible by aggregation.
+
+```text
+positive activity during a window
+≠ realization of the governing expected occurrence
+
+same formal milestone
+≠ same practical load
+```
+
+WP2 does not infer `Λ` from silence or `Ω` from formal difference alone. The underlying occurrence-level thresholds remain owned by PMS Base and Chapters 12–14. Chapter 16 tests preservation and materiality within the PATH claim.
+
+## Chapter 16 WP3 — Operator Load in Purchase and Trace
+
+Occurrence-level operator load contributes to PATH purchase or trace only where its preservation materially changes the tested reconstruction or target dependency.
+
+```text
+operator occurrence present
+≠ PATH purchase automatically
+
+operator load cited
+≠ operator load traceably constitutive
+```
+
+Removal pressure may show that `Λ`, `Ω`, `Ψ`, `Α`, or other occurrence-level load is constitutive, supporting, neutral, uncertain, or unavailable. The test does not fuse operators, prove causality, choose an Output Class, or assign authority.
+
+## Chapter 16 Provisional-Lock Operator Boundary
+
+Chapter 16 changes no Δ–Ψ type or dependency. It tests whether occurrence-level operator load remains traceable where constitutive to a PATH claim. In particular, warrantable `Λ` and source-supported `Ω` cannot be erased by positive-event narration, aggregate geometry, common labels, or macro-periodization where their restoration changes the target boundary or claim.
+
+```text
+operator occurrence preserved in PATH
+≠ operator fusion
+≠ automatic Path Dependence
+≠ person judgment
+```
+
+Canonical return: [`Chapter 16 completion boundary`](../01_blocks/02_part_i_path.md#chapter-16-completion-boundary).
+
+## Chapter 17 Preparation — Operator-Load Case Duties
+
+Chapter 17 must test occurrence-level `Λ`, `Ω`, `Ψ`, `Α`, and `Θ` load where material without fusing operators or treating a rendered graph as operator evidence. The central Non-Event case must preserve expectation, window, non-realization support, positive sub-events, sedimentation, and uncertainty. The omitted-asymmetry countercase must show that equal event labels do not erase unequal practical load.
+
+Case execution may apply operators and operator profiles, but it may not redefine Δ–Ψ, decompose operator types, infer person types, or create an operator score.
+
+## Chapter 17 WP1 — Operator Load in Standalone PATH Cases
+
+The positive cases preserve occurrence-level operator load only where it is source-traceable and claim-relevant.
+
+- `C17-LINEAR-01` carries no automatic Trajectory or dependence claim.
+- `C17-BRANCH-01` preserves Branch Point and later reachability without inventing counterfactual outcomes.
+- `C17-LAMBDA-01` preserves warrantable `Λ`, later `Ω` and `Α` carryover, and `Θ` without operator fusion or target-function assignment.
+
+```text
+operator profile visible in case
+≠ new operator
+≠ automatic stronger claim
+```
+
+## Chapter 17 WP2-A — Dependence Profiles without Operator Inflation
+
+`C17-HISTORY-01` preserves `Λ`, `Ω`, `Θ`, and repair load only as occurrence-level historical carriers in specified present dimensions. `C17-WEAKPD-01` preserves recurrence and `Θ` while refusing to infer a new Attractor function.
+
+```text
+operator-bearing historical load
+≠ total determination
+
+repeated occurrence profile
+≠ PROJECT_AS Attractor function
+```
+
+## Chapter 17 WP2-B — Countercases without Operator Inflation
+
+The three records preserve `Θ`, `Λ`, branch, reversal, and repair occurrences only at their source-typed level. Failure of a Path or Trajectory claim neither creates a new operator nor converts later adoption into original purpose.
+
+```text
+source-bearing operator occurrence
+≠ successful composite automatically
+```
+
+
+## Chapter 17 WP2-C — Ω and Λ without Operator Inflation
+
+`C17-OMEGA-01` preserves concrete asymmetry-typed occurrences and their temporal load; it neither creates a new Ω subtype nor treats Ω as a scalar score. `C17-FALSEL-01` refuses to generate `Λ` from a source gap; it does not alter the canonical Non-Event operator.
+
+
+## Chapter 17 WP3-A — Operator Integrity
+
+No case changes Δ–Ψ. `C17-PROJ-01` and `C17-ATTR-01` preserve occurrence-level historical load without converting a derived Trajectory into □ or Α. `C17-RES-01` adds temporal distinctions without generating a new Θ claim or decomposing an operator type.
+
+
+## Chapter 17 WP3-B — Operator Integrity at PATH Close
+
+No integrated duty changes Δ–Ψ or adds an operator. Twelve case records instantiate `COMPOSE`; one confusion record instantiates a bounded `DECOMPOSE` resolution test. No record instantiates `PROJECT_AS`, and no Path or Trajectory is converted into □ or Α.
+
+## Part I — PATH Provisional-Lock Operator Boundary
+
+The PATH lock preserves the unchanged Δ–Ψ grammar and occurrence-level profiles used across Chapters 9–17. No operator type was composed, decomposed, renamed, reordered, or converted into a derived PATH object. Chapter 18 may receive occurrences and composites, never operator types, as candidate SUB source objects.

@@ -1,7 +1,7 @@
 # PMS-STRATA — Chapter 10 Preparation Record
 
-**Record version:** v0.3  
-**Workflow status:** WP1–WP2 canonical prose drafted and locally audit-ready; WP3–WP4 pending  
+**Record version:** v0.5  
+**Workflow status:** Chapter 10 provisionally locked after integrated WP4 synchronization and audit  
 **Repository role:** `04_reference` production control and handoff record; not canonical theory prose and not a formal-model owner  
 **Prepared from:** `103. PMS-STRATA_Chapter_9_Provisional_Lock_v0.1.54.zip`  
 **Source SHA-256:** `6c27c82124f5a619a8d814bbcd573cad8f7a84c9dd93dca6863c19bc15562da3`  
@@ -9,8 +9,8 @@
 **Prepared Part:** Part I — PATH: Temporal Composition and Trajectory Formation  
 **Preparation focus:** path ownership, chronology/sequence/path separation, actual traversal, path components, selection and formation burden, path frame, evidence, realized/blocked/aborted/deferred status, comparison, same-endpoint divergence, path without strong dependence, minimal record, case architecture, formal-model boundary, Chapter 11 handoff, and anti-laundering control  
 **Preparation result:** `admissible_but_provisional`  
-**Current completed step:** Chapter 10 — WP2: Realized, Blocked, Aborted, and Deferred Paths  
-**Next controlled step:** Chapter 10 — WP3: Path Comparison, Same Endpoints, Non-Dependence, and Minimal Record
+**Current completed step:** Chapter 10 — WP4: Synchronization, Audit, and Provisional Lock  
+**Next controlled step:** Chapter 11 — Preparation: Trajectory
 
 ---
 
@@ -1218,3 +1218,122 @@ WP2 completion
 ≠ Chapter 10 provisional lock
 ```
 
+---
+
+## 23. WP3 Execution Record
+
+**Executed sections:** 10.11–10.14  
+**Canonical block:** [`01_blocks/02_part_i_path.md#10-11-path-comparison`](../01_blocks/02_part_i_path.md#10-11-path-comparison)  
+**Local result:** `admissible_but_provisional`  
+**Open work:** WP4 integrated audit and Provisional Lock
+
+### 23.1 Canonical outputs
+
+WP3 canonically establishes:
+
+- path comparison as a bounded relation requiring aligned reference, frame, time, granularity, selection, source, alternative, and claim basis;
+- incomparability as a positive diagnostic, reduction, failure, or Non-Capture result rather than forced ranking;
+- endpoint equivalence as dimension-relative and insufficient for path identity or equivalent praxis load;
+- explicit separation of historical difference, current load, unresolved load, and no-additional-purchase findings;
+- reconstructible path without strong path dependence;
+- path reconstruction burden versus additional Chapter-12 dependence burden;
+- Minimal Path Record as a compact view within the Shared Transformation Record, not a second schema;
+- record-lineage, machine-checkable boundary, Stop, Non-Capture, and Chapter-11 handoff duties.
+
+### 23.2 Executed pressure cases
+
+| Case ID | WP3 result |
+| --- | --- |
+| `C10-COMPARE-01` | aligned bounded comparison of reopening burden without ranking or score |
+| `C10-COMPARE-02` | incompatible frame, scale, source, and selection basis remains diagnostic or reduced |
+| `C10-END-01` | same formal endpoint preserves different cost, binding, residue, and continuation load |
+| `C10-NDEP-01` | path remains valid while strong dependence claim is reduced |
+| `C10-REC-01` | structurally complete compact record remains provisional and non-self-validating |
+| `C10-STOP-01` | stronger derivation from failed load-bearing path triggers `mandatory_stop` |
+| `C10-NC-01` | two source-responsible rival path constructions remain `non_capture` |
+
+These are canonical methodological pressure cases within Chapter 10. They are not produced `03_cases/*` artifacts, empirical evidence, or calibration records.
+
+### 23.3 Protected owners and deferred duties
+
+WP3 does not:
+
+- define Chapter 11 trajectory or sedimentation;
+- decide Chapter 12 path dependence;
+- complete Chapter 13 alternatives or Chapter 15 `COMPOSE` mechanics;
+- add a comparison score, ranking, schema, operation, Output Class, audit stage, or automatic path evaluator;
+- provide moral, legal, political, scientific, or application authority;
+- provisionally lock Chapter 10 before WP4.
+
+### 23.4 WP3 handoff
+
+```text
+Chapter 10 WP3
+→ comparison, non-dependence, record, Stop, and Non-Capture closure
+→ Chapter 10 WP4 integrated lock audit
+```
+
+```text
+WP3 completion
+≠ Chapter 10 provisional lock
+```
+
+
+---
+
+## 24. WP4 Execution and Provisional-Lock Record
+
+### 24.1 Integrated synchronization completed
+
+WP4 integrates Sections 10.1–10.14 without redefining Chapter 9 transitions, pre-authorizing Trajectory or Path Dependence, completing Chapter 15 `COMPOSE`, or introducing a second Path schema. It verifies the chapter contract, all eighteen assigned pressure cases, the Chapter 11 handoff, Reference routes, Formal-Model carriers, package fingerprints, schemas, links, and byte-level release identity.
+
+The integrated chapter preserves:
+
+- actual traversal as an independent burden;
+- chronology, sequence, transition set, and Path separation;
+- explicit components, selection, frame, evidence, and loss;
+- segment- and cut-relative realized, blocked, aborted, deferred, open, and unresolved status;
+- comparison alignment and positive incomparability;
+- same-endpoint/different-path analysis without historical inflation;
+- Path reconstruction without automatic strong dependence;
+- Minimal Path Record subordination to the Shared Transformation Record;
+- Failure, Stop, Non-Capture, and no-erasure lineage;
+- the no-Trajectory-preauthorization rule.
+
+### 24.2 Prose-to-model decision
+
+The existing Formal Model already supplies adequate carriers through the Shared Transformation Record, the sixteen admissibility Rules, the closed operation and Output Class inventories, formal diagnostics, routing fields, chain references, source and target declarations, loss fields, and package-level integrity controls.
+
+A bounded prose-owned Chapter 10 handoff is added to `Admissibility_Rules.yaml`. It mirrors the Path gate, status qualifications, comparison boundary, record limits, Failure/Stop/Non-Capture duties, and Chapter 11 handoff. It does not add a Rule, operation, Output Class, audit stage, score, enum, schema field, automatic status detector, or automatic Path decision. No schema or smoke-record migration is required.
+
+```text
+formal path declaration
+≠ warranted path automatically
+```
+
+### 24.3 Case-duty registration
+
+All eighteen `C10-*` identifiers are registered as later case-production duties in the Reference Kernel. Their canonical pressure-case representation does not make them completed `03_cases/*` files, empirical evidence, benchmark examples, or calibration data.
+
+### 24.4 Completion and lock result
+
+The Chapter 10 completion test is satisfied. The chapter supplies Chapter 11 with a bounded warranted Path object while preserving the requirement that cumulative change, sedimentation, historical load, persistent residue, directed continuation, and Trajectory identity be tested separately.
+
+The result is:
+
+```text
+admissible_but_provisional
+```
+
+The provisionality preserves later cross-chapter, case, appendix, LIMITS, Corpus Audit, and Model Finalization pressure. It does not mark a known local repair need and does not increase authority.
+
+### 24.5 Reopening conditions
+
+Reopen Chapter 10 only if later work demonstrates a concrete conflict involving actual traversal, Path identity, selection or loss, status qualification, frame or comparison basis, endpoint equivalence, Minimal Path Record carriers, Failure/Stop/Non-Capture routing, Chapter 11 input requirements, or the unchanged PMS Base. A new frame, selection, label, endpoint, granularity, relative level, or target function does not erase a previously failed Path claim.
+
+The next controlled step is:
+
+```text
+Chapter 11 — Preparation:
+Trajectory
+```

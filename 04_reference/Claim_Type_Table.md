@@ -1,6 +1,6 @@
 # PMS-STRATA — Claim Type Table
 
-**Status:** Reference Kernel v0.2.40 — Chapter-10-WP2-synchronized claim architecture  
+**Status:** Reference Kernel v0.2.42 — Chapter-11-WP2-synchronized claim architecture  
 **Repository role:** `04_reference` registry, ceiling, reduction, and audit handoff; not an independent theory source  
 **Authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the provisionally locked canonical Foundations Chapters 0–8 in `01_blocks/01_foundations.md`, the provisionally controlled Reference Kernel, and `04_reference/Chapter_1_Preparation_Record.md` through `04_reference/Chapter_8_Preparation_Record.md` as non-theory production controls
 
@@ -2252,3 +2252,492 @@ Canonical route: [`Chapter 10 §§10.1–10.6`](../01_blocks/02_part_i_path.md#c
 
 Canonical route: [`Chapter 10 §§10.7–10.10`](../01_blocks/02_part_i_path.md#10-7-realized-path). Status claims remain claim types or local findings, not canonical Output Classes.
 
+---
+
+## Chapter 10 WP3 Claim Families
+
+| Claim family | Minimum burden | Ceiling / prohibited upgrade |
+| --- | --- | --- |
+| path comparison | aligned reference, frame, time, granularity, selection, sources, dimensions, and uncertainty | no universal ranking, score, or authority |
+| incomparability | identified failed alignment and preserved local findings | no claim that paths have no possible relation |
+| endpoint similarity | explicit similarity dimension and retained path differences | no same-path or equivalent-load inference |
+| path without strong dependence | warranted path plus weak or absent additional historical constraint | no history erasure and no covert dependence claim |
+| minimal path record | path-specific fields within Shared Record plus lineage and claim scope | record completeness ≠ admissibility |
+| path Stop | failed load-bearing path plus attempted stronger derivation | preserve weaker findings and re-entry condition |
+| path Non-Capture | multiple source-responsible rival paths and no responsible adjudication | no merger, validation, or protective ambiguity |
+
+Canonical route: [`Chapter 10 §§10.11–10.14`](../01_blocks/02_part_i_path.md#10-11-path-comparison).
+
+
+## Chapter 10 Provisional-Lock Claim Controls
+
+| Claim family | Required Chapter 10 load | Forbidden automatic upgrade |
+| --- | --- | --- |
+| Path claim | actual traversal, selection, constitutive connection, frame, evidence, loss, alternatives, residue | Trajectory, dependence, causality, function, authority |
+| qualified status claim | segment/continuation, reference, temporal cut, availability/initiation/prevention/postponement relation, evidence ceiling | global status essence, motive, responsibility |
+| comparison claim | aligned or translated reference, frame, scope, granularity, selection, source and dimensions | ranking, superiority, universal score |
+| endpoint claim | declared equivalence dimension and residual differences | Path identity or equivalent historical load |
+| non-dependence claim | warranted Path plus bounded absence/weakness of additional historical constraint | no history or no residue |
+| record claim | structurally complete Shared-Record view | historical truth or substantive admissibility |
+
+Canonical return: [`Chapter 10 completion boundary`](../01_blocks/02_part_i_path.md#chapter-10-completion-boundary).
+
+---
+
+## Chapter 11 Preparation — Trajectory Claim Families
+
+| Claim family | Minimum declaration | Stronger claim not inherited |
+| --- | --- | --- |
+| trajectory candidate | warranted Path, sedimentation, residue, changed praxis, historical load, directionality, boundary | warranted Trajectory |
+| warranted trajectory | candidate plus applicable Continuity, Admissibility, Loss, Governance, Stop, and Capture tests | Path Dependence |
+| attractor sedimentation | bounded `Α` occurrence relation plus temporal stabilization and changed continuation access | attractor-function |
+| asymmetry accumulation | bounded `Ω` occurrence relation plus repeated distributional load and present effect | inevitability or legitimacy |
+| binding accumulation | bounded `Ψ` occurrence relation plus persistent commitment/breach cost | moral obligation or person state |
+| residual accumulation | bounded `Λ` occurrences plus expectation-bound residue and present effect | every absence as Non-Event |
+| competing construction | shared material, divergent boundary/selection/profile, separate claims | automatic equivalence or fusion |
+| False Trajectory | insufficient sedimentation/load despite chronology, duration, repetition, or coherence | no history or no valid Path material |
+
+Production control: [`Chapter 11 Preparation Record`](Chapter_11_Preparation_Record.md).
+
+## Chapter 11 WP1 — Trajectory Claim Types
+
+| Claim type | Minimum assertion burden | Required ceiling / reduction |
+| --- | --- | --- |
+| Trajectory candidate | warranted Path, present cut, carrier relation, cumulative/sedimented contribution, persistent residue or present effect, source trace, counterpressure, bounded directionality where claimed | candidate is not yet warranted; later Chapter-11 tests remain open |
+| warranted Trajectory | candidate plus applicable continuity, admissibility, loss, governance, boundary, competition, Stop, and Non-Capture duties | no automatic Path Dependence, causal necessity, target function, or authority |
+| Historical Sedimentation claim | identified carrier, cumulative or persistent transformation, present praxis effect, source-result sensitivity, repair/reversal pressure, claim ceiling | reduce to duration, recurrence, persistence, local residue, or bounded historical relevance if the full burden fails |
+| historical co-determination claim | source-supported contribution of earlier Path structure to the present, with current conditions and rival allocation visible | no exclusive causation or current-condition erasure |
+| non-teleological directionality claim | dimension-specific orientation, alternatives, contingencies, reversals, repairs, endpoint-bias test, probability/necessity separation | reduce teleological, progress/decline, destiny, original-plan, or determined-future language |
+| teleological Trajectory claim | endpoint-selected history, erased alternatives, inferred destiny or original plan | `claim_reduction_required` or `failed_transformation`; stronger continued derivation may require `mandatory_stop` |
+
+Canonical route: [`Chapter 11 §§11.1–11.4`](../01_blocks/02_part_i_path.md#11-trajectory).
+
+## Chapter 11 WP2 — Profile and Corridor Claim Types
+
+| Claim type | Minimum assertion burden | Required ceiling / reduction |
+| --- | --- | --- |
+| Attractor Sedimentation claim | bounded `Α` occurrence, temporal carrier, repeated or translated configurations, changed friction/default accessibility, alternatives, repair/erosion, current-condition allocation | no necessity, legitimacy, current dominance, attractor-function, or automatic Path Dependence |
+| Asymmetry Accumulation claim | bounded `Ω` occurrence, declared distribution dimensions, temporal carrier, repeated/cumulative load, present differential effect, exit conditions, repair/redistribution | no moral rank, legitimacy, person type, impossible-exit, or exclusive historical causation |
+| Binding Accumulation claim | bounded `Ψ` occurrences, carrier, layered or transformed commitments, reliance/coordination investment, present breach or reopening effect, weakening/transfer/conflict/release | no inner-state, consent, moral-duty, enforceability, or mandatory-continuation inference |
+| Residual Accumulation claim | warranted expectation frames and windows, `Λ` occurrences, residual carrier, layering/extension/translation, present effect, repair/closure/dormancy, uncertainty | no conversion of absence, silence, or missing information into Non-Event; no permanence claim |
+| Changed Action Corridor claim | declared corridor dimensions, profile-specific and current-condition contributions, source-result sensitivity, retained agency, repair/reopening, source and claim scope | no fifth profile, operation, prediction, instruction, determined conduct, or universal corridor ranking |
+| multi-profile corridor claim | distinct constitutive carriers and effects for each supported profile, absent/uncertain profiles declared, no compensation | no synthetic Trajectory-strength score or authority increase |
+
+Canonical route: [`Chapter 11 §§11.5–11.9`](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation).
+
+## Chapter 11 WP3 — Boundary, Compression, Competition, and Record Claim Types
+
+| Claim type | Minimum assertion burden | Required ceiling / reduction |
+| --- | --- | --- |
+| Trajectory Boundary claim | reference object, frame, start, entry rationale, relevant prehistory, included segments, analytical cut, terminal status, open continuation, disputed periodization, source and claim scope | no natural seam, unique periodization, completed future, or retroactive repair |
+| Trajectory Compression claim | preserved load-bearing transitions, Non-Events, profiles, alternatives, reversals, repairs, current-condition pressure, canonical Loss, Counterfactual Sensitivity | no lossless summary, monotonic flattening, macro-label substitution, or Chapter-15 `COMPOSE` completion |
+| competing-construction claim | independent Path and sedimentation burdens, common comparison dimensions, declared relation, source asymmetry, no forced synthesis | no automatic equivalence, ranking by detail, or all-rivals-valid inference |
+| False-Trajectory diagnosis | identified constitutive failure, weaker-finding preservation, canonical disposition, lineage and re-entry rule | no new object or Output Class; no erasure of history; no stronger derivation from failed premise |
+| Minimal-Trajectory-Record claim | Shared Record mapping, field semantics, unknown/absent/excluded distinctions, Loss, alternatives, governance, Chapter-12 handoff | no second schema, field-completeness proof, automatic Path Dependence, target function, or authority |
+| Non-Capture claim for competing Trajectories | materially rival source-responsible constructions, unresolved adjudication, explicit source ceiling, no hidden synthesis | no validation of rivals and no protection of unsupported claims |
+
+Canonical route: [`Chapter 11 §§11.10–11.14`](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary).
+
+## Chapter 11 Provisional-Lock Claim Controls
+
+| Claim family | Required Chapter 11 load | Forbidden automatic upgrade |
+| --- | --- | --- |
+| Trajectory claim | warranted Path, carrier, cumulative relation, present effect, Source–Result Dependency, Boundary, Loss, ceiling | Path Dependence, causality, function, authority |
+| profile claim | profile-specific occurrence carrier, temporal trace, present effect, counterpressure, source support | operator fusion, universal strength score, legitimacy |
+| corridor claim | declared accessibility dimension, historical contribution, current-condition allocation, uncertainty | eliminated agency, prediction, recommendation |
+| Boundary/periodization claim | reference, entry rationale, prehistory, analytical cut, segment lineage, open continuation | natural seam or uniquely true periodization |
+| competing-construction claim | independent Path and Trajectory burdens plus common comparison basis | forced synthesis or automatic validation of rivals |
+| False Trajectory claim | explicit failed burden and preserved weaker findings | no history, no Path, new object class, new Output Class |
+| record claim | structurally complete Shared-Record view | historical truth, admissibility, Path Dependence |
+
+Canonical return: [`Chapter 11 completion boundary`](../01_blocks/02_part_i_path.md#chapter-11-completion-boundary).
+
+
+---
+
+## Chapter 12 Preparation Claim Controls
+
+| Claim | Minimum support | Required counterpressure | Typical canonical mapping |
+| --- | --- | --- | --- |
+| no material historical dependence at tested level | adequate current-state reconstruction; history adds no material discrimination | hidden carrier or omitted dimension | `resolution_neutral` where no stronger claim remains active |
+| weak order dependence | warranted order relation and bounded local present difference | current-state sufficiency and low sedimented load | `admissible_with_bounded_claim` |
+| strong Path Dependence | warranted Trajectory, declared dimension, carrier, present effect, current-state challenge, omission/variation sensitivity, source and claim ceilings | current-only explanation, rival history, modifier/repair, non-determinism | `admissible_with_bounded_claim` or `admissible_but_provisional` |
+| strong-to-weak reduction | strong burden fails while local order effect remains | narrower claim must receive its own test | `claim_reduction_required` |
+| underdetermined dependence | rival historical/current explanations remain source-responsible | re-entry conditions and missing evidence | `non_capture` |
+| failed dependence claim | duration, repetition, narrative, or profile labels lack current discriminative load | preservation of Path/Trajectory and current constraints | `claim_reduction_required`, `resolution_neutral`, or bounded failure routing |
+| prohibited stronger use | known failed claim used for prediction, target function, diagnosis, sanction, legitimacy, or authority | no laundering through a new frame or operation | `mandatory_stop` |
+
+Local strength findings are not new Output Classes. Every closed Record maps to the fixed ten-class vocabulary and preserves the original claim, reduction lineage, uncertainty, Loss, Stop, and Non-Capture status.
+
+Production control: [`Chapter 12 Preparation Record`](Chapter_12_Preparation_Record.md).
+
+## Chapter 12 WP1 Claim-Type Synchronization
+
+| Local claim | Minimum burden | Typical bounded disposition |
+| --- | --- | --- |
+| no material historical dependence at tested level | current-state baseline remains sufficient and detailed Path adds no warranted discrimination | `resolution_neutral` where no stronger active claim remains |
+| weak order dependence | warranted order relation, bounded local difference, source trace, and substantial current-state reconstructibility | `admissible_with_bounded_claim` |
+| strong Path Dependence candidate | warranted input, declared dimension and cut, historical carrier, present effect, current-state challenge, Source–Result Dependency, and source-bounded omission/comparison pressure | `admissible_but_provisional` until full Chapter-12 duties are met |
+| strong claim reduced to weak | strong historical indispensability unsupported while bounded order effect remains | `claim_reduction_required` |
+| known failed dependence used for stronger derivation or authority | failed result ignored or laundered through operation, projection, prediction, diagnosis, or authority | `mandatory_stop` |
+
+Local dependence strength is not an Output Class and does not rank objects, persons, histories, or domains.
+
+## Chapter 12 WP2 Claim-Type Synchronization
+
+| Claim | Minimum bounded burden | Ceiling |
+| --- | --- | --- |
+| Attractor-Dependence claim | recurrence lineage, retained carrier, current friction/default effect, current-state rival, omission/variation pressure | no inevitability, legitimacy, recommendation, or target function |
+| Asymmetry-Dependence claim | temporal distribution trace, retained differential carrier, present burden, current-only challenge, source-bounded redistribution pressure | no person ranking, guilt, duty, legitimacy, sanction, or authority |
+| Binding-Dependence claim | concrete Binding occurrences, reliance/investment, retained carrier, current enforceability allocation, reopening or release effect | no inner-intention inference, moral obligation, permanent binding, or enforcement authority |
+| Residual-Dependence claim | warranted expectation frame and window, Non-Event, retained residue, present effect, current-state rival, repair/closure test | no missing-information inflation, blame, permanence, or person typing |
+| multi-profile claim | separate carriers and local results for each profile, non-compensation, no all-profile requirement | no additive score, universal chain, whole-object spread, or authority increase |
+
+All local profile findings map to the ten canonical Output Classes when closed; they are not new classes.
+
+## Chapter 12 WP3 Claim-Type Synchronization
+
+| Claim | Minimum burden | Ceiling / disposition |
+| --- | --- | --- |
+| persistence across `Φ` | source and target frames, carrier status, current conditions, tested dimension, present effect, Source–Result Dependency | no automatic reset or continuity |
+| modifier claim | distinct later occurrence, pre/post carrier status, current effect, omission/comparison result | no erasure, validation, or operator fusion |
+| strong Path-Dependence claim | warranted input, dimension, Current-State Baseline, carrier, Historical Omission, source-bounded variation, present effect, Loss and ceilings | no causality, prediction, fate, legitimacy, or whole-object spread |
+| failed strong claim | failure reason and retained weaker finding | `claim_reduction_required`, `resolution_neutral`, bounded failure, or Stop as appropriate |
+| undecidable dependence | materially rival source-responsible explanations and re-entry condition | `non_capture`; no midpoint score or blended certainty |
+
+Local dependence-strength findings are not new Output Classes and require canonical mapping at claim closure.
+
+## Chapter 12 Provisional-Lock Claim Controls
+
+| Claim | Minimum burden | Canonical routing pressure |
+| --- | --- | --- |
+| no material historical dependence | current-state sufficiency and no added discriminative load | `resolution_neutral` where no stronger claim remains active |
+| weak order dependence | bounded order effect plus substantial current-state reconstructibility | typically `admissible_with_bounded_claim` or reduction from a stronger claim |
+| strong Path Dependence | historical indispensability under the complete conjunctive test | `admissible_with_bounded_claim` or `admissible_but_provisional` |
+| failed strong claim with weaker support | explicit reduction and preserved lineage | `claim_reduction_required` |
+| known failed claim reused for stronger action/function/person claim | anti-laundering breach | `mandatory_stop` |
+| materially rival historical/current explanations remain undecidable | source-responsible unresolved competition | `non_capture` |
+
+A local dependence-strength finding is not a new Output Class. Canonical return: [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary).
+
+---
+
+## Chapter 13 Preparation Claim Controls
+
+| Claim | Minimum burden | Maximum bounded effect | Prohibited escalation |
+| --- | --- | --- | --- |
+| branch-point claim | historical cut, multiple supported continuations, window, frame, source basis | bounded availability finding | necessity or causal proof |
+| rejected-branch claim | availability plus documented refusal/non-selection | rejection status and residue | blame or irrationality |
+| blocked-branch claim | availability plus identifiable prevention | bounded blockage finding | impossibility or legitimacy judgment |
+| aborted-branch claim | initiation trace plus interruption | interrupted continuation and residue | treating attempt as completed Path |
+| deferred-branch claim | earlier window plus later continuation conditions | delay-shaped continuation | identity with uninterrupted continuation |
+| lost-alternative claim | earlier availability plus later unavailability and loss structure | bounded loss finding | prediction of the unrealized outcome |
+| counterfactual-Path claim | documented branch point, bounded variation, retained constraints, source stop | sensitivity and loss inspection | alternate-history completion or forecast |
+| non-selection claim | active decision context, window, no selection, consequence | non-selection as praxis structure | inferring intention or guilt |
+
+Local findings map to the fixed ten Output Classes. Branch classes are not Output Classes.
+
+## Chapter 13 WP1 Claim-Type Handoff
+
+| Claim | Minimum support | Claim ceiling |
+| --- | --- | --- |
+| alternative-space claim | historical cut, window, practical availability, source basis | no exhaustive possibility claim |
+| Branch-Point claim | at least two distinct source-supported continuations | no prediction or outcome ranking |
+| Realized-Branch claim | actual entry and traversal trace | no rationality, legitimacy, or inevitability |
+| Rejected-Branch claim | open availability plus documented refusal/non-selection | no claim that the route would have succeeded |
+
+Branch status is not an Output Class and does not create authority.
+
+## Chapter 13 WP2 Claim-Type Handoff
+
+| Claim type | Minimum support | Prohibited inflation | Typical bounded disposition |
+| --- | --- | --- | --- |
+| Blocked-Branch claim | earlier availability/preparation plus identifiable prevention relation inside a declared window | impossibility, blame, illegitimacy, override authority | `admissible_with_bounded_claim`, reduction, or `non_capture` |
+| Aborted-Branch claim | initiation and partial traversal plus interruption before claimed completion | never-begun treatment, causal totalization, same-label continuity | `admissible_with_bounded_claim` or reduction |
+| Deferred-Branch claim | original availability plus deferral trace, changed window, and later candidacy/reachability | uninterrupted identity, unchanged-cost assumption | `admissible_with_bounded_claim`, provisional, or `non_capture` |
+| Lost-Alternative claim | earlier availability plus later unavailability/material unreachability and source-supported loss transition | preference ranking, prediction, causal or normative proof | `admissible_with_bounded_claim`, `claim_reduction_required`, or `non_capture` |
+
+These are claim types, not new Output Classes. A strong status claim may reduce to an unrealized candidate, uncertain status, or no supported alternative claim without erasing the realized Path.
+
+## Chapter 13 WP3 Claim-Type Handoff
+
+| Claim | Minimum warrant | Ceiling / reduction route |
+| --- | --- | --- |
+| bounded Counterfactual-Path claim | source-supported historical entry branch, explicit divergence rule, approximately held-stable conditions, declared source ceiling and horizon | reduce to available-branch claim or open possibility; no success, prediction, or causal proof |
+| Non-Selection claim | active selection context, bounded window, available continuations, source-supported absence of selection, Path-forming consequence | reduce to missing decision information or unresolved selection status |
+| Alternative-Space Compression claim | material branch field, selection rule, canonical Loss, preserved uncertainty and status differences | reduce Path/Trajectory claim if constitutive alternatives disappear |
+| Alternative Status Record claim | owner-bound extension, field support, required Shared-Record fields retained, uncertainty and Output-Class mapping | complete record does not prove availability or status |
+| branch-status reduction claim | failed positive burden with weaker supported Path, source-gap, candidate, or current-unavailability finding | no alternative claim where earlier availability is unsupported |
+
+These claims remain source-, frame-, window-, and dimension-bounded. None supplies operation completion, target function, prediction, legitimacy, person judgment, or application authority.
+
+## Chapter 13 Provisional-Lock Claim Controls
+
+Chapter 13 supports only source- and window-bounded claims about historical availability, selection, prevention, initiation, interruption, deferral, later reachability, loss, Non-Selection, compression, and bounded Counterfactual Paths. Each claim must preserve uncertainty and map to the fixed canonical Output Classes.
+
+It does not support claims of unrealized outcome, causality, inevitability, rationality, legitimacy, person character, prediction, completed operation, target function, or application authority.
+
+Canonical return: [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary).
+
+## Chapter 14 Preparation Claim Controls
+
+| Claim | Minimum support | Required ceiling | Typical canonical disposition pressure |
+| --- | --- | --- | --- |
+| PATH-specific Non-Event | expected occurrence, expectation relation/frame, bounded window, supported non-realization, load, temporal relevance | no motive, blame, causal completeness, or future prediction | `admissible_with_bounded_claim` / `admissible_but_provisional` |
+| Delay as `Λ` | due transition, missed or closed window, source support, changed praxis conditions | no intentionality inference | bounded admissibility or reduction |
+| repeated Non-Decision | renewed active decision windows, repeated supported non-realization, accumulated load | not refusal automatically | bounded admissibility / `non_capture` |
+| Blocked Responsibility | expected action, role architecture, blocking relation, bounded non-realization | no person fault, diagnosis, legal duty, or sanction | `admissible_with_bounded_claim` |
+| Missing Repair | independently warranted repair occurrence and window, supported failure, residue | no invented duty | bounded admissibility / reduction |
+| Missing Exit | independently warranted or triggered exit/release and window, supported failure | no motive, voluntariness, coercion, or person judgment | bounded admissibility / reduction |
+| Non-Event Sedimentation | warranted `Λ` occurrence(s), later carried load, occurrence/interval distinction, competing construction | no automatic Path Dependence | `admissible_but_provisional` |
+| False Non-Event | missing expectation, window, source support, load, or relevance | failure does not prove occurrence | `claim_reduction_required`, `failed_transformation`, or `mandatory_stop` |
+| unresolved expectation/non-realization structure | positive material structure but decisive source/status distinction unresolved | no forced closure | `non_capture` where warranted |
+
+Local pattern names are not new Output Classes and must map to the ten canonical classes.
+
+## Chapter 14 WP1 Claim-Type Handoff
+
+| Claim | Minimum support | Claim ceiling |
+| --- | --- | --- |
+| local Non-Event candidate | expected occurrence, warranted expectation relation, frame, bounded window, non-realization support, load | no Path centrality automatically |
+| path-forming Non-Event | local `Λ` burden plus material temporal-chain relation | no sedimentation or Path Dependence automatically |
+| frame-sensitive Non-Event | explicit comparison of source-supported frames and expectations | no frame arbitrariness or contradiction neutralization |
+| Delay-as-Non-Event | warranted time bound, missed window, source support, changed Path load | no intention, blame, breach, or later-outcome claim |
+| unresolved occurrence status | expectation/window supported but realization status not established | reduce; do not infer `Λ` |
+
+These findings are not new Output Classes and must map to the fixed canonical vocabulary.
+
+## Chapter 14 WP2 Claim-Type Handoff
+
+| Claim | Minimum support | Claim ceiling |
+| --- | --- | --- |
+| repeated Non-Decision | renewed decision contexts, warranted expectation, bounded windows, non-realization in each claimed context | no refusal, intention, or sedimentation automatically |
+| blocked responsibility | expected occurrence, role architecture, blocking relation, bounded window, non-realization and load | no person blame, duty, diagnosis, legitimacy, or sanction |
+| Missing Repair | independent repair expectation, completion condition, window, non-realization, residue | no liability, guaranteed repair success, or exclusive causation |
+| Missing Exit | warranted or triggered release occurrence, window, non-realization, continuation load | no motive, coercion, voluntariness, incapacity, or consent claim |
+| Non-Event Sedimentation | warranted source `Λ`, occurrence architecture, later carrier, present load, rival pressure | no strong Path Dependence, determinism, operation, or function automatically |
+
+These are local findings, not new Output Classes.
+
+## Chapter 14 WP3 Claim-Type Handoff
+
+| Claim | Minimum support | Claim ceiling |
+| --- | --- | --- |
+| preservable `Λ` source structure | warranted expectation/frame/window/non-realization, positive sub-events, load, uncertainty, canonical Loss | no completed `COMPOSE` automatically |
+| False Non-Event | identified failed constitutive burden | no proof that the expected event occurred |
+| complete Minimal Non-Event Record | owner-bound extension, source and uncertainty fields, non-replacement of top-level record | no semantic validity or output mapping automatically |
+| claim reduction | strongest weaker statement retained with failed claim history | no retroactive repair by new frame, graph, or label |
+| Mandatory Stop | unsupported `Λ` reused for person attribution, sanction, authority, prediction, operation, or function | no continued authoritative use |
+| Non-Capture | materially relevant source/non-realization alternatives remain inseparable | no forced positive or negative occurrence finding |
+
+These are local claim types and audit findings, not new Output Classes.
+
+## Chapter 14 Provisional-Lock Claim Controls
+
+Chapter 14 supports only frame-, window-, source-, granularity-, and Claim-Ceiling-bounded claims about expectation-grounded non-realization, Delay, recurring decision contexts, responsibility configuration, Missing Repair, Missing Exit, sedimentation, preservation, failure, reduction, Stop, and Non-Capture.
+
+It does not support hidden-intention, refusal, blame, duty, coercion, motive, diagnosis, legitimacy, sanction, automatic Path Dependence, completed operation, target-function, predictive, or application-authority claims.
+
+Canonical return: [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary).
+
+## Chapter 15 Preparation Claim Controls
+
+| Claim | Minimum support | Claim ceiling | Typical output pressure |
+| --- | --- | --- | --- |
+| COMPOSE occurrence admissible | typed related sources, selection/order/frame/formation, constitutive trace, Loss, praxis difference | no empirical truth or function inheritance | `admissible` / bounded or provisional variants |
+| Sequence composition | warranted order beyond list | no Path claim automatically | bounded admissibility |
+| Path composition | actual traversal, selection, relation, evidence, Loss | no Trajectory or dependence automatically | bounded/provisional admissibility |
+| Trajectory composition | warranted Path plus sedimentation and historical load | no Path Dependence automatically | provisional admissibility |
+| reduced composition | stronger target fails while weaker target remains supported | no laundering of failed stronger claim | `claim_reduction_required` / `partially_admissible` |
+| competing composition | materially different source-supported formation | no forced unique capture | `admissible_but_provisional` / `non_capture` |
+| target-function claim | separate `PROJECT_AS` record required | no function from object formation alone | Stop or separate operation |
+| failed formation | missing relation, formation, traceability, Loss, or praxis gain | target label cannot survive as authority | `failed_transformation` / `mandatory_stop` |
+
+## Chapter 15 WP1 Claim Controls
+
+| Local claim | Minimum WP1 support | Ceiling before WP2/WP3 |
+| --- | --- | --- |
+| COMPOSE entry candidate | purpose, typed sources, entry burdens, selection, order where claimed, frame, bounded target hypothesis | no formation success |
+| source-role claim | declared relation of one source to candidate target | provisional until sensitivity test |
+| selection claim | inclusion/omission reasons, contestability, Loss pressure | no unique-best selection automatically |
+| ordering claim | source-supported linear, partial, parallel, overlapping, recurrent, or uncertain relation | no causal order automatically |
+| frame-bounded candidate | reference object, source/target frame, scope, granularity, level, Claim Boundary/Ceiling | no target function |
+| no-composition result | relation or formation burden not supportable without destructive simplification | weaker source findings remain |
+| competing candidates | materially supportable selections or frames yield different targets | no forced unique capture |
+
+These are local findings and must map to the ten canonical Output Classes only after the applicable audit.
+
+## Chapter 15 WP2 Claim Controls
+
+| Claim | Minimum WP2 burden | Permitted bounded result | Prohibited inflation |
+| --- | --- | --- | --- |
+| formation hypothesis | declared target, Formation Rule candidate, constitutive relations, source trace, open Loss | `admissible_but_provisional` or reduction | completed operation |
+| Sequence formation | warranted order and target boundary beyond a list | bounded Sequence | Path automatically |
+| Path formation | actual traversal, constitutive relations, alternatives/load, preservation, Loss | bounded Path | Trajectory or dependence automatically |
+| preservation claim | reconstructible dependence on declared source load | preserved through representation or lineage | total retention or losslessness |
+| compression claim | rule, reduced resolution, retained distinctions, recoverability, uncertainty | bounded compression | erasure hidden as summary |
+| exclusion claim | explicit material, reason, frame, contestability, target effect | frame-bound exclusion | falsity or global irrelevance |
+| uncertainty claim | material unresolved issue and claim consequence | provisionality, reduction, Stop, Non-Capture | forced resolution |
+| irrecoverable-loss claim | origin, unavailable structure, target materiality, claim consequence | bounded claim or failure/non-capture | presumed restoration |
+
+Each row remains subordinate to source and claim ceilings and canonical Output Class mapping.
+
+## Chapter 15 WP3 Claim Controls
+
+| Claim | Minimum burden | Bounded route | Prohibited inflation |
+| --- | --- | --- | --- |
+| composite-object claim | typed target, Formation Rule, constitutive trace, Loss | canonical object claim | every stronger claim |
+| constitutive-relation claim | source trace plus material sensitivity | claim-relative constitutive status | causal necessity |
+| target-strength claim | class-specific threshold and Claim Ceiling | Sequence, Path, Trajectory, or reduction | upward inheritance |
+| no-retyping claim | preserved source typing and separate target object typing | object formation only | target function |
+| overelasticity finding | material source-bounded variation with unchanged target | revision, rival composition, reduction, failure | universal invalidity |
+| failure claim | identified failed burden and preserved weaker result | reduction, failed transformation, Stop, Non-Capture | source erasure |
+| record-completeness claim | Shared Record and `composeDetails` conformance | auditability | semantic truth |
+
+## Chapter 15 Provisional-Lock Claim Controls
+
+| Claim | Minimum burden | Bounded route | Prohibited inflation |
+| --- | --- | --- | --- |
+| source-field claim | typed and lineaged sources with scope | source collection or ordered field | completed composition |
+| composite-object claim | Selection Rule, order, frame, Formation Rule, constitutive trace, typed target, Loss | bounded Sequence, Path, Trajectory, branch structure, phase, or other declared object | every stronger object class |
+| constitutive-relation claim | source trace plus material sensitivity | claim-relative constitutive status | causal necessity |
+| preservation claim | reconstructible target-to-source dependence | declared preserved load | losslessness |
+| compression claim | rule, resolution change, lineage, recoverability, uncertainty impact | bounded compression | erasure or inversion guarantee |
+| overelasticity claim | materially relevant source-bounded variation with unchanged target | revision, rival composition, reduction, failure | universal invalidity |
+| operation-success claim | complete substantive procedure and canonical output | local `COMPOSE` occurrence | target function or authority |
+| record-completeness claim | Shared Record and `composeDetails` conformance | auditability | semantic truth |
+
+Canonical return: [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary).
+
+## Chapter 16 Preparation Claim Controls
+
+| Claim segment | Required support | Boundary pressure | Permitted weaker retention |
+| --- | --- | --- | --- |
+| chronology | source-supported occurrence and order | may remain below PATH Floor | chronology or partial order |
+| Path | transitions, actual traversal, material order, frame, Loss | chronology without gain; omitted load | Sequence or source field |
+| Trajectory | Path plus sedimentation and present-bearing historical load | Trajectory without trace; teleology; compression | bounded Path |
+| PATH boundary claim | reasoned Purchase and Trace findings | local value treated as final class | retest or underdetermined finding |
+| PATH/SUB claim | existing compressed object and valid `DECOMPOSE` occurrence | finer detail used as rescue | new resolution claim |
+| PATH/RETYPE claim | origin-typed object and bounded `PROJECT_AS` occurrence | target function used as rescue | separate projection claim |
+
+A boundary result constrains the tested claim. It does not validate or invalidate persons, institutions, norms, causal theories, or interventions.
+
+## Chapter 16 WP1 Claim Controls
+
+| Local claim | Required WP1 burden | Maximum local result before WP2–WP4 |
+| --- | --- | --- |
+| lower-bound gain | temporal differentiation materially changes the warranted praxis reconstruction | no automatic upper-bound passage |
+| neutral chronology | valid order or detail without changed tested reconstruction | bounded chronology/index only |
+| below-Floor stronger claim | claimed PATH strength depends on absent purchase | Claim Reduction; source record preserved |
+| within-Ceiling target | source-to-result dependency survives bounded removal/reorder pressure | no teleology, omission, or Part-boundary clearance yet |
+| above-Ceiling target | target outruns reconstructible constitutive load | failed stronger transformation or Stop where misused |
+| Trajectory without trace | direction/sedimentation asserted without reconstructible Path burden | reduction to bounded Path, Sequence, chronology, comparison, or source set |
+| compression within Ceiling | rule, retained distinctions, lineage, recoverability, uncertainty, Loss, and Claim Ceiling remain explicit | no losslessness or inversion guarantee |
+| punctualized target | extended internal temporality collapsed and target becomes source-indifferent | `failed_transformation` for the stronger target |
+
+Local Floor and Ceiling findings are not canonical Output Classes. Final mapping remains governed by the full audit and Boundary Decision Tree.
+
+## Chapter 16 WP2 Claim Controls
+
+| Local claim | Required WP2 burden | Boundary effect |
+| --- | --- | --- |
+| bounded directionality | dimension, carrier relations, reversals, alternatives, periodization, Loss, and Claim Ceiling | no purpose, destiny, or global-vector inheritance |
+| artificial directionality | source-supported counter-movement or contingency is removed by retrospective line | reduction or failure of the stronger directional claim |
+| non-teleological Path | endpoint-independent selection and preserved alternatives | no necessity, prediction, progress, decline, or hidden intention |
+| constitutive `Λ` preserved | Chapter-14 threshold plus material target dependence | omission may reduce or fail the PATH claim |
+| constitutive `Ω` preserved | source-supported unequal practical load plus target dependence | aggregate may split into bounded Paths |
+| later target function | valid separate `PROJECT_AS` from the actual origin object | cannot repair failed stronger PATH claim |
+| finer reconstruction | valid separate `DECOMPOSE` of an identified compressed object | no truth priority and no invalid-object rescue |
+
+No local WP2 finding mechanically selects a canonical Output Class.
+
+## Chapter 16 WP3 Claim Controls
+
+| Claim | Required support | Canonical pressure if absent |
+| --- | --- | --- |
+| temporal differentiation adds PATH purchase | claim-relative baseline, material difference, source-to-difference dependency | `resolution_neutral`, `claim_reduction_required`, or `failed_transformation` as warranted |
+| target remains traceable | typed sources, lineage, order, constitutive relation, preserved load, complete Loss, sensitivity | Claim Reduction, Failure, Stop, or Non-Capture |
+| bounded Path remains provisional | localized uncertainty with stable bounded target and preserved alternatives | `admissible_but_provisional` |
+| stronger claim reduces | failed claim named; surviving sources, target, Loss, and uncertainty retained | `claim_reduction_required` plus separate mapping of surviving claim |
+| one integrated PATH object is unavailable | bounded tests leave irreducible traces or periodizations without responsible closure | `non_capture` |
+| continued use must stop | known failure is reused beyond source, safety, operation, function, or authority ceiling | `mandatory_stop` |
+
+No row mechanically selects an Output Class from a local Floor or Ceiling value.
+
+## Chapter 16 Provisional-Lock Claim Controls
+
+| Claim | Required support | Maximum local claim |
+| --- | --- | --- |
+| temporal gain | claim-relative baseline, materially changed praxis reconstruction, source-to-difference dependency | bounded Floor finding |
+| traceable Path or Trajectory | typed and lineaged sources, order, constitutive relations, preserved load, complete Loss, sensitivity | bounded Ceiling finding and PATH target claim |
+| bounded directionality | dimension, periodization, reversals, alternatives, source support | non-teleological local direction |
+| omission failure | prior warrant for `Λ` or `Ω`, material target change when restored | claim reduction or failure of the affected PATH claim |
+| provisional PATH object | surviving bounded target plus localized uncertainty | `admissible_but_provisional` |
+| Non-Capture | bounded tests showing no adequate single object without false closure | `non_capture` for the integrated claim |
+
+No Chapter-16 claim licenses causal necessity, prediction, person judgment, legitimacy, sanction, target-function assignment, intervention authority, or authority inheritance.
+
+## Chapter 17 Preparation Claim Controls
+
+| Claim | Required support | Prohibited inflation |
+| --- | --- | --- |
+| admissible PATH case | complete bounded record, Loss, alternatives, Band passage, output mapping | universal PATH validation |
+| admissible Trajectory case | Path plus sedimentation, directionality without teleology, source sensitivity | target-function or strong-dependence inheritance |
+| Path-Dependence case | dimension-specific historical indispensability and current-state challenge | whole-object dependence or determinism |
+| countercase result | identified failure mechanism and preserved weaker findings | decorative rejection without test |
+| confusion-case resolution | separated object/operation/frame burdens | category collapse |
+| Part-I lock | local audit pass and artifact completion | system-wide validation or authority |
+
+## Chapter 17 WP1 Standalone Case Claim Controls
+
+A standalone positive case separates:
+
+- source claim;
+- object-formation claim;
+- constitutive-relation claim;
+- target-strength claim;
+- local result description;
+- canonical Output-Class mapping;
+- excluded stronger claims;
+- authority boundary.
+
+`C17-LAMBDA-01` retains a Trajectory claim while explicitly withholding strong Path Dependence, causal necessity, target function, prediction, person judgment, and application authority.
+
+## Chapter 17 WP2-A Dependence-Claim Controls
+
+A Path-Dependence claim must declare its tested present dimension, current-state-sufficiency burden, historical-indispensability burden, excluded reach, and counterfactual mutation. Whole-object dependence may not be inferred from endpoint difference or recurrence alone.
+
+## Chapter 17 WP2-B Countercase Claim Controls
+
+A failed or reduced PATH claim must preserve its exact object class, failed relation, source-supported residue, proposed weaker route, retest requirement, and authority boundary. Softening rhetoric without changing Selection or Formation does not create a new warrant.
+
+
+## Chapter 17 WP2-C Claim Controls
+
+| Case | Stronger claim | Preserved weaker finding | Mapping |
+|---|---|---|---|
+| `C17-OMEGA-01` | uniform Trajectory from equal milestones | differentiated Paths and milestone chronology | `failed_transformation` |
+| `C17-FALSEL-01` | central-`Λ` escalation Trajectory | positive event field and explicit source gap | `claim_reduction_required` |
+
+A preserved weaker finding is not pre-authorized as admissible.
+
+
+## Chapter 17 WP3-A Claim Separation
+
+- `C17-PROJ-01`: current declared-composite Trajectory claim; later Frame-function claim separated and untested.
+- `C17-RES-01`: resolution-gain claim rejected while the prior warranted Path and valid refinement remain.
+- `C17-ATTR-01`: current Trajectory claim retained; Attractor identity/function claim excluded and deferred.
+
+```text
+separated claim
+≠ silently executed operation
+```
+
+
+## Chapter 17 WP3-B — PATH Claim and Completion Separation
+
+The case corpus retains Path, Trajectory, and dimension-specific Path-Dependence claims separately from chronology, neutral resolution, target function, and Attractor-function claims. Chapter-level `admissible_but_provisional` records production status and does not overwrite the thirteen case mappings or create a new transformation record.
+
+## Part I — PATH Provisional-Lock Claim Boundary
+
+The lock covers bounded Sequence, Path, Trajectory, dimension-specific Path-Dependence, branch/alternative, Non-Event, and `COMPOSE` claims already tested in Chapters 9–17. It does not cover hidden component claims, target functions, empirical causality, prediction, diagnosis, legitimacy, intervention, or application authority.

@@ -1,6 +1,6 @@
 # PMS-STRATA — Transformation Operation Index
 
-**Status:** Reference Kernel v0.1.34; Chapter-10-WP2-synchronized operation and record navigation  
+**Status:** Reference Kernel v0.1.36; Chapter-11-WP2-synchronized operation and record navigation  
 **Repository role:** `04_reference/*` — terminology and cross-reference layer; not an independent theory source  
 **Canonical operation inventory:** `COMPOSE`, `DECOMPOSE`, `PROJECT_AS`  
 **Primary control sources:** `05_minified/PMS_STRATA_Operation_Signatures_Minified.md`, `05_minified/PMS_STRATA_Minified_Canonical.md`, `05_minified/PMS_STRATA_Admissibility_Band_Minified.md`, and `05_minified/Chapter_Contracts.md`  
@@ -2842,3 +2842,612 @@ qualified path status
 
 Canonical route: [`Chapter 10 §§10.7–10.10`](../01_blocks/02_part_i_path.md#10-7-realized-path).
 
+---
+
+## Chapter 10 WP3 — Comparison, Record, and Operation Separation
+
+| WP3 relation | Automatic operation? | Controlled consequence |
+| --- | --- | --- |
+| path comparison | none | comparison does not compose, decompose, or project the paths by itself |
+| same endpoint / different path | none | endpoint relation does not create path identity or target function |
+| path without strong dependence | none | weak dependence does not invalidate the path or select an operation |
+| Minimal Path Record | none | record view does not replace the Shared Record or complete `COMPOSE` |
+| Stop / Non-Capture | none | routing preserves or blocks claims without creating a fourth operation |
+| Chapter-11 handoff | none | warranted path is input to a new trajectory test, not a completed transformation chain |
+
+```text
+path object comparison
+≠ STRATA operation occurrence
+```
+
+Canonical route: [`Chapter 10 §§10.11–10.14`](../01_blocks/02_part_i_path.md#10-11-path-comparison).
+
+
+## Chapter 10 WP4 — Path Lock and Later Operation Handoff
+
+| Chapter 10 result | Operation status | Later use |
+| --- | --- | --- |
+| chronology or sequence | no operation selected | may remain a weaker temporal result |
+| path candidate | no operation selected | remains under the conjunctive Path gate |
+| warranted path | no operation selected | may be supplied to Chapter 11 or become source material for a later operation |
+| qualified Path status | not an operation or Output Class | remains segment-, continuation-, claim-, and cut-relative |
+| Minimal Path Record | compact Shared-Record view | does not complete `COMPOSE` |
+| failed Path | valid local result | preserves components and may trigger reduction, failure, Stop, or Non-Capture |
+
+```text
+warranted path object
+≠ completed COMPOSE record
+
+Chapter 10 lock
+≠ COMPOSE authorization
+```
+
+Canonical return: [`Chapter 10`](../01_blocks/02_part_i_path.md#chapter-10-path).
+
+---
+
+## Chapter 11 Preparation — Trajectory Object and Operation Boundary
+
+```text
+trajectory object
+≠ STRATA transformation operation
+```
+
+| Chapter 11 object or claim | Operation status | Later handoff |
+| --- | --- | --- |
+| warranted Path substrate | no new operation selected | may support a Trajectory claim |
+| Trajectory candidate | no operation selected automatically | awaits sedimentation, continuity, admissibility, loss, and routing tests |
+| warranted Trajectory | still not a completed `COMPOSE` occurrence by itself | may be source/target of later operations |
+| operator-profile accumulation | local historical finding | does not fuse operators or select `COMPOSE` |
+| competing Trajectory constructions | no operation selected | may remain bounded, incomparable, failed, or non-captured |
+| Minimal Trajectory Record | Shared Record carrier | record completion does not validate an operation |
+| later Path-Dependence claim | separate property test | Chapter 12 owns graded dependence |
+| later Trajectory formation through `COMPOSE` | separate operation occurrence | Chapter 15 owns complete selection, formation, compression, loss, and routing mechanics |
+| later frame-/event-/attractor-function | separate `PROJECT_AS` occurrence | RETYPE owns target-function validity |
+
+```text
+trajectory object formation burden
+≠ completed COMPOSE procedure
+```
+
+Chapter 11 introduces no fourth operation and does not alter the exact signatures of `COMPOSE`, `DECOMPOSE`, or `PROJECT_AS`.
+
+Production control: [`Chapter 11 Preparation Record`](Chapter_11_Preparation_Record.md).
+
+## Chapter 11 WP1 — Trajectory Object versus Operation Occurrence
+
+Chapter 11 WP1 tests whether a warranted Path qualifies as a Trajectory object. It does not select or complete a STRATA operation automatically.
+
+| Chapter-11 WP1 result | Operation status | Later route |
+| --- | --- | --- |
+| warranted Path substrate | no new operation selected | may enter the Trajectory threshold test |
+| Trajectory candidate | object/claim status only | remains subject to later Chapter-11 duties |
+| warranted Trajectory | derived temporal object, not an operation occurrence by itself | may later become source or target of a separately declared operation |
+| failed Trajectory | stronger object claim fails; weaker Path/local findings may remain | no stronger chain may inherit validity |
+| non-teleological directionality | property of the bounded historical object | not `PROJECT_AS`, prediction, or causal mechanism |
+
+```text
+Trajectory classification
+≠ COMPOSE occurrence automatically
+≠ PROJECT_AS function
+≠ fourth operation
+```
+
+Chapter 15 retains complete `COMPOSE` mechanics. RETYPE retains contextual target functions. Canonical route: [`Chapter 11 §§11.1–11.4`](../01_blocks/02_part_i_path.md#11-trajectory).
+
+## Chapter 11 WP2 — Profile Accumulation and Operation Boundary
+
+WP2 profile declarations and Changed Action Corridors classify historical load within a candidate Trajectory. They do not select or complete a STRATA operation.
+
+| WP2 result | Operation status | Protected later route |
+| --- | --- | --- |
+| Attractor / Asymmetry / Binding / Residual profile | occurrence-level historical-load claim | Chapter 12 may test dependence; Chapter 15 retains `COMPOSE` mechanics |
+| Changed Action Corridor | integrative present-effect declaration | not `PROJECT_AS`, prediction, or recommendation |
+| multi-profile Trajectory description | several separately traced burdens | no fourth operation and no synthetic score |
+| failed profile claim | local recurrence, inequality, commitment, absence, or present constraint may remain where warranted | stronger chain cannot inherit the failed profile |
+
+```text
+profile accumulation
+≠ COMPOSE occurrence automatically
+
+Changed Action Corridor
+≠ PROJECT_AS target function
+≠ operation
+```
+
+Canonical route: [`Chapter 11 §§11.5–11.9`](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation).
+
+## Chapter 11 WP3 — Boundary, Compression, and Operation Boundary
+
+WP3 completes the object-level Trajectory specification without completing a STRATA operation.
+
+| WP3 result | Operation status | Protected later route |
+| --- | --- | --- |
+| Trajectory Boundary | scope and lineage declaration for a derived temporal object | not `COMPOSE`, `DECOMPOSE`, or `PROJECT_AS` |
+| Trajectory Compression | preservation and Loss duty for representing the object | Chapter 15 retains full `COMPOSE` selection and formation mechanics |
+| competing constructions | comparison of rival object constructions | synthesis would require a new separately tested claim and, where applicable, operation record |
+| False Trajectory | failed or reduced object claim | stronger operation chain cannot inherit the failed object |
+| Minimal Trajectory Record | compact view inside Shared Transformation Record | no second schema and no operation completion |
+
+```text
+Trajectory Compression
+≠ completed COMPOSE occurrence
+
+Trajectory object
+≠ PROJECT_AS target function
+```
+
+Canonical route: [`Chapter 11 §§11.10–11.14`](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary).
+
+## Chapter 11 WP4 — Trajectory Lock and Later Operation Handoff
+
+| Chapter 11 result | Operation status | Later use |
+| --- | --- | --- |
+| Trajectory candidate | no operation selected automatically | remains under the conjunctive Trajectory burden |
+| warranted Trajectory | derived temporal object, not a completed operation occurrence by itself | may enter Chapter 12 property testing or later operation Records |
+| profile accumulation | local historical-load claim | does not fuse operators or select `COMPOSE` |
+| Changed Action Corridor | present-effect declaration | not `PROJECT_AS`, prediction, or recommendation |
+| competing construction | no operation selected | may remain bounded, failed, incomparable, or non-captured |
+| Minimal Trajectory Record | compact Shared-Record view | does not complete `COMPOSE` |
+| failed Trajectory | valid local result with weaker findings preserved | stronger derivation may require Stop |
+
+```text
+Chapter 11 provisional lock
+≠ completed COMPOSE occurrence
+≠ PROJECT_AS authorization
+≠ fourth operation
+```
+
+Chapter 15 retains selection, formation, compression, Loss, alternatives, and routing for `COMPOSE`. RETYPE retains target-function assignment. Canonical return: [`Chapter 11 completion boundary`](../01_blocks/02_part_i_path.md#chapter-11-completion-boundary).
+
+
+---
+
+## Chapter 12 Preparation — Property Test and Operation Boundary
+
+```text
+Path-Dependence test
+≠ STRATA operation
+```
+
+| Chapter-12 item | Operation status | Controlled later use |
+| --- | --- | --- |
+| weak order dependence | property finding; no operation selected | may qualify a Path without creating a Trajectory or composite operation |
+| strong Path Dependence | property finding; no operation selected | may become a bounded claim about a warranted Trajectory |
+| historical-omission or alternative-history test | admissibility/counterpressure test | does not perform `COMPOSE`, `DECOMPOSE`, or `PROJECT_AS` |
+| `Α/Ω/Ψ/Λ + Θ` carrier | occurrence-level historical support | does not fuse operators or select an operation |
+| `Φ`, `Χ`, `Σ`, later `Ψ` modifier | separately warranted operator occurrence | does not erase the prior Path or automatically select `PROJECT_AS` |
+| Minimal Path-Dependence Claim View | Shared Record carrier | field completion does not validate an operation or causal claim |
+| later Chapter-15 formation | separate `COMPOSE` occurrence | retains selection, formation, compression, loss, and routing burden |
+| later Chapter-24 carrier analysis | separate `DECOMPOSE` occurrence | opens occurrences/composites, not the operator type or property itself |
+| later target function | separate `PROJECT_AS` occurrence | cannot inherit dependence warrant as function validity |
+
+A successful property test does not complete an operation. A failed property test cannot be repaired by a later operation, frame, granularity, or function without a new claim and preserved lineage.
+
+Production control: [`Chapter 12 Preparation Record`](Chapter_12_Preparation_Record.md).
+
+## Chapter 12 WP1 Property/Operation Boundary
+
+```text
+Path-Dependence property test
+≠ COMPOSE
+≠ DECOMPOSE
+≠ PROJECT_AS
+```
+
+The test qualifies a warranted Path, Trajectory, or bounded segment at a declared present cut and dependence dimension. It does not itself form a new composite, open a source object, or assign a contextual target function. Later operation occurrences require separate Records and do not inherit the property result as authorization.
+
+Primary route: [§12.1](../01_blocks/02_part_i_path.md#12-1-path-dependence-as-a-property).
+
+## Chapter 12 WP2 Profile/Operation Boundary
+
+Dependence-bearing `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ` profiles are property-support relations inside a Path/Trajectory reconstruction. They are not fourth operations and do not themselves complete `COMPOSE`, `DECOMPOSE`, or `PROJECT_AS`.
+
+```text
+profile support
+≠ operation occurrence
+≠ target-function assignment
+```
+
+A later operation must receive its own Record, source, target, loss, admissibility, Stop, and Non-Capture tests. No profile inherits operation or application authority.
+
+## Chapter 12 WP3 Property-Test and Operation Boundary
+
+The Chapter-12 Path-Dependence test evaluates a property of a warranted Path or Trajectory. It is not `COMPOSE`, `DECOMPOSE`, `PROJECT_AS`, or a fourth operation.
+
+```text
+Path-Dependence property test
+≠ transformation operation
+```
+
+A later `COMPOSE`, `DECOMPOSE`, or `PROJECT_AS` occurrence requires its own source, target, loss, admissibility, Stop, Non-Capture, and lineage Record. No supported dependence claim inherits operation or target-function authority.
+
+## Chapter 12 WP4 — Path-Dependence Lock and Operation Handoff
+
+| Chapter-12 result | Operation status | Later use |
+| --- | --- | --- |
+| weak or strong dependence finding | property result; no operation selected | may qualify a warranted Path or Trajectory |
+| Historical-Omission or Alternative-History test | admissibility counterpressure | not `COMPOSE`, `DECOMPOSE`, or `PROJECT_AS` |
+| dependence-bearing profile | occurrence-level support relation | no fused operator or operation completion |
+| modifier finding | separately typed occurrence relation | no reset or target-function assignment |
+| Minimal Claim View | Shared Record view | no second schema or operation completion |
+| failed dependence claim | local result with weaker findings preserved | stronger reuse may require Stop |
+
+```text
+Chapter 12 provisional lock
+≠ completed COMPOSE occurrence
+≠ DECOMPOSE result
+≠ PROJECT_AS authorization
+≠ fourth operation
+```
+
+Canonical return: [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary).
+
+---
+
+## Chapter 13 Preparation — Alternative Status and Operation Boundary
+
+Branch identification and Alternative Status testing are property/object analyses inside PATH. They are not a fourth STRATA operation.
+
+```text
+alternative-space analysis
+≠ COMPOSE occurrence
+≠ DECOMPOSE occurrence
+≠ PROJECT_AS occurrence
+```
+
+Chapter 13 supplies alternative structures to Chapter 15. Only Chapter 15 owns the full `COMPOSE` selection, formation, preservation, compression, and Loss procedure. A historical alternative is also not identical to the Shared Record's rival-transformation alternatives.
+
+## Chapter 13 WP1 — Branch Analysis and Operation Boundary
+
+Alternative-space, Branch-Point, Realized-Branch, and Rejected-Branch analysis remains inside PATH object/property reconstruction.
+
+```text
+branch analysis
+≠ COMPOSE occurrence
+≠ DECOMPOSE occurrence
+≠ PROJECT_AS occurrence
+```
+
+Chapter 15 retains full `COMPOSE`; later operations require separate Records and cannot inherit branch warrant as authorization.
+
+## Chapter 13 WP2 — Status Analysis and Operation Boundary
+
+Blocked, Aborted, Deferred, and Lost analysis remains PATH object/property reconstruction. None is a fourth STRATA operation or a completed `COMPOSE` occurrence.
+
+```text
+branch-status reconstruction
+≠ COMPOSE completion
+≠ DECOMPOSE
+≠ PROJECT_AS
+```
+
+WP2 supplies status-bearing source material to Chapter 15. Chapter 15 alone owns full `COMPOSE` selection, formation, compression, exclusion, and irrecoverable-loss procedure. A later same-labelled continuation also requires its own continuity or new-claim test; it is not inherited through status notation.
+
+## Chapter 13 WP3 — Counterfactual, Record, and Operation Boundary
+
+| WP3 result | Operation status | Protected later route |
+| --- | --- | --- |
+| source-bounded Counterfactual Path | historical analytical pressure, not an operation | Chapter 15 may use it in `COMPOSE`; Chapter 46 owns general sensitivity |
+| Non-Selection finding | Path-forming relation, not operation completion | Chapter 14 tests `Λ`; Chapter 15 tests composition |
+| Alternative-Space Compression declaration | representation and Loss control, not completed `COMPOSE` | Chapter 15 owns source selection, formation, target object, and result |
+| Alternative Status Record extension | Shared-Record view, not a fourth operation or new schema | supports later audit only |
+| blocked/lost/other branch status | source material, not target function | RETYPE requires a separate `PROJECT_AS` record |
+
+The top-level Shared-Record `alternatives` field continues to represent rival transformations. Chapter-13 historical alternatives remain in the owner-bound extension payload. No operation or authority is inherited from branch analysis.
+
+## Chapter 13 Provisional-Lock Operation Boundary
+
+Chapter 13 reconstructs source-bounded historical alternatives and their statuses. This reconstruction is not itself a fourth operation and does not complete `COMPOSE`, `DECOMPOSE`, or `PROJECT_AS`.
+
+Chapter 15 retains `COMPOSE` selection, ordering, formation rule, target object, preservation, compression, exclusion, irrecoverable loss, and operation result. A valid branch finding may become a source object or Loss declaration only through a separate operation record. RETYPE receives no target function from branch status.
+
+```text
+branch finding
+≠ completed COMPOSE
+≠ PROJECT_AS result
+```
+
+Canonical return: [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary).
+
+## Chapter 14 Preparation — Non-Event and Operation Boundary
+
+Non-Event identification is not a fourth operation.
+
+| Chapter-14 finding | Operation relation | Prohibited inference |
+| --- | --- | --- |
+| local `Λ` occurrence | may become a source object for later `COMPOSE` | established `Λ` equals completed composition |
+| sedimented Non-Event load | may support later Path/Trajectory composition under Chapter 15 | repetition automatically authorizes `COMPOSE` |
+| positive sub-events plus governing non-realization | later `COMPOSE` must preserve both roles or disclose Loss | positive event language erases `Λ` |
+| Minimal Non-Event Record | bounded Shared-Record view; carrier decision deferred to WP3 | record completeness proves the claim |
+| internal positive events inside a Non-Event interval | Chapter 23 may later `DECOMPOSE` the occurrence/composite | decomposition removes the higher-level Non-Event without remainder |
+| contextual use of `Λ` | requires a separate `PROJECT_AS` occurrence | local `Λ` assigns a target function automatically |
+
+```text
+Non-Event classification
+≠ COMPOSE
+≠ DECOMPOSE
+≠ PROJECT_AS
+```
+
+## Chapter 14 WP1 — Non-Event Analysis and Operation Boundary
+
+Expectation, window, source-supported non-realization, and Delay analysis reconstruct PATH objects and occurrences.
+
+```text
+identifying a Λ candidate
+≠ COMPOSE occurrence
+≠ DECOMPOSE occurrence
+≠ PROJECT_AS occurrence
+```
+
+Chapter 15 owns complete `COMPOSE`; Chapter 23 owns internal Non-Event decomposition; RETYPE owns any later target-function assignment.
+
+## Chapter 14 WP2 — Pattern Reconstruction and Operation Boundary
+
+Reconstructing repeated Non-Decision, blocked responsibility, Missing Repair, Missing Exit, or Non-Event Sedimentation remains object- and occurrence-level PATH analysis.
+
+```text
+pattern reconstruction
+≠ COMPOSE occurrence
+≠ DECOMPOSE occurrence
+≠ PROJECT_AS occurrence
+```
+
+Chapter 15 owns `COMPOSE`; Chapter 23 owns internal Non-Event decomposition; RETYPE owns contextual target functions.
+
+## Chapter 14 WP3 — Preservation and Operation Handoff
+
+Chapter 14 supplies preservable `Λ` source structure. It does not execute an operation.
+
+```text
+local Λ finding
+≠ COMPOSE
+≠ DECOMPOSE
+≠ PROJECT_AS
+```
+
+Chapter 15 owns composite formation and Loss; Chapter 23 owns internal decomposition; RETYPE owns contextual target functions.
+
+## Chapter 14 Provisional-Lock Operation Boundary
+
+Chapter 14 reconstructs and preserves source-bounded Non-Event structures. This reconstruction is not itself a fourth operation and does not complete `COMPOSE`, `DECOMPOSE`, or `PROJECT_AS`.
+
+Chapter 15 retains source selection, ordering, formation, target-object construction, preservation, compression, exclusion, irrecoverable loss, and operation result. Chapter 23 retains finer reconstruction of a compressed Non-Event occurrence. RETYPE receives no target function from `Λ` status.
+
+```text
+local Λ finding
+≠ completed COMPOSE
+≠ DECOMPOSE result
+≠ PROJECT_AS result
+```
+
+Canonical return: [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary).
+
+## Chapter 15 Preparation — Complete COMPOSE Procedure Boundary
+
+Chapter 15 is the primary PATH procedure site for `COMPOSE`.
+
+```text
+identified sources
++ warranted relations
++ declared selection/order/frame
++ formation rule
++ constitutive trace
++ five-part Loss
++ bounded target claim
+→ COMPOSE candidate
+```
+
+| Finding | Operation meaning | Prohibited shortcut |
+| --- | --- | --- |
+| chronology or collection | source field below formation threshold | label it Path or Trajectory |
+| admissible Sequence/Path/Trajectory composite | result of a bounded COMPOSE occurrence | assign macro-event, frame, or attractor function |
+| reduced composition claim | supported weaker target retained | treat reduction as no result |
+| failed formation | operation candidate does not produce warranted composite | reuse target label as authority |
+| competing compositions | multiple source-supported formations remain | force unique capture |
+
+A later `DECOMPOSE` is a new operation with new Loss and cannot prove that prior `COMPOSE` was lossless. A later `PROJECT_AS` is required for target-function use.
+
+## Chapter 15 WP1 — COMPOSE Entry Procedure
+
+WP1 establishes the operation-entry sequence:
+
+```text
+purpose and praxis difference
+→ conjunctive preconditions
+→ typed source field
+→ explicit selection
+→ warranted order
+→ declared composition frame
+→ WP2 formation and Loss test
+```
+
+A connected graph, source list, chronology, coarser frame, target label, or complete entry record does not complete `COMPOSE`. No-composition and competing-composition routes remain positive analytical outcomes.
+
+WP1 does not perform `DECOMPOSE` or assign a contextual function through `PROJECT_AS`.
+
+## Chapter 15 WP2 — COMPOSE Formation and Loss Procedure
+
+```text
+typed selected ordered framed sources
+→ Formation Rule and constitutive relations
+→ declared target-object threshold
+→ preserved source trace
+→ compressed/excluded/uncertain/irrecoverable Loss
+→ WP3 claim and sensitivity tests
+```
+
+WP2 separates a formation hypothesis from a formation finding and both from a completed `COMPOSE` occurrence. It requires exactly the canonical Loss structure and keeps Chapter 24 `DECOMPOSE`, Chapter 48 general Loss, and RETYPE `PROJECT_AS` ownership protected.
+
+```text
+formed composite
+≠ target function
+
+external recoverability
+≠ lossless composition
+```
+
+## Chapter 15 WP3 — COMPOSE Claim, Sensitivity, Failure, and Record
+
+```text
+formed target
+→ segmented composition claim
+→ no-retyping check
+→ counterfactual-sensitivity and overelasticity test
+→ failure/reduction/Stop/Non-Capture routing
+→ complete Shared Transformation Record
+```
+
+The existing `composeDetails` schema carrier remains sufficient. Schema validity supports auditability but cannot establish substantive formation, constitutive status, operation success, target function, Output Class, or authority.
+
+## Chapter 15 Provisional-Lock COMPOSE Procedure
+
+```text
+typed selected sources
+→ warranted order
+→ declared Composition Frame
+→ Formation Rule and constitutive relations
+→ typed composite target
+→ complete canonical Loss
+→ segmented claim and sensitivity test
+→ canonical result
+```
+
+Chapter 15 is the complete PATH-specific procedure site for `COMPOSE`. It does not perform Chapter-24 `DECOMPOSE`, assign RETYPE functions through `PROJECT_AS`, or confer authority. The existing Shared Transformation Record and `composeDetails` remain sufficient for audit declaration.
+
+Canonical return: [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary).
+
+## Chapter 16 Preparation — PATH Boundary and Operation Handoff
+
+Chapter 16 applies the Admissibility Band to PATH reconstruction and `COMPOSE` results. It does not add an operation.
+
+| Boundary finding | Operation consequence | Not implied |
+| --- | --- | --- |
+| below Relevance Floor | added temporal differentiation lacks purchase; reduce or stop the tested claim | source falsehood |
+| within Band | bounded PATH result remains eligible for full audit | empirical truth or authority |
+| above Traceability Ceiling | target loses reconstructible source load; reduce, fail, stop, or retain Non-Capture as warranted | abstraction universally prohibited |
+| PATH→SUB move | new `DECOMPOSE` claim only where an existing composite is opened | rescue of prior PATH failure |
+| PATH→RETYPE move | new `PROJECT_AS` claim only with preserved origin type | retroactive target-object repair |
+
+Local boundary findings remain separate from canonical Output Classes and operation results.
+
+## Chapter 16 WP1 — COMPOSE Result under PATH Boundary Pressure
+
+A Chapter-15 `COMPOSE` occurrence does not inherit PATH-boundary passage.
+
+```text
+complete COMPOSE procedure
+≠ lower-bound gain
+≠ upper-bound traceability automatically
+```
+
+WP1 tests whether temporal differentiation adds praxeological purchase and whether the resulting composite remains source-sensitive and reconstructible. A valid chronology may remain below a stronger target threshold; a formally complete composite may exceed the Ceiling.
+
+No `DECOMPOSE` or `PROJECT_AS` occurrence is performed. Later finer reconstruction or target-function assignment remains a new operation and cannot repair a failed PATH claim retroactively.
+
+## Chapter 16 WP2 — PATH Boundaries to `DECOMPOSE` and `PROJECT_AS`
+
+```text
+failed PATH claim
++ PROJECT_AS label
+≠ repaired origin object
+
+failed PATH claim
++ finer detail
+≠ completed DECOMPOSE
+```
+
+A lawful `PROJECT_AS` must name the actual origin-typed object and record a new bounded target-function claim. A lawful `DECOMPOSE` must open an identified compressed occurrence or composite while preserving the same reference object, Type Integrity, source lineage, uncertainty, and Loss.
+
+Interface expansion, nested graph display, data volume, contextual usefulness, or later operation success never erase an earlier failed PATH claim.
+
+## Chapter 16 WP3 — Boundary Results and Later Operations
+
+A PATH boundary finding governs the current claim. It does not execute `DECOMPOSE` or `PROJECT_AS`.
+
+```text
+failed PATH claim
++ finer graph
+≠ completed DECOMPOSE
+
+failed PATH claim
++ contextual function
+≠ completed PROJECT_AS
+```
+
+A lawful later operation is a new testable claim with a separate record and preserves the earlier result, inherited uncertainty, Loss, and Claim Ceiling.
+
+## Chapter 16 Provisional-Lock PATH Boundary Procedure
+
+Chapter 16 introduces no fourth operation. It applies the existing Admissibility Band to temporal objects and `COMPOSE` results, while keeping later `DECOMPOSE` and `PROJECT_AS` occurrences separate.
+
+```text
+PATH boundary finding
+≠ DECOMPOSE occurrence
+≠ PROJECT_AS occurrence
+```
+
+A finer graph is not `DECOMPOSE` automatically. A useful contextual function is not proof of the origin Path or Trajectory. Any lawful later operation is a new testable claim with its own Shared Record, Loss, ceilings, and output mapping.
+
+Canonical return: [`Chapter 16 completion boundary`](../01_blocks/02_part_i_path.md#chapter-16-completion-boundary).
+
+## Chapter 17 Preparation — Case and Operation Handoff
+
+Chapter 17 tests actual PATH-side `COMPOSE` occurrences and operation confusions. Each operation-bearing case must use a separate Shared Transformation Record and preserve:
+
+- source and target typing;
+- Selection, Ordering, Frame, and Formation Rules;
+- constitutive relations;
+- five-part Loss;
+- Counterfactual Sensitivity;
+- result and canonical mapping.
+
+The Path-or-Projection confusion case must keep the PATH reconstruction and any later `PROJECT_AS` occurrence in separate records. Additional detail or interface expansion is not automatically `DECOMPOSE`.
+
+## Chapter 17 WP1 — Case-Level COMPOSE Records
+
+Three standalone `COMPOSE` occurrences are now registered through case artifacts:
+
+| Case | Source field | Target | Mapping |
+|---|---|---|---|
+| `C17-LINEAR-01` | four ordered configuration/transition structures | bounded Path | `admissible` |
+| `C17-BRANCH-01` | Branch Point, realized route, rejected route, later closure | branching Path | `admissible` |
+| `C17-LAMBDA-01` | expectation, central `Λ`, positive sub-events, later carriers, repair | source-sensitive Trajectory | `admissible` |
+
+No record assigns a contextual target function. Any such claim remains a separate `PROJECT_AS` occurrence.
+
+## Chapter 17 WP2-A — Comparative and Weak-Dependence COMPOSE Cases
+
+The two WP2-A records remain single `COMPOSE` occurrences. The first forms a comparative Path-Dependence object from two source-traceable Paths; the second forms a repeated-pattern Path and tests current-state sufficiency. Neither executes `DECOMPOSE` or `PROJECT_AS`.
+
+```text
+comparative composition
+≠ target-function projection
+
+current-state test
+≠ decomposition
+```
+
+## Chapter 17 WP2-B — Reduced and Failed COMPOSE Occurrences
+
+`C17-CHRON-01`, `C17-MACRO-01`, and `C17-TEL-01` remain explicit `COMPOSE` attempts. The first requires Claim Reduction; the latter two fail. None silently switches to `DECOMPOSE` or `PROJECT_AS`, and every weaker route requires a new record.
+
+
+## Chapter 17 WP2-C — Final Countercase COMPOSE Occurrences
+
+`C17-OMEGA-01` and `C17-FALSEL-01` remain explicit `COMPOSE` attempts. The first fails; the second requires Claim Reduction. Neither silently becomes `DECOMPOSE` or `PROJECT_AS`, and every differentiated Path, chronology, or event-field route requires a new record.
+
+
+## Chapter 17 WP3-A Operation Separation
+
+`C17-PROJ-01` and `C17-ATTR-01` instantiate `COMPOSE` for origin temporal objects and preserve pending function claims without executing `PROJECT_AS`. `C17-RES-01` instantiates a separate `DECOMPOSE` resolution test on a prior Path composite; interface expansion alone remains non-operative. Every changed operation requires a new record.
+
+
+## Chapter 17 WP3-B — PATH Operation Closure
+
+PATH closes with `COMPOSE` as its governing operation and preserves one `DECOMPOSE` confusion-case record solely to test the PATH/SUB boundary. No operation inherits success from another occurrence. A later Frame- or Attractor-function remains a new `PROJECT_AS` claim and record.
+
+## Part I — PATH Provisional-Lock Operation Boundary
+
+`COMPOSE` is the governing PATH operation. The single Chapter-17 `DECOMPOSE` record tests resolution neutrality and the PATH/SUB boundary without changing PATH ownership. No `PROJECT_AS` record is executed. The lock does not authorize later operations; each future operation requires a new record and testable claim.

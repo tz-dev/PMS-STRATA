@@ -1,0 +1,1282 @@
+schema_version: 0.1.2
+record_id: case.c17-chron-01.compose.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-23T18:55:00+02:00'
+  updated_at: '2026-07-23T18:55:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.Chapter-17-WP2B
+  repository_or_case_pointer: 03_cases/yaml/C17-CHRON-01_Chronology_Presented_as_Path.yaml
+  record_provenance:
+  - Synthetic PATH countercase C17-CHRON-01 instantiated for Chapter 17 local method testing; no external empirical truth
+    is asserted.
+  - Built against Transformation_Record.schema.json v0.1.3 and the Chapter 17 WP2-B repository snapshot.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Standalone PATH countercase record for C17-CHRON-01 produced in Chapter 17 WP2-B.
+claim:
+  claim_id: claim.c17-chron-01.compose.01
+  statement: The four dated implementation updates form a bounded implementation Path rather than merely an accurate chronology.
+  claim_type:
+    value: declared-composite claim
+    control_source: 04_reference/Claim_Type_Table.md#76-compose-specific-composite-claims
+    inventory_status: current_controlled
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: One synthetic implementation-update episode from first notice through final status update.
+    operation_occurrence_boundary: Only COMPOSE occurrence compose.c17-chron-01.01.
+    frame: &id002
+      value: synthetic implementation-update episode
+      control_source: 03_cases/yaml/C17-CHRON-01_Chronology_Presented_as_Path.yaml#/claim/claim_scope/frame
+      inventory_status: extension
+      extension_rationale: The case-specific frame is local to this synthetic countercase.
+    granularity: &id003
+      value: dated update and asserted Path relation
+      control_source: 03_cases/yaml/C17-CHRON-01_Chronology_Presented_as_Path.yaml#/claim/claim_scope/granularity
+      inventory_status: extension
+      extension_rationale: The case-specific granularity declares the source-to-target distinction set.
+    relative_level: &id006
+      value: attempted Path composite relative to the dated events
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Local relative-level wording for the attempted target.
+    temporal_scope: t0–t3
+    source_scope: Four dated synthetic implementation updates and their directly declared order only.
+    context_scope: Synthetic Chapter 17 countercase C17-CHRON-01 only.
+    generalization_boundary: No external domain generalization, application transfer, person evaluation, causal proof, prediction,
+      or authority claim.
+    excluded_reach:
+    - Undeclared continuation dependencies, branch closure, sedimentation, Path Dependence, causal mechanism, target function,
+      quality, legitimacy, and authority.
+  validity_scope: Assessment of whether the four accurate dated updates form the asserted implementation Path.
+  claim_ceiling:
+    asserted_relation: The ordered updates form a continuation-sensitive implementation Path.
+    reach: Single synthetic episode.
+    precision: Event identities and dates are precise; the claimed Path relation is unsupported.
+    generality: Single synthetic countercase C17-CHRON-01.
+    functional_scope: No contextual target function is assigned; any later function requires a separate PROJECT_AS occurrence.
+    dependence_strength: No Path Dependence claim is established.
+    inferential_distance: One attempted COMPOSE occurrence from typed temporal sources to the declared stronger target.
+    limiting_sources: &id004
+    - source.c17-chron-01.update0
+    - source.c17-chron-01.update1
+    - source.c17-chron-01.update2
+    - source.c17-chron-01.update3
+    rationale: The source packet can support chronology and order but not the stronger Path relation as stated.
+  authority_boundary: The record determines only the disposition of the declared synthetic temporal-composite claim and grants
+    no empirical, causal, normative, diagnostic, legal, political, organizational, or application authority.
+source:
+  reference_object:
+    object_id: source.set.c17-chron-01
+    description: Four dated status-update events with directly declared temporal order.
+    typing: &id001
+      value: typed temporal source set
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract
+      inventory_status: extension
+      extension_rationale: The local source-set label groups independently typed source objects without creating a new PMS
+        primitive.
+    source_pointer: 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md#source-field
+  object_typing: *id001
+  frame: *id002
+  granularity: *id003
+  relative_level:
+    value: multiple dated events at source level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Local relative-level wording for the source field.
+  temporal_scope: t0–t3
+  source_scope: Four dated synthetic implementation updates and their directly declared order only.
+  source_basis:
+  - source_item_id: source.c17-chron-01.update0
+    source_pointer: case://pms-strata/event.chron.update0
+    provenance_description: Synthetic declaration of the initial dated update.
+    affected_claim_component: Opening event and date.
+    support_mode: direct
+    evidence_role:
+      value: synthetic case declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Synthetic case declarations test STRATA method and record architecture; they are not empirical
+        evidence.
+    evidence_availability: available
+    temporal_scope: t0
+    reference_scope: event.chron.update0
+    uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.c17-chron-01.update1
+    source_pointer: case://pms-strata/event.chron.update1
+    provenance_description: Synthetic declaration of the second dated update.
+    affected_claim_component: Intermediate order.
+    support_mode: direct
+    evidence_role:
+      value: synthetic case declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Synthetic case declarations test STRATA method and record architecture; they are not empirical
+        evidence.
+    evidence_availability: available
+    temporal_scope: t1
+    reference_scope: event.chron.update1
+    uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.c17-chron-01.update2
+    source_pointer: case://pms-strata/event.chron.update2
+    provenance_description: Synthetic declaration of the third dated update.
+    affected_claim_component: Intermediate order.
+    support_mode: direct
+    evidence_role:
+      value: synthetic case declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Synthetic case declarations test STRATA method and record architecture; they are not empirical
+        evidence.
+    evidence_availability: available
+    temporal_scope: t2
+    reference_scope: event.chron.update2
+    uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.c17-chron-01.update3
+    source_pointer: case://pms-strata/event.chron.update3
+    provenance_description: Synthetic declaration of the final dated update.
+    affected_claim_component: Endpoint event and date.
+    support_mode: direct
+    evidence_role:
+      value: synthetic case declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Synthetic case declarations test STRATA method and record architecture; they are not empirical
+        evidence.
+    evidence_availability: available
+    temporal_scope: t3
+    reference_scope: event.chron.update3
+    uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+  - trace_id: trace.update0
+    source_feature: Initial implementation status update at t0.
+    affected_claim_component: Opening event and date.
+    trace_role: load_bearing
+    result_dependency: The chronology requires this opening item.
+    expected_result_change: Removing it shortens the chronology but does not reveal a Path relation.
+    temporal_or_relational_dependency: It precedes update1.
+    claim_limitation: Supports only the bounded temporal-source finding; it does not establish motive, causality, legitimacy,
+      target function, or authority.
+    source_pointer: case://pms-strata/event.chron.update0
+  - trace_id: trace.update1
+    source_feature: Second implementation status update at t1.
+    affected_claim_component: Intermediate order.
+    trace_role: load_bearing
+    result_dependency: The chronology uses it as an intermediate dated item.
+    expected_result_change: Removing it leaves the asserted Path label otherwise unchanged.
+    temporal_or_relational_dependency: It follows update0 and precedes update2.
+    claim_limitation: Supports only the bounded temporal-source finding; it does not establish motive, causality, legitimacy,
+      target function, or authority.
+    source_pointer: case://pms-strata/event.chron.update1
+  - trace_id: trace.update2
+    source_feature: Third implementation status update at t2.
+    affected_claim_component: Intermediate order.
+    trace_role: load_bearing
+    result_dependency: The chronology uses it as an intermediate dated item.
+    expected_result_change: Removing it leaves the asserted Path label otherwise unchanged.
+    temporal_or_relational_dependency: It follows update1 and precedes update3.
+    claim_limitation: Supports only the bounded temporal-source finding; it does not establish motive, causality, legitimacy,
+      target function, or authority.
+    source_pointer: case://pms-strata/event.chron.update2
+  - trace_id: trace.update3
+    source_feature: Final implementation status update at t3.
+    affected_claim_component: Endpoint event and date.
+    trace_role: load_bearing
+    result_dependency: The chronology requires this endpoint item.
+    expected_result_change: Removing it changes the interval but not the missing Formation Rule.
+    temporal_or_relational_dependency: It follows update2.
+    claim_limitation: Supports only the bounded temporal-source finding; it does not establish motive, causality, legitimacy,
+      target function, or authority.
+    source_pointer: case://pms-strata/event.chron.update3
+  known_gaps:
+  - No source declares continuation dependency, changed action corridors, branch selection, or foreclosed alternatives between
+    the updates.
+  source_ceiling:
+    asserted_relation: The four updates occurred in the declared order.
+    reach: Event identity, date, and succession only.
+    precision: Direct synthetic date and event declarations.
+    generality: Single synthetic countercase C17-CHRON-01.
+    functional_scope: No target function, application status, motive, or authority is sourced.
+    dependence_strength: Supports order, not Path formation.
+    inferential_distance: Source declarations only; target formation is assessed separately under COMPOSE.
+    limiting_sources: *id004
+    rationale: The source ceiling ends at chronology or ordered sequence unless a new relation-bearing record is supplied.
+operation:
+  occurrence_id: compose.c17-chron-01.01
+  kind: COMPOSE
+  justification: The tested claim explicitly attempts COMPOSE by treating accurate temporal order as sufficient for Path formation.
+  expected_praxeological_difference: If supported, the Path would show continuation-sensitive change rather than mere chronology;
+    the source packet does not establish that difference.
+  selection_rule: Select the four dated updates and no other material.
+  transformation_context: Synthetic Chapter 17 countercase C17-CHRON-01.
+  details:
+    source_objects:
+    - object_id: event.chron.update0
+      description: Initial implementation status update at t0.
+      typing:
+        value: event-like object
+        control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      source_pointer: case://pms-strata/event.chron.update0
+    - object_id: event.chron.update1
+      description: Second implementation status update at t1.
+      typing:
+        value: event-like object
+        control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      source_pointer: case://pms-strata/event.chron.update1
+    - object_id: event.chron.update2
+      description: Third implementation status update at t2.
+      typing:
+        value: event-like object
+        control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      source_pointer: case://pms-strata/event.chron.update2
+    - object_id: event.chron.update3
+      description: Final implementation status update at t3.
+      typing:
+        value: event-like object
+        control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      source_pointer: case://pms-strata/event.chron.update3
+    source_typings:
+    - value: event-like object
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+      inventory_status: current_controlled
+    - value: event-like object
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+      inventory_status: current_controlled
+    - value: event-like object
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+      inventory_status: current_controlled
+    - value: event-like object
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+      inventory_status: current_controlled
+    ordering_rule: Use the directly declared linear order t0 < t1 < t2 < t3.
+    formation_rule: Treat the ordered update list as an implementation Path without an independently supported continuation
+      relation, branch structure, or changed action corridor.
+    constitutive_relations:
+    - relation_id: relation.chron.0-1
+      relation_type:
+        value: declared temporal succession
+        control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+        inventory_status: extension
+        extension_rationale: The case-specific relation label remains governed by canonical COMPOSE constitutive-relation
+          duties.
+      from_object_id: event.chron.update0
+      to_object_id: event.chron.update1
+      description: Update0 precedes update1.
+      constitutive: true
+      source_pointer: case://pms-strata/chron/order
+    - relation_id: relation.chron.1-2
+      relation_type:
+        value: declared temporal succession
+        control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+        inventory_status: extension
+        extension_rationale: The case-specific relation label remains governed by canonical COMPOSE constitutive-relation
+          duties.
+      from_object_id: event.chron.update1
+      to_object_id: event.chron.update2
+      description: Update1 precedes update2.
+      constitutive: true
+      source_pointer: case://pms-strata/chron/order
+    - relation_id: relation.chron.2-3
+      relation_type:
+        value: declared temporal succession
+        control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+        inventory_status: extension
+        extension_rationale: The case-specific relation label remains governed by canonical COMPOSE constitutive-relation
+          duties.
+      from_object_id: event.chron.update2
+      to_object_id: event.chron.update3
+      description: Update2 precedes update3.
+      constitutive: true
+      source_pointer: case://pms-strata/chron/order
+    source_trace:
+    - trace_id: trace.update0
+      source_feature: Initial implementation status update at t0.
+      affected_claim_component: Opening event and date.
+      trace_role: load_bearing
+      result_dependency: The chronology requires this opening item.
+      expected_result_change: Removing it shortens the chronology but does not reveal a Path relation.
+      temporal_or_relational_dependency: It precedes update1.
+      claim_limitation: Supports only the bounded temporal-source finding; it does not establish motive, causality, legitimacy,
+        target function, or authority.
+      source_pointer: case://pms-strata/event.chron.update0
+    - trace_id: trace.update1
+      source_feature: Second implementation status update at t1.
+      affected_claim_component: Intermediate order.
+      trace_role: load_bearing
+      result_dependency: The chronology uses it as an intermediate dated item.
+      expected_result_change: Removing it leaves the asserted Path label otherwise unchanged.
+      temporal_or_relational_dependency: It follows update0 and precedes update2.
+      claim_limitation: Supports only the bounded temporal-source finding; it does not establish motive, causality, legitimacy,
+        target function, or authority.
+      source_pointer: case://pms-strata/event.chron.update1
+    - trace_id: trace.update2
+      source_feature: Third implementation status update at t2.
+      affected_claim_component: Intermediate order.
+      trace_role: load_bearing
+      result_dependency: The chronology uses it as an intermediate dated item.
+      expected_result_change: Removing it leaves the asserted Path label otherwise unchanged.
+      temporal_or_relational_dependency: It follows update1 and precedes update3.
+      claim_limitation: Supports only the bounded temporal-source finding; it does not establish motive, causality, legitimacy,
+        target function, or authority.
+      source_pointer: case://pms-strata/event.chron.update2
+    - trace_id: trace.update3
+      source_feature: Final implementation status update at t3.
+      affected_claim_component: Endpoint event and date.
+      trace_role: load_bearing
+      result_dependency: The chronology requires this endpoint item.
+      expected_result_change: Removing it changes the interval but not the missing Formation Rule.
+      temporal_or_relational_dependency: It follows update2.
+      claim_limitation: Supports only the bounded temporal-source finding; it does not establish motive, causality, legitimacy,
+        target function, or authority.
+      source_pointer: case://pms-strata/event.chron.update3
+    selection_rule_pointer: /operation/selection_rule
+    target_reference_object_pointer: /target/reference_object
+    target_object_typing_pointer: /target/object_typing
+target:
+  reference_object:
+    object_id: target.c17-chron-01
+    description: Purported implementation Path formed from the four dated updates.
+    typing: &id005
+      value: path
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/target_contract/recognized_result_families
+      inventory_status: current_controlled
+    source_pointer: 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md#attempted-target
+  object_typing: *id005
+  contextual_function: null
+  frame: *id002
+  granularity: *id003
+  relative_level: *id006
+  temporal_scope: t0–t3
+  validity_scope: Assessment of whether the four accurate dated updates form the asserted implementation Path.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source and claim boundaries are explicit.
+      rationale: The synthetic source packet, claim scope, frame, temporal scope, and ceiling are separately declared.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: The attempted movement is correctly classified as COMPOSE.
+      rationale: The claim forms a new temporal composite from multiple source structures; no silent switch to DECOMPOSE or
+        PROJECT_AS occurs.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The stronger Path label adds no warranted praxeological gain beyond chronology.
+      rationale: Dates and succession are accurate, but no continuation-sensitive relation changes the reconstruction.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The source field remains traceable.
+      rationale: The problem is not source loss but overclaim at the lower PATH boundary.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source and target types remain explicit.
+      rationale: Typing and reference continuity are preserved even where the attempted stronger target is reduced or fails.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The chronology changes under source removal while the unsupported Path label remains underdetermined.
+      rationale: Removal of intermediate updates changes detail and order length but does not expose a constitutive Path relation.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection and the five canonical Loss fields are explicit.
+      rationale: Preserved source findings and failed or excluded target reach remain separated.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Weaker or rival routes are recorded without pre-authorization.
+      rationale: Every reduced chronology, regional Path, or bounded realized Path remains a new testable claim.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The synthetic packet discriminates the intended boundary only.
+      rationale: No empirical calibration, causal proof, or domain generalization is claimed.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: The current reduced or failed claim remains recorded.
+      rationale: Softer wording, a new frame, finer graph, or later operation cannot retroactively repair this occurrence.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: Stop and Non-Capture were assessed separately.
+      rationale: Explicit claim reduction is sufficient; a weaker chronology remains testable, so neither mandatory Stop nor
+        Non-Capture is selected.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: The claim disposition is bounded and grants no authority.
+      rationale: No target function, person judgment, legitimacy decision, intervention authority, or authority inheritance
+        is produced.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The Path label produces no additional warranted difference beyond the accurate chronology.
+      claim_or_artifact_effect:
+        family:
+          value: reduce
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Withdraw the Path claim and preserve the chronology.
+      controlled_local_result: below_floor
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The dated source field and order are reconstructible, so the Traceability Ceiling is not the failure
+        site.
+      claim_or_artifact_effect:
+        family:
+          value: reduce
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Retain the source trace without treating it as Path support.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The declared field remains explicit and bounded; it cannot compensate for the absent Path Formation
+        Rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The declared field remains explicit and bounded; it cannot compensate for the absent Path Formation
+        Rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: not_applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The declared field remains explicit and bounded; it cannot compensate for the absent Path Formation
+        Rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result: null
+      applicability_condition: Applies only if a source or target function is claimed.
+      applicability_rationale: No contextual function is claimed in this COMPOSE occurrence.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The declared field remains explicit and bounded; it cannot compensate for the absent Path Formation
+        Rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The declared field remains explicit and bounded; it cannot compensate for the absent Path Formation
+        Rule.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: Intermediate source removal changes chronology detail but does not disclose a source-sensitive Path
+        formation relation.
+      claim_or_artifact_effect:
+        family:
+          value: reduce
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Record the non-diagnostic mutation result.
+      controlled_local_result: partially_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: Sources support event identity and succession only.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The countercase discriminates chronology from Path formation.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The declared field remains explicit and bounded; it cannot compensate for the absent Path Formation
+        Rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: A precise chronology or ordered sequence is grounded enough for a new test but is not pre-authorized
+        here.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the weaker route without pre-authorization.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The asserted Path exceeds the source-supported chronology.
+      claim_or_artifact_effect:
+        family:
+          value: reduce
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Reduce the claim and require a new record for the chronology.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: Claim reduction grants no authority or target function.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The declared field remains explicit and bounded; it cannot compensate for the absent Path Formation
+        Rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      reasoned_finding: The declared field remains explicit and bounded; it cannot compensate for the absent Path Formation
+        Rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the stronger Path claim while retaining source identity, dates, order, Loss, and separately
+          testable weaker routes.
+      required_action: Preserve the bounded source finding and prevent stronger reach.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The source field is traceable but the asserted Path remains below the Relevance Floor; the stronger
+    claim must be withdrawn while a concrete chronology remains separately testable.
+  anti_immunization_assessment: The reduced or failed claim remains recorded. Any later chronology, Path, Trajectory, frame,
+    granularity, level, graph, or target-function claim is a new separately testable occurrence.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The failed stronger claim may not continue unchanged, but a concrete weaker chronology can be tested; this
+      is claim reduction rather than mandatory Stop.
+    reentry_contemplated: true
+    reentry_conditions:
+    - changed_condition: Enter the accurate chronology or ordered sequence as a distinct claim with its own scope, Loss, source
+        assessment, and routing.
+      new_or_revised_record_id: case.c17-chron-01.retest.01
+      rationale: Changed claim, target, selection, or formation grounds require a new record.
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: false
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: A concrete weaker chronology remains testable, so Non-Capture is not selected.
+loss:
+  preserved:
+  - item_id: loss.preserved.1
+    affected_element: event identity and dates
+    description: All four update identities and their dates remain explicit.
+    reason: They are directly supported even though the Path claim fails.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the element as load-bearing support.
+    source_or_evidence_pointer: /source/source_basis
+    recoverability_or_reentry_note: A new chronology record may reuse them as sources without inheriting admissibility.
+  - item_id: loss.preserved.2
+    affected_element: temporal order
+    description: The t0–t3 succession remains explicit.
+    reason: The source field supports chronology.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the element as load-bearing support.
+    source_or_evidence_pointer: /operation/details/ordering_rule
+    recoverability_or_reentry_note: A changed order requires a new record.
+  compressed:
+  - item_id: loss.compressed.1
+    affected_element: message text
+    description: Fine wording inside each status update is compressed.
+    reason: It is not needed for the chronology boundary test.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Bound the claim to the retained resolution.
+    source_or_evidence_pointer: /source/source_basis
+    recoverability_or_reentry_note: Re-entry requires additional source declarations.
+  excluded:
+  - item_id: loss.excluded.1
+    affected_element: Path relations and target function
+    description: Continuation dependency, branch closure, Path Dependence, target function, and authority are excluded.
+    reason: They are not source-supported.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Keep the excluded reach outside the claim.
+    source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+    recoverability_or_reentry_note: Any re-entry requires a separate claim and record.
+  uncertain:
+  - item_id: loss.uncertain.1
+    affected_element: intermediate practical effects
+    description: Whether any update changed action corridors remains unknown.
+    reason: No source declares such effects.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Qualify the claim and preserve uncertainty.
+    source_or_evidence_pointer: /source/known_gaps/0
+    recoverability_or_reentry_note: Preserve uncertainty rather than infer Path formation.
+  irrecoverable:
+  - item_id: loss.irrecoverable.1
+    affected_element: missing transition evidence
+    description: Unrecorded dependencies between updates cannot be reconstructed from the packet.
+    reason: They were never encoded.
+    claim_effect:
+      family:
+        value: mark_capture_limit
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Mark the capture limit and prohibit unsupported reconstruction.
+    source_or_evidence_pointer: /source/known_gaps/0
+    recoverability_or_reentry_note: New sources are required.
+alternatives:
+  rival_compositions:
+  - alternative_id: alternative.chron.chronology
+    claim_relation: Retain the four events as an accurate chronology or ordered sequence.
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Requires a new claim and record; no Path relation is inherited.
+    current_handling: not_selected
+    rationale: The source packet directly grounds this weaker formulation.
+  rival_decompositions: []
+  rival_projections: []
+  no_transformation:
+  - alternative_id: alternative.chron.no-compose
+    claim_relation: Retain four dated events without any composite claim.
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Maximum source preservation with minimal analytical gain.
+    current_handling: not_selected
+    rationale: This route avoids the unsupported Path label.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal and local case assessment applies only to the declared synthetic transformation claim; it does
+    not establish empirical truth, causality, semantic or normative validity, person judgment, legitimacy, diagnosis, sanction,
+    or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - failed or reduced PATH claim does not invalidate the source field automatically
+  - weaker replacement claims require separate records
+  - COMPOSE does not assign a contextual target function
+  - formal validation does not establish substantive correctness
+  - the countercase does not authorize person or institutional evaluation
+  - failure or reduction grants no intervention authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: The attempted COMPOSE does not form a Path; the dated source field remains an accurate chronology requiring a
+      new record if retained as a claim.
+    result_family:
+      value: mandatory claim reduction
+      control_source: 07_model/Output_Classes.yaml#/output_classes/claim_reduction_required/representative_local_results
+      inventory_status: current_controlled
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: unsupported
+    resolution_test_result: null
+    capture_statement:
+      statement: The stronger Path is not adequately supported, but a concrete weaker chronology remains source-grounded and
+        testable.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The constitutive conditions for admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: The constitutive conditions for admissible_with_bounded_claim are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_with_bounded_claim result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The constitutive conditions for admissible_but_provisional are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The constitutive conditions for partially_admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: selected
+        rationale: The stronger Path claim lies below the Relevance Floor, while a precise weaker chronology is source-grounded
+          enough to require claim reduction rather than total failure or Non-Capture.
+        constitutive_condition_pointers: &id007
+        - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+        - /claim/claim_ceiling
+        - /source/source_ceiling
+        - /alternatives/rival_compositions
+        - /governance/authority_inheritance
+        preserved_finding: Event identities, dates, order, and the possibility of a separately tested chronology remain preserved.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The constitutive conditions for mandatory_stop are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The constitutive conditions for failed_transformation are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: The constitutive conditions for non_capture are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: claim_reduction_required
+    route_id: route_claim_reduction_required
+    matched_constitutive_conditions: *id007
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings: []
+    split_decision:
+      required: false
+      rationale: The current record disposes of the declared stronger claim while preserving weaker source-grounded routes
+        only as separately testable claims.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The stronger Path claim lies below the Relevance Floor, while a precise weaker chronology is
+      source-grounded enough to require claim reduction rather than total failure or Non-Capture.
+    current_claim_disposition:
+      value: withdrawn
+      rationale: The Path claim is withdrawn; the accurate chronology remains only as a separately testable weaker formulation.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: claim_reduction_required
+    original_stronger_claim_pointer: /claim/claim_id
+    failed_or_excessive_claim_dimensions:
+    - 'object class: Path rather than chronology'
+    - 'relation strength: continuation-sensitive transition relation'
+    - 'praxeological purchase: additional Path gain beyond order'
+    proposed_weaker_formulation: The four synthetic implementation updates form an accurate chronology or ordered source sequence
+      from t0 through t3; no Path relation is established.
+    grounding_for_retest:
+    - All four event identities and dates are directly declared.
+    - The t0 < t1 < t2 < t3 order is source-supported.
+    - The missing continuation relations are explicitly preserved rather than assumed.
+    retest_required: true
+    reduced_claim_admissibility_pre_authorized: false
+    rationale: The stronger Path claim lacks praxeological purchase, but a precise chronology is sufficiently grounded to
+      justify a new test without inheriting admissibility.
+relations:
+  prior_record_ids: []
+  prior_claim_ids: []
+  sibling_claim_or_record_ids: []
+  rival_record_ids: []
+  countercase_refs:
+  - C17-LINEAR-01
+  - C17-RES-01
+extensions:
+- extension_id: pms-strata:chapter17:path-countercase:c17-chron-01:v0.1
+  owner_or_source: PMS-STRATA Chapter 17
+  control_source_pointer: 01_blocks/02_part_i_path.md#177-countercase-1-chronology-presented-as-path
+  purpose: Carry the Chapter-17 countercase wrapper and local audit summary without replacing Shared Transformation Record
+    fields.
+  payload:
+    path_case:
+      case_id: C17-CHRON-01
+      case_class: countercase
+      title: Chronology Presented as Path
+      markdown_artifact: 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+      yaml_artifact: 03_cases/yaml/C17-CHRON-01_Chronology_Presented_as_Path.yaml
+      governing_claim: The four dated implementation updates form a bounded implementation Path rather than merely an accurate
+        chronology.
+      starting_configuration: Initial implementation status update at t0.
+      transitions:
+      - dated succession t0→t1
+      - dated succession t1→t2
+      - dated succession t2→t3
+      events:
+      - four dated updates
+      non_events: []
+      branches_and_alternatives: No source-supported branch or foreclosed alternative is established.
+      compose_decision: COMPOSE attempted and audited as one bounded occurrence.
+      path_or_trajectory_result: failed Path claim with retained chronology
+      path_dependence_finding: not established; order is supported but continuation-sensitive history is not.
+      local_audit_result:
+        status: pass
+        stages_complete: 12
+        warnings: 0
+        errors: 0
+      canonical_output_mapping: claim_reduction_required
+      stop_or_non_capture_status: neither selected; claim reduction recorded and weaker route preserved
+      governance_boundary: No target function, causality, person judgment, legitimacy, sanction, application authority, or
+        authority inheritance.
+  does_not_replace_required_field: true

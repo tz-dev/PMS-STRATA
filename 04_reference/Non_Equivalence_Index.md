@@ -1,6 +1,6 @@
 # PMS-STRATA — Non-Equivalence Index
 
-**Status:** Reference Kernel v0.2.40 — Chapter-10-WP2-synchronized PATH audit index  
+**Status:** Reference Kernel v0.2.42 — Chapter-11-WP2-synchronized PATH audit index  
 **Repository role:** `04_reference` terminology, navigation, and category-collapse control; not an independent theory source  
 **Authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the provisionally locked canonical Chapters 0–7 in `01_blocks/01_foundations.md`, `04_reference/Glossary.md`, `04_reference/Operator_Index.md`, `04_reference/Transformation_Operation_Index.md`, and the non-theory production controls `04_reference/Chapter_1_Preparation_Record.md` through `04_reference/Chapter_8_Preparation_Record.md`
 
@@ -1788,3 +1788,822 @@ Canonical route: [`Chapter 10 §§10.1–10.6`](../01_blocks/02_part_i_path.md#c
 
 Canonical route: [`Chapter 10 §§10.7–10.10`](../01_blocks/02_part_i_path.md#10-7-realized-path).
 
+---
+
+## Chapter 10 WP3 — Canonical Comparison and Record Non-Equivalences
+
+| Pair | Collapse blocked | Admissible relation preserved |
+| --- | --- | --- |
+| path comparison ≠ endpoint comparison | endpoint label substitutes for historical relation | endpoints may be one bounded comparison dimension |
+| frame translation ≠ frame identity | translated relation treated as lossless sameness | bounded translation may preserve selected dimensions |
+| source asymmetry ≠ historical asymmetry | documentary inequality treated as praxis inequality | source ceiling may reduce comparison scope |
+| multi-dimensional comparison ≠ score | dimensions averaged into compensatory ranking | dimensions remain separately testable |
+| same endpoint ≠ same path | final configuration erases costs, bindings, and residue | endpoint similarity may coexist with path difference |
+| different path ≠ different current consequence automatically | every historical difference treated as active load | some differences may lack current purchase |
+| reconstructible path ≠ strong path dependence | history treated as present constraint by definition | path may remain valid with low dependence |
+| present explanatory sufficiency ≠ historical erasure | current conditions delete traversed history | path remains reconstructible without strong constraint |
+| minimal record ≠ complete Shared Record | compact path view replaces common record | path fields remain embedded in Chapter-7 architecture |
+| record completeness ≠ admissibility | populated fields treated as historical truth | structure may be valid while claim remains provisional or failed |
+| later trajectory success ≠ retroactive path repair | stronger later claim launders prior path failure | new evidence creates a new claim with lineage |
+| Non-Capture ≠ omnibus path | rival paths merged to avoid adjudication | candidates remain separate with re-entry conditions |
+
+Canonical route: [`Chapter 10 §§10.11–10.14`](../01_blocks/02_part_i_path.md#10-11-path-comparison).
+
+
+## Chapter 10 Provisional-Lock Non-Equivalences
+
+```text
+chronology ≠ sequence ≠ warranted transition set ≠ path
+path candidate ≠ warranted path
+path object ≠ COMPOSE occurrence
+qualified path status ≠ global path essence
+same endpoint ≠ same path
+reconstructible path ≠ strong path dependence
+minimal path record ≠ complete Shared Transformation Record
+record completeness ≠ historical truth
+later trajectory success ≠ retroactive path repair
+Chapter 11 handoff ≠ trajectory preauthorization
+```
+
+These boundaries preserve temporal relation and later transformation while blocking traversal inflation, status collapse, endpoint reduction, dependence inflation, record formalism, causal inflation, and authority transfer. Canonical return: [`Chapter 10`](../01_blocks/02_part_i_path.md#chapter-10-path).
+
+---
+
+## Chapter 11 Preparation — Trajectory Non-Equivalences
+
+| Non-equivalence | Collapse risk | Admissible relation path |
+| --- | --- | --- |
+| path ≠ trajectory | traversal treated as sedimented historical load | a warranted Path may become a Trajectory candidate under additional burdens |
+| duration ≠ sedimentation | elapsed time treated as accumulated praxis effect | duration may support sedimentation only with continuity, residue, and present load |
+| repetition ≠ sedimentation | frequency treated as historical determination | repeated occurrences may contribute where cumulative effect is traceable |
+| directionality ≠ teleology | oriented change treated as destiny or plan | direction may be reconstructed while alternatives and contingency remain visible |
+| historical load ≠ narrative coherence | coherent story substitutes for Source–Result Dependency | narrative may present, but not establish, historical load |
+| historical co-determination ≠ exclusive causation | earlier Path treated as sole present cause | current and historical conditions may jointly matter |
+| trajectory boundary ≠ uniquely true periodization | one analytical cut treated as objective history | competing bounded periodizations may remain admissible |
+| trajectory compression ≠ macro-label substitution | label replaces transitions, Non-Events, residue, and loss | compression is admissible where constitutive load remains traceable |
+| trajectory ≠ path dependence | sedimented history treated as graded present constraint automatically | Chapter 12 later tests dependence separately |
+| trajectory object ≠ target function | origin object becomes frame-, event-, or attractor-function automatically | RETYPE requires a separate `PROJECT_AS` claim |
+| operator combination ≠ operator fusion | `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, or `Λ + Θ` treated as new operator | bounded occurrence relations may support Trajectory dimensions |
+| minimal trajectory record ≠ admissibility | complete fields treated as Trajectory proof | record may remain diagnostic, reduced, failed, or non-captured |
+
+A breach is a local category-error finding, not an automatic Output Class. Production control: [`Chapter 11 Preparation Record`](Chapter_11_Preparation_Record.md).
+
+## Chapter 11 WP1 — Canonical Trajectory Non-Equivalences
+
+| Pair | Collapse blocked | Preserved bounded relation |
+| --- | --- | --- |
+| warranted Path ≠ Trajectory automatically | actual traversal treated as present-bearing historical load | Path may remain valid while Trajectory is reduced or failed |
+| Trajectory candidate ≠ warranted Trajectory | threshold declaration treated as passed admissibility | later continuity, loss, boundary, competition, Stop, and Non-Capture tests remain required |
+| duration ≠ sedimentation | elapsed time treated as retained praxis effect | duration may remain a valid weaker finding |
+| repetition ≠ sedimentation | recurrence count treated as cumulative transformation | repetition may contribute only through a traceable carrier and present effect |
+| persistence ≠ historical load automatically | continued occurrence treated as historically produced load | current-condition reproduction may remain distinct from historical carry-over |
+| historical co-determination ≠ exclusive causation | earlier Path treated as the sole explanation | historical and current conditions may interact |
+| historical interest ≠ present praxis effect | rich background treated as constitutive current load | a history may be relevant without passing the Trajectory threshold for the tested claim |
+| same label ≠ same historical carrier | nominal continuity treated as structural continuity | carrier translation may be declared and tested |
+| cumulative change ≠ monotonic increase | repair or reversal treated as absence of accumulation | non-linear reinforcement, erosion, repair, and residue may coexist |
+| persistent residue ≠ permanence | surviving load treated as immutable | residue may weaken, redistribute, become dormant, or be repaired |
+| directionality ≠ teleology | bounded orientation treated as destiny, progress, decline, or original plan | dimension-specific continuation pressure may remain warranted |
+| present continuation pressure ≠ determined future | changed accessibility treated as necessity | agency, contingency, recontextualization, and structural break remain possible |
+| later Trajectory success ≠ retroactive Path repair | stronger later claim launders earlier failed substrate | revised claims preserve lineage and require a new test |
+
+Canonical route: [`Chapter 11 §§11.1–11.4`](../01_blocks/02_part_i_path.md#11-trajectory).
+
+## Chapter 11 WP2 — Canonical Profile and Corridor Non-Equivalences
+
+| Pair | Collapse blocked | Preserved bounded relation |
+| --- | --- | --- |
+| operator combination ≠ operator fusion | `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, or `Λ + Θ` treated as a new operator | separate occurrence-level relations may carry distinct historical loads |
+| repetition ≠ Attractor Sedimentation | recurrence count treated as changed local friction | carrier and present continuation effect remain required |
+| lower local friction ≠ legitimacy or necessity | easier route treated as better, authorized, or inevitable | bounded accessibility claim may remain |
+| unequal outcome ≠ Asymmetry Accumulation | one difference treated as cumulative historical distribution | temporal carrier, distribution, and present effect remain required |
+| role hardening ≠ person type | structural expectation or exit burden fixed onto an individual | roles and carriers remain distinct from persons |
+| multiple commitments ≠ Binding Accumulation | serial promises treated as layered present Binding | inheritance, reliance, breach, or reopening relation remains required |
+| structural Binding ≠ moral obligation | coordination or breach cost treated as duty or legitimacy | bounded structural cost may remain |
+| multiple absences ≠ Residual Accumulation | gaps aggregated without expectation frames | each `Λ` remains expectation- and frame-bound |
+| missing information ≠ residual Non-Event load | source gap treated as historical absence | unknown remains unknown |
+| Changed Action Corridor ≠ fifth profile or operation | integrated present effect reified as a new core kind | distinct profile carriers remain traceable |
+| formal openness ≠ practical accessibility | authorized option treated as usable at comparable cost | corridor dimensions remain separate |
+| narrowed corridor ≠ eliminated agency | burden treated as determined conduct | refusal, repair, innovation, recontextualization, and break remain possible |
+| reopened corridor ≠ restored original corridor | repair treated as reset | changed proof, cost, access, or residue may remain |
+| rich profile set ≠ stronger authority | descriptive density treated as warrant increase | Source, Claim, and Authority Ceilings remain fixed |
+| profile co-presence ≠ universal Trajectory strength | heterogeneous burdens flattened into one score | constitutive, contextual, absent, and uncertain profiles remain declared separately |
+
+Canonical route: [`Chapter 11 §§11.5–11.9`](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation).
+
+## Chapter 11 WP3 — Canonical Boundary, Compression, Competition, and Record Non-Equivalences
+
+| Pair | Collapse blocked | Preserved bounded relation |
+| --- | --- | --- |
+| Trajectory Boundary ≠ natural historical seam | selected interval treated as ontologically given | source- and claim-sensitive periodization remains testable |
+| oldest event ≠ Trajectory beginning | earliest available datum treated as constitutive entry | relevant prehistory and constitutive carrier remain distinct |
+| end of source window ≠ end of Trajectory | record cutoff treated as historical closure | open continuation and terminal status remain declared |
+| new segment ≠ new reference object automatically | phase label treated as identity break | segment lineage and translation remain testable |
+| boundary revision ≠ repair of failed historical load | changed interval used to erase prior failure | new boundary creates a new claim with explicit lineage |
+| Trajectory Compression ≠ lossless summary | omitted material treated as recoverable by default | canonical Loss remains explicit |
+| compression ≠ macro-label substitution | large label replaces transitions, Non-Events, profiles, and alternatives | compressed claim remains source-sensitive |
+| compressed direction ≠ monotonic history | reversals and repairs are erased | non-linear trajectory remains representable |
+| same material ≠ one uniquely true Trajectory | one periodization receives automatic privilege | multiple bounded constructions may remain |
+| multiple constructions ≠ all constructions admissible | rivalry itself treated as validation | each construction retains independent burdens |
+| competing constructions ≠ forced synthesis | incompatibility hidden by merged vocabulary | compatibility, conflict, incomparability, or Non-Capture remain distinct |
+| False Trajectory ≠ no history | failed stronger claim erases Path and weaker findings | chronology, Path, recurrence, local profile, or constraint may survive |
+| False Trajectory ≠ new Output Class | diagnostic phrase expands canonical inventory | local result maps to existing classes |
+| Record completeness ≠ Trajectory warrant | field presence treated as historical proof | substantive source and admissibility judgment remains external |
+| Non-Capture ≠ validation of rivals | undecidability treated as truth for all constructions | responsible non-adjudication remains possible |
+
+Canonical route: [`Chapter 11 §§11.10–11.14`](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary).
+
+## Chapter 11 Provisional-Lock Non-Equivalences
+
+| Non-equivalence | Protected distinction |
+| --- | --- |
+| warranted Path ≠ warranted Trajectory | sedimented present historical load requires separate test |
+| Trajectory ≠ Path Dependence | object and graded property remain separate |
+| duration/repetition/persistence ≠ sedimentation | time or recurrence alone lacks carried present effect |
+| directionality ≠ teleology | historical tendency does not imply purpose or necessity |
+| historical co-determination ≠ exclusive causation | current conditions and rival explanations remain visible |
+| profile co-presence ≠ universal Trajectory strength | no additive score or compensatory label count |
+| Changed Action Corridor ≠ eliminated agency | practical narrowing does not erase alternatives automatically |
+| Boundary ≠ uniquely true periodization | periodization remains claim- and source-sensitive |
+| Compression ≠ macro-label substitution | constitutive trace and Loss remain required |
+| competing constructions ≠ all constructions admissible | independent burdens and Failure remain available |
+| False Trajectory ≠ no Path/no history | weaker warranted findings survive |
+| complete record ≠ substantive warrant | schema and field presence do not decide historical sufficiency |
+| Chapter 11 lock ≠ `COMPOSE`/RETYPE authorization | later operations require separate Records |
+
+
+---
+
+## Chapter 12 Preparation Non-Equivalences
+
+| Required distinction | Prohibited collapse | Admissible relation |
+| --- | --- | --- |
+| Path Dependence as property ≠ Trajectory as object | every Trajectory is strongly path-dependent | a warranted Trajectory may be tested for graded dependence |
+| weak order dependence ≠ strong Path Dependence | any order effect becomes historical indispensability | weak effects may remain bounded and locally important |
+| historical contribution ≠ historical indispensability | history mattered, therefore present is unreconstructible without it | contribution becomes strong dependence only under the stricter omission/variation burden |
+| sedimentation ≠ repetition alone | long recurrence proves dependence | repeated structure may support a carrier where present discrimination changes |
+| `Θ` type capacity ≠ occurrence proof | Base temporality label proves strong dependence | `Θ` is necessary but insufficient at occurrence level |
+| historical load ≠ determinism | changed costs or reachability fix one future | dependence may constrain while alternatives remain possible |
+| source-bounded counterfactual ≠ prediction | alternative-history test proves what would have happened | bounded variation tests sensitivity only |
+| recontextualization ≠ reset | new frame erases prior costs, roles, residue, or binding | `Φ` may attenuate, amplify, or redirect load under a new test |
+| modifier ≠ erasure | later `Χ`, `Σ`, or `Ψ` deletes lineage automatically | later occurrences may change the dependence profile while preserving trace |
+| earlier `Ψ + Θ` ≠ later `Ψ` occurrence | one Binding record serves both historical carrier and modifier | same operator type may have distinct occurrences, positions, and functions |
+| current-state similarity ≠ object identity | paired present snapshots are treated as identical experiments | declared similarity can support bounded comparison with retained differences |
+| complete Record ≠ dependence proof | schema validity establishes history or causality | completeness supports inspection only |
+
+A breach is a local category-error finding, not an automatic Output Class. Production control: [`Chapter 12 Preparation Record`](Chapter_12_Preparation_Record.md).
+
+## Chapter 12 WP1 Canonical Non-Equivalences
+
+```text
+Path Dependence as property
+≠ Trajectory as object
+
+weak order dependence
+≠ strong Path Dependence
+
+historical contribution
+≠ historical indispensability
+
+Path Dependence in one dimension
+≠ whole-object dependence in every dimension
+
+approximately similar present features
+≠ identical objects
+≠ controlled causal isolation
+
+Θ, duration, or repetition
+≠ strong Path Dependence
+
+warranted Trajectory
+≠ inherited dependence proof
+
+formal Record completeness
+≠ historical-indispensability proof
+
+failed strong dependence
+≠ erased Path or Trajectory automatically
+```
+
+Primary routes: [§§12.1–12.3](../01_blocks/02_part_i_path.md#12-path-dependence-and-sedimentation).
+
+## Chapter 12 WP2 Canonical Profile Non-Equivalences
+
+```text
+Attractor Sedimentation
+≠ Attractor Dependence automatically
+
+Asymmetry Accumulation
+≠ Asymmetry Dependence automatically
+
+Binding Accumulation
+≠ Binding Dependence automatically
+
+Residual Accumulation
+≠ Residual Dependence automatically
+
+current default
+≠ historically dependent default automatically
+
+present inequality
+≠ accumulated historical Asymmetry automatically
+
+current enforceability
+≠ historical Binding Dependence
+
+missing information or mere absence
+≠ Residual Dependence
+
+profile interaction
+≠ operator fusion
+≠ universal causal chain
+≠ additive dependence score
+
+one supported profile
+≠ whole-object dependence
+
+all four profiles
+≠ strong Path Dependence automatically
+
+profile richness
+≠ compensation for failed current-state sufficiency
+```
+
+Primary route: [Chapter 12 §§12.4–12.7](../01_blocks/02_part_i_path.md#12-4-a-theta-attractor-dependence).
+
+## Chapter 12 WP3 Canonical Test and Modifier Non-Equivalences
+
+```text
+recontextualization ≠ reset
+modifier ≠ erasure
+successful interruption ≠ completed release
+integration ≠ historical neutralization
+earlier Ψ + Θ Binding carrier ≠ later Ψ modifier occurrence
+historical constraint ≠ destiny
+reduced accessibility ≠ impossibility
+increased expectedness ≠ prediction
+counterfactual sensitivity ≠ forecast ≠ causal isolation
+historical indispensability ≠ exclusive causation
+property test ≠ fourth operation
+complete claim view ≠ dependence proof
+failed strong dependence ≠ no history, Path, Trajectory, or current constraint
+new frame, label, granularity, operation, projection, or visualization ≠ automatic re-entry
+```
+
+## Chapter 12 Provisional-Lock Non-Equivalences
+
+```text
+Trajectory ≠ strong Path Dependence
+historical contribution ≠ historical indispensability
+weak order dependence ≠ strong Path Dependence
+Θ ≠ dependence proof
+sedimentation profile ≠ dependence warrant automatically
+recontextualization ≠ reset
+modifier ≠ erasure
+historical constraint ≠ destiny
+reduced accessibility ≠ impossibility
+source-bounded counterfactual ≠ prediction
+complete Record ≠ substantive warrant
+visual complexity ≠ evidentiary strength
+Path-Dependence test ≠ fourth operation
+```
+
+Canonical return: [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary).
+
+---
+
+## Chapter 13 Preparation Non-Equivalences
+
+```text
+historical alternative ≠ rival transformation
+availability ≠ retrospective plausibility
+branch point ≠ narrated fork
+realized ≠ rational, legitimate, optimal, or necessary
+rejected ≠ blocked
+blocked ≠ impossible
+aborted ≠ never begun
+deferred ≠ uninterrupted continuation
+lost alternative ≠ currently unattractive option
+counterfactual Path ≠ free story, forecast, or causal proof
+non-selection ≠ absent decision context
+alternative compression ≠ proof that no alternative existed
+branch status ≠ Output Class
+complete Alternative Status Record ≠ availability proof
+visualized branch ≠ historical fact
+```
+
+These controls govern Chapter 13 drafting and later Reader rendering.
+
+## Chapter 13 WP1 Non-Equivalences
+
+```text
+alternative space ≠ all conceivable possibilities
+historical availability ≠ retrospective plausibility
+Branch Point ≠ narrated fork
+realized ≠ rational, legitimate, optimal, or inevitable
+not realized ≠ rejected automatically
+rejected ≠ blocked
+same later label ≠ same historical branch
+visualized branch ≠ historically available branch
+```
+
+Primary route: [Chapter 13 WP1](../01_blocks/02_part_i_path.md#13-branches-aborts-delays-and-unavailable-alternatives).
+
+## Chapter 13 WP2 Non-Equivalences
+
+```text
+blocked ≠ impossible
+blocked ≠ rejected
+not realized ≠ blocked automatically
+aborted ≠ never begun
+planning ≠ initiation
+same label after interruption ≠ uninterrupted or resumed branch automatically
+deferred ≠ uninterrupted continuation
+later same name ≠ original branch preserved automatically
+lost alternative ≠ currently unattractive option
+more expensive ≠ materially unreachable automatically
+temporarily blocked ≠ lost automatically
+later functional equivalent ≠ preserved historical alternative
+Lost Alternative ≠ sixth canonical Loss field
+branch status ≠ Output Class
+machine-readable declaration ≠ historical status proof
+```
+
+Primary route: [Chapter 13 WP2](../01_blocks/02_part_i_path.md#13-5-blocked-branch).
+
+## Chapter 13 WP3 Non-Equivalences
+
+```text
+historically available branch ≠ known unrealized outcome
+Counterfactual Path ≠ free alternative history
+counterfactual pressure ≠ Path-Dependence proof
+Chapter-13 Counterfactual Path ≠ Chapter-46 general Counterfactual Sensitivity
+Non-Selection ≠ missing decision record
+Non-Selection ≠ Rejected Branch ≠ Blocked Branch ≠ Deferred Branch
+Non-Selection candidate ≠ Λ occurrence automatically
+necessary alternative-space compression ≠ retrospective linearization
+historical alternative loss ≠ representation irrecoverability
+clean graph ≠ complete alternative space
+many rendered branches ≠ historically open field
+historical alternative ≠ rival STRATA transformation
+Alternative Status Record ≠ parallel schema
+record completeness ≠ availability proof ≠ status proof
+branch finding ≠ completed COMPOSE ≠ PROJECT_AS result
+```
+
+Primary route: [Chapter 13 WP3](../01_blocks/02_part_i_path.md#13-9-counterfactual-path).
+
+## Chapter 13 Provisional-Lock Non-Equivalences
+
+```text
+retrospective plausibility ≠ historical availability
+historical availability ≠ known unrealized outcome
+Branch Point ≠ narrated fork
+Realized ≠ rational or inevitable
+Rejected ≠ Blocked
+Blocked ≠ Impossible
+Aborted ≠ Never Begun
+Deferred ≠ Uninterrupted Continuation
+Lost Alternative ≠ Currently Unattractive Option
+same label ≠ continuity
+Non-Selection ≠ missing decision record
+Counterfactual Path ≠ free story or prediction
+Alternative-Space Compression ≠ retrospective linearization
+Alternative Status Record completeness ≠ branch-status proof
+historical alternative ≠ rival STRATA transformation
+visualized branch ≠ historically available branch
+```
+
+Canonical return: [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary).
+
+## Chapter 14 Preparation Non-Equivalences
+
+```text
+Non-Event ≠ ordinary absence
+Non-Event ≠ missing source
+unknown occurrence ≠ established non-realization
+analyst surprise ≠ warranted expectation
+conceivable occurrence ≠ expected occurrence
+open-ended possibility ≠ bounded expected window
+not yet realized ≠ failed within the expected window
+delay as Λ ≠ observed postponement-event chain
+Non-Decision ≠ refusal
+Blocked Responsibility ≠ person blame
+Missing Repair ≠ undefined duty
+Missing Exit ≠ hidden motive
+formal exit availability ≠ expected exit
+repetition ≠ sedimentation automatically
+long duration ≠ trajectory-forming load automatically
+positive sub-events ≠ realization of the governing expected occurrence
+Λ preservation ≠ translation into positive-event language
+False Non-Event ≠ proof that the event occurred
+complete Non-Event record ≠ Non-Event proof
+local Λ finding ≠ Path Dependence
+local Λ finding ≠ Output Class
+```
+
+These distinctions are conjunctive Chapter-14 controls. A graph, label, later frame, operation, schema-valid record, or visual simplification may not erase them.
+
+## Chapter 14 WP1 Non-Equivalences
+
+```text
+nothing happened ≠ path-forming Non-Event
+ordinary absence ≠ Λ
+missing information ≠ Non-Event
+unknown occurrence ≠ established non-realization
+analyst expectation ≠ warranted expectation relation
+not yet realized ≠ failed within the expected window
+no record found ≠ record of non-occurrence
+positive sub-events ≠ realization of the governing expected occurrence
+Delay as Λ ≠ observed postponement-event chain
+later realization ≠ erasure of an earlier missed-window Non-Event
+Deferred Branch ≠ Delay Non-Event automatically
+visual gap ≠ Λ proof
+```
+
+Primary route: [Chapter 14 WP1](../01_blocks/02_part_i_path.md#14-non-events-within-paths-and-trajectories).
+
+## Chapter 14 WP2 Non-Equivalences
+
+```text
+one prolonged unresolved window ≠ repeated Non-Decision automatically
+repeated missing documentation ≠ repeated Non-Decision
+Non-Decision ≠ refusal
+responsibility distributed ≠ responsibility blocked automatically
+blocked responsibility ≠ person blame, diagnosis, legal duty, or sanction
+observed defect ≠ expected repair
+repair initiated ≠ repair completed
+workaround ≠ repair automatically
+formal exit available ≠ exit expected
+exit did not occur ≠ motive, coercion, or voluntariness known
+repetition ≠ sedimentation automatically
+long duration ≠ trajectory-forming load automatically
+profile interaction ≠ operator fusion or additive score
+Non-Event Sedimentation ≠ strong Path Dependence automatically
+```
+
+Primary route: [Chapter 14 WP2](../01_blocks/02_part_i_path.md#14-4-repeated-non-decision).
+
+## Chapter 14 WP3 Non-Equivalences
+
+```text
+positive continuation description ≠ preservation of governing Λ
+positive sub-event ≠ governing expected occurrence realized
+failed Non-Event claim ≠ positive-event proof
+later desirability ≠ earlier expectation
+not yet realized ≠ failed within the expected window
+available alternative ≠ expected occurrence
+blank interval or missing graph node ≠ Λ
+complete Non-Event record ≠ semantic proof
+new representation ≠ old failed claim repaired
+local Λ finding ≠ completed operation or target function
+```
+
+Primary route: [Chapter 14 WP3](../01_blocks/02_part_i_path.md#14-9-preserving-%CE%BB-in-composition).
+
+## Chapter 14 Provisional-Lock Non-Equivalences
+
+```text
+absence ≠ Non-Event
+missing source ≠ non-occurrence
+unknown occurrence status ≠ supported non-realization
+positive sub-events ≠ realization of the governing expected occurrence
+Delay as Λ ≠ postponement-event chain
+Deferred Branch ≠ Delay Non-Event automatically
+Repeated Non-Decision ≠ one prolonged unresolved window
+Non-Decision ≠ refusal
+Blocked Responsibility ≠ person blame
+observed defect ≠ expected repair
+formal exit availability ≠ expected exit
+exit non-realization ≠ motive or coercion finding
+repetition ≠ Non-Event Sedimentation
+Non-Event Sedimentation ≠ strong Path Dependence automatically
+positive continuity language ≠ preservation of Λ
+False Non-Event ≠ positive-event proof
+record completeness ≠ semantic validity
+empty graph interval ≠ Non-Event
+```
+
+Canonical return: [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary).
+
+## Chapter 15 Preparation Non-Equivalences
+
+```text
+COMPOSE type ≠ COMPOSE occurrence
+source set ≠ composite
+selection ≠ discovery
+temporal ordering ≠ narrative sequencing
+formation ≠ aggregation
+preserved ≠ lossless
+compressed ≠ irrecoverable automatically
+excluded ≠ disproven
+uncertain ≠ excluded
+uncertain ≠ irrecoverable
+same target label ≠ same composition
+composite object ≠ contextual target function
+composition claim ≠ Path-Dependence claim
+successful COMPOSE ≠ successful PROJECT_AS
+successful DECOMPOSE after COMPOSE ≠ proof of prior losslessness
+record completeness ≠ semantic formation
+visual graph coherence ≠ operation warrant
+more sources ≠ more authority
+```
+
+These distinctions remain active under every frame, granularity, model, record, case, and Reader rendering.
+
+## Chapter 15 WP1 Non-Equivalences
+
+```text
+operation purpose ≠ summary convenience
+valid sources ≠ valid composition
+source identifier ≠ source typing
+source typing ≠ constitutive role
+selection ≠ discovery
+included ≠ uniquely true
+omitted ≠ irrelevant automatically
+ordering ≠ storytelling order
+partial order ≠ analytical defect
+parallel path ≠ linear sequence
+visual left-to-right placement ≠ temporal precedence
+composition frame ≠ formation rule
+coarser frame ≠ composite automatically
+same sources under different frames ≠ interchangeable targets
+no-composition ≠ analytical failure
+WP1 entry completion ≠ completed COMPOSE occurrence
+```
+
+## Chapter 15 WP2 Non-Equivalences
+
+```text
+selected and ordered sources ≠ formed composite automatically
+formation hypothesis ≠ formation finding
+formation finding ≠ completed COMPOSE occurrence automatically
+co-occurrence ≠ constitutive relation
+shared label ≠ composite identity
+unity ≠ homogeneity
+preserved ≠ copied unchanged
+preserved ≠ lossless
+chronology preserved ≠ praxeological load preserved
+compression ≠ erasure
+compression ≠ irrecoverability automatically
+external recoverability ≠ internal retention
+excluded ≠ false
+excluded ≠ irrelevant in every frame
+undeclared omission ≠ controlled exclusion
+uncertain ≠ excluded
+uncertain ≠ irrecoverable
+source-inherited irrecoverability ≠ composition-induced irrecoverability
+irrecoverable loss present ≠ failed transformation automatically
+clean graph ≠ adequate formation or Loss
+```
+
+## Chapter 15 WP3 Non-Equivalences
+
+```text
+formed composite object ≠ every claim about the composite
+object claim ≠ relation claim ≠ strength claim
+admissible operation occurrence ≠ every stronger target claim admissible
+analytical source role ≠ source type
+new composite type ≠ retroactive source retyping
+COMPOSE target object ≠ PROJECT_AS target function
+nested composite ≠ primitive or Loss reset
+counterfactual sensitivity ≠ free alternative history
+constitutive sensitivity ≠ causal necessity
+same target after constitutive removal ≠ robust formation automatically
+schema-valid record ≠ substantively admissible occurrence
+later successful composition ≠ retroactive repair of failed composition
+clean graph ≠ operation truth or authority
+```
+
+## Chapter 15 Provisional-Lock Non-Equivalences
+
+```text
+selection ≠ discovery
+ordering ≠ narrative sequencing
+Formation Rule ≠ aggregation
+source set ≠ composite analytical object
+connected graph ≠ formed composite
+preserved ≠ lossless
+compressed ≠ erased or irrecoverable automatically
+excluded ≠ disproven
+uncertain ≠ irrecoverable
+composite object ≠ contextual target function
+composition claim ≠ Path-Dependence claim
+admissible COMPOSE occurrence ≠ every stronger target claim admissible
+same target after constitutive removal ≠ robust formation automatically
+schema-valid record ≠ substantive operation success
+later PROJECT_AS success ≠ retroactive COMPOSE repair
+DECOMPOSE(COMPOSE(X)) ≠ X automatically
+```
+
+Canonical return: [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary).
+
+## Chapter 16 Preparation Non-Equivalences
+
+```text
+lower boundary ≠ upper boundary
+chronology without gain ≠ false chronology
+Trajectory without trace ≠ bounded compression
+compression ≠ punctualization
+directionality ≠ teleology
+more dates ≠ more PATH
+longer range ≠ more authority
+macro-label ≠ traceable composite
+omitted Λ ≠ harmless gap
+omitted Ω ≠ harmless simplification
+PATH ≠ SUB
+PATH ≠ RETYPE
+Stop ≠ Non-Capture
+provisionality ≠ Non-Capture
+level change ≠ claim repair
+new graph ≠ new warrant
+```
+
+## Chapter 16 WP1 Non-Equivalences
+
+```text
+lower boundary ≠ upper boundary
+valid chronology ≠ Path automatically
+correct order ≠ Trajectory gain
+long duration ≠ sedimentation
+more dates ≠ praxeological purchase
+neutral resolution ≠ false source record
+many citations ≠ source-to-result dependency
+macro-label ≠ traceable Trajectory
+stable target under removal ≠ robustness automatically
+historical vocabulary ≠ historical-load demonstration
+compression ≠ punctualization
+single date label ≠ single occurrence automatically
+same broad materials ≠ equally warranted representations
+WP1 completion ≠ Chapter 16 provisional lock
+```
+
+## Chapter 16 WP2 Non-Equivalences
+
+```text
+retrospective order ≠ original direction
+bounded directionality ≠ global developmental vector
+periodization sensitivity ≠ falsity automatically
+later restabilization ≠ earlier reversal erased
+later outcome ≠ earlier purpose
+realized endpoint ≠ only available continuation
+teleology ≠ excessive compression
+positive-event sequence ≠ complete Path where Λ is constitutive
+missing source ≠ omitted Non-Event automatically
+same event label ≠ same practical load
+structural asymmetry ≠ blame or legitimacy finding
+Trajectory object ≠ Frame function
+contextual usefulness ≠ historical traceability proof
+more temporal detail ≠ DECOMPOSE automatically
+finer resolution ≠ stronger truth automatically
+expandable node ≠ DECOMPOSE by interface action alone
+new operation ≠ retroactive repair
+WP2 completion ≠ Chapter 16 provisional lock
+```
+
+## Chapter 16 WP3 Non-Equivalences
+
+```text
+Purchase passage ≠ Trace passage automatically
+purchase dimensions ≠ additive score
+traceability ≠ total certainty
+provisional result ≠ unreduced failed claim
+Claim Reduction ≠ source erasure
+optional Stop ≠ mandatory_stop
+Stop ≠ Non-Capture
+uncertainty ≠ non_capture automatically
+missing information ≠ non_capture mechanically
+new frame/level/graph/SUB/RETYPE label ≠ retroactive PATH repair
+complete boundary record ≠ automatic boundary passage
+```
+
+## Chapter 16 Provisional-Lock Non-Equivalences
+
+```text
+lower boundary ≠ upper boundary
+chronology without gain ≠ false chronology
+Trajectory label ≠ traceable Trajectory
+compression ≠ punctualization
+directionality ≠ teleology
+retrospective order ≠ original direction
+later outcome ≠ earlier purpose or necessity
+positive-event sequence ≠ complete Path where Λ is constitutive
+same event label ≠ same practical load
+PATH ≠ SUB
+PATH ≠ RETYPE
+finer graph ≠ DECOMPOSE occurrence
+contextual usefulness ≠ origin-object validity
+provisionality ≠ unreduced failed stronger claim
+Optional Stop ≠ mandatory_stop
+Stop ≠ Non-Capture
+new representation ≠ erased prior failure
+boundary result ≠ canonical Output Class
+complete boundary record ≠ automatic boundary passage
+Chapter 16 provisional lock ≠ final Part-I lock
+```
+
+Canonical return: [`Chapter 16 completion boundary`](../01_blocks/02_part_i_path.md#chapter-16-completion-boundary).
+
+## Chapter 17 Preparation Non-Equivalences
+
+```text
+case ≠ countercase ≠ confusion case
+chapter pressure test ≠ standalone case artifact
+complete artifact set ≠ substantive validity
+local result ≠ canonical Output Class
+positive case ≠ global validation
+countercase ≠ decorative illustration
+Trajectory ≠ Attractor function
+Path reconstruction ≠ PROJECT_AS occurrence
+resolution drift ≠ DECOMPOSE
+failed transformation ≠ mandatory_stop ≠ non_capture
+PATH local lock ≠ final STRATA lock
+```
+
+## Chapter 17 WP1 Non-Equivalences
+
+```text
+chapter Pressure Case ≠ standalone case artifact
+case wrapper ≠ parallel transformation schema
+local PATH result ≠ canonical Output Class
+schema-valid record ≠ substantively valid case automatically
+positive case ≠ global PATH validation
+ordered events ≠ Path automatically
+branch drawn in a graph ≠ historically available branch
+central absence ≠ warrantable Λ
+Trajectory case ≠ strong Path Dependence claim
+case artifact ≠ target-function artifact
+```
+
+## Chapter 17 WP2-A Non-Equivalences
+
+```text
+similar endpoint description ≠ equivalent Path
+historical difference ≠ total historical determination
+historical indispensability in one dimension ≠ whole-object dependence
+repetition ≠ strong Path Dependence
+current-state sufficiency ≠ history irrelevant
+repeated pattern ≠ Attractor target function
+admissible_with_bounded_claim ≠ weak wording without material narrowing
+```
+
+## Chapter 17 WP2-B Non-Equivalences
+
+```text
+accurate chronology ≠ formed Path
+failed Path claim ≠ failed dates or source field
+many sources ≠ traceable macro-Trajectory
+source material preserved ≠ failed macro target retained
+realized endpoint ≠ original purpose or historical necessity
+softer teleological wording ≠ repaired Formation Rule
+claim reduction ≠ failed transformation ≠ mandatory stop automatically
+```
+
+
+## Chapter 17 WP2-C Non-Equivalences
+
+```text
+same milestone labels ≠ same practical load
+correct chronology ≠ asymmetry-preserving Trajectory
+missing review record ≠ expected review Non-Event
+later escalation ≠ proof of prior Λ centrality
+failed uniform target ≠ failed differentiated source Paths
+```
+
+
+## Chapter 17 WP3-A Non-Equivalences
+
+```text
+historical relevance ≠ contextual function
+Trajectory ≠ Frame as origin type
+more timestamps ≠ stronger Path
+more detail ≠ DECOMPOSE automatically
+repetition within one history ≠ Attractor identity
+Trajectory ≠ Attractor-function
+three lock-critical artifacts present ≠ automatic Part-I lock
+```
+
+
+## Chapter 17 WP3-B Closing Non-Equivalences
+
+```text
+record-level audit passage ≠ automatic chapter completion
+chapter completion ≠ automatic Part-I lock
+class not selected ≠ class unavailable
+optional stop ≠ mandatory_stop
+failed transformation ≠ erased source field
+available weaker claim ≠ non_capture automatically
+PATH closing ≠ target-function assignment
+```
+
+## Part I — PATH Provisional-Lock Non-Equivalences
+
+```text
+Part-I provisional lock ≠ final STRATA lock
+case-corpus completeness ≠ empirical validation
+PATH lock ≠ SUB authorization
+PATH lock ≠ PROJECT_AS authorization
+lock readiness ≠ lock act
+reopening permission ≠ retroactive claim repair
+more detail ≠ reopening ground
+new transformation ≠ inherited success or authority
+```

@@ -1855,3 +1855,149 @@ failed transition claim
 ```
 
 A delimited claim may route to `admissible_with_bounded_claim`, `claim_reduction_required`, `failed_transformation`, `mandatory_stop`, `non_capture`, or another applicable canonical class only after the full local rule pattern is considered. No eleventh class or transition-specific score is introduced. Canonical return: [`Chapter 9`](../01_blocks/02_part_i_path.md#chapter-9-temporal-order-and-transition).
+
+## Chapter 10 Provisional-Lock Routing Boundary
+
+Chapter 10 preserves the closed ten-class system and keeps Path candidates, evidence states, qualified statuses, comparison findings, and formal diagnostics separate from canonical outputs.
+
+```text
+path candidate ≠ Output Class
+qualified path status ≠ Output Class
+incomparability ≠ new Output Class
+formal_diagnostic ≠ Output Class
+failed Path claim ≠ failed_transformation automatically
+```
+
+A delimited claim may route to an applicable canonical class only after the full rule pattern is considered. No eleventh class, Path-status class, comparison score, ranking class, or automatic route selector is introduced. Canonical return: [`Chapter 10`](../01_blocks/02_part_i_path.md#chapter-10-path).
+
+## Chapter 11 Provisional-Lock Routing Boundary
+
+Chapter 11 local findings must map only to the ten canonical Output Classes. `Trajectory candidate`, profile status, construction relation, `False Trajectory`, and record completeness are not additional Output Classes.
+
+| Local Chapter 11 state | Possible canonical routing boundary |
+| --- | --- |
+| complete bounded Trajectory burden | `admissible`, `admissible_with_bounded_claim`, or `admissible_but_provisional` |
+| weaker surviving claim after overreach | `claim_reduction_required` or `partially_admissible` |
+| known failed Trajectory used for stronger derivation | `mandatory_stop` |
+| substantive Trajectory burden fails | `failed_transformation` where the operation-level claim fails |
+| materially rival source-responsible constructions remain undecidable | `non_capture` |
+| additional detail adds no praxeological purchase | `resolution_neutral` where applicable |
+
+No route is automatic. False Trajectory diagnosis, field completeness, model validity, or Chapter 11 lock cannot select an Output Class without the full rule pattern.
+
+## Chapter 12 Provisional-Lock Routing Boundary
+
+Chapter 12 introduces no new Output Class. Local dependence-strength findings map to the fixed canonical vocabulary. Supported bounded claims may route to `admissible_with_bounded_claim` or `admissible_but_provisional`; failed stronger claims with preserved weaker support route to `claim_reduction_required`; no additional historical purchase may route to `resolution_neutral`; known anti-laundering misuse routes to `mandatory_stop`; materially rival undecidable explanations may route to `non_capture`.
+
+```text
+local dependence strength
+≠ canonical Output Class
+```
+
+Canonical return: [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary).
+
+## Chapter 13 Provisional-Lock Routing Boundary
+
+Chapter 13 introduces no branch-status Output Class. Local findings such as realized, rejected, blocked, aborted, deferred, lost, unresolved, or not established map to the fixed canonical vocabulary. Supported bounded claims may route to `admissible_with_bounded_claim` or `admissible_but_provisional`; overclaimed statuses with preserved weaker support route to `claim_reduction_required`; unsupported additions without praxeological purchase may route to `resolution_neutral`; known anti-laundering misuse routes to `mandatory_stop`; materially relevant but unresolved status relations may route to `non_capture`.
+
+```text
+branch status
+≠ canonical Output Class
+```
+
+Canonical return: [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary).
+
+## Chapter 14 Provisional-Lock Routing Boundary
+
+Chapter 14 introduces no Non-Event-status Output Class. Local findings such as warranted `Λ`, Delay, repeated Non-Decision, Blocked Responsibility, Missing Repair, Missing Exit, sedimented, false, unresolved, or not established map to the fixed canonical vocabulary.
+
+Supported bounded claims may route to `admissible_with_bounded_claim` or `admissible_but_provisional`; overclaimed `Λ` or sedimentation with preserved weaker support routes to `claim_reduction_required`; source- or resolution-limited claims may route to `resolution_neutral`; known anti-laundering misuse routes to `mandatory_stop`; materially relevant but unresolved expectation/non-realization relations may route to `non_capture`.
+
+```text
+Non-Event finding
+≠ canonical Output Class
+```
+
+Canonical return: [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary).
+
+## Chapter 15 Provisional-Lock Output Routing
+
+Chapter 15 introduces no COMPOSE-specific Output Class. Local object, relation, strength, Loss, sensitivity, overelasticity, or failure findings map to the fixed ten-class vocabulary.
+
+Supported bounded compositions may route to `admissible`, `admissible_with_bounded_claim`, or `admissible_but_provisional`; unresolved resolution may route to `resolution_neutral`; stronger overclaimed targets with preserved weaker findings route to `claim_reduction_required`; locally mixed results may route to `partially_admissible`; unsuccessful operation claims route to `failed_transformation`; known misuse for sanction, target function, or authority routes to `mandatory_stop`; irreducible materially supported compositions may route to `non_capture`.
+
+```text
+COMPOSE finding
+≠ canonical Output Class
+```
+
+Canonical return: [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary).
+
+## Chapter 16 Provisional-Lock Output Routing
+
+Chapter 16 introduces no boundary-specific Output Class. Local Floor and Ceiling values map to the fixed ten-class vocabulary only after the full claim, source, Loss, sensitivity, governance, Stop, and Non-Capture pattern is assessed.
+
+Supported bounded PATH claims may route to `admissible`, `admissible_with_bounded_claim`, or `admissible_but_provisional`; neutral detail may route to `resolution_neutral`; an overclaimed target with preserved weaker findings routes to `claim_reduction_required`; mixed local results may route to `partially_admissible`; a source-indifferent or destructive target routes to `failed_transformation`; known reuse beyond ceilings routes to `mandatory_stop`; irreducible adequate alternatives route to `non_capture`.
+
+```text
+boundary value pair
+≠ automatic Output-Class selector
+```
+
+Canonical return: [`Chapter 16 completion boundary`](../01_blocks/02_part_i_path.md#chapter-16-completion-boundary).
+
+## Chapter 17 WP1 Case Mapping Synchronization
+
+All three WP1 cases map their bounded current claim to the existing canonical class `admissible`.
+
+| Local result | Canonical class | Boundary |
+|---|---|---|
+| admissible bounded Path | `admissible` | no Trajectory or dependence inflation |
+| admissible branching Path | `admissible` | no counterfactual-outcome or optimality claim |
+| admissible source-sensitive Trajectory with central `Λ` | `admissible` | no strong Path Dependence or target function |
+
+The mapping is reasoned in each record. It is not selected by schema validity, audit completion, case title, or index entry.
+
+## Chapter 17 WP2-A Case Mapping Synchronization
+
+`C17-HISTORY-01` and `C17-WEAKPD-01` map to `admissible_with_bounded_claim` because each retains a separately tested temporal claim only after material narrowing of broader historical reach.
+
+```text
+materially narrowed supported dependence claim
+→ admissible_with_bounded_claim
+
+schema-valid record
+≠ automatic class selection
+```
+
+## Chapter 17 WP2-B Case Mapping Synchronization
+
+`C17-CHRON-01` maps to `claim_reduction_required` because a precise weaker chronology remains source-grounded but untested. `C17-MACRO-01` and `C17-TEL-01` map to `failed_transformation` because their declared `COMPOSE` occurrences lack necessary constitutive formation.
+
+```text
+local audit pass
+≠ transformation success
+```
+
+
+## Chapter 17 WP2-C Case Mapping Synchronization
+
+`C17-OMEGA-01` maps to `failed_transformation` because the declared target removes constitutive source load. `C17-FALSEL-01` maps to `claim_reduction_required` because a precise event-field formulation remains source-grounded while the central `Λ` must be withdrawn.
+
+
+## Chapter 17 WP3-A Case Mapping Synchronization
+
+- `C17-PROJ-01` → `admissible_with_bounded_claim` because the source-sensitive Trajectory passes only after the Frame-function reach is separated.
+- `C17-RES-01` → `resolution_neutral` because a valid source-supported refinement leaves the warranted reconstruction unchanged.
+- `C17-ATTR-01` → `admissible_with_bounded_claim` because the Trajectory passes only after Attractor identity/function reach is excluded.
+
+The mappings remain reasoned case results, not automated routing precedents.
+
+
+## Chapter 17 WP3-B — Integrated PATH Output Census
+
+The thirteen records instantiate: `admissible` (3), `admissible_with_bounded_claim` (4), `resolution_neutral` (1), `claim_reduction_required` (2), and `failed_transformation` (3). `admissible_but_provisional`, `partially_admissible`, `analogy_only`, `mandatory_stop`, and `non_capture` remain canonically available and are not manufactured to satisfy a quota. Counts do not route claims.
+
+## Part I — PATH Provisional-Lock Output Boundary
+
+The thirteen PATH case records retain their five-class census. The Part-level result `admissible_but_provisional` records provisional corpus closure and is not a fourteenth case, a class quota, a rank, or an automatic route. All ten canonical Output Classes remain available for later operations and cases.

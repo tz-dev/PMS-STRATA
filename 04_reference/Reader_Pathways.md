@@ -1,9 +1,9 @@
 # PMS-STRATA — Reader Pathways
-**Status:** Reference Kernel v0 scaffold v0.3.46; Chapter-10-WP2-synchronized  
+**Status:** Reference Kernel v0 scaffold v0.3.48; Chapter-11-WP2-synchronized  
 **Repository role:** `04_reference/*` — reader-route, artifact-role, dependency-warning, and canonical-return navigation; not canonical corpus prose and not the later Reader implementation  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the post-Model synchronized `04_reference/Cross_Reference_Map.md` and `04_reference/Evidence_Map.md`, `04_reference/Audit_Checklist.md`, repository `README.md`, and `PMS.yaml` for PMS Base  
 **Current formal handoff inputs:** all seven populated `07_model/*` Core artifacts, eight populated canonical smoke records, and `07_model/examples/README.md`; Root and Companion synchronized; suite-level and package audits passed  
-**Availability status:** the seven-artifact Formal Model v0 Core and canonical smoke-suite route are current and the internal smoke-test gate has passed; Foundations Chapters 0–8 are available under provisional lock, with Preparation Records retained as production history; Chapter 9 Sections 9.1–9.9 are available canonically and Preparation remains production control; Sections 9.10–9.12 and Chapters 10–57, substantive cases, appendices, derivatives, and `08_PMS-STRATA Reader/*` remain pending
+**Availability status:** the seven-artifact Formal Model v0 Core and canonical smoke-suite route are current and the internal smoke-test gate has passed; Foundations Chapters 0–8 are available under provisional lock, with Preparation Records retained as production history; Chapters 9–10 are available under provisional lock; Chapter 11 WP1–WP2 are canonical through Sections 11.1–11.9 and Preparation remains production control; Sections 11.10–11.14 and Chapters 12–57, substantive cases, appendices, derivatives, and `08_PMS-STRATA Reader/*` remain pending
 ---
 ## 1. Role, Status, and Authority
 This scaffold controls how readers may enter, traverse, leave, and return to PMS-STRATA artifacts without turning convenience into theory, production sequence into rank, or a presentation layer into authority. It remains the pathway owner during Foundations production and distinguishes current Core/smoke inspection and the available Chapter-0 route from still-pending corpus routes. Reference Kernel population and post-model synchronization are not the final Reference Freeze.
@@ -736,7 +736,7 @@ Current artifact state and unlock stage are separate columns.
 
 | Open route target | Current artifact or link state | Reason open | Unlock stage | Freeze stage |
 | --- | --- | --- | --- | --- |
-| numeric chapter anchors 0–57 | Chapters 0–3 available / provisionally locked; Chapter 4 preparation record available; Chapters 4–57 canonical prose pending | later chapter availability remains contract-bound until its own prose and lock | relevant chapter provisional lock | during Blocks |
+| numeric chapter anchors 0–57 | Chapters 0–10 available; Chapters 0–10 provisionally locked; Chapter 11 canonical through §11.4 with WP1 complete; §§11.5–11.14 and Chapters 12–57 pending | later chapter availability remains contract-bound until its own prose and lock | relevant chapter WP and provisional lock | during Blocks |
 | Front-Matter anchors | contract-bound / prose pending | produced after full corpus stabilization | Front Matter | Front Matter |
 | case IDs and record links | case handoff pending | case files are placeholders | Integrated Cases and Audit | Cases |
 | appendix anchors | appendix handoff pending | appendices are placeholders | Appendices | Appendices |
@@ -1608,3 +1608,651 @@ After Chapter 10 §§10.1–10.6, read:
 
 The current canonical route ends at §10.10. Path Comparison, Similar Endpoints, Non-Dependence, Minimal Record, Stop/Non-Capture integration, Chapter-11 handoff, and full `COMPOSE` remain pending.
 
+---
+
+## Chapter 10 WP3 Reading Route
+
+After Chapter 10 §§10.1–10.10, read:
+
+1. [§10.11](../01_blocks/02_part_i_path.md#10-11-path-comparison) for comparison basis, evidence asymmetry, dimensions, and incomparability;
+2. [§10.12](../01_blocks/02_part_i_path.md#10-12-similar-end-states-different-paths) for endpoint similarity and retained path load;
+3. [§10.13](../01_blocks/02_part_i_path.md#10-13-path-without-strong-dependence) for reconstructible history without automatic dependence;
+4. [§10.14](../01_blocks/02_part_i_path.md#10-14-minimal-path-record) for record fields, lineage, model limits, Stop, Non-Capture, and Chapter-11 handoff;
+5. [`Chapter 10 Preparation Record`](Chapter_10_Preparation_Record.md) for production history and the pending WP4 lock audit.
+
+The canonical Chapter-10 drafting route now reaches §10.14. Chapter 10 remains provisional until WP4 synchronization, integrated audit, and lock.
+
+
+## Chapter 10 Provisional-Lock Reading Route
+
+Read Chapter 10 in four passes:
+
+1. [§§10.1–10.6](../01_blocks/02_part_i_path.md#10-1-definition-of-path) for the Path threshold, chronology, components, selection, frame, and evidence;
+2. [§§10.7–10.10](../01_blocks/02_part_i_path.md#10-7-realized-path) for qualified realized, blocked, aborted, and deferred status;
+3. [§§10.11–10.14](../01_blocks/02_part_i_path.md#10-11-path-comparison) for comparison, endpoints, non-dependence, Minimal Record, Stop, Non-Capture, and the Chapter 11 handoff;
+4. [`Chapter 10 completion boundary`](../01_blocks/02_part_i_path.md#chapter-10-completion-boundary) for the integrated lock, no-erasure rule, and anti-preauthorization limits.
+
+Chapter 10 is provisionally locked. Chapter 11 is also provisionally locked; continue to the Chapter 11 Provisional-Lock route below, while retaining the rule that a warranted Path is not a Trajectory automatically.
+
+---
+
+## Chapter 11 Preparation Reading Route
+
+For the controlled Trajectory gate, read:
+
+1. [Chapter 3 §3.9 Trajectory](../01_blocks/01_foundations.md#38-trajectory) for the foundational temporal-object definition;
+2. [Chapter 8 §8.6](../01_blocks/01_foundations.md#86-path-is-not-trajectory) and [§8.7](../01_blocks/01_foundations.md#87-trajectory-is-not-path-dependence) for the governing non-equivalences;
+3. [Chapter 9 completion boundary](../01_blocks/02_part_i_path.md#chapter-9-completion-boundary) for transition anti-laundering;
+4. [Chapter 10 completion boundary](../01_blocks/02_part_i_path.md#chapter-10-completion-boundary) for the Path handoff and no-repair rule;
+5. [`Chapter 11 Preparation Record`](Chapter_11_Preparation_Record.md) for ownership, Work Packages, cases, and completion criteria;
+6. [`Chapter 11 §§11.1–11.4`](../01_blocks/02_part_i_path.md#11-trajectory) for the now-canonical WP1 prose.
+
+The Chapter 11 Preparation route is now production history: canonical Sections 11.1–11.14 and the Provisional Lock are complete. Chapter 12 canonical Path-Dependence prose, Chapter 15 full `COMPOSE`, RETYPE functions, and Appendix J stress tests remain pending.
+
+## Chapter 11 WP1 Reading Route
+
+Read the controlled Trajectory threshold in this order:
+
+1. [`Chapter 10 completion boundary`](../01_blocks/02_part_i_path.md#10-14-minimal-path-record) for the warranted Path handoff and no-preauthorization rule;
+2. [`Chapter 11 §11.1`](../01_blocks/02_part_i_path.md#11-1-definition-of-trajectory) for the operational definition, conjunctive burden, and historical co-determination;
+3. [`§11.2`](../01_blocks/02_part_i_path.md#11-2-from-path-to-trajectory) for Source–Result Dependency, current-condition allocation, reduction, and no-erasure;
+4. [`§11.3`](../01_blocks/02_part_i_path.md#11-3-historical-sedimentation) for carrier, cumulative change, residue, present praxis effect, repair, and counterfactual pressure;
+5. [`§11.4`](../01_blocks/02_part_i_path.md#11-4-directionality-without-teleology) for dimension-specific direction, alternatives, endpoint-selection bias, and the Chapter-12 boundary;
+6. [`Chapter 11 Preparation Record — WP1 Execution`](Chapter_11_Preparation_Record.md#20-wp1-execution-record) for production history and case assignment only.
+
+Do not read WP1 as a provisional lock of Chapter 11. Continue through canonical WP2, Sections 11.5–11.9. Do not infer Path Dependence, completed `COMPOSE`, a RETYPE function, empirical causality, or application authority from the Trajectory label.
+
+## Chapter 11 WP2 Reading Route
+
+Read the profile-specific historical-load architecture in this order:
+
+1. [`Chapter 11 §11.3`](../01_blocks/02_part_i_path.md#11-3-historical-sedimentation) for the generic carrier, cumulative-change, residue, present-effect, and current-condition burdens;
+2. [`§11.5`](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation) for `Α + Θ`, local friction, default accessibility, translation, erosion, and the attractor-function boundary;
+3. [`§11.6`](../01_blocks/02_part_i_path.md#11-6-asymmetry-accumulation) for `Ω + Θ`, distribution dimensions, role hardening, exit conditions, redistribution, and no person/moral inference;
+4. [`§11.7`](../01_blocks/02_part_i_path.md#11-7-binding-accumulation) for `Ψ + Θ`, structural commitments, reliance, breach/reopening costs, transfer, conflict, dormancy, and release;
+5. [`§11.8`](../01_blocks/02_part_i_path.md#11-8-residual-accumulation) for `Λ + Θ`, expectation-bound Non-Events, residual carriers, delay, lost windows, closure, and missing-information control;
+6. [`§11.9`](../01_blocks/02_part_i_path.md#11-9-changed-action-corridors) for integrated corridor dimensions, current-condition allocation, Source–Result Dependency, retained agency, and repair;
+7. [`Chapter 11 Preparation Record — WP2 Execution`](Chapter_11_Preparation_Record.md#21-wp2-execution-record) for production history and case assignment only.
+
+Do not read WP2 as operator fusion, an all-profile requirement, a Trajectory-strength score, Path-Dependence confirmation, completed `COMPOSE`, RETYPE projection, prediction, instruction, moral claim, or independent Chapter-11 Lock. Continue through canonical Sections 11.10–11.14 and the Provisional-Lock route.
+
+## Chapter 11 WP3 Reading Route
+
+Read the boundary, compression, competition, failure, and Record architecture in this order:
+
+1. [`Chapter 11 §11.10`](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary) for entry, prehistory, analytical cut, segment lineage, open continuation, disputed periodization, and boundary sensitivity;
+2. [`§11.11`](../01_blocks/02_part_i_path.md#11-11-trajectory-compression) for preservation duties, canonical Loss, load-bearing transitions and Non-Events, reversal/repair, macro-label substitution, and the Chapter-15 boundary;
+3. [`§11.12`](../01_blocks/02_part_i_path.md#11-12-competing-trajectory-constructions) for comparison basis, construction relations, adjudication, no forced synthesis, bounded coexistence, and Non-Capture;
+4. [`§11.13`](../01_blocks/02_part_i_path.md#11-13-false-trajectory) for False Trajectory conditions, weaker-finding preservation, canonical dispositions, lineage, and Mandatory Stop;
+5. [`§11.14`](../01_blocks/02_part_i_path.md#11-14-minimal-trajectory-record) for field interpretation, Shared Record mapping, completeness limits, re-entry, and the Chapter-12 handoff;
+6. [`Chapter 11 Preparation Record — WP3 Execution`](Chapter_11_Preparation_Record.md#22-wp3-execution-record) for production history and case assignment only.
+
+WP3 completed canonical drafting through §11.14; WP4 subsequently provisionally locked Chapter 11. Do not infer one uniquely true periodization, completed `COMPOSE`, Path Dependence, a RETYPE target function, semantic truth, or application authority. Continue through the Chapter 11 Provisional-Lock route.
+
+## Chapter 11 Provisional-Lock Reading Route
+
+Read the locked Trajectory architecture in this order:
+
+1. [`Chapter 10 completion boundary`](../01_blocks/02_part_i_path.md#chapter-10-completion-boundary) for the warranted Path substrate and no-preauthorization rule;
+2. [`Chapter 11 §§11.1–11.4`](../01_blocks/02_part_i_path.md#11-1-definition-of-trajectory) for definition, threshold, Historical Sedimentation, and non-teleological directionality;
+3. [`§§11.5–11.9`](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation) for the four occurrence profiles and Changed Action Corridors;
+4. [`§§11.10–11.14`](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary) for Boundary, Compression, competing constructions, False Trajectory, and the Minimal Record;
+5. [`Chapter 11 completion boundary`](../01_blocks/02_part_i_path.md#chapter-11-completion-boundary) for the integrated audit, lock result, reopening conditions, and Chapter-12 handoff;
+6. [`Chapter 11 Preparation Record — WP4`](Chapter_11_Preparation_Record.md#23-wp4-execution-and-provisional-lock-record) for production history only.
+
+Chapter 11 is provisionally locked and the Chapter 12 Preparation Gate is complete. Continue next to **Chapter 12 WP1: Path Dependence as a Property, Weak Order Dependence, and Strong Path Dependence**. Do not infer Path Dependence, completed `COMPOSE`, a RETYPE function, empirical causality, prediction, or application authority from the Trajectory label or lock status.
+
+
+---
+
+## Chapter 12 Preparation Reading Route
+
+For the controlled Path-Dependence gate, read:
+
+1. [`Chapter 3 §3.9 Path Dependence`](../01_blocks/01_foundations.md#39-path-dependence) for the foundational property distinction;
+2. [`Chapter 8 §8.7`](../01_blocks/01_foundations.md#87-trajectory-is-not-path-dependence) for the governing non-equivalence;
+3. [`Chapter 10 §10.13`](../01_blocks/02_part_i_path.md#10-13-path-without-strong-dependence) for Path without automatic strong dependence;
+4. [`Chapter 11 completion boundary`](../01_blocks/02_part_i_path.md#chapter-11-completion-boundary) for the warranted Trajectory handoff and no-preauthorization rule;
+5. [`Chapter 12 Contract`](../05_minified/Chapter_Contracts.md#chapter-12--path-dependence-and-sedimentation) for required claims, protected owners, and completion tests;
+6. [`Chapter 12 Preparation Record`](Chapter_12_Preparation_Record.md) for the graded property architecture, Work Packages, nineteen cases, model limit, and audit gate.
+
+The Preparation Gate is production history and canonical Sections 12.1–12.3 are complete. Continue through the Chapter 12 WP1 route below. Do not infer strong dependence from Trajectory, duration, repetition, `Θ`, operator-profile richness, a new frame, a complete Record, or model validity. Do not treat historical dependence as determinism, prediction, person type, target function, or authority.
+
+## Chapter 12 WP1 Reading Route
+
+Read the graded property architecture in this order:
+
+1. [`Chapter 11 completion boundary`](../01_blocks/02_part_i_path.md#chapter-11-completion-boundary) for the warranted Trajectory handoff and no-preauthorization rule;
+2. [`Chapter 12 §12.1`](../01_blocks/02_part_i_path.md#12-1-path-dependence-as-a-property) for property/object separation, eligible inputs, dependence dimensions, present cut, and local findings;
+3. [`§12.2`](../01_blocks/02_part_i_path.md#12-2-weak-order-dependence) for bounded order effects under substantial current-state reconstructibility;
+4. [`§12.3`](../01_blocks/02_part_i_path.md#12-3-strong-path-dependence) for historical indispensability, the current-state sufficiency challenge, approximately held-present comparison, `Θ` insufficiency, and failure preservation;
+5. [`Chapter 12 Preparation Record — WP1 Execution`](Chapter_12_Preparation_Record.md#22-wp1-execution-record) for production history and case assignment only.
+
+WP1 is canonical but Chapter 12 is not provisionally locked. Continue next to Sections 12.4–12.7. Do not infer strong dependence from Trajectory, duration, repetition, operator symbols, Record completeness, causal rhetoric, prediction, target-function assignment, or authority.
+
+## Chapter 12 WP2 Reading Route
+
+Read the dependence-bearing profile architecture in this order:
+
+1. [`Chapter 12 §12.3`](../01_blocks/02_part_i_path.md#12-3-strong-path-dependence) for the historical-indispensability and current-state-sufficiency threshold governing every profile;
+2. [`§12.4`](../01_blocks/02_part_i_path.md#12-4-a-theta-attractor-dependence) for `Α + Θ`, retained recurrence carriers, current friction/default effects, replacement, and no inevitability;
+3. [`§12.5`](../01_blocks/02_part_i_path.md#12-5-o-theta-asymmetry-dependence) for `Ω + Θ`, temporal distribution, current-only Asymmetry, exposure/exit effects, and dignity/authority limits;
+4. [`§12.6`](../01_blocks/02_part_i_path.md#12-6-ps-theta-binding-dependence) for `Ψ + Θ`, concrete commitments, reliance, current enforceability, reopening cost, release, and no moral-duty inference;
+5. [`§12.7`](../01_blocks/02_part_i_path.md#12-7-lambda-theta-residual-dependence) for `Λ + Θ`, expectation-bound Non-Events, retained residue, closure/repair, cross-profile interaction, no score, no all-profile requirement, and non-compensation;
+6. [`Chapter 12 Preparation Record — WP2 Execution`](Chapter_12_Preparation_Record.md#23-wp2-execution-record) for production history and case assignment only.
+
+Do not read profile presence as strong Path Dependence, causal necessity, prediction, a fused operator, completed `COMPOSE`, RETYPE target function, person judgment, or authority. Continue next through Chapter 12 WP3.
+
+## Chapter 12 WP3 Reading Route
+
+Read the completed Path-Dependence property architecture in this order:
+
+1. [`§12.8`](../01_blocks/02_part_i_path.md#12-8-phi-under-path-dependence) for recontextualization, apparent restart, carrier status, and no-reset discipline;
+2. [`§12.9`](../01_blocks/02_part_i_path.md#12-9-chi-sigma-and-psi-as-later-trajectory-modifiers) for later `Χ`, `Σ`, and `Ψ`, occurrence separation, attenuation, release, and retained residue;
+3. [`§12.10`](../01_blocks/02_part_i_path.md#12-10-path-dependence-without-determinism) for accessibility without impossibility, contingency, probability limits, and no legitimacy inference;
+4. [`§12.11`](../01_blocks/02_part_i_path.md#12-11-path-dependence-test) for the complete local test, canonical mapping, and Minimal Claim View;
+5. [`§12.12`](../01_blocks/02_part_i_path.md#12-12-failure-to-establish-path-dependence) for Failure, Reduction, Resolution Neutrality, Stop, Non-Capture, re-entry, and handoffs;
+6. [`Chapter 12 Preparation Record — WP3 Execution`](Chapter_12_Preparation_Record.md#24-wp3-execution-record) for production history only.
+
+Do not read a graph, modifier, complete Record, source-bounded counterfactual, or supported dependence claim as prediction, causal proof, completed operation, target function, or authority.
+
+## Chapter 12 Provisional-Lock Reading Route
+
+Read the locked Path-Dependence architecture in this order:
+
+1. [`Chapter 11 completion boundary`](../01_blocks/02_part_i_path.md#chapter-11-completion-boundary) for the warranted Trajectory substrate and no-preauthorization rule;
+2. [`Chapter 12 §§12.1–12.3`](../01_blocks/02_part_i_path.md#12-1-path-dependence-as-a-property) for property, gradient, present cut, Current-State Sufficiency, and `Θ` insufficiency;
+3. [`§§12.4–12.7`](../01_blocks/02_part_i_path.md#12-4-a-theta-attractor-dependence) for the four dependence-bearing profiles and non-compensation;
+4. [`§§12.8–12.12`](../01_blocks/02_part_i_path.md#12-8-phi-under-path-dependence) for recontextualization, modifiers, non-determinism, the complete test, Failure, Record, Stop, and Non-Capture;
+5. [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary) for integrated audit, lock status, reopening conditions, and Chapter-13 handoff;
+6. [`Chapter 12 Preparation Record — WP4`](Chapter_12_Preparation_Record.md#25-wp4-execution-and-provisional-lock-record) for production history only.
+
+Chapter 12 is provisionally locked and Chapter 13 WP1–WP3 are complete. Continue next to **Chapter 13 WP4: Synchronization, Integrated Audit, and Provisional Lock**. Do not infer branch availability, counterfactual outcome, causal proof, prediction, completed `COMPOSE`, target function, person judgment, or authority from a dependence claim, branch graph, record, or checkpoint status.
+
+---
+
+## Chapter 13 Preparation Reading Route
+
+Read the controlled pre-draft architecture in this order:
+
+1. [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary) for the bounded source-variation handoff without branch classification;
+2. [`Chapter 13 Contract`](../05_minified/Chapter_Contracts.md#chapter-13--branches-aborts-delays-and-unavailable-alternatives) for the governing question and completion criteria;
+3. [`Chapter 13 Preparation Record`](Chapter_13_Preparation_Record.md) for availability windows, status burdens, Work Packages, nineteen Pressure Cases, model limit, Stop, and Non-Capture;
+4. Chapter 13 WP1–WP2 canonical prose for Sections 13.1–13.8;
+5. Chapter 13 WP3 next for Sections 13.9–13.12.
+
+A later graph may render a declared branch structure, but rendering does not establish that a branch was historically available. Do not infer completed `COMPOSE`, counterfactual truth, prediction, target function, person judgment, or authority from a preparation record or visualization.
+
+## Chapter 13 WP1 Reader Route
+
+```text
+Chapter 10 Path
+→ Chapter 11 Trajectory
+→ Chapter 12 Path Dependence
+→ Chapter 13 §§13.1–13.4 alternative field and early branch statuses
+```
+
+Suggested Reader lenses: realized route, source-supported rival, historical window, availability basis, traversal trace, rejection trace, uncertainty, and Loss. A rendered node or edge never establishes historical availability by itself.
+
+## Chapter 13 WP2 Reader Route
+
+```text
+Chapter 13 §§13.1–13.4
+→ bounded alternative field and early statuses
+→ §§13.5–13.8 blockage, initiation/interruption, deferral, and loss
+```
+
+Suggested Reader lenses:
+
+- prior-availability layer;
+- blocking-structure overlay;
+- initiation and partial-traversal trace;
+- interruption and residue layer;
+- original versus later temporal window;
+- changed-frame/cost/role/binding comparison;
+- later-reachability and loss-transition overlay;
+- status uncertainty and competing classification.
+
+A graph must visually distinguish unavailable, uncertain, blocked, aborted, deferred, and lost claims. Node or edge styling cannot establish status, impossibility, continuity, causality, blame, or authority.
+
+Continue next to **Chapter 13 WP3: Sections 13.9–13.12**.
+
+## Chapter 13 WP3 Reader Route
+
+Read in this order:
+
+1. [§13.9](../01_blocks/02_part_i_path.md#13-9-counterfactual-path) for entry burden, divergence rule, source ceiling, and counterfactual horizon;
+2. [§13.10](../01_blocks/02_part_i_path.md#13-10-non-selection-as-praxis-structure) for active-context Non-Selection and the Chapter-14 `Λ` boundary;
+3. [§13.11](../01_blocks/02_part_i_path.md#13-11-alternative-space-compression) for five-part Loss and graph-rendering discipline;
+4. [§13.12](../01_blocks/02_part_i_path.md#13-12-alternative-status-record) for the owner-bound Shared-Record extension, schema decision, reduction, Stop, and Non-Capture;
+5. [`Chapter 13 Preparation Record — WP3 Execution`](Chapter_13_Preparation_Record.md#25-wp3-execution-record) for production history only.
+
+A later Reader may expose realized, rejected, blocked, aborted, deferred, lost, uncertain, compressed, and counterfactual segments dynamically. It must also expose source status, historical window, uncertainty, Loss, counterfactual horizon, Stop, and Non-Capture. A plug-in view may change legibility; it may not change the underlying claim.
+
+Continue next to **Chapter 13 WP4: Synchronization, Integrated Audit, and Provisional Lock**.
+
+## Chapter 13 Provisional-Lock Reading Route
+
+Read the locked alternative-space architecture in this order:
+
+1. [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary) for bounded historical-dependence pressure without inherited branches;
+2. [`Chapter 13 §§13.1–13.4`](../01_blocks/02_part_i_path.md#13-1-why-path-must-include-alternatives) for alternative field, historical availability, Branch Point, Realized, and Rejected;
+3. [`§§13.5–13.8`](../01_blocks/02_part_i_path.md#13-5-blocked-branch) for Blocked, Aborted, Deferred, Lost, status/mechanism separation, and continuity pressure;
+4. [`§§13.9–13.12`](../01_blocks/02_part_i_path.md#13-9-counterfactual-path) for bounded Counterfactual Path, Non-Selection, Compression, Record Extension, Failure, Stop, and Non-Capture;
+5. [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary) for integrated audit, lock status, reopening conditions, and Chapter-14 handoff;
+6. [`Chapter 13 Preparation Record — WP4`](Chapter_13_Preparation_Record.md#26-wp4-execution-and-provisional-lock-record) for production history only.
+
+Chapter 13 is provisionally locked. Continue next to **Chapter 14 Preparation: Non-Events within Paths and Trajectories**. A Reader graph may expose sources, windows, statuses, uncertainty, compression, and Loss; it may not establish historical availability, counterfactual truth, `Λ`, completed `COMPOSE`, target function, or authority.
+
+## Chapter 14 Preparation Reading Route
+
+Read the preparation architecture in this order:
+
+1. [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary) for bounded decision windows, branch statuses, and Non-Selection candidates without inherited `Λ` typing;
+2. [`Chapter 14 Preparation Record — Contract and ownership`](Chapter_14_Preparation_Record.md#3-contract-lock) for the expectation/frame/window/source/load gate;
+3. [`Expectation Frame and Expected Window`](Chapter_14_Preparation_Record.md#6-expectation-frame-and-expected-window) and [`Source-Supported Non-Realization`](Chapter_14_Preparation_Record.md#7-source-supported-non-realization);
+4. [`Delay`](Chapter_14_Preparation_Record.md#8-delay-as-non-event), [`Repeated Non-Decision`](Chapter_14_Preparation_Record.md#9-repeated-non-decision), [`Blocked Responsibility`](Chapter_14_Preparation_Record.md#10-blocked-responsibility), [`Missing Repair`](Chapter_14_Preparation_Record.md#11-missing-repair), and [`Missing Exit`](Chapter_14_Preparation_Record.md#12-missing-exit);
+5. [`Non-Event Sedimentation`](Chapter_14_Preparation_Record.md#13-non-event-sedimentation) and [`Preserving Λ through Composition`](Chapter_14_Preparation_Record.md#14-preserving-λ-through-composition);
+6. [`False Non-Event`](Chapter_14_Preparation_Record.md#15-false-non-event), [`Minimal Non-Event Record`](Chapter_14_Preparation_Record.md#16-minimal-non-event-record-architecture), and [`Failure, Stop, and Non-Capture`](Chapter_14_Preparation_Record.md#17-failure-claim-reduction-stop-and-non-capture);
+7. [`Work-Package Plan`](Chapter_14_Preparation_Record.md#18-work-package-plan) for production control only.
+
+A later Reader or Graph Mode may display expected windows, realized positive sub-events, governing non-realization, repetitions, accumulated load, alternatives, uncertainty, and Loss as separate visual layers. It must not infer `Λ` from an empty interval, a missing node, an absent edge, sparse source data, or visual discontinuity.
+
+```text
+empty graph segment
+≠ Non-Event
+
+hidden or missing node
+≠ supported non-realization
+```
+
+Continue next to **Chapter 14 WP1: Sections 14.1–14.3**.
+
+## Chapter 14 WP1 Reader Route
+
+```text
+Chapter 13 bounded alternatives and Non-Selection candidates
+→ Chapter 14 §§14.1–14.3 expectation/frame/window/source gate
+→ path-forming Λ and Delay without intention or blame inference
+```
+
+Suggested Reader lenses: expected occurrence, expectation relation, frame, original window, current window status, positive sub-events, non-realization support, affected Path relations, uncertainty, and Loss.
+
+A blank interval, missing node, absent edge, or visually emphasized delay never establishes `Λ` by itself.
+
+## Chapter 14 WP2 Reader Route
+
+```text
+WP1 expectation/frame/window/source gate
+→ renewed or domain-specific Λ patterns
+→ configuration-level blockage, repair/exit burdens, and sedimentation carriers
+→ changed action corridors without person attribution or determinism
+```
+
+Suggested Reader lenses: occurrence architecture, renewed decision windows, role-dependency graph, repair/exit trigger, positive sub-events, later carrier, affected alternatives, profile interactions, current-state rival, uncertainty, and canonical Loss.
+
+Graph rendering must distinguish one prolonged Non-Event, repeated occurrences, and mixed formations. Node count, branch density, empty intervals, or highlighted residue never establishes sedimentation by itself.
+
+## Chapter 14 WP3 Reader Route
+
+```text
+warranted expectation/frame/window
+→ source-supported non-realization
+→ positive sub-events retained
+→ PATH load and sedimentation carrier
+→ preservation or canonical Loss
+→ reduction, Stop, or Non-Capture where required
+```
+
+Suggested Reader lenses: expectation layer, realization condition, positive-event layer, source-confidence layer, persistence/repetition, affected alternatives, residue, Loss, and output mapping.
+
+A blank interval, missing node, absent edge, highlighted residue, or complete extension payload must never render as established `Λ` by default. Graph state must preserve uncertainty between non-realization, undocumented realization, pending window, and source gap.
+
+## Chapter 14 Provisional-Lock Reading Route
+
+Read the locked Non-Event architecture in this order:
+
+1. [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary) for decision windows and Non-Selection candidates without inherited `Λ` typing;
+2. [`Chapter 14 §§14.1–14.3`](../01_blocks/02_part_i_path.md#14-1-why-%CE%BB-is-central-to-path) for the PATH-specific `Λ` threshold, frame-dependence, source discipline, positive sub-events, and Delay;
+3. [`§§14.4–14.8`](../01_blocks/02_part_i_path.md#14-4-repeated-non-decision) for Repeated Non-Decision, Blocked Responsibility, Missing Repair, Missing Exit, and sedimentation;
+4. [`§§14.9–14.11`](../01_blocks/02_part_i_path.md#14-9-preserving-%CE%BB-in-composition) for preservation, False Non-Event, Minimal Record Extension, reduction, Stop, and Non-Capture;
+5. [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary) for integrated audit, lock status, reopening conditions, and Chapter-15 handoff;
+6. [`Chapter 14 Preparation Record — WP4`](Chapter_14_Preparation_Record.md#27-wp4-execution-and-provisional-lock-record) for production history only.
+
+Chapter 14 is provisionally locked. Continue next to **Chapter 15 Preparation: COMPOSE: Selection, Formation, and Compression**. A Reader graph may expose expectation, window, sources, positive sub-events, uncertainty, sedimentation, compression, and Loss; it may not infer `Λ`, person motive, completed operation, target function, or authority.
+
+## Chapter 15 Preparation Reading Route
+
+Read the preparation architecture in this order:
+
+1. [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary) for preservable `Λ` source structure without inherited operation authorization;
+2. [`Chapter 15 Preparation Record — Contract`](Chapter_15_Preparation_Record.md#3-contract-lock) and [`Operation Occurrence`](Chapter_15_Preparation_Record.md#5-operation-occurrence-and-identity-boundary);
+3. [`Preconditions`](Chapter_15_Preparation_Record.md#6-preconditions-gate), [`Source Objects`](Chapter_15_Preparation_Record.md#7-source-objects-and-typing), [`Selection`](Chapter_15_Preparation_Record.md#8-selection-rule), [`Ordering`](Chapter_15_Preparation_Record.md#9-ordering-rule), and [`Frame`](Chapter_15_Preparation_Record.md#10-composition-frame);
+4. [`Formation`](Chapter_15_Preparation_Record.md#11-formation-rule-and-target-object-threshold), [`Preservation`](Chapter_15_Preparation_Record.md#12-preservation-duty), and [`Loss`](Chapter_15_Preparation_Record.md#13-compression-exclusion-uncertainty-and-irrecoverable-loss);
+5. [`Claims`](Chapter_15_Preparation_Record.md#14-composition-claims-and-claim-segmentation), [`No Retyping`](Chapter_15_Preparation_Record.md#15-composition-without-retyping), and [`Counterfactual Sensitivity`](Chapter_15_Preparation_Record.md#16-counterfactual-sensitivity-and-overelasticity);
+6. [`Failure, Stop, Non-Capture`](Chapter_15_Preparation_Record.md#17-failure-claim-reduction-stop-and-non-capture), [`Record`](Chapter_15_Preparation_Record.md#18-compose-record-architecture), and [`Work Packages`](Chapter_15_Preparation_Record.md#19-work-package-plan).
+
+A later Graph Mode may display source nodes, ordering constraints, selected/excluded elements, constitutive relations, target composites, uncertainty, rival formations, and Loss as separate layers. A connected graph, dense path, stable label, or complete record must not render as an admissible `COMPOSE` occurrence by default.
+
+```text
+connected graph
+≠ formed composite automatically
+
+rendered target node
+≠ target-function assignment
+```
+
+Continue next to **Chapter 15 WP1 — Sections 15.1–15.6**.
+
+## Chapter 15 WP1 Reader Route
+
+```text
+Chapter 14 preservable typed structures
+→ Chapter 15 purpose and entry gate
+→ source identity/type/lineage layer
+→ selection and omission layer
+→ linear/partial/parallel order layer
+→ composition-frame layer
+→ WP2 formation and Loss
+```
+
+Suggested Graph Mode layers:
+
+- source node identity and origin type;
+- source support and inherited uncertainty;
+- included, omitted, contested, illustrative, and load-bearing roles;
+- temporal constraints separate from visual layout;
+- frame, granularity, relative level, and claim scope;
+- rival source selections, rival frames, and no-composition option.
+
+A connected component, total-looking line, dense graph, stable label, or rendered target node must not display as a completed `COMPOSE` occurrence before formation and Loss are tested.
+
+Continue next to **Chapter 15 WP2 — Sections 15.7–15.11**.
+
+## Chapter 15 WP2 Reader Route
+
+```text
+WP1 typed selected ordered framed source field
+→ Formation Rule and target-object threshold
+→ constitutive-relation layer
+→ preservation layer
+→ compression and exclusion layer
+→ uncertainty and irrecoverability layer
+→ WP3 claim and sensitivity tests
+```
+
+Suggested Graph Mode layers:
+
+- candidate target boundary and target-object class;
+- constitutive versus supporting or exchangeable source relations;
+- preserved source trace and external-lineage pointers;
+- compression rule with resolution switch;
+- excluded material with frame-bound reason and rival-composition route;
+- uncertain order, relation, occurrence, boundary, or status;
+- source-inherited versus composition-induced irrecoverability;
+- complete preserved/compressed/excluded/uncertain/irrecoverable Loss overlay.
+
+A connected cluster, stable target node, clean periodization, complete Loss panel, or high-resolution display must not render as substantive formation proof, losslessness, completed `COMPOSE`, target function, or authority.
+
+Continue next to **Chapter 15 WP3 — Sections 15.12–15.16**.
+
+## Chapter 15 WP3 Reader Route
+
+```text
+formed composite
+→ object/relation/strength claim layers
+→ source-type and target-function separation
+→ constitutive/supporting/exchangeable overlays
+→ bounded sensitivity controls
+→ overelasticity display
+→ failure/reduction/Stop/Non-Capture routes
+→ complete Shared Record
+```
+
+Graph Mode may allow controlled removal, exchange, reorder, boundary, frame, and compression toggles. Every toggle represents a new test pressure, not a historical fact or causal intervention. A target that visually survives all toggles may be overelastic rather than robust.
+
+Continue next to **Chapter 15 WP4**.
+
+## Chapter 15 Provisional-Lock Reading Route
+
+Read the locked `COMPOSE` architecture in this order:
+
+1. [`§§15.1–15.6`](../01_blocks/02_part_i_path.md#15-1-purpose-of-compose) for purpose, preconditions, typed sources, Selection Rule, ordering, and Composition Frame;
+2. [`§§15.7–15.11`](../01_blocks/02_part_i_path.md#15-7-formation-rule) for Formation Rule, preservation, compression, exclusion, uncertainty, irrecoverability, and complete five-part Loss;
+3. [`§§15.12–15.16`](../01_blocks/02_part_i_path.md#15-12-composition-claim) for claim segmentation, no-retyping, sensitivity, overelasticity, failure, reduction, Shared Record, Stop, and Non-Capture;
+4. [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary) for Contract closure, the integrated Trajectory example, lock status, reopening conditions, and Chapter-16 handoff;
+5. [`Chapter 15 Preparation Record — WP4`](Chapter_15_Preparation_Record.md#28-wp4-execution-and-provisional-lock-record) for production history only.
+
+A Reader graph may expose typed sources, selected/omitted items, partial order, Formation Rule, target boundary, constitutive/supporting load, five-part Loss, sensitivity toggles, rival compositions, No-Composition, Stop, and Non-Capture. It may not infer formation, operation success, target function, causal necessity, person judgment, sanction, or authority.
+
+Continue next to **Chapter 16 Preparation: PATH Boundary Conditions**.
+
+## Chapter 16 Preparation Reading Route
+
+Read the preparation architecture in this order:
+
+1. [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary) for the complete `COMPOSE` procedure without inherited boundary passage;
+2. [`Chapter 16 Preparation Record — Contract`](Chapter_16_Preparation_Record.md#3-contract-lock) and [`Band Localization`](Chapter_16_Preparation_Record.md#5-path-admissibility-band-localization);
+3. [`Lower Boundary`](Chapter_16_Preparation_Record.md#6-lower-path-boundary), [`Chronology`](Chapter_16_Preparation_Record.md#7-chronology-without-trajectory-gain), [`Upper Boundary`](Chapter_16_Preparation_Record.md#8-upper-path-boundary), [`Trace`](Chapter_16_Preparation_Record.md#9-trajectory-without-path-trace), and [`Compression`](Chapter_16_Preparation_Record.md#10-excessive-temporal-compression-and-punctualization);
+4. [`Directionality`](Chapter_16_Preparation_Record.md#11-artificial-directionality), [`Teleology`](Chapter_16_Preparation_Record.md#12-hidden-teleology), [`Λ`](Chapter_16_Preparation_Record.md#13-omitted-non-events), [`Ω`](Chapter_16_Preparation_Record.md#14-omitted-asymmetries), [`RETYPE`](Chapter_16_Preparation_Record.md#15-path-versus-retype), and [`SUB`](Chapter_16_Preparation_Record.md#16-path-versus-sub);
+5. [`Purchase`](Chapter_16_Preparation_Record.md#17-praxeological-purchase-test), [`Trace`](Chapter_16_Preparation_Record.md#18-traceable-path-test), [`Reduction`](Chapter_16_Preparation_Record.md#19-claim-reduction-and-boundary-outputs), [`Stop`](Chapter_16_Preparation_Record.md#20-path-stop-conditions), and [`Non-Capture`](Chapter_16_Preparation_Record.md#21-path-non-capture).
+
+A later Graph Mode may overlay Floor and Ceiling findings, source-sensitive removal tests, compressed intervals, omitted `Λ`/`Ω`, reversals, competing periodizations, reduction routes, Stop, and Non-Capture. Visual complexity, empty spaces, smooth direction arrows, or a stable macro-node must not render as boundary passage, teleology proof, operation success, or authority.
+
+Continue next to **Chapter 16 WP1 — Sections 16.1–16.5**.
+
+## Chapter 16 WP1 Reader Route
+
+```text
+one broad source field
+→ temporal-difference layer
+→ Floor finding
+→ source-to-result dependency layer
+→ Ceiling finding
+→ compression/punctualization layer
+→ reduction or bounded continuation
+```
+
+Suggested Graph Mode controls:
+
+- switch between source chronology, Path, and Trajectory representations;
+- reveal which temporal distinctions change roles, costs, alternatives, bindings, residuals, or Action Corridors;
+- remove or reorder allegedly constitutive sources;
+- expand a macro-node into configurations, transitions, `Λ`, `Ω`, branches, reversals, and repair;
+- display `preserved`, `compressed`, `excluded`, `uncertain`, and `irrecoverable` Loss separately;
+- compare the three `C16-BAND-01` representations without equalizing their warrant;
+- display Claim Reduction and Mandatory Stop as routes, not visual judgments.
+
+```text
+visual detail
+≠ Floor passage
+
+clean macro-node
+≠ Ceiling passage
+```
+
+Continue next to **Chapter 16 WP2 — Sections 16.6–16.11**.
+
+## Chapter 16 WP2 Reader Route
+
+```text
+source field
+→ direction overlay
+→ reversal/alternative toggle
+→ endpoint-independent selection check
+→ Λ and Ω load layers
+→ PATH/RETYPE and PATH/SUB boundary check
+→ preserved prior result
+```
+
+Suggested Graph Mode controls:
+
+- toggle retrospective direction overlays without altering source order;
+- reveal rival periodizations, reversals, repairs, and parallel subpaths;
+- mark endpoint-conditioned selections;
+- render `Λ` as an explicit expected-transition relation rather than blank space;
+- render `Ω` as inspectable role-/region-specific burden rather than one equal edge;
+- distinguish a presentation expansion from a recorded `DECOMPOSE` occurrence;
+- distinguish a contextual function view from a recorded `PROJECT_AS` occurrence;
+- retain failed origin claims beside every new view.
+
+```text
+visual direction ≠ historical direction warrant
+blank interval ≠ Λ
+same edge geometry ≠ equal Ω load
+expand node ≠ DECOMPOSE
+change lens ≠ PROJECT_AS
+```
+
+Continue next to **Chapter 16 WP3 — Sections 16.12–16.15**.
+
+## Chapter 16 WP3 Reader Route
+
+```text
+tested claim and baseline
+→ Purchase difference layer
+→ source-to-difference trace
+→ Floor finding
+→ constitutive-source matrix
+→ removal/reorder/recompression pressure
+→ Ceiling finding
+→ reduction / Stop / Non-Capture route
+```
+
+Suggested Graph Mode controls:
+
+- compare endpoint/current-state baseline with the full temporal reconstruction;
+- highlight only the roles, costs, alternatives, bindings, residuals, or corridors changed by temporal order;
+- expose each target element's source carrier, relation, Loss status, and claim effect;
+- toggle removal, reorder, recompression, and rival periodization without converting the toggle into a finding;
+- display Partial Order and localized uncertainty without forcing one line;
+- show Trajectory→Path→Sequence→chronology reduction as preserved analytical routes;
+- distinguish Optional Stop, `mandatory_stop`, and `non_capture`;
+- preserve the failed result beside every new frame, level, graph, SUB, or RETYPE view.
+
+```text
+interactive sensitivity view
+≠ semantic boundary judgment
+
+clean reduction animation
+≠ erased failure
+```
+
+Continue next to **Chapter 16 WP4 — Integrated Audit and Provisional Lock**.
+
+## Chapter 16 Provisional-Lock Reading Route
+
+Read the locked PATH boundary architecture in this order:
+
+1. [`§§16.1–16.5`](../01_blocks/02_part_i_path.md#16-1-the-lower-path-boundary) for both Band boundaries, chronology, trace, compression, punctualization, and the same-material contrast;
+2. [`§§16.6–16.11`](../01_blocks/02_part_i_path.md#16-6-artificial-directionality) for artificial directionality, hidden teleology, omitted `Λ`/`Ω`, and PATH boundaries to RETYPE and SUB;
+3. [`§§16.12–16.15`](../01_blocks/02_part_i_path.md#16-12-praxeological-purchase-test) for Purchase, Trace, provisionality, reduction, Optional and Mandatory Stop, and Non-Capture;
+4. [`Chapter 16 completion boundary`](../01_blocks/02_part_i_path.md#chapter-16-completion-boundary) for integrated Contract closure, boundary matrix, Chapter-17 handoff, and reopening conditions;
+5. [`Chapter 16 Preparation Record — WP4`](Chapter_16_Preparation_Record.md#32-wp4-execution-and-provisional-lock-record) for production history only.
+
+A Reader graph may expose source toggles, periodization alternatives, Partial Orders, `Λ`/`Ω` load, Loss, sensitivity, Floor/Ceiling findings, reduction, Stop, and Non-Capture. It may not infer boundary passage, historical direction, teleology, operation success, target function, causal necessity, person judgment, sanction, or authority.
+
+Continue next to **Chapter 17 Preparation: PATH Cases, Countercases, and Local Audit**.
+
+## Chapter 17 Preparation Reading Route
+
+Read the closing PATH architecture in this order:
+
+1. [`Chapter 16 completion boundary`](../01_blocks/02_part_i_path.md#chapter-16-completion-boundary) for the full PATH Band and failure handoff;
+2. [`Chapter 17 Preparation Record — Contract`](Chapter_17_Preparation_Record.md#3-contract-lock), [`Case Architecture`](Chapter_17_Preparation_Record.md#5-case-architecture), and [`Case Classes`](Chapter_17_Preparation_Record.md#6-case-classes);
+3. [`Lock-Critical Artifact Set`](Chapter_17_Preparation_Record.md#7-lock-critical-artifact-set), [`Positive Cases`](Chapter_17_Preparation_Record.md#8-positive-case-set), [`Countercases`](Chapter_17_Preparation_Record.md#9-countercase-set), and [`Confusion Cases`](Chapter_17_Preparation_Record.md#10-confusion-case-set);
+4. [`Artifact Production`](Chapter_17_Preparation_Record.md#11-artifact-production-architecture), [`Loss and Alternatives`](Chapter_17_Preparation_Record.md#12-loss-and-alternatives-requirement), and [`Output Mapping`](Chapter_17_Preparation_Record.md#13-local-results-and-canonical-mapping);
+5. [`PATH Local Audit`](Chapter_17_Preparation_Record.md#14-path-local-audit), [`Part-I Lock`](Chapter_17_Preparation_Record.md#16-part-i-lock-boundary), and [`Work Packages`](Chapter_17_Preparation_Record.md#18-work-package-plan).
+
+A later Graph Mode may render actual case records, rival paths, branch statuses, `Λ`/`Ω` load, Loss, source sensitivity, reductions, Stop, and Non-Capture. It may not convert a chapter seed into a completed case, a complete record into a valid finding, or a visual branch into a historical alternative.
+
+## Chapter 17 WP1 Case Reading Route
+
+```text
+canonical case section
+→ Markdown reconstruction
+→ YAML Shared Transformation Record
+→ source and constitutive trace
+→ five-part Loss
+→ alternatives and mutations
+→ twelve-stage local audit
+→ local result
+→ canonical Output-Class mapping
+```
+
+Suggested Graph Mode layers:
+
+- typed configurations and transitions;
+- realized, rejected, and later unavailable branches;
+- expected window, positive sub-events, and central `Λ`;
+- later `Ω` and `Α` carriers without operator fusion;
+- removal/reorder/recompression sensitivity;
+- preserved, compressed, excluded, uncertain, and irrecoverable overlays;
+- local result beside canonical mapping;
+- explicit target-function absence.
+
+```text
+interactive case rendering
+≠ semantic adjudication
+```
+
+Continue next to **Chapter 17 WP2 — Remaining Positive Cases and Countercases**.
+
+## Chapter 17 WP2-A Case Reading Route
+
+1. Read §17.5 and `C17-HISTORY-01` for endpoint equivalence versus dimension-specific historical load.
+2. Read §17.6 and `C17-WEAKPD-01` for recurrence versus current-state sufficiency.
+3. Inspect the YAML records for complete Loss, counterfactual mutations, material narrowing, and `admissible_with_bounded_claim` mappings.
+4. Continue to WP2-B countercases before treating either case as a general dependence template.
+
+Reader display remains derivative and cannot select dependence strength or Output Class.
+
+## Chapter 17 WP2-B Case Reading Route
+
+1. Read §17.7 and `C17-CHRON-01` for accurate chronology versus unsupported Path formation.
+2. Read §17.8 and `C17-MACRO-01` for source volume versus traceable macro load.
+3. Read §17.9 and `C17-TEL-01` for realized direction versus endpoint-conditioned teleology.
+4. Inspect the YAML records for source preservation, canonical Loss, alternative routes, and the difference between `claim_reduction_required` and `failed_transformation`.
+5. Continue to WP2-C before treating WP2 as complete.
+
+Reader or Graph display cannot repair, reroute, or authorize the failed and reduced claims.
+
+
+## Chapter 17 Full WP2 Reading Route
+
+1. Read §§17.5–17.6 for bounded positive dependence distinctions.
+2. Read §§17.7–17.9 for chronology, macro-label, and teleology countercases.
+3. Read §17.10 with `C17-OMEGA-01` for equal milestones versus unequal practical load.
+4. Read §17.11 with `C17-FALSEL-01` for source gap versus structured `Λ`.
+5. Use the full WP2 boundary before proceeding to WP3 confusion cases and PATH Local Audit.
+
+
+## Chapter 17 WP3-A Reading Route
+
+1. Read §17.12 with `C17-PROJ-01` for COMPOSE versus later PROJECT_AS.
+2. Read §17.13 with `C17-RES-01` for valid neutral refinement versus PATH/SUB inflation.
+3. Read §17.14 with `C17-ATTR-01` for Trajectory versus Attractor identity/function.
+4. Verify that all three lock-critical artifacts exist.
+5. Continue to WP3-B for the integrated PATH Local Audit and lock-readiness decision.
+
+
+## Chapter 17 WP3-B Reading Route
+
+1. Read §17.15 as the integrated twenty-control PATH Local Audit over all thirteen records.
+2. Read §17.16 for local-result to canonical-class mapping and the five-class case census.
+3. Read §17.17 for the PATH Closing Statement and Part-I lock-readiness decision.
+4. Verify the thirteen artifacts through `03_cases/Case_Index.md` and `03_cases/Case_Index.yaml`.
+5. Continue to WP4 for the integrated Part-I audit and provisional lock.
+
+## Part I — PATH Provisional-Lock Reading Route
+
+Read Part I in this order:
+
+1. Chapters 9–12 for temporal objects and dependence thresholds;
+2. Chapters 13–14 for alternatives and Non-Events;
+3. Chapter 15 for `COMPOSE`;
+4. Chapter 16 for PATH boundary conditions;
+5. Chapter 17 and `03_cases/Case_Index.*` for cases, mappings, Local Audit, and closing statement;
+6. [`Part I — PATH provisional-lock boundary`](../01_blocks/02_part_i_path.md#part-i--path-provisional-lock-boundary) for lock scope and reopening conditions.
+
+Continue next to Chapter 18 Preparation. A Reader may navigate the locked corpus; it may not infer operation success, target function, causal truth, person judgment, or authority.

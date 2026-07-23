@@ -1,0 +1,340 @@
+artifact:
+  id: pms_strata_case_index
+  title: PMS-STRATA Case Index
+  version: 0.1.6
+  status: provisional_part_i_locked_case_corpus_index
+  owner: 03_cases
+  authority_role: navigation_and_artifact_registry_only
+  independent_theory_authority: false
+  formal_validation_not_substantive_validation_acknowledged: true
+  current_production_stage: Part I — PATH provisionally locked after Chapter 17 WP4 integrated audit; Chapter 18
+    Preparation is next
+inventory:
+  total_instantiated_cases: 13
+  positive_cases: 5
+  countercases: 5
+  confusion_cases: 3
+  lock_critical_artifacts_complete: 3
+  chapter_17_wp1_duties_complete:
+  - C17-LINEAR-01
+  - C17-BRANCH-01
+  - C17-LAMBDA-01
+  chapter_17_remaining_duties: []
+  chapter_17_wp2a_duties_complete:
+  - C17-HISTORY-01
+  - C17-WEAKPD-01
+  chapter_17_wp2b_duties_complete:
+  - C17-CHRON-01
+  - C17-MACRO-01
+  - C17-TEL-01
+  chapter_17_wp2c_duties_complete:
+  - C17-OMEGA-01
+  - C17-FALSEL-01
+  chapter_17_wp3a_duties_complete:
+  - C17-PROJ-01
+  - C17-RES-01
+  - C17-ATTR-01
+  chapter_17_wp3b_duties_complete:
+  - C17-LOSS-01
+  - C17-ALT-01
+  - C17-MAP-01
+  - C17-STOP-01
+  - C17-NC-01
+  - C17-LOCK-01
+  chapter_17_local_audit_controls: 20
+  chapter_17_local_audit_status: pass
+  part_i_lock_readiness: pass
+  part_i_provisional_lock: provisionally_locked
+  next_controlled_step: 'Chapter 18 Preparation: The Provisionally Compressed Object'
+cases:
+- case_id: C17-ATTR-01
+  title: Trajectory or Attractor?
+  case_class: confusion_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible single Trajectory with Attractor-function claim withheld
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+  yaml_artifact: 03_cases/yaml/C17-ATTR-01_Trajectory_or_Attractor.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 96a91788b77f3a2288c5db087b58920e76ad5df5a9cef60e9ac680d6edfa7f66
+    yaml: 87ff1c63da6fee74b7c4d4919d7cfbcbe68a8a80cc032bcb6a6c5c70a384fe45
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-BRANCH-01
+  title: Branching Path
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible branching Path
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+  yaml_artifact: 03_cases/yaml/C17-BRANCH-01_Branching_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 6de4c491108c5d3941ff107cdd794c986f98bdc6dfbbf128a01dbee15562c935
+    yaml: dcde5087d6591a548e96a477b38210c565974b1314e621720cff2a77c5a75323
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-CHRON-01
+  title: Chronology Presented as Path
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed Path claim with retained chronology
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+  yaml_artifact: 03_cases/yaml/C17-CHRON-01_Chronology_Presented_as_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: aef353bdcd9d341bdf37eee0a9d7f25b9d7843379f106ed81729d8e25a3ba37a
+    yaml: 29e1977dbc4fb212938d20fffb634dc4d9025e2c8e70fe4051cd9087048ff35b
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-FALSEL-01
+  title: False Central Non-Event
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: central Λ claim withdrawn with retained event field
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-FALSEL-01_False_Central_Non_Event.md
+  yaml_artifact: 03_cases/yaml/C17-FALSEL-01_False_Central_Non_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 6d795c01e417c79af1659cec4225034ea8c89bbf7927fe84cf45dbce4f4d6577
+    yaml: 4c58ca0811467347aecc6aae7b661335109cdf97240e065742b8750de0fbfc76
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-HISTORY-01
+  title: Similar End States, Different Histories
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible dimension-specific Path-Dependence claim across similar endpoints
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+  yaml_artifact: 03_cases/yaml/C17-HISTORY-01_Similar_End_States_Different_Histories.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 1d4f8422bfc74433271bf01ebe828677ba6ed499f56cfc3831b1ffd5b9ab136c
+    yaml: 9868f455d6ac26fdca86095a589e2842865d004dc3ae145087e89d98ab1759eb
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-LAMBDA-01
+  title: Trajectory with a Central Non-Event
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible source-sensitive Trajectory with central Λ
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.md
+  yaml_artifact: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: d54308d3303a4d978637f4b359c7231f375e2db92aadc707cdc0f3382c366d24
+    yaml: f62d85309d7b71f79e0f5630f6a15f674624705d7ef8defd3474acff40b6aa36
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-LINEAR-01
+  title: Simple Linear Path
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible bounded Path
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-LINEAR-01_Simple_Linear_Path.md
+  yaml_artifact: 03_cases/yaml/C17-LINEAR-01_Simple_Linear_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 557b9cd0d510fb200b485e283c0cd78953eb4d8c064d709241d00e0274de6ca8
+    yaml: 921a1eb2adfb01b8663702d9f72a073bc0640107546dda74e3638adcb6772ce8
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-MACRO-01
+  title: Macro-Label without Traceable Path
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed source-indifferent macro-Trajectory composition
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C17-MACRO-01_Macro_Label_without_Traceable_Path.md
+  yaml_artifact: 03_cases/yaml/C17-MACRO-01_Macro_Label_without_Traceable_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 0305f8ce7c0c5e1f3b09845c92ba99ccc722e102f4cfcb6e5fbc238951216465
+    yaml: 2952e9cc8e1558ca691c650ac811c961fe76406d7bbb515884333bb1118f42c8
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-OMEGA-01
+  title: Composition through Omitted Asymmetry
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed Trajectory composition through omitted asymmetry
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-OMEGA-01_Composition_through_Omitted_Asymmetry.md
+  yaml_artifact: 03_cases/yaml/C17-OMEGA-01_Composition_through_Omitted_Asymmetry.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 1f558f66a2523eeb9cfa1aa99a6e81f7e6d5631ec619dab726a43558fdd7c24f
+    yaml: 04a900d4617bbebcf6701e540e3f8e71d50a60d843b14a2cd4fb384269ed7ebe
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-PROJ-01
+  title: Path or Projection?
+  case_class: confusion_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible source-sensitive Trajectory with projection claim separated
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+  yaml_artifact: 03_cases/yaml/C17-PROJ-01_Path_or_Projection.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 2e4d880f1c46eaaacded73ec0c0159b7088c6c9290e986251adfc84557ffcf36
+    yaml: 1638266a3c743c38f3a8410d3d5ce2f2edbdb85a5eba7e7bc3cf1f711f7ec316
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-RES-01
+  title: Path or Resolution Drift?
+  case_class: confusion_case
+  chapter_owner: Chapter 17
+  operation: DECOMPOSE
+  local_result: resolution-neutral finer reconstruction; no new Path or stronger historical claim
+  canonical_output_mapping: resolution_neutral
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+  yaml_artifact: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 1b0c01b3523e21fcc6318eac98996a4eaf9f2054cb41e0352e9ef382648c358b
+    yaml: b7daf8176716730c1fa2ac53438d15eb1f0c8d8994c61fa334421ea77660696f
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-TEL-01
+  title: Teleological Composition
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed teleological Trajectory composition
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-TEL-01_Teleological_Composition.md
+  yaml_artifact: 03_cases/yaml/C17-TEL-01_Teleological_Composition.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e6232c0b3a8f30d6d91f167ffd40cb28264424db69b2ffe042fff63b8a2df171
+    yaml: 3d963c6b89afb5d1e27733288cec42f9709c8c123fc7ceb09b15ad3d753b3681
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+- case_id: C17-WEAKPD-01
+  title: Repeated Pattern with Weak Path Dependence
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible repeated-pattern Path with weak order dependence
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-WEAKPD-01_Repeated_Pattern_with_Weak_Path_Dependence.md
+  yaml_artifact: 03_cases/yaml/C17-WEAKPD-01_Repeated_Pattern_with_Weak_Path_Dependence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: b08a8095eb239cdad27d2114591ec0109348c77ee41a7d36f2eed03c13a21844
+    yaml: e5cdca7c859bd6b050357e5144ede7b5139f7cbf4034ab6534ee99309d6e3322
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
+    application, or authority status.
+governance:
+  case_success_not_global_validation: true
+  case_completeness_not_substantive_truth: true
+  canonical_prose_precedence_preserved: true
+  authority_inheritance: prohibited

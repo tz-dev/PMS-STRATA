@@ -1574,3 +1574,436 @@ strong praxis relevance
 ```
 
 Formal Diagnostic, Claim Reduction, Failure, Mandatory Stop, and Non-Capture remain distinct. The Chapter 9 model handoff mirrors these constraints without automatic route selection. Canonical return: [`Chapter 9`](../01_blocks/02_part_i_path.md#chapter-9-temporal-order-and-transition).
+
+## Chapter 10 Path-Gate Application
+
+Chapter 10 applies the Admissibility Band to Path and Path-comparison claims without defining a new scale, score, status enum, or ranking. The Path gate remains conjunctive and non-compensatory: chronology cannot compensate for missing traversal; component validity cannot compensate for missing constitutive connection; endpoint similarity cannot compensate for incompatible frames or selections; practical importance cannot compensate for missing TraceableLoad or Type Integrity.
+
+```text
+formal Path record completion
+≠ admissible Path
+
+same endpoint
+≠ comparable historical load automatically
+```
+
+Formal Diagnostic, Claim Reduction, Failure, Mandatory Stop, and Non-Capture remain distinct. The Chapter 10 model handoff mirrors these constraints without automatic Path, status, comparison, route, or authority selection. Canonical return: [`Chapter 10`](../01_blocks/02_part_i_path.md#chapter-10-path).
+
+## Chapter 12 WP1 Local Dependence Gate
+
+A bounded Path-Dependence claim must remain within the Admissibility Band:
+
+- **PraxisPurchase:** the historical difference changes a declared present meaning, credibility, cost, role, access, reversibility, evidentiary burden, or reachability claim;
+- **TraceableLoad:** the relevant Path segment, carrier, present effect, and current-state challenge remain reconstructible;
+- **TypeIntegrity:** Path Dependence remains a property, not an object, operator, operation, level, or target function;
+- **Counterfactual Sensitivity:** omission or source-bounded variation changes the claimed present reconstruction where testable;
+- **Source/Claim Ceiling:** no causal necessity, prediction, person typing, legitimacy, or authority is inferred.
+
+Below the floor, detailed history may be `resolution_neutral`. Above the ceiling, a dependence label without carrier and present discrimination is abstraction without traceable load.
+
+## Chapter 12 WP2 Local Profile Gate
+
+A dependence-bearing profile lies within the Admissibility Band only where:
+
+- the upstream Path or Trajectory is warranted;
+- the operator occurrence and historical carrier are identifiable;
+- the present analytical cut and tested dimension are declared;
+- the profile changes a warranted present reconstruction;
+- the strongest current-state rival is tested;
+- material source variation can change the result;
+- profile interaction remains non-fused and non-compensatory;
+- Source, Claim, Type, Reference, Functional, Contextual, Stop, and Non-Capture controls remain active.
+
+Below the Floor: more profile detail without praxeological discrimination.  
+Above the Ceiling: a broad dependence label detached from carrier, current effect, or source variation.
+
+## Chapter 12 WP3 Integrated Local Property-Test Gate
+
+The local Path-Dependence test lies within the Admissibility Band only where input lineage, dimension, present cut, Current-State Baseline, historical carrier, present effect, Historical Omission, source-bounded variation, Source–Result Dependency, current-condition allocation, uncertainty, Loss, Claim Ceiling, Stop, and Non-Capture remain explicit.
+
+Below the Floor: historical detail that changes no warranted present reconstruction.  
+Above the Ceiling: destiny, prediction, causal necessity, universal dependence, or authority detached from source trace.
+
+The gate is conjunctive and non-compensatory. Formal completeness, profile richness, modifier language, or visual rendering cannot repair a failed burden.
+
+---
+
+## Chapter 13 Preparation Alternative-Space Gate
+
+A Chapter-13 alternative claim remains within the Admissibility Band only where:
+
+- the historical cut and availability window are declared;
+- the continuation was practically source-supported at that cut;
+- selection, rejection, blockage, abortion, deferral, or loss burdens are independently met;
+- later reachability and residual effects are bounded;
+- Counterfactual Sensitivity remains source-bounded and non-predictive;
+- alternative compression is disclosed through the canonical five-part Loss structure;
+- Claim Ceiling, Stop, Non-Capture, and anti-laundering remain active.
+
+Below the Floor: imagined or immaterial possibilities that change no warranted Path reconstruction.  
+Above the Ceiling: narrative branches, forecasts, or authority claims detached from historical availability and source trace.
+
+```text
+formal branch fields or graphical richness
+≠ historical availability proof
+```
+
+## Chapter 13 WP1 Alternative-Space Admissibility
+
+Below the Relevance Floor: extra branches do not alter selection, cost, timing, binding, reachability, residue, or Loss.
+
+Within the band: the historical window, practical availability, source support, traversal or rejection trace, uncertainty, and claim ceiling remain explicit.
+
+Above the Traceability Ceiling: retrospective possibility, later technology, narrative coherence, or visualization substitutes for historical load.
+
+```text
+more branches
+≠ more praxeological purchase
+```
+
+## Chapter 13 WP2 Branch-Status Admissibility
+
+A WP2 status claim remains inside the Admissibility Band only where its positive burden is conjunctively met:
+
+| Status | Relevance-Floor burden | Traceability-Ceiling burden |
+| --- | --- | --- |
+| Blocked | the prevention relation changes the Path reconstruction | earlier availability and blocking structure remain source-traceable |
+| Aborted | initiation/interruption changes cost, expectation, infrastructure, binding, residue, or later reachability | initiation, partial traversal, interruption, and residual effect remain reconstructible |
+| Deferred | the delay materially changes timing, cost, role, frame, binding, or later identity | original and later windows plus intervening changes remain source-linked |
+| Lost | former availability and later loss alter the alternative field or Path claim | earlier availability, later unavailability, and loss transition remain reconstructible |
+
+The gate is non-compensatory. Rich operator profiles, many records, or graph density cannot replace missing earlier availability, initiation, prevention, deferral, later-reachability, or loss-transition support.
+
+Stop applies where a known unsupported status is reused for impossibility, blame, prediction, target function, intervention, or authority. `non_capture` remains available where source-responsible evidence cannot distinguish statuses such as rejected versus blocked or deferred versus reconstituted.
+
+## Chapter 13 WP3 Counterfactual and Record Gate
+
+A Chapter-13 WP3 claim remains inside the Admissibility Band only where:
+
+- the Counterfactual Path begins from a historically source-supported continuation;
+- the divergence rule and approximately held-stable conditions are explicit;
+- the continuation stops at a declared counterfactual horizon;
+- Non-Selection has an active selection context, bounded window, and material consequence;
+- Alternative-Space Compression preserves constitutive branch relations and discloses five-part Loss;
+- the Alternative Status Record uses the owner-bound Shared-Record `extensions` carrier without replacing required fields;
+- record completeness is not treated as semantic proof;
+- Stop and Non-Capture remain available.
+
+Below the Relevance Floor lies branch detail that changes no warranted Path claim. Above the Traceability Ceiling lie free alternative histories, visually inflated branch fields, unsupported success claims, and records whose completeness substitutes for historical load.
+
+## Chapter 14 Preparation Non-Event Gate
+
+A Chapter-14 `Λ` claim passes the local band only if all of the following remain inspectable:
+
+1. identifiable expected occurrence;
+2. warranted expectation relation;
+3. declared expectation frame;
+4. bounded expected window or realization condition;
+5. source-supported non-realization;
+6. praxeological load;
+7. temporal-chain relevance;
+8. affected roles, alternatives, costs, bindings, residues, or corridors where claimed;
+9. uncertainty, Loss, Claim Ceiling, Stop, and Non-Capture;
+10. protected person-attribution and operation boundaries.
+
+The gate is conjunctive and non-compensatory. Narrative plausibility, duration, repetition, graph density, formal completeness, or later outcome cannot compensate for a missing expectation relation or non-realization source basis.
+
+Below the Relevance Floor lies trivial absence without changed praxis reconstruction. Above the Traceability Ceiling lies an abstract `Λ` label whose expectation, window, source, or load cannot be reconstructed.
+
+```text
+more silence
+≠ stronger Non-Event
+
+more formal detail
+≠ stronger warrant
+```
+
+## Chapter 14 WP1 Non-Event Admissibility
+
+Below the Relevance Floor: a bounded non-realization is nameable but changes no warranted transition, alternative, cost, role, binding, residue, or later interpretation.
+
+Within the band: expected occurrence, expectation relation, frame, window, source coverage, positive sub-events, load, uncertainty, and Claim Ceiling remain traceable.
+
+Above the Traceability Ceiling: blank time, missing records, retrospective expectation, later outcome, or visual emphasis substitutes for the missing expectation/non-realization chain.
+
+```text
+more visible absence
+≠ stronger Λ warrant
+```
+
+## Chapter 14 WP2 Pattern and Sedimentation Admissibility
+
+Below the Relevance Floor: repeated windows, role referrals, unrepaired conditions, continued participation, or long duration are named without a material temporal or praxeological difference.
+
+Within the band: expectation, context/window, non-realization, role architecture or domain-specific trigger, later carrier, affected alternatives, profile interaction, rival explanation, uncertainty, and Claim Ceiling remain traceable.
+
+Above the Traceability Ceiling: repetition, visual density, role complexity, observed harm, formal exit availability, or later residue substitutes for the missing `Λ` and carryover chain.
+
+```text
+more repeated or visually dense absence
+≠ stronger sedimentation warrant
+```
+
+## Chapter 14 WP3 Preservation and Record Admissibility
+
+Below the Relevance Floor: preservation fields are copied although the alleged Non-Event makes no material difference to the Path.
+
+Within the band: expectation, frame, window, non-realization, positive sub-events, occurrence architecture, affected roles/alternatives, residue, uncertainty, canonical Loss, owner-bound extension, reduction, Stop, and Non-Capture remain traceable.
+
+Above the Traceability Ceiling: dense activity, long silence, later residue, graph emptiness, record completeness, or formal validation substitutes for missing semantic warrant.
+
+```text
+more complete record or cleaner graph
+≠ stronger Non-Event warrant
+```
+
+## Chapter 14 Provisional-Lock Admissibility Boundary
+
+A PATH-specific `Λ` falls below the Praxeological Relevance Floor when it is only an empty interval, ordinary absence, source gap, unresolved occurrence status, or detail without temporal purchase. It exceeds the Praxeological Traceability Ceiling when a Non-Event label, sedimentation narrative, graph gap, person attribution, or macro-description cannot be traced to expectation, frame, window, non-realization support, affected transitions, alternatives, costs, roles, and Loss.
+
+Formal completeness, repetition, duration, visual density, later residue, or operator-profile richness cannot compensate for missing expectation or source warrant. Mandatory Stop and Non-Capture remain positive admissibility outcomes.
+
+Canonical return: [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary).
+
+## Chapter 15 Preparation COMPOSE Gate
+
+A Chapter-15 candidate lies within the Admissibility Band only when source identity/type, frame, scope, selection, ordering, formation, constitutive relations, expected praxis gain, traceability, five-part Loss, counterfactual sensitivity, Claim Ceiling, Stop, and Non-Capture remain inspectable.
+
+Below the Relevance Floor lies chronology, enumeration, or detail without added praxeological discrimination. Above the Traceability Ceiling lies a Path, Trajectory, phase, or macro-label whose constitutive sources and Loss can no longer be reconstructed.
+
+The gate is conjunctive and non-compensatory.
+
+```text
+more sources or cleaner graph
+≠ stronger formation warrant
+
+formal completeness
+≠ substantive COMPOSE validity
+```
+
+## Chapter 15 WP1 COMPOSE Entry Band
+
+Below the Praxeological Relevance Floor: sources are sortable or summarizable but the proposed target adds no warranted praxis discrimination.
+
+Within the band: source identity/type/lineage, scope, selection, ordering, frame, target hypothesis, uncertainty, rival/no-composition pressure, and claim ceiling remain traceable.
+
+Above the Traceability Ceiling: a unified label or graph outruns source relations, hides contested selection or order, collapses frames, or imports target function and authority.
+
+The gate is non-compensatory:
+
+```text
+source volume ≠ relation warrant
+record completeness ≠ formation warrant
+graph coherence ≠ semantic formation
+```
+
+## Chapter 15 WP2 Formation-and-Loss Band
+
+### Relevance Floor
+
+Below the floor are collections, labels, or loss inventories that create no new praxeological discrimination or whose additional detail does not alter the target claim.
+
+### Admissible band
+
+A WP2 candidate remains in-band where Formation Rule, constitutive relations, target class, source trace, preservation, compression, exclusion, uncertainty, irrecoverability, and Claim Ceiling are explicit and non-compensatory.
+
+### Traceability Ceiling
+
+Above the ceiling are targets whose elegance, cohesion, or graph density depends on omitted `Λ`/`Ω`/`Ψ`/branch load, destroyed heterogeneity, forced order, concealed uncertainty, or undeclared irrecoverability.
+
+```text
+formal coherence
+≠ traceable formation
+
+more detail
+≠ repair for missing formation
+```
+
+Loss presence does not automatically fail a composition. Constitutive or concealed Loss may require `claim_reduction_required`, `failed_transformation`, `mandatory_stop`, or `non_capture`.
+
+## Chapter 15 WP3 Claim-and-Sensitivity Band
+
+A WP3 result remains in-band where the target claim is segmented, source types are preserved, sensitivity is source-bounded, overelasticity is exposed, failure routes preserve weaker warranted structures, and the Shared Record remains complete without semantic automation.
+
+Below the Relevance Floor are sensitivity variations that do not affect any material claim. Above the Traceability Ceiling are target labels that survive constitutive removal, records that hide failed segments, or graphs that convert cohesion into truth, function, or authority.
+
+```text
+formal completeness
+≠ substantive admissibility
+```
+
+## Chapter 15 Provisional-Lock COMPOSE Band
+
+A proposed composition falls below the Praxeological Relevance Floor when it adds only bundling, narration, display convenience, or distinctions without praxis purchase. It exceeds the Praxeological Traceability Ceiling when the target cannot be reconstructed through typed sources, Selection Rule, order, frame, Formation Rule, constitutive relations, source trace, Loss, sensitivity, and Claim Ceiling.
+
+Source volume, formal elegance, graph cohesion, target stability, or record completeness cannot compensate for missing formation or traceable load. Mandatory Stop and Non-Capture remain positive results.
+
+Canonical return: [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary).
+
+## Chapter 16 Preparation — PATH-Local Band Gate
+
+Chapter 16 localizes the existing Admissibility Band:
+
+```text
+Praxeological Relevance Floor
+─────────────────────────────
+PATH / COMPOSE claim under test
+─────────────────────────────
+Praxeological Traceability Ceiling
+```
+
+Lower-bound question: does temporal differentiation create material PraxisPurchase?  
+Upper-bound question: does the result retain reconstructible TraceableLoad?
+
+The tests are distinct and non-compensatory. Existing controlled local vocabularies remain unchanged:
+
+- `relevance_floor_boundary_result`: `gain`, `neutral`, `below_floor`, `underdetermined`;
+- `traceability_ceiling_boundary_result`: `within_ceiling`, `claim_reduction`, `above_ceiling`, `underdetermined`.
+
+Neither vocabulary is an Output-Class enum. Final class selection remains owned by the integrated audit and Boundary Decision Tree.
+
+## Chapter 16 WP1 PATH Boundary Localization
+
+### Lower boundary
+
+```text
+temporal differentiation
++ changed warranted praxis reconstruction
+→ relevance_floor_boundary_result: gain candidate
+```
+
+The controlled values remain exactly `gain`, `neutral`, `below_floor`, and `underdetermined`.
+
+### Upper boundary
+
+```text
+target identity and claim
++ reconstructible constitutive source load
+→ traceability_ceiling_boundary_result: within_ceiling candidate
+```
+
+The controlled values remain exactly `within_ceiling`, `claim_reduction`, `above_ceiling`, and `underdetermined`.
+
+The boundaries are distinct and non-compensatory. More dates cannot repair missing trace; more trace cannot create purchase. Source volume, formal completeness, visual elegance, historical span, or causal rhetoric cannot substitute for either burden.
+
+## Chapter 16 WP2 PATH Boundary Failure Tests
+
+WP2 applies upper-bound pressure through six distinct questions:
+
+1. Does retrospective ordering suppress contingency, reversal, or parallel subpaths?
+2. Does the endpoint control earlier selection, periodization, or interpretation?
+3. Is a constitutive `Λ` translated into positive continuity or blank time?
+4. Is source-supported `Ω` erased by equal event labels or aggregate geometry?
+5. Is a failed origin-object claim relabeled as a RETYPE target function?
+6. Is finer detail presented as automatic `DECOMPOSE` or stronger truth?
+
+These tests are non-compensatory. Detail cannot repair teleology; contextual usefulness cannot repair trace failure; visual expansion cannot establish decomposition; a valid later operation cannot erase the earlier boundary result.
+
+## Chapter 16 WP3 — PATH Purchase, Trace, Reduction, Stop, and Non-Capture
+
+The PATH-local Band passage is conjunctive:
+
+```text
+Praxeological Purchase
++ Traceable Path load
++ Type Integrity
++ Reference and Functional Continuity
++ Contextual Boundedness
++ Counterfactual Sensitivity
++ Source and Claim Ceiling
++ Stop and Non-Capture governance
+→ admissible PATH candidate
+```
+
+Purchase and Trace do not compensate for one another. Boundary findings remain local audit values and are mapped separately to canonical Output Classes.
+
+The reduction ladder is:
+
+```text
+Trajectory → bounded Path → Sequence → chronology/partial order → source collection → no PATH claim
+```
+
+Stop governs inadmissible or unnecessary continuation. Non-Capture states that one adequate bounded capture remains unavailable after testing.
+
+## Chapter 16 Provisional-Lock PATH Band
+
+Chapter 16 locks the local PATH application of the common Band:
+
+```text
+Purchase passage
+≠ Trace passage automatically
+```
+
+`relevance_floor_boundary_result` remains limited to `gain`, `neutral`, `below_floor`, and `underdetermined`. `traceability_ceiling_boundary_result` remains limited to `within_ceiling`, `claim_reduction`, `above_ceiling`, and `underdetermined`. Neither vocabulary is an Output Class or score.
+
+The integrated matrix and anti-rescue rule are canonical at [`Chapter 16 completion boundary`](../01_blocks/02_part_i_path.md#chapter-16-completion-boundary).
+
+## Chapter 17 Preparation — Case-Level Band Gate
+
+Every PATH case must expose both Band burdens:
+
+- **Praxeological Purchase:** what temporal differentiation changes in the warranted praxis reconstruction;
+- **Traceable Load:** how the target identity and claim depend on declared configurations, transitions, operator load, alternatives, relations, and Loss.
+
+A positive case may remain bounded or provisional. A countercase must identify whether it falls below the Floor, exceeds the Ceiling, fails Type Integrity, requires Claim Reduction, triggers Stop, or remains non-capturable. Case completeness cannot compensate for Band failure.
+
+## Chapter 17 WP1 — Case-Level Band Application
+
+Every produced case records:
+
+- Purchase result;
+- Traceability result;
+- Counterfactual Sensitivity;
+- complete five-part Loss;
+- alternatives;
+- source and Claim Ceilings;
+- Stop and Non-Capture assessments.
+
+The three positive cases pass within their declared boundaries. Their passage does not calibrate PATH externally or establish that later countercases and confusion cases will pass.
+
+## Chapter 17 WP2-A — Dependence within the Band
+
+Both cases have Purchase and remain traceable, but their historical reach is materially bounded. `C17-HISTORY-01` passes only for burden, reversibility, and residual repair. `C17-WEAKPD-01` passes only for recurrence and weak order contribution because present carriers remain sufficient.
+
+```text
+Purchase from history
+≠ unlimited historical reach
+```
+
+## Chapter 17 WP2-B — Lower and Upper Boundary Countercases
+
+`C17-CHRON-01` locates the stronger Path claim below the Relevance Floor while retaining traceable chronology. `C17-MACRO-01` and `C17-TEL-01` locate attempted targets above the Traceability Ceiling because source changes do not govern target identity.
+
+```text
+traceable source field
+≠ admissible stronger target
+```
+
+
+## Chapter 17 WP2-C — Omitted Ω and Unsupported Λ
+
+`C17-OMEGA-01` is above the Traceability Ceiling because the target omits constitutive access, exposure, exit, and repair load. `C17-FALSEL-01` yields the local ceiling signal `claim_reduction` because positive events remain traceable while the expectation structure required for central `Λ` does not.
+
+```text
+correct milestone order cannot compensate for omitted Ω
+missing information cannot satisfy the Λ expectation burden
+```
+
+
+## Chapter 17 WP3-A Confusion-Case Synchronization
+
+`C17-PROJ-01` demonstrates that passage of the PATH Band for an origin Trajectory does not establish a contextual function. `C17-RES-01` records a valid source-supported refinement with `neutral` Purchase and `within_ceiling` traceability. `C17-ATTR-01` preserves a Trajectory while withholding Attractor identity and function. Neither extra detail nor recurrent form compensates for missing operation-specific warrant.
+
+
+## Chapter 17 WP3-B — Integrated PATH Band Result
+
+The thirteen-record corpus demonstrates both PATH boundaries without compensation. Chronology and neutral detail can remain below stronger PATH claims; macro, teleological, and asymmetry-erasing targets can exceed traceability even when event order is accurate. The twenty-question local audit passes only because Purchase, Trace, Type Integrity, Loss, alternatives, Stop, and Non-Capture remain jointly visible.
+
+```text
+Part-I lock readiness: pass
+≠ Part-I provisional lock automatically
+```
+
+## Part I — PATH Provisional-Lock Band Result
+
+The integrated PATH corpus remains inside the Admissibility Band only under claim-relative Purchase and source-to-result Trace. Passage is non-compensatory and non-automatic. The lock does not turn local Floor/Ceiling findings into scores, global sufficiency, truth priority, or authority.

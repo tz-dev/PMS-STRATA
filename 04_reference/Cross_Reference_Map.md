@@ -1,10 +1,10 @@
 # PMS-STRATA — Cross Reference Map
 
-**Status:** Reference Kernel v0 scaffold v0.3.44; Chapter-10-WP2-synchronized  
+**Status:** Reference Kernel v0 scaffold v0.3.46; Chapter-11-WP2-synchronized  
 **Repository role:** `04_reference/*` — routing and cross-reference layer; not an independent theory source  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the three synchronized peer scaffolds `04_reference/Evidence_Map.md`, `04_reference/Audit_Checklist.md`, and `04_reference/Reader_Pathways.md`, repository `README.md`, and `PMS.yaml` for PMS Base  
 **Current formal handoff inputs:** all seven populated `07_model/*` Core artifacts plus eight populated canonical smoke records and `07_model/examples/README.md`; internal smoke-test gate audit-passed and Root/Companion synchronized  
-**Block-anchor status:** Foundations Chapters 0–8 are provisionally locked after integrated local audits; Chapter 8 and the Foundations completion boundary are available at [`Chapter 8`](../01_blocks/01_foundations.md#chapter-8-foundational-non-equivalences); Chapter 9 Sections 9.1–9.9 are canonical and Chapter 9 Preparation remains production control; Sections 9.10–9.12 and Chapters 10–57 remain pending
+**Block-anchor status:** Foundations Chapters 0–8 and PATH Chapters 9–10 are provisionally locked; Chapter 11 WP1–WP2 are canonical through Sections 11.1–11.9 and its Preparation Record remains production control; Sections 11.10–11.14 and Chapters 12–57 remain pending
 
 ---
 
@@ -246,7 +246,7 @@ Linking an internal artifact to `PMS.yaml` records source authority. It does not
 | 10 | Path | PATH | `01_blocks/02_part_i_path.md` | path | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
 | 11 | Trajectory | PATH | `01_blocks/02_part_i_path.md` | trajectory | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
 | 12 | Path Dependence and Sedimentation | PATH | `01_blocks/02_part_i_path.md` | path dependence and sedimentation | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
-| 13 | Branches, Aborts, Delays, and Unavailable Alternatives | PATH | `01_blocks/02_part_i_path.md` | alternatives and branch structure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
+| 13 | Branches, Aborts, Delays, and Unavailable Alternatives | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_13_Preparation_Record.md` | alternatives and branch structure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | WP1–WP3 canonical prose; WP4 pending | WP3 complete |
 | 14 | Non-Events within Paths and Trajectories | PATH | `01_blocks/02_part_i_path.md` | non-events in temporal composites | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
 | 15 | COMPOSE: Selection, Formation, and Compression | PATH | `01_blocks/02_part_i_path.md` | COMPOSE procedure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | `07_model/Operation_Registry.yaml` | anchor pending |
 | 16 | PATH Boundary Conditions | PATH | `01_blocks/02_part_i_path.md` | PATH limits | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
@@ -1527,3 +1527,522 @@ WP1 supplies bounded path-threshold and evidence findings. It does not supply a 
 
 Sections 10.11–10.14 remain pending.
 
+---
+
+## Chapter 10 WP3 Cross-References
+
+| Chapter-10 site | Governing dependency | Forward handoff |
+| --- | --- | --- |
+| [§10.11 Path Comparison](../01_blocks/02_part_i_path.md#10-11-path-comparison) | Chapter 2 coordinates; Chapter 6 non-compensatory admissibility | Chapter 13 alternatives; Chapter 17 comparison cases |
+| [§10.12 Similar End States](../01_blocks/02_part_i_path.md#10-12-similar-end-states-different-paths) | Chapter 9 residue and bounded irreversibility | Chapter 11 historical load; Chapter 12 dependence |
+| [§10.13 Path without Strong Dependence](../01_blocks/02_part_i_path.md#10-13-path-without-strong-dependence) | Chapter 0 claim boundary; Chapter 6 counterfactual sensitivity | Chapter 12 full dependence test |
+| [§10.14 Minimal Path Record](../01_blocks/02_part_i_path.md#10-14-minimal-path-record) | Chapter 7 Shared Transformation Record | Chapter 11 trajectory input; Chapter 15 `COMPOSE` occurrence test |
+
+
+## Chapter 10 Provisional-Lock Cross-References
+
+- Primary Path definition and integrated lock: [`Chapter 10`](../01_blocks/02_part_i_path.md#chapter-10-path).
+- Actual traversal, components, selection, frame, and evidence: [§§10.1–10.6](../01_blocks/02_part_i_path.md#10-1-definition-of-path).
+- Realized, blocked, aborted, and deferred status: [§§10.7–10.10](../01_blocks/02_part_i_path.md#10-7-realized-path).
+- Comparison, endpoints, non-dependence, Minimal Record, Stop, and Non-Capture: [§§10.11–10.14](../01_blocks/02_part_i_path.md#10-11-path-comparison).
+- Integrated Chapter 11 handoff and no-erasure boundary: [`Chapter 10 completion boundary`](../01_blocks/02_part_i_path.md#chapter-10-completion-boundary).
+- Upstream transition burden: [`Chapter 9`](../01_blocks/02_part_i_path.md#chapter-9-temporal-order-and-transition).
+- Later full formation procedure: [`Chapter 15 contract`](../05_minified/Chapter_Contracts.md#chapter-15-compose-selection-formation-and-compression).
+
+Chapter 10 does not inherit Trajectory, Path Dependence, `COMPOSE`, target-function, causal, normative, or authority passage.
+
+---
+
+## Chapter 11 Preparation Route
+
+| Chapter 11 duty | Primary upstream owner | Protected downstream owner |
+| --- | --- | --- |
+| Path substrate and anti-laundering | [Chapter 10 completion boundary](../01_blocks/02_part_i_path.md#chapter-10-completion-boundary) | Chapter 11 may formulate only a new, independently tested Trajectory claim |
+| Trajectory object distinction | [Chapter 3 temporal object chain](../01_blocks/01_foundations.md#38-trajectory) and [Chapter 8 §8.6–8.7](../01_blocks/01_foundations.md#86-path-is-not-trajectory) | Chapter 12 dependence remains separate |
+| operator profile material | `PMS.yaml` and [Operator Index](Operator_Index.md) | no operator fusion or new primitive |
+| frame, level, scope, boundary | Chapter 2 | competing periodizations remain testable |
+| continuity and historical load | Chapters 5–6 | no score or compensation |
+| Shared Record, loss, alternatives, governance | Chapter 7 | Minimal Trajectory Record remains a view |
+| complete `COMPOSE` mechanics | Chapter 15 | not duplicated in Chapter 11 |
+| target functions | RETYPE Chapters 31–33 | not assigned in Chapter 11 |
+
+Production control: [`Chapter 11 Preparation Record`](Chapter_11_Preparation_Record.md).
+
+## Chapter 11 WP1 Canonical Cross-Reference Route
+
+| WP1 object or duty | Canonical owner | Required return / protected owner |
+| --- | --- | --- |
+| Trajectory operational definition | [§11.1](../01_blocks/02_part_i_path.md#11-1-definition-of-trajectory) | Foundations §3.8 remains foundational source |
+| Path-to-Trajectory threshold | [§11.2](../01_blocks/02_part_i_path.md#11-2-from-path-to-trajectory) | Chapter 10 supplies Path; Chapter 12 retains dependence test |
+| Historical Sedimentation | [§11.3](../01_blocks/02_part_i_path.md#11-3-historical-sedimentation) | Chapter 3 supplies foundational property; WP2 supplies profile-specific elaboration |
+| non-teleological directionality | [§11.4](../01_blocks/02_part_i_path.md#11-4-directionality-without-teleology) | Chapter 12 may later test dependence, not purpose |
+| six WP1 pressure cases | [§§11.1–11.4](../01_blocks/02_part_i_path.md#11-trajectory) | `03_cases/*` production remains later |
+| WP1 execution history | [`Chapter_11_Preparation_Record.md`](Chapter_11_Preparation_Record.md#20-wp1-execution-record) | Reference record has no independent theory authority |
+| model mirror | `07_model/Admissibility_Rules.yaml#chapter_11_wp1_trajectory_handoff` | field validity does not decide substantive sufficiency |
+
+WP2 is now canonical; the next route is Chapter 11 WP3, Sections 11.10–11.14.
+
+## Chapter 11 WP2 Canonical Cross-Reference Route
+
+| WP2 object or duty | Canonical owner | Required return / protected owner |
+| --- | --- | --- |
+| Attractor Sedimentation | [§11.5](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation) | PMS `Α` and `Θ` remain separate operator types; RETYPE retains attractor-function |
+| Asymmetry Accumulation | [§11.6](../01_blocks/02_part_i_path.md#11-6-asymmetry-accumulation) | PMS `Ω` remains Base operator; no legitimacy or person claim |
+| Binding Accumulation | [§11.7](../01_blocks/02_part_i_path.md#11-7-binding-accumulation) | PMS `Ψ` remains Base operator; no moral-duty or consent inference |
+| Residual Accumulation | [§11.8](../01_blocks/02_part_i_path.md#11-8-residual-accumulation) | Chapter 14 retains complete Non-Event procedure; missing information remains distinct |
+| Changed Action Corridors | [§11.9](../01_blocks/02_part_i_path.md#11-9-changed-action-corridors) | Chapter 12 retains dependence test; no prediction or recommendation |
+| five WP2 pressure cases | [§§11.5–11.9](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation) | `03_cases/*` production remains later |
+| WP2 execution history | [`Chapter_11_Preparation_Record.md`](Chapter_11_Preparation_Record.md#21-wp2-execution-record) | Reference record has no independent theory authority |
+| model mirror | `07_model/Admissibility_Rules.yaml#chapter_11_wp2_profile_and_corridor_handoff` | field validity does not decide substantive accumulation or corridor truth |
+
+Next canonical route: Chapter 11 WP3, Sections 11.10–11.14.
+
+## Chapter 11 WP3 Canonical Cross-Reference Route
+
+| WP3 object or duty | Canonical owner | Required return / protected owner |
+| --- | --- | --- |
+| Trajectory Boundary and periodization | [§11.10](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary) | Chapter 2 retains frame, granularity, level, temporal/source/claim scope; Chapter 10 retains Path identity |
+| segment lineage and open continuation | [§11.10](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary) | Chapter 9 retains transition and bounded-irreversibility definitions; Chapter 12 retains dependence test |
+| Trajectory Compression and Loss | [§11.11](../01_blocks/02_part_i_path.md#11-11-trajectory-compression) | Chapter 7 retains canonical Loss; Chapter 15 retains full `COMPOSE` mechanics |
+| competing constructions | [§11.12](../01_blocks/02_part_i_path.md#11-12-competing-trajectory-constructions) | Chapter 6 retains admissibility; Chapter 51–52 retain Stop and Non-Capture general theory |
+| False Trajectory | [§11.13](../01_blocks/02_part_i_path.md#11-13-false-trajectory) | Output Class inventory remains closed; weaker findings and no-erasure lineage remain preserved |
+| Minimal Trajectory Record | [§11.14](../01_blocks/02_part_i_path.md#11-14-minimal-trajectory-record) | Chapter 7 remains Shared Record owner; no schema expansion authorized |
+| Chapter-12 handoff | [§11.14](../01_blocks/02_part_i_path.md#chapter-12-handoff) | Chapter 12 tests Path Dependence separately; RETYPE retains target functions |
+
+WP3 completes canonical Sections 11.1–11.14 but not Chapter-11 Provisional Lock. The next route is WP4 integrated synchronization and audit.
+
+## Chapter 11 Provisional-Lock Cross-References
+
+| Chapter 11 result | Canonical return | Protected later owner |
+| --- | --- | --- |
+| Trajectory threshold and Historical Sedimentation | [§§11.1–11.3](../01_blocks/02_part_i_path.md#11-1-definition-of-trajectory) | Chapter 12 tests dependence separately |
+| directionality without teleology | [§11.4](../01_blocks/02_part_i_path.md#11-4-directionality-without-teleology) | no purpose, destiny, or prediction handoff |
+| occurrence-level accumulation profiles | [§§11.5–11.8](../01_blocks/02_part_i_path.md#11-5-attractor-sedimentation) | Appendix J stress tests; Chapter 12 dependence |
+| Changed Action Corridors | [§11.9](../01_blocks/02_part_i_path.md#11-9-changed-action-corridors) | no RETYPE target function or recommendation |
+| Boundary, Compression, and competing constructions | [§§11.10–11.12](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary) | Chapter 15 retains full `COMPOSE` mechanics |
+| False Trajectory and Minimal Record | [§§11.13–11.14](../01_blocks/02_part_i_path.md#11-13-false-trajectory) | Shared Record remains owner; stronger failed use triggers Stop |
+| Chapter completion and handoff | [Chapter 11 completion boundary](../01_blocks/02_part_i_path.md#chapter-11-completion-boundary) | Chapter 12 Preparation |
+
+```text
+Chapter 11 provisional lock
+→ Chapter 12 Preparation
+
+Trajectory object
+≠ Path Dependence property
+```
+
+
+---
+
+## Chapter 12 Preparation Cross-References
+
+```text
+Chapter 10 warranted Path
+→ Chapter 11 warranted Trajectory
+→ Chapter 12 graded Path-Dependence property test
+```
+
+| Route | Handoff | Non-inheritance boundary |
+| --- | --- | --- |
+| Chapter 3 → Chapter 12 | foundational property/object and weak/strong distinctions | no re-derivation of the temporal-object chain |
+| Chapter 6 → Chapter 12 | Counterfactual Sensitivity, Source/Claim Ceiling, Stop, Non-Capture | no universal score or automatic semantic decision |
+| Chapter 11 → Chapter 12 | Trajectory reference, sedimentation carriers, profiles, corridors, boundary, rivals, Loss | Trajectory does not pre-confirm dependence |
+| Chapter 12 → Chapter 13 | bounded dependence result and only minimum alternative-history pressure | detailed branch taxonomy and availability remain Chapter 13-owned |
+| Chapter 12 → Chapter 15 | dependence claim as possible composition claim content | full `COMPOSE` occurrence remains separately tested |
+| Chapter 12 → Chapter 24 | dependence-bearing occurrences/composites eligible for later decomposition | fine resolution cannot retroactively prove the property |
+| Chapter 12 → Chapter 46 | local counterfactual burden and unresolved questions | system-wide Counterfactual Sensitivity remains later-owned |
+| Chapter 12 → RETYPE | source history and dependence may become trace material | target-function validity remains a separate `PROJECT_AS` claim |
+| Chapter 12 → LIMITS | local Failure, Stop, Non-Capture, anti-laundering lineage | no authority inheritance or final global audit |
+
+```text
+later operation or projection success
+≠ retroactive repair of a failed dependence claim
+```
+
+Production control: [`Chapter 12 Preparation Record`](Chapter_12_Preparation_Record.md).
+
+## Chapter 12 WP1 Cross-Reference Handoff
+
+```text
+Chapter 10 warranted Path
+→ Chapter 11 warranted Trajectory
+→ Chapter 12 WP1 graded Path-Dependence property test
+→ Chapter 12 WP2 dependence-bearing operator profiles
+```
+
+Protected later owners:
+
+- Chapter 13: detailed branch and unavailable-alternative taxonomy;
+- Chapter 15: complete `COMPOSE` procedure;
+- Chapter 24: `DECOMPOSE` analysis of dependence-bearing occurrences/composites;
+- Chapter 46: general Counterfactual-Sensitivity architecture;
+- RETYPE: contextual target-function assignment.
+
+A later successful operation or projection does not retroactively repair a failed Path, Trajectory, or dependence claim.
+
+## Chapter 12 WP2 Cross-Reference Handoff
+
+| Route | Ownership relation |
+| --- | --- |
+| Chapter 11 §§11.5–11.8 → Chapter 12 §§12.4–12.7 | sedimentation profile supplies possible historical carrier; Chapter 12 separately tests historical indispensability |
+| Chapter 12 §12.3 → §§12.4–12.7 | strong property threshold governs every profile; no profile bypasses current-state sufficiency |
+| Chapter 12 §§12.4–12.7 → WP3 | profile-specific support hands off to the complete Historical-Omission, Alternative-History, modifier, failure, Stop, and Non-Capture architecture |
+| Chapter 13 | retains branch, lost-alternative, and counterfactual-path taxonomy |
+| Chapter 15 | retains complete `COMPOSE` selection and formation procedure |
+| Chapter 24 | retains later `DECOMPOSE` analysis of dependence-bearing occurrences and composites |
+| Chapter 46 | retains general Counterfactual-Sensitivity architecture |
+| RETYPE | retains every target-function assignment |
+
+No downstream route retroactively repairs a failed profile or Path-Dependence claim.
+
+## Chapter 12 WP3 Cross-Reference Handoff
+
+| Route | Ownership relation |
+| --- | --- |
+| Chapter 11 → Chapter 12 | Trajectory and historical carriers are eligible inputs, not inherited dependence conclusions |
+| Chapter 12 §§12.8–12.10 | tests recontextualization, later modifiers, and non-determinism without target-function assignment |
+| Chapter 12 §12.11 | owns the local property test and minimum source-bounded comparison architecture |
+| Chapter 12 §12.12 | owns failure, reduction, resolution neutrality, Stop, Non-Capture, and re-entry for the property claim |
+| Chapter 13 | owns detailed branches, availability windows, and lost-alternative taxonomy |
+| Chapter 15 | owns complete `COMPOSE` formation and compression mechanics |
+| Chapter 24 | owns later `DECOMPOSE` analysis of dependence-bearing carriers |
+| Chapter 46 | owns system-wide Counterfactual Sensitivity |
+| RETYPE | owns every contextual target-function assignment |
+
+No downstream success retroactively repairs an upstream failed dependence claim.
+
+## Chapter 12 Provisional-Lock Cross-References
+
+- Property/object distinction and graded findings: [`§§12.1–12.3`](../01_blocks/02_part_i_path.md#12-1-path-dependence-as-a-property)
+- Dependence-bearing profiles: [`§§12.4–12.7`](../01_blocks/02_part_i_path.md#12-4-a-theta-attractor-dependence)
+- Recontextualization, modifiers, non-determinism, test, Failure, Stop, and Non-Capture: [`§§12.8–12.12`](../01_blocks/02_part_i_path.md#12-8-phi-under-path-dependence)
+- Integrated lock and Chapter-13 handoff: [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary)
+- Production history: [`Chapter 12 Preparation Record — WP4`](Chapter_12_Preparation_Record.md#25-wp4-execution-and-provisional-lock-record)
+- Chapter-13 contract: [`Chapter 13`](../05_minified/Chapter_Contracts.md#chapter-13--branches-aborts-delays-and-unavailable-alternatives)
+
+---
+
+## Chapter 13 Preparation Cross-References
+
+| Route | Input | Chapter-13 duty | Protected handoff |
+| --- | --- | --- | --- |
+| Chapter 10 → 13 | Path and minimum branch markers | full branch/status and availability discipline | do not redefine Path |
+| Chapter 11 → 13 | Trajectory, corridor, compression, competing constructions | inspect retained/lost alternatives | no automatic branch proof |
+| Chapter 12 → 13 | bounded source-variation and dependence pressure | establish actual branch point, window, status, and later reachability | no inherited classification |
+| Chapter 13 → 14 | non-selection and delay candidates | Chapter 14 supplies full Non-Event burden | do not exhaust `Λ` here |
+| Chapter 13 → 15 | selected, rejected, blocked, aborted, deferred, and lost alternatives | Chapter 15 audits `COMPOSE` selection/compression/Loss | no completed operation inheritance |
+| Chapter 13 → 46 | bounded counterfactual Path examples | Chapter 46 owns general Counterfactual Sensitivity | no duplicated theory |
+
+Production control: [`Chapter 13 Preparation Record`](Chapter_13_Preparation_Record.md). Canonical prose anchor remains pending until WP1.
+
+## Chapter 13 WP1 Cross-References
+
+- Canonical prose: [`§§13.1–13.4`](../01_blocks/02_part_i_path.md#13-branches-aborts-delays-and-unavailable-alternatives)
+- Production control: [`Chapter_13_Preparation_Record.md`](Chapter_13_Preparation_Record.md)
+- Predecessors: Chapter 10 Path; Chapter 11 Trajectory; Chapter 12 Path Dependence
+- Protected successors: Chapter 14 Non-Events; Chapter 15 `COMPOSE`; Chapter 46 Counterfactual Sensitivity; RETYPE
+- Cases represented: `C13-ALT-01`, `C13-BRANCH-01`, `C13-REAL-01`, `C13-REJ-01`, `C13-SOURCE-01`.
+
+## Chapter 13 WP2 Cross-References
+
+| Route | Handoff | Boundary |
+| --- | --- | --- |
+| Chapter 10 → Chapter 13 WP2 | earlier blocked/aborted/deferred Path overview | Chapter 13 owns source-bounded status classification and later-reachability burden |
+| Chapter 13 WP1 → WP2 | historical alternative field, Branch Point, Realized and Rejected status | WP2 adds Blocked, Aborted, Deferred, and Lost without retroactive reclassification |
+| Chapter 13 WP2 → Chapter 14 | delay, non-decision, missed transition, or absent approval candidates | Chapter 14 owns full expectation-grounded `Λ` analysis |
+| Chapter 13 WP2 → Chapter 15 | differentiated alternative statuses and five-part representation Loss | Chapter 15 owns completed `COMPOSE` selection/compression mechanics |
+| Chapter 13 WP2 → WP3 | status-bearing alternatives and unresolved distinctions | WP3 owns counterfactual, non-selection, compression, record, failure, Stop, and Non-Capture architecture |
+
+Canonical route: [Chapter 13 WP2](../01_blocks/02_part_i_path.md#13-5-blocked-branch).
+
+## Chapter 13 WP3 Cross-References
+
+| Route | What WP3 supplies | Protected owner / non-inheritance |
+| --- | --- | --- |
+| Chapter 13 WP1–WP2 → WP3 | source-supported alternative field and differentiated branch statuses | no unrealized outcome inherited |
+| Chapter 13 WP3 → Chapter 14 | bounded Non-Selection candidates and decision-window structure | Chapter 14 owns expectation-grounded `Λ` determination |
+| Chapter 13 WP3 → Chapter 15 | branch field, compression declaration, canonical Loss, Alternative Status Record entries | Chapter 15 owns completed `COMPOSE` procedure and result |
+| Chapter 13 WP3 → Chapter 46 | source-bounded historical counterfactual examples | Chapter 46 owns general Counterfactual Sensitivity |
+| Chapter 13 WP3 → RETYPE | possible later source material | no target function or `PROJECT_AS` authorization inherited |
+| Chapter 13 WP3 → Reader | status-bearing, uncertainty-bearing graph inputs | visualization may not establish historical status or upgrade claims |
+
+Schema route: the Alternative Status Record uses `Transformation_Record.schema.json`'s existing `extensions` carrier; the top-level rival-transformation `alternatives` field remains semantically separate.
+
+## Chapter 13 Provisional-Lock Cross-References
+
+| Handoff | Supplied | Not inherited |
+| --- | --- | --- |
+| Chapter 13 → Chapter 14 | active decision contexts, expected windows, Non-Selection candidates, delay and residual traces | automatic `Λ` typing |
+| Chapter 13 → Chapter 15 | source-supported alternative field, status declarations, compression and five-part Loss | completed `COMPOSE` or target object |
+| Chapter 13 → Chapter 16 | lower/upper alternative-space boundary pressure | final PATH boundary result |
+| Chapter 13 → Chapter 17 | nineteen chapter-level Pressure Cases and audit duties | produced case artifacts or empirical findings |
+| Chapter 13 → Chapter 46 | bounded historical counterfactual examples and horizon discipline | general Counterfactual-Sensitivity theory |
+| Chapter 13 → RETYPE | possible later source material | `PROJECT_AS` authorization or target function |
+| Chapter 13 → Reader | status-, source-, uncertainty-, and Loss-bearing graph inputs | historical status, counterfactual truth, or claim upgrade |
+
+Canonical return: [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary).
+
+## Chapter 14 Preparation Cross-References
+
+| Chapter-14 preparation object | Upstream control | Later owner or use |
+| --- | --- | --- |
+| PATH-specific Non-Event | Chapter 3 foundational definition; Chapters 0/2/6 source, frame, and claim controls | Chapter 15 `COMPOSE`; Chapter 17 PATH audit |
+| expectation relation/frame/window | Chapters 2 and 3 | Chapter 14 canonical §§14.1–14.3 |
+| Delay / Non-Decision candidates | Chapters 9, 10, and 13 | Chapter 14 canonical §§14.3–14.4 |
+| Blocked Responsibility | Chapter 0 authority boundary; Chapter 13 blocking distinction | Chapter 14 §14.5 |
+| Missing Repair / Missing Exit | Chapters 3, 10, 11, 13 | Chapter 14 §§14.6–14.7 |
+| Non-Event Sedimentation | Chapter 11 Trajectory; Chapter 12 `Λ + Θ` profile | Chapter 14 §14.8; Chapter 15 composition |
+| preservation of `Λ` | Chapter 7 Shared Record and Loss | Chapter 15 `COMPOSE` |
+| internal event/Non-Event structure | Chapter 14 preserves higher-level character | Chapter 23 `DECOMPOSE` |
+| missing-source distinction | Chapter 3 minimum; Chapter 49 full source limits | Chapter 14 source gate |
+| Minimal Non-Event Record | Chapter 7 record architecture | Chapter 14 WP3 model decision |
+| contextual function | origin type remains `Λ` occurrence/composite | RETYPE `PROJECT_AS` only |
+
+Preparation control: [`Chapter_14_Preparation_Record.md`](Chapter_14_Preparation_Record.md). Canonical Chapter-14 prose remains pending.
+
+## Chapter 14 WP1 Cross-References
+
+- Canonical prose: [`§§14.1–14.3`](../01_blocks/02_part_i_path.md#14-non-events-within-paths-and-trajectories)
+- Production control: [`Chapter_14_Preparation_Record.md`](Chapter_14_Preparation_Record.md)
+- Foundational owner: Chapter 3 Non-Event definition
+- Immediate predecessor: Chapter 13 historical alternatives and Non-Selection candidates
+- Protected successors: Chapter 14 WP2/WP3; Chapter 15 `COMPOSE`; Chapter 23 `DECOMPOSE`; Chapter 49 source limits; RETYPE
+- Cases represented: `C14-CENT-01`, `C14-FRAME-01`, `C14-DELAY-01`, `C14-SOURCE-01`.
+
+## Chapter 14 WP2 Cross-References
+
+- Canonical prose: [`§§14.4–14.8`](../01_blocks/02_part_i_path.md#14-4-repeated-non-decision)
+- Production control: [`Chapter_14_Preparation_Record.md`](Chapter_14_Preparation_Record.md)
+- Foundational owner: Chapter 3 Non-Event object
+- Immediate controls: Chapter 11 sedimentation/corridors; Chapter 12 Path Dependence; Chapter 13 branch and Non-Selection distinctions
+- Protected successors: Chapter 14 WP3; Chapter 15 `COMPOSE`; Chapter 23 `DECOMPOSE`; Chapter 49 source limits; RETYPE
+- Cases represented in WP2: `C14-NDEC-01`, `C14-BRESP-01`, `C14-REPAIR-01`, `C14-EXIT-01`, `C14-SED-01`, `C14-CONF-01`, `C14-CONF-02`.
+
+Canonical Chapter-14 prose is now drafted through Section 14.8; WP3 and WP4 remain pending.
+
+## Chapter 14 WP3 Cross-References
+
+- Canonical prose: [`§§14.9–14.11`](../01_blocks/02_part_i_path.md#14-9-preserving-%CE%BB-in-composition)
+- Production control: [`Chapter_14_Preparation_Record.md`](Chapter_14_Preparation_Record.md)
+- Foundational owner: Chapter 3 Non-Event object
+- Immediate controls: Chapter 7 Shared Record; Chapters 11–13 sedimentation, dependence, alternatives, and Non-Selection
+- Protected successors: Chapter 15 `COMPOSE`; Chapter 23 `DECOMPOSE`; Chapter 49 source limits; RETYPE
+- Cases represented in WP3: `C14-PRES-01`, `C14-SUBEV-01`, `C14-FALSE-01`, `C14-REC-01`, `C14-REDUCE-01`, `C14-STOP-01`, `C14-NC-01`, `C14-HANDOFF-01`.
+
+Canonical Chapter-14 prose is complete through Section 14.11; WP4 integrated audit and Provisional Lock remain pending.
+
+## Chapter 14 Provisional-Lock Cross-References
+
+| Handoff | Supplied | Not inherited |
+| --- | --- | --- |
+| Chapter 14 → Chapter 15 | preservable `Λ` structures, positive sub-events, uncertainty, canonical Loss burdens | completed `COMPOSE` or target object |
+| Chapter 14 → Chapter 16 | false-Non-Event, lower/upper boundary, compression, graph-gap, and anti-teleology pressure | final PATH boundary result |
+| Chapter 14 → Chapter 17 | nineteen chapter-level Pressure Cases and audit duties | produced case artifacts or empirical findings |
+| Chapter 14 → Chapter 23 | bounded Non-Event occurrences and higher/lower-level tension | completed `DECOMPOSE` |
+| Chapter 14 → Chapter 49 | source-gap and non-realization boundary examples | general source-limit theory |
+| Chapter 14 → RETYPE | possible later source material | `PROJECT_AS` authorization or target function |
+| Chapter 14 → Reader | expectation-, window-, source-, uncertainty-, sub-event-, sedimentation-, and Loss-bearing graph inputs | `Λ` truth, blame, operation result, or claim upgrade |
+
+Canonical return: [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary).
+
+## Chapter 15 Preparation Cross-References
+
+| Chapter-15 duty | Consumes | Protected downstream owner |
+| --- | --- | --- |
+| operation identity | Chapter 4; Operation Signatures | no redefinition |
+| typed sources and composite | Chapters 1–3, 9–14 | Chapter 16 boundary tests |
+| selection/order/frame/formation | Chapters 2, 7, 10–14 | Chapter 17 integrated cases |
+| preservation and Loss | Chapter 7; Chapters 11, 13, 14 | Chapter 48 general Loss ontology |
+| counterfactual sensitivity | Chapter 6; Chapters 12–13 | no causal or predictive authority |
+| COMPOSE Record | Chapter 7; Operation Registry; Record schema | Appendix D template detail |
+| later decomposition | composite and declared Loss | Chapter 24 `DECOMPOSE` |
+| contextual target function | formed composite | RETYPE / `PROJECT_AS` |
+
+Primary preparation control: [`Chapter_15_Preparation_Record.md`](Chapter_15_Preparation_Record.md).
+
+## Chapter 15 WP1 Cross-References
+
+| WP1 burden | Upstream owner | Canonical WP1 route | Downstream owner |
+| --- | --- | --- | --- |
+| operation identity | Chapter 4 | [§15 intro and §15.1](../01_blocks/02_part_i_path.md#15-compose-selection-formation-and-compression) | Chapter 15 WP2/WP3 |
+| typed temporal sources | Chapters 9–14 | [§15.3](../01_blocks/02_part_i_path.md#15-3-source-objects) | Formation and preservation |
+| selection and alternatives | Chapters 10 and 13 | [§15.4](../01_blocks/02_part_i_path.md#15-4-selection-rule) | Sensitivity and competing composition |
+| temporal order | Chapters 9–11 | [§15.5](../01_blocks/02_part_i_path.md#15-5-temporal-ordering-rule) | Target formation |
+| frame/granularity/level | Chapter 2 | [§15.6](../01_blocks/02_part_i_path.md#15-6-composition-frame) | Chapter 16 boundaries and RETYPE separation |
+| Loss | Chapter 7; Chapter 48 | entry burden only | Chapter 15 WP2 |
+| target function | RETYPE | prohibited in WP1 | `PROJECT_AS` only |
+
+## Chapter 15 WP2 Cross-References
+
+| Chapter-15 WP2 concern | Upstream owner | Downstream owner |
+| --- | --- | --- |
+| target-class threshold | Chapters 3 and 9–14 | Chapters 16–17 |
+| Formation Rule and constitutive relations | Chapter 15 | Chapter 17 cases; SUB/RETYPE consumers |
+| operator load preservation | PMS Base; Chapters 9–14 | Chapter 15 WP3 and Chapter 17 |
+| canonical five-part Loss | Chapters 7 and 48 | Chapter 15 WP3; Chapter 16; Appendices |
+| compression and external lineage | Chapter 15 consuming Chapter 7 | Chapter 24 `DECOMPOSE` |
+| exclusion and rival frames | Chapters 2, 10, 13 | Chapter 16 boundary tests |
+| uncertainty and irrecoverability | Chapters 0, 6, 7 | Chapter 15 WP3–WP4; Chapter 17 |
+| target function | RETYPE / `PROJECT_AS` | not assigned by Chapter 15 |
+
+Canonical route: [Chapter 15 WP2](../01_blocks/02_part_i_path.md#15-7-formation-rule).
+
+## Chapter 15 WP3 Cross-References
+
+| WP3 concern | Primary owner | Protected downstream owner |
+| --- | --- | --- |
+| composition claim and target strength | Chapter 15 §15.12 | Chapter 16 boundaries |
+| origin-type preservation | Chapter 15 §15.13 | RETYPE / `PROJECT_AS` |
+| sensitivity and overelasticity | Chapter 15 §15.14 | Chapter 17 cases |
+| failure and reduction | Chapter 15 §15.15 | canonical Output Classes |
+| complete COMPOSE record | Chapter 15 §15.16 | Appendix D template |
+| non-invertibility | Chapter 24 | not Chapter 15 |
+| general Loss ontology | Chapter 48 | not Chapter 15 |
+
+## Chapter 15 Provisional-Lock Cross-References
+
+| Handoff | Supplied | Not inherited |
+| --- | --- | --- |
+| Chapters 9–14 → Chapter 15 | typed temporal structures, Path/Trajectory/Dependence/branch/Non-Event burdens | automatic composition |
+| Chapter 15 → Chapter 16 | complete PATH-specific `COMPOSE` procedure and failure routes | boundary adjudication |
+| Chapter 15 → Chapter 17 | nineteen Pressure Cases and integrated audit duties | produced case corpus |
+| Chapter 15 → Chapter 24 | compressed composites and Lineage/Loss burdens | automatic inversion or `DECOMPOSE` result |
+| Chapter 15 → Chapter 48 | operation-specific five-part Loss use | general Loss-ontology redefinition |
+| Chapter 15 → RETYPE | origin-typed composite objects | `PROJECT_AS` authorization or target function |
+| Chapter 15 → Reader | source, order, formation, Loss, sensitivity, rival-composition, Stop/Non-Capture overlays | operation truth or authority |
+
+Canonical return: [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary).
+
+## Chapter 16 Preparation Cross-References
+
+| Chapter-16 concern | Primary owner | Protected downstream owner |
+| --- | --- | --- |
+| general Relevance Floor and Traceability Ceiling | Chapter 6 | Chapters 41–53 integrated LIMITS |
+| PATH-local lower and upper boundaries | Chapter 16 | Chapter 17 cases and audit |
+| Path, Trajectory, dependence, branches, and Non-Events | Chapters 10–14 | no competitive redefinition here |
+| complete `COMPOSE` procedure and Loss | Chapter 15 | Chapter 16 boundary application |
+| excessive compression and punctualization | Chapter 16 | Chapter 24 later `DECOMPOSE` |
+| PATH/SUB boundary | Chapter 16 | SUB operation chapters |
+| PATH/RETYPE boundary | Chapter 16 | RETYPE and `PROJECT_AS` |
+| Stop and Non-Capture route | Chapter 16 consuming Chapters 6–8 | Chapter 17 local audit |
+
+Primary preparation control: [`Chapter_16_Preparation_Record.md`](Chapter_16_Preparation_Record.md).
+
+## Chapter 16 WP1 Cross-References
+
+| WP1 burden | Upstream owner | Canonical WP1 route | Downstream owner |
+| --- | --- | --- | --- |
+| common Admissibility Band | Chapter 6 | [Chapter 16 introduction](../01_blocks/02_part_i_path.md#16-path-boundary-conditions) | LIMITS consolidation |
+| lower PATH boundary | Chapter 16 | [§16.1](../01_blocks/02_part_i_path.md#16-1-the-lower-path-boundary) | WP3 Purchase Test |
+| chronology/Trajectory separation | Chapters 10–11 | [§16.2](../01_blocks/02_part_i_path.md#16-2-chronology-without-trajectory-gain) | Chapter 17 cases |
+| upper PATH boundary | Chapter 16 | [§16.3](../01_blocks/02_part_i_path.md#16-3-the-upper-path-boundary) | WP3 Trace Test |
+| Trajectory trace burden | Chapter 11 | [§16.4](../01_blocks/02_part_i_path.md#16-4-trajectory-without-path-trace) | Claim Reduction |
+| compression and Loss | Chapters 15 and 48 | [§16.5](../01_blocks/02_part_i_path.md#16-5-excessive-temporal-compression) | WP2 omissions; SUB later |
+| same-material Band contrast | Chapter 16 Contract | [`C16-BAND-01`](../01_blocks/02_part_i_path.md#c16-band-01-the-same-broad-materials-across-the-full-path-band) | Chapter 17 audit |
+| target function | RETYPE | prohibited in WP1 | `PROJECT_AS` only |
+
+## Chapter 16 WP2 Cross-References
+
+| WP2 burden | Upstream owner | Canonical route | Downstream owner |
+| --- | --- | --- | --- |
+| bounded directionality | Chapter 11 | [§16.6](../01_blocks/02_part_i_path.md#16-6-artificial-directionality) | WP3 Trace Test; Chapter 17 |
+| anti-teleology | Chapter 11 and Chapter 13 alternatives | [§16.7](../01_blocks/02_part_i_path.md#16-7-hidden-teleology) | Chapter 17; LIMITS |
+| constitutive `Λ` preservation | Chapter 14 | [§16.8](../01_blocks/02_part_i_path.md#16-8-omitted-non-events) | Chapter 15 Loss; Chapter 17 |
+| constitutive `Ω` preservation | Chapters 11–12 | [§16.9](../01_blocks/02_part_i_path.md#16-9-omitted-asymmetries) | Chapter 17; LIMITS |
+| PATH/RETYPE boundary | Chapters 4 and 15 | [§16.10](../01_blocks/02_part_i_path.md#16-10-path-versus-retype) | RETYPE `PROJECT_AS` owner |
+| PATH/SUB boundary | Chapters 4 and 15 | [§16.11](../01_blocks/02_part_i_path.md#16-11-path-versus-sub) | SUB `DECOMPOSE` owner |
+| Stop and Non-Capture | Chapter 6 | deferred to WP3 | Chapter 17 local audit |
+
+## Chapter 16 WP3 Cross-References
+
+- [§16.12 Praxeological Purchase Test](../01_blocks/02_part_i_path.md#16-12-praxeological-purchase-test) consumes Chapter 6 Floor logic and Chapters 9–15 temporal-object controls.
+- [§16.13 Traceable Path Test](../01_blocks/02_part_i_path.md#16-13-traceable-path-test) consumes Chapter 6 Ceiling logic, Chapter 7 Shared Record, Chapter 15 Formation/Loss, and Chapter 11 Trajectory thresholds.
+- [§16.14 Claim Reduction and PATH Stop Conditions](../01_blocks/02_part_i_path.md#16-14-claim-reduction-and-path-stop-conditions) routes stronger failures without erasing weaker objects and preserves SUB/RETYPE ownership.
+- [§16.15 PATH Non-Capture](../01_blocks/02_part_i_path.md#16-15-path-non-capture) supplies Chapter 17 with irreducible-periodization, Stop, and local-audit duties.
+- [Chapter 16 Preparation Record — WP3](Chapter_16_Preparation_Record.md#31-wp3-execution-record) records production history only.
+
+## Chapter 16 Provisional-Lock Cross-References
+
+| Locked relation | Primary owner | Return | Next owner |
+| --- | --- | --- | --- |
+| common Admissibility Band | Chapter 6 | [`Chapter 16 completion boundary`](../01_blocks/02_part_i_path.md#chapter-16-completion-boundary) | LIMITS consolidation |
+| PATH lower and upper boundaries | Chapter 16 | [`§§16.1–16.5`](../01_blocks/02_part_i_path.md#16-1-the-lower-path-boundary) | Chapter 17 cases and audit |
+| directionality, teleology, omitted `Λ`/`Ω` | Chapter 16 | [`§§16.6–16.11`](../01_blocks/02_part_i_path.md#16-6-artificial-directionality) | Chapter 17 pressure cases |
+| Purchase, Trace, reduction, Stop, Non-Capture | Chapter 16 | [`§§16.12–16.15`](../01_blocks/02_part_i_path.md#16-12-praxeological-purchase-test) | Chapter 17 local audit |
+| `DECOMPOSE` | SUB | Chapter-16 anti-rescue boundary | Chapter 24 |
+| `PROJECT_AS` | RETYPE | Chapter-16 anti-rescue boundary | RETYPE chapters |
+| production history | Reference layer | [`Chapter 16 Preparation Record — WP4`](Chapter_16_Preparation_Record.md#32-wp4-execution-and-provisional-lock-record) | no theory ownership |
+
+## Chapter 17 Preparation Cross-References
+
+- Structure: [`Chapter 17`](../00_source/PMS-STRATA_Structure.md#17-path-cases-countercases-and-local-audit)
+- Contract: [`Chapter 17`](../05_minified/Chapter_Contracts.md#chapter-17--path-cases-countercases-and-local-audit)
+- PATH source block: [`Part I`](../01_blocks/02_part_i_path.md)
+- Preparation control: [`Chapter_17_Preparation_Record.md`](Chapter_17_Preparation_Record.md)
+- Case templates: [`03_cases/templates`](../03_cases/templates/)
+- Case index: [`Case_Index.md`](../03_cases/Case_Index.md) and [`Case_Index.yaml`](../03_cases/Case_Index.yaml)
+- Shared Record schema: [`Transformation_Record.schema.json`](../07_model/Transformation_Record.schema.json)
+- Canonical outputs: [`Output_Classes.yaml`](../07_model/Output_Classes.yaml)
+
+## Chapter 17 WP1 Cross-References
+
+- Canonical sections: [`§§17.1–17.4`](../01_blocks/02_part_i_path.md#17-path-cases-countercases-and-local-audit)
+- Case Index: [`Case_Index.md`](../03_cases/Case_Index.md) and [`Case_Index.yaml`](../03_cases/Case_Index.yaml)
+- Simple Linear Path: [`MD`](../03_cases/markdown/C17-LINEAR-01_Simple_Linear_Path.md) · [`YAML`](../03_cases/yaml/C17-LINEAR-01_Simple_Linear_Path.yaml)
+- Branching Path: [`MD`](../03_cases/markdown/C17-BRANCH-01_Branching_Path.md) · [`YAML`](../03_cases/yaml/C17-BRANCH-01_Branching_Path.yaml)
+- Trajectory with central `Λ`: [`MD`](../03_cases/markdown/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.md) · [`YAML`](../03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml)
+- Record schema: [`Transformation_Record.schema.json`](../07_model/Transformation_Record.schema.json)
+- Next: Chapter 17 WP2 counterpressure and the second lock-critical artifact.
+
+## Chapter 17 WP2-A Cross-References
+
+| Chapter site | Case artifact | Primary pressure |
+|---|---|---|
+| §17.5 | `C17-HISTORY-01` Markdown/YAML | similar endpoints, different histories, dimension-specific dependence |
+| §17.6 | `C17-WEAKPD-01` Markdown/YAML | recurrence, weak dependence, current-state sufficiency |
+
+Both feed the later Chapter-17 PATH Local Audit and remain open to Chapter 24, RETYPE, LIMITS, and corpus-wide audit.
+
+## Chapter 17 WP2-B Cross-References
+
+| Chapter site | Case artifact | Primary pressure |
+|---|---|---|
+| §17.7 | `C17-CHRON-01` Markdown/YAML | chronology versus Path; Claim Reduction |
+| §17.8 | `C17-MACRO-01` Markdown/YAML | macro-label versus traceable load; failed COMPOSE |
+| §17.9 | `C17-TEL-01` Markdown/YAML | directionality versus teleology; endpoint-conditioned formation |
+
+All three feed the later PATH Local Audit and remain open to WP2-C, WP3, LIMITS, and corpus-wide audit.
+
+
+## Chapter 17 WP2-C Cross-References
+
+| Canonical section | Case artifacts | Primary control |
+|---|---|---|
+| §17.10 | `C17-OMEGA-01` Markdown/YAML | milestone equality versus practical-load equivalence |
+| §17.11 | `C17-FALSEL-01` Markdown/YAML | missing information versus structured Non-Event |
+| Full WP2 boundary | Case Index | seven WP2 result mappings and WP3 handoff |
+
+
+## Chapter 17 WP3-A Cross-References
+
+- §17.12 ↔ `C17-PROJ-01` ↔ PATH/RETYPE boundary ↔ Chapter 30 future `PROJECT_AS` owner.
+- §17.13 ↔ `C17-RES-01` ↔ Relevance Floor ↔ Chapter 25/27 future SUB resolution controls.
+- §17.14 ↔ `C17-ATTR-01` ↔ Trajectory/Attractor non-equivalence ↔ RETYPE Attractor-function owner.
+- All three lock-critical artifacts now exist; WP3-B retains the Part-I lock decision.
+
+
+## Chapter 17 WP3-B Cross-References
+
+- §§17.1–17.14 → thirteen standalone artifacts registered in `03_cases/Case_Index.*`.
+- §17.15 → Chapters 6, 7, 15, 16 and the twelve-stage record audits.
+- §17.16 → `07_model/Output_Classes.yaml` and `04_reference/Output_Class_Index.md`.
+- §17.17 → Chapter 17 Contract completion test and the WP4 Part-I lock gate.
+- No Chapter-17 result pre-empts Chapter 18 SUB or later RETYPE target-function tests.
+
+## Part I — PATH Provisional-Lock Cross-References
+
+- Chapters 9–14 → temporal object, dependence, alternatives, and `Λ` source architecture.
+- Chapter 15 → `COMPOSE` procedure and complete Loss.
+- Chapter 16 → PATH-local Band, reduction, Stop, and Non-Capture.
+- Chapter 17 → thirteen case records, Output mapping, Local Audit, and closing statement.
+- Part-I lock boundary → Chapter 18 Preparation without pre-authorized `DECOMPOSE`.

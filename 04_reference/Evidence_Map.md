@@ -1,9 +1,9 @@
 # PMS-STRATA — Evidence Map
 
-**Status:** Reference Kernel v0 scaffold v0.3.44; Chapter-10-WP2-synchronized  
+**Status:** Reference Kernel v0 scaffold v0.3.46; Chapter-11-WP2-synchronized  
 **Repository role:** `04_reference/*` — source, support, gap, rival, and external-warrant routing; not an independent theory source  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the post-smoke-synchronized `04_reference/Cross_Reference_Map.md`, the current peer scaffolds `04_reference/Audit_Checklist.md` and `04_reference/Reader_Pathways.md`, repository `README.md`, the seven populated Core artifacts in `07_model/`, the eight populated records and suite control in `07_model/examples/`, and `PMS.yaml` for PMS Base  
-**Substantive evidence status:** the seven Core Model artifacts and eight canonical smoke records are populated and internally validated for formal, route, loss, and cross-record conformance; Foundations Chapters 0–8 are provisionally locked and internally audited methodological prose; Chapter 6, Chapter 7, and Chapter 8 case assignments remain production duties rather than empirical evidence; Chapter 9 Sections 9.1–9.9 are internally audited methodological prose; Preparation remains non-evidence production control; Sections 9.10–9.12 and Chapters 10–57, substantive cases, countercases, calibration sets, and external domain evidence remain pending
+**Substantive evidence status:** the seven Core Model artifacts and eight canonical smoke records are populated and internally validated for formal, route, loss, and cross-record conformance; Foundations Chapters 0–8 are provisionally locked and internally audited methodological prose; Chapter 6, Chapter 7, and Chapter 8 case assignments remain production duties rather than empirical evidence; Chapters 9–10 are provisionally locked methodological prose; Chapter 11 WP1–WP2 are canonical through Sections 11.1–11.9 and Preparation remains non-evidence production control; Sections 11.10–11.14 and Chapters 12–57, substantive cases, countercases, calibration sets, and external domain evidence remain pending
 
 ---
 
@@ -1678,3 +1678,494 @@ strong realized-prefix evidence
 
 The five `C10-*` WP2 examples are methodological pressure constructions, not external evidence or produced Case files. Canonical route: [`Chapter 10 §§10.7–10.10`](../01_blocks/02_part_i_path.md#10-7-realized-path).
 
+---
+
+## Chapter 10 WP3 Evidence Duties
+
+| Claim | Constitutive evidence | Insufficient substitute |
+| --- | --- | --- |
+| path comparison | aligned frame/reference/time/selection/source relation and dimension-specific support | endpoint similarity or source quantity alone |
+| incomparability | documented material mismatch or undecidable rival alignment | analyst preference not to compare |
+| same endpoint, different path | endpoint similarity plus source-supported differences in cost, binding, residue, or continuation | different narrative alone |
+| path without strong dependence | warranted path plus present-condition and counterfactual assessment | mere existence of history |
+| minimal record | resolvable path fields, evidence status, loss, lineage, and claim scope | field presence without substantive support |
+| Stop | known failed load-bearing path plus continued stronger derivation | mere uncertainty in a non-load-bearing detail |
+| Non-Capture | at least two source-responsible materially different path constructions and no adjudicating evidence | one strong and one speculative path |
+
+Canonical route: [`Chapter 10 §§10.11–10.14`](../01_blocks/02_part_i_path.md#10-11-path-comparison).
+
+
+## Chapter 10 Provisional-Lock Evidence Handoff
+
+A warranted Path requires non-compensatory support across component, traversal, constitutive, selection, branch, and praxis relations. Qualified statuses add status-specific burdens: realized requires traversal through the cut; blocked requires prior availability plus prevention; aborted requires initiation or partial traversal plus cessation; deferred requires postponement plus continuing bounded availability.
+
+Comparison requires explicit alignment or translation of reference, frame, temporal scope, granularity, selection, source basis, dimensions, and uncertainty. Missing information is not zero value, absence, open alternative, or non-event automatically.
+
+```text
+rich chronology ≠ traversal evidence
+endpoint support ≠ Path support
+strong realized-prefix evidence ≠ continuation-status proof
+record completeness ≠ evidence sufficiency
+```
+
+Canonical return: [`Chapter 10`](../01_blocks/02_part_i_path.md#chapter-10-path).
+
+---
+
+## Chapter 11 Preparation — Trajectory Evidence Burdens
+
+| Evidence relation | Control question |
+| --- | --- |
+| Path-substrate support | Is the referenced Path warranted under Chapter 10 and is its lineage intact? |
+| sedimentation support | What repeated, cumulative, irreversible, or retained relation exceeds duration and recurrence? |
+| continuity/carrier support | How does the historical load persist, transfer, or remain as residue? |
+| present-load support | Which current configuration or continuation possibilities differ because of the Path history? |
+| operator-profile support | Which bounded `Α`, `Ω`, `Ψ`, or `Λ` occurrences with `Θ` are constitutive? |
+| directionality support | What dimension changes directionally without necessity, destiny, or original-plan inference? |
+| boundary/compression support | Why are start, endpoint, periodization, inclusion, compression, and exclusion warranted? |
+| competing-construction support | Which rival boundaries or constitutive selections remain plausible or undecidable? |
+
+```text
+evidence volume
+≠ trajectory admissibility
+```
+
+Production control: [`Chapter 11 Preparation Record`](Chapter_11_Preparation_Record.md).
+
+## Chapter 11 WP1 Evidence and Warrant Map
+
+| Claim | Minimum evidence relation | Insufficient substitute | Bounded fallback |
+| --- | --- | --- | --- |
+| Trajectory candidate | warranted Path, declared present cut, historical carrier, cumulative/sedimented contribution, present praxis effect, source-result sensitivity | long duration, repeated label, event count, coherent narrative | warranted Path plus local temporal findings |
+| warranted Trajectory | candidate plus applicable continuity, admissibility, loss, governance, Stop, and Non-Capture controls | complete record fields | `admissible_but_provisional`, reduction, Failure, Stop, or Non-Capture as applicable |
+| Historical Sedimentation | source-supported carrier, retained/transformed load, persistent residue or cumulative change, present effect | archive survival, remembrance, age, repetition | duration, recurrence, persistence, or local residue claim |
+| historical co-determination | material change in present reconstruction under relevant source variation | chronological priority or correlation alone | bounded historical relevance |
+| directionality | dimension-specific ordered change with alternatives, repairs, reversals, and endpoint-bias control | progress/decline label, inferred plan, current endpoint | segment-specific or provisional directional claim |
+| teleology rejection | preserved alternatives, contingencies, external conditions, and uncertainty about foresight | absence of explicit plan alone | claim reduction to source-supported directional relations |
+
+WP1 cases `C11-DEF-01`, `C11-PATH-01`, `C11-DUR-01`, `C11-SED-01`, `C11-DIR-01`, and `C11-TEL-01` are canonical methodological pressure cases, not empirical evidence or completed case artifacts.
+
+## Chapter 11 WP2 Evidence and Warrant Map
+
+| Claim | Minimum evidence relation | Insufficient substitute | Bounded fallback |
+| --- | --- | --- | --- |
+| Attractor Sedimentation | bounded `Α` occurrence, recurrent/translated configurations, carrier, changed friction/default access, alternatives, repair/erosion, current-condition pressure | repetition count, popularity, current rule alone | recurrence, routine, current default, or provisional historical relevance |
+| Asymmetry Accumulation | declared distribution dimensions, temporal carrier, repeated/cumulative differential load, present effect, exit conditions, repair/redistribution | one unequal outcome, role label, moral judgment | local Asymmetry occurrence or bounded current distribution claim |
+| Binding Accumulation | commitment/reliance records, carrier, layered or transformed relation, present breach/reopening effect, weakening/transfer/release | number of promises, archival agreement, assumed consent | discrete Binding occurrence, reliance, or current switching-cost claim |
+| Residual Accumulation | warranted expectations and windows, documented non-occurrences, residual carrier, present effect, repair/closure/dormancy, uncertainty | silence, source gap, later disappointment, count of absences | missing-information declaration, single bounded Non-Event, or unresolved expectation |
+| Changed Action Corridor | declared corridor dimensions, distinct profile/current-condition contributions, source-result variation, remaining agency, repair/reopening | current constraint plus historical story, formal permission alone | bounded present accessibility/cost statement without historical attribution |
+| multi-profile corridor | separately supported carriers and effects; absent/uncertain profiles declared | descriptive density or operator-symbol co-presence | narrower profile-specific claim or `claim_reduction_required` |
+
+WP2 cases `C11-ATTR-01`, `C11-ASYM-01`, `C11-BIND-01`, `C11-RES-01`, and `C11-CORR-01` are canonical methodological pressure cases, not empirical evidence or completed case artifacts.
+
+## Chapter 11 WP3 Evidence and Warrant Map
+
+| Claim | Evidence / warrant required | Insufficient substitute | Preserved reduced finding |
+| --- | --- | --- | --- |
+| Trajectory Boundary | constitutive carrier, entry rationale, prehistory relation, segment lineage, analytical cut, terminal/open status, boundary sensitivity | oldest event, neat period, endpoint-selected beginning | bounded Path segment, prehistory, disputed periodization |
+| Trajectory Compression | source-linked transitions, Non-Events, profiles, alternatives, reversals, repairs, current conditions, Loss and source-variation test | elegant macro-label, dense chronology, unchanged label under source change | reduced direction, Path, local profile, unresolved loss |
+| competing construction | independent source basis, boundary, carrier, compression, claim scope, common comparison basis, source asymmetry | difference in wording, detail count, formal elegance | compatible bounded claims, incomparability, or unresolved rivalry |
+| False Trajectory | identified failed burden and explicit preservation of weaker findings | label rejection alone or absence of complete history | chronology, duration, Path, recurrence, local profile, current constraint |
+| Minimal Record sufficiency | complete Shared Record mapping plus substantive source support and admissibility judgment | valid YAML, filled fields, schema conformance | structurally complete but provisional or reduced claim |
+| Non-Capture | materially different source-responsible constructions and insufficient adjudicative sources | analyst indecision, missing effort, or weak rivals | explicit unresolved construction set without validation |
+| Mandatory Stop | known failed Trajectory used as premise for stronger dependence, function, causality, legitimacy, ranking, or authority | mere uncertainty with responsible re-entry still open | stop of stronger chain; earlier warranted weaker findings retained |
+
+Canonical route: [`Chapter 11 §§11.10–11.14`](../01_blocks/02_part_i_path.md#11-10-trajectory-boundary).
+
+## Chapter 11 Provisional-Lock Evidence Handoff
+
+| Evidence burden | Minimum support | Unsupported substitution |
+| --- | --- | --- |
+| Path substrate | individually warranted traversal lineage | chronology or retrospective plausibility |
+| sedimentation carrier | identifiable occurrence, relation, record, practice, role, resource, rule, expectation, or residue carrier | operator symbol or historical importance label |
+| cumulative relation | trace across time with disclosed gaps, repairs, reversals, and current conditions | duration, frequency, or monotonic narrative alone |
+| present effect | changed praxis condition or continuation corridor at the analytical cut | remembrance or archival survival alone |
+| profile claim | profile-specific historical and present evidence | cross-profile compensation |
+| Boundary/periodization | entry rationale, prehistory, included segments, cut, terminal/open status | oldest event or source-window endpoint automatically |
+| Compression | preserved constitutive trace plus canonical Loss | macro-label or source-insensitive summary |
+| competing construction | independent source basis and common comparison dimensions | detail, formality, or breadth as superiority proof |
+
+Chapter 12 may use this evidence package for a separate dependence test. It may not treat Chapter 11 lock as empirical confirmation.
+
+
+---
+
+## Chapter 12 Preparation Evidence Handoff
+
+| Evidence burden | Minimum declaration | Unsupported substitution to reject |
+| --- | --- | --- |
+| input integrity | warranted Path/Trajectory reference, boundary, analytical cut, source status | macro-label or failed upstream object |
+| current-state baseline | current rules, resources, roles, frame, constraints, alternatives, and explanatory reach | weak baseline constructed to make history look necessary |
+| historical carrier | source-traceable retained relation and temporal linkage | historical story without present-bearing mechanism |
+| present effect | changed meaning, cost, role, credibility, accessibility, reachability, or continuation | salience, drama, age, or repetition alone |
+| omission test | material reconstruction loss when the relevant Path is removed | merely shorter or less vivid narrative |
+| actual comparator | declared similarities, retained differences, source compatibility | treating two present objects as identical experiments |
+| bounded alternative history | source-supported available or structurally comparable variation | free counterfactual storytelling or prediction |
+| `Α + Θ` | repeated pattern plus changed current friction/default accessibility | current habit without historical trace |
+| `Ω + Θ` | temporally accumulated differential distribution and current effect | present inequality alone |
+| `Ψ + Θ` | concrete commitments/reliance plus retained breach/reopening load | inferred intention, morality, or permanent obligation |
+| `Λ + Θ` | warranted expectation, bounded window, non-occurrence, residue, current effect | missing records or ordinary absence |
+| modifier/reset | separate later occurrence and tested residual difference | new label, policy, frame, exit, or repair as automatic reset |
+| non-determinism | retained alternatives and bounded cost/access changes | fate, inevitability, prediction, or impossibility claim |
+
+The model may validate that these declarations exist. It cannot establish substantive historical indispensability, causal necessity, or real counterfactual possibility.
+
+Production control: [`Chapter 12 Preparation Record`](Chapter_12_Preparation_Record.md).
+
+## Chapter 12 WP1 Evidence Burdens
+
+A Path-Dependence claim should identify:
+
+- warranted Path/Trajectory input and lineage;
+- present analytical cut;
+- tested dependence dimension;
+- relevant prior Path segment;
+- source-supported historical carrier;
+- current-state baseline and current-condition contribution;
+- present effect with praxeological purchase;
+- Source–Result Dependency under relevant source variation;
+- omission, actual-comparator, or source-bounded comparison pressure;
+- retained differences, uncertainty, canonical Loss, claim ceiling, Stop, and Non-Capture status.
+
+Duration, repetition, institutional age, archive volume, narrative coherence, operator-symbol co-presence, or Record completeness are not sufficient evidence of historical indispensability.
+
+## Chapter 12 WP2 Evidence Burdens
+
+| Profile | Required evidence pressure | Common insufficiency |
+| --- | --- | --- |
+| `Α + Θ` | repeated configurations, retention/translation carrier, present friction/default difference, strongest current-only rival | recurrence count, current habit, broad attractor label, inferred inevitability |
+| `Ω + Θ` | temporal distribution of cost/access/exposure/capacity, retained carrier, present differential, source-bounded redistribution pressure | one unequal outcome, current-only difference, person inference, severity without lineage |
+| `Ψ + Θ` | concrete commitments, reliance or investment, retention/transfer/release trace, present reopening or coordination effect | atmosphere of expectation, current enforceability alone, moral-duty inference |
+| `Λ + Θ` | expectation frame, realization window, warranted non-occurrence, retained residue, present effect, closure/repair test | missing record, mere absence, retrospective expectation, every delay treated as `Λ` |
+| cross-profile | separate source traces, current effects, uncertainty, Loss, and local results | profile count, narrative richness, additive score, compensation for failed gate |
+
+Formal completeness, symbol co-presence, and visualization do not prove substantive support.
+
+## Chapter 12 WP3 Evidence and Comparison Burdens
+
+| Test element | Required support | Common insufficiency |
+| --- | --- | --- |
+| recontextualization | source/target frames, occurrence, carrier before/after, current conditions | new label treated as reset or continuity proof |
+| later modifier | distinct temporal occurrence, mechanism, pre/post effect, retained residue | operator symbol treated as automatic repair |
+| Current-State Baseline | strongest current-only explanation using rules, resources, roles, infrastructure, frame, and alternatives | deliberately weak rival |
+| Historical Omission | specific present reconstruction changed by omission | richer story only |
+| Alternative History | actual comparator or source-supported bounded variation, declared similarities and differences | invented, unavailable, or non-comparable scenario |
+| Non-Capture | materially rival explanations and explicit missing discriminator | preference disguised as uncertainty |
+
+Visual richness, graph connectivity, schema completeness, and symbol density do not satisfy these burdens.
+
+## Chapter 12 Provisional-Lock Evidence Handoff
+
+A warranted dependence claim requires source support for the Path/Trajectory input, present analytical cut, tested dimension, current-state baseline, historical carrier, present effect, Source–Result Dependency, omission or comparison pressure, modifier status, uncertainty, and Claim Ceiling. Duration, repetition, operator symbols, profile richness, complete Records, model validity, or graphs are not evidence substitutes.
+
+Chapter 13 must independently source historical availability and temporal windows for alternatives. Chapter 12 does not hand forward pre-validated branches or counterfactual outcomes.
+
+Canonical return: [`Chapter 12 completion boundary`](../01_blocks/02_part_i_path.md#chapter-12-completion-boundary).
+
+---
+
+## Chapter 13 Preparation Evidence Handoff
+
+| Alternative claim element | Required support | Insufficient substitute |
+| --- | --- | --- |
+| historical availability | contemporaneous records, plans, permissions, resources, actor statements, or reconstructible action corridors | later plausibility |
+| temporal window | dated opportunity, deadline, phase, or condition interval | vague period narrative |
+| rejection | explicit refusal or source-supported non-selection while available | mere non-realization |
+| blockage | identifiable preventing structure | later failure or difficulty |
+| initiation/abortion | action, commitment, resource use, role change, or implementation trace followed by interruption | intention alone |
+| deferral | original window plus delayed status and changed conditions | later occurrence alone |
+| loss | support for earlier reachability and later unavailability | current unattractiveness |
+| counterfactual Path | documented branch point and bounded source variation | free storytelling |
+| non-selection | active decision context, expectation, window, and consequence | missing information |
+
+Evidence status must remain distinct from Output Class, claim disposition, and capture status.
+
+## Chapter 13 WP1 Evidence Burdens
+
+| Finding | Required source pressure |
+| --- | --- |
+| alternative space | contemporaneous practical reachability, not later imagination |
+| Branch Point | plural distinct continuations within a bounded window |
+| Realized Branch | actual entry/traversal trace, not announcement alone |
+| Rejected Branch | refusal or non-selection while availability remained open |
+| unsupported rival | explicit source ceiling; absence is not proof of impossibility |
+
+Later outcomes may guide inquiry but do not automatically establish earlier availability.
+
+## Chapter 13 WP2 Evidence Burdens
+
+| Claim element | Required support | Insufficient substitute |
+| --- | --- | --- |
+| Blocked | prior availability/preparation plus an identifiable prevention relation in the declared window | mere non-realization or later statement that the option was impossible |
+| Aborted | initiation, partial traversal, interruption, and bounded residual effect | plan, announcement, or unexecuted contract alone |
+| Deferred | original availability, deferral trace, old/new window, intervening changes, and later candidacy/reachability | same label at a later date |
+| Lost | earlier availability, later unavailability/material unreachability, and source-supported loss transition | present dislike, higher cost, or current unavailability alone |
+| Continuity after gap | preserved reference, frame, resources, roles, bindings, and transition lineage to the claimed degree | retrospective narrative or brand/name continuity |
+| Rejected versus blocked distinction | contemporaneous decision/refusal trace or prevention relation | conflicting uncorroborated recollection |
+
+Where the sources support a candidate continuation but not its precise status, the claim must remain uncertain, reduce, or receive `non_capture` where the distinction is material.
+
+## Chapter 13 WP3 Evidence Burdens
+
+| WP3 object or claim | Required support | What remains unwarranted |
+| --- | --- | --- |
+| Counterfactual Path | contemporaneous branch availability, declared divergence, known constraints, bounded continuation support, source ceiling | unrealized success, full alternative future, prediction, causal necessity |
+| Non-Selection | active decision architecture, bounded window, available continuations, non-selection trace, material consequence | hidden motive, guilt, automatic `Λ`, rejection or blockage without support |
+| Alternative-Space Compression | source-supported branch field, materiality selection, five-part Loss, uncertainty | exhaustive historical openness, equal status of all visible branches |
+| Alternative Status Record | source pointers per field, cut-specific status, later reachability, uncertainty | status truth from syntax or completeness |
+
+The eight `C13-*` WP3 cases are methodological pressure constructions. They are not external evidence, produced Case files, calibration data, training data, graph specifications, or Reader implementations.
+
+## Chapter 13 Provisional-Lock Evidence Boundary
+
+Alternative claims require evidence at the historical cut: availability window, contemporary frame, actors or roles, resources, permissions, costs, constraints, selection or prevention trace, initiation where claimed, later-reachability or loss transition, and uncertainty. Later plausibility, current technical possibility, same naming, narrative coherence, record completeness, or graph rendering cannot substitute for contemporaneous support.
+
+Counterfactual continuations stop at the source ceiling. Chapter 14 must independently establish expectation-grounded Non-Event status; Chapter 15 must independently establish `COMPOSE` warrant.
+
+Canonical return: [`Chapter 13 completion boundary`](../01_blocks/02_part_i_path.md#chapter-13-completion-boundary).
+
+## Chapter 14 Preparation Evidence Handoff
+
+| Claim element | Required source support | Insufficient substitute |
+| --- | --- | --- |
+| expected occurrence | explicit identification of what was due or conditionally due | “something should have happened” |
+| expectation relation | commitment, rule, schedule, role, recurrent procedure, adopted plan, trigger, or comparable source relation | analyst preference, hindsight, moral intuition |
+| expectation frame | contemporaneous context in which the relation operated | later relabelling or unmarked frame shift |
+| expected window | deadline, interval, recurrence window, trigger condition, or bounded sequence position | open-ended possibility |
+| non-realization | source structure capable of establishing bounded non-occurrence | no record found, incomplete archive, silence in one channel |
+| praxeological load | changed or preserved transitions, costs, roles, alternatives, bindings, residues, or corridors | mere nameability or narrative interest |
+| Delay as `Λ` | missed warranted window plus material temporal load | postponement messages alone |
+| repeated Non-Decision | renewed active decision windows plus repeated supported non-realization | long silence or repeated missing minutes |
+| Blocked Responsibility | role architecture and positive blocking relation | person motive or inferred fault |
+| Missing Repair | independently supported repair expectation and failed window | observed defect or desired remedy alone |
+| Missing Exit | independently supported exit/release expectation and failed condition/window | formal exit availability or non-exit alone |
+| sedimentation | warranted occurrence(s), persistence into later praxis, occurrence-boundary and alternative-construction support | repetition or duration alone |
+
+Complete forms, graphs, or records do not substitute for these source burdens. Missing source must remain visible and may require reduction, Stop, or Non-Capture.
+
+## Chapter 14 WP1 Evidence Burdens
+
+| Finding | Required source pressure |
+| --- | --- |
+| expectation relation | commitment, rule, procedure, schedule, role relation, recurrent practice, plan, or triggered condition |
+| expected window | historically valid bounded date, interval, recurring window, condition, sequence position, or phase threshold |
+| non-realization | source bundle capable of establishing bounded non-occurrence at the claimed granularity |
+| positive sub-events | event-level sources preserving activity inside the governing Non-Event interval |
+| path-forming load | trace from missed occurrence to transition, configuration, alternatives, costs, roles, bindings, residue, or later meaning |
+| Delay | original window, window status, positive postponement events, non-realization support, and accumulated load |
+
+An incomplete archive may support an expectation claim while leaving occurrence status unresolved.
+
+## Chapter 14 WP2 Evidence Burdens
+
+| Finding | Required source pressure |
+| --- | --- |
+| repeated Non-Decision | recurring or renewed active decision contexts, expected disposition, window-level non-realization, continuity/change across contexts |
+| blocked responsibility | role and authority map, dependency or referral relations, positive attempts, bounded failure to terminate |
+| Missing Repair | independent repair commitment or trigger, completion condition, missed window, positive repair sub-events, residual carryover |
+| Missing Exit | triggered or warranted release process, bounded condition, non-realization, practical continuation load |
+| Non-Event Sedimentation | valid source `Λ`, occurrence boundaries, later carrier, changed costs/roles/alternatives/corridors, current-condition rival and uncertainty |
+| profile interaction | separate occurrence support for each `Α`, `Ω`, `Ψ`, or `Λ` interaction; no fused or score-based inference |
+
+Later residue does not retroactively establish an earlier expectation or non-realization.
+
+## Chapter 14 WP3 Evidence Burdens
+
+| Finding | Required source pressure |
+| --- | --- |
+| preservation through composition | expectation/frame/window/non-realization source chain, positive sub-events, occurrence boundaries, affected roles/alternatives, residue, uncertainty, Loss |
+| False Non-Event | explicit identification of the missing or failed constitutive burden |
+| open-window status | current window or realization condition, pending checkpoints, absence of premature failure claim |
+| complete Non-Event extension | owner pointer, source support, uncertainty, claim scope, output mapping, non-replacement of top-level fields |
+| reduction | distinction between supported expectation, unresolved occurrence status, supported later occurrences, and sedimentation carrier |
+| Stop | evidence that unsupported `Λ` is being reused for blame, sanction, authority, prediction, operation, or function |
+| Non-Capture | source-supported materiality plus unresolved alternatives that cannot be responsibly separated |
+
+Missing records, graph gaps, or complete syntax never substitute for non-realization evidence.
+
+## Chapter 14 Provisional-Lock Evidence Boundary
+
+A Non-Event claim requires independent support for the expected occurrence, expectation relation, expectation frame, expected window or condition, relevant granularity, and non-realization. Positive sub-events, source coverage, alternative forums, later realization, changed roles, costs, residue, and uncertainty must be recorded where material.
+
+Missing records, ordinary silence, retrospective desirability, same-label continuity, later residue, graph gaps, and machine-readable completeness cannot substitute for non-realization support. Person motive, blame, duty, coercion, and legitimacy require independent sources and remain outside Chapter 14's authority.
+
+Canonical return: [`Chapter 14 completion boundary`](../01_blocks/02_part_i_path.md#chapter-14-completion-boundary).
+
+## Chapter 15 Preparation Evidence Handoff
+
+A composition claim requires source support at several distinct layers:
+
+1. source-object identity and typing;
+2. source-frame and temporal/structural scope;
+3. ordering relation;
+4. selection and omission rationale;
+5. formation and constitutive relations;
+6. preservation and all five Loss fields;
+7. target-object class and claim scope;
+8. counterfactual-sensitivity result;
+9. rival composition or no-composition pressure;
+10. uncertainty and Claim Ceiling.
+
+Later sources may support retrospective periodization but may not be used silently to invent earlier order, availability, or constitutive relation. Missing material remains uncertainty or source limitation, not convenient exclusion.
+
+## Chapter 15 WP1 Evidence Handoff
+
+A WP1 COMPOSE candidate requires evidence routing for:
+
+- source identity and origin typing;
+- source lineage and inherited uncertainty/Loss;
+- source-domain search and inaccessible material;
+- inclusion and omission reasons;
+- temporal or structural ordering;
+- frame, scope, granularity, and relative level;
+- expected praxis difference;
+- rival selection, rival frame, or no-composition option.
+
+Source abundance does not establish a common relation. Later sources may assist bounded periodization but may not be back-projected to manufacture earlier order, availability, or source identity.
+
+Graph edges and layout are representations of supported relations, not independent evidence.
+
+## Chapter 15 WP2 Evidence Handoff
+
+A formation-and-Loss claim should expose:
+
+- source identifiers, origin types, frames, levels, granularity, lineage, and inherited uncertainty;
+- the Formation Rule and each claimed constitutive relation;
+- target-object class, boundary, and new praxeological discrimination;
+- preserved load and the carrier through which it remains reconstructible;
+- compression rule and external recoverability;
+- excluded material, source-domain status, reason, contestability, and rival-frame relevance;
+- uncertain material and its effect on order, relation, boundary, or claim;
+- irrecoverable material, its source-inherited or composition-induced origin, and target materiality;
+- the complete five-part Loss structure;
+- rival formation or no-composition pressure.
+
+A complete source bundle, record, or graph does not decide formation, Loss adequacy, or target truth.
+
+## Chapter 15 WP3 Evidence Handoff
+
+Evidence duties include target and claim identity, source-to-claim trace, class-specific threshold support, bounded sensitivity variations, material effects of removal or exchange, failure-burden localization, rival and no-composition support, complete Loss, and explicit ceilings.
+
+No source volume, graph density, record completeness, or sensitivity result can establish causal necessity, target function, person judgment, sanction, prediction, or higher authority.
+
+## Chapter 15 Provisional-Lock Evidence Boundary
+
+A `COMPOSE` claim requires source-specific support for typing, selection, ordering, frame, Formation Rule, constitutive relations, target boundary, preservation, compression, exclusion, uncertainty, irrecoverability, sensitivity, alternatives, and Claim Ceiling. The weakest load-bearing source or relation limits the claim.
+
+No archive size, graph density, visual continuity, macro-label, target stability, schema validity, or package success establishes substantive formation, causal necessity, target function, person judgment, sanction, legitimacy, prediction, or authority.
+
+Canonical return: [`Chapter 15 completion boundary`](../01_blocks/02_part_i_path.md#chapter-15-completion-boundary).
+
+## Chapter 16 Preparation Evidence Handoff
+
+A PATH boundary claim should expose evidence for:
+
+- the tested temporal claim and target class;
+- source configurations, transitions, order, frame, and periodization;
+- material effects of added or removed temporal differentiation;
+- turning points, reversals, alternatives, `Λ`, `Ω`, bindings, and residuals where constitutive;
+- Selection Rule, Formation Rule, compression rule, and complete Loss where `COMPOSE` is used;
+- Counterfactual Sensitivity to removal, reorder, substitution, recompression, and reframing;
+- uncertainty, inaccessible sources, and Claim Ceiling.
+
+Dates, citations, visual continuity, archive size, long duration, a complete record, or a stable macro-label do not independently establish Purchase or Trace. Missing source support must remain missing information or uncertainty rather than be converted into a boundary pass or teleological narrative.
+
+## Chapter 16 WP1 Evidence Handoff
+
+A lower-bound finding requires evidence that temporal differentiation changes a claim-relevant reconstruction, not merely that more dates or intervals exist.
+
+An upper-bound finding requires source-to-result dependency for the target boundary and strength claim, including where material:
+
+- configurations and transitions;
+- order and turning points;
+- `Λ`, `Ω`, bindings, alternatives, reversals, repair, and residuals;
+- present-bearing historical load;
+- Selection Rule, Formation Rule, compression, exclusion, uncertainty, and irrecoverability;
+- bounded removal, reorder, and rival-periodization pressure.
+
+Citations, graph edges, animation, macro-nodes, or stable labels are representational aids. They are not independent evidence of purchase, traceability, Trajectory, or boundary passage.
+
+## Chapter 16 WP2 Evidence Handoff
+
+Directionality requires source support for the claimed dimension, ordering relations, turning points, reversals, alternatives, parallel subpaths, periodization, and later load. Teleology testing requires endpoint-independent Selection Rule pressure and preservation of source-supported alternatives.
+
+Omission testing requires:
+
+- for `Λ`: expected occurrence, expectation relation/frame/window, non-realization support, positive sub-events, later carrier, uncertainty;
+- for `Ω`: unequal access, exposure, cost, reversibility, fallback, repair, evidence, coordination, or binding load.
+
+A later `PROJECT_AS` or `DECOMPOSE` requires a new operation record. Reader layout, graph expansion, narrative utility, repeated labels, or data volume are not independent evidence of operation success or historical warrant.
+
+## Chapter 16 WP3 Evidence Handoff
+
+| WP3 duty | Required evidence form | Insufficient substitute |
+| --- | --- | --- |
+| Purchase | baseline plus source-to-difference account for the tested praxis dimension | dates, duration, visual density, narrative interest |
+| Trace | typed source lineage, order, constitutive relation, Loss, and sensitivity | citation count or schema completion |
+| Provisionality | localized uncertainty and retained rival orders with bounded target stability | softened wording around an unreduced failed claim |
+| Reduction | explicit failed claim and surviving source/target route | silent relabeling |
+| Mandatory Stop | documented failure plus prohibited continued use | generic caution language |
+| Non-Capture | bounded tests showing irreducible traces or periodizations | missing data alone |
+
+The Chapter-16 cases remain methodological pressure tests and are not standalone evidence artifacts.
+
+## Chapter 16 Provisional-Lock Evidence Boundary
+
+A PATH boundary claim requires evidence pointers for the temporal input, target claim, praxis baseline, changed dimension, typed sources, lineage, order or Partial Order, constitutive relations, preserved `Λ`/`Ω`/branch/binding/repair/residual load, Selection and Formation Rules where relevant, complete Loss, sensitivity results, and uncertainty.
+
+Evidence density does not replace source-to-result dependency. A clean graph, many citations, formal completeness, or stable label cannot establish purchase, trace, directionality, teleology, omission, target class, or Output Class.
+
+Chapter-16 Pressure Cases remain methodological tests rather than empirical evidence or produced `03_cases/*` records.
+
+## Chapter 17 Preparation Evidence Handoff
+
+Chapter 17 separates four evidentiary layers:
+
+1. source materials and lineage used inside a case;
+2. chapter-level Pressure Cases as methodological seeds;
+3. instantiated Markdown/YAML case artifacts;
+4. local audit and canonical output mapping.
+
+A Pressure Case ID is not evidence that a standalone case exists. A schema-valid case record is not evidence that its substantive interpretation is correct. The Chapter-17 local audit must cite actual artifact paths and source pointers.
+
+## Chapter 17 WP1 Case Evidence Status
+
+The three WP1 case packets are synthetic declarations used to test STRATA discrimination, record completeness, Loss, alternatives, audit, and mapping.
+
+```text
+synthetic case packet
+= internal method support
+≠ external empirical evidence
+≠ domain calibration
+```
+
+Every source item declares provenance, affected claim component, support mode, evidence availability, temporal and reference scope, uncertainty/provenance limit, and warrant route. All broader empirical, causal, functional, normative, person, and authority claims remain outside the case ceiling.
+
+## Chapter 17 WP2-A Case Evidence Status
+
+Both WP2-A cases use synthetic declarations solely to test STRATA discrimination and record architecture. Their schema validity and local audit do not constitute empirical calibration. Historical indispensability and current-state sufficiency remain substantive, reasoned case findings rather than automatic model outputs.
+
+## Chapter 17 WP2-B Case Evidence Status
+
+The WP2-B records use synthetic declarations solely for method discrimination. Schema validity confirms record conformance, not the substantive correctness of a chronology reduction, source-indifference finding, or teleology finding. Those remain reasoned case judgments under the declared packet.
+
+
+## Chapter 17 WP2-C Evidence Routing
+
+- `C17-OMEGA-01` requires direct synthetic support for unequal access, exposure, exit, and repair load; shared milestone labels alone are insufficient.
+- `C17-FALSEL-01` records absence of a review record as a source gap. Without an expectation frame and expected window, the gap does not route as `Λ` evidence.
+- Both records remain internal method tests and supply no external warrant.
+
+
+## Chapter 17 WP3-A Evidence Boundary
+
+The three confusion cases use synthetic declarations to test operation and type discrimination. Their schema validity and source trace establish artifact consistency only. They do not establish an actual Frame-function, Attractor-function, universal resolution neutrality, causal mechanism, empirical truth, person judgment, or application authority.
+
+
+## Chapter 17 WP3-B Evidence and Artifact Coverage
+
+Evidence coverage consists of thirteen Markdown reconstructions, thirteen schema-valid YAML records, complete five-part Loss, alternatives, twelve record-audit stages each, synchronized indices, and the twenty-control chapter audit. Artifact completeness supports lock readiness; it does not establish empirical truth, causal sufficiency, or universal PATH validity.
+
+## Part I — PATH Provisional-Lock Evidence Boundary
+
+Lock evidence consists of canonical prose, Chapter Contracts, thirteen Markdown reconstructions, thirteen schema-valid records, complete record audits, the twenty-control chapter audit, synchronized indices/references/model mirrors, and package integrity. This evidence supports internal methodological closure only; it does not establish empirical truth, causal necessity, universal PATH validity, or application authority.
