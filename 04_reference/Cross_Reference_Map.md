@@ -1,0 +1,1529 @@
+# PMS-STRATA — Cross Reference Map
+
+**Status:** Reference Kernel v0 scaffold v0.3.44; Chapter-10-WP2-synchronized  
+**Repository role:** `04_reference/*` — routing and cross-reference layer; not an independent theory source  
+**Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the three synchronized peer scaffolds `04_reference/Evidence_Map.md`, `04_reference/Audit_Checklist.md`, and `04_reference/Reader_Pathways.md`, repository `README.md`, and `PMS.yaml` for PMS Base  
+**Current formal handoff inputs:** all seven populated `07_model/*` Core artifacts plus eight populated canonical smoke records and `07_model/examples/README.md`; internal smoke-test gate audit-passed and Root/Companion synchronized  
+**Block-anchor status:** Foundations Chapters 0–8 are provisionally locked after integrated local audits; Chapter 8 and the Foundations completion boundary are available at [`Chapter 8`](../01_blocks/01_foundations.md#chapter-8-foundational-non-equivalences); Chapter 9 Sections 9.1–9.9 are canonical and Chapter 9 Preparation remains production control; Sections 9.10–9.12 and Chapters 10–57 remain pending
+
+---
+
+## 1. Role, Status, and Authority
+
+This map routes already controlled definitions, elaborations, applications, audits, formal handoffs, cases, appendices, and later reader paths. It does not define theory, repair missing prose by implication, or make a linked artifact more authoritative than its repository role permits.
+
+```text
+designated canonical site
+≠
+current control source
+```
+
+Before the relevant chapter lock, a chapter may be the designated canonical destination while its current support is distributed among populated canonical sections, Structure, contracts, minified controls, and Reference Kernel artifacts. A pending or partial chapter anchor is never cited as if the entire chapter were already locked.
+
+This map shall:
+- register one designated canonical definition site for each core term;
+- distinguish definition, elaboration, application, audit, indexing, formalization, testing, templating, summarization, and routing;
+- preserve repository authority order;
+- register current Core and smoke-suite paths while keeping pending Block anchors, case IDs, appendix anchors, derivative links, and Reader implementation routes explicitly open;
+- prevent cross-reference convenience from becoming authority inheritance.
+
+Mutual routing among Reference artifacts is navigational only. A Cross Reference handoff to the Evidence Map and an Evidence Map handoff back to established definition sites do not create circular definition or authority inheritance.
+
+```text
+mutual routing
+≠
+circular definition
+≠
+authority inheritance
+```
+
+This map shall not:
+- introduce a fourth operation, a new output class, a new PMS primitive, a machine field, or a case result;
+- replace `Chapter_Contracts.md`, the substantive Reference indices, or future canonical Block prose;
+- assess evidence quality, decide substantive admissibility, or define a reading hierarchy of authority;
+- describe placeholders as completed systems.
+
+---
+
+## 2. Cross-Reference Semantics
+
+| Relation | Navigation meaning | Authority limit |
+| --- | --- | --- |
+| defines | designated canonical primary definition site | one target only; pending until prose exists |
+| elaborates | expanded method, procedure, or boundary treatment | must not compete with the definition site |
+| applies | local use of an established concept | no local redefinition |
+| audits | tests an established rule, record, or transformation | audit cannot create theory |
+| indexes | reference-layer navigation | no independent theory authority |
+| formalizes | machine-readable operationalization | formal consistency is not truth or semantic validity |
+| tests | case, countercase, confusion case, or smoke test | tests do not define theory |
+| templates | record or appendix template handoff | template completeness is not substantive adequacy |
+| summarizes | conclusion, front matter, or derivative presentation | summary cannot broaden the claim |
+| routes | reader or repository navigation | routing is not authority ranking |
+
+### 2.1 Local navigation statuses
+
+| Status | Meaning |
+| --- | --- |
+| current architecture control | populated Structure artifact carrying architecture and chapter blueprint control |
+| current binding control | populated minified artifact or contract carrying binding drafting control |
+| current navigation/status control | populated README or navigation artifact carrying package and status guidance |
+| provisionally controlled pre-Block | populated substantive Reference artifact controlled before Block prose |
+| populated pre-Block scaffold | populated Reference navigation scaffold without independent theory authority |
+| current control | other populated artifact presently carrying a control or registry function |
+| current formal model core | populated Core artifact carrying formal operationalization; package validation does not establish substantive truth |
+| contract-bound / prose pending | canonical target and obligations are specified, but Block prose is empty |
+| placeholder | file exists at 0 bytes and carries no current content authority |
+| current smoke-test evidence | populated schema-valid smoke record or suite-control artifact with passed internal conformance audit; not substantive or external evidence |
+| case handoff pending | case or template target exists only as an empty target |
+| appendix handoff pending | appendix target exists only as an empty target |
+| deferred until Block lock | anchor or relation cannot be finalized before relevant chapter prose is locked; not an artifact state |
+| deferred until Reference Freeze | navigation can be stabilized only after cases, Conclusion, Front Matter, and Appendices; not an artifact state |
+
+```text
+navigation status
+≠
+record status
+≠
+canonical output class
+```
+
+Internal repository artifacts are written with full paths in registries and handoff tables. Short labels may be used in prose only after the full path has been established in the same section.
+
+---
+
+## 3. Authority and Repository Map
+
+### 3.1 External governing reference
+
+| External reference | Authority and function | Packaging status | No-authority rule |
+| --- | --- | --- | --- |
+| `PMS.yaml` | unchanged PMS Base grammar and Δ–Ψ inventory | governing external reference; not packaged as an internal STRATA repository artifact | not rewritten, reordered, decomposed, extended, or made subordinate by STRATA references |
+
+```text
+external governing reference
+≠
+packaged repository artifact
+```
+
+### 3.2 Internal STRATA repository authority
+
+| Internal layer | Authority and function | No-authority rule |
+| --- | --- | --- |
+| `00_source/PMS-STRATA_Structure.md` | architecture and chapter blueprint | not a substitute for locked corpus prose |
+| `01_blocks/*` | canonical corpus prose after lock | currently empty; no present prose authority |
+| `05_minified/*` | binding control artifacts | must remain subordinate to locked canonical prose |
+| `07_model/*` | formal operationalization | never replaces prose or proves truth |
+| `02_appendices/*` | schemas, templates, and supplements | not an independent theory source |
+| `03_cases/*` | cases, countercases, confusion cases, and audits | tests rules; does not define them |
+| `04_reference/*` | terminology, registries, and cross-reference | no independent theory authority |
+| `06_derivative_publications/*` | later public derivatives | no back-propagation |
+| `08_PMS-STRATA Reader/*` | later presentation and navigation | no back-propagation |
+
+Linking an internal artifact to `PMS.yaml` records source authority. It does not make `PMS.yaml` an internal packaged path or grant the linked artifact PMS-Base authority.
+
+---
+
+## 4. Current Artifact Status Registry
+
+| Path | Current status | Repository role | Primary upstream | Downstream handoff | Freeze stage |
+| --- | --- | --- | --- | --- | --- |
+| `00_source/PMS-STRATA_Structure.md` | current architecture control | architecture and chapter blueprint | PMS.yaml and project architecture | contracts, references, Blocks, model | Structure lock; later change only by explicit architecture revision |
+| `01_blocks/00_front_matter.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `01_blocks/01_foundations.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `01_blocks/02_part_i_path.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `01_blocks/03_part_ii_sub.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `01_blocks/04_part_iii_retype.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `01_blocks/05_part_iv_limits.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `01_blocks/06_conclusion.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `02_appendices/Appendix_A_Core_Definitions.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_B_Formal_Notation.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_C_Shared_Transformation_Record_Schema.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_D_COMPOSE_Record_Template.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_E_DECOMPOSE_Record_Template.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_F_PROJECT_AS_Record_Template.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_G_Admissibility_Band_Tests.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_H_Valid_and_Invalid_Transformation_Patterns.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_I_Boundary_and_Confusion_Cases.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_J_Operator_Weighting_and_Trajectory_Stress_Tests.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_K_Cross_Domain_Projection_and_Analogy_Stress_Tests.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_L_Non_Operator_Remainders_and_Decomposition_Limits.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_M_Case_and_Countercase_Index.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `02_appendices/Appendix_N_Integrated_STRATA_Audit_Template.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
+| `03_cases/Case_Index.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/Case_Index.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/markdown/README.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/templates/case_template.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/templates/compose_case_template.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/templates/confusion_case_template.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/templates/countercase_template.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/templates/decompose_case_template.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/templates/integrated_audit_case_template.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/templates/non_capture_case_template.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/templates/project_as_case_template.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/yaml/README.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `04_reference/Admissibility_Band_Reference.md` | provisionally controlled pre-Block | terminology and navigation; no independent theory authority | Structure, contracts, minified controls, and PMS.yaml where applicable | Blocks, Formal Model, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `04_reference/Audit_Checklist.md` | populated pre-Block scaffold | executable audit navigation; no independent theory authority | Structure, contracts, minified controls, substantive Reference Kernel, Cross Reference Map, Evidence Map, and PMS.yaml where applicable | Blocks, Formal Model, cases, corpus audit, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `04_reference/Claim_Type_Table.md` | provisionally controlled pre-Block | terminology and navigation; no independent theory authority | Structure, contracts, minified controls, and PMS.yaml where applicable | Blocks, Formal Model, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `04_reference/Cross_Reference_Map.md` | populated pre-Block scaffold | terminology and navigation; no independent theory authority | Structure, contracts, minified controls, seven substantive Reference files, Evidence Map, Audit Checklist, Reader Pathways, and PMS.yaml where applicable | Blocks, Formal Model, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `04_reference/Evidence_Map.md` | populated pre-Block scaffold | source, support, gap, rival, and external-warrant routing; no independent theory authority | Structure, contracts, minified controls, substantive Reference files, and PMS.yaml where applicable | Blocks, Formal Model, cases, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `04_reference/Glossary.md` | provisionally controlled pre-Block | terminology and navigation; no independent theory authority | Structure, contracts, minified controls, and PMS.yaml where applicable | Blocks, Formal Model, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `04_reference/Non_Equivalence_Index.md` | provisionally controlled pre-Block | terminology and navigation; no independent theory authority | Structure, contracts, minified controls, and PMS.yaml where applicable | Blocks, Formal Model, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `04_reference/Operator_Index.md` | provisionally controlled pre-Block | terminology and navigation; no independent theory authority | Structure, contracts, minified controls, and PMS.yaml where applicable | Blocks, Formal Model, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `04_reference/Output_Class_Index.md` | provisionally controlled pre-Block | terminology and navigation; no independent theory authority | Structure, contracts, minified controls, and PMS.yaml where applicable | Blocks, Formal Model, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `04_reference/Reader_Pathways.md` | populated pre-Block scaffold | terminology and reader-route navigation; no independent theory authority | Structure, contracts, minified controls, seven substantive Reference files, Cross Reference Map, Evidence Map, Audit Checklist, and PMS.yaml where applicable | Front Matter, Blocks, Formal Model, cases, appendices, derivatives, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `04_reference/Transformation_Operation_Index.md` | provisionally controlled pre-Block | terminology and navigation; no independent theory authority | Structure, contracts, minified controls, and PMS.yaml where applicable | Blocks, Formal Model, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
+| `05_minified/Block_Contracts.md` | current binding control | binding control artifacts | Structure and canonical controls | all production stages | synchronized throughout; final control audit before release |
+| `05_minified/Chapter_Contracts.md` | current binding control | binding control artifacts | Structure and canonical controls | all production stages | synchronized throughout; final control audit before release |
+| `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | current binding control | binding control artifacts | Structure and canonical controls | all production stages | synchronized throughout; final control audit before release |
+| `05_minified/PMS_STRATA_Claim_Boundary_Minified.md` | current binding control | binding control artifacts | Structure and canonical controls | all production stages | synchronized throughout; final control audit before release |
+| `05_minified/PMS_STRATA_Minified_Canonical.md` | current binding control | binding control artifacts | Structure and canonical controls | all production stages | synchronized throughout; final control audit before release |
+| `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | current binding control | binding control artifacts | Structure and canonical controls | all production stages | synchronized throughout; final control audit before release |
+| `06_derivative_publications/PMS_STRATA_Compact_Overview.md` | placeholder | future derivative publication; no back-propagation | locked corpus and finalized model | Reader and public release only | after corpus audit and model finalization |
+| `06_derivative_publications/PMS_STRATA_Derived_Publishable_Paper.md` | placeholder | future derivative publication; no back-propagation | locked corpus and finalized model | Reader and public release only | after corpus audit and model finalization |
+| `06_derivative_publications/PMS_STRATA_Technical_Whitepaper.md` | placeholder | future derivative publication; no back-propagation | locked corpus and finalized model | Reader and public release only | after corpus audit and model finalization |
+| `07_model/Admissibility_Rules.yaml` | current formal model core | populated rule registry and twelve-stage audit contract; no prose replacement | controlled prose, contracts, Reference Kernel, and prior Core artifacts | decision tree, record schema, root, smoke tests, cases, Reader | Formal Model v0 internal smoke gate passed; final after corpus audit |
+| `07_model/Boundary_Decision_Tree.yaml` | current formal model core | populated non-ranking candidate, collision, diagnostic, and final-routing contract; no prose replacement | controlled prose, contracts, Reference Kernel, and prior Core artifacts | record schema, root, smoke tests, cases, Reader | Formal Model v0 internal smoke gate passed; final after corpus audit |
+| `07_model/Operation_Registry.yaml` | current formal model core | populated closed registry of exactly COMPOSE, DECOMPOSE, and PROJECT_AS; no prose replacement | controlled prose, contracts, and Reference Kernel | remaining Core artifacts, smoke tests, cases, Reader | Formal Model v0 internal smoke gate passed; final after corpus audit |
+| `07_model/Output_Classes.yaml` | current formal model core | populated closed registry of exactly ten canonical output classes; no prose replacement | controlled prose, contracts, Reference Kernel, and Operation Registry | remaining Core artifacts, smoke tests, cases, Reader | Formal Model v0 internal smoke gate passed; final after corpus audit |
+| `07_model/PMS-STRATA.schema.json` | current formal model core | populated JSON Schema companion validating the integrated root form; no semantic ownership | populated root contract and Core assembly requirements | root validation, package audit, later model finalization | Formal Model v0 internal smoke gate passed; final after corpus audit |
+| `07_model/PMS-STRATA.yaml` | current formal model core | populated integration manifest, ownership map, dependency graph, integrity declaration, and package-level handoff | five semantic Core components, controlled prose, contracts, and Reference inputs | companion validation, smoke tests, package audit, Reader | Formal Model v0 internal smoke gate passed; final after corpus audit |
+| `07_model/Transformation_Record.schema.json` | current formal model core | populated record schema for operation occurrences and integrated chains; no substantive claim decision | four prior semantic Core components and controlled prose/reference inputs | smoke records, cases, appendices, Reader | Formal Model v0 internal smoke gate passed; final after corpus audit |
+| `07_model/examples/01_COMPOSE_Admissible.yaml` | current smoke-test evidence | populated schema-valid positive COMPOSE smoke record; expected route `admissible` confirmed; no prose replacement or truth proof | populated Core artifacts and controlled prose/reference inputs | cases, Foundations drafting, Reader | internal smoke gate passed; final model only after corpus audit |
+| `07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml` | current smoke-test evidence | populated schema-valid lower-bound DECOMPOSE stop smoke record; expected route `mandatory_stop` confirmed; no prose replacement or truth proof | populated Core artifacts and controlled prose/reference inputs | cases, Foundations drafting, Reader | internal smoke gate passed; final model only after corpus audit |
+| `07_model/examples/03_PROJECT_AS_Admissible.yaml` | current smoke-test evidence | populated schema-valid positive PROJECT_AS smoke record; expected route `admissible` confirmed; no prose replacement or truth proof | populated Core artifacts and controlled prose/reference inputs | cases, Foundations drafting, Reader | internal smoke gate passed; final model only after corpus audit |
+| `07_model/examples/04_PROJECT_AS_Label_Substitution.yaml` | current smoke-test evidence | populated schema-valid PROJECT_AS label-substitution failure smoke record; expected route `failed_transformation` confirmed; no prose replacement or truth proof | populated Core artifacts and controlled prose/reference inputs | cases, Foundations drafting, Reader | internal smoke gate passed; final model only after corpus audit |
+| `07_model/examples/05_Traceability_Ceiling_Failure.yaml` | current smoke-test evidence | populated schema-valid upper-bound COMPOSE traceability failure smoke record; expected route `failed_transformation` confirmed; no prose replacement or truth proof | populated Core artifacts and controlled prose/reference inputs | cases, Foundations drafting, Reader | internal smoke gate passed; final model only after corpus audit |
+| `07_model/examples/06_Claim_Reduction.yaml` | current smoke-test evidence | populated schema-valid DECOMPOSE claim-reduction smoke record; expected route `claim_reduction_required` confirmed; no prose replacement or truth proof | populated Core artifacts and controlled prose/reference inputs | cases, Foundations drafting, Reader | internal smoke gate passed; final model only after corpus audit |
+| `07_model/examples/07_Mandatory_Stop.yaml` | current smoke-test evidence | populated schema-valid DECOMPOSE continuity/traceability stop smoke record; expected route `mandatory_stop` confirmed; no prose replacement or truth proof | populated Core artifacts and controlled prose/reference inputs | cases, Foundations drafting, Reader | internal smoke gate passed; final model only after corpus audit |
+| `07_model/examples/08_Non_Capture.yaml` | current smoke-test evidence | populated schema-valid integrated COMPOSE → PROJECT_AS non-capture smoke record; expected route `non_capture` confirmed; no prose replacement or truth proof | populated Core artifacts and controlled prose/reference inputs | cases, Foundations drafting, Reader | internal smoke gate passed; final model only after corpus audit |
+| `07_model/examples/README.md` | current smoke-test evidence | populated suite index, coverage boundary, execution contract, and interpretation limits; no substantive validation | eight records, populated Core artifacts, and controlled prose/reference inputs | Foundations drafting, later cases, Reader | internal smoke gate passed; update on suite change |
+| `08_PMS-STRATA Reader/README.md` | placeholder | future presentation and navigation layer | release corpus, references, cases, and derivatives | release navigation only | release stage |
+| `08_PMS-STRATA Reader/pms_strata_reader.py` | placeholder | future presentation and navigation layer | release corpus, references, cases, and derivatives | release navigation only | release stage |
+| `README.md` | current navigation/status control | repository navigation and status | repository architecture | all repository users | release stage |
+
+### 4.1 Current kernel summary
+
+| Artifact group | Count | Current state |
+| --- | --- | --- |
+| substantive Reference Kernel files | 7 | populated and provisionally controlled pre-Block |
+| Reference scaffolds including this map | 4 | all four Reference scaffolds populated; Reference Kernel v0 population complete and provisionally controlled |
+| numeric chapters | 58 | Chapters 0–5 provisionally locked; Chapters 6–57 canonical prose pending |
+| Front Matter units | 4 | contract-bound; Block prose pending |
+| Formal Model core files | 7 | populated, integrated, schema-validated, and package-audited; full Model v0 gate still open |
+| Formal Model smoke-test records | 8 | populated, schema-valid, suite- and cross-record-audited |
+| Appendices | 14 | placeholders |
+
+---
+
+## 5. Corpus Block Map
+
+| Block file | Chapter or unit range | Canonical role after lock | Current status |
+| --- | --- | --- | --- |
+| `01_blocks/00_front_matter.md` | four FM units | orientation, status, notation, and reading navigation only | contract-bound / prose pending |
+| `01_blocks/01_foundations.md` | Chapters 0–8 | shared object model, operations, band, record, and non-equivalences | Chapters 0–4 provisionally locked; Chapters 5–8 prose pending |
+| `01_blocks/02_part_i_path.md` | Chapters 9–17 | PATH and COMPOSE | contract-bound / prose pending |
+| `01_blocks/03_part_ii_sub.md` | Chapters 18–28 | SUB and DECOMPOSE | contract-bound / prose pending |
+| `01_blocks/04_part_iii_retype.md` | Chapters 29–40 | RETYPE and PROJECT_AS | contract-bound / prose pending |
+| `01_blocks/05_part_iv_limits.md` | Chapters 41–53 | LIMITS and integrated audit | contract-bound / prose pending |
+| `01_blocks/06_conclusion.md` | Chapters 54–57 | integration, PMS relation, negative provision, final claim | contract-bound / prose pending |
+
+---
+
+## 6. Chapter Registry 0–57
+
+| Ch. | Title | Part | Target Block | Primary concept family | Current contract source | Reference handoff | Model/case handoff | Anchor status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0 | Position and Claim Boundary | Foundations | `01_blocks/01_foundations.md` | claim and authority boundary | `05_minified/Chapter_Contracts.md` | `04_reference/Glossary.md`; `04_reference/Claim_Type_Table.md`; `05_minified/PMS_STRATA_Claim_Boundary_Minified.md` | no semantic Formal Model revision required | [`chapter-0-position-and-claim-boundary`](../01_blocks/01_foundations.md#chapter-0-position-and-claim-boundary) — provisional chapter lock |
+| 1 | Object Model: Operator Type, Operator Occurrence, and Composite Structure | Foundations | `01_blocks/01_foundations.md` | object model | `05_minified/Chapter_Contracts.md` | `04_reference/Chapter_1_Preparation_Record.md`; `04_reference/Glossary.md`; `04_reference/Operator_Index.md`; `04_reference/Non_Equivalence_Index.md`; `04_reference/Claim_Type_Table.md` | `07_model/Operation_Registry.yaml` open object-model handoff synchronized; Record Schema unchanged | [`chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) — provisionally locked |
+| 2 | Frame, Granularity, and Relative Level | Foundations | `01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level` | analytical coordinates and scopes | `05_minified/Chapter_Contracts.md` | `04_reference/Chapter_2_Preparation_Record.md`; `04_reference/Glossary.md`; `04_reference/Non_Equivalence_Index.md`; `04_reference/Claim_Type_Table.md` | existing nested record-coordinate paths verified; open Operation Registry handoff synchronized | provisionally locked after integrated WP4 audit |
+| 3 | Configuration, Event, Non-Event, Transition, Path, and Trajectory | Foundations | [`01_blocks/01_foundations.md`](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | full temporal object and historical-property architecture | `05_minified/Chapter_Contracts.md` | `04_reference/Chapter_3_Preparation_Record.md`; `04_reference/Glossary.md`; `04_reference/Operator_Index.md`; `04_reference/Claim_Type_Table.md` | open Chapter 3 handoff synchronized in `07_model/Operation_Registry.yaml`; Record Schema unchanged | provisionally locked after integrated WP4 audit |
+| 4 | The Three STRATA Operations: COMPOSE, DECOMPOSE, and PROJECT_AS | Foundations | `01_blocks/01_foundations.md`; `04_reference/Chapter_4_Preparation_Record.md` | operation grammar | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Non_Equivalence_Index.md`; `04_reference/Claim_Type_Table.md` | three-operation registry synchronized; no fourth operation | provisionally locked |
+| 5 | Origin Type, Target Function, and Transformation Context | Foundations | `01_blocks/01_foundations.md`; `04_reference/Chapter_5_Preparation_Record.md` | type, function, context, and continuity | `05_minified/Chapter_Contracts.md` | `04_reference/Glossary.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` | continuity duties synchronized; no origin-type replacement | provisionally locked |
+| 6 | The STRATA Admissibility Band | Foundations | `01_blocks/01_foundations.md` | Admissibility Band and output architecture | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | provisionally locked |
+| 7 | Shared Transformation Record | Foundations | `01_blocks/01_foundations.md`; `04_reference/Chapter_7_Preparation_Record.md` | shared transformation record | `05_minified/Chapter_Contracts.md`; Chapter 7 Preparation Record | `04_reference/Claim_Type_Table.md`; `04_reference/Output_Class_Index.md`; `04_reference/Evidence_Map.md` | `07_model/Transformation_Record.schema.json`; `07_model/PMS-STRATA.schema.json` | provisionally locked |
+| 8 | Foundational Non-Equivalences | Foundations | `01_blocks/01_foundations.md` | foundational non-equivalences | `05_minified/Chapter_Contracts.md` | `04_reference/Non_Equivalence_Index.md` | bounded handoff in `07_model/Boundary_Decision_Tree.yaml` | provisionally locked; Foundations complete |
+| 9 | Temporal Order and Transition | PATH | `01_blocks/02_part_i_path.md` | temporal order and transition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
+| 10 | Path | PATH | `01_blocks/02_part_i_path.md` | path | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
+| 11 | Trajectory | PATH | `01_blocks/02_part_i_path.md` | trajectory | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
+| 12 | Path Dependence and Sedimentation | PATH | `01_blocks/02_part_i_path.md` | path dependence and sedimentation | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
+| 13 | Branches, Aborts, Delays, and Unavailable Alternatives | PATH | `01_blocks/02_part_i_path.md` | alternatives and branch structure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
+| 14 | Non-Events within Paths and Trajectories | PATH | `01_blocks/02_part_i_path.md` | non-events in temporal composites | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
+| 15 | COMPOSE: Selection, Formation, and Compression | PATH | `01_blocks/02_part_i_path.md` | COMPOSE procedure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | `07_model/Operation_Registry.yaml` | anchor pending |
+| 16 | PATH Boundary Conditions | PATH | `01_blocks/02_part_i_path.md` | PATH limits | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
+| 17 | PATH Cases, Countercases, and Local Audit | PATH | `01_blocks/02_part_i_path.md` | PATH cases and local audit | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | smoke tests and later case records | anchor pending |
+| 18 | The Provisionally Compressed Object | SUB | `01_blocks/03_part_ii_sub.md` | provisional compression | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
+| 19 | Granularity Change and the Logic of Decomposition | SUB | `01_blocks/03_part_ii_sub.md` | granularity and decomposition logic | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
+| 20 | DECOMPOSE: Conditions, Procedure, and Preservation Requirements | SUB | `01_blocks/03_part_ii_sub.md` | DECOMPOSE procedure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | `07_model/Operation_Registry.yaml` | anchor pending |
+| 21 | Decomposing Operator-Typed Occurrences | SUB | `01_blocks/03_part_ii_sub.md` | operator-occurrence decomposition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
+| 22 | Decomposing Composite Structures | SUB | `01_blocks/03_part_ii_sub.md` | composite decomposition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
+| 23 | Decomposing Events, Non-Events, and Internal Temporal Structures | SUB | `01_blocks/03_part_ii_sub.md` | event and internal-temporal decomposition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
+| 24 | Decomposing Paths and Trajectories | SUB | `01_blocks/03_part_ii_sub.md` | path and trajectory decomposition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
+| 25 | Resolution Gain, Neutrality, Drift, and Escape | SUB | `01_blocks/03_part_ii_sub.md` | resolution results | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
+| 26 | The Boundary between SUB and RETYPE | SUB | `01_blocks/03_part_ii_sub.md` | SUB–RETYPE boundary | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
+| 27 | SUB Boundary Conditions | SUB | `01_blocks/03_part_ii_sub.md` | SUB limits | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
+| 28 | SUB Cases, Countercases, and Local Audit | SUB | `01_blocks/03_part_ii_sub.md` | SUB cases and local audit | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | smoke tests and later case records | anchor pending |
+| 29 | Functional Projection without Origin-Type Replacement | RETYPE | `01_blocks/04_part_iii_retype.md` | functional projection and type preservation | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 30 | PROJECT_AS: Signature, Context, and Validity Scope | RETYPE | `01_blocks/04_part_iii_retype.md` | PROJECT_AS procedure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | `07_model/Operation_Registry.yaml` | anchor pending |
+| 31 | Trajectory as Frame-Function | RETYPE | `01_blocks/04_part_iii_retype.md` | frame-function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 32 | Trajectory as Macro-Event | RETYPE | `01_blocks/04_part_iii_retype.md` | macro-event function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 33 | Recurrent Trajectory Form as Attractor-Function | RETYPE | `01_blocks/04_part_iii_retype.md` | attractor-function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 34 | Composite Structures as Higher-Level Functions | RETYPE | `01_blocks/04_part_iii_retype.md` | higher-level function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 35 | Operator Weighting, Modulation, and Emergent Functional Profiles | RETYPE | `01_blocks/04_part_iii_retype.md` | operator weighting and profiles | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 36 | Competing Projections | RETYPE | `01_blocks/04_part_iii_retype.md` | competing projections | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 37 | Projection, Structural Analogy, and Label Substitution | RETYPE | `01_blocks/04_part_iii_retype.md` | projection, analogy, and substitution | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 38 | Invalid Type Jumps and Unmarked Level Mixing | RETYPE | `01_blocks/04_part_iii_retype.md` | invalid type jumps and level mixing | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 39 | RETYPE Boundary Conditions | RETYPE | `01_blocks/04_part_iii_retype.md` | RETYPE limits | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 40 | RETYPE Cases, Countercases, and Local Audit | RETYPE | `01_blocks/04_part_iii_retype.md` | RETYPE cases and local audit | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | smoke tests and later case records | anchor pending |
+| 41 | Why STRATA Must Bound Itself | LIMITS | `01_blocks/05_part_iv_limits.md` | constitutive LIMITS rationale | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | formal handoff only where declared by chapter contract | anchor pending |
+| 42 | No Ontology of Strata | LIMITS | `01_blocks/05_part_iv_limits.md` | anti-ontology | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | formal handoff only where declared by chapter contract | anchor pending |
+| 43 | No Privilege of Finer Resolution or Higher Composition | LIMITS | `01_blocks/05_part_iv_limits.md` | no resolution or composition privilege | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | formal handoff only where declared by chapter contract | anchor pending |
+| 44 | Praxeological Relevance Floor | LIMITS | `01_blocks/05_part_iv_limits.md` | Praxeological Relevance Floor | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | anchor pending |
+| 45 | Praxeological Traceability Ceiling | LIMITS | `01_blocks/05_part_iv_limits.md` | Praxeological Traceability Ceiling | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | anchor pending |
+| 46 | Counterfactual Sensitivity | LIMITS | `01_blocks/05_part_iv_limits.md` | Counterfactual Sensitivity | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | anchor pending |
+| 47 | Reference, Type, and Function Continuity | LIMITS | `01_blocks/05_part_iv_limits.md` | continuity audit | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | anchor pending |
+| 48 | Compression Loss and Reconstruction Selection | LIMITS | `01_blocks/05_part_iv_limits.md` | loss audit | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | anchor pending |
+| 49 | Source Limits and Calibration Limits | LIMITS | `01_blocks/05_part_iv_limits.md` | Source Ceiling and calibration | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | anchor pending |
+| 50 | Anti-Immunization | LIMITS | `01_blocks/05_part_iv_limits.md` | anti-immunization | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | anchor pending |
+| 51 | Stop Conditions | LIMITS | `01_blocks/05_part_iv_limits.md` | Stop method | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | anchor pending |
+| 52 | Non-Capture | LIMITS | `01_blocks/05_part_iv_limits.md` | Non-Capture method | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | anchor pending |
+| 53 | Integrated STRATA Admissibility Audit | LIMITS | `01_blocks/05_part_iv_limits.md` | Integrated STRATA Admissibility Audit | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md`; `04_reference/Audit_Checklist.md` | `07_model/Admissibility_Rules.yaml`; `07_model/Boundary_Decision_Tree.yaml`; `07_model/Output_Classes.yaml` | anchor pending |
+| 54 | The Integrated STRATA Model | Conclusion | `01_blocks/06_conclusion.md` | integrated results | `05_minified/Chapter_Contracts.md` | `04_reference/Cross_Reference_Map.md`; `04_reference/Reader_Pathways.md`; final Reference freeze | formal handoff only where declared by chapter contract | anchor pending |
+| 55 | What PMS-STRATA Provides | Conclusion | `01_blocks/06_conclusion.md` | relation to PMS Base | `05_minified/Chapter_Contracts.md` | `04_reference/Cross_Reference_Map.md`; `04_reference/Reader_Pathways.md`; final Reference freeze | formal handoff only where declared by chapter contract | anchor pending |
+| 56 | What PMS-STRATA Does Not Provide | Conclusion | `01_blocks/06_conclusion.md` | negative provision registry | `05_minified/Chapter_Contracts.md` | `04_reference/Cross_Reference_Map.md`; `04_reference/Reader_Pathways.md`; final Reference freeze | formal handoff only where declared by chapter contract | anchor pending |
+| 57 | Final Claim Boundary | Conclusion | `01_blocks/06_conclusion.md` | final claim and closure | `05_minified/Chapter_Contracts.md` | `04_reference/Cross_Reference_Map.md`; `04_reference/Reader_Pathways.md`; final Reference freeze | formal handoff only where declared by chapter contract | anchor pending |
+
+### 6.1 Chapter relation rules
+
+- The registry records primary concept ownership but does not copy hard and conditional dependency lists from `Chapter_Contracts.md`.
+- Chapters 17, 28, and 40 are local audits; Chapter 53 is the integrated audit. Local results remain preserved.
+- Chapters 44–52 elaborate limits already active in PATH, SUB, RETYPE, and operation chains.
+- Chapters 54–57 synthesize and close; they do not introduce a new operation, output class, empirical result, or authority.
+
+---
+
+## 7. Front-Matter Registry
+
+| Unit | Title | Function | Target Block | Reference handoff | Anchor status |
+| --- | --- | --- | --- | --- | --- |
+| FM-PREFACE | Preface | motivation without theory definition | `01_blocks/00_front_matter.md` | development history and orientation only | anchor pending |
+| FM-STATUS-SCOPE | Status and Scope Note | status, scope, and entry boundaries without replacing Chapters 0 or 56 | `01_blocks/00_front_matter.md` | Chapters 0 and 56; README status | anchor pending |
+| FM-TERMINOLOGY-NOTATION | Terminology and Notation Note | notation guidance without new semantics | `01_blocks/00_front_matter.md` | `04_reference/Glossary.md`; `04_reference/Operator_Index.md`; `04_reference/Non_Equivalence_Index.md` | anchor pending |
+| FM-HOW-TO-READ | How to Read PMS-STRATA | reading navigation without authority ranking | `01_blocks/00_front_matter.md` | `04_reference/Reader_Pathways.md`; repository `README.md` | anchor pending |
+
+```text
+orientation site
+≠
+canonical theory definition site
+```
+
+---
+
+## 8. Core Concept Definition Map
+
+`04_reference/Glossary.md` is the term registry for all rows below. The table therefore records the principal specialist handoff rather than repeating the Glossary path 112 times. It registers spelling, destination, current control, and navigation status only; definitions and non-equivalences remain in the substantive Reference artifacts.
+
+| Term | Glossary family | Designated canonical site | Current control sources | Principal specialist handoff | Anchor status |
+| --- | --- | --- | --- | --- | --- |
+| `PMS Base` | A. Project, Claim, and Authority | PMS.yaml | `PMS.yaml` | `04_reference/Operator_Index.md` | current external governing source; no internal Block definition anchor |
+| `PMS-STRATA` | A. Project, Claim, and Authority | Chapter 0 — Position and Claim Boundary | `05_minified/PMS_STRATA_Claim_Boundary_Minified.md`; `05_minified/PMS_STRATA_Minified_Canonical.md`; `01_blocks/01_foundations.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` | [`chapter-0-position-and-claim-boundary`](../01_blocks/01_foundations.md#chapter-0-position-and-claim-boundary) — provisional |
+| `bounded transformation discipline` | A. Project, Claim, and Authority | Chapter 0 — Position and Claim Boundary | `05_minified/PMS_STRATA_Claim_Boundary_Minified.md`; `01_blocks/01_foundations.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` | [`chapter-0-position-and-claim-boundary`](../01_blocks/01_foundations.md#chapter-0-position-and-claim-boundary) — provisional |
+| `governing claim` | A. Project, Claim, and Authority | Chapter 0 | `05_minified/PMS_STRATA_Claim_Boundary_Minified.md`; `01_blocks/01_foundations.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` | [`chapter-0-position-and-claim-boundary`](../01_blocks/01_foundations.md#chapter-0-position-and-claim-boundary) — provisional |
+| `claim boundary` | A. Project, Claim, and Authority | Chapter 0 | `05_minified/PMS_STRATA_Claim_Boundary_Minified.md`; `01_blocks/01_foundations.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` | [`chapter-0-position-and-claim-boundary`](../01_blocks/01_foundations.md#chapter-0-position-and-claim-boundary) — provisional |
+| `claim type` | A. Project, Claim, and Authority | Chapter 7 — Shared Transformation Record | `04_reference/Claim_Type_Table.md`; `05_minified/PMS_STRATA_Minified_Canonical.md`; `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Claim_Type_Table.md` | anchor pending |
+| `claim ceiling` | A. Project, Claim, and Authority | Chapter 5 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` | `04_reference/Claim_Type_Table.md` | anchor pending |
+| `No Meta-PMS` | A. Project, Claim, and Authority | Chapter 0 — Position and Claim Boundary | `05_minified/PMS_STRATA_Claim_Boundary_Minified.md`; `01_blocks/01_foundations.md` | `04_reference/Non_Equivalence_Index.md` | [`chapter-0-position-and-claim-boundary`](../01_blocks/01_foundations.md#chapter-0-position-and-claim-boundary) — provisional |
+| `No Ontology of Strata` | A. Project, Claim, and Authority | Chapter 0 | `05_minified/PMS_STRATA_Claim_Boundary_Minified.md`; `01_blocks/01_foundations.md` | `04_reference/Non_Equivalence_Index.md` | [`chapter-0-position-and-claim-boundary`](../01_blocks/01_foundations.md#chapter-0-position-and-claim-boundary) — provisional |
+| `No Universal STRATA Scale` | A. Project, Claim, and Authority | Chapter 6 — The STRATA Admissibility Band | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Non_Equivalence_Index.md` | anchor pending |
+| `authority inheritance` | A. Project, Claim, and Authority | Chapter 0 | `05_minified/PMS_STRATA_Claim_Boundary_Minified.md`; `01_blocks/01_foundations.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` | [`chapter-0-position-and-claim-boundary`](../01_blocks/01_foundations.md#chapter-0-position-and-claim-boundary) — provisional |
+| `authority ceiling` | A. Project, Claim, and Authority | Chapter 0 — Governing Claim and Claim Boundary | `05_minified/PMS_STRATA_Claim_Boundary_Minified.md`; `04_reference/Admissibility_Band_Reference.md`; `01_blocks/01_foundations.md` | `04_reference/Admissibility_Band_Reference.md` | [`chapter-0-position-and-claim-boundary`](../01_blocks/01_foundations.md#chapter-0-position-and-claim-boundary) — provisional |
+| `more structure ≠ more authority` | A. Project, Claim, and Authority | Chapter 0 | `README.md`; `05_minified/PMS_STRATA_Minified_Canonical.md`; `01_blocks/01_foundations.md` | `04_reference/Non_Equivalence_Index.md` | [`chapter-0-position-and-claim-boundary`](../01_blocks/01_foundations.md#chapter-0-position-and-claim-boundary) — provisional |
+| `operator sign` | B. Object Model | Chapter 1 distinction; actual inventory in `PMS.yaml` | `PMS.yaml`; `04_reference/Operator_Index.md` | `04_reference/Chapter_1_Preparation_Record.md` | [`chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) — WP1 canonical |
+| `operator name` | B. Object Model | Chapter 1 distinction; actual inventory in `PMS.yaml` | `PMS.yaml`; `04_reference/Operator_Index.md` | `04_reference/Chapter_1_Preparation_Record.md` | [`chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) — WP1 canonical |
+| `operator type` | B. Object Model | Chapter 1 — Object Model | `PMS.yaml`; `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Operator_Index.md`; `04_reference/Chapter_1_Preparation_Record.md` | [`chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) — WP1 canonical |
+| `operator occurrence` | B. Object Model | Chapter 1 — Object Model | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Operator_Index.md` | [`chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) — WP1 canonical |
+| `composite structure` | B. Object Model | Chapter 1 — Object Model | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md` | [`chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) — WP1 canonical |
+| `configuration` | B. Object Model | Chapter 1 as object category | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md` | [`chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) — WP2 canonical |
+| `state` | B. Object Model | Chapter 3 — Temporal Object Chain | `00_source/PMS-STRATA_Structure.md` | `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `event-like object` | B. Object Model | Chapter 1 — Object Model | `00_source/PMS-STRATA_Structure.md` | `04_reference/Transformation_Operation_Index.md` | [`chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) — WP2 canonical |
+| `event` | B. Object Model | Chapter 3 — Temporal Object Chain | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `non-event structure` | B. Object Model | Chapter 1 object category | `05_minified/Chapter_Contracts.md`; `PMS.yaml` | `04_reference/Operator_Index.md`; `04_reference/Chapter_1_Preparation_Record.md` | [`chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) — WP2 canonical |
+| `non-event` | B. Object Model | Chapter 3 temporal category | `PMS.yaml`; `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `transition as object` | B. Object Model | Chapter 1 object category | `05_minified/Chapter_Contracts.md` | `04_reference/Chapter_1_Preparation_Record.md` | [`chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) — WP2 canonical |
+| `transition` | B. Object Model | Chapter 3 temporal category | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `derived analytical object` | B. Object Model | Chapter 1 — Object Model | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md` | [Chapter 1 WP3](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) |
+| `object identity` | B. Object Model | Chapter 1 minimal identification dimensions | `05_minified/Chapter_Contracts.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Chapter_1_Preparation_Record.md` | [Chapter 1 WP3](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) |
+| `reference object` | B. Object Model | Chapter 1 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Chapter_1_Preparation_Record.md` | [Chapter 1 WP3](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) |
+| `reference identity` | B. Object Model | Chapter 5 — Origin Type, Target Function, and Transformation Context | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md` | canonical anchor available |
+| `source object` | B. Object Model | Chapter 4 | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md` | canonical Chapter 4 anchor available |
+| `target object` | B. Object Model | Chapter 4 | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md` | canonical Chapter 4 anchor available |
+| `provisional elementarity` | B. Object Model | Chapter 18 — Provisionally Compressed Object | `00_source/PMS-STRATA_Structure.md` | `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `compressed object` | B. Object Model | Chapter 18 — Provisionally Compressed Object | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `frame` | C. Analytical Coordinates and Scopes | [`Chapter 2 WP1`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | `PMS.yaml`; `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Chapter_2_Preparation_Record.md` | Chapter 2 provisionally locked; WP1 definition route retained |
+| `granularity` | C. Analytical Coordinates and Scopes | [`Chapter 2 WP1`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Chapter_2_Preparation_Record.md` | Chapter 2 provisionally locked; WP1 definition route retained |
+| `relative level` | C. Analytical Coordinates and Scopes | [`Chapter 2 WP1`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Chapter_2_Preparation_Record.md` | Chapter 2 provisionally locked; WP1 definition route retained |
+| `micro / meso / macro` | C. Analytical Coordinates and Scopes | [`Chapter 2 WP1`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | `05_minified/PMS_STRATA_Claim_Boundary_Minified.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Chapter_2_Preparation_Record.md` | Chapter 2 provisionally locked; WP1 definition route retained |
+| `temporal scope` | C. Analytical Coordinates and Scopes | [`Chapter 2 WP2`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Chapter_2_Preparation_Record.md` | Chapter 2 provisionally locked; WP2 definition route retained |
+| `source scope` | C. Analytical Coordinates and Scopes | [`Chapter 2 WP2`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Chapter_2_Preparation_Record.md` | Chapter 2 provisionally locked; WP2 definition route retained |
+| `claim scope` | C. Analytical Coordinates and Scopes | [`Chapter 2 WP2`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Chapter_2_Preparation_Record.md` | Chapter 2 provisionally locked; WP2 definition route retained |
+| `transformation context` | C. Analytical Coordinates and Scopes | Chapter 5 — Origin Type, Target Function, and Transformation Context | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md` | canonical anchor available |
+| `target context` | C. Analytical Coordinates and Scopes | Chapter 5 — Origin Type, Target Function, and Transformation Context | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md` | canonical anchor available |
+| `validity scope` | C. Analytical Coordinates and Scopes | Chapter 5 | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md` | canonical anchor available |
+| `sequence` | D. Temporal and Path Structures | Chapter 3 — Temporal Object Chain | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `path` | D. Temporal and Path Structures | Chapter 3 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `trajectory` | D. Temporal and Path Structures | Chapter 3 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `path dependence` | D. Temporal and Path Structures | Chapter 3 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `sedimentation` | D. Temporal and Path Structures | Chapter 3 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `irreversibility` | D. Temporal and Path Structures | Chapter 3 — Temporal Object Chain | `00_source/PMS-STRATA_Structure.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `unrealized alternative` | D. Temporal and Path Structures | Chapter 3 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `historical load` | D. Temporal and Path Structures | Chapter 11 — Trajectory | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `STRATA operation` | E. Operations and Transformation Records | Chapter 4 — The Three STRATA Operations | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md` | canonical Chapter 4 anchor available |
+| `COMPOSE` | E. Operations and Transformation Records | Chapter 4 | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md` | canonical Chapter 4 anchor available |
+| `DECOMPOSE` | E. Operations and Transformation Records | Chapter 4 | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md` | canonical Chapter 4 anchor available |
+| `PROJECT_AS` | E. Operations and Transformation Records | Chapter 4 | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md` | canonical Chapter 4 anchor available |
+| `operation occurrence` | E. Operations and Transformation Records | Chapter 4 — The Three STRATA Operations | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md` | canonical Chapter 4 anchor available |
+| `operation chain` | E. Operations and Transformation Records | Chapter 4 | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md` | canonical Chapter 4 anchor available |
+| `non-invertibility` | E. Operations and Transformation Records | Chapter 4 — The Three STRATA Operations | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Transformation_Operation_Index.md` | canonical Chapter 4 anchor available |
+| `shared transformation record` | E. Operations and Transformation Records | Chapter 7 — Shared Transformation Record | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `record status` | E. Operations and Transformation Records | Chapter 7 — Shared Transformation Record | `05_minified/PMS_STRATA_Minified_Canonical.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Output_Class_Index.md`; `04_reference/Evidence_Map.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Output_Class_Index.md` | anchor pending |
+| `operation-specific result` | E. Operations and Transformation Records | Chapter 6 — The STRATA Admissibility Band | `05_minified/PMS_STRATA_Minified_Canonical.md`; `04_reference/Transformation_Operation_Index.md`; `04_reference/Output_Class_Index.md` | `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `origin type` | F. Projection, Functions, and Profiles | Chapter 5 — Origin Type, Target Function, and Transformation Context | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | canonical anchor available |
+| `target function` | F. Projection, Functions, and Profiles | Chapter 5 — Origin Type, Target Function, and Transformation Context | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | canonical anchor available |
+| `source function` | F. Projection, Functions, and Profiles | Chapter 20 — DECOMPOSE | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `functional projection` | F. Projection, Functions, and Profiles | Chapter 29 — Functional Projection | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `frame-function` | F. Projection, Functions, and Profiles | Chapter 31 — Trajectory as Frame-Function | `00_source/PMS-STRATA_Structure.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `macro-event` | F. Projection, Functions, and Profiles | Chapter 32 — Trajectory as Macro-Event | `00_source/PMS-STRATA_Structure.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `attractor-function` | F. Projection, Functions, and Profiles | Chapter 33 — Recurrent Trajectory Form as Attractor-Function | `00_source/PMS-STRATA_Structure.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `higher-level function` | F. Projection, Functions, and Profiles | Chapter 34 — Composite Structures as Higher-Level Functions | `00_source/PMS-STRATA_Structure.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `operator weighting` | F. Projection, Functions, and Profiles | Chapter 35 — Operator Weighting and Modulation | `00_source/PMS-STRATA_Structure.md` | `04_reference/Operator_Index.md` | anchor pending |
+| `modulator` | F. Projection, Functions, and Profiles | Chapter 35 — Operator Weighting and Modulation | `00_source/PMS-STRATA_Structure.md` | `04_reference/Operator_Index.md` | anchor pending |
+| `modulating profile` | F. Projection, Functions, and Profiles | Chapter 35 — Operator Weighting and Modulation | `00_source/PMS-STRATA_Structure.md` | `04_reference/Operator_Index.md` | anchor pending |
+| `structural analogy` | F. Projection, Functions, and Profiles | Chapter 37 — Projection, Structural Analogy, and Label Substitution | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `label substitution` | F. Projection, Functions, and Profiles | Chapter 37 — Projection, Structural Analogy, and Label Substitution | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `invalid type jump` | F. Projection, Functions, and Profiles | Chapter 38 — Invalid Type Jumps and Level Mixing | `00_source/PMS-STRATA_Structure.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `level mixing` | F. Projection, Functions, and Profiles | Chapter 38 — Invalid Type Jumps and Level Mixing | `00_source/PMS-STRATA_Structure.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `granularity mixing` | F. Projection, Functions, and Profiles | Chapter 38 — Invalid Type Jumps and Level Mixing | `00_source/PMS-STRATA_Structure.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | anchor pending |
+| `STRATA Admissibility Band` | G. Admissibility, Continuity, Source, and Loss | Chapter 6 — STRATA Admissibility Band | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `admissible transformation` | G. Admissibility, Continuity, Source, and Loss | Chapter 6 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `Praxeological Relevance Floor` | G. Admissibility, Continuity, Source, and Loss | Chapter 6 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `PraxisPurchase` | G. Admissibility, Continuity, Source, and Loss | Chapter 6 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `Changed-Reconstruction Test` | G. Admissibility, Continuity, Source, and Loss | Chapter 44 — Praxeological Relevance Floor | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `resolution gain` | G. Admissibility, Continuity, Source, and Loss | Chapter 25 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `resolution neutrality` | G. Admissibility, Continuity, Source, and Loss | Chapter 25 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `resolution drift` | G. Admissibility, Continuity, Source, and Loss | Chapter 25 — Resolution Gain, Neutrality, Drift, and Escape | `00_source/PMS-STRATA_Structure.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `resolution escape` | G. Admissibility, Continuity, Source, and Loss | Chapter 25 | `00_source/PMS-STRATA_Structure.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `Praxeological Traceability Ceiling` | G. Admissibility, Continuity, Source, and Loss | Chapter 6 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `TraceableLoad` | G. Admissibility, Continuity, Source, and Loss | Chapter 6 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `Constitutive Source Trace` | G. Admissibility, Continuity, Source, and Loss | Chapter 45 — Praxeological Traceability Ceiling | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `Counterfactual Sensitivity` | G. Admissibility, Continuity, Source, and Loss | Chapter 6 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `Type Integrity` | G. Admissibility, Continuity, Source, and Loss | Chapter 5 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | canonical anchor available |
+| `reference continuity` | G. Admissibility, Continuity, Source, and Loss | Chapter 5 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Admissibility_Band_Reference.md` | canonical anchor available |
+| `type continuity` | G. Admissibility, Continuity, Source, and Loss | Chapter 5 | `00_source/PMS-STRATA_Structure.md` | `04_reference/Admissibility_Band_Reference.md` | canonical anchor available |
+| `functional continuity` | G. Admissibility, Continuity, Source, and Loss | Chapter 5 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Admissibility_Band_Reference.md` | canonical anchor available |
+| `temporal continuity` | G. Admissibility, Continuity, Source, and Loss | Chapter 5 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Admissibility_Band_Reference.md` | canonical anchor available |
+| `contextual boundedness` | G. Admissibility, Continuity, Source, and Loss | Chapter 5 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | canonical anchor available |
+| `loss` | G. Admissibility, Continuity, Source, and Loss | Chapter 7 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `source basis` | G. Admissibility, Continuity, Source, and Loss | Chapter 49 — Source Limits and Calibration Limits | `04_reference/Evidence_Map.md`; `04_reference/Claim_Type_Table.md` | `04_reference/Evidence_Map.md` | anchor pending |
+| `support mode` | G. Admissibility, Continuity, Source, and Loss | Chapter 7 — Shared Transformation Record | `04_reference/Evidence_Map.md`; `04_reference/Claim_Type_Table.md` | `04_reference/Evidence_Map.md` | anchor pending |
+| `support status` | G. Admissibility, Continuity, Source, and Loss | Chapter 7 — Shared Transformation Record | `04_reference/Evidence_Map.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Output_Class_Index.md` | `04_reference/Claim_Type_Table.md`; `04_reference/Evidence_Map.md` | anchor pending |
+| `evidence availability` | G. Admissibility, Continuity, Source, and Loss | Chapter 49 — Source Limits and Calibration Limits | `04_reference/Evidence_Map.md`; `04_reference/Claim_Type_Table.md` | `04_reference/Evidence_Map.md` | anchor pending |
+| `Source Ceiling` | G. Admissibility, Continuity, Source, and Loss | Chapter 49 — Source Limits and Calibration Limits | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `calibration` | G. Admissibility, Continuity, Source, and Loss | Chapter 49 — Source Limits and Calibration Limits | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `anti-immunization` | G. Admissibility, Continuity, Source, and Loss | Chapter 50 — Anti-Immunization | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `canonical output class` | H. Results, Stop, Non-Capture, and Audit | Chapter 6 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Output_Class_Index.md` | anchor pending |
+| `claim reduction` | H. Results, Stop, Non-Capture, and Audit | Chapter 6 | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Claim_Type_Table.md` | anchor pending |
+| `stop` | H. Results, Stop, Non-Capture, and Audit | Chapter 51 — Stop Conditions | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `mandatory stop` | H. Results, Stop, Non-Capture, and Audit | Chapter 51 — Stop Conditions | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Output_Class_Index.md` | anchor pending |
+| `optional stop` | H. Results, Stop, Non-Capture, and Audit | Chapter 51 — Stop Conditions | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `re-entry` | H. Results, Stop, Non-Capture, and Audit | Chapter 51 — Stop Conditions | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `failed transformation` | H. Results, Stop, Non-Capture, and Audit | Chapter 6 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Output_Class_Index.md` | anchor pending |
+| `Non-Capture` | H. Results, Stop, Non-Capture, and Audit | Chapter 52 — Non-Capture | `05_minified/PMS_STRATA_Admissibility_Band_Minified.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `non-equivalence` | H. Results, Stop, Non-Capture, and Audit | Chapter 8 — Foundational Non-Equivalences | `05_minified/Chapter_Contracts.md`; `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Non_Equivalence_Index.md` | anchor pending |
+| `local audit` | H. Results, Stop, Non-Capture, and Audit | Chapter 17 — PATH Cases, Countercases, and Local Audit | `05_minified/Chapter_Contracts.md` | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md` | anchor pending |
+| `Integrated STRATA Admissibility Audit` | H. Results, Stop, Non-Capture, and Audit | Chapter 53 — Integrated STRATA Admissibility Audit | `00_source/PMS-STRATA_Structure.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+| `formal model boundary` | H. Results, Stop, Non-Capture, and Audit | Chapter 49 | `05_minified/PMS_STRATA_Minified_Canonical.md` | `04_reference/Admissibility_Band_Reference.md` | anchor pending |
+
+### 8.1 Definition-site rule
+
+A term may have one designated canonical definition site and multiple elaboration, application, audit, or index sites. A later detailed chapter does not become a competing definition site merely because it carries the fuller procedure.
+
+```text
+canonical definition site
+≠
+primary elaboration and audit site
+```
+
+---
+
+## 9. PMS Operator Map
+
+| Order | Operator | Name | PMS dependencies | Canonical source | Reference handoff | Planned relevant application routes | Critical boundary |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Δ | Difference | none | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 1, 3, 21 | difference ≠ asymmetry |
+| 2 | ∇ | Impulse | Δ | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 1, 3, 21 | impulse ≠ intention |
+| 3 | □ | Frame | Δ, ∇ | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 2, 3, 5, 14, 31 | Frame operator type ≠ analytical frame coordinate |
+| 4 | Λ | Non-Event | □ | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 3, 14, 23 | non-event ≠ missing information |
+| 5 | Α | Attractor | Δ, ∇, □, Λ | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 3, 11, 12, 33 | recurrence ≠ Attractor operator type |
+| 6 | Ω | Asymmetry | Α | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 3, 12, 35 | asymmetry ≠ moral hierarchy |
+| 7 | Θ | Temporality | Ω, Α | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 3, 9–12, 24, 31–32 | temporality ≠ trajectory |
+| 8 | Φ | Recontextualization | Θ, Ω, □ | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 5, 29–30, 37 | Recontextualization ≠ PROJECT_AS |
+| 9 | Χ | Distance | Φ, Θ, □ | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 5, 35, 47 | distance ≠ passivity |
+| 10 | Σ | Integration | Χ, Φ | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 1, 34–35, 47 | PMS Integration ≠ STRATA COMPOSE |
+| 11 | Ψ | Self-Binding | Σ, Θ, Χ | `PMS.yaml` | `04_reference/Operator_Index.md` | Chapters 3, 11, 35, 55 | self-binding ≠ moral worth |
+
+PMS operator layer, STRATA Part, relative level, granularity, and authority rank remain distinct. The map does not reorder, decompose, rename, or extend Δ–Ψ.
+
+```text
+application route
+≠
+operator dependency
+≠
+definition site
+```
+
+---
+
+## 10. STRATA Operation Map
+
+| Operation | Shared definition | Procedure | Local limits | Local audit | Reference control | Formal handoff |
+| --- | --- | --- | --- | --- | --- | --- |
+| `COMPOSE` | Chapter 4 | Chapter 15 | Chapter 16 | Chapter 17 | `04_reference/Transformation_Operation_Index.md` | `07_model/Operation_Registry.yaml` |
+| `DECOMPOSE` | Chapter 4 | Chapter 20 | Chapter 27 | Chapter 28 | `04_reference/Transformation_Operation_Index.md` | `07_model/Operation_Registry.yaml` |
+| `PROJECT_AS` | Chapter 4 | Chapter 30 | Chapter 39 | Chapter 40 | `04_reference/Transformation_Operation_Index.md` | `07_model/Operation_Registry.yaml` |
+
+```text
+operation chain
+≠
+fourth compound operation
+```
+
+All chain records route additionally to Chapter 7, Chapter 53, `04_reference/Transformation_Operation_Index.md`, later case records, and `07_model/*`. Each occurrence retains its own claim, loss, and output class.
+
+---
+
+## 11. Canonical Output-Class Map
+
+| Canonical value | Primary output architecture | Method or application elaboration | Reference control | Formal handoff |
+| --- | --- | --- | --- | --- |
+| `admissible` | Chapter 6 | Chapter 53 integrated application | `04_reference/Output_Class_Index.md` | `07_model/Output_Classes.yaml` — current owner path `/output_classes/admissible` |
+| `admissible_with_bounded_claim` | Chapter 6 | Chapters 5, 30, 49, 53 | `04_reference/Output_Class_Index.md` | `07_model/Output_Classes.yaml` — current owner path `/output_classes/admissible_with_bounded_claim` |
+| `admissible_but_provisional` | Chapter 6 | Chapters 17, 28, 40, 49, 53 | `04_reference/Output_Class_Index.md` | `07_model/Output_Classes.yaml` — current owner path `/output_classes/admissible_but_provisional` |
+| `resolution_neutral` | Chapter 6 | Chapters 25 and 44 | `04_reference/Output_Class_Index.md` | `07_model/Output_Classes.yaml` — current owner path `/output_classes/resolution_neutral` |
+| `analogy_only` | Chapter 6 | Chapter 37 | `04_reference/Output_Class_Index.md` | `07_model/Output_Classes.yaml` — current owner path `/output_classes/analogy_only` |
+| `partially_admissible` | Chapter 6 | local audits Chapters 17, 28, 40; Chapter 53 | `04_reference/Output_Class_Index.md` | `07_model/Output_Classes.yaml` — current owner path `/output_classes/partially_admissible` |
+| `claim_reduction_required` | Chapter 6 | Chapters 49–51 and local audits | `04_reference/Output_Class_Index.md` | `07_model/Output_Classes.yaml` — current owner path `/output_classes/claim_reduction_required` |
+| `mandatory_stop` | Chapter 6 | Stop method Chapter 51 | `04_reference/Output_Class_Index.md` | `07_model/Output_Classes.yaml` — current owner path `/output_classes/mandatory_stop` |
+| `failed_transformation` | Chapter 6 | operation boundaries Chapters 16, 27, 39; Chapter 53 | `04_reference/Output_Class_Index.md` | `07_model/Output_Classes.yaml` — current owner path `/output_classes/failed_transformation` |
+| `non_capture` | Chapter 6 | Non-Capture method Chapter 52 | `04_reference/Output_Class_Index.md` | `07_model/Output_Classes.yaml` — current owner path `/output_classes/non_capture` |
+
+```text
+stop
+≠
+mandatory_stop
+```
+
+```text
+Non-Capture
+≠
+non_capture
+```
+
+The method concepts are primary in Chapters 51 and 52. Their canonical output values remain part of the Chapter 6 output architecture.
+
+---
+
+## 12. Claim Architecture Map
+
+| Claim family | Operation or method context | Primary chapter route | Reference and audit handoff |
+| --- | --- | --- | --- |
+| object and typing | shared / all operations | Chapters 1, 5, 7 | `04_reference/Claim_Type_Table.md`; `04_reference/Operator_Index.md` |
+| temporal ordering | COMPOSE / PATH | Chapters 9–10 | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` |
+| path formation and branch closure | COMPOSE / PATH | Chapters 10, 13, 15 | `04_reference/Claim_Type_Table.md` |
+| trajectory and sedimentation | COMPOSE / PATH | Chapters 11–12, 15 | `04_reference/Claim_Type_Table.md` |
+| path dependence | COMPOSE / PATH | Chapter 12 | `04_reference/Claim_Type_Table.md` |
+| declared composite and formation rule | COMPOSE | Chapter 15 | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` |
+| internal structure and decomposition | DECOMPOSE / SUB | Chapters 19–24 | `04_reference/Claim_Type_Table.md` |
+| component load, substitutability, compensation, remainder | DECOMPOSE / SUB | Chapters 21–22 | `04_reference/Claim_Type_Table.md` |
+| source function | DECOMPOSE / SUB | Chapters 20–25 | `04_reference/Claim_Type_Table.md`; `04_reference/Output_Class_Index.md` |
+| resolution gain | DECOMPOSE / SUB | Chapter 25 | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` |
+| functional projection and target function | PROJECT_AS / RETYPE | Chapters 29–36 | `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` |
+| structural analogy | RETYPE / comparison | Chapter 37 | `04_reference/Claim_Type_Table.md`; `04_reference/Non_Equivalence_Index.md` |
+| continuity and integrity | shared admissibility | Chapters 5 and 47 | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` |
+| admissibility and governance | shared admissibility | Chapters 6 and 44–53 | `04_reference/Claim_Type_Table.md`; `04_reference/Output_Class_Index.md` |
+| capture, partial capture, and non-capture | LIMITS / audit | Chapters 52–53 | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` |
+
+Claim roles such as prior, successor, rival, revised, or withdrawn are record relations or dispositions, not new claim families. Claim type, scope, ceiling, support status, operation result, and output class remain separate.
+
+---
+
+## 13. Admissibility and LIMITS Map
+
+| Common check | Canonical definition route | Primary elaboration or audit | Reference control | Formal handoff |
+| --- | --- | --- | --- | --- |
+| PraxisPurchase | Chapter 6 | Chapter 44 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Admissibility_Rules.yaml` |
+| TraceableLoad | Chapter 6 | Chapter 45 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Admissibility_Rules.yaml` |
+| TypeIntegrity | Chapter 5 | Chapters 38, 47 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Admissibility_Rules.yaml` |
+| ReferenceContinuity | Chapter 5 | Chapter 47 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Transformation_Record.schema.json` |
+| FunctionalContinuity | Chapter 5 | Chapter 47 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Transformation_Record.schema.json` |
+| TemporalContinuity | Chapter 5 | Chapter 47 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Transformation_Record.schema.json` |
+| ContextualBoundedness | Chapter 5 | Chapters 30, 47, 49 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Admissibility_Rules.yaml` |
+| CounterfactualSensitivity | Chapter 6 | Chapter 46 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Admissibility_Rules.yaml` |
+| SourceCeiling | Chapter 49 | Chapters 45, 53 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Admissibility_Rules.yaml` |
+| Calibration | Chapter 49 | Chapter 53 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Admissibility_Rules.yaml` |
+| SelectionAndLoss | Chapters 7 and 15 | Chapter 48 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Transformation_Record.schema.json` |
+| Alternatives | Chapters 7 and 13 | Chapters 49, 53 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Transformation_Record.schema.json` |
+| ClaimCeiling | Chapter 5 | Chapters 49, 53 | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` | `07_model/Admissibility_Rules.yaml` |
+| AuthorityCeiling | Chapter 0 | Chapters 41, 53, 56 | `04_reference/Admissibility_Band_Reference.md` | `07_model/Admissibility_Rules.yaml` |
+| Stop | Chapter 51 | Chapter 53 | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md` | `07_model/Boundary_Decision_Tree.yaml` |
+| NonCapture | Chapter 52 | Chapter 53 | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md` | `07_model/Boundary_Decision_Tree.yaml` |
+
+### 13.1 Band topology routing
+
+| Boundary | Governing role | Primary route | Reference control |
+| --- | --- | --- | --- |
+| Praxeological Relevance Floor | excludes distinction without praxeological purchase | Chapter 6 → Chapter 44 | `04_reference/Admissibility_Band_Reference.md` |
+| Source Ceiling | limits detail, precision, and inference by available support | Chapter 49 | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` |
+| Praxeological Traceability Ceiling | excludes abstraction or fragmentation without traceable load | Chapter 6 → Chapter 45 | `04_reference/Admissibility_Band_Reference.md` |
+| Claim Ceiling | limits the maximum warranted structural assertion | Chapter 5 → Chapters 49 and 53 | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` |
+| authority ceiling | blocks authority inheritance and prohibited inference | Chapter 0 → Chapters 41, 53, 56 | `04_reference/Admissibility_Band_Reference.md` |
+
+Passing the Floor and Ceiling does not by itself establish full admissibility. The checks are non-compensatory and route to the ten canonical output classes only through a record- and claim-bound judgment.
+
+---
+
+## 14. Non-Equivalence Routing
+
+| Non-equivalence family | Primary collection or elaboration | Complete registry |
+| --- | --- | --- |
+| foundational object, coordinate, temporal, and authority pairs | Chapter 8 | `04_reference/Non_Equivalence_Index.md` |
+| PMS operator boundaries | `04_reference/Operator_Index.md` | `04_reference/Non_Equivalence_Index.md` |
+| operation identity, non-invertibility, and chain boundaries | `04_reference/Transformation_Operation_Index.md` | `04_reference/Non_Equivalence_Index.md` |
+| claim type, reach, ceiling, status, reduction, and authority boundaries | `04_reference/Claim_Type_Table.md` | `04_reference/Non_Equivalence_Index.md` |
+| output-class collision boundaries | `04_reference/Output_Class_Index.md` | `04_reference/Non_Equivalence_Index.md` |
+| Floor, Ceiling, continuity, source, loss, stop, and capture boundaries | `04_reference/Admissibility_Band_Reference.md` | `04_reference/Non_Equivalence_Index.md` |
+| cross-file routing and anchor roles | this map | `04_reference/Non_Equivalence_Index.md` only where a substantive collapse is blocked |
+
+Critical cross-file pairs include:
+
+```text
+designated canonical site ≠ current control source
+definition ≠ elaboration ≠ application ≠ audit
+navigation status ≠ record status ≠ output class
+formal handoff ≠ substantive validation
+case test ≠ theory definition
+Reader route ≠ authority hierarchy
+```
+
+The current Non-Equivalence registry is controlled in `04_reference/Non_Equivalence_Index.md` and is not duplicated here.
+
+---
+
+## 15. Shared Record and Schema Handoffs
+
+| Record concern | Canonical prose route | Current controls | Current formal schema and later template handoff |
+| --- | --- | --- | --- |
+| shared transformation record | Chapter 7 | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Output_Class_Index.md` | current: `07_model/Transformation_Record.schema.json`; later: `02_appendices/Appendix_C_Shared_Transformation_Record_Schema.md` |
+| COMPOSE record | Chapters 7 and 15 | `04_reference/Transformation_Operation_Index.md`; `07_model/Operation_Registry.yaml` | current operation-specific schema branch under `#/$defs/composeDetails`; later: `02_appendices/Appendix_D_COMPOSE_Record_Template.md` and compose case template |
+| DECOMPOSE record | Chapters 7 and 20 | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `07_model/Operation_Registry.yaml` | current operation-specific schema branch under `#/$defs/decomposeDetails`; later: `02_appendices/Appendix_E_DECOMPOSE_Record_Template.md` and decompose case template |
+| PROJECT_AS record | Chapters 7 and 30 | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `07_model/Operation_Registry.yaml` | current operation-specific schema branch under `#/$defs/projectAsDetails`; later: `02_appendices/Appendix_F_PROJECT_AS_Record_Template.md` and project-as case template |
+| loss record | Chapters 7 and 48 | `04_reference/Admissibility_Band_Reference.md`; `07_model/Admissibility_Rules.yaml` | current: record pointer `/loss` and schema definition `#/$defs/lossDeclaration`; five canonical fields only |
+| integrated chain audit | Chapter 53 | `04_reference/Output_Class_Index.md`; `04_reference/Admissibility_Band_Reference.md`; populated Core artifacts | current chain scope and result separation in `07_model/Transformation_Record.schema.json`; later: `02_appendices/Appendix_N_Integrated_STRATA_Audit_Template.md` and integrated audit case template |
+
+### 15.1 Current Model-Field and Schema Handoffs
+
+The following paths are current formal routes owned by the populated Core artifacts. They operationalize controlled distinctions; they do not create new prose definitions or establish substantive validity.
+
+| Concern | Record-instance pointer | Schema or owner pointer | Cross-artifact owner |
+| --- | --- | --- | --- |
+| record scope | `/record_scope` | `#/properties/record_scope` | `07_model/Transformation_Record.schema.json`; root handoff under `/record_and_schema_handoff` |
+| routing state | `/routing_state` | `#/properties/routing_state` | record schema and `07_model/Boundary_Decision_Tree.yaml` |
+| claim declaration and ceiling | `/claim` | `#/$defs/claimDeclaration`; `#/$defs/claimCeiling` | `04_reference/Claim_Type_Table.md`; record schema |
+| operation occurrence and type | `/operation` | `#/$defs/operationDeclaration`; owner inventory `/operation_types` | `07_model/Operation_Registry.yaml` |
+| admissibility audit and rule findings | `/admissibility` | `#/$defs/admissibilityDeclaration`; owner paths `/ordered_audit_contract/stages` and `/rule_profiles` | `07_model/Admissibility_Rules.yaml` |
+| canonical loss record | `/loss` | `#/$defs/lossDeclaration` | record schema; rule and operation controls |
+| separated status axes | `/result/status_declaration` | `#/$defs/statusDeclaration` | record schema; root `/record_and_schema_handoff/status_and_result_axis_separation` |
+| candidate assessments and one selected class | `/result/routing/candidate_assessments`; `/result/routing/selected_class` | `#/$defs/candidateAssessments`; `#/$defs/routedResult` | `07_model/Output_Classes.yaml` and `07_model/Boundary_Decision_Tree.yaml` |
+| current claim disposition | `/result/routing/current_claim_disposition` | `#/$defs/claimDispositionResult` | decision tree final-selection contract and record schema |
+| formal diagnostic without output class | `/formal_diagnostic` | `#/$defs/formalDiagnostic` | decision-tree diagnostic routes and record schema |
+| integrated root and validation companion | not a record-instance field | root `/component_manifest`, `/dependency_graph`, `/ownership_matrix`, `/inventory_integrity_snapshots`; companion schema root | `07_model/PMS-STRATA.yaml`; `07_model/PMS-STRATA.schema.json` |
+
+Field names and pointers above are now real formal handoffs. Future smoke records must instantiate them without treating schema validity as substantive admissibility, truth, causality, semantic adequacy, normative validity, person judgment, or application authority.
+
+---
+
+## 16. Case and Countercase Handoffs
+
+| Test requirement | Primary chapter route | Future target | Current status |
+| --- | --- | --- | --- |
+| positive operation case | Chapters 17, 28, 40 | operation-specific Markdown and YAML case records | case handoff pending |
+| negative operation case | Chapters 17, 28, 40 | countercase template and `03_cases/Case_Index.md` | case handoff pending |
+| boundary or confusion case | Chapters 8, 16, 27, 37–39 | confusion-case template; `02_appendices/Appendix_I_Boundary_and_Confusion_Cases.md` | case handoff pending |
+| Stop case | Chapters 51 and 53 | mandatory-stop smoke tests and later case record | Records 02 and 07 current; substantive case handoff pending |
+| Non-Capture case | Chapters 52 and 53 | non-capture smoke test and later case record | Record 08 current; substantive case handoff pending |
+| integrated chain case | Chapter 53 | integrated audit template; `02_appendices/Appendix_N_Integrated_STRATA_Audit_Template.md` | case handoff pending |
+
+Cases test and expose rules. They do not define operations, claim types, output classes, or admissibility boundaries.
+
+---
+
+## 17. Appendix Handoffs
+
+| Appendix | Title | Primary chapter route | Reference or model handoff | Current status |
+| --- | --- | --- | --- | --- |
+| A | Core Definitions | Chapters 0–8 | `04_reference/Glossary.md`; `04_reference/Non_Equivalence_Index.md` | appendix handoff pending |
+| B | Formal Notation | Chapters 4–7 | `07_model/*`; `04_reference/Operator_Index.md` | appendix handoff pending |
+| C | Shared Transformation Record Schema | Chapter 7 | `07_model/Transformation_Record.schema.json`; `04_reference/Claim_Type_Table.md` | appendix handoff pending |
+| D | COMPOSE Record Template | Chapter 15 | `04_reference/Transformation_Operation_Index.md` | appendix handoff pending |
+| E | DECOMPOSE Record Template | Chapter 20 | `04_reference/Transformation_Operation_Index.md` | appendix handoff pending |
+| F | PROJECT_AS Record Template | Chapter 30 | `04_reference/Transformation_Operation_Index.md` | appendix handoff pending |
+| G | Admissibility Band Tests | Chapters 44–53 | `04_reference/Admissibility_Band_Reference.md` | appendix handoff pending |
+| H | Valid and Invalid Transformation Patterns | Chapters 16, 27, 39, 41 | `04_reference/Non_Equivalence_Index.md`; `04_reference/Audit_Checklist.md` | appendix handoff pending |
+| I | Boundary and Confusion Cases | Chapters 8, 16, 27, 39 | `04_reference/Non_Equivalence_Index.md`; `03_cases/Case_Index.md` pending | appendix handoff pending |
+| J | Operator-Weighting and Trajectory Stress Tests | Chapters 11, 35 | `04_reference/Operator_Index.md`; `04_reference/Claim_Type_Table.md` | appendix handoff pending |
+| K | Cross-Domain Projection and Analogy Stress Tests | Chapters 36–37 | `04_reference/Claim_Type_Table.md`; `04_reference/Non_Equivalence_Index.md` | appendix handoff pending |
+| L | Non-Operator Remainders and Decomposition Limits | Chapters 22, 25, 27, 52 | `04_reference/Claim_Type_Table.md`; `04_reference/Admissibility_Band_Reference.md` | appendix handoff pending |
+| M | Case and Countercase Index | Chapters 17, 28, 40, 53 | `03_cases/Case_Index.md` pending | appendix handoff pending |
+| N | Integrated STRATA Audit Template | Chapter 53 | `04_reference/Admissibility_Band_Reference.md`; `04_reference/Audit_Checklist.md` | appendix handoff pending |
+
+---
+
+## 18. Formal Model Handoffs
+
+Repository artifacts are written with full internal paths. The seven Core artifacts and eight canonical smoke records are populated and audit-passed. The internal Formal Model v0 smoke-test gate has passed; this does not establish substantive truth, external warrant, or corpus completion.
+
+The table records current Core roles and, for each committed smoke test, one expected canonical output per delimited tested claim.
+
+| Artifact | Current status | Current or planned role | Tested claim or record focus | Expected canonical output | Controlled prose and reference sources | Prohibited automatic inference |
+| --- | --- | --- | --- | --- | --- | --- |
+| `07_model/Operation_Registry.yaml` | current formal model core; v0.1.3 | registers exactly COMPOSE, DECOMPOSE, and PROJECT_AS with structural requirements | registry artifact; no tested occurrence | not applicable | Chapters 4, 15, 20, 30; `04_reference/Transformation_Operation_Index.md` | empirical truth, causality, semantic or normative validity, person judgment, or application authority |
+| `07_model/Output_Classes.yaml` | current formal model core; v0.1.1 | registers exactly ten canonical output values, constitutive profiles, and current load-bearing class boundaries | registry artifact; no tested occurrence | not applicable | Chapter 6; `04_reference/Output_Class_Index.md` | empirical truth, causality, semantic or normative validity, person judgment, or application authority |
+| `07_model/Admissibility_Rules.yaml` | current formal model core; v0.1.2 | registers sixteen checks, twelve audit stages, local vocabularies, non-compensation, Stop, Non-Capture, anti-immunization, and ceilings | rule artifact; no tested occurrence | not applicable | Chapter 6 and Chapters 44–53; `04_reference/Admissibility_Band_Reference.md` | substantive admissibility, empirical truth, causality, semantic or normative validity, person judgment, or application authority |
+| `07_model/Boundary_Decision_Tree.yaml` | current formal model core; v0.1.1 | routes complete semantic packets through candidate generation, claim separation, collision adjudication, diagnostics, and unique final selection without ranking or first-match logic | decision-routing artifact; no tested occurrence | not applicable | Chapter 6 and Chapters 44–53; `04_reference/Output_Class_Index.md`; `04_reference/Admissibility_Band_Reference.md`; `04_reference/Non_Equivalence_Index.md` | substantive truth, causal validity, semantic adequacy, normative validity, person judgment, or application authority |
+| `07_model/Transformation_Record.schema.json` | current formal model core; v0.1.2 | validates occurrence and integrated-chain record form, required axes, pointer contracts, loss, diagnostics, candidate assessments, and routed results | schema artifact; no tested occurrence | not applicable | Chapter 7; `04_reference/Claim_Type_Table.md`; `04_reference/Transformation_Operation_Index.md` | adequacy of source interpretation or substantive claim validity |
+| `07_model/PMS-STRATA.yaml` | current formal model core; version declared by the Root artifact itself | integrates component manifest, dependency graph, ownership matrix, inventory snapshots, record handoff, and package integrity declarations without independent theory authority | integrated registry artifact; no tested occurrence | not applicable | all controlled prose and Reference artifacts | empirical truth, causality, semantic or normative validity, person judgment, or application authority |
+| `07_model/PMS-STRATA.schema.json` | current formal model core; v0.1.0 | validates the integrated root structure and declared integrity-binding form without duplicating component semantics | schema artifact; no tested occurrence | not applicable | controlled prose and formal registries | truth, completeness of theory, or application authority |
+| `07_model/examples/01_COMPOSE_Admissible.yaml` | current smoke-test evidence | positive COMPOSE smoke record | a declared composite satisfies operation identity and all applicable checks | `admissible` | Chapter 15; `04_reference/Transformation_Operation_Index.md`; `04_reference/Output_Class_Index.md` | empirical truth of the composite |
+| `07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml` | current smoke-test evidence | lower-bound stop smoke record | continued DECOMPOSE refinement below the Praxeological Relevance Floor | `mandatory_stop` | Chapters 25, 44, 51; `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md` | that every valid neutral resolution test must stop immediately |
+| `07_model/examples/03_PROJECT_AS_Admissible.yaml` | current smoke-test evidence | positive PROJECT_AS smoke record | origin type is preserved and a source-traceable contextual target function passes without material additional claim narrowing | `admissible` | Chapter 30; `04_reference/Transformation_Operation_Index.md`; `04_reference/Output_Class_Index.md` | empirical or normative validity of the target function |
+| `07_model/examples/04_PROJECT_AS_Label_Substitution.yaml` | current smoke-test evidence | invalid projection confusion record | label substitution is presented as PROJECT_AS without typed target function and source trace | `failed_transformation` | Chapters 37, 39; `04_reference/Non_Equivalence_Index.md`; `04_reference/Output_Class_Index.md` | general invalidity of analogy or comparison |
+| `07_model/examples/05_Traceability_Ceiling_Failure.yaml` | current smoke-test evidence | upper-bound failure smoke record | transformation result no longer carries traceable load from declared source structures | `failed_transformation` | Chapter 45; `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md` | empirical falsity of the source object |
+| `07_model/examples/06_Claim_Reduction.yaml` | current smoke-test evidence | claim-revision smoke record | current claim exceeds the warranted ceiling and a reduced successor claim still requires testing | `claim_reduction_required` | Chapters 49, 50, 53; `04_reference/Claim_Type_Table.md`; `04_reference/Output_Class_Index.md` | admissibility of the untested reduced claim |
+| `07_model/examples/07_Mandatory_Stop.yaml` | current smoke-test evidence | mandatory-stop smoke record | further continuation would violate a non-compensatory boundary | `mandatory_stop` | Chapter 51; `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md` | that all prior local results failed |
+| `07_model/examples/08_Non_Capture.yaml` | current smoke-test evidence | non-capture smoke record | no adequate retained claim remains without distortion or false closure | `non_capture` | Chapter 52; `04_reference/Admissibility_Band_Reference.md`; `04_reference/Output_Class_Index.md` | proof of rival superiority or immunity from criticism |
+| `07_model/examples/README.md` | current smoke-test evidence | document smoke-record status, execution order, and interpretation limits | navigation artifact | not applicable | Formal Model v0 controls | substantive validation of examples |
+
+The populated Core may validate inventory, completeness, operation identity declarations, field form, Type Integrity constraints, boundary routing, and canonical output values. Machine-readable consistency is not a truth proof. The formal vocabulary and record schema now exist; each forthcoming smoke-test record must preserve its tested claim, local result, status axes, loss, routing basis, and expected canonical output as distinct data.
+
+---
+
+## 19. Critical Redundancy Guards
+
+| Site relation | Routing rule |
+| --- | --- |
+| Chapters 0 / 57 | Chapter 0 defines the governing claim and boundary; Chapter 57 restates and closes without expansion |
+| Chapters 5 / 47 | Chapter 5 defines type, function, context, and continuity; Chapter 47 audits continuity |
+| Chapters 6 / 44–45 | Chapter 6 defines the common band architecture; Chapters 44–45 elaborate lower and upper tests |
+| Chapters 7 / 48 | Chapter 7 introduces the shared record and loss fields; Chapter 48 audits loss |
+| Chapters 16, 27, 39 / 51 | local operation limits route to the system-wide Stop method without being replaced |
+| Chapters 17, 28, 40 / 53 | local audits retain their results; Chapter 53 integrates without overwriting |
+| Chapters 38 / 50 | invalid type jumps remain operation failures; anti-immunization prevents rescue by later transformations |
+| Chapters 44 / 49 | Relevance Floor is distinct from source and calibration limits |
+| Chapters 45 / 48 | Traceability Ceiling is distinct from loss disclosure |
+| Chapters 51 / 52 | Stop is distinct from Non-Capture |
+| Front Matter / numeric chapters | orientation and navigation must not define theory |
+| Reference / Blocks | Reference artifacts index and stabilize; locked Blocks become canonical prose |
+
+---
+
+## 20. Open-Link Registry
+
+| Open link family | Planned target | Reason still open | Unlock condition | Freeze stage |
+| --- | --- | --- | --- | --- |
+| Block section anchors | Chapters 1–57 and Front Matter units | Chapter 0 is available and provisionally re-locked; remaining target sections are not yet drafted | relevant chapter drafted and provisionally locked | per-chapter lock |
+| final Glossary anchors | 112 core terms | chapter heading and section IDs do not yet exist | primary chapter anchors stable | Reference freeze |
+| case IDs | positive, negative, confusion, stop, non-capture, and chain cases | case corpus not yet written | case record created and audited | Part lock / integrated audit |
+| appendix anchors | Appendices A–N | appendices are empty | appendix content drafted after corpus and front matter | Appendix stage |
+| Reference pathway families | `04_reference/Reader_Pathways.md` | populated pre-Block scaffold; actual chapter, case, appendix, model, derivative, and Reader anchors remain pending | route targets populated at their production stages | Reference Freeze |
+| Reader implementation routes | `08_PMS-STRATA Reader/*` | implementation deferred and files empty | corpus, cases, references, model, and derivatives finalized | Reader / Release |
+| derivative anchors | overview, paper, whitepaper | derivatives deferred | corpus audit and model finalization complete | Derivatives |
+
+Core model field paths and schema pointers are no longer open links; their current handoffs are registered in Sections 15 and 18. No remaining pending link may be represented as a current citation target. Broken or missing future anchors are recorded, not silently inferred.
+
+---
+
+## 21. Post-Smoke / Foundations Cross-Reference Gate
+
+This gate records navigation and handoff conformance only. It is not an Output Class and does not establish substantive truth. The Chapter-0 repair pass additionally requires exact claim-owner equality, absence of ad-hoc machine fields, internally consistent status/version language, and reality-checked open registries.
+
+- [x] All eight canonical smoke records and `07_model/examples/README.md` are populated.
+- [x] All eight records validate against the current Transformation Record Schema.
+- [x] The three operation identities remain exactly `COMPOSE`, `DECOMPOSE`, and `PROJECT_AS`.
+- [x] The ten canonical Output Classes remain closed and unchanged.
+- [x] Expected classes and routes are recorded for all eight examples.
+- [x] `01 → 03 → 08` handoffs resolve without class or authority inheritance.
+- [x] All file, JSON Pointer, YAML, and Markdown-anchor control references resolve.
+- [x] Record-level conformance remains distinct from substantive case or external evidence.
+- [x] Root/Companion provenance and all changed registered Reference fingerprints are synchronized.
+- [x] The Formal Model v0 internal smoke-test gate has passed.
+- [x] Chapter 1 definition ownership, Chapter 3/5 boundaries, example assignments, work packages, and model handoffs are preparation-locked.
+- [x] The Chapter 1 preparation record is a Reference control only and is not cited as canonical Chapter 1 prose.
+- [x] Foundations production is active; Chapter 0 is provisionally locked; the Chapter 1 preparation gate, WP1–WP3 local audits, and WP4 integrated audit have passed; the Chapter 1 anchor resolves; all later chapter anchors remain pending.
+
+```text
+pass
+→ Core and canonical smoke-suite routes current
+→ suite-level and package audits passed
+→ internal formal smoke gate closed
+→ Chapters 0–3 routes are current and provisionally locked; Chapter 4 WP1–WP3 are canonical; WP4 is the next production handoff
+
+fail
+→ repair pointer, route, status, provenance, fingerprint, or authority handling before the next Foundations chapter
+```
+
+These gate terms are workflow-only and are not canonical Output Classes.
+
+## 22. Revision and Freeze Policy
+
+### 22.1 Pre-Block revision
+
+During Foundations, PATH, SUB, RETYPE, LIMITS, conclusion, front matter, cases, and appendices, this map grows by adding actual anchors and verified handoffs. It must not absorb chapter prose or become a competing definition source.
+
+### 22.2 Required update triggers
+
+Update this map when:
+- a primary definition site changes through an explicit architecture revision;
+- a chapter or Front Matter anchor is created or renamed;
+- a new case ID, appendix section, formal field path, schema pointer, or reader route becomes real;
+- a Reference artifact is revised in a way that changes its handoff role;
+- an audit finds duplicate ownership, a broken path, a circular authority relation, or an undeclared pending target.
+
+### 22.3 Freeze sequence
+
+```text
+pre-Block Cross Reference scaffold
+→ all four Reference scaffolds populated
+→ Reference Kernel v0 population complete and provisionally controlled
+→ Formal Model v0 Core Assembly and package audit
+→ post-Model status and reference synchronization
+→ Examples and smoke-test validation
+→ full Formal Model v0 gate decision
+→ chapter-anchor synchronization during Blocks
+→ case and appendix synchronization
+→ Reference freeze after Conclusion, Front Matter, and Appendices
+→ corpus audit
+→ model finalization
+→ derivative and Reader routes
+→ release freeze
+```
+
+Embedded artifact revision is not the same as global Reference Kernel freeze status.
+
+---
+
+## Chapter 2 WP1–WP3 Route
+
+| Artifact | Role | Authority boundary | Current status |
+| --- | --- | --- | --- |
+| `04_reference/Chapter_2_Preparation_Record.md` | definition-ownership, architecture, execution history, case-assignment, work-package, and audit planning | Reference production control only | preparation gate and WP1–WP2 execution recorded |
+| `01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level` | canonical Chapter 2 coordinate, scope, comparison, and Minimal Declaration prose | provisionally locked canonical corpus authority | Sections 2.1–2.14 available after integrated WP4 audit |
+| `07_model/Transformation_Record.schema.json` | existing nested coordinate encoding | structure validation only | no preparation-stage change required |
+
+The preparation and WP1–WP2 route fixes the conceptual-slot mapping to `/source/frame`, `/target/frame`, `/source/granularity`, `/target/granularity`, `/source/relative_level`, `/target/relative_level`, `/source/temporal_scope`, `/target/temporal_scope`, `/source/source_scope`, and `/claim/claim_scope`. This route does not make the preparation record a formal-model support input or a theory source.
+
+## Chapter 2 WP2 Scope Architecture Handoff
+
+| Canonical term | Primary anchor | Current downstream handoff | Boundary |
+| --- | --- | --- | --- |
+| temporal scope | [`Chapter 2 §2.6`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | Chapter 3; PATH; Shared Transformation Record | does not establish sequence, path, trajectory, or path dependence |
+| source scope | [`Chapter 2 §2.7`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | Chapters 6–7, 49, LIMITS | not source object, source basis, source ceiling, or positive structure from a gap |
+| claim scope | [`Chapter 2 §2.8`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | Chapters 5–7, 49–53 | not claim boundary, claim ceiling, validity scope, or authority inheritance |
+
+The Chapter 2 Preparation Record remains the production-history route. Canonical scope definitions now belong to `01_blocks/01_foundations.md`. WP3 owns Sections 2.9–2.14 and may not redefine these scopes through declaration fields.
+
+## Chapter 2 WP3 Coordinate-Comparison Handoff
+
+| Chapter 2 WP3 family | Canonical owner | Primary downstream handoff | Boundary |
+| --- | --- | --- | --- |
+| stable frame / changed granularity | Section 2.9 | Chapters 19, 20, and 25 | coordinate pattern is not automatic `DECOMPOSE` |
+| changed frame / stable granularity | Section 2.10 | Chapters 4, 5, and 30 | frame change is not automatic `PROJECT_AS` or `Φ` |
+| changed relative level | Section 2.11 | all operation families | relation position is not operation identity or authority |
+| multiple valid granularities | Section 2.12 | Chapters 25, 43, and 44 | plurality has no truth hierarchy |
+| granularity conflict | Section 2.13 | Chapters 6, 25, 49, and 53 | mismatch neither proves nor dissolves contradiction |
+| Minimal Level Declaration | Section 2.14 | Chapters 7 and operation records | conceptual handoff is not a second schema |
+
+Canonical Sections 2.1–2.14 are available at [`Chapter 2`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level). `04_reference/Chapter_2_Preparation_Record.md` records production history and audit only. WP4 remains responsible for integrated lock review.
+
+---
+
+## Chapter 2 Provisional-Lock Handoff
+
+Canonical owner:
+
+- [`Chapter 2 — Frame, Granularity, and Relative Level`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level)
+
+Production-control history:
+
+- [`Chapter 2 Preparation and Execution Record`](Chapter_2_Preparation_Record.md)
+
+Formal mirror:
+
+- [`Operation Registry`](../07_model/Operation_Registry.yaml) — open Chapter 2 coordinate-and-scope handoff only;
+- [`Transformation Record Schema`](../07_model/Transformation_Record.schema.json) — existing nested paths, unchanged;
+- [`Formal Model Root`](../07_model/PMS-STRATA.yaml) — package registration and fingerprints only.
+
+Downstream owner routes:
+
+```text
+Chapter 2 coordinates and scopes
+→ Chapter 3 temporal grammar
+→ Chapter 4 operation identity
+→ Chapter 5 transformation context and continuity
+→ Chapter 6 admissibility
+→ Chapter 7 record fields
+→ Chapters 19/25 resolution procedures and outcomes
+→ Chapters 42–45 coordinate LIMITS
+→ Chapter 49 source and claim ceilings
+→ Chapter 52 Stop and Non-Capture
+```
+
+The ten `C2-*` duties recorded in the Preparation Record are future Case assignments. They are not existing Case files, evidence, or completed Case Index entries.
+
+---
+
+## Chapter 3 Preparation and WP1 Route
+
+| Chapter 3 preparation object | Primary control | Upstream dependency | Downstream handoff |
+| --- | --- | --- | --- |
+| configuration/state boundary | [Chapter 3 WP1](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | Chapter 1 object model | Chapter 5 continuity; PATH |
+| event/non-event/transition boundary | [Chapter 3 WP1](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | PMS `Λ`, Chapter 1 object eligibility | Chapters 9, 13, 14 |
+| sequence/path/trajectory burden chain | [Chapter 3 WP2](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | Chapters 1–2 and WP1 temporal objects | PATH Chapters 9–12 |
+| path dependence as property | [Chapter 3 §3.9](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | trajectory burden, supported counterfactual sensitivity, operator constraints | Chapter 12; LIMITS |
+| sedimentation/irreversibility | [Chapter 3 §§3.10–3.11](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | source-supported carriers and bounded restoration criterion | PATH, Appendix J, LIMITS |
+| unrealized alternatives | [Chapter 3 §3.12](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | source-supported availability and non-traversal | Chapter 13; cases |
+| Minimal Temporal Object Chain | [Chapter 3 §3.13](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | all Chapter 3 definitions and downgrade route | Chapter 4 and PATH |
+| production control | `04_reference/Chapter_3_Preparation_Record.md` | ZIP 68 preparation source; ZIP 69 WP1 source; ZIP 70 WP2 source; ZIP 71 WP3 source; ZIP 72 WP4 source | WP1–WP4 complete; provisional lock recorded |
+
+Current route status:
+
+```text
+Chapters 0–2 provisionally locked
+→ Chapter 3 Preparation Gate complete
+→ Chapter 3 provisionally locked
+→ Chapter 4 Preparation Gate complete
+→ Chapter 4 provisional lock complete; Chapter 5 Preparation Gate and WP1–WP2 complete; Chapter 5 WP3 next
+```
+
+The Preparation Record is a route and audit artifact, not a substitute for future canonical prose.
+
+
+
+## Chapter 3 WP1 Canonical Route
+
+```text
+Chapter 1 object-category eligibility
+→ Chapter 2 coordinate architecture
+→ Chapter 3 Sections 3.1–3.5
+   configuration / state / event / non-event / transition
+→ Chapter 3 WP2
+   sequence / path / trajectory
+→ Chapter 3 WP3
+   historical properties and minimal chain — canonical and locally audited
+```
+
+Canonical return: [`01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory`](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory). The Preparation Record supplies production history only.
+
+## Chapter 3 WP2 Canonical Route
+
+```text
+Chapter 3 WP1 temporal objects
+→ Section 3.6 sequence
+→ Section 3.7 path
+→ Section 3.8 trajectory
+→ Chapter 3 WP3 historical properties and Minimal Temporal Object Chain — canonical
+→ Chapter 3 WP4 integrated audit and lock decision
+→ PATH Chapters 9–12 operationalization
+```
+
+| WP2 object | Canonical return | Operational handoff | Boundary |
+| --- | --- | --- | --- |
+| sequence | [Chapter 3 §3.6](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | Chapter 9 | order does not establish traversal or cause |
+| path | [Chapter 3 §3.7](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | Chapter 10 and Chapter 15 | object burden does not complete `COMPOSE` |
+| trajectory | [Chapter 3 §3.8](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | Chapters 11–12 and RETYPE Chapters 31–33 | no automatic path dependence, teleology, or target function |
+
+The Preparation Record is execution history only and cannot replace these canonical definitions.
+
+## Chapter 3 WP3 Canonical Route
+
+```text
+Chapter 3 WP2 warranted trajectory
+→ Section 3.9 path dependence as separately tested property
+→ Section 3.10 sedimentation
+→ Section 3.11 bounded irreversibility
+→ Section 3.12 source-supported unrealized alternatives
+→ Section 3.13 Minimal Temporal Object Chain and downgrade ladder
+→ Chapter 3 WP4 integrated audit and provisional-lock decision
+→ PATH operational chapters
+```
+
+| WP3 object/property | Canonical return | Operational handoff | Boundary |
+| --- | --- | --- | --- |
+| path dependence | [Chapter 3 §3.9](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | Chapter 12 | property, not object class; no `Θ` or duration shortcut |
+| sedimentation | [Chapter 3 §3.10](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | Chapters 11–12 and Appendix J | requires carrier and later praxis effect |
+| bounded irreversibility | [Chapter 3 §3.11](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | PATH and LIMITS | restoration criterion required; no metaphysical absolute |
+| unrealized alternative | [Chapter 3 §3.12](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | Chapter 13 | availability must be source-supported |
+| Minimal Temporal Object Chain | [Chapter 3 §3.13](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | Chapter 4 and PATH | no automatic derivation, operation identity, or record schema |
+
+---
+
+## Chapter 3 Provisional-Lock Route
+
+Canonical temporal definitions now return to [`Chapter 3`](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory). `04_reference/Chapter_3_Preparation_Record.md` records the completed preparation and WP1–WP4 audit history. Chapter 4 is provisionally locked; the next production route is Chapter 5 preparation. PATH Chapters 9–13 may operationalize temporal objects and properties but must not create a competing definition layer.
+
+---
+
+## Chapter 4 Preparation Route
+
+| Route element | Current target | Boundary |
+| --- | --- | --- |
+| architecture and chapter obligations | `00_source/PMS-STRATA_Structure.md`; `05_minified/Chapter_Contracts.md` | blueprint and contract do not equal delivered prose |
+| production-control record | `04_reference/Chapter_4_Preparation_Record.md` | preparation record is not a theory source |
+| operation inventory and compact signatures | `05_minified/PMS_STRATA_Operation_Signatures_Minified.md`; `04_reference/Transformation_Operation_Index.md` | compact or reference control may not replace Chapter 4 prose |
+| source objects and coordinates | provisionally locked Chapters 1–3 | object and coordinate labels do not establish operation identity |
+| formal mirror | `07_model/Operation_Registry.yaml`; `07_model/Transformation_Record.schema.json` | registration and schema validity do not establish semantic adequacy |
+| next canonical destination | Chapter 4 WP4 integrated synchronization and lock | Sections 4.1–4.10 are canonical; WP4 changes prose only for demonstrated integration defects |
+
+```text
+Chapter 4 Preparation Record
+→ canonical Chapter 4 Sections 4.1–4.7
+→ Chapters 15 / 20 / 30 procedures
+→ Chapter 7 recording
+→ Chapter 8 non-equivalence audit
+→ LIMITS and integrated cases
+```
+
+Every downstream route must return to canonical Chapter 4 for operation identity and must not infer a fourth operation from a chain, coordinate movement, comparison, audit, or confusion case.
+
+---
+
+## Chapter 4 WP1 Canonical Routing
+
+```text
+Chapter 4 WP1 canonical prose
+→ explicit operation identity
+→ COMPOSE / DECOMPOSE / PROJECT_AS core signatures
+→ common-source-family positive and negative examples
+→ WP2 direction and chain architecture — canonical
+→ WP3 non-invertibility, confusion, and declaration
+```
+
+Primary return: [`01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as`](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as).
+
+The route now distinguishes canonical WP1–WP2 prose from the non-theory Preparation Record. Sections 4.8–4.10, Chapter 5 continuity, Chapter 7 recording, and Chapters 15/20/30 procedures remain downstream.
+
+---
+
+## Chapter 4 WP2 Direction and Chain Routing
+
+```text
+Chapter 4 WP1 signatures
+→ Section 4.5 transformation direction
+→ Section 4.6 operation / level relation
+→ Section 4.7 operation chains
+→ WP3 non-invertibility, confusion, and declaration
+```
+
+| WP2 concept | Canonical return | Required downstream handoff | Boundary |
+| --- | --- | --- | --- |
+| transformation direction | [Chapter 4 §4.5](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | Chapter 8 non-equivalence audit | no ontological, temporal, claim, or authority ascent |
+| operation / level relation | [Chapter 4 §4.6](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | Chapter 2 coordinates; Chapter 5 continuity | level tendency never defines operation identity |
+| operation chain | [Chapter 4 §4.7](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | Chapter 7 records; Chapters 15/20/30 procedures | every link is a separate occurrence and claim |
+| failure propagation | [Chapter 4 §4.7](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | Chapter 6 outputs; LIMITS | no inherited validity and no later-link rescue |
+
+The six required chain families are now canonically present. WP3 retains non-invertibility, integrated confusion, `C4-STOP-01`, `C4-NC-01`, and the Minimal Operation Declaration.
+
+---
+
+## Chapter 4 WP3 Non-Invertibility, Confusion, and Declaration Routing
+
+```text
+Chapter 4 core signatures and chains
+→ Section 4.8 non-invertibility
+→ Section 4.9 operation confusion
+→ Section 4.10 Minimal Operation Declaration
+→ WP4 integrated lock
+```
+
+| WP3 concept | Canonical return | Downstream handoff | Boundary |
+| --- | --- | --- | --- |
+| non-invertibility | [Chapter 4 §4.8](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | Chapters 15/20/30 procedure; LIMITS loss | no total-loss or metaphysical claim |
+| operation confusion | [Chapter 4 §4.9](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | Chapter 8 audit; Appendix I | no fourth operation or forced identity |
+| Minimal Operation Declaration | [Chapter 4 §4.10](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | Chapter 7 record | conceptual mapping only; no second schema |
+| collapsed chain stop | [Chapter 4 §4.9](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | Chapter 6 / LIMITS | separate occurrences before continuation |
+| unresolved identity non-capture | [Chapter 4 §4.9](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | Cases and re-entry evidence | protects neither rival strong claim |
+
+---
+
+## Chapter 4 Provisional-Lock Route
+
+Canonical operation definitions now return to [`Chapter 4`](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as). `04_reference/Chapter_4_Preparation_Record.md` records preparation and WP1–WP4 audit history. The Chapter 5 Preparation Gate and WP1 are complete; the next production route is Chapter 5 WP2. Chapters 15, 20, and 30 may operationalize the three operations but may not add a fourth core operation or competing signature definition.
+
+---
+
+## Chapter 5 Preparation Routing
+
+```text
+Chapter 1 source-object identity
++ Chapter 2 coordinates and scopes
++ Chapter 3 historical load
++ Chapter 4 operation identity
+→ Chapter 5 continuity and context preparation
+```
+
+Primary production-control file: `04_reference/Chapter_5_Preparation_Record.md`.
+
+| Prepared concept | Future canonical owner | Current compact control | Downstream operational owner |
+| --- | --- | --- | --- |
+| origin type | Chapter 5 | Chapter Contract; Canonical Minified | Chapters 29–30 |
+| target function | Chapter 5 | Operation Signatures Minified | Chapters 29–37 |
+| transformation context | Chapter 5 | Chapter Contract; Shared Record fields | Chapters 7 and 30 |
+| reference continuity | Chapter 5 | Canonical Minified | Chapter 47 |
+| type integrity / type continuity | Chapter 5 | Admissibility Band Minified | Chapters 6, 38, and 47 |
+| functional continuity | Chapter 5 | Canonical Minified | RETYPE and Chapter 47 |
+| temporal continuity | Chapter 5 | Canonical Minified | PATH, RETYPE, and Chapter 47 |
+| contextual boundedness | Chapter 5 | Admissibility Band Minified | Chapters 6, 30, 39, and 47 |
+
+Until canonical drafting, all Chapter 5 terminology returns to the Structure, Chapter Contract, minified controls, and this non-theory preparation record. The preparation route cannot substitute for the missing canonical anchor.
+
+---
+
+## Chapter 5 WP1 Cross-Reference Route
+
+```text
+Chapter 1 object identity and typing
+→ Chapter 2 coordinates and scopes
+→ Chapter 4 PROJECT_AS signature
+→ Chapter 5 §5.1 origin type
+→ Chapter 5 §5.2 target function
+→ Chapter 5 §5.3 target / transformation context
+→ Chapter 5 WP2 continuity criteria
+→ Chapter 6 admissibility
+→ Chapter 7 Shared Transformation Record
+```
+
+Canonical return: [`Chapter 5 WP1`](../01_blocks/01_foundations.md#chapter-5-origin-type-target-function-and-transformation-context).
+
+## Chapter 5 WP2 Continuity Cross-Reference Handoff
+
+| Chapter 5 WP2 concept | Canonical site | Upstream dependency | Downstream consumer | Boundary |
+| --- | --- | --- | --- | --- |
+| reference identity and continuity | Chapter 5 §5.4 | Chapter 1 object identity; Chapter 4 operation relation | Chapters 6, 7, 47 | same label is not continuity proof |
+| type integrity and continuity | Chapter 5 §5.5 | Chapter 1 typing; Chapter 4 `PROJECT_AS` signature | Chapters 6, 38, 47 | function does not replace origin type |
+| functional continuity | Chapter 5 §5.6 | Chapter 5 §§5.1–5.3 source/function/context | Chapters 6, 30, 47 | function must be source-sensitive |
+| mixed continuity findings | Chapter 5 §5.4–5.6 | canonical Output Classes | Chapters 6 and 47 | one passing dimension does not compensate for another failure |
+| temporal continuity and contextual boundedness | Chapter 5 §§5.7–5.9 | Chapters 2–3 | Chapters 6, 30, 47 | canonical; Chapter 5 provisionally locked |
+
+Canonical return: [`Chapter 5`](../01_blocks/01_foundations.md#chapter-5-origin-type-target-function-and-transformation-context).
+
+## Chapter 5 WP3 Temporal and Contextual Cross-Reference Handoff
+
+| Chapter 5 WP3 control | Upstream dependency | Downstream consumer | Boundary |
+| --- | --- | --- | --- |
+| Temporal Continuity | Chapters 2–3 temporal objects and scopes | Chapters 6, 31–35, 47 | not exhaustive chronology or timeless identity |
+| Contextual Boundedness | Chapter 2 scopes; Chapter 5 target and transformation contexts | Chapters 6, 29–38, 49, 57 | no automatic context or authority transfer |
+| four-dimension continuity matrix | Chapter 5 §§5.4–5.7 | Chapters 6–7 and 47 | dimensions remain non-compensatory |
+| Minimal Projection Form | Chapters 2 and 4 minimal declarations; existing record paths | Chapter 7 and RETYPE | conceptual mapping, not second schema |
+| Stop and Non-Capture pressure | Chapters 0 and 4 | Chapters 51–53 | weak claims remain unprotected |
+
+Canonical return: [`Chapter 5`](../01_blocks/01_foundations.md#chapter-5-origin-type-target-function-and-transformation-context). WP4 owns integrated synchronization and provisional lock.
+
+---
+
+## Chapter 5 Canonical Route and Provisional Lock
+
+Canonical Sections 5.1–5.9 are available at [`Chapter 5`](../01_blocks/01_foundations.md#chapter-5-origin-type-target-function-and-transformation-context). `04_reference/Chapter_5_Preparation_Record.md` records preparation, WP1–WP4 execution, fifteen later case duties, Formal Model handoff, integrated audit, and provisional-lock rationale. It is not a second theory source.
+
+```text
+Chapter 1 object identity
+→ Chapter 5 transformation continuity
+→ Chapter 6 integrated admissibility
+→ Chapter 7 record serialization
+```
+
+## Chapter 6 Preparation Cross-Reference Route
+
+```text
+Chapter 0
+→ claim and authority ceiling
+
+Chapters 1–5
+→ object, coordinate, temporal, operation,
+  context, and continuity burdens
+
+Chapter 6
+→ Relevance Floor / Traceability Ceiling
+→ PraxisPurchase / TraceableLoad
+→ Counterfactual Sensitivity
+→ non-compensatory unified test
+→ No Universal STRATA Scale
+
+Chapter 7
+→ records the test declarations and results
+
+Chapter 8
+→ indexes the governing non-equivalences
+
+Chapters 44–53
+→ expand and integrate the same band under LIMITS
+```
+
+Primary controls: [`Admissibility Band Reference`](Admissibility_Band_Reference.md) and [`Chapter 6 Preparation Record`](Chapter_6_Preparation_Record.md).
+
+---
+
+## Chapter 6 WP1 Cross-Reference Route
+
+```text
+Chapter 1 object identity
++ Chapter 2 coordinates and scopes
++ Chapter 3 temporal burdens
++ Chapter 4 operation occurrence
++ Chapter 5 continuity and context
+→ Chapter 6 §6.1 operating range
+→ §6.2 Relevance Floor / PraxisPurchase
+→ §6.3 praxis-relevant dimensions
+→ §6.4 gain / neutrality / below-floor Stop pressure
+→ Chapter 6 WP2 upper-bound source-load tests
+→ Chapter 7 record serialization
+```
+
+Canonical return: [`Chapter 6 WP1`](../01_blocks/01_foundations.md#chapter-6-the-strata-admissibility-band).
+
+---
+
+## Chapter 6 WP2 Canonical Cross-Reference Route
+
+```text
+Chapter 6 §6.5
+→ Praxeological Traceability Ceiling
+
+Chapter 6 §6.6
+→ TraceableLoad
+→ source citation ≠ mapping ≠ dependency
+
+Chapter 6 §6.7
+→ abstraction / fragmentation / projection without load
+
+Chapter 6 §6.8
+→ Counterfactual Sensitivity
+→ sensitive / partial / insensitive / underdetermined / not testable
+```
+
+Primary canonical return: [`Chapter 6`](../01_blocks/01_foundations.md#chapter-6-the-strata-admissibility-band). Production history: [`Chapter 6 Preparation Record`](Chapter_6_Preparation_Record.md).
+
+---
+
+## Chapter 6 WP3 Canonical Cross-Reference Route
+
+```text
+Chapter 6 §6.9
+→ Type Integrity handoff
+→ semantic attraction ≠ operator identity
+
+Chapter 6 §6.10
+→ Reference Continuity handoff
+→ citation or same name ≠ same referent
+
+Chapter 6 §6.11
+→ unified conjunctive test
+→ non-compensation
+→ claim segmentation and reduction
+
+Chapter 6 §6.12
+→ below / within / above band
+→ ten-class routing boundary
+→ Stop and Non-Capture
+
+Chapter 6 §6.13
+→ No Universal STRATA Scale
+→ bounded local comparison remains possible
+```
+
+Primary canonical return: [`Chapter 6`](../01_blocks/01_foundations.md#chapter-6-the-strata-admissibility-band). Production history: [`Chapter 6 Preparation Record`](Chapter_6_Preparation_Record.md).
+
+---
+
+## Chapter 6 Provisional-Lock Route
+
+Primary canonical return: [`Chapter 6`](../01_blocks/01_foundations.md#chapter-6-the-strata-admissibility-band).
+
+Production and audit history: [`Chapter 6 Preparation and Execution Record`](Chapter_6_Preparation_Record.md).
+
+Formal mirror: [`Admissibility Rules`](../07_model/Admissibility_Rules.yaml), including the open `chapter_6_admissibility_band_handoff`.
+
+Downstream ownership remains with Chapter 7 for record serialization, Chapter 8 for Foundational Non-Equivalences, Chapters 44–53 for expanded LIMITS procedure, `03_cases/*` for produced cases, and model finalization for any justified schema revision.
+
+---
+
+## Chapter 7 Preparation Cross-Reference Route
+
+```text
+PMS.yaml
+→ Chapters 0–6 under provisional lock
+→ Chapter 7 contract and Structure blueprint
+→ Chapter 7 Preparation Record
+→ future canonical Sections 7.1–7.10
+→ Appendix C and operation-specific templates
+→ Transformation Record schema as mirror
+→ cases and Integrated STRATA Audit
+```
+
+Current route:
+
+| Need | Current controlled source | Future canonical return |
+| --- | --- | --- |
+| shared record purpose and boundary | `05_minified/Chapter_Contracts.md`; `04_reference/Chapter_7_Preparation_Record.md` | Chapter 7 §7.1 |
+| Source Declaration | Structure §7.2; Preparation Record | Chapter 7 §7.2 |
+| Operation Declaration | Chapter 4; Structure §7.3; Preparation Record | Chapter 7 §7.3 |
+| Target Declaration | Chapters 1, 2, and 5; Structure §7.4 | Chapter 7 §7.4 |
+| Admissibility Declaration | Chapter 6; Structure §7.5 | Chapter 7 §7.5 |
+| Loss Declaration | Structure §7.6; current schema mirror | Chapter 7 §7.6 |
+| alternatives and non-translation | Structure §7.7; Preparation Record | Chapter 7 §7.7 |
+| governance and authority boundary | Chapter 0; Structure §7.8 | Chapter 7 §7.8 |
+| separated status/result axes | Structure §7.9; Claim and Output indexes | Chapter 7 §7.9 |
+| chains, extensions, local/integrated use | Chapters 4 and 7 contract; current schema mirror | Chapter 7 §7.10 |
+
+No canonical Chapter 7 anchor is claimed at the Preparation Gate. The existing schema is a comparison and implementation artifact, not the return authority.
+
+---
+
+## Chapter 7 WP1 Cross-Reference Synchronization
+
+| Chapter 7 WP1 duty | Upstream owner | Current canonical route | Formal carrier candidate | Later handoff |
+| --- | --- | --- | --- | --- |
+| record boundary | Chapters 0 and 7 | [§7.1](../01_blocks/01_foundations.md#chapter-7-shared-transformation-record) | root record identity and metadata | Appendix C |
+| source reference and typing | Chapters 1–3 | §7.2 | `/source/reference_object`, `/source/object_typing` | cases and operation templates |
+| source coordinates and scopes | Chapter 2 | §7.2 | `/source/frame`, `/source/granularity`, `/source/relative_level`, scopes | Parts and operation templates |
+| Source Basis and Constitutive Source Trace | Chapters 5–6 | §7.2 | `/source/source_basis`, `/source/constitutive_source_trace` | admissibility audit |
+| occurrence identity and operation kind | Chapter 4 | §7.3 | `/operation/occurrence_id`, `/operation/kind` | chain architecture in WP3 |
+| selection and transformation context | Chapters 4–5 | §7.3 | `/operation/selection_rule`, `/operation/transformation_context` | operation chapters |
+| target reference, typing, and function | Chapters 1, 4, 5 | §7.4 | `/target/*` | continuity and operation templates |
+
+The schema paths are implementation carriers and do not replace the canonical prose.
+
+---
+
+## Chapter 7 WP2 Cross-Reference Synchronization
+
+| Duty | Canonical owner | Consumed upstream source | Current formal carrier |
+| --- | --- | --- | --- |
+| Admissibility Declaration | Chapter 7 §7.5 | Chapters 5–6 | `/admissibility/*` plus Source, Target, and Claim pointers |
+| five-part Loss Declaration | Chapter 7 §7.6 | Chapters 4–6 operation and continuity burdens | `/loss/preserved`, `/compressed`, `/excluded`, `/uncertain`, `/irrecoverable` |
+| Alternatives Declaration | Chapter 7 §7.7 | Chapter 4 operation closure and Chapters 5–6 boundaries | `/alternatives/*` |
+| Governance Declaration | Chapter 7 §7.8 | Chapter 0 Claim/Authority boundary and Chapters 5–6 Stop/Non-Capture | `/claim/claim_ceiling`, `/admissibility/*assessment`, `/governance/*` |
+
+Canonical return: [Chapter 7](../01_blocks/01_foundations.md#chapter-7-shared-transformation-record). Sections 7.9–7.10 remain pending WP3.
+
+---
+
+## Chapter 7 WP3 Cross-Reference Synchronization
+
+| WP3 concept | Canonical site | Upstream owner | Downstream handoff |
+| --- | --- | --- | --- |
+| separated status axes | Chapter 7 §7.9 | Chapters 0, 5, and 6 | Output Class Index, schema, cases |
+| routed versus formal diagnostic | Chapter 7 §7.9 | Chapter 6 routing boundary | Decision Tree and record schema |
+| claim-relative capture | Chapter 7 §7.9 | Chapter 0 Stop/Non-Capture boundary | cases and integrated audit |
+| operation chains | Chapter 7 §7.10 | Chapter 4 chain semantics | operation-specific records and cases |
+| local extensions | Chapter 7 §7.10 | Chapter Contracts and Part ownership | Appendices D–F and later Parts |
+| integrated use | Chapter 7 §7.10 | Chapters 0–6 | Integrated STRATA Audit |
+
+Canonical return: [Chapter 7](../01_blocks/01_foundations.md#chapter-7-shared-transformation-record). Chapter 7 is theoretically complete through §7.10; WP4 remains pending.
+
+---
+
+## Chapter 7 WP4 Provisional-Lock Synchronization
+
+Chapter 7 is provisionally locked after integrated ownership, redundancy, status, case-duty, prose-to-schema, link, schema, fingerprint, package, and roundtrip audit. The Shared Transformation Record records transformation claims without becoming the transformation, a truth proof, or an authority source. The existing record schema supplies lower-authority structural carriers; its Chapter-7 handoff annotation does not redefine canonical prose. The sixteen Chapter-7 case identifiers remain later production duties rather than completed evidence. Canonical return: [Chapter 7](../01_blocks/01_foundations.md#chapter-7-shared-transformation-record).
+
+---
+
+## Chapter 8 Preparation Cross-Reference Synchronization
+
+| Chapter 8 cluster | Primary definition returns | Preparation route | Later specialist handoff |
+| --- | --- | --- | --- |
+| granularity, relative level, composition, decomposition | Chapters 0, 2, 4, and 6 | [`Chapter 8 Preparation Record`](Chapter_8_Preparation_Record.md) | SUB and LIMITS |
+| sequence, path, trajectory, path dependence | Chapter 3 | Chapter 8 Preparation Record | PATH Chapters 9–14 |
+| origin type, target function, projection, operator identity, weighting | PMS Base and Chapters 1, 4, and 5 | Chapter 8 Preparation Record | RETYPE Chapters 29–35 |
+| analogy, recursion, legibility, authority | Chapters 0, 5, 6, and 7 | Chapter 8 Preparation Record | RETYPE, LIMITS, Cases, Appendices H–K |
+
+The Non-Equivalence Index is the current reference catalogue. It remains subordinate to future canonical Chapter-8 prose and may not create parallel pair definitions. No Chapter-8 block anchor exists yet.
+
+---
+
+## Chapter 8 WP1 Canonical Return Map
+
+| WP1 pair | Canonical Chapter-8 site | Primary definition returns |
+| --- | --- | --- |
+| finer granularity ≠ higher truth | [Section 8.1](../01_blocks/01_foundations.md#81-finer-granularity-is-not-higher-truth) | Chapters 0, 2, 6 |
+| relative level ≠ ontological layer | [Section 8.2](../01_blocks/01_foundations.md#82-relative-level-is-not-ontological-layer) | Chapters 0, 1, 2, 4 |
+| composition ≠ lossless addition | [Section 8.3](../01_blocks/01_foundations.md#83-composition-is-not-lossless-addition) | Chapters 1, 4, 6, 7 |
+| decomposition ≠ discovery of final constituents | [Section 8.4](../01_blocks/01_foundations.md#84-decomposition-is-not-discovery-of-final-constituents) | Chapters 1, 2, 4, 6, 7 |
+
+Chapter 8 owns the audit statement and contrast form. The returned chapters retain the definitions of the paired terms.
+
+---
+
+## Chapter 8 WP2 Canonical Return Map
+
+| WP2 pair | Canonical Chapter-8 site | Primary definition returns |
+| --- | --- | --- |
+| path ≠ sequence | [Section 8.5](../01_blocks/01_foundations.md#85-path-is-not-sequence) | Chapters 1, 2, 3, 4, 6, 7 |
+| path ≠ trajectory | [Section 8.6](../01_blocks/01_foundations.md#86-path-is-not-trajectory) | Chapters 3, 5, 6, 7 |
+| trajectory ≠ path dependence | [Section 8.7](../01_blocks/01_foundations.md#87-trajectory-is-not-path-dependence) | Chapters 3, 5, 6, 7 |
+| origin type ≠ target function | [Section 8.8](../01_blocks/01_foundations.md#88-origin-type-is-not-target-function) | Chapters 1, 4, 5, 6, 7 |
+| projection ≠ operator identity | [Section 8.9](../01_blocks/01_foundations.md#89-projection-is-not-operator-identity) | PMS Base; Chapters 0, 1, 4, 5, 7 |
+| operator weighting ≠ operator replacement | [Section 8.10](../01_blocks/01_foundations.md#810-operator-weighting-is-not-operator-replacement) | PMS Base; Chapters 0, 1, 2, 5, 6, 7; later Chapter 35 |
+
+Chapter 8 owns the audit statement and contrast form. The returned sources retain definitions and procedures.
+
+---
+
+## Chapter 8 WP3 Canonical Return Map
+
+| WP3 pair or integration duty | Canonical Chapter-8 site | Primary definition returns |
+| --- | --- | --- |
+| structural analogy ≠ valid projection | [Section 8.11](../01_blocks/01_foundations.md#811-structural-analogy-is-not-valid-projection) | Chapters 0, 1, 2, 4, 5, 6, 7; later RETYPE |
+| recursion ≠ completeness | [Section 8.12](../01_blocks/01_foundations.md#812-recursion-is-not-completeness) | Chapters 0, 1, 2, 4, 5, 6, 7; later LIMITS |
+| legibility ≠ authority | [Section 8.13](../01_blocks/01_foundations.md#813-legibility-is-not-authority) | PMS Base; Chapters 0, 2, 5, 6, 7; later Integrated Audit and LIMITS |
+| integrated thirteen-pair matrix | [Section 8.13 matrix](../01_blocks/01_foundations.md#integrated-thirteen-pair-comparison-matrix) | PMS Base and Chapters 0–7 |
+| integrated catalogue use | [Section 8.13 catalogue use](../01_blocks/01_foundations.md#integrated-catalogue-use) | Chapters 6–7 for routing, Stop, Non-Capture, and records |
+
+Chapter 8 owns the compact audit contrasts. The returned sources retain definitions, operation procedures, admissibility, routing, and authority control.
+
+---
+
+## Chapter 8 WP4 Canonical Lock and PATH Handoff
+
+Canonical Chapter 8 is [provisionally locked](../01_blocks/01_foundations.md#chapter-8-integrated-completion-and-foundations-provisional-lock). Its thirteen pairs return to Chapters 0–7 and PMS Base; its integrated matrix and catalogue use remain audit navigation rather than a replacement definition layer.
+
+The bounded Formal-Model mirror is `07_model/Boundary_Decision_Tree.yaml#chapter_8_foundational_non_equivalence_handoff`. The handoff adds no route, Rule, operation, Output Class, or automatic semantic inference.
+
+Foundations Chapters 0–8 are provisionally complete. The next production route is Chapter 9 Preparation in Part I — PATH.
+
+---
+
+## Chapter 9 Preparation Route
+
+| Duty | Governing source | Chapter 9 destination | Boundary return |
+| --- | --- | --- | --- |
+| temporal object definitions | [Chapter 3](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) | operational transition use | no redefinition |
+| frame and temporal scope | [Chapter 2](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | temporal-position and comparison declarations | no unmarked frame change |
+| `Θ`, `Λ`, `Φ` | `PMS.yaml` and [`Operator Index`](Operator_Index.md) | bounded operator-occurrence references | no operator retyping |
+| transition versus operation | [Chapter 4](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | transition record handoff | no fourth operation |
+| continuity and recontextualization | [Chapter 5](../01_blocks/01_foundations.md#chapter-5-origin-type-target-function-and-continuity) | preservation of prior trace | no retroactive erasure |
+| admissibility and routing | [Chapter 6](../01_blocks/01_foundations.md#chapter-6-the-strata-admissibility-band) | transition passage/failure pressure | no temporal score |
+| record architecture | [Chapter 7](../01_blocks/01_foundations.md#chapter-7-shared-transformation-record) | minimal transition declaration | record completion ≠ transition truth |
+| non-equivalence audit | [Chapter 8](../01_blocks/01_foundations.md#chapter-8-foundational-non-equivalences) | PATH-entry confusion control | no category laundering |
+| path formation | Chapter 10, pending | receives warranted transitions | no path composition in Chapter 9 |
+
+Production-control route: [`Chapter 9 Preparation Record`](Chapter_9_Preparation_Record.md). Canonical Chapter 9 remains pending.
+
+---
+
+## Chapter 9 WP1 Canonical Route
+
+| WP1 concept | Primary return | Canonical route | Deferred handoff |
+| --- | --- | --- | --- |
+| PATH purpose | Chapter 0 boundary; Chapters 3–4 | [§9.1](../01_blocks/02_part_i_path.md#9-1-purpose-of-path) | path formation Chapter 10; `COMPOSE` Chapter 15; function RETYPE |
+| `Θ` temporal structuring | `PMS.yaml`; Chapters 1 and 3 | [§9.2](../01_blocks/02_part_i_path.md#9-2-theta-as-temporal-structuring) | duration through transition in §§9.5–9.12 |
+| temporal position | Chapters 2–3 | [§9.3](../01_blocks/02_part_i_path.md#9-3-temporal-position) | transition comparison in §§9.10–9.12 |
+| order dependence | Chapters 3, 6, and 8 | [§9.4](../01_blocks/02_part_i_path.md#9-4-order-dependence) | later path-dependence test Chapter 12 |
+| five WP1 pressure cases | Preparation Record assignments | §§9.1–9.4 | later `03_cases/*` production |
+
+WP1 supplies bounded temporal-position and order-sensitive findings. It does not supply a path or operation result.
+
+---
+
+## Chapter 9 WP2 Canonical Route
+
+| Concept | Primary return | Canonical route | Deferred handoff |
+| --- | --- | --- | --- |
+| duration | Chapters 2–3; Chapter 6 | [§9.5](../01_blocks/02_part_i_path.md#9-5-duration) | transition test §9.10 |
+| delay | Chapter 3 non-event; `Λ` in PMS Base | [§9.6](../01_blocks/02_part_i_path.md#9-6-delay) | branches/delays Chapter 13 |
+| persistence | Chapter 3 temporal objects | [§9.7](../01_blocks/02_part_i_path.md#9-7-persistence) | sedimentation Chapter 12 |
+| bounded irreversibility | Chapter 3 §3.11 | [§9.8](../01_blocks/02_part_i_path.md#9-8-irreversibility) | PATH boundaries Chapter 16 |
+| temporal recontextualization | Chapter 5 continuity; `Φ` boundary | [§9.9](../01_blocks/02_part_i_path.md#9-9-temporal-recontextualization) | RETYPE only through separate claim |
+
+---
+
+## Chapter 9 WP3 Canonical Route
+
+- Transition preconditions: [`§9.10`](../01_blocks/02_part_i_path.md#9-10-transition-preconditions)
+- Transition structure and Shared Record mapping: [`§9.11`](../01_blocks/02_part_i_path.md#9-11-transition-structure)
+- Transition failure, routing, and Chapter 10 handoff: [`§9.12`](../01_blocks/02_part_i_path.md#9-12-transition-failure)
+- Primary transition object definition: [Chapter 3](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory)
+- Shared Record ownership: [Chapter 7](../01_blocks/01_foundations.md#chapter-7-shared-transformation-record)
+- Non-equivalence returns: [Chapter 8](../01_blocks/01_foundations.md#chapter-8-foundational-non-equivalences)
+- Production control: [`Chapter 9 Preparation Record`](Chapter_9_Preparation_Record.md)
+
+Chapter 10 path formation and Chapter 15 `COMPOSE` remain pending.
+
+
+## Chapter 9 Provisional-Lock Handoff
+
+| From | To | Controlled handoff |
+| --- | --- | --- |
+| Chapter 3 | Chapter 9 | temporal-object definitions → operational transition tests |
+| Chapters 5–7 | Chapter 9 | continuity, admissibility, and Shared Record carriers |
+| Chapter 8 | Chapter 9 | non-equivalence guards for sequence, path, trajectory, function, and authority |
+| Chapter 9 | Chapter 10 | individually warranted transition records without Path identity |
+| Chapter 9 | Admissibility Rules | prose-owned non-routing transition-gate mirror |
+
+Chapter 9 is provisionally locked. The next production route is [`Chapter 10 — Preparation`](../05_minified/Chapter_Contracts.md#chapter-10-path).
+
+---
+
+## Chapter 10 Preparation Route
+
+| Duty | Governing source | Chapter 10 destination | Boundary return |
+| --- | --- | --- | --- |
+| core path object and actual traversal | [Chapter 3 §3.7](../01_blocks/01_foundations.md#37-path) | operational path threshold | no redefinition or automatic trajectory |
+| analytical coordinates | [Chapter 2](../01_blocks/01_foundations.md#2-frame-granularity-and-relative-level) | path frame, periodization, comparison basis | no unmarked coordinate change |
+| transition inputs | [Chapter 9](../01_blocks/02_part_i_path.md#chapter-9-temporal-order-and-transition) | path components and traversal chain | transition set ≠ path automatically |
+| continuity and boundedness | [Chapter 5](../01_blocks/01_foundations.md#5-origin-type-target-function-and-transformation-context) | reference/path identity and frame handoff | no endpoint or frame substitution |
+| admissibility and routing | [Chapter 6](../01_blocks/01_foundations.md#6-the-strata-admissibility-band) | path passage, failure, Stop, Non-Capture | no narrative or evidence score |
+| Shared Record | [Chapter 7](../01_blocks/01_foundations.md#7-shared-transformation-record) | minimal path carrier | record completeness ≠ path truth |
+| non-equivalence control | [Chapter 8](../01_blocks/01_foundations.md#8-foundational-non-equivalences) | chronology/path, path/trajectory, legibility/authority guards | no category laundering |
+| trajectory formation | Chapter 11, pending | receives warranted path object | no sedimentation claim in Chapter 10 |
+| full `COMPOSE` procedure | Chapter 15, pending | later operation occurrence | path-object burden ≠ completed operation |
+
+Production-control route: [`Chapter 10 Preparation Record`](Chapter_10_Preparation_Record.md). Canonical Chapter 10 remains pending.
+
+---
+
+## Chapter 10 WP1 Canonical Route
+
+| WP1 concept | Primary return | Canonical route | Deferred handoff |
+| --- | --- | --- | --- |
+| path threshold | Chapters 3 and 9 | [§10.1](../01_blocks/02_part_i_path.md#10-1-definition-of-path) | status §§10.7–10.10; trajectory Chapter 11 |
+| chronology/sequence/path | Chapters 3 and 9 | [§10.2](../01_blocks/02_part_i_path.md#10-2-path-versus-chronology) | comparison §§10.11–10.12 |
+| components | Chapter 9 transition records | [§10.3](../01_blocks/02_part_i_path.md#10-3-path-components) | branch ontology Chapter 13 |
+| selection and loss | Chapters 6–8 | [§10.4](../01_blocks/02_part_i_path.md#10-4-path-selection) | full `COMPOSE` procedure Chapter 15 |
+| path frame | Chapter 2 coordinates | [§10.5](../01_blocks/02_part_i_path.md#10-5-path-frame) | boundary audit Chapter 16 |
+| path evidence | Chapters 6–7 and Chapter 9 | [§10.6](../01_blocks/02_part_i_path.md#10-6-path-evidence) | full record §10.14 and Chapter 15 |
+| six WP1 pressure cases | Chapter 10 Preparation assignments | §§10.1–10.6 | later `03_cases/*` production |
+
+WP1 supplies bounded path-threshold and evidence findings. It does not supply a trajectory, dependence result, or operation occurrence.
+
+---
+
+## Chapter 10 WP2 Canonical Route
+
+| WP2 concept | Dependency return | Canonical route | Protected later owner |
+| --- | --- | --- | --- |
+| realized path and open endpoint | Chapter 10 §§10.1–10.6 | [§10.7](../01_blocks/02_part_i_path.md#10-7-realized-path) | trajectory Chapter 11 |
+| blocked continuation | Chapter 9 transition/non-event controls and Chapter 10 traversal | [§10.8](../01_blocks/02_part_i_path.md#10-8-blocked-path) | branch ontology/source discipline Chapter 13 |
+| aborted path and residue | Chapter 9 transition/failure and Chapter 10 path components | [§10.9](../01_blocks/02_part_i_path.md#10-9-aborted-path) | sedimentation Chapter 11; dependence Chapter 12 |
+| deferred continuation | Chapter 9 delay and Chapter 10 path frame | [§10.10](../01_blocks/02_part_i_path.md#10-10-deferred-path) | alternatives Chapter 13 |
+| status lineage and Path Identity | Chapter 10 §10.5 | [WP2 completion boundary](../01_blocks/02_part_i_path.md#10-10-deferred-path) | full record §§10.14 and Chapter 7 |
+
+Sections 10.11–10.14 remain pending.
+
