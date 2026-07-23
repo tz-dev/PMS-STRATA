@@ -1,11 +1,11 @@
 artifact:
   id: pms_strata_admissibility_rules
   title: PMS-STRATA Admissibility Rules
-  version: 0.1.4
+  version: 0.1.39
   status: formal_model_v0_provisional
   build_step: 3
-  artifact_role: Machine-readable formalization of the sixteen canonical STRATA admissibility checks, controlled local
-    result vocabularies, non-compensation, governance triggers, and formal handoffs.
+  artifact_role: Machine-readable formalization of the sixteen canonical STRATA admissibility checks, controlled
+    local result vocabularies, non-compensation, governance triggers, and formal handoffs.
   registered_scope:
   - semantics of the sixteen canonical admissibility checks
   - explicitly controlled local result vocabularies
@@ -16,7 +16,124 @@ artifact:
   - formal-model and cross-artifact ownership boundaries
   - open Chapter 6 Admissibility Band, non-compensation, counterfactual-load, routing-boundary, and no-universal-scale
     handoff
-  - bounded Chapter 9 temporal-order and transition-gate handoff without automatic transition, path, causal, or routing inference
+  - bounded Chapter 9 temporal-order and transition-gate handoff without automatic transition, path, causal, or
+    routing inference
+  - bounded Chapter 10 Path-gate, qualified-status, comparison, and Chapter 11 handoff without automatic Path, Trajectory,
+    status, causal, or routing inference
+  - bounded Chapter 11 WP1 Trajectory-threshold, Historical-Sedimentation, and anti-teleology handoff without automatic
+    Trajectory, Path-Dependence, causal, functional, or routing inference
+  - bounded Chapter 11 WP2 operator-profile and Changed-Action-Corridor handoff without operator fusion, score,
+    automatic accumulation, Path-Dependence, functional, or routing inference
+  - bounded Chapter 11 WP3 Trajectory-Boundary, Compression, competing-construction, False-Trajectory, and Minimal-Record
+    handoff without automatic periodization, adjudication, Path-Dependence, functional, or routing inference
+  - bounded Chapter 11 provisional-lock handoff consolidating Trajectory threshold, sedimentation profiles, corridors,
+    boundary, compression, competition, False Trajectory, Minimal Record, and Chapter 12 separation without automatic
+    Trajectory, Path-Dependence, operation, function, or routing inference
+  - bounded Chapter 12 WP1 property, dependence-gradient, historical-indispensability, current-state-sufficiency,
+    approximately-held-present, Theta-insufficiency, and failure-preservation handoff without automatic dependence,
+    causal, predictive, functional, or routing inference
+  - bounded Chapter 12 WP2 Attractor-, Asymmetry-, Binding-, and Residual-Dependence profile handoff with sedimentation/dependence
+    separation, current-state pressure, profile interaction, non-compensation, no score, and no all-profile requirement
+    without automatic dependence, causal, predictive, functional, or routing inference
+  - bounded Chapter 12 WP3 recontextualization, modifier, non-determinism, complete property-test, failure, record,
+    Stop, and Non-Capture handoff without automatic reset, erasure, dependence, causal, predictive, functional,
+    or routing inference
+  - bounded Chapter 12 provisional-lock handoff consolidating property gradient, dependence profiles, current-state
+    sufficiency, historical omission, source-bounded alternative history, modifier/no-reset, non-determinism, complete
+    property test, failure, record, Stop, Non-Capture, and Chapter 13 separation without automatic dependence, causal,
+    predictive, functional, alternative-space, or routing inference
+  - bounded Chapter 13 Preparation-Gate handoff fixing historical availability, temporal windows, branch-status
+    distinctions, source-bounded counterfactuals, alternative-space compression, Shared-Record ownership, Stop,
+    Non-Capture, and Chapter 14/15/46 separation without automatic branch, possibility, causal, predictive, functional,
+    or routing inference
+  - bounded Chapter 13 WP1 alternative-space, historical-availability, Branch-Point, Realized-Branch, and Rejected-Branch
+    handoff without automatic status, rationality, causal, predictive, functional, or routing inference
+  - bounded Chapter 13 WP2 Blocked-, Aborted-, Deferred-, and Lost-Alternative handoff with earlier-availability,
+    prevention, initiation, interruption, deferral, later-reachability, loss-transition, status/cause, and canonical-Loss
+    separation without automatic status, impossibility, continuity, causal, normative, functional, or routing inference
+  - bounded Chapter 13 provisional-lock handoff consolidating historical availability, branch taxonomy, status/mechanism
+    separation, counterfactual horizon, Non-Selection, alternative-space compression, owner-bound Record extension,
+    Failure, Stop, Non-Capture, and Chapter 14/15/46 separation without automatic status, possibility, causal, predictive,
+    non-event, operational, functional, or routing inference
+  - bounded Chapter 14 Preparation-Gate handoff fixing expectation relation, frame, bounded window, source-supported
+    non-realization, PATH-specific delay, repeated Non-Decision, blocked responsibility, missing repair, missing
+    exit, sedimentation, preservation, false Non-Event, record, Stop, Non-Capture, and Chapter 15/23/49 separation
+    without automatic expectation, non-occurrence, blame, operational, functional, or routing inference
+  - bounded Chapter 14 WP1 PATH-specific Non-Event, expectation/frame/window/source, positive-sub-event, and Delay
+    handoff without automatic expectation, non-realization, intention, blame, sedimentation, operational, functional,
+    or routing inference
+  - bounded Chapter 14 WP2 Repeated-Non-Decision, Blocked-Responsibility, Missing-Repair, Missing-Exit, and Non-Event-Sedimentation
+    handoff without automatic repetition, blockage, motive, blame, sedimentation, Path-Dependence, operational,
+    functional, or routing inference
+  - bounded Chapter 14 WP3 Λ-preservation, False-Non-Event, Minimal-Non-Event-Record extension, reduction, Stop,
+    Non-Capture, and operation-owner handoff without automatic expectation, non-realization, semantic-validity,
+    operational, functional, output-class, or authority inference
+  - bounded Chapter 14 provisional-lock handoff consolidating expectation-grounded PATH-specific non-events, frame
+    and window support, positive sub-events, delay, repeated non-decision, blocked responsibility, missing repair,
+    missing exit, sedimentation, composition preservation, false non-event, owner-bound Record extension, Failure,
+    Stop, Non-Capture, and Chapter 15/23/49 separation without automatic expectation, non-realization, lambda, person,
+    operational, functional, or routing inference
+  - bounded Chapter 15 Preparation-Gate handoff fixing complete PATH-specific COMPOSE ownership, typed sources and
+    target composites, conjunctive preconditions, selection/order/frame/formation separation, constitutive trace,
+    five-part Loss, claim segmentation, counterfactual sensitivity, overelasticity, no-retyping, Stop, Non-Capture,
+    and Chapter 16/17/SUB/RETYPE separation without automatic formation, target-class, functional, causal, predictive,
+    or routing inference
+  - bounded Chapter 15 WP1 COMPOSE-purpose, conjunctive-entry, typed-source, source-boundary, selection, temporal-order,
+    composition-frame, no-composition, and competing-composition handoff without automatic formation, constitutive-status,
+    target-class, loss, functional, causal, predictive, normative, or routing inference
+  - bounded Chapter 15 WP2 Formation-Rule, target-threshold, constitutive-relation, preservation, compression, exclusion,
+    uncertainty, irrecoverable-loss, and canonical-five-part-Loss handoff without automatic formation, target-class,
+    operation-success, functional, causal, predictive, normative, or routing inference
+  - bounded Chapter 15 WP3 composition-claim, no-retyping, Counterfactual-Sensitivity, overelasticity, failure,
+    reduction, Shared-Record, Stop, and Non-Capture handoff without automatic formation, constitutive-status, causal,
+    functional, output-class, authority, or routing inference
+  - bounded Chapter 15 provisional-lock handoff consolidating typed source and target objects, selection, ordering,
+    composition frame, Formation Rule, constitutive relations, preservation, canonical five-part Loss, claim segmentation,
+    no-retyping, counterfactual sensitivity, overelasticity, failure, reduction, Shared Record, Stop, Non-Capture,
+    and Chapter 16/17/24/48/RETYPE separation without automatic formation, operation-success, functional, causal,
+    output-routing, or authority inference
+  - bounded Chapter 16 Preparation-Gate handoff localizing the existing Relevance Floor and Traceability Ceiling
+    to PATH, chronology, Trajectory trace, temporal compression, directionality, teleology, omitted Lambda/Omega
+    load, PATH/SUB/RETYPE separation, Claim Reduction, Stop, Non-Capture, and Chapter 17 case duties without new
+    rules, vocabularies, routes, schema fields, or automatic semantic inference
+  - bounded Chapter 16 WP1 lower-PATH-boundary, chronology-without-Trajectory-gain, upper-PATH-boundary, Trajectory-without-path-trace,
+    temporal-compression, punctualization, and same-material Band-contrast handoff without automatic salience, traceability,
+    target-class, output-class, causal, functional, normative, or authority inference
+  - bounded Chapter 16 WP2 artificial-directionality, hidden-teleology, constitutive-Lambda/Omega-omission, PATH/RETYPE,
+    PATH/SUB, and anti-rescue handoff without automatic semantic, operation, output-class, causal, functional, normative,
+    or authority inference
+  - bounded Chapter 16 WP3 praxeological-purchase, traceable-path, provisionality, claim-reduction, stop, non-capture,
+    anti-rescue, and Chapter-17 handoff without automatic semantic, output-class, operation, causal, functional,
+    normative, or authority inference
+  - bounded Chapter 16 provisional-lock handoff consolidating PATH Relevance-Floor and Traceability-Ceiling localization,
+    chronology/Trajectory and compression/punctualization boundaries, directionality/teleology separation, constitutive
+    Lambda/Omega preservation, PATH/SUB/RETYPE separation, Purchase and Trace tests, provisionality, reduction,
+    Stop, Non-Capture, anti-rescue, and Chapter 17 handoff without automatic salience, traceability, semantic, operation,
+    output-routing, functional, causal, normative, or authority inference
+  - bounded Chapter 17 Preparation-Gate handoff for PATH case, countercase, confusion-case, lock-critical artifact,
+    local audit, canonical output mapping, Part-I lock, and Chapter-18 transfer duties without new rules, operations,
+    classes, stages, schema fields, routes, scores, or automatic semantic inference
+  - bounded Chapter 17 WP1 standalone positive PATH case, Markdown/YAML artifact, local audit, Loss, alternatives,
+    canonical mapping, first lock-critical Trajectory, index, and WP2 handoff without new rules, operations, classes,
+    stages, schema fields, scores, or automatic semantic inference
+  - bounded Chapter 17 WP2-A similar-endpoint/different-history, dependence-dimension, repeated-pattern, weak-dependence,
+    current-state-sufficiency, materially narrowed positive mapping, and WP2-B/C handoff without automatic dependence-strength,
+    class, causal, functional, person, or authority inference
+  - bounded Chapter 17 WP2-B chronology-versus-Path reduction, source-indifferent macro failure, teleological selection/formation
+    failure, source preservation, lock-critical macro artifact, and WP2-C handoff without automatic semantic, causal,
+    functional, person, application, or authority inference
+  - bounded Chapter 17 WP2-C omitted-asymmetry failure, false-central-Non-Event reduction, full-WP2 mapping distribution,
+    source preservation, and WP3 handoff without automatic semantic, causal, functional, person, application, or
+    authority inference
+  - bounded Chapter 17 WP3-A projection, resolution, and Attractor confusion-case support with all three lock-critical
+    PATH artifacts complete and no automatic Part-I lock or semantic, causal, functional, person, application, or
+    authority inference
+  - bounded Chapter 17 WP3-B integrated PATH Local Audit, five-class case census, Loss/alternatives/Stop/Non-Capture
+    closure, Chapter-17 completion, and Part-I lock-readiness handoff without automatic provisional lock or semantic,
+    causal, functional, person, application, or authority inference
+  - bounded Chapter 17 WP4 integrated Chapters 9–17 PATH audit and provisional Part-I lock with thirteen-record
+    corpus closure, protected reopening conditions, and Chapter 18 handoff without new operation, Rule, Output Class,
+    schema, truth, function, application, or authority inference
   governing_authority_sources:
   - path: PMS.yaml
     role: unchanged external PMS Base dependency
@@ -66,8 +183,8 @@ artifact:
     judgment.
   non_authority_statement: Rule completeness, local vocabulary validity, YAML validity, schema validity, audit-stage
     completion, or compatible final-class references do not establish substantive admissibility, empirical truth,
-    actual causality, semantic validity, normative validity, person judgment, legitimacy, intervention warrant, or
-    application authority.
+    actual causality, semantic validity, normative validity, person judgment, legitimacy, intervention warrant,
+    or application authority.
 rule_registry_constraints:
   exact_rule_count: 16
   canonical_rule_ids:
@@ -530,7 +647,8 @@ rule_profiles:
     rule_id: type_integrity
     canonical_name: TypeIntegrity
     rule_role: Object, type, function, and level integrity check
-    governing_question: Are operator type, operator occurrence, composite, origin type, and target function kept distinct?
+    governing_question: Are operator type, operator occurrence, composite, origin type, and target function kept
+      distinct?
     positive_burden:
     - prohibit operator-type decomposition
     - preserve origin type under PROJECT_AS
@@ -935,7 +1053,8 @@ rule_profiles:
     rule_id: source_ceiling
     canonical_name: SourceCeiling
     rule_role: Source-supported detail and precision boundary
-    governing_question: Do available sources support the claimed detail, precision, internal process, and rival discrimination?
+    governing_question: Do available sources support the claimed detail, precision, internal process, and rival
+      discrimination?
     positive_burden:
     - separate direct support, inference, gaps, and unavailable material
     - keep formal precision within source precision
@@ -1140,8 +1259,8 @@ rule_profiles:
     rule_id: alternatives
     canonical_name: Alternatives
     rule_role: Rival, countercase, non-translation, and no-transformation check
-    governing_question: Are relevant rival transformations, countercases, narrower claims, non-translation, and no-transformation
-      options preserved?
+    governing_question: Are relevant rival transformations, countercases, narrower claims, non-translation, and
+      no-transformation options preserved?
     positive_burden:
     - state at least one credible rival or a record-bound reason no rival is material
     - include the no-transformation option
@@ -1277,8 +1396,8 @@ rule_profiles:
     governing_question: Does the record prohibit authority inheritance and every authority form STRATA cannot license?
     positive_burden:
     - declare authority_inheritance as prohibited
-    - block empirical, causal, diagnostic, normative, legal, political, intervention, sanction, person-ranking, and
-      application authority from structural success
+    - block empirical, causal, diagnostic, normative, legal, political, intervention, sanction, person-ranking,
+      and application authority from structural success
     - route external warrant without inheriting STRATA validation
     valid_bounded_negative_or_unavailable_result:
     - external warrant may be required
@@ -1484,8 +1603,8 @@ rule_profiles:
     machine_checkable_aspects:
     - an adequate-capture assessment is present for every occurrence
     - capture and non-capture statements are separated where a capture boundary is asserted
-    - attempted operations, captured and uncaptured structure, and limiting condition are recorded only when the detailed
-      capture-boundary payload is required
+    - attempted operations, captured and uncaptured structure, and limiting condition are recorded only when the
+      detailed capture-boundary payload is required
     - partial capture can be represented independently
     - no no_non_capture pseudo-value is required or permitted
     substantive_judgment_required:
@@ -1517,9 +1636,9 @@ non_compensation_contract:
   - Counterfactual Sensitivity cannot become causal proof
   - a successful later operation cannot erase an earlier failed claim
   - a larger composite cannot confer authority
-  qualified_result_rule: A failed or limited load-bearing check may contribute to a qualified, reduced, stopped, failed,
-    or capture-limited final result, but each canonical class still requires its own class-specific conditions and
-    the full cross-rule pattern.
+  qualified_result_rule: A failed or limited load-bearing check may contribute to a qualified, reduced, stopped,
+    failed, or capture-limited final result, but each canonical class still requires its own class-specific conditions
+    and the full cross-rule pattern.
   not_all_checks_positive_does_not_mean_no_legitimate_methodological_result: true
   class_specific_conditions_remain_required: true
   generic_check_limitation_does_not_license_specialized_class: true
@@ -1871,8 +1990,8 @@ cross_artifact_handoffs:
     - route selection
     - collision resolution
     - class precedence where controlled
-    rules_relation: Consumes reasoned findings, controlled local results, compatible final-class references, and the
-      full cross-rule pattern.
+    rules_relation: Consumes reasoned findings, controlled local results, compatible final-class references, and
+      the full cross-rule pattern.
   07_model/Transformation_Record.schema.json:
     owns:
     - occurrence fields
@@ -1893,13 +2012,13 @@ cross_artifact_handoffs:
   - older Structure Record Status list that mixes support, disposition, and capture concepts
   - known README and Contract authority-order cleanup items
   - Chapter 40 compatible-projection mapping wording
-
 chapter_9_temporal_order_and_transition_handoff:
   canonical_prose_owner: 01_blocks/02_part_i_path.md#chapter-9-temporal-order-and-transition
   status: chapter_9_provisional_lock_mirror
   registry_mode: non_routing_prose_bound_transition_gate_handoff
   chapter_contract:
-    governing_question: When does a temporal difference constitute a reconstructible transition rather than disconnected descriptions?
+    governing_question: When does a temporal difference constitute a reconstructible transition rather than disconnected
+      descriptions?
     transition_is_frame_bound: true
     transition_is_source_supported: true
     transition_is_not_operation: true
@@ -1963,4 +2082,3069 @@ chapter_9_temporal_order_and_transition_handoff:
     automatic_path_or_trajectory_inference_prohibited: true
     automatic_irreversibility_judgment_prohibited: true
     automatic_semantic_recontextualization_judgment_prohibited: true
+    authority_inheritance: prohibited
+chapter_10_path_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#chapter-10-path
+  status: chapter_10_provisional_lock_mirror
+  registry_mode: non_routing_prose_bound_path_gate_handoff
+  chapter_contract:
+    governing_question: When does a temporally ordered set of configurations and transitions constitute an actually
+      traversed Path rather than chronology, sequence, or a merely plausible route?
+    path_is_derived_temporal_object: true
+    path_is_not_operation: true
+    path_is_not_trajectory: true
+    path_is_not_path_dependence: true
+    path_is_not_causal_mechanism: true
+  path_gate:
+    conjunctive: true
+    non_compensatory: true
+    required_declarations:
+    - bounded_reference_object
+    - source_configuration_and_analytical_cut
+    - individually_tested_transition_lineage
+    - actual_traversal
+    - constitutive_connection
+    - declared_path_frame
+    - selection_rule_and_compression_policy
+    - intermediate_configurations_and_event_non_event_structures
+    - branches_selected_continuation_and_source_supported_alternatives
+    - loss_uncertainty_and_irrecoverability
+    - evidence_status_and_open_residue
+    - source_claim_and_authority_ceilings
+    chronology_not_compensation_for_missing_traversal: true
+    component_validity_not_compensation_for_missing_constitutive_connection: true
+    endpoint_similarity_not_compensation_for_frame_or_selection_misalignment: true
+    praxis_relevance_not_compensation_for_missing_traceable_load: true
+    field_presence_not_passage: true
+  qualified_status_controls:
+    status_is_segment_reference_claim_and_cut_relative: true
+    realized_requires_actual_traversal_through_cut: true
+    blocked_requires_prior_availability_and_prevention_relation: true
+    aborted_requires_initiation_or_partial_traversal_and_cessation: true
+    deferred_requires_postponement_and_continuing_bounded_availability: true
+    nominal_availability_not_effective_availability_automatically: true
+    later_realization_not_retroactive_uninterrupted_realization: true
+    status_is_not_operator_operation_output_class_or_enum: true
+  comparison_and_endpoint_controls:
+    path_comparison_requires_aligned_or_translated_basis: true
+    incomparability_is_positive_bounded_result: true
+    same_endpoint_not_same_path: true
+    different_path_not_different_present_consequence_automatically: true
+    missing_comparative_value_not_zero: true
+    universal_path_ranking_or_distance_score_prohibited: true
+  record_failure_and_lineage:
+    minimal_path_record_is_shared_record_view: true
+    record_completeness_not_historical_truth_or_admissibility: true
+    failed_path_preserves_valid_components_and_weaker_findings: true
+    mandatory_stop_blocks_derivation_from_known_failed_load_bearing_path: true
+    non_capture_preserves_rival_path_constructions_and_reentry: true
+    changed_frame_selection_endpoint_or_target_function_creates_new_claim: true
+    later_trajectory_success_not_retroactive_path_repair: true
+  chapter_11_handoff:
+    warranted_path_record_required: true
+    warranted_path_not_trajectory: true
+    sedimentation_cumulative_change_historical_load_and_trajectory_identity_require_separate_test: true
+    path_dependence_authorization_not_inherited: true
+    compose_authorization_not_inherited: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    path_status_enum_required: false
+    record_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_path_truth_inference_prohibited: true
+    automatic_traversal_inference_prohibited: true
+    automatic_status_inference_prohibited: true
+    automatic_comparability_or_ranking_inference_prohibited: true
+    automatic_trajectory_or_path_dependence_inference_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    authority_inheritance: prohibited
+chapter_11_wp1_trajectory_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#11-trajectory
+  status: chapter_11_wp1_canonical_mirror
+  registry_mode: non_routing_prose_bound_trajectory_threshold_handoff
+  chapter_contract:
+    governing_question: When does a warranted Path carry sedimented historical load that co-determines the present
+      configuration and bounded continuation possibilities?
+    trajectory_is_derived_temporal_object: true
+    trajectory_is_not_operation: true
+    trajectory_is_not_operator_type: true
+    trajectory_is_not_path_dependence: true
+    trajectory_is_not_target_function: true
+    historical_co_determination_not_exclusive_causation: true
+  trajectory_gate:
+    conjunctive: true
+    non_compensatory: true
+    required_declarations:
+    - warranted_path_substrate_and_lineage
+    - present_analytical_cut
+    - historical_carrier_or_translation_relation
+    - cumulative_sedimented_or_bounded_irreversible_contribution
+    - persistent_residue_or_present_praxis_effect
+    - source_result_dependency
+    - current_condition_and_rival_explanation_pressure
+    - directionality_and_anti_teleology_when_direction_is_claimed
+    - source_claim_and_authority_ceilings
+    duration_not_compensation_for_missing_sedimentation: true
+    repetition_not_compensation_for_missing_present_effect: true
+    narrative_coherence_not_compensation_for_missing_source_result_dependency: true
+    operator_symbol_co_presence_not_compensation_for_missing_occurrence_trace: true
+    field_presence_not_passage: true
+    trajectory_candidate_not_warranted_trajectory: true
+  historical_sedimentation_controls:
+    sedimentation_requires_traceable_retention_or_cumulative_transformation: true
+    same_label_not_same_carrier: true
+    cumulative_change_not_monotonic_increase: true
+    persistent_residue_not_permanence: true
+    missing_information_not_residue: true
+    historical_interest_not_present_praxis_effect: true
+    repair_not_reset_automatically: true
+    interruption_not_erasure_automatically: true
+    dormant_trace_not_present_constitutive_load_automatically: true
+    current_condition_production_distinct_from_historical_carry_over: true
+    counterfactual_source_variation_required_where_testable: true
+    universal_sedimentation_score_prohibited: true
+  directionality_controls:
+    directionality_dimension_specific: true
+    directionality_not_teleology: true
+    retrospective_coherence_not_original_plan: true
+    recurrent_continuation_not_destiny: true
+    increased_accessibility_or_likelihood_not_necessity: true
+    alternatives_reversals_repairs_contingencies_and_external_conditions_preserved: true
+    endpoint_selected_history_requires_reduction_or_failure: true
+    determined_future_inference_prohibited: true
+  failure_reduction_and_lineage:
+    failed_trajectory_may_preserve_warranted_path: true
+    failed_trajectory_may_preserve_duration_recurrence_persistence_or_local_residue: true
+    changed_frame_cut_boundary_label_or_target_function_creates_new_claim: true
+    later_trajectory_success_not_retroactive_path_repair: true
+    stronger_derivation_from_known_failed_trajectory_requires_stop: true
+    rival_source_responsible_constructions_may_later_route_to_non_capture: true
+  chapter_12_and_later_handoff:
+    path_dependence_requires_separate_test: true
+    compose_authorization_not_inherited: true
+    project_as_authorization_not_inherited: true
+    target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    trajectory_status_enum_required: false
+    record_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_trajectory_truth_inference_prohibited: true
+    automatic_sedimentation_sufficiency_inference_prohibited: true
+    automatic_teleology_judgment_prohibited: true
+    automatic_path_dependence_inference_prohibited: true
+    automatic_causal_inference_prohibited: true
+    automatic_target_function_inference_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    authority_inheritance: prohibited
+chapter_11_wp2_profile_and_corridor_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#11-5-attractor-sedimentation
+  status: chapter_11_wp2_canonical_mirror
+  registry_mode: non_routing_prose_bound_profile_and_corridor_handoff
+  chapter_contract:
+    operator_profiles_are_occurrence_level_relations: true
+    operator_profiles_are_not_fused_operators: true
+    changed_action_corridor_is_integrative_present_effect: true
+    changed_action_corridor_is_not_operation_operator_or_target_function: true
+    no_all_profile_requirement: true
+    profiles_non_compensatory: true
+  profile_common_gate:
+    required_declarations:
+    - bounded_operator_occurrence
+    - path_segment_and_temporal_trace
+    - historical_carrier_or_translation_relation
+    - profile_specific_accumulation_or_sedimentation
+    - present_praxis_effect
+    - current_condition_and_rival_explanation_pressure
+    - repair_erosion_transfer_closure_or_dormancy_where_applicable
+    - source_result_dependency
+    - source_claim_and_authority_ceilings
+    operator_symbol_co_presence_not_passage: true
+    profile_richness_not_compensation_for_missing_trace: true
+    one_profile_not_proof_of_another: true
+    all_four_profiles_not_required: true
+    constitutive_contextual_absent_and_uncertain_profiles_declared: true
+    universal_trajectory_strength_score_prohibited: true
+  attractor_sedimentation_controls:
+    operator_relation: Α + Θ
+    repetition_not_attractor_sedimentation_automatically: true
+    changed_local_friction_or_default_accessibility_required: true
+    same_label_not_attractor_continuity: true
+    changed_surface_form_not_discontinuity_automatically: true
+    lower_friction_not_legitimacy_superiority_or_necessity: true
+    past_sedimentation_not_current_dominance_automatically: true
+    current_recurrence_not_historical_sedimentation_automatically: true
+    attractor_function_not_assigned: true
+  asymmetry_accumulation_controls:
+    operator_relation: Ω + Θ
+    unequal_outcome_not_accumulation_automatically: true
+    distribution_dimensions_required: true
+    temporal_carrier_and_present_differential_effect_required: true
+    role_hardening_not_person_typing: true
+    formal_exit_not_equal_practical_exit: true
+    high_exit_cost_not_impossible_exit: true
+    repair_not_reset_automatically: true
+    no_moral_rank_legitimacy_or_person_judgment: true
+  binding_accumulation_controls:
+    operator_relation: Ψ + Θ
+    multiple_commitments_not_accumulation_automatically: true
+    structural_binding_not_inner_state_consent_or_moral_obligation: true
+    layered_reliance_breach_or_reopening_relation_required: true
+    strengthening_weakening_transfer_conflict_dormancy_release_allowed: true
+    recorded_promise_not_present_binding_automatically: true
+    high_breach_cost_not_mandatory_continuation: true
+    enforceability_and_legitimacy_inference_prohibited: true
+  residual_accumulation_controls:
+    operator_relation: Λ + Θ
+    each_non_event_expectation_and_frame_bound: true
+    multiple_absences_not_accumulation_automatically: true
+    missing_information_not_non_event_or_residue: true
+    later_disappointment_not_prior_expectation_automatically: true
+    layering_extension_translation_amplification_closure_dormancy_and_redistribution_allowed: true
+    archived_unresolved_item_not_active_residue_automatically: true
+    late_occurrence_not_timely_occurrence: true
+    resolved_non_event_not_no_prior_accumulation: true
+    prior_accumulation_not_present_residue_automatically: true
+  changed_action_corridor_controls:
+    corridor_dimensions:
+    - accessibility
+    - visibility
+    - authorization
+    - affordability
+    - coordination_feasibility
+    - temporal_availability
+    - reversibility
+    - expectedness
+    - evidentiary_burden
+    - exposure
+    formal_openness_not_practical_accessibility: true
+    accessibility_not_equal_cost_for_every_role: true
+    increased_expectedness_not_mandatory_continuation: true
+    closed_corridor_claim_frame_and_period_bounded: true
+    historical_current_interactive_and_underdetermined_contributions_declared: true
+    source_result_dependency_required_where_testable: true
+    narrowed_corridor_not_eliminated_agency: true
+    reopened_corridor_not_original_corridor_automatically: true
+    prediction_instruction_and_recommendation_prohibited: true
+  failure_reduction_and_lineage:
+    failed_attractor_profile_may_preserve_recurrence_or_current_default: true
+    failed_asymmetry_accumulation_may_preserve_local_or_current_asymmetry: true
+    failed_binding_accumulation_may_preserve_discrete_binding_or_switching_cost: true
+    failed_residual_accumulation_may_preserve_missing_information_or_single_non_event: true
+    failed_historical_corridor_attribution_may_preserve_present_constraint: true
+    stronger_derivation_from_known_failed_profile_requires_stop: true
+    changed_profile_boundary_cut_or_target_function_creates_new_claim: true
+  chapter_12_and_later_handoff:
+    path_dependence_requires_separate_test: true
+    compose_authorization_not_inherited: true
+    project_as_authorization_not_inherited: true
+    target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    profile_or_corridor_enum_required: false
+    record_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_profile_truth_inference_prohibited: true
+    automatic_accumulation_sufficiency_inference_prohibited: true
+    automatic_non_event_expectation_inference_prohibited: true
+    automatic_corridor_or_agency_judgment_prohibited: true
+    automatic_path_dependence_inference_prohibited: true
+    automatic_target_function_inference_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    authority_inheritance: prohibited
+chapter_11_wp3_boundary_compression_and_record_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#11-10-trajectory-boundary
+  status: chapter_11_wp3_canonical_mirror
+  registry_mode: non_routing_prose_bound_boundary_compression_competition_and_record_handoff
+  chapter_contract:
+    trajectory_boundary_is_claim_sensitive: true
+    trajectory_boundary_is_not_natural_or_unique_periodization: true
+    trajectory_compression_requires_constitutive_trace: true
+    trajectory_compression_is_not_compose_completion: true
+    competing_constructions_require_independent_burdens: true
+    false_trajectory_is_diagnostic_not_object_or_output_class: true
+    minimal_trajectory_record_is_shared_record_view: true
+  boundary_controls:
+    required_declarations:
+    - reference_object
+    - source_frame
+    - temporal_start
+    - entry_rationale
+    - relevant_prehistory
+    - included_segments
+    - present_analytical_cut
+    - terminal_status
+    - open_continuation
+    - disputed_periodizations
+    - claim_scope
+    oldest_event_not_trajectory_beginning_automatically: true
+    relevant_prehistory_not_included_segment_automatically: true
+    end_of_source_window_not_end_of_trajectory_automatically: true
+    present_analytical_cut_not_completed_history: true
+    open_continuation_not_prediction: true
+    new_segment_not_new_reference_object_automatically: true
+    changed_frame_not_erased_lineage: true
+    boundary_revision_creates_new_testable_claim: true
+    boundary_revision_not_repair_of_missing_historical_load: true
+    endpoint_selected_boundary_requires_reduction_or_failure: true
+    boundary_sensitivity_required_where_material: true
+  compression_controls:
+    canonical_loss_fields_required:
+    - preserved
+    - compressed
+    - excluded
+    - uncertain
+    - irrecoverable
+    constitutive_preservation_candidates:
+    - path_reference_and_actual_traversal_lineage
+    - load_bearing_configurations_and_transitions
+    - temporal_order_and_relevant_duration
+    - central_non_events_and_expectation_frames
+    - branches_blocked_or_lost_alternatives_and_non_selections
+    - profile_specific_historical_carriers
+    - cumulative_changes_and_changed_action_corridors
+    - reversals_repairs_interruptions_dormancy_and_re_entry
+    - current_condition_and_rival_explanation_pressure
+    - open_continuation_and_disputed_periodization
+    - source_uncertainty_and_irrecoverable_loss
+    analytical_compression_not_missing_source_information: true
+    missing_source_information_not_non_event: true
+    more_detail_not_better_compression_automatically: true
+    compressed_direction_not_monotonic_history: true
+    stable_macro_description_not_homogeneous_internal_trajectory: true
+    macro_label_substitution_prohibited: true
+    source_insensitive_label_above_traceability_ceiling: true
+    counterfactual_compression_test_required_where_material: true
+    full_compose_mechanics_deferred_to_chapter_15: true
+  competing_construction_controls:
+    independent_path_and_trajectory_burdens_required: true
+    common_comparison_dimensions:
+    - reference_object
+    - frame
+    - temporal_boundary
+    - granularity
+    - source_basis
+    - constitutive_transitions
+    - central_non_events
+    - profile_carriers
+    - directionality
+    - present_corridor_effects
+    - compression_and_loss
+    - rival_explanations
+    - claim_scope
+    permitted_analytical_relations:
+    - compatible
+    - complementary
+    - nested
+    - partially_overlapping
+    - incomparable
+    - conflicting
+    - underdetermined
+    - failed_and_retained
+    analytical_relations_are_not_output_classes: true
+    same_material_not_unique_trajectory_automatically: true
+    multiple_constructions_not_all_admissible_automatically: true
+    detail_formality_or_breadth_not_comparative_warrant: true
+    forced_synthesis_prohibited: true
+    non_capture_available_for_materially_rival_source_responsible_undecidable_constructions: true
+    non_capture_not_validation_of_rivals: true
+  false_trajectory_controls:
+    false_trajectory_is_not_no_history: true
+    false_trajectory_is_not_new_object_class: true
+    false_trajectory_is_not_new_output_class: true
+    constitutive_failure_candidates:
+    - chronology_or_duration_only
+    - failed_or_missing_path_substrate
+    - repetition_without_present_sedimented_effect
+    - historical_interest_without_present_praxis_relevance
+    - endpoint_only_directionality
+    - omitted_alternatives_reversals_repairs_or_current_conditions
+    - naturalized_or_unique_boundary
+    - compression_hiding_constitutive_structure
+    - macro_label_replacing_source_trace
+    - operator_symbols_replacing_occurrence_evidence
+    - current_conditions_explain_result_without_historical_sensitivity
+    - trajectory_equated_with_path_dependence
+    - target_function_assigned_without_project_as
+    - record_completeness_treated_as_truth
+    weaker_findings_preserved_where_warranted:
+    - chronology
+    - duration
+    - sequence
+    - transitions
+    - path_or_path_segment
+    - recurrence
+    - local_asymmetry
+    - discrete_binding
+    - framed_non_event
+    - bounded_residue
+    - present_constraint
+    - rival_construction
+    - source_uncertainty
+    known_failed_trajectory_used_for_stronger_derivation_requires_mandatory_stop: true
+    changed_label_boundary_granularity_or_target_function_not_erasure: true
+  minimal_record_controls:
+    compact_view_fields:
+    - path_reference
+    - temporal_scope
+    - sedimented_attractors
+    - accumulated_asymmetries
+    - persistent_residues
+    - binding_changes
+    - changed_action_corridors
+    - irreversible_transitions
+    - open_continuations
+    - competing_constructions
+    - claim_scope
+    second_record_schema_prohibited: true
+    shared_transformation_record_remains_owner: true
+    absent_not_checked_unknown_and_excluded_distinguished: true
+    field_presence_not_substantive_warrant: true
+    schema_validity_not_historical_load_proof: true
+    record_completeness_not_admissibility_or_truth: true
+    explicit_lineage_re_entry_stop_and_non_capture_required: true
+  chapter_12_and_later_handoff:
+    complete_trajectory_object_supplied_for_separate_property_test: true
+    path_dependence_requires_separate_test: true
+    later_path_dependence_success_not_retroactive_trajectory_repair: true
+    compose_authorization_not_inherited: true
+    project_as_authorization_not_inherited: true
+    target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    boundary_or_construction_enum_required: false
+    record_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_boundary_selection_prohibited: true
+    automatic_periodization_truth_inference_prohibited: true
+    automatic_compression_sufficiency_inference_prohibited: true
+    automatic_competing_construction_adjudication_prohibited: true
+    automatic_false_trajectory_classification_prohibited: true
+    automatic_trajectory_truth_inference_prohibited: true
+    automatic_path_dependence_inference_prohibited: true
+    automatic_target_function_inference_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    authority_inheritance: prohibited
+chapter_11_trajectory_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#chapter-11-completion-boundary
+  status: chapter_11_provisional_lock_mirror
+  registry_mode: non_routing_prose_bound_trajectory_lock_and_chapter_12_handoff
+  chapter_contract:
+    governing_question: When does a warranted Path carry sedimented historical load that co-determines present praxis
+      and bounded continuation possibilities?
+    trajectory_is_derived_temporal_object: true
+    trajectory_is_not_operation: true
+    trajectory_is_not_path_dependence: true
+    trajectory_is_not_target_function: true
+    trajectory_is_not_causal_or_predictive_authority: true
+  integrated_trajectory_gate:
+    conjunctive: true
+    non_compensatory: true
+    required_declarations:
+    - warranted_path_reference
+    - trajectory_boundary_and_periodization
+    - historical_carriers
+    - cumulative_or_sedimented_relations
+    - present_praxis_effects
+    - source_result_dependency
+    - current_condition_allocation
+    - applicable_profile_status
+    - changed_action_corridors
+    - directionality_and_counterpressure
+    - compression_and_canonical_loss
+    - competing_constructions
+    - source_claim_and_authority_ceilings
+    - stop_non_capture_and_reentry
+    duration_repetition_persistence_or_narrative_coherence_not_compensation: true
+    profile_richness_not_compensation_for_missing_path_or_present_effect: true
+    field_presence_not_passage: true
+    formal_model_validity_not_historical_load_proof: true
+  integrated_boundaries:
+    directionality_without_teleology: true
+    operator_profiles_remain_occurrence_level_and_separate: true
+    universal_trajectory_strength_score_prohibited: true
+    changed_corridor_not_eliminated_agency: true
+    boundary_not_natural_or_unique_periodization: true
+    compression_not_macro_label_substitution: true
+    competing_constructions_not_all_admissible_automatically: true
+    false_trajectory_not_no_history_or_new_output_class: true
+    minimal_trajectory_record_remains_shared_record_view: true
+    weaker_findings_preserved_where_warranted: true
+    known_failed_trajectory_used_for_stronger_derivation_requires_mandatory_stop: true
+    materially_rival_source_responsible_undecidable_constructions_may_receive_non_capture: true
+  chapter_12_and_later_handoff:
+    developed_trajectory_object_supplied: true
+    path_dependence_requires_separate_property_test: true
+    later_path_dependence_success_not_retroactive_trajectory_repair: true
+    compose_authorization_not_inherited: true
+    project_as_authorization_not_inherited: true
+    target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    profile_boundary_or_construction_enum_required: false
+    record_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_trajectory_truth_inference_prohibited: true
+    automatic_sedimentation_sufficiency_inference_prohibited: true
+    automatic_boundary_or_periodization_selection_prohibited: true
+    automatic_competing_construction_adjudication_prohibited: true
+    automatic_path_dependence_inference_prohibited: true
+    automatic_target_function_inference_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    authority_inheritance: prohibited
+chapter_12_wp1_path_dependence_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#12-path-dependence-and-sedimentation
+  status: chapter_12_wp1_canonical_mirror
+  registry_mode: non_routing_prose_bound_path_dependence_property_handoff
+  chapter_contract:
+    path_dependence_is_graded_property: true
+    path_dependence_is_not_object_operator_operation_level_or_target_function: true
+    trajectory_not_strong_path_dependence_automatically: true
+    historical_contribution_not_historical_indispensability: true
+    local_strength_findings_are_not_output_classes: true
+  property_scope_controls:
+    eligible_inputs:
+    - warranted_path
+    - warranted_trajectory
+    - bounded_warranted_trajectory_segment
+    - separately_tested_competing_trajectory_construction
+    ineligible_strong_inputs:
+    - chronology_only
+    - isolated_endpoint
+    - duration_only
+    - repetition_without_present_load
+    - macro_label_without_trace
+    - failed_trajectory_as_settled
+    - record_completeness_only
+    - operator_formula_as_occurrence_evidence
+    required_declarations:
+    - reference_object
+    - path_or_trajectory_lineage
+    - present_analytical_cut
+    - tested_dependence_dimension
+    - relevant_prior_path_segment
+    - historical_carrier
+    - current_state_baseline
+    - current_condition_contribution
+    - omission_or_comparison_pressure
+    - source_basis
+    - uncertainty
+    - claim_scope
+    - claim_ceiling
+    dimension_specificity_required: true
+    one_dimension_not_whole_object_dependence: true
+    changed_cut_frame_granularity_segment_or_dimension_creates_new_claim: true
+    authority_inheritance: prohibited
+  graded_dependence_controls:
+    local_findings:
+    - no_material_historical_dependence_at_tested_level
+    - weak_order_dependence
+    - strong_path_dependence
+    local_findings_not_new_output_classes: true
+    weak_requires_bounded_order_effect_and_substantial_current_state_reconstructibility: true
+    strong_requires_historical_indispensability: true
+    strong_gate_conjunctive: true
+    strong_gate_non_compensatory: true
+    strong_required_burdens:
+    - warranted_input
+    - present_cut
+    - tested_dimension
+    - historical_carrier
+    - sedimented_relation
+    - present_praxis_effect
+    - current_state_baseline
+    - current_condition_sufficiency_challenge
+    - source_result_dependency
+    - source_bounded_omission_or_comparison_pressure
+    - contingency_and_non_determinism
+    - loss_uncertainty_claim_stop_non_capture_controls
+  comparison_and_current_state_controls:
+    current_state_sufficiency_is_real_counterpressure: true
+    approximately_held_present_comparison_requires_declared_similarities_and_retained_differences: true
+    approximately_similar_present_not_object_identity: true
+    comparison_not_controlled_experiment_or_causal_proof: true
+    source_bounded_counterfactual_not_prediction: true
+    current_conditions_may_explain_feature_and_reduce_claim: true
+  theta_and_failure_controls:
+    theta_necessary_but_insufficient: true
+    duration_repetition_institutional_age_archive_density_narrative_coherence_not_sufficient: true
+    trajectory_status_not_inherited_dependence_proof: true
+    operator_symbol_co_presence_not_occurrence_support: true
+    failed_strong_claim_preserves_weaker_findings_where_warranted: true
+    strong_to_weak_reduction_uses_canonical_output_mapping: true
+    later_operation_projection_or_new_label_not_retroactive_repair: true
+    known_failed_claim_used_for_stronger_derivation_requires_mandatory_stop: true
+  wp2_and_later_handoff:
+    dependence_bearing_operator_profiles_deferred_to_wp2: true
+    full_test_modifier_non_determinism_failure_record_stop_non_capture_deferred_to_wp3: true
+    chapter_13_branch_taxonomy_protected: true
+    chapter_15_compose_protected: true
+    chapter_24_decompose_protected: true
+    chapter_46_general_counterfactual_architecture_protected: true
+    retype_target_function_not_assigned: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    strength_enum_score_probability_or_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_input_warrant_inference_prohibited: true
+    automatic_current_state_sufficiency_inference_prohibited: true
+    automatic_historical_indispensability_inference_prohibited: true
+    automatic_comparability_or_counterfactual_inference_prohibited: true
+    automatic_path_dependence_classification_prohibited: true
+    automatic_causal_predictive_or_target_function_inference_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    authority_inheritance: prohibited
+chapter_12_wp2_dependence_profile_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#12-4-a-theta-attractor-dependence
+  status: chapter_12_wp2_canonical_mirror
+  registry_mode: non_routing_prose_bound_dependence_profile_handoff
+  profile_contract:
+    profiles_are_occurrence_level_property_support_relations: true
+    sedimentation_not_dependence_automatically: true
+    operator_fusion_prohibited: true
+    new_operator_operation_object_level_or_target_function_prohibited: true
+    one_profile_not_whole_object_dependence: true
+    all_profile_requirement_prohibited: true
+    additive_dependence_score_prohibited: true
+    authority_inheritance: prohibited
+  attractor_dependence_controls:
+    operator_relation: Α + Θ
+    required_burdens:
+    - repeated_prior_configurations
+    - historical_retention_or_translation_carrier
+    - present_friction_default_visibility_or_accessibility_effect
+    - current_state_rival
+    - omission_or_source_variation_pressure
+    - alternatives_and_repair_status
+    - uncertainty_and_claim_scope
+    current_default_not_historical_dependence_automatically: true
+    inevitability_legitimacy_and_attractor_function_inference_prohibited: true
+  asymmetry_dependence_controls:
+    operator_relation: Ω + Θ
+    required_burdens:
+    - temporal_distribution_trace
+    - historical_differential_carrier
+    - present_cost_access_exposure_capacity_burden_role_or_exit_effect
+    - current_state_rival
+    - source_bounded_redistribution_pressure
+    - repair_transfer_or_persistence
+    - uncertainty_and_claim_scope
+    present_inequality_not_accumulated_dependence_automatically: true
+    person_ranking_guilt_legitimacy_duty_sanction_and_authority_inference_prohibited: true
+  binding_dependence_controls:
+    operator_relation: Ψ + Θ
+    required_burdens:
+    - concrete_prior_binding_occurrences
+    - reliance_or_coordination_investment
+    - historical_binding_carrier
+    - present_commitment_reopening_release_or_transition_effect
+    - current_enforceability_allocation
+    - current_state_rival
+    - repair_transfer_release_or_dormancy
+    - uncertainty_and_claim_scope
+    expectation_not_binding_automatically: true
+    current_enforceability_not_historical_dependence_automatically: true
+    inner_intention_moral_obligation_permanence_and_enforcement_authority_inference_prohibited: true
+  residual_dependence_controls:
+    operator_relation: Λ + Θ
+    required_burdens:
+    - expectation_frame
+    - bounded_realization_window
+    - warranted_non_event
+    - historical_residual_carrier
+    - present_residual_effect
+    - current_state_rival
+    - later_closure_repair_or_reframing
+    - uncertainty_and_claim_scope
+    missing_information_and_mere_absence_not_non_event: true
+    every_delay_blame_and_permanent_residue_inference_prohibited: true
+  interaction_and_non_compensation:
+    profiles_may_interact_in_parallel_sequence_conflict_or_partial_presence: true
+    universal_causal_chain_prohibited: true
+    each_profile_requires_separate_carrier_present_effect_counterpressure_uncertainty_and_ceiling: true
+    profile_richness_not_compensation_for_invalid_substrate: true
+    profile_richness_not_compensation_for_missing_present_effect: true
+    profile_richness_not_compensation_for_failed_current_state_sufficiency: true
+    profile_richness_not_compensation_for_missing_source_result_dependency: true
+    local_profile_results_may_differ: true
+  wp3_and_later_handoff:
+    complete_historical_omission_and_alternative_history_test_deferred_to_wp3: true
+    phi_modifiers_non_determinism_failure_record_stop_non_capture_reentry_deferred_to_wp3: true
+    chapter_13_branch_taxonomy_protected: true
+    chapter_15_compose_protected: true
+    chapter_24_decompose_protected: true
+    chapter_46_general_counterfactual_architecture_protected: true
+    retype_target_function_not_assigned: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    profile_enum_score_probability_or_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_occurrence_support_inference_prohibited: true
+    automatic_current_state_sufficiency_inference_prohibited: true
+    automatic_profile_interaction_or_strength_inference_prohibited: true
+    automatic_path_dependence_classification_prohibited: true
+    automatic_causal_predictive_or_target_function_inference_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    authority_inheritance: prohibited
+chapter_12_wp3_complete_dependence_test_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#12-8-phi-under-path-dependence
+  status: chapter_12_wp3_canonical_mirror
+  registry_mode: non_routing_prose_bound_complete_dependence_test_handoff
+  recontextualization_controls:
+    phi_not_reset: true
+    persistence_and_erasure_both_require_testing: true
+    required_declarations:
+    - source_frame
+    - recontextualizing_occurrence
+    - target_frame
+    - carrier_status
+    - current_target_frame_conditions
+    - tested_dimension
+    - present_effect
+    - source_result_dependency
+    - uncertainty_and_claim_scope
+    automatic_origin_type_or_target_function_inference_prohibited: true
+  later_modifier_controls:
+    chi_sigma_and_later_psi_are_occurrence_level_modifiers: true
+    modifier_not_erasure: true
+    earlier_binding_profile_and_later_psi_occurrence_must_be_separate: true
+    possible_local_outcomes:
+    - retention
+    - attenuation
+    - redistribution
+    - translation
+    - containment
+    - release
+    - replacement
+    - amplification
+    - underdetermination
+    local_outcomes_not_new_output_classes_or_enum_requirement: true
+  non_determinism_controls:
+    historical_constraint_not_destiny: true
+    reduced_accessibility_not_impossibility: true
+    expectedness_not_prediction: true
+    counterfactual_sensitivity_not_forecast_or_causal_isolation: true
+    historical_persistence_not_legitimacy: true
+    numerical_probability_requires_independent_method: true
+  complete_property_test:
+    conjunctive: true
+    non_compensatory: true
+    required_stages:
+    - input_integrity_and_lineage
+    - tested_dimension_and_claim_segmentation
+    - current_state_baseline
+    - historical_carrier_and_profile_support
+    - historical_omission
+    - source_bounded_alternative_history
+    - current_condition_challenge_and_contribution_allocation
+    - dependence_strength_finding_and_canonical_mapping
+    - loss_alternatives_governance_and_reentry
+    property_test_not_fourth_operation: true
+    historical_indispensability_not_exclusive_causation: true
+    automatic_comparator_or_counterfactual_selection_prohibited: true
+  record_controls:
+    minimal_path_dependence_claim_view_inside_shared_record: true
+    second_schema_prohibited: true
+    field_presence_not_dependence_proof: true
+    operation_kind_only_for_separate_operation_occurrence: true
+  failure_stop_non_capture_controls:
+    failed_strong_claim_preserves_weaker_findings_where_warranted: true
+    claim_reduction_ladder_requires_independent_burdens: true
+    resolution_neutral_is_valid_stop: true
+    known_failed_claim_used_for_prediction_function_person_or_authority_requires_mandatory_stop: true
+    materially_rival_source_responsible_undecidable_explanations_may_receive_non_capture: true
+    new_frame_label_granularity_operation_projection_or_visualization_not_automatic_reentry: true
+  protected_handoffs:
+    chapter_13_branch_taxonomy_protected: true
+    chapter_15_compose_protected: true
+    chapter_24_decompose_protected: true
+    chapter_46_general_counterfactual_architecture_protected: true
+    retype_target_function_not_assigned: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    modifier_or_strength_enum_required: false
+    record_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_recontextualization_or_modifier_effect_inference_prohibited: true
+    automatic_current_state_sufficiency_inference_prohibited: true
+    automatic_historical_indispensability_inference_prohibited: true
+    automatic_dependence_strength_or_output_class_selection_prohibited: true
+    automatic_causal_predictive_or_target_function_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_12_path_dependence_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#chapter-12-completion-boundary
+  status: chapter_12_provisional_lock_mirror
+  registry_mode: non_routing_prose_bound_path_dependence_lock_and_chapter_13_handoff
+  chapter_contract:
+    path_dependence_is_graded_property: true
+    path_dependence_is_not_object_primitive_operation_level_target_function_score_or_authority: true
+    weak_and_strong_dependence_distinguished: true
+    theta_alone_insufficient: true
+    determinism_teleology_prediction_and_causal_necessity_rejected: true
+  integrated_property_gate:
+    conjunctive: true
+    non_compensatory: true
+    required_stages:
+    - input_integrity_and_lineage
+    - tested_dimension_and_claim_segmentation
+    - current_state_baseline
+    - historical_carrier_and_profile_support
+    - historical_omission
+    - source_bounded_alternative_history
+    - current_condition_challenge_and_contribution_allocation
+    - dependence_strength_finding_and_canonical_mapping
+    - loss_alternatives_governance_and_reentry
+    current_state_sufficiency_is_real_counterpressure: true
+    approximately_held_present_not_identity_experiment_causal_proof_or_prediction: true
+    historical_richness_not_dependence_strength: true
+    field_presence_model_validity_or_visualization_not_substantive_warrant: true
+  integrated_boundaries:
+    local_strength_findings_not_new_output_classes: true
+    profile_sedimentation_not_dependence_automatically: true
+    operator_fusion_score_and_all_profile_requirement_prohibited: true
+    profile_richness_not_compensation: true
+    phi_not_reset: true
+    later_modifier_not_erasure: true
+    earlier_binding_carrier_separate_from_later_psi_modifier: true
+    historical_constraint_not_destiny: true
+    reduced_accessibility_not_impossibility: true
+    source_bounded_counterfactual_not_prediction: true
+    known_failed_claim_used_for_prediction_function_person_or_authority_requires_mandatory_stop: true
+    materially_rival_source_responsible_undecidable_explanations_may_receive_non_capture: true
+  chapter_13_and_later_handoff:
+    bounded_source_variation_pressure_supplied: true
+    branch_availability_requires_separate_chapter_13_test: true
+    compose_authorization_not_inherited: true
+    decompose_result_not_inherited: true
+    project_as_authorization_not_inherited: true
+    target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    strength_profile_modifier_or_alternative_enum_required: false
+    record_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_input_warrant_inference_prohibited: true
+    automatic_current_state_sufficiency_inference_prohibited: true
+    automatic_historical_indispensability_inference_prohibited: true
+    automatic_comparator_or_counterfactual_selection_prohibited: true
+    automatic_dependence_strength_or_output_class_selection_prohibited: true
+    automatic_branch_availability_inference_prohibited: true
+    automatic_causal_predictive_or_target_function_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_13_preparation_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#chapter-13-pending
+  preparation_record: 04_reference/Chapter_13_Preparation_Record.md
+  status: chapter_13_preparation_gate_mirror
+  registry_mode: non_routing_prose_pending_alternative_space_preparation
+  chapter_contract:
+    historical_availability_required: true
+    temporal_window_required: true
+    later_reachability_required_where_claimed: true
+    source_bounded_counterfactual_required: true
+    counterfactual_prediction_prohibited: true
+  protected_distinctions:
+    historical_alternative_not_rival_transformation: true
+    availability_not_retrospective_plausibility: true
+    branch_point_not_narrated_fork: true
+    rejected_not_blocked: true
+    blocked_not_impossible: true
+    aborted_not_never_begun: true
+    deferred_not_uninterrupted: true
+    lost_not_currently_unattractive: true
+    counterfactual_path_not_free_story_or_forecast: true
+    non_selection_not_absent_decision_context: true
+    branch_status_not_output_class: true
+  declaration_burdens:
+    required_families:
+    - reference_path
+    - branch_point
+    - historical_window
+    - candidate_continuation
+    - availability_status
+    - source_support
+    - selection_status
+    - blocking_structure_where_relevant
+    - initiation_trace_where_relevant
+    - deferral_structure_where_relevant
+    - later_reachability
+    - residual_effect
+    - uncertainty
+    - claim_scope
+    - canonical_output_class_mapping
+    declaration_presence_not_substantive_warrant: true
+  alternative_space_controls:
+    practical_availability_not_logical_possibility: true
+    realized_not_rational_legitimate_optimal_or_necessary: true
+    lost_requires_earlier_availability_and_later_unavailability: true
+    non_selection_requires_active_decision_context: true
+    alternative_space_compression_uses_existing_five_part_loss: true
+    sixth_canonical_loss_field_prohibited: true
+  shared_record_boundary:
+    historical_alternative_status_not_existing_rival_transformation_alternatives_field: true
+    second_independent_schema_prohibited: true
+    schema_decision_deferred_to_wp3: true
+    preparation_gate_schema_change_required: false
+  failure_stop_non_capture:
+    unsupported_status_requires_reduction_or_failure: true
+    free_counterfactual_reused_for_prediction_function_person_or_authority_requires_mandatory_stop: true
+    source_responsible_undecidable_branch_status_may_receive_non_capture: true
+    new_frame_granularity_operation_projection_label_or_visualization_not_automatic_reentry: true
+  protected_handoffs:
+    chapter_14_non_event_detail_protected: true
+    chapter_15_compose_mechanics_protected: true
+    chapter_46_general_counterfactual_architecture_protected: true
+    retype_target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    score_probability_or_truth_enum_required: false
+    record_schema_expansion_at_preparation_gate_required: false
+    smoke_record_migration_required: false
+    automatic_historical_availability_inference_prohibited: true
+    automatic_branch_point_or_status_inference_prohibited: true
+    automatic_blockage_abortion_deferral_or_loss_inference_prohibited: true
+    automatic_counterfactual_completion_or_prediction_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    automatic_causal_normative_functional_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_13_wp1_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#13-branches-aborts-delays-and-unavailable-alternatives
+  preparation_record: 04_reference/Chapter_13_Preparation_Record.md
+  status: chapter_13_wp1_prose_mirror
+  registry_mode: non_routing_prose_owned_alternative_space_wp1
+  canonical_sections:
+  - '13.1'
+  - '13.2'
+  - '13.3'
+  - '13.4'
+  declaration_burdens:
+    historical_cut_required: true
+    temporal_window_required: true
+    practical_availability_basis_required: true
+    source_support_required: true
+    uncertainty_required: true
+    claim_scope_required: true
+    traversal_trace_required_for_realized_branch: true
+    open_availability_and_rejection_trace_required_for_rejected_branch: true
+  protected_distinctions:
+    alternative_space_not_all_conceivable_possibilities: true
+    historical_availability_not_retrospective_plausibility: true
+    branch_point_not_narrated_fork: true
+    realized_not_rational_legitimate_optimal_or_inevitable: true
+    announcement_not_realization: true
+    not_realized_not_rejected: true
+    rejected_not_blocked: true
+    later_same_label_not_same_historical_branch: true
+    visualized_branch_not_historical_availability_proof: true
+  source_and_loss_controls:
+    later_outcome_leakage_prohibited: true
+    later_possibility_substitution_prohibited: true
+    high_cost_not_unavailable_automatically: true
+    alternative_inclusion_subject_to_relevance_floor: true
+    retrospective_story_subject_to_traceability_ceiling: true
+    existing_five_part_loss_required: true
+    sixth_loss_field_prohibited: true
+  cases_represented:
+  - C13-ALT-01
+  - C13-BRANCH-01
+  - C13-REAL-01
+  - C13-REJ-01
+  - C13-SOURCE-01
+  protected_handoffs:
+    chapter_13_wp2_status_owners_protected: true
+    chapter_14_non_event_detail_protected: true
+    chapter_15_compose_mechanics_protected: true
+    chapter_46_counterfactual_architecture_protected: true
+    retype_target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    score_probability_or_truth_enum_required: false
+    record_schema_expansion_required: false
+    automatic_historical_availability_inference_prohibited: true
+    automatic_branch_point_inference_prohibited: true
+    automatic_realized_or_rejected_status_inference_prohibited: true
+    automatic_rationality_legitimacy_optimality_or_inevitability_inference_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    automatic_causal_predictive_functional_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_13_wp2_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#13-5-blocked-branch
+  preparation_record: 04_reference/Chapter_13_Preparation_Record.md
+  status: chapter_13_wp2_prose_mirror
+  registry_mode: non_routing_prose_owned_branch_status_wp2
+  canonical_sections:
+  - '13.5'
+  - '13.6'
+  - '13.7'
+  - '13.8'
+  declaration_burdens:
+    earlier_availability_required_for_blocked_or_lost: true
+    identifiable_prevention_relation_required_for_blocked: true
+    initiation_and_partial_traversal_required_for_aborted: true
+    interruption_trace_required_for_aborted: true
+    original_window_and_deferral_trace_required_for_deferred: true
+    intervening_change_and_continuity_pressure_required_for_deferred: true
+    later_unavailability_or_material_unreachability_required_for_lost: true
+    source_linked_loss_transition_required_for_lost: true
+    later_reachability_required_where_claimed: true
+    residual_effect_required_where_material: true
+    uncertainty_required: true
+    claim_scope_required: true
+  protected_distinctions:
+    blocked_not_impossible: true
+    blocked_not_rejected: true
+    non_realization_not_blocked_automatically: true
+    aborted_not_never_begun: true
+    planning_or_announcement_not_initiation: true
+    deferred_not_uninterrupted: true
+    same_label_not_continuity_proof: true
+    lost_not_currently_unattractive: true
+    higher_cost_not_material_unreachability_automatically: true
+    temporary_block_not_lost_automatically: true
+    later_functional_equivalent_not_preserved_historical_alternative: true
+    lost_alternative_not_sixth_canonical_loss_field: true
+    branch_status_not_output_class: true
+  status_and_source_controls:
+    cut_specific_status_required: true
+    status_and_interruption_cause_may_be_separate: true
+    later_status_may_change_without_retroactive_reclassification: true
+    operator_occurrence_not_status_classifier: true
+    visualized_status_not_historical_status_proof: true
+    source_responsible_unresolved_status_may_require_reduction_or_non_capture: true
+    existing_five_part_loss_required: true
+    sixth_loss_field_prohibited: true
+  cases_represented:
+  - C13-BLOCK-01
+  - C13-ABORT-01
+  - C13-DEFER-01
+  - C13-LOST-01
+  - C13-CONF-01
+  - C13-CONF-02
+  failure_stop_non_capture:
+    unsupported_blocked_aborted_deferred_or_lost_status_requires_reduction_or_failure: true
+    ? known_unsupported_status_used_for_impossibility_blame_prediction_function_intervention_or_authority_requires_mandatory_stop
+    : true
+    source_responsible_rejected_blocked_or_deferred_reconstituted_undecidability_may_receive_non_capture: true
+    new_label_frame_graph_or_later_equivalent_not_automatic_reentry: true
+  protected_handoffs:
+    chapter_13_wp3_counterfactual_non_selection_compression_record_owners_protected: true
+    chapter_14_non_event_detail_protected: true
+    chapter_15_compose_mechanics_protected: true
+    chapter_46_counterfactual_architecture_protected: true
+    retype_target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    branch_status_enum_score_probability_or_truth_engine_required: false
+    record_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_earlier_availability_inference_prohibited: true
+    automatic_blocked_aborted_deferred_or_lost_status_inference_prohibited: true
+    automatic_impossibility_blame_continuity_or_loss_mechanism_inference_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    automatic_causal_normative_predictive_functional_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_13_wp3_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#13-9-counterfactual-path
+  preparation_record: 04_reference/Chapter_13_Preparation_Record.md
+  status: chapter_13_wp3_prose_mirror
+  registry_mode: non_routing_prose_owned_counterfactual_non_selection_compression_and_record_wp3
+  canonical_sections:
+  - '13.9'
+  - '13.10'
+  - '13.11'
+  - '13.12'
+  counterfactual_path_burdens:
+    source_supported_historical_entry_required: true
+    branch_point_and_window_required: true
+    bounded_divergence_rule_required: true
+    approximately_held_stable_conditions_required: true
+    realized_path_divergence_required: true
+    source_ceiling_required: true
+    counterfactual_horizon_required: true
+    uncertainty_loss_claim_scope_and_stop_required: true
+    historical_availability_not_unrealized_outcome_proof: true
+    counterfactual_pressure_not_path_dependence_proof: true
+    chapter_46_general_counterfactual_sensitivity_owner_protected: true
+  non_selection_burdens:
+    active_selection_context_required: true
+    bounded_window_required: true
+    available_continuations_required: true
+    source_supported_non_selection_required: true
+    path_forming_consequence_required: true
+    missing_decision_record_not_non_selection: true
+    non_selection_not_rejected_blocked_or_deferred_automatically: true
+    non_selection_not_lambda_occurrence_automatically: true
+    chapter_14_non_event_owner_protected: true
+  compression_controls:
+    material_alternative_field_required: true
+    canonical_five_part_loss_required: true
+    constitutive_branch_relations_preserved: true
+    status_uncertainty_preserved: true
+    retrospective_linearization_prohibited: true
+    branch_inflation_prohibited: true
+    graph_rendering_not_status_proof: true
+    visual_complexity_not_claim_strength: true
+  alternative_status_record_decision:
+    carrier: shared_transformation_record_extensions
+    extension_id: pms-strata:chapter13:alternative-status:v0.1
+    owner_bound: true
+    does_not_replace_required_field: true
+    top_level_rival_transformation_alternatives_field_not_overloaded: true
+    new_required_schema_field: false
+    parallel_schema: false
+    record_completeness_not_availability_or_status_proof: true
+    one_continuation_per_entry_preferred: true
+    individual_source_status_and_uncertainty_inspectability_required: true
+  cases_represented:
+  - C13-CF-01
+  - C13-NSEL-01
+  - C13-COMP-01
+  - C13-REC-01
+  - C13-REDUCE-01
+  - C13-STOP-01
+  - C13-NC-01
+  - C13-HANDOFF-01
+  failure_reduction_stop_non_capture:
+    unsupported_counterfactual_requires_horizon_reduction_or_stop: true
+    unsupported_lost_or_other_status_requires_bounded_candidate_or_no_claim: true
+    complete_record_not_semantic_warrant: true
+    free_story_used_for_blame_prediction_sanction_function_or_authority_requires_mandatory_stop: true
+    source_responsible_status_or_availability_undecidability_may_receive_non_capture: true
+    weaker_path_transition_source_gap_or_uncertainty_findings_preserved: true
+    new_frame_label_graph_granularity_or_target_not_retroactive_repair: true
+  protected_handoffs:
+    chapter_14_non_event_detail_protected: true
+    chapter_15_compose_selection_formation_target_and_result_protected: true
+    chapter_46_general_counterfactual_sensitivity_protected: true
+    retype_project_as_target_function_not_assigned: true
+    reader_graph_implementation_not_produced: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    new_required_schema_field: false
+    parallel_record_schema_required: false
+    branch_status_enum_score_probability_or_truth_engine_required: false
+    smoke_record_migration_required: false
+    automatic_historical_availability_inference_prohibited: true
+    automatic_counterfactual_continuation_or_outcome_inference_prohibited: true
+    automatic_non_selection_or_lambda_inference_prohibited: true
+    automatic_branch_status_or_loss_inference_prohibited: true
+    automatic_output_class_selection_prohibited: true
+    automatic_causal_normative_predictive_person_functional_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_13_alternative_space_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#chapter-13-completion-boundary
+  status: chapter_13_provisional_lock_mirror
+  registry_mode: non_routing_prose_bound_alternative_space_lock_and_chapter_14_handoff
+  chapter_contract:
+    historical_window_and_source_basis_required: true
+    branch_statuses_remain_distinct: true
+    non_selection_representable_without_missing_information_or_automatic_non_event: true
+    alternative_compression_disclosed: true
+    counterfactual_paths_bounded_and_non_predictive: true
+  integrated_alternative_gate:
+    conjunctive: true
+    non_compensatory: true
+    required_burdens:
+    - historical_cut_or_window
+    - contemporary_frame_and_roles
+    - availability_and_source_support
+    - selection_or_prevention_trace
+    - initiation_trace_where_claimed
+    - later_reachability_or_loss_transition
+    - uncertainty
+    - claim_scope_and_output_mapping
+    retrospective_plausibility_not_historical_availability: true
+    current_or_later_possibility_not_earlier_reachability: true
+    visualized_branch_not_historically_available_branch: true
+    record_completeness_not_status_proof: true
+  integrated_boundaries:
+    branch_point_requires_plural_reachable_continuations: true
+    realized_not_rational_legitimate_optimal_or_inevitable: true
+    rejected_not_blocked: true
+    blocked_not_impossible: true
+    aborted_requires_initiation: true
+    deferred_not_uninterrupted_continuation: true
+    lost_requires_earlier_availability_and_later_loss_transition: true
+    status_and_mechanism_separable: true
+    same_label_not_continuity: true
+    counterfactual_horizon_required: true
+    historical_availability_not_unrealized_outcome: true
+    non_selection_not_missing_record_or_automatic_lambda: true
+    alternative_space_compression_requires_canonical_loss: true
+    historical_alternative_not_rival_transformation_alternative: true
+    known_unsupported_branch_or_counterfactual_used_for_authority_requires_mandatory_stop: true
+    materially_relevant_unresolved_status_may_receive_non_capture: true
+  record_extension_and_later_handoff:
+    shared_record_extensions_carrier_sufficient: true
+    parallel_record_schema_prohibited: true
+    required_field_replacement_prohibited: true
+    top_level_rival_transformation_alternatives_not_overloaded: true
+    chapter_14_non_event_typing_not_inherited: true
+    chapter_15_compose_authorization_not_inherited: true
+    chapter_46_general_counterfactual_sensitivity_not_preempted: true
+    project_as_authorization_not_inherited: true
+    target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    branch_status_enum_or_probability_required: false
+    record_schema_expansion_required: false
+    smoke_record_migration_required: false
+    automatic_historical_availability_inference_prohibited: true
+    automatic_branch_status_or_mechanism_inference_prohibited: true
+    automatic_counterfactual_outcome_inference_prohibited: true
+    automatic_non_event_or_compose_inference_prohibited: true
+    automatic_output_class_or_target_function_selection_prohibited: true
+    automatic_causal_predictive_normative_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_14_preparation_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#14-1-why-lambda-is-central-to-path
+  preparation_record: 04_reference/Chapter_14_Preparation_Record.md
+  status: chapter_14_preparation_gate_mirror
+  registry_mode: non_routing_preparation_only_non_event_gate_and_chapter_15_handoff
+  chapter_contract:
+    absence_missing_source_and_non_event_separate: true
+    expectation_frame_and_expected_window_mandatory: true
+    lambda_preserved_as_lambda_through_composition: true
+    person_blame_not_inferred: true
+    false_non_event_and_claim_reduction_available: true
+  expectation_and_non_realization_gate:
+    conjunctive: true
+    non_compensatory: true
+    required_burdens:
+    - identifiable_expected_occurrence
+    - warranted_expectation_relation
+    - declared_expectation_frame
+    - bounded_expected_window_or_condition
+    - source_supported_non_realization
+    - praxeological_load
+    - temporal_chain_relevance
+    analyst_preference_not_expectation: true
+    open_ended_possibility_not_expected_window: true
+    no_record_found_not_non_realization_proof: true
+    not_yet_realized_not_failed_within_window: true
+    graph_gap_not_non_event_proof: true
+  path_specific_pattern_burdens:
+    delay_as_lambda_not_observed_event_chain: true
+    positive_sub_events_may_coexist_with_governing_non_realization: true
+    repeated_non_decision_requires_renewed_active_contexts: true
+    repeated_non_decision_not_refusal_or_missing_records: true
+    blocked_responsibility_requires_role_architecture_and_blocking_relation: true
+    blocked_responsibility_not_person_blame_diagnosis_or_sanction: true
+    missing_repair_requires_independently_warranted_repair_expectation: true
+    missing_exit_requires_independently_warranted_exit_or_release_expectation: true
+    formal_exit_availability_not_expected_exit: true
+    non_exit_not_motive_proof: true
+    repetition_or_duration_not_sedimentation_automatically: true
+    local_lambda_not_path_dependence: true
+  preservation_and_loss:
+    later_compose_must_preserve_expected_occurrence_relation_frame_and_window: true
+    later_compose_must_preserve_non_realization_support_and_positive_sub_events: true
+    later_compose_must_preserve_affected_roles_alternatives_costs_residue_and_uncertainty: true
+    positive_event_translation_not_lambda_preservation: true
+    canonical_five_part_loss_required: true
+    chapter_15_compose_not_preexecuted: true
+  false_non_event_reduction_stop_non_capture:
+    missing_expectation_window_source_load_or_relevance_may_fail_claim: true
+    failed_non_event_not_positive_event_proof: true
+    false_non_event_not_new_output_class: true
+    stronger_claim_may_reduce_to_local_expectation_delay_source_gap_or_no_claim: true
+    unsupported_lambda_used_for_motive_blame_sanction_function_or_authority_requires_mandatory_stop: true
+    materially_structured_expectation_non_realization_undecidability_may_receive_non_capture: true
+    non_capture_not_weak_claim_protection: true
+    new_frame_label_graph_granularity_operation_or_record_not_retroactive_repair: true
+  preparation_case_duties:
+  - C14-CENT-01
+  - C14-FRAME-01
+  - C14-DELAY-01
+  - C14-SOURCE-01
+  - C14-NDEC-01
+  - C14-BRESP-01
+  - C14-REPAIR-01
+  - C14-EXIT-01
+  - C14-SED-01
+  - C14-CONF-01
+  - C14-CONF-02
+  - C14-PRES-01
+  - C14-SUBEV-01
+  - C14-FALSE-01
+  - C14-REC-01
+  - C14-REDUCE-01
+  - C14-STOP-01
+  - C14-NC-01
+  - C14-HANDOFF-01
+  record_and_schema_preparation:
+    minimal_non_event_view_prepared: true
+    shared_transformation_record_remains_controlling: true
+    owner_bound_extensions_carrier_candidate: true
+    wp3_schema_decision_required: true
+    new_required_schema_field_authorized_now: false
+    parallel_record_schema_prohibited: true
+    smoke_record_migration_authorized_now: false
+    record_completeness_not_non_event_proof: true
+  protected_handoffs:
+    chapter_3_foundational_non_event_owner_protected: true
+    chapter_15_compose_selection_formation_preservation_and_result_protected: true
+    chapter_23_internal_decomposition_mechanics_protected: true
+    chapter_49_missing_source_architecture_protected: true
+    retype_project_as_target_function_not_assigned: true
+    reader_graph_implementation_not_produced: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    new_required_schema_field: false
+    smoke_record_migration_required: false
+    non_event_status_enum_score_probability_or_truth_engine_required: false
+    automatic_expectation_relation_or_window_inference_prohibited: true
+    automatic_non_realization_or_lambda_inference_prohibited: true
+    automatic_intention_refusal_blame_duty_motive_or_person_inference_prohibited: true
+    automatic_sedimentation_path_dependence_or_operation_inference_prohibited: true
+    automatic_output_class_or_target_function_selection_prohibited: true
+    automatic_causal_normative_predictive_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_14_wp1_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#14-non-events-within-paths-and-trajectories
+  preparation_record: 04_reference/Chapter_14_Preparation_Record.md
+  status: chapter_14_wp1_prose_mirror
+  registry_mode: non_routing_prose_bound_non_event_and_delay_gate
+  wp1_sections:
+  - 14.1 Why Lambda Is Central to PATH
+  - 14.2 Frame-Dependence of Non-Events
+  - 14.3 Delay as Non-Event
+  expectation_non_event_gate:
+    conjunctive: true
+    non_compensatory: true
+    required_burdens:
+    - identifiable_expected_occurrence
+    - warranted_expectation_relation
+    - declared_expectation_frame
+    - bounded_expected_window_or_condition
+    - source_supported_non_realization
+    - praxeological_load
+    - temporal_chain_relevance
+    ordinary_absence_not_non_event: true
+    missing_information_not_non_event: true
+    unknown_occurrence_not_established_non_realization: true
+    analyst_expectation_not_warranted_expectation: true
+    not_yet_realized_not_failed_within_window: true
+    no_record_found_not_record_of_non_occurrence: true
+  path_relevance_and_granularity:
+    local_lambda_not_path_forming_automatically: true
+    positive_sub_events_may_coexist_with_governing_non_event: true
+    finer_event_resolution_not_truth_priority: true
+    path_forming_load_must_be_declared: true
+    graph_gap_not_non_event_proof: true
+    visual_salience_not_substantive_warrant: true
+  frame_and_window_controls:
+    frame_must_be_source_supported_and_claim_bounded: true
+    same_surface_absence_may_differ_across_warranted_frames: true
+    frame_change_may_terminate_replace_extend_translate_or_leave_expectation_uncertain: true
+    fixed_recurring_triggered_sequence_and_phase_windows_supported: true
+    open_ended_possibility_not_expected_window: true
+    extension_replacement_suspension_contestation_expiry_and_renewal_separate: true
+    later_deadline_not_retroactive_erasure_automatically: true
+  source_controls:
+    source_bundle_must_support_bounded_non_occurrence: true
+    source_coverage_claim_bounded_to_supported_granularity: true
+    incomplete_archive_not_non_realization_proof: true
+    missing_source_architecture_owner: Chapter 49
+  delay_controls:
+    delay_as_lambda_not_observed_postponement_event_chain: true
+    original_window_status_required: true
+    positive_sub_events_required_where_material: true
+    accumulated_load_and_affected_alternatives_required: true
+    later_realization_not_earlier_delay_erasure_automatically: true
+    deferred_branch_not_delay_non_event_automatically: true
+    intention_not_required_or_inferred: true
+  wp1_case_duties:
+  - C14-CENT-01
+  - C14-FRAME-01
+  - C14-DELAY-01
+  - C14-SOURCE-01
+  protected_handoffs:
+    chapter_3_foundational_non_event_owner_protected: true
+    chapter_14_wp2_repeated_and_domain_specific_patterns_protected: true
+    chapter_14_wp3_preservation_record_failure_stop_non_capture_protected: true
+    chapter_15_compose_not_preexecuted: true
+    chapter_23_decompose_not_preexecuted: true
+    chapter_49_source_gap_architecture_not_duplicated: true
+    retype_target_function_not_assigned: true
+    reader_graph_implementation_not_produced: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    new_required_schema_field: false
+    smoke_record_migration_required: false
+    status_enum_score_probability_or_truth_engine_required: false
+    automatic_expectation_or_non_realization_inference_prohibited: true
+    automatic_lambda_delay_sedimentation_or_path_dependence_inference_prohibited: true
+    automatic_intention_refusal_blame_duty_motive_or_person_inference_prohibited: true
+    automatic_operation_output_class_target_function_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_14_wp2_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#14-4-repeated-non-decision
+  preparation_record: 04_reference/Chapter_14_Preparation_Record.md
+  status: chapter_14_wp2_prose_mirror
+  registry_mode: non_routing_prose_bound_repeated_and_sedimented_non_event_handoff
+  wp2_sections:
+  - 14.4 Repeated Non-Decision
+  - 14.5 Blocked Responsibility
+  - 14.6 Missing Repair
+  - 14.7 Missing Exit
+  - 14.8 Non-Event Sedimentation
+  repeated_non_decision_controls:
+    renewed_or_recurring_decision_contexts_required: true
+    one_prolonged_window_not_repeated_non_decision_automatically: true
+    repeated_missing_documentation_not_repeated_non_decision: true
+    non_decision_not_refusal: true
+    label_continuity_not_expectation_continuity: true
+    context_level_expectation_window_non_realization_and_carryover_declarations_required: true
+    repetition_not_sedimentation_or_path_dependence_automatically: true
+  blocked_responsibility_controls:
+    expected_occurrence_role_architecture_blocking_relation_window_and_load_required: true
+    cyclic_distributed_conditional_jurisdictional_or_authorization_block_supported: true
+    responsibility_distribution_not_blockage_automatically: true
+    structural_blockage_not_person_blame_diagnosis_legal_duty_legitimacy_or_sanction: true
+    unresolved_refusal_incapacity_workload_or_configuration_may_require_reduction_or_non_capture: true
+  missing_repair_controls:
+    independently_warranted_repair_expectation_required: true
+    repair_object_and_completion_condition_required: true
+    defect_harm_or_analyst_desirability_not_repair_expectation: true
+    initiation_partial_mitigation_workaround_and_completed_repair_separate: true
+    later_residue_not_retroactive_expectation_or_non_realization_proof: true
+  missing_exit_controls:
+    warranted_triggered_announced_contractual_or_procedural_exit_required: true
+    formal_exit_availability_not_expected_exit: true
+    non_exit_not_motive_coercion_voluntariness_consent_incapacity_or_rationality_proof: true
+    exit_trigger_window_positive_steps_non_realization_and_continuation_load_required: true
+    attractor_asymmetry_binding_and_residual_interactions_require_separate_support: true
+  sedimentation_controls:
+    valid_source_non_event_occurrences_required: true
+    prolonged_repeated_and_mixed_occurrence_architectures_separate: true
+    repetition_and_duration_not_sedimentation_automatically: true
+    later_carrier_and_changed_praxis_required: true
+    affected_meaning_cost_roles_alternatives_bindings_residue_or_action_corridors_declared: true
+    profile_interaction_not_operator_fusion_universal_chain_or_additive_score: true
+    profile_richness_not_compensation_for_invalid_lambda_substrate: true
+    changed_corridor_not_impossibility_or_inevitability: true
+    current_condition_rival_and_competing_constructions_required: true
+    non_event_sedimentation_not_strong_path_dependence_automatically: true
+  wp2_case_duties:
+  - C14-NDEC-01
+  - C14-BRESP-01
+  - C14-REPAIR-01
+  - C14-EXIT-01
+  - C14-SED-01
+  - C14-CONF-01
+  - C14-CONF-02
+  protected_handoffs:
+    chapter_3_foundational_non_event_owner_protected: true
+    chapter_14_wp3_preservation_record_failure_stop_non_capture_protected: true
+    chapter_15_compose_not_preexecuted: true
+    chapter_23_decompose_not_preexecuted: true
+    chapter_49_source_gap_architecture_not_duplicated: true
+    retype_target_function_not_assigned: true
+    reader_graph_implementation_not_produced: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    new_required_schema_field: false
+    smoke_record_migration_required: false
+    status_profile_or_occurrence_enum_score_probability_or_truth_engine_required: false
+    automatic_repeated_context_or_non_realization_inference_prohibited: true
+    automatic_blockage_repair_exit_or_sedimentation_inference_prohibited: true
+    automatic_intention_refusal_blame_duty_motive_coercion_or_person_inference_prohibited: true
+    automatic_path_dependence_operation_output_class_target_function_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_14_wp3_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#14-9-preserving-lambda-in-composition
+  preparation_record: 04_reference/Chapter_14_Preparation_Record.md
+  status: chapter_14_wp3_prose_mirror
+  registry_mode: non_routing_prose_bound_non_event_preservation_record_and_failure_handoff
+  wp3_sections:
+  - 14.9 Preserving Λ in Composition
+  - 14.10 False Non-Event
+  - 14.11 Minimal Non-Event Record
+  preservation_controls:
+    chapter_14_does_not_execute_compose: true
+    expected_occurrence_relation_frame_window_and_non_realization_preserved_or_loss_declared: true
+    positive_sub_events_occurrence_architecture_roles_alternatives_residue_and_uncertainty_preserved_or_loss_declared: true
+    missing_information_distinction_preserved: true
+    positive_continuation_description_not_lambda_preservation_automatically: true
+    positive_sub_events_not_governing_expected_occurrence_realized_automatically: true
+    preserved_lambda_not_intention_blame_causal_uniqueness_normativity_prediction_or_target_function: true
+  false_non_event_controls:
+    local_failure_description_not_output_class: true
+    identifiable_expected_occurrence_required: true
+    warranted_expectation_relation_frame_and_bounded_window_required: true
+    source_supported_non_realization_required: true
+    praxis_load_and_temporal_chain_relevance_required: true
+    retrospective_desirability_not_historical_expectation: true
+    open_window_not_failed_occurrence: true
+    missing_source_not_non_occurrence: true
+    available_alternative_not_expected_occurrence: true
+    blank_graph_interval_node_or_edge_not_lambda: true
+    failed_non_event_not_positive_event_proof: true
+  minimal_record_controls:
+    existing_owner_bound_extensions_carrier_sufficient: true
+    extension_id: pms-strata:chapter14:non-event:v0.1
+    required_payload_fields:
+    - reference_object
+    - expected_occurrence
+    - expectation_relation
+    - expectation_frame
+    - expected_window_or_condition
+    - non_realization_support
+    - positive_sub_events
+    - persistence_or_repetition
+    - affected_roles
+    - affected_alternatives
+    - accumulated_costs_or_residue
+    - sedimentation_status
+    - source_support
+    - uncertainty
+    - claim_scope
+    - output_class_mapping
+    does_not_replace_required_shared_record_fields: true
+    record_completeness_not_semantic_validity: true
+  reduction_stop_non_capture_controls:
+    reduction_ladder_preserves_strongest_supported_weaker_claim: true
+    new_frame_granularity_graph_composition_extension_or_label_not_retroactive_repair: true
+    unsupported_lambda_for_person_attribution_sanction_authority_prediction_operation_or_function_requires_stop: true
+    material_source_non_realization_ambiguity_may_map_to_non_capture: true
+  wp3_case_duties:
+  - C14-PRES-01
+  - C14-SUBEV-01
+  - C14-FALSE-01
+  - C14-REC-01
+  - C14-REDUCE-01
+  - C14-STOP-01
+  - C14-NC-01
+  - C14-HANDOFF-01
+  protected_handoffs:
+    chapter_3_foundational_non_event_owner_protected: true
+    chapter_15_compose_not_preexecuted: true
+    chapter_23_decompose_not_preexecuted: true
+    chapter_49_source_gap_architecture_not_duplicated: true
+    retype_target_function_not_assigned: true
+    reader_graph_implementation_not_produced: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    transformation_record_schema_amendment_required: false
+    smoke_record_migration_required: false
+    parallel_schema_required: false
+    status_enum_score_probability_or_truth_engine_required: false
+    automatic_expectation_non_realization_lambda_sedimentation_or_semantic_validity_inference_prohibited: true
+    automatic_intention_refusal_blame_duty_motive_coercion_or_person_inference_prohibited: true
+    automatic_operation_output_class_target_function_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_14_non_event_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#chapter-14-completion-boundary
+  status: chapter_14_provisional_lock_mirror
+  registry_mode: non_routing_prose_bound_non_event_lock_and_chapter_15_handoff
+  chapter_contract:
+    absence_missing_source_and_non_event_separate: true
+    expectation_frame_and_expected_window_mandatory: true
+    lambda_preserved_through_composition_or_loss: true
+    person_blame_not_inferred: true
+    false_non_event_and_claim_reduction_available: true
+  integrated_non_event_gate:
+    conjunctive: true
+    non_compensatory: true
+    required_burdens:
+    - expected_occurrence
+    - expectation_relation
+    - expectation_frame
+    - bounded_expected_window_or_condition
+    - source_supported_non_realization
+    - praxeological_load
+    - temporal_chain_relevance
+    - uncertainty_and_claim_ceiling
+    absence_not_non_event: true
+    missing_source_not_non_occurrence: true
+    unknown_status_not_supported_non_realization: true
+    positive_sub_events_may_coexist_with_governing_lambda: true
+    graph_gap_not_non_event: true
+    record_completeness_not_semantic_validity: true
+  integrated_boundaries:
+    delay_lambda_not_postponement_event_chain: true
+    deferred_branch_not_delay_non_event_automatically: true
+    later_realization_not_earlier_delay_erasure: true
+    repeated_non_decision_requires_renewed_contexts: true
+    non_decision_not_refusal: true
+    blocked_responsibility_not_person_blame_or_duty: true
+    missing_repair_requires_independent_expectation: true
+    missing_exit_requires_independent_expectation: true
+    exit_non_realization_not_motive_or_coercion: true
+    repetition_or_duration_not_sedimentation: true
+    sedimentation_requires_later_carrier: true
+    profile_interaction_not_fusion_score_or_compensation: true
+    non_event_sedimentation_not_strong_path_dependence_automatically: true
+    positive_continuity_language_not_lambda_preservation: true
+    failed_non_event_not_positive_event_proof: true
+    known_unsupported_lambda_used_for_authority_requires_mandatory_stop: true
+    materially_relevant_unresolved_non_event_may_receive_non_capture: true
+  record_extension_and_later_handoff:
+    shared_record_extensions_carrier_sufficient: true
+    parallel_record_schema_prohibited: true
+    required_field_replacement_prohibited: true
+    schema_amendment_required: false
+    smoke_record_migration_required: false
+    chapter_15_compose_authorization_not_inherited: true
+    chapter_23_decompose_result_not_inherited: true
+    chapter_49_source_limit_owner_not_preempted: true
+    project_as_authorization_not_inherited: true
+    target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    non_event_status_enum_probability_or_score_required: false
+    automatic_expectation_or_non_realization_inference_prohibited: true
+    automatic_lambda_delay_repair_exit_or_sedimentation_inference_prohibited: true
+    automatic_intention_blame_duty_motive_or_coercion_inference_prohibited: true
+    automatic_compose_decompose_or_project_as_inference_prohibited: true
+    automatic_output_class_or_target_function_selection_prohibited: true
+    automatic_causal_predictive_normative_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_15_preparation_handoff:
+  canonical_preparation_owner: 04_reference/Chapter_15_Preparation_Record.md
+  status: chapter_15_preparation_gate_mirror
+  registry_mode: non_routing_prose_bound_compose_preparation
+  operation_identity:
+    operation_type: COMPOSE
+    new_operation_created: false
+    operation_type_occurrence_and_composite_distinct: true
+    source_types_preserved: true
+    new_pms_primitive_created: false
+  precondition_gate:
+    conjunctive: true
+    non_compensatory: true
+    required_burdens:
+    - typed_source_objects
+    - source_frame_granularity_level
+    - temporal_or_structural_scope
+    - warranted_ordering
+    - selection_rule
+    - formation_rule
+    - constitutive_relations
+    - source_support
+    - expected_praxeological_difference
+    - five_part_loss
+    - bounded_target_object_and_claim
+    - rival_or_no_composition_pressure_where_material
+    source_list_alone_insufficient: true
+    chronology_or_aggregation_not_compose: true
+  constitutive_and_loss_controls:
+    selection_ordering_frame_and_formation_separate: true
+    preservation_means_reconstructible_source_dependency: true
+    canonical_loss_fields:
+    - preserved
+    - compressed
+    - excluded
+    - uncertain
+    - irrecoverable
+    additional_loss_fields_prohibited: true
+    exclusion_not_disproof: true
+    uncertainty_not_irrecoverability: true
+    counterfactual_sensitivity_required: true
+    overelasticity_requires_pressure: true
+  claim_and_operation_boundaries:
+    sequence_path_trajectory_and_dependence_claims_separately_warranted: true
+    compose_not_project_as: true
+    target_function_not_assigned: true
+    authority_inheritance: prohibited
+    later_decompose_not_prior_losslessness_proof: true
+  preparation_case_duties:
+  - C15-PURP-01
+  - C15-PRE-01
+  - C15-SRC-01
+  - C15-SEL-01
+  - C15-ORDER-01
+  - C15-FRAME-01
+  - C15-FORM-01
+  - C15-PRES-01
+  - C15-COMP-01
+  - C15-EXCL-01
+  - C15-UNC-01
+  - C15-IRREC-01
+  - C15-CLAIM-01
+  - C15-RETYPE-01
+  - C15-CF-01
+  - C15-FAIL-01
+  - C15-REC-01
+  - C15-STOP-01
+  - C15-NC-01
+  record_and_schema_preparation:
+    existing_operation_registry_sufficient: true
+    existing_shared_record_sufficient: true
+    compose_details_already_registered: true
+    schema_amendment_required_now: false
+    smoke_record_migration_required_now: false
+    parallel_schema_prohibited: true
+    schema_validity_not_semantic_formation_proof: true
+  protected_handoffs:
+    chapter_16_path_boundary_owner_protected: true
+    chapter_17_integrated_case_owner_protected: true
+    chapter_24_decompose_owner_protected: true
+    chapter_48_general_loss_owner_protected: true
+    retype_project_as_target_function_owner_protected: true
+    reader_graph_implementation_not_produced: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_source_selection_order_formation_or_constitutive_status_inference_prohibited: true
+    automatic_sequence_path_trajectory_dependence_or_branch_closure_inference_prohibited: true
+    automatic_output_class_or_target_function_selection_prohibited: true
+    automatic_causal_normative_predictive_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_15_wp1_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#15-compose-selection-formation-and-compression
+  status: chapter_15_wp1_mirror
+  registry_mode: non_routing_prose_bound_compose_entry_support
+  operation_identity:
+    operation_type: COMPOSE
+    operation_type_occurrence_and_target_distinct: true
+    new_operation_created: false
+    new_pms_primitive_created: false
+    source_type_rewriting_prohibited: true
+    authority_inheritance: prohibited
+  purpose_and_entry:
+    new_praxeological_discrimination_required: true
+    summary_convenience_insufficient: true
+    entry_gate_conjunctive: true
+    entry_gate_non_compensatory: true
+    no_composition_route_available: true
+    rival_composition_pressure_required_where_material: true
+    source_volume_graph_density_and_record_completeness_non_compensatory: true
+  source_controls:
+    identity_typing_lineage_frame_granularity_level_scope_support_uncertainty_and_role_declared: true
+    source_set_boundary_declared: true
+    inherited_uncertainty_and_loss_preserved: true
+    heterogeneity_allowed_without_type_fusion: true
+    valid_sources_not_automatic_valid_composition: true
+  selection_controls:
+    selection_not_discovery: true
+    endpoint_driven_selection_prohibited: true
+    included_omitted_contested_load_bearing_supporting_illustrative_and_redundant_roles_distinguished: true
+    omission_not_irrelevance_or_disproof: true
+    competing_selections_preserved_where_material: true
+  ordering_controls:
+    linear_partial_overlapping_parallel_synchronized_recurrent_uncertain_and_retrospective_forms_allowed_when_warranted: true
+    narrative_or_visual_order_not_temporal_order: true
+    false_total_order_prohibited: true
+    retrospective_periodization_requires_declaration: true
+    cyclic_graph_not_causal_cycle_proof: true
+  frame_controls:
+    reference_source_and_target_object_frames_declared: true
+    temporal_scope_roles_contexts_granularity_level_claim_boundary_and_ceiling_declared: true
+    frame_granularity_level_and_formation_distinct: true
+    same_sources_different_frames_new_testable_claims: true
+    composition_frame_not_target_function: true
+  wp1_case_duties:
+  - C15-PURP-01
+  - C15-PRE-01
+  - C15-SRC-01
+  - C15-SEL-01
+  - C15-ORDER-01
+  - C15-FRAME-01
+  protected_handoffs:
+    wp2_formation_and_loss_owner_protected: true
+    wp3_claim_sensitivity_failure_record_owner_protected: true
+    chapter_16_boundary_owner_protected: true
+    chapter_17_integrated_case_owner_protected: true
+    chapter_24_decompose_owner_protected: true
+    chapter_48_loss_owner_protected: true
+    retype_project_as_owner_protected: true
+    reader_graph_not_operation_proof: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_source_adequacy_selection_order_frame_formation_constitutive_or_target_class_inference_prohibited: true
+    automatic_loss_output_class_target_function_or_authority_inference_prohibited: true
+    automatic_causal_normative_predictive_or_application_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_15_wp2_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#15-7-formation-rule
+  status: chapter_15_wp2_mirror
+  registry_mode: non_routing_prose_bound_compose_formation_and_loss_support
+  operation_identity:
+    operation_type: COMPOSE
+    formation_hypothesis_finding_occurrence_and_target_distinct: true
+    new_operation_created: false
+    new_pms_primitive_created: false
+    source_type_rewriting_prohibited: true
+    authority_inheritance: prohibited
+  formation_controls:
+    target_object_and_class_declared: true
+    formation_rule_declared: true
+    constitutive_relations_declared: true
+    new_praxeological_discrimination_required: true
+    source_trace_required: true
+    collection_chronology_label_and_graph_connectivity_insufficient: true
+    sequence_path_trajectory_branch_phase_thresholds_distinct: true
+    internal_heterogeneity_may_be_preserved: true
+    rival_or_no_composition_pressure_preserved: true
+  preservation_controls:
+    reconstructible_source_dependence_required: true
+    total_copy_and_losslessness_not_required: true
+    ? identity_type_lineage_order_transition_non_event_asymmetry_binding_branch_alternative_heterogeneity_uncertainty_and_inherited_loss_preserved_where_claim_relevant
+    : true
+    external_lineage_may_support_recoverability: true
+    external_recoverability_not_internal_retention: true
+    chronology_preservation_not_praxeological_load_preservation: true
+  compression_controls:
+    compression_rule_declared: true
+    reduced_resolution_and_retained_distinctions_declared: true
+    external_recoverability_and_uncertainty_declared: true
+    compression_not_erasure_or_irrecoverability_automatically: true
+    finer_resolution_not_truth_priority: true
+    traceability_ceiling_applies: true
+    decompose_not_inverse_or_restoration_proof: true
+  exclusion_controls:
+    excluded_material_reason_frame_and_target_effect_declared: true
+    source_domain_status_and_contestability_declared: true
+    exclusion_not_falsity_global_irrelevance_source_absence_compression_or_uncertainty: true
+    undeclared_omission_not_controlled_exclusion: true
+    rival_frame_relevance_preserved: true
+  uncertainty_and_irrecoverability_controls:
+    uncertain_material_visible: true
+    uncertainty_not_exclusion_or_irrecoverability: true
+    source_inherited_composition_induced_and_mixed_irrecoverability_distinct: true
+    irrecoverable_loss_not_failure_automatically: true
+    constitutive_irrecoverability_requires_reduction_failure_stop_or_non_capture_pressure: true
+    no_residual_bucket_use: true
+  loss_controls:
+    canonical_structure_required: true
+    canonical_fields:
+    - preserved
+    - compressed
+    - excluded
+    - uncertain
+    - irrecoverable
+    sixth_loss_field_prohibited: true
+    loss_fields_non_compensatory: true
+    formal_elegance_not_loss_compensation: true
+  wp2_case_duties:
+  - C15-FORM-01
+  - C15-PRES-01
+  - C15-COMP-01
+  - C15-EXCL-01
+  - C15-UNC-01
+  - C15-IRREC-01
+  protected_handoffs:
+    wp3_claim_sensitivity_failure_record_owner_protected: true
+    wp4_lock_owner_protected: true
+    chapter_16_boundary_owner_protected: true
+    chapter_17_integrated_case_owner_protected: true
+    chapter_24_decompose_owner_protected: true
+    chapter_48_loss_owner_protected: true
+    retype_project_as_owner_protected: true
+    reader_graph_not_formation_or_loss_proof: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    new_loss_field_required: false
+    score_probability_or_truth_engine_required: false
+    ? automatic_formation_constitutive_status_preservation_compression_exclusion_uncertainty_irrecoverability_or_target_class_inference_prohibited
+    : true
+    automatic_operation_success_output_class_target_function_or_authority_inference_prohibited: true
+    automatic_causal_normative_predictive_or_application_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_15_wp3_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#15-12-composition-claim
+  status: chapter_15_wp3_mirror
+  registry_mode: non_routing_prose_bound_compose_claim_sensitivity_failure_record_support
+  claim_controls:
+    composite_object_claim_relation_claim_and_strength_claim_distinct: true
+    operation_success_not_every_stronger_claim: true
+    weakest_load_bearing_burden_limits_claim_ceiling: true
+    failed_stronger_claim_not_source_field_erasure: true
+  type_and_function_controls:
+    source_types_preserved: true
+    new_composite_type_not_retroactive_retyping: true
+    analytical_role_not_operator_type_or_target_function: true
+    project_as_required_for_contextual_target_function: true
+    nested_composite_not_primitive_loss_reset_or_authority_inheritance: true
+  sensitivity_controls:
+    source_bounded_variations:
+    - removal
+    - substitution
+    - reorder
+    - recompression
+    - reframing
+    - rival_composition
+    - no_composition
+    constitutive_supporting_exchangeable_load_claim_relative: true
+    overelasticity_pressure_required: true
+    sensitivity_not_free_counterfactual_history_causal_necessity_inevitability_prediction_or_reversal_guarantee: true
+  failure_controls:
+    failure_burdens_declared: true
+    controlled_reduction_ladder:
+    - Trajectory
+    - Path
+    - Sequence
+    - ordered_or_partially_ordered_source_field
+    - source_collection
+    - no_composition
+    prior_failure_preserved: true
+    new_composition_new_testable_claim: true
+    mandatory_stop_and_non_capture_available: true
+  record_controls:
+    shared_transformation_record_required: true
+    existing_compose_details_sufficient: true
+    schema_change_required: false
+    smoke_record_migration_required: false
+    selection_and_target_pointers_authoritative: true
+    claim_segments_separately_auditable: true
+    schema_validity_not_substantive_admissibility: true
+  wp3_case_duties:
+  - C15-CLAIM-01
+  - C15-RETYPE-01
+  - C15-CF-01
+  - C15-FAIL-01
+  - C15-REC-01
+  - C15-STOP-01
+  - C15-NC-01
+  protected_handoffs:
+    wp4_lock_owner_protected: true
+    chapter_16_boundary_owner_protected: true
+    chapter_17_integrated_case_owner_protected: true
+    chapter_24_decompose_owner_protected: true
+    chapter_30_project_as_owner_protected: true
+    chapter_48_loss_owner_protected: true
+    reader_graph_not_claim_sensitivity_operation_or_authority_proof: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    ? automatic_formation_constitutive_status_sensitivity_overelasticity_failure_operation_success_output_class_target_function_or_authority_inference_prohibited
+    : true
+    automatic_causal_counterfactual_predictive_normative_person_or_application_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_15_compose_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#chapter-15-completion-boundary
+  status: chapter_15_provisional_lock_mirror
+  registry_mode: non_routing_prose_bound_compose_lock_and_chapter_16_handoff
+  chapter_contract:
+    source_and_target_objects_typed: true
+    selection_ordering_and_formation_distinct: true
+    canonical_loss_complete: true
+    counterfactual_sensitivity_applied_to_constitutive_elements: true
+    project_as_not_preempted: true
+    failure_reduction_stop_and_non_capture_use_canonical_outputs: true
+  integrated_compose_gate:
+    conjunctive: true
+    non_compensatory: true
+    required_burdens:
+    - typed_and_lineaged_sources
+    - selection_rule
+    - ordering_rule
+    - composition_frame
+    - formation_rule
+    - constitutive_relations
+    - typed_target_object
+    - source_trace
+    - praxeological_purchase
+    - canonical_five_part_loss
+    - counterfactual_sensitivity
+    - claim_ceiling
+    - canonical_output_mapping
+    source_plurality_not_composition: true
+    chronology_not_path_automatically: true
+    connected_graph_not_formed_composite: true
+    no_composition_positive_route: true
+  loss_controls:
+    canonical_fields:
+    - preserved
+    - compressed
+    - excluded
+    - uncertain
+    - irrecoverable
+    sixth_loss_field_prohibited: true
+    preserved_not_lossless: true
+    compressed_not_erased_or_irrecoverable_automatically: true
+    excluded_not_disproved: true
+    uncertain_not_irrecoverable: true
+    source_inherited_and_composition_induced_irrecoverability_distinct: true
+  claim_and_type_controls:
+    object_relation_and_strength_claims_separate: true
+    source_origin_types_preserved: true
+    nested_composite_not_primitive: true
+    loss_and_uncertainty_not_reset: true
+    compose_target_object_not_project_as_target_function: true
+    trajectory_and_path_dependence_not_automatic: true
+    authority_inheritance: prohibited
+  sensitivity_failure_and_record_controls:
+    bounded_variations:
+    - removal
+    - source_supported_substitution
+    - reorder
+    - recompression
+    - reframing
+    - rival_composition
+    - no_composition
+    counterfactual_sensitivity_not_causal_necessity: true
+    overelasticity_exposed: true
+    weaker_findings_preserved_on_failure: true
+    new_composition_new_testable_claim: true
+    existing_shared_record_and_compose_details_sufficient: true
+    schema_amendment_required: false
+    smoke_record_migration_required: false
+  case_duties:
+  - C15-PURP-01
+  - C15-PRE-01
+  - C15-SRC-01
+  - C15-SEL-01
+  - C15-ORDER-01
+  - C15-FRAME-01
+  - C15-FORM-01
+  - C15-PRES-01
+  - C15-COMP-01
+  - C15-EXCL-01
+  - C15-UNC-01
+  - C15-IRREC-01
+  - C15-CLAIM-01
+  - C15-RETYPE-01
+  - C15-CF-01
+  - C15-FAIL-01
+  - C15-REC-01
+  - C15-STOP-01
+  - C15-NC-01
+  later_owner_handoff:
+    chapter_16_boundary_adjudication_not_inherited: true
+    chapter_17_case_corpus_not_produced: true
+    chapter_24_decompose_result_not_inherited: true
+    chapter_48_general_loss_owner_not_preempted: true
+    project_as_authorization_not_inherited: true
+    target_function_not_assigned: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    new_schema_field_or_loss_field_required: false
+    score_probability_truth_engine_required: false
+    ? automatic_selection_order_formation_constitutive_status_loss_adequacy_sensitivity_overelasticity_operation_success_output_class_target_function_or_authority_inference_prohibited
+    : true
+    automatic_causal_predictive_normative_person_or_sanction_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_16_preparation_handoff:
+  canonical_preparation_owner: 04_reference/Chapter_16_Preparation_Record.md
+  status: chapter_16_preparation_gate_mirror
+  registry_mode: non_routing_prose_bound_path_boundary_preparation
+  band_localization:
+    general_band_owner: Chapter 6 and Chapters 41-53
+    path_local_owner: Chapter 16
+    lower_and_upper_boundaries_distinct: true
+    boundaries_non_symmetric: true
+    boundaries_non_compensatory: true
+    relevance_floor_vocabulary_reused: relevance_floor_boundary_result
+    traceability_ceiling_vocabulary_reused: traceability_ceiling_boundary_result
+    new_local_vocabulary_created: false
+    local_boundary_result_not_output_class: true
+  lower_boundary_controls:
+    chronology_without_praxis_gain_below_floor_pressure: true
+    more_dates_or_longer_duration_not_gain: true
+    correct_order_not_trajectory_gain: true
+    resolution_neutrality_possible: true
+  upper_boundary_controls:
+    macro_label_without_path_trace_above_ceiling_pressure: true
+    trajectory_requires_reconstructible_path_load: true
+    excessive_compression_and_punctualization_separate: true
+    source_insensitivity_exposed: true
+    omitted_lambda_and_omega_materiality_tested_separately: true
+  direction_and_part_boundaries:
+    directionality_not_teleology: true
+    endpoint_conditioned_selection_prohibited: true
+    path_not_sub: true
+    path_not_retype: true
+    finer_level_not_truth_priority: true
+    project_as_not_path_rescue: true
+    decompose_not_path_rescue: true
+  result_and_governance_controls:
+    claim_reduction_ladder:
+    - trajectory
+    - bounded_path
+    - sequence
+    - chronology_or_partial_order
+    - source_collection
+    - no_path_claim
+    optional_stop_not_mandatory_stop: true
+    mandatory_stop_requires_inadmissible_continuation: true
+    non_capture_not_mechanical_missing_data_result: true
+    new_frame_level_granularity_operation_graph_or_label_new_testable_claim: true
+    prior_failure_not_erased: true
+  preparation_case_duties:
+  - C16-BAND-01
+  - C16-LOW-01
+  - C16-CHRON-01
+  - C16-UP-01
+  - C16-TRACE-01
+  - C16-COMP-01
+  - C16-DIR-01
+  - C16-TEL-01
+  - C16-LAMBDA-01
+  - C16-OMEGA-01
+  - C16-RETYPE-01
+  - C16-SUB-01
+  - C16-PURCHASE-01
+  - C16-TRACEABLE-01
+  - C16-PROV-01
+  - C16-REDUCE-01
+  - C16-STOP-01
+  - C16-NC-01
+  - C16-LEVEL-01
+  record_and_schema_preparation:
+    existing_rule_profiles_sufficient: true
+    existing_controlled_local_vocabularies_sufficient: true
+    existing_ordered_audit_stages_sufficient: true
+    existing_shared_record_sufficient: true
+    schema_amendment_required_now: false
+    smoke_record_migration_required_now: false
+    parallel_schema_prohibited: true
+    field_presence_not_boundary_passage: true
+  protected_handoffs:
+    chapter_17_case_and_local_audit_owner_protected: true
+    sub_decompose_owner_protected: true
+    retype_project_as_owner_protected: true
+    limits_integrated_owner_protected: true
+    reader_graph_implementation_not_produced: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    new_controlled_local_vocabulary_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_praxeological_salience_or_traceability_judgment_prohibited: true
+    automatic_trajectory_teleology_compression_omission_or_part_boundary_inference_prohibited: true
+    automatic_output_class_or_target_function_selection_prohibited: true
+    automatic_causal_normative_predictive_person_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_16_wp1_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#16-path-boundary-conditions
+  status: chapter_16_wp1_mirror
+  registry_mode: non_routing_prose_bound_path_boundary_support
+  band_identity:
+    general_band_owner: Chapter 6
+    path_localization_owner: Chapter 16
+    lower_and_upper_boundaries_distinct: true
+    boundaries_non_compensatory: true
+    more_dates_detail_span_formality_or_visual_elegance_non_compensatory: true
+    new_boundary_system_created: false
+  lower_boundary_controls:
+    controlled_vocabulary_owner: controlled_local_vocabularies.relevance_floor_boundary_result
+    permitted_values:
+    - gain
+    - neutral
+    - below_floor
+    - underdetermined
+    temporal_differentiation_requires_changed_warranted_praxis_reconstruction: true
+    chronology_may_remain_valid_without_path_or_trajectory_gain: true
+    neutral_not_automatic_failure: true
+    duration_repetition_and_record_completeness_insufficient: true
+  upper_boundary_controls:
+    controlled_vocabulary_owner: controlled_local_vocabularies.traceability_ceiling_boundary_result
+    permitted_values:
+    - within_ceiling
+    - claim_reduction
+    - above_ceiling
+    - underdetermined
+    source_to_result_dependency_required: true
+    citation_density_insufficient: true
+    bounded_removal_reorder_recompression_and_rival_periodization_pressure_allowed: true
+    source_indifferent_target_under_pressure: true
+    macro_label_not_traceable_trajectory: true
+  trace_and_compression_controls:
+    trajectory_claim_requires_reconstructible_path_load_where_material: true
+    weaker_findings_preserved_after_trajectory_failure: true
+    compression_distinct_from_punctualization: true
+    five_canonical_loss_fields_unchanged: true
+    later_decompression_is_new_decompose_occurrence: true
+    automatic_inversion_prohibited: true
+  same_material_contrast:
+    required: true
+    admissible_trajectory_candidate_present: true
+    chronology_below_floor_present: true
+    macro_label_above_ceiling_present: true
+    claim_reduction_present: true
+    mandatory_stop_present_where_misused: true
+    representations_not_equal_warrant: true
+  wp1_case_duties:
+  - C16-BAND-01
+  - C16-LOW-01
+  - C16-CHRON-01
+  - C16-UP-01
+  - C16-TRACE-01
+  - C16-COMP-01
+  protected_handoffs:
+    wp2_directionality_teleology_omission_and_part_boundaries_protected: true
+    wp3_purchase_trace_reduction_stop_and_non_capture_protected: true
+    wp4_lock_protected: true
+    chapter_17_cases_and_local_audit_protected: true
+    sub_decompose_owner_protected: true
+    retype_project_as_owner_protected: true
+    limits_consolidation_protected: true
+    reader_graph_not_boundary_proof: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    controlled_vocabulary_change_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_praxeological_gain_or_traceability_decision_prohibited: true
+    automatic_trajectory_compression_punctualization_or_output_class_decision_prohibited: true
+    automatic_causal_functional_normative_predictive_person_or_application_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_16_wp2_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#16-path-boundary-conditions
+  status: chapter_16_wp2_mirror
+  registry_mode: non_routing_prose_bound_path_boundary_support
+  directionality_controls:
+    retrospective_order_not_original_direction: true
+    bounded_directionality_dimension_specific: true
+    reversal_parallel_subpath_alternative_and_periodization_preservation_required_where_material: true
+    periodization_sensitivity_not_automatic_falsity: true
+    visual_direction_not_warrant: true
+  teleology_controls:
+    later_outcome_not_earlier_purpose_or_historical_necessity: true
+    endpoint_conditioned_selection_under_pressure: true
+    realized_endpoint_not_only_available_continuation: true
+    teleology_separate_from_compression: true
+    automatic_intention_progress_decline_maturation_prediction_or_normative_inference_prohibited: true
+  omission_controls:
+    constitutive_lambda_preservation_required_where_material: true
+    positive_sub_events_not_governing_expected_occurrence_realization: true
+    missing_source_not_omitted_non_event_automatically: true
+    constitutive_omega_preservation_required_where_material: true
+    same_event_label_not_same_practical_load: true
+    asymmetry_not_person_blame_legitimacy_or_sanction: true
+  part_boundary_controls:
+    path_not_retype: true
+    trajectory_object_not_target_function: true
+    failed_path_plus_project_as_label_not_repair: true
+    lawful_project_as_new_testable_claim: true
+    path_not_sub: true
+    finer_chronology_not_decompose_automatically: true
+    finer_resolution_not_truth_priority: true
+    invalid_composite_not_decompose_source: true
+    interface_expansion_not_operation_occurrence: true
+    lawful_decompose_new_testable_claim: true
+    prior_path_result_preserved: true
+  wp2_case_duties:
+  - C16-DIR-01
+  - C16-TEL-01
+  - C16-LAMBDA-01
+  - C16-OMEGA-01
+  - C16-RETYPE-01
+  - C16-SUB-01
+  protected_handoffs:
+    wp3_purchase_trace_reduction_stop_and_non_capture_protected: true
+    wp4_lock_protected: true
+    chapter_17_cases_and_local_audit_protected: true
+    sub_decompose_owner_protected: true
+    retype_project_as_owner_protected: true
+    limits_consolidation_protected: true
+    reader_graph_not_semantic_or_operation_proof: true
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    controlled_vocabulary_change_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_artificial_directionality_teleology_lambda_omega_omission_or_materiality_decision_prohibited: true
+    automatic_decompose_project_as_operation_success_or_output_class_decision_prohibited: true
+    automatic_causal_functional_normative_predictive_person_or_application_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_16_wp3_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#16-path-boundary-conditions
+  status: chapter_16_wp3_mirror
+  registry_mode: non_routing_prose_bound_path_boundary_support
+  purchase_controls:
+    claim_relative_baseline_required: true
+    material_praxis_difference_required: true
+    source_to_difference_dependency_required: true
+    dimensions_not_additive_score: true
+    gain_in_one_dimension_not_whole_object_gain: true
+    dates_duration_source_density_schema_completion_and_visual_complexity_insufficient: true
+  trace_controls:
+    typed_sources_lineage_order_and_constitutive_relation_required: true
+    preserved_operator_branch_binding_repair_residual_load_required_where_material: true
+    selection_formation_complete_loss_and_sensitivity_required_where_compose_used: true
+    citation_density_not_traceability: true
+    traceability_under_declared_localized_uncertainty_possible: true
+    partial_order_not_forced_total_order: true
+  reduction_and_stop_controls:
+    reduction_ladder:
+    - trajectory
+    - bounded_path
+    - sequence
+    - chronology_or_partial_order
+    - source_collection
+    - no_path_claim
+    failed_stronger_claim_not_source_erasure: true
+    provisionality_not_unreduced_failure: true
+    optional_stop_not_output_class: true
+    optional_stop_not_mandatory_stop: true
+    mandatory_stop_for_known_failure_reused_beyond_claim_or_authority_ceiling: true
+  non_capture_controls:
+    non_capture_requires_bounded_tests_and_unavailable_adequate_single_capture: true
+    uncertainty_not_non_capture_automatically: true
+    missing_information_not_non_capture_mechanically: true
+    stop_not_non_capture: true
+    multiple_bounded_paths_or_periodizations_may_survive: true
+  anti_rescue_controls:
+    new_frame_level_granularity_graph_sub_retype_or_label_new_testable_claim: true
+    prior_failure_not_erased: true
+    reader_interaction_not_operation_or_boundary_proof: true
+  wp3_case_duties:
+  - C16-PURCHASE-01
+  - C16-TRACEABLE-01
+  - C16-PROV-01
+  - C16-REDUCE-01
+  - C16-STOP-01
+  - C16-NC-01
+  - C16-LEVEL-01
+  record_and_schema_decision:
+    existing_shared_record_sufficient: true
+    owner_bound_boundary_extension_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    parallel_schema_prohibited: true
+    complete_record_not_boundary_passage: true
+  protected_handoffs:
+    wp4_lock_protected: true
+    chapter_17_cases_and_local_audit_protected: true
+    sub_decompose_owner_protected: true
+    retype_project_as_owner_protected: true
+    limits_consolidation_protected: true
+    reader_graph_implementation_not_semantic_or_operation_proof: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    controlled_vocabulary_change_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_purchase_trace_constitutive_salience_periodization_provisionality_or_non_capture_decision_prohibited: true
+    automatic_output_class_decompose_project_as_target_function_or_operation_success_decision_prohibited: true
+    automatic_causal_normative_predictive_person_application_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_16_path_boundary_handoff:
+  canonical_prose_owner: 01_blocks/02_part_i_path.md#chapter-16-completion-boundary
+  status: chapter_16_provisional_lock_mirror
+  registry_mode: non_routing_prose_bound_path_boundary_lock_and_chapter_17_handoff
+  chapter_contract:
+    both_path_boundaries_explicit_and_non_compensatory: true
+    teleology_and_excessive_compression_separately_testable: true
+    path_separated_from_sub_and_retype: true
+    stop_and_non_capture_distinct: true
+    level_change_not_failed_path_rescue: true
+  band_controls:
+    general_band_owner: Chapter 6 and Chapters 41-53
+    path_local_owner: Chapter 16
+    relevance_floor_values:
+    - gain
+    - neutral
+    - below_floor
+    - underdetermined
+    traceability_ceiling_values:
+    - within_ceiling
+    - claim_reduction
+    - above_ceiling
+    - underdetermined
+    local_values_not_output_classes: true
+    boundaries_independent_non_symmetric_and_non_compensatory: true
+    same_material_three_way_contrast_complete: true
+  failure_pattern_controls:
+    chronology_without_gain_may_remain_useful: true
+    trajectory_without_path_trace_under_ceiling_pressure: true
+    compression_not_punctualization: true
+    artificial_directionality_not_bounded_directionality: true
+    directionality_not_teleology: true
+    constitutive_lambda_and_omega_preservation_required_where_material: true
+    missing_source_not_lambda_or_omega_omission_automatically: true
+    path_not_sub: true
+    path_not_retype: true
+  purchase_trace_and_output_controls:
+    purchase_claim_relative_and_non_scoring: true
+    trace_requires_source_to_result_dependency: true
+    traceability_under_localized_uncertainty_possible: true
+    provisionality_not_unreduced_failed_stronger_claim: true
+    reduction_ladder:
+    - trajectory
+    - bounded_path
+    - sequence
+    - chronology_or_partial_order
+    - source_collection
+    - no_path_claim
+    optional_stop_not_output_class: true
+    optional_stop_not_mandatory_stop: true
+    mandatory_stop_for_known_failure_reused_beyond_ceilings: true
+    non_capture_not_missing_information_or_stop: true
+    boundary_pair_not_automatic_output_selector: true
+  anti_rescue_controls:
+    new_frame_level_granularity_graph_selection_periodization_sub_retype_operation_or_label_new_testable_claim: true
+    prior_failure_not_erased: true
+    reader_interaction_not_boundary_operation_or_semantic_proof: true
+  case_duties:
+  - C16-BAND-01
+  - C16-LOW-01
+  - C16-CHRON-01
+  - C16-UP-01
+  - C16-TRACE-01
+  - C16-COMP-01
+  - C16-DIR-01
+  - C16-TEL-01
+  - C16-LAMBDA-01
+  - C16-OMEGA-01
+  - C16-RETYPE-01
+  - C16-SUB-01
+  - C16-PURCHASE-01
+  - C16-TRACEABLE-01
+  - C16-PROV-01
+  - C16-REDUCE-01
+  - C16-STOP-01
+  - C16-NC-01
+  - C16-LEVEL-01
+  later_owner_handoff:
+    chapter_17_case_corpus_and_local_audit_not_produced: true
+    chapter_17_final_part_i_lock_not_preempted: true
+    sub_decompose_owner_protected: true
+    retype_project_as_owner_protected: true
+    limits_integrated_owner_protected: true
+    reader_graph_implementation_not_produced: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    controlled_boundary_vocabulary_change_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_truth_engine_required: false
+    ? automatic_purchase_trace_directionality_teleology_omission_periodization_target_class_output_class_operation_target_function_or_authority_inference_prohibited
+    : true
+    automatic_causal_predictive_normative_person_legitimacy_sanction_or_application_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_17_preparation_handoff:
+  canonical_preparation_owner: 04_reference/Chapter_17_Preparation_Record.md
+  status: chapter_17_preparation_gate_mirror
+  registry_mode: non_routing_prose_bound_path_case_and_audit_preparation
+  case_architecture:
+    case_countercase_confusion_case_distinct: true
+    chapter_pressure_test_not_standalone_case_artifact: true
+    lock_critical_artifact_set:
+    - markdown_reconstruction
+    - yaml_shared_transformation_record
+    - local_audit_result
+    - canonical_output_mapping
+    minimum_fully_instantiated_lock_cases: 3
+    weak_path_dependence_counterpressure_required: true
+    single_success_not_global_validation: true
+  required_case_burdens:
+    claim_scope_and_ceiling_required: true
+    source_and_lineage_required: true
+    frame_temporal_scope_granularity_relative_level_required: true
+    typed_temporal_structure_required_where_material: true
+    complete_five_part_loss_required: true
+    alternatives_or_reasoned_unavailability_required: true
+    counterfactual_sensitivity_required: true
+    stop_and_non_capture_availability_required: true
+    governance_boundary_required: true
+  lock_critical_cases:
+    admissible_trajectory_composition: true
+    macro_label_without_traceable_path: true
+    path_versus_projection_confusion: true
+    trajectory_case_no_target_function: true
+    projection_requires_separate_project_as_record: true
+  local_result_and_output_controls:
+    local_result_not_canonical_output_class: true
+    final_mapping_must_use_ten_canonical_classes: true
+    mapping_requires_reasoned_record: true
+    automatic_output_selection_prohibited: true
+    failed_transformation_mandatory_stop_non_capture_distinct: true
+  artifact_and_index_controls:
+    case_markdown_and_yaml_cross_links_required: true
+    yaml_record_schema_validation_required: true
+    case_index_markdown_and_yaml_update_required: true
+    case_wrapper_not_parallel_schema: true
+    existing_extensions_only_if_owner_bound_and_non_replacing: true
+  preparation_case_duties:
+  - C17-LINEAR-01
+  - C17-BRANCH-01
+  - C17-LAMBDA-01
+  - C17-HISTORY-01
+  - C17-WEAKPD-01
+  - C17-CHRON-01
+  - C17-MACRO-01
+  - C17-TEL-01
+  - C17-OMEGA-01
+  - C17-FALSEL-01
+  - C17-PROJ-01
+  - C17-RES-01
+  - C17-ATTR-01
+  - C17-LOSS-01
+  - C17-ALT-01
+  - C17-MAP-01
+  - C17-STOP-01
+  - C17-NC-01
+  - C17-LOCK-01
+  part_i_lock_controls:
+    all_required_case_classes_assigned: true
+    three_lock_critical_artifacts_required_before_lock: true
+    path_local_audit_required: true
+    target_function_assignment_prohibited: true
+    part_i_lock_provisional_and_reopenable: true
+    system_wide_lock_not_claimed: true
+  record_and_schema_preparation:
+    existing_shared_record_sufficient: true
+    existing_compose_details_sufficient: true
+    existing_case_templates_sufficient: true
+    schema_amendment_required_now: false
+    smoke_record_migration_required_now: false
+    parallel_schema_prohibited: true
+    case_file_production_not_yet_complete: false
+    wp1_case_file_production_complete: true
+  protected_handoffs:
+    chapter_18_sub_owner_protected: true
+    retype_project_as_owner_protected: true
+    limits_integrated_audit_owner_protected: true
+    appendix_m_and_n_expansion_owner_protected: true
+    reader_graph_derivative_only: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_case_truth_or_path_warrant_prohibited: true
+    automatic_countercase_discrimination_judgment_prohibited: true
+    automatic_output_class_or_target_function_selection_prohibited: true
+    automatic_causal_normative_predictive_person_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_17_wp1_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#17-path-cases-countercases-and-local-audit
+  status: chapter_17_wp1_mirror
+  registry_mode: non_routing_prose_and_case_artifact_bound_path_case_support
+  produced_cases:
+    C17-LINEAR-01:
+      class: positive_case
+      operation: COMPOSE
+      local_result: admissible bounded Path
+      canonical_mapping: admissible
+      lock_critical: false
+    C17-BRANCH-01:
+      class: positive_case
+      operation: COMPOSE
+      local_result: admissible branching Path
+      canonical_mapping: admissible
+      lock_critical: false
+    C17-LAMBDA-01:
+      class: positive_case
+      operation: COMPOSE
+      local_result: admissible source-sensitive Trajectory with central Lambda
+      canonical_mapping: admissible
+      lock_critical: true
+  artifact_contract:
+    markdown_reconstruction_required: true
+    yaml_shared_record_required: true
+    local_audit_required: true
+    canonical_mapping_required: true
+    complete_five_part_loss_required: true
+    alternatives_or_reasoned_unavailability_required: true
+    stop_and_non_capture_assessment_required: true
+    case_wrapper_only_through_non_replacing_owner_bound_extension: true
+  validation_status:
+    three_case_records_schema_valid: true
+    three_markdown_artifacts_present: true
+    twelve_audit_stages_each: true
+    case_index_markdown_and_yaml_synchronized: true
+    first_lock_critical_artifact_complete: true
+  boundary_controls:
+    chapter_pressure_case_not_standalone_artifact: true
+    local_result_not_canonical_output_class: true
+    schema_validity_not_substantive_validity: true
+    case_success_not_global_validation: true
+    trajectory_not_strong_path_dependence_automatically: true
+    compose_not_project_as: true
+    target_function_assignment_prohibited: true
+  remaining_lock_critical_duties:
+  - C17-MACRO-01
+  - C17-PROJ-01
+  protected_handoffs:
+    wp2_countercases_and_weak_dependence_protected: true
+    wp3_confusion_cases_and_path_local_audit_protected: true
+    wp4_part_i_lock_protected: true
+    sub_decompose_owner_protected: true
+    retype_project_as_owner_protected: true
+    limits_integrated_audit_owner_protected: true
+    appendix_and_reader_expansion_protected: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    ? automatic_case_truth_path_trajectory_lambda_historical_availability_constitutive_salience_or_output_mapping_decision_prohibited
+    : true
+    automatic_causal_normative_person_target_function_application_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_17_wp2a_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#17-path-cases-countercases-and-local-audit
+  status: chapter_17_wp2a_mirror
+  registry_mode: non_routing_prose_and_case_artifact_bound_positive_dependence_support
+  produced_cases:
+    C17-HISTORY-01:
+      class: positive_case
+      operation: COMPOSE
+      local_result: admissible dimension-specific Path-Dependence claim across similar endpoints
+      canonical_mapping: admissible_with_bounded_claim
+      lock_critical: false
+    C17-WEAKPD-01:
+      class: positive_case
+      operation: COMPOSE
+      local_result: admissible repeated-pattern Path with weak order dependence
+      canonical_mapping: admissible_with_bounded_claim
+      lock_critical: false
+  dependence_controls:
+    endpoint_similarity_not_path_equivalence: true
+    historical_difference_not_total_determination: true
+    dependence_dimension_required: true
+    current_state_sufficiency_required: true
+    repetition_not_strong_path_dependence: true
+    weak_dependence_not_no_history: true
+    attractor_function_not_assigned: true
+  artifact_and_validation_status:
+    two_markdown_artifacts_present: true
+    two_yaml_records_schema_valid: true
+    twelve_audit_stages_each: true
+    five_part_loss_each: true
+    case_indexes_synchronized: true
+  protected_handoffs:
+    wp2b_macro_chronology_teleology_cases_protected: true
+    wp2c_omega_false_lambda_and_full_wp2_sync_protected: true
+    wp3_confusion_cases_and_path_local_audit_protected: true
+    wp4_part_i_lock_protected: true
+    sub_decompose_owner_protected: true
+    retype_project_as_owner_protected: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_historical_indispensability_current_state_sufficiency_dependence_strength_or_output_mapping_decision_prohibited: true
+    automatic_causal_functional_person_application_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_17_wp2b_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#17-path-cases-countercases-and-local-audit
+  status: chapter_17_wp2b_mirror
+  registry_mode: non_routing_prose_and_case_artifact_bound_countercase_support
+  produced_cases:
+    C17-CHRON-01:
+      class: countercase
+      operation: COMPOSE
+      local_result: failed Path claim with retained chronology
+      canonical_mapping: claim_reduction_required
+      lock_critical: false
+    C17-MACRO-01:
+      class: countercase
+      operation: COMPOSE
+      local_result: failed source-indifferent macro-Trajectory composition
+      canonical_mapping: failed_transformation
+      lock_critical: true
+    C17-TEL-01:
+      class: countercase
+      operation: COMPOSE
+      local_result: failed teleological Trajectory composition
+      canonical_mapping: failed_transformation
+      lock_critical: false
+  countercase_controls:
+    chronology_not_path: true
+    failed_path_not_failed_source_field: true
+    source_volume_not_traceable_macro_load: true
+    source_indifference_defeats_macro_target: true
+    endpoint_not_original_purpose: true
+    teleological_softening_not_repair: true
+    weaker_route_requires_new_record: true
+    target_function_not_assigned: true
+  artifact_and_validation_status:
+    three_markdown_artifacts_present: true
+    three_yaml_records_schema_valid: true
+    twelve_audit_stages_each: true
+    five_part_loss_each: true
+    case_indexes_synchronized: true
+    lock_critical_artifacts_complete: 2
+  protected_handoffs:
+    wp2c_omega_false_lambda_and_full_wp2_sync_protected: true
+    wp3_projection_confusion_and_path_local_audit_protected: true
+    wp4_part_i_lock_protected: true
+    sub_decompose_owner_protected: true
+    retype_project_as_owner_protected: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_chronology_path_macro_trace_teleology_or_output_mapping_decision_prohibited: true
+    automatic_causal_functional_person_application_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_17_wp2c_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#17-path-cases-countercases-and-local-audit
+  status: chapter_17_wp2c_and_full_wp2_mirror
+  registry_mode: non_routing_prose_and_case_artifact_bound_countercase_support
+  produced_cases:
+    C17-OMEGA-01:
+      class: countercase
+      operation: COMPOSE
+      local_result: failed Trajectory composition through omitted asymmetry
+      canonical_mapping: failed_transformation
+      lock_critical: false
+    C17-FALSEL-01:
+      class: countercase
+      operation: COMPOSE
+      local_result: central Λ claim withdrawn with retained event field
+      canonical_mapping: claim_reduction_required
+      lock_critical: false
+  full_wp2_status:
+    positive_cases: 5
+    countercases: 5
+    claim_reductions: 2
+    failed_transformations: 3
+    lock_critical_artifacts_complete: 2
+  countercase_controls:
+    same_milestone_not_same_practical_load: true
+    omitted_omega_defeats_uniform_trajectory: true
+    missing_information_not_non_event: true
+    expectation_frame_required_for_lambda: true
+    failed_or_reduced_target_not_failed_source_field: true
+    weaker_route_requires_new_record: true
+    target_function_not_assigned: true
+  artifact_and_validation_status:
+    two_markdown_artifacts_present: true
+    two_yaml_records_schema_valid: true
+    twelve_audit_stages_each: true
+    five_part_loss_each: true
+    case_indexes_synchronized: true
+    full_wp2_complete: true
+  protected_handoffs:
+    wp3_projection_confusion_and_path_local_audit_protected: true
+    wp4_part_i_lock_protected: true
+    sub_decompose_owner_protected: true
+    retype_project_as_owner_protected: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_asymmetry_equivalence_lambda_expectation_or_output_mapping_decision_prohibited: true
+    automatic_causal_functional_person_application_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_17_wp3a_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#17-path-cases-countercases-and-local-audit
+  status: chapter_17_wp3a_confusion_case_mirror
+  registry_mode: non_routing_prose_and_case_artifact_bound_confusion_case_support
+  produced_cases:
+    C17-PROJ-01:
+      class: confusion_case
+      operation: COMPOSE
+      local_result: admissible source-sensitive Trajectory with projection claim separated
+      canonical_mapping: admissible_with_bounded_claim
+      lock_critical: true
+      pending_operation: PROJECT_AS not executed
+    C17-RES-01:
+      class: confusion_case
+      operation: DECOMPOSE
+      local_result: resolution-neutral finer reconstruction; no new Path or stronger historical claim
+      canonical_mapping: resolution_neutral
+      lock_critical: false
+      pending_operation: none; interface expansion itself remains non-operative
+    C17-ATTR-01:
+      class: confusion_case
+      operation: COMPOSE
+      local_result: admissible single Trajectory with Attractor-function claim withheld
+      canonical_mapping: admissible_with_bounded_claim
+      lock_critical: false
+      pending_operation: PROJECT_AS not executed
+  lock_critical_status:
+    complete: 3
+    required: 3
+    artifacts:
+    - C17-LAMBDA-01
+    - C17-MACRO-01
+    - C17-PROJ-01
+    automatic_part_i_lock: false
+  confusion_controls:
+    path_not_projection: true
+    origin_type_not_target_function: true
+    more_detail_not_new_path_or_automatic_decompose: true
+    resolution_neutral_not_failed_transformation: true
+    repetition_not_attractor_identity: true
+    trajectory_not_attractor_function: true
+    new_operation_requires_new_record: true
+    target_function_not_assigned: true
+  artifact_and_validation_status:
+    three_markdown_artifacts_present: true
+    three_yaml_records_schema_valid: true
+    twelve_audit_stages_each: true
+    five_part_loss_each: true
+    case_indexes_synchronized: true
+    wp3a_complete: true
+  protected_handoffs:
+    wp3b_path_local_audit_and_closing_protected: true
+    wp4_part_i_lock_protected: true
+    sub_decompose_owner_protected: true
+    retype_project_as_owner_protected: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_or_truth_engine_required: false
+    automatic_projection_resolution_attractor_or_output_mapping_decision_prohibited: true
+    automatic_causal_functional_person_application_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_17_wp3b_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#17-path-cases-countercases-and-local-audit
+  status: chapter_17_wp3b_integrated_local_audit_and_lock_readiness_mirror
+  registry_mode: non_routing_prose_and_case_corpus_bound_completion_support
+  case_corpus:
+    total_records: 13
+    positive_cases: 5
+    countercases: 5
+    confusion_cases: 3
+    compose_records: 12
+    decompose_records: 1
+    project_as_records: 0
+    lock_critical_complete: 3
+  integrated_duties:
+    C17-LOSS-01: complete
+    C17-ALT-01: complete
+    C17-MAP-01: complete
+    C17-STOP-01: complete
+    C17-NC-01: complete
+    C17-LOCK-01: lock_readiness_pass
+  local_audit:
+    controls: 20
+    passed: 20
+    failed: 0
+    status: pass
+    record_level_twelve_stage_audits_preserved: true
+    chapter_audit_not_record_audit: true
+  selected_class_census:
+    admissible: 3
+    admissible_with_bounded_claim: 4
+    resolution_neutral: 1
+    claim_reduction_required: 2
+    failed_transformation: 3
+    admissible_but_provisional: 0
+    partially_admissible: 0
+    analogy_only: 0
+    mandatory_stop: 0
+    non_capture: 0
+    counts_are_not_routing_rules: true
+  completion_status:
+    chapter_17_complete: true
+    part_i_lock_readiness: pass
+    part_i_provisional_lock: pending_wp4
+    automatic_lock_prohibited: true
+    chapter_level_result: admissible_but_provisional
+    chapter_level_result_not_fourteenth_record: true
+  boundary_controls:
+    path_sequence_trajectory_dependence_separated: true
+    chronology_not_path: true
+    theta_alone_not_dependence: true
+    lambda_and_omega_preserved: true
+    teleology_rejected: true
+    compose_no_target_function: true
+    finer_resolution_no_truth_priority: true
+    new_operation_new_record: true
+    stop_non_capture_distinct: true
+    source_fields_not_erased_by_failure: true
+    authority_inheritance: prohibited
+  protected_handoffs:
+    wp4_integrated_part_i_audit_and_lock_protected: true
+    chapter_18_sub_owner_protected: true
+    retype_project_as_owner_protected: true
+    limits_integrated_audit_protected: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_quota_or_truth_engine_required: false
+    automatic_output_or_lock_decision_prohibited: true
+    automatic_semantic_causal_functional_person_application_or_authority_inference_prohibited: true
+    authority_inheritance: prohibited
+chapter_17_wp4_handoff:
+  canonical_owner: 01_blocks/02_part_i_path.md#part-i--path-provisional-lock-boundary
+  status: part_i_path_provisionally_locked
+  registry_mode: non_routing_prose_case_corpus_and_audit_bound_lock_support
+  integrated_scope:
+    chapters: 9-17
+    case_records: 13
+    lock_critical_artifacts_complete: 3
+    path_local_audit_controls_passed: 20
+    chapter_17_complete: true
+    part_i_lock_readiness: pass
+    part_i_provisional_lock: provisionally_locked
+  path_gate:
+    chronology_sequence_path_trajectory_dependence_separated: true
+    theta_alone_not_dependence: true
+    lambda_and_alternatives_preserved: true
+    compose_no_target_function: true
+    decompose_compose_non_invertibility_preserved: true
+    finer_resolution_no_truth_priority: true
+    status: pass
+  selected_class_census:
+    admissible: 3
+    admissible_with_bounded_claim: 4
+    resolution_neutral: 1
+    claim_reduction_required: 2
+    failed_transformation: 3
+    counts_are_not_routing_rules: true
+  reopening_conditions:
+    contract_or_pms_conflict: true
+    type_or_operation_boundary_conflict: true
+    source_or_claim_boundary_conflict: true
+    artifact_schema_mapping_or_audit_conflict: true
+    reference_fingerprint_link_package_or_roundtrip_conflict: true
+    later_integrated_audit_dependency_conflict: true
+    preference_for_more_detail_not_sufficient: true
+  protected_handoffs:
+    chapter_18_preparation_next: true
+    sub_decompose_not_pre_authorized: true
+    retype_project_as_not_pre_authorized: true
+    limits_integrated_audit_protected: true
+    final_strata_lock_not_claimed: true
+    authority_inheritance: prohibited
+  formal_model_limits:
+    new_rule_required: false
+    new_operation_required: false
+    new_output_class_required: false
+    new_audit_stage_required: false
+    schema_change_required: false
+    smoke_record_migration_required: false
+    score_probability_quota_or_truth_engine_required: false
+    automatic_lock_or_reopening_decision_prohibited: true
+    automatic_semantic_historical_causal_functional_person_application_or_authority_inference_prohibited: true
     authority_inheritance: prohibited
