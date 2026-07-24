@@ -1,6 +1,6 @@
 # PMS-STRATA — Non-Equivalence Index
 
-**Status:** Reference Kernel v0.2.42 — Chapter-11-WP2-synchronized PATH audit index  
+**Status:** Reference Kernel v0.2.44 — Chapter-20-WP3-synchronized SUB operation-result index  
 **Repository role:** `04_reference` terminology, navigation, and category-collapse control; not an independent theory source  
 **Authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the provisionally locked canonical Chapters 0–7 in `01_blocks/01_foundations.md`, `04_reference/Glossary.md`, `04_reference/Operator_Index.md`, `04_reference/Transformation_Operation_Index.md`, and the non-theory production controls `04_reference/Chapter_1_Preparation_Record.md` through `04_reference/Chapter_8_Preparation_Record.md`
 
@@ -2607,3 +2607,1205 @@ reopening permission ≠ retroactive claim repair
 more detail ≠ reopening ground
 new transformation ≠ inherited success or authority
 ```
+
+## Chapter 18 Preparation Non-Equivalences
+
+```text
+provisional elementarity ≠ ontological indivisibility
+compression ≠ error
+operator type ≠ decomposable occurrence
+compressed object ≠ discovered component set
+reason to decompose ≠ curiosity or detail appetite
+counterexample ≠ automatic decomposition warrant
+source preservation ≠ source immunization
+same reference object ≠ unchanged source claim automatically
+more detail ≠ deeper truth
+no decomposition now ≠ undecomposable forever
+```
+
+Changing Frame, granularity, level, vocabulary, or source volume does not retroactively turn an unsupported internal reconstruction into a valid `DECOMPOSE` occurrence.
+
+## Chapter 18 WP1 Canonical Non-Equivalences
+
+| Non-equivalence | Boundary | Control effect | Canonical site |
+|---|---|---|---|
+| `SUB` ≠ `DECOMPOSE` | Part/operation | SUB owns the finer-resolution discipline; `DECOMPOSE` remains one of exactly three operations. | [§18.1](../01_blocks/03_part_ii_sub.md#18-1-purpose-of-sub) |
+| source candidate ≠ operation occurrence | entry/procedure | Declaring a compressed object does not execute decomposition. | [§18.1](../01_blocks/03_part_ii_sub.md#18-1-purpose-of-sub) |
+| provisional elementarity ≠ absolute elementarity | analytical/ontological | Current stopping status cannot become an ultimate constituent claim. | [§18.2](../01_blocks/03_part_ii_sub.md#18-2-provisional-elementarity) |
+| unresolved internal structure ≠ hidden truth | source/claim | Open internal questions may not be populated from a coarse label alone. | [§18.3](../01_blocks/03_part_ii_sub.md#18-3-the-compressed-object) |
+| object category ≠ source-side typing ≠ current/coarser function | object/type/function | A composite, Path, or Non-Event category does not settle exclusive operator typing or later function outcome. | [§18.3](../01_blocks/03_part_ii_sub.md#18-3-the-compressed-object) |
+| operator type ≠ decomposable occurrence | grammar/empirical reconstruction | Δ–Ψ types remain outside STRATA decomposition; concrete occurrences may become candidates. | [§18.4](../01_blocks/03_part_ii_sub.md#18-4-operator-type-versus-decomposable-occurrence) |
+| eligible occurrence ≠ admissible DECOMPOSE | category/admissibility | Eligibility does not pass relevance, source, continuity, or procedure burdens. | [§18.4](../01_blocks/03_part_ii_sub.md#18-4-operator-type-versus-decomposable-occurrence) |
+| later decomposition of a composite ≠ inverse restoration | operation chain | `DECOMPOSE(COMPOSE(X)) ≠ X`; prior Loss remains binding. | [§18.3](../01_blocks/03_part_ii_sub.md#18-3-the-compressed-object) |
+
+
+
+## Chapter 18 WP2 Canonical Non-Equivalences
+
+| Non-equivalence | Boundary | Control effect | Canonical site |
+|---|---|---|---|
+| analytical compression ≠ `COMPOSE` automatically | representation/operation | Treating a source as one unit does not create a new composite operation occurrence. | [§18.5](../01_blocks/03_part_ii_sub.md#18-5-why-compression-is-necessary) |
+| compression ≠ error | representation/quality | Coarse representation may preserve relation, uncertainty, comparability, and claim precision. | [§18.5](../01_blocks/03_part_ii_sub.md#18-5-why-compression-is-necessary) |
+| available detail ≠ insufficient compression | detail/admissibility | Insufficiency requires a source-supported claim-relevant difference. | [§18.6](../01_blocks/03_part_ii_sub.md#18-6-why-compression-can-become-insufficient) |
+| carrier pressure ≠ hidden-carrier proof | source/inference | An under-carried coarse function opens a question, not a populated internal model. | [§18.6](../01_blocks/03_part_ii_sub.md#18-6-why-compression-can-become-insufficient) |
+| reason to decompose ≠ promise of successful decomposition | proposal/result | A well-formed reason precedes target granularity, components, relations, and operation result. | [§18.7](../01_blocks/03_part_ii_sub.md#18-7-reasons-to-decompose) |
+| counterexample ≠ automatic decomposition warrant | pressure/route | A counterexample may reduce or reject a claim without supplying a finer source route. | [§18.7](../01_blocks/03_part_ii_sub.md#18-7-reasons-to-decompose) |
+| no-decomposition decision ≠ `resolution_neutral` | entry/outcome | No operation has yet been executed or compared at finer resolution. | [§18.8](../01_blocks/03_part_ii_sub.md#18-8-reasons-not-to-decompose) |
+| no decomposition now ≠ undecomposable forever | local/final | Coarse sufficiency remains claim- and source-bounded. | [§18.8](../01_blocks/03_part_ii_sub.md#18-8-reasons-not-to-decompose) |
+| recursive possibility ≠ recursive necessity | recursion/stop | STRATA contains no obligation to open every component indefinitely. | [§18.8](../01_blocks/03_part_ii_sub.md#18-8-reasons-not-to-decompose) |
+
+
+## Chapter 18 WP3 Non-Equivalences
+
+```text
+source preservation ≠ source immunization
+same label ≠ same reference object
+preserve the source question ≠ preserve the source answer
+current function under test ≠ confirmed function
+known internal structure ≠ conjectured component set
+unresolved internal structure ≠ hidden truth
+minimal source declaration ≠ completed DECOMPOSE record
+source-entry Stop ≠ claim about simplicity
+failed claim ≠ rescued by non_capture
+Chapter 18 source readiness ≠ Chapter 20 operation success
+```
+
+Primary definition site: [Chapter 18 WP3](../01_blocks/03_part_ii_sub.md#18-9-preservation-requirement).
+
+
+## Chapter 18 Provisional-Lock Non-Equivalences
+
+```text
+source-entry architecture ≠ operation occurrence
+source readiness ≠ decomposition warrant
+chapter provisional lock ≠ Part-II lock
+well-formed source declaration ≠ source sufficiency
+stable source label ≠ reference continuity
+finer candidate ≠ truer candidate
+no-decomposition decision ≠ resolution_neutral
+Chapter 19 handoff ≠ target granularity selected
+```
+
+Primary site: [Chapter 18 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-18-completion-boundary).
+
+## Chapter 19 Preparation Non-Equivalences
+
+```text
+added description ≠ changed granularity
+changed granularity ≠ DECOMPOSE automatically
+finer resolution ≠ deeper truth
+relative downward movement ≠ ontological lower layer
+functional component ≠ fragment
+component relevance ≠ necessity or causal sufficiency
+local component ≠ spatially contained atom
+distributed component ≠ macro-function automatically
+incomparability ≠ plural truth
+granularity mismatch ≠ substantive contradiction
+granularity mismatch ≠ substantive contradiction dissolved
+Minimal Granularity Relation ≠ DECOMPOSE Record
+```
+
+These controls are prepared for Chapter 19 and remain bounded by Chapters 2, 18, 20, 25, 26, 27, and 43.
+
+## Chapter 19 WP1 Canonical Non-Equivalences
+
+```text
+added description ≠ changed granularity
+finer along one dimension ≠ finer along every dimension
+same label ≠ preserved reference or Frame
+finer resolution ≠ deeper truth, causal priority, completeness, or authority
+relative downward movement ≠ ontological descent
+finer granularity ≠ changed relative level automatically
+changed relative level ≠ finer granularity automatically
+stable Frame + finer proposal ≠ admissible DECOMPOSE automatically
+Frame change ≠ granularity change
+Frame change alone ≠ DECOMPOSE
+new Frame-bound claim ≠ repaired prior claim
+```
+
+Primary sites: [§19.1–§19.4](../01_blocks/03_part_ii_sub.md#19-1-granularity-change).
+
+## Chapter 19 WP2 Canonical Non-Equivalences
+
+```text
+more description ≠ more distinctions
+more distinctions ≠ praxeologically relevant distinctions automatically
+finer reconstruction ≠ smaller spatial pieces only
+part of source structure ≠ spatially contained fragment automatically
+local structure ≠ micro-level primitive automatically
+distributed structure ≠ macro-level structure automatically
+accurate detail ≠ component automatically
+component candidate ≠ established component
+component relevance ≠ support for the coarse function
+participation ≠ necessity ≠ sufficiency ≠ causal priority
+functional component ≠ final constituent or isolated atom
+source-authentic fragment ≠ universally meaningless detail
+```
+
+Primary sites: [§19.5–§19.7](../01_blocks/03_part_ii_sub.md#19-5-change-of-distinction-set).
+
+## Chapter 19 WP3 Canonical Non-Equivalences
+
+```text
+same named object ≠ comparable reconstruction automatically
+same detail volume ≠ same granularity
+comparability for one predicate ≠ comparability for every predicate
+comparable ≠ identical ≠ losslessly translatable ≠ mutually substitutable
+incomparable ≠ both claims true ≠ permanent impossibility of comparison
+different granularity ≠ different predicate automatically
+granularity mismatch ≠ substantive contradiction automatically
+granularity mismatch ≠ substantive contradiction dissolved automatically
+micro/macro labels ≠ compatibility proof
+valid finer distinction ≠ additional praxis finding automatically
+no claim-relevant change ≠ resolution_neutral already assigned
+Minimal Granularity Relation ≠ parallel schema ≠ DECOMPOSE result
+matching Frame/reference labels ≠ preservation proven
+new granularity ≠ failed prior claim erased
+```
+
+Primary sites: [§19.8–§19.11](../01_blocks/03_part_ii_sub.md#19-8-granularity-comparability).
+
+
+## Chapter 19 Provisional-Lock Non-Equivalences
+
+```text
+granularity-relation architecture ≠ finer reconstruction
+coordinate readiness ≠ decomposition warrant
+chapter provisional lock ≠ SUB lock
+proposed target granularity ≠ established component set
+functional component candidate ≠ actual component
+comparability ≠ identity ≠ truth rank
+incomparability ≠ plural truth
+mismatch ≠ contradiction automatically dissolved
+Minimal Granularity Relation ≠ DECOMPOSE Record
+Chapter-20 handoff ≠ operation success
+```
+
+Primary site: [Chapter-19 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-19-completion-boundary).
+
+## Chapter 20 Preparation Non-Equivalences
+
+```text
+preconditions satisfied
+≠ DECOMPOSE successful
+
+more detail
+≠ changed granularity
+≠ relational decomposition
+
+component list
+≠ component-relation reconstruction
+
+plausible internal model
+≠ source-supported component model
+
+source-function effect
+≠ operation result
+≠ canonical Output Class
+
+rejected source function
+≠ failed DECOMPOSE automatically
+
+supported decomposition
+≠ admissible automatically
+
+DECOMPOSE(COMPOSE(X))
+≠ X
+```
+
+These controls are prepared in [`Chapter_20_Preparation_Record.md`](Chapter_20_Preparation_Record.md) and become canonical only through Chapter-20 prose.
+
+## Chapter 20 WP1 Non-Equivalence Return
+
+```text
+DECOMPOSE ≠ description
+DECOMPOSE ≠ atomization
+DECOMPOSE of occurrence ≠ decomposition of operator type
+source entry + granularity relation ≠ operation success
+preconditions satisfied ≠ supported components
+same label ≠ same reference object
+source preservation ≠ source-function preservation
+current function field ≠ confirmed current function
+unresolved internal structure ≠ hidden true components
+thematic curiosity ≠ decomposition question
+question containing preferred conclusion ≠ open reconstruction test
+```
+
+Primary sites: [§20.1–§20.4](../01_blocks/03_part_ii_sub.md#20-1-definition).
+
+## Chapter 20 WP2 Non-Equivalence Return
+
+```text
+expected difference ≠ promised discovery
+possible gain ≠ automatic PraxisPurchase
+source exists ≠ source supports this distinction
+multiple sources ≠ convergent support automatically
+coherent internal model ≠ supported internal model
+component candidate ≠ established component
+component establishment ≠ ultimate constituency
+carrying component ≠ necessary component
+disturbing component ≠ noise
+replaceable component ≠ irrelevant component
+participation ≠ necessity ≠ sufficiency ≠ causal priority
+component list ≠ relational decomposition
+sequence ≠ causality
+opening the same Path ≠ composing a new Path
+```
+
+Primary sites: [§20.5–§20.8](../01_blocks/03_part_ii_sub.md#20-5-expected-additional-difference).
+
+## Chapter 20 WP3 Non-Equivalence Return
+
+```text
+source-function effect != local operation result
+local operation result != canonical Output Class
+prior source-claim disposition != canonical Output Class
+rejected source function != failed DECOMPOSE automatically
+supported decomposition != admissible automatically
+valid no-gain decomposition != failed transformation
+reconstructed lineage != restored information state
+new Path formation != opening the same Path
+finer source trace != PROJECT_AS target function
+failed transformation != Mandatory Stop != Non-Capture
+```
+
+Primary sites: [§20.9–§20.13](../01_blocks/03_part_ii_sub.md#20-9-preservation-of-source-function).
+
+## Chapter 20 WP4 Provisional-Lock Non-Equivalences
+
+```text
+supported decomposition ≠ source function confirmed
+rejected source function ≠ failed transformation automatically
+complete Record ≠ admissible transformation
+schema-valid decomposition ≠ discovered constituents
+DECOMPOSE(COMPOSE(X)) ≠ X
+COMPOSE(DECOMPOSE(X)) ≠ X
+Chapter 20 lock ≠ SUB lock
+```
+
+Primary site: [Chapter-20 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-20-completion-boundary).
+
+## Chapter 21 Preparation Non-Equivalences
+
+```text
+operator type != operator occurrence
+production conditions of an occurrence != constituents of the operator type
+stable coarse function != internal homogeneity
+internal variation != automatic type failure
+dynamic Attractor occurrence != projected Attractor-function
+distributed local asymmetries != coordinated macro-asymmetry automatically
+Impulse formation history != decomposition of the Impulse operator
+Binding occurrence != person property
+rejected occurrence typing != rejected PMS operator
+```
+
+Preparation control: [Chapter 21 Preparation Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP1 Non-Equivalence Return
+
+```text
+operator type ≠ operator occurrence
+production conditions of an occurrence ≠ constituents of the operator type
+operator identity preserved ≠ occurrence typing immunized
+Frame formation conditions ≠ coarse Frame function
+stable Frame function ≠ internally homogeneous occurrence
+internal variation ≠ automatic type failure
+changed component ≠ changed occurrence type automatically
+same coarse function ≠ same internal configuration
+multiple source typings ≠ all typings equally supported
+occurrence-level role function ≠ person property or motive
+```
+
+Primary sites: [§21.1–§21.4](../01_blocks/03_part_ii_sub.md#chapter-21-decomposing-operator-typed-occurrences).
+
+## Chapter 21 WP2 Non-Equivalence Return
+
+```text
+repetition ≠ Attractor occurrence automatically
+frequent event ≠ stabilized continuation field automatically
+lower friction ≠ moral preference
+stable expectation ≠ psychological diagnosis
+restricted alternative ≠ impossible alternative
+dynamic Attractor occurrence ≠ Path or Trajectory automatically
+dynamic Attractor occurrence ≠ projected Attractor-function
+one directional gradient ≠ total superiority
+many local asymmetries ≠ coordinated macro-Asymmetry automatically
+offset ≠ symmetry or erasure
+local gradients from several objects ≠ macro-object without COMPOSE
+valid DECOMPOSE ≠ successful COMPOSE or PROJECT_AS
+```
+
+Primary sites: [§21.5–§21.9](../01_blocks/03_part_ii_sub.md#21-5-attractor-typed-occurrence).
+
+## Chapter 21 WP3 Non-Equivalence Return
+
+```text
+structural activation ≠ motive
+formation history of one Impulse occurrence ≠ decomposition of ∇
+Binding occurrence ≠ person identity or moral rank
+shared record ≠ equal binding load
+failed occurrence typing ≠ failed PMS operator
+mandatory_stop ≠ person judgment
+non_capture ≠ original typing rescued
+```
+
+Primary sites: [§21.10](../01_blocks/03_part_ii_sub.md#21-10-impulse-typed-occurrence)–[§21.12](../01_blocks/03_part_ii_sub.md#21-12-failed-operator-occurrence-decomposition).
+
+## Chapter 21 WP4 Integrated Non-Equivalence Lock
+
+```text
+operator type ≠ operator occurrence
+production conditions ≠ operator constituents
+stable function ≠ internal homogeneity
+repetition ≠ Attractor load automatically
+dynamic Attractor occurrence ≠ projected Attractor-function
+distributed Asymmetry ≠ macro-object automatically
+structural activation ≠ motive
+Binding occurrence ≠ person identity
+failed occurrence typing ≠ failed PMS operator
+representative families ≠ closed family enum
+Chapter 21 provisional lock ≠ SUB provisional lock
+```
+
+Primary site: [Chapter-21 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-21-completion-boundary).
+
+## Chapter 22 Preparation Non-Equivalences
+
+| Non-equivalence | Controlled meaning |
+|---|---|
+| source bundle ≠ source composite | Collected materials do not establish one analytical object without boundary and constitutive relation. |
+| component inventory ≠ internal composition map | Enumeration does not reconstruct dependencies, coordination, substitution, conflict, or function. |
+| constitutive component ≠ ontological foundation | Constitutive status is claim-, Frame-, time-, and function-bound. |
+| replaceable ≠ irrelevant | A replaceable carrier may remain functionally important and costly to substitute. |
+| distributed function ≠ aggregation | Separated elements require a supported coordination or dependency relation. |
+| macro-stability ≠ stable local parts | Stability may depend on compensation, repair, redundancy, substitution, or unequal load. |
+| internal conflict ≠ composite destruction automatically | Conflict may be integrated, suppressed, destabilizing, or residual. |
+| operator weighting ≠ operator replacement | Relative occurrence load changes no PMS operator identity or dependency. |
+| modulating profile ≠ person type | A profile belongs to a bounded composite claim, not to an enduring person identity. |
+| decomposition ≠ inversion of composition | Finer reconstruction does not restore excluded or irrecoverable pre-composition material. |
+| fine detail ≠ component | A detail becomes a component only through source-supported role and relational placement. |
+
+Preparation control: [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP1 Non-Equivalence Return
+
+```text
+source bundle ≠ source composite
+multiple constituents ≠ composite automatically
+same label ≠ same composite reference
+inherited composite Loss ≠ new DECOMPOSE Loss
+DECOMPOSE(COMPOSE(X)) ≠ X
+component inventory ≠ internal composition map
+formation map ≠ current maintenance map ≠ proposed finer reconstruction
+constitutive ≠ ontologically fundamental or causally sufficient
+replaceable ≠ irrelevant or incidental
+macrofunction preserved by compensation ≠ local failure absent
+incidental under one claim ≠ globally meaningless
+local component role ≠ permanent rank or person rank
+operator weighting ≠ additive score or PMS dependency graph
+dominant load ≠ exclusive load
+```
+
+Primary site: [§§22.1–22.4](../01_blocks/03_part_ii_sub.md#chapter-22-decomposing-composite-structures).
+
+## Chapter 22 WP2 Non-Equivalence Return
+
+```text
+modulating profile
+≠ operator type
+≠ composite type
+≠ person type
+≠ contextual target function
+
+profile multiplicity
+≠ synthetic total score
+
+distributed function
+≠ aggregation
+≠ co-presence
+
+function persists
+≠ carriers equivalent
+≠ Loss absent
+
+redundant for function F
+≠ redundant for every function
+
+substitutable for function F
+≠ structurally identical
+≠ lossless replacement
+
+qualitative threshold
+≠ universal percentage or score
+
+internal conflict
+≠ composite failure automatically
+≠ legitimacy judgment
+```
+
+Primary sites: [§§22.5–22.8](../01_blocks/03_part_ii_sub.md#22-5-modulating-profiles).
+
+## Chapter 22 WP3 Non-Equivalences
+
+```text
+stable output ≠ stable internal relations
+stable composite function ≠ stable local carriers
+macrofunction preserved through compensation ≠ local failure absent
+small detail ≠ fragment automatically
+failed transformation ≠ no information learned
+non_capture ≠ coarse composite claim confirmed
+complete composite record ≠ admissible composite decomposition
+Chapter 22 handoff ≠ Chapter 23 event decomposition completed
+```
+
+Primary sites: [§§22.9–22.11](../01_blocks/03_part_ii_sub.md#22-9-composite-stability).
+
+## Chapter 22 WP4 Integrated Non-Equivalence Lock
+
+```text
+source bundle ≠ source composite
+component inventory ≠ internal composition map
+component role ≠ ontological kind
+replaceable ≠ irrelevant
+operator weighting ≠ operator score or dependency revision
+modulating profile ≠ person type or target function
+distributed function ≠ aggregation
+functional substitution ≠ structural identity or lossless replacement
+internal conflict ≠ composite destruction automatically
+stable composite function ≠ stable local carriers or equal burden
+inherited Loss ≠ new DECOMPOSE Loss
+DECOMPOSE(COMPOSE(X)) ≠ X
+Chapter 22 provisional lock ≠ SUB provisional lock
+```
+
+Primary site: [Chapter-22 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-22-completion-boundary).
+
+## Chapter 23 Preparation Non-Equivalences
+
+| Non-equivalence | Controlled meaning |
+|---|---|
+| Event ≠ timestamped change | A detectable change becomes an Event only under a bounded praxis-relevant claim. |
+| internal phase ≠ independent Event automatically | A phase may remain constitutive of one Extended Event. |
+| Extended Event ≠ duration | Duration without phase and completion continuity does not establish one Event. |
+| Event Cluster ≠ one Event | Several related Events may retain distinct identity inside a coarser complex. |
+| Event Cluster reconstruction ≠ silent COMPOSE | Formation of a new cluster from independent sources requires operation control. |
+| observation density ≠ event density | More records or timestamps do not generate more praxis Events automatically. |
+| positive sub-events ≠ expected structure realized | Internal activity can produce or maintain a Non-Event. |
+| missing information ≠ Non-Event | Source gaps support uncertainty or Non-Capture, not `Λ` by themselves. |
+| delay ≠ intentional obstruction | Delay mechanism and intention require separate evidence. |
+| repeated non-decision ≠ person property | The structure belongs to the bounded occurrence and Frame. |
+| temporal order ≠ timestamp list | Order includes dependence, overlap, interruption, threshold, and completion relations. |
+| later realization ≠ earlier Non-Event erased | Recontextualization does not delete a bounded earlier expected-window failure. |
+
+Preparation control: [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md).
+
+## Chapter 23 WP1 Temporal Non-Equivalences
+
+```text
+timestamp
+≠ Event
+
+document edit
+≠ praxis-relevant Event automatically
+
+long duration
+≠ Extended Event
+
+ordered phases
+≠ one Event automatically
+
+same topic
+≠ same Event automatically
+
+Event Cluster reconstruction
+≠ silent new COMPOSE
+
+observation density
+≠ Event density
+
+finer temporal division
+≠ higher truth
+
+phase
+≠ independent Event automatically
+```
+
+Primary sites: [§§23.1–23.4](../01_blocks/03_part_ii_sub.md#23-1-event-decomposition).
+
+## Chapter 23 WP2 Non-Equivalences
+
+```text
+positive sub-events
+≠ expected structure realized
+
+missing record
+≠ non-occurrence
+
+mere absence
+≠ Λ
+
+later realization
+≠ earlier expected-window failure erased
+
+delay
+≠ intentional obstruction
+
+repeated non-decision
+≠ one Non-Event automatically
+
+binding occurrence absent
+≠ person incapable of commitment
+```
+
+Primary sites: [§§23.5–23.8](../01_blocks/03_part_ii_sub.md#23-5-non-event-decomposition).
+
+
+
+## Chapter 23 WP3 Non-Equivalences
+
+```text
+timestamp list ≠ internal temporal order
+precise clock A ≠ evidence for clock B
+positive activity ≠ expected structure realized
+no positive record ≠ Non-Event established
+delay ≠ Non-Event automatically
+later completion ≠ earlier bounded failure erased
+more temporal detail ≠ more truth
+non_capture ≠ coarse temporal claim rescued
+```
+
+Primary sites: [§§23.9–23.11](../01_blocks/03_part_ii_sub.md#23-9-internal-temporal-order).
+
+
+## Chapter 23 Provisional-Lock Non-Equivalences
+
+```text
+observation density ≠ Event density
+positive sub-events ≠ expected structure realized
+missing information ≠ Non-Event
+delay ≠ intention
+timestamp list ≠ internal temporal order
+precise clock A ≠ evidence for clock B
+later completion ≠ earlier bounded failure erased
+complete temporal Record ≠ admissible temporal decomposition
+```
+
+Primary site: [Chapter 23](../01_blocks/03_part_ii_sub.md#23-decomposing-events-non-events-and-internal-temporal-structures).
+
+## Chapter 24 Preparation Non-Equivalences
+
+| Non-equivalence | Controlled meaning |
+|---|---|
+| PATH source ≠ raw chronology | The source must already be a warranted Path-side analytical object. |
+| subpath ≠ fragment | A subpath remains relationally tied to the same coarser Path. |
+| transition cluster ≠ event list | Intermediate configurations and transition relations are required. |
+| turning point ≠ retrospective label | Later importance does not prove contemporaneous structural effect. |
+| internal Frame change ≠ source replacement | Continuity must be tested across the Frame change. |
+| competing continuation ≠ prediction | Availability and unequal access do not establish future occurrence. |
+| inherited Loss ≠ new DECOMPOSE Loss | Original PATH compression and present analytical loss remain separate. |
+| recovered detail ≠ complete history restored | New evidence does not invert original `COMPOSE`. |
+| Path Dependence ≠ substance | It is a bounded property carried by historical loads. |
+| finer periodization ≠ same Path automatically | A materially different selection may require rival `COMPOSE`. |
+| same label ≠ same Path reference | Source identity depends on boundary, formation, transitions, and function. |
+| non_capture ≠ coarse Path rescued | Unresolved finer structure does not confirm the original claim. |
+
+Preparation control: [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md).
+
+## Chapter 24 WP1 Path-Decomposition Non-Equivalences
+
+```text
+raw chronology
+≠ PATH-produced source object
+
+same topic, dates, endpoint, or label
+≠ same Path automatically
+
+new detail
+≠ new selection automatically
+
+materially new selection or periodization
+≠ same DECOMPOSE claim automatically
+
+more chronology
+≠ more Path structure
+
+subpath
+≠ arbitrary temporal or thematic fragment
+
+transition cluster
+≠ expanded Event list
+
+parallel or competing subpaths
+≠ forced linear sequence
+
+internal transition relation
+≠ causal sufficiency or intention
+```
+
+Primary sites: [§§24.1–24.4](../01_blocks/03_part_ii_sub.md#chapter-24-decomposing-paths-and-trajectories).
+
+## Chapter 24 WP2 Non-Equivalences
+
+```text
+later narrative importance
+≠ historically operative turning point
+
+turning point in one dimension
+≠ turning point in every dimension
+
+imaginable continuation
+≠ historically available branch
+
+historically available branch
+≠ successful counterfactual guaranteed
+
+branch status
+≠ motive, rationality, blame, or legitimacy
+
+internal Frame change
+≠ source replacement automatically
+
+internal Frame change
+≠ PROJECT_AS automatically
+
+same institution or topic
+≠ Same-Path continuity
+
+more accessible continuation
+≠ more likely, legitimate, or recommended
+
+coarse direction
+≠ linearity, homogeneity, or teleology
+```
+
+Primary sites: [§§24.5–24.8](../01_blocks/03_part_ii_sub.md#24-5-turning-points).
+
+## Chapter 24 WP3 Non-Equivalences
+
+```text
+recovered detail
+≠ original complete history restored
+
+newly sourced detail
+≠ detail available to the original composition
+
+compression debt
+≠ score, Output Class, primitive, or automatic failure
+
+Path-Dependence load
+≠ hidden substance
+≠ determinism
+≠ additive operator proof
+
+many historical profiles
+≠ stronger Path-Dependence claim automatically
+
+same archive, dates, endpoint, institution, or label
+≠ Same-Path identity
+
+rival PATH construction
+≠ failed DECOMPOSE automatically
+
+supported local map
+≠ prior coarse claim preserved
+
+non_capture
+≠ coarse Path or Trajectory confirmed
+```
+
+Primary sites: [§§24.9–24.12](../01_blocks/03_part_ii_sub.md#24-9-irrecoverable-compression).
+
+## Chapter 24 Provisional-Lock Non-Equivalences
+
+```text
+more chronology ≠ more Path structure
+subpath ≠ fragment
+retrospective salience ≠ turning point
+imaginable alternative ≠ historical branch
+internal Frame change ≠ source replacement or PROJECT_AS automatically
+accessibility ≠ probability or recommendation
+recovered detail ≠ complete history restored
+Path-Dependence load ≠ substance, score, or determinism
+same label/dates/archive/endpoint ≠ Same-Path identity
+rival PATH construction ≠ failed DECOMPOSE automatically
+```
+
+## Chapter 25 Preparation Non-Equivalences
+
+| Non-equivalence | Controlled meaning |
+|---|---|
+| correct detail ≠ Resolution Gain | Gain requires a changed warranted reconstruction. |
+| Resolution Neutrality ≠ failure | Neutrality requires a valid supported comparison. |
+| no gain ≠ unsupported refinement | Support and comparison must be assessed separately. |
+| Resolution Drift ≠ honest source limitation | Drift promotes or continues complexity without adequate purchase, support, coherence, or calibration. |
+| Resolution Escape ≠ warranted revision | Revision records the prior failure and tests a new bounded claim. |
+| open threshold ≠ Calibration Loss | Provisional thresholds remain admissible when comparison and revision conditions are explicit. |
+| components ≠ coarser function reconstructed | Parts require reconstructive anchoring to the same source object. |
+| graph density ≠ relation support | Visual or formal complexity cannot substitute for evidence. |
+| Decomposition Fatigue ≠ analyst psychology | It is a methodological Stop marker. |
+| local resolution result ≠ canonical Output Class | Result axes remain separate. |
+| non_capture ≠ coarse claim rescued | Capture limits do not confirm either reconstruction. |
+| re-entry ≠ earlier Stop erased | A new basis creates a new testable claim. |
+
+Preparation control: [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md).
+
+## Chapter 25 WP1 Resolution Non-Equivalences
+
+```text
+correct added detail
+≠ Resolution Gain automatically
+
+stronger claim
+≠ Gain automatically
+
+supported no-change
+≠ failure
+
+neutral for claim Q
+≠ neutral for every claim
+
+more nodes, edges, timestamps, or dimensions
+≠ more relation support
+
+complexity
+≠ discrimination
+
+honest uncertainty
+≠ Resolution Drift automatically
+
+new finer claim
+≠ prior claim repaired
+
+coordinate change
+≠ counterpressure answered
+
+warranted revision
+≠ Resolution Escape
+
+local resolution result
+≠ canonical Output Class
+```
+
+Primary site: [§§25.1–25.4](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape).
+
+## Chapter 25 WP2 Purchase and Calibration Non-Equivalences
+
+```text
+valid distinction
+≠ praxeological purchase automatically
+
+no purchase for claim Q
+≠ no purchase for every claim
+
+supported component
+≠ supported relation
+
+component inventory
+≠ coarser function reconstructed
+
+graph density, proximity, centrality, or interaction
+≠ historical relation support
+
+source limitation declared
+≠ Source Overreach
+
+source supports A before B
+≠ source supports A caused or constituted B
+
+schema completeness
+≠ empirical completeness
+
+formal consistency
+≠ semantic warrant
+
+open provisional threshold
+≠ Calibration Loss
+
+monitoring practical Stop conditions
+≠ solving the universal halting problem
+```
+
+Primary site: [§§25.5–25.8](../01_blocks/03_part_ii_sub.md#25-5-detail-without-purchase).
+
+## Chapter 25 WP3 Non-Equivalences
+
+```text
+Decomposition Fatigue ≠ analyst fatigue
+unsupported ≠ neutral
+non_capture ≠ averaged classification
+Stop ≠ failure automatically
+Stop ≠ erasure of supported findings
+re-entry ≠ resumption without prior disposition
+local resolution family ≠ canonical Output Class
+runtime Stop treatment ≠ universal halting decision
+```
+
+## Chapter 25 Provisional-Lock Non-Equivalences
+
+```text
+correct detail ≠ Resolution Gain automatically
+supported no-change ≠ failure
+complexity or graph density ≠ discrimination or relation support
+new finer claim ≠ prior failed claim repaired
+Source Limitation ≠ Source Overreach
+open provisional threshold ≠ Calibration Loss
+Decomposition Fatigue ≠ analyst psychology
+local resolution family ≠ canonical Output Class
+Stop ≠ erasure of supported findings
+re-entry ≠ continuation as though Stop never occurred
+bounded process Stop treatment ≠ universal halting decision
+```
+
+## Chapter 26 Preparation Non-Equivalences
+
+```text
+internal constitution ≠ external contextual function
+granularity change ≠ target-context change
+source function ≠ target function
+DECOMPOSE ≠ PROJECT_AS
+SUB ≠ recontextualization
+changed Frame ≠ PROJECT_AS automatically
+new label ≠ new target function
+component summary ≠ functional projection
+dual-operation chain ≠ mixed operation occurrence
+admissible DECOMPOSE ≠ admissible PROJECT_AS automatically
+origin type ≠ target function
+visual or graph context ≠ declared target context automatically
+```
+
+These distinctions prevent operation collapse and authority transfer. Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 WP1 Operation-Boundary Non-Equivalences
+
+```text
+new description
+≠ DECOMPOSE automatically
+
+new Frame
+≠ PROJECT_AS automatically
+
+internal constitution
+≠ external contextual function
+
+granularity change
+≠ target-context change
+
+source function
+≠ target function
+
+origin type
+≠ target function
+
+component summary
+≠ functional projection
+
+new label or analogy
+≠ new target function
+
+interface role or graph position
+≠ semantic operation proof
+
+same source object or evidence base
+≠ same transformation claim
+
+dual-operation pressure
+≠ mixed operation occurrence
+```
+
+Primary site: [Chapter 26 WP1](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+
+## Chapter 26 WP2 Comparison and Recontextualization Non-Equivalences
+
+```text
+same Trajectory used twice
+≠ same operation occurrence
+
+shared source features
+≠ shared warrant or result
+
+object shown in a context
+≠ object performs a function in that context
+
+Attractor-typed occurrence
+≠ Attractor operator type
+≠ contextual Attractor-function
+
+SUB vocabulary or component detail
+≠ DECOMPOSE identity where a target function is asserted
+
+functional-sounding label
+≠ PROJECT_AS where no target context or target function is claimed
+
+changed legibility
+≠ DECOMPOSE or PROJECT_AS automatically
+
+changed Frame
+≠ changed target context
+
+3D graph layer, proximity, or interaction
+≠ semantic operation execution
+```
+
+Primary site: [Chapter 26 WP2](../01_blocks/03_part_ii_sub.md#26-5-trajectory-decomposition-and-projection).
+
+## Chapter 26 WP3 Non-Equivalences
+
+```text
+dual operation ≠ mixed operation
+shared source ≠ shared Record
+shared evidence ≠ shared Loss
+operation order A→B ≠ operation order B→A
+local boundary finding ≠ canonical Output Class
+invalid collapse detected ≠ compromise operation authorized
+non_capture ≠ default DECOMPOSE or PROJECT_AS
+separate Records ≠ independent semantic validity automatically
+```
+
+## Chapter 26 Provisional-Lock Non-Equivalences
+
+```text
+internal constitution ≠ contextual target function
+granularity change ≠ target-context change
+source function ≠ target function
+changed Frame ≠ PROJECT_AS automatically
+recontextualization ≠ transformation operation automatically
+SUB-looking language ≠ DECOMPOSE automatically
+functional-sounding language ≠ PROJECT_AS automatically
+shared source or evidence ≠ shared occurrence, Record, Loss, or result
+dual-operation chain ≠ mixed or fourth operation
+origin type ≠ target function
+Graph or interface role ≠ semantic operation warrant
+non_capture ≠ compromise operation
+```
+
+## Chapter 27 Preparation Non-Equivalences
+
+```text
+more detail
+≠ more truth
+
+supported detail
+≠ praxeological purchase automatically
+
+component enumeration
+≠ relational reconstruction
+
+component role identified
+≠ coarser function reconstructed
+
+source type preserved
+≠ source function confirmed
+
+Source Ceiling reached
+≠ non_capture automatically
+
+Stop
+≠ Claim Reduction
+
+new granularity
+≠ prior failure erased
+
+formal or graph completeness
+≠ source-supported internal structure
+```
+
+These separations govern the local lower and upper SUB boundaries. They do not prohibit relations among the terms; they prohibit unmarked identity, automatic inference, and authority transfer.
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 WP1 SUB-Boundary Non-Equivalences
+
+```text
+more detail
+≠ more truth
+
+supported detail
+≠ PraxisPurchase automatically
+
+no Purchase
+≠ unsupported refinement
+
+Resolution Neutrality
+≠ Failure
+
+component presence
+≠ relation support
+
+component inventory
+≠ reconstruction
+
+same label
+≠ source reference preserved
+
+source reference preserved
+≠ source function confirmed
+
+more graph nodes or edges
+≠ more warranted structure
+
+Upper SUB Boundary
+≠ non_capture automatically
+```
+
+Primary site: [Chapter 27 WP1](../01_blocks/03_part_ii_sub.md#chapter-27-sub-boundary-conditions).
+
+## Chapter 27 WP2 SUB-Boundary Non-Equivalences
+
+```text
+Source Ceiling reached
+≠ Failure automatically
+≠ non_capture automatically
+
+component supported
+≠ relation supported
+≠ causal load supported
+≠ source-function effect supported
+
+unavailable information
+≠ Non-Event
+
+local counterfactual sensitivity
+≠ universal causality
+≠ intention
+≠ person responsibility
+
+constitutive for this claim
+≠ necessary in every comparable case
+
+source object preserved
+≠ source function confirmed
+
+type preservation
+≠ initial type claim immunized
+
+operator type
+≠ operator occurrence
+≠ source-object type claim
+≠ source-function claim
+
+graph or simulation coherence
+≠ source or causal warrant
+```
+
+Primary site: [Chapter 27 WP2](../01_blocks/03_part_ii_sub.md#27-5-source-ceiling).
+
+## Chapter 27 WP3 Non-Equivalences
+
+```text
+finer resolution ≠ truer, more useful, or more authoritative automatically
+Stop ≠ proof that no finer structure exists
+Claim Reduction ≠ stronger failed claim preserved
+Non-Capture ≠ coarse claim rescued
+local boundary result ≠ canonical Output Class
+new granularity ≠ prior failure erased
+more compute or interaction ≠ materially new re-entry basis
+complete Record view ≠ automatic semantic decision
+```
+
+Primary site: [Chapter 27 WP3](../01_blocks/03_part_ii_sub.md#27-9-no-privilege-of-fine-resolution).
+
+## Chapter 27 Provisional-Lock Non-Equivalences
+
+```text
+finer resolution ≠ automatic priority
+supported detail ≠ PraxisPurchase automatically
+component presence ≠ relation support
+source reference ≠ source-function confirmation
+Source Ceiling reached ≠ Non-Capture automatically
+Stop ≠ proof that no finer structure exists
+Claim Reduction ≠ stronger failed claim preserved
+re-entry ≠ prior Failure, Stop, or Loss erased
+```
+
+Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation Non-Equivalences
+
+```text
+case artifact
+≠ theory source
+
+positive case
+≠ general validation
+
+case completeness
+≠ empirical truth
+
+components listed
+≠ relations reconstructed
+
+source-function effect
+≠ resolution result
+≠ canonical Output Class
+
+confusion case
+≠ mixed-operation Record
+
+schema-valid YAML
+≠ admissible transformation
+
+local audit pass
+≠ Chapter-53 integrated audit complete
+
+Part-II provisional lock
+≠ final STRATA lock
+```
+
+These separations prohibit automatic identity and authority transfer while allowing cases to test, expose, and pressure the canonical SUB rules.
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 Positive-Case Non-Equivalences
+
+```text
+positive case ≠ maximum-strength claim
+case artifact ≠ theory source
+components ≠ relations
+resolution_gain ≠ admissible automatically
+Frame occurrence decomposition ≠ Frame operator decomposition
+Attractor occurrence reconstruction ≠ Attractor-function projection
+Trajectory decomposition ≠ new PATH composition
+formal validation ≠ substantive truth
+```
+
+## Chapter 28 WP2 Non-Equivalences
+
+```text
+supported detail ≠ PraxisPurchase
+unsupported refinement ≠ Resolution Neutrality
+operator type ≠ occurrence or composite
+components ≠ relations or source-function reconstruction
+new granularity ≠ failed claim repaired
+local difference ≠ macro-Asymmetry
+DECOMPOSE success ≠ PROJECT_AS success
+shared source material ≠ same PATH object
+```
+
+## Chapter 28 WP3 Non-Equivalences
+
+```text
+resemblance ≠ source-bound decomposition
+analogy ≠ target function
+recurrent modulation ≠ new operator
+Local Audit pass ≠ empirical truth
+lock readiness ≠ provisional lock
+shared source history ≠ shared Record, Loss, or result
+```
+
+## Chapter 28 and Part II Provisional-Lock Non-Equivalences
+
+```text
+case artifact ≠ theory source
+schema validity ≠ substantive admissibility
+positive case ≠ universal DECOMPOSE validation
+fine resolution ≠ deeper truth
+component presence ≠ relation support
+source reference ≠ source-function confirmation
+resolution_neutral ≠ non_capture
+mandatory_stop ≠ failed_transformation
+claim reduction ≠ stronger failed claim preserved
+DECOMPOSE result ≠ PROJECT_AS target function
+Part II provisional lock ≠ final STRATA lock or authority increase
+```
+
+Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).

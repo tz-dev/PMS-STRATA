@@ -1,9 +1,9 @@
 # PMS-STRATA — Reader Pathways
-**Status:** Reference Kernel v0 scaffold v0.3.48; Chapter-11-WP2-synchronized  
+**Status:** Reference Kernel v0 scaffold v0.3.51; Chapter-20-WP3-synchronized  
 **Repository role:** `04_reference/*` — reader-route, artifact-role, dependency-warning, and canonical-return navigation; not canonical corpus prose and not the later Reader implementation  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the post-Model synchronized `04_reference/Cross_Reference_Map.md` and `04_reference/Evidence_Map.md`, `04_reference/Audit_Checklist.md`, repository `README.md`, and `PMS.yaml` for PMS Base  
 **Current formal handoff inputs:** all seven populated `07_model/*` Core artifacts, eight populated canonical smoke records, and `07_model/examples/README.md`; Root and Companion synchronized; suite-level and package audits passed  
-**Availability status:** the seven-artifact Formal Model v0 Core and canonical smoke-suite route are current and the internal smoke-test gate has passed; Foundations Chapters 0–8 are available under provisional lock, with Preparation Records retained as production history; Chapters 9–10 are available under provisional lock; Chapter 11 WP1–WP2 are canonical through Sections 11.1–11.9 and Preparation remains production control; Sections 11.10–11.14 and Chapters 12–57, substantive cases, appendices, derivatives, and `08_PMS-STRATA Reader/*` remain pending
+**Availability status:** Formal Model Core and Smoke Suite are available as internally validated formal artifacts; Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–19 are available under provisional lock; Chapter 20 Preparation Record and canonical WP1–WP3 §§20.1–20.13 are available; WP4 and Chapters 21–57 remain pending.
 ---
 ## 1. Role, Status, and Authority
 This scaffold controls how readers may enter, traverse, leave, and return to PMS-STRATA artifacts without turning convenience into theory, production sequence into rank, or a presentation layer into authority. It remains the pathway owner during Foundations production and distinguishes current Core/smoke inspection and the available Chapter-0 route from still-pending corpus routes. Reference Kernel population and post-model synchronization are not the final Reference Freeze.
@@ -2255,4 +2255,636 @@ Read Part I in this order:
 5. Chapter 17 and `03_cases/Case_Index.*` for cases, mappings, Local Audit, and closing statement;
 6. [`Part I — PATH provisional-lock boundary`](../01_blocks/02_part_i_path.md#part-i--path-provisional-lock-boundary) for lock scope and reopening conditions.
 
-Continue next to Chapter 18 Preparation. A Reader may navigate the locked corpus; it may not infer operation success, target function, causal truth, person judgment, or authority.
+Continue next to canonical Chapter 18 WP1 and its Preparation/Execution Record. A Reader may navigate the locked corpus; it may not infer operation success, target function, causal truth, person judgment, or authority.
+
+## Chapter 18 WP1 Reading Route
+
+Read in this order:
+
+1. [`Part I — PATH provisional lock`](../01_blocks/02_part_i_path.md#part-i--path-provisional-lock-boundary);
+2. [`Chapter 18 Contract`](../05_minified/Chapter_Contracts.md#chapter-18--the-provisionally-compressed-object);
+3. [Canonical Chapter 18 WP1](../01_blocks/03_part_ii_sub.md#chapter-18-the-provisionally-compressed-object);
+4. [`Chapter 18 Preparation and WP1 Execution Record`](Chapter_18_Preparation_Record.md#26-wp1-execution-record);
+5. [`DECOMPOSE operation index`](Transformation_Operation_Index.md#7-decompose);
+6. [`Appendix E`](../02_appendices/Appendix_E_DECOMPOSE_Record_Template.md).
+
+The Reader may expose source declarations, known/unresolved structure, reasons, and preservation burdens. It may not infer hidden components, operation success, source-function truth, finer-truth priority, or target function.
+
+During block production, Pressure Cases remain in canonical prose and Preparation Records. Standalone case/test files are produced only in the later Integrated Cases and Audit pass.
+
+
+## Chapter 18 WP2 Reading Route
+
+Read in this order:
+
+1. [§18.5 — Why Compression Is Necessary](../01_blocks/03_part_ii_sub.md#18-5-why-compression-is-necessary);
+2. [§18.6 — Why Compression Can Become Insufficient](../01_blocks/03_part_ii_sub.md#18-6-why-compression-can-become-insufficient);
+3. [§18.7 — Reasons to Decompose](../01_blocks/03_part_ii_sub.md#18-7-reasons-to-decompose);
+4. [§18.8 — Reasons Not to Decompose](../01_blocks/03_part_ii_sub.md#18-8-reasons-not-to-decompose);
+5. [`Chapter 18 Preparation and Execution Record`](Chapter_18_Preparation_Record.md#27-wp2-execution-record) for production history only.
+
+The reader must preserve:
+
+```text
+compression ≠ error
+reason to decompose ≠ DECOMPOSE result
+no-decomposition decision ≠ resolution_neutral
+```
+
+The next controlled corpus route is Chapter 18 WP3. Reader navigation does not decide purchase, source sufficiency, decomposition warrant, output class, truth, or authority.
+
+
+## Chapter 18 WP3 Reading Route
+
+Read in this order:
+
+1. [§18.9 — Preservation Requirement](../01_blocks/03_part_ii_sub.md#18-9-preservation-requirement);
+2. [§18.10 — Minimal Source Declaration](../01_blocks/03_part_ii_sub.md#18-10-minimal-source-declaration);
+3. [Chapter 18 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-18-completion-boundary);
+4. [`Chapter 18 Preparation and WP3 Execution Record`](Chapter_18_Preparation_Record.md#28-wp3-execution-record) for production history only.
+
+The Reader may expose source lineage, source-function uncertainty, known/unresolved structure, inherited Loss, Stop, and Non-Capture. It may not select target granularity, infer components, determine source-function effect, execute `DECOMPOSE`, assign a target function, or provisionally lock Chapter 18.
+
+The next controlled corpus route is Chapter 18 WP4, not Chapter 19 prose production directly.
+
+
+## Chapter 18 Provisional-Lock Reading Route
+
+1. Read [Chapter 18](../01_blocks/03_part_ii_sub.md#chapter-18-the-provisionally-compressed-object) as the complete source-entry architecture.
+2. Use [§18.9](../01_blocks/03_part_ii_sub.md#18-9-preservation-requirement) to test preservation without immunization.
+3. Use [§18.10](../01_blocks/03_part_ii_sub.md#18-10-minimal-source-declaration) for the source declaration.
+4. Read the [completion boundary](../01_blocks/03_part_ii_sub.md#chapter-18-completion-boundary) before moving to Chapter 19.
+5. Use the [`WP4 Execution Record`](Chapter_18_Preparation_Record.md#29-wp4-execution-and-provisional-lock-record) only as production and audit history.
+
+The Reader may expose declared source fields, uncertainty, Loss, Stop, and Non-Capture. It may not infer target granularity, components, operation success, target function, or authority.
+
+## Chapter 19 Preparation Reading Route
+
+For Chapter 19 production, read in this order:
+
+1. `PMS.yaml` as external PMS Base where available in the working environment;
+2. [`Chapter 19 Structure`](../00_source/PMS-STRATA_Structure.md#19-granularity-change-and-the-logic-of-decomposition);
+3. [`Chapter 19 Contract`](../05_minified/Chapter_Contracts.md#chapter-19--granularity-change-and-the-logic-of-decomposition);
+4. [`Chapter 18 completion boundary`](../01_blocks/03_part_ii_sub.md#chapter-18-completion-boundary);
+5. [`Chapter 2 coordinate architecture`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level);
+6. [`Chapter_19_Preparation_Record.md`](Chapter_19_Preparation_Record.md);
+7. the Minified Operation Signatures and Admissibility Band;
+8. existing formal-model coordinate and `DECOMPOSE` fields.
+
+Return to canonical prose after preparation. Do not treat the Preparation Record, Reference files, or model mirror as a substitute for Chapter 19.
+
+```text
+coordinate declaration
+≠ operation execution
+≠ truth ranking
+```
+
+## Chapter 19 WP1 Canonical Reading Route
+
+For the current Chapter-19 state:
+
+1. read the [Chapter 18 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-18-completion-boundary);
+2. read the [Chapter 19 opening](../01_blocks/03_part_ii_sub.md#chapter-19-granularity-change-and-the-logic-of-decomposition);
+3. use [§19.1](../01_blocks/03_part_ii_sub.md#19-1-granularity-change) for distinction-set change and anti-truth descent;
+4. use [§19.2](../01_blocks/03_part_ii_sub.md#19-2-relative-downward-movement) for comparator and relative-level control;
+5. compare [§19.3](../01_blocks/03_part_ii_sub.md#19-3-stable-frame-finer-granularity) with [§19.4](../01_blocks/03_part_ii_sub.md#19-4-changed-frame-during-decomposition);
+6. use the [WP1 Execution Record](Chapter_19_Preparation_Record.md#26-wp1-execution-record) only as production and audit history;
+7. continue to WP2 for distinction-set mechanics, distributed structure, and component criteria.
+
+The Reader may expose coordinates, comparison dimensions, Frame status, expected difference, and deferred judgments. It may not infer components, comparability, operation success, source-function effect, Output Class, target function, or authority.
+
+## Chapter 19 WP2 Canonical Reading Route
+
+For the current Chapter-19 state:
+
+1. read WP1 [§§19.1–19.4](../01_blocks/03_part_ii_sub.md#19-1-granularity-change) for coordinates, Frame status, and expected difference;
+2. use [§19.5](../01_blocks/03_part_ii_sub.md#19-5-change-of-distinction-set) to distinguish changed resolution from added description;
+3. use [§19.6](../01_blocks/03_part_ii_sub.md#19-6-local-versus-distributed-structure) to prevent spatial atomism and micro/macro collapse;
+4. use [§19.7](../01_blocks/03_part_ii_sub.md#19-7-functional-parts-versus-mere-fragments) for component-candidate eligibility and anti-causal-overclaim;
+5. use the [WP2 Execution Record](Chapter_19_Preparation_Record.md#27-wp2-execution-record) only as production and audit history;
+6. continue to WP3 for comparability, mismatch, the Lower Granularity Question, and the Minimal Granularity Relation.
+
+The Reader may expose candidate distinctions, local/distributed forms, source routes, and component/fragment burdens. It may not infer actual components, component relations, causality, source-function effect, comparability, operation success, Output Class, target function, or authority.
+
+## Chapter 19 WP3 Reader Pathway
+
+Read the complete Chapter-19 relation in this order:
+
+1. [§19.1–§19.4](../01_blocks/03_part_ii_sub.md#19-1-granularity-change) — coordinate change, no truth descent, relative downward movement, stable/changed Frame;
+2. [§19.5–§19.7](../01_blocks/03_part_ii_sub.md#19-5-change-of-distinction-set) — distinction-set change, local/distributed candidates, component versus fragment;
+3. [§19.8](../01_blocks/03_part_ii_sub.md#19-8-granularity-comparability) — comparison basis, translation, partial comparison, positive incomparability;
+4. [§19.9](../01_blocks/03_part_ii_sub.md#19-9-granularity-mismatch) — mismatch, compatible predicates, preserved contradiction;
+5. [§19.10](../01_blocks/03_part_ii_sub.md#19-10-the-lower-granularity-question) — relevance floor, Stop, Non-Capture, non-compensation;
+6. [§19.11](../01_blocks/03_part_ii_sub.md#19-11-minimal-granularity-relation) — exact eight-field relation and Chapter-20 handoff.
+
+Do not read the populated conceptual relation as a completed `DECOMPOSE` Record or operation result. Chapter 20 remains the next substantive owner after the WP4 lock audit.
+
+
+## Chapter 19 Provisional-Lock Reading Route
+
+1. Read [Chapter 19](../01_blocks/03_part_ii_sub.md#chapter-19-granularity-change-and-the-logic-of-decomposition) as the complete coordinate architecture.
+2. Use [§19.7](../01_blocks/03_part_ii_sub.md#19-7-functional-parts-versus-mere-fragments) for component-candidate discipline.
+3. Use [§19.8–§19.10](../01_blocks/03_part_ii_sub.md#19-8-granularity-comparability) for comparison, mismatch, contradiction, and lower-bound controls.
+4. Use [§19.11](../01_blocks/03_part_ii_sub.md#19-11-minimal-granularity-relation) for the eight-field handoff.
+5. Read the [completion boundary](../01_blocks/03_part_ii_sub.md#chapter-19-completion-boundary) before moving to Chapter 20.
+6. Use the [`WP4 Execution Record`](Chapter_19_Preparation_Record.md#29-wp4-execution-and-provisional-lock-record) only as production and audit history.
+
+The Reader may expose declared coordinates, comparison basis, uncertainty, Loss, Stop, and Non-Capture. It may not infer actual components, source support, operation success, resolution outcome, target function, or authority.
+
+## Chapter 20 Preparation Reading Route
+
+For Chapter 20 production, read in this order:
+
+1. `PMS.yaml` as external PMS Base;
+2. [`Chapter 20 Structure`](../00_source/PMS-STRATA_Structure.md#20-decompose-conditions-procedure-and-preservation-requirements);
+3. [`Chapter 20 Contract`](../05_minified/Chapter_Contracts.md#chapter-20--decompose-conditions-procedure-and-preservation-requirements);
+4. [`Chapter 18 completion boundary`](../01_blocks/03_part_ii_sub.md#chapter-18-completion-boundary);
+5. [`Chapter 19 completion boundary`](../01_blocks/03_part_ii_sub.md#chapter-19-completion-boundary);
+6. [`Chapter_20_Preparation_Record.md`](Chapter_20_Preparation_Record.md);
+7. the Minified Operation Signatures and Admissibility Band;
+8. existing `DECOMPOSE` registry, rule, Output Class, Decision Tree, and schema controls.
+
+Return to canonical prose after preparation. Do not treat the Preparation Record, references, or Formal Model as discovered components or a completed operation.
+
+```text
+record completeness
+≠ semantic adequacy
+≠ operation success
+```
+
+## Chapter 20 WP1 Reader Pathway
+
+Read the current Chapter-20 procedure in this order:
+
+1. [§20.1](../01_blocks/03_part_ii_sub.md#20-1-definition) — exact relational definition and description/operator-type boundaries;
+2. [§20.2](../01_blocks/03_part_ii_sub.md#20-2-preconditions) — conjunctive entry burdens and pre-operation Stop;
+3. [§20.3](../01_blocks/03_part_ii_sub.md#20-3-source-object) — independent source identity, typing, function, known/unresolved structure;
+4. [§20.4](../01_blocks/03_part_ii_sub.md#20-4-decomposition-question) — six-burden leading question and invalid question forms.
+
+Do not read WP1 as actual decomposition. Source support, component and relation reconstruction, internal temporality, source-function effects, operation results, Output Class mapping, Loss, failure, and the full Record remain pending.
+
+## Chapter 20 WP2 Reader Pathway
+
+Read WP2 in this order:
+
+1. [§20.5](../01_blocks/03_part_ii_sub.md#20-5-expected-additional-difference) — expected difference, no-gain, and counterfactual pressure;
+2. [§20.6](../01_blocks/03_part_ii_sub.md#20-6-source-support) — support roles, semantic precision ceiling, rival models, and Stop;
+3. [§20.7](../01_blocks/03_part_ii_sub.md#20-7-component-identification) — five-burden component establishment and carrying/disturbing/replaceable roles;
+4. [§20.8](../01_blocks/03_part_ii_sub.md#20-8-relation-identification) — relation reconstruction, parts-list failure, internal temporality, and same-Path boundary.
+
+Do not read WP2 as a final source-function or operation-result classification. Those belong to WP3.
+
+## Chapter 20 WP3 Reader Pathway
+
+Read WP3 in this order:
+
+1. [§20.9](../01_blocks/03_part_ii_sub.md#20-9-preservation-of-source-function) — source-function effects and four-axis separation;
+2. [§20.10](../01_blocks/03_part_ii_sub.md#20-10-decomposition-output) — local outputs, canonical mapping, neutral resolution, and distinct claims;
+3. [§20.11](../01_blocks/03_part_ii_sub.md#20-11-non-invertibility) — non-invertibility, new PATH, and `PROJECT_AS` boundaries;
+4. [§20.12](../01_blocks/03_part_ii_sub.md#20-12-decomposition-failure) — Failure, Mandatory Stop, Non-Capture, and weaker findings;
+5. [§20.13](../01_blocks/03_part_ii_sub.md#20-13-decompose-record) — complete Record, completion boundary, and Chapter-21 handoff.
+
+WP3 completed the canonical Chapter-20 prose; WP4 now provisionally locks the integrated generic procedure.
+
+## Chapter 20 WP4 Locked Reader Pathway
+
+Read the provisionally locked generic procedure in this order:
+
+1. [§§20.1–20.4](../01_blocks/03_part_ii_sub.md#20-1-definition) — definition, preconditions, source, and question;
+2. [§§20.5–20.8](../01_blocks/03_part_ii_sub.md#20-5-expected-additional-difference) — expected difference, source support, components, relations, and internal temporality;
+3. [§§20.9–20.13](../01_blocks/03_part_ii_sub.md#20-9-preservation-of-source-function) — source-function effects, outputs, non-invertibility, failure, and Record;
+4. [Chapter-20 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-20-completion-boundary) — provisional lock and Chapter-21 handoff.
+
+Do not read the chapter as a family-specific decomposition catalogue, a complete resolution taxonomy, a restoration method, or an automatic Output-Class engine.
+
+## Chapter 21 Preparation Reader Pathway
+
+Read the prepared chapter in four steps:
+
+1. general rule and Frame-typed occurrence;
+2. Attractor reproduction and dynamic occurrence;
+3. Asymmetry occurrence and distributed coordination test;
+4. Impulse, Binding, failure, Stop, Non-Capture, and Chapter-22 handoff.
+
+Keep the governing distinction active throughout:
+
+```text
+opening an operator-typed occurrence
+≠ opening the operator type
+```
+
+Preparation control: [Chapter 21 Preparation Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP1 Reader Pathway
+
+Read in this order:
+
+1. [§21.1 General Rule](../01_blocks/03_part_ii_sub.md#21-1-general-rule) — operator type versus occurrence and revisable source typing;
+2. [§21.2 Frame-Typed Occurrence](../01_blocks/03_part_ii_sub.md#21-2-frame-typed-occurrence) — family-specific source and evidence burden;
+3. [§21.3 Frame Formation](../01_blocks/03_part_ii_sub.md#21-3-frame-formation) — production conditions versus coarse function;
+4. [§21.4 Frame Stability and Internal Variation](../01_blocks/03_part_ii_sub.md#21-4-frame-stability-and-internal-variation) — heterogeneity, substitution, counterevidence, and Stop.
+
+Then continue to Chapter 21 WP2 for Attractor- and Asymmetry-typed occurrences.  
+Execution control: [Chapter 21 Preparation/Execution Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP2 Reader Pathway
+
+Read in this order:
+
+1. [§21.5 Attractor-Typed Occurrence](../01_blocks/03_part_ii_sub.md#21-5-attractor-typed-occurrence) — recurrence versus differential continuation;
+2. [§21.6 Attractor Reproduction](../01_blocks/03_part_ii_sub.md#21-6-attractor-reproduction) — friction, expectation, alternatives, thresholds, and exit;
+3. [§21.7 Dynamic Attractor Occurrence](../01_blocks/03_part_ii_sub.md#21-7-dynamic-attractor-occurrence) — recurrent transition forms and operation boundaries;
+4. [§21.8 Asymmetry-Typed Occurrence](../01_blocks/03_part_ii_sub.md#21-8-asymmetry-typed-occurrence) — comparators, dimensions, and gradients;
+5. [§21.9 Distributed Asymmetry](../01_blocks/03_part_ii_sub.md#21-9-distributed-asymmetry) — coordination, offset, macro restraint, and handoff.
+
+Then continue to Chapter 21 WP3 for Impulse, Binding, Failure, Stop, Non-Capture, and the Chapter-22 handoff.  
+Execution control: [Chapter 21 Preparation/Execution Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP3 Reader Pathway
+
+Read [§21.10](../01_blocks/03_part_ii_sub.md#21-10-impulse-typed-occurrence) for structural activation without motive inference, [§21.11](../01_blocks/03_part_ii_sub.md#21-11-binding-typed-occurrence) for commitment/continuity/breach-load decomposition, and [§21.12](../01_blocks/03_part_ii_sub.md#21-12-failed-operator-occurrence-decomposition) for family-specific Failure, Stop, Non-Capture, completion, and the transition from occurrence sources to composite sources in Chapter 22.
+
+## Chapter 21 Provisionally Locked Reader Pathway
+
+Read [§21.1–§21.4](../01_blocks/03_part_ii_sub.md#21-1-general-rule) for the operator/type boundary and Frame family, [§21.5–§21.9](../01_blocks/03_part_ii_sub.md#21-5-attractor-typed-occurrence) for Attractor and Asymmetry, and [§21.10–§21.12](../01_blocks/03_part_ii_sub.md#21-10-impulse-typed-occurrence) for Impulse, Binding, Failure, Stop, and Non-Capture. Conclude with the [Chapter-21 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-21-completion-boundary), then continue to the Chapter-22 Preparation Gate for composite decomposition.
+
+## Chapter 22 Preparation Reader Pathway
+
+Recommended route:
+
+1. [Chapter 1 — Composite Structure](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure)
+2. Chapter 15 — `COMPOSE` procedure and inherited Loss where applicable
+3. [Chapter 20 — Generic DECOMPOSE](../01_blocks/03_part_ii_sub.md#chapter-20-decompose-conditions-procedure-and-preservation-requirements)
+4. [Chapter 21 — Operator-Typed Occurrences](../01_blocks/03_part_ii_sub.md#chapter-21-decomposing-operator-typed-occurrences)
+5. [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md)
+6. later canonical §§22.1–22.11 after production
+
+Read the chapter as relational composite analysis, not as a taxonomy of ultimate parts, operator strengths, organizational types, or persons.
+
+## Chapter 22 WP1 Reader Pathway
+
+Read in this order:
+
+1. [§22.1 Composite Structure as SUB Object](../01_blocks/03_part_ii_sub.md#22-1-composite-structure-as-sub-object) — source-entry threshold, bundle/composite distinction, continuity, lineage, and inherited Loss;
+2. [§22.2 Internal Composition Map](../01_blocks/03_part_ii_sub.md#22-2-internal-composition-map) — relational map, reconstructibility, formation/maintenance distinction, and rival maps;
+3. [§22.3 Component Hierarchy](../01_blocks/03_part_ii_sub.md#22-3-component-hierarchy) — five claim-bound roles without ontology;
+4. [§22.4 Dominant Operator Weighting](../01_blocks/03_part_ii_sub.md#22-4-dominant-operator-weighting) — qualitative relative load with Δ–Ψ, counterpressure, person, and authority safeguards.
+
+Then continue to Chapter 22 WP2 for profiles, distributed function, redundancy/substitution, and internal conflict.  
+Execution control: [Chapter 22 Preparation/Execution Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP2 Reader Pathway
+
+After WP1's composite-source and internal-map architecture, read:
+
+1. [§22.5 Modulating Profiles](../01_blocks/03_part_ii_sub.md#22-5-modulating-profiles) — source-side profile dimensions without type, score, person, or RETYPE inflation;
+2. [§22.6 Distributed Function](../01_blocks/03_part_ii_sub.md#22-6-distributed-function) — separated carriers under same-composite coordination and partial-failure pressure;
+3. [§22.7 Redundant and Substitutable Components](../01_blocks/03_part_ii_sub.md#22-7-redundant-and-substitutable-components) — bounded removal pressure, substitution costs, Loss, and qualitative thresholds;
+4. [§22.8 Internal Conflict](../01_blocks/03_part_ii_sub.md#22-8-internal-conflict) — open conflict outcomes and explicit `DECOMPOSE`/`COMPOSE`/`PROJECT_AS` boundaries.
+
+Then continue to Chapter 22 WP3 for Composite Stability, non-fragmentation, Failure/Stop/Non-Capture, the eighteen-field Record view, completion, and Chapter-23 handoff.  
+Execution control: [Chapter 22 Preparation/Execution Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP3 Reader Pathway
+
+After §§22.1–22.8, read:
+
+1. [§22.9 Composite Stability](../01_blocks/03_part_ii_sub.md#22-9-composite-stability) — stability object, interval, local churn, repair, compensation, suppression, and unequal load;
+2. [§22.10 Decomposition without Fragmentation](../01_blocks/03_part_ii_sub.md#22-10-decomposition-of-a-composite-without-fragmentation) — positive standard, fragment/component boundary, macrofunction retention, and four result axes;
+3. [§22.11 Failed Composite Decomposition](../01_blocks/03_part_ii_sub.md#22-11-failed-composite-decomposition) — Failure, Stop, Non-Capture, non-compensation, eighteen-field Record view, completion boundary, and Chapter-23 handoff.
+
+Then continue to Chapter 22 WP4 for the integrated provisional-lock audit.  
+Execution control: [Chapter 22 Preparation/Execution Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 Provisionally Locked Reader Pathway
+
+Read [§22.1–§22.4](../01_blocks/03_part_ii_sub.md#22-1-composite-structure-as-sub-object) for composite source entry, lineage, internal maps, roles, and weighting; [§22.5–§22.8](../01_blocks/03_part_ii_sub.md#22-5-modulating-profiles) for profiles, distributed function, redundancy/substitution, and conflict; and [§22.9–§22.11](../01_blocks/03_part_ii_sub.md#22-9-composite-stability) for stability, non-fragmentation, Failure, Stop, Non-Capture, and the Record view. Conclude with the [Chapter-22 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-22-completion-boundary), then continue to the Chapter-23 Preparation Gate for Event and Non-Event Decomposition.
+
+## Chapter 23 Preparation Reader Pathway
+
+Recommended route:
+
+1. [Chapter 3 — Temporal Object Chain](../01_blocks/01_foundations.md)
+2. [Chapter 14 — Non-Events within Paths and Trajectories](../01_blocks/02_part_i_path.md)
+3. [Chapter 20 — Generic DECOMPOSE](../01_blocks/03_part_ii_sub.md)
+4. [Chapter 21 — Operator-Typed Occurrences](../01_blocks/03_part_ii_sub.md)
+5. [Chapter 22 — Composite Structures](../01_blocks/03_part_ii_sub.md)
+6. [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md)
+7. later canonical §§23.1–23.11 after production
+
+Read Chapter 23 as same-reference temporal decomposition, not as a universal event ontology, chronology expansion, intention detector, new PATH construction, or person-responsibility model.
+
+## Chapter 23 WP1 Reader Pathway
+
+Read:
+
+1. [§23.1 Event Decomposition](../01_blocks/03_part_ii_sub.md#23-1-event-decomposition) — source entry, coarse category, Event boundary, contextual margins, and components;
+2. [§23.2 Extended Event](../01_blocks/03_part_ii_sub.md#23-2-extended-event) — phase continuity, thresholds, role shifts, interruption/resumption, and completion;
+3. [§23.3 Event Cluster](../01_blocks/03_part_ii_sub.md#23-3-event-cluster) — local Event identity, cluster relation, category revision, and `DECOMPOSE`/`COMPOSE` separation;
+4. [§23.4 Event Inflation](../01_blocks/03_part_ii_sub.md#23-4-event-inflation) — observation-density error, Event-unit burden, and local stop rule;
+5. [Chapter 23 WP1 Execution Record](Chapter_23_Preparation_Record.md#20-wp1-execution-record).
+
+Then continue to WP2 for Non-Event Decomposition, `Λ` preservation, Delay Structure, and Repeated Non-Decision. Reader navigation or later graph visualization may expose these relations; it does not establish their truth or authority.
+
+## Chapter 23 WP2 Reader Pathway
+
+Read:
+
+1. [§23.5 Non-Event Decomposition](../01_blocks/03_part_ii_sub.md#23-5-non-event-decomposition) — conjunctive entry, expectation testing, and missing-information separation;
+2. [§23.6 Preserving the Non-Event Character](../01_blocks/03_part_ii_sub.md#23-6-preserving-the-non-event-character) — positive sub-events, categorical preservation, and later realization;
+3. [§23.7 Delay Structure](../01_blocks/03_part_ii_sub.md#23-7-delay-structure) — mechanisms, thresholds, dependencies, and intention boundary;
+4. [§23.8 Repeated Non-Decision](../01_blocks/03_part_ii_sub.md#23-8-repeated-non-decision) — category alternatives and absent-binding boundary;
+5. [Chapter 23 WP2 Execution Record](Chapter_23_Preparation_Record.md#21-wp2-execution-record).
+
+Then continue to WP3 for relational internal temporal order, multiple clocks, temporal drift, confusion, result axes, Failure/Stop/Non-Capture, Record mapping, and Chapter-24 handoff. Reader graphs may visualize these relations and records; visualization or interaction does not create semantic truth or authority.
+
+
+
+## Chapter 23 WP3 Reader Pathway
+
+After §§23.1–23.8, read:
+
+1. [§23.9 Internal Temporal Order](../01_blocks/03_part_ii_sub.md#23-9-internal-temporal-order) — relational order, partial order, overlap, interruptions, thresholds, and multiple clocks;
+2. [§23.10 Temporal Granularity Drift](../01_blocks/03_part_ii_sub.md#23-10-temporal-granularity-drift) — temporal purchase, instrument drift, phase proliferation, duplicate-event drift, and bounded no-gain;
+3. [§23.11 Event / Non-Event Confusion, Results, and Completion](../01_blocks/03_part_ii_sub.md#23-11-event--non-event-confusion-results-and-completion) — category boundaries, result axes, Failure, Mandatory Stop, Non-Capture, the seventeen-field Record view, and Chapter-24 handoff;
+4. [Chapter 23 WP3 Execution Record](Chapter_23_Preparation_Record.md#23-wp3-execution-record).
+
+Then continue to Chapter 23 WP4 for the integrated provisional-lock audit. Reader graphing or interaction may expose records, relations, rival maps, tests, and YAML states; visualization and intervention remain presentation/navigation functions and do not create semantic truth, substantive admissibility, or authority.
+
+
+## Chapter 23 Provisional-Lock Reader Pathway
+
+Read Chapter 23 as one temporal-decomposition sequence: Event entry and boundary (§§23.1–23.4), Non-Event/Delay/Repeated Non-Decision (§§23.5–23.8), then internal order, drift, result axes, Failure/Stop/Non-Capture, Record view, and handoff (§§23.9–23.11). Continue to the [WP4 lock record](Chapter_23_Preparation_Record.md#23-wp4-execution-and-provisional-lock-record), then Chapter 24 Preparation. Reader graphs may display source objects, boundaries, sub-events, expectations, clock relations, rival maps, Loss, tests, and YAML states; visualization or interaction remains a presentation/navigation layer and creates no semantic truth, substantive admissibility, or authority.
+
+## Chapter 24 Preparation Reader Pathway
+
+Recommended route:
+
+1. [Chapter 10 — Path](../01_blocks/02_part_i_path.md)
+2. [Chapter 11 — Trajectory](../01_blocks/02_part_i_path.md)
+3. [Chapter 12 — Path Dependence](../01_blocks/02_part_i_path.md)
+4. [Chapters 13–16 — Branches, Non-Events, COMPOSE, and PATH Limits](../01_blocks/02_part_i_path.md)
+5. [Chapter 20 — Generic DECOMPOSE](../01_blocks/03_part_ii_sub.md)
+6. [Chapter 23 — Internal Temporal Decomposition](../01_blocks/03_part_ii_sub.md)
+7. [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md)
+8. later canonical §§24.1–24.12 after production
+
+Read Chapter 24 as same-reference opening of an already formed PATH object, not as chronology expansion, automatic periodization, prediction, complete historical recovery, or contextual target-function assignment. A future Reader may visualize subpaths, transition clusters, branches, rival periodizations, Loss, and audit states; visualization and interaction remain non-authoritative.
+
+## Chapter 24 WP1 Reader Pathway
+
+Read the canonical sequence as:
+
+1. [§24.1 — PATH Objects as SUB Objects](../01_blocks/03_part_ii_sub.md#24-1-path-objects-as-sub-objects)
+2. [§24.2 — Why Decompose a Path?](../01_blocks/03_part_ii_sub.md#24-2-why-decompose-a-path)
+3. [§24.3 — Subpaths](../01_blocks/03_part_ii_sub.md#24-3-subpaths)
+4. [§24.4 — Transition Clusters](../01_blocks/03_part_ii_sub.md#24-4-transition-clusters)
+5. [WP1 execution record](Chapter_24_Preparation_Record.md#23-wp1-execution-record)
+
+A future Reader may display the source Path, original formation lineage, inherited Loss, candidate subpaths, partial orders, transition clusters, new selections, operation-boundary pressure, duties, tests, and YAML states as navigable graphs. Interaction may alter a candidate view or initiate a new test record; it does not retroactively change canonical source claims, establish Same-Path identity, or create semantic authority.
+
+## Chapter 24 WP2 Reader Pathway
+
+Read the canonical sequence as:
+
+1. [§24.5 — Turning Points](../01_blocks/03_part_ii_sub.md#24-5-turning-points)
+2. [§24.6 — Branch Reconstruction](../01_blocks/03_part_ii_sub.md#24-6-branch-reconstruction)
+3. [§24.7 — Internal Frame Changes](../01_blocks/03_part_ii_sub.md#24-7-internal-frame-changes)
+4. [§24.8 — Competing Continuations](../01_blocks/03_part_ii_sub.md#24-8-competing-continuations)
+5. [WP2 execution record](Chapter_24_Preparation_Record.md#24-wp2-execution-record)
+
+A future Reader may graph turning-point candidates, branch windows/statuses, Frame transitions, persisted continuity carriers, competing continuations, unequal accessibility, counter-trends, duties, tests, and YAML states. Interactive changes create candidate views or new test claims; they do not establish historical availability, counterfactual truth, Same-Path continuity, prediction, or authority.
+
+## Chapter 24 WP3 Reader Pathway
+
+Read the canonical sequence as:
+
+1. [§24.9 — Irrecoverable Compression](../01_blocks/03_part_ii_sub.md#24-9-irrecoverable-compression)
+2. [§24.10 — Decomposition of Path Dependence](../01_blocks/03_part_ii_sub.md#24-10-decomposition-of-path-dependence)
+3. [§24.11 — Decomposition versus Alternative PATH Construction](../01_blocks/03_part_ii_sub.md#24-11-decomposition-versus-alternative-path-construction)
+4. [§24.12 — Failed Trajectory Decomposition](../01_blocks/03_part_ii_sub.md#24-12-failed-trajectory-decomposition)
+5. [WP3 execution record](Chapter_24_Preparation_Record.md#25-wp3-execution-record)
+
+A future Reader may graph inherited/current Loss, source versions, Path-Dependence carriers, Same-Path and rival-PATH candidates, four result axes, Stop/Non-Capture routes, duties, tests, and YAML states. Interactive edits create candidate transformations or new test claims; they do not recover irrecoverable history, decide Same-Path identity, establish Path Dependence, or inherit authority.
+
+## Chapter 24 Provisional-Lock Reader Pathway
+
+Read Chapter 24 as one bounded sequence: PATH-source entry and formation lineage (§§24.1–24.4), turning points, branches, Frame changes, and competing continuations (§§24.5–24.8), then Loss/non-invertibility, Path-Dependence load, Same-Path/rival-PATH classification, result axes, Failure/Stop/Non-Capture, Record view, and handoff (§§24.9–24.12). Continue to the [WP4 lock record](Chapter_24_Preparation_Record.md#26-wp4-execution-and-provisional-lock-record), then Chapter 25 Preparation.
+
+A future Reader may graph source versions, formation lineage, subpaths, transition clusters, branch windows, rival periodizations, dependence carriers, Loss, result axes, tests, and YAML states. Interaction may create candidate views or new transformation records; it does not retroactively alter canonical source claims, recover irrecoverable history, establish Same-Path identity or Path Dependence, predict a continuation, or create semantic authority.
+
+## Chapter 25 Preparation Reader Pathway
+
+Recommended route:
+
+1. [Chapter 6 — STRATA Admissibility Band](../01_blocks/01_foundations.md)
+2. [Chapter 7 — Shared Transformation Record](../01_blocks/01_foundations.md)
+3. [Chapter 20 — Generic DECOMPOSE](../01_blocks/03_part_ii_sub.md)
+4. [Chapters 21–24 — Object-family decompositions](../01_blocks/03_part_ii_sub.md)
+5. [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md)
+6. later canonical §§25.1–25.11 after production
+
+Read Chapter 25 as classification of what finer resolution changed, not as a universal complexity scale, automatic graph metric, analyst diagnosis, or replacement for canonical Output routing. A future Reader or embedded graph application may display coarse/finer claims, source relations, counterpressure, Loss, result axes, and Stop states; interaction and spatial layout remain non-authoritative.
+
+## Chapter 25 WP1 Reader Pathway
+
+Read the canonical sequence as:
+
+1. [§25.1 — Resolution Gain](../01_blocks/03_part_ii_sub.md#25-1-resolution-gain)
+2. [§25.2 — Resolution Neutrality](../01_blocks/03_part_ii_sub.md#25-2-resolution-neutrality)
+3. [§25.3 — Resolution Drift](../01_blocks/03_part_ii_sub.md#25-3-resolution-drift)
+4. [§25.4 — Resolution Escape](../01_blocks/03_part_ii_sub.md#25-4-resolution-escape)
+5. [WP1 execution record](Chapter_25_Preparation_Record.md#23-wp1-execution-record)
+
+A future Reader and embedded 3D graph application may display coarse and finer claims, source and relation support, changed praxis dimensions, counterpressure, prior dispositions, Loss, and local result pressure. Spatial layout, node density, dimensionality, interaction, or user-generated candidate views do not establish Gain, repair a failed claim, select a canonical Output Class, or create semantic authority.
+
+## Chapter 25 WP2 Reader Pathway
+
+Continue the canonical Chapter-25 sequence as:
+
+1. [§25.5 — Detail without Purchase](../01_blocks/03_part_ii_sub.md#25-5-detail-without-purchase)
+2. [§25.6 — Components without Coarser Function](../01_blocks/03_part_ii_sub.md#25-6-components-without-coarser-function)
+3. [§25.7 — Source Overreach](../01_blocks/03_part_ii_sub.md#25-7-source-overreach)
+4. [§25.8 — Calibration Loss](../01_blocks/03_part_ii_sub.md#25-8-calibration-loss)
+5. [WP2 execution record](Chapter_25_Preparation_Record.md#24-wp2-execution-record)
+
+A future embedded 3D graph application may expose component support, relation support, claim effect, source ceiling, threshold versions, calibration changes, Stop signals, and rival maps. Interactive changes that alter relation typing, source selection, periodization, threshold, or claim structure must create a new traceable transformation state. Display operations do not silently change semantic authority.
+
+## Chapter 25 WP3 Reader Pathway
+
+Read WP3 in this order:
+
+1. [§25.9 — Decomposition Fatigue](../01_blocks/03_part_ii_sub.md#25-9-decomposition-fatigue)
+2. [§25.10 — Resolution Classification](../01_blocks/03_part_ii_sub.md#25-10-resolution-classification)
+3. [§25.11 — Mandatory Stop, Re-entry, and Completion](../01_blocks/03_part_ii_sub.md#25-11-stop-reentry-and-completion)
+4. [Chapter 25 WP3 Execution Record](Chapter_25_Preparation_Record.md#25-wp3-execution-record)
+
+Read Stop as a positive bounded method result, not as a universal halting oracle. A Reader or embedded 3D graph application may display result families, support, Loss, Stop, and re-entry states; spatial layout, interactivity, or runtime monitoring does not decide semantic warrant or authority. Continue to WP4 for integrated audit and provisional Chapter-25 lock.
+
+## Chapter 25 Provisional-Lock Reader Pathway
+
+Read Chapter 25 as one bounded sequence: coarse/finer comparison and Gain/Neutrality/Drift/Escape (§§25.1–25.4), purchase/coarser-function/source/calibration controls (§§25.5–25.8), then Decomposition Fatigue, six-family classification, result axes, Failure/Stop/Non-Capture/re-entry, Record view, and handoff (§§25.9–25.11). Continue to the [WP4 lock record](Chapter_25_Preparation_Record.md#26-wp4-execution-and-provisional-lock-record), then Chapter 26 Preparation.
+
+A future Reader and embedded 3D graph application may expose source versions, coarse and finer claims, relation support, changed dimensions, threshold history, Loss, result axes, Stop, and re-entry states. Interaction may create candidate views or new test records; spatial form, node density, animation, additional compute, or runtime monitoring does not establish semantic warrant, decide universal halting, erase prior dispositions, or create authority.
+
+## Chapter 26 Preparation Reader Pathway
+
+Read Chapter 26 in four passes:
+
+1. establish the source object, origin type, source function, Frame, granularity relation, and analysis question;
+2. compare the internal-constitution test with the contextual-target-function test;
+3. test recontextualization, subtle and reverse misclassification, and dual-operation pressure;
+4. verify separate claims, Records, Loss, results, Stop/Non-Capture, and the Chapter-27 handoff.
+
+A future Reader or embedded 3D graph application may display operation candidates, origin types, source functions, target contexts, candidate target functions, linked Records, Loss, and rival classifications. Spatial layout and interaction remain presentation aids: they may not infer semantic operation identity, target function, origin-type replacement, Output Class, or authority.
+
+Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 WP1 Reader Pathway
+
+A Reader or embedded 3D graph application may expose the Chapter-26 boundary by showing:
+
+- the source object and origin type;
+- the source function under explanation;
+- internal structures opened by a SUB question;
+- a separately proposed target context and target function;
+- alternative readings as DECOMPOSE, PROJECT_AS, recontextualization, or dual-operation pressure;
+- separate claim and Record boundaries.
+
+The viewer remains presentational and exploratory:
+
+```text
+spatial grouping, centrality, interaction, or interface role
+≠ source relation, target function, operation execution, or authority
+```
+
+Primary site: [Chapter 26 WP1](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+
+## Chapter 26 WP2 Reader Pathway
+
+Read WP2 in this order:
+
+1. [§26.5 — Trajectory Decomposition and Projection](../01_blocks/03_part_ii_sub.md#26-5-trajectory-decomposition-and-projection)
+2. [§26.6 — Attractor Occurrence](../01_blocks/03_part_ii_sub.md#26-6-attractor-occurrence)
+3. [§26.7 — Subtle Misclassification](../01_blocks/03_part_ii_sub.md#26-7-subtle-misclassification)
+4. [§26.8 — Reverse Misclassification](../01_blocks/03_part_ii_sub.md#26-8-reverse-misclassification)
+5. [§26.9 — SUB versus Recontextualization](../01_blocks/03_part_ii_sub.md#26-9-sub-versus-recontextualization)
+6. [WP2 execution record](Chapter_26_Preparation_Record.md#14-wp2-execution-record)
+
+A Reader or embedded 3D graph application may show the same source object in separate operation layers, distinguish source-component edges from target-function edges, expose rival classifications, and preserve prior dispositions. Rotation, filtering, layer selection, temporal scrubbing, panel titles, proximity, and interaction remain representational recontextualization unless a new transformation claim is explicitly recorded.
+
+## Chapter 26 WP3 Reader Pathway
+
+A Reader or 3D graph application may show separate source-structure edges, target-function edges, operation occurrences, Record links, Loss layers, prior claim dispositions, Stop states, and rival boundary classifications. It should expose operation order and prevent one visual object from implying one mixed Record. Spatial grouping, interaction, centrality, or interface labels remain representational and cannot decide the operation boundary, semantic warrant, Output Class, or authority.
+
+## Chapter 26 Provisional-Lock Reader Pathway
+
+Read Chapter 26 as one bounded sequence: operation entry and the primary SUB/RETYPE distinction (§§26.1–26.4), Trajectory/Attractor comparisons and misclassification/recontextualization guards (§§26.5–26.9), then the decision test, dual-operation chains, invalid collapse, result axes, Failure/Stop/Non-Capture, Record view, and handoff (§§26.10–26.12). Continue to the [WP4 lock record](Chapter_26_Preparation_Record.md#chapter-26-wp4-execution-and-provisional-lock-record), then Chapter 27 Preparation.
+
+A future Reader or embedded 3D Graph application may expose source objects, origin types, internal-structure edges, target-context/function edges, recontextualization layers, linked operation Records, chain order, Loss, Stop, and rival classifications. Spatial layout, centrality, filtering, interaction, animation, interface role, or formal validity does not execute an operation, establish semantic warrant, replace origin type, select an Output Class, or create authority.
+
+## Chapter 27 Preparation Reader Pathway
+
+Read Chapter 27 in five passes:
+
+1. identify the tested source claim, source object, source type, source function, and granularity relation;
+2. test the lower boundary through additional praxis difference and the upper boundary through source-reference and coarser-function anchoring;
+3. inspect Source-Ceiling status and separate component support from relation support;
+4. run the bounded Component Counterfactual Test and inspect coarser-function and type-integrity effects;
+5. compare no-fine-privilege, Stop, Claim Reduction, Failure, Non-Capture, re-entry, and Chapter-28 handoff.
+
+A future Reader or embedded 3D graph application may display coarse and finer maps, component sensitivity, source-support layers, rival relations, boundary status, Loss, Stop, and re-entry conditions. Spatial centrality, node density, visual fragmentation, automated graph completion, or interaction cannot determine praxeological purchase, constitutiveness, source precision, semantic traceability, Output Class, or authority.
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 WP1 Reader Pathway
+
+A Reader or embedded 3D graph application may expose:
+
+- coarse and finer maps;
+- the tested claim and expected difference;
+- lower- and upper-boundary pressure;
+- component-support and relation-support layers;
+- source-reference continuity or revision;
+- coarser-function translation;
+- neutral detail and fragmentation warnings.
+
+The viewer remains presentational and exploratory:
+
+```text
+spatial centrality, density, proximity, layout, filtering, or interaction
+≠ PraxisPurchase, relation support, source continuity, reconstruction, or authority
+```
+
+Primary site: [Chapter 27 WP1](../01_blocks/03_part_ii_sub.md#chapter-27-sub-boundary-conditions).
+
+## Chapter 27 WP2 Reader Pathway
+
+A Reader or graph view may expose:
+
+1. source-support status per component and relation;
+2. bounded counterfactual variation and assumptions;
+3. local component-sensitivity description;
+4. coarser-function translation;
+5. source-type preservation or revision;
+6. uncertainty and Loss.
+
+It must not infer support from file presence, sensitivity from visual centrality, causality from simulation, function from layout, or type validity from labels. Interaction exposes the recorded test; it does not perform the semantic classification.
+
+Primary site: [Chapter 27 WP2](../01_blocks/03_part_ii_sub.md#27-5-source-ceiling).
+
+## Chapter 27 WP3 Reader Pathway
+
+A Reader or graph view may expose:
+
+1. coarse and fine reconstructions side by side;
+2. satisfied and failed conjunctive gates;
+3. Stop, Claim Reduction, Failure, or Non-Capture pressure;
+4. the four result axes;
+5. prior Record, new re-entry basis, and preserved Loss;
+6. the twenty-field SUB-boundary view.
+
+It must not infer that fine resolution is superior, select the correct granularity, decide source sufficiency, restore a failed claim, or map local findings automatically to an Output Class. Primary site: [Chapter 27 WP3](../01_blocks/03_part_ii_sub.md#27-9-no-privilege-of-fine-resolution).
+
+## Chapter 27 Provisional-Lock Reader Pathway
+
+A Reader or Graph may expose a short eight-gate path for standard cases and open deeper Source, Relation, Function, Type, Stop, Non-Capture, and Loss detail only where active uncertainty requires it. Visual centrality, graph completion, simulation, interaction, or detail density do not determine PraxisPurchase, constitutiveness, Source Support, Output Class, or authority.
+
+Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation Reader Pathway
+
+Read Chapter 28 in four passes:
+
+1. case architecture and six positive cases;
+2. six countercases and the first operation-confusion pair;
+3. remaining confusion cases, the twenty-four-question Local Audit, Output mapping, and closing statement;
+4. integrated Chapter-28 and Part-II lock audit.
+
+A Reader or graph view may show source objects, components, relations, function effects, resolution outcomes, operation boundaries, Loss, alternatives, Stop/Non-Capture, audit status, canonical mapping, artifact links, and hashes. It must not infer case truth from visual coherence, relation warrant from proximity, output mapping from layout, operation identity from labels, or authority from lock status.
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 Reader Pathway
+
+Read §28.1 for the artifact contract, then follow the six positive cases through their Markdown reconstructions, YAML records, local audits, mappings, and Case Index hashes. A Reader may expose these layers together but may not infer relation support from spatial proximity or admissibility from visual completeness.
+
+## Chapter 28 WP2 Reader Pathway
+
+Follow the countercases by failed gate, then inspect the two confusion cases by separated claim segment. A Reader may show support, Stop, split, and Loss layers but may not infer relation warrant, operation identity, or Output Class from layout.
+
+## Chapter 28 WP3 Reader Pathway
+
+Navigate the sixteen target cases by failed or passed gate, then inspect the twenty-four-question Local Audit and four result axes. A Reader may display analogy breaks, modulation effects, Loss, chain splits, and class mappings but may not infer them from layout.
+
+## Part II — SUB Provisional-Lock Reader Pathway
+
+Use the locked SUB Part in three depths:
+
+1. **standard route:** source eligibility → granularity → eight-gate boundary test → result;
+2. **case route:** Chapter-28 positive, counter, and confusion cases by passed or failed gate;
+3. **audit route:** Shared Transformation Record, complete Loss, alternatives, twenty-four-question Local Audit, mapping, and package integrity.
+
+A Reader or graph may expose the source object, components, relations, resolution result, Source Ceiling, Stop, Non-Capture, chain splits, mappings, and hashes. It may not infer relation warrant from proximity, constitutiveness from centrality, truth from completeness, target function from use, or authority from lock status.
+
+Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).

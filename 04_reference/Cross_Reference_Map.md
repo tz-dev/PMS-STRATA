@@ -1,10 +1,10 @@
 # PMS-STRATA — Cross Reference Map
 
-**Status:** Reference Kernel v0 scaffold v0.3.46; Chapter-11-WP2-synchronized  
+**Status:** Reference Kernel v0 scaffold v0.3.48; Chapter-20-WP3-synchronized  
 **Repository role:** `04_reference/*` — routing and cross-reference layer; not an independent theory source  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the three synchronized peer scaffolds `04_reference/Evidence_Map.md`, `04_reference/Audit_Checklist.md`, and `04_reference/Reader_Pathways.md`, repository `README.md`, and `PMS.yaml` for PMS Base  
 **Current formal handoff inputs:** all seven populated `07_model/*` Core artifacts plus eight populated canonical smoke records and `07_model/examples/README.md`; internal smoke-test gate audit-passed and Root/Companion synchronized  
-**Block-anchor status:** Foundations Chapters 0–8 and PATH Chapters 9–10 are provisionally locked; Chapter 11 WP1–WP2 are canonical through Sections 11.1–11.9 and its Preparation Record remains production control; Sections 11.10–11.14 and Chapters 12–57 remain pending
+**Block-anchor status:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–19 are provisionally locked; Chapter 20 Preparation Gate and canonical WP1–WP3 §§20.1–20.13 are complete; WP4 and Chapters 21–57 remain pending.
 
 ---
 
@@ -251,11 +251,11 @@ Linking an internal artifact to `PMS.yaml` records source authority. It does not
 | 15 | COMPOSE: Selection, Formation, and Compression | PATH | `01_blocks/02_part_i_path.md` | COMPOSE procedure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | `07_model/Operation_Registry.yaml` | anchor pending |
 | 16 | PATH Boundary Conditions | PATH | `01_blocks/02_part_i_path.md` | PATH limits | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | formal handoff only where declared by chapter contract | anchor pending |
 | 17 | PATH Cases, Countercases, and Local Audit | PATH | `01_blocks/02_part_i_path.md` | PATH cases and local audit | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local PATH audit | smoke tests and later case records | anchor pending |
-| 18 | The Provisionally Compressed Object | SUB | `01_blocks/03_part_ii_sub.md` | provisional compression | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
-| 19 | Granularity Change and the Logic of Decomposition | SUB | `01_blocks/03_part_ii_sub.md` | granularity and decomposition logic | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
-| 20 | DECOMPOSE: Conditions, Procedure, and Preservation Requirements | SUB | `01_blocks/03_part_ii_sub.md` | DECOMPOSE procedure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | `07_model/Operation_Registry.yaml` | anchor pending |
-| 21 | Decomposing Operator-Typed Occurrences | SUB | `01_blocks/03_part_ii_sub.md` | operator-occurrence decomposition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
-| 22 | Decomposing Composite Structures | SUB | `01_blocks/03_part_ii_sub.md` | composite decomposition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
+| 18 | The Provisionally Compressed Object | SUB | [`01_blocks/03_part_ii_sub.md`](../01_blocks/03_part_ii_sub.md#chapter-18-the-provisionally-compressed-object) | provisional elementarity and compressed source-object entry | `05_minified/Chapter_Contracts.md`; `04_reference/Chapter_18_Preparation_Record.md` | `04_reference/Glossary.md`; `04_reference/Non_Equivalence_Index.md`; `04_reference/Operator_Index.md`; `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Evidence_Map.md`; `04_reference/Audit_Checklist.md` | bounded Chapter-18 mirrors in `07_model/Admissibility_Rules.yaml`; no schema change | provisionally locked through §§18.1–18.10 after WP4 audit |
+| 19 | Granularity Change and the Logic of Decomposition | SUB | `01_blocks/03_part_ii_sub.md`; `04_reference/Chapter_19_Preparation_Record.md` | source-to-target granularity relation | `05_minified/Chapter_Contracts.md`; Chapter-19 Preparation Gate | `04_reference/Glossary.md`; `04_reference/Non_Equivalence_Index.md`; `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; `04_reference/Evidence_Map.md`; `04_reference/Audit_Checklist.md` | bounded non-routing preparation mirror in `07_model/Admissibility_Rules.yaml`; no schema change | Preparation Gate complete; canonical prose pending |
+| 20 | DECOMPOSE: Conditions, Procedure, and Preservation Requirements | SUB | `01_blocks/03_part_ii_sub.md`; `04_reference/Chapter_20_Preparation_Record.md` | complete generic DECOMPOSE procedure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | `07_model/Operation_Registry.yaml`; `07_model/Admissibility_Rules.yaml` | Preparation Gate complete; canonical anchor pending |
+| 21 | Decomposing Operator-Typed Occurrences | SUB | `01_blocks/03_part_ii_sub.md` | operator-occurrence decomposition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | provisionally locked after integrated WP4 audit; formal handoff only where declared by chapter contract | [chapter anchor](../01_blocks/03_part_ii_sub.md#chapter-21-decomposing-operator-typed-occurrences) |
+| 22 | Decomposing Composite Structures | SUB | `01_blocks/03_part_ii_sub.md` | composite decomposition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | [chapter anchor](../01_blocks/03_part_ii_sub.md#chapter-22-decomposing-composite-structures) |
 | 23 | Decomposing Events, Non-Events, and Internal Temporal Structures | SUB | `01_blocks/03_part_ii_sub.md` | event and internal-temporal decomposition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
 | 24 | Decomposing Paths and Trajectories | SUB | `01_blocks/03_part_ii_sub.md` | path and trajectory decomposition | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
 | 25 | Resolution Gain, Neutrality, Drift, and Escape | SUB | `01_blocks/03_part_ii_sub.md` | resolution results | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
@@ -2046,3 +2046,820 @@ All three feed the later PATH Local Audit and remain open to WP2-C, WP3, LIMITS,
 - Chapter 16 → PATH-local Band, reduction, Stop, and Non-Capture.
 - Chapter 17 → thirteen case records, Output mapping, Local Audit, and closing statement.
 - Part-I lock boundary → Chapter 18 Preparation without pre-authorized `DECOMPOSE`.
+
+## Chapter 18 Preparation Cross-References
+
+- Structure: [`Chapter 18`](../00_source/PMS-STRATA_Structure.md#18-the-provisionally-compressed-object)
+- Block Contract: [`Part II — SUB`](../05_minified/Block_Contracts.md#7-03--sub)
+- Chapter Contract: [`Chapter 18`](../05_minified/Chapter_Contracts.md#chapter-18--the-provisionally-compressed-object)
+- Preparation control: [`Chapter_18_Preparation_Record.md`](Chapter_18_Preparation_Record.md)
+- Canonical target block: [`03_part_ii_sub.md`](../01_blocks/03_part_ii_sub.md)
+- PATH handoff: [`Part I provisional-lock boundary`](../01_blocks/02_part_i_path.md#part-i--path-provisional-lock-boundary)
+- Operation identity: [`DECOMPOSE`](Transformation_Operation_Index.md#7-decompose)
+- Record carrier: [`Transformation_Record.schema.json`](../07_model/Transformation_Record.schema.json)
+
+```text
+Chapter 18 source declaration
+→ Chapter 19 granularity relation
+→ Chapter 20 DECOMPOSE procedure
+```
+
+Standalone case and test files are deferred until all canonical Blocks are complete and the dedicated Integrated Cases and Audit pass begins.
+
+## Chapter 18 WP1 Cross-References
+
+- Canonical chapter entry: [Chapter 18](../01_blocks/03_part_ii_sub.md#chapter-18-the-provisionally-compressed-object)
+- Purpose and source-entry boundary: [§18.1](../01_blocks/03_part_ii_sub.md#18-1-purpose-of-sub)
+- Provisional elementarity: [§18.2](../01_blocks/03_part_ii_sub.md#18-2-provisional-elementarity)
+- Compressed source object: [§18.3](../01_blocks/03_part_ii_sub.md#18-3-the-compressed-object)
+- Operator type / occurrence boundary: [§18.4](../01_blocks/03_part_ii_sub.md#18-4-operator-type-versus-decomposable-occurrence)
+- Preparation and execution history: [`Chapter_18_Preparation_Record.md`](Chapter_18_Preparation_Record.md#26-wp1-execution-record)
+- Formal non-routing mirror: [`Admissibility_Rules.yaml`](../07_model/Admissibility_Rules.yaml)
+
+Protected handoffs:
+
+```text
+Chapter 18 WP1 source candidate
+→ Chapter 18 WP2 compression warrant
+→ Chapter 18 WP3 preservation and minimal declaration
+→ Chapter 19 granularity relation
+→ Chapter 20 DECOMPOSE procedure
+```
+
+No cross-reference in this route authorizes hidden-component inference, target-granularity selection, operation success, source-function outcome, target function, or authority.
+
+
+
+## Chapter 18 WP2 Cross-References
+
+| Canonical site | Consumes | Produces | Protects |
+|---|---|---|---|
+| [§18.5](../01_blocks/03_part_ii_sub.md#18-5-why-compression-is-necessary) | Chapter 6 Band; Chapter 7 Loss; WP1 compressed source object | necessary-compression baseline | compression ≠ error; compression ≠ `COMPOSE` automatically |
+| [§18.6](../01_blocks/03_part_ii_sub.md#18-6-why-compression-can-become-insufficient) | source-candidate architecture; PraxisPurchase; source trace | source-supported insufficiency pressure | available detail ≠ insufficiency; carrier pressure ≠ hidden truth |
+| [§18.7](../01_blocks/03_part_ii_sub.md#18-7-reasons-to-decompose) | Counterfactual Sensitivity; source and claim ceilings | six-part decomposition reason | reason ≠ target granularity, components, or result |
+| [§18.8](../01_blocks/03_part_ii_sub.md#18-8-reasons-not-to-decompose) | Relevance Floor; source ceiling; operation boundaries | positive bounded no-decomposition decision | no-decomposition ≠ `resolution_neutral` or permanent closure |
+
+Handoff remains:
+
+```text
+WP2 reason/no-reason decision
+→ WP3 preservation, source declaration, Stop, Non-Capture
+→ Chapter 19 granularity relation
+→ Chapter 20 operation procedure
+```
+
+
+## Chapter 18 WP3 Handoff Map
+
+```text
+Chapter 18
+source reference, typing, coordinates, current function,
+known/unresolved structure, reason, Loss, Stop, Non-Capture
+
+→ Chapter 19
+target-granularity relation, added distinctions,
+Frame preservation/change, component/fragment comparability
+
+→ Chapter 20
+DECOMPOSE question, components, relations, temporality,
+source support, source-function effect, Loss, result
+```
+
+No arrow denotes inherited admissibility, truth, target function, or authority. Chapter 18 WP3 completes canonical source-entry prose; the separate WP4 audit owns provisional Chapter-18 lock and Chapter-19 preparation.
+
+
+## Chapter 18 Provisional-Lock Cross-Reference
+
+```text
+Chapter 1 object model
++ Chapter 2 source coordinates
++ Chapter 4 DECOMPOSE identity
++ Chapter 6 Admissibility Band
++ Chapter 7 Shared Record
++ PATH source objects and Loss
+→ Chapter 18 provisionally locked source-entry architecture
+→ Chapter 19 Preparation Gate and granularity relation
+→ Chapter 20 DECOMPOSE procedure
+```
+
+Protected later owners: Chapter 25 resolution outcomes, RETYPE target functions, LIMITS integrated boundaries, Integrated Cases and Audit, Appendices, Reference Freeze, Model Finalization, and Reader.
+
+## Chapter 19 Preparation Cross-References
+
+- Governing Contract: [`Chapter_Contracts.md`](../05_minified/Chapter_Contracts.md#chapter-19--granularity-change-and-the-logic-of-decomposition)
+- Source-object handoff: [`Chapter 18 completion boundary`](../01_blocks/03_part_ii_sub.md#chapter-18-completion-boundary)
+- Preparation control: [`Chapter_19_Preparation_Record.md`](Chapter_19_Preparation_Record.md)
+- General coordinate owner: [`Chapter 2`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level)
+- Operation owner: Chapter 20, canonical prose pending
+- Resolution owner: Chapter 25, canonical prose pending
+
+```text
+Chapter 18 provisional lock
+→ Chapter 19 Preparation Gate complete
+→ Chapter 19 WP1
+→ Chapter 20 Preparation and procedure
+```
+
+## Chapter 19 WP1 Canonical Cross-References
+
+- Chapter opening and granularity relation: [`Chapter 19`](../01_blocks/03_part_ii_sub.md#chapter-19-granularity-change-and-the-logic-of-decomposition)
+- Granularity change and anti-truth descent: [`§19.1`](../01_blocks/03_part_ii_sub.md#19-1-granularity-change)
+- Relative downward movement and level separation: [`§19.2`](../01_blocks/03_part_ii_sub.md#19-2-relative-downward-movement)
+- Stable-Frame positive case: [`§19.3`](../01_blocks/03_part_ii_sub.md#19-3-stable-frame-finer-granularity)
+- Changed-Frame contrast and operation boundary: [`§19.4`](../01_blocks/03_part_ii_sub.md#19-4-changed-frame-during-decomposition)
+- Production history: [`Chapter 19 WP1 Execution Record`](Chapter_19_Preparation_Record.md#26-wp1-execution-record)
+
+```text
+Chapter 18 provisional lock
+→ Chapter 19 Preparation Gate complete
+→ Chapter 19 WP1 canonical
+→ Chapter 19 WP2
+→ Chapter 20 procedure later
+```
+
+Protected later owners remain WP2 component architecture, WP3 comparability and Minimal Granularity Relation, Chapter 20 operation procedure, Chapter 25 resolution classification, Chapter 26 complete SUB/RETYPE boundary, and LIMITS integration.
+
+## Chapter 19 WP2 Canonical Cross-References
+
+- Change of Distinction Set: [`§19.5`](../01_blocks/03_part_ii_sub.md#19-5-change-of-distinction-set)
+- Local versus Distributed Structure: [`§19.6`](../01_blocks/03_part_ii_sub.md#19-6-local-versus-distributed-structure)
+- Functional Parts versus Mere Fragments: [`§19.7`](../01_blocks/03_part_ii_sub.md#19-7-functional-parts-versus-mere-fragments)
+- Production history: [`Chapter 19 WP2 Execution Record`](Chapter_19_Preparation_Record.md#27-wp2-execution-record)
+
+```text
+Chapter 19 WP1 canonical
+→ Chapter 19 WP2 canonical
+→ Chapter 19 WP3
+→ Chapter 20 procedure later
+```
+
+Protected later owners remain WP3 comparability and Minimal Granularity Relation, Chapter 20 actual component/relation reconstruction, Chapter 23 Counterfactual Component Tests, Chapter 25 resolution classification, Chapter 26 complete SUB/RETYPE boundary, and LIMITS integration.
+
+## Chapter 19 WP3 Cross-Reference Return
+
+| Canonical site | Consumes | Supplies | Withholds |
+| --- | --- | --- | --- |
+| [§19.8](../01_blocks/03_part_ii_sub.md#19-8-granularity-comparability) | Chapter 2 coordinate comparison; Chapters 18–19 source/granularity declarations | local comparability basis, translation, partial comparison, positive incomparability | semantic ranking, identity, global enum |
+| [§19.9](../01_blocks/03_part_ii_sub.md#19-9-granularity-mismatch) | predicate, Frame, reference, temporal, and source alignment | mismatch/compatible-predicate/substantive-contradiction separation | automatic contradiction resolution or Output Class |
+| [§19.10](../01_blocks/03_part_ii_sub.md#19-10-the-lower-granularity-question) | Admissibility Band and component-candidate burden | pre-operation relevance question, Optional/Mandatory Stop, Non-Capture | Chapter-25 resolution classification |
+| [§19.11](../01_blocks/03_part_ii_sub.md#19-11-minimal-granularity-relation) | Chapter-18 source declaration and Shared Record carriers | exact eight-field relation, record mapping, Chapter-20 handoff | component discovery, DECOMPOSE result, schema replacement |
+
+
+## Chapter 19 Provisional-Lock Cross-Reference
+
+```text
+Chapter 2 analytical coordinates
++ Chapter 18 source-entry architecture
++ Chapter 4 DECOMPOSE identity
++ Chapter 6 Admissibility Band
++ Chapter 7 Shared Record
+→ Chapter 19 provisionally locked granularity-relation architecture
+→ Chapter 20 Preparation Gate and procedure
+→ Chapter 25 resolution classification
+→ Chapter 26 boundary adjudication
+```
+
+Protected later owners remain Chapter 20 operation procedure, Chapter 23 Counterfactual Component Tests, Chapter 25 resolution outcomes, Chapter 26 SUB/RETYPE and new-PATH boundary, LIMITS, Integrated Cases and Audit, Appendices, Reference Freeze, Model Finalization, and Reader.
+
+## Chapter 20 Preparation Cross-Reference Route
+
+```text
+Chapter 18 — source entry
+→ Chapter 19 — granularity relation
+→ Chapter 20 — generic DECOMPOSE procedure
+→ Chapters 21–24 — source-family applications
+→ Chapter 25 — resolution outcomes
+→ Chapter 26 — SUB/RETYPE/new-PATH boundaries
+→ Chapter 27 — full SUB limits
+→ Chapter 28 — cases and Local Audit
+```
+
+Primary production control: [`Chapter_20_Preparation_Record.md`](Chapter_20_Preparation_Record.md). Canonical procedure will reside in [`01_blocks/03_part_ii_sub.md`](../01_blocks/03_part_ii_sub.md#chapter-20-decompose-conditions-procedure-and-preservation-requirements) after drafting.
+
+## Chapter 20 WP1 Cross-Reference Return
+
+| Canonical site | Consumes | Supplies | Withholds |
+| --- | --- | --- | --- |
+| [§20.1](../01_blocks/03_part_ii_sub.md#20-1-definition) | Chapter 4 identity; Chapters 18–19 handoffs | complete relational operation definition and confusion boundaries | source support, components, relations, result |
+| [§20.2](../01_blocks/03_part_ii_sub.md#20-2-preconditions) | Admissibility Band; source and granularity declarations | conjunctive entry screen and pre-operation Stop | operation success or class |
+| [§20.3](../01_blocks/03_part_ii_sub.md#20-3-source-object) | Chapter-18 Minimal Source Declaration | independent source identity and function-under-test burden | source-function disposition |
+| [§20.4](../01_blocks/03_part_ii_sub.md#20-4-decomposition-question) | Chapter-19 target proposal; source route | six-burden leading-question architecture | expected-difference, support, components, outputs |
+
+## Chapter 20 WP2 Cross-Reference Return
+
+| Canonical site | Upstream dependency | Downstream owner protected |
+| --- | --- | --- |
+| §20.5 Expected Additional Difference | Chapter 19 Lower Granularity Question; §20.4 question | Chapter 25 resolution taxonomy |
+| §20.6 Source Support | Chapter 18 Source Scope; Claim/Source Ceiling | Chapters 21–24 family-specific evidence |
+| §20.7 Component Identification | Chapter 19 candidate/fragment logic | Chapter 27 complete component test |
+| §20.8 Relation Identification | PATH temporal distinctions; same-source identity | Chapter 26 operation-boundary adjudication |
+
+WP2 supplies reconstruction burdens to WP3 without selecting source-function effect, operation result, or canonical Output Class.
+
+## Chapter 20 WP3 Cross-Reference Return
+
+| Chapter-20 site | Upstream dependency | Downstream handoff |
+| --- | --- | --- |
+| §20.9 Source-function effect | Chapters 18 and 5 preservation/function distinction | Chapters 21–24 family-specific tests |
+| §20.10 Output mapping | Chapter 7 Shared Record; canonical Output Classes | Chapter 25 full resolution taxonomy; Chapter 28 Local Audit |
+| §20.11 Non-invertibility | Chapter 4 operation grammar; PATH Loss | Chapter 26 operation-chain boundaries |
+| §20.12 Failure/Stop/Non-Capture | Chapter 6 Admissibility Band | Chapter 27 complete SUB limits |
+| §20.13 DECOMPOSE Record | Chapter 7 Shared Record; Chapters 18–19 handoff | Chapter 21 occurrence-family application |
+
+WP3 completed canonical Chapter-20 prose; the integrated WP4 audit now provisionally locks the chapter and hands family-specific application to Chapter 21.
+
+## Chapter 20 WP4 Provisional-Lock Route
+
+| Locked Chapter-20 element | Upstream dependency | Downstream owner |
+|---|---|---|
+| source and decomposition question | Chapters 18–19; Chapter 4 | Chapters 21–24 family applications |
+| component and relation reconstruction | Chapter 19 candidate criteria | Chapter 23/24 object-family stress |
+| source-function and result axes | Chapters 6–7 | Chapter 25 full resolution taxonomy |
+| non-invertibility and operation confusion | Chapter 4 and PATH Loss | Chapter 26 complete boundary adjudication |
+| Failure, Stop, Non-Capture, Loss | Chapters 6–7 | Chapters 27–28 limits and Local Audit |
+| operation-specific Record | Chapter 7 Shared Record | Appendix E and integrated cases later |
+
+Next route: [Chapter-21 handoff](../01_blocks/03_part_ii_sub.md#chapter-20-completion-boundary).
+
+## Chapter 21 Preparation Route
+
+| Chapter-21 family | Upstream owner | Downstream boundary |
+|---|---|---|
+| general occurrence rule and Frame family | Chapters 1 and 20 | Chapter 22 composite hierarchy |
+| Attractor occurrence and dynamic cycle | Chapters 3, 12, and 20 | RETYPE target-function ownership |
+| distributed Asymmetry occurrence | Chapters 2, 19, and 20 | separate COMPOSE/PROJECT_AS where required |
+| Impulse and Binding occurrences | PMS Base and Chapter 20 | no psychology or person property |
+| failure/Stop/Non-Capture | Chapters 6 and 20 | Chapter 27 complete SUB limits |
+
+Next route: [Chapter 21 Preparation Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP1 Canonical Route
+
+```text
+Chapter 20 generic DECOMPOSE lock
+→ Chapter 21 Preparation Gate
+→ §§21.1–21.4 operator-occurrence boundary and Frame family
+→ WP2 §§21.5–21.9 Attractor and Asymmetry families
+```
+
+Primary anchor: [Chapter 21](../01_blocks/03_part_ii_sub.md#chapter-21-decomposing-operator-typed-occurrences).  
+Execution control: [Chapter 21 Preparation/Execution Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP2 Canonical Route
+
+```text
+Chapter 21 WP1 — operator/type boundary and Frame family
+→ WP2 §§21.5–21.9 — Attractor and Asymmetry families
+→ WP3 §§21.10–21.12 — Impulse, Binding, Failure, Stop, Non-Capture
+```
+
+Primary anchors: [§21.5](../01_blocks/03_part_ii_sub.md#21-5-attractor-typed-occurrence), [§21.7](../01_blocks/03_part_ii_sub.md#21-7-dynamic-attractor-occurrence), and [§21.9](../01_blocks/03_part_ii_sub.md#21-9-distributed-asymmetry).  
+Execution control: [Chapter 21 Preparation/Execution Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP3 Cross-Reference Return
+
+- [§21.10](../01_blocks/03_part_ii_sub.md#21-10-impulse-typed-occurrence) applies Chapter-20 `DECOMPOSE` to Impulse-typed occurrences and protects PMS Base, motive, person, Path, and RETYPE boundaries.
+- [§21.11](../01_blocks/03_part_ii_sub.md#21-11-binding-typed-occurrence) applies the procedure to Binding-typed occurrences and separates homogeneous coarse claims from unequal internal load.
+- [§21.12](../01_blocks/03_part_ii_sub.md#21-12-failed-operator-occurrence-decomposition) owns family-specific Failure, Mandatory Stop, Non-Capture, completion, and Chapter-22 handoff.
+
+## Chapter 21 WP4 Provisional-Lock Route
+
+```text
+Chapter 20 generic DECOMPOSE lock
+→ Chapter 21 operator-occurrence family application lock
+→ Chapter 22 Preparation Gate for composite structures
+```
+
+Primary anchor: [Chapter-21 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-21-completion-boundary).  
+Execution control: [Chapter 21 Preparation/Execution Record](Chapter_21_Preparation_Record.md#27-wp4-execution-and-provisional-lock-record).
+
+## Chapter 22 Preparation Cross-References
+
+```text
+Chapter 1 composite object model
++ Chapter 15 composition lineage and Loss where applicable
++ Chapters 18–20 source/granularity/DECOMPOSE procedure
++ Chapter 21 occurrence-family methods
+→ Chapter 22 composite decomposition
+```
+
+Chapter 22 owns internal composition map, component hierarchy, distributed function, redundancy, substitution, internal conflict, composite stability, operator weighting, source-side profiles, and fragmentation failure. Chapter 23 retains event/non-event decomposition; Chapter 24 retains Path/Trajectory decomposition; Chapter 25 retains the complete resolution taxonomy; Chapter 27 retains complete SUB limits and the full Counterfactual Component Test; RETYPE Chapters 34–35 retain contextual higher-level functions and projected profiles.
+
+Preparation control: [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP1 Canonical Route
+
+```text
+Chapter 21 provisional lock
+→ Chapter 22 Preparation Gate
+→ §§22.1–22.4 composite entry, internal map, component roles, operator weighting
+→ WP2 §§22.5–22.8 profiles, distribution, redundancy/substitution, conflict
+```
+
+Primary anchor: [Chapter 22](../01_blocks/03_part_ii_sub.md#chapter-22-decomposing-composite-structures).  
+Execution control: [Chapter 22 Preparation/Execution Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP2 Canonical Route
+
+```text
+Chapter 22 WP1 composite source and internal map
+→ §22.5 source-side modulating profiles
+→ §22.6 distributed function under coordination burden
+→ §22.7 redundancy, substitution, and qualitative thresholds
+→ §22.8 internal conflict and operation-boundary control
+→ Chapter 22 WP3 stability, non-fragmentation, Failure/Stop/Non-Capture, Record, and Chapter-23 handoff
+```
+
+Primary anchors: [§22.5](../01_blocks/03_part_ii_sub.md#22-5-modulating-profiles), [§22.6](../01_blocks/03_part_ii_sub.md#22-6-distributed-function), [§22.7](../01_blocks/03_part_ii_sub.md#22-7-redundant-and-substitutable-components), and [§22.8](../01_blocks/03_part_ii_sub.md#22-8-internal-conflict).  
+Execution control: [Chapter 22 Preparation/Execution Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP3 Canonical Route
+
+```text
+Chapter 22 WP1 source composite and internal map
+→ WP2 profiles, distribution, redundancy/substitution, and conflict
+→ §22.9 Composite Stability
+→ §22.10 non-fragmenting composite decomposition and result axes
+→ §22.11 Failure, Mandatory Stop, Non-Capture, Record view, and Chapter-23 handoff
+→ Chapter 22 WP4 integrated lock pass
+```
+
+Primary anchors: [§22.9](../01_blocks/03_part_ii_sub.md#22-9-composite-stability), [§22.10](../01_blocks/03_part_ii_sub.md#22-10-decomposition-of-a-composite-without-fragmentation), and [§22.11](../01_blocks/03_part_ii_sub.md#22-11-failed-composite-decomposition).  
+Execution control: [Chapter 22 Preparation/Execution Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP4 Provisional-Lock Route
+
+```text
+Chapter 20 generic DECOMPOSE lock
+→ Chapter 21 operator-occurrence family lock
+→ Chapter 22 relational composite-decomposition lock
+→ Chapter 23 Preparation Gate for Event and Non-Event Decomposition
+```
+
+Primary anchor: [Chapter-22 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-22-completion-boundary).  
+Execution control: [Chapter 22 Preparation/Execution Record](Chapter_22_Preparation_Record.md#27-wp4-execution-and-provisional-lock-record).
+
+## Chapter 23 Preparation Cross-References
+
+```text
+Foundations Chapter 3 temporal object distinctions
++ PATH Chapter 14 Non-Event role
++ Chapters 18–20 source/granularity/DECOMPOSE procedure
++ Chapters 21–22 occurrence and composite methods
+→ Chapter 23 Event, Non-Event, and internal-temporal decomposition
+```
+
+Chapter 23 owns Event decomposition, Extended Events, Event Clusters, Event Inflation, Non-Event preservation, delay structures, repeated non-decision, internal temporal order, temporal granularity drift, and Event/Non-Event confusion. Chapter 24 owns Path/Trajectory decomposition and same-path versus new-PATH classification. Chapter 25 owns the complete resolution taxonomy. Chapter 27 owns complete SUB limits. Chapter 28 owns cases and Local Audit. RETYPE retains contextual target functions.
+
+Preparation control: [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md).
+
+## Chapter 23 WP1 Cross-References
+
+```text
+Chapter 3 Event / Non-Event / Transition distinctions
++ Chapter 20 generic DECOMPOSE procedure
++ Chapter 21 occurrence integrity
++ Chapter 22 composite and operation-boundary discipline
+→ Chapter 23 WP1 Event entry, boundary, extension, clustering, and inflation controls
+```
+
+WP2 owns full Non-Event, delay, repeated-non-decision, and absent-binding analysis. WP3 owns internal temporal order, temporal drift, confusion, result axes, Failure/Stop/Non-Capture, Record, and handoff. Chapter 24 owns Path and Trajectory decomposition. Chapter 25 owns the complete resolution taxonomy.
+
+Primary sites: [§§23.1–23.4](../01_blocks/03_part_ii_sub.md#23-1-event-decomposition). Execution control: [Chapter 23 Preparation/Execution Record](Chapter_23_Preparation_Record.md#20-wp1-execution-record).
+
+## Chapter 23 WP2 Cross-References
+
+```text
+Chapter 3 Event / Non-Event distinction
++ Chapter 14 PATH-side Non-Event role
++ Chapter 20 generic DECOMPOSE procedure
++ Chapter 21 occurrence/person boundary
++ Chapter 23 WP1 Event-side boundary discipline
+→ Chapter 23 WP2 expectation, Λ-preservation, delay, repeated-non-decision, and absent-binding controls
+```
+
+WP3 owns internal temporal order, multiple clocks, drift, confusion, result axes, Failure/Stop/Non-Capture, Record, and Chapter-24 handoff. Chapter 24 owns broader Path/Trajectory objects; Chapter 25 owns the complete resolution taxonomy.
+
+Primary sites: [§§23.5–23.8](../01_blocks/03_part_ii_sub.md#23-5-non-event-decomposition). Execution control: [Chapter 23 WP2 Execution Record](Chapter_23_Preparation_Record.md#21-wp2-execution-record).
+
+
+
+## Chapter 23 WP3 Cross-Reference Closure
+
+- [§23.9](../01_blocks/03_part_ii_sub.md#23-9-internal-temporal-order) applies Chapters 2–3 and 20 to internal order, partial order, overlap, interruption, thresholds, and multiple clocks.
+- [§23.10](../01_blocks/03_part_ii_sub.md#23-10-temporal-granularity-drift) routes bounded no-gain toward Chapter 25 without pre-empting its complete taxonomy.
+- [§23.11](../01_blocks/03_part_ii_sub.md#23-11-event--non-event-confusion-results-and-completion) completes category confusion, result axes, Failure/Stop/Non-Capture, Record mapping, and the Chapter-24 handoff.
+- Chapter 24 retains Path/Trajectory decomposition; Chapter 27 retains full SUB limits; RETYPE retains contextual target functions.
+
+
+## Chapter 23 Provisional-Lock Cross-Reference
+
+- Chapters 3 and 14 retain primary Event/Non-Event and PATH-context definitions.
+- Chapter 20 retains generic `DECOMPOSE` procedure ownership.
+- Chapter 23 owns bounded Event/Non-Event and internal temporal decomposition.
+- Chapter 24 owns Path/Trajectory decomposition and broader temporal reference continuity.
+- Chapter 25 owns the complete resolution taxonomy; Chapters 26–28 own operation boundaries, SUB limits, cases, audit, and Part outputs.
+- RETYPE retains contextual target functions.
+
+Primary site: [Chapter 23 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-23-completion-boundary).
+
+## Chapter 24 Preparation Cross-References
+
+```text
+PATH Chapters 10–16 formed Path/Trajectory objects
++ Chapters 18–20 source/granularity/DECOMPOSE procedure
++ Chapters 22–23 composite and internal-temporal decomposition
+→ Chapter 24 Path/Trajectory decomposition
+```
+
+Chapter 24 owns Same-Path versus rival PATH classification, subpaths, transition clusters, turning-point decomposition, branch reconstruction, internal Frame changes, competing continuations, irrecoverable PATH compression, and Path-Dependence-load decomposition. Chapter 25 owns the complete resolution taxonomy. Chapter 26 owns complete operation-boundary adjudication. Chapter 27 owns complete SUB limits. Chapter 28 owns cases and Local Audit. RETYPE retains contextual target functions.
+
+Preparation control: [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md).
+
+## Chapter 24 WP1 Cross-References
+
+```text
+PATH Chapters 10–16
+→ source Path/Trajectory definitions, selection, formation, branches, Non-Events, and COMPOSE
+
+SUB Chapters 18–20
+→ source entry, granularity change, and generic DECOMPOSE
+
+Chapter 23
+→ internal Event/Non-Event temporal objects that may occur inside Path transitions
+
+Chapter 24 WP1
+→ PATH-source entry, formation lineage, decomposition reason, subpaths, transition clusters, operation boundary
+```
+
+WP2 retains turning points, branches, internal Frame changes, continuations, and non-linearity. WP3 retains Loss integration, Path-Dependence load, rival PATH adjudication, result axes, Failure/Stop/Non-Capture, Record view, and Chapter-25 handoff. Primary site: [Chapter 24 WP1](../01_blocks/03_part_ii_sub.md#chapter-24-decomposing-paths-and-trajectories).
+
+## Chapter 24 WP2 Cross-Reference Return
+
+```text
+PATH Chapter 13
+→ branch statuses, source-bounded alternatives, and Alternative Status Record
+
+PATH Chapters 10–12
+→ Path, Trajectory, turning-point pressure, and Path-Dependence distinctions
+
+Chapter 23
+→ Event/Non-Event and internal temporal structures inside candidate transitions
+
+Chapter 24 WP1
+→ source entry, formation lineage, subpaths, transition clusters, operation boundary
+
+Chapter 24 WP2
+→ turning points, branches, internal Frame changes, competing continuations, non-linearity
+
+Chapter 24 WP3
+→ inherited/new Loss, Path-Dependence load, rival PATH, results, Failure/Stop/Non-Capture, Record, handoff
+```
+
+Primary site: [Chapter 24 WP2](../01_blocks/03_part_ii_sub.md#24-5-turning-points).
+
+## Chapter 24 WP3 Cross-Reference Return
+
+```text
+PATH Chapters 10–16
+→ Path/Trajectory objects, Path Dependence, branches, Loss, and original COMPOSE formation
+
+Chapter 20
+→ generic DECOMPOSE procedure and four result axes
+
+Chapter 24 WP1–WP2
+→ source lineage, subpaths, transitions, turning points, branches, Frames, continuations
+
+Chapter 24 WP3
+→ irrecoverable compression, Path-Dependence load, rival PATH, results, Failure/Stop/Non-Capture, Record
+
+Chapter 25
+→ complete Resolution Gain, Neutrality, Drift, and Escape taxonomy
+
+Chapters 26–28 and RETYPE
+→ operation adjudication, SUB Limits, cases/audit, and contextual target functions
+```
+
+Primary site: [Chapter 24 WP3](../01_blocks/03_part_ii_sub.md#24-9-irrecoverable-compression).
+
+## Chapter 24 Provisional-Lock Cross-Reference Return
+
+- PATH definitions and formation: Chapters 10–16.
+- Generic `DECOMPOSE`: Chapter 20.
+- Event/Non-Event internal temporal opening: Chapter 23.
+- Path/Trajectory decomposition: Chapter 24 §§24.1–24.12.
+- Integrated lock: [Chapter 24 WP4](Chapter_24_Preparation_Record.md#26-wp4-execution-and-provisional-lock-record).
+- Resolution Gain/Neutrality/Drift/Escape: Chapter 25.
+- Complete operation boundaries: Chapter 26.
+- SUB Limits: Chapter 27.
+- Cases and Part audit: Chapter 28.
+- Contextual target functions: RETYPE.
+
+## Chapter 25 Preparation Cross-References
+
+```text
+Chapters 18–24 source, granularity, DECOMPOSE, and object-family reconstructions
++ Chapter 6 Admissibility Band
++ Chapter 7 Shared Record and canonical classes
+→ Chapter 25 resolution classification and SUB-specific Stop markers
+```
+
+Chapter 25 owns gain, neutrality, drift, escape, Detail without Purchase, Components without Coarser Function, Source Overreach, Calibration Loss, Decomposition Fatigue, local classification, and Mandatory Stop. Chapter 26 owns complete SUB/RETYPE operation-boundary adjudication. Chapter 27 owns complete SUB limits. Chapter 28 owns cases and Local Audit. LIMITS retains system-wide Source Ceiling, Anti-Immunization, Stop, Non-Capture, and authority consolidation.
+
+Preparation control: [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md).
+
+## Chapter 25 WP1 Cross-References
+
+```text
+Chapter 6 Admissibility Band
++ Chapter 7 Shared Transformation Record
++ Chapters 18–24 source and finer-reconstruction outputs
+→ Chapter 25 WP1 comparison entry and Gain/Neutrality/Drift/Escape classification
+```
+
+- Gain/Neutrality/Drift/Escape primary site: [Chapter 25 WP1](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape).
+- Purchase, coarser-function, Source Overreach, and Calibration Loss remain Chapter 25 WP2.
+- Decomposition Fatigue, complete classification, Stop/Failure/Non-Capture/re-entry, Record view, and handoff remain Chapter 25 WP3.
+- Complete SUB/RETYPE boundary remains Chapter 26; complete SUB limits remain Chapter 27; cases and Local Audit remain Chapter 28.
+- System-wide anti-immunization, Stop, Non-Capture, Source Ceiling, and authority boundaries remain LIMITS-owned.
+
+## Chapter 25 WP2 Cross-References
+
+```text
+Chapter 6 Relevance Floor and Traceability Ceiling
++ Chapter 20 source, component, relation, and source-function requirements
++ Chapter 25 WP1 local resolution results
+→ Chapter 25 WP2 purchase, coarser-function, Source-Overreach, and calibration controls
+```
+
+- Detail without Purchase and unsupported refinement: [§25.5](../01_blocks/03_part_ii_sub.md#25-5-detail-without-purchase).
+- Components without Coarser Function and relation support: [§25.6](../01_blocks/03_part_ii_sub.md#25-6-components-without-coarser-function).
+- Source Overreach and non-compensation: [§25.7](../01_blocks/03_part_ii_sub.md#25-7-source-overreach).
+- Calibration Loss and open-threshold discipline: [§25.8](../01_blocks/03_part_ii_sub.md#25-8-calibration-loss).
+- Decomposition Fatigue, complete classification, result axes, Failure/Stop/Non-Capture/re-entry, Record view, and handoff remain Chapter 25 WP3.
+- Complete operation-boundary adjudication remains Chapter 26; complete SUB limits remain Chapter 27; cases and Local Audit remain Chapter 28.
+
+## Chapter 25 WP3 Cross-References
+
+- Decomposition Fatigue: [§25.9](../01_blocks/03_part_ii_sub.md#25-9-decomposition-fatigue).
+- Six-family classification and result axes: [§25.10](../01_blocks/03_part_ii_sub.md#25-10-resolution-classification).
+- Mandatory Stop, Non-Capture, re-entry, Record view, and handoff: [§25.11](../01_blocks/03_part_ii_sub.md#25-11-stop-reentry-and-completion).
+- Execution control: [Chapter 25 WP3 Execution Record](Chapter_25_Preparation_Record.md#25-wp3-execution-record).
+- Next controlled step: Chapter 25 WP4 integrated audit and provisional lock.
+
+## Chapter 25 Provisional-Lock Cross-Reference Return
+
+- Admissibility Band and non-compensation: Chapter 6.
+- Shared Transformation Record: Chapter 7.
+- Generic `DECOMPOSE`: Chapter 20.
+- Object-family decompositions: Chapters 21–24.
+- Resolution Gain/Neutrality/Drift/Escape and bounded continuation: Chapter 25 §§25.1–25.11.
+- Integrated lock: [Chapter 25 WP4](Chapter_25_Preparation_Record.md#26-wp4-execution-and-provisional-lock-record).
+- SUB/RETYPE operation boundary: Chapter 26.
+- SUB Limits: Chapter 27.
+- Cases and Part audit: Chapter 28.
+- Contextual target functions: RETYPE.
+
+## Chapter 26 Preparation Cross-References
+
+```text
+Chapter 4 operation grammar
++ Chapter 5 origin type / target function
++ Chapter 20 generic DECOMPOSE
++ Chapter 24 same-source Path/Trajectory lineage
++ Chapter 25 resolution and bounded continuation
+→ Chapter 26 SUB/RETYPE operation boundary
+```
+
+Chapter 26 prepares §§26.1–26.12, the trajectory and Attractor comparisons, recontextualization boundary, dual-operation rule, invalid collapse, nineteen-field assessment view, and Chapter-27 handoff. Full RETYPE theory remains Chapters 29–40; full SUB limits remain Chapter 27; integrated cases remain Chapter 28.
+
+Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 WP1 Cross-References
+
+```text
+Chapter 4 operation grammar
++ Chapter 5 origin type / target function
++ Chapter 20 DECOMPOSE procedure
++ Chapters 24–25 source and resolution outputs
+→ Chapter 26 WP1 operation-entry and DECOMPOSE / PROJECT_AS boundary
+```
+
+- Primary site: [Chapter 26 WP1](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+- Trajectory/Attractor comparisons, subtle misclassification, reverse misclassification, and recontextualization remain Chapter 26 WP2.
+- Complete decision test, dual operation, invalid collapse, result axes, Failure/Stop/Non-Capture, Record view, and handoff remain Chapter 26 WP3.
+- Complete SUB limits remain Chapter 27; cases and Local Audit remain Chapter 28.
+- Full contextual target-function theory remains RETYPE Chapters 29–40; system-wide boundaries remain LIMITS-owned.
+
+## Chapter 26 WP2 Cross-References
+
+```text
+Chapter 21 occurrence/operator protection
++ Chapter 24 Trajectory decomposition
++ Chapter 25 preserved claim dispositions
++ Chapter 26 WP1 primary boundary
+→ Chapter 26 WP2 trajectory/Attractor comparisons,
+  misclassification guards, and recontextualization boundary
+```
+
+- Primary site: [Chapter 26 WP2](../01_blocks/03_part_ii_sub.md#26-5-trajectory-decomposition-and-projection).
+- Complete decision test, dual-operation Records and chain order, invalid collapse, result axes, Failure/Stop/Non-Capture, Record view, and Chapter-27 handoff remain WP3.
+- Integrated lock remains WP4.
+- Complete SUB boundaries remain Chapter 27; cases and Local Audit remain Chapter 28.
+- Full target-function families remain RETYPE Chapters 29–40; system-wide limits remain LIMITS-owned.
+
+## Chapter 26 WP3 Cross-References
+
+- Decision test: [§26.10](../01_blocks/03_part_ii_sub.md#26-10-sub-retype-decision-test).
+- Dual operation, Record separation, and chain order: [§26.11](../01_blocks/03_part_ii_sub.md#26-11-dual-operation).
+- Invalid collapse, result axes, Failure/Stop/Non-Capture, Record view, and Chapter-27 handoff: [§26.12](../01_blocks/03_part_ii_sub.md#26-12-invalid-collapse).
+- Execution control: [Chapter 26 WP3 Execution Record](Chapter_26_Preparation_Record.md#15-wp3-execution-record).
+- Next controlled step: Chapter 26 WP4 integrated audit and provisional lock.
+
+## Chapter 26 Provisional-Lock Cross-Reference Return
+
+- Operation grammar: Chapter 4.
+- Origin type and target function: Chapter 5.
+- Generic `DECOMPOSE`: Chapter 20.
+- Path/Trajectory source and resolution outputs: Chapters 24–25.
+- SUB/RETYPE operation boundary: Chapter 26 §§26.1–26.12.
+- Integrated lock: [Chapter 26 WP4](Chapter_26_Preparation_Record.md#chapter-26-wp4-execution-and-provisional-lock-record).
+- Lower and upper SUB boundaries: Chapter 27.
+- SUB cases, Local Audit, and Part lock: Chapter 28.
+- Contextual target-function theory: RETYPE Chapters 29–40.
+- System-wide Source, Stop, Non-Capture, anti-immunization, and authority controls: LIMITS.
+
+## Chapter 27 Preparation Cross-Reference Route
+
+```text
+Chapter 6
+→ general Admissibility Band, PraxisPurchase, TraceableLoad, Counterfactual Sensitivity
+
+Chapters 18–20
+→ eligible source object, lower granularity, and generic DECOMPOSE procedure
+
+Chapters 21–24
+→ family-specific source-reference and coarser-function burdens
+
+Chapter 25
+→ Gain, Neutrality, Drift, Escape, Source Overreach, Calibration Loss, Stop, and re-entry
+
+Chapter 26
+→ only claims already classified as DECOMPOSE
+
+Chapter 27
+→ local lower/upper SUB boundaries, Source Ceiling, component sensitivity,
+   coarser-function traceability, type integrity, Stop, Claim Reduction, and Non-Capture
+
+Chapter 28
+→ cases, countercases, Local Audit, canonical mapping, and SUB lock
+
+LIMITS Chapters 44–52
+→ system-wide consolidation without retroactive redefinition
+```
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 WP1 Cross-References
+
+```text
+Chapter 6 Admissibility Band
++ Chapter 20 DECOMPOSE procedure
++ Chapter 25 resolution outcomes
++ Chapter 26 operation boundary
+→ Chapter 27 WP1 lower/upper local SUB boundaries
+```
+
+- Primary site: [Chapter 27 WP1](../01_blocks/03_part_ii_sub.md#chapter-27-sub-boundary-conditions).
+- Source Ceiling, Counterfactual Component Test, coarser-function traceability, and Type Preservation remain Chapter 27 WP2.
+- No-privilege, Stop/Reduction/Non-Capture, complete admissibility test, result axes, Record view, and handoff remain Chapter 27 WP3.
+- Cases, Local Audit, output mapping, and SUB lock remain Chapter 28.
+- System-wide ceilings and Stop consolidation remain LIMITS-owned.
+
+## Chapter 27 WP2 Cross-References
+
+```text
+Chapter 6 Admissibility Band and Source/Claim ceilings
++ Chapter 20 DECOMPOSE support and Loss procedure
++ Chapter 25 source overreach, calibration, Stop, and re-entry
++ Chapter 27 WP1 lower/upper boundaries
+→ Chapter 27 WP2 Source Ceiling, component sensitivity, function traceability, and type integrity
+```
+
+- Primary site: [Chapter 27 WP2](../01_blocks/03_part_ii_sub.md#27-5-source-ceiling).
+- No-privilege, final Stop/Reduction/Non-Capture, complete admissibility test, result axes, Record view, and handoff remain Chapter 27 WP3.
+- Cases, Local Audit, Part output mapping, and SUB lock remain Chapter 28.
+- System-wide ceiling and authority consolidation remains LIMITS-owned.
+
+## Chapter 27 WP3 Cross-References
+
+```text
+Chapter 25 resolution, Stop, anti-escape, and re-entry
++ Chapter 26 operation-boundary separation
++ Chapter 27 WP1 lower/upper boundaries
++ Chapter 27 WP2 source, component, function, and type controls
+→ Chapter 27 WP3 complete local SUB admissibility and routing
+→ Chapter 28 cases, Local Audit, output mapping, and SUB lock
+```
+
+System-wide consolidation remains LIMITS-owned. Primary site: [Chapter 27 WP3](../01_blocks/03_part_ii_sub.md#27-9-no-privilege-of-fine-resolution).
+
+## Chapter 27 Provisional-Lock Cross-Reference
+
+```text
+Chapters 18–26 source, granularity, DECOMPOSE, resolution, and operation-boundary controls
+→ Chapter 27 complete local SUB boundary procedure
+→ Chapter 28 cases, Local Audit, output mapping, and SUB lock
+→ LIMITS later consolidates system-wide boundaries without retroactive redefinition
+```
+
+Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation Cross-Reference Route
+
+```text
+Chapters 18–20
+→ source object, granularity, and generic DECOMPOSE procedure
+
+Chapters 21–24
+→ occurrence, composite, temporal, Event/Non-Event, and PATH-source case burdens
+
+Chapter 25
+→ Gain, Neutrality, Drift, Escape, Stop, and re-entry
+
+Chapter 26
+→ SUB versus RETYPE, recontextualization, and dual-operation separation
+
+Chapter 27
+→ Lower/Upper SUB boundaries, Source Ceiling, component test, function/type traceability
+
+Chapter 28
+→ positive, counter, and confusion artifacts; Local Audit; output mapping; SUB lock
+
+03_cases/*
+→ case evidence and records below canonical prose
+
+RETYPE / LIMITS / Chapter 53
+→ later target-function theory, system-wide boundaries, and integrated audit
+```
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 Cross-Reference Route
+
+```text
+§28.1 case architecture
+→ C28-FRAME-01
+→ C28-ATTR-01
+→ C28-ASYM-01
+→ C28-NONEVENT-01
+→ C28-TRAJECTORY-01
+→ C28-GAIN-01
+→ Case Index and schema-valid Records
+→ WP2 countercases and first confusion pair
+```
+
+The cases remain below canonical prose and do not redefine Chapters 18–27.
+
+## Chapter 28 WP2 Cross-Reference Route
+
+```text
+§§28.8–28.13 countercases
+→ §§28.14–28.15 confusion pair
+→ eight artifact sets
+→ Case Index
+→ WP3 remaining confusion cases and integrated Local Audit
+```
+
+## Chapter 28 WP3 Cross-Reference Route
+
+```text
+§§28.16–28.17 final confusion cases
+→ §§28.18–28.19 Local Audit and output/loss/chain integration
+→ §28.20 lock readiness
+→ Chapter 28 WP4 integrated lock pass
+```
+
+## Chapter 28 and Part II — SUB Provisional-Lock Map
+
+```text
+Chapters 18–20
+→ source eligibility, granularity relation, generic DECOMPOSE
+
+Chapters 21–24
+→ occurrence, composite, temporal, PATH/Trajectory applications
+
+Chapters 25–27
+→ resolution, SUB/RETYPE boundary, local SUB limits
+
+Chapter 28
+→ sixteen case targets, twenty-four-question Local Audit, canonical mapping
+→ Chapter 28 provisional lock
+→ Part II — SUB provisional lock
+
+Part II lock
+→ Chapter 29 Preparation Gate
+→ Part III — RETYPE without inherited target function
+```
+
+Primary site: [Chapter 28 and Part II completion boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).

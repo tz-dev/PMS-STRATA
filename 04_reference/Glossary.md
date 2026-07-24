@@ -1,6 +1,6 @@
 # PMS-STRATA — Glossary
 
-**Status:** Reference Kernel v0.2.42 — Chapter-11-WP2-synchronized terminology core  
+**Status:** Reference Kernel v0.2.44 — Chapter-20-WP3-synchronized terminology core  
 **Repository role:** `04_reference` navigation and terminology control; not an independent theory source  
 **Authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, the Gate 1 minified kernel, `05_minified/Block_Contracts.md`, and `05_minified/Chapter_Contracts.md`
 
@@ -556,9 +556,11 @@ Included are terms required by Foundations or repeatedly used across PATH, SUB, 
 
 - **German working rendering:** vorläufige Elementarität
 - **Status:** STRATA canonical
-- **Short definition:** The status of an object treated as undivided only for a current frame, granularity, and claim, without asserting ontological indivisibility.
-- **Designated primary definition site:** Chapter 18 — Provisionally Compressed Object
+- **Short definition:** The analytical status of an object treated as undivided for a declared Frame, granularity, relative level, temporal scope, claim, source access, uncertainty, and present analytical use, without asserting absolute elementarity or ontological indivisibility.
+- **Designated primary definition site:** [Chapter 18 §18.2](../01_blocks/03_part_ii_sub.md#18-2-provisional-elementarity)
 - **Current control sources:**
+  - [Chapter 18 WP1](../01_blocks/03_part_ii_sub.md#chapter-18-the-provisionally-compressed-object)
+  - `04_reference/Chapter_18_Preparation_Record.md`
   - `00_source/PMS-STRATA_Structure.md`
 - **Central non-equivalences:**
   - provisional elementarity ≠ final constituent
@@ -568,9 +570,11 @@ Included are terms required by Foundations or repeatedly used across PATH, SUB, 
 
 - **German working rendering:** komprimiertes Objekt
 - **Status:** STRATA canonical
-- **Short definition:** An occurrence or composite provisionally treated as an analytical unit while some internal structure remains unrepresented.
-- **Designated primary definition site:** Chapter 18 — Provisionally Compressed Object
+- **Short definition:** An occurrence or composite treated as one analytical unit while the current representation leaves some internal distinctions, relations, or temporal structures unrepresented or unresolved.
+- **Designated primary definition site:** [Chapter 18 §18.3](../01_blocks/03_part_ii_sub.md#18-3-the-compressed-object)
 - **Current control sources:**
+  - [Chapter 18 WP1](../01_blocks/03_part_ii_sub.md#chapter-18-the-provisionally-compressed-object)
+  - `04_reference/Chapter_18_Preparation_Record.md`
   - `05_minified/PMS_STRATA_Operation_Signatures_Minified.md`
 - **Central non-equivalences:**
   - compressed object ≠ simple object
@@ -3401,3 +3405,1040 @@ Primary sites: Chapter 17 §§17.7–17.9.
 **PATH reopening ground** — concrete Contract, type, operation, source/claim, artifact, schema, mapping, reference, fingerprint, package, or later integrated-audit conflict capable of changing the locked PATH state; not preference for more detail or stronger narrative closure.
 
 **PATH-to-SUB handoff** — transfer of a provisionally locked temporal composite as a possible Chapter-18 source object without inherited truth priority, decomposition requirement, or authority.
+
+## Chapter 18 Preparation Terminology Lock
+
+Chapter 18 remains the primary definition site for `provisional elementarity` and `compressed object`. The Preparation Gate fixes their use without replacing the canonical prose still to be drafted:
+
+- provisional elementarity is relative to Frame, granularity, claim, source access, and present analytical use;
+- compressed object denotes an occurrence or composite treated as a unit while internal structure remains unrepresented;
+- operator types are never compressed empirical aggregates;
+- source function is the current/coarser function tested by later decomposition and remains distinct from target function;
+- no-decomposition is a legitimate bounded decision, not proof of simplicity.
+
+```text
+provisional elementarity ≠ final constituent
+compressed object ≠ simple object
+source preservation ≠ source-function immunity
+```
+
+## Chapter 18 WP1 Canonical Terminology Synchronization
+
+**SUB source-candidate architecture** — the bounded declaration of an identifiable occurrence or composite before target granularity, component identity, relation reconstruction, or a `DECOMPOSE` result is claimed.
+
+**Absolute-elementarity prohibition** — STRATA authorizes no claim that a source object is finally indivisible or ultimately constituted. Provisional elementarity records only where the current reconstruction stops for a declared coordinate set, source access, and claim.
+
+**Known / unresolved / unsupported internal content** — three-way control separating directly supported source-side distinctions, bounded open questions, and content that may not be populated from the coarse label alone.
+
+**Source-side typing** — the occurrence typing relevant to the present transformation question; it does not establish one exclusive true type of the reference object.
+
+```text
+source candidate ≠ target granularity ≠ discovered components ≠ DECOMPOSE result
+unresolved internal structure ≠ hidden microstructure asserted as fact
+object category ≠ source-side typing ≠ current/coarser function
+```
+
+
+
+## Chapter 18 WP2 Canonical Terminology Synchronization
+
+**Necessary compression** — the bounded treatment of an occurrence or composite as one analytical unit where that representation preserves the reference, constitutive relation, uncertainty, comparison, temporal orientation, source precision, or claim ceiling required by the current inquiry. Necessary compression is not automatically `COMPOSE` and is not an analytical defect.
+
+**Compression insufficiency** — the condition in which a source-supported internal distinction may materially alter a warranted reconstruction of the same reference object, its current/coarser function, burden allocation, temporal relation, alternatives, or claim scope. Available detail alone does not establish insufficiency.
+
+**Reason to decompose** — a pre-operation proposal stating the coarse claim under pressure, expected internal distinction, source route, praxeological gain condition, neutrality condition, and stop condition. It does not establish components, target granularity, or a `DECOMPOSE` result.
+
+**No-decomposition decision** — the bounded finding that finer reconstruction is not presently warranted for the declared reference, Frame, granularity, sources, claim, and expected difference. It is neither `resolution_neutral` nor proof of permanent undecomposability.
+
+Canonical sites: [§18.5](../01_blocks/03_part_ii_sub.md#18-5-why-compression-is-necessary), [§18.6](../01_blocks/03_part_ii_sub.md#18-6-why-compression-can-become-insufficient), [§18.7](../01_blocks/03_part_ii_sub.md#18-7-reasons-to-decompose), and [§18.8](../01_blocks/03_part_ii_sub.md#18-8-reasons-not-to-decompose).
+
+
+## Chapter 18 WP3 Terminology Synchronization
+
+### Source Preservation
+Retention of the same source reference, source-side typing, current/coarser function as test target, lineage, uncertainty, and inherited Loss across a proposed finer reconstruction. Preservation retains testability, not a favorable result.
+
+### Source Immunization
+Prohibited treatment of the coarse source function as true by definition, such that contrary finer findings are excluded, renamed, reframed, or absorbed rather than allowed to revise or defeat the claim.
+
+### Minimal Source Declaration
+Chapter-18 entry declaration containing `compressed_object`, `reference`, `origin_type`, `source_frame`, `source_granularity`, `source_level`, `current_function`, `known_internal_structure`, `unresolved_internal_structure`, and `decomposition_reason`. It is not a completed `DECOMPOSE` record.
+
+### Source-Function Effect
+Later Chapter-20 result concerning whether the current/coarser function is confirmed, refined, internally differentiated, partially preserved, rejected, or underdetermined. These local effects are not additional canonical Output Classes.
+
+### Source-Entry Stop
+Optional or Mandatory Stop applied before operation execution where coarse sufficiency, lack of purchase, source ceiling, type failure, reference substitution, or another controlled boundary blocks or renders unnecessary a proposed `DECOMPOSE` continuation.
+
+Primary definition site: [Chapter 18 WP3](../01_blocks/03_part_ii_sub.md#18-9-preservation-requirement).
+
+
+## Chapter 18 Provisional-Lock Terminology
+
+### Source-Entry Architecture
+The complete Chapter-18 declaration discipline preceding a possible `DECOMPOSE` occurrence: source reference, source-side typing and coordinates, current/coarser function under test, known and unresolved structure, decomposition reason, uncertainty, inherited Loss, and Stop/Non-Capture availability.
+
+### Source Readiness
+A bounded finding that the source object is sufficiently declared for Chapter-19 granularity analysis. Source readiness does not establish target-granularity validity, decomposition warrant, operation success, or source-function survival.
+
+### Chapter-18 Provisional Lock
+The integrated result that Chapter 18 satisfies its Contract and local audit while remaining revisable under concrete upstream, ownership, integrity, or later dependency conflict. It does not lock SUB, execute `DECOMPOSE`, or increase authority.
+
+Primary site: [Chapter 18 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-18-completion-boundary).
+
+## Chapter 19 Preparation Terminology Handoff
+
+The Chapter-19 Preparation Gate introduces no new PMS primitive and no final lexicon entries. It prepares the following controlled usages for canonical definition in Chapter 19:
+
+- **granularity relation** — a declared relation between source and target distinction sets for the same bounded source reference;
+- **relative downward movement** — analytical movement toward finer internal relations under an explicit comparator, never an ontological lower layer;
+- **functional component** — a source-supported part or relation that carries, modifies, disturbs, constrains, or tests the coarser reconstruction;
+- **fragment** — a detail that lacks sufficient source-reference, relation, or claim relevance to count as a component;
+- **granularity comparability** — the bounded ability to align or translate reconstructions across reference, Frame, time, source standards, predicates, and distinction dimensions;
+- **granularity mismatch** — an apparent disagreement generated or intensified by non-aligned distinction sets, without automatic contradiction or automatic neutralization;
+- **Minimal Granularity Relation** — the eight-field conceptual Chapter-19 declaration mapped to existing Shared Record paths and controlled extensions.
+
+Protected usage:
+
+```text
+finer ≠ truer
+relative downward ≠ ontological lower
+component ≠ fragment
+incomparability ≠ both claims true
+mismatch ≠ contradiction dissolved
+```
+
+Primary canonical owner remains Chapter 19 after drafting and provisional lock. [`Chapter_19_Preparation_Record.md`](Chapter_19_Preparation_Record.md) is production control only.
+
+## Chapter 19 WP1 Canonical Terminology Return
+
+Chapter 19 WP1 now canonically fixes the following usages:
+
+### Granularity Change
+A declared change in the distinction set and resolution used to reconstruct and test a bounded source reference. More text, data, timestamps, quotations, or named details do not establish granularity change unless the operative distinctions change.
+
+Primary site: [§19.1](../01_blocks/03_part_ii_sub.md#19-1-granularity-change).
+
+### Granularity Relation
+The declared analytical relation between a source resolution and a proposed target resolution of a bounded reference object, including the comparison dimension, Frame and reference status, and expected praxeological difference. Declaration does not prove target support, admissibility, or operation success.
+
+Primary site: [Chapter 19 opening and §19.1](../01_blocks/03_part_ii_sub.md#chapter-19-granularity-change-and-the-logic-of-decomposition).
+
+### Relative Downward Movement
+Comparator-bound analytical movement from an occurrence or composite treated at one resolution toward proposed finer internal, reproductive, temporal, relational, or distributed structures. It is not ontological descent, lower operator rank, causal priority, or final constituent discovery.
+
+Primary site: [§19.2](../01_blocks/03_part_ii_sub.md#19-2-relative-downward-movement).
+
+### Stable Frame, Finer Granularity
+A granularity relation in which the source reference, relevance rule, bounded predicate, and relevant scope remain sufficiently stable while the distinction set becomes finer along a declared dimension.
+
+Primary site: [§19.3](../01_blocks/03_part_ii_sub.md#19-3-stable-frame-finer-granularity).
+
+### Changed Frame during Decomposition
+A separately declared change in relevance rule that may accompany finer analysis but creates a new Frame-bound claim and does not by itself identify `DECOMPOSE`.
+
+Primary site: [§19.4](../01_blocks/03_part_ii_sub.md#19-4-changed-frame-during-decomposition).
+
+The Preparation-Gate terms for functional component, fragment, comparability, mismatch, and Minimal Granularity Relation remain pending canonical return in WP2–WP3.
+
+## Chapter 19 WP2 Canonical Terminology Return
+
+### Distinction Set
+The units, relations, temporal orderings, thresholds, role differences, access/cost/exposure relations, expectation windows, and exclusions through which a bounded source reference is reconstructed. More source material does not change the distinction set unless the operative partition or relation changes.
+
+Primary site: [§19.5](../01_blocks/03_part_ii_sub.md#19-5-change-of-distinction-set).
+
+### Locally Concentrated Component Candidate
+A source-visible structure identifiable within a bounded segment or site that has a plausible relation to the source claim. Local concentration does not establish necessity, sufficiency, causal primacy, or final component status.
+
+Primary site: [§19.6](../01_blocks/03_part_ii_sub.md#19-6-local-versus-distributed-structure).
+
+### Distributed Component Candidate
+A proposed source-relevant structure carried across times, roles, institutional sites, documents, relations, or non-contiguous occurrences while remaining traceably related to the bounded source object. Distribution does not automatically imply macro-level status.
+
+Primary site: [§19.6](../01_blocks/03_part_ii_sub.md#19-6-local-versus-distributed-structure).
+
+### Functional Component Candidate
+A proposed part or relation satisfying the conjunctive burdens of reference relation, source route, function/claim relation, praxeological relevance, and relational placement. Candidate status does not establish actual component status or causal role.
+
+### Carrying Component
+A component that contributes to reproduction, maintenance, or constitution of a coarser source function without automatic necessity or sufficiency.
+
+### Disturbing Component
+A component whose source-supported relation may weaken, interrupt, contradict, qualify, or reject the coarser function or claim.
+
+### Replaceable Component
+A participating component for which alternative carriers may preserve the coarser function. Replaceability does not imply irrelevance.
+
+### Fragment
+A source-authentic or descriptive detail that fails the current conjunctive component burden. Fragment status is local to the declared Frame and claim, not a universal declaration of meaninglessness.
+
+Primary site for component/fragment terms: [§19.7](../01_blocks/03_part_ii_sub.md#19-7-functional-parts-versus-mere-fragments).
+
+Comparability, mismatch, the Lower Granularity Question, and the Minimal Granularity Relation remain pending canonical return in WP3.
+
+## Chapter 19 WP3 Canonical Terminology Return
+
+### Granularity Comparability
+A bounded relation between reconstruction claims whose reference, predicate, Frame, temporal scope, source standard, granularity dimension, translation basis, and Loss support responsible comparison. Comparability is local and does not imply identity, mutual substitutability, or truth rank.
+
+### Comparable with Declared Translation
+A local comparison description for different but traceably translatable distinction sets. The translation rule, unmatched structures, uncertainty, and Loss remain explicit.
+
+### Partial Comparability
+A local comparison relation in which only specified predicates, segments, roles, or dimensions align. It may not be generalized to the whole source object.
+
+### Incomparability
+A positive bounded finding that current reference, Frame, predicate, time, source, dimension, or translation conditions do not support responsible comparison. Incomparability does not establish plural truth or preserve weak claims.
+
+Primary site for comparability terms: [§19.8](../01_blocks/03_part_ii_sub.md#19-8-granularity-comparability).
+
+### Granularity Mismatch
+An apparent disagreement produced when non-aligned distinction sets are treated as though they directly affirm or deny the same bounded predicate. Mismatch can explain apparent conflict but cannot dissolve a substantive contradiction automatically.
+
+Primary site: [§19.9](../01_blocks/03_part_ii_sub.md#19-9-granularity-mismatch).
+
+### Lower Granularity Question
+The claim-sensitive pre-operation test: “Does the additional distinction change a warranted reconstruction of the praxis-relevant structure?” It prepares relevance, Stop, or Non-Capture pressure without selecting a Chapter-25 resolution outcome.
+
+Primary site: [§19.10](../01_blocks/03_part_ii_sub.md#19-10-the-lower-granularity-question).
+
+### Minimal Granularity Relation
+The exact eight-field conceptual declaration of source-to-target granularity change, source and target granularities, added distinction, Frame and reference preservation, expected praxeological difference, and local comparability status. It maps to the Shared Transformation Record and controlled extensions; it is not a parallel schema or operation result.
+
+Primary site: [§19.11](../01_blocks/03_part_ii_sub.md#19-11-minimal-granularity-relation).
+
+
+## Chapter 19 Provisional-Lock Terminology
+
+### Granularity-Relation Architecture
+The complete Chapter-19 declaration discipline linking a bounded source granularity to a proposed target granularity through an explicit distinction-set change, Frame and reference status, expected praxeological difference, comparability basis, and Loss.
+
+### Coordinate Readiness
+A bounded finding that the source-to-target granularity relation is sufficiently declared for Chapter-20 procedural testing. Coordinate readiness does not establish material source support, actual components, operation admissibility, or operation success.
+
+### Chapter-19 Provisional Lock
+The integrated result that Chapter 19 satisfies its Contract and local audit while remaining revisable under concrete upstream, ownership, integrity, or later dependency conflict. It does not lock SUB, execute `DECOMPOSE`, or increase authority.
+
+Primary site: [Chapter-19 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-19-completion-boundary).
+
+## Chapter 20 Preparation Terms
+
+### Decomposition question
+
+A bounded operation-leading question that identifies the source object, proposed finer distinction, current/coarser claim under test, source route, no-gain condition, and Stop condition. It is not a thematic request for more detail.
+
+### Local operation result
+
+An operation-specific descriptive result such as supported decomposition, heterogeneous source object, competing internal models, insufficient source support, or failed decomposition. It is not a canonical Output Class.
+
+### Source-function effect
+
+The post-decomposition status of the current/coarser source function, for example confirmed, refined, internally differentiated, partially preserved, rejected, or underdetermined. It is recorded separately from operation admissibility and Output Class.
+
+### Component relation
+
+A source-supported relation among proposed components—such as dependency, sequence, feedback, threshold, substitution, inhibition, asymmetric load, or reproduction condition—that makes the finer reconstruction relational rather than a parts list.
+
+Primary preparation control: [`Chapter_20_Preparation_Record.md`](Chapter_20_Preparation_Record.md).
+
+## Chapter 20 WP1 Canonical Terminology Return
+
+### DECOMPOSE Occurrence
+A controlled transformation occurrence that reconstructs an independently identifiable provisionally compressed source object as a relational organization of finer source-supported structures under declared granularity while retaining the same bounded source reference as reconstruction and test target.
+
+Primary site: [§20.1](../01_blocks/03_part_ii_sub.md#20-1-definition).
+
+### Decomposition Preconditions
+The conjunctive and non-compensatory entry conditions for attempting `DECOMPOSE`: identifiable source, bounded insufficiency question, expected PraxisPurchase, source route, declared granularity change, Frame/reference status, source-function test target, and Loss/Stop readiness. Satisfaction does not prove operation success.
+
+Primary site: [§20.2](../01_blocks/03_part_ii_sub.md#20-2-preconditions).
+
+### Decomposition Question
+One precise leading question that identifies the source object, finer distinction family, affected current claim/function, source route, no-gain condition, and Stop condition without containing a preferred result.
+
+Primary site: [§20.4](../01_blocks/03_part_ii_sub.md#20-4-decomposition-question).
+
+## Chapter 20 WP2 Canonical Terminology Return
+
+### Expected Additional Difference
+A pre-operation declaration of which warranted praxis reconstruction could change if the proposed finer distinctions and relations are source-supported, paired with an explicit no-gain condition. It is not promised discovery or an Output Class.
+
+Primary site: [§20.5](../01_blocks/03_part_ii_sub.md#20-5-expected-additional-difference).
+
+### Source-Support Role
+A claim-specific description of how material bears on a finer component or relation, including direct support, indirect reconstruction, uncertain attribution, missing intermediate structure, rival internal model, inaccessible area, or unsupported inference. These roles are open descriptions, not a closed enum or truth score.
+
+Primary site: [§20.6](../01_blocks/03_part_ii_sub.md#20-6-source-support).
+
+### Established Component
+A source-supported finer structure that satisfies reference, source-route, function/claim, praxeological-relevance, and relational-placement burdens within one bounded reconstruction. Establishment is local and does not imply final constituency, necessity, sufficiency, or causality.
+
+Primary site: [§20.7](../01_blocks/03_part_ii_sub.md#20-7-component-identification).
+
+### Internal Temporality
+The source-supported sequence, duration, delay, persistence, overlap, phase, branch, or expectation-window structure required when the finer claim depends on time. It may remain partial, uncertain, or inaccessible.
+
+Primary site: [§20.8](../01_blocks/03_part_ii_sub.md#20-8-relation-identification).
+
+## Chapter 20 WP3 Canonical Terminology Return
+
+### Source-Function Effect
+The effect of a completed finer reconstruction on the coarser function under test. Controlled values include confirmed, refined, internally differentiated, partially preserved, rejected, and underdetermined. The effect is not an Output Class, operation result, or authority increase.
+
+Primary site: [§20.9](../01_blocks/03_part_ii_sub.md#20-9-preservation-of-source-function).
+
+### Local Operation Result
+A bounded description of what the operation achieved, such as supported relational decomposition, heterogeneous source object, valid no-gain decomposition, failed decomposition, or competing internal models. It is not the canonical governance class.
+
+Primary site: [§20.10](../01_blocks/03_part_ii_sub.md#20-10-decomposition-output).
+
+### DECOMPOSE Non-Invertibility
+The requirement that decomposition after composition does not restore the pre-compression information state, and recomposition after decomposition does not reproduce the source representation identically.
+
+Primary site: [§20.11](../01_blocks/03_part_ii_sub.md#20-11-non-invertibility).
+
+## Chapter 20 WP4 Provisional-Lock Terminology Return
+
+Chapter 20 is provisionally locked as the primary generic procedure site for `DECOMPOSE`. The lock preserves `component`, `component relation`, `source support`, `source-function effect`, `local operation result`, `prior source-claim disposition`, and `canonical Output Class` as distinct terms. It introduces no new primitive, class, enum, or authority.
+
+Primary site: [Chapter-20 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-20-completion-boundary).
+
+## Chapter 21 Preparation Terminology
+
+### Operator-Typed Occurrence Decomposition
+The source-supported reconstruction of production, maintenance, variation, and failure conditions of one concrete occurrence currently typed through a PMS operator. The operator type remains unchanged and the occurrence typing remains revisable.
+
+Preparation control: [Chapter 21 Preparation Record](Chapter_21_Preparation_Record.md).
+
+### Production Condition
+A source-supported practice, relation, temporality, Non-Event, role, rule, cost, threshold, commitment, or other finer structure that helps produce or maintain one bounded occurrence. It is not a constituent of the operator type.
+
+### Stable Function with Internal Variation
+A condition in which one coarse occurrence function remains warranted despite heterogeneous, conflicting, unequally distributed, or substitutable internal structures. Stability does not prove homogeneity or essential components.
+
+## Chapter 21 WP1 Canonical Terminology Return
+
+### Operator-Typed Occurrence Decomposition
+Occurrence-level application of `DECOMPOSE` to a bounded source object currently typed through a PMS operator. The operation reconstructs source-supported production and maintenance conditions without treating the operator type as an empirical aggregate.
+
+Primary site: [§21.1](../01_blocks/03_part_ii_sub.md#21-1-general-rule).
+
+### Frame Formation Conditions
+The source-supported selection, admission, exclusion, role, authority, temporal, Non-Event, routing, commitment, and interpretive structures through which one concrete Frame-typed occurrence is produced or maintained. They are not universal constituents of `□`.
+
+Primary site: [§21.3](../01_blocks/03_part_ii_sub.md#21-3-frame-formation).
+
+### Stable Frame Function with Internal Variation
+A bounded Frame function that remains reconstructable despite heterogeneous components, conflict, changing role occupancy, exceptions, unequal maintenance work, or component substitution. Stability does not imply homogeneity.
+
+Primary site: [§21.4](../01_blocks/03_part_ii_sub.md#21-4-frame-stability-and-internal-variation).
+
+## Chapter 21 WP2 Canonical Terminology Return
+
+### Attractor Reproduction Conditions
+The source-supported repetition, local-friction, expectation, role, cost, Non-Event, threshold, alternative-access, and exit relations through which one concrete Attractor-typed occurrence is renewed. Repetition alone is insufficient.
+
+Primary site: [§21.6](../01_blocks/03_part_ii_sub.md#21-6-attractor-reproduction).
+
+### Dynamic Attractor Occurrence
+A bounded Attractor-typed occurrence whose recurrent object is a transition form rather than a static state. It remains distinct from a newly composed Path/Trajectory and from a projected Attractor-function.
+
+Primary site: [§21.7](../01_blocks/03_part_ii_sub.md#21-7-dynamic-attractor-occurrence).
+
+### Distributed Asymmetry
+One bounded Asymmetry occurrence carried across multiple source-supported local gradients whose alignment, reinforcement, substitution, offset, temporal compatibility, and shared practical relation are explicitly tested. Distribution alone does not establish one macro-Asymmetry.
+
+Primary site: [§21.9](../01_blocks/03_part_ii_sub.md#21-9-distributed-asymmetry).
+
+## Chapter 21 WP3 Canonical Terminology Return
+
+### Impulse Occurrence Formation
+The source-supported activating difference, directing Frame, amplifying Non-Event, temporal threshold, attenuation condition, and continuation-corridor structure through which one concrete Impulse-typed occurrence becomes operative. It is not a decomposition of `∇` or an inference of inner motive.
+
+Primary site: [§21.10](../01_blocks/03_part_ii_sub.md#21-10-impulse-typed-occurrence).
+
+### Binding Load Distribution
+The source-supported distribution of formal commitment, continuity expectation, implementation work, revision capacity, dependency, breach exposure, and exit cost within one concrete Binding-typed occurrence. Unequal load does not erase Binding automatically and does not imply person rank.
+
+Primary site: [§21.11](../01_blocks/03_part_ii_sub.md#21-11-binding-typed-occurrence).
+
+### Failed Operator-Occurrence Decomposition
+A failed `DECOMPOSE` occurrence in which the analyst materializes an operator type, forces finer evidence into the coarse typing, exceeds source precision, loses the reference, drifts into another operation, infers person properties, or immunizes the source typing.
+
+Primary site: [§21.12](../01_blocks/03_part_ii_sub.md#21-12-failed-operator-occurrence-decomposition).
+
+## Chapter 21 WP4 Provisional-Lock Return
+
+### Operator-Occurrence Decomposition
+A source-bound `DECOMPOSE` occurrence that reconstructs the production, maintenance, disturbance, and failure conditions of one concrete operator-typed occurrence while leaving the PMS operator type unchanged and the source typing revisable.
+
+Primary site: [Chapter-21 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-21-completion-boundary).
+
+### Representative Occurrence Family
+One non-exhaustive family used to test the same generic operation under a distinct occurrence-specific evidence burden. Frame, Attractor, Asymmetry, Impulse, and Binding are representative applications, not a new enum, hierarchy, primitive set, or automatic typing catalogue.
+
+## Chapter 22 Preparation Terminology
+
+**Composite source entry** — bounded admission of an already-composite source object with identifiable constituents, declared boundary, constitutive relations, function under test, internal traceability, and known selection/compression/Loss limits. A source bundle, multiple typing, shared label, or co-presence does not satisfy this threshold.
+
+**Internal composition map** — source-supported representation of components together with their relations, temporal or institutional distribution, role assignments, uncertainty, and bearing on the same composite function. It is not a parts list or causal proof.
+
+**Component hierarchy** — claim-bound distinction among constitutive, modulating, replaceable, compensatory, and incidental elements. The hierarchy is local to the composite, Frame, function, time, and granularity; it is not an ontology.
+
+**Dominant operator weighting** — bounded description of relative load among existing operator-typed occurrences or relations inside a composite under a declared dimension and time. It does not change Δ–Ψ dependencies or establish a numerical strength scale.
+
+**Modulating profile** — source-side description of differences in access, threshold, temporal efficacy, persistence, cost, exposure, repair, or stabilization load inside one composite. It is neither an operator nor a person type nor a contextual target function.
+
+**Distributed function** — a composite function carried by spatially, institutionally, or temporally separated elements under a supported coordination or dependency relation. Distribution is not aggregation.
+
+**Composite fragmentation** — failed finer representation in which parts or details remain visible but their relation to the same source composite and tested function is lost.
+
+Preparation control: [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP1 Canonical Terminology Return
+
+### Composite Source Entry
+Entry of an independently warranted composite into `DECOMPOSE`, requiring identifiable constituents, a declared boundary, at least one constitutive relation, a bounded function or identity claim, internal traceability, known selection/compression/Loss limits, and a Same-Reference route to finer reconstruction.
+
+Primary site: [§22.1](../01_blocks/03_part_ii_sub.md#22-1-composite-structure-as-sub-object).
+
+### Internal Composition Map
+A source-supported relational reconstruction showing which components belong to the same composite, how they are related, and how those relations bear on the bounded composite function. It is not a parts inventory.
+
+Primary site: [§22.2](../01_blocks/03_part_ii_sub.md#22-2-internal-composition-map).
+
+### Claim-Bound Component Role
+A local role assigned to a source-supported element relative to one composite, claim, Frame, time, and granularity. Chapter 22 WP1 distinguishes constitutive, modulating, replaceable, compensatory, and incidental roles without treating them as ontological kinds.
+
+Primary site: [§22.3](../01_blocks/03_part_ii_sub.md#22-3-component-hierarchy).
+
+### Dominant Operator Weighting
+A qualitative, source-bound description of relative load among existing operator-typed occurrences or relations within one composite, declared by function, dimension, and temporal scope. It is not an operator score, dependency revision, person profile, or target function.
+
+Primary site: [§22.4](../01_blocks/03_part_ii_sub.md#22-4-dominant-operator-weighting).
+
+## Chapter 22 WP2 Canonical Terminology Return
+
+### Modulating Profile
+A bounded source-side description of how supported relations inside one composite differ along a declared dimension such as access, threshold, temporal efficacy, persistence, coordination cost, exposure, repair burden, or stabilization load. It is not an operator, composite type, person type, synthetic score, or contextual target function.
+
+Primary site: [§22.5](../01_blocks/03_part_ii_sub.md#22-5-modulating-profiles).
+
+### Distributed Function
+A bounded composite function carried by spatially, institutionally, or temporally separated elements under a supported same-composite relation and coordination or dependency mechanism. Distribution is not aggregation or co-presence.
+
+Primary site: [§22.6](../01_blocks/03_part_ii_sub.md#22-6-distributed-function).
+
+### Bounded Removal Pressure
+A local analytic pressure asking what function, load, relation, or identity claim changes if one supported component is removed, disabled, delayed, or made unavailable while the remaining relation map is held fixed as far as responsibly possible. It does not establish universal causality or replace Chapter 27's complete Counterfactual Component Test.
+
+### Substitution Claim
+A claim that one supported carrier can assume a bounded function from another under declared transition conditions, changed costs, burdens, access, timing, uncertainty, and Loss. Functional substitution does not imply structural identity or lossless replacement.
+
+Primary site: [§22.7](../01_blocks/03_part_ii_sub.md#22-7-redundant-and-substitutable-components).
+
+### Qualitative Change Threshold
+A source-, function-, Frame-, and claim-bound point at which supported relation changes materially alter the bounded composite function or identity. It is not a universal percentage, score, resilience index, or operator cutoff.
+
+### Internal Conflict Outcome
+A bounded description of how source-supported internal incompatibility bears on the composite: destabilization, functional integration, suppression through asymmetry, residual persistence, or competing subpaths. These are open local descriptions, not Output Classes or a closed enum.
+
+Primary site: [§22.8](../01_blocks/03_part_ii_sub.md#22-8-internal-conflict).
+
+## Chapter 22 WP3 Canonical Terminology Return
+
+### Composite Stability
+A bounded claim that a declared composite reference, function, constitutive relation, role structure, access pattern, burden distribution, output, or label persists across a stated interval through source-supported mechanisms. Stability of one object does not imply stability of the others.
+
+Primary site: [§22.9](../01_blocks/03_part_ii_sub.md#22-9-composite-stability).
+
+### Non-Fragmenting Composite Decomposition
+A finer reconstruction that keeps the source composite, boundary, constitutive relations, component roles, composition trace, inherited/new Loss, and macrofunction test target reconstructible. Detail size does not decide fragment status.
+
+Primary site: [§22.10](../01_blocks/03_part_ii_sub.md#22-10-decomposition-of-a-composite-without-fragmentation).
+
+## Chapter 22 WP4 Provisional-Lock Return
+
+### Relational Composite Decomposition
+A source-bound `DECOMPOSE` occurrence that opens one independently warranted composite into a finer map of constituents, constitutive relations, roles, distributed function, redundancy, conflict, stability, inherited Loss, and new Loss while preserving the same bounded composite reference as the object under test.
+
+Primary site: [Chapter-22 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-22-completion-boundary).
+
+### Composite Reconstructibility
+The requirement that the source composite, its boundary, constitutive relations, bounded function, lineage, and Loss remain traceable through the finer map. Reconstructibility does not imply inversion of `COMPOSE`, restoration of excluded information, or immunity of the coarse composite claim.
+
+## Chapter 23 Preparation Terminology
+
+**Temporal source entry** — bounded admission of an independently identifiable Event-like or Non-Event source object with declared category, Frame, temporal scope, boundary, current function or expected structure, source basis, known internal structure, and decomposition reason.
+
+**Event boundary** — claim- and Frame-bound declaration of an Event's beginning, completion, contextual margins, internal phases, and rival boundary constructions. It is not fixed by the smallest timestamp.
+
+**Extended Event** — one bounded event-like object whose identity depends on source-supported internal phases and completion relations across a non-trivial interval. Duration alone does not establish an Extended Event.
+
+**Event Cluster** — several local Events related under one bounded event-complex claim. A cluster is not a single Event automatically and may require a separate `COMPOSE` occurrence if formed from previously independent sources.
+
+**Event Inflation** — multiplication of Event units through timestamp, observation, utterance, document, or micro-change density without additional praxeological purchase.
+
+**Categorical preservation** — explicit test of whether finer reconstruction preserves, refines, splits, clusters, partially preserves, rejects, or leaves underdetermined the Event or Non-Event category of the same source reference.
+
+**Temporal granularity drift** — finer temporal differentiation that adds timestamps or micro-changes without changing a warranted reconstruction of transition, phase, threshold, expectation, completion, source function, or Loss.
+
+Preparation control: [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md).
+
+## Chapter 23 WP1 Canonical Terminology Return
+
+### Event Decomposition Entry
+Entry of an independently warranted Event-like source object into `DECOMPOSE`, with declared category, Frame, coarse boundary, praxis-relevant change, source basis, existing compression, and finer-resolution question. A timestamp or record does not establish entry by itself.
+
+Primary site: [§23.1](../01_blocks/03_part_ii_sub.md#23-1-event-decomposition).
+
+### Event Boundary
+The claim-bound temporal boundary of an Event, including beginning, completion, contextual predecessors and aftermath, interruptions or resumptions, and supported rival boundaries. It is not the smallest timestamp or the widest relevant context.
+
+Primary site: [§23.1](../01_blocks/03_part_ii_sub.md#23-1-event-decomposition).
+
+### Extended Event
+One bounded Event whose identity depends on multiple phases and a common completion relation. Duration, sequence, or a shared topic is insufficient by itself.
+
+Primary site: [§23.2](../01_blocks/03_part_ii_sub.md#23-2-extended-event).
+
+### Event Cluster
+A bounded temporal object containing locally distinguishable Events related through a common decision object, coordinated formation, dependency, threshold, transition, or completion environment. Opening an already warranted coarse Event into a cluster may be `DECOMPOSE`; newly selecting independent Events into a cluster requires `COMPOSE`.
+
+Primary site: [§23.3](../01_blocks/03_part_ii_sub.md#23-3-event-cluster).
+
+### Event Inflation
+Multiplication of Event claims from timestamps, micro-changes, duplicated records, or observational units without changed praxis reconstruction.
+
+Primary site: [§23.4](../01_blocks/03_part_ii_sub.md#23-4-event-inflation).
+
+### Event Unit
+A temporal unit justified relative to the current claim, Frame, sources, transition relevance, and source reference. No universal minimum Event unit is introduced.
+
+Primary site: [§23.4](../01_blocks/03_part_ii_sub.md#23-4-event-inflation).
+
+## Chapter 23 WP2 Canonical Terminology Return
+
+### Non-Event Decomposition Entry
+Entry of a bounded `Λ` source claim into `DECOMPOSE` only after expected structure, Expectation Frame, expected window or completion condition, supported non-realization, praxis difference, and Source Ceiling are declared. Missing records or mere absence do not establish entry.
+
+Primary site: [§23.5](../01_blocks/03_part_ii_sub.md#23-5-non-event-decomposition).
+
+### Non-Event Categorical Preservation
+Preservation of the same higher-level non-realization where positive sub-events produce, stabilize, defer, fragment, or fail to overcome the warranted expected structure within its bounded window. Positive internal activity does not automatically dissolve `Λ`.
+
+Primary site: [§23.6](../01_blocks/03_part_ii_sub.md#23-6-preserving-the-non-event-character).
+
+### Delay Structure
+A source-supported temporal relation in which an expected or prepared continuation occurs later, remains unrealized, or changes completion condition through declared mechanisms, roles, thresholds, and dependencies. Elapsed time alone and motive inference are insufficient.
+
+Primary site: [§23.7](../01_blocks/03_part_ii_sub.md#23-7-delay-structure).
+
+### Repeated Non-Decision
+A candidate temporal form in which related decision opportunities or closure attempts repeatedly fail to produce the expected binding occurrence. It may resolve as one continuing Non-Event, several Non-Events, an Event Cluster plus higher-level Non-Event, or a broader PATH object.
+
+Primary site: [§23.8](../01_blocks/03_part_ii_sub.md#23-8-repeated-non-decision).
+
+
+
+## Chapter 23 WP3 Addendum — Internal Temporal Order and Temporal Non-Capture
+
+**Internal temporal order** — A source-supported relation among phases, sub-events, delays, thresholds, interruptions, reopenings, and completion conditions inside the same bounded temporal object; it is not a timestamp list. Primary site: [§23.9](../01_blocks/03_part_ii_sub.md#23-9-internal-temporal-order).
+
+**Multiple-clock relation** — A bounded relation among distinct temporal measures such as formal, interaction, information, authority, or consequence time. Evidence for one clock does not automatically establish another. Primary site: [§23.9](../01_blocks/03_part_ii_sub.md#23-9-internal-temporal-order).
+
+**Temporal granularity drift** — Finer temporal distinction without changed Event boundary, phase relation, expectation, completion, praxis effect, Source-Function Effect, or Loss. Primary site: [§23.10](../01_blocks/03_part_ii_sub.md#23-10-temporal-granularity-drift).
+
+**Temporal Non-Capture** — A bounded result where a legitimate temporal question cannot responsibly select one finer Event/Non-Event map under available sources, without rescuing the coarse claim or converting missingness into `Λ`. Primary site: [§23.11](../01_blocks/03_part_ii_sub.md#23-11-event--non-event-confusion-results-and-completion).
+
+
+## Chapter 23 Provisional-Lock Note
+
+Chapter 23 provisionally locks **temporal decomposition** as source-bound `DECOMPOSE` of Event-like and Non-Event objects through explicit category, boundary, expectation, phases, internal order, delay, multiple clocks, drift, and result-axis controls. Event, Extended Event, Event Cluster, Non-Event, Delay Structure, and Repeated Non-Decision remain revisable local source categories, not new primitives or Output Classes. Primary site: [Chapter 23](../01_blocks/03_part_ii_sub.md#23-decomposing-events-non-events-and-internal-temporal-structures).
+
+## Chapter 24 Preparation Terminology
+
+**PATH-source entry** — bounded admission of an independently warranted Path, Trajectory, phase, turning-point claim, branch cluster, or Path-Dependence claim with explicit reference, boundary, source category, original selection/formation rule, coarser function, inherited Loss, and decomposition reason.
+
+**Subpath** — source-related internal Path segment with its own bounded transitions and a reconstructible relation to the same coarser Path. A temporally isolated fragment is not a subpath automatically.
+
+**Transition cluster** — source-supported intermediate configuration and transition structure opening one coarse transition without automatically forming a new Path.
+
+**Turning-point claim** — claim that a transition or transition cluster materially changed later alternatives, costs, bindings, Frames, or action corridors. Retrospective salience alone is insufficient.
+
+**Rival PATH construction** — materially different source selection, periodization, boundary, Frame, or formation rule producing another Path object through `COMPOSE`, not a finer map of the same source through `DECOMPOSE`.
+
+**Compression debt** — declared unresolved traceability burden created by inherited PATH compression. It is not a score, Output Class, or new PMS primitive.
+
+Preparation control: [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md).
+
+## Chapter 24 WP1 Canonical Terminology Return
+
+### PATH-Produced Source Object
+An independently warranted Path-side analytical object admitted to `DECOMPOSE` with explicit historical reference, boundary, source category, coarse function, original selection/formation rule, inherited Loss, and finer-resolution question. Raw chronology is insufficient.
+
+Primary site: [§24.1](../01_blocks/03_part_ii_sub.md#24-1-path-objects-as-sub-objects).
+
+### Formation Lineage
+The declared relation between the original PATH selection/formation commitments and the current finer map, separating inherited selections, recovered detail, newly sourced detail, new analytical selections, and continuing exclusion, uncertainty, and irrecoverability.
+
+Primary site: [§24.1](../01_blocks/03_part_ii_sub.md#24-1-path-objects-as-sub-objects).
+
+### Subpath
+A bounded internal course with its own configurations and transitions and a reconstructible relation to the same coarse Path or Trajectory. A temporal segment, thematic subset, or shared carrier is not a subpath automatically.
+
+Primary site: [§24.3](../01_blocks/03_part_ii_sub.md#24-3-subpaths).
+
+### Transition Cluster
+A source-supported set of intermediate configurations and relations that opens one coarse transition while retaining its source and target configuration relation. An expanded Event list is insufficient.
+
+Primary site: [§24.4](../01_blocks/03_part_ii_sub.md#24-4-transition-clusters).
+
+## Chapter 24 WP2 Canonical Terminology Return
+
+### Turning Point
+A bounded transition or transition cluster whose historically traceable effects materially alter later alternatives, costs, asymmetries, bindings, action corridors, or continuation conditions. Retrospective salience alone is insufficient.
+
+Primary site: [§24.5](../01_blocks/03_part_ii_sub.md#24-5-turning-points).
+
+### Branch Reconstruction
+Source- and window-bounded reconstruction of a historically available continuation and its realized, rejected, blocked, aborted, deferred, or lost relation to the source Path. Imaginability alone is insufficient.
+
+Primary site: [§24.6](../01_blocks/03_part_ii_sub.md#24-6-branch-reconstruction).
+
+### Internal Frame Change
+A change of contextual relevance, access, role, expectation, or closure inside the same candidate Path or Trajectory, tested through reference and functional continuity. It is neither source replacement nor `PROJECT_AS` automatically.
+
+Primary site: [§24.7](../01_blocks/03_part_ii_sub.md#24-7-internal-frame-changes).
+
+### Competing Continuations
+Two or more source-supported continuations from the current Path configuration with declared entry conditions, unequal accessibility, costs, exposure, binding load, horizon, and uncertainty. They are not predictions or recommendations.
+
+Primary site: [§24.8](../01_blocks/03_part_ii_sub.md#24-8-competing-continuations).
+
+## Chapter 24 WP3 Canonical Terminology Return
+
+### Irrecoverable PATH Compression
+Historical structure excluded, collapsed, unrecorded, destroyed, or otherwise unavailable after the source PATH `COMPOSE` occurrence and not recoverable merely through finer analysis.
+
+Primary site: [§24.9](../01_blocks/03_part_ii_sub.md#24-9-irrecoverable-compression).
+
+### Compression Debt
+The unresolved traceability burden carried by a coarse Path or Trajectory claim where constitutive distinctions remain compressed, uncertain, or irrecoverable. Compression debt is neither a score, Output Class, primitive, nor automatic failure.
+
+Primary site: [§24.9](../01_blocks/03_part_ii_sub.md#24-9-irrecoverable-compression).
+
+### Path-Dependence Load
+A claim-bound occurrence-level set of historical carriers through which a present structure may depend on its Path, such as `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, or `Λ + Θ` profiles. It is not substance, operator fusion, determinism, or a universal score.
+
+Primary site: [§24.10](../01_blocks/03_part_ii_sub.md#24-10-decomposition-of-path-dependence).
+
+### Rival PATH Construction
+A separately testable `COMPOSE` occurrence produced by materially different source selection, periodization, boundary, formation rule, macro-object, historical referent, or PATH question. It does not inherit the current `DECOMPOSE` result.
+
+Primary site: [§24.11](../01_blocks/03_part_ii_sub.md#24-11-decomposition-versus-alternative-path-construction).
+
+## Chapter 24 Provisional-Lock Terminology Return
+
+**Path/Trajectory decomposition** — source-bound finer reconstruction of an already formed PATH object that preserves historical reference, original selection and formation lineage, coarse function, and inherited Loss while opening subpaths, transitions, branches, Frame changes, and dependence load.
+
+**Same-Path continuity** — warranted continuity of historical referent, source boundary, original selection/formation, constitutive transition relations, coarse function, and inherited Loss across finer reconstruction. Shared dates, archives, endpoints, institutions, or labels are insufficient.
+
+**Irrecoverable PATH compression** — source history excluded, collapsed, unrecorded, destroyed, or otherwise unavailable after PATH formation and not restored by later detail volume, graphing, schema completeness, or `DECOMPOSE`.
+
+**Chapter-24 lock** — provisional closure of the Path/Trajectory `DECOMPOSE` method, not confirmation of any particular Path, periodization, turning point, branch, continuation, Path-Dependence claim, prediction, person property, or authority.
+
+Primary site: [Chapter 24](../01_blocks/03_part_ii_sub.md#chapter-24-decomposing-paths-and-trajectories). Lock record: [Chapter 24 WP4](Chapter_24_Preparation_Record.md#26-wp4-execution-and-provisional-lock-record).
+
+## Chapter 25 Preparation Terminology
+
+**Resolution Gain** — supported finding that finer resolution changes at least one warranted praxis reconstruction for the tested claim. Gain may strengthen, narrow, correct, reduce, reject, or expose Loss in the prior claim.
+
+**Resolution Neutrality** — valid source-supported comparison in which correct finer detail changes no warranted reconstruction for the tested claim. It is not failure, unsupported refinement, Claim Reduction, Non-Capture, or automatic Mandatory Stop.
+
+**Resolution Drift** — growth of complexity, fragmentation, uncertainty, or inferential burden faster than relational or discriminative performance.
+
+**Resolution Escape** — anti-immunization failure in which a burdened claim is moved to finer granularity without answering the burden, while local detail is treated as retroactive confirmation.
+
+**Source Overreach** — finer semantic or structural precision exceeding what the declared sources support.
+
+**Calibration Loss** — loss of stable comparison and revision conditions such that rival decompositions, thresholds, or counterevidence can no longer constrain the preferred reconstruction.
+
+**Decomposition Fatigue** — methodological Stop marker where further opening remains possible in principle but carries no additional structural load for the current claim. It is not analyst psychology.
+
+Preparation control: [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md).
+
+## Chapter 25 WP1 Canonical Terminology Return
+
+### Resolution Gain
+A local SUB comparison result in which finer resolution changes at least one warranted statement about the reconstructed praxis. The change may confirm, refine, differentiate, reduce, or reject the coarse claim.
+
+Primary site: [§25.1](../01_blocks/03_part_ii_sub.md#25-1-resolution-gain).
+
+### Resolution Neutrality
+A valid, source-supported coarse/finer comparison in which the tested warranted reconstruction remains unchanged. Neutrality is not failure, unsupported refinement, Missing Information, or Non-Capture.
+
+Primary site: [§25.2](../01_blocks/03_part_ii_sub.md#25-2-resolution-neutrality).
+
+### Resolution Drift
+A local SUB condition in which complexity, fragmentation, or inferential load grows faster than discriminative performance, relation support, or reconstructive coherence.
+
+Primary site: [§25.3](../01_blocks/03_part_ii_sub.md#25-3-resolution-drift).
+
+### Resolution Escape
+An anti-immunization failure in which a burdened claim is moved to another granularity or analytical coordinate and the new local detail is presented as confirmation without answering the prior burden.
+
+Primary site: [§25.4](../01_blocks/03_part_ii_sub.md#25-4-resolution-escape).
+
+### Warranted Revision
+A controlled response to counterpressure that preserves the prior claim disposition, formulates a separate finer claim, declares its new basis, and prohibits inherited authority.
+
+Primary site: [§25.4](../01_blocks/03_part_ii_sub.md#25-4-resolution-escape).
+
+## Chapter 25 WP2 Canonical Terminology Return
+
+### Detail without Purchase
+A supported finer distinction that does not change the warranted reconstruction, claim disposition, source-function status, relevant Loss, uncertainty, or Stop condition for the tested claim. Lack of purchase is claim-relative rather than universal.
+
+Primary site: [§25.5](../01_blocks/03_part_ii_sub.md#25-5-detail-without-purchase).
+
+### Components without Coarser Function
+A finer component inventory whose relation to the coarser source object or tested source function has not been reconstructed. Supported parts do not by themselves complete `DECOMPOSE`.
+
+Primary site: [§25.6](../01_blocks/03_part_ii_sub.md#25-6-components-without-coarser-function).
+
+### Relation Support
+The source-bound warrant for a claimed relation among components, occurrences, phases, or structures. Component support, relation support, and claim support remain separate burdens.
+
+Primary site: [§25.6](../01_blocks/03_part_ii_sub.md#25-6-components-without-coarser-function).
+
+### Source Overreach
+A condition in which the semantic, structural, temporal, causal, or categorical precision of a reconstruction exceeds the combined precision warranted by its sources.
+
+Primary site: [§25.7](../01_blocks/03_part_ii_sub.md#25-7-source-overreach).
+
+### Calibration Loss
+Loss of stable comparison, threshold, or revision conditions such that a preferred claim can absorb counterpressure without a traceable disposition change.
+
+Primary site: [§25.8](../01_blocks/03_part_ii_sub.md#25-8-calibration-loss).
+
+### Open Threshold
+A provisional comparison or decision threshold whose basis, uncertainty, revision conditions, rival thresholds, and Stop condition remain explicit. An open threshold is not Calibration Loss by itself.
+
+Primary site: [§25.8](../01_blocks/03_part_ii_sub.md#25-8-calibration-loss).
+
+## Chapter 25 WP3 Terminology Return
+
+**Decomposition Fatigue** — claim-bound methodological marker indicating that further opening remains possible in principle but no longer carries additional warranted structural load for the present source, question, and comparison. It is not analyst psychology, permanent undecomposability, or an Output Class.
+
+**Resolution family** — one of the six local Chapter-25 comparison results `gain`, `neutral`, `drift`, `escape`, `unsupported`, or `non_capture`. These are not a second canonical Output-Class inventory.
+
+**Re-entry** — a new testable transformation claim after Stop, authorized only by a materially new source, claim, Frame, comparison basis, relation map, counterexample, threshold, bounded question, or relevant runtime invariant. Re-entry preserves the earlier Stop and prior claim disposition.
+
+## Chapter 25 Provisional-Lock Terminology Return
+
+**Resolution assessment** — claim-bound comparison of a warranted coarse reconstruction with a warranted finer reconstruction to determine Gain, Neutrality, Drift, Escape, unsupported refinement, or Non-Capture and the bounded continuation consequence.
+
+**Bounded continuation decision** — source-, claim-, relation-, calibration-, and invariant-bound judgment that a concrete transformation may continue, should optionally stop, must stop, or may re-enter on a materially new basis; not a universal halting decision.
+
+**Anti-immunizing re-entry** — a new testable claim or record based on materially new sources, relations, Frame, comparison basis, counterexample, threshold, source object, or relevant invariant while preserving the earlier Stop and claim disposition.
+
+**Chapter-25 lock** — provisional closure of the resolution-assessment and bounded-continuation method, not automatic classification of any decomposition or process, proof of universal halting, runtime implementation, person judgment, or authority.
+
+Primary site: [Chapter 25](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape). Lock record: [Chapter 25 WP4](Chapter_25_Preparation_Record.md#26-wp4-execution-and-provisional-lock-record).
+
+## Chapter 26 Preparation Terminology
+
+### Internal Constitution
+The source-supported components, relations, phases, subpaths, transitions, and carrying or destabilizing structures opened while the same source object remains the explanation target. Internal constitution is tested by `DECOMPOSE`; it is not a contextual target function.
+
+### Contextual Target Function
+A bounded function asserted for an origin-typed source object within a declared target context. It requires a separate `PROJECT_AS` occurrence and never replaces the origin type.
+
+### Recontextualization
+A changed Frame, source perspective, comparison setting, question, or presentation context that alters legibility without necessarily executing `DECOMPOSE` or `PROJECT_AS`. Recontextualization becomes an operation only when a transformation claim is separately declared.
+
+### Dual Operation
+A chain in which one inquiry requires both `DECOMPOSE` and `PROJECT_AS`. Each operation occurrence retains a separate claim, Record, Loss account, result, and failure possibility.
+
+### Invalid Collapse
+The prohibited merger of internal-constitution and contextual-target-function claims, including silent mixed records, origin-type replacement, or using support for one operation as automatic support for the other.
+
+Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 WP1 Canonical Terminology Return
+
+### Internal-Constitution Claim
+A `DECOMPOSE`-directed claim asking which finer structures and relations constitute, reproduce, maintain, interrupt, destabilize, or revise the same bounded source object. The source object remains the explanatory target.
+
+Primary site: [§26.2](../01_blocks/03_part_ii_sub.md#26-2-sub-question).
+
+### Target-Function Candidate
+A proposed `PROJECT_AS` claim in which an origin-typed source object is retained and asserted to perform a bounded function in a declared target context. The function remains contextual and separately testable.
+
+Primary site: [§26.3](../01_blocks/03_part_ii_sub.md#26-3-retype-question).
+
+### Operation-Boundary Entry
+The bounded declaration of source object, origin type, source function, Frame, granularity, analysis question, proposed context, proposed function, uncertainty, and Loss required before classifying an analysis as DECOMPOSE, PROJECT_AS, recontextualization, or dual-operation pressure.
+
+Primary site: [§26.1](../01_blocks/03_part_ii_sub.md#26-1-why-the-boundary-is-difficult).
+
+### Source Function
+The bounded function or role of the source object that remains the explanation target in SUB and may be confirmed, differentiated, reduced, rejected, or left underdetermined.
+
+Primary site: [§26.2](../01_blocks/03_part_ii_sub.md#26-2-sub-question).
+
+## Chapter 26 WP2 Canonical Terminology Return
+
+### Trajectory Operation Comparison
+A paired operation-boundary comparison in which the same origin-typed Trajectory is first treated as an internal reconstruction source and separately as a retained source object for a bounded contextual target-function candidate. Shared evidence does not merge the claims or occurrences.
+
+Primary site: [§26.5](../01_blocks/03_part_ii_sub.md#26-5-trajectory-decomposition-and-projection).
+
+### Attractor-Occurrence / Attractor-Function Separation
+The distinction among an Attractor-typed occurrence, its internally reconstructed recurrence structure, and a contextual Attractor-function assigned to a retained source object. Repetition of the term does not establish type or operation identity.
+
+Primary site: [§26.6](../01_blocks/03_part_ii_sub.md#26-6-attractor-occurrence).
+
+### Subtle Misclassification
+An operation-boundary error in which decompositional vocabulary or component detail conceals a substantive contextual target-function claim.
+
+Primary site: [§26.7](../01_blocks/03_part_ii_sub.md#26-7-subtle-misclassification).
+
+### Reverse Misclassification
+An operation-boundary error in which functional-sounding language or a new label is routed to RETYPE even though it only summarizes internal source structure and asserts no target function.
+
+Primary site: [§26.8](../01_blocks/03_part_ii_sub.md#26-8-reverse-misclassification).
+
+### Recontextualization
+A change of Frame, perspective, question, audience, or presentation context that changes legibility without yet opening finer internal structure or asserting a bounded contextual target function.
+
+Primary site: [§26.9](../01_blocks/03_part_ii_sub.md#26-9-sub-versus-recontextualization).
+
+## Chapter 26 WP3 Canonical Terminology Return
+
+**Operation-boundary decision test** — claim-segment-specific sequence distinguishing internal source reconstruction, bounded contextual function, recontextualization, dual-operation pressure, underdetermination, and invalid collapse through source, granularity, context, function, and Record conditions.
+
+**Dual-operation chain** — ordered sequence containing distinct `DECOMPOSE` and `PROJECT_AS` occurrences with separate claims, Records, Loss, results, and failure possibilities; never a mixed fourth operation.
+
+**Operation-boundary underdetermination** — bounded finding that available sources do not responsibly discriminate among DECOMPOSE, PROJECT_AS, recontextualization, or a separable dual-operation chain. It may lead to `non_capture` and does not authorize a compromise operation.
+
+Primary sites: [§26.10](../01_blocks/03_part_ii_sub.md#26-10-sub-retype-decision-test), [§26.11](../01_blocks/03_part_ii_sub.md#26-11-dual-operation), and [§26.12](../01_blocks/03_part_ii_sub.md#26-12-invalid-collapse).
+
+## Chapter 26 Provisional-Lock Terminology Return
+
+**Operation-boundary assessment** — claim-segment-specific determination of whether an analysis opens the internal constitution of the same source object, assigns that preserved origin-typed object a bounded contextual function, merely recontextualizes it, requires a chain of both operations, or remains underdetermined.
+
+**Recontextualization-only result** — changed Frame, question, perspective, comparison setting, or presentation that alters legibility without itself executing `DECOMPOSE` or `PROJECT_AS`.
+
+**Dual-operation chain** — explicitly ordered sequence of separate `DECOMPOSE` and `PROJECT_AS` occurrences, each with its own claim, Record, support, Loss, result, and failure possibility; never a mixed or fourth operation.
+
+**Chapter-26 lock** — provisional closure of the SUB/RETYPE operation-boundary method, not automatic semantic classification, completed RETYPE, target-function warrant, origin-type replacement, Graph or Reader implementation, person judgment, or authority.
+
+Primary site: [Chapter 26](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype). Lock record: [Chapter 26 WP4](Chapter_26_Preparation_Record.md#chapter-26-wp4-execution-and-provisional-lock-record).
+
+## Chapter 27 Preparation Terminology
+
+### `Lower SUB Boundary`
+
+**Short definition:** The local boundary below which additional distinctions, though possibly correct, do not change a warranted praxis reconstruction for the tested `DECOMPOSE` claim.
+
+**Non-equivalences:**
+
+- lower SUB boundary ≠ false detail;
+- lower SUB boundary ≠ unsupported refinement;
+- lower SUB boundary ≠ universal minimum granularity;
+- lower SUB boundary ≠ automatic `failed_transformation`.
+
+**Primary operational site:** Chapter 27 — SUB Boundary Conditions.
+
+### `Upper SUB Boundary`
+
+**Short definition:** The local boundary above which finer reconstruction loses reconstructible anchoring to the source object, component relations, source function, or source-supported precision.
+
+**Non-equivalences:**
+
+- upper SUB boundary ≠ system-wide Traceability Ceiling in full;
+- upper SUB boundary ≠ high detail alone;
+- upper SUB boundary ≠ source type rejection automatically;
+- upper SUB boundary ≠ `non_capture` automatically.
+
+### `Fragmentation without Reconstruction`
+
+**Short definition:** A decomposition failure pressure in which parts or local descriptions proliferate while their relations, source reference, and coarser-function load are not reconstructibly preserved or explicitly revised.
+
+### `Component Sensitivity Finding`
+
+**Short definition:** A bounded result of testing whether changing, removing, delaying, disabling, or replacing a supported component would alter the reconstructed source function under a responsibly held relation map.
+
+Prepared local findings are `constitutive`, `strongly_modulating`, `weakly_modulating`, `replaceable`, `incidental`, and `underdetermined`. They are not PMS primitives, operator types, universal causal classes, person properties, or canonical Output Classes.
+
+### `Coarser-Function Traceability`
+
+**Short definition:** The reconstructible relation by which finer components and relations confirm, refine, differentiate, partially preserve, reject, or leave underdetermined the bounded function attributed to the source object.
+
+```text
+source type preserved
+≠ coarser function confirmed
+```
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 WP1 Canonical Terminology Return
+
+### Lower SUB Boundary
+
+The claim-relative point below which an additional distinction, though possibly valid and supported, changes no warranted praxis reconstruction for the tested claim.
+
+Primary site: [§27.1](../01_blocks/03_part_ii_sub.md#27-1-lower-sub-boundary).
+
+### Resolution without Purchase
+
+A supported finer reconstruction that is validly comparable to the coarse reconstruction but changes no warranted praxis claim. It is a Resolution Neutrality candidate, not unsupported refinement.
+
+Primary site: [§27.2](../01_blocks/03_part_ii_sub.md#27-2-resolution-without-purchase).
+
+### Upper SUB Boundary
+
+The point at which finer components, relations, precision, or object splitting cease to remain reconstructibly anchored to the source object and the coarser function under test.
+
+Primary site: [§27.3](../01_blocks/03_part_ii_sub.md#27-3-upper-sub-boundary).
+
+### Fragmentation without Reconstruction
+
+A failed or underdetermined SUB condition in which components are identified but their source-related relational structure and return to the coarser object cannot be responsibly reconstructed.
+
+Primary site: [§27.4](../01_blocks/03_part_ii_sub.md#27-4-fragmentation-without-reconstruction).
+
+## Chapter 27 WP2 Canonical Terminology Return
+
+### Source Ceiling — local SUB use
+
+The finest component, relation, temporal, and functional precision that the available source basis can responsibly carry for a bounded `DECOMPOSE` claim.
+
+Primary site: [§27.5](../01_blocks/03_part_ii_sub.md#27-5-source-ceiling).
+
+### Counterfactual Component Test
+
+A bounded test of whether removal, delay, deactivation, replacement, or material alteration of a supported component changes the reconstructed source function under a declared relation map.
+
+Primary site: [§27.6](../01_blocks/03_part_ii_sub.md#27-6-counterfactual-component-test).
+
+### Component Sensitivity
+
+A local description of a component's constitutive, modulating, replaceable, incidental, or underdetermined load for one tested source function. It is not a primitive, score, person type, or universal causal class.
+
+Primary site: [§27.6](../01_blocks/03_part_ii_sub.md#27-6-counterfactual-component-test).
+
+### Coarser-Function Traceability
+
+The ability to return every material finer finding to the source function under test and state whether that function is confirmed, refined, differentiated, partially preserved, reduced, rejected, or underdetermined.
+
+Primary site: [§27.7](../01_blocks/03_part_ii_sub.md#27-7-coarser-function-traceability).
+
+### Type Preservation — SUB
+
+Maintenance of the distinction among operator type, operator occurrence, source-object type claim, and source-function claim while allowing explicit source-supported type revision.
+
+Primary site: [§27.8](../01_blocks/03_part_ii_sub.md#27-8-type-preservation).
+
+## Chapter 27 WP3 Canonical Terminology Return
+
+### No Privilege of Fine Resolution
+
+The rule that a finer reconstruction must be compared against the coarse reconstruction for the tested claim and may be better, co-equal, worse, or incomparable. Resolution depth creates no automatic truth or authority priority.
+
+Primary site: [§27.9](../01_blocks/03_part_ii_sub.md#27-9-no-privilege-of-fine-resolution).
+
+### SUB Stop
+
+A bounded positive determination that further `DECOMPOSE` continuation is unnecessary (Optional Stop) or inadmissible (Mandatory Stop) for the current source object, claim, granularity relation, source basis, and relation map.
+
+Primary site: [§27.10](../01_blocks/03_part_ii_sub.md#27-10-sub-stop-conditions).
+
+### SUB Non-Capture
+
+A result in which a legitimate decomposition question remains unresolved because no available granularity and relation map can responsibly carry a determinate reconstruction. It does not restore a failed coarse claim.
+
+Primary site: [§27.11](../01_blocks/03_part_ii_sub.md#27-11-sub-non-capture).
+
+### SUB Admissibility Test
+
+The conjunctive local test requiring PraxisPurchase, Source Support, Source Reference, reconstructible relations, coarser-function traceability or revision, type integrity or revision, declared granularity, and a defined Stop condition.
+
+Primary site: [§27.12](../01_blocks/03_part_ii_sub.md#27-12-sub-admissibility-test).
+
+## Chapter 27 Provisional-Lock Terms
+
+**Local SUB boundary procedure** — the bounded Chapter-27 application of the existing Admissibility Band to `DECOMPOSE`, combining lower-boundary PraxisPurchase, upper-boundary reconstructive traceability, Source Ceiling, Component/Relation Support, Source Reference, Coarser Function, Type Integrity, Stop, Claim Reduction, Failure, Non-Capture, and re-entry without creating new system-wide LIMITS.
+
+**No Privilege of Fine Resolution** — the rule that finer reconstruction is compared for the tested claim rather than treated as automatically truer, more useful, or more authoritative.
+
+Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation Terms
+
+### `SUB Case Artifact Set`
+
+**Short definition:** The linked Markdown reconstruction, schema-valid YAML Transformation Record, local audit result, and canonical Output-Class mapping required for an instantiated Chapter-28 case.
+
+**Non-equivalences:**
+
+- artifact set ≠ theory source;
+- schema validity ≠ substantive admissibility;
+- case completeness ≠ empirical truth;
+- one positive case ≠ general validation of `DECOMPOSE`.
+
+### `Lock-Critical SUB Case`
+
+**Short definition:** A Chapter-28 case whose complete artifact set is required for the Chapter-28 and Part-II provisional-lock decision.
+
+The minimum set covers admissible Trajectory decomposition, overfine analysis below the Relevance Floor, and SUB/RETYPE confusion. Operator-decomposition error and fragmentation without source function are additionally mandatory complete artifacts.
+
+### `SUB Local Audit`
+
+**Short definition:** The Chapter-28 twenty-four-question audit that tests source identity, type, granularity, components, relations, function, resolution, operation boundaries, counterfactuals, sources, Stop, Non-Capture, and authority for Part-II lock readiness.
+
+```text
+SUB Local Audit
+≠ Chapter-53 integrated system audit
+```
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 Operational Use
+
+**Positive SUB case** — one bounded occurrence- or composite-level `DECOMPOSE` test that survives source, relation, function, type, Loss, Band, operation-boundary, Stop, and governance pressure. It is a test artifact, not a new primitive, Rule, operation, or theory source.
+
+**Case artifact set** — linked Markdown reconstruction, schema-valid YAML Transformation Record, case-local audit, canonical mapping, and Case Index registration with hashes.
+
+## Chapter 28 WP2 Operational Use
+
+**SUB countercase** — a bounded case that preserves source material while locating the failed, reduced, stopped, or separated transformation claim.
+
+**Operation-confusion case** — one case packet that exposes multiple candidate claims while requiring separate operation occurrences and records; it is not a mixed operation.
+
+## Chapter 28 WP3 Operational Use
+
+**source-bound analogy** — bounded resemblance retained after source component or relation identity fails; final mapping pressure is `analogy_only`.
+
+**modulator finding** — bounded occurrence-level weighting or load effect inside existing operator grammar; recurrence does not create a new operator.
+
+**SUB lock readiness** — completion of chapter artifacts and local audits sufficient to enter the final lock pass; it is not the lock itself.
+
+## Chapter 28 and Part II — SUB Provisional-Lock Terms
+
+**Case-tested local SUB closure procedure** — the completed Chapters-18–28 decomposition discipline after sixteen Chapter-28 Artifact Sets, twenty-nine indexed case Records, the twenty-four-question SUB Local Audit, canonical mapping, and package controls pass.
+
+**Part II — SUB provisional lock** — a reopenable methodological lock confirming the present `DECOMPOSE` corpus without granting fine-resolution privilege, empirical validation, target-function authority, or final STRATA completion.
+
+```text
+Part II — SUB provisional lock
+≠ universal decomposability
+≠ empirical truth
+≠ PROJECT_AS authorization
+≠ final STRATA lock
+```
+
+Primary site: [Chapter 28 and Part II completion boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).

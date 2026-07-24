@@ -1,6 +1,6 @@
 # PMS-STRATA — Admissibility Band Reference
 
-**Status:** Reference Kernel v0.2.12 — Chapter-7-WP4-lock-synchronized admissibility registry during Foundations production  
+**Status:** Reference Kernel v0.2.14 — Chapter-20-WP3-synchronized admissibility registry  
 **Repository role:** `04_reference` boundary, gate, outcome, and audit navigation; not an independent theory source  
 **Authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, and the provisionally locked Gate 3 reference kernel
 
@@ -2007,3 +2007,688 @@ Part-I lock readiness: pass
 ## Part I — PATH Provisional-Lock Band Result
 
 The integrated PATH corpus remains inside the Admissibility Band only under claim-relative Purchase and source-to-result Trace. Passage is non-compensatory and non-automatic. The lock does not turn local Floor/Ceiling findings into scores, global sufficiency, truth priority, or authority.
+
+## Chapter 18 Preparation — SUB Entry Boundary
+
+Chapter 18 applies the existing Band before any `DECOMPOSE` occurrence begins. The lower boundary asks whether opening the object would create a specific claim-relative praxeological difference. The upper/source boundary asks whether the proposed internal distinctions have a traceable source route.
+
+```text
+more detail without changed reconstruction
+→ below the Relevance Floor
+
+expected internal difference without source route
+→ above the source / Traceability Ceiling
+```
+
+No success on one axis compensates for failure on the other. The correct result may be not to decompose. The Preparation Gate does not select an Output Class or infer hidden components.
+
+## Chapter 18 WP1 — Band Duties Withheld at Source-Candidate Stage
+
+WP1 establishes the object that may later be tested; it does not adjudicate the complete SUB entry. The following remain pending for WP2–WP3 and Chapters 19–20:
+
+- specific expected praxeological difference;
+- Relevance-Floor passage;
+- source/Traceability route for a particular finer distinction;
+- reference continuity under a declared target granularity;
+- source-function effect;
+- Loss and operation result;
+- Stop or Non-Capture disposition.
+
+```text
+eligible source category
+≠ within the Admissibility Band automatically
+```
+
+WP1 nevertheless prohibits two failures immediately: operator-type decomposition and populated hidden structure inferred from the coarse label. These are type/source boundary failures, not evidence that a valid alternative decomposition has been established.
+
+
+
+## Chapter 18 WP2 — Compression Entry within the Admissibility Band
+
+WP2 applies the Band before any `DECOMPOSE` occurrence:
+
+- **Necessary compression** remains admissible where the coarse unit preserves the current reference, relation, uncertainty, comparison, source precision, and bounded claim.
+- **Insufficiency pressure** is live only where a source-supported internal distinction may alter a warranted praxis reconstruction.
+- **Below the Relevance Floor:** available detail, coding density, or curiosity adds distinctions without praxeological purchase.
+- **At the source/Traceability Ceiling:** the proposed internal components or relations cannot be supported without source invention or reference loss.
+- **Non-compensation:** formal elegance, model richness, or detail volume cannot compensate for missing purchase or source trace.
+
+```text
+reason to decompose
+≠ Band passage automatically
+
+no-decomposition entry decision
+≠ resolution_neutral output
+```
+
+Canonical sites: [§18.5–§18.8](../01_blocks/03_part_ii_sub.md#18-5-why-compression-is-necessary). Full preservation, Stop, and Non-Capture integration remains owned by Chapter 18 WP3.
+
+
+## Chapter 18 WP3 — Preservation, Stop, and Non-Capture at Source Entry
+
+The Chapter-18 source entry remains within the Admissibility Band only where:
+
+- reference and source lineage remain traceable;
+- the current/coarser function remains an open test target rather than an immunized conclusion;
+- known, unresolved, unsupported, and irrecoverable source content remain separated;
+- the proposed reason has praxeological purchase and a source route;
+- Optional Stop remains available for sufficient or unnecessary continuation;
+- Mandatory Stop blocks operator-type decomposition, unsupported component inference, reference substitution, and source/claim-ceiling violations;
+- Non-Capture remains available without rescuing a failed coarse claim.
+
+```text
+preservation without revision capacity
+= immunization risk
+
+finer detail without reference continuity
+= object substitution or fragmentation
+```
+
+Canonical sites: [§18.9–§18.10](../01_blocks/03_part_ii_sub.md#18-9-preservation-requirement).
+
+
+## Chapter 18 Provisional-Lock Band Result
+
+Chapter 18 may pass its local source-entry audit only where:
+
+- an occurrence or composite, not an operator type, is declared;
+- source reference, coordinates, function under test, uncertainty, and Loss remain visible;
+- a proposed finer test has possible praxeological purchase and a traceable source route;
+- coarse sufficiency and no-decomposition remain legitimate;
+- preservation does not immunize the coarse result;
+- Stop and Non-Capture remain distinct and non-compensatory.
+
+This local pass does not establish Chapter-19 granularity validity or Chapter-20 operation admissibility. Primary site: [Chapter 18 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-18-completion-boundary).
+
+## Chapter 19 Preparation Admissibility Handoff
+
+Chapter 19 applies the Admissibility Band at the granularity-relation stage:
+
+- **Relevance Floor:** the proposed distinction must be capable of changing a warranted praxis reconstruction;
+- **source/Traceability Ceiling:** the target distinction set and translation basis must remain source-traceable;
+- **Type Integrity:** operator types, occurrence types, object categories, Frames, granularities, and relative levels remain distinct;
+- **Reference Continuity:** the same source reference must remain reconstructible or the change must be declared;
+- **Contextual Boundedness:** a changed Frame creates a separately bounded claim;
+- **Non-compensation:** detail cannot compensate for failed relevance, source support, reference continuity, or claim ceiling;
+- **Stop:** unnecessary or unsupported refinement may end positively;
+- **Non-Capture:** incompatible but source-supported local partitions may remain unreduced without protecting failed claims.
+
+No Chapter-25 resolution class is assigned at preparation.
+
+## Chapter 19 WP1 Canonical Admissibility Return
+
+At WP1, the Admissibility Band applies before operation execution:
+
+- **PraxisPurchase:** an expected bounded praxis difference must be declared before component identification;
+- **TraceableLoad/source ceiling:** the proposed resolution must retain a plausible source route without inferring target structures;
+- **Type Integrity:** Frame, granularity, relative level, object category, operator typing, and operation identity remain separate;
+- **Reference Continuity:** matching labels do not prove that the same source object remains under test;
+- **Contextual Boundedness:** a changed Frame creates a separately bounded claim;
+- **Non-compensation:** detail and coordinate completeness cannot compensate for failed relevance, source support, reference continuity, or claim ceiling;
+- **Stop/Non-Capture preservation:** a new Frame or finer proposal does not erase an earlier Stop, failed claim, or bounded Non-Capture.
+
+WP1 does not assign target support, component status, comparability, operation admissibility, or a Chapter-25 resolution outcome. Primary sites: [§19.1–§19.4](../01_blocks/03_part_ii_sub.md#19-1-granularity-change).
+
+## Chapter 19 WP2 Canonical Admissibility Return
+
+At the component-eligibility gate:
+
+- **PraxisPurchase:** every proposed distinction and component candidate must identify a bounded reconstruction it could change;
+- **TraceableLoad/source ceiling:** local and distributed candidates require a declared source route and relation to the bounded reference object;
+- **Type Integrity:** locality, distribution, granularity, relative level, operator typing, and operation identity remain separate;
+- **Reference/Functional Continuity:** a candidate may carry or disturb the coarse function; continuity protects the test, not the answer;
+- **Counterfactual Sensitivity:** participation does not establish necessity, sufficiency, or causal priority; stronger component claims remain deferred;
+- **Non-compensation:** descriptive density, vividness, smallness, and data volume cannot compensate for missing source, function, relevance, or relational burden;
+- **Stop/Non-Capture:** unsupported component partitions may be stopped or left uncaptured without protecting a coarse failed claim.
+
+WP2 does not determine actual component status, component relations, comparability, operation admissibility, source-function effect, or a Chapter-25 outcome. Primary sites: [§19.5–§19.7](../01_blocks/03_part_ii_sub.md#19-5-change-of-distinction-set).
+
+## Chapter 19 WP3 Canonical Admissibility Return
+
+At the comparison and Minimal-Relation gate:
+
+- **PraxisPurchase:** the Lower Granularity Question requires a bounded route by which the added distinction could change warranted praxis reconstruction;
+- **TraceableLoad/source ceiling:** comparison requires declared reference, source standard, temporal scope, dimension, translation, and Loss;
+- **Type Integrity:** Frame, granularity, relative level, predicate, comparison description, operation identity, and Output Class remain separate;
+- **Reference/Functional Continuity:** matching labels do not prove preservation; rationale and uncertainty remain explicit;
+- **Contextual Boundedness:** comparability is local to the tested predicate and cannot be generalized automatically;
+- **Counterfactual Sensitivity:** no claim-relevant change leaves later neutrality or drift open but does not preclassify either;
+- **Non-compensation:** detail volume, formal precision, scale labels, or translation elegance cannot compensate for missing source, reference, predicate, time, or relevance burden;
+- **Stop/Non-Capture:** unsupported comparison, concealed substitution, fragment-only target relations, and authority descent require Stop; materially different source-supported partitions may remain Non-Captured without protecting weak claims.
+
+WP3 assigns no `DECOMPOSE` result, source-function effect, Chapter-25 resolution outcome, target function, or additional authority. Primary sites: [§19.8–§19.11](../01_blocks/03_part_ii_sub.md#19-8-granularity-comparability).
+
+
+## Chapter 19 Provisional-Lock Band Result
+
+Chapter 19 passes its local coordinate audit only where:
+
+- source and proposed target granularities are explicitly related;
+- the distinction-set change has a bounded route to praxeological purchase;
+- Frame, reference, relative level, temporal scope, and target function remain separated;
+- functional component candidates are source-related and claim-relevant rather than mere fragments;
+- comparability, translation, incomparability, mismatch, and contradiction limits remain explicit;
+- detail volume cannot compensate for failed purchase, source route, reference continuity, or Claim Ceiling;
+- Stop and Non-Capture remain available.
+
+This local pass does not establish Chapter-20 `DECOMPOSE` admissibility or result. Primary site: [Chapter-19 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-19-completion-boundary).
+
+## Chapter 20 Preparation — DECOMPOSE within the Band
+
+A valid `DECOMPOSE` occurrence must remain above the Praxeological Relevance Floor and below the source/traceability ceiling.
+
+Lower-bound failure includes:
+
+- added distinctions without changed warranted reconstruction;
+- repeated restatement of a valid no-gain result;
+- components that are merely fragments for the tested claim.
+
+Upper-bound failure includes:
+
+- finer terminology beyond source precision;
+- component or relation inference from the coarse label alone;
+- lost source reference;
+- internal models insensitive to material source changes.
+
+Detail, coherence, formal validity, or a populated Record cannot compensate for failed source support, Type Integrity, Reference Continuity, or PraxisPurchase. Stop and Non-Capture remain separate. Preparation control: [`Chapter_20_Preparation_Record.md`](Chapter_20_Preparation_Record.md).
+
+## Chapter 20 WP1 Admissibility Return
+
+Before component reconstruction, `DECOMPOSE` must pass a non-compensatory entry screen:
+
+- **PraxisPurchase pressure:** the finer distinction could alter a warranted praxis reconstruction;
+- **Source route:** materials can in principle support or refuse the distinction;
+- **Reference continuity:** the same bounded source object remains the target;
+- **Type Integrity:** occurrences/composites, not Δ–Ψ types, are opened;
+- **Contextual Boundedness:** Frame, time, level, and claim remain declared;
+- **Stop readiness:** no-gain, source ceiling, reference substitution, new operation, and target-function drift can stop the attempt.
+
+```text
+complete precondition declaration
+≠ admissible transformation automatically
+```
+
+Primary site: [§20.2](../01_blocks/03_part_ii_sub.md#20-2-preconditions).
+
+## Chapter 20 WP2 Band Localization
+
+The Relevance Floor applies before and during component identification: a valid finer distinction that cannot change a warranted praxis reconstruction is resolution without purchase. The Traceability Ceiling applies to every component and relation claim: semantic precision may not exceed source precision.
+
+Non-compensation remains strict:
+
+```text
+many details + elegant relation model
+≠ adequate source support
+
+strong source support + no claim-relevant difference
+≠ warranted additional praxis finding
+```
+
+Primary sites: [§20.5–§20.8](../01_blocks/03_part_ii_sub.md#20-5-expected-additional-difference).
+
+## Chapter 20 WP3 Admissibility Return
+
+A completed `DECOMPOSE` occurrence must keep operation success, source-function effect, prior claim disposition, and canonical class separate. Detail, coherent modeling, or a complete Record cannot compensate failed source, reference, relation, claim, Loss, Stop, or Non-Capture gates.
+
+Continuation routes to Mandatory Stop where source precision, reference continuity, Relevance Floor, claim ceiling, authority ceiling, or operation identity would be crossed. Non-Capture remains available where no stable finer model is retainable and cannot protect a stronger failed claim.
+
+Primary sites: [§20.10–§20.12](../01_blocks/03_part_ii_sub.md#20-10-decomposition-output).
+
+## Chapter 20 WP4 Integrated Band Lock
+
+The complete generic procedure remains within the Admissibility Band only when finer distinctions have PraxisPurchase and the relational reconstruction retains TraceableLoad, Reference Continuity, Type Integrity, Source/Claim Ceiling, Loss, and Stop readiness. A complete Record, detailed component list, or coherent internal model cannot compensate for failure on any non-compensable condition.
+
+```text
+procedural completeness
+≠ admissibility
+```
+
+Primary site: [Chapter-20 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-20-completion-boundary).
+
+## Chapter 21 Preparation — Occurrence-Family Band
+
+A family-specific decomposition lies below the Relevance Floor when it merely relabels local details without changing the warranted occurrence typing or Loss. It exceeds the Traceability Ceiling when the family label remains fixed despite source-supported variation, or when components are selected to guarantee the type.
+
+Formal completeness, operator familiarity, or family symmetry cannot compensate for missing source support, Type Integrity, Reference Continuity, PraxisPurchase, TraceableLoad, Stop, or Non-Capture.
+
+Preparation control: [Chapter 21 Preparation Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP1 — Frame-Occurrence Band Return
+
+A Frame-family decomposition remains inside the Admissibility Band only when the occurrence reference is stable, production conditions are source-supported, internal relations alter or test a bounded Frame claim, counterevidence remains effective, and operator/person boundaries are preserved.
+
+Below the Relevance Floor, extra local variation does not change a warranted Frame reconstruction. Above the Source or Traceability Ceiling, a coherent maintenance model lacks sufficient support. Mandatory Stop applies before operator redefinition, hidden `COMPOSE`/`PROJECT_AS`, person inference, or source overreach.
+
+Primary sites: [§21.2–§21.4](../01_blocks/03_part_ii_sub.md#21-2-frame-typed-occurrence).
+
+## Chapter 21 WP2 Band Return
+
+Attractor-family Purchase requires more than recurrence: a supported difference in friction, expectation, alternative accessibility, threshold, or exit must alter a warranted occurrence reconstruction. Asymmetry-family Purchase requires declared comparators, dimensions, directional effects, and source-supported relations among local gradients.
+
+Below the Floor lie frequency without differential continuation and detail without changed asymmetry reconstruction. Above the Source or Traceability Ceiling lie invented friction scores, unsupported coordination, total-rank claims, hidden macro-composition, and target-function projection without a separate operation.
+
+Primary sites: [§21.5–§21.9](../01_blocks/03_part_ii_sub.md#21-5-attractor-typed-occurrence).
+
+## Chapter 21 WP3 Admissibility Return
+
+Impulse and Binding occurrence decompositions remain within the Band only where activation, commitment, continuity, revision, dependency, breach, and exit relations are source-supported and claim-relevant. Motive/person inference, operator redefinition, operation drift, and Source-Ceiling breach require Stop. Where no stable family model can preserve decisive heterogeneity, `non_capture` remains available without rescuing the original typing.
+
+Primary site: [§21.12](../01_blocks/03_part_ii_sub.md#21-12-failed-operator-occurrence-decomposition).
+
+## Chapter 21 WP4 Admissibility Lock
+
+Occurrence-family decomposition remains within the Band only where the source occurrence, typing under test, production conditions, relations, temporal load, counterevidence, and practical difference remain traceable. Below the Floor lie family labels without changed warranted reconstruction. Above the Ceiling lie operator materialization, type forcing, invented coordination or motive, person conversion, hidden `COMPOSE`/`PROJECT_AS`, and automatic authority transfer. Formal completeness and family richness do not compensate.
+
+Primary site: [Chapter-21 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-21-completion-boundary).
+
+## Chapter 22 Preparation — Composite Admissibility Pressure
+
+For composite decomposition, the Praxeological Relevance Floor rejects added detail that changes no warranted reconstruction of component role, relation, distributed function, redundancy, conflict, stability, or Loss. The Traceability Ceiling rejects macro or profile claims that no longer reconstruct through the source composite, its constituents, constitutive relations, composition trace, and inherited Loss.
+
+Non-compensation remains strict:
+
+```text
+detailed parts
++ elegant map
++ valid schema
+≠ supported composite function
+```
+
+Mandatory Stop applies where continuation requires invented components or relations, recovery of irrecoverable formation history, operator dependency revision, person typing, or an undeclared `COMPOSE`/`PROJECT_AS`. Non-Capture remains available where the source composite is legitimate but no stable finer map is source-warrantable; it does not rescue the coarse composite claim.
+
+Preparation control: [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP1 — Composite-Map Band Return
+
+A composite decomposition remains inside the Admissibility Band only when the source composite is independently warranted, inherited Loss remains visible, the finer map preserves Same-Reference traceability, role and weighting claims have source-supported praxeological purchase, and Δ–Ψ/person/authority boundaries remain intact.
+
+Below the Relevance Floor, accumulated detail does not alter a warranted composite reconstruction. Above the Traceability or Source Ceiling, map relations, roles, lineage, or dominance claims exceed support. Detail quantity, elegant diagrams, or formal completeness cannot compensate.
+
+Primary sites: [§§22.1–22.4](../01_blocks/03_part_ii_sub.md#chapter-22-decomposing-composite-structures).
+
+## Chapter 22 WP2 — Profile, Distribution, Substitution, and Conflict Band Return
+
+A Chapter-22 WP2 claim remains inside the Admissibility Band only where each profile dimension has separate support, distributed function has a coordination/common-function trace, redundancy and substitution disclose held-constant assumptions and Loss, thresholds remain qualitative and source-bound, and conflict outcomes remain open to counterevidence.
+
+Below the Relevance Floor lie profile dimensions or component changes that do not alter a warranted composite reconstruction. Above the Traceability Ceiling lie inferred coordination, synthetic scores, universal resilience thresholds, hidden causal necessity, person properties, and target functions unsupported by the source route.
+
+No abundance of local detail compensates for missing same-composite reference, coordination, relation support, or operation identity.
+
+Primary sites: [§§22.5–22.8](../01_blocks/03_part_ii_sub.md#22-5-modulating-profiles).
+
+## Chapter 22 WP3 Stability and Non-Fragmentation Band Return
+
+A Chapter-22 WP3 claim remains inside the Admissibility Band only where the stability object and interval are explicit, mechanisms and burdens are source-supported, the same composite and macrofunction remain reconstructible, inherited/new Loss remains visible, and Failure/Stop/Non-Capture are not bypassed by formal completeness.
+
+Below the Relevance Floor lie details that do not alter the warranted composite reconstruction. Above the Traceability Ceiling lie invented stability mechanisms, recovered formation history, operator revision, person/legitimacy inference, and undeclared operation changes.
+
+Primary sites: [§§22.9–22.11](../01_blocks/03_part_ii_sub.md#22-9-composite-stability).
+
+## Chapter 22 WP4 Admissibility Lock
+
+Composite decomposition remains within the Band only where the source composite, boundary, constitutive relations, lineage, inherited/new Loss, component and relation claims, weighting/profile dimensions, distributed-function mechanism, substitution effects, conflict, stability object, and practical difference remain traceable. Below the Floor lie detail multiplication without claim-relevant difference. Above the Ceiling lie invented constituents, recovered irrecoverables, role ontology, scores, hidden `COMPOSE`/`PROJECT_AS`, person conversion, legitimacy inference, and authority transfer. Formal completeness does not compensate.
+
+Primary site: [Chapter-22 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-22-completion-boundary).
+
+## Chapter 23 Preparation — Temporal Admissibility Pressure
+
+For temporal decomposition, the Praxeological Relevance Floor rejects added timestamps, micro-changes, phases, or Event labels that change no warranted reconstruction of transition, role, threshold, expectation, completion, source function, or Loss. The Traceability Ceiling rejects temporal narratives whose Event boundary, Non-Event expectation, phase relation, delay mechanism, or internal order cannot be traced to the source.
+
+Non-compensation remains strict:
+
+```text
+many timestamps
++ coherent phase diagram
++ valid schema
+≠ supported Event or Non-Event decomposition
+```
+
+Mandatory Stop applies where continuation requires invented expectation, phases, order, intention, category continuity, or an undeclared `COMPOSE`, PATH, or `PROJECT_AS` transition. Non-Capture remains available where the question is legitimate but no stable finer temporal map is source-warrantable; it does not rescue the coarse category or convert missingness into `Λ`.
+
+Preparation control: [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md).
+
+## Chapter 23 WP1 Temporal Admissibility Return
+
+Event-side temporal decomposition remains above the Praxeological Relevance Floor only where an added phase, threshold, role shift, sub-event, completion relation, or boundary distinction changes a supported reconstruction of the source Event. Timestamp multiplication, duplicated records, utterance segmentation, or micro-state changes without such difference constitute Event-Inflation pressure.
+
+Traceability requires every finer unit to return to the same source reference, declared Frame, Event boundary, transition or completion claim, and source pointer. Above the Traceability Ceiling lie invented phases, forced unity, hidden new `COMPOSE`, and Event labels that persist after reference or completion-relation loss.
+
+```text
+more observations
++ denser chronology
+≠ admissible Event decomposition
+```
+
+Primary sites: [§23.1](../01_blocks/03_part_ii_sub.md#23-1-event-decomposition) and [§23.4](../01_blocks/03_part_ii_sub.md#23-4-event-inflation).
+
+## Chapter 23 WP2 Non-Event Admissibility Return
+
+Non-Event decomposition remains above the Praxeological Relevance Floor only where an added expectation, positive sub-event, delay mechanism, threshold, role relation, or binding distinction changes a warranted reconstruction of the bounded non-realization. More meetings, dates, or procedural acts without changed `Λ` load remain resolution without purchase.
+
+Traceability requires the expected structure, Expectation Frame, window, non-realization evidence, internal positive processes, and praxis difference to remain source-bound. Above the Traceability Ceiling lie invented expectations, archive silence converted into `Λ`, delay converted into motive, and repeated cycles unified without reference continuity.
+
+```text
+more internal activity
+≠ stronger Non-Event claim automatically
+```
+
+Primary sites: [§23.5](../01_blocks/03_part_ii_sub.md#23-5-non-event-decomposition) and [§23.7](../01_blocks/03_part_ii_sub.md#23-7-delay-structure).
+
+
+
+## Chapter 23 WP3 Temporal Band Application
+
+Temporal distinctions remain above the Praxeological Relevance Floor only where they change a warranted boundary, category, phase relation, threshold, expectation, completion, praxis effect, Source-Function Effect, or Loss. They remain below the Traceability Ceiling only where order, overlap, multiple clocks, and completion relations remain source-supported. No detail volume compensates for missing expectation, reference, Type Integrity, or Source Ceiling. Optional Stop applies at bounded no-gain; Mandatory Stop applies before invention, person inference, missingness-to-`Λ`, or undeclared operation change. Primary sites: [§§23.9–23.11](../01_blocks/03_part_ii_sub.md#23-9-internal-temporal-order).
+
+
+## Chapter 23 Provisional-Lock Band Application
+
+Temporal differentiation remains within the Admissibility Band only where added phases, Event units, expectations, order, delays, or clocks change a warranted praxis reconstruction and remain source-traceable. Optional Stop applies at bounded no-gain; Mandatory Stop applies before invented expectation, chronology, intention, person inference, missingness-to-`Λ`, or undeclared operation change. Detail volume cannot compensate for absent PraxisPurchase, Type Integrity, Reference Continuity, or TraceableLoad. Primary site: [Chapter 23](../01_blocks/03_part_ii_sub.md#23-decomposing-events-non-events-and-internal-temporal-structures).
+
+## Chapter 24 Preparation — PATH-Decomposition Admissibility Pressure
+
+For Path and Trajectory decomposition, the Praxeological Relevance Floor rejects added chronology, micro-transitions, subpath labels, or periodizations that change no warranted reconstruction of transition, alternative, cost, binding, Frame, continuation, Path function, or Loss. The Traceability Ceiling rejects finer narratives whose subpaths, turning points, branches, dependence loads, or Same-Path identity cannot be traced to the source and original formation lineage.
+
+Non-compensation remains strict:
+
+```text
+many timestamps
++ elegant trajectory graph
++ complete YAML
+≠ supported Same-Path decomposition
+```
+
+Mandatory Stop applies where continuation requires invented transitions, alternatives, turning points, continuity, historical recovery, or a hidden `COMPOSE`/`PROJECT_AS`. Non-Capture remains available where the Path question is legitimate but rival periodizations or inherited compression prevent one warranted finer map; it does not rescue the coarse Path or Trajectory claim.
+
+Preparation control: [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md).
+
+## Chapter 24 WP1 — PATH-Source Admissibility Return
+
+Path decomposition remains above the Relevance Floor only where finer distinctions change a warranted reconstruction of transition, role, threshold, Non-Event, alternative, cost, internal Path relation, source category, or Loss. More chronology, timestamps, or graph density is insufficient.
+
+TraceableLoad requires the source reference, boundary, original selection/formation rule, inherited Loss, subpath boundaries, intermediate configurations, and transition relations to remain reconstructible. A richer narrative cannot compensate for a hidden new `COMPOSE`, broken Same-Reference continuity, unsupported causality, or person inference.
+
+```text
+many records
++ elegant graph
++ complete YAML
+≠ admissible Same-Path decomposition
+```
+
+Primary sites: [§24.2](../01_blocks/03_part_ii_sub.md#24-2-why-decompose-a-path) and [§24.4](../01_blocks/03_part_ii_sub.md#24-4-transition-clusters).
+
+## Chapter 24 WP2 Band Application
+
+**Below the Relevance Floor:** a candidate turning point, branch distinction, Frame change, or continuation adds detail but changes no warranted alternative, cost, asymmetry, binding, action corridor, continuity, or direction claim.
+
+**Within the Band:** the finer map is source- and window-bounded, preserves historical reference, exposes rival constructions and uncertainty, and changes a bounded Path/Trajectory reconstruction.
+
+**Above the Traceability Ceiling:** retrospective salience becomes a turning point without historical effects, imagined alternatives become branches, continuity is preserved by label, accessibility becomes prediction, or the map assigns intention, person properties, legitimacy, or authority.
+
+Primary sites: [§§24.5–24.8](../01_blocks/03_part_ii_sub.md#24-5-turning-points).
+
+## Chapter 24 WP3 Band Application
+
+**Below the Relevance Floor:** finer history, additional profiles, or rival periodization adds detail but changes no warranted Path relation, source function, claim disposition, alternative, cost, binding, Loss, or uncertainty.
+
+**Within the Band:** inherited/current Loss remain separate; Same-Path identity is traceable; Path-Dependence load is dimension- and source-bound; rival PATH construction receives a separate `COMPOSE`; the four result axes remain non-compensatory.
+
+**Above the Traceability Ceiling:** irrecoverable history is narrated as recovered fact, Path Dependence becomes substance or score, identity rests on label, rival formation is hidden, finer detail rescues a failed coarse claim, or the analysis infers persons, legitimacy, prediction, recommendation, or authority.
+
+Primary sites: [§§24.9–24.12](../01_blocks/03_part_ii_sub.md#24-9-irrecoverable-compression).
+
+## Chapter 24 Provisional-Lock Band Return
+
+Below the Relevance Floor, additional dates, fragments, phases, or branch labels add chronology without Path purchase. Above the Traceability Ceiling, a periodization, turning point, branch, dependence profile, or continuation survives material source changes without reconstructible load. Admissibility requires Same-Reference continuity, explicit formation lineage, inherited/current Loss, counterfactual sensitivity, operation integrity, and bounded Stop/Non-Capture.
+
+## Chapter 25 Preparation — Resolution Outcome and Stop Pressure
+
+Chapter 25 operationalizes the SUB-specific outcome patterns of the existing Admissibility Band. Resolution Gain requires a changed warranted reconstruction. Resolution Neutrality requires a valid supported comparison with no changed reconstruction. Drift appears when complexity outruns purchase, relation support, source coherence, or calibration. Escape appears when finer granularity displaces rather than answers counterpressure.
+
+Non-compensation remains strict:
+
+```text
+correct details
++ dense graph
++ complete YAML
++ elegant internal model
+≠ Resolution Gain
+```
+
+Below-floor detail may support Optional Stop after a valid neutral test. Mandatory Stop applies where continuation repeats no-gain, exceeds source support, loses the source object or coarser function, becomes uncalibrated, or immunizes a failed claim. Non-Capture remains available when a legitimate resolution question cannot be responsibly classified without false precision.
+
+Preparation control: [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md).
+
+## Chapter 25 WP1 Resolution-Band Return
+
+Chapter 25 WP1 operationalizes the Admissibility Band through outcome comparison:
+
+```text
+changed warranted reconstruction
+→ Resolution Gain candidate
+
+valid supported no-change
+→ Resolution Neutrality candidate
+
+complexity outruns discrimination, relations, or coherence
+→ Resolution Drift pressure
+
+counterpressure is displaced by coordinate change
+→ Resolution Escape pressure
+```
+
+The Band remains claim- and source-relative. No universal detail threshold, graph-density metric, complexity ratio, or resolution score is introduced. Gain cannot compensate for source failure; formal completeness cannot convert Escape into revision.
+
+Primary site: [Chapter 25 WP1](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape).
+
+## Chapter 25 WP2 Band Localization
+
+The lower boundary is crossed where added distinctions carry no additional PraxisPurchase for the tested claim. The upper boundary is crossed where semantic or structural precision outruns source-supported traceability. Between them, components must retain coarser-function anchoring, relations need independent support, and calibration conditions must remain stable enough to be counterfactually sensitive.
+
+```text
+Praxeological Relevance Floor
+─────────────────────────────
+supported purchasing comparison
+─────────────────────────────
+Praxeological Traceability Ceiling
+```
+
+Formal completeness, graph richness, computation, or repeated execution cannot compensate for a failed lower- or upper-bound condition. Monitoring can enforce declared Stop invariants but cannot generate substantive warrant.
+
+Primary site: [§§25.5–25.8](../01_blocks/03_part_ii_sub.md#25-5-detail-without-purchase).
+
+## Chapter 25 WP3 Admissibility Return
+
+Decomposition Fatigue may support Optional Stop after valid no-gain and contributes to Mandatory Stop when continuation crosses the Relevance Floor, Source Ceiling, or Traceability Ceiling, loses the source object, or becomes Drift or Escape. Unsupported refinement cannot be converted into Neutrality. Non-Capture remains admissible where rival result families cannot be responsibly discriminated. Re-entry requires a materially new bounded basis and repeats all relevant gates.
+
+## Chapter 25 Provisional-Lock Band Return
+
+Below the Relevance Floor, additional distinctions, timestamps, nodes, dimensions, or local descriptions do not change the tested warranted reconstruction. Above the Traceability Ceiling, semantic precision, relation claims, thresholds, or continued decomposition survive without reconstructible source and calibration load. Admissibility requires claim-bound comparison, supported relations, coarser-function continuity, anti-immunization, explicit Loss, and bounded Stop/Non-Capture/re-entry.
+
+## Chapter 26 Preparation — Operation-Boundary Admissibility
+
+A candidate remains within the admissible band only where the declared operation matches the actual claim burden.
+
+Lower-bound pressure appears where a new label, context, or description adds no transformation-relevant distinction. Upper-bound pressure appears where internal relations or target functions exceed source support, origin type is replaced, or dual-operation claims are collapsed into one record.
+
+Mandatory Stop applies before invented internal structure, invented target function, concealed operation switching, origin-type replacement, unsupported authority transfer, or use of one operation's success to compensate for the other's failure. `non_capture` remains available where the operation boundary cannot be resolved without false precision.
+
+Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 WP1 Operation-Boundary Return
+
+Chapter 26 WP1 applies the Admissibility Band before operation routing:
+
+```text
+source object + origin type + question + granularity/context relation
+→ bounded operation-entry candidate
+
+internal constitution with source object as explanatory target
+→ DECOMPOSE pressure
+
+retained origin-typed object with contextual target function
+→ PROJECT_AS pressure
+```
+
+The Band remains non-compensatory. Detailed internal structure cannot establish an unsupported target function; contextual usefulness cannot repair a failed source reconstruction; graph or interface richness cannot substitute for source and relation support.
+
+Primary site: [Chapter 26 WP1](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+
+## Chapter 26 WP2 Comparison and Recontextualization Return
+
+Chapter 26 WP2 applies the Band separately to each operation claim:
+
+```text
+supported internal source reconstruction
+≠ supported contextual target function
+
+bounded target context
++ source-traceable contextual difference
+→ PROJECT_AS warrant pressure
+
+changed Frame or presentation
++ no internal or target-function claim
+→ recontextualization may remain pre-operational
+```
+
+The Band is non-compensatory. A rich decomposition cannot compensate for an unbounded or unsupported target function. Contextual usefulness cannot compensate for a failed source reconstruction. Functional vocabulary and graph presentation cannot substitute for operation-specific source and relation support.
+
+Primary site: [Chapter 26 WP2](../01_blocks/03_part_ii_sub.md#26-5-trajectory-decomposition-and-projection).
+
+## Chapter 26 WP3 Admissibility Return
+
+A boundary classification remains admissible only where internal structure, target context, target function, origin type, Record separation, and Loss are supported independently. Dual-operation pressure requires two occurrences rather than compensation across gates. Invalid collapse creates Failure or Mandatory-Stop pressure where segmentation would require invented structure or would erase a prior failure. Non-Capture remains available where the operation boundary cannot be responsibly discriminated.
+
+## Chapter 26 Provisional-Lock Band Return
+
+Below the Relevance Floor, a changed label, Frame, visualization, or contextual use has no additional operation purchase. Above the Traceability Ceiling, internal structure or target function survives material changes in source, origin type, context, relation support, or operation order without reconstructible load. Admissibility requires claim-segment specificity, source and function continuity, origin-type integrity, separate Records for dual operations, explicit Loss, and bounded Stop/Non-Capture.
+
+## Chapter 27 Preparation — Local SUB Admissibility Band
+
+Chapter 27 applies the already defined Admissibility Band locally to `DECOMPOSE`:
+
+```text
+Praxeological Relevance Floor
+─────────────────────────────
+source-supported relational reconstruction
+with retained or explicitly revised source reference,
+coarser function, and type integrity
+─────────────────────────────
+local reconstructive upper boundary
+```
+
+Below the lower boundary, additional resolution has no PraxisPurchase for the tested claim. Above the upper boundary, parts, relations, or precision lose source-supported reconstructive anchoring.
+
+The gates are non-compensatory. Detail, source density, graph cohesion, formal validity, usefulness, or a strong component finding cannot compensate for failed Source Support, Source Reference, Relation Support, Coarser-Function Traceability, Type Integrity, or Stop discipline.
+
+Source Ceiling remains distinct from Non-Capture. Claim Reduction remains distinct from Stop. Finer resolution receives no automatic epistemic or authority priority.
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 WP1 Local SUB-Boundary Return
+
+Chapter 27 WP1 applies the Admissibility Band locally to finer reconstruction:
+
+```text
+supported additional distinction + changed praxis claim
+→ possible admissible-range pressure
+
+supported additional distinction + no changed praxis claim
+→ Lower SUB Boundary / Resolution Neutrality pressure
+
+more components or finer relations + lost source/function anchoring
+→ Upper SUB Boundary pressure
+```
+
+The Band remains non-compensatory. Detail cannot compensate for absent PraxisPurchase; component support cannot compensate for missing relation support; formal or graph completeness cannot compensate for lost source reference or coarser-function traceability.
+
+Primary site: [Chapter 27 WP1](../01_blocks/03_part_ii_sub.md#chapter-27-sub-boundary-conditions).
+
+## Chapter 27 WP2 Source, Component, Function, and Type Return
+
+Chapter 27 WP2 applies the local SUB range through four non-compensatory burdens:
+
+```text
+Source Ceiling
++ bounded component counterfactual
++ coarser-function traceability
++ type integrity or explicit type revision
+→ supported middle-range SUB candidate
+```
+
+Support for a component cannot compensate for an unsupported relation; component sensitivity cannot compensate for absent source support; source-object continuity cannot compensate for an unsupported function claim; type preservation cannot immunize an initial type claim.
+
+Primary site: [Chapter 27 WP2](../01_blocks/03_part_ii_sub.md#27-5-source-ceiling).
+
+## Chapter 27 WP3 No-Privilege, Stop, and Complete SUB Gate
+
+Chapter 27 WP3 completes the local SUB application of the Admissibility Band:
+
+```text
+no automatic priority for fine resolution
++ conjunctive relevance, source, reference, relation, function, type, granularity, and Stop gates
++ explicit reduction, Failure, Non-Capture, and re-entry routing
+→ bounded SUB result
+```
+
+No detail, elegance, graph density, formal completeness, utility, or computation compensates for a failed gate. Primary site: [Chapter 27 WP3](../01_blocks/03_part_ii_sub.md#27-9-no-privilege-of-fine-resolution).
+
+## Chapter 27 Provisional-Lock Local SUB Band
+
+Chapter 27 locks the local `DECOMPOSE` realization of the existing Admissibility Band:
+
+```text
+Lower SUB Boundary
+─────────────────────────────
+admissible local SUB range
+─────────────────────────────
+Upper SUB Boundary
+```
+
+The lower boundary tests additional PraxisPurchase; the upper boundary tests source-, relation-, reference-, function-, type-, and Source-Ceiling traceability. Neither boundary is a score, universal scale, or new LIMITS layer. Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation — Case and Local-Audit Band Return
+
+Chapter 28 does not create a new Band. It tests whether the local SUB rules already established in Chapters 18–27 discriminate among admissible reconstruction, supported neutrality, unsupported microstructure, fragmentation, drift, escape, operation confusion, Stop, Claim Reduction, Failure, and Non-Capture.
+
+```text
+case completeness
++ source and relation support
++ source-reference and function traceability
++ operation integrity
++ Loss, alternatives, Stop, and output mapping
+→ locally auditable SUB result
+```
+
+No positive case validates `DECOMPOSE` generally. No case density, narrative coherence, graph structure, formal validity, or successful artifact packaging compensates for failed PraxisPurchase, Source Support, Reference Continuity, Type Integrity, Counterfactual Sensitivity, Claim Ceiling, or Stop discipline.
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 — Positive Case Band Results
+
+The six positive cases demonstrate bounded passage through the local SUB Band. Each case contains a source object, declared finer granularity, components, relations, source-function effect, Resolution Gain, complete Loss, alternatives, and one canonical mapping. None compensates for a failed gate by detail volume, graph density, or formal completeness.
+
+The positive set maps one Trajectory case to `admissible` and five bounded occurrence/reconstruction cases to `admissible_with_bounded_claim`. These mappings are case-specific and do not validate `DECOMPOSE` generally.
+
+Artifacts: [Case Index](../03_cases/Case_Index.md).
+
+## Chapter 28 WP2 — Countercase Band Results
+
+The WP2 cases exercise both Band limits: Overfine Analysis falls below the Relevance Floor, while unsupported structure, fragmentation, operator-type reification, Resolution Escape, and false macrostructure exceed source, traceability, type, function, or anti-immunization limits. Stop, reduction, failure, and partial admissibility remain non-equivalent.
+
+## Chapter 28 WP3 — Completed SUB Discrimination Set
+
+The final confusion cases show that analogy without source-bound identity maps to `analogy_only`, while recurrent modulation does not enlarge operator grammar. The integrated Local Audit passes all twenty-four SUB questions. Chapter 28 is lock-ready but remains provisional pending WP4.
+
+## Part II — SUB Provisional-Lock Band Application
+
+The Chapters-18–28 lock confirms the local `DECOMPOSE` application of the Admissibility Band:
+
+- below the Relevance Floor, finer distinction lacks additional PraxisPurchase;
+- above the Traceability or Source Ceiling, parts, relations, precision, reference, function, or type lose traceable load;
+- inside the Band, Source Reference and Coarser-Function Traceability remain retained or explicitly revised;
+- failed gates cannot be compensated by graph density, formal completeness, additional compute, or authority claims.
+
+Stop, Claim Reduction, Failure, and Non-Capture remain distinct positive control outcomes.
+
+Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).

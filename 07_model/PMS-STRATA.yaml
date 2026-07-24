@@ -1,7 +1,7 @@
 artifact:
   id: pms_strata_formal_model_root
   title: PMS-STRATA Formal Model Root
-  version: 0.1.97
+  version: 0.1.152
   status: formal_model_v0_provisional
   build_step: 6
   artifact_role: Formal-model manifest, package-level assembly contract, and cross-artifact integrity declaration.
@@ -15,15 +15,14 @@ artifact:
   - formal-model and authority boundaries
   assembly_basis:
     repository_root: 16. PMS-STRATA/
-    built_from_snapshot: 145. PMS-STRATA_Chapter_17_WP3B_v0.1.96.zip
-    built_from_snapshot_sha256: d883995e34f1490e93d3a782f85c1cca1bca5f2e5d33db76c643abf72d0f1166
+    built_from_snapshot: 05_PMS-STRATA_Source_of_Truth_ZIP_147.zip
+    built_from_snapshot_sha256: 4d84b79c88b812184bc0f83f8e5f30aaaf159a28aa15fd17e73b1e53f9b4869a
     active_component_count: 5
     self_fingerprint_embedded: false
     self_fingerprint_reason: A root artifact cannot contain a stable checksum of its own serialized bytes.
-  non_authority_statement: Root assembly, manifest validity, checksum agreement, dependency consistency, inventory
-    equality, schema validity, or workflow completeness do not establish substantive admissibility, empirical truth,
-    actual causality, semantic or normative validity, person judgment, legitimacy, application authority, or completeness
-    of capture.
+  non_authority_statement: Root assembly, manifest validity, checksum agreement, dependency consistency, inventory equality,
+    schema validity, or workflow completeness do not establish substantive admissibility, empirical truth, actual causality,
+    semantic or normative validity, person judgment, legitimacy, application authority, or completeness of capture.
   core_non_equivalences:
   - more structure != more authority
   - machine-readable consistency != truth proof
@@ -97,44 +96,43 @@ authority_and_precedence:
     entries:
     - path: 04_reference/Glossary.md
       role: terminology support
-      sha256: 0256b9a42dd2c413d114501a51b55e2d590a1b63a564081bef7f43e8e1ae41df
+      sha256: 57129d4b4f8eb87ec1a221c4205061b164b59cf5f6a7152841b9eaf04b4b2448
     - path: 04_reference/Operator_Index.md
       role: operator terminology and cross-reference support
-      sha256: ee7d534851149fc09ff41769d10536a80962a613b0001b3ab949d21cd820c704
+      sha256: cc362fa14fc36eef39da8a6321330cb6a5897ef026a1717ee81b0ebb5c15ed78
     - path: 04_reference/Transformation_Operation_Index.md
       role: operation and transformation cross-reference support
-      sha256: 8b05685d272953ea8bfa35b1a2adf7407b227111f0ef2b0da1cf24b438c0fe98
+      sha256: 5ad62c1cc933ca846995af4cd40f5336ef2c81e6a1ef5aa723b54a9e37088088
     - path: 04_reference/Non_Equivalence_Index.md
       role: non-equivalence and category-collapse support
-      sha256: d57cd3bc38bb5c012dfabbba727ca3471d5c5555e58f63d9856d5750b763cf3b
+      sha256: c0b270ba5e2af6ae1892c01caf0e6050cf9568a64bca5edd51ed3ac8af7d1b16
     - path: 04_reference/Output_Class_Index.md
       role: output-class and boundary support
-      sha256: a5deabcfe98e740a0727ac35ef78747e07b1f5e8aa722f99a15c748e72c6d0c3
+      sha256: e19040176db3e5f70156d34cd905db133d765aee093c8b1f89c365ae769157f4
     - path: 04_reference/Claim_Type_Table.md
       role: claim, support, disposition, and capture-axis support
-      sha256: 908408174416d59a977a5a56614bb81092ddeb057d5c2285f339332af6806bf8
+      sha256: abf599fdc12d98657c00c29c44b9251989987a1c1717cf8dbc1dadad7d1182ca
     - path: 04_reference/Admissibility_Band_Reference.md
       role: admissibility and synchronized twelve-stage audit support
-      sha256: cd83bcaa925c8c5220c12ab0e5fecd3730a42c14db3564d36795fcffc14b6926
+      sha256: c8b95256db40c434cd51e4ea7127f87842607645abc3bf4203af8d7035cb882d
     - path: 04_reference/Cross_Reference_Map.md
       role: cross-artifact navigation support
-      sha256: bd593fea635a799fbbd36f772150c1a8c5d7ded0cf9b4659aa56db21a37c9044
+      sha256: 2d18353509e07284ebafef1481eb49829e4976ed725bb91a6c8be0836e093e58
     - path: 04_reference/Evidence_Map.md
       role: source, support, and warrant routing support
-      sha256: ea140b8274e08d535b2cdb4663d9dbb12e066b2011e3bd35d3bac3673ea8bdb7
+      sha256: 17f4bb68ec9591e3ba1efde9572eb0e33dcfab8aa51b93b6931eb117d46ef28e
     - path: 04_reference/Audit_Checklist.md
       role: audit-stage and output-mapping separation support
-      sha256: f2983518886627c7c26768de233d47d2a1720f58dbcb556d107e44e5570bcbba
+      sha256: c9278a500b74bb81ec06351dd1f18d3ed0c46600061a895e44fae04e0c1425df
     - path: 04_reference/Reader_Pathways.md
       role: formal-model build and reading-route support
-      sha256: 3654d80b16215e19009fbbd8cc895821e28a07314c4d479a6f988e320805a143
+      sha256: df98b3ada90529263fc815084e9fbd6e49dc3a762004661b0d33820dd795216e
   readme_role:
     path: README.md
     role: navigation and repository status only
     governing_authority: false
-  prose_precedence: The formal model mirrors and tests controlled prose. It does not replace PMS Base, controlled
-    prose, including later provisionally or finally locked canonical corpus prose, or substantive human and domain-grounded
-    judgment.
+  prose_precedence: The formal model mirrors and tests controlled prose. It does not replace PMS Base, controlled prose, including
+    later provisionally or finally locked canonical corpus prose, or substantive human and domain-grounded judgment.
 assembly_constraints:
   exact_active_component_count: 5
   root_is_not_counted_as_active_component: true
@@ -168,8 +166,7 @@ component_manifest:
       declared_status: formal_model_v0_provisional
       build_step: 1
       sha256: fb4b05f39a045b586706f59b74049d2891d11f23b910057e6a677367d49552c2
-      role: Canonical registry of operation identities, signatures, applicability, occurrence burdens, and chain
-        constraints.
+      role: Canonical registry of operation identities, signatures, applicability, occurrence burdens, and chain constraints.
       owned_scope:
       - operation type identity
       - operation signatures and invariants
@@ -219,10 +216,10 @@ component_manifest:
       path: 07_model/Admissibility_Rules.yaml
       format: yaml
       artifact_id: pms_strata_admissibility_rules
-      version: 0.1.39
+      version: 0.1.94
       declared_status: formal_model_v0_provisional
       build_step: 3
-      sha256: a4a078c346586b057c66d70b4502632ae7ef98307cc89cdb9e43228327b00b27
+      sha256: 563a13e5645eb5f6f0069c38e8cf6ecb6e2ef6834c94b53a22660c05b60d83b1
       role: Canonical rule semantics, controlled local findings, non-compensation, and twelve-stage audit contract.
       owned_scope:
       - sixteen Rule identities and semantics
@@ -280,8 +277,7 @@ component_manifest:
       declared_status: provisional_formal_model_v0
       build_step: 5
       sha256: 09a5b7814b6dcf346284c11ffc6e6939f5625286189d92ad021571ed6be61454
-      role: Concrete Transformation Record syntax, requiredness, conditional payloads, pointers, and structural
-        consistency.
+      role: Concrete Transformation Record syntax, requiredness, conditional payloads, pointers, and structural consistency.
       owned_scope:
       - operation-occurrence and integrated-chain record syntax
       - routed and formal-diagnostic record discrimination
@@ -928,8 +924,7 @@ formal_model_boundary:
   - ownership and dependency consistency
   - operation, Rule, class, stage, boundary, route, scope, and state identifier consistency
   - workflow and record-schema handoff completeness
-  - absence of prohibited scoring, ranking, compensation, fourth-operation, eleventh-class, and authority-inheritance
-    structures
+  - absence of prohibited scoring, ranking, compensation, fourth-operation, eleventh-class, and authority-inheritance structures
   may_not_determine:
   - empirical truth
   - actual causality

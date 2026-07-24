@@ -1,6 +1,6 @@
 # PMS-STRATA — Claim Type Table
 
-**Status:** Reference Kernel v0.2.42 — Chapter-11-WP2-synchronized claim architecture  
+**Status:** Reference Kernel v0.2.44 — Chapter-20-WP3-synchronized claim architecture  
 **Repository role:** `04_reference` registry, ceiling, reduction, and audit handoff; not an independent theory source  
 **Authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the provisionally locked canonical Foundations Chapters 0–8 in `01_blocks/01_foundations.md`, the provisionally controlled Reference Kernel, and `04_reference/Chapter_1_Preparation_Record.md` through `04_reference/Chapter_8_Preparation_Record.md` as non-theory production controls
 
@@ -2741,3 +2741,659 @@ The case corpus retains Path, Trajectory, and dimension-specific Path-Dependence
 ## Part I — PATH Provisional-Lock Claim Boundary
 
 The lock covers bounded Sequence, Path, Trajectory, dimension-specific Path-Dependence, branch/alternative, Non-Event, and `COMPOSE` claims already tested in Chapters 9–17. It does not cover hidden component claims, target functions, empirical causality, prediction, diagnosis, legitimacy, intervention, or application authority.
+
+## Chapter 18 Preparation — Source-Object Claim Controls
+
+Chapter 18 separates four claim types:
+
+| Claim | Required content | Does not establish |
+|---|---|---|
+| compressed-source-object claim | reference, origin type, Frame, granularity, level, function, source basis, uncertainty | actual components |
+| provisional-elementarity claim | sufficiency for current Frame/granularity/claim | ontological indivisibility |
+| decomposition-reason claim | expected praxeological difference, source route, stop condition | a successful `DECOMPOSE` result |
+| no-decomposition claim | coarse sufficiency, no purchase, source insufficiency, irrelevance, or calibration loss | permanent undecomposability |
+
+The current/coarser source function is a test target. Preserving it in the record does not immunize it from later refinement or rejection.
+
+## Chapter 18 WP1 — Source-Candidate Claim Separation
+
+| Claim type | Permitted WP1 assertion | Withheld assertion |
+|---|---|---|
+| SUB-scope claim | finer reconstruction is governed by SUB while `DECOMPOSE` remains a distinct operation | any fourth operation or operation occurrence |
+| provisional-elementarity claim | the current analysis stops internal distinctions for declared coordinates, sources, and claim | absolute or ontological elementarity |
+| compressed-source-candidate claim | an identifiable occurrence or composite is treated as one unit with bounded unresolved internal questions | discovered components, target granularity, or operation result |
+| source-side typing claim | one relevant origin/occurrence typing is declared, with compatible or rival typings preserved | one exclusive true type |
+| operator-type boundary claim | Δ–Ψ types are not STRATA decomposition sources | immunity of PMS Base from theoretical critique |
+| eligibility claim | a concrete occurrence or composite may enter later admissibility testing | passage of Relevance Floor, source ceiling, continuity, or Chapter-20 procedure |
+
+The WP1 production result `admissible_but_provisional` concerns the bounded corpus-production state. It is not the Output Class of a `DECOMPOSE` record.
+
+
+
+## Chapter 18 WP2 — Compression and Entry-Decision Claims
+
+| Claim type | Required support | Prohibited inflation |
+|---|---|---|
+| necessary-compression claim | relation, uncertainty, comparison, temporal orientation, source precision, or claim ceiling preserved by the coarse unit | compression is inherently correct or final |
+| compression-insufficiency claim | source-supported internal distinction plus material effect on a bounded praxis claim | complexity, detail volume, or hidden-depth assertion alone |
+| reason-to-decompose claim | coarse claim, expected distinction, source route, gain condition, neutrality condition, and stop condition | discovered components or successful operation result |
+| no-decomposition claim | coarse sufficiency, no purchase, source insufficiency, claim irrelevance, calibration loss, or operation mismatch | permanent simplicity, absolute elementarity, or future closure |
+| counterexample-pressure claim | a specific occurrence burdens the scope or typing of the coarse claim | automatic finer model or source route |
+
+A Chapter-18 no-decomposition decision is an entry decision. It does not use `resolution_neutral` unless a later `DECOMPOSE` occurrence has actually produced and compared a finer reconstruction.
+
+
+## Chapter 18 WP3 — Preservation and Source-Entry Claims
+
+| Claim type | Required support | Prohibited inflation |
+|---|---|---|
+| reference-preservation claim | stable source lineage, declared identity conditions, and explicit coarse-to-finer relation | same label or topic similarity treated as identity |
+| source-function test-target claim | current/coarser function and its support/uncertainty status remain explicit | function guaranteed to survive finer reconstruction |
+| preservation-compliant revision claim | same reference and claim genuinely tested, with adverse results retained | revision treated as failure of preservation |
+| source-entry Stop claim | coarse sufficiency, lack of purchase, source/type/reference boundary, or other controlled reason | simplicity, final closure, or person/causal finding |
+| source-entry Non-Capture claim | materially incompatible source-supported reconstructions or unstable reference/relations after bounded testing | protection of a failed or strongest unsupported claim |
+
+Possible later source-function effects—confirmed, refined, internally differentiated, partially preserved, rejected, or underdetermined—remain Chapter-20 local results and must map separately to the ten canonical Output Classes.
+
+
+## Chapter 18 Provisional-Lock Claim Boundary
+
+| Claim | What Chapter 18 may establish | What remains prohibited or deferred |
+|---|---|---|
+| source-candidate claim | identifiable occurrence or composite under declared source-side coordinates | hidden component truth or automatic operation warrant |
+| compression-insufficiency claim | bounded claim pressure plus expected difference and source route | successful finer reconstruction |
+| no-decomposition claim | coarse sufficiency, no purchase, source ceiling, mismatch, or calibration reason | permanent undecomposability or `resolution_neutral` automatically |
+| source-readiness claim | complete enough declaration for Chapter-19 testing | target granularity, component relations, source-function effect |
+| Chapter-18 lock claim | Contract and local audit passed provisionally | SUB lock, empirical warrant, or authority increase |
+
+## Chapter 19 Preparation Claim Handoff
+
+Chapter 19 prepares four claim families without assigning operation results:
+
+| Claim family | Minimum burden | Does not establish |
+| --- | --- | --- |
+| granularity-relation claim | source and target resolutions, distinction change, Frame/reference status | actual finer components or truth gain |
+| expected-difference claim | bounded praxis reconstruction that may change | predetermined result |
+| comparability claim | aligned or translated reference, Frame, time, source, predicate, and distinction basis | empirical equivalence or superiority |
+| mismatch claim | non-aligned distinction sets explaining apparent tension | contradiction dissolved or both claims true |
+
+A no-gain pressure remains preparatory until Chapter 20/25. Local comparison descriptions are not canonical Output Classes. Every material coordinate change creates a new testable claim and does not erase prior failure.
+
+## Chapter 19 WP1 Canonical Claim Handoff
+
+| Claim family | WP1 may establish | WP1 does not establish |
+| --- | --- | --- |
+| granularity-change claim | a declared source-to-target distinction-set change along a bounded dimension | source-supported components, operation success, or truth rank |
+| relative-downward claim | object, comparator, relation, and purpose for analytical opening | ontological layer, causal fundamentality, or final constituents |
+| stable-Frame claim | continuity of reference, relevance rule, predicate, and bounded scope sufficient to prepare comparison | actual Frame identity by label reuse or valid decomposition automatically |
+| changed-Frame claim | a separately declared relevance-rule change and new testable claim | inherited result, repaired prior failure, or `DECOMPOSE` identity |
+| expected-difference claim | the bounded praxis reconstruction that a finer distinction set is meant to pressure | predetermined result or Chapter-25 resolution class |
+
+Every material change of Frame, reference, predicate, or comparison dimension remains a new testable claim. WP1 assigns no operation result or canonical Output Class.
+
+## Chapter 19 WP2 Canonical Claim Handoff
+
+| Claim family | WP2 may establish | WP2 does not establish |
+| --- | --- | --- |
+| distinction-set claim | which units and/or relations become separately testable and which bounded claim they pressure | source-supported final components or operation success |
+| local-candidate claim | a bounded source-visible structure with a plausible source-claim relation | necessity, sufficiency, decisive causality, or final component status |
+| distributed-candidate claim | a traceable structure carried across time, roles, relations, documents, or institutional sites | macro status, one unified component, or causal production automatically |
+| carrying-component claim | contribution to reproduction or constitution of a coarse function | indispensability, causal primacy, or exhaustive explanation |
+| disturbing-component claim | source-relevant counterpressure capable of qualifying, weakening, or rejecting a coarse claim | automatic rejection or completed source-function effect |
+| fragment claim | failure of the current reference/source/function/relevance/relation burden | universal irrelevance under every Frame or claim |
+
+WP2 assigns no comparability status, `DECOMPOSE` result, Chapter-25 resolution class, or canonical Output Class.
+
+## Chapter 19 WP3 Canonical Claim Handoff
+
+| Claim family | WP3 may establish | WP3 does not establish |
+| --- | --- | --- |
+| comparability claim | a bounded basis across reference, predicate, Frame, time, source standard, dimension, translation, and Loss | identity, truth rank, mutual substitutability, or global comparability |
+| translation claim | a declared mapping between non-identical distinction sets with disclosed residual mismatch | lossless equivalence or automatic semantic translation |
+| partial-comparability claim | specified aligned predicates, segments, roles, or dimensions | whole-object comparability |
+| incomparability claim | the precise relation currently preventing responsible comparison | plural truth, protection of a failed claim, or permanent impossibility |
+| mismatch claim | apparent disagreement explained through non-aligned predicates or distinction sets | substantive contradiction dissolved automatically |
+| contradiction-preservation claim | aligned reference, Frame, time, and predicate still support direct affirmation/denial pressure | final operation result or canonical Output Class |
+| lower-granularity claim | whether a proposed distinction has a plausible route to changing warranted praxis reconstruction | resolution gain, neutrality, drift, or failure already classified |
+| Minimal Granularity Relation claim | exact conceptual coordinate declaration and Shared Record mapping | actual components, source-function effect, DECOMPOSE success, or schema replacement |
+
+
+## Chapter 19 Provisional-Lock Claim Boundary
+
+| Claim | What Chapter 19 may establish | What remains prohibited or deferred |
+|---|---|---|
+| granularity-change claim | declared distinction-set relation between source and proposed target resolution | actual finer component truth or operation success |
+| component-candidate claim | source-related, claim-relevant carrying, disturbing, or replaceable candidate | necessity, sufficiency, causal priority, or final constituency |
+| comparability claim | local aligned or translated comparison basis with Loss | identity, global comparability, or truth ranking |
+| mismatch/contradiction claim | apparent mismatch or preserved contradiction under explicit predicates | automatic semantic adjudication |
+| coordinate-readiness claim | complete enough relation for Chapter-20 testing | source support, source-function effect, or Output Class |
+| Chapter-19 lock claim | Contract and local audit passed provisionally | SUB lock, empirical warrant, or authority increase |
+
+## Chapter 20 Preparation Claim Separation
+
+A Chapter-20 record may contain several claims that must not be fused:
+
+| Claim axis | Question | Typical disposition |
+| --- | --- | --- |
+| operation claim | Was a valid `DECOMPOSE` occurrence executed? | retained, bounded, provisional, failed, stopped, non-captured |
+| source-function claim | What happened to the current/coarser function under finer evidence? | confirmed, refined, differentiated, partially preserved, rejected, underdetermined |
+| prior source claim | Does the earlier coarse formulation remain warranted? | retained, narrowed, reformulation required, withdrawn, unresolved |
+| resolution claim | Did finer resolution change a warranted reconstruction? | owned fully by Chapter 25; Chapter 20 may prepare no-gain evidence |
+
+Distinct claims require distinct record segments and may receive distinct canonical Output Classes. Class stacking on one undifferentiated claim remains prohibited. Preparation control: [`Chapter_20_Preparation_Record.md`](Chapter_20_Preparation_Record.md).
+
+## Chapter 20 WP1 Claim-Type Return
+
+| Claim | What WP1 may establish | What remains withheld |
+| --- | --- | --- |
+| operation-identity claim | the proposed transformation is of `DECOMPOSE` form | actual success or admissibility |
+| precondition claim | declared entry burdens are present or a burden fails | component or relation support |
+| source-identity claim | a bounded occurrence/composite is independently identifiable | final reference continuity under the completed finer model |
+| decomposition-question claim | one source-, distinction-, claim-, route-, no-gain-, and Stop-bound question is explicit | answer, source-function effect, or Output Class |
+| operator-type boundary claim | Δ–Ψ types are not decomposed | occurrence typing confirmation or rejection |
+
+WP1 claims are procedural and source-entry bounded. They do not inherit higher truth, causality, completeness, or authority from finer resolution.
+
+## Chapter 20 WP2 Claim-Type Return
+
+| Claim | WP2 may establish | WP2 must not infer |
+| --- | --- | --- |
+| Expected-difference claim | bounded possible change plus no-gain condition | promised discovery or operation success |
+| Source-support claim | role-specific source-to-component/relation support | general source sufficiency or truth |
+| Component claim | local component status after five burdens | final constituent, necessity, sufficiency, or causal primacy |
+| Relation claim | source-supported local organization and uncertainty | automatic causality or new PMS operator |
+| Internal-temporality claim | supported order, interval, overlap, delay, persistence, or uncertainty | complete chronology where sources do not carry it |
+
+Source-function effect, operation result, prior source-claim disposition, canonical Output Class, and final Loss remain separate later claims.
+
+## Chapter 20 WP3 Claim-Axis Return
+
+A completed decomposition may carry at least four distinct claim axes:
+
+1. the current operation claim;
+2. the source-function effect;
+3. the prior source-claim disposition;
+4. the canonical governance class for the current claim.
+
+Distinct claims with different results require separate record segments or linked records. One source object does not authorize one undifferentiated class assignment.
+
+Primary site: [§20.9–§20.10](../01_blocks/03_part_ii_sub.md#20-9-preservation-of-source-function).
+
+## Chapter 20 WP4 Claim-Lock Return
+
+| Claim family | Chapter 20 may establish | Chapter 20 does not establish |
+|---|---|---|
+| operation claim | a bounded generic `DECOMPOSE` occurrence with supported components and relations | universal decomposition success |
+| source-function claim | confirmed, refined, differentiated, partially preserved, rejected, or underdetermined under the tested sources | immunity of the coarse function |
+| prior-claim disposition | explicit retention, reduction, failure, or unresolved status for the prior claim | automatic identity with the new operation result |
+| output-class claim | one canonical class for one clearly segmented claim | automatic or stacked classification |
+| authority claim | no authority increase | empirical, causal, institutional, person-level, or application authority |
+
+Primary site: [Chapter-20 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-20-completion-boundary).
+
+## Chapter 21 Preparation Claim Types
+
+| Claim | May be tested in Chapter 21 | Must not be inferred |
+|---|---|---|
+| Occurrence-typing claim | whether one bounded occurrence is adequately Frame-, Attractor-, Asymmetry-, Impulse-, or Binding-typed | operator essence or universal family rule |
+| Production-condition claim | which source-supported structures produce or maintain the occurrence | final constituents, necessity, sufficiency, or causal primacy |
+| Stability claim | coarse function persists across internal variation | internal homogeneity or immutable type |
+| Distributed-Asymmetry claim | whether local gradients coordinate within the same occurrence | automatic macro-object or target function |
+| Binding claim | structural continuity, records, commitments, and breach costs | person property, moral rank, or diagnosis |
+
+Preparation control: [Chapter 21 Preparation Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP1 Claim-Type Return
+
+| Claim | WP1 may establish | WP1 must not infer |
+| --- | --- | --- |
+| operator-occurrence claim | one bounded source occurrence is under a declared operator typing | the operator type is composed of observed parts |
+| Frame-production claim | supported practices and relations maintain or disturb one Frame occurrence | universal constituents of `□` |
+| stable-function claim | a bounded Frame function survives declared internal variation | internal homogeneity or component necessity |
+| substitution claim | a replacement may preserve or alter a bounded function | free interchangeability or unchanged costs automatically |
+| counterevidence claim | finer evidence can pressure the occurrence typing | rejection of the operator type |
+| role claim | a role carries a relation in one occurrence | person property, motive, diagnosis, maturity, or moral rank |
+
+Primary sites: [§21.1–§21.4](../01_blocks/03_part_ii_sub.md#chapter-21-decomposing-operator-typed-occurrences).
+
+## Chapter 21 WP2 Claim-Type Return
+
+WP2 permits bounded occurrence claims about:
+
+- supported differential continuation within one Attractor-typed occurrence;
+- repetition without sufficient Attractor load;
+- recurrent dynamic transition form;
+- dimension-specific gradients within one Asymmetry-typed occurrence;
+- coordinated, offsetting, or uncoordinated distributed gradients.
+
+It does not authorize person claims, motive claims, causal sufficiency, macro-object formation, target functions, legitimacy, sanction, or authority. Final source-function effects and canonical Output Classes remain deferred.
+
+Primary sites: [§21.5–§21.9](../01_blocks/03_part_ii_sub.md#21-5-attractor-typed-occurrence).
+
+## Chapter 21 WP3 Claim-Type Return
+
+Occurrence-family claims remain distinct from motive, person, legitimacy, causal-necessity, composite, and target-function claims. The bounded Binding example separates `supported_relational_decomposition`, `internally_differentiated`, reduced prior claim, and `admissible_with_bounded_claim` as four different axes. None may inherit authority from another.
+
+Primary site: [§21.11](../01_blocks/03_part_ii_sub.md#21-11-binding-typed-occurrence).
+
+## Chapter 21 WP4 Claim Boundary Return
+
+Chapter 21 permits bounded claims about the production, maintenance, disturbance, internal variation, substitution, and failure conditions of one source-supported operator-typed occurrence. It does not authorize claims about operator constituents, person identity, motive, diagnosis, moral rank, legitimacy, sanction, universal institutional structure, composed macro-objects, or contextual target functions without their own warranted operations.
+
+Primary site: [Chapter-21 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-21-completion-boundary).
+
+## Chapter 22 Preparation Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| composite-source-entry claim | identifiable constituents, boundary, constitutive relation, function, trace, inherited limits | bundle or label treated as composite |
+| internal-composition-map claim | components and relations jointly represented with source support and uncertainty | parts list |
+| component-role claim | role relative to bounded composite function, Frame, time, and counterpressure | universal or ontological role |
+| operator-weighting claim | declared dimension, occurrence carriers, time, support, counterpressure, changed-reconstruction condition | additive score or dependency revision |
+| modulating-profile claim | source-side access, threshold, temporal, cost, exposure, repair, or stabilization relation | operator or person type |
+| distributed-function claim | separated elements, coordination, common function, partial-failure effect | aggregation or co-presence |
+| redundancy/substitution claim | removal or replacement pressure, preserved function, changed cost/load/Loss | irrelevance or identity |
+| internal-conflict claim | supported conflict relation and bounded outcome | automatic composite destruction or legitimacy judgment |
+| composite-stability claim | specified stability object, interval, mechanism, and unequal-load status | stable label as proof of stable parts |
+| fragmentation-failure claim | source composite or function lost through atomism, relation loss, unsupported role, or local overprivileging | more detail treated as success |
+
+Preparation control: [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP1 Claim-Type Return
+
+| Claim | WP1 may establish | WP1 must not infer |
+| --- | --- | --- |
+| composite-entry claim | one bounded source object satisfies constituent, boundary, relation, function, trace, and Loss burdens | every bundle, institution label, or multiple typing is a composite |
+| lineage claim | composition trace and inherited Loss constrain the current reconstruction | reversal of prior compression or recovery of irrecoverable alternatives |
+| map claim | selected components and relations reconstruct the same bounded composite | a parts list is sufficient or arrows prove causality automatically |
+| role claim | one element is constitutive, modulating, replaceable, compensatory, or incidental for a declared claim | universal ontology, permanent rank, person rank, or causal sufficiency |
+| weighting claim | declared operator occurrences carry different relative loads by function, dimension, time, and source | operator fusion, dependency change, numerical strength, authority, or target function |
+
+Primary site: [§§22.1–22.4](../01_blocks/03_part_ii_sub.md#chapter-22-decomposing-composite-structures).
+
+## Chapter 22 WP2 Claim-Type Return
+
+| Claim type | Required declaration | Prohibited inflation | Primary site |
+|---|---|---|---|
+| modulating-profile claim | source composite, function, dimension, relation carrier, scope, source support, counterpressure, expected difference | operator/composite/person type, target function, synthetic score | [§22.5](../01_blocks/03_part_ii_sub.md#22-5-modulating-profiles) |
+| distributed-function claim | distributed elements, same-composite relation, coordination/dependency, common function, partial-failure effect, support and uncertainty | aggregation, co-presence, silent macro-composition | [§22.6](../01_blocks/03_part_ii_sub.md#22-6-distributed-function) |
+| redundancy claim | bounded function overlap, held-constant conditions, removal pressure, source-supported alternatives | universal necessity, sufficiency, causal priority | [§22.7](../01_blocks/03_part_ii_sub.md#22-7-redundant-and-substitutable-components) |
+| substitution claim | current/substitute carriers, preserved function, transition conditions, changed cost/burden/access/timing, Loss | equivalence, irrelevance, lossless replacement | [§22.7](../01_blocks/03_part_ii_sub.md#22-7-redundant-and-substitutable-components) |
+| threshold claim | function or identity at risk, relation set, supported change sequence, claim-changing difference, source ceiling | universal percentage, resilience or operator score | [§22.7](../01_blocks/03_part_ii_sub.md#22-7-redundant-and-substitutable-components) |
+| internal-conflict claim | conflicting relations, incompatibility, common composite, scope, mechanism, support, unresolved structure | automatic destruction, health, legitimacy, sanction | [§22.8](../01_blocks/03_part_ii_sub.md#22-8-internal-conflict) |
+
+## Chapter 22 WP3 Claim-Type Return
+
+| Claim | Required burden | Not implied |
+|---|---|---|
+| Composite-stability claim | stability object, interval, changing carriers, preserving relations, mechanism, counterpressure, defeat condition | homogeneity, resilience, legitimacy, equal burden |
+| Non-fragmenting decomposition claim | same reference, boundary, components plus relations, macrofunction test, inherited/new Loss | maximal detail, anti-macro privilege |
+| Failed composite-decomposition claim | identified operation failure on same claim | absence of all useful findings |
+| Non-Capture claim | legitimate source/question but no stable finer map within ceiling | prior composite claim rescued |
+| Chapter-23 handoff claim | bounded temporal question and retained source/record trace | event/non-event decomposition already completed |
+
+## Chapter 22 WP4 Claim Boundary Return
+
+Chapter 22 permits bounded claims about composite identity, boundary, composition lineage, internal relations, component roles, operator weighting, source-side profiles, distributed function, redundancy, substitution, conflict, stability, and source-function revision. It does not authorize ultimate-part ontology, universal causal rank, numerical operator strength, person profile, legitimacy or sanction judgment, event/Path completion, or contextual target function without their own warranted operations.
+
+Primary site: [Chapter-22 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-22-completion-boundary).
+
+## Chapter 23 Preparation Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| Event-source-entry claim | bounded reference, Frame, temporal scope, praxis-relevant change, source basis | timestamp or label treated as Event |
+| Event-boundary claim | beginning, completion, contextual margins, internal phases, rival boundaries | smallest timestamp or retrospective convenience |
+| Extended-Event claim | phase continuity, same reference, completion relation, interruption status | duration alone |
+| Event-Cluster claim | local Events, binding relation, common bounded claim, operation classification | co-presence or silent COMPOSE |
+| Event-Inflation claim | micro-event multiplication without changed praxis reconstruction | detail count as proof |
+| Non-Event claim | expected structure, warranted expectation Frame, bounded window, non-realization, praxis difference | missing record or mere absence |
+| Non-Event-preservation claim | positive sub-events related to the same higher-level non-realization | internal activity treated as realization |
+| delay-structure claim | source-supported postponement, role, capacity, dependency, threshold, and timing relations | intention or obstruction inferred from duration |
+| repeated-non-decision claim | repeated deferrals or failed closure under one bounded source reference | person indecisiveness or moral rank |
+| internal-temporal-order claim | sequence, overlap, partial order, interruption, threshold, closure, multiple clocks | timestamp list |
+| categorical-revision claim | same-reference finer evidence and declared source-function effect | category immunity or unmarked replacement |
+
+Preparation control: [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md).
+
+## Chapter 23 WP1 Temporal Claim Types
+
+| Claim type | Minimum burden | Must not inherit |
+|---|---|---|
+| Event-like source-entry claim | bounded reference, category, Frame, coarse boundary, praxis-relevant change, source basis, compression, decomposition question | Event status from timestamp presence |
+| Event-boundary claim | beginning, completion, contextual margins, interruption/resumption status, rival boundaries | smallest timestamp as true boundary |
+| Extended-Event claim | related phases, continuity/resumption, common completion criterion, split counterpressure | duration, sequence, or common topic alone |
+| Event-Cluster claim | local Events, cluster relation, common object or transition environment, cluster boundary, failure condition | silent selection of independent Events |
+| Event-unit claim | claim, Frame, source, transition, and reference relevance | observation-tool granularity |
+| Event-category-revision claim | same-reference finer evidence and explicit preservation, extension, clustering, splitting, rejection, or underdetermination | category immunity or automatic finer truth |
+
+Primary sites: [§§23.1–23.4](../01_blocks/03_part_ii_sub.md#23-1-event-decomposition).
+
+## Chapter 23 WP2 Temporal Claim Types
+
+| Claim type | Minimum burden | Must not inherit |
+|---|---|---|
+| Non-Event source-entry claim | expected structure, warranted Expectation Frame, bounded window/completion condition, supported non-realization, praxis difference, Source Ceiling | `Λ` from record absence or retrospective importance |
+| Non-Event-preservation claim | same expectation and window plus supported relation of positive sub-events to non-realization | dissolution or preservation from positive-event count alone |
+| Delay-structure claim | delayed structure, comparison condition, mechanisms, roles, thresholds, dependencies, effects, uncertainty | intention, obstruction, guilt, or person property from duration |
+| Repeated-non-decision claim | related decision opportunities, windows, authority/binding conditions, category alternatives, reference continuity | one continuing Non-Event or PATH status from repetition alone |
+| Absent-binding claim | required binding occurrence, capable role/configuration, activation conditions, practical effect, uncertainty | person identity, maturity, moral rank, or operator decomposition |
+
+Primary sites: [§§23.5–23.8](../01_blocks/03_part_ii_sub.md#23-5-non-event-decomposition).
+
+
+
+## Chapter 23 WP3 Temporal Claim Types
+
+| Claim | Required support | Prohibited substitution |
+| --- | --- | --- |
+| Internal temporal order | supported relation among phases, thresholds, interruptions, or completion conditions | timestamp adjacency as dependency |
+| Multiple-clock relation | source support for each clock and their bounded relation | precision in one clock as evidence for another |
+| Temporal drift/no-gain | finer distinction fails to change warranted praxis reconstruction | detail volume as purchase |
+| Event/Non-Event category effect | source boundary, expectation, realization, and category evidence | local category as Output Class |
+| Temporal Non-Capture | legitimate question plus unresolved rival maps under Source Ceiling | rescue of coarse claim or invented compromise chronology |
+
+Primary sites: [§§23.9–23.11](../01_blocks/03_part_ii_sub.md#23-9-internal-temporal-order).
+
+
+## Chapter 23 Provisional-Lock Claim Boundary
+
+| Claim family | Locked burden | Forbidden inference |
+| --- | --- | --- |
+| Event / Extended Event / Event Cluster | bounded reference, boundary, completion, phases, and relation support | timestamp density as Event truth |
+| Non-Event | warranted expectation, bounded window, supported non-realization, praxis difference | missing record or mere absence as `Λ` |
+| Delay / repeated non-decision | supported mechanism, roles, thresholds, dependencies, and windows | intention, guilt, person property, or legitimacy |
+| Internal temporal order | supported sequence, dependency, overlap, interruption, threshold, and clock relations | chronology precision as causality or truth priority |
+| Temporal output | four result axes plus canonical class | local category or effect as Output Class |
+
+Primary site: [Chapter 23](../01_blocks/03_part_ii_sub.md#23-decomposing-events-non-events-and-internal-temporal-structures).
+
+## Chapter 24 Preparation Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| PATH-source-entry claim | bounded source reference/category, boundary, selection/formation rule, coarser function, inherited Loss | raw chronology or label treated as Path |
+| Same-Path decomposition claim | compatible reference/boundary, preserved lineage, relational finer map, reconstructible coarse function | same dates or label |
+| subpath claim | bounded internal transitions and relation to coarser Path | arbitrary fragment |
+| transition-cluster claim | intermediate configurations, transition relations, changed coarse claim | expanded event list |
+| turning-point claim | component transitions, changed alternatives/costs/bindings, historical effect, rival candidates | retrospective salience |
+| branch-reconstruction claim | source-supported historical availability, status, mechanism, and window | imaginable alternative |
+| internal-Frame-change claim | before/after Frames, continuity carriers, changed access/function | source replacement ignored |
+| competing-continuation claim | supported corridors and unequal accessibility at analytical cut | prediction or recommendation |
+| compression-debt claim | inherited missing/irrecoverable distinctions relevant to current claim | detail volume as recovery |
+| Path-Dependence-load claim | source-supported historical profiles and present-condition challenge | hidden substance or score |
+| rival-PATH claim | materially different selection, periodization, boundary, Frame, or formation | unmarked DECOMPOSE |
+
+Preparation control: [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md).
+
+## Chapter 24 WP1 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| PATH-source-entry claim | reference, category, Frame, boundary, coarse function, original selection/formation, inherited Loss, question | raw chronology or retained label |
+| formation-lineage claim | inherited selections, recovered/new detail, new analytical selections, continuing Loss | richer account treated as untouched complete history |
+| Path-decomposition-reason claim | bounded insufficiency, expected PraxisPurchase, evidence and no-gain condition | more records or timestamps |
+| subpath claim | local source/end, transitions, bounded function, relation to coarse Path, support and counterpressure | arbitrary interval, theme, or medium |
+| subpath-coherence claim | constitutive/modifying/blocking/compensating/counter-direction relation to same source object | bag of independent courses |
+| transition-cluster claim | coarse source/target configurations, intermediates, supported relations, effect and uncertainty | expanded Event list |
+| Same-Path operation claim | compatible reference and formation lineage under finer opening | same name or endpoint |
+| rival-Path operation claim | materially new selection, periodization, boundary, or macro-formation | hidden inside `DECOMPOSE` |
+
+Primary sites: [§§24.1–24.4](../01_blocks/03_part_ii_sub.md#chapter-24-decomposing-paths-and-trajectories).
+
+## Chapter 24 WP2 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| turning-point claim | component transition, source/target configurations, historical effects, operative window, rivals, reduction condition | retrospective salience or endpoint dependence alone |
+| branch-status claim | source, availability window, roles/conditions, mechanism, later reachability, residue, uncertainty | imaginable option or label alone |
+| counterfactual-branch claim | then-available conditions, mechanism, explicit uncertainty, bounded sensitivity | later knowledge, idealized option, guaranteed success, verdict |
+| internal-Frame-change claim | earlier/later Frames, connecting relation, changed relevance/access, persisted structures, continuity test | same institution or automatic source replacement |
+| competing-continuation claim | current configuration, supported routes, entry conditions, unequal accessibility/load, horizon, revision | probability, prediction, legitimacy, recommendation |
+| non-linearity claim | supported reversals, interruptions, parallelism, repair, counter-trends, dimension-specific effect | narrative smoothing or automatic trajectory rejection |
+
+Primary sites: [§§24.5–24.8](../01_blocks/03_part_ii_sub.md#24-5-turning-points).
+
+## Chapter 24 WP3 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| inherited-Loss claim | original selection/formation and canonical five-part Loss separated from current operation | treating newly available detail as original recovery |
+| compression-debt claim | unresolved constitutive traceability burden and claim effect | score, primitive, person or institutional ranking |
+| Path-Dependence-load claim | analytical cut, dimension, historical carrier, interval, present effect, sufficiency challenge, counterevidence, Loss | duration, profile count, determinism, operator fusion |
+| Same-Path claim | historical referent, boundary, selection/formation lineage, constitutive transitions, coarse function, Loss | shared dates, archive, endpoint, institution, or label |
+| rival-PATH claim | materially different source selection, boundary, formation, macro-object, referent, or PATH question plus separate `COMPOSE` Record | hiding new formation inside `DECOMPOSE` |
+| Chapter-24 result claim | four result axes, Loss, Stop/Non-Capture, claim-specific class | compensation across axes or inherited Output Class |
+| failed-decomposition claim | completed unsupported or incoherent finer attempt with preserved weaker findings | claim rescue through more detail |
+
+Primary sites: [§§24.9–24.12](../01_blocks/03_part_ii_sub.md#24-9-irrecoverable-compression).
+
+## Chapter 24 Provisional-Lock Claim Return
+
+Chapter 24 controls source-entry, formation-lineage, subpath, transition-cluster, turning-point, branch-availability, counterfactual, Frame-continuity, continuation, Loss, Same-Path/rival-PATH, and Path-Dependence-load claims. Each remains bounded by reference, temporal window, source support, granularity, dimension, Loss, counterpressure, and Claim Ceiling. None authorizes causal sufficiency, prediction, recommendation, person typing, legitimacy, or authority inheritance.
+
+## Chapter 25 Preparation Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| Resolution-Gain claim | coarse/finer comparison, source-supported distinction, changed praxis dimension, changed warranted statement | more detail or complexity |
+| Resolution-Neutral claim | valid supported comparison, same tested claim, no changed warranted reconstruction | absence of evidence or unsupported detail |
+| Resolution-Drift claim | complexity/support/discrimination comparison, source-object and coarser-function status | source limitation alone |
+| Resolution-Escape claim | original claim, counterpressure, granularity change, unanswered burden, retroactive-rescue test | warranted revision conflated with escape |
+| Detail-without-Purchase claim | explicit tested claim and unchanged relevant dimensions | universal irrelevance of detail |
+| Source-Overreach claim | source precision compared with asserted structural precision | plausible model treated as established |
+| Calibration-Loss claim | moving thresholds, incomparable rivals, counterevidence elasticity, revision failure | honest open threshold |
+| Decomposition-Fatigue claim | completed current-claim test and no additional structural load | analyst state or permanent undecomposability |
+| Mandatory-Stop claim | binding floor, source, coherence, calibration, anti-immunization, or ceiling trigger | stop as mere inconvenience |
+| re-entry claim | new source, claim, Frame, comparison basis, relation map, or threshold | prior failure erased |
+
+Preparation control: [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md).
+
+## Chapter 25 WP1 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| resolution-comparison entry | same tested claim, coarse and finer reconstructions, comparison basis, support, dimensions, change condition | shared topic or detail count |
+| Resolution Gain claim | exact changed warranted statement and supporting distinction/relation | “more detail” or stronger wording |
+| Resolution Neutrality claim | valid supported comparison and explicit no-change across tested dimensions | unsupported refinement or missing evidence |
+| Resolution Drift claim | complexity/inferential growth plus weakened discrimination, relation support, or source coherence | dislike of complexity or display medium |
+| Resolution Escape claim | prior burden, coordinate change, unanswered burden, attempted claim rescue | any legitimate refinement after counterpressure |
+| warranted-revision claim | prior disposition, counterpressure, new bounded claim, new basis, independent test | retroactive rescue or authority inheritance |
+
+Primary site: [Chapter 25 WP1](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape).
+
+## Chapter 25 WP2 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| purchase claim | tested claim, removable distinction, changed or unchanged warranted dimensions | detail count treated as purchase |
+| unsupported-refinement claim | separate component, relation, and claim support status | unsupported no-change called neutrality |
+| coarser-function claim | explicit relation from finer components to preserved, distributed, revised, rejected, or underdetermined source function | parts inventory treated as completed decomposition |
+| relation-support claim | relata, relation form, source basis, Frame, temporal scope, support status, claim consequence, rivals | graph edge or adjacency treated as historical relation |
+| Source-Overreach claim | source-supported precision boundary and the exact excess claim | model or visual precision treated as evidence |
+| calibration claim | tested threshold, basis, uncertainty, rival conditions, revision rule, prior disposition | threshold moved after adverse evidence without trace |
+| bounded monitoring claim | declared runtime signal, invariant, Stop trigger, and re-entry condition | universal termination, truth, motive, legitimacy, or authority decision |
+
+Primary site: [Chapter 25 WP2](../01_blocks/03_part_ii_sub.md#25-5-detail-without-purchase).
+
+## Chapter 25 WP3 Claim-Axis Return
+
+| Claim position | Required treatment | Prohibited collapse |
+|---|---|---|
+| local resolution family | name gain, neutral, drift, escape, unsupported, or non_capture | canonical Output Class |
+| source-function effect | state confirmed, refined, internally differentiated, partially preserved, rejected, or underdetermined as warranted | local resolution result |
+| prior claim disposition | preserve, reduce, reject, or leave unresolved | later claim success |
+| canonical Output Class | select exactly one class after all gates | local classification alone |
+| re-entry claim | declare materially new basis and new record/segment | erasure of earlier Stop or failure |
+
+## Chapter 25 Provisional-Lock Claim Return
+
+Chapter 25 controls coarse/finer comparison, changed-claim, no-change, purchase, coarser-function, support, source-overreach, calibration, fatigue, local-resolution, Stop, Non-Capture, and re-entry claims. Each remains bounded by the tested proposition, source and relation support, Frame, granularity, Loss, prior disposition, counterpressure, and Claim Ceiling. None authorizes universal halting, automatic semantic truth, person typing, legitimacy, prediction, sanction, or authority inheritance.
+
+## Chapter 26 Preparation Claim Types
+
+| Claim | Required support | Must remain distinct from |
+|---|---|---|
+| internal-constitution claim | same-reference source support, granularity relation, components and relations, coarser-function trace | target-function claim |
+| contextual-target-function claim | origin-typed source object, declared target context, source-traceable function, boundedness, rival pressure | origin type and source function |
+| recontextualization claim | changed Frame, question, perspective, or presentation context | automatic `DECOMPOSE` or `PROJECT_AS` occurrence |
+| dual-operation claim | two explicit operation occurrences with separate claims, Records, Loss, and results | mixed operation record |
+| operation-boundary claim | declared analysis question, internal-structure test, target-function test, reasons, unresolved structure | canonical Output Class |
+
+Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 WP1 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| operation-boundary entry | source object, origin type, source function, Frame, granularity, question, context/function proposal, uncertainty, Loss | wording, label, or shared evidence base |
+| internal-constitution claim | finer structures and relations traceable to the same source object and source function | component list or operator-type decomposition |
+| target-function candidate | retained origin-typed object, declared target context, bounded function, source-traceable features, counterpressure | analogy, interface role, usefulness, or new label |
+| granularity-change claim | declared source/target granularity and changed distinction set | target-context change inferred from finer detail |
+| origin-type-preservation claim | explicit origin type retained while target function remains contextual | target function renamed as a new source type |
+| operation-candidate claim | reasons why the attempted claim is DECOMPOSE, PROJECT_AS, recontextualization, or dual-operation pressure | automatic classification from vocabulary |
+
+Primary site: [Chapter 26 WP1](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+
+## Chapter 26 WP2 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| trajectory operation-comparison claim | same origin-typed source, separate SUB and target-function questions, separate outputs and Loss | shared source or evidence treated as one occurrence |
+| bounded target-context claim | user/task, conditions, relevant and excluded source dimensions, failure boundary | audience, screen, Reader, or later date alone |
+| source-traceable target-function claim | source features plus context-specific functional difference and counterpressure | usefulness, resemblance, analyst intention, or source-feature presence alone |
+| Attractor-function candidate | preserved source origin type, declared context, specified attraction/stabilization relation | recurrence inside an Attractor occurrence |
+| recontextualization claim | changed Frame, perspective, question, audience, or presentation with no transformation claim yet | automatic DECOMPOSE or PROJECT_AS routing |
+| misclassification finding | explicit mismatch between operative claim and apparent vocabulary or label | classification from headings, nouns, or interface layout |
+
+Primary site: [Chapter 26 WP2](../01_blocks/03_part_ii_sub.md#26-5-trajectory-decomposition-and-projection).
+
+## Chapter 26 WP3 Claim-Axis Return
+
+| Claim position | Required treatment | Prohibited collapse |
+|---|---|---|
+| internal-constitution claim | separate DECOMPOSE occurrence and source-function effect | contextual target function |
+| contextual target-function claim | separate PROJECT_AS occurrence with preserved origin type | source type or internal map |
+| local boundary finding | use for segmentation and routing | canonical Output Class |
+| prior source-claim disposition | preserve across operation changes | later projection success |
+| dual-operation chain | declare order, records, handoff, Loss, and independent results | mixed occurrence |
+| canonical Output Class | exactly one per Record after all gates | operation candidate alone |
+
+## Chapter 26 Provisional-Lock Claim Return
+
+Chapter 26 controls internal-constitution, contextual-target-function, recontextualization, operation-candidate, dual-operation, chain-order, invalid-collapse, result-axis, Stop, and Non-Capture claims. Each remains bounded by source object, origin type, source function, Frame, granularity, target context, target function, relation support, prior disposition, Loss, and Claim Ceiling. None authorizes origin-type replacement, mixed-operation records, semantic automation, person typing, legitimacy, recommendation, sanction, or authority inheritance.
+
+## Chapter 27 Preparation — SUB Boundary Claim Family
+
+A complete local SUB-boundary claim must identify:
+
+- the source Transformation Record and tested source claim;
+- source object, source type, and source function;
+- source and target granularity;
+- expected and actual additional praxis difference;
+- lower- and upper-boundary status;
+- Source-Ceiling status;
+- component and relation support;
+- component-sensitivity findings;
+- source-reference, coarser-function, and type-integrity status;
+- Stop or re-entry status;
+- unresolved structure and canonical Loss;
+- separate local result, function effect, prior disposition, and Output Class.
+
+A component-sensitivity claim is bounded to the declared relation map and does not establish universal causality. A source-type claim may remain identifiable while its source-function claim is reduced or rejected.
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 WP1 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| SUB-boundary entry | source object, tested claim/function, source and target granularity, expected difference, source reference, coarser-function pressure, uncertainty, Loss | “more structure” as its own justification |
+| lower-boundary claim | supported or possible finer distinction with no changed warranted praxis dimension | falsehood inferred from no purchase |
+| Resolution-without-Purchase claim | supported finer map, valid comparison, unchanged claim | unsupported detail relabeled as neutral |
+| upper-boundary claim | finer map loses source-reference, relation, or coarser-function anchoring | arbitrary amount of detail treated as the boundary |
+| fragmentation claim | supported parts without defensible relation to the source object or one another | component enumeration treated as reconstruction |
+| source-reference claim | stable bounded reference or explicit revision/splitting/rejection | same label or repository location |
+
+Primary site: [Chapter 27 WP1](../01_blocks/03_part_ii_sub.md#chapter-27-sub-boundary-conditions).
+
+## Chapter 27 WP2 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| Source-Ceiling claim | bounded source, claim, Frame, granularity, relation type, and finest responsible precision | coherent model or complete graph treated as evidence |
+| support-status claim | exact component/relation/function question and local source basis | status treated as universal score or Output Class |
+| component-sensitivity claim | bounded component, supported relation map, variation, function effect, assumptions, Loss | local difference treated as universal causality |
+| coarser-function traceability claim | explicit translation from material parts/relations to source-function effect | detailed parts list treated as reconstruction |
+| type-preservation claim | operator type, occurrence, source-object type claim, and function claim kept distinct | operator type decomposed or initial label immunized |
+| type-revision claim | source-supported confirmation, restriction, rival description, rejection, or underdetermination | granularity change erases prior failed typing |
+
+Primary site: [Chapter 27 WP2](../01_blocks/03_part_ii_sub.md#27-5-source-ceiling).
+
+## Chapter 27 WP3 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| resolution-comparison claim | tested claim, coarse/fine basis, changed dimensions, support, Loss | finer treated as automatically better |
+| SUB Stop claim | declared bounded continuation condition and preserved findings/dispositions | Stop treated as proof of no finer structure |
+| Claim-Reduction claim | exact surviving weaker finding and excluded unsupported remainder | confidence wording used to retain stronger claim |
+| SUB Non-Capture claim | legitimate question, bounded source object, unresolved rival structure, preserved Loss | coarse claim restored or rivals averaged |
+| SUB admissibility claim | all eight conjunctive gates | detail or formal elegance compensates for failed gate |
+| re-entry claim | prior Record, materially new basis, new claim, success/failure/Stop conditions | more compute or visual detail treated as new evidence |
+
+Primary site: [Chapter 27 WP3](../01_blocks/03_part_ii_sub.md#27-9-no-privilege-of-fine-resolution).
+
+## Chapter 27 Provisional-Lock Claim Bundle
+
+| Claim | Required burden | Prohibited shortcut |
+|---|---|---|
+| bounded SUB admissibility | all eight conjunctive gates | compensatory detail or score |
+| Source-Ceiling claim | claim-specific source precision and excluded overreach | model completion |
+| component-sensitivity claim | bounded variation, relation map, source function, uncertainty | universal causality |
+| type-revision claim | occurrence-level evidence and explicit disposition | forced preservation |
+| Stop/Reduction/Non-Capture claim | exact preserved findings, disposition, Loss, continuation boundary | coarse-claim rescue |
+
+Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation — SUB Case Claim Family
+
+A Chapter-28 case claim must bind:
+
+- case identity and class;
+- governing claim, scope, and Claim Ceiling;
+- source Record, object, origin type, Frame, and granularity;
+- decomposition question and expected additional praxis difference;
+- source basis, components, and component relations;
+- source-reference, coarser-function, type-integrity, and resolution findings;
+- operation-boundary and chain status;
+- Counterfactual Sensitivity, Loss, alternatives, uncertainty, and surviving weaker findings;
+- local audit, Stop/Non-Capture status, and canonical Output-Class mapping.
+
+A case narrative is not a source claim by itself. A local source-function or resolution description is not a canonical Output Class. A confusion case may contain several candidate claims but requires separate Records for every executed operation.
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 — Instantiated Positive SUB Claims
+
+The WP1 corpus instantiates six bounded `DECOMPOSE` claims: Frame-occurrence production, Attractor-occurrence maintenance, distributed Asymmetry, structured Non-Event, same-reference Trajectory decomposition, and Resolution Gain. In every case the current finer claim is separately testable and the broader prior claim is preserved as history rather than silently upgraded.
+
+```text
+resolution_gain
+≠ canonical Output Class automatically
+```
+
+## Chapter 28 WP2 — Countercase and Confusion Claims
+
+WP2 instantiates bounded continuation, reduction, failed-operation, failed-reconstruction, anti-escape, local-versus-macro, DECOMPOSE/PROJECT_AS-separation, and DECOMPOSE/COMPOSE-separation claims. Each new operation candidate remains a separately testable claim.
+
+## Chapter 28 WP3 — Analogy, Modulator, Audit, and Lock-Readiness Claims
+
+WP3 instantiates bounded analogy-only, modulator-with-type-reduction, integrated Local-Audit, output-mapping, Loss/alternatives, Stop/Non-Capture, chain-separation, and lock-readiness claims. Readiness is not a lock and creates no target function or authority.
+
+## Part II — SUB Provisional-Lock Claim Boundary
+
+The locked SUB claim type is a bounded reconstruction claim about the internal constitution of the same eligible source object. It may confirm, refine, differentiate, partially preserve, reduce, reject, or leave underdetermined the source-function or source-type claim.
+
+It does not include a contextual target-function claim. Any such claim enters Chapter 29 and RETYPE only as a separate `PROJECT_AS` occurrence with its own context, source trace, Loss, result, and Claim Ceiling.
+
+Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).

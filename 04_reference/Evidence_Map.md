@@ -1,9 +1,9 @@
 # PMS-STRATA — Evidence Map
 
-**Status:** Reference Kernel v0 scaffold v0.3.46; Chapter-11-WP2-synchronized  
+**Status:** Reference Kernel v0 scaffold v0.3.50; Chapter-20-WP4-lock-synchronized  
 **Repository role:** `04_reference/*` — source, support, gap, rival, and external-warrant routing; not an independent theory source  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the post-smoke-synchronized `04_reference/Cross_Reference_Map.md`, the current peer scaffolds `04_reference/Audit_Checklist.md` and `04_reference/Reader_Pathways.md`, repository `README.md`, the seven populated Core artifacts in `07_model/`, the eight populated records and suite control in `07_model/examples/`, and `PMS.yaml` for PMS Base  
-**Substantive evidence status:** the seven Core Model artifacts and eight canonical smoke records are populated and internally validated for formal, route, loss, and cross-record conformance; Foundations Chapters 0–8 are provisionally locked and internally audited methodological prose; Chapter 6, Chapter 7, and Chapter 8 case assignments remain production duties rather than empirical evidence; Chapters 9–10 are provisionally locked methodological prose; Chapter 11 WP1–WP2 are canonical through Sections 11.1–11.9 and Preparation remains non-evidence production control; Sections 11.10–11.14 and Chapters 12–57, substantive cases, countercases, calibration sets, and external domain evidence remain pending
+**Substantive evidence status:** Formal Model Core and Smoke Suite are internally validated as formal artifacts; Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–20 are provisionally locked methodological prose; Chapter 21 WP1–WP2 §§21.1–21.9 are canonical and locally `admissible_but_provisional`; Chapter 21 WP3–WP4, later blocks, substantive cases, calibration sets, and external evidence remain pending.
 
 ---
 
@@ -2169,3 +2169,665 @@ Evidence coverage consists of thirteen Markdown reconstructions, thirteen schema
 ## Part I — PATH Provisional-Lock Evidence Boundary
 
 Lock evidence consists of canonical prose, Chapter Contracts, thirteen Markdown reconstructions, thirteen schema-valid records, complete record audits, the twenty-control chapter audit, synchronized indices/references/model mirrors, and package integrity. This evidence supports internal methodological closure only; it does not establish empirical truth, causal necessity, universal PATH validity, or application authority.
+
+## Chapter 18 Preparation — Compressed-Object Source Burden
+
+A Chapter-18 source declaration must distinguish evidence for the coarse object from evidence for its internal reconstruction.
+
+| Support object | Minimum burden |
+|---|---|
+| source reference | stable identity and lineage |
+| origin/source type | explicit typing without operator-type decomposition |
+| known internal structure | directly supported distinctions only |
+| unresolved internal structure | bounded unknowns, not populated hypotheses |
+| decomposition reason | expected claim-relevant difference and source route |
+| current/coarser function | source-supported claim under test |
+
+```text
+coarse-object evidence
+≠ evidence for hidden components
+
+warrant to test decomposition
+≠ warrant for a particular internal result
+```
+
+Where sources cannot support relations among finer candidates, the correct route may be no decomposition, Claim Reduction, Stop, or Non-Capture rather than speculative completion.
+
+## Chapter 18 WP1 — Source-Candidate Evidence Boundary
+
+WP1 separates evidence for the current source object from evidence for a later internal reconstruction.
+
+| WP1 claim | Minimum support | Not established |
+|---|---|---|
+| identifiable compressed source candidate | stable reference, lineage, source-side category and typing, bounded coordinates | target granularity or component set |
+| provisional elementarity | current claim sufficiency or bounded source/relevance stop | absolute indivisibility |
+| known internal structure | directly supported current distinctions | complete internal constitution |
+| unresolved internal structure | bounded question tied to a possible claim difference | a populated hidden model |
+| operator-typed occurrence eligibility | concrete reference and source-supported occurrence typing | admissible `DECOMPOSE` |
+| Path/Trajectory/Non-Event/composite eligibility | retained identity, prior Loss, scope, and current function | inherited operation success or finer truth |
+
+```text
+evidence for the coarse source object
+≠ evidence for a particular finer reconstruction
+
+source-side question
+≠ source-supported answer
+```
+
+The WP1 chapter cases are methodological pressure tests, not empirical evidence or produced standalone case artifacts.
+
+
+
+## Chapter 18 WP2 — Evidence Duties for Compression Decisions
+
+| Decision pressure | Minimum evidence duty | Evidence does not authorize |
+|---|---|---|
+| necessary compression | source-bounded coarse relation and claim sufficiency | absolute simplicity or final closure |
+| compression insufficiency | identifiable source-supported internal distinction with material claim effect | hidden components by inference from complexity |
+| reason to decompose | plausible source route for distinctions and their relation to the source object | target granularity or successful operation |
+| counterexample pressure | direct support for the counterexample and its scope | a complete finer model without additional sources |
+| no praxeological purchase | absence of a specified material change under the proposed distinction | universal irrelevance of the detail |
+| source insufficiency | documented source gap for the proposed components or relations | conversion of missing information into positive content or `Λ` |
+
+WP2 preserves the rule that component evidence without relation evidence is insufficient for a complete later decomposition. Canonical source: [Chapter 18 §§18.5–18.8](../01_blocks/03_part_ii_sub.md#18-5-why-compression-is-necessary).
+
+
+## Chapter 18 WP3 Evidence Handoff
+
+A Chapter-18 source declaration must retain evidence for:
+
+- occurrence or composite identity;
+- source Frame, granularity, relative level, and current function;
+- already warranted internal distinctions;
+- bounded unresolved relations and inaccessible areas;
+- the source route supporting a proposed finer test;
+- inherited uncertainty, exclusions, and irrecoverability;
+- rival source-supported internal models where present.
+
+The evidence layer must not populate hidden components from an operator label, treat missing records as positive Event or Non-Event content, or infer source-function survival. Chapter 19 and Chapter 20 receive the declared evidence burden without inheriting success.
+
+Canonical site: [Minimal Source Declaration](../01_blocks/03_part_ii_sub.md#18-10-minimal-source-declaration).
+
+
+## Chapter 18 Provisional-Lock Evidence Boundary
+
+Chapter 18 requires a traceable route from the declared source object to the reason for testing finer resolution. Evidence may support source identity, current/coarser function, known distinctions, unresolved relations, and bounded rival internal models. It may not be converted automatically into components, target granularity, operation success, or a source-function result.
+
+The Chapter-19 handoff carries evidence obligations forward without inheriting passage. Primary site: [Minimal Source Declaration](../01_blocks/03_part_ii_sub.md#18-10-minimal-source-declaration).
+
+## Chapter 19 Preparation — Granularity and Comparability Source Burden
+
+A target granularity requires more than a plausible finer vocabulary. The source burden includes:
+
+- traceable source and target reference relation;
+- source-supported candidate distinction family;
+- declared source and target Frames;
+- aligned temporal and source scopes;
+- expected praxeological difference stated before analysis;
+- translation or alignment rationale for comparison;
+- explicit gaps, exclusions, and irrecoverable detail;
+- competing finer models where sources permit more than one partition.
+
+The source map must not infer components from the coarse type, infer reference preservation from matching labels, or treat data volume as support. Incomparability is a bounded source-and-coordinate finding, not evidence that incompatible local claims are equally warranted.
+
+## Chapter 19 WP1 Canonical Evidence Burden
+
+A WP1 granularity proposal must keep traceable:
+
+- the bounded source reference;
+- the source distinction set;
+- the proposed target distinction family without treating it as discovered;
+- the comparison dimension along which the target is finer;
+- the source and target Frame status;
+- the relative-level status;
+- the bounded temporal and source scope;
+- the expected praxeological difference declared before finer reconstruction;
+- prior uncertainty, Loss, Stop, failure, and Non-Capture.
+
+Matching labels do not prove reference or Frame continuity. More quotations or timestamps do not prove a changed distinction set. WP1 evidence can support a coherent proposal and source route; it cannot by itself establish actual components, target relations, operation success, source-function effect, or truth gain.
+
+Primary sites: [§19.1–§19.4](../01_blocks/03_part_ii_sub.md#19-1-granularity-change).
+
+## Chapter 19 WP2 Canonical Evidence Burden
+
+For each proposed distinction or component candidate, the evidence map must preserve:
+
+- relation to the bounded source reference;
+- direct source support or a bounded source route;
+- the coarse function or claim under pressure;
+- the praxeological dimension that could change;
+- relation to other proposed candidates;
+- whether the candidate is local, temporal, relational, role-distributed, institutionally distributed, or recurrent;
+- uncertainty, rival partitions, exclusions, and inaccessible relations;
+- whether the candidate is proposed as carrying, disturbing, or replaceable.
+
+Source authenticity alone does not establish component status. Evidence for participation does not establish necessity, sufficiency, causal priority, or final constituent status. WP2 evidence supports candidate eligibility only; actual component reconstruction and source-function effect remain Chapter-20 burdens.
+
+Primary sites: [§19.5–§19.7](../01_blocks/03_part_ii_sub.md#19-5-change-of-distinction-set).
+
+## Chapter 19 WP3 Evidence Return
+
+WP3 uses the continuing bounded review-arrangement illustration to test:
+
+- aligned interactional and procedural reconstructions under declared translation (`C19-COMPARE-01`);
+- positive incomparability between a single-meeting decision claim and a year-level delivery-performance aggregate (`C19-INCOMP-01`);
+- documented procedural closure versus unresolved interactional repair as compatible predicates (`C19-MISMATCH-01`);
+- final decision authority affirmed and denied under aligned predicate and sources as substantive contradiction (`C19-CONFLICT-01`);
+- source-supported but claim-neutral utterance details without premature resolution classification (`C19-LOWER-01`);
+- an exact populated Minimal Granularity Relation without component or operation-result claims (`C19-MINREL-01`).
+
+These are methodological pressure illustrations, not empirical findings or completed `03_cases/*` artifacts. Primary sites: [§19.8–§19.11](../01_blocks/03_part_ii_sub.md#19-8-granularity-comparability).
+
+
+## Chapter 19 Provisional-Lock Evidence Boundary
+
+Chapter 19 requires traceable support for the source reference, proposed distinction-set change, Frame and temporal relation, expected praxeological difference, and comparison basis. Evidence may support coordinate plausibility and bounded candidate relations. It may not be converted automatically into actual components, component relations, semantic comparability, source-function survival, operation success, or a resolution outcome.
+
+The Chapter-20 handoff carries these obligations forward without inheriting passage. Primary site: [Minimal Granularity Relation](../01_blocks/03_part_ii_sub.md#19-11-minimal-granularity-relation).
+
+## Chapter 20 Preparation Evidence Roles
+
+The finer reconstruction must distinguish:
+
+| Evidence role | Permitted use | Prohibited inference |
+| --- | --- | --- |
+| direct support | support a component, relation, timing, or source-function effect | completeness or causality automatically |
+| indirect reconstruction | bounded inference with explicit bridge | direct observation |
+| uncertain attribution | retain a candidate with uncertainty | established component status |
+| missing intermediate structure | mark a gap and limit claim | fill the gap from the coarse type |
+| rival internal model | preserve a supported alternative | forced single-model adjudication |
+| inaccessible area | justify bounded underdetermination, Stop, or Non-Capture | weak-claim protection |
+| unsupported inference | route to failure, reduction, or Stop | retain as finding because it is plausible |
+
+Preparation control: [`Chapter_20_Preparation_Record.md`](Chapter_20_Preparation_Record.md). This record is production evidence only, not empirical support for a decomposition.
+
+## Chapter 20 WP1 Evidence Return
+
+WP1 uses the continuing review-arrangement illustration to pressure:
+
+- relational reconstruction rather than generic detail (`C20-DEF-01`);
+- a failed source-route precondition for a proposed Trajectory opening (`C20-PRE-01`);
+- independently identifiable source identity and current function under test (`C20-SRC-01`);
+- a question with explicit source route, no-gain, and Stop (`C20-Q-01`);
+- additional quotations and narrative without changed distinctions (`C20-DESC-01`);
+- invalid decomposition of `□` corrected to a Frame-typed occurrence question (`C20-TYPE-01`).
+
+These are methodological pressure illustrations, not empirical findings or completed `03_cases/*` artifacts. Actual source-support classification begins in WP2.
+
+## Chapter 20 WP2 Evidence Return
+
+WP2 adds a role-sensitive source map for finer reconstruction:
+
+```text
+direct support
+indirect reconstruction
+uncertain attribution
+missing intermediate structure
+rival internal model
+inaccessible area
+unsupported inference
+```
+
+These roles do not form a score or truth rank. The same source may directly support one claim and be insufficient for another. Rival models remain open until source changes distinguish them or a bounded unresolved result is required.
+
+Primary site: [§20.6](../01_blocks/03_part_ii_sub.md#20-6-source-support).
+
+## Chapter 20 WP3 Evidence and Result Return
+
+Evidence must support not only components and relations but also any selected source-function effect. Rejection requires source-supported contradiction or insufficiency relative to the tested function; underdetermination preserves missing intermediates and rival models; confirmation does not increase authority.
+
+Failure preserves weaker supported observations. Mandatory Stop preserves the valid earlier segment. Non-Capture preserves known endpoints, inaccessible intervals, and rivals without asserting that all rivals are true.
+
+Primary sites: [§20.9](../01_blocks/03_part_ii_sub.md#20-9-preservation-of-source-function) and [§20.12](../01_blocks/03_part_ii_sub.md#20-12-decomposition-failure).
+
+## Chapter 20 WP4 Evidence-Lock Return
+
+The provisionally locked procedure requires claim-specific evidence for source identity, component existence, relation claims, temporal order, uncertainty, source-function effect, and Loss. Evidence for one layer does not transfer automatically to another. Missing support may yield claim reduction, Mandatory Stop, failed transformation, or Non-Capture; record completeness does not repair the evidence gap.
+
+Primary site: [Chapter-20 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-20-completion-boundary).
+
+## Chapter 21 Preparation Evidence Route
+
+Occurrence-family evidence must support the concrete source typing and its production/maintenance conditions separately. Evidence that a review boundary exists does not automatically support every proposed maintenance mechanism; repeated behavior does not automatically support Attractor load; local gradients do not automatically support coordinated macro-asymmetry; commitment language does not automatically support person-level Binding.
+
+Rival typings and disturbing components remain visible. Finer evidence may confirm, differentiate, partially preserve, reject, or leave the occurrence typing underdetermined.
+
+Preparation control: [Chapter 21 Preparation Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP1 Evidence Return
+
+The R-17 continuity example uses agenda, transcript, minutes, closure notice, and follow-up material to support a bounded occurrence-level reconstruction of admission, qualification, closure, routing, revisit-window, and Non-Reopening relations. The evidence does not establish motives, person properties, universal institutional practice, legitimacy, or constituents of `□`.
+
+WP1 preserves direct support, uncertainty about informal access and notice uptake, inaccessible participant interpretation, and counterevidence capable of pressuring the Frame typing.
+
+Primary sites: [§21.2–§21.4](../01_blocks/03_part_ii_sub.md#21-2-frame-typed-occurrence).
+
+## Chapter 21 WP2 Evidence Return
+
+The Attractor-family example is explicitly bounded to a declared review-series source route of dated agendas, routing logs, closure notices, follow-up requests, and reopening records. It supports only those recurrence, friction, expectation, alternative, threshold, and exit relations traceable to the declared material.
+
+The R-17 Asymmetry return uses agenda, transcript, minutes, notice, closure, and follow-up records to distinguish role authority, approval capacity, notice access, time-window knowledge, follow-up activation capacity, burden, and exit gradients. It does not establish total person rank, motive, legitimacy, universal institutional structure, or macro-Asymmetry beyond the reference object.
+
+Primary sites: [§21.5–§21.9](../01_blocks/03_part_ii_sub.md#21-5-attractor-typed-occurrence).
+
+## Chapter 21 WP3 Evidence Return
+
+Impulse-occurrence evidence may support activating differences, directing Frames, Non-Events, thresholds, attenuation, and changed continuation corridors; it does not establish motive automatically. Binding-occurrence evidence may support commitments, rules, records, continuity, revision conditions, dependencies, and breach/exit costs; it does not establish equal endorsement, legitimacy, or person identity. Missing support remains visible through Failure, Stop, or Non-Capture rather than inferred completion.
+
+## Chapter 21 WP4 Evidence Lock
+
+The five family applications are provisionally locked as methodological evidence architectures, not as external empirical findings. Frame evidence must support selection and boundary practices; Attractor evidence differential continuation; Asymmetry evidence declared gradients and coordination; Impulse evidence structural activation without motive inference; Binding evidence commitments and load distribution without person conversion. Rival typings, missing support, counterevidence, and underdetermination remain effective.
+
+## Chapter 22 Preparation Evidence Routing
+
+Composite decomposition requires evidence for:
+
+- source composite identity and boundary;
+- constituents and constitutive relations;
+- prior composition trace and inherited Loss where available;
+- component role and counterpressure;
+- distributed coordination rather than aggregation;
+- redundancy and substitution conditions;
+- internal conflict and possible outcome;
+- stability mechanism and temporal scope;
+- operator-weighting or modulation carrier;
+- source-function effect and unresolved structure.
+
+Source volume cannot substitute for relation evidence. A coherent map may guide search but remains a rival model until the sources support the component roles and relations claimed.
+
+Preparation control: [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP1 Evidence Return
+
+The bounded R-17C review-governance anchor uses documented admission, approval, closure, routing, reconsideration, and Non-Reopening structures to prepare a source-supported composite-entry and internal-map claim. The evidence supports neither a complete formation history nor universal institutional causality, legitimacy, person properties, numerical operator strength, or a target function.
+
+WP1 preserves uncertainty about informal pre-agenda coordination, notice uptake, excluded alternatives, and the exact boundary of the reconsideration route. These uncertainties remain effective against stronger role, map, and weighting claims.
+
+Primary sites: [§§22.1–22.4](../01_blocks/03_part_ii_sub.md#chapter-22-decomposing-composite-structures).
+
+## Chapter 22 WP2 Evidence Return
+
+The bounded R-17C anchor routes profile claims through notice timing, revisit-window dates, record availability, follow-up correspondence, and procedural access records. Distributed-function claims require the documented chain among notice, record access, request routing, independent reconsideration, and status return. Redundancy and substitution remain function-specific and retain changed delay, access, auditability, burden, and Loss. Conflict claims preserve rival readings of closure finality, reconsideration access, residual objection, and asymmetric control.
+
+The current evidence does not establish numerical burden, universal resilience, complete informal-route coverage, carrier equivalence, causal necessity, legitimacy, person properties, or a contextual target function.
+
+Primary sites: [§§22.5–22.8](../01_blocks/03_part_ii_sub.md#22-5-modulating-profiles).
+
+## Chapter 22 WP3 Evidence Return
+
+The bounded R-17C anchor uses continuity of admission, approval, routing, reconsideration, status-return, replacement carriers, temporal windows, and repeated Non-Reopening to test composite stability. Evidence remains differentiated among stable output, stable relations, accessible repair, unequal burden, residual objection, and label persistence.
+
+The current evidence supports a bounded relational decomposition and an internally differentiated Source-Function Effect. It does not establish homogeneous access, equal load, universal resilience, legitimacy, complete formation history, person properties, or a contextual target function.
+
+Primary sites: [§§22.9–22.11](../01_blocks/03_part_ii_sub.md#22-9-composite-stability).
+
+## Chapter 22 WP4 Evidence Lock
+
+Chapter 22 is provisionally locked as a methodological evidence architecture, not as an empirical finding that any named system is composite, stable, distributed, redundant, or causally organized. Constituent, relation, role, weighting, profile, coordination, substitution, conflict, stability, and Loss claims each retain their own Source Route, counterpressure, uncertainty, and Claim Ceiling. Co-presence, labels, repeated function, and formal maps remain insufficient by themselves.
+
+## Chapter 23 Preparation Evidence Routing
+
+Temporal decomposition requires evidence for:
+
+- source Event-like or Non-Event identity;
+- Event beginning, completion, contextual margins, and rival boundaries;
+- internal phases, positive sub-events, thresholds, and role shifts;
+- relation among sequence, overlap, interruption, delay, and closure;
+- expectation Frame and expected window for Non-Event claims;
+- documented non-realization distinct from missing records;
+- delay mechanism distinct from intention;
+- repeated non-decision and absent binding occurrence;
+- categorical preservation or revision;
+- temporal drift, unresolved structure, and canonical Loss.
+
+Timestamp volume cannot substitute for event-unit relevance or relation evidence. Record absence cannot substitute for expectation and non-realization evidence.
+
+Preparation control: [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md).
+
+## Chapter 23 WP1 Event Evidence Routing
+
+Event-side temporal decomposition requires separately traceable support for:
+
+- source Event-like occurrence and praxis-relevant change;
+- governing Frame and coarse boundary;
+- beginning and completion criteria;
+- contextual predecessors and aftermath;
+- phases, thresholds, role shifts, interruptions, resumptions, and completion relations;
+- local Event identities and cluster relation where claimed;
+- rival boundaries and category counterpressure;
+- duplicated records versus distinct Events;
+- Event-unit relevance and the Event-Inflation stop point.
+
+Timestamp quantity, recording-system multiplicity, document versions, or fine sensor resolution cannot substitute for Event relevance or relation evidence. Primary sites: [§§23.1–23.4](../01_blocks/03_part_ii_sub.md#23-1-event-decomposition).
+
+## Chapter 23 WP2 Non-Event Evidence Routing
+
+Non-Event decomposition requires separately traceable support for:
+
+- the expected structure and its governing Frame;
+- the expected window, deadline, trigger, or completion condition;
+- non-realization within that boundary;
+- the praxis difference produced by non-realization;
+- positive sub-events and their relation to production, stabilization, deferral, fragmentation, or failure to overcome `Λ`;
+- delay mechanisms, role and authority conditions, thresholds, and dependencies;
+- later realization and its non-erasure relation to the earlier window;
+- repeated decision opportunities and candidate temporal categories;
+- the occurrence capable of creating binding closure;
+- source gaps and rival explanations.
+
+Archive silence, record gaps, elapsed duration, structural benefit, or repeated role transfer cannot substitute for expectation, non-realization, intention, causal, person, or binding evidence. Primary sites: [§§23.5–23.8](../01_blocks/03_part_ii_sub.md#23-5-non-event-decomposition).
+
+
+
+## Chapter 23 WP3 Evidence Burdens
+
+Internal temporal order requires evidence for relations, not only dates. Partial order and overlap require supported dependency or concurrency; multiple clocks require separately supported timing claims; interruption/resumption requires reference continuity; temporal drift requires a no-difference finding against the declared praxis claim. Event/Non-Event category revision requires expectation, realization, boundary, and Source-Function evidence. Missing relation evidence routes to uncertainty, claim reduction, Stop, or Non-Capture—not invented chronology. Primary sites: [§§23.9–23.11](../01_blocks/03_part_ii_sub.md#23-9-internal-temporal-order).
+
+
+## Chapter 23 Provisional-Lock Evidence Profile
+
+Event claims require occurrence, boundary, completion, and praxis-change support. Non-Event claims additionally require independent expectation and bounded non-realization support. Delay, repeated non-decision, internal order, overlap, interruption, thresholds, and each clock relation require their own source trace. Missing evidence routes to uncertainty, claim reduction, Stop, Failure, or Non-Capture—not invented chronology, `Λ`, intention, or person responsibility. Primary site: [Chapter 23](../01_blocks/03_part_ii_sub.md#23-decomposing-events-non-events-and-internal-temporal-structures).
+
+## Chapter 24 Preparation Evidence Routing
+
+Path/Trajectory decomposition requires evidence for:
+
+- independently warranted PATH-produced source identity;
+- original source boundary, selection rule, formation rule, and coarser function;
+- inherited `COMPOSE` Loss and unresolved compression debt;
+- subpaths and their relations to the coarse object;
+- transition clusters and intermediate configurations;
+- turning-point transitions and historically traceable effects;
+- realized and unrealized branch status within the relevant window;
+- internal Frame changes and continuity carriers;
+- competing continuations without prediction;
+- operator-profile carriers of bounded Path-Dependence load;
+- Same-Path versus rival PATH classification;
+- new `DECOMPOSE` Loss, unresolved structure, Stop, and Non-Capture.
+
+Chronology volume, endpoint similarity, narrative salience, or graph coherence cannot substitute for formation-lineage and relation evidence.
+
+Preparation control: [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md).
+
+## Chapter 24 WP1 Evidence Return
+
+WP1 claims require evidence for:
+
+- independently warranted PATH-produced source identity;
+- source boundary, category, coarse function, and historical reference;
+- original selected configurations, ordering, formation relations, and inherited Loss;
+- the bounded insufficiency of the coarse reconstruction;
+- local subpath sources, endpoints, transitions, and relation to the coarse Path;
+- sequential, parallel, partial, competing, interrupted, resumed, and differently paced relations where claimed;
+- transition-cluster source/target configurations, intermediates, dependencies, thresholds, and rival maps;
+- every new selection introduced during decomposition;
+- classification pressure between `DECOMPOSE`, `COMPOSE`, and `PROJECT_AS`.
+
+Chronology volume, shared labels, graph coherence, or later narrative importance cannot substitute for source and formation-lineage evidence. Primary site: [Chapter 24 WP1](../01_blocks/03_part_ii_sub.md#chapter-24-decomposing-paths-and-trajectories).
+
+## Chapter 24 WP2 Evidence Return
+
+WP2 claims require evidence for:
+
+- component transitions and later historically traceable effects of turning-point candidates;
+- changed alternatives, costs, asymmetries, bindings, or action corridors;
+- branch availability within a bounded historical window;
+- roles, conditions, and mechanisms supporting branch status;
+- counterfactual constraints using then-available information and capacities;
+- earlier/later Frames and the relation connecting them;
+- persisted records, roles, obligations, residues, and practical consequences supporting continuity;
+- continuation entry conditions, accessibility, unequal load, horizon, and uncertainty;
+- reversals, interruptions, repair, parallelism, and counter-trends.
+
+Later narrative importance, current imaginability, shared institutional labels, graph coherence, or current accessibility cannot substitute for historical source support. Primary site: [Chapter 24 WP2](../01_blocks/03_part_ii_sub.md#24-5-turning-points).
+
+## Chapter 24 WP3 Evidence Return
+
+WP3 requires distinct evidence for:
+
+- original PATH selection, formation, and inherited Loss;
+- recovered detail versus later or newly accessed sources;
+- any assertion that a historical distinction remains irrecoverable;
+- the present analytical cut and each tested Path-Dependence dimension;
+- historical carriers, intervals, present effects, counterevidence, and current-condition sufficiency pressure;
+- Same-Path reference, boundary, formation lineage, and coarse function;
+- materially new source selections, periodizations, macro-objects, or referents requiring rival `COMPOSE`;
+- local result, source-function effect, prior claim disposition, and Output Class separately;
+- Failure, Stop, and Non-Capture triggers.
+
+Detail volume, archive completeness, profile count, narrative coherence, shared endpoint, or machine-readable consistency cannot substitute for these burdens. Primary site: [Chapter 24 WP3](../01_blocks/03_part_ii_sub.md#24-9-irrecoverable-compression).
+
+## Chapter 24 Provisional-Lock Evidence Return
+
+Required evidence is claim-specific: original PATH selection and formation records; source boundaries; transition relations; subpath carriers; historical branch availability; turning-point effects; Frame-change continuity; continuation entry conditions; inherited and current Loss; present carriers of dependence; and rival maps. Missing or irrecoverable evidence remains declared and cannot be repaired by formal completeness, graph density, interactivity, or later narrative coherence.
+
+## Chapter 25 Preparation Evidence Routing
+
+Resolution classification requires evidence for:
+
+- the coarse source claim and finer reconstruction;
+- the same tested claim and comparison basis;
+- source-supported component and relation differences;
+- changed or unchanged praxis-relevant dimensions;
+- the coarser source function after refinement;
+- source precision relative to semantic precision;
+- calibration thresholds, rival maps, and revision conditions;
+- the counterexample or failed condition in an Escape test;
+- the original claim disposition before any new finer claim;
+- Stop, Non-Capture, Loss, and re-entry conditions.
+
+Detail volume, graph coherence, formal validation, or model plausibility cannot independently establish purchase, relation support, calibration, or claim repair.
+
+Preparation control: [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md).
+
+## Chapter 25 WP1 Evidence Routing
+
+WP1 claims require evidence for:
+
+- the bounded source object or source Transformation Record;
+- the exact coarse claim and finer claim;
+- continuity of the tested burden and comparison basis;
+- source support for added distinctions;
+- relation support for claimed connections;
+- the changed or unchanged praxis dimensions;
+- the precise claim effect;
+- the counterexample or failed condition in an Escape test;
+- the prior claim disposition before a new finer claim is tested;
+- source coherence where Drift is alleged.
+
+Detail volume, graph dimensionality, interaction, visual coherence, formal validation, or analytical effort cannot independently establish Gain, relations, claim repair, or admissibility.
+
+Primary site: [Chapter 25 WP1](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape).
+
+## Chapter 25 WP2 Evidence Routing
+
+WP2 claims require evidence for:
+
+- the tested claim and relevant praxis dimensions;
+- the finer distinction whose purchase is assessed;
+- the component, relation, and claim support states separately;
+- the coarser source function and its relation to finer components;
+- the source-supported precision ceiling;
+- the exact semantic or structural excess where Source Overreach is alleged;
+- the comparison threshold, its basis, uncertainty, revision condition, and version;
+- prior claim dispositions before threshold or claim revision;
+- declared monitoring signals, invariants, Stop triggers, and re-entry conditions where runtime treatment is discussed.
+
+Visual coherence, graph topology, formal validity, computational effort, repeated derived agreement, or complete fields do not independently establish historical relations, purchase, calibration, semantic truth, or universal termination.
+
+Primary site: [Chapter 25 WP2](../01_blocks/03_part_ii_sub.md#25-5-detail-without-purchase).
+
+## Chapter 25 WP3 Evidence Routing
+
+WP3 requires evidence for the last resolution-bearing distinction, subsequent no-gain or drift attempts, source and relation support, preserved coarser function, prior claim disposition, Stop trigger, and materially new re-entry basis. Unsupported refinement lacks the support needed for Neutrality. Non-Capture requires evidence that the discrimination problem is genuine rather than merely unexamined. Runtime monitoring may record declared signals and invariants; it does not prove semantic truth or universal termination.
+
+## Chapter 25 Provisional-Lock Evidence Return
+
+Required evidence is comparison- and claim-specific: source support for coarse and finer reconstructions; relation support; changed or unchanged praxis dimensions; coarser-function continuity; threshold versions; counterpressure; prior claim dispositions; Stop and re-entry bases; and Loss. Missing evidence cannot be repaired by graph density, dimensionality, formal completeness, additional compute, runtime monitoring, or a finer vocabulary.
+
+## Chapter 26 Preparation Evidence Routing
+
+| Boundary question | Evidence required | Insufficient substitute |
+|---|---|---|
+| internal constitution | same-reference source materials, finer components and relations, granularity change, coarser-function trace | more detail or a new heading |
+| contextual target function | preserved origin type, declared target context, source-traceable functional relation, boundedness and rivals | analogy, usefulness, interface role, or label |
+| recontextualization | changed Frame, perspective, question, or presentation setting | automatic operation assignment |
+| dual operation | link-specific source, claim, Record, Loss, result, and failure evidence | one mixed narrative or shared success claim |
+| invalid collapse | evidence that claims, types, contexts, or records were merged | mere stylistic ambiguity |
+
+Graph geometry, proximity, clustering, colour, interaction, centrality, formal completeness, or model flags do not establish semantic operation identity or target function.
+
+Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 WP1 Evidence Routing
+
+WP1 operation-boundary claims require evidence for:
+
+- the bounded source object and origin type;
+- the source function or explanatory target;
+- the source Frame and declared granularity relation;
+- the internal structures and relations claimed by SUB;
+- the declared target context and proposed target function claimed by RETYPE pressure;
+- the source features on which the target function would depend;
+- origin-type preservation and prior source-claim disposition;
+- rival operation readings, uncertainty, and Loss.
+
+Shared sources, semantic similarity, new labels, analogies, graph geometry, visual centrality, interface use, interaction, or formal validation cannot independently establish operation identity or target-function warrant.
+
+Primary site: [Chapter 26 WP1](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+
+## Chapter 26 WP2 Evidence Routing
+
+WP2 boundary claims require evidence for:
+
+- the same origin-typed source object across separately declared operation candidates;
+- the internal structures and source-function effect used by the Trajectory or Attractor decomposition;
+- the bounded target context, task, conditions, exclusions, and failure boundary;
+- the source features on which the target function depends;
+- the context-specific functional difference produced by those features;
+- the distinction among Attractor operator type, occurrence typing, recurrence structure, and contextual function;
+- the operative claim hidden by SUB-looking or RETYPE-looking language;
+- the changed Frame or presentation condition where recontextualization is alleged;
+- prior claim dispositions and operation-specific Loss.
+
+Shared evidence, source-feature presence, usefulness, later use, labels, headings, Reader panels, graph layers, spatial proximity, centrality, or interaction cannot independently establish operation identity or target-function warrant.
+
+Primary site: [Chapter 26 WP2](../01_blocks/03_part_ii_sub.md#26-5-trajectory-decomposition-and-projection).
+
+## Chapter 26 WP3 Evidence Routing
+
+The decision test requires evidence for source object and origin type, internal distinction and relation support, source-object unit continuity, bounded target context, source-traceable target function, operation order, record handoff, and occurrence-specific Loss. A target function cannot inherit support from a component map, and a decomposition cannot inherit validity from contextual usefulness. Non-Capture requires evidence that the classification ambiguity is genuine rather than merely untested.
+
+## Chapter 26 Provisional-Lock Evidence Return
+
+Operation-boundary evidence is claim-specific: source-object and origin-type support; source-function and Frame declarations; granularity change; internal component and relation support; bounded target-context conditions; source-traceable target-function relations; recontextualization evidence; operation order; separate Records, Loss, and results; prior claim dispositions; and rival classifications. Shared evidence, usefulness, later use, labels, headings, Graph geometry, centrality, interaction, formal validation, or interface roles do not independently establish operation identity or target-function warrant.
+
+## Chapter 27 Preparation Evidence Route
+
+Chapter 27 requires separate evidence burdens for:
+
+- the source object and source claim;
+- each component candidate;
+- each asserted component relation;
+- source and target granularity;
+- the expected additional praxis difference;
+- actual changed praxis dimensions;
+- source-reference continuity;
+- coarser-function confirmation, revision, rejection, or underdetermination;
+- type-integrity preservation or revision;
+- component counterfactual variants;
+- Source-Ceiling, Stop, Claim Reduction, and Non-Capture findings.
+
+Source presence does not prove relation support. Relation support does not prove component constitutiveness. A counterfactual component test does not prove universal causality. Missing information cannot be converted into a component, relation, Non-Event, or negative result merely to complete the map.
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 WP1 Evidence Routing
+
+WP1 boundary claims require evidence for:
+
+- the bounded source object and tested source claim;
+- source and target granularity;
+- the expected and actual changed praxis dimensions;
+- component existence and relation support as separate burdens;
+- source-reference continuity or explicit revision;
+- the coarser function and its possible confirmation, differentiation, reduction, rejection, or underdetermination;
+- uncertainty and Loss.
+
+Additional timestamps, node density, interface distinctions, graph layout, common labels, temporal adjacency, or formal completeness cannot independently establish PraxisPurchase, source continuity, relation support, or reconstruction.
+
+Primary site: [Chapter 27 WP1](../01_blocks/03_part_ii_sub.md#chapter-27-sub-boundary-conditions).
+
+## Chapter 27 WP2 Evidence Routing
+
+WP2 claims route evidence separately for:
+
+- component existence and boundary;
+- temporal, dependency, enabling, blocking, substitution, maintenance, or conflict relations;
+- event and Non-Event claims;
+- source-function effects;
+- bounded component counterfactual variations;
+- source-type confirmation, restriction, rejection, or underdetermination.
+
+Model coherence, simulation output, graph centrality, node density, schema completion, shared labels, or narrative plausibility cannot supply missing source support. Counterfactual findings must expose assumptions and remain local to the declared source object, relation map, Frame, and claim.
+
+Primary site: [Chapter 27 WP2](../01_blocks/03_part_ii_sub.md#27-5-source-ceiling).
+
+## Chapter 27 WP3 Evidence Routing
+
+A WP3 result must preserve evidence separately for:
+
+- the coarse/fine comparison basis and materially changed claim dimensions;
+- every failed or satisfied conjunctive SUB gate;
+- the surviving weaker claim under Claim Reduction;
+- unresolved rival component or relation maps under Non-Capture;
+- the basis and threshold for Optional or Mandatory Stop;
+- the materially new source, relation map, claim, object, threshold, or invariant enabling re-entry;
+- prior Record disposition and canonical Loss.
+
+More compute, denser graphs, generated components, simulation coherence, or interface changes are not new evidence. Primary site: [Chapter 27 WP3](../01_blocks/03_part_ii_sub.md#27-9-no-privilege-of-fine-resolution).
+
+## Chapter 27 Provisional-Lock Evidence Routing
+
+A locked Chapter-27 assessment keeps evidence distinct for Component presence, Relation Support, Source Reference, Coarser-Function effect, Type Integrity, counterfactual assumptions, Source Ceiling, unresolved structure, Stop/re-entry basis, and canonical Loss. Evidence in one field cannot silently compensate for another.
+
+Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation Evidence and Artifact Route
+
+Every Chapter-28 case requires separate support for source identity, origin type, Frame, granularity, components, relations, temporal order where relevant, source-function effect, type effect, resolution result, alternatives, Counterfactual Sensitivity, Loss, and final mapping.
+
+Artifact completeness requires:
+
+```text
+Markdown reconstruction
++ schema-valid YAML Record
++ case-local audit
++ canonical Output-Class mapping
++ Case Index registration and hashes
+```
+
+This is a completeness burden, not proof of substantive truth. Shared evidence does not merge operations; graph geometry does not prove relations; a coherent narrative does not fill source gaps; a valid schema does not select the correct semantic result.
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 — Positive Case Evidence Discipline
+
+All six WP1 records use synthetic declarations with explicit provenance and no external empirical warrant. Component presence, relation support, counterfactual sensitivity, source-function effect, uncertainty, and Claim Ceiling are recorded separately. Missing relations are not filled through narrative coherence, graph layout, or simulation.
+
+## Chapter 28 WP2 — Countercase Evidence Discipline
+
+WP2 separates supported detail from relevant detail, component support from relation support, local difference from macrostructure, occurrence source from operator type, and internal reconstruction from target-function or new-PATH claims. Missing support is preserved as unavailable or underdetermined, never completed by graph or narrative coherence.
+
+## Chapter 28 WP3 — Analogy and Modulation Evidence Discipline
+
+Foreign-domain resemblance is not source-bound component or relation evidence. Recurrent occurrence effects do not establish a new operator type. The integrated Local Audit preserves unavailable and underdetermined structure rather than completing it through models, graphs, or type inflation.
+
+## Chapter 28 and Part II Provisional-Lock Evidence Status
+
+The lock is supported by sixteen Chapter-28 Markdown reconstructions, sixteen schema-valid Chapter-28 YAML Records, twelve-stage local audits, canonical mappings, complete Loss, alternatives, Case Index registration and hashes, the twenty-four-question integrated SUB Local Audit, and the retained Chapters-18–27 canonical method.
+
+All case sources are synthetic declarations unless separately stated. Artifact completeness and schema validity establish controlled record integrity, not empirical truth, causal sufficiency, semantic validity, person judgment, or application authority.
+
+Primary artifact registry: [Case Index](../03_cases/Case_Index.md).  
+Primary lock site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).

@@ -1,6 +1,6 @@
 # PMS-STRATA — Transformation Operation Index
 
-**Status:** Reference Kernel v0.1.36; Chapter-11-WP2-synchronized operation and record navigation  
+**Status:** Reference Kernel v0.1.38; Chapter-20-WP3-synchronized operation and record navigation  
 **Repository role:** `04_reference/*` — terminology and cross-reference layer; not an independent theory source  
 **Canonical operation inventory:** `COMPOSE`, `DECOMPOSE`, `PROJECT_AS`  
 **Primary control sources:** `05_minified/PMS_STRATA_Operation_Signatures_Minified.md`, `05_minified/PMS_STRATA_Minified_Canonical.md`, `05_minified/PMS_STRATA_Admissibility_Band_Minified.md`, and `05_minified/Chapter_Contracts.md`  
@@ -3451,3 +3451,774 @@ PATH closes with `COMPOSE` as its governing operation and preserves one `DECOMPO
 ## Part I — PATH Provisional-Lock Operation Boundary
 
 `COMPOSE` is the governing PATH operation. The single Chapter-17 `DECOMPOSE` record tests resolution neutrality and the PATH/SUB boundary without changing PATH ownership. No `PROJECT_AS` record is executed. The lock does not authorize later operations; each future operation requires a new record and testable claim.
+
+## Chapter 18 Preparation Handoff — Compressed Source Entry
+
+Chapter 18 prepares the input to `DECOMPOSE`; it does not execute the operation.
+
+A valid preparation declaration includes:
+
+- source reference and lineage;
+- origin/source type;
+- source Frame, granularity, relative level, and temporal scope;
+- current/coarser source function;
+- known and unresolved internal structure;
+- decomposition reason or no-decomposition reason;
+- source and function uncertainty;
+- preservation, Stop, and Non-Capture boundaries.
+
+```text
+compressed source declaration
+≠ DECOMPOSE occurrence
+≠ component discovery
+```
+
+The same reference object must remain the later reconstruction target. The coarse function remains open to confirmation, refinement, differentiation, partial preservation, rejection, or underdetermination. Chapter 19 owns the granularity relation; Chapter 20 owns procedure and result.
+
+## Chapter 18 WP1 — Pre-DECOMPOSE Source-Candidate Boundary
+
+Chapter 18 WP1 canonically defines the entry architecture preceding `DECOMPOSE`:
+
+```text
+identifiable occurrence or composite
++ bounded source-side typing and coordinates
++ known / unresolved distinction
+→ possible source candidate
+```
+
+This is not an operation signature extension and not an operation occurrence. Chapter 19 still owns the source-to-target granularity relation. Chapter 20 still owns decomposition question, components, relations, source support, preservation testing, Loss, and result.
+
+The following shortcuts remain prohibited:
+
+- `SUB` treated as a fourth operation;
+- operator-type decomposition;
+- Path or Trajectory lock treated as decomposition permission;
+- prior `COMPOSE` treated as losslessly invertible;
+- eligible occurrence treated as admissible `DECOMPOSE`;
+- unresolved internal structure treated as discovered components.
+
+Canonical sites: [§18.1](../01_blocks/03_part_ii_sub.md#18-1-purpose-of-sub) and [§18.4](../01_blocks/03_part_ii_sub.md#18-4-operator-type-versus-decomposable-occurrence).
+
+
+
+## Chapter 18 WP2 — Pre-Operation Compression Decision
+
+Chapter 18 WP2 remains upstream of the `DECOMPOSE` operation:
+
+```text
+necessary compression assessment
+→ insufficiency pressure, if any
+→ well-formed reason or no-decomposition decision
+→ Chapter 19 granularity relation
+→ Chapter 20 DECOMPOSE, if warranted
+```
+
+Compression is not registered as a fourth operation. A reason to decompose does not select target granularity, populate components, reconstruct relations, or assign an Output Class. A no-decomposition decision does not execute `DECOMPOSE` and therefore is not a `resolution_neutral` operation result.
+
+Canonical sites: [§18.5](../01_blocks/03_part_ii_sub.md#18-5-why-compression-is-necessary), [§18.6](../01_blocks/03_part_ii_sub.md#18-6-why-compression-can-become-insufficient), [§18.7](../01_blocks/03_part_ii_sub.md#18-7-reasons-to-decompose), [§18.8](../01_blocks/03_part_ii_sub.md#18-8-reasons-not-to-decompose).
+
+
+## Chapter 18 WP3 — DECOMPOSE Source-Entry Completion
+
+Chapter 18 now supplies the complete source-entry package for a possible later `DECOMPOSE` occurrence:
+
+```text
+source reference
++ source-side typing and coordinates
++ current/coarser function under test
++ known and unresolved internal structure
++ reason to decompose or not decompose
++ inherited Loss and uncertainty
++ Stop and Non-Capture availability
+```
+
+The package does not include target granularity, discovered components, component relations, source-function effect, operation result, target function, or automatic Output Class. Chapter 19 owns the granularity relation; Chapter 20 owns operation execution.
+
+```text
+source readiness ≠ DECOMPOSE success
+source preservation ≠ source immunization
+```
+
+Canonical sites: [§18.9](../01_blocks/03_part_ii_sub.md#18-9-preservation-requirement) and [§18.10](../01_blocks/03_part_ii_sub.md#18-10-minimal-source-declaration).
+
+
+## Chapter 18 Provisional-Lock Handoff
+
+The provisionally locked source-side sequence is:
+
+```text
+occurrence or composite identified
+→ provisional elementarity or compression declared
+→ reason to decompose / not decompose bounded
+→ source preservation and uncertainty retained
+→ Minimal Source Declaration
+→ Chapter 19 granularity test
+→ Chapter 20 DECOMPOSE, only if warranted
+```
+
+No arrow inherits admissibility, truth, target function, or authority. `DECOMPOSE` is not executed in Chapter 18. Primary site: [Chapter 18 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-18-completion-boundary).
+
+## Chapter 19 Preparation — Granularity Gate before DECOMPOSE
+
+Chapter 19 prepares the coordinate relation required before the Chapter-20 procedure:
+
+```text
+Chapter 18 source object and reason
+→ Chapter 19 source-to-target granularity relation
+→ Chapter 20 DECOMPOSE occurrence
+```
+
+The gate requires explicit source and target granularities, distinction-set change, Frame/reference status, expected praxis difference, and comparison rationale. Coordinate completion does not establish operation identity, component discovery, operation success, or Output Class.
+
+The eight-field Minimal Granularity Relation is conceptual and maps to existing Shared Record paths plus controlled `extensions`; it is not a parallel schema.
+
+## Chapter 19 WP1 — Canonical Coordinate Gate
+
+The canonical handoff is now:
+
+```text
+Chapter 18 source declaration
+→ Chapter 19 WP1 granularity direction, comparator, Frame status, and expected difference
+→ Chapter 19 WP2–WP3 component and comparison architecture
+→ Chapter 20 DECOMPOSE procedure
+```
+
+WP1 establishes a necessary coordinate gate, not operation identity. It withholds source-supported component discovery, component relations, comparability classification, the Minimal Granularity Relation, source-function effect, operation result, and Chapter-25 resolution outcome.
+
+Primary site: [Chapter 19 WP1](../01_blocks/03_part_ii_sub.md#chapter-19-granularity-change-and-the-logic-of-decomposition).
+
+## Chapter 19 WP2 — Canonical Component-Eligibility Gate
+
+The coordinate handoff now includes a component-eligibility layer before Chapter 20:
+
+```text
+Chapter 19 WP1
+→ changed distinction set and coordinate direction
+
+Chapter 19 WP2
+→ local/distributed candidate forms and conjunctive component burden
+
+Chapter 19 WP3
+→ comparability, mismatch, Lower Granularity Question, Minimal Granularity Relation
+
+Chapter 20
+→ actual component/relation reconstruction and DECOMPOSE result
+```
+
+WP2 does not execute `DECOMPOSE`. It permits carrying, disturbing, and replaceable component candidates while withholding actual component status, necessity, sufficiency, causality, source-function effect, and operation result.
+
+Primary sites: [§19.5–§19.7](../01_blocks/03_part_ii_sub.md#19-5-change-of-distinction-set).
+
+## Chapter 19 WP3 — Canonical Granularity-Relation Handoff
+
+```text
+Chapter 18
+→ compressed source object and reason
+
+Chapter 19
+→ source-to-target granularity relation,
+comparison basis, Lower Granularity Question,
+and exact Minimal Granularity Relation
+
+Chapter 20
+→ actual component/relation reconstruction,
+source-function test, DECOMPOSE Record, and result
+```
+
+Chapter 19 comparison descriptions are not operations or Output Classes. The eight-field Minimal Granularity Relation maps to existing Shared Record carriers and controlled `extensions`; it does not execute `DECOMPOSE` or replace the schema.
+
+Primary sites: [§19.8–§19.11](../01_blocks/03_part_ii_sub.md#19-8-granularity-comparability).
+
+
+## Chapter 19 Provisional-Lock Handoff
+
+The provisionally locked coordinate sequence is:
+
+```text
+Chapter-18 source declaration
+→ source-to-target granularity relation
+→ distinction-set and comparison burden
+→ Minimal Granularity Relation
+→ Chapter-20 Preparation Gate
+→ DECOMPOSE procedure, only if warranted
+```
+
+No arrow inherits truth, source support, component status, operation success, target function, or authority. Primary site: [Chapter-19 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-19-completion-boundary).
+
+## Chapter 20 Preparation — Complete DECOMPOSE Procedure
+
+The prepared procedure requires:
+
+```text
+identifiable compressed source
++ precise decomposition question
++ declared granularity relation
++ source-supported components
++ component relations
++ internal temporality where applicable
++ source-function test
++ Loss, Stop, Non-Capture
++ separated Output mapping
+```
+
+Four result axes remain distinct:
+
+```text
+local operation result
+≠ source-function effect
+≠ prior source-claim disposition
+≠ canonical Output Class
+```
+
+Chapter 20 owns the generic procedure. Chapters 21–24 own source-family applications; Chapter 25 owns the full resolution taxonomy; Chapter 26 owns operation-boundary adjudication. Preparation control: [`Chapter_20_Preparation_Record.md`](Chapter_20_Preparation_Record.md).
+
+## Chapter 20 WP1 — DECOMPOSE Entry Procedure
+
+WP1 fixes the first four procedural stages:
+
+```text
+1. preserve exact DECOMPOSE identity
+2. test conjunctive preconditions
+3. restate independently identifiable source object
+4. formulate one precise decomposition question
+```
+
+The procedure consumes Chapter-18 source entry and Chapter-19 granularity relation without inheriting operation warrant or success. Generic detail, atomization, operator-type decomposition, preferred-conclusion questions, new-Path selection, and target-function assignment remain excluded.
+
+Primary sites: [§20.1–§20.4](../01_blocks/03_part_ii_sub.md#20-1-definition).
+
+## Chapter 20 WP2 — DECOMPOSE Reconstruction Procedure
+
+WP2 adds the middle procedural stages:
+
+```text
+5. declare expected additional difference and no-gain
+6. map claim-specific source support and precision ceiling
+7. establish components through five conjunctive burdens
+8. reconstruct component relations and conditional internal temporality
+```
+
+A list of details or components does not complete `DECOMPOSE`. Source-function effect, operation result, canonical Output Class, final Loss, failure, and the complete Record remain pending.
+
+Primary sites: [§20.5–§20.8](../01_blocks/03_part_ii_sub.md#20-5-expected-additional-difference).
+
+## Chapter 20 WP3 — DECOMPOSE Result and Record Completion
+
+WP3 completes the generic procedure:
+
+```text
+9. test source-function effect without immunization
+10. separate local result, source-function effect, prior claim disposition, and canonical class
+11. disclose non-invertibility and operation-switch boundaries
+12. route Failure, Mandatory Stop, and Non-Capture separately
+13. complete the sixteen-field DECOMPOSE view within the Shared Transformation Record
+```
+
+A rejected source function may coexist with a successful `DECOMPOSE` occurrence. A new Path requires `COMPOSE`; a contextual target function requires `PROJECT_AS`.
+
+Primary sites: [§20.9–§20.13](../01_blocks/03_part_ii_sub.md#20-9-preservation-of-source-function).
+
+## Chapter 20 WP4 — Generic DECOMPOSE Procedure Lock
+
+Chapter 20 is provisionally locked as the complete generic `DECOMPOSE` procedure: explicit source and question, declared granularity relation, expected difference and no-gain condition, source-support mapping, component and relation reconstruction, conditional internal temporality, source-function testing, four-axis result separation, Loss, Output-Class mapping, non-invertibility, Failure/Stop/Non-Capture, and the complete Record view.
+
+```text
+complete generic DECOMPOSE procedure
+≠ completed occurrence-family theory
+≠ full resolution taxonomy
+≠ SUB lock
+```
+
+Primary site: [Chapter-20 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-20-completion-boundary).
+
+## Chapter 21 Preparation — Family-Specific DECOMPOSE Application
+
+Chapter 21 reuses the complete Chapter-20 procedure across Frame-, Attractor-, Asymmetry-, Impulse-, and Binding-typed occurrences. It changes the family-specific question and evidence burden, not the operation identity.
+
+Dynamic Attractor target-function claims remain `PROJECT_AS`; formation of a new macro-object from local asymmetries remains `COMPOSE`.
+
+Preparation control: [Chapter 21 Preparation Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP1 — Frame-Family DECOMPOSE Application
+
+WP1 reuses the Chapter-20 generic procedure for one Frame-typed occurrence. It adds only family-specific burdens: formation/function separation, source-supported boundary practices, heterogeneous maintenance, substitution, counterevidence, layered typing, and person-inference prohibition.
+
+```text
+family-specific application
+≠ new operation
+≠ operator redefinition
+```
+
+Primary sites: [§21.1–§21.4](../01_blocks/03_part_ii_sub.md#chapter-21-decomposing-operator-typed-occurrences).
+
+## Chapter 21 WP2 — Attractor/Asymmetry DECOMPOSE Application
+
+WP2 reuses the generic Chapter-20 procedure for Attractor- and Asymmetry-typed occurrences. A broader object assembled from several occurrences requires `COMPOSE`; a contextual Attractor-, Frame-, governance-, or other target function requires `PROJECT_AS`.
+
+```text
+occurrence-level DECOMPOSE
+≠ broader-object COMPOSE
+≠ target-function PROJECT_AS
+```
+
+Primary sites: [§21.5–§21.9](../01_blocks/03_part_ii_sub.md#21-5-attractor-typed-occurrence).
+
+## Chapter 21 WP3 — Impulse/Binding DECOMPOSE Application
+
+WP3 applies the generic Chapter-20 procedure to Impulse- and Binding-typed occurrences, then completes occurrence-family Failure, Stop, Non-Capture, and result-axis logic. Selecting several activations or commitments into a new object still requires `COMPOSE`; assigning a contextual function still requires `PROJECT_AS`.
+
+Primary sites: [§21.10](../01_blocks/03_part_ii_sub.md#21-10-impulse-typed-occurrence)–[§21.12](../01_blocks/03_part_ii_sub.md#21-12-failed-operator-occurrence-decomposition).
+
+## Chapter 21 WP4 Operation Lock
+
+Chapter 21 is provisionally locked as a family-specific application of the Chapter-20 `DECOMPOSE` procedure. A broader object assembled from several occurrences still requires `COMPOSE`; a contextual target function still requires `PROJECT_AS`. The five families do not add a fourth operation or modify an operation signature.
+
+Primary site: [Chapter-21 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-21-completion-boundary).
+
+## Chapter 22 Preparation — Composite DECOMPOSE Application
+
+Chapter 22 prepares `DECOMPOSE` for already-composite source objects. The operation must retain the same bounded composite reference while reconstructing the internal composition map, component roles, distributed function, redundancy, substitution, conflict, stability, inherited composition trace, and Loss.
+
+```text
+DECOMPOSE(COMPOSE(X))
+≠ X
+```
+
+The operation does not undo prior selection or recover irrecoverable sources. Selecting several previously separate structures into a new macro-object remains `COMPOSE`; assigning a contextual higher-level function remains `PROJECT_AS`.
+
+Preparation control: [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP1 — Composite DECOMPOSE Entry and Map
+
+WP1 reuses the Chapter-20 generic `DECOMPOSE` procedure for already-composite source objects. It establishes source-entry, inherited-Loss, map, role, trace, and operator-weighting burdens without performing a new `COMPOSE`, assigning a `PROJECT_AS` target function, or completing the Chapter-22 operation result.
+
+Primary site: [§§22.1–22.4](../01_blocks/03_part_ii_sub.md#chapter-22-decomposing-composite-structures).
+
+## Chapter 22 WP2 — Composite DECOMPOSE Middle Procedure
+
+Within the same bounded source composite, `DECOMPOSE` may reconstruct source-side modulation, distributed function, redundancy, substitution, qualitative thresholds, and internal conflict. Same-reference continuity and the declared composite boundary remain mandatory.
+
+```text
+opening supported distribution or conflict inside the same composite
+→ DECOMPOSE
+
+forming a new object from previously separate structures
+→ COMPOSE
+
+assigning a contextual target function
+→ PROJECT_AS
+```
+
+Primary sites: [§§22.5–22.8](../01_blocks/03_part_ii_sub.md#22-5-modulating-profiles).  
+Execution control: [Chapter 22 Preparation/Execution Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP3 Operation Return
+
+`DECOMPOSE` remains the sole operation while the same bounded source composite is reconstructed through stability, non-fragmentation, Failure/Stop/Non-Capture, and Record discipline. Forming a new macro-object requires `COMPOSE`; assigning a contextual temporal, governance, or profile function requires `PROJECT_AS`.
+
+Primary sites: [§§22.9–22.11](../01_blocks/03_part_ii_sub.md#22-9-composite-stability).
+
+## Chapter 22 WP4 Operation Lock
+
+Chapter 22 is provisionally locked as relational `DECOMPOSE` of already-composite source objects. A newly assembled macro-object still requires `COMPOSE`; a contextual higher-level function still requires `PROJECT_AS`. Composite decomposition does not invert a prior `COMPOSE` occurrence and does not add a fourth operation.
+
+Primary site: [Chapter-22 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-22-completion-boundary).
+
+## Chapter 23 Preparation — Temporal DECOMPOSE Application
+
+Chapter 23 prepares `DECOMPOSE` for apparently punctual Events, Extended Events, Event Clusters, Non-Events, delay structures, and repeated non-decisions. The same bounded source reference must remain visible while phases, sub-events, temporal relations, expectations, delays, thresholds, and completion conditions are reconstructed.
+
+Selecting independent Events into a new Event Cluster may require `COMPOSE`. Constructing a Path or Trajectory remains PATH/Chapter-24 work. Assigning a contextual higher-level function remains `PROJECT_AS`.
+
+```text
+finer temporal map of the same source
+≠ new Path automatically
+≠ target function
+```
+
+Preparation control: [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md).
+
+## Chapter 23 WP1 Temporal DECOMPOSE Return
+
+Chapter 23 WP1 applies `DECOMPOSE` where an independently warranted coarse Event-like source object is opened into finer phases, thresholds, role shifts, completion relations, or locally distinguishable Events while the same source reference remains testable.
+
+```text
+coarse Event opened into related finer structure
+→ DECOMPOSE candidate
+
+independent Events selected and related into a new cluster
+→ COMPOSE claim
+
+new contextual temporal function assigned
+→ PROJECT_AS claim
+```
+
+A category revision from apparently punctual Event to Extended Event or Event Cluster does not itself create a fourth operation. Primary sites: [§23.1](../01_blocks/03_part_ii_sub.md#23-1-event-decomposition) and [§23.3](../01_blocks/03_part_ii_sub.md#23-3-event-cluster).
+
+## Chapter 23 WP2 DECOMPOSE Application
+
+`DECOMPOSE` opens the same bounded Non-Event source object into expectation support, positive sub-events, delay mechanisms, role and threshold relations, repeated decision opportunities, and absent binding occurrences. It does not form a new Event Cluster or Path silently, infer a target function, or derive intention from duration.
+
+```text
+positive internal Events found
+≠ switch from DECOMPOSE to Event-only account automatically
+
+broader realized sequence newly formed
+→ possible COMPOSE/PATH claim, not hidden WP2 continuation
+```
+
+Primary sites: [§§23.5–23.8](../01_blocks/03_part_ii_sub.md#23-5-non-event-decomposition).
+
+
+
+## Chapter 23 WP3 — Temporal DECOMPOSE Completion
+
+Temporal `DECOMPOSE` reconstructs supported internal order, overlap, partial order, thresholds, interruptions, and multiple clocks while preserving or warrantably revising the same Event/Non-Event reference object. Timestamp multiplication without changed praxis reconstruction is drift/no-gain pressure. New Event-cluster formation may require `COMPOSE`; broader Path/Trajectory reconstruction belongs to Chapter 24/PATH; contextual target function belongs to `PROJECT_AS`. Primary sites: [§§23.9–23.11](../01_blocks/03_part_ii_sub.md#23-9-internal-temporal-order).
+
+
+## Chapter 23 Provisionally Locked — Temporal DECOMPOSE
+
+Temporal `DECOMPOSE` opens the same bounded Event-like or Non-Event source object through source-supported phases, boundaries, expectations, non-realization, delays, internal order, and multiple clocks. New clustering of independent Events requires `COMPOSE`; broader Path/Trajectory reconstruction belongs to Chapter 24/PATH; contextual target function belongs to `PROJECT_AS`. Primary site: [Chapter 23](../01_blocks/03_part_ii_sub.md#23-decomposing-events-non-events-and-internal-temporal-structures).
+
+## Chapter 24 Preparation — PATH-Source DECOMPOSE Classification
+
+Chapter 24 prepares `DECOMPOSE` for PATH-produced source objects. Same-reference opening requires the source Path or Trajectory, original selection and formation rule, coarser function, and inherited Loss to remain reconstructible.
+
+A materially different periodization, source selection, boundary, or formation rule may create a rival PATH object and therefore requires a separate `COMPOSE` occurrence. Assigning a contextual higher-level function remains `PROJECT_AS`.
+
+```text
+same Path opened under finer resolution
+≠ rival Path newly composed
+≠ contextual target function
+```
+
+Preparation control: [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md).
+
+## Chapter 24 WP1 PATH-Source DECOMPOSE Return
+
+Chapter 24 WP1 applies `DECOMPOSE` where one independently warranted PATH-produced source object is opened through finer subpaths, intermediate configurations, and transition clusters while historical reference, formation lineage, and coarse function remain testable.
+
+```text
+same formed Path opened under finer resolution
+→ DECOMPOSE candidate
+
+materially new selection, periodization, or Path
+→ COMPOSE candidate
+
+Path assigned a contextual target function
+→ PROJECT_AS candidate
+```
+
+Primary sites: [§24.1](../01_blocks/03_part_ii_sub.md#24-1-path-objects-as-sub-objects) and [§24.4](../01_blocks/03_part_ii_sub.md#24-4-transition-clusters).
+
+## Chapter 24 WP2 PATH-Decomposition Return
+
+`DECOMPOSE` remains applicable while turning-point, branch, internal-Frame, and continuation maps open the same PATH-produced source object under preserved historical reference and formation lineage.
+
+```text
+same source Path opened through turning points and branches
+→ DECOMPOSE candidate
+
+new counterfactual or rival Path formed
+→ COMPOSE candidate
+
+completed Path assigned a contextual target function
+→ PROJECT_AS candidate
+```
+
+Primary sites: [§§24.5–24.8](../01_blocks/03_part_ii_sub.md#24-5-turning-points).
+
+## Chapter 24 WP3 Operation and Non-Inverse Return
+
+```text
+same formed PATH object opened under finer resolution
+→ DECOMPOSE candidate
+
+materially new source selection, boundary, periodization, formation, macro-object, or referent
+→ separate COMPOSE candidate
+
+completed Path assigned a bounded target-context function
+→ PROJECT_AS candidate
+
+SUB(PATH(X))
+≠ X
+```
+
+A rival `COMPOSE` may be admissible without making the original `DECOMPOSE` failed automatically. Every transformation keeps its own claim, Loss, result axes, and Record.
+
+Primary sites: [§§24.9–24.11](../01_blocks/03_part_ii_sub.md#24-9-irrecoverable-compression).
+
+## Chapter 24 Provisional-Lock Operation Return
+
+```text
+same formed PATH object opened under finer resolution
+→ DECOMPOSE candidate
+
+materially new selection, boundary, periodization, formation, macro-object, referent, or PATH question
+→ separate COMPOSE candidate
+
+bounded contextual target function
+→ PROJECT_AS candidate
+```
+
+Each route requires its own Record, Loss, admissibility result, Claim Ceiling, and Stop/Non-Capture test. Chapter-24 closure adds no fourth operation.
+
+## Chapter 25 Preparation — Resolution Classification after DECOMPOSE
+
+Chapter 25 evaluates a completed or attempted finer reconstruction by comparing the coarse and finer claims, source support, relations, coarser function, calibration, and changed PraxisPurchase. It does not create a fourth operation.
+
+```text
+DECOMPOSE occurrence
+→ local resolution assessment
+→ separate canonical routing
+```
+
+A warranted finer claim after a failed coarse claim is a new testable claim; local support must not be transferred backward as retroactive rescue. Operation-boundary questions involving contextual function remain Chapter-26 work.
+
+Preparation control: [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md).
+
+## Chapter 25 WP1 Resolution-Comparison Return
+
+Chapter 25 WP1 evaluates a completed or attempted finer reconstruction. The comparison remains inside the declared `DECOMPOSE` claim only while the same tested burden and source object remain controlled. A materially new object or formation requires a separate `COMPOSE` claim; a contextual target function requires `PROJECT_AS`.
+
+```text
+same tested claim compared across warranted resolutions
+→ resolution classification candidate
+
+new source object or formation
+→ separate COMPOSE candidate
+
+new contextual target function
+→ PROJECT_AS candidate
+```
+
+A granularity change after counterpressure does not repair the prior claim automatically.
+
+Primary site: [§§25.1–25.4](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape).
+
+## Chapter 25 WP2 Purchase, Support, and Calibration Return
+
+A `DECOMPOSE` comparison succeeds only where finer components and relations remain source-supported and reconstructively connected to the coarser source function. Loss of that connection may require claim reduction, Failure, Stop, or a separately declared transformation; added formal structure cannot preserve operation status by itself.
+
+A monitoring or parallel kernel may track declared runtime states, threshold versions, claim effects, support changes, and Stop conditions. Such monitoring is an implementation function, not a fourth STRATA operation and not a universal termination decider.
+
+Primary site: [§§25.5–25.8](../01_blocks/03_part_ii_sub.md#25-5-detail-without-purchase).
+
+## Chapter 25 WP3 Transformation Mapping
+
+- [§25.9](../01_blocks/03_part_ii_sub.md#25-9-decomposition-fatigue) establishes Decomposition Fatigue as a bounded Stop marker.
+- [§25.10](../01_blocks/03_part_ii_sub.md#25-10-resolution-classification) maps six local resolution families through existing formal fields and preserves four result axes.
+- [§25.11](../01_blocks/03_part_ii_sub.md#25-11-stop-reentry-and-completion) completes Mandatory Stop, Non-Capture, re-entry, the nineteen-field Record view, and the Chapter-26 handoff.
+
+Stop does not become a fourth operation, and re-entry is a new testable claim rather than continuation without disposition.
+
+## Chapter 25 Provisional-Lock Operation Return
+
+```text
+same source object and tested claim opened at finer resolution
+→ DECOMPOSE result assessment
+
+materially new source selection or composite formation
+→ separate COMPOSE candidate
+
+bounded contextual target function assigned
+→ separate PROJECT_AS candidate
+```
+
+Resolution Gain, Neutrality, Drift, Escape, unsupported refinement, Non-Capture, Stop, and re-entry are results or controls, not operations. A runtime or parallel kernel may monitor declared invariants and enforce bounded Stop conditions; it neither becomes a fourth operation nor decides universal halting or semantic truth.
+
+## Chapter 26 Preparation — SUB/RETYPE Operation Test
+
+The prepared decision burden asks:
+
+1. Is finer internal source structure being opened?
+2. Is granularity the primary changed coordinate?
+3. Does the source object remain the explanation target?
+
+If so, `DECOMPOSE` pressure is present.
+
+Or:
+
+1. Does the origin-typed source object remain a unit?
+2. Is a bounded function asserted in another declared context?
+3. Must origin type and target function be kept distinct?
+
+If so, `PROJECT_AS` pressure is present.
+
+A changed Frame without a target function may remain recontextualization. Dual-operation cases require linked but separate Records, claims, Loss declarations, and results.
+
+Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 WP1 Operation-Boundary Return
+
+| Question | Primary operation pressure | Required preservation |
+|---|---|---|
+| What finer structures constitute or destabilize the source object? | `DECOMPOSE` | same bounded source reference and source-function traceability |
+| What bounded function does the retained source object perform in a declared target context? | `PROJECT_AS` | origin type, contextual boundedness, separate target-function warrant |
+| Has only the perspective, audience, or display changed? | neither operation established automatically | prior claim and source object remain visible |
+| Are both internal structure and contextual function claimed? | dual-operation pressure | separate occurrences, claims, Records, Loss, and results |
+
+The linguistic surface does not determine operation identity. No fourth operation is created.
+
+Primary site: [Chapter 26 WP1](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+
+## Chapter 26 WP2 Operation-Boundary Return
+
+| Comparison | Operation pressure | Boundary safeguard |
+|---|---|---|
+| Trajectory opened into subpaths, transition clusters, Non-Events, authority changes, and residues | `DECOMPOSE` | source object remains explanatory target |
+| retained Trajectory proposed as a calibration, warning, coordination, or comparison object in a bounded context | `PROJECT_AS` | origin type preserved; target context and function separately warranted |
+| Attractor occurrence opened into recurrence and maintenance relations | `DECOMPOSE` | occurrence opened; operator type protected |
+| retained occurrence or Trajectory asserted to perform an Attractor-function elsewhere | `PROJECT_AS` | source recurrence is not automatic functional proof |
+| changed Frame or graph view without either claim | neither operation established automatically | recontextualization remains possible |
+
+Subtle and reverse misclassification are resolved by the operative claim, not by vocabulary. No fourth operation is introduced.
+
+Primary site: [Chapter 26 WP2](../01_blocks/03_part_ii_sub.md#26-5-trajectory-decomposition-and-projection).
+
+## Chapter 26 WP3 Transformation Mapping
+
+- [§26.10](../01_blocks/03_part_ii_sub.md#26-10-sub-retype-decision-test) completes claim-segment-specific routing among DECOMPOSE, PROJECT_AS, recontextualization, dual-operation pressure, underdetermination, and invalid collapse.
+- [§26.11](../01_blocks/03_part_ii_sub.md#26-11-dual-operation) requires separate operation occurrences, Records, Loss, results, and explicit link order.
+- [§26.12](../01_blocks/03_part_ii_sub.md#26-12-invalid-collapse) routes mixed claims through segmentation, Failure, Stop, or Non-Capture and completes the nineteen-field boundary view and Chapter-27 handoff.
+
+Dual operation does not add a fourth operation, and operation-boundary findings do not become Output Classes.
+
+## Chapter 26 Provisional-Lock Operation Return
+
+```text
+internal constitution opened
++ granularity primarily changed
++ source object remains explanation target
+→ DECOMPOSE candidate
+
+origin-typed source object retained
++ bounded target context declared
++ source-traceable target function asserted
+→ PROJECT_AS candidate
+
+changed legibility without either claim
+→ recontextualization only
+
+both claims required
+→ ordered chain of separate operation occurrences
+```
+
+Every operation link requires a separate Record, Loss declaration, result, and Stop/Non-Capture test. No success, failure, support, or authority transfers automatically across links.
+
+## Chapter 27 Preparation — Local SUB Boundary Test
+
+The prepared local test for `DECOMPOSE` requires conjunctively:
+
+```text
+AdditionalPraxisDifference
+and SourceSupport
+and SourceReferencePreserved
+and ComponentRelationsReconstructible
+and CoarserFunctionTraceableOrExplicitlyRevised
+and TypeIntegrityMaintainedOrExplicitlyRevised
+and GranularityDeclared
+and StopConditionDefined
+```
+
+The lower boundary detects distinction without purchase. The upper boundary detects fragmentation without reconstructive anchoring. Source Ceiling, component sensitivity, coarser-function traceability, Stop, Claim Reduction, Failure, and Non-Capture remain separate findings or routes rather than new operations.
+
+A granularity change never erases a prior failed claim. Re-entry requires a materially new basis and a new testable claim.
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 WP1 Local DECOMPOSE Boundary Return
+
+| Boundary question | Local pressure | Required preservation |
+|---|---|---|
+| Does the additional distinction change a warranted praxis dimension? | admissible-range or Lower-Boundary pressure | tested claim and comparison basis |
+| Is supported finer detail claim-neutral? | Resolution Neutrality candidate | support, comparability, and prior disposition |
+| Do finer parts remain related to the same source object? | admissible-range or Upper-Boundary pressure | source reference and relation support |
+| Can the finer findings return to the coarser function? | reconstruction, revision, reduction, or fragmentation pressure | explicit function-effect translation |
+
+No new operation is created. Crossing a boundary changes the local admissibility result; it does not transform `DECOMPOSE` into another operation automatically.
+
+Primary site: [Chapter 27 WP1](../01_blocks/03_part_ii_sub.md#chapter-27-sub-boundary-conditions).
+
+## Chapter 27 WP2 DECOMPOSE Support Return
+
+| WP2 question | Required declaration | Non-substitution |
+|---|---|---|
+| What is the finest responsible claim? | local Source Ceiling by component, relation, time, function, counterfactual, and type | model coherence is not source support |
+| What load does a component carry? | bounded variation, supported relation map, source-function effect, assumptions, Loss | local sensitivity is not universal causality |
+| Does the finer map reconstruct the source function? | explicit coarser-function translation | component inventory is not reconstruction |
+| Does type integrity survive? | operator/occurrence/object/function levels plus explicit revision | initial type label is not protected from evidence |
+
+No new operation or routing class is created. WP2 remains an internal `DECOMPOSE` admissibility and traceability test.
+
+Primary site: [Chapter 27 WP2](../01_blocks/03_part_ii_sub.md#27-5-source-ceiling).
+
+## Chapter 27 WP3 Complete DECOMPOSE Boundary Test
+
+| Gate | Required question | Failure cannot be compensated by |
+|---|---|---|
+| Praxis difference | what warranted claim changes? | more detail |
+| Source Support | what components and relations are carried? | model coherence |
+| Source Reference | is the same object preserved or explicitly revised? | shared label |
+| Relation reconstruction | how do parts connect? | component inventory |
+| Coarser function | how is the source function affected? | local detail alone |
+| Type integrity | what type claim survives or is revised? | nominal type retention |
+| Granularity | what distinction set changed? | interface or rendering change |
+| Stop | when is continuation unnecessary or inadmissible? | recursive decomposition |
+
+Primary site: [Chapter 27 WP3](../01_blocks/03_part_ii_sub.md#27-9-no-privilege-of-fine-resolution).
+
+## Chapter 27 Provisional-Lock DECOMPOSE Boundary
+
+```text
+eligible DECOMPOSE occurrence
++ eight conjunctive local gates
++ Stop / Reduction / Failure / Non-Capture / re-entry controls
+→ bounded local SUB result
+```
+
+This lock adds no operation and does not pre-empt Chapter-28 cases or the SUB Part lock. Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation — Case-Level DECOMPOSE Discipline
+
+Each Chapter-28 case executes or evaluates `DECOMPOSE` only through the existing signature. Cases involving a PATH source inherit an earlier `COMPOSE` history but require a distinct `DECOMPOSE` Record. A rival PATH claim requires a new `COMPOSE` occurrence. A contextual target function requires a separate `PROJECT_AS` occurrence.
+
+```text
+COMPOSE source
+→ DECOMPOSE test
+
+DECOMPOSE finding
+→ possible separate COMPOSE or PROJECT_AS claim
+```
+
+No success, failure, support, Loss, Stop, or authority transfers automatically across links. Analogy and recontextualization remain non-operation results unless an actual operation claim is separately established.
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 — Six Executed DECOMPOSE Occurrences
+
+WP1 instantiates six independent `DECOMPOSE` occurrences. The Frame, Attractor, Asymmetry, Non-Event, Trajectory, and Resolution-Gain sources remain bounded occurrences or composites. No case executes a new `COMPOSE` or `PROJECT_AS`; any such later claim requires a separate Record, Loss structure, and result.
+
+## Chapter 28 WP2 — Attempted DECOMPOSE and Separated Operation Pressure
+
+Eight primary records assess attempted DECOMPOSE claims. The SUB/RETYPE case registers a future PROJECT_AS claim; the SUB/new-PATH case registers a future COMPOSE claim. Neither secondary operation is executed or allowed to inherit the primary record’s support, Loss, or result.
+
+## Chapter 28 WP3 — Final SUB Case Routing
+
+The Analogy case does not establish DECOMPOSE and retains only bounded resemblance. The Modulator case preserves occurrence-level effects without adding an operator. SUB/RETYPE and SUB/new-PATH remain separated into future PROJECT_AS and COMPOSE claims with independent Records, Loss, results, and classes.
+
+## Part II — SUB Provisional-Lock Operation Handoff
+
+`DECOMPOSE` is provisionally locked as a bounded same-reference reconstruction operation across Chapters 18–28. The lock preserves separate occurrences for rival `COMPOSE` and later `PROJECT_AS` claims.
+
+```text
+successful DECOMPOSE
+≠ successful COMPOSE
+≠ successful PROJECT_AS
+
+Part II lock
+→ Chapter 29 Preparation
+→ PROJECT_AS remains unexecuted until separately warranted
+```
+
+Primary site: [Chapter 28 and Part II completion boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).

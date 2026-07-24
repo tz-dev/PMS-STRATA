@@ -1,9 +1,9 @@
 # PMS-STRATA — Audit Checklist
 
-**Status:** Reference Kernel v0 scaffold v0.3.35; Chapter-11-WP2-synchronized  
+**Status:** Reference Kernel v0 scaffold v0.3.38; Chapter-20-WP3-synchronized  
 **Repository role:** `04_reference/*` — executable audit navigation and production control; not an independent theory source  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the synchronized peer scaffolds `04_reference/Cross_Reference_Map.md`, `04_reference/Evidence_Map.md`, and `04_reference/Reader_Pathways.md`, repository `README.md`, and `PMS.yaml` for PMS Base  
-**Current artifact status:** the seven Formal Model Core artifacts, eight canonical smoke records, and `07_model/examples/README.md` are populated and internally audit-passed; Foundations Chapters 0–8 are provisionally locked after integrated local audits; Chapter 8 carries the complete thirteen-pair catalogue and bounded Decision-Tree handoff; Chapters 9–10 are provisionally locked; Chapter 11 WP1–WP2 are canonical through Sections 11.1–11.9; Sections 11.10–11.14 and Chapters 12–57, substantive cases, appendices, derivatives, and Reader implementation remain pending
+**Current artifact status:** Formal Model Core and Smoke Suite are internally audit-passed; Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–19 are provisionally locked; Chapter 20 Preparation Gate and canonical WP1–WP3 §§20.1–20.13 are complete; WP4, later SUB/RETYPE/LIMITS chapters, standalone cases, appendices, derivatives, and Reader remain pending.
 
 ---
 
@@ -233,11 +233,11 @@ revision_required ≠ claim_reduction_required
 | 15 | COMPOSE: Selection, Formation, and Compression | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_15_Preparation_Record.md` | COMPOSE procedure | provisionally locked; §§15.1–15.16 complete |
 | 16 | PATH Boundary Conditions | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_16_Preparation_Record.md` | PATH limits | provisionally locked; §§16.1–16.15 complete |
 | 17 | PATH Cases, Countercases, and Local Audit | PATH | `01_blocks/02_part_i_path.md`; `04_reference/Chapter_17_Preparation_Record.md`; `03_cases/Case_Index.md` | PATH cases and local audit | Chapter 17 complete through §§17.1–17.17; thirteen artifact sets and integrated PATH Local Audit complete; Part I — PATH provisionally locked after WP4 integrated audit |
-| 18 | The Provisionally Compressed Object | SUB | `01_blocks/03_part_ii_sub.md` | provisional compression | contract-bound / prose pending |
-| 19 | Granularity Change and the Logic of Decomposition | SUB | `01_blocks/03_part_ii_sub.md` | granularity and decomposition logic | contract-bound / prose pending |
-| 20 | DECOMPOSE: Conditions, Procedure, and Preservation Requirements | SUB | `01_blocks/03_part_ii_sub.md` | DECOMPOSE procedure | contract-bound / prose pending |
-| 21 | Decomposing Operator-Typed Occurrences | SUB | `01_blocks/03_part_ii_sub.md` | operator-occurrence decomposition | contract-bound / prose pending |
-| 22 | Decomposing Composite Structures | SUB | `01_blocks/03_part_ii_sub.md` | composite decomposition | contract-bound / prose pending |
+| 18 | The Provisionally Compressed Object | SUB | `01_blocks/03_part_ii_sub.md`; `04_reference/Chapter_18_Preparation_Record.md` | provisional elementarity and compressed source-object entry | provisionally locked through §§18.1–18.10 after WP4 audit |
+| 19 | Granularity Change and the Logic of Decomposition | SUB | `01_blocks/03_part_ii_sub.md`; `04_reference/Chapter_19_Preparation_Record.md` | source-to-target granularity relation | Preparation Gate complete; WP1 pending |
+| 20 | DECOMPOSE: Conditions, Procedure, and Preservation Requirements | SUB | `01_blocks/03_part_ii_sub.md`; `04_reference/Chapter_20_Preparation_Record.md` | complete generic DECOMPOSE procedure | Preparation Gate complete; WP1 pending |
+| 21 | Decomposing Operator-Typed Occurrences | SUB | `01_blocks/03_part_ii_sub.md` | operator-occurrence decomposition | WP1–WP2 §§21.1–21.9 canonical / chapter provisional |
+| 22 | Decomposing Composite Structures | SUB | `01_blocks/03_part_ii_sub.md` | composite decomposition | WP1–WP3 §§22.1–22.11 canonical / chapter provisional |
 | 23 | Decomposing Events, Non-Events, and Internal Temporal Structures | SUB | `01_blocks/03_part_ii_sub.md` | event and internal-temporal decomposition | contract-bound / prose pending |
 | 24 | Decomposing Paths and Trajectories | SUB | `01_blocks/03_part_ii_sub.md` | path and trajectory decomposition | contract-bound / prose pending |
 | 25 | Resolution Gain, Neutrality, Drift, and Escape | SUB | `01_blocks/03_part_ii_sub.md` | resolution results | contract-bound / prose pending |
@@ -2654,4 +2654,996 @@ Next audit target: **Chapter 17 WP2 — Remaining Positive Cases and Countercase
 - [x] References and Formal Model mirrors are synchronized without new theory authority.
 - [x] YAML, JSON, schemas, inventories, fingerprints, links, package, CRC, and roundtrip pass.
 - [x] Part I — PATH is provisionally locked.
-- [ ] Chapter 18 Preparation complete.
+- [x] Chapter 18 Preparation complete.
+
+## Chapter 18 Preparation-Gate Audit
+
+- [x] Part-II source-entry boundary is explicit.
+- [x] Provisional elementarity is distinct from ontological indivisibility.
+- [x] Compression is distinct from error.
+- [x] Operator type is distinct from decomposable occurrence.
+- [x] Paths and Trajectories are source candidates, not pre-authorized decompositions.
+- [x] Reasons to decompose and reasons not to decompose are both legitimate.
+- [x] Curiosity, extra detail, and counterexamples do not automatically warrant SUB.
+- [x] Source reference and coarser function remain test targets.
+- [x] Preservation is distinct from immunization.
+- [x] Minimal source declaration and uncertainty burden are explicit.
+- [x] Chapter 19 granularity and Chapter 20 procedure ownership are protected.
+- [x] Eighteen Pressure Duties are assigned without standalone artifact production.
+- [x] Existing operation, Rule, class, stage, schema, and smoke-test inventories remain sufficient.
+- [x] All canonical Blocks precede the dedicated Integrated Cases and Audit file-production pass.
+- [x] No canonical Chapter-18 prose, `03_cases/*` file, Case Index entry, or new test record is produced.
+
+## Chapter 18 WP1 Audit
+
+- [x] Part II — SUB and `DECOMPOSE` remain distinct.
+- [x] The source-candidate stage remains separate from target granularity, component discovery, and operation result.
+- [x] Sections 18.1–18.4 are present with canonical anchors.
+- [x] Provisional elementarity is coordinate-, source-, uncertainty-, use-, and claim-relative.
+- [x] Absolute or ontological elementarity is not claimed.
+- [x] Compression is neutral and distinct from simplicity, error, and homogeneity.
+- [x] Known, unresolved, and unsupported internal content remain distinct.
+- [x] Object category, source-side typing, and current/coarser function remain distinct.
+- [x] Operator types remain non-decomposable; theoretical critique remains possible outside a STRATA operation.
+- [x] Eligible occurrences and composites do not inherit admissibility.
+- [x] Paths, Trajectories, Non-Events, and prior composites retain identity, source lineage, and prior Loss.
+- [x] `DECOMPOSE(COMPOSE(X)) ≠ X` remains intact.
+- [x] Multiple or rival occurrence typings remain possible.
+- [x] Eight WP1 Pressure Duties occur exactly once in canonical prose.
+- [x] No standalone `03_cases/*`, Case Index, schema, or Smoke Record expansion occurs.
+- [x] Chapter 19 and Chapter 20 ownership remain protected.
+- [x] No target function, person claim, application authority, or authority inheritance is introduced.
+
+Next audit target: **Chapter 18 WP2 — Necessary and Insufficient Compression; Reasons to Decompose and Not Decompose**.
+
+
+## Chapter 18 WP2 Audit
+
+- [x] Sections 18.5–18.8 occur once and remain inside Chapter 18 ownership.
+- [x] Compression is separated from `COMPOSE` and from analytical defect.
+- [x] Necessary compression preserves relation, uncertainty, comparison, temporal orientation, and claim calibration where relevant.
+- [x] Insufficiency requires a source-supported claim-relevant distinction.
+- [x] Complexity, detail appetite, and counterexample alone do not establish decomposition warrant.
+- [x] The reason-to-decompose structure includes coarse claim, expected distinction, source route, gain condition, neutrality condition, and stop condition.
+- [x] Coarse sufficiency, no purchase, source insufficiency, claim irrelevance, and calibration loss remain legitimate no-decomposition routes.
+- [x] No-decomposition is not mapped to `resolution_neutral` without an executed finer reconstruction.
+- [x] Six WP2 Pressure Duties occur exactly once in canonical prose.
+- [x] Chapter 19, Chapter 20, Chapter 25, and WP3 ownership remain protected.
+- [x] No standalone case/test, Case Index, schema, Rule, operation, Output Class, or audit-stage expansion occurs.
+- [x] No target function, person claim, application authority, or authority inheritance is introduced.
+
+Next audit target: **Chapter 18 WP3 — Preservation Requirement, Minimal Source Declaration, Stop, Non-Capture, and Chapter-19/20 Handoff**.
+
+
+## Chapter 18 WP3 Audit
+
+- [x] Sections 18.9–18.10 occur once and remain inside Chapter-18 ownership.
+- [x] Reference continuity requires lineage and relation, not label continuity.
+- [x] The current/coarser function remains a test target and is not immunized.
+- [x] Possible source-function effects remain later local results, not new Output Classes.
+- [x] Inherited Loss, uncertainty, and prior failed/reduced claims remain visible.
+- [x] The Minimal Source Declaration contains the ten canonical Chapter-18 fields.
+- [x] Target granularity, components, relations, operation result, and target function are not preselected.
+- [x] Optional Stop and Mandatory Stop remain distinct and positive boundary routes.
+- [x] Non-Capture remains available without protecting a weak or failed claim.
+- [x] The four WP3 Pressure Duties occur exactly once in canonical prose.
+- [x] All eighteen Chapter-18 Pressure Duties are now represented exactly once.
+- [x] No standalone case/test, Case Index, schema, Rule, operation, Output Class, or audit-stage expansion occurs.
+- [x] Chapter 19, Chapter 20, Chapter 25, RETYPE, LIMITS, and WP4 ownership remain protected.
+
+Next audit target: **Chapter 18 WP4 — Integrated Synchronization, Contract Audit, Provisional Lock, and Chapter-19 Preparation Handoff**.
+
+
+## Chapter 18 WP4 Integrated Lock Audit
+
+- [x] Chapter-18 Contract and all four completion tests pass.
+- [x] §§18.1–18.10 occur once and form one source-entry architecture.
+- [x] All eighteen Pressure Duties occur exactly once.
+- [x] `SUB` remains a Part and the operation inventory remains exactly three.
+- [x] Operator types remain non-decomposable; occurrences and composites remain candidate source objects.
+- [x] Compression remains distinct from error and from `COMPOSE`.
+- [x] Reasons to decompose and not to decompose remain bounded and source-sensitive.
+- [x] Preservation remains distinct from immunization.
+- [x] The ten-field Minimal Source Declaration remains source-side only.
+- [x] Chapter 19 and Chapter 20 ownership is not pre-empted.
+- [x] Stop and Non-Capture remain distinct and do not protect a failed strongest claim.
+- [x] No new case/test artifact, Rule, operation, Output Class, audit stage, schema field, or Smoke Record was introduced.
+- [x] Reference, model, schema, fingerprint, link, package, CRC, and roundtrip checks pass.
+- [x] Chapter 18 is provisionally locked with `admissible_but_provisional`.
+
+Next controlled step: **Chapter 19 Preparation Gate**.
+
+## Chapter 19 Preparation-Gate Audit
+
+- [x] Chapter-18 source entry is retained without target-granularity inheritance.
+- [x] Granularity change is distinction-set change, not more text or data.
+- [x] Relative downward movement is relational and anti-ontological.
+- [x] Finer granularity does not imply changed relative level.
+- [x] Stable Frame and changed Frame are prepared separately.
+- [x] Frame change alone does not identify `DECOMPOSE`.
+- [x] Component, fragment, carrying, disturbing, and replaceable roles remain distinct.
+- [x] Local and distributed component forms are included.
+- [x] Comparability requires aligned or translated reference, Frame, time, source, predicate, and distinction basis.
+- [x] Incomparability is positive but does not validate every claim.
+- [x] Mismatch cannot automatically dissolve substantive contradiction.
+- [x] Lower Granularity Question remains pre-result.
+- [x] Minimal Granularity Relation contains exactly eight conceptual fields.
+- [x] Existing record paths and controlled extensions are sufficient.
+- [x] Chapter 20 and Chapter 25 ownership remain protected.
+- [x] Stop, Non-Capture, source ceiling, and non-compensation are active.
+- [x] Eighteen Pressure Duties and four WPs are assigned.
+- [x] No canonical prose, cases, records, schema fields, rules, operations, classes, stages, scores, truth engines, or authority increases were produced.
+
+Preparation-Gate handoff at that time: **Chapter 19 WP1 — Sections 19.1–19.4**.
+
+## Chapter 19 WP1 Local Audit
+
+- [x] Sections 19.1–19.4 are canonical and occur once.
+- [x] Granularity change is defined as distinction-set change rather than added volume.
+- [x] The comparison dimension is required and multi-dimensional change remains possible.
+- [x] Same-reference burden is explicit without inferred preservation.
+- [x] Finer resolution receives no truth, causality, completeness, ontology, or authority privilege.
+- [x] Relative downward movement requires object, comparator, relation, and purpose.
+- [x] Granularity and relative level remain separate.
+- [x] Stable Frame is a substantive continuity claim rather than label reuse.
+- [x] Expected praxeological difference precedes component identification.
+- [x] Changed Frame and internal subframe are separately declared.
+- [x] Frame change alone does not identify `DECOMPOSE`.
+- [x] New Frame-bound claims do not erase prior failure, Stop, or Non-Capture.
+- [x] All six WP1 Pressure Duties occur exactly once in canonical prose.
+- [x] WP2 component criteria, WP3 comparability/record fields, Chapter 20 operation, and Chapter 25 outcomes remain protected.
+- [x] No new case/test artifact, Rule, operation, Output Class, audit stage, schema field, global scale, score, truth engine, or authority increase is introduced.
+
+Local result: `admissible_but_provisional`.
+
+WP1 handoff at that time: **Chapter 19 WP2 — Sections 19.5–19.7**.
+
+## Chapter 19 WP2 Local Audit
+
+- [x] Sections 19.5–19.7 are canonical and occur once.
+- [x] Changed distinction set is separated from added description and source volume.
+- [x] Unit-level and relation-level refinement are both permitted.
+- [x] Every proposed distinction carries a bounded claim relation.
+- [x] Finer representation remains selective and compressed.
+- [x] Local, temporal, relational, institutional, role-distributed, and non-contiguous candidates are admitted.
+- [x] Locality and distribution are not converted into micro/macro levels automatically.
+- [x] The component-candidate test is conjunctive across reference, source, function/claim, relevance, and relational placement.
+- [x] Carrying, disturbing, and replaceable candidates are separated.
+- [x] Disturbing candidates retain power to weaken or reject the coarse claim.
+- [x] Participation does not imply necessity, sufficiency, causal priority, or final constituents.
+- [x] Fragment rejection remains local to the declared reconstruction.
+- [x] All six WP2 Pressure Duties occur exactly once in canonical prose.
+- [x] WP3, Chapter 20, Chapter 23, Chapter 25, Chapter 26, and later Integrated Cases retain ownership.
+- [x] No new Rule, operation, Output Class, audit stage, schema field, enum, case artifact, score, truth engine, or authority increase was introduced.
+
+Next controlled step: **Chapter 19 WP3 — Sections 19.8–19.11**.
+
+## Chapter 19 WP3 Local Audit
+
+- [x] Sections 19.8–19.11 and the Chapter-19 completion boundary are canonical and occur once.
+- [x] Comparability is claim-, predicate-, Frame-, time-, source-, dimension-, translation-, and Loss-sensitive.
+- [x] Comparable, translated, partial, and incomparable descriptions remain local and do not become Output Classes or a global enum.
+- [x] Positive incomparability does not imply plural truth or protect a failed claim.
+- [x] Granularity Mismatch is separated from substantive contradiction.
+- [x] Different compatible predicates are shown without automatic micro/macro harmonization.
+- [x] Genuine contradiction remains possible under aligned reference, Frame, time, and predicate.
+- [x] The Lower Granularity Question remains pre-operation and does not assign Chapter-25 outcomes.
+- [x] Optional Stop, Mandatory Stop, Non-Capture, and non-compensation are present.
+- [x] The Minimal Granularity Relation contains exactly eight conceptual fields.
+- [x] Shared Record mapping and controlled extension discipline are explicit.
+- [x] Matching labels do not automatically prove Frame or reference preservation.
+- [x] All six WP3 and all eighteen Chapter-19 Pressure Duties occur exactly once in canonical prose.
+- [x] Chapter 20, Chapter 23, Chapter 25, Chapter 26, WP4, and Integrated Cases retain ownership.
+- [x] No new Rule, operation, Output Class, audit stage, schema field, enum, scale, score, truth engine, case artifact, or authority increase was introduced.
+
+Next controlled step: **Chapter 19 WP4 — integrated audit and provisional-lock decision**.
+
+
+## Chapter 19 WP4 Integrated Lock Audit
+
+- [x] Chapter-19 Contract and all five completion tests pass.
+- [x] §§19.1–19.11 occur once and form one granularity-relation architecture.
+- [x] All eighteen Pressure Duties occur exactly once.
+- [x] `SUB` remains a Part and the operation inventory remains exactly three.
+- [x] Granularity, Frame, relative level, reference, and target function remain separate.
+- [x] Finer resolution receives no truth, causal, completeness, ontological, or authority privilege.
+- [x] Local and distributed component candidates remain distinct from fragments and actual components.
+- [x] Participation does not imply necessity, sufficiency, or causal priority.
+- [x] Comparability, translation, partial comparability, incomparability, mismatch, and contradiction remain distinct.
+- [x] The Lower Granularity Question does not preclassify Chapter-25 outcomes.
+- [x] The Minimal Granularity Relation retains exactly eight conceptual fields and does not replace the schema.
+- [x] Chapter 20, Chapter 23, Chapter 25, Chapter 26, RETYPE, and LIMITS ownership is not pre-empted.
+- [x] Stop and Non-Capture remain distinct and do not protect a failed strongest claim.
+- [x] No new case/test artifact, Rule, operation, Output Class, audit stage, schema field, enum, score, or truth engine was introduced.
+- [x] Reference, model, schema, fingerprint, link, package, CRC, and roundtrip checks pass.
+- [x] Chapter 19 is provisionally locked with `admissible_but_provisional`.
+
+Next controlled step: **Chapter 20 Preparation Gate**.
+
+## Chapter 20 Preparation-Gate Audit
+
+- [x] Chapter 18 source-entry and Chapter 19 granularity-relation handoffs are retained without result inheritance.
+- [x] Exact `DECOMPOSE` identity and eligible/prohibited source kinds are fixed.
+- [x] Preconditions are conjunctive and non-compensatory.
+- [x] Decomposition question, expected difference, no-gain, source route, and Stop are prepared.
+- [x] Source support is separated into direct, indirect, uncertain, missing, rival, inaccessible, and unsupported roles.
+- [x] Components and component relations are jointly required.
+- [x] Carrying, disturbing, and replaceable component roles remain open and non-causal by default.
+- [x] Internal temporality is conditionally mandatory.
+- [x] Source preservation does not immunize the source function.
+- [x] Local operation result, source-function effect, prior source claim, and canonical Output Class are separated.
+- [x] Non-invertibility and canonical five-part Loss are preserved.
+- [x] Description, atomization, new PATH, PROJECT_AS, and operator-type decomposition are excluded.
+- [x] Stop, Non-Capture, weaker findings, and prior failure remain visible.
+- [x] Twenty-eight Pressure Duties and four WPs are assigned.
+- [x] Existing model fields and controlled extensions are sufficient; no schema expansion is required.
+- [x] Chapter 21–28 ownership remains protected.
+- [x] The Gate itself produced no canonical prose, standalone cases/tests, operation, Rule, Output Class, stage, score, truth engine, or authority increase.
+
+Preparation Gate handoff completed through canonical WP1–WP3 and integrated WP4 provisional lock. Chapter 21 WP1 §§21.1–21.4 are canonical. Current next controlled step: **Chapter 21 WP2, §§21.5–21.9**.
+
+## Chapter 20 WP1 Local Audit
+
+- [x] Chapter 20 and §§20.1–20.4 occur once in canonical SUB prose.
+- [x] `DECOMPOSE` is relational reconstruction of the same bounded source object, not generic detail or atomization.
+- [x] Operator types remain non-decomposable; occurrence-level questions remain available.
+- [x] All eight entry preconditions are conjunctive and non-compensatory.
+- [x] Chapter-18 source entry and Chapter-19 granularity relation do not inherit operation success.
+- [x] Source object is independently identifiable before component selection.
+- [x] Object category, occurrence typing, and current/coarser function remain separated.
+- [x] Known and unresolved structure do not imply hidden true components.
+- [x] Decomposition question includes source, distinction, claim, route, no-gain, and Stop.
+- [x] Preferred-conclusion, causal-depth, operator-type, new-PATH, and target-function question forms are blocked.
+- [x] All six WP1 Pressure Duties occur exactly once.
+- [x] WP2, WP3, WP4, Chapters 21–28, RETYPE, LIMITS, cases, and model finalization retain ownership.
+- [x] No new operation, Rule, Output Class, audit stage, schema field, case/test artifact, score, or authority increase was introduced.
+
+Next controlled step: **Chapter 20 WP2 — §§20.5–20.8**.
+
+## Chapter 20 WP2 Local Audit Return
+
+- [x] The expected additional difference is claim-relative and paired with no-gain.
+- [x] Semantic precision remains at or below source precision.
+- [x] Direct, indirect, uncertain, missing, rival, inaccessible, and unsupported statuses remain distinct where relevant.
+- [x] Every established component in the bounded example satisfies reference, source, function/claim, relevance, and relational-placement burdens.
+- [x] Carrying, disturbing, and replaceable roles remain separated from necessity, sufficiency, and causality.
+- [x] The reconstruction contains source-supported relations rather than only a parts list.
+- [x] Internal temporality is included because the claim depends on sequence, delay, persistence, and an expectation window.
+- [x] A different Path selection is routed toward a new `COMPOSE` occurrence.
+- [x] Source-function effect, operation result, Output Class, final Loss, and full Record remain withheld.
+- [x] All ten WP2 Pressure Duties occur exactly once.
+
+Next controlled step: **Chapter 20 WP3 — §§20.9–20.13**.
+
+## Chapter 20 WP3 Local Audit Return
+
+- [ ] Is the source-function question preserved without preserving its answer automatically?
+- [ ] Are local operation result, source-function effect, prior claim disposition, and canonical Output Class separated?
+- [ ] Is every Output Class mapped only after applicable gates are assessed?
+- [ ] Are distinct claims segmented instead of class-stacked?
+- [ ] Is `DECOMPOSE(COMPOSE(X)) != X` preserved with explicit Loss?
+- [ ] Is new Path formation routed to a new `COMPOSE` record?
+- [ ] Is target-function attribution routed to `PROJECT_AS`?
+- [ ] Are Failure, Mandatory Stop, and Non-Capture distinguished?
+- [ ] Are weaker findings preserved after failure or Stop?
+- [ ] Does the sixteen-field DECOMPOSE view map into the Shared Record rather than replace it?
+- [ ] Are all five canonical Loss fields present?
+- [ ] Is Chapter 21 family-specific ownership protected?
+
+## Chapter 20 WP4 Integrated Lock Audit
+
+- [x] Chapter-20 Contract and SUB Block Contract are satisfied.
+- [x] The source object and decomposition question are explicit.
+- [x] Components and relations are both reconstructed.
+- [x] Source support, uncertainty, and semantic-precision ceiling are disclosed.
+- [x] Source-function effects remain open and non-ordinal.
+- [x] Local operation result, source-function effect, prior claim disposition, and canonical Output Class remain separate.
+- [x] Both non-invertibility directions remain explicit.
+- [x] Failure, Mandatory Stop, and Non-Capture remain distinct.
+- [x] Canonical five-part Loss and the sixteen-field operation view are complete.
+- [x] All twenty-eight Pressure Duties occur exactly once.
+- [x] Chapters 21–28, RETYPE, LIMITS, cases, and appendices retain ownership.
+- [x] No new operation, Rule, Output Class, audit stage, schema field, enum, score, truth engine, or authority is introduced.
+- [x] YAML/JSON, root schema, Transformation Records, fingerprints, relative links, ZIP CRC, and byte roundtrip pass.
+
+Result: `admissible_but_provisional`; Chapter 20 provisionally locked.  
+Next controlled step: **Chapter 21 WP2, §§21.5–21.9**.
+
+## Chapter 21 Preparation Audit Checklist
+
+- [ ] Is a concrete occurrence, rather than an operator type, the source object?
+- [ ] Are operator definition and occurrence production conditions separated?
+- [ ] Is the coarse function under test explicit?
+- [ ] Are components and relations source-supported?
+- [ ] Can internal variation coexist with stable function?
+- [ ] Can finer evidence revise or reject the source typing?
+- [ ] Is a dynamic Attractor occurrence kept distinct from target-function projection?
+- [ ] Are distributed asymmetries tested for coordination rather than assumed macro-status?
+- [ ] Is an Impulse occurrence kept non-psychological?
+- [ ] Is a Binding occurrence kept distinct from person property?
+- [ ] Are Failure, Mandatory Stop, and Non-Capture separated?
+- [ ] Are all 24 Pressure Duties present exactly once before provisional lock?
+
+Preparation result: `admissible_but_provisional`.
+
+## Chapter 21 WP1 Audit Checklist
+
+- [x] Operator type and operator occurrence remain distinct.
+- [x] Production conditions are not represented as constituents of `□`.
+- [x] Object category, occurrence typing, coarse function, and later source-function effect remain separate.
+- [x] Frame formation is distinguished from coarse Frame function.
+- [x] Stable function is distinguished from internal homogeneity.
+- [x] Component substitution does not determine type retention automatically.
+- [x] Counterevidence can materially pressure the Frame typing.
+- [x] Multiple compatible or rival typings remain segmentable.
+- [x] Person-property, motive, diagnosis, maturity, moral-rank, and identity inference are prohibited.
+- [x] All eight WP1 Pressure Duties occur exactly once.
+- [x] WP2/WP3/WP4, Chapter 22, RETYPE, and later SUB ownership remain protected.
+
+Current next controlled step: **Chapter 21 WP2, §§21.5–21.9**.
+
+## Chapter 21 WP2 Audit Checklist
+
+- [x] Repetition is distinguished from sufficient Attractor load.
+- [x] Friction, expectation, alternatives, thresholds, and exit remain relational and source-bound.
+- [x] Dynamic Attractor occurrence is distinguished from Path/Trajectory formation and target-function projection.
+- [x] Asymmetry comparators, dimensions, directions, intervals, effects, and support are declared.
+- [x] Distributed gradients require tested coordination.
+- [x] Offsetting gradients are preserved without forced symmetry or additive severity scoring.
+- [x] Local gradients do not become a macro-object without `COMPOSE`.
+- [x] `PROJECT_AS` ownership remains protected.
+- [x] All eight WP2 Pressure Duties occur exactly once.
+- [x] WP3/WP4, Chapter 22, RETYPE, and later SUB ownership remain protected.
+
+Current next controlled step: **Chapter 21 WP3, §§21.10–21.12**.
+
+## Chapter 21 WP3 Audit Checklist
+
+- [x] Impulse formation is distinguished from decomposition of `∇`.
+- [x] Structural activation is distinguished from motive and person inference.
+- [x] Binding carriers and load distributions are source-supported and occurrence-bound.
+- [x] Binding occurrence is distinguished from identity, moral rank, and equal endorsement.
+- [x] Source-function effect, operation result, prior claim, and Output Class remain separate.
+- [x] Operator materialization, type forcing, source overreach, reference drift, operation drift, person conversion, and immunization are explicit failures.
+- [x] Mandatory Stop and Non-Capture remain distinct.
+- [x] The Chapter-22 handoff does not compose a new object in Chapter 21.
+
+## Chapter 21 WP4 Integrated Audit Checklist
+
+- [x] all ten Chapter-21 completion tests pass;
+- [x] all twenty-four Pressure Duties occur exactly once;
+- [x] operator type and occurrence remain distinct in all five families;
+- [x] representative families do not become a closed enum or hierarchy;
+- [x] dynamic Attractor/RETYPE and distributed Asymmetry/COMPOSE boundaries remain protected;
+- [x] person, motive, legitimacy, sanction, and authority inference remain prohibited;
+- [x] Failure, Mandatory Stop, and Non-Capture remain separate;
+- [x] no schema, operation, Rule, Output Class, audit stage, case, or record is added;
+- [x] Reference, model, fingerprints, links, package, CRC, and byte-roundtrip checks pass.
+
+Current next controlled step: **Chapter 22 Preparation Gate — Decomposing Composite Structures**.
+
+## Chapter 22 Preparation Audit Profile
+
+- [x] The source is already warranted as a composite rather than a bundle, shared label, or multiple typing.
+- [x] Composite boundary, constitutive relations, function, composition trace, and inherited Loss are declared where applicable.
+- [x] Parts and relations are represented jointly.
+- [x] Constitutive, modulating, replaceable, compensatory, and incidental roles remain claim-bound.
+- [x] Operator weighting changes no Δ–Ψ identity, order, or dependency.
+- [x] Modulating profiles create no operator, person type, or target function.
+- [x] Distributed function requires coordination rather than aggregation.
+- [x] Redundancy and substitution disclose changed cost, burden, timing, access, uncertainty, and Loss.
+- [x] Internal conflict permits integrated, suppressed, destabilizing, residual, or competing-path outcomes.
+- [x] Macro-stability remains distinct from stable parts, homogeneity, and equal load.
+- [x] Fragmentation, Failure, Mandatory Stop, and Non-Capture remain distinct.
+- [x] The source composite remains reconstructible after finer analysis.
+- [x] No prior composition is treated as invertible.
+- [x] No silent `COMPOSE`, `PROJECT_AS`, person judgment, legitimacy decision, or authority transfer occurs.
+- [x] The current Shared Transformation Record and controlled extensions remain sufficient.
+
+Preparation control: [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP1 Audit Checklist
+
+- [x] Source composite and source bundle remain distinct.
+- [x] Composite entry requires constituents, boundary, relation, function, trace, limits, and Same-Reference route.
+- [x] Composition lineage and inherited Loss remain visible without inversion.
+- [x] Internal composition map is relational rather than enumerative.
+- [x] Formation, maintenance, and proposed finer maps remain distinct.
+- [x] Source composite remains reconstructible through the finer map.
+- [x] Five component roles remain claim-bound and non-ontological.
+- [x] Replaceability is not equated with irrelevance.
+- [x] Compensation does not erase local failure or unequal load.
+- [x] Operator weighting is function-, dimension-, time-, and source-bound.
+- [x] No operator score, fusion, reorder, dependency revision, person profile, or target function is created.
+- [x] Countervailing and residual occurrences remain visible.
+- [x] All eight WP1 Pressure Duties occur exactly once.
+- [x] WP2/WP3/WP4 and later ownership remain protected.
+
+Current next controlled step: **Chapter 22 WP2, §§22.5–22.8**.
+
+## Chapter 22 WP2 Audit Checklist
+
+- [x] Modulating profiles remain source-side, dimension-specific, non-compensatory, and distinct from operator, composite, person, and target-function types.
+- [x] Distributed function requires same-composite relation, coordination/dependency, common function, partial-failure pressure, support, uncertainty, and traceability.
+- [x] Aggregation, co-presence, or shared institution do not substitute for distributed relation.
+- [x] Bounded removal pressure states held-constant assumptions and does not establish universal causality.
+- [x] Substitution identifies current/substitute carriers, preserved function, transition conditions, changed costs/burdens/access/timing, support, and Loss.
+- [x] Qualitative thresholds remain source-, function-, Frame-, and claim-bound without universal scores.
+- [x] Internal conflict keeps destabilization, integration, suppression, residue, and competing subpaths open.
+- [x] Persistence does not establish carrier equivalence, healthy integration, legitimacy, or absence of Loss.
+- [x] Silent `COMPOSE` and `PROJECT_AS` transitions are prohibited.
+- [x] All eight WP2 Pressure Duties occur exactly once.
+- [x] WP3/WP4 and later ownership remain protected.
+
+Current next controlled step: **Chapter 22 WP3, §§22.9–22.11**.
+
+## Chapter 22 WP3 Audit Checklist
+
+- [x] Stability object, interval, changing carriers, preserving relations, mechanism, counterpressure, and defeat condition are explicit.
+- [x] Macro-stability is not equated with stable parts, homogeneity, equal access, equal burden, integration, resilience, or legitimacy.
+- [x] Repair, redundancy, substitution, compensation, suppression, binding, alternation, and unequal load remain distinct mechanisms.
+- [x] Source composite, boundary, constitutive relations, roles, macrofunction, composition trace, and inherited/new Loss remain visible.
+- [x] Detail size does not determine fragment status.
+- [x] Four result axes and canonical Output-Class mapping remain separate.
+- [x] Failure, Mandatory Stop, Non-Capture, and non-compensation remain distinct.
+- [x] The eighteen-field view maps to the Shared Record without schema replacement.
+- [x] Chapter 23–25, Chapter 27, RETYPE, and WP4 ownership remain protected.
+- [x] All eight WP3 and all twenty-four Chapter-22 Pressure Duties occur exactly once.
+
+Current next controlled step: **Chapter 22 WP4 integrated audit and provisional lock**.
+
+## Chapter 22 WP4 Integrated Audit Checklist
+
+- [x] all twenty-one Preparation-Audit controls pass;
+- [x] all twenty-four Pressure Duties occur exactly once;
+- [x] source bundle and source composite remain distinct;
+- [x] composition lineage and inherited/new Loss remain visible without inversion;
+- [x] components and relations are reconstructed jointly;
+- [x] roles, weighting, and profiles remain claim-bound and non-typological;
+- [x] distribution requires coordination rather than aggregation;
+- [x] redundancy, substitution, conflict, and stability preserve Loss and counterpressure;
+- [x] non-fragmentation, four result axes, Failure, Mandatory Stop, and Non-Capture remain distinct;
+- [x] no silent `COMPOSE`, `PROJECT_AS`, person inference, legitimacy decision, or authority transfer occurs;
+- [x] no schema, operation, Rule, Output Class, audit stage, case, or record is added;
+- [x] Reference, model, fingerprints, links, package, CRC, and byte-roundtrip checks pass.
+
+Current next controlled step: **Chapter 23 Preparation Gate — Event and Non-Event Decomposition**.
+
+## Chapter 23 Preparation Audit Profile
+
+- [x] The temporal source object is independently identifiable before component selection.
+- [x] Event and Non-Event definitions remain owned by Foundations/PMS Base.
+- [x] Source category, Frame, temporal scope, and boundary are explicit and revisable.
+- [x] Extended Event is distinct from duration and sequence.
+- [x] Event Cluster is distinct from one Event and silent `COMPOSE`.
+- [x] Event Inflation has a Relevance-Floor stop rule.
+- [x] Non-Event entry requires expected structure, warranted expectation, bounded window, non-realization, and praxis difference.
+- [x] Positive sub-events do not automatically dissolve the higher-level Non-Event.
+- [x] Missing records, unknown phases, mere absence, and `Λ` remain distinct.
+- [x] Delay does not automatically establish intention, obstruction, guilt, or person property.
+- [x] Repeated non-decision remains occurrence-specific and relational.
+- [x] Internal temporal order includes relation, overlap, interruption, threshold, and multiple-clock pressure.
+- [x] Local temporal categories and effects remain distinct from Output Classes.
+- [x] Failure, Mandatory Stop, Non-Capture, and non-compensation remain available.
+- [x] The seventeen-field view maps into the Shared Record without schema replacement.
+- [x] Chapters 24–25, Chapter 27, Chapter 28, and RETYPE ownership remain protected.
+
+Preparation control: [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md).
+
+## Chapter 23 WP1 Audit Profile
+
+- [x] Event-like source entry is independently warranted before component selection.
+- [x] Source category, Frame, boundary, change, source basis, compression, and decomposition question are explicit.
+- [x] Beginning, completion, contextual margins, interruptions, resumptions, and rival boundaries remain visible.
+- [x] Extended Event is distinct from duration, sequence, common topic, and mere activity persistence.
+- [x] Phases, thresholds, and role shifts do not become independent Events automatically.
+- [x] Event Cluster is distinguished from one Extended Event, unrelated chronology, Path, and silent `COMPOSE`.
+- [x] Coarse Event categories may be preserved, extended, clustered, split, rejected, or underdetermined.
+- [x] Event Inflation has a local Praxeological Relevance-Floor stop rule.
+- [x] Event units remain claim-, Frame-, source-, transition-, and reference-bound.
+- [x] All eight WP1 Pressure Duties occur exactly once in canonical prose.
+- [x] Full Non-Event, delay, internal-order, result, Failure/Stop/Non-Capture, Record, and lock owners remain deferred.
+
+Current next controlled step: **Chapter 23 WP2 — §§23.5–23.8**.
+
+## Chapter 23 WP2 Audit Profile
+
+- [x] Expected structure, Expectation Frame, bounded window, non-realization, praxis difference, and Source Ceiling are explicit.
+- [x] Expectation support is independently testable and `Λ` may fail.
+- [x] Missing records, unknown phases, mere absence, and structured non-occurrence remain distinct.
+- [x] Positive sub-events may preserve the higher-level Non-Event without causal flattening.
+- [x] Later realization does not retroactively erase an earlier expected-window failure.
+- [x] Delay mechanisms, roles, thresholds, dependencies, and comparison conditions are source-bound.
+- [x] Delay, repetition, role transfer, or structural benefit do not prove intention, guilt, or person property.
+- [x] Repeated non-decision remains open among continuing, multiple, clustered, and broader temporal categories.
+- [x] Absent binding remains occurrence-specific and does not type or rank persons.
+- [x] All eight WP2 Pressure Duties occur exactly once in canonical prose.
+- [x] Internal order, multiple clocks, drift, result axes, Failure/Stop/Non-Capture, Record, handoff, and lock remain deferred.
+
+Current next controlled step: **Chapter 23 WP3 — §§23.9–23.11 and completion handoff**.
+
+
+
+## Chapter 23 WP3 Audit Profile
+
+- [x] Internal temporal order is relational rather than a timestamp list.
+- [x] Partial order, overlap, parallelism, interruption, thresholds, and multiple clocks remain representable.
+- [x] Evidence for one clock does not fill another automatically.
+- [x] Temporal detail without changed praxis reconstruction routes to drift or bounded no-gain pressure.
+- [x] Event, Non-Event, source absence, delay, and positive sub-events remain categorically distinct.
+- [x] Local result, category/Source-Function Effect, prior claim, and canonical Output Class remain separate.
+- [x] Failure, Mandatory Stop, and Non-Capture remain distinct and non-compensatory.
+- [x] The seventeen-field view maps into the Shared Record without schema replacement.
+- [x] All eight WP3 and all twenty-four Chapter-23 Pressure Duties occur exactly once in canonical prose.
+- [x] Chapter 24, Chapter 25, Chapter 27, Chapter 28, and RETYPE ownership remain protected.
+
+Current next controlled step: **Chapter 23 WP4 — integrated provisional-lock audit**.
+
+
+## Chapter 23 Provisional-Lock Audit
+
+- [x] Event-like or Non-Event source independently identified.
+- [x] Source category explicit and revisable.
+- [x] Boundaries, completion, margins, and rivals declared.
+- [x] Extended Event and Event Cluster distinguished from duration, sequence, and silent `COMPOSE`.
+- [x] Event Inflation has a Relevance-Floor Stop.
+- [x] Expectation, non-realization, and missing-information burdens separated.
+- [x] Positive sub-events do not erase `Λ` automatically.
+- [x] Delay and repeated non-decision do not infer intention or person properties.
+- [x] Internal order and multiple clocks remain relational and separately supported.
+- [x] Four result axes remain separate.
+- [x] Failure, Mandatory Stop, and Non-Capture remain available.
+- [x] Twenty-four duties occur exactly once; seventeen Record fields remain exact.
+- [x] Chapter 24 and later ownership remains protected.
+
+Result: Chapter 23 provisionally locked; next controlled step is Chapter 24 Preparation Gate.
+
+## Chapter 24 Preparation Audit Profile
+
+- [x] The source is an independently warranted PATH-produced object rather than raw chronology.
+- [x] Path, Trajectory, and Path Dependence remain owned by PATH/Foundations.
+- [x] Source reference, boundary, selection/formation rule, coarser function, and inherited Loss are explicit.
+- [x] Same-Path identity is tested rather than assumed from label, dates, or endpoint.
+- [x] Subpaths remain distinct from arbitrary fragments.
+- [x] Transition clusters require intermediate configurations and relations.
+- [x] Turning points require source transitions and historically traceable effects.
+- [x] Branches and counterfactuals remain source- and window-bounded.
+- [x] Internal Frame changes remain distinct from source replacement and target-function projection.
+- [x] Competing continuations remain distinct from prediction or recommendation.
+- [x] Internal non-linearity, interruption, reversal, and parallelism remain visible.
+- [x] Inherited `COMPOSE` Loss and new `DECOMPOSE` Loss remain distinct.
+- [x] `SUB(PATH(X)) ≠ X` and irrecoverable compression remain explicit.
+- [x] Path-Dependence load remains a property profile rather than a substance or score.
+- [x] Rival periodization or source selection can require a separate `COMPOSE` record.
+- [x] Failure, Mandatory Stop, Non-Capture, and four-axis result separation remain available.
+- [x] The nineteen-field view maps into the Shared Record without schema replacement.
+- [x] Chapters 25–28, RETYPE, and LIMITS ownership remain protected.
+
+Preparation control: [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md).
+
+## Chapter 24 WP1 Local Audit
+
+- [x] The source is a warranted PATH-produced object rather than raw chronology.
+- [x] Historical reference, category, boundary, coarse function, selection, formation, inherited Loss, and question are explicit.
+- [x] Formation lineage separates inherited selections, recovered/new detail, new analytical selections, and continuing Loss.
+- [x] The decomposition reason names expected PraxisPurchase and a no-gain condition.
+- [x] More chronology receives no automatic Path or truth priority.
+- [x] Subpaths remain distinct from temporal, thematic, or carrier fragments.
+- [x] Every subpath retains a reconstructible relation to the same coarse Path or pressures explicit revision.
+- [x] Sequential, parallel, partial, competing, interrupted/resumed, differently paced, and locally reversible relations remain available.
+- [x] Transition clusters contain intermediate configurations and relations, not only Event lists.
+- [x] Causal sufficiency, intention, blame, and person properties are not inferred.
+- [x] New selection, periodization, or Path formation routes to `COMPOSE`.
+- [x] Contextual target-function assignment routes to `PROJECT_AS`.
+- [x] WP2/WP3/WP4 and Chapters 25–28/RETYPE/LIMITS ownership remain protected.
+- [x] All eight WP1 Pressure Duties occur exactly once in canonical prose.
+
+Primary site: [Chapter 24 WP1](../01_blocks/03_part_ii_sub.md#chapter-24-decomposing-paths-and-trajectories).
+
+## Chapter 24 WP2 Local Audit
+
+- [x] Turning points name component transitions and historically traceable effects.
+- [x] Turning-point effects may remain dimension-specific.
+- [x] Changed alternatives, costs, asymmetries, bindings, and action corridors are explicit.
+- [x] Retrospective salience does not establish historical operation.
+- [x] Branches possess source, availability window, roles/conditions, and mechanisms.
+- [x] Counterfactuals remain bounded by then-available structures and explicit uncertainty.
+- [x] Internal Frame change remains distinct from source replacement and `PROJECT_AS`.
+- [x] Reference and functional continuity are tested rather than inherited from institution or label.
+- [x] Competing continuations retain unequal accessibility without probability, prediction, legitimacy, or recommendation.
+- [x] Reversals, interruptions, parallelism, repair, and counter-trends remain visible.
+- [x] WP3/WP4 and Chapters 25–28/RETYPE/LIMITS ownership remain protected.
+- [x] All eight WP2 Pressure Duties occur exactly once in canonical prose.
+
+Primary site: [Chapter 24 WP2](../01_blocks/03_part_ii_sub.md#24-5-turning-points).
+
+## Chapter 24 WP3 Local Audit
+
+- [x] Inherited `COMPOSE` Loss, recovered detail, newly sourced detail, and current `DECOMPOSE` Loss are separate.
+- [x] Canonical Loss remains exactly preserved/compressed/excluded/uncertain/irrecoverable.
+- [x] `SUB(PATH(X)) ≠ X` is explicit and complete-history recovery is prohibited.
+- [x] Compression debt remains a bounded traceability burden rather than score, primitive, or class.
+- [x] Path-Dependence load names dimension, carrier, interval, present effect, sufficiency pressure, counterevidence, and Loss.
+- [x] Occurrence-level profile expressions do not fuse or revise operators.
+- [x] Same-Path and rival-PATH indicators are explicit.
+- [x] A materially new PATH object requires a separate `COMPOSE` Record and Loss account.
+- [x] The four result axes remain separate and non-compensatory.
+- [x] Failure, Mandatory Stop, and Non-Capture do not rescue the prior coarse claim.
+- [x] The operation-specific Record view contains exactly nineteen fields and creates no parallel schema.
+- [x] Chapter 25 receives only bounded resolution questions; Chapters 26–28 and RETYPE remain protected.
+- [x] All eight WP3 Pressure Duties occur exactly once in canonical prose.
+
+Primary site: [Chapter 24 WP3](../01_blocks/03_part_ii_sub.md#24-9-irrecoverable-compression).
+
+## Chapter 24 Provisional-Lock Audit
+
+- [x] PATH-produced source entry and formation lineage are explicit.
+- [x] Same-Path continuity is tested rather than assumed.
+- [x] Subpaths remain distinct from fragments.
+- [x] Transition clusters preserve intermediate relations.
+- [x] Turning points and branches remain source- and window-bound.
+- [x] Internal Frame changes preserve operation boundaries.
+- [x] Competing continuations do not become predictions or recommendations.
+- [x] Inherited/current Loss and non-invertibility remain explicit.
+- [x] Path-Dependence load is dimension-bound and non-reified.
+- [x] Rival PATH formation receives a separate `COMPOSE` claim.
+- [x] Four result axes remain separate.
+- [x] Failure, Mandatory Stop, and Non-Capture remain non-compensatory.
+- [x] All twenty-four Duties occur exactly once; the Record view has nineteen fields.
+- [x] Chapter 25 and later ownership, schemas, inventories, and authority boundaries remain protected.
+
+Primary site: [Chapter 24](../01_blocks/03_part_ii_sub.md#chapter-24-decomposing-paths-and-trajectories).
+
+## Chapter 25 Preparation Audit Checklist
+
+- [x] Resolution Gain requires a changed warranted reconstruction.
+- [x] Resolution Neutrality remains distinct from failure and unsupported refinement.
+- [x] Drift and Escape have separate trigger structures.
+- [x] Warranted revision retains the prior claim disposition and creates a new testable claim.
+- [x] Detail without Purchase remains claim-relative.
+- [x] Components retain reconstructive anchoring to the coarser function.
+- [x] Source Overreach remains distinct from honest source limitation.
+- [x] Calibration Loss remains distinct from an open provisional threshold.
+- [x] Decomposition Fatigue remains methodological rather than psychological.
+- [x] Six local resolution families do not create six canonical Output Classes.
+- [x] Unsupported refinement and Non-Capture use existing formal fields and routing.
+- [x] Mandatory Stop, Optional Stop, Failure, Claim Reduction, and Non-Capture remain distinct.
+- [x] The nineteen-field view maps into the Shared Record without schema replacement.
+- [x] Twenty-four Pressure Duties are assigned exactly once.
+- [x] Chapters 26–28, RETYPE, and LIMITS ownership remain protected.
+
+Preparation control: [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md).
+
+## Chapter 25 WP1 Local Audit
+
+- [x] The comparison names one bounded tested claim, coarse reconstruction, finer reconstruction, and comparison basis.
+- [x] Source support and relation support remain distinct.
+- [x] Resolution Gain names an exact changed warranted statement.
+- [x] Gain may confirm, refine, differentiate, reduce, or reject rather than strengthen automatically.
+- [x] Resolution Neutrality requires valid supported no-change and remains distinct from failure and unsupported refinement.
+- [x] Neutrality is bounded to the tested claim and does not make the coarse object exhaustive.
+- [x] Resolution Drift tests complexity against discrimination, relation support, and source coherence.
+- [x] Graph size, dimensionality, interaction, and formal completeness receive no automatic purchase.
+- [x] Resolution Escape retains the prior burden and prohibits retroactive claim rescue.
+- [x] Warranted revision preserves prior disposition and creates a separate testable claim.
+- [x] The R-25 anchor applies all four result concepts to one source object.
+- [x] WP2/WP3/WP4 and Chapters 26–28/RETYPE/LIMITS ownership remain protected.
+- [x] All eight WP1 Pressure Duties occur exactly once in canonical prose.
+
+Primary site: [Chapter 25 WP1](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape).
+
+## Chapter 25 WP2 Local Audit
+
+- [x] Detail without Purchase is tested relative to one bounded claim.
+- [x] The removal test checks warranted reconstruction, disposition, source function, Loss, uncertainty, and Stop conditions.
+- [x] Unsupported refinement remains distinct from supported Resolution Neutrality.
+- [x] Component, relation, and claim support burdens remain separate.
+- [x] Finer components remain reconstructively anchored to the coarser source function or explicitly defeat it.
+- [x] Graph density, spatial proximity, centrality, animation, and interactivity receive no automatic relation warrant.
+- [x] Source Overreach is distinguished from an explicit Source Limitation.
+- [x] Semantic and structural precision do not exceed combined source-supported precision.
+- [x] Formal completeness does not compensate for absent purchase, support, coherence, or calibration.
+- [x] Calibration Loss retains prior claim and threshold dispositions.
+- [x] Open thresholds declare basis, uncertainty, rival conditions, revision rule, and Stop condition.
+- [x] Monitoring-kernel support remains bounded and does not claim universal halting, truth, causal, normative, person, or authority decisions.
+- [x] All eight WP2 Pressure Duties occur exactly once in canonical prose.
+
+Primary site: [Chapter 25 WP2](../01_blocks/03_part_ii_sub.md#25-5-detail-without-purchase).
+
+## Chapter 25 WP3 Local Audit
+
+- [x] Decomposition Fatigue is methodological, claim-bound, and non-psychological.
+- [x] Six local resolution families remain distinct and do not create a second Output-Class inventory.
+- [x] Local result, source-function effect, prior claim disposition, and canonical Output Class remain separate.
+- [x] Unsupported refinement is not routed as Resolution Neutrality.
+- [x] Non-Capture does not rescue coarse or finer claims.
+- [x] Mandatory Stop preserves supported findings and prior dispositions.
+- [x] Re-entry requires a materially new declared basis and a new testable claim.
+- [x] The Resolution Assessment Record View contains exactly nineteen fields.
+- [x] Chapter 26 receives only unresolved operation-boundary questions.
+- [x] All eight WP3 and all twenty-four Chapter-25 Pressure Duties occur exactly once.
+- [x] No operation, Output Class, Rule, audit stage, schema, score, kernel, graph app, or authority mechanism was added.
+
+Primary site: [Chapter 25 WP3](../01_blocks/03_part_ii_sub.md#25-9-decomposition-fatigue).
+
+## Chapter 25 Provisional-Lock Audit
+
+- [x] Coarse and finer reconstructions test the same declared claim or a new claim is separately recorded.
+- [x] Gain, Neutrality, Drift, and Escape remain distinct.
+- [x] Detail volume and graph complexity do not substitute for purchase or relation support.
+- [x] Coarser-function continuity remains explicit.
+- [x] Source Overreach and Calibration Loss remain distinct from honest limitation and open thresholds.
+- [x] Prior claim dispositions survive revision, Stop, and re-entry.
+- [x] Decomposition Fatigue remains methodological and claim-bound.
+- [x] Six local families do not create new canonical Output Classes.
+- [x] Four result axes remain separate and non-compensatory.
+- [x] Unsupported refinement is not Neutrality.
+- [x] Failure, Mandatory Stop, and Non-Capture remain distinct.
+- [x] Re-entry requires a materially new basis and new testable claim.
+- [x] All twenty-four Duties occur exactly once; the Record view has nineteen fields.
+- [x] Chapter 26 and later ownership, schemas, inventories, and authority boundaries remain protected.
+
+Primary site: [Chapter 25](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape).
+
+## Chapter 26 Preparation Audit Checklist
+
+- [x] Internal constitution and contextual target function remain separate claims.
+- [x] Granularity change and target-context change remain distinguishable.
+- [x] Source function and target function remain separate.
+- [x] Origin type remains preserved under `PROJECT_AS` pressure.
+- [x] A changed Frame alone does not create `PROJECT_AS`.
+- [x] Recontextualization without a transformation operation remains possible.
+- [x] SUB-looking RETYPE and RETYPE-looking SUB counterpressures are prepared.
+- [x] Trajectory and Attractor comparisons are prepared.
+- [x] Dual-operation cases require separate occurrences and Records.
+- [x] Invalid collapse is formally flaggable without automatic semantic adjudication.
+- [x] Local findings do not create new Output Classes.
+- [x] The nineteen-field view uses the Shared Record and controlled extensions.
+- [x] All twenty-four Pressure Duties are assigned exactly once.
+- [x] Chapter 27, Chapter 28, RETYPE, LIMITS, and authority ownership remain protected.
+- [x] No canonical Chapter-26 prose has been drafted.
+
+Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 WP1 Local Audit
+
+- [x] The boundary entry declares source object, origin type, source function, Frame, granularity, question, context, and proposed function.
+- [x] Operation identity follows the claim rather than vocabulary or display form.
+- [x] SUB keeps the source object as explanatory target and opens internal constitution.
+- [x] Operator types remain undecomposed.
+- [x] Granularity change remains distinct from target-context change.
+- [x] Source function remains distinct from target function.
+- [x] PROJECT_AS pressure preserves origin type.
+- [x] Target-function candidates require declared context and source-traceable features.
+- [x] Labels, analogies, graph positions, interface roles, and interaction do not prove target function.
+- [x] Recontextualization remains possible without automatic operation assignment.
+- [x] Dual-operation pressure is preserved without mixed Record identity.
+- [x] WP2/WP3/WP4, Chapters 27–28, RETYPE, and LIMITS ownership remain protected.
+- [x] All eight WP1 Pressure Duties occur exactly once in canonical prose.
+
+Primary site: [Chapter 26 WP1](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+
+## Chapter 26 WP2 Local Audit
+
+- [x] The same Trajectory may support separate DECOMPOSE and PROJECT_AS candidates without occurrence collapse.
+- [x] Separate questions, outputs, warrants, Loss, and failure possibilities remain visible.
+- [x] A target context is bounded by task, conditions, relevant dimensions, exclusions, and failure boundary.
+- [x] A target function requires source-traceable and context-specific support.
+- [x] Attractor operator type, Attractor-typed occurrence, recurrence structure, and contextual Attractor-function remain distinct.
+- [x] SUB-looking language cannot conceal a target-function claim.
+- [x] Functional-sounding labels do not create PROJECT_AS without a target context and function.
+- [x] Recontextualization remains possible without operation assignment.
+- [x] A changed Frame alone is not PROJECT_AS.
+- [x] Reader and 3D-graph operations remain presentational unless captured as declared transformation claims.
+- [x] WP3/WP4, Chapters 27–28, RETYPE, and LIMITS ownership remain protected.
+- [x] All eight WP2 and all sixteen cumulative Chapter-26 Duties occur exactly once in canonical prose.
+
+Primary site: [Chapter 26 WP2](../01_blocks/03_part_ii_sub.md#26-5-trajectory-decomposition-and-projection).
+
+## Chapter 26 WP3 Local Audit
+
+- [x] The decision test is claim-segment specific and not vocabulary- or interface-based.
+- [x] DECOMPOSE, PROJECT_AS, recontextualization, dual-operation pressure, underdetermination, and invalid collapse remain distinguishable.
+- [x] Dual operation creates no fourth operation.
+- [x] Separate claims, Records, Loss accounts, results, and failure possibilities are required.
+- [x] Chain order and independent failure are preserved.
+- [x] Invalid collapse cannot be repaired by mixed records or authority inheritance.
+- [x] Local boundary result, function effect, prior disposition, and canonical Output Class remain separate.
+- [x] Failure, Mandatory Stop, and Non-Capture do not default the case to either operation.
+- [x] The Operation-Boundary Assessment Record View contains exactly nineteen fields.
+- [x] Chapter 27 receives only bounded SUB-limit questions.
+- [x] All eight WP3 and all twenty-four Chapter-26 Pressure Duties occur exactly once.
+- [x] No operation, Rule, Output Class, audit stage, schema, score, graph app, Reader implementation, person type, or authority mechanism was added.
+
+Primary site: [Chapter 26 WP3](../01_blocks/03_part_ii_sub.md#26-10-sub-retype-decision-test).
+
+## Chapter 26 Provisional-Lock Audit
+
+- [x] Source object, origin type, source function, Frame, granularity, context, and function are declared before classification.
+- [x] Internal constitution and contextual target function remain distinct.
+- [x] Granularity change and target-context change remain distinct.
+- [x] Origin type remains preserved under `PROJECT_AS`.
+- [x] Changed Frame and recontextualization do not create an operation automatically.
+- [x] Trajectory and Attractor comparisons preserve separate operation claims.
+- [x] Target context and target function require independent support.
+- [x] Subtle and reverse misclassification guards remain active.
+- [x] Dual operation creates no fourth operation and requires separate Records.
+- [x] Chain order and independent link failure remain explicit.
+- [x] Invalid collapse routes to segmentation, Failure, Stop, or Non-Capture rather than compromise.
+- [x] Four result axes remain separate and non-compensatory.
+- [x] All twenty-four Duties occur exactly once; the Record view has nineteen fields.
+- [x] Chapter 27, Chapter 28, RETYPE, LIMITS, schemas, inventories, and authority boundaries remain protected.
+
+Primary site: [Chapter 26](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+
+## Chapter 27 Preparation Audit Checklist
+
+- [ ] The tested claim and eligible `DECOMPOSE` source object are explicit.
+- [ ] Source and target granularity are declared.
+- [ ] Expected and actual additional praxis difference are separated.
+- [ ] Supported no-purchase is separated from unsupported refinement.
+- [ ] Lower- and upper-boundary status are both tested.
+- [ ] Components and relations are reconstructed together.
+- [ ] Source Support and Source Reference are independent gates.
+- [ ] Source Ceiling is not filled by inference, graph completion, or formal elegance.
+- [ ] The Component Counterfactual Test is bounded and non-causal in authority.
+- [ ] Component sensitivity remains claim-, Frame-, and source-specific.
+- [ ] Coarser function is confirmed, revised, rejected, or left underdetermined.
+- [ ] Source type is preserved or explicitly revised, never merely retained by label.
+- [ ] Finer resolution receives no automatic priority.
+- [ ] Stop, Claim Reduction, Failure, and Non-Capture remain distinct.
+- [ ] Granularity escape preserves the earlier claim disposition.
+- [ ] Local result, function effect, prior disposition, and Output Class remain separate.
+- [ ] The twenty-field Record view remains inside the Shared Record plus controlled extensions.
+- [ ] Chapter 28 case production and SUB lock are not pre-empted.
+- [ ] LIMITS system-wide ownership remains intact.
+- [ ] No person, legitimacy, recommendation, sanction, or authority inference is produced.
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 WP1 Local Audit
+
+- [x] Boundary entry declares source object, tested claim, source/target granularity, expected difference, source reference, and coarser-function pressure.
+- [x] Lower SUB Boundary remains claim-relative rather than technically minimal.
+- [x] Supported no-purchase remains distinct from unsupported detail.
+- [x] Resolution Neutrality is not converted into Failure or Gain.
+- [x] Upper SUB Boundary requires loss of source, relation, or coarser-function anchoring.
+- [x] Source reference is preserved or explicitly revised rather than retained by label.
+- [x] Component and relation support remain independent burdens.
+- [x] Graph edges, proximity, layout, and interaction do not establish source relations.
+- [x] Coarser-function pressure remains visible without immunizing the coarse function.
+- [x] WP2/WP3/WP4, Chapter 28, RETYPE, and LIMITS ownership remain protected.
+- [x] All eight WP1 Pressure Duties occur exactly once in canonical prose.
+
+Primary site: [Chapter 27 WP1](../01_blocks/03_part_ii_sub.md#chapter-27-sub-boundary-conditions).
+
+## Chapter 27 WP2 Local Audit
+
+- [x] Source Ceiling remains source-, claim-, Frame-, granularity-, and relation-specific.
+- [x] Component presence, relation, causal load, and function effect are tested independently.
+- [x] Support descriptions remain local and non-canonical.
+- [x] Missing information is not converted into a Non-Event.
+- [x] Counterfactual variation is bounded to occurrences, components, relations, or composite constituents.
+- [x] Component sensitivity does not create a component ontology, score, person type, or universal causal class.
+- [x] Every material finer finding returns to the coarser-function claim.
+- [x] Source-object continuity remains distinct from source-function confirmation.
+- [x] Operator type, operator occurrence, source-object type claim, and function claim remain distinct.
+- [x] Initial source typing may be confirmed, restricted, rejected, or left underdetermined.
+- [x] Graphs, simulations, and formal completeness do not create source, causal, function, or type warrant.
+- [x] All eight WP2 Pressure Duties occur exactly once in canonical prose.
+
+Primary site: [Chapter 27 WP2](../01_blocks/03_part_ii_sub.md#27-5-source-ceiling).
+
+## Chapter 27 WP3 Local Audit
+
+- [x] Finer resolution receives no automatic epistemic, praxeological, or authority priority.
+- [x] Better, co-equal, worse, and incomparable remain local comparison descriptions.
+- [x] Optional Stop and Mandatory Stop are distinct positive controls.
+- [x] Claim Reduction preserves the weaker supported finding, not the stronger failed claim.
+- [x] Non-Capture does not rescue coarse or fine claims.
+- [x] The complete SUB Admissibility Test is conjunctive and non-compensatory.
+- [x] Local boundary result, function/type effect, prior disposition, and Output Class remain separate.
+- [x] Granularity change and re-entry preserve prior Failure, Stop, and Loss.
+- [x] The twenty-field view remains inside the Shared Transformation Record.
+- [x] Chapter 28 retains cases, Local Audit, output mapping, chapter lock, and SUB Part lock.
+- [x] All eight WP3 and all twenty-four Chapter-27 Pressure Duties occur exactly once.
+
+Primary site: [Chapter 27 WP3](../01_blocks/03_part_ii_sub.md#27-9-no-privilege-of-fine-resolution).
+
+## Chapter 27 Provisional-Lock Audit
+
+- [x] Lower and Upper SUB Boundaries are explicit and non-symmetric.
+- [x] Source, Component, Relation, Reference, Function, and Type burdens remain separate.
+- [x] Counterfactual Component findings remain bounded and non-causal in authority.
+- [x] Fine resolution receives no automatic priority.
+- [x] Stop, Reduction, Failure, and Non-Capture remain distinct.
+- [x] The eight-gate test is conjunctive and non-compensatory.
+- [x] Granularity change preserves prior disposition and Loss.
+- [x] All twenty-four duties and twenty Record fields are exact.
+- [x] Chapter 28 and LIMITS ownership remain intact.
+
+Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation Audit Checklist
+
+- [ ] The case class is positive, counter, or confusion.
+- [ ] Source object, origin type, Frame, and granularity are explicit.
+- [ ] The decomposition question and expected additional difference are declared.
+- [ ] Only an occurrence or composite is decomposed; no base operator type is opened.
+- [ ] Components and relations are both present in every valid decomposition.
+- [ ] Source Reference and coarser-function effect are explicit.
+- [ ] Resolution result remains separate from source-function effect and Output Class.
+- [ ] Complete five-part Loss and alternatives are present.
+- [ ] Claim Scope and Claim Ceiling are explicit.
+- [ ] SUB remains distinct from new PATH, RETYPE, analogy, and modulation.
+- [ ] Each executed operation link has a separate claim, Record, Loss, and result.
+- [ ] Every case has Markdown, schema-valid YAML, local audit, and canonical mapping.
+- [ ] Each final Record maps to exactly one of the ten canonical Output Classes.
+- [ ] Stop, Claim Reduction, Failure, and Non-Capture remain distinct.
+- [ ] Resolution Escape does not erase the earlier claim disposition.
+- [ ] Case Index entries, hashes, and cross-links agree with actual artifacts.
+- [ ] At least three lock-critical cases are fully instantiated.
+- [ ] Operator-error and fragmentation cases are also fully instantiated.
+- [ ] The twenty-four-question SUB Local Audit passes.
+- [ ] Chapter 28 and Part II lock only after package and roundtrip audit.
+- [ ] Chapter 53 and Appendix M/N ownership remain protected.
+- [ ] No person, legitimacy, recommendation, sanction, or authority inference is produced.
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 Artifact Audit
+
+- [x] Six positive Markdown artifacts exist.
+- [x] Six positive YAML Transformation Records validate.
+- [x] Every record uses `DECOMPOSE` on an occurrence or composite.
+- [x] Components and internal relations are both present.
+- [x] Source function, Resolution Gain, prior disposition, and Output Class remain separate.
+- [x] Complete five-part Loss fields and alternatives are present.
+- [x] Twelve audit stages and case-specific checks pass.
+- [x] Exactly one canonical class is selected per Record.
+- [x] Case Index paths and SHA-256 hashes match.
+- [x] `C28-TRAJECTORY-01` is complete and lock-critical.
+- [x] Chapter 28 and Part II remain unlocked.
+
+## Chapter 28 WP2 Artifact Audit
+
+- [x] Six countercase and two confusion Markdown artifacts exist.
+- [x] Eight YAML Transformation Records validate.
+- [x] Overfine, Operator-Error, and Fragmentation burdens are complete.
+- [x] SUB/RETYPE and SUB/new-PATH claims are segmented without mixed operation records.
+- [x] Exactly one canonical class is selected per record.
+- [x] Case Index paths and hashes match.
+- [x] Chapter 28 and Part II remain unlocked.
+
+## Chapter 28 WP3 Lock-Readiness Audit
+
+- [x] Sixteen Chapter-28 target cases are represented in canonical prose.
+- [x] Sixteen Markdown/YAML/audit/mapping Artifact Sets exist and are indexed.
+- [x] Analogy and Modulator/New-Operator artifacts validate.
+- [x] SUB/RETYPE chain separation is complete without PROJECT_AS execution.
+- [x] Integrated SUB Local Audit passes 24/24.
+- [x] Loss, alternatives, Claim Ceiling, Stop, reduction, Failure, and Non-Capture remain separate.
+- [x] Chapter 28 and Part II remain unlocked pending WP4.
+
+## Chapter 28 and Part II — SUB Provisional-Lock Audit
+
+- [x] Chapter-28 Contract passes.
+- [x] Part-II SUB Block Contract passes.
+- [x] Twenty Chapter-28 sections and twenty-four duties are exact.
+- [x] Six positive, six counter, and four confusion targets are complete.
+- [x] Sixteen Chapter-28 Markdown/YAML/audit/mapping sets are indexed and hashed.
+- [x] All twenty-nine indexed Records validate.
+- [x] Three lock-critical plus Operator-Error and Fragmentation burdens are complete.
+- [x] Components and relations are jointly reconstructed in every valid decomposition.
+- [x] Source Reference and Coarser Function are retained or explicitly revised.
+- [x] Fine resolution has no automatic privilege.
+- [x] Gain, Neutrality, Drift, and Escape remain distinct.
+- [x] SUB/new-PATH and SUB/RETYPE boundaries remain separate.
+- [x] Stop, Claim Reduction, Failure, and Non-Capture remain distinct.
+- [x] The SUB Local Audit passes 24/24.
+- [x] Closed inventories, fingerprints, links, hashes, package CRC, and roundtrip pass.
+- [x] Chapter 28 and Part II — SUB are provisionally locked.
+- [x] Chapter 29 Preparation is the next controlled step.
+- [x] Authority inheritance remains prohibited.
+
+Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).

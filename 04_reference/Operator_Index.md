@@ -1,6 +1,6 @@
 # PMS-STRATA — Operator Index
 
-**Status:** Reference Kernel v0.1.34 — Chapter-11-WP2-synchronized PMS-operator control  
+**Status:** Reference Kernel v0.1.36 — Chapter-20-WP3-synchronized PMS-operator control  
 **Repository role:** `04_reference` navigation and operator-boundary control; not an independent PMS or STRATA theory source
 **Control sources:** `PMS.yaml` for the repository-reference operator inventory, names, order, dependencies, layers, and Base guardrails; *Towards a Praxeological Meta-Structure Theory* as a supporting PMS explanatory source; [`Chapter 1`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) for the provisionally locked object model and identity burden; `05_minified/*` and `05_minified/Chapter_Contracts.md` for the limits of STRATA inference, transformation, and claim; [`Chapter 2`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) for analytical-coordinate boundaries; [`Chapter 3`](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) for temporal-object burdens; [`Chapter 4`](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) for the closed three-operation grammar; and `04_reference/Chapter_1_Preparation_Record.md` through `04_reference/Chapter_5_Preparation_Record.md` for non-theory production status and handoff
 
@@ -2030,3 +2030,648 @@ No integrated duty changes Δ–Ψ or adds an operator. Twelve case records inst
 ## Part I — PATH Provisional-Lock Operator Boundary
 
 The PATH lock preserves the unchanged Δ–Ψ grammar and occurrence-level profiles used across Chapters 9–17. No operator type was composed, decomposed, renamed, reordered, or converted into a derived PATH object. Chapter 18 may receive occurrences and composites, never operator types, as candidate SUB source objects.
+
+## Chapter 18 Preparation — Operator-Type Boundary
+
+Chapter 18 receives unchanged Δ–Ψ operator types and may treat concrete operator-typed occurrences as compressed source candidates. It never decomposes an operator type as if it were an empirical aggregate.
+
+```text
+operator type
+≠ decomposable source object
+
+operator-typed occurrence or composite
+→ possible Chapter-18 source candidate
+```
+
+A finer reconstruction may identify carriers, relations, or internal contrasts of an occurrence. It may not create sub-operators, rename Δ–Ψ, alter their order or dependencies, or turn modulation profiles into new primitives.
+
+## Chapter 18 WP1 — Operator-Type and Occurrence Integrity
+
+Chapter 18 WP1 canonically preserves:
+
+```text
+Δ–Ψ operator type
+≠ empirical aggregate
+≠ compressed source object
+
+concrete operator-typed occurrence
+→ eligible source category only
+```
+
+The relevant source-side typing may be Frame, Non-Event, Asymmetry, or another Δ–Ψ occurrence typing. Multiple or rival typings of the same reference object remain possible. No WP1 claim creates suboperators, changes the Δ–Ψ order or dependencies, fuses operators, or treats a modulation profile, Path, Trajectory, or composite as a new primitive.
+
+Canonical site: [Chapter 18 §18.4](../01_blocks/03_part_ii_sub.md#18-4-operator-type-versus-decomposable-occurrence).
+
+
+
+## Chapter 18 WP2 — Operator Integrity under Compression Pressure
+
+Necessary compression and compression insufficiency concern representations of concrete occurrences and composites. They do not alter Δ–Ψ types, ordering, dependencies, or primitive status.
+
+A coarse `□`, `Λ`, `Ω`, Path, or Trajectory claim may be pressured by source-supported internal distinctions. The later opening may identify occurrence-level carriers and relations, but the reason to decompose cannot infer suboperators or treat a coarse operator label as proof of its internal distribution.
+
+```text
+operator occurrence under pressure
+≠ operator type decomposed
+
+internal carrier question
+≠ new primitive
+```
+
+Canonical sites: [Chapter 18 §§18.5–18.8](../01_blocks/03_part_ii_sub.md#18-5-why-compression-is-necessary).
+
+
+## Chapter 18 WP3 Operator-Boundary Synchronization
+
+Chapter 18 WP3 preserves the origin typing of a source occurrence as a declared test coordinate. It neither decomposes the Δ–Ψ type nor guarantees that the occurrence typing survives finer reconstruction.
+
+```text
+operator type remains unchanged
+source occurrence typing remains testable
+source-function effect remains open
+```
+
+A later adverse source-function result revises the occurrence claim, not PMS Base. Multiple compatible or rival occurrence typings remain separable and may not be fused into a new operator.
+
+Canonical site: [§18.9](../01_blocks/03_part_ii_sub.md#18-9-preservation-requirement).
+
+
+## Chapter 18 Provisional-Lock Operator Boundary
+
+Chapter 18 preserves the closed Δ–Ψ type system and the three-operation inventory:
+
+```text
+operator type
+≠ operator-typed occurrence
+≠ composite
+
+SUB
+≠ fourth operation
+
+source readiness
+≠ DECOMPOSE occurrence
+```
+
+No Δ–Ψ type is opened as an empirical aggregate. Chapter 19 receives source coordinates; Chapter 20 alone owns operation execution. Primary site: [§18.4 and completion boundary](../01_blocks/03_part_ii_sub.md#18-4-operator-type-versus-decomposable-occurrence).
+
+## Chapter 19 Preparation Operator Boundary
+
+Chapter 19 changes analytical coordinates; it does not decompose Δ–Ψ operator types. A finer reconstruction may open a concrete operator-typed occurrence or composite only after Chapter 20 executes a valid `DECOMPOSE` occurrence.
+
+```text
+finer granularity
+≠ lower operator rank
+≠ operator decomposition
+≠ new primitive
+```
+
+No Δ–Ψ type, name, sign, order, or dependency changes. More detailed occurrence typing creates no additional PMS authority.
+
+## Chapter 19 WP1 Canonical Operator Boundary
+
+Chapter 19 WP1 changes analytical coordinates without changing PMS Base or executing an operation.
+
+```text
+changed distinction set
+≠ operator-type decomposition
+
+relative downward movement
+≠ lower operator rank
+
+Frame change alone
+≠ DECOMPOSE
+```
+
+Concrete operator-typed occurrences and composites may later be opened only through a valid Chapter-20 `DECOMPOSE` occurrence. Δ–Ψ signs, names, types, order, and dependencies remain unchanged. Primary sites: [§19.1](../01_blocks/03_part_ii_sub.md#19-1-granularity-change), [§19.2](../01_blocks/03_part_ii_sub.md#19-2-relative-downward-movement), and [§19.4](../01_blocks/03_part_ii_sub.md#19-4-changed-frame-during-decomposition).
+
+## Chapter 19 WP2 Canonical Operator Boundary
+
+WP2 differentiates structures within concrete occurrences and composites without opening Δ–Ψ operator types.
+
+```text
+local or distributed component candidate
+≠ operator subpart
+
+component relation
+≠ operator dependency revision
+
+functional component
+≠ new PMS primitive
+```
+
+A Frame-, Attractor-, Asymmetry-, Non-Event-, Path-, or Trajectory-related source may have local or distributed candidate carriers. Their identification does not decompose the operator type, alter Δ–Ψ dependencies, or grant causal or authority priority. Primary sites: [§19.6](../01_blocks/03_part_ii_sub.md#19-6-local-versus-distributed-structure) and [§19.7](../01_blocks/03_part_ii_sub.md#19-7-functional-parts-versus-mere-fragments).
+
+## Chapter 19 WP3 Operator-Boundary Return
+
+Sections 19.8–19.11 add no operator and alter no Δ–Ψ dependency. Comparability, Granularity Mismatch, the Lower Granularity Question, and the Minimal Granularity Relation are STRATA comparison and record disciplines, not PMS Base operators or fourth transformation operations.
+
+`DECOMPOSE` remains unexecuted until Chapter 20 reconstructs actual source-supported components and relations. Primary sites: [§19.8–§19.11](../01_blocks/03_part_ii_sub.md#19-8-granularity-comparability).
+
+
+## Chapter 19 Provisional-Lock Operator Boundary
+
+Chapter 19 preserves the closed Δ–Ψ type system and three-operation inventory:
+
+```text
+granularity relation
+≠ operator
+≠ operation occurrence
+
+SUB
+≠ fourth operation
+
+coordinate readiness
+≠ DECOMPOSE success
+```
+
+No Δ–Ψ type is opened as an empirical aggregate. Chapter 20 alone owns procedure and operation result. Primary site: [Chapter-19 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-19-completion-boundary).
+
+## Chapter 20 Preparation Operator Boundary
+
+Chapter 20 operationalizes `DECOMPOSE` only for concrete occurrences and composites. A source may be typed through `□`, `Λ`, `Α`, `Ω`, `Θ`, `Ψ`, or another PMS operator, but the operator type itself is never opened as a material aggregate.
+
+```text
+operator-typed occurrence decomposition
+≠ operator-type decomposition
+```
+
+The finer reconstruction may change the warrant for an occurrence typing. It may not rename, reorder, decompose, or extend Δ–Ψ. See [`Chapter_20_Preparation_Record.md`](Chapter_20_Preparation_Record.md).
+
+## Chapter 20 WP1 Operator-Boundary Return
+
+Chapter 20 WP1 operationalizes `DECOMPOSE` only for concrete occurrences and composites. It does not open `Δ`, `∇`, `□`, `Λ`, `Α`, `Ω`, `Θ`, `Φ`, `Χ`, `Σ`, or `Ψ` as empirical aggregates. A source may retain an operator-typed occurrence classification while its supporting practices and relations are tested.
+
+```text
+what is □ made of?
+→ prohibited operator-type decomposition
+
+which practices reproduce this concrete Frame-typed occurrence?
+→ valid occurrence-level question candidate
+```
+
+Primary sites: [§20.1](../01_blocks/03_part_ii_sub.md#20-1-definition) and [§20.3](../01_blocks/03_part_ii_sub.md#20-3-source-object).
+
+## Chapter 20 WP2 Operator-Boundary Return
+
+Operator-typed occurrences may function as components of a decomposition, but relation descriptions such as dependency, sequence, threshold, substitution, blockage, or reproduction condition do not become new PMS operators. Component roles also do not alter Δ–Ψ identity.
+
+```text
+Frame-typed occurrence as component
+≠ Frame operator decomposed
+
+local relation description
+≠ new PMS operator
+```
+
+Primary sites: [§20.7–§20.8](../01_blocks/03_part_ii_sub.md#20-7-component-identification).
+
+## Chapter 20 WP3 Operator and Function Boundary Return
+
+A source-function effect changes the warranted claim about an operator-typed occurrence or composite; it does not change the Δ–Ψ operator type. A contextual target function remains owned by a separate `PROJECT_AS` occurrence.
+
+```text
+rejected Frame function in one occurrence
+!= Frame operator rejected or decomposed
+
+finer source trace
+!= target function
+```
+
+Primary sites: [§20.9](../01_blocks/03_part_ii_sub.md#20-9-preservation-of-source-function) and [§20.11](../01_blocks/03_part_ii_sub.md#20-11-non-invertibility).
+
+## Chapter 20 WP4 Operator-Boundary Lock
+
+The provisionally locked generic procedure applies only to concrete occurrences and composites. No Δ–Ψ operator type is decomposed, redefined, reordered, or treated as a material aggregate. Chapter 21 may apply the procedure to operator-typed occurrences while preserving this type boundary.
+
+Primary site: [Chapter-20 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-20-completion-boundary).
+
+## Chapter 21 Preparation — Operator-Type Protection
+
+Chapter 21 applies `DECOMPOSE` only to concrete operator-typed occurrences. Production and maintenance conditions do not become constituents of Δ–Ψ, and rejection of one occurrence typing does not reject or decompose the operator type.
+
+```text
+Frame occurrence opened
+≠ Frame operator decomposed
+
+Binding occurrence reconstructed
+≠ person property inferred
+```
+
+Preparation control: [Chapter 21 Preparation Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP1 Operator-Boundary Return
+
+Chapter 21 WP1 applies `DECOMPOSE` only to concrete operator-typed occurrences. Production and maintenance conditions of the R-17 Frame occurrence do not become constituents of `□`, and rejection of that occurrence typing would not reject or decompose the Frame operator.
+
+```text
+operator type preserved
+≠ occurrence typing immunized
+
+Frame-typed role relation
+≠ person property
+```
+
+Primary sites: [§21.1](../01_blocks/03_part_ii_sub.md#21-1-general-rule) and [§21.2](../01_blocks/03_part_ii_sub.md#21-2-frame-typed-occurrence).
+
+## Chapter 21 WP2 Operator-Boundary Return
+
+WP2 opens concrete Attractor- and Asymmetry-typed occurrences without decomposing `Α` or `Ω`. Repetition, friction, expectation, directional gradients, offsets, and coordination relations are occurrence-level production conditions, not constituents of the operator types.
+
+```text
+rejected Attractor or Asymmetry typing
+≠ rejected PMS operator
+```
+
+Primary sites: [§21.5](../01_blocks/03_part_ii_sub.md#21-5-attractor-typed-occurrence) and [§21.8](../01_blocks/03_part_ii_sub.md#21-8-asymmetry-typed-occurrence).
+
+## Chapter 21 WP3 Operator-Boundary Return
+
+WP3 opens concrete Impulse- and Binding-typed occurrences without decomposing `∇` or `Ψ`. Activation conditions are not constituents of Impulse, and commitments, records, continuity, or breach costs are not constituents of Self-Binding as an operator type.
+
+```text
+rejected Impulse or Binding occurrence typing
+≠ rejected PMS operator
+```
+
+Primary sites: [§21.10](../01_blocks/03_part_ii_sub.md#21-10-impulse-typed-occurrence) and [§21.11](../01_blocks/03_part_ii_sub.md#21-11-binding-typed-occurrence).
+
+## Chapter 21 WP4 Operator-Integrity Lock
+
+Chapter 21 is provisionally locked with all operator identities unchanged. `□`, `Α`, `Ω`, `∇`, and `Ψ` remain PMS operator types; the chapter opens only concrete occurrences typed through them. Production and maintenance conditions are never operator constituents, and rejected occurrence typing never rejects or revises the PMS operator.
+
+Primary site: [Chapter-21 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-21-completion-boundary).
+
+## Chapter 22 Preparation — Weighting and Profile Protection
+
+Chapter 22 may reconstruct relative operator load inside an already-composite source object. Weighting remains claim-, dimension-, time-, and source-bound. It neither changes the Δ–Ψ inventory or dependencies nor fuses operator occurrences. A modulating profile describes source-side accessibility, threshold, temporal efficacy, cost, or stabilization load; it is not a new operator, composite type, person type, or RETYPE target function.
+
+```text
+operator weighting
+≠ operator replacement
+≠ dependency revision
+
+modulating profile
+≠ operator type
+≠ person type
+```
+
+Preparation control: [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP1 Operator-Weighting Boundary Return
+
+Chapter 22 WP1 permits qualitative descriptions of relative load among existing operator-typed occurrences inside one bounded composite. It does not alter, fuse, rename, reorder, add, or delete Δ–Ψ operators or dependencies.
+
+```text
+composite weighting description
+≠ operator grammar
+≠ dependency graph
+≠ new primitive
+```
+
+Primary site: [§22.4](../01_blocks/03_part_ii_sub.md#22-4-dominant-operator-weighting).
+
+## Chapter 22 WP2 Profile and Operation-Boundary Return
+
+Chapter 22 WP2 keeps modulating profiles source-side and claim-bound. A profile may describe how existing operator-typed occurrences differ in access, activation, delay, persistence, or burden; it neither creates nor modifies an operator and cannot assign a contextual target function.
+
+Distributed function, redundancy, substitution, thresholds, and conflict remain relations inside the same source composite. Selecting previously separate structures into a new macro-object requires `COMPOSE`; assigning the source composite a contextual Frame, Attractor, Asymmetry, or other target function requires `PROJECT_AS`.
+
+Primary sites: [§22.5](../01_blocks/03_part_ii_sub.md#22-5-modulating-profiles) and [§22.8](../01_blocks/03_part_ii_sub.md#22-8-internal-conflict).
+
+## Chapter 22 WP3 Operator Return
+
+Chapter 22 WP3 preserves all Δ–Ψ operator identities and dependencies while testing how existing operator-typed occurrences contribute to composite stability, repair, compensation, suppression, and unequal load. Operator weighting remains descriptive and cannot become operator revision, fusion, score, person type, or target function.
+
+Primary sites: [§22.9](../01_blocks/03_part_ii_sub.md#22-9-composite-stability) and [§22.11](../01_blocks/03_part_ii_sub.md#22-11-failed-composite-decomposition).
+
+## Chapter 22 WP4 Operator-Integrity Lock
+
+Chapter 22 is provisionally locked with all Δ–Ψ operator identities, order, and dependencies unchanged. Operator weighting describes bounded relative load among already-typed occurrences inside one composite; it is not operator fusion, ranking, score, grammar revision, person typing, or target-function assignment.
+
+Primary site: [Chapter-22 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-22-completion-boundary).
+
+## Chapter 23 Preparation — Λ and Temporal-Object Protection
+
+Chapter 23 decomposes concrete Event-like and Non-Event source objects; it does not decompose `Λ`, `Θ`, or any PMS operator type. Positive sub-events may produce or stabilize a higher-level Non-Event where the expected structure remains unrealized under a warranted Frame and window.
+
+```text
+positive sub-events identified
+≠ Non-Event dissolved automatically
+
+missing records
+≠ Λ
+```
+
+Delay, repetition, and absent binding remain occurrence-level structures. They authorize no motive, person, guilt, legitimacy, or authority inference.
+
+Preparation control: [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md).
+
+## Chapter 23 WP1 Event-Occurrence Boundary Return
+
+Chapter 23 WP1 decomposes bounded Event-like occurrences and their temporal relations. It does not decompose `Θ`, `Λ`, or any other Δ–Ψ operator type. Event, Extended Event, and Event Cluster are temporal source-category claims, not new operators or primitives.
+
+```text
+Event-like occurrence opened
+≠ Θ decomposed
+
+positive temporal components identified
+≠ Λ rule revised
+```
+
+The full preservation of a Non-Event occurrence through positive sub-events remains WP2. Primary sites: [§§23.1–23.4](../01_blocks/03_part_ii_sub.md#23-1-event-decomposition).
+
+## Chapter 23 WP2 Operator-Occurrence Return
+
+- `Λ` remains a source-supported expected non-realization, not archive silence, unknown phases, or mere absence.
+- Positive Event occurrences may carry or stabilize one higher-level `Λ` occurrence without becoming constituents of the `Λ` operator type.
+- `Θ` supports bounded windows, delay, repetition, later realization, and continuation but does not establish expectation, intention, Path, or Trajectory automatically.
+- An absent `Ψ`-typed binding occurrence may be reconstructed relationally within one Non-Event; `Ψ` is not decomposed and no person is typed through it.
+- `Ω`-relevant differences in access, authority, burden, or benefit do not prove motive, guilt, legitimacy, or responsibility automatically.
+
+Primary sites: [§§23.5–23.8](../01_blocks/03_part_ii_sub.md#23-5-non-event-decomposition).
+
+
+
+## Chapter 23 WP3 Operator Boundary Note
+
+Chapter 23 WP3 preserves `Λ` as a relation among warranted expectation, bounded realization condition, supported non-realization, and praxis difference. Positive sub-events, delay mechanisms, multiple clocks, or later completion do not decompose `Λ` as an operator type, erase an earlier bounded Non-Event automatically, or authorize person inference. Primary sites: [§§23.9–23.11](../01_blocks/03_part_ii_sub.md#23-9-internal-temporal-order).
+
+
+## Chapter 23 Provisional-Lock Operator Boundary
+
+Chapter 23 preserves `Λ` as the operator type while opening concrete Non-Event occurrences. Positive sub-events may produce or maintain the same higher-level non-realization; missing information does not become `Λ`; later completion does not erase an earlier bounded Non-Event automatically. No Δ–Ψ operator is decomposed, reordered, rescored, or converted into a person property. Primary site: [Chapter 23](../01_blocks/03_part_ii_sub.md#23-decomposing-events-non-events-and-internal-temporal-structures).
+
+## Chapter 24 Preparation — PATH-Object and Operator Protection
+
+Chapter 24 decomposes already formed Path, Trajectory, and Path-Dependence claims. It does not decompose `Θ`, `Α`, `Ω`, `Λ`, `Ψ`, or any PMS operator type. Path-Dependence load may be reconstructed through occurrence-level operator profiles while canonical operator identities and dependencies remain unchanged.
+
+```text
+Path-Dependence load
+≠ hidden substance
+≠ fused operator
+≠ universal score
+```
+
+A contextual function of a Path remains `PROJECT_AS` work. A new periodization or differently selected Path remains `COMPOSE` work.
+
+Preparation control: [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md).
+
+## Chapter 24 WP1 PATH-Object Operator Boundary
+
+Chapter 24 WP1 opens formed Path-side analytical objects. It does not decompose `Θ`, `Α`, `Ω`, `Λ`, `Ψ`, or any other Δ–Ψ operator type. Occurrence-level temporal and relational loads may be reconstructed while operator identities, order, and dependencies remain unchanged.
+
+```text
+Path or Trajectory opened
+≠ Θ decomposed
+
+internal relation reconstructed
+≠ operator fusion or score
+```
+
+Primary sites: [§§24.1–24.4](../01_blocks/03_part_ii_sub.md#chapter-24-decomposing-paths-and-trajectories).
+
+## Chapter 24 WP2 Operator Boundary
+
+Chapter 24 WP2 may reconstruct occurrence-level `□`, `Λ`, `Α`, `Ω`, `Θ`, `Φ`, and `Ψ` load inside turning points, branches, Frame changes, and continuations. It does not decompose operator types, fuse operators, assign universal weights, infer person properties, or convert internal recontextualization into `PROJECT_AS` automatically.
+
+```text
+internal □ change
+≠ □ operator changed
+
+occurrence-level Φ inside a Path
+≠ PROJECT_AS automatically
+```
+
+Primary sites: [§§24.5–24.8](../01_blocks/03_part_ii_sub.md#24-5-turning-points).
+
+## Chapter 24 WP3 Operator Boundary
+
+Chapter 24 WP3 may reconstruct occurrence-level `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ` Path-Dependence loads. These are profile expressions, not fused operators, new dependencies, compound primitives, additive proof, or person properties.
+
+```text
+occurrence-level historical profile
+≠ operator fusion
+≠ PMS-Base revision
+```
+
+Primary site: [§24.10](../01_blocks/03_part_ii_sub.md#24-10-decomposition-of-path-dependence).
+
+## Chapter 24 Provisional-Lock Operator Return
+
+Chapter 24 applies `DECOMPOSE` only to already formed PATH objects. Occurrence-level `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ` expressions identify bounded historical-load profiles; they do not fuse, reorder, decompose, score, or extend PMS operators. Materially new PATH selection or formation routes to `COMPOSE`; contextual target-function assignment routes to `PROJECT_AS`.
+
+Primary site: [Chapter 24](../01_blocks/03_part_ii_sub.md#chapter-24-decomposing-paths-and-trajectories).
+
+## Chapter 25 Preparation — Operator and Resolution Protection
+
+Chapter 25 classifies outcomes of finer resolution; it does not redefine or decompose Δ–Ψ operator types. Resolution Gain, Neutrality, Drift, Escape, Source Overreach, Calibration Loss, and Decomposition Fatigue are local findings or Stop markers, not operators or operator properties.
+
+```text
+resolution result
+≠ operator type
+≠ operator occurrence
+≠ composite
+```
+
+Changing granularity after counterpressure does not alter the original operator claim or erase its disposition. Any new operation remains separately recorded under `COMPOSE`, `DECOMPOSE`, or `PROJECT_AS`.
+
+Preparation control: [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md).
+
+## Chapter 25 WP1 Operator Boundary
+
+Resolution Gain, Neutrality, Drift, and Escape classify the result of finer reconstruction. They do not alter, decompose, fuse, rank, or score the Δ–Ψ operator types. A changed occurrence-level or composite claim does not change operator identity.
+
+```text
+resolution result
+≠ operator type
+≠ operator occurrence type automatically
+≠ new PMS primitive
+```
+
+Primary site: [Chapter 25 WP1](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape).
+
+## Chapter 25 WP2 Operator Boundary
+
+Purchase, support, Source Overreach, and Calibration Loss assess claims about finer reconstructions. They do not alter Δ–Ψ identities, convert monitoring signals into operators, or make graph relations equivalent to PMS dependencies.
+
+```text
+observed process repetition or Stop pressure
+≠ new PMS operator
+
+graph edge
+≠ Δ–Ψ dependency automatically
+```
+
+Primary site: [Chapter 25 WP2](../01_blocks/03_part_ii_sub.md#25-5-detail-without-purchase).
+
+## Chapter 25 WP3 Operator Integrity Return
+
+Resolution classification does not add an operator. `DECOMPOSE` remains the active operation while Chapter 25 evaluates its result. Stop and re-entry are governance and continuation states, not operations. Chapter 26 receives only unresolved `DECOMPOSE`/`PROJECT_AS` boundary questions; any dual-operation chain requires separate occurrences and records.
+
+## Chapter 25 Provisional-Lock Operator Return
+
+Chapter 25 evaluates the result and continuation conditions of `DECOMPOSE`; it does not add, fuse, reorder, or decompose PMS operators. A materially new composite routes to `COMPOSE`; assignment of a bounded contextual target function routes to `PROJECT_AS`. Runtime monitoring or Stop enforcement remains an implementation layer and does not become a fourth operation or inherit semantic authority.
+
+Primary site: [Chapter 25](../01_blocks/03_part_ii_sub.md#chapter-25-resolution-gain-neutrality-drift-and-escape).
+
+## Chapter 26 Preparation Operator Boundary
+
+Chapter 26 prepares the primary SUB decision site separating `DECOMPOSE` from `PROJECT_AS`:
+
+```text
+DECOMPOSE
+→ finer internal reconstruction of the same reference object
+
+PROJECT_AS
+→ preserved origin-typed source object assigned a bounded function in a declared target context
+```
+
+A changed Frame or label does not by itself select either operation. A case requiring both operations must use distinct operation occurrences and separate Records. No fourth operation, mixed operation type, or origin-type replacement is introduced.
+
+Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 WP1 Operator-Boundary Return
+
+Chapter 26 WP1 preserves the closed Δ–Ψ inventory and the distinction between operator type and operator occurrence. SUB may open an operator-typed occurrence, its production conditions, maintenance relations, temporal phases, and source-function effects; it never decomposes the PMS operator type. PROJECT_AS pressure preserves the origin-typed source object and proposes a contextual function without creating a new operator or origin type.
+
+```text
+occurrence opened internally
+≠ operator type decomposed
+
+target function proposed
+≠ operator identity changed
+```
+
+Primary site: [Chapter 26 WP1](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+
+## Chapter 26 WP2 Attractor-Boundary Return
+
+Chapter 26 WP2 preserves three distinct positions:
+
+```text
+Attractor operator type
+≠ Attractor-typed occurrence
+≠ contextual Attractor-function
+```
+
+SUB may open the occurrence into recurrence, blocked alternatives, Non-Events, costs, maintenance, repair, and source-function effects. A later PROJECT_AS claim may retain the origin-typed source object and test a bounded Attractor-function in another context. Neither operation renames, decomposes, or expands the PMS operator inventory.
+
+Primary site: [§26.6](../01_blocks/03_part_ii_sub.md#26-6-attractor-occurrence).
+
+## Chapter 26 WP3 Operator Integrity Return
+
+The closed operation inventory remains `COMPOSE`, `DECOMPOSE`, and `PROJECT_AS`. Dual operation is an ordered chain of two existing operation occurrences, not a fourth operation. Recontextualization and local boundary findings are not operations. Operator types remain protected from decomposition, and target functions do not replace origin types.
+
+## Chapter 26 Provisional-Lock Operator Return
+
+Chapter 26 preserves exactly three transformation operations. `DECOMPOSE` opens the internal constitution of the same bounded source object; `PROJECT_AS` preserves origin type while asserting a bounded contextual target function. Recontextualization is not an operation, and a dual-operation case is an ordered chain of existing occurrences rather than a fourth or mixed operation.
+
+```text
+dual operation
+≠ operator fusion
+≠ new PMS primitive
+```
+
+Primary site: [Chapter 26](../01_blocks/03_part_ii_sub.md#chapter-26-the-boundary-between-sub-and-retype).
+
+## Chapter 27 Preparation — Operator-Type Boundary under SUB Limits
+
+Chapter 27 applies local boundaries only to eligible operator-typed occurrences and composites. The base operator types remain undecomposed.
+
+```text
+Frame-typed occurrence opened into finer relations
+≠ Frame operator type decomposed
+
+Attractor-typed occurrence opened into recurrence structure
+≠ Attractor operator type decomposed
+
+Asymmetry-typed occurrence opened into distributed load
+≠ Ω operator type decomposed
+```
+
+Type preservation is an explicit integrity test, not forced survival of the original occurrence-level typing claim. Finer evidence may confirm, restrict, reject, or leave that claim underdetermined.
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 WP1 Operator-Boundary Return
+
+Chapter 27 WP1 does not alter Δ–Ψ or decompose operator types. It tests whether an already eligible `DECOMPOSE` occurrence remains within the local admissible range. Operator-typed occurrences may be opened into source-supported components and relations, but the operator type remains unchanged and the occurrence reference must remain identifiable or be explicitly revised.
+
+```text
+finer occurrence structure
+≠ operator type decomposed
+
+source label retained
+≠ occurrence reference preserved automatically
+```
+
+Primary site: [Chapter 27 WP1](../01_blocks/03_part_ii_sub.md#chapter-27-sub-boundary-conditions).
+
+## Chapter 27 WP2 Operator and Type-Integrity Return
+
+Chapter 27 WP2 does not alter Δ–Ψ and does not decompose operator types. The Counterfactual Component Test applies to bounded occurrences, components, relations, and composite constituents. Type Preservation keeps operator type, operator occurrence, source-object type claim, and source-function claim distinct while permitting explicit, source-supported revision of the occurrence- or object-level type claim.
+
+```text
+Attractor-typed occurrence may be decomposed
+≠ Attractor operator type decomposed
+
+Trajectory may be opened into subpaths
+≠ Trajectory becomes a new primitive
+```
+
+Primary site: [§27.8](../01_blocks/03_part_ii_sub.md#27-8-type-preservation).
+
+## Chapter 27 WP3 DECOMPOSE Boundary Return
+
+`DECOMPOSE` remains admissible only across the complete conjunction of additional PraxisPurchase, Source Support, Source Reference, reconstructible component relations, coarser-function traceability or explicit revision, type integrity or explicit revision, declared granularity, and defined Stop conditions. Failure of a gate cannot be compensated by additional resolution or formal complexity.
+
+No operator type is decomposed, no fourth operation is introduced, and re-entry creates a new testable claim rather than erasing prior Failure or Stop. Primary site: [Chapter 27 WP3](../01_blocks/03_part_ii_sub.md#27-9-no-privilege-of-fine-resolution).
+
+## Chapter 27 Provisional-Lock Operator Boundary
+
+Chapter 27 locks only the local boundary conditions of `DECOMPOSE`. Operator types remain closed and are never decomposed; bounded occurrences and composites may be opened only while PraxisPurchase, Source Ceiling, Source Reference, Relation Support, Coarser-Function Traceability, and Type Integrity remain controlled.
+
+Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation — Operator Integrity in SUB Cases
+
+Every Chapter-28 artifact must use an occurrence or composite as the `DECOMPOSE` source. A Δ–Ψ operator type may appear as the type basis of an occurrence, never as the material object opened into parts.
+
+```text
+Frame-typed occurrence case
+≠ Frame operator decomposition
+
+Attractor-typed occurrence case
+≠ Attractor operator decomposition
+
+recurrent weighting or modulation
+≠ new PMS operator
+```
+
+The operator-decomposition error and modulator/new-operator confusion cases are mandatory stress tests. Their purpose is to preserve type integrity, not to expand the operator inventory.
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 Operator Integrity
+
+`C28-FRAME-01`, `C28-ATTR-01`, and `C28-ASYM-01` open bounded operator-typed occurrences. The operator types remain unchanged. Components reconstruct production, maintenance, and distribution conditions at occurrence level; none becomes a new operator or person type.
+
+## Chapter 28 WP2 Operator Integrity
+
+`C28-OPTYPE-01` fails the attempted decomposition of a canonical operator type. `C28-SUBRETYPE-01` and `C28-SUBPATH-01` preserve the three-operation inventory by separating PROJECT_AS and COMPOSE pressure from the primary DECOMPOSE records.
+
+## Chapter 28 WP3 Operator Integrity
+
+`C28-MODULATOR-01` preserves the existing operator inventory: a recurrent weighting profile may alter occurrence behavior without becoming a new operator. `C28-ANALOGY-01` prevents imported foreign-domain elements from being treated as operator or component identities.
+
+## Chapter 28 and Part II Provisional-Lock Operator Boundary
+
+The completed SUB corpus opens only bounded occurrences and composites. Δ–Ψ operator types remain unchanged, non-material, and non-decomposable. `C28-OPTYPE-01` demonstrates the category-error route; `C28-MODULATOR-01` preserves recurrent occurrence-level modulation without creating a new operator.
+
+```text
+Part II — SUB locked
+≠ operator grammar enlarged
+≠ fourth operation created
+```
+
+Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).

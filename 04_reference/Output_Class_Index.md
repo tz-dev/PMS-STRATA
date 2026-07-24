@@ -1,6 +1,6 @@
 # PMS-STRATA — Output Class Index
 
-**Status:** Reference Kernel v0.1.14 — Chapter-8-WP4-lock-synchronized output registry for PATH entry  
+**Status:** Reference Kernel v0.1.15 — Chapter-20-WP3-synchronized output mapping registry  
 **Repository role:** `04_reference/*` — output vocabulary and mapping support; not an independent theory source
 
 ## 1. Role, Status, and Authority
@@ -2001,3 +2001,241 @@ The thirteen records instantiate: `admissible` (3), `admissible_with_bounded_cla
 ## Part I — PATH Provisional-Lock Output Boundary
 
 The thirteen PATH case records retain their five-class census. The Part-level result `admissible_but_provisional` records provisional corpus closure and is not a fourteenth case, a class quota, a rank, or an automatic route. All ten canonical Output Classes remain available for later operations and cases.
+
+## Chapter 20 Preparation Output-Mapping Boundary
+
+Chapter 20 must retain four separate axes:
+
+```text
+local DECOMPOSE result
+≠ source-function effect
+≠ prior source-claim disposition
+≠ canonical Output Class
+```
+
+Examples:
+
+- `supported decomposition` is a local result, not an alias for `admissible`;
+- `rejected` is a source-function effect, not an alias for `failed_transformation`;
+- `insufficient source support` may route to `failed_transformation`, `mandatory_stop`, or `non_capture` depending on the tested claim and continuation boundary;
+- a valid source-supported no-gain test may map to `resolution_neutral`;
+- competing internal models do not automatically map to `non_capture`.
+
+Primary preparation control: [`Chapter_20_Preparation_Record.md`](Chapter_20_Preparation_Record.md).
+
+## Chapter 20 WP3 DECOMPOSE Mapping Return
+
+Chapter 20 distinguishes open local decomposition results from the ten canonical classes. Mapping occurs only after source support, component relations, source-function effect, Loss, ceilings, Stop, Non-Capture, and distinct-claim separation are assessed.
+
+Key mappings include:
+
+- valid source-supported no-gain test → `resolution_neutral`;
+- operation identity/procedure failure → possible `failed_transformation`;
+- inadmissible continuation → `mandatory_stop`;
+- no stable supported finer model → possible `non_capture`;
+- successful operation with material unresolved support → possible `admissible_but_provisional`;
+- successful operation after a tested material narrowing → possible `admissible_with_bounded_claim`.
+
+No mapping is automatic. `analogy_only` is not a successful same-reference `DECOMPOSE` result.
+
+Primary site: [§20.10](../01_blocks/03_part_ii_sub.md#20-10-decomposition-output).
+
+## Chapter 20 WP4 Output-Mapping Lock
+
+Chapter 20 is provisionally locked with the four result axes kept separate. Local operation descriptions and source-function effects remain non-class values. Canonical Output Classes are assigned only to a clearly segmented claim after source support, component relations, Loss, ceilings, Stop, and Non-Capture are assessed. No automatic mapper or class stacking on an undifferentiated claim is authorized.
+
+Primary site: [Chapter-20 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-20-completion-boundary).
+
+## Chapter 21 Preparation Output Boundary
+
+Occurrence-family descriptions and source-function effects remain non-class values. A heterogeneous occurrence, rejected source typing, competing family model, or stable function with substitution receives a canonical Output Class only after the generic Chapter-20 gates are applied to a clearly segmented claim. No family-specific class or automatic mapper is authorized.
+
+Preparation control: [Chapter 21 Preparation Record](Chapter_21_Preparation_Record.md).
+
+## Chapter 21 WP3 Output-Mapping Return
+
+The bounded Binding example maps a successful relational decomposition with an internally differentiated source function and reduced prior homogeneous claim to `admissible_with_bounded_claim`. The mapping is claim-specific and non-automatic. Type forcing or missing support may require `failed_transformation` or `claim_reduction_required`; inadmissible continuation requires `mandatory_stop`; absence of a stable supported family model may yield `non_capture` without preserving the original typing.
+
+Primary sites: [§21.11](../01_blocks/03_part_ii_sub.md#21-11-binding-typed-occurrence) and [§21.12](../01_blocks/03_part_ii_sub.md#21-12-failed-operator-occurrence-decomposition).
+
+## Chapter 21 WP4 Output-Mapping Lock
+
+Chapter 21 is provisionally locked with local operation result, source-function effect, prior source-claim disposition, and canonical Output Class kept separate. Family names and source-function effects are not classes. `admissible_with_bounded_claim`, `failed_transformation`, `claim_reduction_required`, `mandatory_stop`, and `non_capture` remain claim-specific possibilities only after the generic Chapter-20 gates are applied; no automatic family mapper is authorized.
+
+Primary site: [Chapter-21 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-21-completion-boundary).
+
+## Chapter 22 Preparation — Composite Output Discipline
+
+Local Chapter-22 findings such as constitutive, modulating, replaceable, compensatory, incidental, distributed, redundant, substitutable, integrated conflict, residual conflict, or stable-through-repair are not Output Classes. They describe component roles, relations, or source-function effects. Final routing must use only the ten canonical classes after the Chapter-20 result axes, Loss, Stop, and Non-Capture checks remain separate.
+
+```text
+local composite description
+≠ canonical Output Class
+```
+
+Preparation control: [Chapter 22 Preparation Record](Chapter_22_Preparation_Record.md).
+
+## Chapter 22 WP3 Output-Class Return
+
+Composite stability, conflict integration, redundancy, substitution, local operation result, Source-Function Effect, and prior source-claim disposition are not Output Classes. The bounded current claim maps to exactly one canonical class only after reference, relation, support, Loss, Stop, and non-compensation burdens are tested.
+
+The R-17C anchor maps the supported but internally differentiated composite decomposition to `admissible_with_bounded_claim`; this does not validate stronger inherited claims. `resolution_neutral`, `admissible_but_provisional`, `partially_admissible`, `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, and `non_capture` remain available only under their own conditions.
+
+Primary sites: [§22.10](../01_blocks/03_part_ii_sub.md#22-10-decomposition-of-a-composite-without-fragmentation) and [§22.11](../01_blocks/03_part_ii_sub.md#22-11-failed-composite-decomposition).
+
+## Chapter 22 WP4 Output-Mapping Lock
+
+Chapter 22 is provisionally locked with local operation result, source-function effect, prior source-claim disposition, and canonical Output Class kept separate. Component roles, weighting, profiles, conflict outcomes, and stability mechanisms are not classes. `admissible_with_bounded_claim`, `partially_admissible`, `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, and `non_capture` remain claim-specific possibilities only after the complete Chapter-20 and Chapter-22 gates are applied; no automatic composite mapper is authorized.
+
+Primary site: [Chapter-22 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-22-completion-boundary).
+
+## Chapter 23 Preparation — Temporal Output Discipline
+
+Event, Extended Event, Event Cluster, Non-Event, delay structure, repeated non-decision, categorical preservation, category revision, Event Inflation, and temporal granularity drift are source categories, local findings, failure descriptions, or resolution pressures. They are not canonical Output Classes.
+
+Final routing must use only the ten canonical classes after local operation result, Source-Function Effect, prior source-claim disposition, Loss, Stop, and Non-Capture remain separate.
+
+```text
+local temporal category or effect
+≠ canonical Output Class
+```
+
+Preparation control: [Chapter 23 Preparation Record](Chapter_23_Preparation_Record.md).
+
+
+
+## Chapter 23 WP3 Output Boundary
+
+Event, Extended Event, Event Cluster, Non-Event, Delay Structure, Repeated Non-Decision, `confirmed`, `refined`, `internally_differentiated`, `partially_preserved`, `rejected`, and `underdetermined` are local categories or effects, not canonical Output Classes. Chapter 23 keeps local operation result, category/Source-Function Effect, prior source-claim disposition, and canonical Output Class separate. Temporal Non-Capture does not confirm the coarse Event or Non-Event claim. Primary site: [§23.11](../01_blocks/03_part_ii_sub.md#23-11-event--non-event-confusion-results-and-completion).
+
+
+## Chapter 23 Provisional-Lock Output Boundary
+
+Chapter 23 is locally `admissible_but_provisional`. Event-like categories and the effects `confirmed`, `refined`, `internally_differentiated`, `partially_preserved`, `rejected`, and `underdetermined` remain local results rather than Output Classes. Failure, Mandatory Stop, and Non-Capture remain distinct, and `non_capture` does not rescue a coarse Event or Non-Event claim. Primary site: [Chapter 23 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-23-completion-boundary).
+
+## Chapter 24 Preparation — PATH-Decomposition Output Discipline
+
+Path, Trajectory, subpath, transition cluster, turning-point status, branch status, internal Frame change, competing continuation, compression debt, Path-Dependence profile, Same-Path status, and rival PATH classification are source categories, local findings, or operation-boundary determinations. They are not canonical Output Classes.
+
+Final routing must use only the ten canonical classes after local operation result, source-function effect, prior claim disposition, Loss, Stop, and Non-Capture remain separate.
+
+```text
+local PATH-decomposition finding
+≠ canonical Output Class
+```
+
+Preparation control: [Chapter 24 Preparation Record](Chapter_24_Preparation_Record.md).
+
+## Chapter 24 WP3 Output Boundary
+
+Path, Trajectory, subpath, transition cluster, turning point, branch status, internal Frame change, competing continuation, compression debt, Path-Dependence profile, Same-Path status, rival-PATH status, local operation result, source-function effect, and prior source-claim disposition are not canonical Output Classes.
+
+The bounded R-24 illustration maps a supported relational decomposition with an internally differentiated source function and reduced prior claim to `admissible_with_bounded_claim`. This mapping does not establish complete history, one privileged periodization, Path Dependence in every dimension, causal sufficiency, legitimacy, prediction, or recommendation.
+
+`claim_reduction_required`, `partially_admissible`, `mandatory_stop`, `failed_transformation`, and `non_capture` remain available only under their own conditions. Non-Capture does not rescue a coarse Path or Trajectory claim.
+
+Primary sites: [§§24.11–24.12](../01_blocks/03_part_ii_sub.md#24-11-decomposition-versus-alternative-path-construction).
+
+## Chapter 24 Provisional-Lock Output-Class Return
+
+The chapter-level method maps to `admissible_but_provisional`. Application results remain claim-specific and must separately state local operation result, Path/Trajectory source-function effect, prior source-claim disposition, and one canonical Output Class. Turning-point status, branch status, compression debt, Same-Path/rival-PATH status, continuation accessibility, and Path-Dependence load are not Output Classes.
+
+## Chapter 25 Preparation — Resolution Result and Output Discipline
+
+The Chapter-25 local families are gain, neutral, drift, escape, unsupported, and non-capture. They do not form a second canonical Output-Class inventory.
+
+Formal mapping remains distributed: the first four use the existing `resolution_test_result` vocabulary where applicable; unsupported refinement is expressed through support, claim disposition, Failure/Stop routing, and reason; Non-Capture uses the canonical `non_capture` class and capture statement.
+
+```text
+local resolution result
+≠ source-function effect
+≠ prior claim disposition
+≠ canonical Output Class
+```
+
+Only a valid, supported, claim-complete neutral finding may route to the canonical class `resolution_neutral`.
+
+Preparation control: [Chapter 25 Preparation Record](Chapter_25_Preparation_Record.md).
+
+## Chapter 25 Provisional-Lock Output-Class Return
+
+The chapter-level method maps to `admissible_but_provisional`. Application results must separately state local resolution family, source-function effect, prior source-claim disposition, and one canonical Output Class. `gain`, `neutral`, `drift`, `escape`, `unsupported`, Decomposition Fatigue, calibration state, Stop status, and re-entry condition are not additional Output Classes; only a valid supported neutral result may map to `resolution_neutral`.
+
+## Chapter 26 Preparation Output-Class Boundary
+
+Local operation-boundary findings such as `decompose_candidate`, `project_as_candidate`, `recontextualization_only`, `dual_operation_required`, `operation_boundary_underdetermined`, or `invalid_collapse_detected` are not canonical Output Classes.
+
+A boundary finding must remain separate from:
+
+- source-function or target-function effect;
+- prior source-claim disposition;
+- canonical Output Class.
+
+Invalid collapse may create `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, or `non_capture` pressure, but no mapping is automatic.
+
+Preparation control: [Chapter 26 Preparation Record](Chapter_26_Preparation_Record.md).
+
+## Chapter 26 Provisional-Lock Output-Class Return
+
+The chapter-level method maps to `admissible_but_provisional`. Local boundary findings such as `decompose_candidate`, `project_as_candidate`, `recontextualization_only`, `dual_operation_required`, `operation_boundary_underdetermined`, and `invalid_collapse_detected` are not canonical Output Classes. Each actual operation Record receives exactly one canonical class; a dual-operation chain may therefore contain two independently classified Records.
+
+## Chapter 27 Preparation — Boundary Findings and Output Mapping
+
+Local findings such as `lower_boundary_reached`, `upper_boundary_exceeded`, Source-Ceiling status, component sensitivity, coarser-function status, and type-integrity status are not canonical Output Classes.
+
+Possible canonical pressure includes:
+
+- `resolution_neutral` where supported detail changes no warranted claim;
+- `admissible_with_bounded_claim` where a limited finer reconstruction passes;
+- `claim_reduction_required` where a weaker finding survives;
+- `mandatory_stop` where continuation would cross a local boundary or fill source gaps;
+- `failed_transformation` where source reference or relational reconstruction collapses;
+- `non_capture` where responsible rival decompositions cannot be discriminated.
+
+No mapping is automatic. Local boundary result, source-function effect, prior source-claim disposition, and canonical Output Class remain separate axes.
+
+Preparation control: [Chapter 27 Preparation Record](Chapter_27_Preparation_Record.md).
+
+## Chapter 27 Provisional-Lock Output Mapping Boundary
+
+Chapter 27 preserves the ten canonical Output Classes without adding a local class list. Lower-boundary Neutrality, upper-boundary fragmentation, Source-Ceiling pressure, Claim Reduction, Stop, Failure, and Non-Capture remain local findings or routing burdens until the complete Record warrants exactly one canonical class.
+
+Primary site: [Chapter 27 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-27-completion-boundary).
+
+## Chapter 28 Preparation — SUB Case Mapping Discipline
+
+Chapter-28 local descriptions such as admissible decomposition, source function confirmed/refined/differentiated/partially preserved/rejected, competing decompositions, unsupported decomposition, Resolution Drift, or Resolution Escape are not additional Output Classes.
+
+Mapping pressure includes:
+
+- bounded valid reconstruction → `admissible`, `admissible_with_bounded_claim`, or `admissible_but_provisional`;
+- supported no-change → `resolution_neutral`;
+- weaker surviving finding → `partially_admissible` or `claim_reduction_required`;
+- analogy without source-bound reconstruction → `analogy_only`;
+- prohibited continuation → `mandatory_stop`;
+- failed source/reference/relation/operation claim → `failed_transformation`;
+- responsible single capture unavailable → `non_capture`.
+
+No mapping is automatic. Each actual Record receives exactly one canonical class, and every separate operation occurrence is classified independently.
+
+Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Record.md).
+
+## Chapter 28 WP1 Positive Mapping Results
+
+The six positive records select exactly one canonical class each: `C28-TRAJECTORY-01` selects `admissible`; the Frame, Attractor, Asymmetry, Non-Event, and Resolution-Gain cases select `admissible_with_bounded_claim`. Source-function effect and `resolution_gain` remain separate axes and do not mechanically determine the mapping.
+
+## Chapter 28 WP2 Mapping Results
+
+WP2 selects `mandatory_stop` for Overfine and Resolution Escape, `claim_reduction_required` for Unsupported Structure and False Macro-Asymmetry, `failed_transformation` for Operator Error and Fragmentation, and `partially_admissible` for both operation-confusion cases. These mappings remain claim-specific and non-automatic.
+
+## Chapter 28 WP3 Mapping Results
+
+`C28-ANALOGY-01` maps to `analogy_only`; `C28-MODULATOR-01` maps to `claim_reduction_required`. The complete Chapter-28 set uses only canonical classes. `resolution_neutral` and `non_capture` remain available even though no standalone Chapter-28 target selects them finally.
+
+## Chapter 28 and Part II Provisional-Lock Output Discipline
+
+The sixteen Chapter-28 standalone targets select seven of the ten canonical classes: one `admissible`, five `admissible_with_bounded_claim`, one `analogy_only`, two `partially_admissible`, three `claim_reduction_required`, two `mandatory_stop`, and two `failed_transformation`.
+
+The census is descriptive, not a quota or routing rule. `admissible_but_provisional`, `resolution_neutral`, and `non_capture` remain available. The chapter- and Part-level result `admissible_but_provisional` is not a thirtieth case Record and does not overwrite individual mappings.
+
+Primary site: [Chapter 28 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-28-completion-boundary).
