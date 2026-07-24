@@ -1,20 +1,20 @@
 artifact:
   id: pms_strata_case_index
   title: PMS-STRATA Case Index
-  version: 0.1.6
-  status: provisional_part_i_locked_case_corpus_index
+  version: 0.1.10
+  status: provisional_part_i_and_part_ii_locked_case_corpus_index
   owner: 03_cases
   authority_role: navigation_and_artifact_registry_only
   independent_theory_authority: false
   formal_validation_not_substantive_validation_acknowledged: true
-  current_production_stage: Part I — PATH provisionally locked after Chapter 17 WP4 integrated audit; Chapter 18
-    Preparation is next
+  current_production_stage: Part I — PATH and Part II — SUB provisionally locked after integrated audits; Chapter 29 Preparation
+    Gate is next.
 inventory:
-  total_instantiated_cases: 13
-  positive_cases: 5
-  countercases: 5
-  confusion_cases: 3
-  lock_critical_artifacts_complete: 3
+  total_instantiated_cases: 29
+  positive_cases: 11
+  countercases: 11
+  confusion_cases: 7
+  lock_critical_artifacts_complete: 8
   chapter_17_wp1_duties_complete:
   - C17-LINEAR-01
   - C17-BRANCH-01
@@ -45,7 +45,55 @@ inventory:
   chapter_17_local_audit_status: pass
   part_i_lock_readiness: pass
   part_i_provisional_lock: provisionally_locked
-  next_controlled_step: 'Chapter 18 Preparation: The Provisionally Compressed Object'
+  next_controlled_step: Chapter 29 Preparation Gate — Functional Projection without Origin-Type Replacement
+  chapter_28_case_targets_total: 16
+  chapter_28_wp1_positive_artifacts_complete: 6
+  chapter_28_wp1_duties_complete:
+  - C28-ARCH-01
+  - C28-ARTIFACT-01
+  - C28-FRAME-01
+  - C28-ATTR-01
+  - C28-ASYM-01
+  - C28-NONEVENT-01
+  - C28-TRAJECTORY-01
+  - C28-GAIN-01
+  chapter_28_lock_critical_trajectory_artifact: complete
+  chapter_28_remaining_artifact_targets: 0
+  chapter_28_local_audit_status: pass_24_of_24
+  chapter_28_lock_readiness: pass
+  part_ii_sub_provisional_lock: provisionally_locked
+  chapter_28_wp2_countercase_artifacts_complete: 6
+  chapter_28_wp2_confusion_artifacts_instantiated: 2
+  chapter_28_wp2_duties_complete:
+  - C28-OVERFINE-01
+  - C28-UNSUPPORTED-01
+  - C28-OPTYPE-01
+  - C28-FRAGMENT-01
+  - C28-ESCAPE-01
+  - C28-FALSEMACRO-01
+  - C28-SUBRETYPE-01
+  - C28-SUBPATH-01
+  chapter_28_lock_critical_overfine_artifact: complete
+  chapter_28_mandatory_operator_error_artifact: complete
+  chapter_28_mandatory_fragmentation_artifact: complete
+  chapter_28_lock_critical_sub_retype_artifact: complete_chain_separation_and_integrated_local_audit_pass
+  chapter_28_wp3_confusion_artifacts_complete: 2
+  chapter_28_wp3_duties_complete:
+  - C28-ANALOGY-01
+  - C28-MODULATOR-01
+  - C28-LOCALAUDIT-01
+  - C28-MAPPING-01
+  - C28-LOSSALT-01
+  - C28-STOPNC-01
+  - C28-CHAIN-01
+  - C28-LOCK-01
+  chapter_28_case_targets_complete: 16
+  chapter_28_standalone_artifact_sets_complete: 16
+  chapter_28_local_audit_questions_passed: 24
+  chapter_28_provisional_lock: provisionally_locked
+  part_ii_sub_integrated_audit_controls: 24
+  part_ii_sub_integrated_audit_status: pass
+  part_ii_sub_chapters_locked: 18-28
 cases:
 - case_id: C17-ATTR-01
   title: Trajectory or Attractor?
@@ -67,8 +115,8 @@ cases:
   sha256:
     markdown: 96a91788b77f3a2288c5db087b58920e76ad5df5a9cef60e9ac680d6edfa7f66
     yaml: 87ff1c63da6fee74b7c4d4919d7cfbcbe68a8a80cc032bcb6a6c5c70a384fe45
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-BRANCH-01
   title: Branching Path
   case_class: positive_case
@@ -89,8 +137,8 @@ cases:
   sha256:
     markdown: 6de4c491108c5d3941ff107cdd794c986f98bdc6dfbbf128a01dbee15562c935
     yaml: dcde5087d6591a548e96a477b38210c565974b1314e621720cff2a77c5a75323
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-CHRON-01
   title: Chronology Presented as Path
   case_class: countercase
@@ -111,8 +159,8 @@ cases:
   sha256:
     markdown: aef353bdcd9d341bdf37eee0a9d7f25b9d7843379f106ed81729d8e25a3ba37a
     yaml: 29e1977dbc4fb212938d20fffb634dc4d9025e2c8e70fe4051cd9087048ff35b
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-FALSEL-01
   title: False Central Non-Event
   case_class: countercase
@@ -133,8 +181,8 @@ cases:
   sha256:
     markdown: 6d795c01e417c79af1659cec4225034ea8c89bbf7927fe84cf45dbce4f4d6577
     yaml: 4c58ca0811467347aecc6aae7b661335109cdf97240e065742b8750de0fbfc76
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-HISTORY-01
   title: Similar End States, Different Histories
   case_class: positive_case
@@ -155,8 +203,8 @@ cases:
   sha256:
     markdown: 1d4f8422bfc74433271bf01ebe828677ba6ed499f56cfc3831b1ffd5b9ab136c
     yaml: 9868f455d6ac26fdca86095a589e2842865d004dc3ae145087e89d98ab1759eb
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-LAMBDA-01
   title: Trajectory with a Central Non-Event
   case_class: positive_case
@@ -177,8 +225,8 @@ cases:
   sha256:
     markdown: d54308d3303a4d978637f4b359c7231f375e2db92aadc707cdc0f3382c366d24
     yaml: f62d85309d7b71f79e0f5630f6a15f674624705d7ef8defd3474acff40b6aa36
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-LINEAR-01
   title: Simple Linear Path
   case_class: positive_case
@@ -199,8 +247,8 @@ cases:
   sha256:
     markdown: 557b9cd0d510fb200b485e283c0cd78953eb4d8c064d709241d00e0274de6ca8
     yaml: 921a1eb2adfb01b8663702d9f72a073bc0640107546dda74e3638adcb6772ce8
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-MACRO-01
   title: Macro-Label without Traceable Path
   case_class: countercase
@@ -221,8 +269,8 @@ cases:
   sha256:
     markdown: 0305f8ce7c0c5e1f3b09845c92ba99ccc722e102f4cfcb6e5fbc238951216465
     yaml: 2952e9cc8e1558ca691c650ac811c961fe76406d7bbb515884333bb1118f42c8
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-OMEGA-01
   title: Composition through Omitted Asymmetry
   case_class: countercase
@@ -243,8 +291,8 @@ cases:
   sha256:
     markdown: 1f558f66a2523eeb9cfa1aa99a6e81f7e6d5631ec619dab726a43558fdd7c24f
     yaml: 04a900d4617bbebcf6701e540e3f8e71d50a60d843b14a2cd4fb384269ed7ebe
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-PROJ-01
   title: Path or Projection?
   case_class: confusion_case
@@ -265,8 +313,8 @@ cases:
   sha256:
     markdown: 2e4d880f1c46eaaacded73ec0c0159b7088c6c9290e986251adfc84557ffcf36
     yaml: 1638266a3c743c38f3a8410d3d5ce2f2edbdb85a5eba7e7bc3cf1f711f7ec316
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-RES-01
   title: Path or Resolution Drift?
   case_class: confusion_case
@@ -287,8 +335,8 @@ cases:
   sha256:
     markdown: 1b0c01b3523e21fcc6318eac98996a4eaf9f2054cb41e0352e9ef382648c358b
     yaml: b7daf8176716730c1fa2ac53438d15eb1f0c8d8994c61fa334421ea77660696f
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-TEL-01
   title: Teleological Composition
   case_class: countercase
@@ -309,8 +357,8 @@ cases:
   sha256:
     markdown: e6232c0b3a8f30d6d91f167ffd40cb28264424db69b2ffe042fff63b8a2df171
     yaml: 3d963c6b89afb5d1e27733288cec42f9709c8c123fc7ceb09b15ad3d753b3681
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
 - case_id: C17-WEAKPD-01
   title: Repeated Pattern with Weak Path Dependence
   case_class: positive_case
@@ -331,8 +379,373 @@ cases:
   sha256:
     markdown: b08a8095eb239cdad27d2114591ec0109348c77ee41a7d36f2eed03c13a21844
     yaml: e5cdca7c859bd6b050357e5144ede7b5139f7cbf4034ab6534ee99309d6e3322
-  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative,
-    application, or authority status.
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+- case_id: C28-FRAME-01
+  title: Frame-Typed Occurrence
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded decomposition of one Frame-typed occurrence into source-supported production and maintenance
+    relations
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-FRAME-01_Frame_Typed_Occurrence.md
+  yaml_artifact: 03_cases/yaml/C28-FRAME-01_Frame_Typed_Occurrence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ec61d94ab8b5a9b3b9871dcc51775ae9ec1b747462f4d25326d3dec79632ae74
+    yaml: 5f09d409716fd92789a6abcec31952dac3bf84acd02d7ca42d81e7a16c81c861
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ATTR-01
+  title: Attractor-Typed Occurrence
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded decomposition of an Attractor-typed occurrence into recurrence-maintaining relations
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ATTR-01_Attractor_Typed_Occurrence.md
+  yaml_artifact: 03_cases/yaml/C28-ATTR-01_Attractor_Typed_Occurrence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ad1199560287a6a202cdc82f18f4a23c2b0b1f1ad3c8b52131d397e63274efca
+    yaml: 47c75874610b2e49c2b9d4dddc2b6750192ec30abd31611df4f9be276939a2ee
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ASYM-01
+  title: Distributed Asymmetry
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded reconstruction of a distributed Asymmetry occurrence without single-center inflation
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ASYM-01_Distributed_Asymmetry.md
+  yaml_artifact: 03_cases/yaml/C28-ASYM-01_Distributed_Asymmetry.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 7e8af108d24fdbfd6857587f4f7060a9e6ccc2f06e436be89330ffb59b576977
+    yaml: 7cf052374cd0a709b45e82187b546d20339f3534b624d5d5cfaa9181484c2ee2
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-NONEVENT-01
+  title: Structured Non-Event
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded decomposition of a structured Non-Event through expectation, blockage, positive sub-events,
+    and later carryover
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-NONEVENT-01_Structured_Non_Event.md
+  yaml_artifact: 03_cases/yaml/C28-NONEVENT-01_Structured_Non_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 86967ae9399f6118be4c45b6d0f6d60c5f29c498df1a306a2ed95c90068d83de
+    yaml: f3122db8caa57bb60dbf8ce8b9744bc18985705c570293d8274362a8cf32e5bf
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-TRAJECTORY-01
+  title: Admissible Trajectory Decomposition
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible same-reference Trajectory decomposition with explicit subpaths, relations, residual binding, Loss,
+    and no hidden RETYPE
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+  yaml_artifact: 03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: f2dd6103885af8dadb17c2ae7526d7f2f212822200f2d7378b6801f0bf6ac1f8
+    yaml: 35b06f5cf0a26d7f6acdd9c3b98d908bca2d9292e4fe6c13d52e6847c12d50fc
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-GAIN-01
+  title: Resolution Gain
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: Resolution Gain through source-supported differentiation of access, sequencing, binding, and repair with reduction
+    of the broader authority-concentration claim
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-GAIN-01_Resolution_Gain.md
+  yaml_artifact: 03_cases/yaml/C28-GAIN-01_Resolution_Gain.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 7082f6ab9734ef8ec33dcf1192c44ee3cbb5dd9711850da77b0eb12731fa78c3
+    yaml: d999bbf21e124dd53adb5d1b3f97e4f250b98018becbee2f18d557595271c2b0
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-OVERFINE-01
+  title: Overfine Analysis below the Relevance Floor
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: supported microdetail adds no warranted Praxis difference; continuation below the Relevance Floor must stop
+    while the prior adequate reconstruction remains preserved
+  canonical_output_mapping: mandatory_stop
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-OVERFINE-01_Overfine_Analysis_below_the_Relevance_Floor.md
+  yaml_artifact: 03_cases/yaml/C28-OVERFINE-01_Overfine_Analysis_below_the_Relevance_Floor.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 5e815279223af4f0d1dcef01f544467616002a5e1cf3951fb43263895c764da8
+    yaml: 534eebf5d2b65091e048427fe3153d66d6039e6f32ed10c1807c5ba637ab26c2
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-UNSUPPORTED-01
+  title: Unsupported Internal Structure
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the hidden internal-routing reconstruction exceeds the Source Ceiling; only the recorded event field and coarse
+    order survive
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-UNSUPPORTED-01_Unsupported_Internal_Structure.md
+  yaml_artifact: 03_cases/yaml/C28-UNSUPPORTED-01_Unsupported_Internal_Structure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: a8fe9b9c3da05bd1aa29498ba101be1b79be9a0769bf7ef1ca35bf31170062fc
+    yaml: 5aa430ec7395e4134a15b289283efc46486cb98c4a8530b24d79616e2258a89e
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-OPTYPE-01
+  title: Operator Decomposition Error
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: DECOMPOSE fails because the declared source is an operator type rather than an occurrence or composite
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-OPTYPE-01_Operator_Decomposition_Error.md
+  yaml_artifact: 03_cases/yaml/C28-OPTYPE-01_Operator_Decomposition_Error.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 42d04026172d2f3a2197f586614c3a250cdb447cb69769e83772b100d8b6082d
+    yaml: 637c048280a255bb31adee9f6973b5761808df928dc77cfeca68d8d77b52b133
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-FRAGMENT-01
+  title: Fragmentation without Source Function
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the attempted decomposition fragments the source into supported items without supported relations or reconstructible
+    source-function return
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-FRAGMENT-01_Fragmentation_without_Source_Function.md
+  yaml_artifact: 03_cases/yaml/C28-FRAGMENT-01_Fragmentation_without_Source_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 87c7bb815a99d21f2d47fe216cb11bfdee6652c1bf61172160e76fb9056fee6c
+    yaml: 8202c6cca5c9fa26282a12c9d90fdc10d051d7fb45dccabfa6324098668dda9a
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ESCAPE-01
+  title: Resolution Escape
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: repeated granularity change displaces rather than answers the counterexample; the finality claim remains failed
+    and the escape route must stop
+  canonical_output_mapping: mandatory_stop
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ESCAPE-01_Resolution_Escape.md
+  yaml_artifact: 03_cases/yaml/C28-ESCAPE-01_Resolution_Escape.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: fcf84fedab86ea4d95d08e35f54d1f2795f728c202a1f31ae0a73de83c8198c5
+    yaml: 488d961693c2c7693ab6897673eca95d03d6103ae03f87db1d10b0cc2b9a07cf
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-FALSEMACRO-01
+  title: False Macro-Asymmetry
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the macro-Asymmetry claim exceeds the supported local field; local differences survive, but coordinated macrostructure
+    is not established
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-FALSEMACRO-01_False_Macro_Asymmetry.md
+  yaml_artifact: 03_cases/yaml/C28-FALSEMACRO-01_False_Macro_Asymmetry.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 224fdddc1ff307df472d9b1ddcec5c912bee0658098d1f44dcdd61566492b355
+    yaml: 4e157c74de9d94215bf2b699ba655bd943509d92c46cce2b9c833d19ebdbea41
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-SUBRETYPE-01
+  title: SUB or RETYPE?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the internal Trajectory reconstruction is retained, while the audit-training calibration function is separated
+    and not validated in this DECOMPOSE record
+  canonical_output_mapping: partially_admissible
+  artifact_status: instantiated_schema_validated_locally_audited_and_lock_critical_chain_closed
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-SUBRETYPE-01_SUB_or_RETYPE.md
+  yaml_artifact: 03_cases/yaml/C28-SUBRETYPE-01_SUB_or_RETYPE.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 3389026f826b9c823f6047c01717d80f1aab3a8ba28db878c72743c61709efd4
+    yaml: 23e09b0adad615044b78bf233d5da99e1169391051386d5c17231fa9565920e0
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-SUBPATH-01
+  title: SUB or New PATH?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the same-source subpath reconstruction is retained, while the candidate independent sequence is separated
+    for a future COMPOSE claim rather than absorbed into SUB
+  canonical_output_mapping: partially_admissible
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-SUBPATH-01_SUB_or_New_PATH.md
+  yaml_artifact: 03_cases/yaml/C28-SUBPATH-01_SUB_or_New_PATH.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e654884be0b6153235d0c7549f19f0d2db9e9325bda25a1290087e4e30679405
+    yaml: c7499990e769246a7305f53cc240566b11643b03e55980c7803d16b4a1fd3036
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ANALOGY-01
+  title: Decomposition or Analogy?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the foreign-domain comparison preserves a bounded gating resemblance but does not establish source-bound decomposition;
+    the stronger identity claim is withdrawn and the result maps to analogy_only
+  canonical_output_mapping: analogy_only
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ANALOGY-01_Decomposition_or_Analogy.md
+  yaml_artifact: 03_cases/yaml/C28-ANALOGY-01_Decomposition_or_Analogy.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 16d521df798f48de6e1ae57c86d8d240bbea03b6b3e37fb30cb6ed5e07be6f05
+    yaml: cfe0544090e2cde59ee48bfdad59dc553d1f5923695e5e80c7d4c7507464bded
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-MODULATOR-01
+  title: Modulator or New Operator?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the recurrent profile is reconstructed as a bounded modulator of existing operator-typed occurrences; the
+    stronger claim that it constitutes a new operator is withdrawn
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-MODULATOR-01_Modulator_or_New_Operator.md
+  yaml_artifact: 03_cases/yaml/C28-MODULATOR-01_Modulator_or_New_Operator.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: a10c5973cca06a09fd04a5d104cf9bf6c092dac6cfe8c197c5257879cdbfe36c
+    yaml: 391551ee38f137737f7e181ded8cbb922eac0baaa0dca4a66ed1d4115d3543fe
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
 governance:
   case_success_not_global_validation: true
   case_completeness_not_substantive_truth: true
