@@ -2831,3 +2831,653 @@ All case sources are synthetic declarations unless separately stated. Artifact c
 
 Primary artifact registry: [Case Index](../03_cases/Case_Index.md).  
 Primary lock site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).
+
+## Chapter 29 Preparation Evidence Route
+
+A functional-projection claim requires separate support for:
+
+- source-object identity and origin type;
+- historical and constitutive source load;
+- target-context identity, roles, level, and duration;
+- the proposed target-function difference;
+- the source-to-context functional relation;
+- bounded Counterfactual Sensitivity;
+- competing present structures and no-projection alternatives;
+- validity scope, Claim Ceiling, Loss, Stop, and Non-Capture.
+
+```text
+source cited
+≠ source functionally constitutive
+
+target label useful
+≠ target function warranted
+```
+
+A model or Reader may expose recorded evidence but may not infer target-function truth from graph position, frequency, similarity, or interface use.
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 WP1 Evidence Routing
+
+WP1 keeps evidence and declarations separate for:
+
+- source-object identity and source Record;
+- origin type and source reference;
+- prior source disposition, uncertainty, and inherited Loss;
+- target-context identity, target scene or object, relative level, and analytical purpose;
+- the proposed target-side praxis difference;
+- the same-source no-additional-function contrast.
+
+```text
+source evidence available
+≠ target function carried
+
+target context declared
+≠ functional continuity established
+```
+
+WP1 identifies candidate source load but does not yet decide which features are constitutive. Graph position, narrative usefulness, similarity, frequency, repeated citation, interface prominence, or model completeness cannot establish the target function.
+
+Primary site: [Chapter 29 WP1](../01_blocks/04_part_iii_retype.md#chapter-29-functional-projection-without-origin-type-replacement).
+
+## Chapter 29 WP2 Evidence Routing
+
+WP2 distinguishes evidence roles without deciding empirical truth:
+
+- source identity and formation records support Source Object Integrity;
+- source-supported historical relations identify load-bearing candidates;
+- target-context records support scene, role, duration, and current-structure declarations;
+- bounded source variants test claim sensitivity rather than counterfactual truth;
+- same-source context contrast tests function necessity in the target scene;
+- canonical Loss records preserve unavailable, compressed, excluded, uncertain, and irrecoverable source information.
+
+The formal model may validate that these evidence roles are declared. It may not decide which feature is actually load-bearing, whether a counterfactual is true, whether causality is established, or whether the final projection succeeds.
+
+Primary site: [Chapter 29 WP2](../01_blocks/04_part_iii_retype.md#29-6-source-object-integrity).
+
+## Chapter 29 WP3 Evidence Burden
+
+A projection-without-replacement packet must preserve evidence routes for the source object's formation, any separate decomposition, source heterogeneity, prior Loss and dispositions, the declared target context, and the claimed target-side difference. Evidence that only changes interpretation or presentation supports Recontextualization or display use, not `PROJECT_AS` by itself.
+
+Separate evidence routes are required for:
+
+- formation of a source composite under `COMPOSE`;
+- internal source trace under `DECOMPOSE`;
+- bounded target-function effect under `PROJECT_AS`;
+- any re-entry under changed context, function, source typing, or scope.
+
+Primary site: [Chapter 29 WP3](../01_blocks/04_part_iii_retype.md#29-9-projection-without-replacement).
+
+## Chapter 29 Lock and Chapter 30 Evidence Burden
+
+Chapter 29’s lock is supported by Contract coverage, twenty-four exact Pressure Duties, Reference/Formal-Model synchronization, and package checks. Those controls support the method lock only; they do not support a concrete target function.
+
+A Chapter-30 `PROJECT_AS` occurrence requires distinct evidence roles:
+
+- source-basis evidence for the source object and origin type;
+- source pointers for load-bearing and modulating features;
+- target-context evidence for the claimed praxis difference;
+- counterfactual support for bounded source dependence;
+- evidence for validity scope, alternatives, and no-projection pressure;
+- Loss and uncertainty disclosure.
+
+```text
+file/hash/schema/package evidence
+≠ semantic target-function warrant
+```
+
+## Chapter 30 WP1 Evidence Burden
+
+WP1 requires a source route before projection testing:
+
+| Evidence position | Required visibility | Boundary |
+|---|---|---|
+| source object | independent reconstruction | may not be defined by the target label |
+| source reference | record, case, historical, or documentary identity | repeated label is insufficient |
+| source coordinates | Frame, granularity, level, temporal scope | relative, not ontological |
+| source basis | materials and prior records | citation volume is not Constitutive Source Trace |
+| prior status | disposition and uncertainty | may not be upgraded by RETYPE entry |
+| inherited Loss | exact five canonical fields | may not be reset or recovered rhetorically |
+
+Constitutive Source Trace and Counterfactual Sensitivity remain WP2 burdens. WP1 establishes only that a credible test route must exist.
+
+Primary site: [§30.4 Source Declaration](../01_blocks/04_part_iii_retype.md#30-4-source-declaration).
+
+## Chapter 30 WP2 Evidence Route
+
+WP2 distinguishes evidence location from functional trace:
+
+```text
+source pointer
+→ where material can be inspected
+
+Constitutive Source Trace
+→ how a specific source relation is proposed to change a named target-side praxis dimension
+```
+
+The evidence packet must retain source identity, feature role, target-side difference, rival pressure, uncertainty, and a route by which material source change could weaken or defeat the claim. Counterfactual variants may be documented, observed, or boundedly hypothetical; unavailable variation remains underdetermined or not testable rather than being converted into support.
+
+No evidence route alone selects a sensitivity descriptor or canonical Output Class.
+
+## Chapter 30 WP3 Evidence and Warrant Routing
+
+Validity Scope requires evidence for the declared target interval, roles, relations, and affected praxis dimensions. Transfer requires new evidence and a new operation occurrence. Visibility choices do not upgrade evidence. Loss declarations must preserve unavailable, uncertain, excluded, compressed, and irrecoverable source conditions.
+
+Alternatives require enough source and target support to compare rival functions and no-projection without inventing complete counterfactual histories. Formal Record completion may prove declaration presence, not substantive source load, target-function truth, causality, or parsimony.
+
+Primary sites: [Validity Scope](../01_blocks/04_part_iii_retype.md#30-9-validity-scope), [Alternatives](../01_blocks/04_part_iii_retype.md#30-11-alternative-projections-and-no-projection), and [Record](../01_blocks/04_part_iii_retype.md#30-13-project-as-record).
+
+\n## Chapter 31 Historical-Load Evidence Route\n\nA trajectory-to-frame-function claim requires an already warranted source Trajectory, source pointers to sedimented expectations/roles/costs/exclusions/bindings/residues, present-target evidence, and a bounded counterfactual frame test. “History matters,” chronology, citation density, or retrospective narrative do not substitute for Constitutive Source Trace.\n\nNo test, case, or smoke YAML is produced during the Block phase. Family case records remain deferred.\n\nPrimary site: [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Chapter 31 WP1 Evidence Separation
+
+| Evidence layer | Primary burden | Prohibited substitution |
+|---|---|---|
+| source-period evidence | warrant the Trajectory, sequence, and candidate load carriers | target fit cannot manufacture the source object |
+| target-period evidence | warrant the later configuration, present conditions, and framed dimensions | source validity does not establish target function |
+| later retrospective evidence | support later interpretation or bounded reconstruction with explicit marking | later narrative does not silently replace either period |
+
+Evidence may overlap in source material but must remain claim-typed by use. Historical Load and Constitutive Source Trace remain WP2 burdens.
+
+Primary site: [§31.2 Source Object](../01_blocks/04_part_iii_retype.md#31-2-source-object).
+
+
+## Chapter 31 WP2 Evidence Route
+
+Historical-Load evidence must connect four separately inspectable positions:
+
+1. a source feature already warranted inside Trajectory `X`;
+2. a supported persistence, transmission, institutionalization, or reactivation route;
+3. a named target-period difference in `Y` or `Z`;
+4. present and rival-source evidence capable of weakening, replacing, or leaving the relation unresolved.
+
+Evidence for the source object does not automatically support the target function. Later retrospective evidence must remain marked and may corroborate or reconstruct a relation, but it cannot silently substitute for source-period or target-period evidence.
+
+Load-bearing and modulating carrier assignments require source pointers and defeat conditions. Qualitative relative-load statements require comparative evidence; they do not authorize causal shares or scores.
+
+Primary site: [Chapter 31 §§31.5–31.7](../01_blocks/04_part_iii_retype.md#31-5-historical-load).
+
+
+## Chapter 31 WP3 Evidence Route
+
+A frame-function claim requires separately inspectable evidence for:
+
+1. the PATH-established source Trajectory;
+2. the proposed historical carrier;
+3. persistence, transmission, institutionalization, or reactivation;
+4. the bounded target difference;
+5. present and rival frame sources;
+6. carrier, source, context, and rival-source variation;
+7. temporal status of source-period, target-period, and later retrospective evidence.
+
+Archive size, citation density, salience, continuity of names, target fit, and retrospective coherence are insufficient substitutes. Different histories producing indistinguishable later scenes may require Claim Reduction, provisionality, or Non-Capture rather than a forced source-specific function.
+
+Primary site: [Chapter 31 WP3](../01_blocks/04_part_iii_retype.md#31-8-rhetorical-history-versus-frame-function).
+
+## Chapter 31 Lock and Chapter 32 Preparation — Evidence Burden
+
+The Macro-Event family requires separate evidence roles:
+
+| Evidence role | Burden |
+|---|---|
+| source-Trajectory support | independently warranted internal duration, sequence, phases, reversals, heterogeneity, prior disposition, and Loss |
+| boundary support | start, end, constitutive phases, turning points, and adjacent-development relation not derived solely from a later label |
+| target-Frame support | wider Path, target time scope, granularity, level, roles, and before/after relation |
+| transition-function support | concrete change in possibilities, path segmentation, or bounded transition structure |
+| compression support | source details remain traceable despite target-level unit treatment |
+| counterfactual support | phase, boundary, source, target, and alternative-source variation can pressure the claim |
+
+A large archive or familiar period name may support historical relevance while leaving boundary or target-function warrant absent. Later retrospective periodization must be marked and cannot silently replace source- or target-period support.
+
+Primary site: [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md).
+
+
+## Chapter 32 WP1 Evidence Routing
+
+| Evidence layer | Supports | Must not silently substitute for |
+|---|---|---|
+| source-Trajectory evidence | phases, transitions, branches, internal turning points, PATH boundary | Macro-Event function |
+| projection-boundary evidence | relevance of the tested start/end scope to the target claim | source-object validity or target gain |
+| target-Path evidence | wider before/after configurations and adjacent developments | causal monopoly |
+| later retrospective evidence | candidate names, rival periodizations, later interpretations | source-period or target-period support |
+| formal declaration | field presence and inventory consistency | historical correctness or transition truth |
+
+Primary sites: [§32.3](../01_blocks/04_part_iii_retype.md#32-3-target-frame) and [§32.4](../01_blocks/04_part_iii_retype.md#32-4-boundary-selection).
+
+## Chapter 32 WP2 Evidence Routing
+
+| Evidence layer | Supports | Cannot by itself establish |
+|---|---|---|
+| source-period sequence evidence | duration, phase relations, turning points, delays | Macro-Event function |
+| role/cost/asymmetry evidence | internal heterogeneity and bounded effects | homogeneous transition |
+| target before/after evidence | candidate event-function difference | causal sufficiency |
+| later retrospective evidence | rival naming and periodization | original phase order or boundary truth |
+| formal Loss declaration | disclosure completeness | substantive trace preservation |
+
+Primary site: [§§32.5–32.7](../01_blocks/04_part_iii_retype.md#32-5-internal-duration).
+
+
+## Chapter 32 WP3 Evidence Return
+
+| Evidence burden | Required support | Insufficient substitute |
+|---|---|---|
+| punctualization pressure | constitutive source structure shown lost or falsely collapsed | one target node or date alone |
+| operation-chain separation | prior `COMPOSE` record plus independent `PROJECT_AS` record | one merged narrative |
+| phase variation | source-supported removal, reversal, delay, or replacement pressure | invented alternative history |
+| boundary variation | serious rival start/end candidates and changed trace/Loss/function | preferred period label |
+| alternative source | separately warranted narrower or different object | silent relabeling of `M` |
+| same-source target contrast | fixed `M` tested in `B` and `C` | different source intervals per target |
+| failed projection | missing or contradicted indispensable function warrant | source prominence or low readability |
+
+Primary site: [Counterfactual Macro-Event Test](../01_blocks/04_part_iii_retype.md#32-10-counterfactual-macro-event-test).
+
+## Chapter 33 Evidence Separation
+
+Evidence must remain separated across:
+
+1. each source Trajectory and its prior PATH warrant;
+2. trajectory selection and comparison coordinates;
+3. constitutive versus variable recurrence;
+4. source-traceable reproduction or later-path influence;
+5. target-context difference in `D` or `E`;
+6. sampling, survivorship, missing, failed, truncated, and divergent trajectories;
+7. later retrospective pattern narratives.
+
+```text
+source-Trajectory evidence
+≠ comparability evidence
+≠ recurrent-form evidence
+≠ mechanism evidence
+≠ target attractor-function evidence
+```
+
+Later recurrence may test the candidate form but may not retroactively select the source trajectories or constitutive phases.
+
+Primary site: [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md).
+
+
+## Chapter 33 WP1 Evidence Route
+
+| Evidence burden | WP1 requirement | Still open |
+|---|---|---|
+| source-Trajectory evidence | independent PATH references for each source object | substantive source-record quality remains case-bound |
+| source-selection evidence | trajectories selected before target-result adjudication | sampling and survivorship audit remains WP3 |
+| comparability evidence | Frame, granularity, role, time, evidence, transition, and operator-weighting relations declared | substantive comparability/incomparability result remains open |
+| recurrent-form evidence | candidate discriminating cross-trajectory relation declared | constitutive phases and allowable variation remain WP2 |
+| target evidence | `D/E` contexts and eligible continuation dimensions declared | later-path work and mechanism remain WP2 |
+| threshold evidence | non-count threshold architecture declared | threshold not substantively crossed |
+
+Citation density, shared vocabulary, visual alignment, recurrence count, and later target fit do not substitute for the relevant evidence layer.
+
+Primary site: [§33.2 Single Trajectory versus Recurrent Form](../01_blocks/04_part_iii_retype.md#33-2-single-trajectory-versus-recurrent-form).
+
+## Chapter 33 WP2 Evidence Route
+
+| Evidence burden | Required material | Insufficient substitute |
+|---|---|---|
+| constitutive repetition | source records supporting relation, order, roles, Non-Events, costs, variation, and break conditions | shared label or repeated vocabulary |
+| reproduction/path influence | temporally directed persistence, transmission, institutionalization, or reactivation trace | simultaneous resemblance or later narrative |
+| Attractor Load | target-period evidence of changed friction, expectation, accessibility, role, repair/exit, alternative cost, continuation, or visibility | recurrence count or source salience |
+| dynamic/static distinction | separate transition-form and state-stabilization traces | generic “attractor” label |
+| scope | target context, roles, level, time, granularity, praxis dimensions, rivals, uncertainty | universalized pattern statement |
+
+Primary site: [Chapter 33 WP2](../01_blocks/04_part_iii_retype.md#33-5-constitutive-repetition).
+
+## Chapter 33 WP3 Evidence Route
+
+| Evidence burden | Required material | Insufficient substitute |
+|---|---|---|
+| target-blind source formation | independently warranted Trajectories, predeclared inclusion/exclusion, comparison coordinates, known source revisions | later target fit or narrative motif |
+| selection and missingness | accessible source field, dependence, duplication, survivorship, interrupted/opposite/missing Trajectories, directional uncertainty | large documented count |
+| pattern elasticity | explicit incompatible cases, opposite sequences, break conditions, narrowing/splitting consequences | label expansion after counterexamples |
+| counterfactual pressure | source-constrained phase/frame/role/cost/source/comparison/mechanism/target variation | imagined unconstrained alternatives or causal assertion |
+| rival comparison | common Frame, present condition, independent regeneration, multiple forms, static-only, descriptive motif, no stable source | attractor label treated as default |
+| failure routing | located source, mechanism, target-work, type, scope, Loss, or source-ceiling failure | global rejection of all source histories |
+
+Primary site: [Chapter 33 WP3](../01_blocks/04_part_iii_retype.md#33-8-recurrent-form-versus-retrospective-similarity).
+
+## Chapter 33 Lock and Chapter 34 Evidence Burden
+
+Chapter 34 requires distinct evidence for:
+
+1. each local occurrence;
+2. component boundaries and relation topology;
+3. source-composite identity;
+4. target context and target praxis difference;
+5. substitution, smaller-subset, contradiction, rival-Frame, and present-condition pressure;
+6. exact Loss, uncertainty, Stop, and Non-Capture.
+
+Evidence for component presence is not evidence for relational functional formation.
+
+## Chapter 34 WP1 Evidence Routing
+
+| Evidence layer | Supports | Must not silently substitute for |
+|---|---|---|
+| component evidence | local occurrence identity and source typing | relation or composite warrant |
+| relation evidence | coordination, reinforcement, dependency, sequence, countervailing structure | target function |
+| target-period evidence | access, exclusion, expectation, cost, role, corridor, binding, or alternative difference | source-composite validity |
+| expectation evidence | Non-Event Frame and expected window | missing information or retrospective disappointment |
+| present-condition and rival-Frame evidence | competing explanation of target field | automatic source invalidation |
+| formal declaration | field presence and inventory integrity | substantive functional formation or emergence |
+
+Primary sites: [§34.1](../01_blocks/04_part_iii_retype.md#34-1-basic-claim) and [§§34.2–34.4](../01_blocks/04_part_iii_retype.md#34-2-local-differences-as-higher-level-boundary-function).
+
+## Chapter 34 WP2 Evidence Routing
+
+| Evidence burden | Supports | Does not establish alone |
+|---|---|---|
+| commitment records and practice | local commitment occurrence | higher-level binding-function |
+| continuity, succession, repair, breach, and exit evidence | binding relation and target consequences | legitimacy or enforceability |
+| local integration and residual-conflict evidence | integration occurrences and partiality | global coherence |
+| coordination, dependency, sequence, translation, and shared-effect evidence | relation topology | emergent function truth |
+| removal, replacement, redundancy, and subset evidence | component-role pressure | causal percentage or permanent role |
+| countervailing and incompatible evidence | weakening, redirection, split, Stop, Failure, or Non-Capture | automatic destruction of source composite |
+
+Primary sites: [§34.5](../01_blocks/04_part_iii_retype.md#34-5-repeated-commitments-as-higher-level-psi-function) through [§34.7](../01_blocks/04_part_iii_retype.md#34-7-emergent-function).
+
+## Chapter 34 WP3 Evidence Return
+
+| Evidence position | Supports | Does not alone support |
+|---|---|---|
+| component inventory | descriptive aggregation | functional formation |
+| relation trace | candidate coordination or distributed load | target function truth |
+| target praxis difference | target-function burden | causality or authority |
+| subset and boundary comparison | source-scope calibration | unique correct composite |
+| rival-Frame analysis | frame sensitivity | final Frame selection automatically |
+| counterfactual variation | sensitivity classification | causal necessity or sufficiency |
+| schema and smoke results | formal consistency | empirical emergence or macrofunction truth |
+
+Primary sites: [§§34.8–34.11](../01_blocks/04_part_iii_retype.md#34-8-aggregation-versus-functional-formation).
+
+## Chapter 34 Lock and Chapter 35 Evidence Burden
+
+Chapter 35 requires distinct evidence for:
+
+1. each operator occurrence and its canonical dependencies;
+2. qualitative weighting criteria, role scope, time window, and relation map;
+3. each declared modulator and its contextual effect;
+4. profile stability and variation;
+5. target-context praxis difference for any projection;
+6. rival profile, no-profile, present-condition, and no-projection alternatives;
+7. exact Loss, uncertainty, Stop, Non-Capture, and Claim Ceiling.
+
+Symbol frequency, label recurrence, visual prominence, model centrality, or add-on vocabulary are not weighting evidence by themselves.
+
+## Chapter 35 WP1 Evidence Routing
+
+| Evidence layer | Supports | Must not silently substitute for |
+|---|---|---|
+| operator-occurrence evidence | source occurrence identity and typing | weighting or profile |
+| relation evidence | support, opposition, sequence, access, persistence, threshold relation | causality or dependency change |
+| role/phase evidence | bounded variation in relative load | aggregate person/group type |
+| contextual-condition evidence | modulator candidate and relation path | operator identity or effect by label |
+| target-period evidence | later access, cost, exit, revision, or continuation difference | source weighting validity |
+| rival and missingness evidence | calibration and Non-Capture pressure | automatic source invalidation |
+| formal declaration and smoke results | artifact consistency | substantive weighting, modulation, or prediction truth |
+
+Primary sites: [§35.1](../01_blocks/04_part_iii_retype.md#35-1-purpose) through [§35.4](../01_blocks/04_part_iii_retype.md#35-4-modulator).
+
+## Chapter 35 WP2 Evidence Routing
+
+| Evidence layer | Supports | Must not silently substitute for |
+|---|---|---|
+| occurrence and relation evidence | profile topology | target function or causal mechanism |
+| role/phase evidence | bounded stability and variation | aggregate person/group type |
+| temporal evidence | transition accessibility, Λ-centrality, persistence, sedimentation, continuation differences | probability or teleology |
+| modulator variation evidence | removal, substitution, reversal, redundancy, changed access | causality by label |
+| rival-profile evidence | calibration, narrower relations, inert profile, no stable profile | automatic failure of source occurrences |
+| target evidence | later-praxis difference in `K/L` | source-profile selection |
+| smoke/schema evidence | artifact consistency | substantive profile or projection truth |
+
+Primary sites: [§35.6](../01_blocks/04_part_iii_retype.md#35-6-from-weighting-to-trajectory-form) and [§35.7](../01_blocks/04_part_iii_retype.md#35-7-emergent-functional-profile).
+
+## Chapter 35 WP3 Evidence Routing
+
+Profile projection requires separate evidence for source occurrences, relation topology, qualitative weighting, modulators, bounded stability, target placement, concrete target difference, target-condition isolation, Counterfactual Sensitivity, and exact Loss.
+
+Evidence for a compact label, symbol frequency, clustering output, add-on vocabulary, or later outcome cannot substitute for these warrants. Missing or inseparable evidence must remain uncertain, reduced, stopped, failed, or non-captured rather than typed onto persons or groups.
+
+## Chapter 35 Lock and Chapter 36 Evidence Routing
+
+Projection comparison requires candidate-specific evidence for source load, target context, target difference, Counterfactual Sensitivity, and exact Loss. A shared source label is insufficient where candidates use different periods, subsets, Frames, or evidential bases.
+
+Evidence for breadth, elegance, model completeness, label familiarity, or institutional use cannot establish comparative superiority. Missing common comparison bases must remain uncertain, non-comparable, stopped, or non-captured.
+
+## Chapter 36 WP1 Evidence Routing
+
+Projection comparison requires:
+
+- one stable source reference with retained disposition, uncertainty, and inherited Loss;
+- candidate-specific declarations of load-bearing source subsets;
+- target context, level, object, function, Claim Scope, validity scope, temporal scope, and affected praxis dimensions;
+- evidence capable of distinguishing non-exclusive from overlapping target work;
+- live alternative functions, contexts, narrower claims, source-only accounts, no-projection, and Non-Capture.
+
+Evidence for breadth, elegance, label familiarity, schema completeness, or joint readability does not establish compatibility, competition, preference, or integration.
+
+## Chapter 36 WP2 Evidence Routing
+
+Comparative preference requires candidate-specific evidence for:
+
+- positive target-level praxis difference;
+- relevant countercase rejection;
+- response to material source/subset changes;
+- present-target-condition isolation;
+- exact five-part Loss;
+- added assumptions and exclusions;
+- justified common comparison basis.
+
+Evidence for breadth, elegance, popularity, formal completeness, label familiarity, or corpus coverage cannot establish comparative superiority. Missing common bases route to uncertainty, underdetermination, non-comparability, Stop, or Non-Capture rather than invented scoring.
+
+## Chapter 36 WP3 Evidence Routing
+
+Non-translation requires evidence that transfer between candidates would materially change target coordinates, Claim Scope, Constitutive Source Trace, affected praxis dimensions, countercase boundaries, or exact Loss. Contradiction requires same-claim affirmation and denial under compatible scope and evidence; semantic distance is insufficient.
+
+The Projection Comparison Record must reference separate candidate evidence, candidate-specific Loss, source/target variation, target-condition isolation, serious alternatives, no-projection, Stop, and Non-Capture. Evidence for formal completeness, vocabulary familiarity, institutional uptake, political desirability, or theory prestige cannot establish comparative superiority or tribunal authority.
+
+## Chapter 36 Lock and Chapter 37 Evidence Routing
+
+Cross-domain projection and analogy must keep separate evidence for source identity, mapping subset, target context, formal correspondence, semantic role, residuals, target-only features, Counterfactual Sensitivity, exact Loss, and alternative/no-projection accounts. Compilation, simulation, execution, or translation success is implementation evidence only and cannot substitute for semantic warrant.
+
+## Chapter 37 WP1 Evidence Routing
+
+A functional projection requires separate evidence for source identity, candidate mapping subset, target context, target function, PraxisPurchase, Constitutive Source Trace, material source/target sensitivity, exact Loss, alternatives, and Claim Ceiling.
+
+A structural analogy requires evidence only for its declared correspondence and bounded usefulness, together with source-only residuals, target-only features, incompatibilities, uncertainty, and counterexamples. Formal isomorphism, compilation, execution, simulation, visual fit, or vocabulary familiarity cannot substitute for semantic-preservation evidence.
+
+Evidence routing for the stable packets remains unresolved:
+
+```text
+S source evidence
+→ retained independently
+
+M formal mapping evidence
+→ does not yet establish semantic preservation or target function
+
+L recurrence and label familiarity
+→ does not yet establish analogy or projection
+```
+
+Primary site: [Chapter 37 WP1](../01_blocks/04_part_iii_retype.md#37-1-why-the-distinction-matters).
+
+## Chapter 37 WP2 Evidence Routing
+
+Symbolic evidence supports notation correspondence. Formal evidence supports declared relation preservation. Executable evidence supports target-side implementation consistency. None substitutes for domain-grounded evidence of comparable praxeological role or bounded target function.
+
+A terminal or partial analogy requires evidence for the exact preserved relation plus source-only residuals, target-only structure, incompatibilities, uncertainty, countercases, and Claim Ceiling. Label-substitution analysis requires comparison against ordinary domain descriptions, label removal, material source/target variation, exact Loss, and serious rivals.
+
+```text
+compile or simulation evidence
+→ executable-status support only
+
+relation-preservation evidence
+→ analogy support possible
+
+semantic-role and target-function evidence
+→ separately required
+```
+
+Primary site: [Chapter 37 WP2](../01_blocks/04_part_iii_retype.md#37-5-symbolic-formal-and-executable-mapping).
+
+## Chapter 37 WP3 Evidence Routing
+
+Analogy-drift analysis requires the earliest bounded claim, every later scope or semantic increase, retained residuals, and new warrant for each transition. Translation-breadth evidence must distinguish symbol, relation, execution, compression, and bidirectional-rendering coverage from semantic-role evidence.
+
+The integrated stress test routes evidence separately for source identity, mapping subset, target coordinates, correspondence level, comparable praxeological role, source-only and target-only residuals, countercases, reverse mapping, label sensitivity, no-projection, and Non-Capture. Implementation evidence cannot substitute for semantic evidence; passed formal validation cannot establish substantive mapping truth.
+
+Primary site: [Chapter 37 WP3](../01_blocks/04_part_iii_retype.md#37-9-analogy-drift).
+
+## Chapter 37 Lock and Chapter 38 Evidence Routing
+
+Invalidity evidence must identify the exact original claim, source type, target function, context, Frame, level, granularity, temporal scope, evidence-transfer path, exact Loss, and prior disposition. A changed context or level requires a new evidence packet; it cannot inherit the failed claim's warrant.
+
+Metaphor classification requires evidence of intended claim form. Person-level error analysis requires only the prohibited attribution structure, not diagnosis or motive evidence. Primitive-inflation analysis compares the local target-function claim against the unchanged operation and Δ–Ψ inventories.
+
+Preparation site: [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#6-scientific-pressure-and-counterfactual-architecture).
+
+## Chapter 38 WP1 Evidence Routing
+
+Invalid-type-jump analysis requires the warranted source type, source reference, dependencies, prior disposition, and the exact statement that allegedly replaces them. Missing-context analysis requires explicit absence or instability of target context, object, level, Frame, granularity, temporal scope, function, and Claim Scope.
+
+Metaphor/formal-claim analysis requires evidence of intended claim form. Where intention or operational use remains genuinely ambiguous, the evidence supports interpretive review or Non-Capture rather than invented formalization. Completing coordinates supplies a new claim packet; it does not validate the earlier incomplete claim.
+
+Primary site: [Chapter 38 WP1](../01_blocks/04_part_iii_retype.md#38-1-invalid-type-jump).
+
+## Chapter 38 WP2 Evidence Routing
+
+Cross-level claims require evidence at each relevant level plus evidence for the declared relation. Multi-granular claims require resolution-specific evidence and a traceable reconstruction, aggregation, decomposition, or projection bridge. Fine evidence does not self-promote into macrofunction evidence.
+
+Post-failure projections require the preserved earlier disposition and a new evidence packet for the new target claim. Person-related statements require separate person-level evidence and may not inherit configuration-level function. Primitive claims cannot inherit authority from local empirical success, model validity, or repeated use.
+
+```text
+local evidence + undeclared bridge
+≠ configuration-function evidence
+
+new target evidence
+≠ original failure erased
+
+configuration evidence
+≠ person essence evidence
+```
+
+Primary site: [Chapter 38 WP2](../01_blocks/04_part_iii_retype.md#38-5-unmarked-level-mixing).
+
+## Chapter 38 WP3 Evidence Routing
+
+Scope extension requires evidence for each added coordinate and the relation carrying the target function into it. Temporal claims require formation-, phase-, interruption-, persistence-, dissolution-, and observation-window evidence rather than duration alone. Projection Loss requires evidence for what is preserved, compressed, excluded, uncertain, and irrecoverable plus explicit visibility change.
+
+```text
+one bounded case + similarity
+≠ class-wide evidence
+
+current persistence
+≠ pre-formation or future evidence
+
+complete target representation
+≠ complete source preservation evidence
+```
+
+The Invalid Projection Record preserves original claim evidence, separately valid source material, prior failed dispositions, and the evidential burden of any reduced or new claim.
+
+Primary site: [Chapter 38 WP3](../01_blocks/04_part_iii_retype.md#38-10-scope-inflation).
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-evidence-sync"></a>
+
+## Chapter 39 Prepared Evidence Burdens
+
+| Evidence burden | Required support | Insufficient substitute |
+|---|---|---|
+| Functional Gain | target-side change in corridors, expectations, costs, interpretation, coordination, or continuation | new label or clearer prose |
+| Constitutive Source Trace | source features, dependencies, relation path, and material source sensitivity | citation, historical mention, or target fit |
+| Context Boundary | explicit target coordinates and bounded validity | generic domain resemblance |
+| Counterfactual Sensitivity | material and irrelevant source variation, target conditions, rivals, and countercases | narrative plausibility |
+| Analogy Boundary | preserved relation plus semantic and functional residuals | formal or executable mapping alone |
+| Elasticity | stable failure conditions under opposite source and objection pressure | repeated relabeling or narrowing |
+| Stop / Non-Capture | exact trigger, retained valid material, and route distinction | uncertainty alone |
+
+<a id="chapter-39-wp1-evidence-sync"></a>
+
+## Chapter 39 WP1 Evidence and Warrant Route
+
+Lower-boundary warrant requires evidence of a concrete target-side difference relative to source-only and ordinary-domain rivals. Upper-boundary warrant requires constitutive source load rather than citation, historical mention, thematic resemblance, or retrospective target fit.
+
+The `W/A–D` packets remain unadjudicated; WP1 records burdens and evidence locations only.
+
+Primary site: [§§39.1–39.4](../01_blocks/04_part_iii_retype.md#39-1-lower-retype-boundary).
+
+<a id="chapter-39-wp2-evidence-sync"></a>
+
+## Chapter 39 WP2 Evidence and Warrant Route
+
+A retained projection requires evidence for constitutive source features and relations, a reconstructible dependency path, complete target coordinates, and differentiated counterfactual response. Citation, narrative coherence, thematic similarity, or target fit may support context but cannot substitute for constitutive source load.
+
+Opposite-source and source-removal pressure must use source-supported contrasts or explicitly bounded hypothetical variation; unsupported imaginary histories cannot be treated as evidence.
+
+Primary site: [§39.8](../01_blocks/04_part_iii_retype.md#39-8-counterfactual-projection-test).
+
+<a id="chapter-39-wp3-evidence-sync"></a>
+
+## Chapter 39 WP3 Evidence Route
+
+Alternatives require candidate-specific evidence and Loss. Elasticity requires a documented sequence of claim changes. Stop requires evidence that continuation depends on a prohibited move. Non-Capture must identify the unavailable discriminant and retained valid material.
+
+<a id="chapter-39-lock-and-chapter-40-preparation-evidence-sync"></a>
+
+## Chapter 39 Lock / Chapter 40 Evidence Burden
+
+Chapter 40 case evidence must separate:
+
+- source evidence and source reference;
+- constitutive versus modulating source features;
+- target-context evidence;
+- Counterfactual Sensitivity and countercases;
+- exact Loss and alternatives;
+- local audit result and canonical output mapping;
+- actual artifact existence from planned artifact obligations.
+
+Existing smoke tests show formal routing behavior only. They do not establish the substantive warrant of Chapter-40 cases.
+
+## Chapter 40 WP1 Evidence and Artifact Status
+
+`P1–P7` currently possess canonical family prose only. Their synthetic source/target packets are method-demonstration structures, not empirical evidence records. No standalone Markdown case, YAML `PROJECT_AS` Record, Local Audit result, or canonical mapping record was produced. Existing smoke examples validate formal routing behavior only and do not discharge Chapter-40 evidence obligations.
+
+<a id="chapter-40-wp2-evidence-sync"></a>
+
+## Chapter 40 WP2 Evidence and Artifact Status
+
+`N1–N7` possess canonical Layer-1 family prose only. The packets expose the evidence burdens for source identity, target coordinates, Source Trace, semantic preservation, relation topology, failure continuity, and person/configuration separation.
+
+No countercase has an executed Local Audit, standalone Markdown case, YAML `PROJECT_AS` record, canonical mapping record, or selected Output Class. Existing smoke fixtures demonstrate formal route behavior only; they do not prove the substantive countercase claims.
+
+<a id="chapter-40-wp3-evidence-sync"></a>
+
+## Chapter 40 WP3 Evidence and Artifact Status
+
+`X1–X6` possess canonical Layer-1 family prose only. Their packets identify the evidence required to distinguish source reconstruction, composite formation, Frame change, recurrent stabilizing load, contextual modulation, semantic preservation, and target function.
+
+No confusion case has an instantiated standalone Markdown case, operation YAML record, Local Audit record, canonical mapping record, or selected Output Class. Existing smoke fixtures validate formal routing behavior only and do not prove a confusion-case result.
+
+
+## Chapter 40 Lock Evidence and Chapter 41 Input Status
+
+Evidence actually present for Chapter 40:
+
+- complete canonical Layer-1 packets for 20 families;
+- 24/24 Pressure Duties;
+- all 32 Local Audit questions represented;
+- canonical mapping matrix and closing boundaries;
+- unchanged existing schemas, 37 Records, and eight Smoke fixtures;
+- exact artifact-gap declaration.
+
+Evidence not present:
+
+- three lock-critical standalone Markdown cases;
+- corresponding YAML `PROJECT_AS` Records;
+- case-specific Local Audit results;
+- case-specific canonical mappings.
+
+The first set supports `admissible_with_bounded_claim` for method architecture. The second absence supports `mandatory_stop` for the artifact-complete lock claim. Chapter 41 inherits both dispositions without inferring missing evidence.

@@ -2239,3 +2239,499 @@ The sixteen Chapter-28 standalone targets select seven of the ten canonical clas
 The census is descriptive, not a quota or routing rule. `admissible_but_provisional`, `resolution_neutral`, and `non_capture` remain available. The chapter- and Part-level result `admissible_but_provisional` is not a thirtieth case Record and does not overwrite individual mappings.
 
 Primary site: [Chapter 28 completion boundary](../01_blocks/03_part_ii_sub.md#chapter-28-completion-boundary).
+
+## Chapter 29 Preparation — Projection Result and Output Mapping Discipline
+
+Local Chapter-29 descriptions such as target function supported, bounded, absent, elastic, source-insensitive, context-underdetermined, origin-type replacement detected, or recontextualization-only are not additional Output Classes.
+
+Potential mapping pressure remains within the ten canonical classes and is never automatic. In particular:
+
+- bounded source-traceable function may support `admissible`, `admissible_with_bounded_claim`, or `admissible_but_provisional`;
+- resemblance only may support `analogy_only`;
+- a weaker surviving contextual claim may support `partially_admissible` or `claim_reduction_required`;
+- prohibited replacement, unbounded transfer, or authority inheritance may require `mandatory_stop`;
+- absent constitutive source/context/function conditions may support `failed_transformation`;
+- unresolved rival functions may support `non_capture`.
+
+Chapter 30 owns the full operation-level result architecture.
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 Lock and Chapter 30 Preparation Output Discipline
+
+Chapter 29’s chapter-level methodological result is `admissible_but_provisional`. It is not a concrete projection mapping and does not classify the `documented_trajectory_X` anchor.
+
+Chapter 30 must record a local `PROJECT_AS` result separately from exactly one canonical Output Class for an executed delimited claim. Terms such as `admissible projection`, `narrow projection`, `competing projections`, `provisional projection`, `label substitution`, `invalid type jump`, or `no-projection` remain local descriptions or failure findings. They do not expand the ten-class inventory.
+
+Preparation control: [Chapter 30 Preparation Record](Chapter_30_Preparation_Record.md).
+
+## Chapter 30 WP1 Output-Class Boundary
+
+WP1 selects no canonical Output Class. It establishes operation entry only.
+
+Entry-condition problems may later support completion, Claim Reduction, Mandatory Stop, analogy-only as a separate retained claim, Failure, or Non-Capture depending on the delimited claim and full audit. No missing field, local phrase, source-status label, or precondition finding automatically determines a class.
+
+```text
+chapter_30_wp1_complete_chapter_open
+≠ eleventh Output Class
+≠ concrete PROJECT_AS result
+```
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#30-4-source-declaration).
+
+## Chapter 30 WP2 Output Boundary
+
+WP2 selects no canonical Output Class. The local sensitivity descriptions
+
+```text
+strongly sensitive
+partially sensitive
+weakly sensitive
+insensitive
+underdetermined
+not testable
+```
+
+are not members of the canonical ten-class inventory and do not map automatically. Full scope, Loss, alternatives, local operation result, and route assessment remain pending in WP3.
+
+## Chapter 30 WP3 — PROJECT_AS Output Mapping Discipline
+
+Local projection findings remain open and must map, where an executed claim permits selection, to exactly one of the ten canonical classes. `admissible projection`, `narrow projection`, `competing projections`, `no-projection`, `label substitution`, and `invalid type jump` are not additional classes.
+
+No-projection may create `resolution_neutral`, `failed_transformation`, `claim_reduction_required`, or another route depending on the complete claim; it is not mechanically mapped. Label substitution and invalid type jump are failure findings or route pressure, not Output Classes.
+
+Primary site: [Chapter 30 §30.12](../01_blocks/04_part_iii_retype.md#30-12-projection-results).
+
+\n## Chapter 30 Provisional-Lock Output Discipline and Chapter 31 Preparation\n\nChapter 30’s chapter-level methodological result is `admissible_but_provisional`. It does not classify the unexecuted trajectory pressure object. Chapter 31 local findings such as bounded frame-function, background relevance, present-frame sufficiency, rhetorical-history failure, competing projections, or no-projection remain local descriptions and must not expand or automatically select the ten canonical Output Classes.\n\nPrimary sites: [Chapter 30 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-30-completion-boundary) and [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Chapter 31 WP1 Output-Class Boundary
+
+WP1 selects no canonical Output Class for `Y` or `Z`. It declares a family packet only. Local phrases such as `frame-function candidate`, `historical background`, `present-frame sufficiency`, or `no distinct frame-function` do not expand the ten-class inventory and do not automatically map to one class.
+
+```text
+Chapter 31 WP1 complete, chapter open
+≠ eleventh Output Class
+≠ successful PROJECT_AS occurrence
+```
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-31-wp1-completion-boundary).
+
+
+## Chapter 31 WP2 Local Findings and Canonical Classes
+
+The following are open family-level descriptions, not canonical Output Classes:
+
+```text
+load-bearing historical contribution
+materially contributory but insufficient
+modulating contribution
+background relevance only
+displaced or superseded contribution
+relative load unresolved
+```
+
+WP2 selects none of them as a final local result for `Y` or `Z` and maps no canonical class. A later executed and delimited claim must still map to exactly one of the ten canonical Output Classes after the complete audit.
+
+Primary site: [Chapter 31 WP2](../01_blocks/04_part_iii_retype.md#31-7-multiple-frame-sources).
+
+
+## Chapter 31 WP3 Local Findings and Canonical Mapping Boundary
+
+Local descriptions such as `rhetorical-history failure`, `counterfactually insensitive`, `background relevance only`, `present-frame account sufficient`, `competing frame projections`, `no-projection`, and `failed frame projection` are not new Output Classes.
+
+An executed delimited claim may map to one canonical class only after the complete audit. `failed frame projection` may support `failed_transformation`, but the mapping is not automatic; a narrower remainder may require `claim_reduction_required`, unresolved discrimination may require `non_capture`, and prohibited continuation may require `mandatory_stop`.
+
+No anchor class is selected in WP3.
+
+Primary sites: [Competing Frame Projections](../01_blocks/04_part_iii_retype.md#31-10-competing-frame-projections) and [Failed Frame Projection](../01_blocks/04_part_iii_retype.md#31-11-failed-frame-projection).
+
+## Chapter 31 Lock and Chapter 32 Preparation — Output Discipline
+
+Chapter 31 receives the chapter-level class `admissible_but_provisional`; the class does not map the unexecuted `X/Y/Z` pressure object.
+
+Macro-Event-family descriptions such as `bounded macro-event function supported`, `descriptive period compression only`, `boundary-sensitive projection`, `narrower source preferred`, `punctualization failure`, or `no-projection` remain local findings. They do not expand the ten canonical Output Classes and require claim-specific mapping only after an executed complete audit.
+
+Primary sites: [Chapter 31 WP4 Record](Chapter_31_Preparation_Record.md#17-wp4-execution-and-provisional-lock-record) and [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md).
+
+
+## Chapter 32 WP1 Output Boundary
+
+WP1 introduces no new Output Class. Local descriptions such as `Macro-Event function candidate`, `boundary-sensitive candidate`, `period compression only`, or `no distinct Macro-Event function possible` remain operation-specific descriptions until one executed claim completes the full audit and maps to exactly one canonical class.
+
+```text
+family declaration complete
+≠ local PROJECT_AS result selected
+≠ canonical Output Class selected
+```
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-wp1-completion-boundary).
+
+## Chapter 32 WP2 Output Boundary
+
+WP2 introduces no new Output Class. `descriptive period compression`, `duration-preserving candidate`, `heterogeneity-limited candidate`, `transition-bearing function candidate`, and `no-projection` remain local descriptions until WP3 and the full audit support one canonical mapping.
+
+```text
+preservation architecture declared
+≠ local operation result
+≠ canonical Output Class
+```
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-wp2-completion-boundary).
+
+
+## Chapter 32 WP3 Local Findings and Canonical Mapping Boundary
+
+`punctualization error`, `operation-chain contamination`, `boundary-sensitive candidate`, `alternative source preferred`, `descriptive period compression`, `background relevance`, `no-projection`, and `failed Macro-Event projection` are local findings, not new Output Classes.
+
+An executed occurrence maps to exactly one of the existing ten classes only after the complete audit. Punctualization may require Claim Reduction or Mandatory Stop; unsupported function may yield `failed_transformation`; unresolved periodization or source choice may yield `admissible_but_provisional` or `non_capture`. No anchor class is selected in WP3.
+
+Primary site: [Failed Macro-Event Projection](../01_blocks/04_part_iii_retype.md#32-11-failed-macro-event-projection).
+
+## Chapter 32 Lock and Chapter 33 Preparation — Local Results versus Canonical Classes
+
+Chapter 32's chapter-level family method is `admissible_but_provisional`. This does not classify the unexecuted `M/B/C` occurrence.
+
+Chapter 33 local descriptions such as `dynamic attractor-function supported`, `static-function-only`, `retrospective similarity only`, `common-frame account preferred`, `descriptive motif`, or `no-projection` are not new Output Classes. An executed delimited claim must map to exactly one of the existing ten classes after the complete audit.
+
+```text
+family-method lock result
+≠ occurrence result
+≠ canonical class automatically selected for anchor
+```
+
+Primary sites: [Chapter 32 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-completion-boundary) and [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md).
+
+
+## Chapter 33 WP1 Output Discipline
+
+WP1 declares a family and threshold packet but selects no local result and no canonical Output Class. Local descriptions such as `provisional recurrent form`, `dynamic attractor-function candidate`, `incomparable source trajectories`, `descriptive motif only`, or `no-projection` are not new classes.
+
+Any later executed occurrence must map non-automatically to exactly one of the ten canonical Output Classes after source formation, mechanism, later-path work, counterfactual pressure, Loss, Stop, and Non-Capture are audited.
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-33-wp1-completion-boundary).
+
+## Chapter 33 WP2 Output Boundary
+
+WP2 introduces no new Output Class. `constitutive-repetition candidate`, `mechanism-required`, `Attractor-Load candidate`, `dynamic-function candidate`, `static-function candidate`, `background recurrence`, and `no distinct later-path effect` remain local descriptions until WP3 and the complete audit support one canonical mapping.
+
+```text
+recurrence/load architecture complete
+≠ local operation result
+≠ canonical Output Class
+```
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-33-wp2-completion-boundary).
+
+## Chapter 33 WP3 Output-Mapping Return
+
+Chapter 33 WP3 introduces no new Output Class. Descriptive motif, background recurrence, present-condition account, independent regeneration, multiple recurrent forms, static-only function, and no stable source are local findings or rival accounts.
+
+After complete audit, a family occurrence may map to one existing canonical class, including `admissible_but_provisional`, `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, or `non_capture`. The unadjudicated `R/D/E` pressure object has no selected class.
+
+Primary site: [§33.10 Failed Attractor Projection](../01_blocks/04_part_iii_retype.md#33-10-failed-attractor-projection).
+
+## Chapter 33 Lock and Chapter 34 Output Boundary
+
+Chapter 33 maps its chapter-level family method to `admissible_but_provisional`; the `R/D/E` occurrence remains unclassified. Chapter 34 introduces no new Output Class for boundary-function, attractor-function, asymmetry-function, binding-function, integration-function, aggregation-only, smaller-subset, frame-artifact, or no-projection findings.
+
+## Chapter 34 WP1 Output Boundary
+
+WP1 introduces no new Output Class. `higher-level function candidate`, `boundary-function candidate`, `repeated-Non-Event attractor-function candidate`, `asymmetry/access-function candidate`, `descriptive aggregation`, `background structure`, and `no distinct higher-level function possible` remain local descriptions until an executed occurrence completes the audit and maps to one canonical class.
+
+```text
+family packet complete
+≠ functional formation result
+≠ local PROJECT_AS result
+≠ canonical Output Class
+```
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-34-wp1-completion-boundary).
+
+## Chapter 34 WP2 Output Boundary
+
+WP2 introduces no Output Class. `binding-function candidate`, `integration-function candidate`, `source-traceable emergent-function candidate`, `constitutive`, `modulating`, `redundant`, `substitutable`, `countervailing`, `background`, `uncertain`, `incompatible`, `smaller subset`, and `split function` are local analytical descriptions. Only a completed audit of an executed claim may map to one of the ten canonical classes.
+
+No class is selected for `Q/H/I`.
+
+## Chapter 34 WP3 Output Boundary
+
+`descriptive aggregation only`, `functional-formation candidate`, `threshold not crossed`, `smaller subset preferred`, `frame-selection artifact`, `background composite relevance`, and `no-projection` remain local descriptions, not new Output Classes.
+
+An executed claim may map only to one of the ten canonical classes. Chapter 34 WP3 keeps `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, and `non_capture` distinct and selects no class for `Q/H/I`.
+
+## Chapter 34 Lock and Chapter 35 Output Boundary
+
+Chapter 34 maps its chapter-level family method to `admissible_but_provisional`; `Q/H/I` remains unclassified. Chapter 35 introduces no Output Class for weighting candidate, modulator identified, profile candidate, descriptively stable profile, functionally inert profile, alternative profile, no stable profile, or no-projection.
+
+## Chapter 35 WP1 Output Boundary
+
+WP1 introduces no new Output Class. `weighting candidate`, `prominent occurrence relation`, `modulator candidate`, `weighting-and-modulation packet`, `descriptive profile candidate`, and `no distinct profile function possible` remain local descriptions until an executed delimited claim completes the full audit and maps to exactly one canonical class.
+
+```text
+WP1 packet complete
+≠ profile-formation result
+≠ PROJECT_AS result
+≠ canonical Output Class
+```
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-35-wp1-completion-boundary).
+
+## Chapter 35 WP2 Output Boundary
+
+WP2 introduces no new Output Class. `stable within window`, `phase-bounded`, `role-differentiated`, `intermittent`, `reversing`, `descriptive profile`, `functionally inert profile`, `alternative profile`, and `no stable profile` remain local descriptions until a delimited executed claim completes the full audit and maps to exactly one canonical class.
+
+```text
+profile-formation grammar complete
+≠ profile result selected
+≠ PROJECT_AS result
+≠ canonical Output Class
+```
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-35-wp2-completion-boundary).
+
+## Chapter 35 WP3 Output Boundary
+
+WP3 introduces no new Output Class. `descriptive profile`, `functionally inert profile`, `alternative profile preferred`, `no stable profile`, `no-projection`, `profile inflation`, and localized failure descriptions must map—only after an executed full audit—to one of the ten canonical classes.
+
+`claim_reduction_required`, `mandatory_stop`, `failed_transformation`, and `non_capture` remain distinct routes and are not selected for the unexecuted `P/K/L` pressure object.
+
+## Chapter 35 Lock and Chapter 36 Output Boundary
+
+Chapter 35 maps its chapter-level family method to `admissible_but_provisional`; `P/K/L` remains unclassified. Chapter 36 introduces no classes for `compatible`, `co-valid`, `context-dependent`, `competing`, `partially preferred`, `underdetermined`, `non-comparable`, `non-translatable`, or `no-projection preferred`. Executed claims map only to the ten canonical Output Classes.
+
+## Chapter 36 WP1 Output Discipline
+
+`compatible`, `competing`, `co-valid`, `context-dependent`, `preferred`, and `non-comparable` remain local comparison descriptions, not Output Classes. WP1 selects no local comparison result and maps no pressure-scene claim.
+
+Only after a complete candidate-specific and comparative audit may a delimited claim map to one of the ten canonical classes. No-projection may preserve a valid source reconstruction; unresolved comparison may later require `non_capture` rather than an invented preference.
+
+## Chapter 36 WP2 Output Discipline
+
+`co-valid`, `context-dependent`, `partially preferred`, `underdetermined`, `non-comparable`, and `no-projection preferred` remain local comparison descriptions. They do not extend the closed ten-class inventory.
+
+No canonical class is selected for `A/B`, `F/G`, or any Chapter-36 pressure-scene claim in WP2. Mapping occurs only after a complete executed audit.
+
+## Chapter 36 WP3 Output Discipline
+
+`non-translatable`, `partially translatable`, `contradictory`, `non-comparable`, `comparison unsupported`, and `comparison segmented` remain local comparison descriptions. They do not extend the closed ten-class inventory.
+
+After a complete executed audit, each delimited candidate or comparison claim maps separately to one canonical class. Comparison-level `non_capture` does not erase candidate-specific findings; `mandatory_stop` applies where translation, common metrics, integration, ranking, or tribunal logic would have to be invented.
+
+No canonical class is selected for `A/B`, `F/G`, or any Chapter-36 pressure-scene claim in WP3.
+
+## Chapter 36 Lock and Chapter 37 Output Boundary
+
+Chapter 36 maps its comparison method to `admissible_but_provisional`; `A/B` and `F/G` remain unclassified. Chapter 37 preserves `analogy_only` as a legitimate terminal canonical class where structured similarity is useful but semantic preservation or target function is unestablished. Claim Reduction, Mandatory Stop, Failure, and Non-Capture remain separate routes.
+
+## Chapter 37 WP1 Output Boundary
+
+WP1 introduces no new Output Class and selects none for `M` or `L`. `valid functional projection candidate`, `structural analogy candidate`, `formal correspondence`, `semantic preservation unestablished`, `target function unestablished`, and `substitution pressure` are local descriptions only.
+
+```text
+mapping-entry status
+≠ canonical Output Class
+
+analogy candidate
+≠ analogy_only selected
+
+substitution pressure
+≠ failed_transformation selected
+```
+
+After a complete executed audit, delimited claims may map only to the existing ten classes, including `analogy_only`, `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, and `non_capture` where warranted.
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-37-wp1-completion-boundary).
+
+## Chapter 37 WP2 Output Boundary
+
+`analogy_only` is preserved as a legitimate terminal canonical class after a complete audit. WP2 does not select it for `M`. Symbolic-only, formal-only, executable-only, partial analogy, substitution pressure, and no-projection are local mapping descriptions rather than additional Output Classes.
+
+```text
+analogy status warranted
+≠ analogy_only automatically selected before full audit
+
+substitution marker present
+≠ failed_transformation automatically selected
+```
+
+Claim Reduction, Mandatory Stop, Failure, and Non-Capture remain distinct routes. No class is selected for `M` or `L`.
+
+Primary site: [§37.6](../01_blocks/04_part_iii_retype.md#37-6-analogy-as-a-legitimate-terminal-status).
+
+## Chapter 37 WP3 Output Discipline
+
+A useful bounded analogy without warranted target function may map to the existing `analogy_only` class after complete audit. A narrower surviving resemblance may require `claim_reduction_required`; prohibited source erasure, type jump, primitive creation, or authority inheritance may require `mandatory_stop`; an executed delimited claim may yield `failed_transformation`; unavailable responsible semantic comparison may yield `non_capture`.
+
+These routes remain distinct. No class is selected for `M` or `L` in WP3, and no eleventh mapping class is created.
+
+Primary site: [§37.12](../01_blocks/04_part_iii_retype.md#37-12-output-failure-non-capture-and-authority-boundaries).
+
+## Chapter 37 Lock and Chapter 38 Error-Code Boundary
+
+Chapter 37 is provisionally locked with method-level `admissible_but_provisional`; no class is selected for `M` or `L`. Chapter-38 terms such as `invalid_type_jump`, `unmarked_level_mixing`, `scope_inflation`, or `projection_rescue` remain local findings, not new Output Classes.
+
+After complete audit, narrower survival may map to `claim_reduction_required`; prohibited continuation may require `mandatory_stop`; an executed invalid projection may yield `failed_transformation`; unresolved claim form may yield `non_capture`.
+
+Preparation site: [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#8-result-and-output-discipline).
+
+## Chapter 38 WP1 Output Boundary
+
+`invalid_type_jump`, `origin_function_collapse`, `missing_target_context`, and `metaphor_formal_claim_confusion` are local findings, not Output Classes. A complete claim-level audit must still distinguish `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, and `non_capture`.
+
+```text
+local error trigger
+≠ canonical Output Class
+
+missing context
+≠ failed_transformation automatically
+
+bounded metaphor
+≠ analogy_only automatically
+```
+
+Primary site: [§38.4](../01_blocks/04_part_iii_retype.md#38-4-metaphorical-projection).
+
+## Chapter 38 WP2 Output Boundary
+
+`unmarked_level_mixing`, `unmarked_granularity_mixing`, `projection_rescue`, `person_level_type_jump`, and `new_primitive_by_projection` are local error findings, not additional Output Classes. Their presence does not preselect a canonical route.
+
+A narrower explicit relation may retain `claim_reduction_required`; serial relocation, person typing, primitive creation, or source erasure may create `mandatory_stop` pressure; an executed bounded claim may yield `failed_transformation`; unavailable responsible classification may yield `non_capture`. These remain distinct, and none is selected for `T3–T7` in WP2.
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-38-wp2-completion-boundary).
+
+## Chapter 38 WP3 Output Boundary
+
+`scope_inflation`, `temporal_flattening`, and `projection_without_loss` are local error findings, not Output Classes. The same finding may support different canonical routes depending on whether a narrower claim survives, continuation requires a prohibited move, a delimited projection fails, or responsible adjudication is unavailable.
+
+```text
+local error location
+≠ canonical route automatically
+
+claim_reduction_required
+≠ mandatory_stop
+≠ failed_transformation
+≠ non_capture
+```
+
+No route or Output Class is selected for the valid baseline or `T1–T8` in WP3.
+
+Primary site: [§38.13](../01_blocks/04_part_iii_retype.md#38-13-invalid-projection-record).
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-output-sync"></a>
+
+## Chapter 39 Local-Boundary Output Routing
+
+Chapter 39 introduces no Output Class. Local findings such as `below_lower_retype_boundary`, `source_trace_insufficient`, `context_boundary_failure`, or `projection_overelastic` identify claim position only.
+
+After complete audit, existing classes remain available under their canonical meanings: `admissible`, `admissible_with_bounded_claim`, `admissible_but_provisional`, `analogy_only`, `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, and `non_capture`, with `partially_admissible` and `resolution_neutral` retained where their existing conditions apply.
+
+```text
+local boundary finding
+≠ automatic canonical class
+```
+
+<a id="chapter-39-wp1-output-sync"></a>
+
+## Chapter 39 WP1 Output Boundary
+
+Lower- and upper-boundary findings are diagnostic and do not automatically select a canonical Output Class. Renaming, source-only sufficiency, missing Functional Gain, and insufficient Source Trace remain claim-local findings until the complete RETYPE gate is executed.
+
+```text
+below lower boundary ≠ automatic failed_transformation
+above upper boundary ≠ automatic mandatory_stop
+```
+
+Primary site: [§39.4](../01_blocks/04_part_iii_retype.md#39-4-upper-retype-boundary).
+
+<a id="chapter-39-wp2-output-sync"></a>
+
+## Chapter 39 WP2 Output Boundary
+
+Trace, Type, Context, Sensitivity, and Loss findings remain local gate results. Source-removal invariance, opposite-source invariance, or missing context does not automatically select Failure, Stop, Claim Reduction, Non-Capture, or another canonical class.
+
+```text
+local gate failure
+≠ canonical Output Class automatically
+```
+
+Primary site: [§39.8](../01_blocks/04_part_iii_retype.md#39-8-counterfactual-projection-test).
+
+<a id="chapter-39-wp3-output-sync"></a>
+
+## Chapter 39 WP3 Terminal Route Boundary
+
+Admissibility, bounded/provisional results, `analogy_only`, `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, and `non_capture` remain distinct. Local boundary findings are not new Output Classes.
+
+<a id="chapter-39-lock-and-chapter-40-preparation-output-sync"></a>
+
+## Chapter 39 Lock / Chapter 40 Output Discipline
+
+Chapter 39 closes the local gate without selecting an Output Class for `W/A–F`. Chapter 40 may map only executed, delimited case claims to the ten canonical classes after the Local Audit.
+
+```text
+case-family label
+≠ Output Class
+
+expected route
+≠ selected route
+
+artifact missing
+≠ admissible_but_provisional automatically
+```
+
+`analogy_only`, `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, and `non_capture` remain separately reachable. Chapter 40 creates no case-specific eleventh class.
+
+## Chapter 40 WP1 Output Discipline
+
+No `P1–P7` packet receives a canonical Output Class in WP1. Positive polarity, complete fields, family-method coherence, or a plausible target function do not imply `admissible`. Mapping remains deferred until an instantiated case passes the thirty-two-point Local Audit. Compatible or competing candidate pairs may not be assigned one undifferentiated class.
+
+<a id="chapter-40-wp2-output-sync"></a>
+
+## Chapter 40 WP2 Countercase Routing Boundary
+
+Chapter 40 WP2 selects no Output Class for `N1–N7`. Countercase-family status is a test polarity, not a canonical result.
+
+Possible later mappings remain claim-specific:
+
+- `claim_reduction_required` for an independently warranted narrower claim;
+- `mandatory_stop` where continuation requires prohibited invention, type/person jump, failure erasure, or authority inflation;
+- `failed_transformation` for an adequately specified executed claim that fails its conditions;
+- `analogy_only` for a useful bounded correspondence without warranted function;
+- `non_capture` where responsible adjudication is unavailable without invention.
+
+```text
+local defect ≠ universal negative route
+```
+
+<a id="chapter-40-wp3-output-sync"></a>
+
+## Chapter 40 WP3 Output Discipline
+
+No `X1–X6` packet receives a canonical Output Class in WP3. Confusion resolution may later preserve two valid records, select a narrower claim, end at `analogy_only`, require Stop, produce Failure, or return Non-Capture under their distinct burdens. Operation or claim-form classification is not itself a new Output Class.
+
+All twenty Chapter-40 families remain unadjudicated pending the Local Audit and actual artifact review.
+
+
+## Chapter 40 Segmented Closure Mapping
+
+Chapter 40 maps two delimited chapter-level claims without selecting any case-family result:
+
+| Delimited claim | Canonical class | Meaning |
+|---|---|---|
+| canonical Layer-1 case architecture and audit readiness | `admissible_with_bounded_claim` | the retained claim is materially narrower than artifact-complete Chapter-40 completion |
+| artifact-complete Chapter-40 and RETYPE lock | `mandatory_stop` | continuation would require inventing or substituting missing lock-critical artifacts |
+
+```text
+chapter-level method mapping
+≠ case-level mapping
+
+artifact Stop
+≠ failed_transformation
+≠ non_capture
+```
+
+The Stop remains re-enterable only through actual production and audit of the required artifacts. Chapter 41 must preserve this prior disposition.

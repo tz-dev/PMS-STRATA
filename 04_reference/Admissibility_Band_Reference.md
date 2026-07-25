@@ -2692,3 +2692,650 @@ The Chapters-18–28 lock confirms the local `DECOMPOSE` application of the Admi
 Stop, Claim Reduction, Failure, and Non-Capture remain distinct positive control outcomes.
 
 Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).
+
+## Chapter 29 Preparation — RETYPE Entry within the Admissibility Band
+
+A Chapter-29 projection candidate enters the existing Band only after source identity, origin type, target context, target function, Functional Continuity, validity scope, Claim Ceiling, Loss, and alternatives are declared.
+
+```text
+source relevance without target-context difference
+→ below RETYPE relevance burden
+
+target label without source-traceable functional load
+→ above RETYPE traceability burden
+```
+
+Chapter 29 creates no new Band. It prepares the bounded functional-projection claim while preserving Failure, Claim Reduction, Mandatory Stop, Non-Capture, and a legitimate no-projection result.
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 WP2 — RETYPE Continuity and Boundedness Application
+
+WP2 applies existing Admissibility-Band burdens without adding a Rule:
+
+```text
+Source Object Integrity
++ load-bearing Source Trace
++ Functional Continuity
++ Contextual Boundedness
++ complete Loss
++ Claim Ceiling
+```
+
+The conjunction is non-compensatory. A narrow scope cannot rescue absent source load; a strong source trace cannot authorize cross-context transfer; formal completeness cannot establish the function. Opposite source structures with an invariant target label trigger TraceableLoad and claim-reduction/failure pressure.
+
+Primary site: [Chapter 29 WP2](../01_blocks/04_part_iii_retype.md#29-7-functional-continuity).
+
+## Chapter 29 WP3 Admissibility Boundary
+
+WP3 adds no new admissibility Rule. It consolidates the existing non-compensatory checks for projection without replacement:
+
+- prior PATH, SUB, source typing, source heterogeneity, dispositions, and Loss remain traceable;
+- changed legibility alone remains Recontextualization;
+- formation and decomposition pressure are routed to separate `COMPOSE` and `DECOMPOSE` occurrences;
+- source integrity, target-function effect, prior disposition, and canonical mapping remain separate;
+- Failure, Mandatory Stop, Claim Reduction, analogy-only, no-projection, and Non-Capture remain available and non-equivalent;
+- re-entry creates a new testable claim and never erases an earlier failed, reduced, stopped, or non-captured result.
+
+Primary site: [Chapter 29 WP3 completion boundary](../01_blocks/04_part_iii_retype.md#29-13-retype-versus-decompose).
+
+## Chapter 29 Lock and Chapter 30 PROJECT_AS Preparation
+
+Chapter 29 passes its conceptual lock audit under `admissible_but_provisional`. Chapter 30 prepares operation-level application of the existing Admissibility Band.
+
+For `PROJECT_AS`, the lower-bound pressure is a function label that adds no warranted target-context difference. The upper-bound pressure is a function that cannot be traced to constitutive source load or survives materially opposite source structures unchanged. Neither pressure is compensated by formal completeness, citation density, visual clarity, or target-label usefulness.
+
+Mandatory operation burdens include Source Object Integrity, Functional Continuity, Counterfactual Sensitivity, Contextual Boundedness, exact five-part Loss, alternatives including no-projection, Claim Ceiling, Stop, and Non-Capture.
+
+Preparation control: [Chapter 30 Preparation Record](Chapter_30_Preparation_Record.md).
+
+## Chapter 30 WP1 — PROJECT_AS Entry within the Admissibility Band
+
+WP1 places `PROJECT_AS` entry under non-compensatory control before target-side testing begins. An identifiable source object, visible origin type, bounded coordinates, sufficient source basis, expected praxis difference, retained prior disposition, uncertainty, and inherited Loss are conjunctive entry burdens.
+
+```text
+persuasive target label + missing source reference
+≠ admissible operation entry
+
+complete formal declaration
+≠ target-function warrant
+```
+
+The Relevance Floor is not passed merely because a candidate function can be named. The Traceability Ceiling is already pressured when source identity, origin type, source basis, or inherited Loss cannot remain visible. WP1 selects no canonical result and executes no projection.
+
+Primary site: [Chapter 30 §§30.1–30.4](../01_blocks/04_part_iii_retype.md#chapter-30-project-as-signature-context-and-validity-scope).
+
+## Chapter 30 WP2 — Target-Side Trace and Sensitivity within the Band
+
+WP2 applies the existing Band to the declared target relation:
+
+```text
+specific target context and expected praxis difference
++ constitutive source trace
++ bounded Counterfactual Sensitivity
+→ testable PROJECT_AS packet
+```
+
+A named function without additional target-side difference falls below the Relevance Floor. A function label without load-bearing source trace, or one that remains unchanged under materially opposite source structures, exceeds the Traceability Ceiling. Citation density, label usefulness, target-level elevation, and formal completeness do not compensate.
+
+Sensitivity descriptions remain local, open, non-scored, and non-canonical. They do not prove causality or select an Output Class.
+
+Primary site: [Chapter 30 §§30.5–30.8](../01_blocks/04_part_iii_retype.md#30-5-target-declaration).
+
+## Chapter 30 WP3 — Scope, Loss, Alternatives, and Result Boundary
+
+WP3 completes the generic `PROJECT_AS` admissibility envelope without adding a Rule. Validity Scope limits context, time, level, granularity, roles, praxis dimensions, transfer, re-entry, and Claim Ceiling. Projection visibility remains separate from the exact five-part Loss contract. Rival functions, no-projection, relevant other-operation routes, analogy, Stop, and Non-Capture remain live.
+
+```text
+foregrounded/backgrounded visibility
+≠ canonical Loss
+
+local PROJECT_AS result
+≠ prior disposition
+≠ canonical Output Class
+```
+
+Only the ten canonical classes may be selected for an executed claim after full routing. Chapter 30 WP3 selects none for the unexecuted pressure object.
+
+Primary site: [Chapter 30 §§30.9–30.13](../01_blocks/04_part_iii_retype.md#30-9-validity-scope).
+
+\n## Chapter 30 Lock and Chapter 31 Frame-Function Pressure\n\nThe generic `PROJECT_AS` method lies within the Admissibility Band only as a bounded procedure. Chapter 31 must test whether historical-load distinctions have target-context purchase and whether the frame-function remains traceable to the source Trajectory. Rhetorical history falls below the Relevance Floor or above the Traceability Ceiling when it changes no warranted target reconstruction or cannot be tied to constitutive source features.\n\n```text\nhistorical detail without target difference → no additional purchase\nframe label without constitutive historical load → no traceable projection\n```\n\nPrimary sites: [Chapter 30 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-30-completion-boundary) and [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Chapter 31 WP1 — Frame-Function Family Entry within the Admissibility Band
+
+WP1 admits no frame-function merely because a prior Trajectory is well documented. The source object must be independently warranted, the later target configuration and present conditions must be explicit, and the proposed function must name a concrete target reconstruction difference while preserving the same-source no-function contrast.
+
+```text
+historical salience
+≠ praxeological target work
+
+family packet declared
+≠ frame-function admissible
+```
+
+Historical Load, multiple-frame-source comparison, Counterfactual Sensitivity, Loss assessment, and result selection remain pending. No formal completeness or narrative coherence compensates for missing target discrimination.
+
+Primary site: [Chapter 31 §§31.1–31.4](../01_blocks/04_part_iii_retype.md#chapter-31-trajectory-as-frame-function).
+
+
+## Chapter 31 WP2 — Historical Load within the Admissibility Band
+
+A trajectory-to-frame-function claim lies within the Admissibility Band only where a concrete source feature performs inspectable target-context work after present conditions and rival frame sources remain visible. Duration, historical importance, citation density, narrative coherence, or source-object warrant do not by themselves cross the Relevance Floor.
+
+```text
+source-supported carrier + bounded target difference
+→ candidate Historical Load
+
+history label without source-to-target work
+→ no additional PraxisPurchase or no TraceableLoad
+```
+
+The upper boundary is exceeded where every source feature is treated as load-bearing, the same function survives contrary source variation, or the Trajectory is assigned causal monopoly. Relative load remains qualitative and source-bound; scoring cannot compensate for unresolved warrant.
+
+Primary site: [Chapter 31 §§31.5–31.7](../01_blocks/04_part_iii_retype.md#31-5-historical-load).
+
+
+## Chapter 31 WP3 — Frame-Function Discrimination within the Admissibility Band
+
+**Below the Relevance Floor:** historical labels, citation accumulation, or narrative continuity add no discriminating target difference.
+
+**Within the Band:** an independently warranted Trajectory, source-to-target trace, bounded target difference, carrier/context sensitivity, present/rival-source pressure, exact scope, alternatives, Loss, Stop, and Non-Capture remain inspectable.
+
+**Above the Traceability Ceiling:** the past is given universal closure, every target result confirms the history, source variation leaves the function unchanged, or person/normative/authority claims are derived from the projection.
+
+The Counterfactual Frame Test is non-compensatory: rhetorical force, archive size, formal completeness, or target plausibility cannot replace source sensitivity and traceable load.
+
+Primary site: [Counterfactual Frame Test](../01_blocks/04_part_iii_retype.md#31-9-counterfactual-frame-test).
+
+## Chapter 31 Lock and Chapter 32 Preparation — Macro-Event Band Pressure
+
+A trajectory-to-macro-event projection lies below the Relevance Floor when target-level compression adds no transition discrimination to the wider Path. It exceeds the Traceability Ceiling when the Macro-Event label erases source duration, phases, reversals, heterogeneous consequences, roles, costs, or operation lineage.
+
+Required family pressures include:
+
+- source-supported boundary selection;
+- wider target-Frame declaration;
+- concrete transition gain;
+- internal-duration and heterogeneity preservation;
+- phase and boundary sensitivity;
+- alternative-source and no-projection comparison;
+- separate COMPOSE/PROJECT_AS Records;
+- exact five-part Loss, Stop, Non-Capture, Claim Ceiling, and authority prohibition.
+
+Formal completeness cannot compensate for unsupported periodization, false punctualization, or causal overclaim.
+
+Primary site: [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md).
+
+
+## Chapter 32 WP1 Admissibility Pressure
+
+A trajectory-to-macro-event candidate remains inside the Admissibility Band only when the source Trajectory, wider target Frame, projection boundaries, and transition-function claim are separately declared and traceable.
+
+Below the Relevance Floor:
+
+- the wider Path is reconstructed identically without the Macro-Event function;
+- the period label adds no praxeological transition distinction;
+- the claimed before/after relation is only chronological.
+
+Above the Traceability Ceiling:
+
+- internal duration or phases disappear behind one historical label;
+- boundaries are selected from a later outcome without independent source warrant;
+- the target function remains unchanged across materially different source scopes;
+- target-level unity is treated as punctual occurrence or causal monopoly.
+
+WP1 declares these pressures but does not adjudicate them.
+
+Primary site: [Chapter 32 WP1](../01_blocks/04_part_iii_retype.md#chapter-32-trajectory-as-macro-event).
+
+## Chapter 32 WP2 Admissibility Pressure
+
+Below the Relevance Floor, Macro-Event compression adds no concrete wider-Path difference beyond a useful period summary. Above the Traceability Ceiling, duration, sequence, roles, costs, asymmetries, Non-Events, or heterogeneous consequences become unrecoverable behind one unitary label.
+
+Within the Band, the claim must retain exact five-part Loss, bounded role/time/level scope, source-sensitive phase architecture, and a transition difference that can later fail under variation.
+
+Primary site: [Chapter 32 WP2](../01_blocks/04_part_iii_retype.md#32-5-internal-duration).
+
+
+## Chapter 32 WP3 Admissibility Pressure
+
+Within the Admissibility Band, a Macro-Event claim must preserve source temporality, keep `COMPOSE` and `PROJECT_AS` separate, and remain sensitive to phase, boundary, source-object, and target-Path variation.
+
+Below the Relevance Floor, the target reconstruction gains only descriptive period compression. Above the Traceability Ceiling, punctualization, circular source selection, merged operation Loss, or an invariant label destroys source-dependent target work.
+
+Failure of the projection does not automatically invalidate the PATH Trajectory. Claim Reduction, Mandatory Stop, Failure, and Non-Capture remain separate routes.
+
+Primary site: [Chapter 32 WP3](../01_blocks/04_part_iii_retype.md#32-8-punctualization-error).
+
+## Chapter 32 Provisional Lock — Macro-Event Band Result
+
+The family method remains inside the Admissibility Band when target-level unity preserves source duration, heterogeneity, operation lineage, boundary warrant, and a concrete wider-Path difference. It falls below the Relevance Floor where only descriptive period compression remains and exceeds the Traceability Ceiling where punctualization, label-selected boundaries, merged operations, or erased heterogeneity destroy source-dependent target work.
+
+Chapter 32 is provisionally locked at method level; `M/B/C` remains unadjudicated.
+
+Primary site: [Chapter 32 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-completion-boundary).
+
+## Chapter 33 Preparation — Recurrent-Form Attractor Band Pressure
+
+Below the Relevance Floor:
+
+- multiple trajectories are merely similar;
+- the recurrent label adds no later-path difference;
+- recurrence count substitutes for mechanism or discrimination.
+
+Above the Traceability Ceiling:
+
+- one path is universalized;
+- divergent, failed, or non-recurring trajectories disappear;
+- opposite sequences fit the same elastic label;
+- attractor load cannot be traced to frames, roles, costs, Non-Events, expectations, friction, or alternatives.
+
+Within the Band, comparability, constitutive recurrence, temporal direction, path-influence mechanism, dynamic/static distinction, Counterfactual Sensitivity, exact five-part Loss, Stop, and Non-Capture remain inspectable.
+
+Primary site: [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md).
+
+
+## Chapter 33 WP1 — Recurrent-Form Threshold within the Admissibility Band
+
+A recurrent-form source lies below the Relevance Floor when multiple records add only surface resemblance, a shared label, or a recurrence count without discriminating transition structure. It exceeds the Traceability Ceiling when incompatible trajectories are absorbed, source selection is outcome-driven, divergence and missing trajectories disappear, or the pattern is treated as Α, a deterministic law, or a person/group type.
+
+Within the Band, WP1 requires independently warranted Trajectories, declared comparability coordinates, incomparability as a valid result, one derived recurrent source candidate, dynamic/static target separation, a context-sensitive Pattern Threshold, exact uncertainty/Loss retention, and a pattern boundary capable of failure.
+
+```text
+more cases cannot compensate for weak comparability
+formal threshold completeness cannot compensate for absent mechanism or target work
+```
+
+Primary site: [§33.4 Pattern Threshold](../01_blocks/04_part_iii_retype.md#33-4-pattern-threshold).
+
+## Chapter 33 WP2 Admissibility Pressure
+
+Below the Relevance Floor, recurrent source description adds no concrete difference to later path accessibility or continuation. Above the Traceability Ceiling, phases, temporal direction, roles, costs, Non-Events, mechanism, alternatives, or break conditions disappear behind an elastic attractor label.
+
+Within the Band, the claim preserves discriminating source positions, a traceable temporal pathway, bounded target work, exact five-part Loss, dynamic/static separation, rival pressure, Stop, and Non-Capture.
+
+Primary site: [Chapter 33 WP2](../01_blocks/04_part_iii_retype.md#33-5-constitutive-repetition).
+
+## Chapter 33 WP3 Admissibility Pressure
+
+Below the Relevance Floor, recurring motifs or source distinctions add no discriminating later-path work. Above the Traceability Ceiling, target-blind selection, missing Trajectories, temporal direction, incompatible sequences, mechanism, target conditions, and rival accounts disappear behind an elastic attractor label.
+
+Within the Band, the claim remains falsifiable under source, comparison, mechanism, and target variation; retains descriptive motif, background recurrence, static-only function, no-projection, Failure, Stop, and Non-Capture; and does not transfer failure backward to every source Trajectory.
+
+Primary site: [Chapter 33 WP3](../01_blocks/04_part_iii_retype.md#33-8-recurrent-form-versus-retrospective-similarity).
+
+## Chapter 33 Lock and Chapter 34 Admissibility Pressure
+
+Chapter 33 remains inside the Band by preserving comparison, mechanism, target work, rivals, and failure. Chapter 34 must reject both:
+
+```text
+below Floor: more components without target praxis difference
+above Ceiling: macrofunction without component-relation trace
+```
+
+Count, duration, repetition, graph density, and formal completeness cannot compensate for missing functional formation or Source Trace.
+
+## Chapter 34 WP1 Admissibility Pressure
+
+A composite-to-higher-level-function candidate remains inside the Admissibility Band only when components and relations are independently warranted, target context and praxis difference are explicit, and the function changes under material source or target variation.
+
+Below the Relevance Floor:
+
+- the target reconstruction is unchanged by the proposed higher-level function;
+- the composite adds only grouping or descriptive convenience;
+- repeated local structures create no additional target difference.
+
+Above the Traceability Ceiling:
+
+- the macro-label survives component, relation, subset, Frame, or target changes;
+- component contradictions and Loss disappear;
+- emergence is asserted without Source Trace;
+- operator-like vocabulary becomes type replacement or authority.
+
+WP1 declares these pressures but does not adjudicate them.
+
+Primary site: [Chapter 34 WP1](../01_blocks/04_part_iii_retype.md#chapter-34-composite-structures-as-higher-level-functions).
+
+## Chapter 34 WP2 Admissibility Pressure
+
+A binding-, integration-, or emergent-function candidate remains within the Band only when:
+
+- commitments or local integrations are independently warranted;
+- continuity and relation topology are explicit;
+- the target-level difference is concrete and bounded;
+- unresolved contradiction, uncertainty, and exact Loss remain visible;
+- removal, substitution, redundancy, smaller subsets, and relation disruption can alter the claim;
+- the function does not become Ψ, Σ, a person/group essence, or authority source.
+
+Below the Relevance Floor lie repeated details with no changed target reconstruction. Above the Traceability Ceiling lie macrofunctions that survive arbitrary source, relation, contradiction, or subset change.
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-34-wp2-completion-boundary).
+
+## Chapter 34 WP3 Admissibility Return
+
+A composite-to-higher-level-function claim lies within the Band only when relation-supported target work exceeds descriptive aggregation without crossing into source-free macro-labeling.
+
+**Below the Floor:** additional grouping or detail yields no new praxis difference.  
+**Within the Band:** functional formation is source-traceable, target-bounded, threshold-sensitive, rival-sensitive, and non-authoritative.  
+**Above the Ceiling:** the label survives loss of components, relations, source boundary, target specificity, or contrary evidence.
+
+Count, duration, repetition, density, visibility, or formal completeness cannot compensate for missing PraxisPurchase, TraceableLoad, TypeIntegrity, or Counterfactual Sensitivity.
+
+## Chapter 34 Lock and Chapter 35 Admissibility Pressure
+
+Chapter 35 falls below the Relevance Floor when weighting or a profile adds only stylistic description without changing a warranted praxis reconstruction. It exceeds the Traceability Ceiling when weights, modulators, or profile effects cannot be reconstructed from source occurrences, relations, roles, time, and target difference.
+
+```text
+profile label without praxis purchase → below Floor
+profile function without source trace → above Ceiling
+```
+
+## Chapter 35 WP1 Admissibility-Band Return
+
+Within the Admissibility Band, a weighting/modulation claim:
+
+- begins from independently warranted operator occurrences and relations;
+- declares Frame, granularity, relative level, roles, phase, evidence, uncertainty, and inherited Loss;
+- names a qualitative comparison dimension;
+- preserves Δ–Ψ sequence and dependencies;
+- treats modulators as contextual conditions only;
+- remains sensitive to role, phase, removal, substitution, and rival descriptions;
+- preserves no-profile, no-projection, Stop, and Non-Capture.
+
+Below the Relevance Floor, weighting language adds only a label without changing the praxis reconstruction. Above the Traceability Ceiling, the profile survives material occurrence, relation, role, phase, or modulator changes; source dependencies disappear; or a person/group type, prediction, causal monopoly, or authority is inferred.
+
+Primary site: [Chapter 35 WP1](../01_blocks/04_part_iii_retype.md#chapter-35-operator-weighting-modulation-and-emergent-functional-profiles).
+
+## Chapter 35 WP2 Admissibility-Band Return
+
+Within the Admissibility Band, a profile claim preserves occurrence identity, relation topology, canonical dependencies, role/phase variation, modulator tests, rival profiles, exact Loss, and a breakable stability scope. A trajectory-form claim identifies a concrete temporal difference without determinism or prediction.
+
+Below the Relevance Floor, the profile merely compresses vocabulary without changing a warranted reconstruction. Above the Traceability Ceiling, the label survives material occurrence, relation, role, phase, modulator, or temporal changes; dependencies vanish; or the profile becomes a source-free type, prediction, causal monopoly, or authority.
+
+Primary site: [Chapter 35 WP2](../01_blocks/04_part_iii_retype.md#35-5-modulating-profile).
+
+## Chapter 35 WP3 Admissibility-Band Return
+
+**Below the Relevance Floor:** additional profile labels do not change source reconstruction, rival discrimination, or target-function testing.
+
+**Within the Band:** the profile is configuration-bound, source-traceable, counterfactually vulnerable, non-typological, and—when projected—performs a concrete bounded target function.
+
+**Above the Traceability Ceiling:** the label survives material source, role, phase, modulator, relation, or target changes and becomes a hidden type or automatic explanation.
+
+Formal completeness, clustering, profile elegance, or add-on fit cannot compensate for missing PraxisPurchase, TraceableLoad, TypeIntegrity, or ContextualBoundedness.
+
+## Chapter 35 Lock and Chapter 36 Admissibility-Band Return
+
+**Below the Relevance Floor:** comparison adds labels or rankings without changing discrimination among candidates.
+
+**Within the Band:** complete candidates are compared through target coordinates, PraxisPurchase, Source Trace, Counterfactual Sensitivity, exact Loss, context fit, Type Integrity, Claim Ceiling, and parsimony while alternatives and no-projection remain live.
+
+**Above the Traceability Ceiling:** a preferred label remains stable despite material source, target, scope, or Loss changes, or candidate differences are collapsed into one ranking without reconstructible load.
+
+Comparison criteria are non-compensatory. Formal completeness, breadth, elegance, or popularity cannot compensate for missing source trace, target fit, Type Integrity, or authority boundaries.
+
+## Chapter 36 WP1 Comparative Entry within the Admissibility Band
+
+A comparison falls below the Relevance Floor where candidate labels or coordinate distinctions add no discriminating target work. It exceeds the Traceability Ceiling where a broad or integrated label survives material source, subset, target, scope, or Loss changes without reconstruction.
+
+WP1 requires stable source identity, candidate-specific Source Trace, explicit target coordinates, serious alternatives, no-projection, and anti-integration. It does not allow breadth, elegance, formal completeness, or joint readability to compensate for missing PraxisPurchase, TraceableLoad, TypeIntegrity, or ContextualBoundedness.
+
+## Chapter 36 WP2 Comparative Performance within the Admissibility Band
+
+A comparison falls below the Relevance Floor where candidate distinctions do not change positive/countercase classification or target reconstruction. It exceeds the Traceability Ceiling where labels survive material source changes, countercases, target-coordinate variation, or exact Loss differences without revision.
+
+Comparative criteria are non-compensatory. PraxisPurchase, Source Trace, Counterfactual Sensitivity, exact Loss, context fit, Type Integrity, Claim Ceiling, and parsimony cannot be collapsed into a total score. No-projection, underdetermination, non-comparability, Stop, and Non-Capture remain legitimate where bounded preference would overclaim.
+
+Primary site: [§§36.5–36.7](../01_blocks/04_part_iii_retype.md#36-5-comparative-criteria).
+
+## Chapter 36 WP3 Non-Translation and Comparison within the Admissibility Band
+
+A comparison falls below the Relevance Floor where translation/non-translation distinctions do not alter target reconstruction, countercase classification, or Claim Scope. It exceeds the Traceability Ceiling where candidates are forced into one vocabulary, common metric, merged Loss profile, or total verdict despite material differences in source subset, target work, evidence, or scope.
+
+The admissible band preserves partial translation, segmented comparison, non-comparability, no-projection, Claim Reduction, Mandatory Stop, and Non-Capture. Tribunal ranking, source-type replacement, authority inheritance, and formal-completeness-as-superiority remain prohibited.
+
+Primary site: [§§36.8–36.10](../01_blocks/04_part_iii_retype.md#36-8-non-translation).
+
+## Chapter 36 Lock and Chapter 37 Admissibility-Band Return
+
+Below the Relevance Floor, a new PMS label or mapping adds no discriminating praxis difference. Above the Traceability Ceiling, a label or correspondence remains invariant despite material source/target changes or hides unmapped semantics.
+
+```text
+more mapping vocabulary ≠ more PraxisPurchase
+mapping invariance under material change → Traceability-Ceiling pressure
+```
+
+## Chapter 37 WP1 Admissibility Pressure
+
+At the Relevance Floor, a mapping fails to gain praxeological purchase when it adds only a familiar label, diagrammatic alignment, or generic resemblance without new discrimination. At the Traceability Ceiling, a mapping exceeds its source load when source residuals, target-only features, incompatibilities, or artificial fitting are hidden.
+
+```text
+formal correspondence without bounded gain
+→ Relevance-Floor pressure
+
+semantic claim without comparable praxeological role
+→ Traceability-Ceiling and Type-Integrity pressure
+
+source residual erased to improve fit
+→ Traceability-Ceiling pressure
+```
+
+The band remains non-compensatory. Executability, elegance, translation breadth, or rhetorical familiarity cannot compensate for missing semantic warrant, exact Loss, Contextual Boundedness, or Counterfactual Sensitivity.
+
+Primary site: [§37.4 Cross-Domain Projection](../01_blocks/04_part_iii_retype.md#37-4-cross-domain-projection).
+
+## Chapter 37 WP2 Admissibility Pressure
+
+At the Relevance Floor, symbolic or executable mapping remains insufficient when it adds no bounded discrimination beyond notation or implementation. At the Traceability Ceiling, a mapping overreaches when execution success, broad correspondence, or familiar terminology is converted into semantic preservation or target function.
+
+```text
+runnable mapping without bounded praxeological gain
+→ Relevance-Floor pressure
+
+semantic claim inferred from execution
+→ Traceability-Ceiling pressure
+
+label unchanged under material source or target variation
+→ elasticity and substitution pressure
+```
+
+Analogy can remain inside the band at a lower Claim Ceiling than projection. The band does not pressure a valid bounded analogy to become `PROJECT_AS`.
+
+Primary site: [§§37.5–37.8](../01_blocks/04_part_iii_retype.md#37-5-symbolic-formal-and-executable-mapping).
+
+## Chapter 37 WP3 Admissibility Pressure
+
+At the Relevance Floor, translation breadth, executable success, or additional PMS vocabulary fails when it adds no bounded discrimination. At the Traceability Ceiling, analogy drifts when residuals disappear or resemblance becomes semantic identity, target function, type, primitive, completeness, superiority, or authority without new warrant.
+
+```text
+more translation + no new discrimination
+→ distinction without praxeological purchase
+
+scope widening + residual suppression + no new Source Trace
+→ abstraction without traceable load
+```
+
+A narrow `analogy_only` result may remain inside the band where a stronger projection crosses the ceiling. Non-Capture remains available when responsible comparison is unavailable.
+
+Primary site: [§§37.9–37.12](../01_blocks/04_part_iii_retype.md#37-9-analogy-drift).
+
+## Chapter 37 Lock and Chapter 38 RETYPE Error Pressure
+
+At the Relevance Floor, metaphor, relabeling, level language, or scope widening fails when it adds no target-side PraxisPurchase. At the Traceability Ceiling, origin-type replacement, unmarked evidential transfer, person typing, primitive creation, temporal flattening, or hidden Loss exceeds traceable source load.
+
+```text
+new label + no new discrimination
+→ distinction without praxeological purchase
+
+broader type/level/scope claim + erased source relation or Loss
+→ abstraction without traceable load
+```
+
+Claim Reduction remains available where explicit context, relation, scope, time, or lower Claim Ceiling preserves a narrower claim.
+
+Preparation site: [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#12-completion-gate).
+
+## Chapter 38 WP1 Admissibility Pressure
+
+Below the Praxis Relevance Floor, metaphor or terminology adds no new discriminating purchase. Above the Traceability Ceiling, a target role overwrites origin type, missing coordinates are supplied by inference, or ambiguity is hardened into a formal claim.
+
+Type Integrity and Contextual Boundedness remain non-compensatory. Context completion repairs only coordinate absence; it does not establish target function. Source type, prior disposition, dependencies, uncertainty, Source Trace, and exact Loss survive local error detection.
+
+Primary site: [§§38.1–38.4](../01_blocks/04_part_iii_retype.md#38-1-invalid-type-jump).
+
+## Chapter 38 WP2 Admissibility Pressure
+
+At the Relevance Floor, cross-level or multi-granular vocabulary fails when it adds no bounded relation, discrimination, or target PraxisPurchase beyond restatement. At the Traceability Ceiling, claims overreach when evidence, function, identity, person properties, or primitive status are inherited across undeclared levels, granularities, or records.
+
+```text
+“higher-level” without relation or target difference
+→ Relevance-Floor pressure
+
+fine evidence converted directly into macrofunction
+→ Traceability-Ceiling pressure
+
+failed claim repeatedly relocated without stable failure condition
+→ Stop and anti-immunization pressure
+
+macrofunction rewritten as person essence or new primitive
+→ Type-Integrity and authority-boundary pressure
+```
+
+A genuine dual record can remain inside the band only when each operation and Loss is independently traceable.
+
+Primary site: [§§38.5–38.9](../01_blocks/04_part_iii_retype.md#38-5-unmarked-level-mixing).
+
+## Chapter 38 WP3 Admissibility-Band Application
+
+Scope inflation can fall below the Relevance Floor when widening adds no new praxis distinction, and can exceed the Traceability Ceiling when global, timeless, or similarity-wide claims no longer carry constitutive source load. Lossless-projection claims exceed traceability because visibility change, compression, exclusion, uncertainty, or irrecoverability is hidden.
+
+The gates remain non-compensatory:
+
+```text
+broad usefulness + unbounded scope ≠ admissible
+long persistence + erased formation ≠ admissible
+strong Context Fit + undeclared Loss ≠ complete PROJECT_AS
+```
+
+Claim Reduction remains possible only where a narrower claim has independent PraxisPurchase and TraceableLoad. Mandatory Stop remains distinct from Failure and Non-Capture.
+
+Primary site: [§§38.10–38.13](../01_blocks/04_part_iii_retype.md#38-10-scope-inflation).
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-band-sync"></a>
+
+## RETYPE-Specific Band Application Prepared for Chapter 39
+
+```text
+Praxeological Relevance Floor
+─────────────────────────────
+functional gain with bounded source-dependent target work
+─────────────────────────────
+Praxeological Traceability Ceiling
+```
+
+Below the floor: a label, restatement, navigation aid, or source-only description supplies no additional praxeological discrimination.
+
+Above the ceiling: a target function fits the scene but no constitutive Source Trace, material source dependence, Type Integrity, Reference Continuity, Contextual Boundedness, Counterfactual Sensitivity, or exact Loss remains.
+
+The gates are non-compensatory. Elegance, coverage, executability, and schema completeness cannot repair a floor or ceiling failure.
+
+<a id="chapter-39-wp1-admissibility-band-sync"></a>
+
+## Chapter 39 WP1 — RETYPE Floor and Ceiling
+
+The RETYPE floor requires Functional Gain beyond renaming, source-only description, and ordinary target-domain reconstruction. The RETYPE ceiling requires the proposed abstraction to remain reconstructibly dependent on constitutive source load. The two gates are independent and non-compensatory.
+
+```text
+below floor → distinction without praxeological purchase
+above ceiling → abstraction without traceable load
+```
+
+Primary site: [§§39.1–39.4](../01_blocks/04_part_iii_retype.md#39-1-lower-retype-boundary).
+
+<a id="chapter-39-wp2-admissibility-band-sync"></a>
+
+## Chapter 39 WP2 — Traceability Ceiling and Non-Compensatory Gates
+
+The upper RETYPE boundary requires a reconstructible constitutive path from source features and relations to the bounded target difference. Type Integrity, Context Boundary, Counterfactual Sensitivity, and exact Loss remain independent gates; no amount of target fit, elegance, coverage, or executability compensates for their failure.
+
+```text
+source-removal invariance
+→ above-ceiling pressure for the source-dependent claim
+```
+
+Primary site: [§§39.5–39.8](../01_blocks/04_part_iii_retype.md#39-5-function-without-source-trace).
+
+<a id="chapter-39-wp3-admissibility-band-sync"></a>
+
+## Chapter 39 WP3 — Complete RETYPE Band Gate
+
+The local RETYPE gate combines Functional Gain, Constitutive Source Trace, Type and Context Integrity, Counterfactual Sensitivity, alternatives, exact Loss, elasticity, Stop, and Non-Capture without compensation, score, weighting, or authority transfer.
+
+<a id="chapter-39-lock-and-chapter-40-preparation-band-sync"></a>
+
+## Chapter 39 Local-Gate Lock and Chapter 40 Case Audit
+
+Chapter 39 provisionally locks the RETYPE-specific application of the Admissibility Band:
+
+```text
+below lower boundary
+→ no additional bounded PraxisPurchase
+
+within candidate band
+→ additional discrimination and Constitutive Source Trace remain possible
+
+above upper boundary
+→ abstraction exceeds reconstructible source load
+```
+
+Chapter 40 must apply this gate to every case without compensation. Case popularity, narrative vividness, formal completeness, schema validity, or smoke-test passage cannot repair missing Source Trace, Type Integrity, Counterfactual Sensitivity, alternatives, or exact Loss.
+
+## Chapter 40 WP1 Positive-Family Band Application
+
+Every positive family remains between the same non-compensatory limits: the lower boundary requires additional PraxisPurchase, and the upper boundary requires Constitutive Source Trace. Family labels, narrative richness, target fit, scope, formal completeness, or passed smoke tests cannot compensate for a failed gate. WP1 specifies the tests but selects no boundary result.
+
+<a id="chapter-40-wp2-band-sync"></a>
+
+## Chapter 40 WP2 Countercase Pressure across the Band
+
+The seven countercases apply the existing Admissibility Band without adding a rule or score:
+
+- missing PraxisPurchase, Source Trace, context, relational formation, or sensitivity may place a claim below the Relevance Floor or above the Traceability Ceiling;
+- origin-type replacement, person typing, failure erasure, and primitive/authority inflation violate non-compensatory integrity boundaries;
+- a local defect must be mapped only after exact Loss, alternatives, Stop, and Non-Capture are tested.
+
+```text
+countercase identified
+≠ route selected
+≠ source invalidated
+```
+
+<a id="chapter-40-wp3-band-sync"></a>
+
+## Chapter 40 WP3 Confusion-Case Band Application
+
+Each confusion case applies the same non-compensatory band to both candidate claim forms. A source-opening, composite, Frame change, recurrent resemblance, modulator, or mapping may be valid while a stronger target-function claim remains below the Relevance Floor or above the Traceability Ceiling. Conversely, a valid `PROJECT_AS` claim does not erase the separate source operation or weaker relation.
+
+Audit readiness and formal completeness do not establish substantive passage.
+
+
+## Chapter 40 Two-Layer Audit and Chapter 41 Recursive-Risk Entry
+
+Chapter 40 passes the architecture/readiness test but cannot pass the artifact-complete Local Audit. The supported claim lies within the Band only after material narrowing to Layer-1 architecture and audit readiness. The stronger artifact-lock claim must Stop because required evidence is absent and substitution by prose or smoke fixtures would exceed the Traceability Ceiling.
+
+```text
+architecture completeness
++ explicit artifact gap
+→ bounded retained claim
+
+artifact claim
++ missing required artifacts
++ prohibited substitution
+→ mandatory_stop
+```
+
+Chapter 41 generalizes the risk without redefining the Band: a technically available recursive move must establish fresh PraxisPurchase and TraceableLoad. Finer, broader, or differently projected results cannot compensate for a prior failure or Stop.

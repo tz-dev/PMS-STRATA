@@ -2888,3 +2888,656 @@ Use the locked SUB Part in three depths:
 A Reader or graph may expose the source object, components, relations, resolution result, Source Ceiling, Stop, Non-Capture, chain splits, mappings, and hashes. It may not infer relation warrant from proximity, constitutiveness from centrality, truth from completeness, target function from use, or authority from lock status.
 
 Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).
+
+## Chapter 29 Preparation Reader Pathway
+
+Read Chapter 29 in four passes:
+
+1. Purpose, typed projection claim, origin type, and target function;
+2. target function versus operator type, source-object integrity, Functional Continuity, and Contextual Boundedness;
+3. projection without replacement and boundaries to recontextualization, COMPOSE, and DECOMPOSE;
+4. integrated lock audit and Chapter-30 handoff.
+
+A Reader or graph may show source Record, origin type, target context, target function, source features, functional trace, counterfactual test, validity scope, Loss, alternatives, and result axes. It may not infer target-function warrant from node placement, similarity, frequency, centrality, display use, or user interaction.
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 WP1 Reader Pathway
+
+Read WP1 in four steps:
+
+1. [§29.1](../01_blocks/04_part_iii_retype.md#29-1-purpose-of-retype) — source entry, RETYPE purpose, and the typed `X/T/C/F` claim;
+2. [§29.2](../01_blocks/04_part_iii_retype.md#29-2-functional-projection) — mandatory target context and same-source positive/no-function contrast;
+3. [§29.3](../01_blocks/04_part_iii_retype.md#29-3-origin-type-preservation) — Origin-Type Preservation and no-new-primitive discipline;
+4. [§29.4](../01_blocks/04_part_iii_retype.md#29-4-target-function) — specific relational target-function candidate and WP1 completion boundary.
+
+Continue next to **Chapter 29 WP2, §§29.5–29.8**. A Reader may display source object, origin type, target context, candidate function, and contrast. It may not infer Functional Continuity, source load, operation success, final Output Class, person properties, recommendation, sanction, or authority.
+
+## Chapter 29 WP2 Reader Pathway
+
+Read WP2 in four steps:
+
+1. [§29.5](../01_blocks/04_part_iii_retype.md#29-5-target-function-versus-operator-type) — separate target function, origin type, operator occurrence, and PMS operator type;
+2. [§29.6](../01_blocks/04_part_iii_retype.md#29-6-source-object-integrity) — inspect source lineage, constitutive relations, prior limits, and load-bearing/associated/foregrounded distinctions;
+3. [§29.7](../01_blocks/04_part_iii_retype.md#29-7-functional-continuity) — trace source load into target-side difference and apply bounded source- and context-variation pressure;
+4. [§29.8](../01_blocks/04_part_iii_retype.md#29-8-contextual-boundedness) — inspect target scene, roles, level, duration, validity scope, Claim Ceiling, and canonical Loss.
+
+Continue next to **Chapter 29 WP3, §§29.9–29.13**. A Reader may display declared load-bearing candidates, counterfactual variants, target boundaries, and Loss. It may not infer semantic continuity, causal truth, projection success, final Output Class, person properties, recommendation, sanction, or authority from display, graph position, frequency, or interaction.
+
+## Chapter 29 WP3 Reader Pathway
+
+Read WP3 in five steps:
+
+1. [§29.9](../01_blocks/04_part_iii_retype.md#29-9-projection-without-replacement) — preserve PATH, SUB, origin type, heterogeneity, prior dispositions, and Loss;
+2. [§29.10](../01_blocks/04_part_iii_retype.md#29-10-functional-projection-as-a-typed-claim) — inspect the typed claim, four result axes, non-success routes, and re-entry rule;
+3. [§29.11](../01_blocks/04_part_iii_retype.md#29-11-retype-versus-recontextualization) — separate changed legibility and display use from source-dependent target function;
+4. [§29.12](../01_blocks/04_part_iii_retype.md#29-12-retype-versus-compose) — separate source-object formation from later functional projection;
+5. [§29.13](../01_blocks/04_part_iii_retype.md#29-13-retype-versus-decompose) — separate internal opening from target-context performance and inspect the Chapter-30 handoff.
+
+Continue next to **Chapter 29 WP4 integrated lock audit**. A Reader may expose the four result axes, operation-chain segments, Loss, re-entry, and non-success routes. It may not infer operation identity, target-function warrant, result mapping, person properties, recommendation, sanction, or authority from layout, links, centrality, or completeness.
+
+## Chapter 29 Lock and Chapter 30 Preparation Reader Pathway
+
+1. Read [Chapter 29 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-29-completion-boundary) for the provisionally locked conceptual RETYPE architecture.
+2. Read [Chapter 29 WP4 Record](Chapter_29_Preparation_Record.md#19-wp4-execution-and-provisional-lock-record) for audit, reopening, and handoff controls.
+3. Read [Chapter 30 Preparation Record](Chapter_30_Preparation_Record.md) for the complete operation plan, signature roles, Loss/visibility boundary, result separation, and WP duties.
+4. Continue to Chapter 30 WP1 §§30.1–30.4.
+
+A Reader may expose source/target declarations, trace categories, sensitivity descriptions, validity scope, Loss, alternatives, and routing fields. It may not execute `PROJECT_AS`, infer source load or semantic function, decide counterfactual truth, select a canonical class, or derive person, normative, legitimacy, recommendation, sanction, or authority claims.
+
+## Reader Path — Chapter 30 WP1
+
+1. Read [Chapter 29 completion](../01_blocks/04_part_iii_retype.md#chapter-29-completion-boundary) for the conceptual no-replacement architecture.
+2. Read [Chapter 30 opening and §30.1](../01_blocks/04_part_iii_retype.md#chapter-30-project-as-signature-context-and-validity-scope) for operation identity.
+3. Read [§30.2](../01_blocks/04_part_iii_retype.md#30-2-minimal-signature) for symbol roles and the non-causal signature boundary.
+4. Read [§30.3](../01_blocks/04_part_iii_retype.md#30-3-preconditions) for conjunctive entry burdens.
+5. Read [§30.4](../01_blocks/04_part_iii_retype.md#30-4-source-declaration) for source identity, coordinates, prior disposition, uncertainty, and inherited Loss.
+6. Continue to WP2 §§30.5–30.8.
+
+A Reader may expose these declarations. It may not execute `PROJECT_AS`, infer a target function, repair a source claim, select a class, or generate authority.
+
+## Reader Path — Chapter 30 WP2
+
+1. Read [§30.5](../01_blocks/04_part_iii_retype.md#30-5-target-declaration) for the target declaration and target-object/function separation.
+2. Read [§30.6](../01_blocks/04_part_iii_retype.md#30-6-projection-justification) for analytical need, rival pressure, and expected difference.
+3. Read [§30.7](../01_blocks/04_part_iii_retype.md#30-7-constitutive-source-trace) for trace roles beyond citation and resemblance.
+4. Read [§30.8](../01_blocks/04_part_iii_retype.md#30-8-counterfactual-sensitivity) for bounded sensitivity without causal inference.
+5. Continue to WP3 §§30.9–30.13.
+
+A Reader may expose declarations, source pointers, trace roles, variants, and open sensitivity descriptions. It may not establish source load, semantic function, causal relation, sensitivity result, canonical class, person status, recommendation, sanction, or authority.
+
+## Reader Pathway — Complete PROJECT_AS Procedure before Projection Families
+
+Read Chapter 30 in this order:
+
+```text
+30.1–30.4 operation identity, signature, preconditions, source
+→ 30.5–30.8 target, justification, trace, sensitivity
+→ 30.9 scope
+→ 30.10 visibility and exact five-part Loss
+→ 30.11 alternatives and no-projection
+→ 30.12 result axes and canonical mapping
+→ 30.13 Shared Record view and handoff
+```
+
+Only after the Chapter-30 WP4 lock audit should the reader enter Chapter 31. The pressure object remains unexecuted; Chapter 31 receives procedure rather than a frame-function finding.
+
+\n## RETYPE Family Entry Path after Chapter 30 Lock\n\nRecommended route:\n\n```text\nChapter 11 Trajectory\n→ Chapter 12 Path Dependence and Sedimentation\n→ Chapter 29 Functional Projection\n→ Chapter 30 PROJECT_AS Procedure\n→ Chapter 31 Trajectory as Frame-Function\n```\n\nReaders should not jump from “history matters” to a frame-function claim. The Chapter-30 procedure and Chapter-31 historical-load, present-condition, multiple-frame-source, and counterfactual burdens remain mandatory.\n\nPrimary site: [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Reader Path — Chapter 31 WP1
+
+1. Read Chapters 11–12 for Trajectory and sedimentation.
+2. Read [Chapter 30 completion](../01_blocks/04_part_iii_retype.md#chapter-30-completion-boundary) for the generic `PROJECT_AS` procedure.
+3. Read [§31.1](../01_blocks/04_part_iii_retype.md#31-1-basic-claim) for the bounded family claim and `Y/Z` contrast.
+4. Read [§31.2](../01_blocks/04_part_iii_retype.md#31-2-source-object) for independent source selection and evidence separation.
+5. Read [§31.3](../01_blocks/04_part_iii_retype.md#31-3-target-context) for target coordinates, present conditions, and temporal evidence boundary.
+6. Read [§31.4](../01_blocks/04_part_iii_retype.md#31-4-frame-function) for concrete function differences and the `□` boundary.
+7. Continue to WP2 §§31.5–31.7.
+
+A Reader may expose declarations and source links. It may not infer Historical Load, frame truth, causality, relative load, result, person status, or authority.
+
+
+## Reader Pathway — Chapter 31 WP2 Historical-Load Architecture
+
+1. [§31.5 Historical Load](../01_blocks/04_part_iii_retype.md#31-5-historical-load) — separate source warrant from target-function warrant and inspect candidate carriers.
+2. [§31.6 Frame-Function without Historical Determinism](../01_blocks/04_part_iii_retype.md#31-6-frame-function-without-historical-determinism) — preserve alternatives, role/time bounds, and non-predictive conditioning.
+3. [§31.7 Multiple Frame Sources](../01_blocks/04_part_iii_retype.md#31-7-multiple-frame-sources) — compare present and historical contributions without score or causal-share allocation.
+4. [WP2 Execution Record](Chapter_31_Preparation_Record.md#15-wp2-execution-record) — verify completed duties and deliberate non-adjudication.
+
+A Reader may expose declarations, evidence routes, and rival sources. It may not infer Historical Load, relative contribution, causality, a `PROJECT_AS` result, person status, legitimacy, recommendation, sanction, or authority.
+
+
+## Reader Pathway — Chapter 31 WP3 Family Discrimination
+
+1. [§31.8](../01_blocks/04_part_iii_retype.md#31-8-rhetorical-history-versus-frame-function) — distinguish rhetorical history, trace failure, and target leakage from source-dependent framing.
+2. [§31.9](../01_blocks/04_part_iii_retype.md#31-9-counterfactual-frame-test) — inspect carrier, source, context, rival-source, and same-end pressure without causal proof.
+3. [§31.10](../01_blocks/04_part_iii_retype.md#31-10-competing-frame-projections) — retain separate rival functions, present-frame accounts, background relevance, recontextualization-only, and no-projection.
+4. [§31.11](../01_blocks/04_part_iii_retype.md#31-11-failed-frame-projection) — distinguish transformation failure from source invalidation, Stop, and Non-Capture.
+5. [WP3 Execution Record](Chapter_31_Preparation_Record.md#16-wp3-execution-record) — verify twenty-four-duty completion and deliberate anchor non-adjudication.
+
+A Reader may expose evidence roles, variants, rival claims, scope, Loss, and available routes. It may not infer historical truth, causality, relative load, a function in `Y`, no-projection in `Z`, canonical mapping, person status, legitimacy, recommendation, sanction, or authority.
+
+## Reader Pathway — Chapter 31 Lock and Chapter 32 Entry
+
+1. Read [Chapter 31 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-31-completion-boundary) for the provisionally locked trajectory-to-frame-function family method and protected anchor non-adjudication.
+2. Read [Chapter 31 WP4 Record](Chapter_31_Preparation_Record.md#17-wp4-execution-and-provisional-lock-record) for audit, reopening, and production controls.
+3. Read Chapters 1 and 3 for Event, Transition, Path, and Trajectory distinctions.
+4. Read Chapters 11 and 15 for source Trajectory formation and `COMPOSE`.
+5. Read Chapter 30 for the complete `PROJECT_AS` procedure.
+6. Read [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md) for Macro-Event boundaries, anti-punctualization, duration/heterogeneity preservation, operation-chain separation, and the twenty-four duties.
+7. Continue to Chapter 32 WP1 §§32.1–32.4.
+
+A Reader may display source phases, target boundaries, periodization alternatives, internal duration, Loss, and operation links. It may not infer the correct historical periodization, causal turning point, transition function, source responsibility, local result, canonical Output Class, person status, recommendation, sanction, or authority.
+
+
+## Chapter 32 WP1 Reading Route
+
+```text
+Chapter 31 family-method lock
+→ Chapter 32 Preparation Record
+→ §32.1 bounded family claim and source entry
+→ §32.2 Macro-Event as target function
+→ §32.3 wider target Frame
+→ §32.4 boundary selection and anti-label control
+→ WP2 duration, heterogeneity, and event-function testing
+```
+
+Read Chapter 32 only after Chapters 29–30 and the Chapter-31 non-automaticity demonstration. The Reader may navigate source/target/boundary declarations; it may not infer the correct periodization or execute `PROJECT_AS`.
+
+## Chapter 32 WP2 Reading Route
+
+```text
+§§32.1–32.4 family, target, and boundary declaration
+→ §32.5 internal duration and anti-punctual temporal trace
+→ §32.6 heterogeneity, phase load, scope, visibility, and Loss
+→ §32.7 concrete event function and causal boundary
+→ WP3 punctualization, operation-chain, counterfactual, and failure tests
+```
+
+The Reader may display phase and Loss declarations. It may not select load-bearing phases, infer causal turning points, or adjudicate the projection.
+
+
+## Chapter 32 WP3 Reading Route
+
+```text
+§§32.1–32.7 family, boundary, preservation, and function architecture
+→ §32.8 punctualization-error control
+→ §32.9 separate COMPOSE/PROJECT_AS occurrences
+→ §32.10 phase, boundary, source, and target variation
+→ §32.11 no-projection, Failure, Stop, and Non-Capture
+→ WP4 integrated lock audit
+```
+
+A Reader may display source phases, rival boundaries, separate operation records, alternative sources, Loss, and available routes. It may not select the correct periodization, determine substantive punctualization, infer causality, choose a preferred source, adjudicate `B` or `C`, map the Output Class, or increase authority.
+
+## Reader Pathway — Chapter 32 Lock and Chapter 33 Entry
+
+1. Read [Chapter 32 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-completion-boundary) for the provisionally locked non-punctual Macro-Event family method.
+2. Read [Chapter 32 WP4 Record](Chapter_32_Preparation_Record.md#17-wp4-execution-and-provisional-lock-record) for protected `M/B/C` non-adjudication.
+3. Read Chapters 9–17 for source Paths, Trajectories, recurrence, and `COMPOSE`.
+4. Read Chapter 21 for Attractor-typed occurrences without operator decomposition.
+5. Read Chapters 29–30 for functional projection and the complete `PROJECT_AS` procedure.
+6. Read [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md) for recurrent-form source construction, comparability, Pattern Threshold, mechanism, sampling, and anti-elasticity controls.
+7. Continue to Chapter 33 WP1 §§33.1–33.4.
+
+A Reader may display source trajectories, comparison coordinates, candidate constitutive phases, rival accounts, Loss, and routes. It may not infer comparability, recurrence mechanism, probabilities, determinism, person/group type, local result, canonical Output Class, recommendation, sanction, or authority.
+
+
+## Chapter 33 WP1 Reading Pathway
+
+```text
+Chapter 11 Trajectory
+→ Chapters 12–17 recurrence, sedimentation, and COMPOSE
+→ Chapter 21 Attractor-occurrence decomposition boundary
+→ Chapters 29–30 PROJECT_AS method
+→ Chapters 31–32 prior family safeguards
+→ Chapter 33 WP1 recurrent-form source and Pattern Threshold
+→ Chapter 33 WP2 constitutive repetition and Attractor Load
+```
+
+Read WP1 as source and threshold architecture only. Do not infer that `R` is established, that `D` carries a dynamic attractor-function, that `E` is no-projection, or that a recurrence probability or person/group type has been produced.
+
+## Chapter 33 WP2 Reading Route
+
+```text
+§§33.1–33.4 recurrent source, comparability, dynamic target, Pattern Threshold
+→ §33.5 constitutive positions, variation, break conditions, temporal mechanism burden
+→ §33.6 bounded Attractor Load, later-path difference, countervailing structure, scope
+→ §33.7 dynamic/static claim separation and WP3 handoff
+→ WP3 retrospective-similarity, counterfactual, alternative-source, no-projection, and failure tests
+```
+
+The Reader may display declared source positions and load dimensions. It may not select constitutive phases, infer mechanism or probability, establish later-path effect, or adjudicate the projection.
+
+## Chapter 33 WP3 Reading Route
+
+1. Read [§33.8](../01_blocks/04_part_iii_retype.md#33-8-recurrent-form-versus-retrospective-similarity) for retrospective-similarity, source-selection, sampling, and elasticity controls.
+2. Read [§33.9](../01_blocks/04_part_iii_retype.md#33-9-counterfactual-attractor-test) for counterfactual variation, rival accounts, and the no-projection space.
+3. Read [§33.10](../01_blocks/04_part_iii_retype.md#33-10-failed-attractor-projection) for located failure and source-preservation discipline.
+4. Return to [Chapter 30](../01_blocks/04_part_iii_retype.md#chapter-30-project-as-signature-context-and-validity-scope) for generic Counterfactual Sensitivity, alternatives, scope, Loss, and output mapping.
+5. Use [Preparation Record §16](Chapter_33_Preparation_Record.md#16-wp3-execution-record) for the WP4 handoff state.
+
+The route supports audit and navigation only. It does not select `R`, a target function, local result, or Output Class.
+
+## Chapter 33 Lock to Chapter 34 Reading Route
+
+```text
+Chapter 33 completion boundary
+→ Chapter 33 WP4 execution record
+→ Chapter 34 Preparation Record
+→ Chapter 34 WP1 §§34.1–34.4
+→ source composite, target context, and first three higher-level function families
+```
+
+The Reader may navigate component and relation declarations. It may not infer emergence, choose a load-bearing subset, establish a macrofunction, or execute `PROJECT_AS`.
+
+## Chapter 34 WP1 Reading Route
+
+```text
+Chapter 33 family-method lock
+→ Chapter 34 Preparation Record
+→ §34.1 family/source/target packet
+→ §34.2 local differences as bounded boundary-function candidate
+→ §34.3 repeated Non-Events as bounded attractor-function candidate
+→ §34.4 distributed asymmetries as bounded asymmetry/access-function candidate
+→ WP2 binding-, integration-, and emergence-function architecture
+```
+
+The Reader may display components, relation declarations, target coordinates, candidate functions, and the `H/I` contrast. It may not infer composite identity, functional formation, emergence, target effect, or result.
+
+## Chapter 34 WP2 Reading Route
+
+```text
+Chapter 34 WP1 source/target and first three families
+→ §34.5 repeated commitments and bounded binding-function
+→ §34.6 multiple local integrations and bounded integration-function
+→ §34.7 source-traceable emergence, component roles, relation trace,
+  substitution, smaller subsets, and internal conflict
+→ WP3 aggregation/formation, threshold, authority, and failure audit
+```
+
+The Reader may display commitment and integration occurrences, relation topology, qualitative component-role candidates, substitution alternatives, and internal conflicts. It may not assign roles to `Q`, infer emergence, cross a threshold, establish a function in `H`, select no-projection in `I`, or choose an Output Class.
+
+## Chapter 34 WP3 Reading Route
+
+```text
+WP1 source/target and first function families
+→ WP2 binding/integration/emergence and family load
+→ §34.8 aggregation versus formation
+→ §34.9 qualitative threshold, subset, and rival Frame
+→ §34.10 counterfactual test and no-authority boundary
+→ §34.11 localized failure and WP4 handoff
+```
+
+The Reader may expose competing subsets, Frames, target conditions, function candidates, Loss, and failure locations. It may not cross the threshold, choose the source boundary, establish a function in `H`, select no-projection in `I`, infer causality, or grant authority.
+
+## Chapter 34 Lock to Chapter 35 Reading Route
+
+```text
+Chapter 34 completion boundary
+→ Chapter 34 WP4 execution record
+→ Chapter 35 Preparation Record
+→ Chapter 35 WP1 §§35.1–35.4
+→ source occurrences, weighting, dependency preservation, and modulator boundary
+```
+
+The Reader may display declared weighting and profile relations. It may not infer empirically valid weights, assign a profile to a person or group, predict later action, establish a target function, or execute `PROJECT_AS`.
+
+## Chapter 35 WP1 Reading Route
+
+```text
+Chapter 34 family-method lock
+→ Chapter 35 Preparation Record
+→ §35.1 purpose and source/target claim positions
+→ §35.2 qualitative operator weighting
+→ §35.3 dependency preservation and no fourth operation
+→ §35.4 non-operator modulator and stable K/L contrast
+→ WP2 profile formation, trajectory form, and source-traceable emergence
+```
+
+The Reader may display source occurrences, relations, weighting dimensions, modulators, role/phase coordinates, uncertainty, Loss, and `K/L` target candidates. It may not infer weights, assign profiles, establish modulation, predict later action, type persons/groups, execute `PROJECT_AS`, or select an Output Class.
+
+## Chapter 35 WP2 Reading Route
+
+```text
+WP1 occurrence/weighting/modulator packet
+→ §35.5 profile relation and bounded stability
+→ §35.6 trajectory-form and modulator-variation pressure
+→ §35.7 source-traceable emergent profile
+→ WP3 profile/type, projection, threshold, inflation, add-on, and failure audit
+```
+
+The Reader may display occurrence relations, qualitative weighting, modulators, role/phase variation, stability windows, break conditions, trajectory-form dimensions, rival profiles, uncertainty, and Loss. It may not select a profile, infer a type, predict a path, establish emergence or target function, execute `PROJECT_AS`, or choose an Output Class.
+
+## Chapter 35 WP3 Reading Route
+
+For profile-specific RETYPE limits, read:
+
+1. [§35.8 Profile versus Type](../01_blocks/04_part_iii_retype.md#35-8-profile-versus-type)
+2. [§35.9 Profile Projection](../01_blocks/04_part_iii_retype.md#35-9-profile-projection)
+3. [§35.10 Profile Inflation](../01_blocks/04_part_iii_retype.md#35-10-risks-of-profile-inflation)
+4. [§35.11 Add-On Stress Cases](../01_blocks/04_part_iii_retype.md#35-11-use-of-add-on-stress-cases)
+5. [§35.12 Failed Modulation Claim](../01_blocks/04_part_iii_retype.md#35-12-failed-modulation-claim)
+6. [WP3 Execution Record](Chapter_35_Preparation_Record.md#15-wp3-execution-record)
+
+Then continue to Chapter 36 for comparison among competing projections.
+
+## Chapter 35 Lock and Chapter 36 Reading Route
+
+For comparison among target-function candidates, read:
+
+1. [Chapter 35 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-35-completion-boundary)
+2. [Chapter 36 Preparation Gate](Chapter_36_Preparation_Record.md)
+3. Chapter 29 for generic projection logic
+4. Chapter 30 for the complete `PROJECT_AS` procedure
+5. Chapters 31–35 for family-specific burdens
+6. Chapter 39 later for the integrated alternative-projection test
+
+Next drafting route: Chapter 36 WP1, §§36.1–36.4.
+
+## Chapter 36 WP1 Reading Route
+
+```text
+Chapter 35 family-method lock
+→ Chapter 36 Preparation Record
+→ §36.1 source plurality without source-type multiplication
+→ §36.2 explicit coordinates and compatibility
+→ §36.3 genuine competition
+→ §36.4 alternatives and anti-forced-integration
+→ WP2 comparative criteria, discrimination, and indeterminacy
+```
+
+The Reader may display stable source identity, candidate-specific source subsets, target coordinates, compatibility/competition candidates, and alternatives. It may not infer candidate validity, compatibility, competition, preference, co-validity, indeterminacy, no-projection, Output Class, source identity, tribunal judgment, or authority.
+
+## Chapter 36 WP2 Reading Route
+
+```text
+WP1 stable source, target coordinates, compatibility/competition and alternatives
+→ §36.5 qualitative non-compensatory criteria and exact Loss
+→ §36.6 positive/countercase/source-sensitivity/assumption testing
+→ §36.7 co-validity, context-dependence, partial preference,
+  underdetermination and non-comparability
+→ WP3 non-translation, tribunal boundary, comparison record and failure audit
+```
+
+The Reader may display candidate-specific criteria, Loss, countercases, source variations, assumptions, local comparison descriptions, and no-projection alternatives. It may not score candidates, infer semantic or empirical superiority, select `A/B` or `F/G`, integrate functions, map an Output Class, judge persons or theories, or grant authority.
+
+## Chapter 36 WP3 Reading Route
+
+```text
+WP1 source/target comparison entry
+→ WP2 criteria, discrimination and indeterminacy
+→ §36.8 non-translation, contradiction distinction and non-comparability
+→ §36.9 non-tribunal counterfactual comparison and localized failure
+→ §36.10 Projection Comparison Record
+→ WP4 integrated lock audit and Chapter-37 Preparation
+```
+
+The Reader may display separate candidate Records, target coordinates, translation status, comparison basis, criteria, exact Loss, local descriptions, unresolved fields, Stop, and Non-Capture. It may not merge candidates, infer contradiction or superiority, rank persons or theories, select a route or Output Class, or grant authority.
+
+## Chapter 36 Lock and Chapter 37 Reading Route
+
+Read Chapter 36 completion before Chapter 37. Then read the Chapter-37 Preparation Gate, followed by §§37.1–37.4. Keep the route explicit:
+
+```text
+complete PROJECT_AS burden
+→ valid projection candidate
+
+bounded similarity + residuals
+→ analogy candidate
+
+familiar label without traceable function
+→ substitution pressure
+```
+
+## Chapter 37 WP1 Reading Route
+
+```text
+Chapter 36 comparison-method lock
+→ Chapter 37 Preparation Record
+→ §37.1 non-overlapping triad
+→ §37.2 complete PROJECT_AS burden and Source Lock
+→ §37.3 bounded analogy and semantic-role separation
+→ §37.4 cross-domain coordinates and residual ledger
+→ WP2 formal/executable mapping, analogy-only, substitution markers, and counterfactual test
+```
+
+The Reader may display source/target domains, mapping direction, proposed correspondence, candidate subset, exact Loss, source-only residuals, target-only features, incompatibilities, artificial-fitting risks, and unresolved semantic/function status. It may not infer analogy status, semantic preservation, target function, label substitution, route, Output Class, model superiority, domain rank, recommendation, governance, or authority.
+
+## Chapter 37 WP2 Reading Route
+
+```text
+WP1 triad and cross-domain coordinates
+→ §37.5 mapping-status ladder without warrant inheritance
+→ §37.6 analogy as terminal status
+→ §37.7 relation-specific partial analogy
+→ §37.8 label-substitution markers and counterfactual test
+→ WP3 analogy drift, translation breadth, integrated stress, output, and failure
+```
+
+The Reader may display mapping status, implementation evidence, preserved relation, residuals, incompatibilities, uncertainty, Claim Ceiling, substitution markers, and counterfactual variation. It may not infer semantic preservation, target function, analogy usefulness, label-substitution result, route, Output Class, causal equivalence, model superiority, recommendation, governance, or authority.
+
+## Chapter 37 WP3 Reading Route
+
+Read WP3 only after the WP1 triad/source lock and WP2 mapping-status/counterfactual architecture:
+
+```text
+§37.9 drift as new-claim pressure
+→ §37.10 translation breadth without completeness or superiority
+→ §37.11 integrated qualitative stress test
+→ §37.12 canonical route separation, localized failure, Non-Capture and no-authority ceiling
+→ WP4 lock audit
+```
+
+The Reader may display claim transitions, translation dimensions, residuals, counterfactual variations, local failure positions, and available canonical routes. It may not infer semantic preservation, analogy usefulness, target function, label-substitution result, route, Output Class, model completeness, domain rank, recommendation, governance, or authority.
+
+## Chapter 37 Lock and Chapter 38 Reading Route
+
+```text
+Chapter 37 projection / analogy / substitution triad
+→ Chapter 37 integrated lock boundary
+→ Chapter 38 WP1 type jump, origin/function, context and metaphor
+→ Chapter 38 WP2 level, granularity, rescue, person and primitive errors
+→ Chapter 38 WP3 scope, temporality, Loss and invalid-record discipline
+→ Chapter 38 WP4 lock audit and Chapter 39 preparation
+```
+
+The Reader may display local error triggers, missing declarations, prior-failure links, source preservation, exact Loss, and available canonical routes. It may not infer intended metaphor status, substantive truth, person type, motive, diagnosis, legitimacy, recommendation, sanction, governance, or authority.
+
+Preparation site: [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#7-work-package-allocation).
+
+## Chapter 38 WP1 Reading Route
+
+```text
+Chapter 37 projection / analogy / substitution lock
+→ Chapter 38 Preparation Gate
+→ §38.1 invalid type jump as origin-type replacement
+→ §38.2 origin type versus bounded target function
+→ §38.3 target-coordinate completeness and trigger separation
+→ §38.4 bounded metaphor and ambiguity checkpoint
+→ WP2 level, granularity, rescue, person, and primitive errors
+```
+
+The Reader may display the stable source packet, origin type, target coordinates, local trigger candidates, bounded-metaphor status, ambiguity fields, source-preservation ledger, exact Loss, and open canonical routes. It may not infer intended metaphor meaning, pressure-object error result, target-function validity, person type, primitive status, route, Output Class, legitimacy, recommendation, sanction, governance, or authority.
+
+## Chapter 38 WP2 Reading Route
+
+```text
+WP1 type/context/metaphor architecture
+→ §38.5 explicit level relations and inheritance barriers
+→ §38.6 resolution-specific evidence and granularity bridges
+→ §38.7 retained failure plus independently testable new claim
+→ §38.8 macrofunction/person boundary
+→ §38.9 primitive prohibition and genuine dual-record control
+→ WP3 scope, temporality, Loss, invalid-record, and output discipline
+```
+
+The Reader may display levels, granularities, relation status, evidence-transfer status, prior-failure links, new-claim coordinates, person-attribution pressure, primitive pressure, dual-record separation, exact Loss, and open routes. It may not infer substantive cross-level validity, person type, motive, diagnosis, primitive status, route, Output Class, legitimacy, recommendation, sanction, governance, or authority.
+
+## Chapter 38 WP3 Reading Route
+
+```text
+WP1 type/context/metaphor architecture
+→ WP2 level/granularity/rescue/person/primitive architecture
+→ §38.10 coordinate-specific scope tests
+→ §38.11 temporal formation and anti-essence controls
+→ §38.12 five-part Loss plus visibility change
+→ §38.13 invalid-view, failure localization, Reduction, and output boundary
+→ WP4 integrated lock audit
+→ Chapter 39 local RETYPE boundary preparation
+```
+
+The Reader may display declared scope coordinates, temporal trace, five-part Loss, foregrounding/backgrounding, local findings, retained valid material, failure continuity, repair possibilities, and open routes. It may not infer substantive invalidity, a repaired claim, route, Output Class, person/group type, temporal permanence, empirical truth, causality, legitimacy, recommendation, sanction, governance, or authority.
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-reader-sync"></a>
+
+## Reader Route: Invalid Projection to Local RETYPE Limits
+
+```text
+Chapter 29 → origin type and target function
+Chapter 30 → complete PROJECT_AS procedure
+Chapter 37 → projection / analogy / substitution
+Chapter 38 → invalid projection taxonomy
+Chapter 39 → lower/upper RETYPE boundaries and terminal local gate
+Chapter 40 → executed cases and RETYPE lock
+```
+
+Use [Chapter 39 Preparation Record](Chapter_39_Preparation_Record.md) before drafting or reviewing Chapter 39. Read Chapter 6 alongside Chapter 39 to preserve the general Admissibility Band, and defer integrated system-limit conclusions to Chapters 41–53.
+
+<a id="chapter-39-wp1-reader-sync"></a>
+
+## Chapter 39 WP1 Reading Route
+
+```text
+Chapter 38 invalid-projection lock
+→ Chapter 39 Preparation Gate
+→ §39.1 lower RETYPE boundary
+→ §39.2 renaming without purchase
+→ §39.3 Functional Gain and source-only rival
+→ §39.4 upper RETYPE boundary and non-compensation
+→ WP2 Source Trace, Type, Context, and Counterfactual Test
+```
+
+The Reader may display candidate coordinates, proposed target differences, source-only rivals, trace status, and exact Loss. It may not infer boundary passage, target-function validity, route, Output Class, empirical truth, person judgment, legitimacy, recommendation, governance, or authority.
+
+<a id="chapter-39-wp2-reader-sync"></a>
+
+## Chapter 39 WP2 Reading Route
+
+```text
+WP1 lower/upper RETYPE boundary
+→ §39.5 Constitutive Source Trace versus citation and target fit
+→ §39.6 Type Integrity Boundary
+→ §39.7 Context Boundary
+→ §39.8 Counterfactual Projection Test and failure localization
+→ WP3 alternatives, analogy, elasticity, Stop, Non-Capture, and complete local gate
+```
+
+The Reader may display source-trace fields, target coordinates, variation axes, Loss, and local failure positions. It may not infer constitutive truth, causality, candidate validity, route, Output Class, person judgment, legitimacy, recommendation, governance, or authority.
+
+<a id="chapter-39-wp3-reader-sync"></a>
+
+## Chapter 39 WP3 Reading Route
+
+```text
+§39.9 alternatives
+→ §39.10 analogy boundary
+→ §39.11 elasticity
+→ §39.12 Stop
+→ §39.13 Non-Capture
+→ §39.14 complete local RETYPE gate
+```
+
+The Reader may display gate declarations and route openness but may not infer truth, causality, best function, person judgment, legitimacy, governance, or authority.
+
+<a id="chapter-39-lock-and-chapter-40-preparation-reader-sync"></a>
+
+## Reader Route: Local RETYPE Gate to Cases and Lock
+
+```text
+Chapter 39 §§39.1–39.14
+→ lower/upper boundary, Source Trace, alternatives, elasticity, Stop, Non-Capture
+→ provisionally locked local gate
+→ Chapter 40 WP1 positive case architecture
+→ WP2 countercases
+→ WP3 confusion cases
+→ WP4 Local Audit, output mapping, artifact audit, and exact lock decision
+```
+
+Use [Chapter 40 Preparation Record](Chapter_40_Preparation_Record.md) before drafting Chapter 40. The Reader may show case-family packets, required fields, audit coverage, open alternatives, artifact existence, and lock status. It may not infer substantive case warrant, canonical output, person status, legitimacy, recommendation, governance, or authority.
+
+## Chapter 40 WP1 Reader Pathway
+
+```text
+Chapter 39 local RETYPE gate
+→ Chapter 40 §40.1 case architecture
+→ §§40.2–40.8 seven positive family demonstrations
+→ Chapter 40 WP2 countercases
+```
+
+The Reader may display source/target packets, counterpressure, alternatives, Loss, and artifact status. It must visibly distinguish canonical case-family prose from instantiated case artifacts and may not infer passage, Output Class, person status, legitimacy, recommendation, governance, or authority.
+
+<a id="chapter-40-wp2-reader-sync"></a>
+
+## Chapter 40 WP2 Reader Pathway
+
+```text
+§40.1 common case architecture
+→ §§40.2–40.8 positive family demonstrations
+→ §§40.9–40.15 seven countercase demonstrations
+→ WP3 six confusion cases
+→ WP4 Local Audit, mapping, artifact audit, and exact lock decision
+```
+
+The Reader may display the local invalidity pressure, preserved source material, alternatives, Loss, failure continuity, and artifact status. It may not infer a countercase route, Output Class, person judgment, diagnosis, legitimacy, recommendation, sanction, governance, authority, or artifact-complete RETYPE lock.
+
+<a id="chapter-40-wp3-reader-sync"></a>
+
+## Chapter 40 WP3 Reader Pathway
+
+```text
+§40.1 common case architecture
+→ §§40.2–40.8 positive families
+→ §§40.9–40.15 countercases
+→ §§40.16–40.21 confusion cases
+→ WP4 Local Audit, canonical mapping, artifact audit, and exact lock decision
+```
+
+The Reader may display competing operation or claim forms, discriminants, separate records, residuals, alternatives, Loss, and artifact status. It may not infer the correct operation, substantive warrant, route, Output Class, person judgment, legitimacy, recommendation, governance, authority, or artifact-complete RETYPE lock.
+
+
+## Chapter 40 Bounded Lock and Chapter 41 Reader Pathway
+
+Recommended route:
+
+```text
+Chapter 40 §§40.1–40.21
+→ inspect the twenty Layer-1 family packets
+
+§40.22
+→ distinguish architecture readiness from substantive artifact audit
+
+§40.23
+→ inspect canonical mapping without case-result inference
+
+§40.24
+→ inspect bounded method lock and artifact-lock Stop
+
+Chapter 41 Preparation Record
+→ enter LIMITS through recursive risk and prior-disposition continuity
+```
+
+The Reader may display:
+
+- 20/20 Layer-1 family coverage;
+- 32/32 audit-question coverage;
+- zero completed lock-critical packages;
+- `admissible_with_bounded_claim` for the method-architecture claim;
+- `mandatory_stop` for the artifact-complete lock claim;
+- Part-III bounded provisional-lock status.
+
+It may not display any `P/N/X` family as passed, failed, analogous, reduced, stopped, or non-captured, and may not imply that LIMITS repairs the missing artifacts or increases authority.

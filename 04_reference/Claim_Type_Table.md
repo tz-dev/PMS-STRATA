@@ -3397,3 +3397,658 @@ The locked SUB claim type is a bounded reconstruction claim about the internal c
 It does not include a contextual target-function claim. Any such claim enters Chapter 29 and RETYPE only as a separate `PROJECT_AS` occurrence with its own context, source trace, Loss, result, and Claim Ceiling.
 
 Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).
+
+## Chapter 29 Preparation — Typed RETYPE Claim
+
+The governing Chapter-29 claim has the bounded form:
+
+```text
+Within target context C,
+source object X,
+while retaining origin type T,
+performs bounded function F.
+```
+
+The claim must bind source identity, origin type, target context, target function, source-traceable functional relation, expected target-context difference, validity scope, Claim Ceiling, Loss, alternatives, counterpressure, Stop, and Non-Capture. It is not a claim about what X is intrinsically or universally.
+
+```text
+target function claim
+≠ origin-type claim
+≠ operator-identity claim
+≠ authority claim
+```
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 WP1 Canonical Claim Types
+
+| Claim type | Minimum burden | Prohibited shortcut |
+|---|---|---|
+| typed RETYPE claim | explicit source object `X`, origin type `T`, target context `C`, and candidate function `F` | target label treated as its own warrant |
+| source-entry claim | identifiable source object, source Record, reference, origin type, prior disposition, uncertainty, and inherited Loss | target context retroactively manufactures the source object |
+| target-context entry | bounded scene or object, Frame where relevant, relative level, analytical purpose, and immediate Claim Ceiling | “macro,” “system,” or later date as sufficient context |
+| origin-type-preservation claim | source type and Record remain visible; function is separately marked; revision remains source-side | function language replaces or immunizes origin typing |
+| target-function candidate | specific relational target-side difference and a no-function alternative | relevance, usefulness, resemblance, centrality, or frequency |
+| no-additional-function contrast | same source object, different target context, unchanged warranted target reconstruction | source validity treated as automatic target function |
+
+WP1 claim entry does not establish Functional Continuity, execute `PROJECT_AS`, or select a final Output Class.
+
+Primary site: [Chapter 29 WP1](../01_blocks/04_part_iii_retype.md#29-4-target-function).
+
+## Chapter 29 WP2 Canonical Claim Types
+
+| Claim | Required support | What it does not establish |
+|---|---|---|
+| source-object-integrity claim | retained reference, origin type, history, constitutive relations, prior limits, uncertainty, and Loss | complete reproduction, losslessness, or target-function success |
+| load-bearing-source claim | feature-specific relation plus bounded alteration pressure | universal necessity, sole causality, or source-feature ranking |
+| Functional-Continuity candidate | specific function, source-to-context relation, target-side difference, and bounded source-change sensitivity | completed `PROJECT_AS`, final Output Class, or cross-context validity |
+| Contextual-Boundedness claim | scene, roles, relative level, duration, validity scope, purpose, Claim Ceiling, and Loss | recommendation, sanction, legitimacy, or authority inheritance |
+| elasticity finding | materially opposite source structures with invariant target label | automatic final class selection; later routing remains required |
+
+Primary site: [Chapter 29 WP2 completion boundary](../01_blocks/04_part_iii_retype.md#29-8-contextual-boundedness).
+
+## Chapter 29 WP3 Claim and Result Separation
+
+A RETYPE claim keeps four axes distinct:
+
+| Axis | Bounded claim |
+|---|---|
+| Source integrity | whether X remains identifiable under T with source history, limits, and Loss |
+| Target-function effect | whether X produces the specific warranted target-side difference in C |
+| Prior disposition | which earlier source or operation result enters the claim |
+| Canonical Output Class | the final closed-class mapping after complete operation audit |
+
+No axis automatically determines another. A no-projection result can preserve a valid source object; a failed target function need not fail the source claim; a new context or function creates a new claim occurrence without erasing earlier results.
+
+Primary site: [§29.10](../01_blocks/04_part_iii_retype.md#29-10-functional-projection-as-a-typed-claim).
+
+## Chapter 29 Lock and Chapter 30 Claim Architecture
+
+| Claim or result layer | Required burden | Must remain distinct from |
+|---|---|---|
+| source claim | source object, origin type, reference, coordinates, prior disposition, inherited Loss | target-function success |
+| target-function claim | declared context, function, expected difference, trace, sensitivity, scope | source identity and operator type |
+| local `PROJECT_AS` result | operation-specific finding for one delimited claim | canonical Output Class |
+| canonical mapping | exactly one of ten classes after full routing | local phrase, sensitivity result, or failure code |
+| chapter-level method result | `admissible_but_provisional` for locked Chapter 29 | concrete projection result |
+
+Chapter 30 preparation preserves all five layers and prohibits claim or authority inheritance.
+
+## Chapter 30 WP1 Claim Architecture
+
+| Layer | WP1 declaration | Not established by WP1 |
+|---|---|---|
+| Source object | independently identifiable `X_g` and source reference | target-function warrant |
+| Source typing | visible `T_o` | immutable or exclusive source truth |
+| Target entry | preliminary `C_t`, candidate `F_t`, and `g'` | complete target declaration or validity scope |
+| Operation controls | pending `J`, current/inherited `L`, pending `V` | operation execution or result |
+| Prior status | prior disposition, uncertainty, inherited Loss retained | source-claim upgrade or repair |
+
+The arrow in the minimal signature expresses claim direction, not causality, necessity, or automatic transformation.
+
+Primary site: [§§30.1–30.4](../01_blocks/04_part_iii_retype.md#chapter-30-project-as-signature-context-and-validity-scope).
+
+## Chapter 30 WP2 Claim Controls
+
+| Claim position | Permitted WP2 statement | Not established |
+|---|---|---|
+| target declaration | a bounded target object/scene and candidate contextual function are declared | actual function warrant |
+| projection justification | analytical need, candidate carrier, rival pressure, and expected difference are stated | superiority of the preferred projection |
+| Constitutive Source Trace | candidate load-bearing and modulating relations are traceable to sources | causal sufficiency or complete source recovery |
+| Counterfactual Sensitivity | bounded source variations and expected claim effects are specified | causal proof, score, or canonical class |
+
+WP2 produces a testable claim packet. It does not execute `PROJECT_AS`, establish the target function, select a sensitivity result, or map an Output Class.
+
+## Chapter 30 WP3 Claim Separation
+
+| Position | Question | May remain independent? |
+| --- | --- | --- |
+| source-object status | Does the source remain identifiable? | yes |
+| origin-type status | How does source typing stand? | yes; not immunized |
+| prior disposition | What source-side result is inherited? | yes; never erased by projection |
+| local `PROJECT_AS` result | What happened to this bounded target-function claim? | yes |
+| canonical Output Class | Which system-wide class maps the executed claim? | yes; exactly one when selected |
+
+```text
+valid source + failed projection
+≠ invalid source
+
+no-projection
+≠ failed_transformation
+≠ non_capture by definition
+```
+
+Primary site: [Projection Results](../01_blocks/04_part_iii_retype.md#30-12-projection-results).
+
+\n## Chapter 30 Lock and Chapter 31 Family-Claim Discipline\n\n| Claim position | Required status | Prohibited collapse |\n|---|---|---|\n| generic `PROJECT_AS` method | provisionally locked chapter-level method | method completeness into occurrence success |\n| source Trajectory | prior PATH-established claim | family usefulness into source repair |\n| target frame-function | new context-bound claim | origin-type or `□` identity |\n| historical load | constitutive source-to-target relation | duration, salience, or citation alone |\n| family result | independently audited operation occurrence | inherited Chapter-30 result |\n\nPrimary sites: [Chapter 30 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-30-completion-boundary) and [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Chapter 31 WP1 Claim Architecture
+
+| Claim position | WP1 status | Not established |
+|---|---|---|
+| source claim | prior PATH Trajectory retained | target-function warrant |
+| source selection | declared independent of target fit | substantive independence automatically proven |
+| target claim | later configuration and present conditions declared | historical contribution established |
+| function claim | concrete bounded frame-function candidate | `□` identity, determinism, or permanent transfer |
+| evidence claim | source, target, and retrospective layers separated | evidence interchangeability |
+| contrast claim | same source retained across `Y/Z` | positive or no-projection result selected |
+
+Primary site: [Chapter 31 WP1](../01_blocks/04_part_iii_retype.md#chapter-31-trajectory-as-frame-function).
+
+
+## Chapter 31 WP2 Historical-Load Claim Architecture
+
+| Claim position | Required WP2 statement | Prohibited inference |
+|---|---|---|
+| source-object warrant | `X` remains a PATH-established Trajectory | valid source automatically performs a target function |
+| Historical-Load claim | named source feature is traceably carried, transmitted, or reactivated into a bounded target difference | duration, salience, remembrance, or documentation proves load |
+| carrier role | feature is load-bearing, modulating, or unresolved for this claim | every foregrounded feature is constitutive |
+| conditioning claim | named praxis dimension, role, level, and time window are affected | necessity, prediction, or causal monopoly |
+| multiple-source claim | present and historical rivals remain visible | historical priority or narrative coherence establishes dominance |
+| relative-load statement | qualitative relation among supported contributions | percentage, score, ranking, or canonical Output Class |
+
+WP2 establishes this claim architecture without deciding the concrete `Y/Z` result.
+
+Primary site: [Chapter 31 WP2](../01_blocks/04_part_iii_retype.md#31-5-historical-load).
+
+
+## Chapter 31 WP3 Claim Separation
+
+| Claim | Required support | Does not inherit |
+|---|---|---|
+| rhetorical-history rejection | missing or failed source/trace/target/sensitivity burdens | source-Trajectory invalidity |
+| carrier-sensitivity claim | bounded source variation and target-change reasoning | causal necessity or quantified share |
+| same-end pressure claim | supported alternative histories and declared target granularity | identical paths or universal historical irrelevance |
+| competing frame-function claim | separate target difference, trace, scope, Loss, and sensitivity | another function's result |
+| background relevance claim | contextual usefulness without distinct target work | `PROJECT_AS` success |
+| no-projection claim | absence of warranted distinct function for the delimited claim | analytical failure or source erasure |
+| failed frame-projection claim | complete family burdens not satisfied | automatic PATH revision |
+
+Primary site: [Chapter 31 WP3](../01_blocks/04_part_iii_retype.md#31-8-rhetorical-history-versus-frame-function).
+
+## Chapter 31 Lock and Chapter 32 Preparation — Claim Separation
+
+| Claim position | Required warrant | Must remain separate from |
+|---|---|---|
+| source Trajectory claim | prior PATH/COMPOSE record, source boundaries, internal structure, disposition, Loss | Macro-Event function |
+| Macro-Event boundary claim | supported start, end, constitutive phases, turning points, adjacent developments | period name or later outcome alone |
+| target transition-function claim | wider target Frame and concrete changed possibilities or path structure | causal turning-point proof |
+| compression claim | retained multi-resolution trace and exact five-part Loss | punctual occurrence |
+| operation-chain claim | separate COMPOSE and PROJECT_AS occurrences and Records | automatic inheritance of result |
+| canonical mapping claim | complete executed audit | local family vocabulary or chapter lock |
+
+Primary site: [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md).
+
+
+## Chapter 32 WP1 Claim Separation
+
+| Claim position | Required support | What it does not establish |
+|---|---|---|
+| source Trajectory claim | prior PATH record and source-side boundaries | Macro-Event function |
+| projection boundary claim | why this source scope is tested for the target function | target transition gain |
+| target-placement claim | wider Path, before/after relation, preceding/following developments | causal turning point |
+| Macro-Event function claim | concrete source-traceable transition difference | Event origin type or necessity |
+| chapter-method claim | coherent family architecture and open failure routes | occurrence result or authority |
+
+Primary site: [Chapter 32 WP1](../01_blocks/04_part_iii_retype.md#chapter-32-trajectory-as-macro-event).
+
+## Chapter 32 WP2 Claim Separation
+
+| Claim position | Required support | Does not establish |
+|---|---|---|
+| internal-duration claim | source sequence, phases, turning points, uncertainty | target transition gain |
+| heterogeneity claim | roles, subpaths, costs, asymmetries, Non-Events, consequences | unitary function or fragmentation automatically |
+| phase-load claim | target-relative material sensitivity of phases/relations | score or causal share |
+| event-function claim | concrete wider-Path praxis difference | causal turning point, necessity, monopoly |
+| descriptive compression claim | bounded legibility gain | Macro-Event function |
+
+Primary site: [Chapter 32 WP2](../01_blocks/04_part_iii_retype.md#32-5-internal-duration).
+
+
+## Chapter 32 WP3 Claim Separation
+
+| Claim position | Required support | Must remain separate from |
+|---|---|---|
+| punctualization-error claim | loss of constitutive duration, phase relations, heterogeneity, or origin-type integrity | one-node display alone |
+| operation-chain claim | separate `COMPOSE` and `PROJECT_AS` occurrences, Records, Loss, and results | chain-level success shorthand |
+| boundary-sensitivity claim | source-supported rival periodizations and changed target consequences | preference for dramatic fit |
+| alternative-source claim | improved precision and traceability under a new source claim | silent source substitution |
+| no-projection claim | no warranted distinct event function for the declared occurrence | source irrelevance or PATH failure |
+| failed projection claim | indispensable family warrant absent or contradicted | automatic source-Trajectory invalidation |
+
+Primary site: [Chapter 32 WP3](../01_blocks/04_part_iii_retype.md#32-8-punctualization-error).
+
+## Chapter 33 Recurrent-Form Claim Stack
+
+| Claim | Required warrant | Must remain separate from |
+|---|---|---|
+| source-Trajectory claims | prior PATH Records and evidence | recurrent-form and attractor-function result |
+| comparability claim | declared Frame, granularity, role, time, evidence, and transition coordinates | mere shared label or count |
+| recurrent-form source claim | constitutive recurrence across independently selected trajectories | retrospective motif |
+| reproduction/path-influence claim | source-traceable friction, expectation, role, Non-Event, repair/exit, or alternative-cost work | causal sufficiency or determinism |
+| target attractor-function claim | bounded later-path difference in declared context | Α identity or person/group type |
+| local `PROJECT_AS` result | complete occurrence audit | canonical class or chapter-method result |
+| canonical Output Class | post-audit routing of one delimited claim | automatic family label |
+
+Primary site: [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md).
+
+
+## Chapter 33 WP1 Claim Separation
+
+| Claim position | Current WP1 status | Non-inheritance rule |
+|---|---|---|
+| individual Trajectory warrant | prior PATH records retained | one supported Trajectory does not warrant another |
+| recurrent-form source warrant | candidate packet declared | multiple trajectories do not automatically form one source |
+| comparability warrant | coordinates declared; result open | count or shared label does not establish comparability |
+| Pattern Threshold | method declared; not adjudicated | formal completeness does not cross the threshold |
+| dynamic attractor-function warrant | candidate in `D`; no result | source-form validity does not establish target function |
+| no-projection in `E` | possible; not selected | negative route is not inherited from target contrast |
+| local `PROJECT_AS` result | not selected | no automatic route |
+| canonical Output Class | not selected | exactly one class only after complete audit |
+
+Primary site: [Chapter 33 WP1](../01_blocks/04_part_iii_retype.md#chapter-33-recurrent-trajectory-form-as-attractor-function).
+
+## Chapter 33 WP2 Claim Separation
+
+| Claim position | Required support | Does not establish |
+|---|---|---|
+| constitutive-repetition claim | source-supported recurrent relation, allowable variation, break conditions | target function |
+| reproduction/path-influence claim | temporal availability and persistence/transmission/institutionalization/reactivation pathway | causal sufficiency or probability |
+| Attractor-Load claim | concrete bounded later-path difference linked to source carriers | score, causal share, universal law |
+| dynamic attractor-function claim | transition-form stabilization trace | static state stabilization |
+| static attractor-function claim | configuration/range stabilization trace | recurrent transition form |
+
+Primary site: [Chapter 33 WP2](../01_blocks/04_part_iii_retype.md#33-5-constitutive-repetition).
+
+## Chapter 33 WP3 Claim Separation
+
+| Claim position | Required support | Does not establish |
+|---|---|---|
+| retrospective-motif claim | documented descriptive similarity | recurrent-form source or mechanism |
+| recurrent-form source claim | target-blind comparable source set, constitutive relation, variation, break conditions | target-function effect |
+| selection/missingness claim | accessible population, inclusion/exclusion, dependence, known omissions | complete population or unbiased sample |
+| counterfactual-sensitivity claim | source-constrained phase/frame/role/cost/source/comparison/mechanism/target variation | causal necessity, probability, or prediction |
+| rival-account claim | source- and target-specific comparative support | automatic defeat of the attractor claim |
+| failed attractor-projection claim | located failure of source, mechanism, target work, or scope | automatic invalidation of each source Trajectory |
+
+Primary site: [Chapter 33 WP3](../01_blocks/04_part_iii_retype.md#33-8-recurrent-form-versus-retrospective-similarity).
+
+## Chapter 33 Lock and Chapter 34 Claim Separation
+
+| Claim position | Required support | Does not establish |
+|---|---|---|
+| source-component claim | independently warranted local occurrences | relational composite |
+| source-composite claim | components plus relation topology and boundaries | target function |
+| functional-formation claim | concrete target-context praxis difference carried by relations | operator identity or causality |
+| emergent-function claim | composite-level visibility plus complete Source Trace | source-free novelty |
+| chapter-method lock | complete family architecture and audit | pressure-object result |
+
+## Chapter 34 WP1 Claim Separation
+
+| Claim position | Required support | Does not establish |
+|---|---|---|
+| component claim | independent occurrence warrant | relational composite |
+| relation/composite claim | boundaries and relation map | higher-level function |
+| target-context claim | level, Frame, granularity, time, roles, praxis dimensions | target effect |
+| boundary-function claim | relationally produced target separation | □ identity or legitimacy |
+| repeated-Non-Event attractor claim | expectation Frames, temporal relation, later-possibility effect | Α identity or prediction |
+| asymmetry/access-function claim | coordinated distributed load and action-corridor difference | Ω identity or moral rank |
+| chapter-method claim | coherent family architecture and open failure routes | pressure-object result or authority |
+
+Primary site: [Chapter 34 WP1](../01_blocks/04_part_iii_retype.md#34-1-basic-claim).
+
+## Chapter 34 WP2 Claim Separation
+
+| Claim position | Required support | Must not be inferred from |
+|---|---|---|
+| commitment occurrence | explicit or practice-supported commitment, role, time, and source basis | commitment vocabulary alone |
+| binding-function | continuity, related commitments, breach/revision/exit consequences, target difference | repetition count or formal obligation |
+| local integration occurrence | bounded local coordination or repair with residuals disclosed | positive outcome label |
+| integration-function | relations among local integrations and target-level coordination | multiple local successes |
+| emergent function | composite-level visibility plus component-and-relation Source Trace | unexplained novelty or macro salience |
+| component role | claim-bound removal, substitution, modulation, conflict, and scope evidence | score, centrality, or permanent type |
+| internal-conflict consequence | source-supported weakening, redirection, split, reduction, Stop, Failure, or Non-Capture | analyst preference for one macrofunction |
+
+Primary site: [Chapter 34 WP2](../01_blocks/04_part_iii_retype.md#34-5-repeated-commitments-as-higher-level-psi-function).
+
+## Chapter 34 WP3 Claim Separation
+
+| Claim position | Required support | Must not be inferred from |
+|---|---|---|
+| descriptive aggregate | warranted components and declared source boundary | macrofunction vocabulary |
+| functional formation | relation topology plus concrete target praxis difference | component accumulation or visibility |
+| threshold crossing | qualitative function-specific burdens and live rivals | count, duration, repetition, density, salience, or model completion |
+| source-boundary claim | target-blind inclusion and justified alternatives | later target fit |
+| higher-level authority claim | prohibited | analytical level, readability, schema validity, or smoke success |
+| failed projection | localized failed source-to-target burden | automatic invalidation of all components or source-side claims |
+
+Primary sites: [§34.8](../01_blocks/04_part_iii_retype.md#34-8-aggregation-versus-functional-formation) through [§34.11](../01_blocks/04_part_iii_retype.md#34-11-failed-higher-level-projection).
+
+## Chapter 34 Lock and Chapter 35 Claim Separation
+
+| Claim position | Required support | Does not establish |
+|---|---|---|
+| operator-occurrence claim | source-supported occurrence under canonical dependencies | relative weighting |
+| weighting claim | declared qualitative criteria, scope, roles, time, and relation evidence | new operator or prediction |
+| modulator claim | contextual access/threshold/timing/persistence difference | operator identity or causality |
+| profile-formation claim | stable source-traceable occurrence/modulator relation | formal type or target function |
+| profile-projection claim | separate `PROJECT_AS`, target praxis difference, exact Loss, and Counterfactual Sensitivity | person trait or authority |
+| chapter-method lock | complete method and audit | pressure-object result |
+
+## Chapter 35 WP1 Claim Separation
+
+| Claim position | Required support | Does not establish |
+|---|---|---|
+| operator-occurrence claim | occurrence identity, source, Frame, role, time, uncertainty | weighting |
+| relation claim | support, opposition, sequence, accessibility, persistence | profile |
+| weighting claim | qualitative declared dimension and comparison basis | dependency change or numerical dominance |
+| modulator claim | contextual condition and tested relation path | operator identity or causality by label |
+| profile-formation claim | stable source-traceable occurrence/modulator relation | target function |
+| target-placement claim | declared `K/L` coordinates | profile effect |
+| profile-function claim | concrete later-praxis difference through `PROJECT_AS` | prediction or authority |
+
+Primary site: [§§35.1–35.4](../01_blocks/04_part_iii_retype.md#35-1-purpose).
+
+## Chapter 35 WP2 Claim Separation
+
+| Claim position | Required support | Does not establish |
+|---|---|---|
+| profile-formation claim | warranted occurrences, relation topology, weighting, modulators, scope, stability and break conditions | target function |
+| profile-stability claim | declared window plus role/phase/context counterpressure | permanence or prediction |
+| trajectory-form claim | warranted temporal object and change in transition, Λ, attractor, cost, or continuation structure | probability, inevitability, or causal monopoly |
+| emergent-profile claim | composite-level visibility plus full reconstructible Source Trace | new operator, entity, or origin type |
+| rival-profile claim | same-source comparison criteria and Loss | person/group type or automatic preferred route |
+| target-function claim | separate `PROJECT_AS`, concrete target difference, Source Trace and full audit | source-profile truth by itself |
+
+Primary site: [§§35.5–35.7](../01_blocks/04_part_iii_retype.md#35-5-modulating-profile).
+
+## Chapter 35 WP3 Claim Separation
+
+| Claim | Required support | Does not establish |
+|---|---|---|
+| profile description | warranted source relation topology and bounded stability | formal type or target function |
+| profile-formation threshold | source discrimination and break conditions | later-praxis function |
+| profile projection | explicit `PROJECT_AS`, target difference, Source Trace, Loss, rivals | origin-type change or prediction |
+| profile-function threshold | additional target PraxisPurchase and Counterfactual Sensitivity | causal necessity or authority |
+| profile inflation finding | failed purchase or traceability under label pressure | negative person/group verdict |
+| add-on stress result | optional adversarial test | STRATA rule or route authority |
+
+Primary site: [§§35.8–35.12](../01_blocks/04_part_iii_retype.md#35-8-profile-versus-type).
+
+## Chapter 35 Lock and Chapter 36 Claim Separation
+
+| Claim position | Required support | Does not establish |
+|---|---|---|
+| candidate projection | complete family-specific `PROJECT_AS` burden | compatibility or preference |
+| compatibility claim | explicit non-overlapping or complementary target coordinates/work | forced integration |
+| competition claim | shared source and materially overlapping target coordinates/work | one candidate false |
+| comparative preference | discriminative gain, traceability, sensitivity, Loss, fit, integrity, parsimony | source identity or absolute truth |
+| indeterminacy claim | completed comparison with unresolved responsible selection | candidate Failure automatically |
+| non-translation claim | distinct preserved dimensions or Loss profiles | contradiction or tribunal ranking |
+
+## Chapter 36 WP1 Claim Positions
+
+| Claim position | Required object | WP1 status |
+|---|---|---|
+| source identity claim | stable origin-typed source object | declared, not re-adjudicated |
+| candidate-specific source-trace claim | declared load-bearing source subset | required, substantive load open |
+| target-coordinate claim | context, level, object, function, scopes, time | declared |
+| compatibility claim | non-exclusive target work | method defined, result open |
+| competition claim | shared coordinates and overlapping work | method defined, result open |
+| alternative/no-projection claim | serious rival or source-only account | retained |
+| comparative-preference claim | complete qualitative comparison | not executed |
+| canonical Output-Class claim | delimited audited claim | not selected |
+
+Comparative preference cannot inherit source identity, empirical truth, tribunal authority, or application authority.
+
+## Chapter 36 WP2 Claim Positions
+
+| Claim position | Required support | WP2 boundary |
+|---|---|---|
+| comparative-criteria claim | explicit applicability of eight non-compensatory criteria | no score or automatic ranking |
+| discriminative-performance claim | positive case, countercase, material source variation, assumption burden | no coverage-as-discrimination |
+| comparative-Loss claim | exact five-part candidate Loss and justified comparison basis | non-comparability remains possible |
+| bounded-preference claim | viable candidates plus declared target coordinates and comparative reasons | not source identity or absolute truth |
+| co-validity/context-dependence claim | independent family viability and non-exclusive/context-varied target work | no forced integration |
+| underdetermination/non-comparability claim | located evidence or comparison-basis limit | not automatic Failure or new Output Class |
+| no-projection preference claim | source-only/present-target account with better discrimination | source finding retained |
+
+Primary site: [Chapter 36 WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-36-wp2-completion-boundary).
+
+## Chapter 36 WP3 Claim Positions
+
+| Claim position | Required support | WP3 boundary |
+|---|---|---|
+| non-translation claim | material change required to transfer target work, scope, Source Trace, or Loss | not contradiction or source-type difference automatically |
+| partial-translation claim | explicit common segment plus retained non-equivalent remainder | no silent total equivalence |
+| contradiction claim | same delimited claim, compatible scope/evidence, affirmation and denial | not vocabulary difference or competition alone |
+| non-comparability claim | located absence of justified common comparison basis | candidates may retain separate findings |
+| comparative-governance claim | explicit anti-tribunal, Claim Ceiling, Stop, and authority prohibition | no person, political, legal, institutional, or theory verdict |
+| comparison-record claim | references to separate candidate Records and exact comparison fields | no schema expansion, operation merger, or automatic Output mapping |
+| comparison-failure claim | exact failed claim position and preserved valid findings | rival success and source invalidation do not follow automatically |
+
+Primary site: [Chapter 36 WP3 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-36-wp3-completion-boundary).
+
+## Chapter 36 Lock and Chapter 37 Claim Separation
+
+| Claim position | Required support | Does not establish |
+|---|---|---|
+| functional projection | full bounded `PROJECT_AS` burden | source-type identity |
+| structural analogy | declared relation of similarity, scope, residuals, counterpressure | semantic preservation or target function |
+| symbolic/executable mapping | explicit correspondence and technical validity | praxeological function or empirical truth |
+| label-substitution finding | missing discrimination, context, Source Trace, sensitivity, Loss, or alternatives | source object invalidity |
+| analogy-only result | useful bounded resemblance under completed audit | failed transformation automatically |
+
+## Chapter 37 WP1 Claim Types
+
+| Claim type | Required declaration | Does not establish |
+|---|---|---|
+| Functional-projection claim | typed source, source reference, target context/function, PraxisPurchase, Source Trace, Counterfactual Sensitivity, exact Loss, alternatives, Claim Ceiling | source-type replacement, semantic identity, authority |
+| Structural-analogy claim | source/target relata, comparison dimension, direction, preserved relation, residuals, incompatibilities, uncertainty, scope | target function, origin-type identity, semantic preservation |
+| Cross-domain coordinate claim | source/target domains and objects, target context, mapping direction, proposed correspondence | mapping validity or usefulness |
+| Semantic-preservation claim | comparable role, dependence, constraint, consequence, and praxeological load under bounded scope | total equivalence or model superiority |
+| Residual claim | source-only, target-only, incompatible, or artificially fitted structure | sixth Loss field or automatic failure |
+| Label-substitution pressure claim | missing context, function, discrimination, trace, sensitivity, Loss, or alternatives | final failure route before audit |
+
+Primary site: [Chapter 37 WP1](../01_blocks/04_part_iii_retype.md#37-1-why-the-distinction-matters).
+
+## Chapter 37 WP2 Claim Types
+
+| Claim type | Required support | Does not establish |
+|---|---|---|
+| Symbolic-mapping claim | declared signs, labels, and correspondence scope | relation preservation, semantic identity, target function |
+| Formal-mapping claim | explicit relation schema and preservation conditions | comparable praxeological load or empirical truth |
+| Executable-mapping claim | implementation status and target-side technical conditions | semantic preservation, source validity, `PROJECT_AS` |
+| Terminal-analogy claim | bounded useful correspondence, residuals, uncertainty, countercases, Claim Ceiling | target function or hidden future upgrade |
+| Partial-analogy claim | exact preserved relation and unmapped remainder | percentage similarity or global equivalence |
+| Label-substitution claim | missing function/discrimination/trace/sensitivity/Loss/alternatives under bounded audit | source-object invalidity automatically |
+| Counterfactual-mapping claim | separate source, target, direction, label, countercase, and no-projection variations | causal or semantic proof |
+
+Primary site: [Chapter 37 WP2](../01_blocks/04_part_iii_retype.md#37-5-symbolic-formal-and-executable-mapping).
+
+## Chapter 37 WP3 Claim Types
+
+| Claim type | May establish | Does not establish |
+|---|---|---|
+| Analogy-drift claim | an unmarked increase from resemblance to semantic, functional, typological, primitive, or authority load | invalidity of every earlier bounded correspondence |
+| Translation-breadth claim | expression, relation, execution, compression, or rendering capacity under declared purpose | semantic superiority, completeness, or valid RETYPE |
+| Integrated stress-test claim | sensitivity and boundary findings across source, target, mapping, semantic, residual, rival, and label variation | similarity score, causal equivalence, or automatic Output Class |
+| Cross-domain Non-Capture claim | the exact comparison that cannot responsibly be adjudicated | permission to retain a stronger unsupported claim |
+| Authority-boundary claim | prohibition of person, domain, theory, governance, recommendation, sanction, or application authority | substantive semantic adjudication |
+
+Primary site: [Chapter 37 WP3](../01_blocks/04_part_iii_retype.md#37-9-analogy-drift).
+
+## Chapter 37 Lock and Chapter 38 Preparation Claim Types
+
+| Claim type | Required support | Does not establish |
+|---|---|---|
+| Invalid-type-jump claim | explicit source origin type, alleged replacement, operation/context record, and Type-Integrity test | failure of every bounded target function |
+| Missing-context claim | absent target object/context/level/Frame/time/scope declaration | substantive target-function falsity automatically |
+| Level-mixing claim | identified relative levels and unmarked evidential or object-identity transfer | invalidity of every cross-level relation |
+| Granularity-mixing claim | identified fine/coarse positions and missing granularity relation | invalidity of multi-granular analysis |
+| Projection-rescue claim | prior failure, changed coordinates, and missing new-claim burden | impossibility of a genuinely new projection |
+| Person-level type-jump claim | configuration/composite function rewritten as person/group essence or trait | diagnosis, motive, blame, or rank |
+| Scope/temporal-inflation claim | bounded original claim and unsupported widening across scope or time | invalidity of a narrower surviving claim |
+| Projection-without-Loss claim | missing exact Loss and visibility-change declaration | automatic total failure rather than possible reduction |
+
+Preparation site: [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#7-work-package-allocation).
+
+## Chapter 38 WP1 Claim Forms
+
+| Claim form | Required declaration | Current boundary |
+|---|---|---|
+| Bounded target-function claim | typed source, target context/object/level/Frame/time/function/scope, Source Trace, exact Loss | may enter `PROJECT_AS` audit |
+| Origin-type identity claim | explicit new typing claim and continuity burden | cannot inherit target-function warrant |
+| Bounded metaphor | non-literal scope and limited Claim Ceiling | no automatic operation, semantic, type, or output status |
+| Ambiguous natural-language claim | intended formal status or explicit unresolved status | review, reduction, or Non-Capture; no invented formalization |
+
+Primary site: [Chapter 38 WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-38-wp1-completion-boundary).
+
+## Chapter 38 WP2 Claim Types
+
+| Claim type | Required support | Does not establish |
+|---|---|---|
+| Cross-level relation claim | stable objects and levels, named relation, level-specific evidence, countercases, Loss | identity, automatic evidential or functional inheritance |
+| Multi-granular claim | stable reference, declared operation/relation, resolution-specific evidence, countercase handling, Loss | fine-detail truth priority or automatic macrofunction |
+| Post-failure projection claim | prior-claim reference/disposition, new `PROJECT_AS` record, stable target coordinates, Source Trace, alternatives, Loss | erasure or repair of the original failure |
+| Person-participation claim | bounded participation relation, context, time, evidence, uncertainty, Claim Ceiling | essence, diagnosis, rank, motive, stable trait |
+| Derived-function claim | source-traceable function, bounded context, retained origin type | PMS operator, new primitive, Δ–Ψ revision |
+| Genuine dual-record claim | separate operation records, outputs, coordinates, inter-record relation, Loss | merged operation or inherited result |
+
+Primary site: [Chapter 38 WP2](../01_blocks/04_part_iii_retype.md#38-5-unmarked-level-mixing).
+
+## Chapter 38 WP3 Claim Types
+
+| Claim type | Required support | Does not establish |
+|---|---|---|
+| Scope-extension claim | widened coordinates, additional source load, new countercases, revised Claim Ceiling and exact Loss | validity of the original or extended claim automatically |
+| Temporally bounded function claim | formation, phase, interruption, persistence, dissolution, observation window, excluded periods, uncertainty | permanence, essence, prediction, or person type |
+| Projection Loss claim | exact five-part Loss plus foregrounding/backgrounding | projection admissibility automatically |
+| Invalid-projection diagnostic claim | original claim reference, local findings, retained valid material, failure continuity, repair boundary, open routes | new operation, schema, Output Class, or truth judgment |
+| Reduced projection claim | independently warranted narrower context, scope, relation, time, or Claim Ceiling | preservation or erasure of the invalid stronger claim |
+
+Primary site: [Chapter 38 WP3](../01_blocks/04_part_iii_retype.md#38-10-scope-inflation).
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-claim-sync"></a>
+
+## Chapter 39 Prepared Claim Types
+
+| Claim type | Required burden | Failure pressure | Primary site |
+|---|---|---|---|
+| Lower-boundary claim | concrete additional PraxisPurchase beyond label or source-only description | renaming or functional inertness | Chapter 39 §§39.1–39.3 |
+| Upper-boundary claim | constitutive Source Trace and material source dependence | abstraction without traceable load | Chapter 39 §§39.4–39.5 |
+| Type-boundary claim | origin type, reference, level relation, and primitive inventory preserved | type replacement or primitive inflation | Chapter 39 §39.6 |
+| Context-boundary claim | target context, object, level, Frame, granularity, time, claim and validity scope | arbitrary or globalized function | Chapter 39 §39.7 |
+| Counterfactual projection claim | material and irrelevant source variations plus target and function alternatives | invariance under opposite source structures | Chapter 39 §39.8 |
+| Alternative-projection claim | rival functions, narrower claim, source-only, analogy-only, and no-projection retained | forced single function | Chapter 39 §39.9 |
+| Elasticity claim | stable failure conditions under objections and relocations | function proliferation or endless narrowing | Chapter 39 §39.11 |
+| Stop / Non-Capture claim | exact trigger and retained valid material | route collapse | Chapter 39 §§39.12–39.13 |
+
+<a id="chapter-39-wp1-claim-type-sync"></a>
+
+## Chapter 39 WP1 Claim Types
+
+| Claim type | Minimum content | Not established automatically |
+|---|---|---|
+| Lower-boundary claim | additional bounded praxeological discrimination | complete admissibility |
+| Renaming-without-purchase claim | unchanged reconstruction after label removal | Label Substitution or final route |
+| Functional-Gain claim | concrete target-side difference relative to source-only rival | Source Trace or causality |
+| Upper-boundary claim | abstraction remains within traceable constitutive source load | empirical truth or authority |
+
+Primary site: [Chapter 39 WP1](../01_blocks/04_part_iii_retype.md#39-1-lower-retype-boundary).
+
+<a id="chapter-39-wp2-claim-type-sync"></a>
+
+## Chapter 39 WP2 Claim Types
+
+| Claim type | Required burden | Does not establish automatically |
+|---|---|---|
+| Constitutive Source Trace claim | features, relations, dependencies, reconstruction path, sensitivity, exact Loss | causality or exhaustive history |
+| Type-Integrity claim | origin type, reference, level relation, primitive/person boundary | target-function admissibility |
+| Context-Boundary claim | complete bounded target coordinates and validity conditions | Source Trace or PraxisPurchase |
+| Counterfactual projection claim | differentiated response to material and irrelevant source/target variation | probability, prediction, or authority |
+
+Primary site: [§§39.5–39.8](../01_blocks/04_part_iii_retype.md#39-5-function-without-source-trace).
+
+<a id="chapter-39-wp3-claim-type-sync"></a>
+
+## Chapter 39 WP3 Claim Types
+
+| Claim | Required burden | Not automatic |
+|---|---|---|
+| Alternative projection | stable coordinates and candidate-specific warrant | ranking |
+| Analogy boundary | preserved relation and residuals | target function |
+| Elasticity finding | documented claim relocation or objection absorption | causal proof |
+| Stop claim | prohibited continuation | universal failure |
+| Non-Capture claim | exact unavailable adjudication and retained material | strongest wording |
+
+<a id="chapter-39-lock-and-chapter-40-preparation-claim-sync"></a>
+
+## Chapter 39 Lock / Chapter 40 Case-Claim Separation
+
+| Claim layer | Required status |
+|---|---|
+| Chapter-39 family-method claim | provisionally locked; `admissible_but_provisional` |
+| `W/A–F` pressure-object claims | unadjudicated |
+| Chapter-40 case-family packet | prepared, not executed |
+| instantiated case claim | requires separate source, target, trace, sensitivity, Loss, alternatives, audit, and output |
+| RETYPE lock claim | limited to actually verified prose and artifact evidence |
+
+```text
+case architecture claim
+≠ case result claim
+≠ RETYPE lock claim
+```
+
+## Chapter 40 WP1 Case-Claim Separation
+
+| Layer | Claim status | What it may support | What it may not support |
+| --- | --- | --- | --- |
+| Case-family prose | bounded demonstration claim | required fields, distinctions, counterpressure, Loss and alternatives | case passage, canonical route, artifact completion |
+| Instantiated `PROJECT_AS` Record | delimited operation occurrence | structural validation and later substantive audit | automatic admissibility or truth |
+| Local Audit and mapping | executed case disposition | exactly one canonical class for the tested claim | general RETYPE validation or authority |
+
+<a id="chapter-40-wp2-claim-sync"></a>
+
+## Chapter 40 WP2 Countercase Claim Types
+
+| Claim pressure | Claim position tested | Preserved alternatives |
+|---|---|---|
+| Origin-type replacement | source identity versus target role | bounded function, analogy, source-only |
+| Missing target context | formal target-coordinate completeness | metaphor, analogy, completed new claim, Non-Capture |
+| Label substitution | Source Trace, PraxisPurchase, sensitivity, Loss, rivals | ordinary-domain description, bounded analogy, no-label |
+| Analogy as projection | Semantic Preservation and Target Function | partial analogy, target-only, no-projection |
+| Aggregation as macrofunction | composite formation and target-function threshold | descriptive aggregation, narrower composite, source-only |
+| Claim rescue | failure continuity and new-claim registration | genuine re-entry, Claim Reduction, no-projection |
+| Person-level jump | subject and level of predication | bounded role relation, configuration-only |
+
+Every row remains unadjudicated until Local Audit and canonical mapping.
+
+<a id="chapter-40-wp3-claim-type-sync"></a>
+
+## Chapter 40 WP3 Adjacent Claim Forms
+
+| Confusion | First claim form | Second claim form | Required separation |
+| --- | --- | --- | --- |
+| RETYPE or SUB | finer reconstruction of same reference object | bounded target function | operation, record, Loss, result |
+| RETYPE or COMPOSE | new composite formation | contextual function of composite | source formation before target function |
+| Projection or Recontextualization | changed Frame under Φ | specific target function under `PROJECT_AS` | Frame change versus Functional Gain |
+| Attractor or Similarity | descriptive/formal recurrence | stabilizing target load | resemblance versus PraxisPurchase |
+| Modulator or Operator | contextual condition/profile | PMS primitive or operation | local modulation versus grammar identity |
+| Projection or Analogy | bounded correspondence | source-dependent target function | semantics, residuals, function, no-projection |
+
+
+## Chapter 40 Closure-Claim Segmentation and Chapter 41 Continuity
+
+| Claim | Claim type | Current disposition | Canonical mapping |
+|---|---|---|---|
+| Chapter-40 Layer-1 architecture is complete | bounded method-completion claim | retained | `admissible_with_bounded_claim` |
+| Chapter-40 lock-critical artifacts are complete | artifact-completeness claim | prohibited from continuation under current evidence | `mandatory_stop` |
+| `P1–P7`, `N1–N7`, `X1–X6` have substantive results | case claims | not executed | none selected |
+| another operation answers the prior artifact gap | recursive chain claim | untested and non-inherited | none selected |
+
+The Chapter-41 rule is that every changed operation, source, context, level, granularity, composite, function, or evidence packet creates a new testable claim while prior dispositions remain visible.

@@ -2675,3 +2675,635 @@ Part II — SUB locked
 ```
 
 Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).
+
+## Chapter 29 Preparation — Operator Integrity in RETYPE
+
+A target function may be operator-like without becoming a PMS operator type.
+
+```text
+Trajectory functions as Frame in C
+≠ Trajectory becomes □
+
+source object functions as Attractor in C
+≠ source object becomes Α as origin type
+```
+
+Chapter 29 preserves the closed Δ–Ψ inventory and the exactly three STRATA operations. Target-function vocabulary creates no primitive, dependency change, person type, or authority inheritance.
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 WP1 — Operator Integrity under Functional Projection
+
+Canonical WP1 preserves the closed Δ–Ψ inventory while allowing operator-like target-function language only as a bounded contextual relation.
+
+```text
+Trajectory functions as a frame in C
+≠ Trajectory becomes □
+
+operator-like function
+≠ operator type
+≠ dependency inheritance
+```
+
+No `PROJECT_AS` occurrence is executed in WP1. No new PMS primitive, operator type, dependency, person type, or authority source is created.
+
+Primary site: [Chapter 29 WP1](../01_blocks/04_part_iii_retype.md#29-3-origin-type-preservation).
+
+## Chapter 29 WP2 — Operator-Type Boundary under Functional Continuity
+
+WP2 fixes the three-way separation among origin type, concrete operator occurrence, and abstract PMS operator type.
+
+```text
+bounded frame-function
+≠ Frame occurrence automatically
+≠ □ as operator type
+```
+
+Operator-like function names inherit no Δ–Ψ dependency position and create no primitive, person type, or authority. Functional Continuity tests source-carried target work; it does not establish operator identity.
+
+Primary site: [§29.5](../01_blocks/04_part_iii_retype.md#29-5-target-function-versus-operator-type).
+
+## Chapter 29 WP3 — Operator and Operation Preservation
+
+WP3 confirms that projection-without-replacement creates neither a new PMS operator nor a fourth STRATA operation. Operator-like target-function language remains a bounded contextual relation, and Φ retains its PMS role as Recontextualization rather than becoming identical with `PROJECT_AS`.
+
+```text
+changed legibility under Φ
+≠ bounded target function automatically
+
+PROJECT_AS function
+≠ operator type
+```
+
+Primary sites: [§29.9](../01_blocks/04_part_iii_retype.md#29-9-projection-without-replacement) and [§29.11](../01_blocks/04_part_iii_retype.md#29-11-retype-versus-recontextualization).
+
+## Chapter 29 Lock and Chapter 30 Preparation — Operator Boundary
+
+Chapter 29 is provisionally locked without adding a PMS operator or changing Δ–Ψ dependencies. Chapter 30 prepares the existing `PROJECT_AS` operation only. A target function remains a context-bound analytical relation and inherits no operator identity or dependency position.
+
+```text
+operator-like target function
+≠ PMS operator type
+≠ operator occurrence automatically
+≠ new primitive
+```
+
+Primary sites: [Chapter 29 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-29-completion-boundary) and [Chapter 30 Preparation Record](Chapter_30_Preparation_Record.md).
+
+## Chapter 30 WP1 Operator Boundary
+
+`PROJECT_AS` remains a STRATA operation and is not added to the Δ–Ψ operator grammar. A target function may later use operator-like language only as a bounded contextual function.
+
+```text
+PROJECT_AS occurrence
+≠ PMS operator type
+
+frame-function candidate
+≠ □ occurrence or new □ type
+```
+
+WP1 changes no PMS operator name, sequence, dependency, primitive status, or authority.
+
+Primary site: [§30.1 Definition](../01_blocks/04_part_iii_retype.md#30-1-definition).
+
+## Chapter 30 WP2 Operator Boundary Note
+
+Target functions may be operator-like without becoming Δ–Ψ operator types. A trajectory projected as a bounded frame-function does not become `□`; a source feature associated with `Λ`, `Ω`, `Θ`, or `Ψ` remains an occurrence-level or composite source carrier rather than a redefined operator.
+
+Counterfactual variation may alter operator-typed occurrences and relations. It never decomposes, renames, reorders, or expands PMS Base.
+
+## Chapter 30 WP3 — PMS Operator Boundary under Complete PROJECT_AS Procedure
+
+Target-function labels may be operator-like, but visibility, scope, Loss, alternatives, and result mapping do not convert them into Δ–Ψ operator types. `PROJECT_AS` remains a STRATA operation, not Φ or a new PMS primitive. A label-substitution or invalid-type-jump finding records boundary failure; it does not amend the operator inventory.
+
+Primary site: [Projection Results](../01_blocks/04_part_iii_retype.md#30-12-projection-results).
+
+\n## Chapter 30 Lock and Chapter 31 Preparation — Operator Boundary\n\nChapter 30 provisionally locks `PROJECT_AS` as a STRATA operation without adding to or altering Δ–Ψ. Chapter 31 may test a bounded frame-function, but the source Trajectory does not become `□`, inherit Frame-operator dependencies, or create a new operator occurrence automatically.\n\n```text\nframe-function candidate ≠ □ identity\nPROJECT_AS procedure ≠ PMS operator grammar\n```\n\nPrimary sites: [Chapter 30 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-30-completion-boundary) and [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Chapter 31 WP1 Operator Boundary
+
+The PMS Frame operator `□` remains unchanged. Chapter 31 projects an origin-typed Trajectory as performing a bounded frame-function in one declared target context.
+
+```text
+Trajectory PROJECT_AS frame-function
+≠ Trajectory becomes □
+≠ new Frame operator occurrence by relabeling
+≠ new PMS primitive
+```
+
+No PMS operator name, dependency, sequence, or application authority changes.
+
+Primary site: [§31.4 Frame-Function](../01_blocks/04_part_iii_retype.md#31-4-frame-function).
+
+
+## Chapter 31 WP2 Operator Boundary
+
+Historical-load carriers may include source-supported occurrences or relations involving `Α`, `Ω`, `Θ`, `Λ`, `Ψ`, `Φ`, `Χ`, or `Σ`, but Chapter 31 does not alter any Δ–Ψ operator identity, dependency, or order. A Trajectory that performs bounded frame-like work remains a Trajectory and does not become `□`.
+
+```text
+operator-occurrence contribution to Historical Load
+≠ operator replacement
+≠ new operator
+≠ closed carrier taxonomy
+```
+
+Multiple-source analysis may identify present Frames, Attractors, Recontextualizations, Distance, Integration, or Bindings as competing or interacting contributions. It does not score operators or infer person properties.
+
+Primary site: [Chapter 31 WP2](../01_blocks/04_part_iii_retype.md#31-5-historical-load).
+
+
+## Chapter 31 WP3 Operator Boundary
+
+Rhetorical history, counterfactual variation, competing functions, no-projection, and failed projection do not modify the PMS operator inventory. The source remains a Trajectory; a bounded frame-function remains a contextual function and never becomes `□` by label, narrative force, or target fit.
+
+```text
+historical framing claim fails
+≠ □ revised
+≠ Trajectory type revised automatically
+≠ new PMS primitive
+```
+
+Counterfactual pressure concerns occurrences, relations, contexts, and claims. It does not decompose, reorder, rename, or extend Δ–Ψ.
+
+Primary sites: [Counterfactual Frame Test](../01_blocks/04_part_iii_retype.md#31-9-counterfactual-frame-test) and [Failed Frame Projection](../01_blocks/04_part_iii_retype.md#31-11-failed-frame-projection).
+
+## Chapter 31 Lock and Chapter 32 Preparation — Operator Boundary
+
+Chapter 31 locks no new operator and does not convert a Trajectory into `□`. Chapter 32 prepares a Macro-Event target function, not a new Event operator or PMS primitive.
+
+```text
+Trajectory PROJECT_AS Macro-Event function
+≠ Trajectory becomes Event type
+≠ new Δ–Ψ operator
+≠ punctual occurrence automatically
+```
+
+`COMPOSE` forms the source Trajectory; `PROJECT_AS` tests its bounded Macro-Event function in a wider Path. Neither operation alters the PMS operator sequence or dependencies.
+
+Primary site: [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md).
+
+
+## Chapter 32 WP1 Operator Boundary
+
+`Macro-Event` is not a PMS operator and does not modify the Δ–Ψ inventory. It is an open, bounded `PROJECT_AS` target-function description for an origin-typed Trajectory inside a wider declared Path.
+
+```text
+Trajectory PROJECT_AS Macro-Event
+≠ Trajectory becomes Event
+≠ Macro-Event becomes a PMS primitive
+≠ target-level unity becomes punctual occurrence
+```
+
+Primary site: [§32.2](../01_blocks/04_part_iii_retype.md#32-2-macro-event-as-target-function).
+
+## Chapter 32 WP2 Operator Boundary
+
+Internal duration, heterogeneity, phase load, and Macro-Event function remain properties or claims concerning an origin-typed Trajectory under `PROJECT_AS`. None is a PMS operator or modification of Event, Θ, Α, Ω, Λ, or any other Δ–Ψ dependency.
+
+```text
+phase-load distinction ≠ new operator weighting primitive
+Macro-Event function ≠ Event operator or Event origin type
+```
+
+Primary site: [§§32.5–32.7](../01_blocks/04_part_iii_retype.md#32-5-internal-duration).
+
+
+## Chapter 32 WP3 Operator Boundary
+
+Punctualization, periodization, phase load, and Macro-Event function do not alter Δ–Ψ or create an Event operator. `COMPOSE` forms the origin-typed Trajectory; `PROJECT_AS` tests a bounded contextual function.
+
+```text
+COMPOSE occurrence ≠ PROJECT_AS occurrence
+Macro-Event function ≠ Event origin type
+counterfactual variation ≠ Θ rewrite or causal operator
+```
+
+Failure of the later projection cannot rewrite the earlier operator-typed or composite source from inside RETYPE.
+
+Primary site: [§§32.8–32.11](../01_blocks/04_part_iii_retype.md#32-8-punctualization-error).
+
+## Α and Chapter 33 — Operator Type versus Attractor-Function
+
+Chapter 33 preserves Α as the PMS Attractor operator type. The source is a derived recurrent trajectory form and the target is a bounded dynamic or static attractor-function.
+
+```text
+recurrent form PROJECT_AS attractor-function
+≠ recurrent form becomes Α
+≠ operator-type decomposition
+≠ person or group type
+```
+
+The formal model may require declarations and comparisons. It may not establish recurrence, mechanism, probabilities, determinism, or authority.
+
+Primary site: [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md).
+
+
+## Α and Chapter 33 WP1
+
+Chapter 33 preserves `Α` as the PMS Attractor operator type. The source object is a derived recurrent-form composite; the target is a bounded dynamic attractor-function under `PROJECT_AS`.
+
+```text
+recurrent trajectory form PROJECT_AS dynamic attractor-function
+≠ recurrent trajectory form becomes Α
+≠ new Attractor primitive
+```
+
+No deterministic, probabilistic, person, group, culture, institutional, identity, diagnostic, normative, or authority inference follows from operator-like target vocabulary.
+
+Primary site: [§33.3 Dynamic Attractor](../01_blocks/04_part_iii_retype.md#33-3-dynamic-attractor).
+
+## Chapter 33 WP2 Operator Boundary
+
+Constitutive repetition, reproduction mechanism, Attractor Load, and dynamic/static attractor-function remain source and target claims concerning a derived recurrent-form composite under `PROJECT_AS`. None modifies Α or creates a recurrence, load, mechanism, or profile operator.
+
+```text
+Attractor Load ≠ Α magnitude
+qualitative operator weighting ≠ Δ–Ψ reordering or score
+```
+
+Primary site: [§§33.5–33.7](../01_blocks/04_part_iii_retype.md#33-5-constitutive-repetition).
+
+## Chapter 33 WP3 Operator Boundary Return
+
+Chapter 33 WP3 may retain recurring Frames, Non-Events, Attractors, Asymmetries, Temporalities, Recontextualizations, Distances, Integrations, and Bindings as source carriers or rival conditions. Their recurrence, weighting, or target relevance does not reorder Δ–Ψ, create a new operator, prove Α identity, or authorize person/group typing.
+
+A failed dynamic attractor-function claim leaves operator-typed source occurrences and independently warranted Trajectories intact unless their own claims fail under separate audit.
+
+Primary site: [§33.10 Failed Attractor Projection](../01_blocks/04_part_iii_retype.md#33-10-failed-attractor-projection).
+
+## Chapter 33 Lock and Chapter 34 Operator Boundary
+
+Chapter 33 locks no new recurrence or Attractor operator. Chapter 34 may test boundary-, attractor-, asymmetry-, binding-, or integration-like target functions, but these do not become □, Α, Ω, Ψ, or Σ and do not modify Δ–Ψ dependencies.
+
+```text
+operator-like higher-level function ≠ operator type ≠ new primitive
+```
+
+Primary sites: [Chapter 33 completion](../01_blocks/04_part_iii_retype.md#chapter-33-completion-boundary); [Chapter 34 Preparation](Chapter_34_Preparation_Record.md).
+
+## Chapter 34 WP1 Operator Boundary
+
+Boundary-, attractor-, and asymmetry/access-function labels describe bounded target work by an origin-typed derived relational composite. They do not modify □, Α, Ω, or the Δ–Ψ dependency order.
+
+```text
+higher-level boundary-function ≠ □
+higher-level attractor-function ≠ Α
+higher-level asymmetry/access function ≠ Ω
+operator-like target work ≠ operator identity
+```
+
+Primary sites: [§§34.2–34.4](../01_blocks/04_part_iii_retype.md#34-2-local-differences-as-higher-level-boundary-function).
+
+## Chapter 34 WP2 Operator Boundary
+
+Repeated commitments and multiple local integrations may be tested as bounded binding- or integration-function candidates. The source remains a derived relational composite; the target vocabulary does not modify `Ψ`, `Σ`, or any Δ–Ψ dependency.
+
+```text
+higher-level binding-function ≠ Ψ
+higher-level integration-function ≠ Σ
+source-traceable emergence ≠ new operator
+component role ≠ operator weight or person type
+```
+
+Primary sites: [§§34.5–34.7](../01_blocks/04_part_iii_retype.md#34-5-repeated-commitments-as-higher-level-psi-function).
+
+## Chapter 34 WP3 Operator and Authority Boundary
+
+Functional formation and higher-level legibility remain derived projection claims. They do not alter `□`, `Α`, `Ω`, `Σ`, `Ψ`, or any Δ–Ψ dependency.
+
+```text
+functional formation ≠ operator formation
+higher-level function ≠ higher truth or authority
+failed projection ≠ operator or source-type failure automatically
+```
+
+Primary sites: [§§34.8–34.11](../01_blocks/04_part_iii_retype.md#34-8-aggregation-versus-functional-formation).
+
+## Chapter 34 Lock and Chapter 35 Operator Boundary
+
+Chapter 34 locks no new higher-level operator. Chapter 35 may describe relative load among existing operator occurrences, but prominence does not change the canonical operator sequence or dependencies.
+
+```text
+operator weighting ≠ operator replacement
+high relevance ≠ dependency removal
+modulator ≠ operator ≠ fourth STRATA operation
+profile ≠ operator type
+```
+
+Primary sites: [Chapter 34 completion](../01_blocks/04_part_iii_retype.md#chapter-34-completion-boundary); [Chapter 35 Preparation](Chapter_35_Preparation_Record.md).
+
+## Chapter 35 WP1 Operator Boundary
+
+Chapter 35 weights concrete operator occurrences, never the Δ–Ψ operator types themselves. Practical prominence inside one Configuration does not alter operator meaning, canonical sequence, or dependencies.
+
+```text
+high occurrence relevance ≠ operator independence
+operator weighting ≠ operator replacement
+operator weighting ≠ dependency reordering
+modulator ≠ PMS operator
+modulator ≠ derived primitive
+```
+
+Primary sites: [§35.2](../01_blocks/04_part_iii_retype.md#35-2-operator-weighting) and [§35.3](../01_blocks/04_part_iii_retype.md#35-3-weighting-is-not-reordering).
+
+## Chapter 35 WP2 Operator Boundary
+
+A profile may describe relative practical prominence among concrete occurrences. It never changes the identity, order, or dependencies of the Δ–Ψ operator types.
+
+```text
+prominent occurrence cluster ≠ exclusive operator basis
+profile stability ≠ operator independence
+emergent profile ≠ new operator
+trajectory-form influence ≠ dependency reordering
+```
+
+Primary sites: [§35.5](../01_blocks/04_part_iii_retype.md#35-5-modulating-profile) and [§35.7](../01_blocks/04_part_iii_retype.md#35-7-emergent-functional-profile).
+
+## Chapter 35 WP3 Operator Boundary
+
+No modulating profile becomes a PMS operator type, derived operator, reordered dependency, or new primitive. Profile projection preserves the source Configuration/Composite origin type and every invoked operator occurrence retains its PMS identity and canonical dependencies.
+
+```text
+profile description ≠ operator type
+profile projection ≠ operator creation
+prominence ≠ dependency independence
+```
+
+Primary site: [§§35.8–35.9](../01_blocks/04_part_iii_retype.md#35-8-profile-versus-type).
+
+## Chapter 35 Lock and Chapter 36 Operator Boundary
+
+Chapter 35 creates no operator or profile type. Chapter 36 compares bounded target-function claims; comparative preference never turns a function into the origin type of its source.
+
+```text
+preferred projection ≠ source operator type
+compatible projections ≠ integrated new primitive
+comparison result ≠ operator revision
+```
+
+## Chapter 36 WP1 Operator Boundary
+
+Projection comparison does not compare operator types or alter Δ–Ψ. Candidate frame-, Macro-Event-, and dynamic-attractor functions remain contextual target functions of one origin-typed source object.
+
+```text
+preferred target function
+≠ source operator identity
+≠ source origin-type replacement
+```
+
+The Reader and formal model may display candidate operator associations but may not infer compatibility, competition, ranking, source identity, or authority.
+
+## Chapter 36 WP2 Operator Boundary
+
+Comparative criteria evaluate complete contextual projection claims. They do not rank, modify, merge, or redefine Δ–Ψ operator types.
+
+```text
+preferred projection ≠ preferred operator
+comparative performance ≠ operator authority
+co-valid target functions ≠ integrated PMS primitive
+```
+
+Primary site: [Chapter 36 WP2](../01_blocks/04_part_iii_retype.md#36-5-comparative-criteria).
+
+## Chapter 36 WP3 Operator Boundary
+
+Non-translation, contradiction, comparison, and comparative preference concern bounded target-function claims. They neither compare nor rank Δ–Ψ operator types and never create an integrated operator or source identity.
+
+```text
+non-translatable functions ≠ different PMS operators automatically
+comparison record ≠ operator record merger
+preferred target claim ≠ preferred operator or revised dependency
+```
+
+Primary site: [Chapter 36 WP3](../01_blocks/04_part_iii_retype.md#36-8-non-translation).
+
+## Chapter 36 Lock and Chapter 37 Operator Boundary
+
+Projection, analogy, and symbolic mapping do not alter Δ–Ψ identity or dependency.
+
+```text
+structural analogy ≠ operator identity
+label substitution ≠ operator occurrence
+successful mapping ≠ new PMS primitive
+```
+
+## Chapter 37 WP1 Operator Boundary
+
+Cross-domain similarity, analogy, and projection do not alter Δ–Ψ identity, order, or dependency. A target object does not become an operator occurrence because an operator-derived label is structurally convenient.
+
+```text
+operator-derived analogy
+≠ operator identity
+
+PROJECT_AS target function
+≠ new operator occurrence
+
+technical recurrence labelled dynamic attractor
+≠ Α occurrence established
+```
+
+Primary site: [§§37.1–37.4](../01_blocks/04_part_iii_retype.md#37-1-why-the-distinction-matters).
+
+## Chapter 37 WP2 Operator Boundary
+
+Symbolic, formal, or executable correspondence does not establish a PMS operator occurrence. A label such as `dynamic_attractor` must remain subordinate to occurrence warrant, dependencies, target context, and bounded function.
+
+```text
+executable recurrence
+≠ Α occurrence
+
+operator label invariance
+≠ operator identity
+
+analogy_only
+≠ operator-type revision
+```
+
+Primary site: [§37.8](../01_blocks/04_part_iii_retype.md#37-8-label-substitution-and-counterfactual-mapping-test).
+
+## Chapter 37 WP3 Operator and Primitive Boundary
+
+Analogy, translation breadth, executable correspondence, and repeated cross-domain use do not create an operator occurrence, alter Δ–Ψ identity or dependency, or establish a new PMS primitive.
+
+```text
+mapping-specific construct ≠ PMS operator
+repeated analogy ≠ operator type
+translation breadth ≠ primitive status
+```
+
+Primary site: [§37.9](../01_blocks/04_part_iii_retype.md#37-9-analogy-drift).
+
+## Chapter 37 Lock and Chapter 38 Operator Boundary
+
+Chapter-37 lock does not create an operator from a mapping, analogy, label, profile, or target function. Chapter 38 must classify as invalid any projection that inserts a target function or profile into PMS operator identity or Δ–Ψ dependencies.
+
+```text
+target function ≠ PMS operator
+profile ≠ operator type
+successful projection ≠ dependency revision
+```
+
+Preparation site: [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#7-work-package-allocation).
+
+## Chapter 38 WP1 Operator and Type Boundary
+
+A bounded target function does not convert its source into an operator type or operator occurrence. Origin-type replacement remains distinct from `PROJECT_AS`, metaphor, analogy, and label use.
+
+```text
+Trajectory functions as bounded frame in C
+≠ Trajectory is Frame operator
+
+operator-derived metaphor
+≠ operator occurrence
+
+successful contextual role
+≠ Δ–Ψ revision
+```
+
+Primary site: [§§38.1–38.2](../01_blocks/04_part_iii_retype.md#38-1-invalid-type-jump).
+
+## Chapter 38 WP2 Operator and Primitive Protection
+
+A configuration function, profile, macrofunction, formal-model field, or frequently used derived label does not become a PMS operator or alter Δ–Ψ. A person or group does not inherit operator or macrofunction identity from participation in a configuration.
+
+```text
+target function ≠ operator occurrence
+profile prominence ≠ operator type
+macrofunction ≠ person property
+local success ≠ PMS Base revision
+```
+
+Primary site: [§§38.8–38.9](../01_blocks/04_part_iii_retype.md#38-8-macrofunction-attributed-to-a-person).
+
+## Chapter 38 WP3 Scope, Time, and Loss Protection
+
+A target function remains local to its declared coordinates and temporal window. Wider uptake, long duration, recurring use, or lossless formal representation does not create an operator, person property, timeless type, or PMS primitive.
+
+```text
+scope extension ≠ operator extension
+historical persistence ≠ timeless operator status
+lossless notation ≠ lossless projection
+invalid-projection view ≠ operation
+```
+
+Primary site: [§§38.10–38.13](../01_blocks/04_part_iii_retype.md#38-10-scope-inflation).
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-operator-sync"></a>
+
+## Chapter 38 Lock → Chapter 39 Operator Boundary
+
+Chapter 38 is provisionally locked with the rule that target functions, profiles, macrofunctions, diagnostic labels, and formal-model fields do not become PMS operators, STRATA operations, or additions to Δ–Ψ. Chapter 39 must treat this Type Integrity boundary as non-compensatory.
+
+```text
+successful local PROJECT_AS
+≠ new operator
+≠ new primitive
+≠ dependency revision
+```
+
+Functional Gain is assessed only for the bounded target function. It never changes operator inventory or source origin type.
+
+<a id="chapter-39-wp1-operator-sync"></a>
+
+## Chapter 39 WP1 Operator Boundary
+
+Crossing the lower or upper RETYPE boundary concerns only a bounded target-function claim. It neither changes the source origin type nor creates an operator, operation, primitive, or Δ–Ψ dependency.
+
+```text
+Functional Gain ≠ operator creation
+upper-boundary pass ≠ primitive status
+```
+
+Primary site: [§§39.1–39.4](../01_blocks/04_part_iii_retype.md#39-1-lower-retype-boundary).
+
+<a id="chapter-39-wp2-operator-sync"></a>
+
+## Chapter 39 WP2 Operator and Type Boundary
+
+A retained target function preserves the source origin type and all PMS dependencies. Source Trace, contextual function, or cross-level relation does not create a PMS operator, new origin type, fourth STRATA operation, person type, or authority-bearing primitive.
+
+```text
+Trajectory W performs bounded function in C1
+≠ W becomes a Frame operator
+```
+
+Primary site: [§39.6](../01_blocks/04_part_iii_retype.md#39-6-type-integrity-boundary).
+
+<a id="chapter-39-wp3-operator-sync"></a>
+
+## Chapter 39 WP3 Operator Boundary
+
+Alternative functions, analogy, Stop, Non-Capture, and terminal routing do not create operators, primitives, or a fourth STRATA operation.
+
+Primary site: [§§39.9–39.14](../01_blocks/04_part_iii_retype.md#39-9-alternative-projection-test).
+
+<a id="chapter-39-lock-and-chapter-40-preparation-operator-sync"></a>
+
+## Chapter 39 Lock / Chapter 40 Operator Boundary
+
+Chapter 39 provisionally locks the local `PROJECT_AS` admissibility gate without modifying Δ–Ψ. Chapter 40 must test operator-weighting and higher-level-function cases while preserving every operator identity and dependency.
+
+```text
+profile or modulator case
+≠ new operator
+
+case success
+≠ Δ–Ψ revision
+```
+
+No case packet, audit result, or lock decision may create a PMS operator, re-order dependencies, or convert a contextual function into an operator type.
+
+## Chapter 40 WP1 Operator-Integrity Note
+
+The seven positive case families apply already defined source objects and `PROJECT_AS`; they create no operator and do not revise Δ–Ψ. The profile case preserves every operator dependency, the composite case requires a prior separate `COMPOSE`, and no function, profile, Macro-Event, or higher-level object becomes a PMS operator or fourth STRATA operation.
+
+<a id="chapter-40-wp2-operator-sync"></a>
+
+## Chapter 40 WP2 Operator and Person Boundary
+
+The countercases preserve operator identity and Δ–Ψ dependencies while testing origin-type replacement, macrofunction inflation, and person-level jumps.
+
+```text
+target function ≠ operator type
+macrofunction ≠ person property
+new label ≠ primitive
+countercase failure ≠ PMS Base revision
+```
+
+A person may occupy or affect a role relation; no case may convert that relation into essence, diagnosis, rank, motive, recommendation, sanction, or authority.
+
+Primary site: [§§40.9 and 40.15](../01_blocks/04_part_iii_retype.md#40-9-countercase-1-origin-type-replacement).
+
+<a id="chapter-40-wp3-operator-sync"></a>
+
+## Chapter 40 WP3 Operator Boundary
+
+The Modulator/New-Operator confusion case preserves all Δ–Ψ identities and dependencies. A contextual modulator or weighting profile may affect access, timing, persistence, visibility, or thresholds, but it does not become a PMS operator, a fourth STRATA operation, a person/group type, or an authority-bearing primitive.
+
+```text
+modulator ≠ operator ≠ operation
+profile ≠ person type
+repeated use ≠ primitive status
+```
+
+Primary site: [§40.20](../01_blocks/04_part_iii_retype.md#40-20-confusion-case-5-modulator-or-new-operator).
+
+
+## Chapter 40 Bounded RETYPE Lock / Chapter 41 Operator Boundary
+
+Chapter 40 changes no Δ–Ψ operator identity or dependency. The bounded provisional RETYPE lock retains `PROJECT_AS` as one of exactly three STRATA operations; the artifact-complete lock Stop creates no operation.
+
+Chapter 41 must preserve:
+
+```text
+LIMITS
+≠ operator
+≠ fourth STRATA operation
+≠ meta-PMS
+```
+
+Recursive operation availability never revises the three-operation inventory or permits operator creation through repeated use, profile stability, macrofunction, or chain length.

@@ -263,13 +263,13 @@ Linking an internal artifact to `PMS.yaml` records source authority. It does not
 | 27 | SUB Boundary Conditions | SUB | `01_blocks/03_part_ii_sub.md` | SUB limits | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | formal handoff only where declared by chapter contract | anchor pending |
 | 28 | SUB Cases, Countercases, and Local Audit | SUB | `01_blocks/03_part_ii_sub.md` | SUB cases and local audit | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local SUB audit | smoke tests and later case records | anchor pending |
 | 29 | Functional Projection without Origin-Type Replacement | RETYPE | `01_blocks/04_part_iii_retype.md` | functional projection and type preservation | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
-| 30 | PROJECT_AS: Signature, Context, and Validity Scope | RETYPE | `01_blocks/04_part_iii_retype.md` | PROJECT_AS procedure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | `07_model/Operation_Registry.yaml` | anchor pending |
-| 31 | Trajectory as Frame-Function | RETYPE | `01_blocks/04_part_iii_retype.md` | frame-function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
-| 32 | Trajectory as Macro-Event | RETYPE | `01_blocks/04_part_iii_retype.md` | macro-event function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 30 | PROJECT_AS: Signature, Context, and Validity Scope | RETYPE | `01_blocks/04_part_iii_retype.md`; `04_reference/Chapter_30_Preparation_Record.md` | PROJECT_AS procedure | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | `07_model/Operation_Registry.yaml`; `07_model/Admissibility_Rules.yaml` | WP1 §§30.1–30.4 complete; chapter open |
+| 31 | Trajectory as Frame-Function | RETYPE | `01_blocks/04_part_iii_retype.md`; `04_reference/Chapter_31_Preparation_Record.md` | frame-function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | `07_model/Admissibility_Rules.yaml` non-routing mirror | WP1 §§31.1–31.4 complete; chapter open |
+| 32 | Trajectory as Macro-Event | RETYPE | `01_blocks/04_part_iii_retype.md`; `04_reference/Chapter_32_Preparation_Record.md` | macro-event function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | `07_model/Admissibility_Rules.yaml` non-routing mirror | WP1 §§32.1–32.4 complete; chapter open |
 | 33 | Recurrent Trajectory Form as Attractor-Function | RETYPE | `01_blocks/04_part_iii_retype.md` | attractor-function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
-| 34 | Composite Structures as Higher-Level Functions | RETYPE | `01_blocks/04_part_iii_retype.md` | higher-level function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
-| 35 | Operator Weighting, Modulation, and Emergent Functional Profiles | RETYPE | `01_blocks/04_part_iii_retype.md` | operator weighting and profiles | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
-| 36 | Competing Projections | RETYPE | `01_blocks/04_part_iii_retype.md` | competing projections | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
+| 34 | Composite Structures as Higher-Level Functions | RETYPE | `01_blocks/04_part_iii_retype.md`; `04_reference/Chapter_34_Preparation_Record.md` | higher-level function | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | `07_model/Admissibility_Rules.yaml` non-routing mirror | provisionally locked; Q/H/I unadjudicated |
+| 35 | Operator Weighting, Modulation, and Emergent Functional Profiles | RETYPE | `01_blocks/04_part_iii_retype.md`; `04_reference/Chapter_35_Preparation_Record.md` | operator weighting and profiles | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | `07_model/Admissibility_Rules.yaml` non-routing WP2 mirror | WP1–WP2 §§35.1–35.7 complete; chapter open |
+| 36 | Competing Projections | RETYPE | `01_blocks/04_part_iii_retype.md`; `04_reference/Chapter_36_Preparation_Record.md` | competing projections | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | `07_model/Admissibility_Rules.yaml` non-routing WP3 mirror | WP1–WP3 §§36.1–36.10 complete; integrated lock audit pending |
 | 37 | Projection, Structural Analogy, and Label Substitution | RETYPE | `01_blocks/04_part_iii_retype.md` | projection, analogy, and substitution | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
 | 38 | Invalid Type Jumps and Unmarked Level Mixing | RETYPE | `01_blocks/04_part_iii_retype.md` | invalid type jumps and level mixing | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
 | 39 | RETYPE Boundary Conditions | RETYPE | `01_blocks/04_part_iii_retype.md` | RETYPE limits | `05_minified/Chapter_Contracts.md` | `04_reference/Transformation_Operation_Index.md`; `04_reference/Claim_Type_Table.md`; local RETYPE audit | formal handoff only where declared by chapter contract | anchor pending |
@@ -2863,3 +2863,714 @@ Part II lock
 ```
 
 Primary site: [Chapter 28 and Part II completion boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).
+
+## Chapter 29 Preparation Cross-Reference Route
+
+```text
+Foundations Chapters 1–8
+→ source identity, coordinates, operation grammar, origin type, target function, continuity, Band, Record, non-equivalences
+
+Part I — PATH
+→ possible Trajectory or composite source histories
+
+Part II — SUB and Chapter 26
+→ source traces, operation-boundary findings, prior dispositions, and unexecuted PROJECT_AS pressure
+
+Chapter 29
+→ governing functional-projection and no-replacement logic
+
+Chapter 30
+→ complete PROJECT_AS signature, declarations, tests, Loss, scope, and results
+
+Chapters 31–40
+→ projection families, alternatives, limits, cases, and RETYPE Local Audit
+```
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 WP1 Canonical Cross-Reference Route
+
+```text
+Chapter 5 definitions
+→ Chapter 29 WP1 typed functional-projection entry
+→ Chapter 29 WP2 integrity/continuity/boundedness
+→ Chapter 29 WP3 operation-boundary consolidation
+→ Chapter 30 complete PROJECT_AS procedure
+```
+
+| WP1 concept | Canonical source | Protected successor |
+|---|---|---|
+| RETYPE purpose and typed `X/T/C/F` claim | [§29.1](../01_blocks/04_part_iii_retype.md#29-1-purpose-of-retype) | Chapter 30 operation procedure |
+| target-context declaration and same-source contrast | [§29.2](../01_blocks/04_part_iii_retype.md#29-2-functional-projection) | WP2 Contextual Boundedness and counterfactual tests |
+| Origin-Type Preservation and no-new-primitive rule | [§29.3](../01_blocks/04_part_iii_retype.md#29-3-origin-type-preservation) | §29.5 target function versus operator type |
+| specific relational target-function candidate | [§29.4](../01_blocks/04_part_iii_retype.md#29-4-target-function) | WP2 Functional Continuity and Chapter 30 result discipline |
+
+Protected boundaries: Chapter 5 remains the definition owner; Chapter 26 remains the SUB/RETYPE boundary owner; Chapter 30 retains full `PROJECT_AS`; Chapters 31–40 retain families, alternatives, limits, cases, and audit.
+
+## Chapter 29 WP2 Canonical Cross-Reference Route
+
+```text
+§29.5 operator-type separation
+→ §29.6 source-object integrity and load trace
+→ §29.7 Functional Continuity and bounded source variation
+→ §29.8 Contextual Boundedness and Loss
+→ Chapter 29 WP3 integrated Part boundaries
+→ Chapter 30 complete PROJECT_AS procedure
+```
+
+| WP2 burden | Primary canonical site | Later owner |
+|---|---|---|
+| target function versus operator type | [§29.5](../01_blocks/04_part_iii_retype.md#29-5-target-function-versus-operator-type) | Chapters 31–35 family-specific use |
+| Source Object Integrity | [§29.6](../01_blocks/04_part_iii_retype.md#29-6-source-object-integrity) | Chapter 30 complete declaration |
+| Functional Continuity and bounded source variation | [§29.7](../01_blocks/04_part_iii_retype.md#29-7-functional-continuity) | Chapter 30 test procedure; Chapter 39 limits |
+| Contextual Boundedness and Loss | [§29.8](../01_blocks/04_part_iii_retype.md#29-8-contextual-boundedness) | Chapter 30 Record; LIMITS integrated audit |
+
+## Chapter 29 WP3 Cross-References
+
+| Chapter-29 site | Receives from | Hands to |
+|---|---|---|
+| [§29.9 Projection without Replacement](../01_blocks/04_part_iii_retype.md#29-9-projection-without-replacement) | PATH and SUB locks; Chapters 5, 6, 26 | Chapter 30 preservation and Loss declarations |
+| [§29.10 Typed Claim Consolidation](../01_blocks/04_part_iii_retype.md#29-10-functional-projection-as-a-typed-claim) | §§29.1–29.8 | Chapter 30 result and mapping separation |
+| [§29.11 RETYPE versus Recontextualization](../01_blocks/04_part_iii_retype.md#29-11-retype-versus-recontextualization) | PMS Φ; Chapter 4 operation grammar | Chapter 30 boundary procedure; Chapters 37–38 confusion tests |
+| [§29.12 RETYPE versus COMPOSE](../01_blocks/04_part_iii_retype.md#29-12-retype-versus-compose) | PATH and Chapter 15 | operation-chain records and Chapter 30 |
+| [§29.13 RETYPE versus DECOMPOSE](../01_blocks/04_part_iii_retype.md#29-13-retype-versus-decompose) | SUB and Chapter 26 | Chapter 30 complete `PROJECT_AS` specification |
+
+WP3 closes conceptual drafting but leaves the integrated Chapter-29 lock audit to WP4.
+
+## Chapter 29 Lock and Chapter 30 Preparation Cross-References
+
+| From | To | Relation |
+|---|---|---|
+| Chapter 29 completion boundary | Chapter 30 Preparation Record | conceptual lock to operation-preparation handoff |
+| Chapter 30 Preparation Record | Chapter 30 Contract | work-package and completion-control binding |
+| Chapter 30 Preparation Record | Operation Registry | existing `PROJECT_AS` identity and applicability owner |
+| Chapter 30 Preparation Record | Shared Record schema | field-syntax and conditional-payload owner |
+| Chapter 30 Preparation Record | Output Classes / Decision Tree | class identity and route-selection owners |
+| Chapter 30 Preparation Record | Chapter 31 | later family-specific operational handoff |
+
+Primary links: [Chapter 29 completion](../01_blocks/04_part_iii_retype.md#chapter-29-completion-boundary), [Chapter 29 execution record](Chapter_29_Preparation_Record.md#19-wp4-execution-and-provisional-lock-record), and [Chapter 30 Preparation Record](Chapter_30_Preparation_Record.md).
+
+## Chapter 30 WP1 Cross-References
+
+| Canonical element | Primary site | Upstream control | Next owner |
+|---|---|---|---|
+| PROJECT_AS definition | [§30.1](../01_blocks/04_part_iii_retype.md#30-1-definition) | Chapters 4, 5, and 29 | §§30.5–30.13 |
+| minimal signature | [§30.2](../01_blocks/04_part_iii_retype.md#30-2-minimal-signature) | Structure §30.2; Operation Registry | Chapter 30 complete procedure |
+| conjunctive preconditions | [§30.3](../01_blocks/04_part_iii_retype.md#30-3-preconditions) | Chapters 6–7 | WP2 tests and WP3 routing |
+| source declaration | [§30.4](../01_blocks/04_part_iii_retype.md#30-4-source-declaration) | Chapters 1–3, 7, 29 | §30.5 target declaration |
+| execution control | [WP1 Record](Chapter_30_Preparation_Record.md#16-wp1-execution-record) | Chapter-30 Contract | WP2 §§30.5–30.8 |
+
+Chapter 30 remains open. `PROJECT_AS` has not been executed and Chapters 31–40 retain family, competition, limit, case, audit, and RETYPE-lock ownership.
+
+## Chapter 30 WP2 Cross-Reference
+
+```text
+§30.5 Target Declaration
+→ Chapter 2 target coordinates
+→ Chapter 5 target function and transformation context
+
+§30.6 Projection Justification
+→ Chapter 6 PraxisPurchase and rival pressure
+→ Chapter 29 typed X/T/C/F claim
+
+§30.7 Constitutive Source Trace
+→ Chapter 5 Functional Continuity
+→ Chapter 6 TraceableLoad and Source Ceiling
+→ Chapter 7 source and Loss retention
+
+§30.8 Counterfactual Sensitivity
+→ Chapter 6 mandatory sensitivity check
+→ Chapter 29 bounded source/context variation
+→ Chapter 30 WP3 result and scope completion
+```
+
+Primary route: [Chapter 30 WP2](../01_blocks/04_part_iii_retype.md#30-5-target-declaration).
+
+## Chapter 30 WP3 Cross-References
+
+- [Validity Scope](../01_blocks/04_part_iii_retype.md#30-9-validity-scope) → Chapter 2 coordinates; Chapter 5 Contextual Boundedness; Chapter 6 Claim Ceiling; Chapter 29 re-entry.
+- [Projection Visibility and Loss](../01_blocks/04_part_iii_retype.md#30-10-projection-visibility-and-loss) → Chapter 7 Shared Record; canonical five-part Loss; prior source Loss.
+- [Alternatives and No-Projection](../01_blocks/04_part_iii_retype.md#30-11-alternative-projections-and-no-projection) → Chapter 4 operation identity; Chapter 26 SUB/RETYPE boundary; Boundary Decision Tree.
+- [Projection Results](../01_blocks/04_part_iii_retype.md#30-12-projection-results) → Output Class Index; Claim Type Table; result-axis separation.
+- [PROJECT_AS Record](../01_blocks/04_part_iii_retype.md#30-13-project-as-record) → Chapter 7 Shared Transformation Record; Transformation Record schema; Appendix F future template.
+
+Chapter 31 receives procedure only; its trajectory-as-frame-function claim remains unexecuted and independently testable.
+
+\n## Chapter 30 Lock → Chapter 31 Preparation Route\n\n```text\nChapter 29 conceptual RETYPE lock\n→ Chapter 30 generic PROJECT_AS procedural lock\n→ Chapter 31 trajectory-to-frame-function family test\n→ later Chapter 36 competition, Chapter 39 limits, and Chapter 40 cases/audit\n```\n\nChapter 31 references Chapters 11–12 for Trajectory and historical load, Chapter 2 for Frame, Chapter 29 for projection without replacement, and Chapter 30 for the generic operation procedure.\n\nPrimary sites: [Chapter 30 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-30-completion-boundary) and [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Chapter 31 WP1 Cross-References
+
+| Canonical element | Primary site | Upstream control | Next owner |
+|---|---|---|---|
+| bounded family claim | [§31.1](../01_blocks/04_part_iii_retype.md#31-1-basic-claim) | Chapters 29–30 | §31.5 Historical Load |
+| prior PATH source object | [§31.2](../01_blocks/04_part_iii_retype.md#31-2-source-object) | Chapters 11–12 and PATH source record | WP2 source carriers |
+| later target context and evidence boundary | [§31.3](../01_blocks/04_part_iii_retype.md#31-3-target-context) | Chapters 2, 5, and 30 | §§31.5–31.7 |
+| bounded frame-function candidate | [§31.4](../01_blocks/04_part_iii_retype.md#31-4-frame-function) | Origin-Type Preservation and PROJECT_AS | WP2–WP3 adjudication |
+| execution control | [WP1 Record](Chapter_31_Preparation_Record.md#14-wp1-execution-record) | Preparation Record v0.2 | Chapter 31 WP2 |
+
+Chapter 31 WP1 instantiates the generic procedure but does not inherit a successful family result.
+
+
+## Chapter 31 WP2 Cross-References
+
+| Chapter-31 site | Receives from | Hands to |
+|---|---|---|
+| [§31.5 Historical Load](../01_blocks/04_part_iii_retype.md#31-5-historical-load) | Chapters 11–12 source Trajectory; Chapter 30 Constitutive Source Trace | §31.9 Counterfactual Frame Test |
+| [§31.6 Non-Deterministic Frame-Function](../01_blocks/04_part_iii_retype.md#31-6-frame-function-without-historical-determinism) | Chapter 31 WP1 bounded target function; PMS alternatives and Recontextualization | Chapter 39 limits and Chapter 40 cases |
+| [§31.7 Multiple Frame Sources](../01_blocks/04_part_iii_retype.md#31-7-multiple-frame-sources) | present conditions from §31.3; alternative discipline from Chapter 30 | §§31.8–31.11 and Chapter 36 competing projections |
+| [WP2 Execution Record](Chapter_31_Preparation_Record.md#15-wp2-execution-record) | Chapter-31 Contract and Prep v0.3 | WP3 §§31.8–31.11 |
+
+The route preserves separate source-object and target-function warrants and does not preselect a family result or canonical class.
+
+
+## Chapter 31 WP3 Cross-References
+
+| Function | Canonical site | Supporting control |
+|---|---|---|
+| rhetorical history and trace failure | [§31.8](../01_blocks/04_part_iii_retype.md#31-8-rhetorical-history-versus-frame-function) | source selection and temporal evidence boundary from WP1 |
+| Counterfactual Frame Test | [§31.9](../01_blocks/04_part_iii_retype.md#31-9-counterfactual-frame-test) | Chapter 30 Counterfactual Sensitivity procedure |
+| same-end/different-history pressure | [§31.9](../01_blocks/04_part_iii_retype.md#31-9-counterfactual-frame-test) | PATH similar-end/different-path distinction |
+| competing projections and no-projection | [§31.10](../01_blocks/04_part_iii_retype.md#31-10-competing-frame-projections) | Chapter 30 alternatives and no-projection |
+| failed frame projection | [§31.11](../01_blocks/04_part_iii_retype.md#31-11-failed-frame-projection) | Failure/Stop/Non-Capture and Claim Ceiling |
+| execution control | [WP3 Record](Chapter_31_Preparation_Record.md#16-wp3-execution-record) | Chapter 31 WP4 next |
+
+## Chapter 31 Lock → Chapter 32 Preparation Cross-Reference
+
+```text
+Chapter 11 Trajectory
++ Chapter 15 COMPOSE
++ Chapter 29 functional projection
++ Chapter 30 PROJECT_AS procedure
++ Chapter 31 family non-automaticity
+→ Chapter 32 Trajectory as Macro-Event
+```
+
+Chapter 32 routes back to Chapters 1 and 3 for Event/Transition distinctions, Chapters 9–17 for source formation, Chapter 23 for Event/Non-Event decomposition boundaries, Chapter 26 for SUB/RETYPE separation, and Chapter 30 for the generic operation Record. Later use occurs in Chapters 36, 39, and 40.
+
+Primary sites: [Chapter 31 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-31-completion-boundary), [Chapter 31 WP4 Record](Chapter_31_Preparation_Record.md#17-wp4-execution-and-provisional-lock-record), and [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md).
+
+
+## Chapter 32 WP1 Cross-References
+
+| Canonical element | Primary site | Upstream control | Next owner |
+|---|---|---|---|
+| bounded family claim and source entry | [§32.1](../01_blocks/04_part_iii_retype.md#32-1-basic-claim) | PATH and Chapters 29–30 | §32.5 Internal Duration |
+| Macro-Event target-function grammar | [§32.2](../01_blocks/04_part_iii_retype.md#32-2-macro-event-as-target-function) | Chapter 29 type/function boundary | §32.7 Event Function |
+| wider target Path or temporal Frame | [§32.3](../01_blocks/04_part_iii_retype.md#32-3-target-frame) | Chapter 2 coordinates and Chapter 30 target declaration | WP2 role/time/function scope |
+| source-supported boundary selection | [§32.4](../01_blocks/04_part_iii_retype.md#32-4-boundary-selection) | PATH source record and Chapter 30 source trace | §32.10 Counterfactual Macro-Event Test |
+| WP1 execution state | [Preparation Record §14](Chapter_32_Preparation_Record.md#14-wp1-execution-record) | ZIP 215 | WP2 §§32.5–32.7 |
+
+## Chapter 32 WP2 Cross-References
+
+| Canonical element | Primary site | Upstream control | Next owner |
+|---|---|---|---|
+| internal duration preservation | [§32.5](../01_blocks/04_part_iii_retype.md#32-5-internal-duration) | PATH source record and WP1 boundaries | §32.8 Punctualization Error |
+| internal heterogeneity and phase load | [§32.6](../01_blocks/04_part_iii_retype.md#32-6-internal-heterogeneity) | source trace and Admissibility Band | §32.10 Counterfactual Macro-Event Test |
+| Macro-Event transition function | [§32.7](../01_blocks/04_part_iii_retype.md#32-7-event-function) | Chapter 30 target function and scope | §§32.9–32.11 |
+| WP2 execution state | [Preparation Record §15](Chapter_32_Preparation_Record.md#15-wp2-execution-record) | ZIP 216 | WP3 §§32.8–32.11 |
+
+
+## Chapter 32 WP3 Cross-References
+
+| Function | Canonical site | Supporting control |
+|---|---|---|
+| punctualization error | [§32.8](../01_blocks/04_part_iii_retype.md#32-8-punctualization-error) | Chapters 1, 3, 8 and WP2 duration/heterogeneity preservation |
+| `COMPOSE`/`PROJECT_AS` separation | [§32.9](../01_blocks/04_part_iii_retype.md#32-9-macro-event-versus-compose) | Chapters 15, 29, 30 and `new transformation = new testable claim` |
+| Counterfactual Macro-Event Test | [§32.10](../01_blocks/04_part_iii_retype.md#32-10-counterfactual-macro-event-test) | Chapter 30 Counterfactual Sensitivity and Chapter 32 boundary warrant |
+| rival periodization and alternative source | [§32.10](../01_blocks/04_part_iii_retype.md#32-10-counterfactual-macro-event-test) | PATH source revision and separate occurrence discipline |
+| no-projection and failed projection | [§32.11](../01_blocks/04_part_iii_retype.md#32-11-failed-macro-event-projection) | Output mapping, Stop, Failure, Non-Capture, source non-invalidation |
+| execution control | [WP3 Record](Chapter_32_Preparation_Record.md#16-wp3-execution-record) | Chapter 32 WP4 next |
+
+## Chapter 32 Lock → Chapter 33 Entry
+
+```text
+Chapter 32 completion boundary
+→ Chapter 32 WP4 Record
+→ Chapter 33 Preparation Record
+→ Chapter 33 WP1 §§33.1–33.4
+```
+
+Cross-reference obligations:
+
+- Chapter 32 remains the owner of trajectory-to-Macro-Event family conditions.
+- Chapter 33 receives no Macro-Event occurrence result or authority.
+- Chapter 33 must reference Chapters 9–17 for source Trajectories, Chapter 21 for Attractor-typed occurrences, and Chapters 29–30 for `PROJECT_AS`.
+- Chapter 35 remains the owner of operator-weighting profiles where conditionally invoked.
+
+Primary sites: [Chapter 32 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-completion-boundary) and [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md).
+
+
+## Chapter 33 WP1 Cross-Reference Return
+
+| Chapter-33 WP1 element | Upstream owner | Current role |
+|---|---|---|
+| source Trajectories | Chapters 9–17 | independently warranted PATH objects |
+| recurrent-form source | Chapter 33 | derived comparison object; candidate only |
+| Α | PMS Base / Chapters 1 and 8 | operator type preserved |
+| PROJECT_AS | Chapters 29–30 | existing operation instantiated, not executed |
+| comparison coordinates | Chapters 2, 6, 7 | Frame/granularity/role/time/evidence relations declared |
+| Pattern Threshold | Chapter 33 | non-numerical family entry discipline |
+| exact five-part Loss | Chapters 6–7 | inherited and retained |
+| target `D/E` contrast | Chapter 33 Preparation | same-source function/no-function pressure |
+
+Primary site: [Chapter 33 WP1](../01_blocks/04_part_iii_retype.md#chapter-33-recurrent-trajectory-form-as-attractor-function).
+
+## Chapter 33 WP2 Cross-References
+
+| Canonical element | Primary site | Upstream control | Next owner |
+|---|---|---|---|
+| constitutive repetition and break conditions | [§33.5](../01_blocks/04_part_iii_retype.md#33-5-constitutive-repetition) | PATH source records and WP1 Pattern Threshold | §§33.8–33.10 adversarial testing |
+| reproduction/path-influence mechanism | [§33.5](../01_blocks/04_part_iii_retype.md#33-5-constitutive-repetition) | Chapter 30 Source Trace and temporal continuity | Counterfactual Attractor Test |
+| Attractor Load and later-path difference | [§33.6](../01_blocks/04_part_iii_retype.md#33-6-attractor-load) | Chapter 30 target function/scope | WP3 rival/no-projection/failure routes |
+| dynamic/static separation | [§33.7](../01_blocks/04_part_iii_retype.md#33-7-dynamic-versus-static-attractor-function) | Chapter 33 WP1 family grammar | Chapter 36 competing projections |
+| WP2 execution state | [Preparation Record §15](Chapter_33_Preparation_Record.md#15-wp2-execution-record) | ZIP 220 | WP3 §§33.8–33.10 |
+
+## Chapter 33 WP3 Cross-References
+
+| Canonical element | Primary site | Upstream control | Next owner |
+|---|---|---|---|
+| retrospective-similarity and source-selection discipline | [§33.8](../01_blocks/04_part_iii_retype.md#33-8-recurrent-form-versus-retrospective-similarity) | WP1 comparability and WP2 constitutive repetition | Chapter 33 WP4 lock audit |
+| Counterfactual Attractor Test | [§33.9](../01_blocks/04_part_iii_retype.md#33-9-counterfactual-attractor-test) | Chapter 30 Counterfactual Sensitivity | Chapter 36 competing projections and Chapter 39 limits |
+| rival and no-projection space | [§33.9](../01_blocks/04_part_iii_retype.md#33-9-counterfactual-attractor-test) | Chapter 29 typed projection and Chapter 30 alternatives | Chapter 40 cases/audit |
+| failed attractor projection and source preservation | [§33.10](../01_blocks/04_part_iii_retype.md#33-10-failed-attractor-projection) | PATH source dispositions and RETYPE anti-immunization | Chapter 33 WP4 lock decision |
+| WP3 execution state | [Preparation Record §16](Chapter_33_Preparation_Record.md#16-wp3-execution-record) | ZIP 221 | WP4 integrated audit and Chapter-34 preparation |
+
+## Chapter 33 Lock and Chapter 34 Preparation Map
+
+| Function | Canonical site |
+|---|---|
+| Chapter-33 family lock | [Chapter 33 completion](../01_blocks/04_part_iii_retype.md#chapter-33-completion-boundary) |
+| Chapter-33 WP4 record | [Execution record](Chapter_33_Preparation_Record.md#17-wp4-execution-and-provisional-lock-record) |
+| Chapter-34 preparation | [Preparation Record](Chapter_34_Preparation_Record.md) |
+| Chapter-34 Contract | [Chapter Contracts](../05_minified/Chapter_Contracts.md#chapter-34-composite-structures-as-higher-level-functions) |
+| Chapter-34 Structure | [Structure](../00_source/PMS-STRATA_Structure.md) |
+
+## Chapter 34 WP1 Cross-References
+
+| Canonical element | Primary site | Upstream control | Next owner |
+|---|---|---|---|
+| family claim and relational source packet | [§34.1](../01_blocks/04_part_iii_retype.md#34-1-basic-claim) | Chapters 1, 20–22, 29–30 | §34.8 formation tests |
+| higher-level boundary-function candidate | [§34.2](../01_blocks/04_part_iii_retype.md#34-2-local-differences-as-higher-level-boundary-function) | type/function non-equivalence | WP3 aggregation and counterfactual pressure |
+| repeated-Non-Event attractor candidate | [§34.3](../01_blocks/04_part_iii_retype.md#34-3-repeated-non-events-as-higher-level-attractor-function) | PATH/SUB Λ and Chapter 33 safeguards | WP3 threshold and failure |
+| distributed asymmetry/access candidate | [§34.4](../01_blocks/04_part_iii_retype.md#34-4-distributed-asymmetries-as-higher-level-omega-function) | Ω boundary and relation maps | WP3 substitution/subset/rival tests |
+| WP1 execution state | [Preparation Record §13](Chapter_34_Preparation_Record.md#13-wp1-execution-record) | ZIP 223 | WP2 §§34.5–34.7 |
+
+## Chapter 34 WP2 Cross-References
+
+| WP2 object | Primary site | Required return | Deferred pressure |
+|---|---|---|---|
+| repeated commitments / binding-function | [§34.5](../01_blocks/04_part_iii_retype.md#34-5-repeated-commitments-as-higher-level-psi-function) | Chapter 21 binding occurrence; Chapters 22/30 | WP3 formation, threshold, failure |
+| multiple integrations / integration-function | [§34.6](../01_blocks/04_part_iii_retype.md#34-6-multiple-integrations-as-higher-level-sigma-function) | Chapter 22 relation/conflict; Chapter 30 | WP3 aggregation and rivals |
+| source-traceable emergence | [§34.7](../01_blocks/04_part_iii_retype.md#34-7-emergent-function) | Chapters 6, 22, 30 | WP3 threshold and Counterfactual Sensitivity |
+| component roles and substitution | [§34.7](../01_blocks/04_part_iii_retype.md#34-7-emergent-function) | Chapter 22 | WP3 subset and frame pressure |
+| WP2 execution state | [Preparation Record §14](Chapter_34_Preparation_Record.md#14-wp2-execution-record) | Formal-model mirror | WP3 §§34.8–34.11 |
+
+## Chapter 34 WP3 Cross-Reference Return
+
+- [§34.8](../01_blocks/04_part_iii_retype.md#34-8-aggregation-versus-functional-formation) applies Chapters 20–22 and 29–30 to aggregation versus formation.
+- [§34.9](../01_blocks/04_part_iii_retype.md#34-9-thresholds) routes to Relevance Floor, Traceability Ceiling, subset, alternative-composite, and rival-Frame checks.
+- [§34.10](../01_blocks/04_part_iii_retype.md#34-10-higher-level-function-without-authority-increase) routes to Counterfactual Sensitivity and the global authority prohibition.
+- [§34.11](../01_blocks/04_part_iii_retype.md#34-11-failed-higher-level-projection) routes to canonical Reduction, Stop, Failure, Non-Capture, and exact Loss.
+- [WP3 Execution Record](Chapter_34_Preparation_Record.md#15-wp3-execution-record) hands the complete family method to WP4.
+
+## Chapter 34 Lock to Chapter 35 Preparation Links
+
+| From | To | Relation |
+|---|---|---|
+| Chapter 34 completion boundary | Chapter 35 Preparation Record | higher-level-function traceability constrains profile formation |
+| Chapter 35 Preparation Record | Chapter 35 WP1 | weighting, dependency, modulator, source/target, and non-type packet |
+| PMS.yaml | Chapter 35 | unchanged operator order and dependencies |
+| Chapter 22 | Chapter 35 | source-side occurrence load, relation, redundancy, and conflict |
+| Chapter 30 | Chapter 35 | optional profile projection uses generic `PROJECT_AS` procedure |
+
+## Chapter 35 WP1 Cross-References
+
+| Canonical element | Primary site | Upstream control | Next owner |
+|---|---|---|---|
+| family purpose and source packet | [§35.1](../01_blocks/04_part_iii_retype.md#35-1-purpose) | Chapters 1–8, 20–22, 29–30, 34 | WP2 profile formation |
+| qualitative weighting dimensions | [§35.2](../01_blocks/04_part_iii_retype.md#35-2-operator-weighting) | PMS.yaml dependencies and occurrence/source evidence | WP2 role/phase stability |
+| no-reordering and operation boundary | [§35.3](../01_blocks/04_part_iii_retype.md#35-3-weighting-is-not-reordering) | PMS Base and Chapter 4 | WP3 profile/type and inflation audit |
+| contextual modulator and `K/L` packet | [§35.4](../01_blocks/04_part_iii_retype.md#35-4-modulator) | Chapters 5–7 and 30 | WP2 modulator variation; WP3 projection |
+| WP1 execution state | [Preparation Record §13](Chapter_35_Preparation_Record.md#13-wp1-execution-record) | ZIP 227 | WP2 §§35.5–35.7 |
+
+## Chapter 35 WP2 Cross-References
+
+| Canonical element | Primary site | Upstream control | Next owner |
+|---|---|---|---|
+| modulating-profile relation | [§35.5](../01_blocks/04_part_iii_retype.md#35-5-modulating-profile) | WP1 source packet; Chapters 22 and 34 | WP3 profile/type boundary |
+| bounded stability and prominence | [§35.5](../01_blocks/04_part_iii_retype.md#35-5-modulating-profile) | role/phase evidence; PMS dependencies | WP3 threshold and inflation audit |
+| trajectory-form influence | [§35.6](../01_blocks/04_part_iii_retype.md#35-6-from-weighting-to-trajectory-form) | PATH Lock; Chapters 11–15 | WP3 projection and Counterfactual Test |
+| modulator variation and rivals | [§35.6](../01_blocks/04_part_iii_retype.md#35-6-from-weighting-to-trajectory-form) | Chapters 6, 22, 30 | WP3 failure routes |
+| source-traceable emergent profile | [§35.7](../01_blocks/04_part_iii_retype.md#35-7-emergent-functional-profile) | Chapter 34 emergence boundary | WP3 target-level projection |
+| WP2 execution state | [Preparation Record §14](Chapter_35_Preparation_Record.md#14-wp2-execution-record) | ZIP 228 | WP3 §§35.8–35.12 |
+
+## Chapter 35 WP3 Cross-References
+
+- [Profile versus Type](../01_blocks/04_part_iii_retype.md#35-8-profile-versus-type) → Chapters 1, 5, 8, 29, 38.
+- [Profile Projection](../01_blocks/04_part_iii_retype.md#35-9-profile-projection) → Chapters 29–30 and Chapter 36.
+- [Profile Inflation](../01_blocks/04_part_iii_retype.md#35-10-risks-of-profile-inflation) → Admissibility Band and Chapter 39.
+- [Add-On Stress Cases](../01_blocks/04_part_iii_retype.md#35-11-use-of-add-on-stress-cases) → Appendix J, without upstream authority.
+- [Failed Modulation Claim](../01_blocks/04_part_iii_retype.md#35-12-failed-modulation-claim) → Stop, Failure, Non-Capture, and Chapter 40 cases.
+
+## Chapter 35 Lock and Chapter 36 Cross-References
+
+- [Chapter 35 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-35-completion-boundary)
+- [Chapter 35 WP4 Record](Chapter_35_Preparation_Record.md#16-wp4-execution-and-provisional-lock-record)
+- [Chapter 36 Preparation Gate](Chapter_36_Preparation_Record.md)
+- [Chapter 36 Contract](../05_minified/Chapter_Contracts.md#chapter-36-competing-projections)
+- [Chapter 36 Structure](../00_source/PMS-STRATA_Structure.md)
+
+## Chapter 36 WP1 Cross-References
+
+```text
+Chapter 29 origin type / target function
+→ Chapter 30 candidate-specific PROJECT_AS procedure
+→ Chapters 31–35 family-specific burdens
+→ Chapter 36 §§36.1–36.4 shared-source lock and target coordinates
+→ Chapter 36 WP2 comparative criteria and indeterminacy
+→ Chapter 36 WP3 non-translation, output discipline, and failure
+→ Chapters 39–40 integrated alternatives and cases
+```
+
+Canonical prose: [Chapter 36 WP1](../01_blocks/04_part_iii_retype.md#chapter-36-competing-projections).  
+Execution record: [Chapter 36 WP1 Execution Record](Chapter_36_Preparation_Record.md#chapter-36-wp1-execution-record).
+
+## Chapter 36 WP2 Cross-References
+
+```text
+Chapter 36 WP1 comparison-entry grammar
+→ §36.5 qualitative criteria and exact Loss comparison
+→ §36.6 discriminative performance and no-projection pressure
+→ §36.7 co-validity, context-dependence, partial preference,
+  underdetermination, and non-comparability
+→ Chapter 36 WP3 non-translation, tribunal boundary,
+  comparison record, integrated counterfactual and failure discipline
+```
+
+Canonical prose: [Chapter 36 WP2](../01_blocks/04_part_iii_retype.md#36-5-comparative-criteria).  
+Execution record: [Chapter 36 WP2 Execution Record](Chapter_36_Preparation_Record.md#chapter-36-wp2-execution-record).
+
+## Chapter 36 WP3 Cross-References
+
+```text
+Chapter 36 WP1 comparison-entry grammar
+→ Chapter 36 WP2 qualitative comparison and indeterminacy
+→ §36.8 non-translation / non-contradiction / non-comparability
+→ §36.9 non-tribunal integrated counterfactual and failure localization
+→ §36.10 Projection Comparison Record
+→ Chapter 36 WP4 integrated lock audit
+→ Chapter 37 projection / analogy / label-substitution boundary
+```
+
+Canonical prose: [Chapter 36 WP3](../01_blocks/04_part_iii_retype.md#36-8-non-translation).  
+Execution record: [Chapter 36 WP3 Execution Record](Chapter_36_Preparation_Record.md#chapter-36-wp3-execution-record).
+
+## Chapter 36 Lock and Chapter 37 Cross-References
+
+- [Chapter 36 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-36-completion-boundary)
+- [Chapter 36 WP4 execution record](Chapter_36_Preparation_Record.md#chapter-36-wp4-execution-record)
+- [Chapter 37 Preparation Gate](Chapter_37_Preparation_Record.md)
+- Chapter 37 WP1 will begin at §§37.1–37.4.
+
+## Chapter 37 WP1 Cross-Reference Route
+
+```text
+Chapter 29 origin type / target function
+→ Chapter 30 complete PROJECT_AS burden
+→ Chapters 31–35 family-specific projection burdens
+→ Chapter 36 candidate comparison
+→ Chapter 37 WP1 triad and cross-domain mapping entry
+→ Chapter 37 WP2 mapping-status and substitution tests
+```
+
+Primary links:
+
+- [§37.1 Why the Distinction Matters](../01_blocks/04_part_iii_retype.md#37-1-why-the-distinction-matters)
+- [§37.2 Valid Functional Projection](../01_blocks/04_part_iii_retype.md#37-2-valid-functional-projection)
+- [§37.3 Structural Analogy](../01_blocks/04_part_iii_retype.md#37-3-structural-analogy)
+- [§37.4 Cross-Domain Projection](../01_blocks/04_part_iii_retype.md#37-4-cross-domain-projection)
+- [WP1 Execution Record](Chapter_37_Preparation_Record.md#chapter-37-wp1-execution-record)
+
+Chapter 38 later receives invalid type-jump and level-mixing cases; Chapter 40 later receives executed cases and confusion cases.
+
+## Chapter 37 WP2 Cross-Reference Route
+
+```text
+§37.1 triad
+→ §37.2 complete PROJECT_AS burden
+→ §37.3 bounded analogy
+→ §37.4 cross-domain coordinates and residuals
+→ §37.5 symbolic/formal/executable separation
+→ §37.6 terminal analogy
+→ §37.7 partial analogy
+→ §37.8 substitution markers and counterfactual mapping test
+→ WP3 drift, translation, integrated stress, output, and failure
+```
+
+Primary links:
+
+- [§37.5 Symbolic, Formal, and Executable Mapping](../01_blocks/04_part_iii_retype.md#37-5-symbolic-formal-and-executable-mapping)
+- [§37.6 Analogy as a Legitimate Terminal Status](../01_blocks/04_part_iii_retype.md#37-6-analogy-as-a-legitimate-terminal-status)
+- [§37.7 Partial Analogy](../01_blocks/04_part_iii_retype.md#37-7-partial-analogy)
+- [§37.8 Label Substitution and Counterfactual Mapping Test](../01_blocks/04_part_iii_retype.md#37-8-label-substitution-and-counterfactual-mapping-test)
+- [WP2 Execution Record](Chapter_37_Preparation_Record.md#chapter-37-wp2-execution-record)
+
+## Chapter 37 WP3 Cross-Reference Route
+
+```text
+Chapter 37 WP1 triad and source/residual lock
+→ Chapter 37 WP2 mapping statuses, terminal analogy, substitution markers and counterfactual test
+→ §37.9 analogy drift
+→ §37.10 translation breadth
+→ §37.11 integrated Analogy Stress Test
+→ §37.12 output, failure, Non-Capture and authority boundaries
+→ Chapter 37 WP4 lock audit
+```
+
+Key links:
+
+- [§37.9 Analogy Drift](../01_blocks/04_part_iii_retype.md#37-9-analogy-drift)
+- [§37.10 Translation Breadth](../01_blocks/04_part_iii_retype.md#37-10-translation-breadth)
+- [§37.11 Integrated Analogy Stress Test](../01_blocks/04_part_iii_retype.md#37-11-integrated-analogy-stress-test)
+- [§37.12 Output, Failure, Non-Capture, and Authority Boundaries](../01_blocks/04_part_iii_retype.md#37-12-output-failure-non-capture-and-authority-boundaries)
+- [WP3 Execution Record](Chapter_37_Preparation_Record.md#chapter-37-wp3-execution-record)
+
+## Chapter 37 Lock → Chapter 38 Preparation Route
+
+```text
+Chapter 37 triad and semantic-preservation discipline
+→ Chapter 37 provisional family-method lock
+→ Chapter 38 invalid type/context/level/granularity taxonomy
+→ Chapter 39 RETYPE Boundary Conditions
+→ Chapter 40 cases and integrated local audit
+```
+
+Key links:
+
+- [Chapter 37 integrated lock audit](../01_blocks/04_part_iii_retype.md#chapter-37-integrated-family-method-lock-audit)
+- [Chapter 37 WP4 Execution Record](Chapter_37_Preparation_Record.md#chapter-37-wp4-execution-record)
+- [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md)
+
+## Chapter 38 WP1 Cross-References
+
+```text
+Chapter 29 origin type / target function
+→ Chapter 30 complete PROJECT_AS procedure
+→ Chapter 37 projection / analogy / substitution triad
+→ Chapter 38 WP1 invalid type jump, missing context, and bounded metaphor
+→ Chapter 38 WP2 level, granularity, rescue, person, and primitive errors
+```
+
+Canonical site: [Chapter 38 WP1](../01_blocks/04_part_iii_retype.md#38-1-invalid-type-jump).  
+Execution site: [Chapter 38 WP1 Execution Record](Chapter_38_Preparation_Record.md#chapter-38-wp1-execution-record).
+
+## Chapter 38 WP2 Cross-Reference Route
+
+```text
+§38.1 origin-type replacement
+→ §38.2 source type / target function continuity
+→ §38.3 target-coordinate completeness
+→ §38.4 bounded metaphor and ambiguity
+→ §38.5 cross-level relation versus mixing
+→ §38.6 multi-granular relation versus direct transfer
+→ §38.7 failure preservation and new-claim burden
+→ §38.8 person/group boundary
+→ §38.9 primitive and dual-record boundary
+→ WP3 scope, time, Loss, invalid-record, and output discipline
+```
+
+Primary links:
+
+- [§38.5 Unmarked Level Mixing](../01_blocks/04_part_iii_retype.md#38-5-unmarked-level-mixing)
+- [§38.6 Granularity Mixing](../01_blocks/04_part_iii_retype.md#38-6-granularity-mixing)
+- [§38.7 Projection as Rescue Operation](../01_blocks/04_part_iii_retype.md#38-7-projection-as-rescue-operation)
+- [§38.8 Macrofunction Attributed to a Person](../01_blocks/04_part_iii_retype.md#38-8-macrofunction-attributed-to-a-person)
+- [§38.9 New Primitive by Projection](../01_blocks/04_part_iii_retype.md#38-9-new-primitive-by-projection)
+- [WP2 Execution Record](Chapter_38_Preparation_Record.md#chapter-38-wp2-execution-record)
+
+## Chapter 38 WP3 Cross-References
+
+- [§38.10 Scope Inflation](../01_blocks/04_part_iii_retype.md#38-10-scope-inflation)
+- [§38.11 Temporal Flattening](../01_blocks/04_part_iii_retype.md#38-11-temporal-flattening)
+- [§38.12 Projection without Loss](../01_blocks/04_part_iii_retype.md#38-12-projection-without-loss)
+- [§38.13 Invalid Projection Record](../01_blocks/04_part_iii_retype.md#38-13-invalid-projection-record)
+- [WP3 Completion Boundary](../01_blocks/04_part_iii_retype.md#chapter-38-wp3-completion-boundary)
+- [WP3 Execution Record](Chapter_38_Preparation_Record.md#chapter-38-wp3-execution-record)
+- [Chapter 39 Contract](../05_minified/Chapter_Contracts.md#chapter-39-retype-boundary-conditions)
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-cross-reference-sync"></a>
+
+## Chapter 38 Lock → Chapter 39 Preparation Route
+
+```text
+Chapter 30 complete PROJECT_AS procedure
+→ Chapters 31–37 family and analogy boundaries
+→ Chapter 38 invalidity taxonomy provisionally locked
+→ Chapter 39 local RETYPE boundary gate
+→ Chapter 40 executed cases and RETYPE lock
+```
+
+Primary sites:
+
+- [Chapter 38 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-38-completion-boundary)
+- [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#chapter-38-wp4-execution-record)
+- [Chapter 39 Preparation Record](Chapter_39_Preparation_Record.md)
+- [Chapter 39 Contract](../05_minified/Chapter_Contracts.md#chapter-39-retype-boundary-conditions)
+
+Chapter 39 references Chapter 6 for the Band, Chapter 30 for the operation record, Chapter 37 for analogy-only, and Chapter 38 for invalidity and failure continuity. It does not redefine those sites.
+
+<a id="chapter-39-wp1-cross-reference-sync"></a>
+
+## Chapter 39 WP1 Cross-References
+
+```text
+Chapter 6 general Admissibility Band
+→ Chapter 30 complete PROJECT_AS occurrence
+→ Chapter 37 analogy/substitution boundary
+→ Chapter 38 invalidity localization
+→ Chapter 39 §§39.1–39.4 lower/upper RETYPE boundary entry
+→ Chapter 39 WP2 Source Trace, Type, Context, and Counterfactual gates
+```
+
+Execution record: [Chapter 39 Preparation Record §14](Chapter_39_Preparation_Record.md#chapter-39-wp1-execution-record).
+
+<a id="chapter-39-wp2-cross-reference-sync"></a>
+
+## Chapter 39 WP2 Cross-References
+
+```text
+Chapter 6 non-compensatory Admissibility Band
+→ Chapter 30 PROJECT_AS occurrence requirements
+→ Chapter 38 Type, Context, Level, Loss, and failure localization
+→ Chapter 39 WP1 lower/upper RETYPE boundaries
+→ Chapter 39 WP2 Source Trace, Type, Context, and Counterfactual gates
+→ Chapter 39 WP3 alternatives, analogy, elasticity, Stop, Non-Capture, and terminal gate
+```
+
+Execution record: [Chapter 39 Preparation Record §15](Chapter_39_Preparation_Record.md#chapter-39-wp2-execution-record).
+
+<a id="chapter-39-wp3-cross-reference-sync"></a>
+
+## Chapter 39 WP3 Cross-References
+
+```text
+Chapter 39 WP1 floor/ceiling
+→ WP2 trace/type/context/counterfactual gates
+→ WP3 alternatives/analogy/elasticity/Stop/Non-Capture
+→ complete RETYPE Admissibility Test
+→ WP4 lock audit and Chapter 40 Preparation Gate
+```
+
+<a id="chapter-39-lock-and-chapter-40-preparation-cross-reference-sync"></a>
+
+## Chapter 39 Lock to Chapter 40 Case-Audit Route
+
+```text
+Chapter 29 → functional projection
+Chapter 30 → PROJECT_AS record
+Chapters 31–35 → projection families
+Chapter 36 → projection comparison
+Chapter 37 → projection / analogy / substitution
+Chapter 38 → invalidity taxonomy
+Chapter 39 → local RETYPE boundary gate, provisionally locked
+Chapter 40 → cases, countercases, confusion cases, local audit, output mapping, lock decision
+Chapter 53 → later integrated STRATA audit
+```
+
+Primary preparation record: [Chapter 40 Preparation Record](Chapter_40_Preparation_Record.md).
+
+## Chapter 40 WP1 Positive-Case Route
+
+| Chapter-40 section | Family source | Primary locked method | Open burden |
+| --- | --- | --- | --- |
+| [§40.1](../01_blocks/04_part_iii_retype.md#40-1-case-architecture) | all RETYPE cases | Chapters 29–30 and 39 | artifact, audit, mapping |
+| [§40.2](../01_blocks/04_part_iii_retype.md#40-2-case-1-trajectory-as-frame-function) | Trajectory | Chapter 31 | non-deterministic frame-function |
+| [§40.3](../01_blocks/04_part_iii_retype.md#40-3-case-2-trajectory-as-macro-event) | extended Trajectory | Chapter 32 | anti-punctualization |
+| [§40.4](../01_blocks/04_part_iii_retype.md#40-4-case-3-recurrent-trajectory-form-as-attractor-function) | recurrent form | Chapter 33 | stabilizing load beyond similarity |
+| [§40.5](../01_blocks/04_part_iii_retype.md#40-5-case-4-distributed-local-asymmetries-as-higher-level-function) | relational composite | Chapter 34 | formation beyond aggregation |
+| [§40.6](../01_blocks/04_part_iii_retype.md#40-6-case-5-operator-weighting-profile-as-modulating-function) | weighting profile | Chapter 35 | dependency and person boundary |
+| [§40.7](../01_blocks/04_part_iii_retype.md#40-7-case-6-two-compatible-projections) | stable shared source | Chapter 36 | separate coordinates and no merger |
+| [§40.8](../01_blocks/04_part_iii_retype.md#40-8-case-7-two-competing-projections) | stable shared source | Chapter 36 | discrimination, Loss, provisionality, Non-Capture |
+
+<a id="chapter-40-wp2-cross-reference-sync"></a>
+
+## Chapter 40 WP2 Cross-References
+
+```text
+§40.9 Origin-Type Replacement
+→ Chapters 29, 30, 38.1–38.2, 39.6
+
+§40.10 Projection without Context
+→ Chapters 30, 38.3, 39.7
+
+§40.11 Label Substitution
+→ Chapters 37.8, 38, 39.1–39.5
+
+§40.12 Analogy Presented as Projection
+→ Chapter 37 and Appendix K
+
+§40.13 Macrofunction from Mere Aggregation
+→ Chapters 34.8–34.9 and 38
+
+§40.14 Projection as Claim Rescue
+→ Chapters 38.7 and 39.11–39.12
+
+§40.15 Person-Level Type Jump
+→ Chapters 35.8, 38.8, and governance non-authority boundary
+```
+
+<a id="chapter-40-wp3-cross-reference-sync"></a>
+
+## Chapter 40 WP3 Cross-References
+
+```text
+§40.16 RETYPE or SUB?
+→ Chapters 18–26, 29–30, and Chapter 26 boundary
+
+§40.17 RETYPE or COMPOSE?
+→ Chapters 22, 29–30, and 34
+
+§40.18 Projection or Recontextualization?
+→ PMS Φ and Chapters 29, 30, and 38
+
+§40.19 Attractor-Function or Repeated Similarity?
+→ Chapters 33, 37, and 39
+
+§40.20 Modulator or New Operator?
+→ Chapters 35 and 38
+
+§40.21 Projection or Structural Analogy?
+→ Chapters 37 and 39 and Appendix K
+```
+
+
+## Chapter 40 Completion → Part IV LIMITS Route
+
+```text
+Chapters 29–39
+→ provisionally locked RETYPE methods
+
+Chapter 40
+→ complete Layer-1 case architecture
+→ thirty-two-question audit specification
+→ canonical mapping boundary
+→ bounded provisional Part-III lock
+→ artifact-complete lock mandatory_stop
+
+Chapter 41
+→ constitutive LIMITS rationale
+→ recursive risk and authority-drift architecture
+```
+
+Primary sites:
+
+- [Chapter 40 Local Audit](../01_blocks/04_part_iii_retype.md#40-22-retype-local-audit)
+- [Chapter 40 Output Classes](../01_blocks/04_part_iii_retype.md#40-23-retype-output-classes)
+- [Chapter 40 Closing Statement](../01_blocks/04_part_iii_retype.md#40-24-retype-closing-statement)
+- [Chapter 41 Preparation Record](Chapter_41_Preparation_Record.md)
+
+The LIMITS handoff preserves the Chapter-40 artifact Stop and does not convert it into a completed RETYPE lock.

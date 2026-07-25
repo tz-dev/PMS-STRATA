@@ -4222,3 +4222,765 @@ Part II lock
 ```
 
 Primary site: [Chapter 28 and Part II completion boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).
+
+## Chapter 29 Preparation — PROJECT_AS Conceptual Entry
+
+Chapter 29 prepares but does not execute the existing `PROJECT_AS` operation.
+
+```text
+origin-typed source object X
++ declared target context C
++ source-traceable bounded function F
+→ PROJECT_AS candidate
+```
+
+A prior `COMPOSE` may form X and a prior `DECOMPOSE` may expose relevant source traces. Those operations remain separate occurrences with separate Records, Loss, and results. Their success does not establish the target function.
+
+```text
+successful COMPOSE or DECOMPOSE
+≠ successful PROJECT_AS
+```
+
+Chapter 30 alone owns the complete operation signature and record specification.
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 WP1 — Typed PROJECT_AS Candidate Entry
+
+Chapter 29 WP1 establishes the conceptual entry packet for later `PROJECT_AS` without executing the operation:
+
+```text
+identified source object X
++ retained origin type T
++ declared target context C
++ specific candidate function F
+→ typed PROJECT_AS candidate
+```
+
+A prior `COMPOSE` or `DECOMPOSE` may supply the source object or finer source trace. Each remains a separate occurrence with separate Record, Loss, and result. The same source object is tested in one candidate function-bearing context and one no-additional-function context. Chapter 30 retains ownership of the full signature, tests, alternatives, Loss, and operation result.
+
+Primary site: [Chapter 29 WP1](../01_blocks/04_part_iii_retype.md#29-1-purpose-of-retype).
+
+## Chapter 29 WP2 — PROJECT_AS Integrity and Continuity Burdens
+
+WP2 remains pre-operational. It supplies the burdens that Chapter 30 must later operationalize for each `PROJECT_AS` occurrence:
+
+```text
+retained source object and origin type
++ load-bearing source trace
++ source-to-context functional relation
++ bounded source variation
++ declared target scope and Loss
+→ PROJECT_AS assessment packet
+```
+
+The packet does not execute `PROJECT_AS`, select a final function result, or map a canonical Output Class. A prior `COMPOSE` or `DECOMPOSE` remains a separate occurrence and cannot transfer support or Loss automatically.
+
+Primary sites: [§29.6](../01_blocks/04_part_iii_retype.md#29-6-source-object-integrity) through [§29.8](../01_blocks/04_part_iii_retype.md#29-8-contextual-boundedness).
+
+## Chapter 29 WP3 — PROJECT_AS Boundary Consolidation
+
+WP3 fixes the non-replacement and chain-segmentation rules before Chapter 30 operationalizes `PROJECT_AS`.
+
+```text
+Φ changes legibility
+COMPOSE forms a new object
+DECOMPOSE opens internal constitution
+PROJECT_AS tests a bounded contextual function
+```
+
+A prior `COMPOSE` or `DECOMPOSE` may supply the source object or source trace. Neither transfers operation success, Loss, result, Output Class, or authority to `PROJECT_AS`. Every changed context, function, source typing, or scope creates a new testable claim and separate Record.
+
+Primary sites: [§29.11](../01_blocks/04_part_iii_retype.md#29-11-retype-versus-recontextualization), [§29.12](../01_blocks/04_part_iii_retype.md#29-12-retype-versus-compose), and [§29.13](../01_blocks/04_part_iii_retype.md#29-13-retype-versus-decompose).
+
+## Chapter 29 Provisional Lock and Chapter 30 Operation Preparation
+
+Chapter 29 provisionally locks the conceptual `PROJECT_AS` burden without executing an occurrence. Chapter 30 now owns the complete operation procedure.
+
+```text
+Chapter 29 typed projection architecture
+→ Chapter 30 PROJECT_AS operation procedure
+
+conceptual lock
+≠ operation success
+```
+
+Chapter 30 must retain separate source and target declarations, exact operation identity, Constitutive Source Trace, Counterfactual Sensitivity, validity scope, five-part Loss, alternatives including no-projection, local result, canonical mapping, and independent chain Records. No new operation or mixed occurrence is permitted.
+
+Preparation control: [Chapter 30 Preparation Record](Chapter_30_Preparation_Record.md).
+
+## Chapter 30 WP1 — PROJECT_AS Operation Entry
+
+WP1 operationalizes the entry side of the existing `PROJECT_AS` signature:
+
+```text
+PROJECT_AS:
+(X_g, T_o, C_t)
+→
+(F_t, g', J, L, V)
+```
+
+The signature is an accountability map, not a causal or automatic function. WP1 fixes operation identity, symbol roles, conjunctive preconditions, and the complete source declaration including source reference, coordinates, basis, prior disposition, uncertainty, and inherited five-part Loss.
+
+```text
+entry packet complete
+≠ target declaration complete
+≠ Constitutive Source Trace complete
+≠ projection executed
+≠ result selected
+```
+
+Primary sites: [Chapter 30 WP1](../01_blocks/04_part_iii_retype.md#chapter-30-project-as-signature-context-and-validity-scope) and [WP1 Execution Record](Chapter_30_Preparation_Record.md#16-wp1-execution-record).
+
+## Chapter 30 WP2 — PROJECT_AS Target and Test Packet
+
+WP2 extends the operation-entry packet without executing the operation:
+
+```text
+complete source declaration
++ complete target declaration
++ projection justification
++ expected praxeological difference
++ candidate Constitutive Source Trace
++ bounded Counterfactual Sensitivity architecture
+→ testable PROJECT_AS packet
+```
+
+Target object and target function remain distinct. Source pointer and Constitutive Source Trace remain distinct. Sensitivity remains non-causal and non-canonical. Full validity scope, current projection Loss, alternatives, local result, canonical mapping, and complete Record remain owned by WP3.
+
+Primary site: [Chapter 30 WP2](../01_blocks/04_part_iii_retype.md#30-5-target-declaration).
+
+## Chapter 30 WP3 — Complete PROJECT_AS Operation View
+
+`PROJECT_AS` now has a complete generic procedure through §§30.1–30.13:
+
+```text
+source entry
+→ target declaration
+→ justification and expected difference
+→ Constitutive Source Trace
+→ Counterfactual Sensitivity
+→ Validity Scope
+→ projection visibility + exact five-part Loss
+→ alternatives including no-projection
+→ local result + canonical mapping
+→ Shared Record integration
+```
+
+The operation remains non-invertible, context-bound, non-causal, non-automatic, and non-authorizing. Any `COMPOSE` or `DECOMPOSE` alternative requires a separate occurrence and record. Chapter 30 selects no family-specific result.
+
+Primary site: [PROJECT_AS Record](../01_blocks/04_part_iii_retype.md#30-13-project-as-record).
+
+\n## Chapter 30 Provisional Lock and Chapter 31 Family Handoff\n\nThe complete generic `PROJECT_AS` procedure is provisionally locked without executing the pressure object. Chapter 31 instantiates one family claim only: `Trajectory → bounded frame-function in declared later context`. It inherits the procedure, not a result.\n\n```text\nChapter 30 method lock ≠ PROJECT_AS occurrence\nChapter 31 family test ≠ fourth operation\n```\n\nPrimary sites: [Chapter 30 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-30-completion-boundary) and [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Chapter 31 WP1 — PROJECT_AS Family Entry
+
+The family candidate instantiates the existing operation without executing it:
+
+```text
+PROJECT_AS(
+  documented_trajectory_X,
+  origin_type = Trajectory,
+  target_context = later_configuration_Y_or_Z,
+  candidate_function = bounded_frame_function
+)
+```
+
+WP1 completes source and target family declarations, present-condition visibility, concrete target-difference specification, evidence-layer separation, and the same-source contrast. Historical Load, relative-load comparison, Counterfactual Sensitivity, alternatives, Loss result, local result, and canonical mapping remain open.
+
+Primary sites: [Chapter 31 WP1](../01_blocks/04_part_iii_retype.md#chapter-31-trajectory-as-frame-function) and [WP1 Record](Chapter_31_Preparation_Record.md#14-wp1-execution-record).
+
+
+## Chapter 31 WP2 — `PROJECT_AS` Family Overlay
+
+For trajectory-to-frame-function projection, WP2 adds the following family-specific burdens to the existing `PROJECT_AS` procedure:
+
+- separate PATH source warrant from target-function warrant;
+- identify source-traceable Historical-Load carriers;
+- distinguish load-bearing from modulating features;
+- name conditioned praxis dimensions, roles, levels, and time windows;
+- prohibit determinism, inevitability, prediction, and causal monopoly;
+- retain present and other historical frame sources;
+- state relative load qualitatively and source-bound, without scoring.
+
+These burdens do not create a fourth operation, a new schema, a target-function enum, or a result route. The same source `X` remains under open `Y/Z` pressure until WP3.
+
+Primary site: [Chapter 31 WP2](../01_blocks/04_part_iii_retype.md#31-5-historical-load).
+
+
+## Chapter 31 WP3 — `PROJECT_AS` Family Discrimination Overlay
+
+The trajectory-to-frame-function family now includes rhetorical-history rejection, trace-role separation, four-route counterfactual pressure, same-end/different-history testing, competing projections, background relevance, no-projection, and failed-projection routes.
+
+Each rival function, target context, role-set, time window, granularity, or praxis dimension remains a separate `PROJECT_AS` claim and Record. A present-frame account or Φ-only recontextualization is not silently converted into `PROJECT_AS`.
+
+```text
+same source + different function
+→ new PROJECT_AS occurrence
+
+failed frame projection
+≠ failed source Trajectory
+```
+
+Primary site: [Chapter 31 WP3](../01_blocks/04_part_iii_retype.md#31-8-rhetorical-history-versus-frame-function).
+
+## Chapter 31 Lock and Chapter 32 Preparation — Operation Chain
+
+The trajectory-to-frame-function family is provisionally locked as a method without an executed anchor result. The next family preserves an explicit operation chain:
+
+```text
+COMPOSE(configurations, transitions, events, non-events)
+→ Trajectory M
+
+PROJECT_AS(Trajectory M, wider Path B)
+→ bounded Macro-Event function candidate
+```
+
+The operations require separate occurrences, Records, Loss profiles, alternatives, and results. Failure of the Macro-Event projection does not automatically invalidate the source `COMPOSE` result.
+
+Primary sites: [Chapter 31 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-31-completion-boundary) and [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md).
+
+
+## Chapter 32 WP1 — PROJECT_AS Family Entry
+
+The family candidate instantiates the existing operation without executing it:
+
+```text
+PROJECT_AS(
+  documented_trajectory_M,
+  origin_type = Trajectory,
+  target_context = wider_path_B_or_C,
+  candidate_function = bounded_macro_event_function
+)
+```
+
+WP1 completes source entry, Macro-Event function grammar, wider target-Frame declaration, boundary warrant, anti-label control, Origin-Type Preservation, and the same-source `B/C` contrast. Duration, heterogeneity, transition gain, Counterfactual Sensitivity, alternatives, Loss result, local result, and canonical mapping remain open.
+
+Primary sites: [Chapter 32 WP1](../01_blocks/04_part_iii_retype.md#chapter-32-trajectory-as-macro-event) and [WP1 Record](Chapter_32_Preparation_Record.md#14-wp1-execution-record).
+
+## Chapter 32 WP2 — PROJECT_AS Preservation and Function Layer
+
+WP2 adds the family-specific preservation and function requirements to the existing operation:
+
+```text
+PROJECT_AS(Trajectory M, wider Path B)
+→ preserve duration and relevant heterogeneity
+→ disclose visibility and exact five-part Loss
+→ name a bounded transition difference
+→ retain causal and alternative-source pressure
+```
+
+It does not execute the occurrence or merge it with the prior `COMPOSE` that formed `M`.
+
+Primary sites: [§32.5](../01_blocks/04_part_iii_retype.md#32-5-internal-duration), [§32.6](../01_blocks/04_part_iii_retype.md#32-6-internal-heterogeneity), and [§32.7](../01_blocks/04_part_iii_retype.md#32-7-event-function).
+
+
+## Chapter 32 WP3 — Operation-Chain and Failure Discipline
+
+```text
+COMPOSE(source structures)
+→ Trajectory M
+→ separate Record, Loss, and result
+
+PROJECT_AS(Trajectory M, wider Path B or C)
+→ Macro-Event function test
+→ separate Record, Loss, and result
+```
+
+Phase, boundary, source-object, and target variation may narrow, stop, fail, or leave the projection uncaptured. A material source change returns the analysis to a new PATH/`COMPOSE` claim before a new `PROJECT_AS` occurrence. Projection failure does not automatically invalidate the prior source occurrence.
+
+Primary sites: [§32.9](../01_blocks/04_part_iii_retype.md#32-9-macro-event-versus-compose) and [§32.11](../01_blocks/04_part_iii_retype.md#32-11-failed-macro-event-projection).
+
+## Chapter 32 Lock — Separate Source Formation and Macro-Event Projection
+
+```text
+COMPOSE(source configurations and transitions)
+→ Trajectory M
+→ prior PATH Record, Loss, and result
+
+PROJECT_AS(Trajectory M, wider Path B)
+→ bounded Macro-Event function test
+→ separate Record, Loss, and result
+```
+
+Chapter 32 provisionally locks this family method without adjudicating `M/B/C`.
+
+Primary site: [Chapter 32 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-completion-boundary).
+
+## Chapter 33 Preparation — Recurrent Form and Attractor-Function
+
+The candidate source must be formed from multiple independently warranted and sufficiently comparable Trajectories. Source formation and later projection remain separate occurrences.
+
+```text
+COMPOSE/RECONSTRUCT comparable Trajectories
+→ recurrent trajectory form R
+
+PROJECT_AS(R, later path field D)
+→ bounded dynamic attractor-function candidate
+```
+
+A material change in trajectory selection, comparison coordinates, or constitutive form requires a new source claim before a new `PROJECT_AS` occurrence.
+
+Primary site: [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md).
+
+
+## Chapter 33 WP1 — PROJECT_AS Family Entry
+
+The family candidate instantiates the existing operation without executing it:
+
+```text
+PROJECT_AS(
+  recurrent_trajectory_form_R,
+  origin_type = derived_recurrent_form_composite,
+  target_context = later_path_field_D_or_E,
+  candidate_function = bounded_dynamic_attractor_function
+)
+```
+
+Source formation across Trajectories remains analytically prior to the projection occurrence. Material changes to source trajectories, boundaries, comparison coordinates, or constitutive form require a new source claim before a new `PROJECT_AS` claim.
+
+Primary sites: [Chapter 33 WP1](../01_blocks/04_part_iii_retype.md#chapter-33-recurrent-trajectory-form-as-attractor-function) and [WP1 Record](Chapter_33_Preparation_Record.md#14-wp1-execution-record).
+
+## Chapter 33 WP2 — PROJECT_AS Recurrence/Load Layer
+
+WP2 adds family-specific source and target burdens to the existing operation:
+
+```text
+PROJECT_AS(recurrent form R, later path field D)
+→ preserve constitutive/variable/background/uncertain/incompatible positions
+→ require temporally directed reproduction or path influence
+→ state concrete bounded Attractor Load and later-path difference
+→ separate dynamic and static function claims
+```
+
+The occurrence remains unexecuted and does not inherit success from the `COMPOSE` operations that formed the source Trajectories or recurrent composite.
+
+Primary site: [Chapter 33 WP2](../01_blocks/04_part_iii_retype.md#33-5-constitutive-repetition).
+
+## Chapter 33 WP3 PROJECT_AS Return
+
+For the recurrent-form-to-attractor-function family, `PROJECT_AS` must preserve:
+
+- independently warranted source Trajectories and target-blind recurrent-form source formation;
+- comparison coordinates, source-position distinctions, break conditions, and known missingness;
+- temporal reproduction/path-influence pathway and concrete later-path work;
+- same-source `D/E` contrast and present/rival source pressure;
+- exact five-part Loss, Validity Scope, Claim Ceiling, Stop, and Non-Capture;
+- separate dynamic/static claims and outcomes.
+
+Retrospective motif, source selection, common Frame, independent regeneration, multiple forms, static-only function, descriptive recurrence, and no stable source remain alternatives. Failed `PROJECT_AS` does not retroactively rewrite each PATH source claim.
+
+Primary site: [Chapter 33 WP3](../01_blocks/04_part_iii_retype.md#33-8-recurrent-form-versus-retrospective-similarity).
+
+## Chapter 33 Lock and Chapter 34 PROJECT_AS Entry
+
+Chapter 33 provisionally locks the recurrent-form family without executing the `R/D/E` occurrence. Chapter 34 prepares:
+
+```text
+independently warranted relational composite Q
+PROJECT_AS
+bounded higher-level function in H
+```
+
+Source-composite formation, `DECOMPOSE`, and `PROJECT_AS` remain separate occurrences with separate Records, Loss profiles, and results.
+
+## Chapter 34 WP1 — PROJECT_AS Composite-Family Entry
+
+The existing operation receives one derived relational-composite source and one declared higher-level target context:
+
+```text
+PROJECT_AS(Q, origin_type = derived relational composite, target_context = H or I)
+→ boundary-, attractor-, or asymmetry/access-function candidate
+```
+
+WP1 requires independently warranted components and relations, full target coordinates, same-source `H/I` contrast, concrete target difference, and operator/non-authority boundaries. It does not execute `PROJECT_AS`, select component load, establish functional formation, or choose an Output Class.
+
+Primary sites: [Chapter 34 WP1](../01_blocks/04_part_iii_retype.md#chapter-34-composite-structures-as-higher-level-functions) and [WP1 Record](Chapter_34_Preparation_Record.md#13-wp1-execution-record).
+
+## Chapter 34 WP2 — PROJECT_AS Family-Load Layer
+
+WP2 adds binding-, integration-, and emergence-specific burdens to the existing operation:
+
+```text
+PROJECT_AS(relational composite Q, target H or I)
+→ preserve commitment or integration occurrence trace
+→ require continuity, relation topology, and concrete target work
+→ retain partiality, contradiction, substitution, and smaller-subset pressure
+→ keep Ψ/Σ identity and source-free emergence prohibited
+```
+
+Component formation or revision remains source-side work; `DECOMPOSE` may inspect the composite; `PROJECT_AS` alone tests the bounded target function. These are separate occurrences with separate Records, Loss, and results. WP2 does not execute the `Q/H/I` projection.
+
+Primary sites: [Chapter 34 WP2](../01_blocks/04_part_iii_retype.md#34-5-repeated-commitments-as-higher-level-psi-function) and [WP2 Record](Chapter_34_Preparation_Record.md#14-wp2-execution-record).
+
+## Chapter 34 WP3 — PROJECT_AS Formation and Failure Layer
+
+WP3 completes the family audit burden for an eventual executed projection:
+
+```text
+PROJECT_AS(relational composite Q, target H or I)
+→ distinguish aggregation from functional formation
+→ test qualitative target-difference threshold
+→ vary subset, relations, Frame, target conditions, and function candidate
+→ prohibit authority increase
+→ localize Reduction, Stop, Failure, and Non-Capture
+```
+
+The source composite may remain valid when the projection fails. A materially changed source boundary, relation map, target context, or function candidate is a new testable claim. No `Q/H/I` operation result is selected.
+
+Primary sites: [Chapter 34 WP3](../01_blocks/04_part_iii_retype.md#34-8-aggregation-versus-functional-formation) and [WP3 Record](Chapter_34_Preparation_Record.md#15-wp3-execution-record).
+
+## Chapter 34 Lock and Chapter 35 PROJECT_AS Entry
+
+Chapter 34 provisionally locks the composite-function family without executing `Q/H/I`. Chapter 35 prepares two distinct claim positions:
+
+```text
+source-supported operator weighting and modulating profile formation
+≠
+PROJECT_AS(profile, declared target context, bounded target function)
+```
+
+Profile description may remain source-side and functionally inert. Profile projection requires a separate occurrence, Record, Loss profile, Counterfactual Sensitivity result, and canonical route.
+
+## Chapter 35 WP1 — Weighting and Modulation before PROJECT_AS
+
+Weighting and modulation are analytical relations within a source Configuration/Composite; they are not STRATA operations.
+
+```text
+source opening required → DECOMPOSE occurrence
+new relational source composite required → COMPOSE occurrence
+bounded profile function in K or L tested → PROJECT_AS occurrence
+weighting/modulation declaration → no fourth operation
+```
+
+WP1 declares the source packet and stable `K/L` target coordinates. It does not form a profile, execute `PROJECT_AS`, establish a target difference, or select an Output Class.
+
+Primary sites: [Chapter 35 WP1](../01_blocks/04_part_iii_retype.md#chapter-35-operator-weighting-modulation-and-emergent-functional-profiles) and [WP1 Record](Chapter_35_Preparation_Record.md#13-wp1-execution-record).
+
+## Chapter 35 WP2 — Profile Formation before Projection
+
+WP2 forms no fourth operation. Source-side profile formation may depend on earlier `DECOMPOSE` or `COMPOSE` records, but the claim that the profile performs a bounded function in `K` requires a later, separately declared `PROJECT_AS` occurrence.
+
+```text
+source-side profile relation established
+≠ PROJECT_AS executed
+
+profile organizes P
+≠ profile functions in K
+```
+
+Primary sites: [§§35.5–35.7](../01_blocks/04_part_iii_retype.md#35-5-modulating-profile) and [WP2 Record](Chapter_35_Preparation_Record.md#14-wp2-execution-record).
+
+## Chapter 35 WP3 — Explicit Profile Projection
+
+A source-side profile claim is not itself `PROJECT_AS`. Profile projection requires a new declared occurrence with its own target context, target function, Source Trace, Loss, Counterfactual Sensitivity, result, and no-projection alternative.
+
+```text
+profile formed in P ≠ profile projected in K
+failed projection ≠ source occurrences invalid
+```
+
+Primary sites: [§35.9](../01_blocks/04_part_iii_retype.md#35-9-profile-projection) and [WP3 Record](Chapter_35_Preparation_Record.md#15-wp3-execution-record).
+
+## Chapter 35 Lock and Chapter 36 Projection Comparison
+
+Chapter 36 compares separately declared `PROJECT_AS` candidates. Comparison is not a fourth operation and cannot repair an incomplete candidate Record.
+
+```text
+PROJECT_AS candidate A + PROJECT_AS candidate B
+→ comparison claim
+
+comparison claim ≠ PROJECT_AS occurrence
+≠ COMPOSE of functions
+≠ source-type selection
+```
+
+Primary site: [Chapter 36 Preparation](Chapter_36_Preparation_Record.md).
+
+## Chapter 36 WP1 — Comparison Entry after `PROJECT_AS`
+
+Chapter 36 compares candidate `PROJECT_AS` claims only after each candidate declares its own source subset, target context, target level, target object, function, Claim Scope, validity scope, temporal scope, Source Trace, Loss, and alternatives.
+
+Compatibility and competition are comparison descriptions, not fourth operations. Merging candidates may require a new `COMPOSE` or `PROJECT_AS` claim; it cannot be performed by label combination.
+
+Primary site: [§§36.1–36.4](../01_blocks/04_part_iii_retype.md#36-1-multiple-plausible-functions).
+
+## Chapter 36 WP2 — Comparison after Candidate-Specific `PROJECT_AS` Burdens
+
+WP2 compares only projection candidates that remain viable under their own family methods. Comparison is not a fourth operation and cannot repair an incomplete `PROJECT_AS` occurrence.
+
+```text
+candidate family audit
+→ comparative criteria
+→ discriminative-performance test
+→ bounded local comparison description
+
+comparison
+≠ operation
+≠ automatic route or Output Class
+```
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-36-wp2-completion-boundary).
+
+## Chapter 36 WP3 — Projection Comparison Record without a Fourth Operation
+
+The Projection Comparison Record is a view over separately executed candidate `PROJECT_AS` Records. It references candidate source subsets, target coordinates, Source Trace, exact Loss, alternatives, local descriptions, Stop, and Non-Capture without becoming `COMPOSE`, `DECOMPOSE`, `PROJECT_AS`, or a fourth operation.
+
+```text
+candidate PROJECT_AS records
+→ controlled comparison view
+
+comparison view
+≠ merged operation record
+≠ automatic route or Output Class
+```
+
+Primary site: [§36.10](../01_blocks/04_part_iii_retype.md#36-10-projection-comparison-record).
+
+## Chapter 36 Lock and Chapter 37 Mapping Boundary
+
+A valid cross-domain projection remains a complete `PROJECT_AS` occurrence. Structural analogy and symbolic mapping are not fourth operations and do not inherit a `PROJECT_AS` result.
+
+```text
+mapping relation ≠ PROJECT_AS automatically
+analogy_only ≠ failed operation automatically
+```
+
+Primary site: [Chapter 37 Preparation](Chapter_37_Preparation_Record.md).
+
+## Chapter 37 WP1 — `PROJECT_AS` versus Analogy and Mapping
+
+A valid cross-domain functional projection remains a complete `PROJECT_AS` occurrence. Structural analogy and formal mapping describe bounded correspondences but perform no STRATA operation by themselves. Label assignment performs neither `PROJECT_AS` nor another operation.
+
+```text
+mapping declaration
+≠ PROJECT_AS occurrence
+
+structural analogy
+≠ fourth operation
+
+shared notation
+≠ operation execution
+```
+
+Primary site: [§37.2 Valid Functional Projection](../01_blocks/04_part_iii_retype.md#37-2-valid-functional-projection).
+
+## Chapter 37 WP2 — Mapping Status and `PROJECT_AS`
+
+Symbolic, formal, executable, analogy-only, and partial-analogy statuses are mapping descriptions. They do not execute a STRATA operation. Only a separately warranted source-dependent target-function claim constitutes `PROJECT_AS`.
+
+```text
+formal mapping completed
+≠ PROJECT_AS completed
+
+executable mapping completed
+≠ target function established
+
+analogy terminates
+≠ failed operation automatically
+```
+
+Primary site: [§§37.5–37.7](../01_blocks/04_part_iii_retype.md#37-5-symbolic-formal-and-executable-mapping).
+
+## Chapter 37 WP3 — Drift, Translation, and Operation Boundaries
+
+A transition from analogy to target-function claim is a new `PROJECT_AS` claim, not a hidden completion of the analogy. Analogy drift, translation, symbolic mapping, formal mapping, and executable mapping are not STRATA operations.
+
+```text
+analogy becomes function claim
+→ new PROJECT_AS burden
+
+translation completed
+≠ transformation operation completed
+```
+
+Primary site: [§§37.9–37.12](../01_blocks/04_part_iii_retype.md#37-9-analogy-drift).
+
+## Chapter 37 Lock and Chapter 38 New-Claim Discipline
+
+A projection after failure is a new independently testable `PROJECT_AS` claim. It requires its own target coordinates, Source Trace, exact Loss, alternatives, and result. Relocation does not erase the earlier disposition.
+
+Separately declared cross-level, cross-granular, or dual-operation Records are not level mixing merely because they concern the same reference object.
+
+Preparation site: [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#6-scientific-pressure-and-counterfactual-architecture).
+
+## Chapter 38 WP1 — Type, Context, Metaphor, and `PROJECT_AS`
+
+`PROJECT_AS` assigns a bounded target function while preserving origin type. A type-identity statement is a separate claim; bounded metaphor performs no STRATA operation. Completing missing target coordinates opens a new testable projection candidate rather than validating the incomplete claim retroactively.
+
+```text
+functions as T in C
+→ PROJECT_AS candidate
+
+is T as origin type
+≠ PROJECT_AS result
+
+bounded metaphor
+≠ transformation operation
+```
+
+Primary site: [§§38.1–38.4](../01_blocks/04_part_iii_retype.md#38-1-invalid-type-jump).
+
+## Chapter 38 WP2 — Cross-Level, Multi-Granular, and Post-Failure Operation Discipline
+
+Cross-level or multi-granular analysis requires a declared relation or separate operation record. A projection after failure is a new `PROJECT_AS` claim; it retains the earlier disposition and carries new target coordinates, Source Trace, counterfactual variations, alternatives, and exact Loss.
+
+```text
+new level ≠ new operation automatically
+relocation after failure ≠ rescue
+COMPOSE output used by PROJECT_AS ≠ mixed operation
+multiple declared records ≠ fourth operation
+```
+
+Primary site: [§§38.5–38.7](../01_blocks/04_part_iii_retype.md#38-5-unmarked-level-mixing).
+
+## Chapter 38 WP3 — Scope Extension, Temporal Bound, and Invalid-View Discipline
+
+Every material widening of context, object, population, level, period, or similarity class is a new `PROJECT_AS` claim. The original bounded claim remains separately testable. The Invalid Projection Record is a diagnostic view over existing records and does not add a fourth operation.
+
+```text
+bounded PROJECT_AS in C
++ proposed extension to C2
+→ new PROJECT_AS claim
+
+invalid-projection view
+≠ transformation operation
+≠ replacement Shared Transformation Record
+```
+
+Primary site: [§§38.10 and 38.13](../01_blocks/04_part_iii_retype.md#38-10-scope-inflation).
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-operation-sync"></a>
+
+## Chapter 38 Lock → Chapter 39 Local PROJECT_AS Gate
+
+Chapter 38 closes the invalid-projection taxonomy while preserving every changed context, level, granularity, scope, time, function, evidence packet, or operation as a new independently testable claim. Chapter 39 applies the lower and upper RETYPE boundaries to complete `PROJECT_AS` candidates.
+
+```text
+new target coordinates
+→ new PROJECT_AS occurrence
+
+new occurrence
+≠ rescue of earlier failure
+```
+
+The Chapter-39 gate remains a local audit over `PROJECT_AS`; it is not a fourth operation and does not merge with `COMPOSE` or `DECOMPOSE`.
+
+<a id="chapter-39-wp1-operation-sync"></a>
+
+## Chapter 39 WP1 — Local `PROJECT_AS` Boundary Entry
+
+A `PROJECT_AS` candidate must add bounded Functional Gain above the lower RETYPE boundary and remain capable of constitutive Source Trace below the upper boundary. Source-only relevance, renaming, or target fit does not complete the operation.
+
+```text
+source remains relevant ≠ PROJECT_AS established
+new label ≠ operation occurrence
+```
+
+Primary site: [§§39.1–39.4](../01_blocks/04_part_iii_retype.md#39-1-lower-retype-boundary).
+
+<a id="chapter-39-wp2-operation-sync"></a>
+
+## Chapter 39 WP2 — `PROJECT_AS` Source, Type, Context, and Sensitivity Gates
+
+A `PROJECT_AS` candidate remains incomplete until it provides Constitutive Source Trace, preserves Type Integrity, declares complete target coordinates, and responds discriminatorily to material, irrelevant, removal, opposite-source, target-condition, context, time, and function variation.
+
+```text
+strong target fit
+≠ completed PROJECT_AS occurrence
+```
+
+Primary site: [§§39.5–39.8](../01_blocks/04_part_iii_retype.md#39-5-function-without-source-trace).
+
+<a id="chapter-39-wp3-operation-sync"></a>
+
+## Chapter 39 WP3 — Complete Local `PROJECT_AS` Gate
+
+A bounded `PROJECT_AS` claim must survive alternatives, analogy, elasticity, Stop, Non-Capture, exact Loss, and terminal-route discipline. New context, function, or source subset is a new testable claim.
+
+Primary site: [§39.14](../01_blocks/04_part_iii_retype.md#39-14-retype-admissibility-test).
+
+<a id="chapter-39-lock-and-chapter-40-preparation-operation-sync"></a>
+
+## Chapter 39 Lock / Chapter 40 Operation Routing
+
+The Chapter-39 gate is provisionally locked as a local `PROJECT_AS` test. Chapter 40 prepares separate case records for `PROJECT_AS` and must preserve operation boundaries in confusion cases.
+
+```text
+DECOMPOSE then PROJECT_AS
+→ two records
+
+COMPOSE then PROJECT_AS
+→ two records
+
+Φ recontextualization without target function
+≠ PROJECT_AS
+```
+
+The Chapter-40 case architecture creates no fourth operation and no merged multi-operation record.
+
+## Chapter 40 WP1 Case/Operation Routing
+
+Each positive family is a prospective `PROJECT_AS` occurrence with a source-locked packet and complete target coordinates. `P4` requires a separately warranted prior `COMPOSE`; no operation result is inherited. Compatible and competing projection families require separate candidate claims, Loss, audits, and mappings. Canonical family prose is not a Transformation Record.
+
+<a id="chapter-40-wp2-operation-sync"></a>
+
+## Chapter 40 WP2 Operation Separation
+
+The countercases preserve exactly three operations:
+
+- Origin-type and context cases test bounded `PROJECT_AS` claims without changing source type.
+- Mere aggregation may require a separate warranted `COMPOSE` before any later higher-level `PROJECT_AS`.
+- Claim rescue through a changed context, function, level, or source subset requires a new `PROJECT_AS` occurrence and retained prior disposition.
+
+```text
+new claim coordinates → new operation occurrence
+new occurrence ≠ prior failure erased
+countercase view ≠ fourth operation
+```
+
+Primary site: [§§40.9–40.15](../01_blocks/04_part_iii_retype.md#40-9-countercase-1-origin-type-replacement).
+
+<a id="chapter-40-wp3-operation-sync"></a>
+
+## Chapter 40 WP3 Operation Separation
+
+The six confusion cases preserve exact routing boundaries:
+
+```text
+DECOMPOSE then PROJECT_AS → two records and two Loss ledgers
+COMPOSE then PROJECT_AS → two records and two results
+Φ recontextualization without a specific target function ≠ PROJECT_AS
+analogy or mapping ≠ PROJECT_AS automatically
+```
+
+A controlled sequence of operations is not a merged operation or a fourth operation. No route or operation result is selected in WP3.
+
+
+## Chapter 40 Exact Lock Routing and Chapter 41 Recursive-Operation Handoff
+
+Chapter 40 separates two closure claims:
+
+- Layer-1 case architecture and audit readiness → `admissible_with_bounded_claim`;
+- artifact-complete Chapter-40/RETYPE lock → `mandatory_stop` until required artifacts exist.
+
+Neither mapping applies to `P1–P7`, `N1–N7`, or `X1–X6`, which remain unexecuted.
+
+Chapter 41 receives the governing chain rule:
+
+```text
+new operation occurrence
+→ new claim
+→ separate Record
+→ separate Loss
+→ separate result
+
+new operation occurrence
+≠ answer to prior objection automatically
+```
+
+LIMITS does not route or execute an operation.

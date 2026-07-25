@@ -245,13 +245,13 @@ revision_required ≠ claim_reduction_required
 | 27 | SUB Boundary Conditions | SUB | `01_blocks/03_part_ii_sub.md` | SUB limits | contract-bound / prose pending |
 | 28 | SUB Cases, Countercases, and Local Audit | SUB | `01_blocks/03_part_ii_sub.md` | SUB cases and local audit | contract-bound / prose pending |
 | 29 | Functional Projection without Origin-Type Replacement | RETYPE | `01_blocks/04_part_iii_retype.md` | functional projection and type preservation | contract-bound / prose pending |
-| 30 | PROJECT_AS: Signature, Context, and Validity Scope | RETYPE | `01_blocks/04_part_iii_retype.md` | PROJECT_AS procedure | contract-bound / prose pending |
-| 31 | Trajectory as Frame-Function | RETYPE | `01_blocks/04_part_iii_retype.md` | frame-function | contract-bound / prose pending |
+| 30 | PROJECT_AS: Signature, Context, and Validity Scope | RETYPE | `01_blocks/04_part_iii_retype.md`; `04_reference/Chapter_30_Preparation_Record.md` | PROJECT_AS procedure | WP1 §§30.1–30.4 complete; chapter open |
+| 31 | Trajectory as Frame-Function | RETYPE | `01_blocks/04_part_iii_retype.md`; `04_reference/Chapter_31_Preparation_Record.md` | frame-function | WP1–WP2 §§31.1–31.7 complete; chapter open |
 | 32 | Trajectory as Macro-Event | RETYPE | `01_blocks/04_part_iii_retype.md` | macro-event function | contract-bound / prose pending |
 | 33 | Recurrent Trajectory Form as Attractor-Function | RETYPE | `01_blocks/04_part_iii_retype.md` | attractor-function | contract-bound / prose pending |
-| 34 | Composite Structures as Higher-Level Functions | RETYPE | `01_blocks/04_part_iii_retype.md` | higher-level function | contract-bound / prose pending |
-| 35 | Operator Weighting, Modulation, and Emergent Functional Profiles | RETYPE | `01_blocks/04_part_iii_retype.md` | operator weighting and profiles | contract-bound / prose pending |
-| 36 | Competing Projections | RETYPE | `01_blocks/04_part_iii_retype.md` | competing projections | contract-bound / prose pending |
+| 34 | Composite Structures as Higher-Level Functions | RETYPE | `01_blocks/04_part_iii_retype.md` | higher-level function | provisionally locked; Q/H/I unadjudicated |
+| 35 | Operator Weighting, Modulation, and Emergent Functional Profiles | RETYPE | `01_blocks/04_part_iii_retype.md` | operator weighting and profiles | Preparation Gate complete; WP1 pending |
+| 36 | Competing Projections | RETYPE | `01_blocks/04_part_iii_retype.md` | competing projections | WP1–WP2 §§36.1–36.7 complete; chapter open |
 | 37 | Projection, Structural Analogy, and Label Substitution | RETYPE | `01_blocks/04_part_iii_retype.md` | projection, analogy, and substitution | contract-bound / prose pending |
 | 38 | Invalid Type Jumps and Unmarked Level Mixing | RETYPE | `01_blocks/04_part_iii_retype.md` | invalid type jumps and level mixing | contract-bound / prose pending |
 | 39 | RETYPE Boundary Conditions | RETYPE | `01_blocks/04_part_iii_retype.md` | RETYPE limits | contract-bound / prose pending |
@@ -3647,3 +3647,817 @@ Preparation control: [Chapter 28 Preparation Record](Chapter_28_Preparation_Reco
 - [x] Authority inheritance remains prohibited.
 
 Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).
+
+## Chapter 29 Preparation Audit Checklist
+
+- [ ] The source object and source Record are identifiable.
+- [ ] The origin type remains visible and is not replaced.
+- [ ] The target context, scene or object, relative level, and scope are explicit.
+- [ ] The target function is relational, specific, and claim-bounded.
+- [ ] Source-object integrity is distinguished from complete reproduction and losslessness.
+- [ ] Functional Continuity is source-traceable rather than resemblance- or usefulness-based.
+- [ ] Load-bearing source features are distinguished from associated or foregrounded features.
+- [ ] A bounded counterfactual tests dependence without claiming universal causality.
+- [ ] The same source is tested in one function-bearing and one no-function context.
+- [ ] Label elasticity and no-projection alternatives are tested.
+- [ ] Complete five-part Loss and alternatives are visible.
+- [ ] Validity scope, duration, Claim Ceiling, Stop, and Non-Capture are explicit.
+- [ ] Recontextualization remains distinct from PROJECT_AS.
+- [ ] COMPOSE and DECOMPOSE remain separate operation occurrences and Records.
+- [ ] Target function does not become a PMS primitive, operator type, or origin type.
+- [ ] Prior source-claim Failure, disposition, and Loss are not erased.
+- [ ] Result axes remain separate from canonical Output Class mapping.
+- [ ] Chapter 30 retains ownership of the full PROJECT_AS signature.
+- [ ] No automatic semantic, causal, person, legitimacy, or authority inference is produced.
+- [ ] No canonical §29 prose or PROJECT_AS Record is produced during preparation.
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 WP1 Audit Checklist
+
+- [x] RETYPE is treated as a Part and not a fourth operation.
+- [x] The typed claim binds `X`, `T`, `C`, and `F` explicitly.
+- [x] Source object, source Record, source reference, and origin type precede the target-function claim.
+- [x] Successful `COMPOSE` or `DECOMPOSE` does not transfer `PROJECT_AS` success.
+- [x] Target context, scene or object, relative level, and analytical purpose are mandatory.
+- [x] The same source object is compared across a function-bearing and no-additional-function context.
+- [x] Origin type remains visible and is not replaced or immunized.
+- [x] Operator-like function language creates no PMS primitive, operator type, dependency, person type, or authority.
+- [x] Target function is specific, relational, context-bound, and praxeologically discriminating.
+- [x] Source relevance remains weaker than distinct target-function establishment.
+- [x] No `PROJECT_AS` occurrence or final Output Class is produced.
+- [x] Chapter 30 ownership remains protected.
+- [ ] Full Source-Object Integrity is completed in WP2.
+- [ ] Functional Continuity and bounded counterfactual testing are completed in WP2.
+- [ ] Complete Contextual Boundedness, Loss, alternatives, and Claim Ceiling are completed in WP2.
+- [ ] Operation-boundary, result-axis, failure/stop/non-capture, and Chapter-30 handoff discipline are completed in WP3.
+
+Primary site: [Chapter 29 WP1 completion boundary](../01_blocks/04_part_iii_retype.md#29-4-target-function).
+
+## Chapter 29 WP2 Audit Checklist
+
+- [x] Target function remains distinct from origin type, operator type, and operator occurrence.
+- [x] Operator-like function language creates no PMS dependency inheritance or primitive.
+- [x] Source identity, history, constitutive relations, prior limits, uncertainty, and inherited Loss remain traceable.
+- [x] Source Object Integrity is not treated as complete reproduction, losslessness, or projection success.
+- [x] Load-bearing, associated, and foregrounded source features remain separate.
+- [x] Functional Continuity states a source-to-context relation and target-side difference.
+- [x] Resemblance, usefulness, historical priority, and analyst intention remain insufficient.
+- [x] Bounded source alteration tests claim dependence without universal causal proof.
+- [x] Source-variation and target-context-variation pressure remain distinct.
+- [x] Opposite source structures with an invariant function label trigger elasticity pressure.
+- [x] Target scene, roles, relative level, duration, validity scope, purpose, and Claim Ceiling are explicit.
+- [x] Foregrounding is disclosed separately from canonical five-part Loss.
+- [x] Loss is claim-specific and irrecoverable Loss constrains the Claim Ceiling.
+- [x] Integrity, continuity, boundedness, Loss, and Claim Ceiling remain non-compensatory.
+- [x] No `PROJECT_AS` occurrence, final function result, or Output Class is selected.
+- [x] WP3 and Chapter 30 ownership remain protected.
+
+Primary site: [Chapter 29 WP2 completion boundary](../01_blocks/04_part_iii_retype.md#29-8-contextual-boundedness).
+
+## Chapter 29 WP3 Audit Checklist
+
+- [x] Projection adds a bounded relation and does not replace PATH, SUB, origin type, heterogeneity, prior disposition, or Loss.
+- [x] Source failure cannot be repaired by target usefulness, and projection failure does not automatically invalidate the source object.
+- [x] The typed `X/T/C/F` claim remains non-essentializing and context-sensitive.
+- [x] Source integrity, target-function effect, prior disposition, and canonical Output Class remain separate.
+- [x] Failure, Mandatory Stop, Claim Reduction, analogy-only, no-projection, and Non-Capture remain possible and non-equivalent.
+- [x] Material changes of context, function, source typing, level, scope, or purpose require re-entry as a new claim.
+- [x] Changed legibility without a source-dependent target-function claim remains Recontextualization.
+- [x] Interface or analyst display use is not treated as praxis target function.
+- [x] Formation of a new object remains a separate `COMPOSE` occurrence.
+- [x] Opening internal constitution remains a separate `DECOMPOSE` occurrence.
+- [x] Every operation-chain segment retains a separate Record, Loss, result, mapping, and authority boundary.
+- [x] Chapter 30 retains sole ownership of the complete `PROJECT_AS` signature and Record operation.
+- [x] No final anchor result or canonical Output Class is selected.
+- [ ] WP4 integrated Contract, duty-count, Reference, Formal-Model, schema, fingerprint, link, package, CRC, roundtrip, and provisional-lock audit is complete.
+
+Primary site: [Chapter 29 WP3 completion boundary](../01_blocks/04_part_iii_retype.md#29-13-retype-versus-decompose).
+
+## Chapter 29 WP4 Lock and Chapter 30 Preparation Checklist
+
+- [x] Chapter-29 Contract and §§29.1–29.13 are complete.
+- [x] All twenty-four Chapter-29 Pressure Duties occur exactly once.
+- [x] The same-source positive/no-additional-function contrast remains intact.
+- [x] Origin type, target function, operator type, and operator occurrence remain separate.
+- [x] Source Object Integrity, Functional Continuity, Contextual Boundedness, Counterfactual pressure, and Loss are non-compensatory.
+- [x] Projection does not replace PATH, SUB, source heterogeneity, prior disposition, or Loss.
+- [x] Φ, `COMPOSE`, `DECOMPOSE`, and `PROJECT_AS` remain separate.
+- [x] Four result axes and non-equivalent non-success routes remain visible.
+- [x] No anchor function, operation result, or canonical Output Class is selected.
+- [x] Chapter 29 is provisionally locked under `admissible_but_provisional`.
+- [x] Chapter 30 Preparation assigns all signature roles and twenty-four Pressure Duties.
+- [x] Projection visibility is separated from exact five-part canonical Loss.
+- [x] Local result language is separated from the ten canonical Output Classes.
+- [x] Existing operation, Rule, audit-stage, schema, and class inventories remain closed.
+- [x] Chapter 31 and later RETYPE owners remain protected.
+
+Primary sites: [Chapter 29 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-29-completion-boundary) and [Chapter 30 Preparation Record](Chapter_30_Preparation_Record.md).
+
+## Chapter 30 WP1 Audit Checklist
+
+- [x] `PROJECT_AS` remains one of exactly three STRATA operations.
+- [x] Controlled projection is separated from renaming, source rewrite, Φ, `COMPOSE`, and `DECOMPOSE`.
+- [x] Every symbol in `(X_g, T_o, C_t) → (F_t, g', J, L, V)` has one declared role.
+- [x] The signature is explicitly non-causal and non-automatic.
+- [x] Entry preconditions are conjunctive and non-compensatory.
+- [x] Source object and source reference are separate.
+- [x] Origin type remains visible without immunity from source-side revision.
+- [x] Source Frame, granularity, level, temporal scope, and basis are mandatory.
+- [x] Prior disposition, uncertainty, and inherited five-part Loss remain visible.
+- [x] No target function, local result, canonical class, or authority is selected.
+- [x] No standalone test/case YAML artifact is produced.
+
+Primary sites: [Chapter 30 WP1](../01_blocks/04_part_iii_retype.md#30-1-definition) and [WP1 Execution Record](Chapter_30_Preparation_Record.md#16-wp1-execution-record).
+
+## Chapter 30 WP2 Audit Checklist
+
+- [x] Target context, object or scene, function, Frame, granularity, relative level, initial scope, purpose, and Claim Ceiling are declared.
+- [x] Target object or scene remains distinct from target function.
+- [x] Projection justification names analytical need, candidate source carrier, rival pressure, and target-side difference.
+- [x] Expected praxeological difference is declared before result selection.
+- [x] Constitutive Source Trace is not replaced by citation, salience, resemblance, or target-label fit.
+- [x] Load-bearing, modulating, compressed, excluded, and uncertain source features remain separate.
+- [x] Counterfactual Sensitivity is mandatory, bounded, and non-causal.
+- [x] Sensitivity descriptions remain open, non-scored, non-canonical, and unselected for the anchor.
+- [x] No current projection Loss, alternatives result, local result, canonical Output Class, or operation success is selected.
+- [x] No new test, case, or smoke YAML file is created.
+
+Primary site: [Chapter 30 WP2](../01_blocks/04_part_iii_retype.md#30-5-target-declaration).
+
+## Chapter 30 WP3 Audit Addendum
+
+For a `PROJECT_AS` occurrence, verify:
+
+1. Validity Scope names context, Frame, time, granularity, relative level, roles, praxis dimensions, transfer boundary, termination, re-entry, and Claim Ceiling.
+2. `projection_visibility.foregrounded/backgrounded` is not inserted into canonical Loss.
+3. `loss` contains exactly `preserved`, `compressed`, `excluded`, `uncertain`, and `irrecoverable`.
+4. inherited Loss and current operation Loss remain distinguishable.
+5. at least one rival function and no-projection remain available.
+6. relevant recontextualization, `COMPOSE`, `DECOMPOSE`, analogy, and Non-Capture routes are separately represented.
+7. source status, origin-type status, prior disposition, local result, and canonical class are not collapsed.
+8. only one of the ten canonical classes is selected, and only for an executed delimited claim.
+9. label substitution and invalid type jump remain findings, not Output Classes.
+10. the operation-specific view maps into the Shared Record without schema duplication.
+11. no family-specific result is inherited by Chapter 31.
+12. no person, normative, causal, recommendation, sanction, or authority inference is produced.
+
+Primary site: [Chapter 30 WP3](../01_blocks/04_part_iii_retype.md#30-9-validity-scope).
+
+\n## Chapter 30 Lock / Chapter 31 Preparation Audit Addendum\n\n- [ ] Is Chapter 30 treated as a locked procedure rather than an executed occurrence?\n- [ ] Is the Chapter-31 source already a PATH-established Trajectory?\n- [ ] Are target configuration, framed praxis dimensions, roles, and time window explicit?\n- [ ] Are historical-load carriers source-traceable rather than rhetorical?\n- [ ] Are present conditions and multiple frame sources retained?\n- [ ] Is conditioning separated from determinism, prediction, and `□` identity?\n- [ ] Is the same-source no-additional-function context preserved?\n- [ ] Are competing projections, background relevance, no-projection, Failure, Stop, and Non-Capture available?\n- [ ] Are local family findings separated from canonical Output Classes?\n- [ ] Are new test/case/smoke YAML files deferred until after the Blocks?\n\nPrimary site: [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Chapter 31 WP1 Audit Checklist
+
+- [x] The source is an already warranted PATH Trajectory.
+- [x] Source selection is declared independent of later target-function fit.
+- [x] Source object, source reference, origin type, prior disposition, uncertainty, and inherited Loss remain visible.
+- [x] Source-period, target-period, and later retrospective evidence are separated.
+- [x] The later target configuration, coordinates, roles, time window, praxis dimensions, and Claim Ceiling are explicit.
+- [x] Present target conditions enter before historical-function adjudication.
+- [x] The frame-function candidate names a concrete target reconstruction difference.
+- [x] Trajectory remains the origin type and is not identified with `□`.
+- [x] The same source remains available in `Y` and `Z` for function/no-function contrast.
+- [x] Historical Load, relative load, result, canonical class, and authority remain unselected.
+- [x] No standalone test/case/smoke YAML artifact is produced.
+
+Primary sites: [Chapter 31 WP1](../01_blocks/04_part_iii_retype.md#31-1-basic-claim) and [WP1 Execution Record](Chapter_31_Preparation_Record.md#14-wp1-execution-record).
+
+
+## Chapter 31 WP2 Audit Checklist
+
+- [x] Historical Load is separated from duration, salience, documentation, and source-object warrant.
+- [x] Source-object and target-function warrants remain separately auditable.
+- [x] Candidate carriers identify source position, target work, and defeat pressure.
+- [x] Load-bearing and modulating features remain claim-relative and distinct.
+- [x] Conditioning is stated through named praxis dimensions rather than inevitability or prediction.
+- [x] Role, relative level, and time-window limits are explicit where required.
+- [x] Present and rival historical frame sources remain visible.
+- [x] Relative load is qualitative, source-bound, non-scored, and non-canonical.
+- [x] The same source remains under open `Y/Z` pressure.
+- [x] Counterfactual result, local operation result, canonical class, and authority remain unselected.
+- [x] No standalone test/case/smoke YAML artifact is produced.
+
+Primary sites: [Chapter 31 WP2](../01_blocks/04_part_iii_retype.md#31-5-historical-load) and [WP2 Execution Record](Chapter_31_Preparation_Record.md#15-wp2-execution-record).
+
+
+## Chapter 31 WP3 Audit Checklist
+
+- [x] Rhetorical historical language is separated from a bounded source-dependent function.
+- [x] Citation, salience, target-fit, and later narration do not substitute for Constitutive Source Trace.
+- [x] Source-object, carrier, transmission, and target-function evidence roles remain separate.
+- [x] Carrier, source, same-source-context, and present/rival-source variations are specified.
+- [x] Counterfactual Sensitivity remains non-causal and non-scored.
+- [x] Different histories may yield indistinguishable later scenes at the declared granularity.
+- [x] Rival bounded functions remain separate claims and Records.
+- [x] Present-frame, recontextualization-only, background-relevance, and no-projection alternatives remain available.
+- [x] Failed frame projection does not automatically invalidate the source Trajectory.
+- [x] Failure, Mandatory Stop, and Non-Capture remain non-equivalent.
+- [x] No anchor result, canonical class, Chapter lock, RETYPE lock, or authority is selected.
+- [x] No standalone test/case/smoke YAML artifact is produced.
+
+Primary sites: [Chapter 31 WP3](../01_blocks/04_part_iii_retype.md#31-8-rhetorical-history-versus-frame-function) and [WP3 Execution Record](Chapter_31_Preparation_Record.md#16-wp3-execution-record).
+
+## Chapter 31 WP4 Provisional-Lock Audit
+
+- [x] Chapter Contract and redundancy guard pass.
+- [x] All §§31.1–31.11 and all twenty-four duties are represented exactly once.
+- [x] Source selection, evidence layers, source warrant, and target-function warrant remain separate.
+- [x] Historical Load, non-determinism, multiple sources, role/time scope, and relative-load discipline remain bounded.
+- [x] Rhetorical history, counterfactual pressure, rival projections, no-projection, Failure, Stop, and Non-Capture remain live.
+- [x] The `X/Y/Z` anchor remains unadjudicated.
+- [x] Exact inventories, Reference/Model synchronization, schemas, links, fingerprints, package, CRC, and byte-roundtrip pass.
+- [x] No test, case, or smoke YAML is added.
+
+Primary sites: [Chapter 31 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-31-completion-boundary) and [WP4 Record](Chapter_31_Preparation_Record.md#17-wp4-execution-and-provisional-lock-record).
+
+## Chapter 32 Preparation Audit Checklist
+
+- [ ] Is the source a prior PATH-established Trajectory?
+- [ ] Is the wider target Path or temporal Frame explicit and distinct?
+- [ ] Are start, end, constitutive phases, turning points, and adjacent developments declared?
+- [ ] Are boundary warrant and target-function warrant separate from a period label or later outcome?
+- [ ] Are internal duration, sequence, reversals, roles, costs, asymmetries, Non-Events, and heterogeneity retained?
+- [ ] Is a concrete transition difference named without causal turning-point proof?
+- [ ] Are COMPOSE and PROJECT_AS separate occurrences and Records?
+- [ ] Are phase, boundary, source, target, rival-periodization, and alternative-source pressures available?
+- [ ] Are descriptive compression, no-projection, Failure, Stop, and Non-Capture representable?
+- [ ] Are exact five-part Loss, Claim Ceiling, authority prohibition, and no-test-YAML production retained?
+
+Primary site: [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md).
+
+
+## Chapter 32 WP1 Audit Return
+
+Before WP2, verify:
+
+- [ ] the source object is an independently warranted PATH Trajectory;
+- [ ] origin type, prior disposition, uncertainty, constitutive phases, and inherited five-part Loss remain visible;
+- [ ] the target is a distinct wider Path or temporal Frame with explicit coordinates;
+- [ ] the Macro-Event candidate names concrete transition-bearing target work;
+- [ ] target-level unity is not treated as punctual occurrence, one act, or one responsible agent;
+- [ ] source-object, projection-boundary, target-placement, and target-function warrants remain separate;
+- [ ] start, end, phases, turning points, and adjacent developments are declared;
+- [ ] period labels, headlines, later outcomes, Graph position, Reader layout, and model fields are not treated as substantive warrant;
+- [ ] the same source remains fixed across `B` and `C`;
+- [ ] no operation result, canonical Output Class, chapter lock, or authority increase is claimed.
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-wp1-completion-boundary).
+
+## Chapter 32 WP2 Audit Return
+
+- [ ] source duration, sequence, phase relations, turning points, delays, reversals, and uncertainty remain inspectable;
+- [ ] target compression is not represented as one instant, act, or actor;
+- [ ] relevant subpaths, roles, costs, asymmetries, Non-Events, bindings, and consequences remain traceable;
+- [ ] load-bearing, modulating, backgrounded, and uncertain positions are qualitative and target-relative;
+- [ ] role, time, level, granularity, and praxis scope are bounded;
+- [ ] foregrounding/backgrounding is separate from exact five-part Loss;
+- [ ] a concrete wider-Path transition difference is stated;
+- [ ] descriptive compression and no-projection remain possible;
+- [ ] causal sufficiency, necessity, explanatory monopoly, legitimacy, and authority are not inferred;
+- [ ] no WP3 result or canonical class is preselected.
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-wp2-completion-boundary).
+
+
+## Chapter 32 WP3 Audit Return
+
+- [ ] Is one target-level unit kept distinct from one source instant, act, or agent?
+- [ ] Are duration, phase relations, reversals, Non-Events, and heterogeneity recoverable?
+- [ ] Are punctualization consequences expressed through existing Type, Reference, Continuity, and five-part Loss controls?
+- [ ] Are `COMPOSE` and `PROJECT_AS` separate occurrences with separate Records, Loss, results, and Claim Ceilings?
+- [ ] Are phase, boundary, source-object, target-Path, and adjacent-condition variations represented?
+- [ ] Are rival periodizations and narrower or different source objects retained?
+- [ ] Does the same fixed source remain testable across `B` and `C`?
+- [ ] Are descriptive compression, background relevance, and no-projection preserved?
+- [ ] Can projection Failure occur without automatic source-Trajectory invalidation?
+- [ ] Are Claim Reduction, Mandatory Stop, Failure, and Non-Capture kept distinct?
+
+Primary site: [WP3 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-wp3-completion-boundary).
+
+## Chapter 32 Lock Audit Result
+
+- [x] All twenty-four Chapter-32 duties occur exactly once.
+- [x] Internal duration and heterogeneity remain traceable.
+- [x] Source, boundary, target-placement, and target-function warrants remain separate.
+- [x] `COMPOSE` and `PROJECT_AS` remain separate occurrences.
+- [x] Punctualization, rival periodization, alternative source, no-projection, Failure, Stop, and Non-Capture are representable.
+- [x] `M/B/C` remains unadjudicated.
+- [x] No new test, case, or smoke YAML was created.
+
+## Chapter 33 Preparation Audit Questions
+
+1. Are multiple source Trajectories independently warranted?
+2. Are comparison coordinates explicit and capable of yielding incomparability?
+3. Is one path prevented from becoming a universal pattern?
+4. Is constitutive recurrence separated from surface similarity?
+5. Is the Pattern Threshold context-sensitive rather than count-based?
+6. Is temporal direction and a path-influence mechanism declared?
+7. Is a concrete later-path difference named?
+8. Are dynamic and static attractor-functions separate?
+9. Are sampling, survivorship, common-frame, and independent-regeneration alternatives retained?
+10. Can phase, frame, role, cost, source, and target variation break the claim?
+11. Can no-projection, Failure, Mandatory Stop, and Non-Capture be reached without person/group typing?
+12. Are inventories, exact five-part Loss, Claim Ceiling, and authority prohibition unchanged?
+
+Primary site: [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md).
+
+
+## Chapter 33 WP1 Local Audit Return
+
+- [ ] Are all source Trajectories independently warranted before target-function adjudication?
+- [ ] Is the recurrent source object distinguished from every individual Trajectory?
+- [ ] Are relevant divergent, truncated, failed, and non-recurring sources retained for later audit?
+- [ ] Are Frame, granularity, role, time, evidence, transition, and operator-weighting relations declared?
+- [ ] Can comparability fail without forced averaging or label expansion?
+- [ ] Is dynamic transition-form stabilization separated from static state stabilization?
+- [ ] Is `Α` identity, determinism, unsupported probability, and person/group typing prohibited?
+- [ ] Does the Pattern Threshold remain contextual, non-numerical, and capable of rejecting the candidate?
+- [ ] Are exact five-part Loss, uncertainty, Stop, Non-Capture, and Claim Ceiling retained?
+- [ ] Are constitutive phases, mechanism, Attractor Load, later-path effect, and output selection still open for WP2–WP3?
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-33-wp1-completion-boundary).
+
+## Chapter 33 WP2 Local Audit Return
+
+- [ ] Are constitutive, variable, background, uncertain, and incompatible positions separated?
+- [ ] Are allowable variation and form-breaking conditions declared before target adjudication?
+- [ ] Is a temporally directed reproduction or later-path influence pathway required?
+- [ ] Are recurring Frames, roles, costs, Asymmetries, Bindings, Non-Events, and qualitative operator weighting retained without scoring?
+- [ ] Is Attractor Load stated through concrete target work rather than strength language?
+- [ ] Is a later-path accessibility or continuation difference required?
+- [ ] Are target context, roles, level, time, granularity, praxis dimensions, Claim Ceiling, Stop, and Non-Capture bounded?
+- [ ] Are causal monopoly, unsupported probability, diagnosis, classification, recommendation, sanction, legitimacy, and authority prohibited?
+- [ ] Are dynamic and static attractor-functions separate claims with separate traces and results?
+- [ ] Are all WP3 results still open?
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-33-wp2-completion-boundary).
+
+## Chapter 33 WP3 Local Audit Return
+
+- [ ] Were individual Trajectory, recurrent-form, mechanism, and target-function evidence kept separate?
+- [ ] Was retrospective narrative or target fit prevented from constructing the source set?
+- [ ] Were sampling, survivorship, duplication, missing Trajectories, and source dependence disclosed?
+- [ ] Can incompatible or opposite sequences break, narrow, or split the candidate form?
+- [ ] Does the Counterfactual Attractor Test vary phases, Frames, roles, costs, source set, comparison coordinates, mechanism, and target conditions?
+- [ ] Are common Frame, common present condition, independent regeneration, multiple forms, static-only function, descriptive motif, and no stable source retained?
+- [ ] Are no-projection and background recurrence preserved without source-history erasure?
+- [ ] Are Claim Reduction, Mandatory Stop, Failed Transformation, Non-Capture, and provisional support kept distinct?
+- [ ] Does failed attractor projection leave independently warranted source Trajectories intact unless their own claims fail?
+- [ ] Are the pressure object, local result, canonical Output Class, Chapter lock, and RETYPE lock still unselected pending WP4?
+
+Primary site: [WP3 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-33-wp3-completion-boundary).
+
+## Chapter 33 Lock and Chapter 34 Preparation Audit
+
+- [ ] Are all twenty-four Chapter-33 duties present exactly once?
+- [ ] Does the `R/D/E` pressure object remain unadjudicated?
+- [ ] Are source components and relations both required for Chapter 34?
+- [ ] Is source formation independent of target-function adjudication?
+- [ ] Are aggregation and functional formation distinct?
+- [ ] Are substitution, smaller subsets, contradiction, rival Frames, and no-projection retained?
+- [ ] Does emergence remain source-traceable?
+- [ ] Are operator replacement, person/group typing, and authority increase prohibited?
+- [ ] Are no test, case, or smoke YAML files created during Block drafting?
+
+## Chapter 34 WP1 Local Audit Return
+
+- [ ] Are source components independently warranted before target adjudication?
+- [ ] Are component boundaries and relation topology declared?
+- [ ] Is the source composite selected independently of target success?
+- [ ] Are prior disposition, uncertainty, and inherited five-part Loss retained?
+- [ ] Are target Frame, granularity, relative level, time, roles, praxis dimensions, Claim Scope, present conditions, and rivals explicit?
+- [ ] Is the same source composite fixed across `H` and `I`?
+- [ ] Does each candidate function name a concrete target praxis difference?
+- [ ] Are shared category, repeated absence, burden sum, graph density, and macro visibility rejected as sufficient warrant?
+- [ ] Are □, Α, Ω, new-primitive, essence, legitimacy, recommendation, sanction, governance, and authority upgrades prohibited?
+- [ ] Are component load, emergence, threshold, result, Output Class, and Chapter-34 lock still open?
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-34-wp1-completion-boundary).
+
+## Chapter 34 WP2 Local Audit Return
+
+- [ ] Are commitment occurrences distinguished from practical continuity and higher-level binding-function?
+- [ ] Are continuity, role stabilization, and breach/revision/exit consequences source-traceable?
+- [ ] Are legitimacy, enforceability, collective selfhood, and Ψ identity prohibited?
+- [ ] Do multiple local integrations retain residual contradiction, partiality, and exact Loss?
+- [ ] Is higher-level integration-function kept distinct from total coherence and Σ?
+- [ ] Does emergence mean composite-level visibility with component-and-relation Source Trace?
+- [ ] Are component roles qualitative, claim-bound, revisable, and non-scored?
+- [ ] Are coordination, reinforcement, dependency, sequence, shared effect, load transfer, repair, and countervailing relations inspectable?
+- [ ] Are removal, replacement, redundancy, smaller-subset sufficiency, overinclusive source, and relation disruption retained?
+- [ ] Can internal contradiction weaken, redirect, split, reduce, stop, fail, or remain non-capturable?
+- [ ] Are functional formation, threshold, `H/I` result, Output Class, and Chapter lock still open?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-34-wp2-completion-boundary).
+
+## Chapter 34 WP3 Local Audit Return
+
+- [ ] Is descriptive aggregation preserved as a legitimate weaker outcome?
+- [ ] Are component, relation, boundary, target-placement, target-function, difference, counterfactual, and Loss warrants separated?
+- [ ] Is the threshold qualitative, context-sensitive, and function-specific?
+- [ ] Are count, duration, repetition, density, salience, grouping, and formal completeness insufficient alone?
+- [ ] Are smaller subsets, alternative composites, and Claim Reduction retained?
+- [ ] Are justified rival Frames and present target conditions tested?
+- [ ] Does the counterfactual test vary components, substitution, relations, boundaries, targets, conditions, Frames, function candidates, conflict, and missingness?
+- [ ] Is sensitivity kept distinct from causal proof?
+- [ ] Is every truth, rank, legitimacy, recommendation, sanction, governance, and authority increase prohibited?
+- [ ] Are failure locations and canonical Reduction, Stop, Failure, and Non-Capture routes distinct?
+- [ ] Does failed projection leave valid source-side findings intact where warranted?
+- [ ] Is the `Q/H/I` anchor still unadjudicated?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP3 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-34-wp3-completion-boundary).
+
+## Chapter 34 Lock and Chapter 35 Preparation Audit
+
+- [ ] Are all twenty-four Chapter-34 duties present exactly once?
+- [ ] Does `Q/H/I` remain unadjudicated?
+- [ ] Are all Chapter-35 operator occurrences independently warranted?
+- [ ] Do weighting claims preserve Δ–Ψ order and dependencies?
+- [ ] Are modulators kept outside the operator grammar and STRATA operations?
+- [ ] Are profiles configuration-bound and distinct from formal/person/group types?
+- [ ] Are profile description and profile projection separate?
+- [ ] Are role, phase, modulator, rival-profile, no-profile, and no-projection pressures live?
+- [ ] Are existing smoke tests run without creating new test/case/smoke YAMLs?
+
+## Chapter 35 WP1 Local Audit Return
+
+- [ ] Are all invoked operator occurrences independently warranted?
+- [ ] Are relation traces, Frame, granularity, relative level, roles, time window, uncertainty, and inherited Loss explicit?
+- [ ] Is source selection independent of profile or target success?
+- [ ] Is weighting tied to a declared qualitative dimension rather than symbol frequency, field count, centrality, or visual prominence?
+- [ ] Are visibility, accessibility, load, threshold, and temporal effect kept distinguishable?
+- [ ] Are Δ–Ψ order and dependencies unchanged?
+- [ ] Is weighting kept outside the three-operation inventory?
+- [ ] Is each modulator a contextual condition with a declared relation path rather than an operator or cause by label?
+- [ ] Is the same source packet fixed across `K/L`?
+- [ ] Are person/group typing, diagnosis, prediction, add-on authority, recommendation, sanction, governance, and authority inheritance prohibited?
+- [ ] Are weighting selection, modulator effect, profile formation, trajectory effect, projection result, Output Class, and Chapter lock still open?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-35-wp1-completion-boundary).
+
+## Chapter 35 WP2 Local Audit Return
+
+- [ ] Is the proposed profile a relation topology rather than an occurrence list or attractive label?
+- [ ] Are the qualitative weighting dimensions and comparison basis explicit?
+- [ ] Are all material occurrence dependencies retained?
+- [ ] Is stability bounded by Frame, roles, phases, context, and a declared window?
+- [ ] Are instability, reversal, missingness, and contradictory phases retained?
+- [ ] Is prominence kept distinct from exclusivity and causal monopoly?
+- [ ] Does any trajectory-form claim identify a warranted temporal difference without probability or determinism?
+- [ ] Were modulator removal, substitution, reversal, redundancy, changed access, and target-condition isolation declared?
+- [ ] Are alternative profiles, role/phase splits, narrower relations, single-occurrence sufficiency, inert profile, no stable profile, and Non-Capture live?
+- [ ] Is emergent profile formation fully source-traceable and kept distinct from target-level projection?
+- [ ] Are profile selection, target function, threshold, route, Output Class, and Chapter lock still open?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-35-wp2-completion-boundary).
+
+## Chapter 35 WP3 Local Audit Return
+
+- [ ] Is the profile attached to a declared Configuration/Composite rather than a person or group type?
+- [ ] Are source profile and target projection separate claims and records?
+- [ ] Are profile-formation and profile-function thresholds distinguished?
+- [ ] Can role, phase, modulator, relation, target, and rival variations defeat the claim?
+- [ ] Has label multiplication been tested for Relevance-Floor and Traceability-Ceiling failure?
+- [ ] Are add-ons only optional stress vectors?
+- [ ] Are Claim Reduction, Mandatory Stop, Failure, and Non-Capture kept distinct?
+- [ ] Do negative results preserve valid occurrence-level source findings?
+- [ ] Is authority inheritance prohibited?
+
+## Chapter 35 Lock and Chapter 36 Preparation Audit
+
+- [ ] Is each candidate complete under its own projection-family burden?
+- [ ] Are source identity and candidate-specific source subsets explicit?
+- [ ] Are target context, level, object, Claim Scope, validity scope, and time coordinates declared?
+- [ ] Is compatibility distinguished from competition?
+- [ ] Are alternatives, narrower claims, source-only treatment, and no-projection retained?
+- [ ] Are comparative criteria qualitative and non-compensatory?
+- [ ] Are exact Loss profiles candidate-specific?
+- [ ] Can indeterminacy, non-comparability, and non-translation remain positive results?
+- [ ] Is comparative preference prevented from becoming source identity or tribunal judgment?
+- [ ] Are Stop, Non-Capture, and authority prohibition explicit?
+
+## Chapter 36 WP1 Local Audit Return
+
+- [ ] Is the shared source independently warranted and origin-typed?
+- [ ] Are prior disposition, uncertainty, and all five inherited Loss fields retained?
+- [ ] Is every candidate-specific source subset explicit?
+- [ ] Are target context, level, object, function, Claim Scope, validity scope, and temporal scope declared?
+- [ ] Is compatibility based on non-exclusive target work rather than vocabulary or analyst preference?
+- [ ] Is competition based on shared coordinates and materially overlapping work?
+- [ ] Are alternative functions, contexts, narrower claims, source-only treatment, no-projection, and Non-Capture live?
+- [ ] Is forced integration prohibited unless a new operation and claim are declared?
+- [ ] Are comparative preference, indeterminacy, non-comparability, no-projection result, and Output Class still open?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-36-wp1-completion-boundary).
+
+## Chapter 36 WP2 Local Audit Return
+
+- [ ] Has every compared candidate first remained viable under its own family burden?
+- [ ] Are PraxisPurchase, Source Trace, Counterfactual Sensitivity, exact Loss, context fit, Type Integrity, Claim Ceiling, and parsimony explicit and non-compensatory?
+- [ ] Is candidate-specific Loss retained without an aggregate score?
+- [ ] Can a narrower candidate be preferred without becoming source identity or absolute truth?
+- [ ] Are positive cases, countercases, material source variations, and added assumptions tested?
+- [ ] Is coverage kept distinct from discrimination?
+- [ ] Can source-only or present-target accounts outperform all projections?
+- [ ] Are co-validity and context-dependence kept distinct from forced integration?
+- [ ] Are partial preference, underdetermination, non-comparability, and Non-Capture locally located?
+- [ ] Are local comparison descriptions kept outside the closed Output-Class inventory?
+- [ ] Are `A/B`, `F/G`, no-projection, non-translation, final route, Output Class, and Chapter lock still open?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-36-wp2-completion-boundary).
+
+## Chapter 36 WP3 Local Audit Return
+
+- [ ] Is non-translation tied to material differences in target work, scope, Source Trace, evidence, or exact Loss?
+- [ ] Are vocabulary difference, non-translation, competition, and contradiction separated?
+- [ ] Is partial translation explicit about preserved common segments and untranslatable remainder?
+- [ ] Is non-comparability located rather than used to evade candidate-specific audits?
+- [ ] Are comparison segments assigned separate Claim Scopes and unresolved fields where needed?
+- [ ] Are local comparison descriptions kept outside the closed Output-Class inventory?
+- [ ] Is person, group, moral, political, legal, institutional, and absolute theory tribunal logic prohibited?
+- [ ] Does the counterfactual comparison vary coordinates, source subsets, target conditions, countercases, Loss, alternatives, and no-projection?
+- [ ] Are candidate failure, comparison failure, Claim Reduction, Mandatory Stop, and Non-Capture localized separately?
+- [ ] Does the Projection Comparison Record reference rather than merge candidate `PROJECT_AS` Records?
+- [ ] Are `A/B`, `F/G`, route, Output Class, Chapter lock, and RETYPE lock still open?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP3 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-36-wp3-completion-boundary).
+
+## Chapter 36 Lock and Chapter 37 Preparation Audit
+
+- [ ] Are projection, analogy, and substitution tested against non-overlapping minimum burdens?
+- [ ] Are source-only residuals and target-only features explicit?
+- [ ] Is semantic preservation separated from formal, symbolic, and executable correspondence?
+- [ ] Does the mapping change under material source or target variation?
+- [ ] Can analogy terminate as `analogy_only` without upgrade pressure?
+- [ ] Are label invariance, undefined target context, missing Loss, and absent alternatives tested?
+- [ ] Are analogy drift, primitive creation, tribunal logic, and authority inheritance prohibited?
+
+## Chapter 37 WP1 Local Audit Return
+
+- [ ] Are functional projection, structural analogy, and label substitution assigned non-overlapping minimum burdens?
+- [ ] Does every projection candidate retain typed source, target context/function, PraxisPurchase, Source Trace, Counterfactual Sensitivity, exact Loss, alternatives, and Claim Ceiling?
+- [ ] Is structural analogy bounded by explicit relata, comparison dimension, direction, preserved relation, residuals, incompatibilities, uncertainty, and scope?
+- [ ] Are source identity, prior disposition, uncertainty, inherited Loss, and candidate mapping subset explicit?
+- [ ] Are source domain, target domain, target object, target context, mapping direction, and proposed correspondence declared?
+- [ ] Are positional and formal similarity separated from comparable praxeological function and semantic preservation?
+- [ ] Are source-only residuals, target-only features, incompatibilities, and artificial-fitting risks visible?
+- [ ] Is target-only structure kept outside the five-field Loss schema?
+- [ ] Are `M` analogy status, semantic preservation, target function, `L` substitution status, route, and Output Class still open?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-37-wp1-completion-boundary).
+
+## Chapter 37 WP2 Local Audit Return
+
+- [ ] Are symbolic, formal, executable, and functional-projection statuses declared separately?
+- [ ] Is execution success limited to target-side technical evidence?
+- [ ] Can analogy terminate without hidden upgrade pressure?
+- [ ] Does every partial analogy name the exact preserved relation and unmapped remainder?
+- [ ] Are source-only residuals, target-only features, incompatibilities, uncertainty, and Claim Ceiling retained?
+- [ ] Are target context, function, discrimination, Source Trace, sensitivity, exact Loss, and serious alternatives checked before accepting a PMS-derived label?
+- [ ] Are label invariance, metaphor-only function, missing Loss/rivals, and vocabulary accumulation tested?
+- [ ] Does the counterfactual test vary source, target, direction, label, countercase, and no-projection separately?
+- [ ] Are sensitivity, execution, and formal fit prevented from becoming semantic or causal proof?
+- [ ] Are `M/L`, route, Output Class, drift, translation, and lock still unadjudicated?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-37-wp2-completion-boundary).
+
+## Chapter 37 WP3 Local Audit Return
+
+- [ ] Is every transition from resemblance to semantics, function, type, primitive, or authority treated as a new claim?
+- [ ] Are scope widening, residual suppression, countercase absorption, label hardening, and failure rescue tested as drift markers?
+- [ ] Are symbol, relation, execution, compression, and bidirectional-rendering breadth separated from semantic preservation?
+- [ ] Does the integrated stress test preserve source identity, exact mapping subset, target coordinates, semantic-role pressure, residuals, rivals, reverse mapping, label sensitivity, and no-projection?
+- [ ] Are `analogy_only`, Claim Reduction, Mandatory Stop, Failure, and Non-Capture kept distinct?
+- [ ] Is failure localized without invalidating independently warranted source or target descriptions?
+- [ ] Does Non-Capture state the unresolved comparison and block stronger unsupported claims?
+- [ ] Are person, group, domain, theory, governance, recommendation, sanction, and application authority prohibited?
+- [ ] Are `M`, `L`, route, Output Class, Chapter lock, and RETYPE lock still unselected?
+
+Primary site: [WP3 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-37-wp3-completion-boundary).
+
+## Chapter 37 Provisional-Lock and Chapter 38 Preparation Audit
+
+- [ ] Are all twenty-four Chapter-37 duties present exactly once and `M/L` still unadjudicated?
+- [ ] Is origin type kept distinct from every target function, analogy, profile, label, and macrofunction?
+- [ ] Are target context, object, Frame, level, granularity, time, and scope declared before formal projection adjudication?
+- [ ] Are declared cross-level relations separated from unmarked level mixing?
+- [ ] Are declared multi-granular analyses separated from unmarked granularity mixing?
+- [ ] Does every post-failure relocation preserve the earlier disposition and open a new claim?
+- [ ] Are configuration/composite functions prevented from becoming person or group traits?
+- [ ] Are new primitives, fourth operations, and Δ–Ψ revisions prohibited?
+- [ ] Are scope inflation, temporal flattening, and missing Loss tested separately?
+- [ ] Are Claim Reduction, Mandatory Stop, Failure, and Non-Capture kept distinct?
+- [ ] Are no new test, case, or smoke YAMLs produced during Chapter-38 drafting?
+
+Preparation site: [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#12-completion-gate).
+
+## Chapter 38 WP1 Local Audit Return
+
+- [ ] Is the warranted origin type stated before evaluating the target role?
+- [ ] Is an unusual target function separated from origin-type replacement?
+- [ ] Are “functions as T” and “is T as origin type” recorded as different claims?
+- [ ] Are source reference, dependencies, prior disposition, uncertainty, Source Trace, and inherited exact Loss retained after error detection?
+- [ ] Are target context, object, level, Frame, granularity, temporal scope, target function, Claim Scope, and Validity Scope explicit?
+- [ ] Is missing context separated from substantive target-function failure?
+- [ ] Are type replacement, context omission, and metaphor/formal confusion recorded as distinct triggers?
+- [ ] Can bounded metaphor remain useful without automatic `PROJECT_AS`, semantic, type, route, or output status?
+- [ ] Does genuine ambiguity trigger review, reduction, or Non-Capture rather than invented intent?
+- [ ] Are baseline, `T1`, `T2`, metaphor control, route, Output Class, Chapter lock, and RETYPE lock still unadjudicated?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-38-wp1-completion-boundary).
+
+## Chapter 38 WP2 Local Audit Return
+
+- [ ] Are source and target levels, objects, and the relation between them explicit?
+- [ ] Are identity collapse, evidential inheritance, and functional inheritance tested separately?
+- [ ] Is fine/coarse transfer supported by a declared operation or relation rather than accumulation alone?
+- [ ] Are local countercases retained when evaluating a coarse function?
+- [ ] Does every relocated post-failure claim preserve the original disposition and open a new record with exact Loss?
+- [ ] Can the new claim fail independently without serial re-leveling or relabeling?
+- [ ] Are configuration/composite functions prevented from becoming person or group essence, diagnosis, rank, or stable trait?
+- [ ] Are profiles, target functions, macrofunctions, and model fields prevented from becoming PMS operators, STRATA operations, or Δ–Ψ revisions?
+- [ ] Are genuine dual records protected only when operations, outputs, coordinates, inter-record relations, and Loss remain separate?
+- [ ] Are `T3–T7`, route, Output Class, Chapter lock, and RETYPE lock still unadjudicated?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-38-wp2-completion-boundary).
+
+## Chapter 38 WP3 Local Audit Return
+
+- [ ] Are context, object, population, relative level, temporal scope, and similarity class declared and tested separately?
+- [ ] Is every material scope extension represented as a new independently testable claim with revised Source Trace, countercases, Claim Ceiling, and Loss?
+- [ ] Are formation, phase, interruption, reversal, dissolution, residue, observation window, and temporal uncertainty preserved?
+- [ ] Are presentism, retrojection, and unsupported future extension tested?
+- [ ] Does the record retain exactly five Loss fields and separately declare foregrounding/backgrounding?
+- [ ] Are lossless, neutral-view, no-compression, no-exclusion, and total-reversibility claims rejected or tested?
+- [ ] Does the Invalid Projection Record preserve original wording, prior disposition, valid source material, repair boundary, and open routes?
+- [ ] Is each invalidity finding localized rather than collapsed into total rejection?
+- [ ] Is Claim Reduction used only for an independently warrantable narrower claim, not a reworded rescue?
+- [ ] Are Reduction, Mandatory Stop, Failure, and Non-Capture kept distinct from local error codes?
+- [ ] Are the valid baseline, `T1–T8`, confusion controls, route, Output Class, Chapter lock, and RETYPE lock still unadjudicated?
+- [ ] Were existing smoke tests performed without creating new test, case, or smoke YAMLs?
+
+Primary site: [WP3 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-38-wp3-completion-boundary).
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-audit-sync"></a>
+
+## Chapter 38 Lock and Chapter 39 Preparation Audit Gate
+
+- [x] Chapter 38 contains §§38.1–38.13 and all 24 duties exactly once.
+- [x] Baseline, `T1–T8`, and all three confusion controls remain unadjudicated.
+- [x] Invalid Projection Record remains a diagnostic view, not a new schema or operation.
+- [x] Five-part Loss remains exact; foregrounding/backgrounding are not new Loss fields.
+- [x] Chapter 39 lower and upper boundaries are independently prepared.
+- [x] Functional Gain and Constitutive Source Trace remain separate.
+- [x] Type, reference, context, Loss, and Counterfactual gates remain non-compensatory.
+- [x] Alternatives include narrower claim, source-only, analogy-only, no-projection, and Non-Capture.
+- [x] Projection Elasticity possesses explicit failure pressure.
+- [x] Stop, Failure, Claim Reduction, and Non-Capture remain distinct.
+- [x] Exactly 24 Chapter-39 duties are assigned.
+- [x] No new test, case, or smoke YAML is created during preparation.
+
+<a id="chapter-39-wp1-audit-sync"></a>
+
+## Chapter 39 WP1 Local Audit Return
+
+- [ ] Does the proposed function add a concrete target-side praxis difference?
+- [ ] Does that difference survive label removal and ordinary-domain paraphrase?
+- [ ] Is source-only sufficiency retained as a serious rival?
+- [ ] Are descriptive convenience, navigation, elegance, and target fit excluded as substitutes for PraxisPurchase?
+- [ ] Does the claim remain capable of constitutive Source Trace rather than citation-only support?
+- [ ] Are lower- and upper-boundary failures tested independently and non-compensatorily?
+- [ ] Are `W/A–D`, exact Loss, alternatives, route, and Output Class still unadjudicated?
+- [ ] Were existing smoke tests executed without new test, case, or smoke YAML production?
+
+Primary site: [WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-39-wp1-completion-boundary).
+
+<a id="chapter-39-wp2-audit-sync"></a>
+
+## Chapter 39 WP2 Audit Checklist
+
+- [ ] Are constitutive source features, relations, dependencies, and reconstruction steps explicit?
+- [ ] Is Source Trace separated from citation, mention, resemblance, narrative plausibility, and target fit?
+- [ ] Are origin type, source reference, level relations, and primitive/person boundaries preserved?
+- [ ] Are context, object, level, Frame, granularity, time, claim scope, and validity scope complete?
+- [ ] Are material and irrelevant source variations tested separately?
+- [ ] Are source removal and opposite-source structures tested without causal overclaim?
+- [ ] Are present target conditions separated from source load?
+- [ ] Are failures localized without erasing valid source material?
+- [ ] Are exact Loss, route, and Output Class still unadjudicated?
+- [ ] Were existing smoke tests executed without new test, case, or smoke YAML production?
+
+Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-39-wp2-completion-boundary).
+
+<a id="chapter-39-wp3-audit-sync"></a>
+
+## Chapter 39 WP3 Audit Checklist
+
+- [ ] Are rival functions, narrower claims, source-only, analogy-only, and no-projection tested?
+- [ ] Is analogy kept distinct from semantic preservation and target function?
+- [ ] Are new contexts, functions, and source subsets registered as new claims?
+- [ ] Are stable failure conditions explicit?
+- [ ] Are Stop and Non-Capture applied only under their own burdens?
+- [ ] Are terminal routes kept distinct and canonical?
+- [ ] Is the complete gate non-compensatory and score-free?
+- [ ] Were no new test, case, or smoke YAMLs created?
+
+<a id="chapter-39-lock-and-chapter-40-preparation-audit-sync"></a>
+
+## Chapter 39 Lock and Chapter 40 Preparation Audit Gate
+
+- [x] Chapter 39 contains §§39.1–39.14 and all 24 duties exactly once.
+- [x] Lower and upper RETYPE boundaries remain independent and non-compensatory.
+- [x] `W/A–F`, routes, and Output Classes remain unadjudicated.
+- [x] Stop, Failure, Claim Reduction, Analogy-only, and Non-Capture remain distinct.
+- [x] Chapter 39 is provisionally locked only at family-method level.
+- [x] Chapter 40 contains 24 assigned duties across positive, counter, and confusion families.
+- [x] All 20 case-family packets remain unadjudicated.
+- [x] The 32-point Local Audit and ten-class output inventory are preserved.
+- [x] Three lock-critical case-artifact obligations are explicit.
+- [x] Smoke examples are not treated as case substitutes.
+- [x] Artifact-complete RETYPE lock is prohibited without actual verified files.
+- [x] No new test, case, or smoke YAML is created during preparation.
+
+## Chapter 40 WP1 Readiness Check
+
+- [x] one complete case-packet architecture stated;
+- [x] seven positive families represented in canonical prose;
+- [x] Source Object and origin type retained in every family;
+- [x] target coordinates, Source Trace burden, PraxisPurchase, counterfactuals, alternatives, exact Loss, and failure conditions present;
+- [x] `COMPOSE`/`PROJECT_AS` and multiple-projection records kept separate;
+- [x] no family result or Output Class preselected;
+- [x] lock-critical artifact gap explicit;
+- [x] no new test, case, or smoke YAML produced;
+- [ ] standalone case artifacts executed;
+- [ ] thirty-two-point Local Audit executed;
+- [ ] canonical case mappings selected.
+
+<a id="chapter-40-wp2-audit-sync"></a>
+
+## Chapter 40 WP2 Countercase Readiness Check
+
+- [x] seven countercase families represented in canonical Layer-1 prose;
+- [x] origin-type replacement localized without source erasure;
+- [x] missing target coordinates separated from substantive projection failure;
+- [x] label substitution burden includes Source Trace, PraxisPurchase, sensitivity, Loss, and rivals;
+- [x] analogy/projection boundary preserves `analogy_only` without automatic routing;
+- [x] aggregation separated from composite formation and higher-level function;
+- [x] prior failed disposition retained under proposed re-entry;
+- [x] configuration function separated from person/group essence, diagnosis, rank, motive, and sanction;
+- [x] Claim Reduction, Stop, Failure, Analogy-only, and Non-Capture remain distinct;
+- [x] `N1–N7` remain unadjudicated and artifact gaps remain explicit;
+- [x] no new test, case, or smoke YAML produced;
+- [ ] standalone countercase artifacts executed;
+- [ ] thirty-two-point Local Audit executed;
+- [ ] canonical countercase mappings selected.
+
+<a id="chapter-40-wp3-audit-sync"></a>
+
+## Chapter 40 WP3 Confusion-Case Readiness Check
+
+- [x] six confusion-case families represented in canonical Layer-1 prose;
+- [x] `DECOMPOSE` and `PROJECT_AS` separated by question, record, Loss, and result;
+- [x] `COMPOSE` and later higher-level `PROJECT_AS` kept separate;
+- [x] Φ recontextualization separated from a specific target function;
+- [x] recurrent similarity separated from stabilizing attractor load;
+- [x] modulator/profile separated from operator, operation, and person type;
+- [x] structural analogy separated from Semantic Preservation and target function;
+- [x] all twenty case families ready at question/field level for the Local Audit;
+- [x] no confusion result, route, or Output Class preselected;
+- [x] lock-critical artifact gap remains explicit;
+- [x] no new test, case, or smoke YAML produced;
+- [ ] standalone lock-critical case artifacts executed;
+- [ ] thirty-two-point Local Audit executed;
+- [ ] canonical case mappings selected.
+
+
+## Chapter 40 WP4 Exact Audit and Lock Check
+
+- [x] All 24 Chapter-40 Pressure Duties occur exactly once.
+- [x] All 20 case-family packets are represented at canonical Layer-1.
+- [x] All 32 RETYPE Local Audit questions are represented.
+- [x] Architecture/readiness and substantive artifact audit are separated.
+- [x] Canonical local-result mapping uses only the ten Output Classes.
+- [x] `P1–P7`, `N1–N7`, and `X1–X6` remain unadjudicated.
+- [x] Zero of three lock-critical artifact packages are present.
+- [x] Prose, Smoke fixtures, templates, and schema validity are not treated as substitutes.
+- [x] Layer-1 completion is mapped to `admissible_with_bounded_claim`.
+- [x] Artifact-complete lock continuation is mapped to `mandatory_stop`.
+- [x] Chapter 40 and Part III are locked only at the explicitly bounded method scope.
+- [x] No operation, Rule, Output Class, audit stage, Loss field, primitive, person type, or authority extension is introduced.
+
+Chapter 41 must preserve the artifact Stop, prior dispositions, separate operation Records, and the rule that recursive availability does not establish admissibility.

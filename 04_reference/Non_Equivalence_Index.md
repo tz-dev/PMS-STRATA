@@ -3809,3 +3809,998 @@ Part II provisional lock ≠ final STRATA lock or authority increase
 ```
 
 Primary site: [Part-II SUB lock boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).
+
+## Chapter 29 Preparation Non-Equivalences
+
+```text
+origin type
+≠ target function
+
+target function
+≠ operator type
+
+functional projection
+≠ origin-type replacement
+
+source-object integrity
+≠ complete source reproduction
+≠ losslessness
+
+Functional Continuity
+≠ semantic resemblance
+≠ usefulness alone
+
+new Frame or perspective
+≠ PROJECT_AS automatically
+
+source relevance in target context
+≠ distinct target function
+
+PROJECT_AS
+≠ COMPOSE
+≠ DECOMPOSE
+
+successful projection
+≠ authority inheritance
+```
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 WP1 Canonical Non-Equivalences
+
+```text
+RETYPE ≠ PROJECT_AS occurrence automatically
+
+typed projection candidate ≠ target function established
+
+source object ≠ target context
+
+origin type ≠ target function
+
+functions as F ≠ becomes type F
+
+operator-like function ≠ PMS primitive or operator type
+
+source relevance ≠ distinct target-context function
+
+function in C1 ≠ function in C2 automatically
+
+successful COMPOSE or DECOMPOSE ≠ successful PROJECT_AS
+
+origin-type preservation ≠ source-type immunization
+
+origin type preserved ≠ Source-Object Integrity or Functional Continuity complete
+
+praxeological discrimination ≠ recommendation, normative verdict, or causal proof
+```
+
+Primary site: [Chapter 29 WP1](../01_blocks/04_part_iii_retype.md#chapter-29-functional-projection-without-origin-type-replacement).
+
+## Chapter 29 WP2 Canonical Non-Equivalences
+
+```text
+target function
+≠ operator type
+≠ operator occurrence
+
+source-object integrity
+≠ complete source reproduction
+≠ losslessness
+≠ functional continuity
+
+load-bearing feature
+≠ associated feature
+≠ foregrounded feature
+
+functional continuity
+≠ resemblance
+≠ usefulness
+≠ historical priority
+≠ universal causal proof
+
+bounded counterfactual sensitivity
+≠ unrestricted alternative history
+≠ sole-cause demonstration
+
+same function label across opposite sources
+≠ robust continuity
+
+valid function in C
+≠ valid function in C'
+≠ application authority
+
+foregrounding disclosure
+≠ sixth canonical Loss field
+```
+
+Primary site: [Chapter 29 WP2](../01_blocks/04_part_iii_retype.md#29-5-target-function-versus-operator-type).
+
+## Chapter 29 WP3 Non-Equivalences
+
+```text
+projection relation ≠ source replacement
+source treated as one target-side unit ≠ internally homogeneous source
+valid source object ≠ valid target function
+valid target function ≠ repaired source failure
+changed legibility ≠ PROJECT_AS
+analyst or interface display function ≠ praxis target function
+new composite object ≠ target function
+internal constitution ≠ target-context performance
+analogy_only ≠ no_projection ≠ failed_transformation ≠ mandatory_stop ≠ non_capture
+new context or revised function ≠ erased earlier result
+```
+
+Primary site: [Chapter 29 WP3](../01_blocks/04_part_iii_retype.md#29-9-projection-without-replacement).
+
+## Chapter 29 Lock and Chapter 30 Preparation Non-Equivalences
+
+```text
+Chapter 29 provisional lock        ≠ PROJECT_AS executed
+source relevance                    ≠ target function established
+source citation                     ≠ Constitutive Source Trace
+Counterfactual Sensitivity          ≠ causal proof
+projection visibility               ≠ canonical Loss expansion
+local PROJECT_AS result             ≠ canonical Output Class
+label substitution finding          ≠ new Output Class
+invalid type-jump finding           ≠ new Output Class
+schema-valid operation Record       ≠ substantive projection truth
+```
+
+Primary sites: [Chapter 29 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-29-completion-boundary) and [Chapter 30 Preparation Record](Chapter_30_Preparation_Record.md).
+
+## Chapter 30 WP1 Non-Equivalences
+
+| Non-equivalence | Boundary |
+|---|---|
+| minimal signature ≠ causal law | the arrow marks analytical transformation direction, not causal production or necessity |
+| signature completion ≠ output generation | declared inputs do not automatically warrant `F_t`, `J`, `L`, or `V` |
+| source object ≠ source reference | an analytical label differs from the bounded identity anchoring it |
+| origin-type preservation ≠ origin-type immunization | source typing remains visible but revisable through source-side evidence |
+| source citation ≠ Constitutive Source Trace | pointers permit inspection but do not identify load-bearing relations |
+| inherited Loss ≠ current projection Loss | prior compression and uncertainty cannot be reset by re-entry |
+| operation entry ≠ operation success | WP1 permits testing and selects no result |
+
+Primary site: [Chapter 30 WP1](../01_blocks/04_part_iii_retype.md#30-1-definition).
+
+## Chapter 30 WP2 Non-Equivalences
+
+```text
+target object or scene
+≠ target function
+
+target declaration complete
+≠ target function warranted
+
+expected praxeological difference
+≠ observed or supported difference
+
+source citation or pointer
+≠ Constitutive Source Trace
+
+load-bearing candidate
+≠ recovered source detail
+
+Counterfactual Sensitivity
+≠ causal proof
+
+sensitivity description
+≠ confidence score
+≠ canonical Output Class
+
+same source in another context
+≠ same target function automatically
+```
+
+## Chapter 30 WP3 Non-Equivalences
+
+```text
+Validity Scope ≠ generalized transfer
+foregrounded ≠ preserved without Loss
+backgrounded ≠ excluded ≠ compressed ≠ absent
+inherited Loss ≠ current PROJECT_AS Loss
+no-projection ≠ failed transformation by definition
+rival function ≠ rhetorical synonym
+local operation result ≠ canonical Output Class
+label substitution detected ≠ eleventh Output Class
+invalid type jump detected ≠ eleventh Output Class
+complete Record view ≠ executed projection
+formal completeness ≠ semantic or empirical warrant
+Chapter-31 handoff ≠ inherited frame-function result
+```
+
+Primary site: [Chapter 30 WP3](../01_blocks/04_part_iii_retype.md#30-9-validity-scope).
+
+\n## Chapter 30 Lock / Chapter 31 Preparation Non-Equivalences\n\n```text\ncomplete PROJECT_AS procedure ≠ executed projection\nprocedure-level admissible_but_provisional ≠ anchor Output Class\nTrajectory as frame-function ≠ Trajectory becomes □\nhistory present ≠ historical load-bearing function\nhistorical conditioning ≠ historical determinism\nmultiple frame sources ≠ score-based load allocation\nrhetorical history ≠ Constitutive Source Trace\nbackground relevance ≠ failed source Trajectory\nno-projection ≠ source invalidity\nChapter-31 handoff ≠ inherited family result\n```\n\nPrimary sites: [Chapter 30 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-30-completion-boundary) and [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Chapter 31 WP1 Non-Equivalences
+
+| Non-equivalence | Boundary |
+|---|---|
+| valid Trajectory ≠ later frame-function | source-object warrant and target-function warrant are separate |
+| historical relevance ≠ historical load | importance or duration does not show target work |
+| frame-function ≠ `□` identity | the source remains a Trajectory |
+| target Frame ≠ projected frame-function | analytical context differs from source-dependent contribution within it |
+| source-period evidence ≠ target-period evidence | each supports a different claim position |
+| retrospective narration ≠ contemporaneous framing | later coherence cannot silently replace period evidence |
+| present conditions considered ≠ historical function defeated | plurality remains open without automatic result |
+| same source ≠ same function in every context | `Y/Z` contrast remains mandatory |
+
+Primary site: [Chapter 31 WP1](../01_blocks/04_part_iii_retype.md#31-1-basic-claim).
+
+
+## Chapter 31 WP2 Non-Equivalences
+
+```text
+valid source Trajectory ≠ Historical Load established
+historical relevance ≠ distinct frame-function
+age or duration ≠ historical load-bearing work
+source citation ≠ source-to-target trace
+foregrounded feature ≠ load-bearing feature
+modulating feature ≠ sufficient carrier
+conditioning ≠ determinism
+constraint ≠ prediction
+historical contribution ≠ causal monopoly
+multiple frame sources ≠ additive decomposition
+relative frame load ≠ score, percentage, or rank
+background relevance ≠ failed source object
+WP2 architecture complete ≠ PROJECT_AS result selected
+```
+
+Primary site: [Chapter 31 §§31.5–31.7](../01_blocks/04_part_iii_retype.md#31-5-historical-load).
+
+
+## Chapter 31 WP3 Non-Equivalences
+
+```text
+rhetorical history ≠ source-dependent frame-function
+citation density ≠ Constitutive Source Trace
+target fit ≠ independent source selection
+Counterfactual Sensitivity ≠ causal proof
+same later scene ≠ same historical path
+same later scene ≠ source-specific frame-function automatically
+multiple plausible labels ≠ multiple successful projections
+background relevance ≠ bounded frame-function
+no-projection ≠ analytical failure
+failed frame projection ≠ source Trajectory invalidation
+Failure ≠ Mandatory Stop ≠ Non-Capture
+```
+
+Primary site: [Chapter 31 WP3](../01_blocks/04_part_iii_retype.md#31-8-rhetorical-history-versus-frame-function).
+
+## Chapter 31 Lock and Chapter 32 Preparation Non-Equivalences
+
+```text
+Chapter 31 family lock
+≠ frame-function established for the anchor
+
+Trajectory as Macro-Event function
+≠ punctual Event
+
+one target-level element
+≠ one instant or one act
+
+period label
+≠ source-supported boundary selection
+
+source Trajectory warrant
+≠ Macro-Event target-function warrant
+
+transition-bearing function
+≠ causal turning-point proof
+
+COMPOSE
+≠ PROJECT_AS
+
+failed Macro-Event projection
+≠ source Trajectory invalidated
+```
+
+Primary site: [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md).
+
+
+## Chapter 32 WP1 Non-Equivalences
+
+```text
+Macro-Event target function ≠ Event origin type
+one target element ≠ one instant
+one target element ≠ one act or responsible agent
+historical prominence ≠ transition-bearing target work
+period label ≠ boundary warrant
+later outcome fit ≠ independent source selection
+chronological adjacency ≠ praxeological before/after relation
+transition-bearing function ≠ causal turning-point proof
+wider duration ≠ higher relative level automatically
+```
+
+Primary site: [Chapter 32 WP1](../01_blocks/04_part_iii_retype.md#chapter-32-trajectory-as-macro-event).
+
+## Chapter 32 WP2 Non-Equivalences
+
+```text
+one target unit ≠ one instant
+extended label ≠ retained temporal architecture
+compression ≠ punctualization automatically
+internal heterogeneity ≠ automatic fragmentation
+period unity ≠ functional unity
+load-bearing ≠ most dramatic or causally sufficient
+foregrounded/backgrounded ≠ canonical Loss fields
+useful period summary ≠ Macro-Event function
+transition-bearing function ≠ causal sufficiency, necessity, or monopoly
+```
+
+Primary site: [Chapter 32 WP2](../01_blocks/04_part_iii_retype.md#32-5-internal-duration).
+
+
+## Chapter 32 WP3 Non-Equivalences
+
+```text
+one target-level unit ≠ one source instant
+visual punctuality ≠ punctual origin type
+salient phase ≠ load-bearing source automatically
+COMPOSE result ≠ PROJECT_AS result
+chain summary ≠ merged occurrence
+boundary sensitivity ≠ invalidity automatically
+alternative source ≠ silent source substitution
+no-projection ≠ no historical relevance
+failed Macro-Event projection ≠ failed PATH Trajectory
+Counterfactual Sensitivity ≠ causal proof or unique periodization
+```
+
+Primary site: [Chapter 32 WP3](../01_blocks/04_part_iii_retype.md#32-8-punctualization-error).
+
+## Chapter 32 Lock Non-Equivalences
+
+```text
+one target-level Macro-Event unit ≠ one instant
+Macro-Event function ≠ Event origin type
+period label ≠ boundary warrant
+transition-bearing function ≠ causal turning point
+failed PROJECT_AS ≠ failed source Trajectory
+```
+
+Primary site: [Chapter 32 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-completion-boundary).
+
+## Chapter 33 Preparation Non-Equivalences
+
+```text
+one Trajectory ≠ recurrent trajectory form
+repeated similarity ≠ constitutive recurrence
+recurrence count ≠ Pattern Threshold
+shared frame ≠ attractor mechanism
+dynamic attractor-function ≠ static attractor-function
+later path influence ≠ determinism or probability
+attractor-function ≠ Α origin type
+pattern label ≠ person or group type
+```
+
+Primary site: [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md).
+
+
+## Chapter 33 WP1 Non-Equivalences
+
+```text
+one Trajectory ≠ recurrent trajectory form
+multiple Trajectories ≠ comparable Trajectories
+shared label or diagram ≠ constitutive recurrence
+recurrence count ≠ Pattern Threshold
+descriptive recurrent form ≠ dynamic attractor-function
+dynamic attractor-function ≠ static attractor-function
+recurrent form ≠ Α
+path influence ≠ determinism ≠ probability estimate
+recurrent form ≠ person/group/culture/institution/identity type
+formally complete threshold packet ≠ threshold substantively crossed
+```
+
+Primary site: [Chapter 33 WP1](../01_blocks/04_part_iii_retype.md#chapter-33-recurrent-trajectory-form-as-attractor-function).
+
+## Chapter 33 WP2 Non-Equivalences
+
+```text
+identical phases ≠ constitutive repetition automatically
+bounded variation ≠ unlimited elasticity
+source-traceable temporal pathway ≠ causal sufficiency or monopoly
+many recurring carriers ≠ Attractor Load automatically
+Attractor Load ≠ count, score, force, probability, or person/group property
+historical recurrence ≠ later-path difference
+countervailing structure ≠ function absent automatically
+dynamic attractor-function ≠ static attractor-function
+co-occurring functions ≠ shared claim, Record, Loss, or result
+```
+
+Primary site: [Chapter 33 WP2](../01_blocks/04_part_iii_retype.md#33-5-constitutive-repetition).
+
+## Chapter 33 WP3 Non-Equivalences
+
+```text
+retrospective motif ≠ recurrent-form source object
+narrative coherence ≠ temporally available reproduction mechanism
+available sample ≠ complete trajectory population
+absence of recorded counterexample ≠ counterexample impossible
+target-guided source selection ≠ independent source warrant
+pattern surviving every material alteration ≠ strong pattern
+counterfactual sensitivity ≠ causal necessity, probability, or prediction
+common Frame ≠ dynamic attractor-function automatically
+independent regeneration ≠ preserved reproduction pathway
+recurrent source established ≠ target projection required
+no-projection ≠ source history irrelevant
+failed attractor projection ≠ each source Trajectory invalid
+mandatory stop ≠ person or group verdict
+```
+
+Primary site: [Chapter 33 WP3](../01_blocks/04_part_iii_retype.md#33-8-recurrent-form-versus-retrospective-similarity).
+
+## Chapter 33 Lock and Chapter 34 Non-Equivalences
+
+```text
+family-method lock ≠ pressure-object result
+many components ≠ higher-level function
+aggregation ≠ functional formation
+component enumeration ≠ relation trace
+emergent ≠ source-free
+higher-level boundary-function ≠ □
+higher-level attractor-function ≠ Α
+higher-level asymmetry-function ≠ Ω
+higher-level binding-function ≠ Ψ
+higher-level integration-function ≠ Σ
+macrofunction ≠ person or group property
+higher level ≠ higher authority
+```
+
+## Chapter 34 WP1 Non-Equivalences
+
+```text
+many components ≠ higher-level function
+component enumeration ≠ relation trace
+warranted composite ≠ target function warranted
+higher relative level ≠ higher truth or authority
+shared category ≠ coordinated boundary production
+repeated absence ≠ repeated Non-Event
+repeated Non-Events ≠ attractor-function automatically
+sum of local burdens ≠ higher-level asymmetry automatically
+graph density or centrality ≠ distributed load relation
+higher-level function ≠ PMS primitive or person/group essence
+```
+
+Primary site: [Chapter 34 WP1](../01_blocks/04_part_iii_retype.md#chapter-34-composite-structures-as-higher-level-functions).
+
+## Chapter 34 WP2 Non-Equivalences
+
+```text
+repeated commitments ≠ higher-level binding-function automatically
+formal obligation ≠ practical continuity automatically
+accumulated breach cost ≠ normative legitimacy
+higher-level binding-function ≠ Ψ
+multiple local integrations ≠ integrated whole
+higher-level integration-function ≠ global coherence ≠ Σ
+composite-level visibility ≠ source-free novelty
+component role ≠ score ≠ permanent type
+function survives removal ≠ removed component irrelevant in every claim
+internal conflict ≠ automatic failure ≠ automatic integration
+```
+
+Primary site: [Chapter 34 WP2](../01_blocks/04_part_iii_retype.md#34-5-repeated-commitments-as-higher-level-psi-function).
+
+## Chapter 34 WP3 Non-Equivalences
+
+```text
+aggregation ≠ functional formation
+functional formation ≠ operator formation
+component count / duration / repetition / density / salience ≠ threshold
+smaller subset sufficiency ≠ excluded components irrelevant everywhere
+one broad Frame ≠ warranted macrofunction
+Counterfactual Sensitivity ≠ causal proof
+higher-level legibility ≠ higher truth ≠ higher authority
+failed higher-level projection ≠ every component or relation invalid
+schema validity and smoke success ≠ substantive macrofunction truth
+```
+
+Primary site: [Chapter 34 WP3](../01_blocks/04_part_iii_retype.md#34-8-aggregation-versus-functional-formation).
+
+## Chapter 34 Lock and Chapter 35 Non-Equivalences
+
+```text
+Chapter-34 method lock ≠ Q/H/I result
+operator weighting ≠ operator replacement
+weighting ≠ dependency reordering
+prominence ≠ exclusivity
+modulator ≠ operator ≠ operation
+profile ≠ formal type
+configuration profile ≠ person/group trait
+profile description ≠ profile projection
+stable label ≠ stable source relation
+profile compactness ≠ functional gain
+add-on stress vector ≠ STRATA authority
+```
+
+## Chapter 35 WP1 Non-Equivalences
+
+```text
+operator occurrence ≠ operator type
+operator weighting ≠ operator replacement
+weighting ≠ dependency reordering
+prominence ≠ exclusivity
+visibility ≠ constitutive load
+symbol frequency ≠ weighting evidence
+qualitative ≠ arbitrary
+modulator ≠ operator
+modulator ≠ STRATA operation
+modulator label ≠ modulation established
+relative continuation accessibility ≠ prediction or probability
+configuration-bound profile candidate ≠ person/group type
+source weighting packet ≠ stable profile
+stable profile ≠ projected function
+add-on stress vector ≠ STRATA authority
+smoke/schema success ≠ substantive weighting truth
+```
+
+Primary site: [Chapter 35 WP1](../01_blocks/04_part_iii_retype.md#chapter-35-operator-weighting-modulation-and-emergent-functional-profiles).
+
+## Chapter 35 WP2 Non-Equivalences
+
+```text
+operator list ≠ modulating profile
+compact label ≠ stable relation topology
+bounded stability ≠ permanence
+profile stability ≠ predictive power
+prominence ≠ exclusivity
+visibility ≠ constitutive load
+trajectory-form influence ≠ determinism or probability
+modulator sensitivity ≠ causal proof
+modulator redundancy ≠ source irrelevance
+alternative profile ≠ hidden true person type
+no stable profile ≠ no praxis structure
+composite-level visibility ≠ source-free novelty
+emergent functional profile ≠ new operator or origin type
+source-side profile formation ≠ target-level profile projection
+descriptive profile ≠ functional gain
+```
+
+Primary site: [Chapter 35 WP2](../01_blocks/04_part_iii_retype.md#35-5-modulating-profile).
+
+## Chapter 35 WP3 Non-Equivalences
+
+```text
+configuration-bound profile ≠ formal type
+profile ≠ person, group, institution, culture, identity, maturity, diagnosis, or moral category
+source profile established ≠ target function established
+profile-formation threshold ≠ profile-function threshold
+symbol frequency or label recurrence ≠ weighting warrant
+schema-valid profile ≠ substantive profile
+more profile labels ≠ more discrimination
+add-on stress vector ≠ STRATA authority
+counterfactual sensitivity ≠ causal or predictive proof
+failed projection ≠ source profile automatically false
+mandatory stop ≠ failed transformation ≠ non_capture
+```
+
+Primary site: [Chapter 35 WP3](../01_blocks/04_part_iii_retype.md#35-8-profile-versus-type).
+
+## Chapter 35 Lock and Chapter 36 Non-Equivalences
+
+```text
+multiple plausible projections ≠ one must be true
+shared source ≠ shared target coordinates
+compatibility ≠ forced integration
+competition ≠ vocabulary difference
+comparative preference ≠ absolute truth
+preferred function ≠ source identity
+indeterminacy ≠ failure
+non-comparability ≠ non-capture automatically
+non-translation ≠ contradiction
+no-projection ≠ source irrelevance
+projection comparison ≠ person or theory tribunal
+```
+
+## Chapter 36 WP1 Non-Equivalences
+
+```text
+multiple plausible projections ≠ multiple source types
+shared source ≠ shared target coordinates
+shared source label ≠ identical constitutive source trace
+compatibility ≠ candidate admissibility
+co-validity ≠ forced integration
+competition ≠ vocabulary difference
+rival failure ≠ surviving candidate admissible
+no-projection ≠ source irrelevance
+joint readability ≠ joint function
+preferred projection ≠ source object's true type
+```
+
+Primary site: [Chapter 36 WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-36-wp1-completion-boundary).
+
+## Chapter 36 WP2 Non-Equivalences
+
+```text
+comparative criteria ≠ universal score
+parsimony ≠ omission of constitutive structure
+more preserved detail ≠ better projection automatically
+weaker claim ≠ weaker discrimination
+comparative preference ≠ source identity or absolute truth
+coverage ≠ discrimination
+countercase absorption ≠ robustness
+no-projection ≠ source irrelevance
+co-validity ≠ forced integration
+indeterminacy ≠ failed transformation automatically
+non-comparability ≠ contradiction
+local comparison description ≠ new Output Class
+```
+
+Primary site: [Chapter 36 WP2](../01_blocks/04_part_iii_retype.md#36-5-comparative-criteria).
+
+## Chapter 36 WP3 Non-Equivalences
+
+```text
+non-translation ≠ contradiction
+non-translation ≠ source-type difference
+partial translation ≠ complete equivalence
+vocabulary difference ≠ competition
+competition ≠ contradiction automatically
+non-comparability ≠ candidate false
+comparison-level non_capture ≠ every candidate non_capture
+local comparison description ≠ canonical Output Class
+preferred projection ≠ person, institution, politics, law, morality, or theory verdict
+schema-valid comparison view ≠ substantive superiority
+candidate failure ≠ rival success automatically
+comparison failure ≠ candidate failure
+```
+
+Primary site: [Chapter 36 WP3 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-36-wp3-completion-boundary).
+
+## Chapter 36 Lock and Chapter 37 Non-Equivalences
+
+```text
+functional projection ≠ structural analogy ≠ label substitution
+formal correspondence ≠ semantic preservation
+symbolic mapping ≠ praxeological function
+executable mapping ≠ valid STRATA projection
+translation breadth ≠ completeness or superiority
+analogy-only ≠ failure by default
+mapping residual ≠ sixth Loss field
+label familiarity ≠ PraxisPurchase
+```
+
+## Chapter 37 WP1 Non-Equivalences
+
+```text
+valid functional projection ≠ structural analogy ≠ label substitution
+same relata ≠ same claim
+analogy support ≠ projection support
+formal fit ≠ target function
+source term reused in target ≠ source-dependent praxis difference
+candidate mapping subset ≠ source-object deletion
+mapping residual ≠ sixth Loss field
+structural similarity ≠ origin-type identity
+same topology ≠ same dependence structure
+same sequence ≠ same temporality
+same recurrence ≠ same expectation or friction
+positional correspondence ≠ praxeological semantic preservation
+S → T mapping ≠ T → S mapping
+bidirectional notation ≠ bidirectional semantic preservation
+mapping breadth ≠ completeness, superiority, or authority
+```
+
+Primary site: [Chapter 37 WP1 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-37-wp1-completion-boundary).
+
+## Chapter 37 WP2 Non-Equivalences
+
+```text
+symbolic mapping ≠ formal mapping ≠ executable mapping ≠ functional projection
+same symbol ≠ same relation
+same relation schema ≠ same semantic role
+implementation success ≠ empirical or semantic proof
+executable failure ≠ structural analogy false automatically
+analogy_only ≠ failed transformation by default
+analogy_only ≠ incomplete PROJECT_AS by definition
+partial analogy ≠ similarity percentage
+many correspondences ≠ stronger analogy automatically
+label familiarity ≠ target function
+label invariance ≠ robustness
+more PMS vocabulary ≠ more warrant
+counterfactual sensitivity ≠ semantic or causal proof
+```
+
+Primary site: [Chapter 37 WP2 completion](../01_blocks/04_part_iii_retype.md#chapter-37-wp2-completion-boundary).
+
+## Chapter 37 WP3 Non-Equivalences
+
+```text
+useful resemblance ≠ semantic preservation
+semantic preservation ≠ target function
+target function ≠ source-type replacement
+translation breadth ≠ semantic superiority
+compression capacity ≠ completeness
+bidirectional rendering ≠ bidirectional meaning
+analogy_only ≠ failed transformation automatically
+non_capture ≠ permission to retain an overstrong label
+schema-valid mapping ≠ semantic truth ≠ governance authority
+```
+
+Primary site: [Chapter 37 WP3 completion](../01_blocks/04_part_iii_retype.md#chapter-37-wp3-completion-boundary).
+
+## Chapter 37 Lock and Chapter 38 Preparation Non-Equivalences
+
+```text
+functions as T ≠ is T as origin type
+declared cross-level relation ≠ level mixing
+multi-granular analysis ≠ granularity mixing
+macrofunction ≠ person property
+new projection claim ≠ rescue of failed claim
+bounded metaphor ≠ formal PROJECT_AS
+foregrounding/backgrounding ≠ new Loss fields
+invalidity code ≠ eleventh Output Class
+```
+
+Preparation site: [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#3-chapter-contract-lock).
+
+## Chapter 38 WP1 Non-Equivalences
+
+```text
+unusual target function ≠ invalid type jump
+functions as T in C ≠ is T as origin type
+valid bounded function ≠ retrospective type identity
+missing target context ≠ negative target-function result
+context completion ≠ target function established
+type replacement ≠ context omission ≠ metaphor confusion
+bounded metaphor ≠ formal PROJECT_AS
+“acts like” ≠ semantic preservation
+ambiguous wording ≠ automatic failed_transformation
+error detection ≠ source-object deletion
+restored bounded claim ≠ erased earlier failure
+```
+
+Primary site: [Chapter 38 WP1](../01_blocks/04_part_iii_retype.md#38-1-invalid-type-jump).
+
+## Chapter 38 WP2 Non-Equivalences
+
+```text
+cross-level analysis ≠ unmarked level mixing
+local contribution ≠ local/higher-level identity
+level-specific evidence ≠ inherited proof across levels
+multi-granular analysis ≠ granularity mixing
+fine detail ≠ macrofunction proof
+finer resolution ≠ higher truth
+coarser resolution ≠ higher authority
+new target context ≠ prior failure erased
+new projection claim ≠ rescue of failed claim
+participation in macrofunction ≠ person essence
+configuration function ≠ diagnosis or stable trait
+successful PROJECT_AS ≠ new PMS operator
+emergent profile ≠ fourth STRATA operation
+multiple declared records ≠ one mixed operation
+```
+
+Primary site: [Chapter 38 WP2 completion](../01_blocks/04_part_iii_retype.md#chapter-38-wp2-completion-boundary).
+
+## Chapter 38 WP3 Non-Equivalences
+
+```text
+local target function ≠ global function
+function for declared participants ≠ property of every member
+one level ≠ all relative levels
+one warranted similarity class ≠ all similar-looking objects
+historical persistence ≠ timeless essence
+present condition ≠ complete historical explanation
+future possibility ≠ prediction
+foregrounding/backgrounding ≠ sixth and seventh Loss fields
+formal completeness ≠ lossless projection
+invalidity finding ≠ canonical Output Class
+invalid stronger claim ≠ every narrower claim invalid
+Claim Reduction ≠ reworded rescue
+```
+
+Primary site: [Chapter 38 WP3 completion](../01_blocks/04_part_iii_retype.md#chapter-38-wp3-completion-boundary).
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-non-equivalence-sync"></a>
+
+## Chapter 38 Lock and Chapter 39 Boundary Non-Equivalences
+
+```text
+Functional Gain
+≠ renaming
+≠ rhetorical clarity
+≠ formal completeness
+
+Constitutive Source Trace
+≠ citation
+≠ historical mention
+≠ target fit
+
+analogy_only
+≠ failed projection automatically
+
+Claim Reduction
+≠ endless narrowing
+≠ rescue
+
+Mandatory Stop
+≠ failed_transformation
+≠ non_capture
+
+local RETYPE limit
+≠ integrated LIMITS
+
+successful local gate
+≠ truth, rank, legitimacy, recommendation, sanction, governance, or authority
+```
+
+<a id="chapter-39-wp1-non-equivalence-sync"></a>
+
+## Chapter 39 WP1 Non-Equivalences
+
+```text
+Functional Gain ≠ renaming
+PraxisPurchase ≠ descriptive convenience
+source relevance ≠ target function
+target fit ≠ Constitutive Source Trace
+citation ≠ traceable load
+formal completeness ≠ boundary passage
+lower-boundary failure ≠ upper-boundary failure
+```
+
+Primary site: [Chapter 39 WP1](../01_blocks/04_part_iii_retype.md#39-1-lower-retype-boundary).
+
+<a id="chapter-39-wp2-non-equivalence-sync"></a>
+
+## Chapter 39 WP2 Non-Equivalences
+
+```text
+Source Trace ≠ citation
+Source Trace ≠ historical mention
+Source Trace ≠ thematic resemblance
+Source Trace ≠ target fit
+origin type retained ≠ target function denied
+cross-level relation ≠ level identity
+context declared ≠ function established
+counterfactual sensitivity ≠ causal proof
+source removal invariance ≠ source-dependent projection
+```
+
+Primary site: [Chapter 39 WP2](../01_blocks/04_part_iii_retype.md#39-5-function-without-source-trace).
+
+<a id="chapter-39-wp3-non-equivalence-sync"></a>
+
+## Chapter 39 WP3 Non-Equivalences
+
+```text
+alternative available ≠ primary candidate failed
+analogy_only ≠ weak projection
+new context ≠ old claim repaired
+mandatory_stop ≠ failed_transformation
+non_capture ≠ uncertainty shield
+complete gate ≠ automatic truth
+```
+
+<a id="chapter-39-lock-and-chapter-40-preparation-non-equivalence-sync"></a>
+
+## Chapter 39 Lock / Chapter 40 Case Non-Equivalences
+
+```text
+method-level Chapter-39 lock
+≠ W/A-F adjudication
+≠ RETYPE lock
+
+case-family prose
+≠ instantiated case artifact
+
+smoke example
+≠ lock-critical RETYPE case
+
+schema-valid record
+≠ substantively admissible case
+
+positive case
+≠ general validation of RETYPE
+
+compatible projections
+≠ merged projection
+
+countercase failure
+≠ source object invalid
+
+local RETYPE audit
+≠ integrated STRATA audit
+```
+
+## Chapter 40 WP1 Positive-Case Non-Equivalences
+
+```text
+positive family demonstration
+≠ positive case result
+
+canonical case prose
+≠ instantiated case artifact
+
+historical frame-function
+≠ historical determinism
+
+Macro-Event
+≠ punctual Event
+
+recurrent similarity
+≠ dynamic attractor-function
+
+many asymmetries
+≠ higher-level functional formation
+
+weighting profile
+≠ operator reordering or person type
+
+compatible projections
+≠ forced integration
+
+competing projections
+≠ one projection must win
+```
+
+<a id="chapter-40-wp2-non-equivalence-sync"></a>
+
+## Chapter 40 WP2 Countercase Non-Equivalences
+
+```text
+countercase polarity ≠ automatic failed_transformation
+missing target context ≠ substantively failed complete projection
+formal analogy ≠ valid functional projection
+many components ≠ relational functional formation
+new context or level ≠ prior failure repaired
+configuration function ≠ person or group essence
+stronger claim fails ≠ source object erased
+```
+
+Claim Reduction, Mandatory Stop, Failure, Analogy-only, and Non-Capture retain separate burdens.
+
+<a id="chapter-40-wp3-non-equivalence-sync"></a>
+
+## Chapter 40 WP3 Confusion-Case Non-Equivalences
+
+```text
+DECOMPOSE ≠ PROJECT_AS
+COMPOSE ≠ PROJECT_AS
+Φ recontextualization ≠ PROJECT_AS
+repeated similarity ≠ attractor-function
+modulator ≠ operator ≠ STRATA operation
+structural analogy ≠ functional projection
+formal or executable mapping ≠ Semantic Preservation
+complete family architecture ≠ executed Local Audit
+```
+
+
+## Chapter 40 Completion and Chapter 41 LIMITS Non-Equivalences
+
+```text
+32 audit questions represented
+≠ 32 instantiated case audits passed
+
+Layer-1 case-family architecture complete
+≠ lock-critical case package complete
+
+bounded provisional RETYPE lock
+≠ artifact-complete RETYPE lock
+
+mandatory_stop on artifact lock claim
+≠ RETYPE method failure
+≠ case-family failure
+
+recursive availability
+≠ recursive necessity
+≠ admissibility
+
+finer decomposition
+≠ stronger answer
+
+broader composition
+≠ more complete truth
+
+new projection
+≠ repaired prior claim
+
+vertical movement
+≠ authority gain
+
+LIMITS
+≠ fourth operation
+≠ meta-PMS
+```

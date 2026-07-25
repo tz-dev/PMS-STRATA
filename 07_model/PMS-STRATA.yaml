@@ -1,7 +1,7 @@
 artifact:
   id: pms_strata_formal_model_root
   title: PMS-STRATA Formal Model Root
-  version: 0.1.152
+  version: 0.1.202
   status: formal_model_v0_provisional
   build_step: 6
   artifact_role: Formal-model manifest, package-level assembly contract, and cross-artifact integrity declaration.
@@ -96,37 +96,37 @@ authority_and_precedence:
     entries:
     - path: 04_reference/Glossary.md
       role: terminology support
-      sha256: 57129d4b4f8eb87ec1a221c4205061b164b59cf5f6a7152841b9eaf04b4b2448
+      sha256: 670b212946334c199200470adbd4a2d9f43a1207ebb278a39ac7d735ef5ccdd2
     - path: 04_reference/Operator_Index.md
       role: operator terminology and cross-reference support
-      sha256: cc362fa14fc36eef39da8a6321330cb6a5897ef026a1717ee81b0ebb5c15ed78
+      sha256: 56c7d1bd76065c673edf8c6ae7910e519af55f15f0d1848d03fd885a6f6d274a
     - path: 04_reference/Transformation_Operation_Index.md
       role: operation and transformation cross-reference support
-      sha256: 5ad62c1cc933ca846995af4cd40f5336ef2c81e6a1ef5aa723b54a9e37088088
+      sha256: 0fffd0c54bbc1307c14293f4e3917f4f067f1b98c7882152083f9f427bdd607c
     - path: 04_reference/Non_Equivalence_Index.md
       role: non-equivalence and category-collapse support
-      sha256: c0b270ba5e2af6ae1892c01caf0e6050cf9568a64bca5edd51ed3ac8af7d1b16
+      sha256: eb0b5dee156bb47b5dff4de678589a3187feecf314a6e65706c68ee7237ac124
     - path: 04_reference/Output_Class_Index.md
       role: output-class and boundary support
-      sha256: e19040176db3e5f70156d34cd905db133d765aee093c8b1f89c365ae769157f4
+      sha256: 417ecf2599dc2282bbfccd5327af6b7d83bc1b4c7dc3cf1918c9ed3d6dba2c9a
     - path: 04_reference/Claim_Type_Table.md
       role: claim, support, disposition, and capture-axis support
-      sha256: abf599fdc12d98657c00c29c44b9251989987a1c1717cf8dbc1dadad7d1182ca
+      sha256: 3bb74191d6068d181b3aa6343663ce0a8460b75c4356051c1d02a79da1cc3a60
     - path: 04_reference/Admissibility_Band_Reference.md
       role: admissibility and synchronized twelve-stage audit support
-      sha256: c8b95256db40c434cd51e4ea7127f87842607645abc3bf4203af8d7035cb882d
+      sha256: 7e623e969c6468e488b2dfaad5ff9b63f46885b8fa9f04391746989a48ce2614
     - path: 04_reference/Cross_Reference_Map.md
       role: cross-artifact navigation support
-      sha256: 2d18353509e07284ebafef1481eb49829e4976ed725bb91a6c8be0836e093e58
+      sha256: aef78cef405f3a24834ab092aa0c6c6904b3b4e38e41cf8357ceb7552247a41d
     - path: 04_reference/Evidence_Map.md
       role: source, support, and warrant routing support
-      sha256: 17f4bb68ec9591e3ba1efde9572eb0e33dcfab8aa51b93b6931eb117d46ef28e
+      sha256: 6cd679f8185b1b1d43ffa2732af69b3105162252a6344e1944ab2a25ee6c9b26
     - path: 04_reference/Audit_Checklist.md
       role: audit-stage and output-mapping separation support
-      sha256: c9278a500b74bb81ec06351dd1f18d3ed0c46600061a895e44fae04e0c1425df
+      sha256: 20ad0aae714e2994f387548ba2a2a096e4a3621f7271f268def92f007682d481
     - path: 04_reference/Reader_Pathways.md
       role: formal-model build and reading-route support
-      sha256: df98b3ada90529263fc815084e9fbd6e49dc3a762004661b0d33820dd795216e
+      sha256: 2b41ce5f2611a6a45f9d0ac5ca56b09de266c743b9041e07bdacb1ea58b20f73
   readme_role:
     path: README.md
     role: navigation and repository status only
@@ -216,10 +216,10 @@ component_manifest:
       path: 07_model/Admissibility_Rules.yaml
       format: yaml
       artifact_id: pms_strata_admissibility_rules
-      version: 0.1.94
+      version: 0.1.144
       declared_status: formal_model_v0_provisional
       build_step: 3
-      sha256: 563a13e5645eb5f6f0069c38e8cf6ecb6e2ef6834c94b53a22660c05b60d83b1
+      sha256: aeec2314be16640fc8fed793fc6f7a720bd5df46d86a39122b80f45a0932d686
       role: Canonical rule semantics, controlled local findings, non-compensation, and twelve-stage audit contract.
       owned_scope:
       - sixteen Rule identities and semantics

@@ -4442,3 +4442,887 @@ Part II — SUB provisional lock
 ```
 
 Primary site: [Chapter 28 and Part II completion boundary](../01_blocks/03_part_ii_sub.md#part-ii-sub-provisional-lock-boundary).
+
+## Chapter 29 Preparation Terms
+
+### `Functional Projection`
+
+**Short definition:** A bounded source-to-context relation in which an already origin-typed source object performs a specific target function within a declared target context without replacement of its origin type.
+
+**Non-equivalences:**
+
+- functional projection ≠ origin-type replacement;
+- functional projection ≠ label substitution;
+- functional projection ≠ analogy;
+- functional projection ≠ recontextualization alone.
+
+### `Source-Object Integrity in Projection`
+
+**Short definition:** The preservation of source identity, origin type, historical load, constitutive relations, prior claim disposition, and source limits sufficient to keep the target-function claim traceable.
+
+```text
+source-object integrity
+≠ complete source reproduction
+≠ losslessness
+```
+
+### `No-Projection Result`
+
+**Short definition:** A bounded finding that the source object remains relevant or legible in a target context but does not perform an additional source-traceable target function there.
+
+A no-projection result does not erase the source object or imply Failure of its source reconstruction.
+
+Preparation control: [Chapter 29 Preparation Record](Chapter_29_Preparation_Record.md).
+
+
+## Chapter 29 WP1 Canonical Terms
+
+### `Typed RETYPE Claim`
+
+**Short definition:** A bounded claim of the form: within target context `C`, source object `X`, while retaining origin type `T`, performs candidate target function `F`.
+
+```text
+X + T + C + F
+→ inspectable projection candidate
+≠ PROJECT_AS success
+```
+
+### `Origin-Type Preservation in RETYPE`
+
+**Short definition:** The requirement that the source object’s origin type and source Record remain visible and un-replaced while a target function is declared separately.
+
+```text
+functions as F
+≠ becomes type F
+```
+
+Preservation does not immunize a source typing from later source-supported revision.
+
+### `Target-Function Candidate`
+
+**Short definition:** A specific, relational, context-bound, praxeologically discriminating function proposed for an origin-typed source object before Functional Continuity, full scope, Loss, and operation-result tests are complete.
+
+### `No-Additional-Function Contrast`
+
+**Short definition:** A same-source comparison in which the source object remains valid or relevant history but does not change the warranted target-context reconstruction and therefore warrants no distinct target function.
+
+Primary canonical site: [Chapter 29 WP1](../01_blocks/04_part_iii_retype.md#chapter-29-functional-projection-without-origin-type-replacement).  
+Production record: [Chapter 29 Preparation and Execution Record](Chapter_29_Preparation_Record.md#16-wp1-execution-record).
+
+## Chapter 29 WP2 Canonical Terms
+
+### `Source Object Integrity in RETYPE`
+
+**Short definition:** The traceable retention of a projected source object's identity, origin type, formation history, constitutive relations, prior limits, uncertainty, and inherited Loss while only claim-relevant features are foregrounded in the target context.
+
+```text
+source-object integrity
+≠ exhaustive source reproduction
+≠ losslessness
+≠ projection success
+```
+
+### `Load-Bearing Source Feature`
+
+**Short definition:** A source feature whose bounded removal or material alteration would require the proposed target function to weaken, change, or fail in the declared target context.
+
+```text
+load-bearing
+≠ associated
+≠ merely foregrounded
+```
+
+### `Functional Elasticity`
+
+**Short definition:** A target-function defect in which the same label survives materially opposite source structures or contexts that should produce different function claims.
+
+### `WP2 Context Boundary`
+
+**Short definition:** The declared target scene, roles, relative level, duration, validity scope, analytical purpose, and Claim Ceiling within which a function candidate may be tested without cross-context or authority inheritance.
+
+Primary canonical sites: [§29.5](../01_blocks/04_part_iii_retype.md#29-5-target-function-versus-operator-type), [§29.6](../01_blocks/04_part_iii_retype.md#29-6-source-object-integrity), [§29.7](../01_blocks/04_part_iii_retype.md#29-7-functional-continuity), and [§29.8](../01_blocks/04_part_iii_retype.md#29-8-contextual-boundedness).  
+Production record: [Chapter 29 WP2 Execution Record](Chapter_29_Preparation_Record.md#17-wp2-execution-record).
+
+## Chapter 29 WP3 Canonical Terms
+
+### `Projection without Replacement`
+
+**Short definition:** A RETYPE constraint under which a bounded target-function relation is added while PATH formation, SUB reconstruction, origin type, source heterogeneity, prior disposition, and inherited Loss remain separately traceable and un-replaced.
+
+```text
+new function relation
+≠ source rewrite
+≠ Loss reset
+```
+
+### `RETYPE Result Axes`
+
+**Short definition:** The required separation among Source Object Integrity, target-function effect, prior source or operation disposition, and final canonical Output Class.
+
+### `No-Projection`
+
+**Short definition:** A bounded result in which the source object remains valid or relevant but produces no distinct warranted target function in the declared target context.
+
+### `RETYPE Re-entry`
+
+**Short definition:** A new claim occurrence required whenever target context, function, relative level, source typing, source trace, validity scope, or analytical purpose changes materially; prior results remain recorded and are not erased.
+
+Primary canonical sites: [§29.9](../01_blocks/04_part_iii_retype.md#29-9-projection-without-replacement), [§29.10](../01_blocks/04_part_iii_retype.md#29-10-functional-projection-as-a-typed-claim), [§29.11](../01_blocks/04_part_iii_retype.md#29-11-retype-versus-recontextualization), [§29.12](../01_blocks/04_part_iii_retype.md#29-12-retype-versus-compose), and [§29.13](../01_blocks/04_part_iii_retype.md#29-13-retype-versus-decompose).  
+Production record: [Chapter 29 WP3 Execution Record](Chapter_29_Preparation_Record.md#18-wp3-execution-record).
+
+## Chapter 29 Provisional-Lock Return
+
+Chapter 29 provisionally locks the conceptual meaning of functional projection, typed `X/T/C/F` claims, Origin-Type Preservation, Source Object Integrity, Functional Continuity, Contextual Boundedness, projection without replacement, result-axis separation, operation boundaries, and re-entry. It does not execute `PROJECT_AS` or establish the anchor function.
+
+### `Projection Visibility`
+
+**Short definition:** A target-account declaration of which source features are foregrounded or backgrounded. Projection visibility is distinct from canonical Loss and does not add Loss fields.
+
+```text
+foregrounded / backgrounded
+≠ preserved / compressed / excluded / uncertain / irrecoverable
+```
+
+Chapter-30 preparation control: [Chapter 30 Preparation Record](Chapter_30_Preparation_Record.md).
+
+## Chapter 30 WP1 Terminology Return
+
+### PROJECT_AS entry candidate
+A proposed `PROJECT_AS` occurrence for which operation identity, signature roles, conjunctive preconditions, and source declaration are complete, while target declaration, trace, sensitivity, scope, Loss assessment, alternatives, and results remain pending.
+
+**Not equal to:** executed projection; target-function warrant; canonical Output Class.
+
+### Source reference
+The specific historical, documentary, analytical, case, or prior-record identity that anchors a source object independently of its label and candidate target function.
+
+**Not equal to:** object name; citation list; immutable source typing.
+
+### Inherited Loss
+The canonical `preserved`, `compressed`, `excluded`, `uncertain`, and `irrecoverable` profile carried from prior source formation or transformation into a later operation.
+
+**Not equal to:** current projection Loss; visibility foregrounding/backgrounding; recoverable detail by assumption.
+
+Primary definitions: [Chapter 30 WP1](../01_blocks/04_part_iii_retype.md#chapter-30-project-as-signature-context-and-validity-scope).
+
+## Chapter 30 WP2 Operational Notes
+
+### Target Declaration
+Operation-specific declaration of target context, target object or scene, candidate function, target Frame, granularity, relative level, initial validity boundary, analytical purpose, and Claim Ceiling. It declares the test site; it does not warrant the function.
+
+### Projection Justification
+Bounded statement of analytical need, candidate source carrier, rival pressure, and expected target-side praxis difference. Rhetorical fit, relevance, or usefulness is insufficient.
+
+### Constitutive Source Trace
+Source-to-function trace distinguishing load-bearing, modulating, compressed, excluded, and uncertain source structures, with source pointers retained as inspection routes rather than substitutes for trace.
+
+### Sensitivity Description
+Open local description such as strongly, partially, weakly sensitive, insensitive, underdetermined, or not testable. It is not a score, causal strength, Output Class, or automatic route.
+
+## Chapter 30 WP3 Terminology Addendum
+
+**Validity Scope** — The declared context, Frame, time, target coordinates, roles, praxis dimensions, Claim Ceiling, transfer boundary, termination, and re-entry conditions within which a target-function claim may be used.
+
+**projection visibility** — A non-Loss declaration of which retained source relations are foregrounded or backgrounded in the target-function account.
+
+**no-projection** — A positive analytical option in which the source object may remain valid or relevant but no distinct target function is warranted in the declared context.
+
+**local `PROJECT_AS` result** — An open operation-specific description kept separate from prior disposition and canonical Output Class.
+
+**operation-specific Shared Record view** — A prose-bound arrangement of `PROJECT_AS` positions mapped into the existing Shared Transformation Record; not a new schema or record type.
+
+\n## Chapter 30 Lock and Chapter 31 Preparation — PROJECT_AS Procedure and Frame-Function Family\n\n**PROJECT_AS procedure lock:** provisional closure of the generic source/target/justification/trace/sensitivity/scope/Loss/alternatives/result/Record method without execution of a concrete occurrence.\n\n**Trajectory as frame-function:** a bounded Chapter-31 target-function family in which a PATH-established Trajectory conditions legibility, expectation, role reading, action corridors, costs, bindings, or alternatives in a declared later configuration while remaining a Trajectory.\n\n```text\ngeneric procedure complete ≠ family claim warranted\nTrajectory as frame-function ≠ Trajectory becomes □\nhistorical relevance ≠ historical load sufficient for projection\n```\n\nPrimary sites: [Chapter 30 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-30-completion-boundary) and [Chapter 31 Preparation Record](Chapter_31_Preparation_Record.md).\n
+
+
+## Chapter 31 WP1 Terminology Return
+
+### Frame-function candidate
+A proposed bounded target-context function through which an origin-typed Trajectory may condition legibility, credible interpretation, expectation, role reading, action corridors, costs, bindings, or alternative visibility in a declared later configuration.
+
+**Not equal to:** Frame operator `□`; target Frame; historical relevance; established projection.
+
+### Independent source selection
+The requirement that the source Trajectory be warranted through PATH and explicit source-side selection rules rather than constructed solely because it fits the desired later function.
+
+**Not equal to:** absence of retrospective analysis; immutable source record; automatic proof of independence.
+
+### Temporal evidence boundary
+The marked distinction among source-period evidence, target-period evidence, and later retrospective evidence, including their different claim roles and non-substitutive limits.
+
+Primary definitions: [Chapter 31 WP1](../01_blocks/04_part_iii_retype.md#chapter-31-trajectory-as-frame-function).
+
+
+## Chapter 31 WP2 Terminology Synchronization
+
+**Historical Load (frame-function family)** — source-traceable target-context work through which a constitutive feature of a prior Trajectory remains materially active in a declared later configuration. It is not age, duration, salience, remembrance, documentation, source-object warrant, or historical determinism.
+
+**Historical-load carrier** — a source-supported feature or relation whose persistence, transmission, institutionalization, or reactivation is proposed to condition a named target praxis dimension. Carrier families remain open and claim-bound.
+
+**Load-bearing historical feature** — a feature whose material alteration or removal would require the bounded frame-function claim to be revised, narrowed, or withdrawn.
+
+**Modulating historical feature** — a feature that changes expression, timing, distribution, or scope without independently warranting the frame-function.
+
+**Relative frame load** — a qualitative, relational, source-bound statement of how a proposed Trajectory contribution stands among present and other historical frame sources. It is not a score, causal share, rank, operator weight, or Output Class.
+
+Primary site: [Chapter 31 WP2](../01_blocks/04_part_iii_retype.md#31-5-historical-load).
+
+
+## Chapter 31 WP3 Terminology Synchronization
+
+**Rhetorical history** — historical language used to close a target claim without an independently warranted source Trajectory, Constitutive Source Trace, bounded target difference, present/rival-source pressure, and Counterfactual Sensitivity.
+
+**Counterfactual Frame Test** — bounded discrimination test asking whether relevant changes in historical carriers, source trajectory, target context, or rival frame sources would require revision of the proposed frame-function. It does not prove causality or quantify causal share.
+
+**same-end historical pressure** — the possibility that materially different Trajectories yield later configurations indistinguishable at the declared target granularity, thereby pressuring source-specific function claims without erasing PATH differences.
+
+**competing frame projection** — a separately testable bounded function claim for the same source and target, with its own target difference, trace, sensitivity, Validity Scope, Loss, alternatives, and result.
+
+**failed frame projection** — failure of the delimited trajectory-to-frame-function claim; not automatic invalidation of the source Trajectory.
+
+Primary site: [Chapter 31 WP3](../01_blocks/04_part_iii_retype.md#31-8-rhetorical-history-versus-frame-function).
+
+## Chapter 31 Lock and Chapter 32 Preparation Terminology
+
+**trajectory-to-frame-function family lock** — provisional closure of the family method for historical-load, present/rival-source, counterfactual, competing-projection, no-projection, Failure, Stop, and Non-Capture analysis without adjudicating the `X/Y/Z` pressure object.
+
+**Macro-Event function** — a bounded target-context function through which an origin-typed Trajectory serves as one transition-bearing event-like unit in a wider declared Path while retaining internal duration and heterogeneity.
+
+**punctualization error** — false compression of an extended Trajectory into one instant, act, or homogeneous occurrence such that duration, phases, roles, costs, reversals, or heterogeneous consequences become unavailable or misleading.
+
+**boundary warrant** — source- and target-supported justification for the start, end, constitutive phases, and adjacent-development relation of a Macro-Event candidate; not a period label or later outcome alone.
+
+```text
+Macro-Event function ≠ punctual Event
+boundary selection ≠ retrospective period label
+transition function ≠ causal turning-point proof
+```
+
+Primary sites: [Chapter 31 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-31-completion-boundary) and [Chapter 32 Preparation Record](Chapter_32_Preparation_Record.md).
+
+
+## Chapter 32 WP1 Terminology Return
+
+### Macro-Event function candidate
+A proposed bounded target-context function through which an origin-typed Trajectory may operate as one transition-bearing analytical unit in a wider declared Path while retaining internal temporal extension and source-level inspectability.
+
+**Not equal to:** punctual Event; Event origin type; new PMS primitive; causal turning point; historical period label.
+
+### Projection boundary warrant
+The source- and target-grounded justification for using the already reconstructed Trajectory scope as the relevant unit for one Macro-Event function test.
+
+**Not equal to:** source-object boundary warrant; familiar era name; later outcome fit; target transition-function warrant.
+
+### Target-placement warrant
+The justification for locating the source Trajectory in a specific before/after relation to preceding and following developments inside the wider target Path.
+
+**Not equal to:** chronological adjacency alone; visual timeline position; causal proof.
+
+Primary definitions: [Chapter 32 WP1](../01_blocks/04_part_iii_retype.md#chapter-32-trajectory-as-macro-event).
+
+## Chapter 32 WP2 Terminology Return
+
+### Internal-duration preservation
+The requirement that target-level Macro-Event compression retain the source Trajectory's extended temporal scope, sequence, constitutive phase relations, turning points, relevant delays, reversals, and uncertainty as inspectable source structure.
+
+**Not equal to:** merely calling the target element “extended”; retaining every date at equal prominence; punctual Event identity.
+
+### Phase load
+A target-relative qualitative distinction among load-bearing, modulating, backgrounded, and uncertain source phases or relations.
+
+**Not equal to:** numerical causal share; salience ranking; moral importance; fixed source property.
+
+### Descriptive period compression
+A bounded summary that may improve legibility without establishing a distinct transition-bearing Macro-Event function.
+
+Primary definitions: [Chapter 32 WP2](../01_blocks/04_part_iii_retype.md#32-5-internal-duration).
+
+
+## Chapter 32 WP3 Terminology Return
+
+### Punctualization error
+The false conversion of a temporally extended and heterogeneous source Trajectory into a punctual Event-like origin claim, causal turning point, single act, or single-agent attribution.
+
+**Not equal to:** displaying one bounded target-level functional unit; using one node while preserving the full source trace.
+
+### Operation-chain contamination
+The collapse of prior `COMPOSE` formation and later `PROJECT_AS` projection into one claim, Record, Loss profile, or inherited result.
+
+### Counterfactual Macro-Event Test
+A bounded sensitivity test across phases, boundaries, source-object alternatives, target Paths, and adjacent conditions without causal proof or unique-periodization inference.
+
+### No-projection
+A bounded finding that no distinct Macro-Event function is warranted for the declared source-target occurrence while background relevance or descriptive compression may remain.
+
+Primary definitions: [Chapter 32 WP3](../01_blocks/04_part_iii_retype.md#32-8-punctualization-error).
+
+## Chapter 32 Lock and Chapter 33 Preparation Additions
+
+### Macro-Event function — locked family meaning
+
+A bounded target function in which a PATH-established Trajectory is treated as one internally extended transition-bearing unit within a wider Path. The source remains a Trajectory; internal duration and heterogeneity remain traceable.
+
+```text
+Macro-Event function
+≠ punctual Event
+≠ one act or responsible agent
+≠ causal turning-point proof
+```
+
+Primary site: [Chapter 32 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-32-completion-boundary).
+
+### Recurrent trajectory form
+
+A derived source object reconstructed across multiple independently warranted and sufficiently comparable Trajectories. It identifies a recurring transition structure while retaining variation, incompatible cases, uncertainty, and source Loss.
+
+```text
+recurrent trajectory form
+≠ one Trajectory generalized
+≠ narrative motif
+≠ new PMS primitive
+```
+
+### Dynamic attractor-function
+
+A bounded target function in which a recurrent trajectory form lowers friction, stabilizes expectations or roles, reproduces repair/exit structures, raises alternative costs, or otherwise structures later recurrence of a transition form. It is not Α as an origin type and does not imply determinism.
+
+### Pattern Threshold
+
+The context-sensitive warrant threshold at which comparability, constitutive recurrence, source-traceable path influence, and later-path difference jointly support testing an attractor-function. No universal recurrence count supplies the threshold.
+
+Primary site: [Chapter 33 Preparation Record](Chapter_33_Preparation_Record.md).
+
+
+## Chapter 33 WP1 Terminology Return
+
+### Recurrent trajectory form
+A derived source object reconstructed across multiple independently warranted and sufficiently comparable Trajectories under declared comparison coordinates. It preserves a discriminating transition relation while allowing bounded variation.
+
+**Not equal to:** one Trajectory; recurrence count; retrospective motif; Α; person/group type.
+
+### Dynamic attractor-function
+A bounded contextual target function through which a recurrent source form may stabilize a transition form or sequence by altering friction, expectation, roles, repair/exit structure, alternative cost, or later path accessibility.
+
+**Not equal to:** static attractor-function; deterministic law; probability estimate; Attractor operator identity.
+
+### Pattern Threshold
+A context-sensitive warrant across source quality, comparability, constitutive recurrence, discrimination, temporal direction, mechanism eligibility, later-path-effect eligibility, alternatives, uncertainty, Loss, and Claim Scope. No universal recurrence count substitutes for it.
+
+Primary definitions: [Chapter 33 WP1](../01_blocks/04_part_iii_retype.md#chapter-33-recurrent-trajectory-form-as-attractor-function).
+
+## Chapter 33 WP2 Terminology Return
+
+### Constitutive repetition
+The recurrence of a bounded relation among phases, transitions, roles, Non-Events, costs, and continuation effects across independently warranted and sufficiently comparable Trajectories. It permits declared variation but requires explicit break conditions.
+
+**Not equal to:** identical episodes; recurrence count; shared vocabulary; unlimited pattern elasticity.
+
+### Attractor Load
+The bounded, target-relative work through which a recurrent source form changes later-path accessibility, friction, expectation, role distribution, Non-Event structure, repair/exit conditions, alternative cost, continuation, or visibility.
+
+**Not equal to:** score; force; causal percentage; recurrence probability; person/group property.
+
+### Reproduction or path-influence mechanism
+A temporally directed, source-traceable persistence, transmission, institutionalization, or reactivation pathway through which prior recurrence becomes available to structure later continuation.
+
+Primary definitions: [Chapter 33 WP2](../01_blocks/04_part_iii_retype.md#33-5-constitutive-repetition).
+
+## Chapter 33 WP3 Terminology Return
+
+### Retrospective similarity
+Similarity produced or stabilized after outcomes are known through source selection, shared narration, aligned vocabulary, or suppression of divergent Trajectories. It may support descriptive comparison but does not itself establish recurrent form, reproduction mechanism, or Attractor Load.
+
+### Pattern elasticity
+The capacity of a candidate pattern label to absorb material reversal, omission, role exchange, cost inversion, incompatible outcomes, or opposite sequences without revision. Excessive elasticity removes counterfactual and discriminative load.
+
+### Counterfactual Attractor Test
+A bounded source-constrained sensitivity test varying phases, Frames, roles, costs, source set, comparison coordinates, mechanism availability, same-source target context, and present target conditions.
+
+### Independent regeneration
+The possibility that similar sequences arise separately under comparable conditions without preserved cross-case persistence, transmission, institutionalization, or reactivation.
+
+Primary definitions: [Chapter 33 WP3](../01_blocks/04_part_iii_retype.md#33-8-recurrent-form-versus-retrospective-similarity).
+
+## Chapter 33 Lock and Chapter 34 Preparation Return
+
+### Recurrent-form family method
+A bounded method for testing whether a derived recurrent-form composite performs a dynamic or static attractor-function in a declared target path field. Chapter 33 locks the method, not the `R/D/E` pressure object.
+
+### Functional formation
+A relational process in which components and their coordination, reinforcement, dependency, sequence, or shared effect generate a bounded target-context praxis difference.
+
+**Not equal to:** aggregation; component count; source-free emergence; operator-type creation.
+
+### Source-traceable emergence
+A function visible only at composite level while remaining reconstructible through local and distributed components, relations, uncertainty, and Loss.
+
+Primary sites: [Chapter 33 completion](../01_blocks/04_part_iii_retype.md#chapter-33-completion-boundary); [Chapter 34 Preparation](Chapter_34_Preparation_Record.md).
+
+## Chapter 34 WP1 Terminology Return
+
+### Relational composite source packet
+A source declaration that identifies independently warranted components, their boundaries, their coordination, reinforcement, dependency, temporal order, countervailing relations, prior disposition, uncertainty, and inherited Loss before target-function adjudication.
+
+**Not equal to:** component list; broad Frame; graph cluster; target-shaped macro-label.
+
+### Higher-level function
+A bounded target-context function performed by an origin-typed relational composite at a declared relative level because component relations generate a concrete target praxis difference.
+
+**Not equal to:** operator type; ontological layer; greater truth; authority increase.
+
+### Higher-level asymmetry/access function
+A bounded target function through which coordinated distributed asymmetries alter access, exposure, burden, exit, timing, role capacity, action corridors, or alternative visibility.
+
+**Not equal to:** sum of local burdens; Ω identity; moral or legal rank.
+
+Primary definitions: [Chapter 34 WP1](../01_blocks/04_part_iii_retype.md#chapter-34-composite-structures-as-higher-level-functions).
+
+## Chapter 34 WP2 Terminology Return
+
+### Higher-level binding-function
+A bounded target function through which related commitment occurrences stabilize continuity, roles, reliance, revision procedures, or breach and exit consequences across a declared target field.
+
+**Not equal to:** repeated promise count; formal obligation automatically; Ψ; collective selfhood; legitimacy or enforceability.
+
+### Higher-level integration-function
+A bounded target function through which related local integrations coordinate translation, repair, role transition, records, or continuation while unresolved contradiction, partiality, and Loss remain visible.
+
+**Not equal to:** contradiction-free totality; complete system integration; Σ.
+
+### Emergent function
+A target function visible only at the level of a warranted relational composite while remaining reconstructible through constitutive components, relation topology, uncertainty, and Loss.
+
+**Not equal to:** source-free novelty; autonomous entity; new operator; causal independence.
+
+### Component role
+A qualitative, claim-bound relation of a component to one candidate function: constitutive, modulating, redundant, substitutable, countervailing, background, uncertain, or incompatible. Roles are revisable and non-scored.
+
+Primary definitions: [Chapter 34 WP2](../01_blocks/04_part_iii_retype.md#34-5-repeated-commitments-as-higher-level-psi-function).
+
+## Chapter 34 WP3 Terminology Return
+
+### Descriptive aggregation
+A bounded source description that preserves warranted component co-presence, distribution, repetition, or grouping without claiming a distinct higher-level target function.
+
+### Functional formation
+A source-traceable relation of warranted components whose topology performs a concrete, bounded target function not exhausted by component presence, analytical grouping, or current target conditions alone.
+
+### Functional-formation threshold
+The qualitative, context-sensitive burden at which a declared composite produces a discriminating target praxis difference while surviving subset, rival-Frame, target-condition, Loss, and counterfactual pressure.
+
+**Not equal to:** component count; duration; repetition rate; graph density; salience; formal completeness; authority increase.
+
+Primary definitions: [Chapter 34 WP3](../01_blocks/04_part_iii_retype.md#34-8-aggregation-versus-functional-formation).
+
+## Chapter 34 Lock and Chapter 35 Preparation Return
+
+### Operator weighting
+A configuration-bound, source-supported difference in the relative load, accessibility, visibility, threshold effect, or temporal effect of existing operator occurrences. Weighting does not alter Δ–Ψ order or dependencies.
+
+### Modulator
+A contextual condition affecting access, threshold, timing, persistence, or stabilization without becoming a PMS operator, STRATA operation, formal type, or person property.
+
+### Modulating profile
+A bounded, source-traceable relation among existing operator occurrences and modulators within a declared Configuration or Composite.
+
+**Not equal to:** operator replacement; dependency reordering; weight score; person or group trait; projected function automatically.
+
+Primary sites: [Chapter 34 completion](../01_blocks/04_part_iii_retype.md#chapter-34-completion-boundary); [Chapter 35 Preparation](Chapter_35_Preparation_Record.md).
+
+## Chapter 35 WP1 Terminology Return
+
+### Operator weighting
+A qualitative, configuration-bound relation among already warranted operator occurrences concerning relative load, accessibility, visibility, threshold effect, or temporal effect under declared roles, phases, evidence, uncertainty, and Loss.
+
+**Not equal to:** weight of an abstract operator type; symbol frequency; numerical score; causal dominance; dependency reordering; person trait.
+
+### Modulator
+A contextual condition that affects access, threshold, timing, persistence, stabilization, reversal, or interaction among warranted operator occurrences without becoming a PMS operator, STRATA operation, hidden cause, or person/group type.
+
+### Weighting-and-modulation packet
+The source-side declaration containing occurrence traces, relations, coordinates, qualitative weighting dimensions, contextual modulators, uncertainty, prior disposition, inherited Loss, and target-independent selection before profile formation or projection.
+
+Primary definitions: [Chapter 35 WP1](../01_blocks/04_part_iii_retype.md#chapter-35-operator-weighting-modulation-and-emergent-functional-profiles).
+
+## Chapter 35 WP2 Terminology Return
+
+### Modulating profile
+A bounded, configuration- or composite-scoped relation topology among independently warranted operator occurrences, qualitative weighting dimensions, and contextual modulators under declared Frame, roles, phases, uncertainty, and exact Loss.
+
+**Not equal to:** operator list; memorable label; score; formal type; person/group trait; projected target function.
+
+### Profile stability
+The bounded persistence of a materially reconstructible occurrence-and-relation topology across a declared window while preserving role, phase, context, reversal, instability, uncertainty, and rival-profile pressure.
+
+### Emergent functional profile
+A source-side composite relation whose organizing form is visible only at the Configuration/Composite level but remains reconstructible through occurrence, relation, modulator, role, phase, uncertainty, and Loss traces. It is not a new operator, origin type, person type, or target-level projection.
+
+Primary definitions: [Chapter 35 WP2](../01_blocks/04_part_iii_retype.md#35-5-modulating-profile).
+
+## Chapter 35 WP3 Terminology Return
+
+### Profile projection
+A separately declared `PROJECT_AS` occurrence in which a source-supported, configuration-bound profile may perform a bounded contextual target function only where a concrete later-praxis difference, Source Trace, Contextual Boundedness, Counterfactual Sensitivity, exact Loss, rival comparison, and no-projection option are present.
+
+### Profile inflation
+The proliferation or stabilization of profile labels without additional praxeological discrimination, stable criteria, traceable load, or bounded configuration scope, including hidden person/group typing and automatic projection.
+
+### Dual profile threshold
+The required separation between a source-side profile-formation threshold and a target-side profile-function threshold. Neither is supplied by counts, symbol frequency, label recurrence, diagram prominence, model centrality, aesthetic fit, or schema validity.
+
+Primary definitions: [Chapter 35 WP3](../01_blocks/04_part_iii_retype.md#35-8-profile-versus-type).
+
+## Chapter 35 Lock and Chapter 36 Preparation Return
+
+### Projection compatibility
+A relation between fully declared projection candidates whose target contexts, relative levels, Claim Scopes, validity scopes, or PraxisPurchase are different or complementary enough that both may remain boundedly admissible without integration.
+
+### Projection competition
+A relation between candidates that claim the same source, target context, target level, target object, and materially overlapping explanatory work.
+
+### Projection indeterminacy
+A bounded result in which available evidence cannot responsibly prefer one candidate despite completed comparison. It is not automatically Failure.
+
+### Non-translation
+The inability to convert one projection losslessly into another because candidates preserve different dimensions, scopes, or Loss profiles. Non-translation is not automatically contradiction.
+
+Primary sites: [Chapter 35 completion](../01_blocks/04_part_iii_retype.md#chapter-35-completion-boundary); [Chapter 36 Preparation](Chapter_36_Preparation_Record.md).
+
+## Chapter 36 WP1 Terms
+
+### Competing projections
+Several bounded `PROJECT_AS` candidates from one stable source claim materially overlapping work over sufficiently shared target coordinates. Shared vocabulary or a shared source label alone does not establish competition.
+
+### Compatible projections
+Projection candidates whose target contexts, relative levels, target objects, Claim Scopes, validity scopes, or PraxisPurchase are distinct or complementary enough that success of one does not by itself defeat the other. Compatibility does not establish candidate admissibility or require integration.
+
+### Candidate-specific source subset
+The explicitly declared portion of one stable source object that carries a particular projection candidate. It may differ across candidates but may not silently rewrite source identity, period, Frame, evidence, uncertainty, or inherited Loss.
+
+### Forced integration
+The untested merger of compatible, broad, elegant, or jointly readable projection candidates into one higher label or target function. Such a merger requires its own operation, source/target declarations, Loss, alternatives, and counterfactual burden.
+
+Primary site: [Chapter 36 WP1](../01_blocks/04_part_iii_retype.md#chapter-36-competing-projections).
+
+## Chapter 36 WP2 Terms
+
+### Comparative preference
+A bounded, claim-local finding that one viable projection candidate discriminates the declared target work more effectively under explicit criteria. Preference does not establish source identity, absolute truth, permanent family superiority, or authority.
+
+### Discriminative performance
+A candidate's capacity to identify positive target differences, reject relevant countercases, respond to material source variation, and disclose rather than hide its added assumptions.
+
+### Projection underdetermination
+A local comparison condition in which candidates share a warranted comparison basis but available evidence does not discriminate responsibly among them. It is not automatically candidate Failure.
+
+### Projection non-comparability
+A local condition in which no justified common basis exists for comparing candidate target work, scope, evidence, or Loss. It is not contradiction and is not a new Output Class.
+
+Primary site: [Chapter 36 WP2](../01_blocks/04_part_iii_retype.md#36-5-comparative-criteria).
+
+## Chapter 36 WP3 Terms
+
+### Projection non-translation
+A bounded relation in which one candidate cannot be restated as another without materially changing target coordinates, Claim Scope, constitutive Source Trace, affected praxis dimensions, countercase boundaries, or exact Loss. It is not automatically contradiction.
+
+### Partial translation
+A delimited correspondence between candidates that preserves an explicitly named common segment while retaining non-equivalent target work or Loss outside that segment.
+
+### Projection contradiction
+A same-claim conflict in which compatible scope and evidence conditions support affirmation and denial of the same delimited target-function claim. It is distinct from vocabulary difference, competition, and non-translation.
+
+### Projection Comparison Record
+A controlled comparative view referencing separate candidate `PROJECT_AS` Records. It does not merge candidates, expand the schema, perform an operation, or select a canonical Output Class.
+
+Primary site: [Chapter 36 WP3](../01_blocks/04_part_iii_retype.md#36-8-non-translation).
+
+## Chapter 36 Lock and Chapter 37 Preparation Return
+
+### Structural analogy
+A bounded claim that two source/target forms share one declared relation or transition pattern without establishing origin-type identity, semantic preservation, or a valid target function.
+
+### Label substitution
+Assignment of a PMS-derived label to a target without new PraxisPurchase, Constitutive Source Trace, Counterfactual Sensitivity, exact Loss, serious alternatives, and a bounded target function.
+
+### Semantic preservation
+A claim that the mapped relation performs sufficiently comparable praxeological work in the target context. Formal or executable correspondence does not establish it automatically.
+
+### Mapping residual
+A source-only or target-only feature that remains outside the warranted correspondence. It is not a sixth canonical Loss field.
+
+Primary sites: [Chapter 36 completion](../01_blocks/04_part_iii_retype.md#chapter-36-completion-boundary); [Chapter 37 Preparation](Chapter_37_Preparation_Record.md).
+
+## Chapter 37 WP1 Terms
+
+### Valid functional projection
+A complete bounded `PROJECT_AS` claim in which an origin-typed source object performs a declared target function under explicit context, PraxisPurchase, Constitutive Source Trace, Counterfactual Sensitivity, exact Loss, serious alternatives, and Claim Ceiling. It does not replace origin type or establish semantic identity.
+
+### Structural analogy
+A bounded similarity claim between declared source and target relations under an explicit comparison dimension. It requires residuals, incompatibilities, uncertainty, and scope, but establishes neither origin-type identity, semantic preservation, nor target function.
+
+### Cross-domain mapping coordinates
+The declared source domain, target domain, source object, target object, target context, mapping direction, proposed correspondence, and Claim Scope required before a cross-domain mapping can be assessed.
+
+### Source-only residual
+A warranted source feature not carried by the declared mapping. It remains visible in Source Trace and Loss rather than being deleted to improve fit.
+
+### Target-only feature
+A target-domain property with no warranted source equivalent. It remains an explicit target residual and is not added as a sixth Loss field.
+
+### Artificial fitting
+Redescription, selection, or deletion performed primarily to make a target appear to match source vocabulary or structure rather than to preserve independently warranted relations.
+
+Primary site: [Chapter 37 WP1](../01_blocks/04_part_iii_retype.md#37-1-why-the-distinction-matters).
+
+## Chapter 37 WP2 Terms
+
+### Symbolic mapping
+A declared correspondence among signs, labels, nodes, or fields. It may support indexing or visualization but establishes neither relational preservation nor semantic function.
+
+### Formal mapping
+A declared relation-preserving correspondence under an explicit formalism. It may preserve order, branch, reversal, or recurrence without establishing comparable praxeological load.
+
+### Executable mapping
+A target-side mapping that compiles, simulates, validates, or runs under declared technical constraints. Executability is implementation evidence, not semantic-preservation or target-function proof.
+
+### Terminal analogy
+A bounded analogy that is complete at its own Claim Ceiling and requires no hidden upgrade to `PROJECT_AS`. After full audit it may map to `analogy_only`.
+
+### Partial analogy
+A claim that preserves one or more explicitly named relations while retaining unmapped source structure, target-only features, incompatibilities, uncertainty, countercases, and a bounded Claim Ceiling.
+
+### Label invariance
+Persistence of a PMS-derived label despite material changes in source relations, target conditions, recurrence, or countercases. It is a marker of elasticity or label substitution, not automatic final adjudication.
+
+Primary site: [Chapter 37 WP2](../01_blocks/04_part_iii_retype.md#37-5-symbolic-formal-and-executable-mapping).
+
+## Chapter 37 WP3 Terms
+
+### Analogy drift
+The unmarked conversion of a bounded resemblance into semantic identity, target function, source or target type, primitive status, causal equivalence, or authority. Each added load requires a new testable claim.
+
+### Translation breadth
+The extent to which source signs, relations, procedures, or distinctions can be expressed, compressed, executed, or rendered in a target representation. Breadth does not establish semantic preservation, completeness, superiority, or valid RETYPE.
+
+### Integrated Analogy Stress Test
+A qualitative nine-station audit of source lock, mapping subset, target coordinates, correspondence level, semantic role, residuals, counterpressure, drift/substitution, and canonical output boundary. It produces no similarity score or automatic semantic decision.
+
+### Cross-domain Non-Capture
+A bounded result used when materially non-equivalent semantic or functional comparisons cannot be responsibly adjudicated without invention. It does not preserve an overstrong mapping claim.
+
+Primary site: [Chapter 37 WP3](../01_blocks/04_part_iii_retype.md#37-9-analogy-drift).
+
+## Chapter 37 Provisional Lock and Chapter 38 Preparation Terms
+
+### Projection / analogy / substitution family lock
+Chapter 37 is provisionally locked at method level. The lock preserves separate projection, analogy, and label-substitution burdens without adjudicating mapping candidate `M` or label candidate `L`.
+
+### Projection rescue
+The attempted preservation of a failed claim by moving it to a new context, level, granularity, scope, target function, or label without retaining the original failure and declaring a new independently testable claim.
+
+### Scope inflation
+The unsupported widening of a bounded target-function claim across contexts, objects, populations, levels, times, or similarity classes.
+
+### Temporal flattening
+The rewriting of a historically formed, phase-bound, or trajectory-dependent object or function as a timeless essence, stable type, or permanent property.
+
+### Invalid projection record
+A controlled record or view that preserves source identity, claimed target function, missing declarations, exact invalidity positions, prior disposition, Reduction/Stop/Failure/Non-Capture routes, and non-authority boundaries. It is not a new operation or Output Class.
+
+Primary preparation site: [Chapter 38 Preparation Record](Chapter_38_Preparation_Record.md#5-stable-pressure-architecture).
+
+## Chapter 38 WP1 Terms
+
+### Invalid type jump
+An unsupported replacement of an already warranted source origin type by a contextual target role, operator identity, person property, or other new type claim. An unusual target function is not by itself a type jump.
+
+### Origin-function collapse
+The unmarked conversion of “source object functions as T in context C” into “source object is T as origin type.” The former is a bounded `PROJECT_AS` candidate; the latter requires an independent typing claim.
+
+### Missing target context
+Formal incompleteness in which target context, object, level, Frame, granularity, temporal scope, target function, Claim Scope, or Validity Scope is absent. It is distinct from a complete target-function claim that is tested and fails.
+
+### Bounded metaphor
+An explicitly non-literal or shorthand comparison whose Claim Ceiling remains orientation or local illumination. It establishes neither `PROJECT_AS`, semantic preservation, source type, target function, route, nor Output Class.
+
+### Claim-form checkpoint
+Interpretive review used to distinguish metaphor, analogy, bounded target function, and origin-type identity before formal invalidity routing. Where the intended form cannot be responsibly determined, Non-Capture remains available.
+
+Primary site: [Chapter 38 WP1](../01_blocks/04_part_iii_retype.md#38-1-invalid-type-jump).
+
+## Chapter 38 WP2 Terms
+
+### Unmarked level mixing
+Transfer of object identity, evidence, function, or consequence across relative levels without a declared relation that carries the transfer. Cross-level analysis itself is not an error.
+
+### Granularity mixing
+Direct transfer between fine evidence and coarse function, or the reverse, without stable reference, declared operation or relation, countercase handling, and exact Loss.
+
+### Failure-preserving re-entry
+A post-failure transformation entry that keeps the earlier claim and disposition visible while opening a new independently testable claim with its own coordinates, Source Trace, alternatives, and exact Loss. It is the permitted counterpart to projection rescue.
+
+### Person-level type jump
+Conversion of a configuration, composite, path, trajectory, profile, or macrofunction into a person or group essence, diagnosis, rank, identity, motive, or stable trait.
+
+### Primitive inflation by projection
+Conversion of a bounded target function, emergent profile, macrofunction, or model field into a PMS operator, STRATA operation, Δ–Ψ revision, or new primitive.
+
+### Genuine dual record
+Two separately declared operations or cross-level relations whose source/target coordinates, operation identities, outputs, inter-record relation, and five-part Loss remain distinct.
+
+Primary site: [Chapter 38 WP2](../01_blocks/04_part_iii_retype.md#38-5-unmarked-level-mixing).
+
+## Chapter 38 WP3 Terms
+
+### Scope inflation
+Unwarranted widening of a bounded projection across context, target object, population, relative level, temporal scope, or similarity class without a new independently testable claim, Source Trace, counterpressure, Claim Ceiling, and exact Loss.
+
+### Temporal flattening
+Removal of formation, phase, interruption, revision, dissolution, or temporal uncertainty such that a historically formed object or function is treated as timeless, permanent, or essential.
+
+### Projection without Loss
+Claim that a target function preserves all source structure without compression, exclusion, uncertainty, irrecoverability, foregrounding, or backgrounding. Such a claim is incomplete or invalid under RETYPE discipline.
+
+### Invalid Projection Record
+Controlled diagnostic view over an existing or proposed transformation claim that localizes invalidity findings, preserves valid material and prior dispositions, records repair boundaries, and leaves canonical routing open. It is not a new operation, schema, audit stage, or Output Class.
+
+Primary site: [Chapter 38 WP3](../01_blocks/04_part_iii_retype.md#38-10-scope-inflation).
+
+
+
+<a id="chapter-38-lock-and-chapter-39-preparation-glossary-sync"></a>
+
+## Chapter 38 Lock and Chapter 39 Preparation Terminology
+
+### Lower RETYPE Boundary
+
+The minimum boundary above which a proposed target function adds a concrete praxeological discrimination not already supplied by the source-only description, ordinary domain language, or a mere label. Primary definition site: Chapter 39 §39.1. Non-equivalences: Functional Gain ≠ renaming; descriptive convenience ≠ PraxisPurchase.
+
+### Upper RETYPE Boundary
+
+The maximum abstraction compatible with constitutive Source Trace, material source dependence, preserved origin type and reference, bounded context, Counterfactual Sensitivity, and exact Loss. Primary definition site: Chapter 39 §39.4. Non-equivalences: target fit ≠ Source Trace; citation ≠ traceable load.
+
+### Functional Gain
+
+A bounded target-side difference in action corridors, expectations, costs, interpretation, coordination, or continuation that requires the proposed contextual function. Primary definition site: Chapter 39 §39.3. Functional Gain is not rhetorical clarity, compression, navigation, formal elegance, or a familiar PMS label.
+
+### Projection Elasticity
+
+The degree to which a projection claim changes, proliferates, narrows, or relocates in response to objections. A claim is overelastic when opposite source structures, source removal, material countercases, or repeated context changes leave it effectively unfalsifiable. Primary definition site: Chapter 39 §39.11. Projection Elasticity is qualitative, not a score.
+
+### RETYPE Stop Condition
+
+A local condition requiring discontinuation of the current projection claim because continuation would require source erasure, type replacement, person typing, primitive creation, arbitrary context, repeated rescue, or authority inheritance. Primary definition site: Chapter 39 §39.12. Stop ≠ Failure ≠ Non-Capture.
+
+### RETYPE Non-Capture
+
+A local result where a responsible target function, comparison, semantic relation, or route cannot be determined without invention, despite preservation of the source and competing claims. Primary definition site: Chapter 39 §39.13. Non-Capture is not a shield for an overstrong claim and does not imply source irrelevance.
+
+<a id="chapter-39-wp1-glossary-sync"></a>
+
+## Chapter 39 WP1 Terms
+
+### Renaming without Purchase
+A lower-RETYPE-boundary pressure in which a new functional label leaves target reconstruction, action corridors, expectations, costs, and discrimination unchanged. It is not automatically identical to Chapter-37 Label Substitution.
+
+### Projection without Functional Gain
+A formally declared target-function candidate that adds no concrete target-side praxis difference beyond source-only or ordinary domain reconstruction.
+
+### Source-only sufficiency
+The possibility that the warranted source object remains relevant to the target scene without requiring an additional contextual target function.
+
+Primary site: [Chapter 39 WP1](../01_blocks/04_part_iii_retype.md#39-1-lower-retype-boundary).
+
+<a id="chapter-39-wp2-glossary-sync"></a>
+
+## Chapter 39 WP2 Terms
+
+### Constitutive Source Trace contract
+The Chapter-39 operational contract requiring claim-specific source features, relations, dependencies, reconstruction steps, target difference, material and irrelevant variation conditions, uncertainty, and exact inherited Loss. It operationalizes Source Trace locally and does not redefine its general meaning.
+
+### Function without Source Trace
+An upper-RETYPE-boundary pressure in which a target function may fit or discriminate in the target scene but lacks reconstructible dependence on the declared source.
+
+### Opposite-source pressure
+A counterfactual pressure testing whether a claimed source-dependent function survives source removal or materially contrary source structures unchanged.
+
+Primary site: [Chapter 39 WP2](../01_blocks/04_part_iii_retype.md#39-5-function-without-source-trace).
+
+<a id="chapter-39-wp3-glossary-sync"></a>
+
+## Chapter 39 WP3 Terms
+
+### Projection Elasticity
+The capacity of a projection claim to absorb objections by changing function, context, level, time, source subset, or scope without registering a new claim or surrendering the prior disposition.
+
+### RETYPE Non-Capture
+A local result where responsible function, comparison, or semantic adjudication is unavailable without invention while valid source material remains explicit.
+
+Primary site: [Chapter 39 WP3](../01_blocks/04_part_iii_retype.md#39-9-alternative-projection-test).
+
+<a id="chapter-39-lock-and-chapter-40-preparation-glossary-sync"></a>
+
+## Chapter 39 Lock and Chapter 40 Case-Audit Terms
+
+**Local RETYPE gate** — the Chapter-39 non-compensatory test requiring additional bounded PraxisPurchase, Constitutive Source Trace, Type and Context Integrity, Counterfactual Sensitivity, alternatives, exact Loss, stable failure conditions, and canonical terminal routing. It is a local `PROJECT_AS` gate, not integrated LIMITS.
+
+**Case-family architecture** — a controlled set of positive, counter, and confusion case obligations prepared for Chapter 40. A family packet is not an adjudicated case or an instantiated Transformation Record.
+
+**Lock-critical case artifact** — an actually existing Markdown case plus YAML `PROJECT_AS` record, local audit, exact Loss, alternatives, and canonical output mapping required for artifact-complete RETYPE lock.
+
+```text
+case-family packet
+≠ case artifact
+≠ completed lock evidence
+```
+
+**Artifact-complete RETYPE lock** — a lock claim supported by the required case files and audits. Method or prose completion cannot substitute for missing artifacts.
+
+## Chapter 40 WP1 Case-Demonstration Terms
+
+**Positive case-family demonstration** — a canonical prose packet designed to expose the full warrant and counterpressure of a projection family. “Positive” identifies intended test polarity; it does not preselect passage, a route, or an Output Class.
+
+**Layer-1 case packet** — canonical family prose containing Source/Target coordinates, Source Trace burden, PraxisPurchase, counterfactuals, alternatives, Loss, and failure conditions without yet constituting the required standalone Markdown/YAML/audit/mapping artifact bundle.
+
+**Artifact-completion gap** — the explicit difference between complete canonical case-family prose and actually existing lock-critical case artifacts. The gap may not be closed by inference from schema validity, smoke fixtures, or prose detail.
+
+<a id="chapter-40-wp2-glossary-sync"></a>
+
+## Chapter 40 WP2 Countercase Terms
+
+**Countercase-family demonstration** — canonical Layer-1 prose that exposes one bounded invalidity pressure while retaining valid source material, narrower claims, alternatives, Loss, and route openness. Countercase polarity does not preselect `failed_transformation`.
+
+**Origin-type replacement countercase** — a case in which a contextual target role is rewritten as source identity. The invalid identity claim does not erase the source object or every separately specified bounded function.
+
+**Failure-preserving re-entry countercase** — a case testing whether a new context, level, function, or source subset is registered as a new claim while the prior failed disposition remains visible.
+
+**Person-level type jump countercase** — a case in which a configuration or composite function is rewritten as person/group essence, diagnosis, rank, motive, or sanction basis.
+
+Primary site: [Chapter 40 WP2](../01_blocks/04_part_iii_retype.md#40-9-countercase-1-origin-type-replacement).
+
+<a id="chapter-40-wp3-glossary-sync"></a>
+
+## Chapter 40 WP3 Confusion-Case Terms
+
+**Confusion-case family demonstration** — canonical Layer-1 prose testing which of two adjacent operation or claim forms applies. It requires explicit discriminants, separate records where operations differ, alternatives, Loss, and non-adjudication; it does not preselect a route.
+
+**Operation-separation confusion case** — a case in which `DECOMPOSE`, `COMPOSE`, `PROJECT_AS`, or Φ may appear in one analytical sequence but must retain separate questions, records, Loss, and results.
+
+**Audit readiness** — completion of the case-family fields and discriminants needed to run the Local Audit. Audit readiness does not mean audit passage, instantiated artifacts, substantive warrant, or lock completion.
+
+Primary site: [Chapter 40 WP3](../01_blocks/04_part_iii_retype.md#40-16-confusion-case-1-retype-or-sub).
+
+
+## Chapter 40 Bounded Lock and Chapter 41 LIMITS Terms
+
+**Architecture-level RETYPE audit** — the thirty-two-question Chapter-40 audit applied to whether all required questions, fields, alternatives, Loss, and authority boundaries are represented in canonical case-family packets. It is not an instantiated case-artifact audit.
+
+**Artifact-complete RETYPE lock** — the stronger lock claim requiring the contractually specified standalone Markdown case, YAML `PROJECT_AS` Record, Local Audit result, exact Loss and alternatives, and canonical mapping for the lock-critical packages.
+
+**Bounded provisional RETYPE lock** — the retained Part-III claim that Chapters 29–40 provide a complete method corpus, canonical Layer-1 case architecture, Local Audit specification, and mapping boundary while the artifact-complete lock remains under `mandatory_stop`.
+
+**Recursive availability** — the fact that a STRATA object or result can be subjected to another declared operation. Recursive availability does not establish necessity or admissibility.
+
+**Vertical authority drift** — the prohibited inference that finer, broader, higher-level, more composite, or more transformed analysis has greater truth, validity, legitimacy, or application authority.
+
+**Constitutive LIMITS** — the cross-cutting admissibility and stopping structure already active within every operation and chain. LIMITS is a Part, not a fourth operation or meta-PMS.
+
+Primary sites: [Chapter 40 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-40-completion-boundary) and [Chapter 41 Preparation Record](Chapter_41_Preparation_Record.md).
