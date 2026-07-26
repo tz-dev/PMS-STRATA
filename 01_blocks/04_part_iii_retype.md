@@ -64,6 +64,21 @@ RETYPE therefore asks:
 
 These are functional-projection questions. They do not ask whether the source object can be redescribed more elegantly, placed in a new diagram, summarized under a broader heading, or associated with an operator-like word. A new view may change legibility without establishing a new function. A source object may also remain historically relevant while contributing no distinct function to the current target scene.
 
+#### PMS occurrence entry where the source is PMS-typed or PMS-derived
+
+Where the source object is PMS-typed or PMS-derived, RETYPE also asks which concrete operator occurrences and relations are already warranted in the linked source Record and which of those relations are material candidates for carrying the proposed target function. This is a conditional source-entry burden, not an operator quota. The operation does not re-derive PATH or SUB and does not infer operator typing from the desired target function.
+
+```text
+operator name available
+≠ claim-relevant operator occurrence established
+
+source Record inspectable
++ material occurrence relation identified where needed
+→ PMS-grounded projection entry
+```
+
+Operators that are not material to the tested target difference need not be foregrounded. Missing or unavailable occurrence detail remains an explicit source limit rather than an invitation to invent a trace.
+
 #### C29-PURPOSE-01 — RETYPE adds a bounded source-to-context relation without rewriting the source object
 
 A valid RETYPE claim adds one relation:
@@ -834,6 +849,17 @@ source-object integrity
 ≠ immunity from revision
 ```
 
+#### Occurrence-level Source Object Integrity
+
+Where concrete PMS operator occurrences or their relations are constitutive for the source object and material to the projection, Source Object Integrity includes continued access to those occurrence records, their source Frames, temporal placement, source support, and relevant canonical dependency context. A derived object such as a Trajectory may satisfy this burden by retaining an inspectable link to its locked PATH Record; Chapter 29 does not need to reproduce that Record.
+
+```text
+PMS operator label retained
+≠ occurrence-level source relation preserved
+```
+
+The abstract operator type is never decomposed or altered by this requirement. Nor must every source operator be repeated. Only the occurrence relations that carry, constrain, oppose, or materially qualify the present target-function claim must remain reconstructible.
+
 #### C29-INTEGRITY-01 — source identity, history, constitutive relations, and prior limits remain traceable
 
 For `documented_trajectory_X`, the integrity burden includes at least:
@@ -974,6 +1000,24 @@ source feature S
 ```
 
 The function must depend on the source object’s specific structure. It is not enough that the source is relevant, narratively useful, historically prior, formally similar, or convenient for explanation.
+
+#### PMS-grounded Functional Continuity
+
+If the proposed target function is said to depend on a PMS-derived source structure, Functional Continuity requires a bounded answer to an additional question:
+
+> Would material alteration of a load-bearing operator occurrence or occurrence relation require the target-function claim to weaken, change, split, or fail?
+
+The test concerns concrete source load—for example a source-supported Non-Event relation, asymmetric cost gradient, temporal persistence relation, commitment continuity, or recontextualizing interruption—not a hypothetical change to the abstract Δ–Ψ grammar.
+
+```text
+material change in a warranted source occurrence relation
+→ possible change in the bounded target-function claim
+
+change in the abstract PMS operator definition
+→ not a STRATA counterfactual
+```
+
+Any operator naming remains illustrative and source-dependent. Ordinary-language similarity alone does not establish occurrence typing.
 
 #### C29-CONTINUITY-01 — Functional Continuity requires a source-to-context relation, not resemblance or usefulness alone
 
@@ -1741,6 +1785,22 @@ origin-typed source object
 → bounded contextual target function
 ```
 
+#### Compact PMS-grounded operation chain
+
+The source-to-target relation can be made visible without repeating the source theory:
+
+```text
+warranted operator-typed occurrences and relations
+→ COMPOSE
+→ origin-typed source Trajectory X
+
+Trajectory X with retained source reference
+→ PROJECT_AS
+→ bounded target function in C
+```
+
+Where finer carrier inspection is necessary, `DECOMPOSE` remains a separate occurrence with its own Record, Loss, and result. No universal Δ–Ψ formula for Trajectory formation is implied.
+
 #### C29-COMPOSE-01 — formation of a new object remains a separate COMPOSE occurrence
 
 If the analytical move selects several configurations, orders transitions, preserves constitutive relations, and forms a trajectory, the move is `COMPOSE`. Calling the resulting trajectory a frame-function does not retroactively make the formation process RETYPE.
@@ -2375,6 +2435,18 @@ source:
 
 This expansion does not create a second schema or new canonical Loss fields. It brings existing record obligations into the `PROJECT_AS` source view.
 
+#### Conditional PMS occurrence-route requirement
+
+Where the source is a PMS operator occurrence, the source declaration identifies the concrete occurrence and its source Frame. Where the source is a Composite or derived object, `source_reference` and `source_basis` point to the prior Record that preserves the claim-relevant operator-typed constituents or relations. Where that detail is unavailable or immaterial, the limit is stated rather than inferred from the proposed target function.
+
+```text
+generic source label
+without inspectable source route
+≠ complete PMS-grounded source declaration
+```
+
+No new Record field is introduced. The burden is carried by the existing source reference, source basis, origin type, uncertainty, prior disposition, and inherited Loss positions.
+
 #### C30-SOURCEDECL-01 — complete source declaration and source-reference trace
 
 A valid source declaration must answer:
@@ -2861,6 +2933,25 @@ constitutive_source_trace:
 
 The categories are analytical roles inside one projection occurrence. They do not change the source object’s origin type, create a closed feature ontology, or add new canonical Loss fields.
 
+#### Operator-occurrence anchoring inside Constitutive Source Trace
+
+If a `PROJECT_AS` claim rests materially on PMS operator-typed occurrences or relations, at least one load-bearing trace must identify the concrete occurrence-level relation that carries the proposed target difference. The trace preserves occurrence identity, source Frame, temporal or relational placement, source support, and the distinction among operator type, occurrence, Composite, and derived object.
+
+Possible source-supported traces include:
+
+```text
+repeated supported non-repair
+→ Λ-occurrence trace within a declared expectation Frame
+
+accumulated unequal exit cost
+→ Ω-occurrence relation retained across the source Trajectory
+
+persistent commitment continuity
+→ Ψ-related occurrence trace retained in its source dependency context
+```
+
+These are examples, not automatic typings from ordinary-language words. An operator label without occurrence identity, relation, placement, and support remains insufficient Source Trace.
+
 #### C30-SOURCETRACE-01 — constitutive trace cannot be replaced by citation, salience, or resemblance
 
 A Constitutive Source Trace must do more than list documents, quote a source description, name the source object, or show structural similarity. It must specify a bounded route from source structure to the expected target-side difference.
@@ -2976,6 +3067,17 @@ The governing question is:
 > Would a relevant change in the source structure alter the target-function claim?
 
 The question does not ask whether the source is the sole cause of the target scene. It asks whether the projection is sensitive to the very source features it claims are constitutive.
+
+#### Occurrence-level variation rule
+
+Where an operator occurrence or occurrence relation is declared load-bearing, the sensitivity test varies that concrete occurrence or relation rather than merely changing the target label or narrative description. A test may replace supported non-repair with timely repair, equalize a supported cost or exposure gradient, interrupt a retained commitment relation, or alter a claim-relevant order or persistence relation. The abstract operator definition and the canonical Δ–Ψ grammar remain fixed.
+
+```text
+occurrence-level variation
+≠ abstract operator revision
+```
+
+The existing Removal, Reversal, Order, Threshold, Substitution, and Context tests remain sufficient; this clause specifies their PMS-grounded object where applicable.
 
 #### C30-COUNTERFACT-01 — bounded sensitivity is mandatory and does not prove causality
 
@@ -3312,6 +3414,17 @@ loss:
 ```
 
 No sixth or seventh canonical field is introduced. The Structure wording `foregrounded` and `backgrounded` is retained as a separate visibility declaration.
+
+#### Operator-relation visibility and canonical Loss
+
+If a claim-relevant operator occurrence or relation is foregrounded, compressed, excluded, uncertain, or irrecoverable under projection, that condition is recorded through the existing visibility declaration and the five canonical Loss fields. Projection may compress occurrence-level heterogeneity, but it may not imply that the target function preserves the complete operator semantics or source dependency structure.
+
+```text
+operator-occurrence relation compressed in projection
+≠ operator type simplified or changed
+```
+
+No sixth Loss field and no operator-specific Loss taxonomy are created.
 
 #### C30-LOSS-01 — every projection retains exactly the five canonical Loss fields
 
@@ -3672,6 +3785,14 @@ This non-selection is deliberate. Chapter 30 owns the reusable operation procedu
 
 The operation-specific `PROJECT_AS` view is embedded in the Shared Transformation Record. It is not a replacement schema, a second record type, or a permission to bypass the shared source, operation, target, admissibility, Loss, alternatives, and governance groups.
 
+#### PMS occurrence-route completion question
+
+Where PMS occurrence structure is material, the complete Record must permit the following question to be answered from existing fields:
+
+> Do `source_reference`, `source_basis`, `constitutive_source_trace`, `counterfactual_sensitivity`, and `loss` together preserve an inspectable route from the warranted operator occurrence relation to the bounded target-function claim?
+
+A negative or unavailable answer does not create a new local result family. It places pressure on the existing Source Trace, Source Ceiling, Claim Reduction, Stop, Failure, or Non-Capture routes.
+
 #### C30-RECORD-01 — one complete operation-specific view is mapped into the Shared Record without schema duplication
 
 The following thirty-three-position view shows the complete procedure using the Chapter-29/30 pressure object. Values marked `candidate`, `pending`, or `not_selected` preserve the fact that no family-specific projection is executed in Chapter 30.
@@ -3977,6 +4098,18 @@ WP1 establishes the family claim, the eligible source entry, the target-context 
 
 A Trajectory may perform a frame-function when its independently reconstructed and source-traceable historical structure materially conditions a declared later configuration. The relevant target work may concern which differences become salient, which interpretations remain credible, which expectations organize roles, which alternatives appear available, which actions incur elevated cost, or which bindings and residues shape continuation. The function is therefore not a general statement that the past matters. It is a bounded claim that specified features of one source Trajectory perform identifiable framing work within one target context.
 
+#### Bounded PMS Frame work
+
+The target-side correspondence must name a limited aspect of canonical PMS Frame work—for example relevance structuring, boundary conditioning, contextual constraint, or role-space organization—rather than treating “frame” as a free synonym for historical influence. The claim remains contextual and partial:
+
+```text
+bounded performance of declared Frame work
+≠ complete □ semantics
+≠ □ operator occurrence created by projection
+```
+
+The linked source Trajectory remains the origin-typed source object. The target function does not inherit the full dependencies, portability, or identity of `□`.
+
 #### C31-BASIC-01 — the family claim is bounded trajectory-to-frame-function projection
 
 The minimal family form is:
@@ -4066,6 +4199,12 @@ The family can therefore yield a bounded frame-function in one context, backgrou
 ### 31.2 Source Object
 
 The source of a trajectory-to-frame-function projection must already exist as a warranted PATH object. Chapter 31 cannot construct the Trajectory retrospectively from the desired target result. It may reference the source record, preserve its uncertainty and Loss, and specify which parts of that record are candidate carriers for later framing. It may not revise the source selection merely because another periodization, endpoint, branch selection, or narrative arc would fit the proposed function better.
+
+#### Operator-carrier access through the PATH source Record
+
+Where material to the candidate frame-function, the source entry retains access to the PATH reconstruction of concrete operator occurrence relations that carry the historical load. Depending on the warranted source, these may include supported `Λ` relations within declared expectation Frames, recurrent `Α` stabilization relations, `Ω` cost or exposure gradients, `Ψ` continuity or breach-cost relations, and relevant `Φ`, `Χ`, or `Σ` occurrences that interrupt, redirect, distance, or integrate the load.
+
+This is not a mandatory bundle and does not establish the frame-function. The PATH Record owns the occurrence warrant; Chapter 31 only traces whether already warranted load performs bounded target work.
 
 #### C31-SOURCE-01 — the source is a prior PATH Trajectory selected independently of target fit
 
@@ -4469,6 +4608,20 @@ The source claim and the target-function claim answer different questions:
 
 A source Trajectory can remain fully warranted while the frame-function claim fails, remains provisional, becomes background relevance only, or cannot be responsibly captured. Conversely, a rhetorically compelling target fit cannot repair a weak source Trajectory. The two warrants remain separately auditable throughout the family analysis.
 
+#### Conservative PMS carrier anchoring
+
+Historical carriers remain ordinary source structures unless their operator typing is independently warranted. Where it is warranted, the following correspondences may sharpen the trace:
+
+| Existing carrier language | Conservative occurrence-level anchoring |
+|---|---|
+| sedimented expectations or repeated Non-Repair | supported `Λ` occurrences within declared Frames and retained temporal relations |
+| recurrent continuation pressure | supported `Α` occurrence relations whose persistence belongs to the PATH Record |
+| accumulated asymmetric costs | supported `Ω` gradients carried through the Trajectory |
+| persistent Commitments or Bindings | supported `Ψ` relations with temporal and dependency context retained |
+| later reframing, distancing, interruption, or integration | supported `Φ`, `Χ`, or `Σ` occurrences that may weaken, redirect, or terminate the historical function |
+
+No carrier is universally required. Resemblance does not establish typing, and target fit cannot retroactively create a source occurrence.
+
 #### C31-HISTLOAD-01 — Historical Load is source-traceable target work, not duration, salience, or inherited source warrant
 
 A proposed Historical Load must identify:
@@ -4613,6 +4766,10 @@ Any material change in role-set, time window, target Frame, present conditions, 
 ### 31.7 Multiple Frame Sources
 
 A later configuration may be structured by several concurrent sources. A prior Trajectory is therefore never entitled to explanatory priority merely because it is historically earlier, narratively coherent, or source-rich. Chapter 31 must compare the proposed Historical Load with present and alternative historical contributions without collapsing them into a single total Frame.
+
+#### Concrete frame-source comparison
+
+The projected historical frame-function may coexist or compete with target-side Frame occurrences, institutional Frames, present rules, and material `Φ` recontextualizations where those are source-supported. It does not compete with the abstract `□` operator type. Relative-load comparison concerns concrete contributions within the target Configuration, not rivalry among operator names.
 
 #### C31-MULTIFRAME-01 — multiple present and historical frame sources remain possible
 
@@ -4900,6 +5057,17 @@ A claim that cannot answer this question remains rhetorically historical rather 
 ### 31.9 Counterfactual Frame Test
 
 The Counterfactual Frame Test assesses whether the proposed frame-function is sensitive to relevant changes in the source carriers, target context, or competing frame-source configuration. It does not replay history, prove causality, establish a numerical causal share, or authorize prediction. Its role is discriminative: a source-specific function claim should change when the source structures claimed to carry that function materially change.
+
+#### PMS-grounded carrier variation
+
+Occurrence-level variants may pressure the specific carrier claim: timely repair may replace a claimed `Λ` non-repair relation; equalized exit cost may weaken an `Ω` gradient; interrupted commitment continuity may pressure a `Ψ` carrier; changed duration, order, or persistence may pressure a relevant `Θ` relation; and a material `Φ` recontextualization may alter whether earlier load still frames the target scene.
+
+```text
+concrete occurrence relation varied
+≠ abstract PMS operator revised
+```
+
+Only operator typings already supported by the source Record enter these tests.
 
 #### C31-CFTEST-01 — the family test varies carriers and contexts without converting sensitivity into causal proof
 
@@ -5370,6 +5538,20 @@ WP1 establishes the family claim, the eligible source entry, the meaning of Macr
 
 A PATH-established Trajectory may perform a Macro-Event function when, within a wider declared Path or temporal Frame, it serves as a bounded and source-traceable transition-bearing unit whose inclusion materially changes the reconstruction of the wider development. The target work may concern which larger phases are distinguishable, which later possibilities become available or unavailable, which before/after relation becomes praxeologically discriminating, or how the wider Path is segmented into materially different continuation conditions.
 
+#### PMS-structured source, non-operator target function
+
+The linked PATH Record must preserve, where material, which operator-typed occurrences and relations constitute the Trajectory's phase structure and historical load. Chapter 32 references that source warrant; it does not reconstruct the Trajectory from the desired Macro-Event function.
+
+```text
+operator-structured source Trajectory
+→ eligible source for PROJECT_AS testing
+
+Macro-Event target function
+≠ PMS operator identity
+```
+
+No operator equivalent for Macro-Event is introduced.
+
 #### C32-BASIC-01 — the family claim is bounded trajectory-to-macro-event projection
 
 The minimal family form is:
@@ -5684,6 +5866,17 @@ The target change may alter function, but it must not silently alter the source 
 
 Macro-Event projection depends on defensible boundaries. The source Trajectory must already possess a PATH-supported temporal scope, but Chapter 32 must additionally explain why that scope is appropriate for the proposed target function. Source-object warrant, boundary warrant for this projection, and target transition-function warrant remain distinct.
 
+#### Operator-relevant boundary evidence
+
+Start, end, phase, and turning-point boundaries should be supported by changes in the reconstructed praxis structure rather than calendar convenience or later naming alone. Source-supported evidence may include changed Frame or role-space organization, emergence or interruption of material `Λ`, `Α`, `Ω`, or `Ψ` load, a material `Φ` recontextualization, or changed `Θ` order, persistence, delay, or trajectory relation.
+
+```text
+operator-relevant configuration change may support a phase boundary
+≠ operator symbol automatically fixes a historical boundary
+```
+
+The relevant occurrence relations depend on the source Record; no fixed checklist is imposed.
+
 #### C32-BOUNDARY-01 — start, end, phases, turning points, and adjacent developments require source-supported declaration
 
 The boundary packet must include:
@@ -5892,6 +6085,18 @@ one target-level analytical position
 
 The relevant question is not whether every source-side date remains foregrounded in the target account. It is whether the duration, sequence, and phase relations whose alteration would change the proposed transition function remain identifiable and recoverable from the source record.
 
+#### Temporal anchoring without temporal retyping
+
+Where warranted in the source reconstruction, internal duration, order, delay, persistence, and phase relation are carried through concrete `Θ`-typed temporal occurrence relations. Treating the Trajectory as one target-level unit must preserve access to those relations.
+
+```text
+Θ-related temporal load retained
+≠ Trajectory becomes Θ
+≠ Macro-Event becomes a temporal operator
+```
+
+This is a source-preservation requirement, not a new theory of Temporality.
+
 #### C32-DURATION-01 — target compression must preserve internal duration, sequence, and phase relations
 
 A Macro-Event candidate must retain at least the following temporal structure:
@@ -6020,6 +6225,12 @@ If `B` requires phases `M1–M3` while `C` uses only `M2`, the comparison no lon
 ### 32.6 Internal Heterogeneity
 
 A Trajectory may be used as one Macro-Event candidate without being internally homogeneous. The target function can compress plurality into one bounded analytical position only if the plurality relevant to the claim remains traceable. Heterogeneity is not noise to be removed after the target label has been selected. It is part of the source object and may support, limit, divide, or defeat the proposed unitary function.
+
+#### Operator-load variation across phases
+
+Internal heterogeneity may include different claim-relevant occurrence loads across phases, roles, and subpaths: one phase may carry structured `Λ` non-occurrence, another stronger `Ω` exposure or obligation gradients, a later phase `Ψ` continuity or release, or recurrent `Α` stabilization interrupted by supported `Φ`, `Χ`, or `Σ` changes. The combination remains source-specific and must not be inferred from stylistic prominence.
+
+If target-level compression obscures a material occurrence relation or phase difference, that loss is placed under `compressed`, `excluded`, `uncertain`, or `irrecoverable` as appropriate. No phase profile becomes a new type.
 
 #### C32-HETEROGENEITY-01 — relevant reversals, parallel subpaths, roles, costs, asymmetries, Non-Events, and consequences must remain traceable
 
@@ -6221,6 +6432,12 @@ WP2 does not yet select among those routes. It establishes the conditions under 
 ### 32.7 Event Function
 
 A Macro-Event function is warranted only if the origin-typed Trajectory performs concrete transition work in the wider target Path. The function is not the assertion that the source was long, important, dramatic, canonical, or widely named. It is a bounded claim that the wider target reconstruction changes when the source is treated as one internally extended transition-bearing unit.
+
+#### PMS-reconstructible target transition difference
+
+The wider-Path difference should be stated through reconstructible praxis changes rather than generic historical importance. Depending on the target Record, `B_pre` and `B_post` may differ in Frame or role-space organization, expectation and Non-Event conditions, action-corridor availability, `Ω` exposure or cost gradients, `Ψ` commitment or exit conditions, or temporal reachability and persistence.
+
+These target-side differences support a bounded transition-function claim; they do not prove that the source Trajectory caused every change.
 
 #### C32-EVENTFUNC-01 — require a concrete praxeological transition difference in the wider Path
 
@@ -6486,6 +6703,10 @@ one target-level functional unit
 ≠ single responsible agent
 ```
 
+#### Operator-relation loss under punctualization
+
+Punctualization also occurs when the target marker erases source `Θ` order and duration, converts repeated or distributed `Λ`, `Ω`, `Α`, or `Ψ` occurrence load into one undifferentiated event point, or hides phase variation that is material to the target claim. Event remains an analytical object class, not a newly introduced PMS operator.
+
 #### C32-PUNCTERROR-01 — punctualization error is represented through Type Integrity, Reference Continuity, and exact five-part Loss consequences
 
 A punctualization error is present when one or more of the following occur:
@@ -6572,6 +6793,20 @@ Trajectory M with retained origin type
 → bounded Macro-Event function in B
 ```
 
+#### Compact two-operation visibility
+
+```text
+operator-typed Configurations, Events, Non-Events, and relations
+→ COMPOSE
+→ origin-typed Trajectory M
+
+Trajectory M
+→ PROJECT_AS
+→ bounded Macro-Event function in wider Path B
+```
+
+The first occurrence forms the source object. The second tests its contextual function. Each keeps its own Record, Loss, and possible result.
+
 #### C32-COMPOSESEP-01 — `COMPOSE` and `PROJECT_AS` require separate occurrences, Records, Loss profiles, and results
 
 The minimum chain declaration is:
@@ -6644,6 +6879,10 @@ This rule blocks a common hidden repair: changing the source interval inside the
 ### 32.10 Counterfactual Macro-Event Test
 
 The Counterfactual Macro-Event Test asks whether the proposed transition-bearing function is sensitive to material changes in the source phases, source boundaries, source-object choice, and wider target Path. It does not reconstruct an unrealized history as fact, prove causality, calculate a causal share, or identify one uniquely correct periodization. Its purpose is discriminative: a source-specific Macro-Event claim must be capable of changing when the structures said to carry that function materially change.
+
+#### Occurrence-level phase variation
+
+Where the source Record warrants the typing, counterfactual pressure may remove or reverse a phase whose `Λ`, `Ω`, `Α`, or `Ψ` load is claimed to carry the transition; alter a constitutive `Θ` order, delay, persistence, or duration relation; or test whether a major `Φ` recontextualization changes the defensible source boundary or target transition function. Operator typing comes from the source Record, not from the counterfactual design.
 
 #### C32-CFTEST-01 — bounded phase, boundary, source, and target variation pressures the family claim without causal proof
 
@@ -7068,6 +7307,19 @@ WP1 establishes the bounded family claim, the recurrent-form source object, the 
 
 A recurrent trajectory form may perform a bounded dynamic attractor-function when multiple independently warranted and sufficiently comparable trajectories support one discriminating source form and when that form is eligible to be tested for later path-shaping work in a declared target context. The family claim is stronger than repeated resemblance and weaker than a causal or probabilistic law. It does not state that later paths must repeat. It states only that a source-traceable recurrent form may alter the friction, expectation, role configuration, repair or exit pattern, or accessibility of later continuations within a bounded context.
 
+#### Bounded dynamic Attractor work
+
+The target function concerns a limited subset of Attractor-like work: stabilization of transition accessibility, friction, expectation, role recurrence, repair or exit structure, or continuation cost in the declared target context. It does not create an `Α` occurrence in the target or transfer the complete semantics and dependencies of `Α` to the recurrent-form Composite.
+
+```text
+bounded dynamic attractor-function
+→ contextual transition-stabilizing work
+
+bounded dynamic attractor-function
+≠ source object becomes Α
+≠ full Α semantics inherited
+```
+
 #### C33-BASIC-01 — the family claim is recurrent-form-to-dynamic-attractor-function projection
 
 The minimal family form is:
@@ -7133,6 +7385,17 @@ WP1 establishes the logical difference but does not treat the second condition a
 ### 33.2 Single Trajectory versus Recurrent Form
 
 A Trajectory is one historically developed path object. A recurrent trajectory form is a derived source object reconstructed across multiple independently warranted trajectories under declared comparison coordinates. The recurrent form may preserve a sequence of constitutive transitions while permitting bounded variation in local phases, roles, duration, or surface expression. It is not the average of its source trajectories and not an abstract label detached from them.
+
+#### Occurrence-level comparison coordinates
+
+Where the source Trajectories are PMS-derived, comparison coordinates identify which claim-relevant operator occurrences or relations recur, vary, oppose, or remain unavailable across the linked PATH Records. Depending on the source material, these may include `□`-conditioned entry boundaries, `Λ` Non-Event relations, `Α` stabilization relations, `Ω` gradients, `Θ` order or persistence, `Ψ` continuity, and countervailing `Φ`, `Χ`, or `Σ` occurrences.
+
+```text
+same operator label across Trajectories
+≠ comparable occurrence relation
+```
+
+Only source-supported relations enter; Chapter 33 does not re-prove the individual Trajectories.
 
 #### C33-SOURCEFORM-01 — the source is a derived recurrent form reconstructed across multiple independently warranted trajectories
 
@@ -7444,6 +7707,10 @@ bounded variation
 
 The source claim therefore asks not only whether similar phases appear, but whether their relation performs recurrent source work. A phase may be present in every source record yet remain background. A phase may vary in surface form while preserving a constitutive relation. Conversely, two sequences may contain the same named phases but differ in order, role allocation, cost distribution, or continuation effect strongly enough to be incompatible.
 
+#### Occurrence relations within recurrence classes
+
+The constitutive/variable/background/uncertain/incompatible classification also applies to concrete operator occurrence relations. A `Λ`, `Ω`, `Θ`, `Ψ`, or other relation may be constitutive for one recurrent-form claim, variable or background for another, and incompatible with a third. The classification concerns the occurrence relation, never the abstract operator type, and it preserves canonical dependencies even when practical load differs across phases or Trajectories.
+
 #### C33-CONSTITUTIVE-01 — constitutive, variable, background, uncertain, and incompatible positions remain distinct
 
 For every candidate recurrent form, the source trace must distinguish at least five qualitative positions:
@@ -7570,6 +7837,17 @@ Attractor Load
 ```
 
 The load claim begins only after the recurrent-form source has been formed independently. It then asks what changes in `D` because `R` is available as a recurrent structure, relative to relevant present conditions, alternatives, and the contrast context `E`.
+
+#### Source occurrence relation, derived form, and target function remain separate
+
+```text
+claim-relevant occurrence relations across T1 ... Tn
+→ discriminating recurrent-form Composite R
+→ documented persistence, transmission, institutionalization, or reactivation pathway
+→ bounded later-path difference in D
+```
+
+The source carrier, the derived recurrent form `R`, and the target dynamic-attractor function are three distinct claim positions. They cannot collapse into one `Α` claim.
 
 #### C33-ATTRLOAD-01 — bounded Attractor Load must be specified through concrete target work
 
@@ -7905,6 +8183,10 @@ The form may be narrowed rather than discarded where a smaller source set remain
 
 The Counterfactual Attractor Test asks whether relevant changes in the source architecture, comparison relation, reproduction pathway, or target field would alter the recurrent-form or attractor-function claim. It is a sensitivity discipline, not a simulation of inaccessible histories and not a proof of causal necessity.
 
+#### PMS-grounded recurrent-form variants
+
+Where warranted by the source Records, the test may replace recurrent non-repair with timely repair, remove or redistribute an `Ω` exposure or exit-cost gradient, alter constitutive `Θ` order or persistence, interrupt a `Ψ` continuity relation, introduce a supported `Χ` interruption or `Σ` repair relation, or change a `□` entry condition or material `Φ` recontextualization. Only the concrete occurrence relation is varied; the abstract operator and Δ–Ψ grammar remain fixed.
+
 #### C33-CFTEST-01 — bounded phase, frame, role, cost, source, comparison, and target variation must pressure the claim
 
 The test uses multiple variation routes because no single counterfactual can carry the entire burden:
@@ -8235,6 +8517,27 @@ WP1 establishes the generic family claim, eligible source composite, target-cont
 ### 34.1 Basic Claim
 
 A relational composite may perform a bounded higher-level function when its independently warranted components and relations jointly alter a declared target-context reconstruction in a way that remains traceable to distributed source load. The higher-level function is not inferred from the number of components, the breadth of the source Frame, the visual density of a graph, the stability of a label, or the analyst's ability to summarize many local occurrences with one phrase. It requires a specific relation between one source composite and one target field.
+
+#### PMS occurrence topology in the source Composite
+
+Where components are PMS operator-typed occurrences, each remains linked to its occurrence Record, source Frame, role, temporal position, uncertainty, and relevant dependency context. The relation map specifies which occurrence relations coordinate, reinforce, oppose, substitute, delay, repair, or transfer load. The proposed target function may not supply missing source typing.
+
+```text
+operator-typed component inventory
+≠ operator-relation topology
+
+operator-relation topology
+≠ higher-level function automatically
+```
+
+Across the chapter, a boundary-function names bounded `□`-like separation work; an attractor-function bounded `Α`-like stabilization work; an asymmetry/access function bounded `Ω`-like gradient work; a binding-function bounded `Ψ`-like continuity and breach/exit work; and an integration-function bounded `Σ`-like coordination or repair work. In every family:
+
+```text
+bounded function correspondence
+≠ operator occurrence identity
+≠ complete operator semantics
+≠ dependency inheritance by the Composite
+```
 
 #### C34-BASIC-01 — the family claim binds source composite, origin type, target context, target function, and authority ceiling
 
@@ -8771,6 +9074,16 @@ The same-source `H/I` contrast again remains open. In `H`, local integrations ma
 
 Within STRATA, an emergent function is a bounded target function that becomes visible only when a warranted relational composite is considered as a composite, while remaining reconstructible through its components, relations, source conditions, uncertainty, and Loss. Emergence names a level-relative visibility condition. It does not name source-free production, spontaneous ontology, causal independence, explanatory monopoly, or a new PMS primitive.
 
+#### Occurrence-level emergence trace
+
+Composite-level visibility is admissible only where the target difference remains reconstructible through the concrete component occurrences, their relation topology, countervailing relations, and the exact Loss introduced by source formation and projection. Where PMS-typed components are material, the emergence claim identifies which relation among their occurrences is absent at isolated-component level and becomes visible only at Composite level.
+
+```text
+newly visible relation at Composite level
+≠ source-free novelty
+≠ new operator
+```
+
 #### C34-EMERGENCE-01 — emergent function means composite-level visibility with complete source trace, not source-free novelty
 
 The minimum form is:
@@ -8983,6 +9296,10 @@ A relational composite may be descriptively important without performing a disti
 
 The distinction does not devalue aggregation. A careful aggregate may preserve components, local variation, uncertainty, and relation gaps more responsibly than a stronger macrofunction claim. It may be the correct endpoint where the source supports co-presence, repetition, or distribution but not coordination, reinforcement, dependency, sequence, load transfer, repair, or a shared target effect.
 
+#### Operator-sensitive relation-disruption test
+
+If the same component occurrence types remain present while coordination, dependency, sequence, repair, or load-transfer relations are disrupted, the candidate function must respond. If it remains unchanged, the relation map may not be constitutive. If it changes, the result may support relational load but does not prove causal monopoly.
+
 #### C34-AGGREGATION-01 — component accumulation remains distinct from relational functional formation, and descriptive aggregation remains a legitimate weaker outcome
 
 The minimal contrast is:
@@ -9158,6 +9475,10 @@ No universal threshold follows from these tests. The method requires explicit vu
 A higher-level function can improve reconstruction without increasing the authority of the claim. It may make distributed relations, delayed consequences, cross-field coordination, or cumulative access effects more legible. That analytical gain remains subordinate to source quality, target scope, Claim Ceiling, and the same governance prohibitions that apply at every other relative level.
 
 Before authority boundaries are stated, the complete family claim must undergo an integrated counterfactual test.
+
+#### Concrete occurrence variation
+
+When a component is PMS operator-typed, variation alters or removes the concrete occurrence or its relation while preserving the abstract operator definition and canonical grammar. The chapter does not require a full Δ–Ψ variation matrix; only family- and claim-relevant occurrences are tested.
 
 #### C34-CFTEST-01 — components, relations, subsets, target contexts, target conditions, source Frames, and function candidates must be varied without converting sensitivity into causal proof
 
@@ -9587,7 +9908,7 @@ Chapter 35 receives no preselected weighting, modulator, profile, trajectory eff
 
 <a id="chapter-35-operator-weighting-modulation-and-emergent-functional-profiles"></a>
 
-# 35. Operator Weighting, Modulation, and Emergent Functional Profiles
+## 35. Operator Weighting, Modulation, and Emergent Functional Profiles
 
 Chapter 35 applies the RETYPE discipline to configuration-bound differences in the relative load, accessibility, visibility, threshold effect, and temporal effect of already warranted PMS operator occurrences. It does not reopen the Δ–Ψ grammar, assign numerical weights to operator types, infer hidden traits from symbolic distributions, or treat a compact profile label as a functional result. PMS Base owns the meanings, sequence, and dependencies of Δ–Ψ. Chapters 20–22 own source-side decomposition of occurrences, relations, redundancy, substitution, and internal conflict. Chapters 29–30 own origin-type preservation and the generic `PROJECT_AS` procedure. Chapter 34 owns source-traceable composite-level functional formation. This chapter therefore asks a narrower family-specific question:
 
@@ -9642,6 +9963,16 @@ WP1 establishes the family purpose, source-occurrence packet, qualitative weight
 ### 35.1 Purpose
 
 The purpose of this chapter is to make operator-relative load and contextual modulation analytically legible without converting either into an alteration of PMS Base. The relevant source object is not an operator type and not a person. It is a declared Configuration or Composite in which concrete operator occurrences and their relations have already been warranted under the current Frame, granularity, relative level, role set, temporal scope, source basis, uncertainty, and Claim Ceiling.
+
+#### Invoked-occurrence scope
+
+The source packet lists only operator occurrences invoked by the weighting claim, together with material countervailing or uncertain occurrences. It is not a complete Δ–Ψ census. An occurrence that is not invoked or not source-supported is not assigned an implicit zero weight and is not declared absent from every possible reconstruction.
+
+```text
+occurrence not invoked or not source-supported
+≠ zero weight
+≠ operator function absent in every sense
+```
 
 #### C35-BASIC-01 — the family claim binds source configuration, origin type, optional target function, and non-authority boundary
 
@@ -10091,6 +10422,20 @@ The next controlled step is WP2, §§35.5–35.7: Modulating Profile, From Weigh
 
 A modulating profile is a bounded and source-traceable relation among already warranted operator occurrences, their qualitative weighting, and declared contextual modulators within one Configuration or Composite. It does not consist in collecting prominent symbols, assigning a memorable label, or converting a recurrent description into a formal type.
 
+#### Label-removal completion question
+
+A profile remains reconstructible from its declared occurrence and relation packet when the profile label is removed. If the underlying relation remains intelligible, the label may be acceptable compression. If the relation disappears with the label, the label is carrying work that belongs to Source Trace and creates possible profile-label substitution pressure.
+
+```text
+profile label removed
++ source relation still reconstructible
+→ label may be acceptable compression
+
+profile label removed
++ claim relation disappears
+→ possible profile label substitution
+```
+
 #### C35-PROFILEFORM-01 — a modulating profile is a relation topology among warranted occurrences and modulators, not a list, label, score, or type
 
 A minimally adequate profile packet contains:
@@ -10501,6 +10846,10 @@ No person-level inference follows from a configuration-level profile. A person m
 ### 35.9 Profile Projection
 
 A source-side profile claim and a target-level functional projection are separate operations and separate evidential burdens. Even a well-supported modulating profile in `P` does not automatically perform a function in `K`, and failure to project in `L` does not erase the source profile.
+
+#### Projection reconstruction without the profile label
+
+The same label-removal test applies to the target claim: the bounded target-function relation must remain reconstructible from the source occurrences, relation map, modulators, and target conditions even if the profile name is withheld. Otherwise the projection label is substituting for Constitutive Source Trace.
 
 #### C35-PROJECTION-01 — profile projection requires a declared PROJECT_AS occurrence, a concrete target-praxis difference, complete Source Trace, Contextual Boundedness, exact Loss, and a live no-projection option
 
@@ -11129,7 +11478,7 @@ Chapter 36 receives five locked constraints from Chapter 35 and the preceding pr
 Chapter 36 must compare projections without a universal ranking metric, forced integration, theory tribunal, person judgment, political legitimacy decision, or authority increase. It receives no preferred projection, no compatibility decision, no competition result, no canonical Output Class for a comparison pressure object, and no RETYPE lock.
 <a id="chapter-36-competing-projections"></a>
 
-# 36. Competing Projections
+## 36. Competing Projections
 
 Chapter 36 applies the provisionally locked projection-family methods of Chapters 31–35 to a problem that those chapters deliberately leave open: the same independently warranted source object may support more than one plausible target-function claim. The existence of several candidates does not require that exactly one candidate disclose the source object's true identity. Nor does it authorize a synthetic super-label that absorbs all candidates. Each candidate remains a bounded `PROJECT_AS` claim with its own target coordinates, family-specific burden, Source Trace, Loss, alternatives, Claim Ceiling, and possible negative result.
 
@@ -11226,6 +11575,23 @@ candidate-specific subset
 If a candidate changes the source period, deletes contrary phases, changes the Frame, replaces the relation map, or imports new evidence to improve target fit, it is a new projection claim and potentially a new comparison. It may not remain inside the original comparison under the appearance of stable source identity.
 
 Source-side validity and candidate-side validity also remain distinct. A valid PATH Trajectory can support no admissible projection in the tested contexts. Conversely, one failed candidate cannot erase the source Trajectory or a separately warranted candidate.
+
+#### C36-OCCURRENCECOMPARE-01 — rival projections compare one warranted occurrence packet before candidate-specific source load diverges
+
+Where the shared source is PMS-typed or PMS-derived, comparison must remain anchored in the same already warranted operator occurrences and occurrence relations available through `source_reference` and `source_basis`. Candidate-specific subsets may assign different load-bearing relevance to those relations, but they may not infer new source typing from target fit or replace the shared relation map merely because a different target label appears preferable.
+
+The comparison must therefore distinguish:
+
+```text
+same warranted occurrence packet
++ different declared load-bearing subset, relation emphasis, or target context
+→ rival PROJECT_AS candidates remain comparable
+
+changed occurrence packet, source period, Frame, or relation map
+→ new source claim or new comparison required
+```
+
+Where an operator relation is material, the comparative sensitivity test varies the concrete occurrence or relation—not the abstract operator type—and records whether candidate `A`, candidate `B`, both, or neither must change. Operator symbols without occurrence identity, source support, and relation placement do not satisfy the comparative Source Trace burden.
 
 <a id="36-2-compatibility"></a>
 
@@ -12355,7 +12721,7 @@ Chapter 37 receives six locked constraints from Chapter 36 and the preceding pro
 
 Chapter 37 must separate functional projection, structural analogy, and label substitution through non-overlapping minimum requirements. It receives no cross-domain projection result, analogy status, semantic-preservation finding, label-substitution finding, canonical Output Class for a pressure object, new PMS primitive, authority increase, or RETYPE lock.
 
-# 37. Projection, Structural Analogy, and Label Substitution
+## 37. Projection, Structural Analogy, and Label Substitution
 
 Chapter 37 establishes a boundary that RETYPE cannot leave implicit. A source and a target may share sequence, branching, recurrence, position, topology, vocabulary, executable form, or analytical convenience without thereby sharing origin type, praxeological semantics, or contextual function. Conversely, a mapping can be substantively useful even when it does not satisfy `PROJECT_AS`. The method therefore needs three non-overlapping claim forms: valid functional projection, bounded structural analogy, and label substitution.
 
@@ -12542,6 +12908,20 @@ mapping residual
 ```
 
 A failed mapping does not alter the source's prior disposition. The locked PATH Trajectory remains independently warranted unless a separate source-side claim fails.
+
+#### C37-OCCURRENCETRACE-01 — projection and analogy retain occurrence-level source relations without deriving them from the mapped label
+
+Where the source packet is PMS-typed or PMS-derived, the mapping assessment must identify the concrete, already warranted occurrence relations that the candidate claims to preserve, compress, exclude, or leave uncertain. Terms such as Non-Event, Asymmetry, recurrence, Binding, or Recontextualization count as PMS anchors only when the linked source Record supports the corresponding occurrence and relation in its declared Frame and temporal position.
+
+```text
+PMS label retained in the mapping
+≠ occurrence-level relation preserved
+
+occurrence-level relation preserved under a declared comparison dimension
+≠ contextual target function established automatically
+```
+
+The label-removal pressure test remains decisive: if ordinary source- and target-domain language preserves the same discrimination while the PMS-derived label can be removed without changing Source Trace, sensitivity, or Loss, the stronger projection claim loses support. If removing or materially changing a warranted occurrence relation alters the candidate, that response supports claim sensitivity but still does not prove semantic identity or target function.
 
 <a id="37-3-structural-analogy"></a>
 
@@ -13639,7 +14019,7 @@ Chapter 38 receives seven locked constraints from Chapter 37 and the preceding R
 Chapter 38 must classify invalid type jumps, missing target context, metaphor presented as formal projection, unmarked level and granularity mixing, projection rescue, macrofunction-to-person transfer, new-primitive creation, scope inflation, temporal flattening, and projection without Loss. It must also protect genuine declared cross-level relations, separate dual operations, bounded metaphor, and Claim Reduction from overclassification.
 
 Chapter 38 receives no error result for a pressure object, no invalid-projection Output Class beyond the existing inventory, no new operation, no schema expansion, no person judgment, and no RETYPE lock.
-# 38. Invalid Type Jumps and Unmarked Level Mixing
+## 38. Invalid Type Jumps and Unmarked Level Mixing
 
 Chapter 38 classifies hard RETYPE errors before any substantive preference among projections is considered. Its object is not an unusual vocabulary choice, a surprising target function, or the mere presence of several levels. Its object is a broken claim architecture: origin type is replaced, target coordinates are omitted, a metaphor is silently treated as formal `PROJECT_AS`, or a later claim inherits warrant that belongs to neither its source nor its declared target.
 
@@ -13725,6 +14105,22 @@ T1_origin_type_replacement:
 ```
 
 This packet does not yet establish `invalid_type_jump`, Mandatory Stop, Failure, Claim Reduction, or another route. It fixes only the claim position to be tested.
+
+#### C38-OCCURRENCEJUMP-01 — a warranted operator-typed occurrence may carry a source claim without becoming operator identity, primitive, or person type
+
+A concrete PMS occurrence can be claim-bearing inside `V` without licensing a jump to the abstract operator type. For example, a source Record may warrant a role-specific `Ω` occurrence relation or a supported `Λ` Non-Event within the Trajectory. Those occurrences may enter the Constitutive Source Trace of a bounded target-function candidate. They do not convert the Trajectory, its target object, or a person occupying a role into `Ω`, `Λ`, a new primitive, or a stable person type.
+
+```text
+warranted operator-typed occurrence in source object V
+→ possible load-bearing source relation for PROJECT_AS
+
+source occurrence performs claim-bearing work
+≠ V becomes the abstract operator type
+≠ target function becomes a PMS primitive
+≠ person or group inherits the analytical type
+```
+
+The occurrence, its Frame, relation, temporal placement, uncertainty, and source support must remain reconstructible. If only the operator symbol survives while the occurrence relation disappears, the claim exhibits source-trace or type-jump pressure rather than stronger PMS grounding.
 
 <a id="38-2-origin-type-equals-target-function"></a>
 
@@ -15262,7 +15658,7 @@ Chapter 39 must establish the lower and upper boundaries, Functional Gain, Const
 
 Chapter 38 is provisionally locked at the family-method level. The next controlled step is Chapter 39 WP1: §§39.1–39.4, covering Lower RETYPE Boundary, Renaming without Purchase, Projection without Functional Gain, and Upper RETYPE Boundary.
 
-# 39. RETYPE Boundary Conditions
+## 39. RETYPE Boundary Conditions
 
 Chapter 39 applies the Admissibility Band locally to `PROJECT_AS`. It asks neither whether a source object is interesting nor whether a target vocabulary is elegant. It asks whether a proposed contextual function lies between two independent limits: below it, the claim adds no praxeologically relevant discrimination; above it, the claim exceeds the constitutive source load that can still be reconstructed and tested.
 
@@ -15670,6 +16066,22 @@ source feature carries one bounded function
 ```
 
 For candidate `A`, WP2 does not select constitutive features. It preserves the burden that any later retained historical-frame function must show why the proposed changes in credible interpretation and role-specific coordination cost depend on a reconstructible structure of `W`, rather than on current conditions, generic background knowledge, or retrospective description alone.
+
+#### C39-OCCURRENCECEILING-01 — operator vocabulary without reconstructible occurrence load remains above the Traceability Ceiling
+
+Where candidate `A` invokes PMS-derived source structure, the trace must remain reconstructible at occurrence level through the existing source reference, constitutive features, constitutive relations, material variations, and exact Loss. A retained symbol such as `Λ`, `Ω`, `Θ`, or `Ψ` does not preserve traceable load when the concrete occurrence, Frame, temporal relation, or supported dependency can no longer be identified.
+
+```text
+operator label retained
++ occurrence relation unreconstructible
+→ abstraction without traceable load pressure
+
+concrete occurrence relation retained
++ target difference changes under material variation
+→ Traceability Ceiling may remain satisfied, subject to the full gate
+```
+
+This is a narrow ceiling example, not an operator inventory requirement. Only occurrence relations material to the tested function must be foregrounded, and the abstract PMS definitions are never varied by the counterfactual test.
 
 #### C39-TRACEVSCITATION-01 — Source Trace remains distinct from citation, historical mention, thematic resemblance, narrative plausibility, and target fit
 
@@ -16548,7 +16960,7 @@ Chapter 39 is provisionally locked at the local-boundary family-method level. Th
 
 <a id="40-retype-cases-countercases-and-local-audit"></a>
 
-# 40. RETYPE Cases, Countercases, and Local Audit
+## 40. RETYPE Cases, Countercases, and Local Audit
 
 Chapter 40 applies the provisionally locked RETYPE method of Chapters 29–39 to explicit positive, negative, and confusion-case families. It does not derive another projection theory from examples. The cases test whether origin type, source reference, target coordinates, Constitutive Source Trace, PraxisPurchase, Counterfactual Sensitivity, alternatives, exact Loss, Claim Ceiling, Stop, Non-Capture, and canonical routing remain intact under concrete analytical pressure.
 
@@ -16666,6 +17078,19 @@ shared source history
 ≠ shared Record
 ≠ shared Loss
 ≠ shared result
+```
+
+#### C40-OCCURRENCEARTIFACT-01 — future lock-critical packages must expose concrete occurrence and relation traces through existing fields
+
+Where a Chapter-40 case uses PMS-typed or PMS-derived source material, the standalone Markdown case and YAML `PROJECT_AS` Record must make the claim-relevant occurrence relations reconstructible through the existing source reference, source basis, Constitutive Source Trace, material variations, and five-part Loss. A bare operator label, a general Δ–Ψ list, or ordinary-language resemblance is not a substitute for occurrence identity, Frame, temporal placement, relation, and source support.
+
+The later Local Audit must then test the delimited relation and map the executed claim to exactly one canonical Output Class. This requirement adds no `operator_trace` field, produces no missing artifact, and selects no result for `P1–P7`, `N1–N7`, or `X1–X6`.
+
+```text
+occurrence-level trace requirement documented
+≠ lock-critical package produced
+≠ case passed or failed
+≠ artifact-complete RETYPE lock restored
 ```
 
 <a id="40-2-case-1-trajectory-as-frame-function"></a>

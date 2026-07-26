@@ -1,9 +1,9 @@
 # PMS-STRATA Case Index
 
-**Version:** 0.1.10  
+**Version:** 0.1.12  
 **Status:** provisional Part-I- and Part-II-locked case-corpus index  
 **Authority:** navigation and artifact registry only; no independent theory authority  
-**Current production stage:** Part I — PATH and Part II — SUB are provisionally locked; Chapter 29 Preparation Gate is next
+**Current production stage:** Foundations, PATH, and SUB are provisionally locked; RETYPE holds a bounded provisional method lock while its artifact-complete lock remains `mandatory_stop`; Pre-LIMITS Maintenance WP0–WP5 are complete and the maintenance gate has passed; Chapter 41 WP1 is next.  
 
 ```text
 case index entry

@@ -4011,6 +4011,8 @@ Trajectory
 ```
 
 
+<a id="chapter-11-trajectory"></a>
+
 ## 11. Trajectory
 
 Chapter 10 established the Path as the actually traversed, selectively reconstructed chain of relevant configurations and transitions within a declared frame. Chapter 11 asks a stronger but still bounded question: when does that traversed history remain structurally active in the present configuration and in the field of possible continuation?
@@ -4034,6 +4036,8 @@ The local work of Sections 11.1–11.4 is therefore to establish:
 - downgrade, Failure, and lineage rules where the stronger claim is not warranted.
 
 The detailed operator-combination profiles belong to Sections 11.5–11.8, Changed Action Corridors to Section 11.9, Trajectory Boundary and Compression to Sections 11.10–11.11, competing constructions to Section 11.12, False Trajectory to Section 11.13, and the Minimal Trajectory Record to Section 11.14. Chapter 12 separately tests Path Dependence. Chapter 15 later owns the complete `COMPOSE` procedure. RETYPE later owns any contextual function assigned to a Trajectory.
+
+<a id="11-1-definition-of-trajectory"></a>
 
 ### 11.1 Definition of Trajectory
 
@@ -4184,6 +4188,8 @@ warranted Path
 ```
 
 The candidate becomes warranted only after the later Chapter-11 boundary, compression, competing-construction, record, and integrated admissibility duties are completed.
+
+<a id="11-2-from-path-to-trajectory"></a>
 
 ### 11.2 From Path to Trajectory
 
@@ -4346,6 +4352,8 @@ Re-entry may occur through:
 - an explicitly different frame or granularity.
 
 Re-entry does not occur merely by adding more dates, extending the period, choosing a more dramatic endpoint, or changing the label.
+
+<a id="11-3-historical-sedimentation"></a>
 
 ### 11.3 Historical Sedimentation
 
@@ -4537,6 +4545,8 @@ reinforcement
 ```
 
 The Trajectory is non-linear. Repair is visible and materially effective, but it does not constitute a reset. The claim is limited to access, information, and reopening cost. It does not establish an overall direction of institutional progress or decline, strong Path Dependence, or legitimacy.
+
+<a id="11-4-directionality-without-teleology"></a>
 
 ### 11.4 Directionality without Teleology
 
@@ -4754,6 +4764,8 @@ and Changed Action Corridors
 ```
 
 Sections **11.5–11.9**.
+<a id="11-5-attractor-sedimentation"></a>
+
 ### 11.5 Attractor Sedimentation
 
 **Attractor Sedimentation** is the historically traceable stabilization of an Attractor-typed occurrence across a Path such that a specified continuation becomes locally easier, more expected, more visible, or more readily coordinated at the present analytical cut.
@@ -4951,6 +4963,8 @@ Attractor Sedimentation within a Trajectory
 ≠ Trajectory PROJECT_AS attractor-function
 ```
 
+<a id="11-6-asymmetry-accumulation"></a>
+
 ### 11.6 Asymmetry Accumulation
 
 **Asymmetry Accumulation** is the repeated retention, intensification, redistribution, or hardening of an Asymmetry-typed relation across a Path such that differential cost, access, exposure, capacity, information, responsibility burden, or exit condition remains materially relevant at the present analytical cut.
@@ -5131,6 +5145,8 @@ accumulated Asymmetry
 ≠ strong Path Dependence automatically
 ≠ deterministic role closure
 ```
+
+<a id="11-7-binding-accumulation"></a>
 
 ### 11.7 Binding Accumulation
 
@@ -5322,6 +5338,8 @@ The result does not establish a moral duty to continue, valid consent to every r
 #### Chapter-12 boundary
 
 Binding Accumulation may make the actual history relevant to current breach and reopening costs. Chapter 12 separately tests the degree and form of Path Dependence. Chapter 11 does not infer inevitability or necessity from accumulated commitments.
+
+<a id="11-8-residual-accumulation"></a>
 
 ### 11.8 Residual Accumulation
 
@@ -5517,6 +5535,8 @@ The claim distinguishes the documented Non-Events from missing information. It r
 #### Chapter-12 boundary
 
 Residual Accumulation supplies historical load but does not automatically establish that the present could not be reconstructed from current rules and conditions. Chapter 12 separately tests dependence on the actual history.
+
+<a id="11-9-changed-action-corridors"></a>
 
 ### 11.9 Changed Action Corridors
 
@@ -5793,6 +5813,8 @@ and Minimal Trajectory Record
 ```
 
 Sections **11.10–11.14**.
+<a id="11-10-trajectory-boundary"></a>
+
 ### 11.10 Trajectory Boundary
 
 A **Trajectory Boundary** declares where the relevant historical object begins, where the present reconstruction ends, which earlier conditions remain prehistory rather than constitutive segments, and whether continuation beyond the analytical cut remains open.
@@ -6021,6 +6043,8 @@ failed Trajectory boundary
 ≠ erased Path segment
 ```
 
+<a id="11-11-trajectory-compression"></a>
+
 ### 11.11 Trajectory Compression
 
 **Trajectory Compression** is the necessary selective representation of a historically extended object at a coarser narrative or analytical resolution while retaining the structures required to reconstruct its bounded claim.
@@ -6211,6 +6235,8 @@ claim_reduction_required
 
 The Path, centralization episodes, decentralization pilot, Residual Accumulation, and present reopening cost remain preserved. Compression failure does not erase them.
 
+<a id="11-12-competing-trajectory-constructions"></a>
+
 ### 11.12 Competing Trajectory Constructions
 
 **Competing Trajectory Constructions** are two or more source-responsible reconstructions of overlapping historical material that differ in boundary, periodization, constitutive selection, profile weighting, directionality, or claim scope.
@@ -6379,6 +6405,8 @@ non_capture
 
 Non-Capture does not validate both constructions as true. It records that responsible adjudication is unavailable under the declared source basis.
 
+<a id="11-13-false-trajectory"></a>
+
 ### 11.13 False Trajectory
 
 A **False Trajectory** is a claimed Trajectory whose Path substrate, sedimentation, present historical load, boundary, compression, or non-teleological direction cannot be sustained under the declared sources and claim scope.
@@ -6521,6 +6549,8 @@ A new analysis may proceed only through explicit lineage and new evidence:
 3. separately test `PROJECT_AS` in the relevant RETYPE context.
 
 Changing the label, boundary, granularity, or target function does not erase the earlier failure.
+
+<a id="11-14-minimal-trajectory-record"></a>
 
 ### 11.14 Minimal Trajectory Record
 
@@ -6852,6 +6882,8 @@ Chapter 12 — Preparation:
 Path Dependence and Sedimentation
 ```
 
+<a id="chapter-12-path-dependence-and-sedimentation"></a>
+
 ## 12. Path Dependence and Sedimentation
 
 Chapter 11 established the Trajectory as a warranted Path whose earlier structure remains source-traceably carried into the present analytical cut through cumulative change, persistent residue, altered praxis conditions, or changed continuation possibilities. Chapter 12 asks a stronger and more discriminating question: **how much of the present reconstruction actually depends on the particular prior Path?**
@@ -6882,6 +6914,8 @@ Sections 12.1–12.3 establish:
 - claim reduction, Failure, and lineage preservation where the stronger property is not warranted.
 
 Sections 12.4–12.7 later examine the dependence-bearing occurrence profiles `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ`. Sections 12.8–12.12 later address recontextualization, modifiers without reset, non-determinism, the complete local Path-Dependence test, Failure, Record mapping, Stop, and Non-Capture. Chapter 13 owns the detailed taxonomy of branches and unavailable alternatives. Chapter 15 retains the complete `COMPOSE` procedure. Chapter 24 later owns `DECOMPOSE` analysis of dependence-bearing occurrences or composites. Chapter 46 retains the general Counterfactual-Sensitivity architecture.
+
+<a id="12-1-path-dependence-as-a-property"></a>
 
 ### 12.1 Path Dependence as a Property
 
@@ -7092,6 +7126,8 @@ The Trajectory remains the historical object. Path Dependence qualifies one curr
 
 A suitable local output is `admissible_with_bounded_claim` if the archive carrier and source trace are supported. If the archive lineage is only partially documented, the result may remain `admissible_but_provisional` or `partially_admissible` without expanding to the whole object.
 
+<a id="12-2-weak-order-dependence"></a>
+
 ### 12.2 Weak Order Dependence
 
 **Weak order dependence** is present where the order of prior configurations or transitions changes a bounded current interpretation, credibility relation, local cost, or procedural meaning, while the present configuration remains largely reconstructible from current conditions without detailed Path history.
@@ -7221,6 +7257,8 @@ same current rules, cost, and reachability
 ```
 
 The claim does not establish motive, deception, guilt, deterministic future non-performance, or a general institutional type. A suitable output is `admissible_with_bounded_claim`. If the original claim asserted strong Path Dependence for the whole committee configuration, it must be reduced.
+
+<a id="12-3-strong-path-dependence"></a>
 
 ### 12.3 Strong Path Dependence
 
@@ -7613,6 +7651,8 @@ Chapter 12 — WP2:
 Dependence-Bearing Operator Profiles
 ```
 
+<a id="12-4-a-theta-attractor-dependence"></a>
+
 ### 12.4 `Α + Θ` — Attractor Dependence
 
 Chapter 11 established **Attractor Sedimentation** where repeated configurations leave traceable carriers that change present local friction, expectation, visibility, coordination, or continuation accessibility. Chapter 12 applies a stronger burden. **Attractor Dependence** is present only where the prior recurrence history is materially indispensable to an adequate reconstruction of a declared current dimension.
@@ -7762,6 +7802,8 @@ same current policy surface
 ```
 
 The claim is limited to coordination friction and route accessibility. It does not establish that Unit A cannot change, that its dominant route is legitimate, or that every feature of the unit is strongly Path Dependent. Pending WP3's complete Historical-Omission and Alternative-History tests, a suitable local result is `admissible_but_provisional`.
+
+<a id="12-5-o-theta-asymmetry-dependence"></a>
 
 ### 12.5 `Ω + Θ` — Asymmetry Dependence
 
@@ -7915,6 +7957,8 @@ same current formal role matrix
 
 The claim does not rank the specialist or infer motive, virtue, exploitation, or legal responsibility. It concerns current exposure and practical substitutability. A suitable local result is `admissible_but_provisional` if the distribution trace is supported. If current technical certification alone fully explains the specialization, the historical claim must reduce accordingly.
 
+<a id="12-6-ps-theta-binding-dependence"></a>
+
 ### 12.6 `Ψ + Θ` — Binding Dependence
 
 Chapter 11 established **Binding Accumulation** where commitments, reliance, institutionalization, coordination investments, expectations, or breach costs remain historically carried into the present. **Binding Dependence** is present where those prior binding occurrences are materially indispensable to reconstructing a declared current obligation structure, reopening cost, reliance relation, coordination feasibility, or exit condition.
@@ -8059,6 +8103,8 @@ same current agreement
 ```
 
 The result concerns reopening and transition cost. It does not prove that the provider acted wrongfully, that continued participation is required, or that exit is impossible. Pending WP3, a suitable local result is `admissible_but_provisional`.
+
+<a id="12-7-lambda-theta-residual-dependence"></a>
 
 ### 12.7 `Λ + Θ` — Residual Dependence
 
@@ -8381,6 +8427,8 @@ Non-Determinism, Test, Failure,
 Record, Stop, and Non-Capture
 ```
 
+<a id="12-8-phi-under-path-dependence"></a>
+
 ### 12.8 `Φ` under Path Dependence
 
 Recontextualization changes the frame in which an earlier Path, Trajectory, commitment, cost, role, expectation, or residue becomes legible. It may alter what the history means, which part of it remains relevant, how its carriers are interpreted, and which continuation is now available. It does not, by itself, remove the historical conditions through which the present configuration became possible.
@@ -8515,6 +8563,8 @@ new mandate and vocabulary
 The claim is bounded to evidentiary burden, specialist access, and dispute resolution. It does not establish that the new agency is merely the old department, that reform is ineffective, or that every current feature is Path Dependent. A suitable local result is `admissible_with_bounded_claim` where the archive, role, and burden lineage is supported.
 
 ---
+
+<a id="12-9-chi-sigma-and-psi-as-later-trajectory-modifiers"></a>
 
 ### 12.9 `Χ`, `Σ`, and `Ψ` as Later Trajectory Modifiers
 
@@ -8673,6 +8723,8 @@ The correct result is dimension-specific. Strong dependence in ordinary routing 
 
 ---
 
+<a id="12-10-path-dependence-without-determinism"></a>
+
 ### 12.10 Path Dependence without Determinism
 
 Path Dependence changes the reconstruction of present possibilities. It does not convert them into a necessary future.
@@ -8785,6 +8837,8 @@ strong present historical dependence
 The claim does not predict whether migration will occur, recommend it, or infer that continued use is legitimate. A suitable result is `admissible_with_bounded_claim`.
 
 ---
+
+<a id="12-11-path-dependence-test"></a>
 
 ### 12.11 Path Dependence Test
 
@@ -9072,6 +9126,8 @@ complete fields
 The Record is structurally complete and substantively insufficient. The strong claim fails or requires reduction. Schema validity and field presence do not protect it.
 
 ---
+
+<a id="12-12-failure-to-establish-path-dependence"></a>
 
 ### 12.12 Failure to Establish Path Dependence
 
@@ -9432,6 +9488,8 @@ Branches, Aborts, Delays,
 and Unavailable Alternatives
 ```
 
+<a id="chapter-13-branches-aborts-delays-and-unavailable-alternatives"></a>
+
 ## 13. Branches, Aborts, Delays, and Unavailable Alternatives
 
 Chapter 12 established that a present configuration may depend on its prior Path in weak or strong form, but it did not classify the historical alternatives against which that Path became selective. Chapter 13 now asks a different question:
@@ -9462,6 +9520,8 @@ Sections 13.1–13.4 establish:
 - five WP1 Pressure Cases.
 
 Sections 13.5–13.8 later distinguish Blocked, Aborted, Deferred, and Lost alternatives. Sections 13.9–13.12 later establish source-bounded Counterfactual Paths, Non-Selection as praxis structure, Alternative-Space Compression, the Alternative Status Record, Failure, Claim Reduction, Stop, and Non-Capture. Chapter 14 retains the full Non-Event analysis. Chapter 15 retains the complete `COMPOSE` procedure. Chapter 46 retains the general Counterfactual-Sensitivity architecture.
+
+<a id="13-1-why-path-must-include-alternatives"></a>
 
 ### 13.1 Why PATH Must Include Alternatives
 
@@ -10084,6 +10144,8 @@ Aborted Branch,
 Deferred Branch,
 and Lost Alternative
 ```
+<a id="13-5-blocked-branch"></a>
+
 ### 13.5 Blocked Branch
 
 A **Blocked Branch** is a continuation that was materially or conditionally available, prepared, or actively being entered, but was prevented from proceeding within the relevant historical window by an identifiable blocking structure.
@@ -10775,6 +10837,8 @@ Alternative-Space Compression,
 and Alternative Status Record
 ```
 
+<a id="13-9-counterfactual-path"></a>
+
 ### 13.9 Counterfactual Path
 
 A **Counterfactual Path** is a bounded hypothetical continuation that begins from a source-supported historical alternative at a declared Branch Point and explores only those subsequent transitions for which the available sources, constraints, and declared variation rule continue to carry reconstructive load.
@@ -10894,6 +10958,8 @@ source-supported staged entry
 
 The result is `admissible_with_bounded_claim`. Extending the path to “the staged plan would have prevented the later access crisis” would exceed the source ceiling and require claim reduction or stop.
 
+<a id="13-10-non-selection-as-praxis-structure"></a>
+
 ### 13.10 Non-Selection as Praxis Structure
 
 **Non-Selection** is the source-supported absence of selection among materially or conditionally available continuations inside an active decision context and a bounded temporal window, where that absence changes later reachability, cost, role, binding, residue, or Path formation.
@@ -10988,6 +11054,8 @@ active renewal context
 ```
 
 The case does not establish why individual committee members did not vote, whether renewal would have been preferable, or whether the local replacement would have succeeded. A bounded local mapping is `admissible_with_bounded_claim`.
+
+<a id="13-11-alternative-space-compression"></a>
 
 ### 13.11 Alternative-Space Compression
 
@@ -11118,6 +11186,8 @@ loss:
 ```
 
 This is an `admissible_with_bounded_claim` compression. A single line from “old estate” to “new estate” would erase the alternative structure and require claim reduction. A graph showing all nine named possibilities as equally available would exceed the Traceability Ceiling in the opposite direction.
+
+<a id="13-12-alternative-status-record"></a>
 
 ### 13.12 Alternative Status Record
 
@@ -11497,6 +11567,8 @@ Chapter 14 — Preparation:
 Non-Events within Paths and Trajectories
 ```
 
+<a id="chapter-14-non-events-within-paths-and-trajectories"></a>
+
 ## 14. Non-Events within Paths and Trajectories
 
 Chapter 13 established that a realized Path becomes selective only relative to historically available continuations. It also established that a bounded Non-Selection finding may matter to a Path without thereby receiving automatic `Λ` typing. Chapter 14 now asks the stronger and more specific question:
@@ -11538,6 +11610,8 @@ Sections 14.1–14.3 establish:
 - four WP1 Pressure Cases.
 
 Sections 14.4–14.8 later address repeated Non-Decision, Blocked Responsibility, Missing Repair, Missing Exit, and Non-Event Sedimentation. Sections 14.9–14.11 later establish preservation through composition, False Non-Event, the Minimal Non-Event Record, Failure, Claim Reduction, Stop, Non-Capture, and the schema/extension decision. Chapter 15 retains the complete `COMPOSE` procedure. Chapter 23 retains internal decomposition mechanics. Chapter 49 retains the general source-gap architecture.
+
+<a id="14-1-why-λ-is-central-to-path"></a>
 
 ### 14.1 Why `Λ` Is Central to PATH
 
@@ -12219,6 +12293,8 @@ Missing Repair,
 Missing Exit,
 and Non-Event Sedimentation
 ```
+
+<a id="14-4-repeated-non-decision"></a>
 
 ### 14.4 Repeated Non-Decision
 
@@ -13061,6 +13137,8 @@ False Non-Event,
 and Minimal Non-Event Record
 ```
 
+<a id="14-9-preserving-λ-in-composition"></a>
+
 ### 14.9 Preserving `Λ` in Composition
 
 Chapter 14 does not execute `COMPOSE`. It specifies the minimum preservation burden that Chapter 15 must satisfy when a later composition contains one or more warranted `Λ` occurrences.
@@ -13696,6 +13774,8 @@ Chapter 15 — Preparation:
 COMPOSE: Selection, Formation, and Compression
 ```
 
+<a id="chapter-15-compose-selection-formation-and-compression"></a>
+
 ## 15. COMPOSE: Selection, Formation, and Compression
 
 Chapters 9–14 established the temporal structures that may later enter a composition: warranted transitions, Sequences, Paths, Trajectories, Path-Dependence findings, branch structures, alternatives, and expectation-grounded Non-Events. Chapter 15 now performs a different task. It operationalizes the existing `COMPOSE` operation for PATH.
@@ -13735,6 +13815,8 @@ Sections 15.1–15.6 establish the operation-entry architecture:
 - the composition frame.
 
 Sections 15.7–15.11 later establish formation, preserved structure, compression, exclusion, uncertainty, and irrecoverable Loss. Sections 15.12–15.16 later establish composition claims, no-retyping, counterfactual sensitivity, failure, the complete record, Stop, and Non-Capture. Chapter 16 retains PATH boundary adjudication. Chapter 17 retains integrated PATH cases. Chapter 24 retains `DECOMPOSE`. RETYPE retains every contextual target function through `PROJECT_AS`.
+
+<a id="15-1-purpose-of-compose"></a>
 
 ### 15.1 Purpose of `COMPOSE`
 
@@ -13918,6 +14000,8 @@ large archive
 
 The appropriate local result is `failed_transformation` for the proposed composite. Weaker source-level findings remain available. The archive may support several later candidates, but each requires a new testable operation occurrence.
 
+<a id="15-3-source-objects"></a>
+
 ### 15.3 Source Objects
 
 The sources of a PATH-specific `COMPOSE` occurrence may include:
@@ -14041,6 +14125,8 @@ heterogeneous typed inputs
 
 At the source-object stage, the candidate is `admissible_with_bounded_claim`. Formation and constitutive load remain to be established in WP2 and WP3.
 
+<a id="15-4-selection-rule"></a>
+
 ### 15.4 Selection Rule
 
 Selection is an explicit analytical decision constrained by source support, target relevance, and claim scope. It is not passive discovery.
@@ -14133,6 +14219,8 @@ contested inclusion
 ```
 
 A suitable local result is `admissible_but_provisional`, not because both accounts are equally true, but because the available sources do not yet warrant a unique selection.
+
+<a id="15-5-temporal-ordering-rule"></a>
 
 ### 15.5 Temporal Ordering Rule
 
@@ -14246,6 +14334,8 @@ readiness_T + readiness_P
 ```
 
 The composite may preserve the synchronization condition without deciding every internal cross-order relation. A suitable local mapping is `admissible_with_bounded_claim`. Forcing a total line would require `claim_reduction_required` or `failed_transformation` for that ordering claim.
+
+<a id="15-6-composition-frame"></a>
 
 ### 15.6 Composition Frame
 
@@ -14402,6 +14492,8 @@ Compressed Structure,
 Excluded Structure,
 and Uncertain and Irrecoverable Loss
 ```
+
+<a id="15-7-formation-rule"></a>
 
 ### 15.7 Formation Rule
 
@@ -14973,6 +15065,8 @@ Counterfactual Sensitivity,
 Composition Failure,
 and COMPOSE Record
 ```
+
+<a id="15-12-composition-claim"></a>
 
 ### 15.12 Composition Claim
 
@@ -15558,6 +15652,8 @@ Chapter 16 — Preparation:
 PATH Boundary Conditions
 ```
 
+<a id="chapter-16-path-boundary-conditions"></a>
+
 ## 16. PATH Boundary Conditions
 
 Chapters 9–15 established the temporal object chain, the thresholds for Path, Trajectory, and strong Path Dependence, the treatment of branches and Non-Events, and the complete PATH-specific `COMPOSE` procedure. Chapter 16 now asks whether a proposed temporal reconstruction remains inside the admissible PATH band.
@@ -15593,6 +15689,8 @@ more abstraction
 ```
 
 Sections 16.1–16.5 establish the two PATH boundaries, chronology without Trajectory gain, Trajectory without path trace, and excessive temporal compression. They also execute the required same-material three-way contrast. Sections 16.6–16.11 later test artificial directionality, hidden teleology, omitted `Λ` and `Ω` load, and the PATH/SUB/RETYPE boundaries. Sections 16.12–16.15 later establish the Purchase and Trace tests, Claim Reduction, Stop, and Non-Capture. Chapter 17 retains integrated cases, countercases, confusion cases, and the local PATH lock.
+
+<a id="16-1-the-lower-path-boundary"></a>
 
 ### 16.1 The Lower PATH Boundary
 
@@ -15697,6 +15795,8 @@ valid dates
 
 If the analyst nevertheless claims that the five dates establish a developmental Path, the stronger claim falls `below_floor` and requires reduction. The chronology itself remains available. The local canonical mapping is `claim_reduction_required` for the attempted Path claim, while the date index may remain `resolution_neutral` for its narrower function.
 
+<a id="16-2-chronology-without-trajectory-gain"></a>
+
 ### 16.2 Chronology without Trajectory Gain
 
 A chronology orders occurrences in time. It may be exact, well sourced, and analytically useful. It does not thereby establish a Path, Trajectory, sedimentation, historical direction, or changed continuation structure.
@@ -15791,6 +15891,8 @@ seven ordered renewals
 ```
 
 The attempted Trajectory claim maps to `claim_reduction_required`. A bounded chronology or recurrent Sequence remains admissible. Nothing in the reduction implies that the renewals did not occur or that later evidence could not support a different claim.
+
+<a id="16-3-the-upper-path-boundary"></a>
 
 ### 16.3 The Upper PATH Boundary
 
@@ -15889,6 +15991,8 @@ under removal of alleged constitutive load
 
 The candidate receives `traceability_ceiling_boundary_result: above_ceiling`. The proposed Trajectory composition maps to `failed_transformation`. A bounded chronology, several regional Paths, or competing periodizations may remain available. Using the macro-label to assign responsibility, justify intervention, or inherit application authority would require `mandatory_stop`.
 
+<a id="16-4-trajectory-without-path-trace"></a>
+
 ### 16.4 Trajectory without Path Trace
 
 A Trajectory claim exceeds the upper PATH boundary when historical direction, accumulation, or sedimentation is asserted but the underlying Path cannot be reconstructed.
@@ -15966,6 +16070,8 @@ first state
 ```
 
 The Trajectory claim receives `traceability_ceiling_boundary_result: claim_reduction`. A bounded endpoint comparison and a partial chronology remain supportable, but the report cannot yet warrant one source-traceable Trajectory. The local canonical mapping is `claim_reduction_required`.
+
+<a id="16-5-excessive-temporal-compression"></a>
 
 ### 16.5 Excessive Temporal Compression
 
@@ -16045,6 +16151,8 @@ five-year internally differentiated process
 ```
 
 The compressed representation receives `traceability_ceiling_boundary_result: above_ceiling` for the Path/Trajectory claim and maps to `failed_transformation`. A narrower statement that a digital-transition program was formally initiated in 2021 may remain `admissible_with_bounded_claim`, provided it is not substituted for the five-year Path.
+
+<a id="c16-band-01-the-same-broad-materials-across-the-full-path-band"></a>
 
 #### `C16-BAND-01` — the same broad materials across the full PATH band
 
@@ -16177,6 +16285,8 @@ PATH versus RETYPE,
 and PATH versus SUB
 ```
 
+<a id="16-6-artificial-directionality"></a>
+
 ### 16.6 Artificial Directionality
 
 A temporal reconstruction displays **artificial directionality** when a retrospectively ordered source field is presented as if the observed sequence already carried one intrinsic developmental vector. The defect is not that the analyst reconstructs order after the fact. Every historical analysis is retrospective in that minimal sense. The defect arises when retrospective arrangement removes the contingency, reversals, parallel subpaths, alternative continuations, or frame dependence required to reconstruct how the Path actually remained open or divided.
@@ -16271,6 +16381,8 @@ supported partial direction
 
 The broad directional claim receives `traceability_ceiling_boundary_result: claim_reduction`. A bounded, dimension-specific Path remains supportable and maps to `admissible_with_bounded_claim`. Treating the original linear label as inevitable development or as grounds for intervention would exceed the chapter boundary.
 
+<a id="16-7-hidden-teleology"></a>
+
 ### 16.7 Hidden Teleology
 
 **Hidden teleology** occurs when a later outcome governs the selection, periodization, or interpretation of earlier material so that the endpoint appears to have been the purpose, destination, or necessary completion of the Path.
@@ -16349,6 +16461,8 @@ final centralized platform
 ```
 
 A bounded Path from the successful proposal through regulatory change to the current platform may remain admissible. The maturation Trajectory maps to `failed_transformation`. If used to attribute a unified hidden intention, rank local actors, or claim predictive necessity, continuation requires `mandatory_stop`.
+
+<a id="16-8-omitted-non-events"></a>
 
 ### 16.8 Omitted Non-Events
 
@@ -16431,6 +16545,8 @@ many positive sub-events
 
 The positive-only Path receives `traceability_ceiling_boundary_result: above_ceiling` for its continuity claim and maps to `failed_transformation`. A revised Path preserving the review `Λ`, positive sub-events, later waiver, binding accumulation, and alternative loss may be `admissible_but_provisional` if one source gap remains declared.
 
+<a id="16-9-omitted-asymmetries"></a>
+
 ### 16.9 Omitted Asymmetries
 
 A PATH reconstruction exceeds boundary pressure when equal-looking events are treated as equally costly, accessible, reversible, binding, or expositional despite source-supported `Ω` differences.
@@ -16497,6 +16613,8 @@ same formal milestones
 ```
 
 The single convergence Trajectory receives `traceability_ceiling_boundary_result: claim_reduction` and maps to `claim_reduction_required`. A bounded common administrative Sequence may remain, alongside region-specific Paths. The finding does not assign blame or legitimacy.
+
+<a id="16-10-path-versus-retype"></a>
 
 ### 16.10 PATH versus RETYPE
 
@@ -16567,6 +16685,8 @@ failed Trajectory
 ```
 
 The attempted rescue maps to `failed_transformation` for the PATH claim. Continued use of the stronger Trajectory as validated historical warrant or inherited strategic authority requires `mandatory_stop`. RETYPE ownership remains untouched.
+
+<a id="16-11-path-versus-sub"></a>
 
 ### 16.11 PATH versus SUB
 
@@ -16695,6 +16815,8 @@ PATH Stop Conditions,
 and PATH Non-Capture
 ```
 
+<a id="16-12-praxeological-purchase-test"></a>
+
 ### 16.12 Praxeological Purchase Test
 
 The PATH-specific Praxeological Purchase Test asks whether the proposed temporal reconstruction changes the warranted account of praxis for the claim under review.
@@ -16803,6 +16925,8 @@ endpoint replacement account
 
 The local boundary result is `gain`. A bounded Path finding may map to `admissible_but_provisional` because one district's exact readiness sequence remains uncertain. The result does not establish a national Trajectory, strong Path Dependence, causal necessity, target function, or authority.
 
+<a id="16-13-traceable-path-test"></a>
+
 ### 16.13 Traceable Path Test
 
 The PATH-specific Traceable Path Test asks whether the target object and claim remain reconstructibly dependent on the source structures declared as constitutive.
@@ -16908,6 +17032,8 @@ bounded Path under declared partial order
 ≠ forced total order
 ≠ causal sequence proof
 ```
+
+<a id="16-14-claim-reduction-and-path-stop-conditions"></a>
 
 ### 16.14 Claim Reduction and PATH Stop Conditions
 
@@ -17040,6 +17166,8 @@ new frame
 ```
 
 The national PATH failure remains recorded. Local municipal Paths may be tested separately. A strategic Frame function may be tested from the actual origin-typed narrative object through a separate `PROJECT_AS` occurrence. Reusing the failed Trajectory as if validated requires `mandatory_stop`.
+
+<a id="16-15-path-non-capture"></a>
 
 ### 16.15 PATH Non-Capture
 
@@ -17318,7 +17446,11 @@ later DECOMPOSE or PROJECT_AS success
 ≠ retroactive PATH repair
 ```
 
+<a id="chapter-17-path-cases-countercases-and-local-audit"></a>
+
 ## 17. PATH Cases, Countercases, and Local Audit
+
+<a id="17-1-case-architecture"></a>
 
 ### 17.1 Case Architecture
 
@@ -17479,6 +17611,8 @@ The first WP1 artifacts are indexed in:
 
 The case files remain below canonical prose in the authority order and cannot modify the rules they test.
 
+<a id="17-2-case-1-simple-linear-path"></a>
+
 ### 17.2 Case 1: Simple Linear Path
 
 `C17-LINEAR-01` tests the minimum positive difference between an ordered source field and a bounded Path.
@@ -17551,6 +17685,8 @@ Artifacts:
 #### Counterpressure
 
 The case is defeated if the same four timestamps are retained but continuation relations are removed. That mutation yields an ordered source field or Sequence, not the present Path. This pressure anticipates `C17-CHRON-01` without producing that countercase in WP1.
+
+<a id="17-3-case-2-branching-path"></a>
 
 ### 17.3 Case 2: Branching Path
 
@@ -17629,6 +17765,8 @@ Artifacts:
 #### Counterpressure
 
 If immediate cutover appears only in a later interview without contemporaneous preparation, it can no longer carry the Branch Point. The target must reduce to the realized staged Path or remain underdetermined. This anticipates the alternative-integrity duty `C17-ALT-01`.
+
+<a id="17-4-case-3-trajectory-with-a-central-non-event"></a>
 
 ### 17.4 Case 3: Trajectory with a Central Non-Event
 
@@ -17807,6 +17945,8 @@ Chapter 17 — WP2:
 Remaining Positive Cases and Countercases
 ```
 
+<a id="17-5-case-4-similar-end-states-different-histories"></a>
+
 ### 17.5 Case 4: Similar End States, Different Histories
 
 Two reconstructions may terminate in configurations that appear equivalent under a narrow present-state description while remaining praxeologically different because their histories carry different costs, residues, bindings, reversibility conditions, and available continuations. The PATH question is therefore not whether two endpoints can be described with the same label. It is whether the present configuration can be adequately reconstructed without the source-sensitive historical relations that produced it.
@@ -17841,6 +17981,8 @@ historical indispensability in one dimension
 A comparison of similar endpoints is therefore strongest when it states both what the present state explains adequately and what it does not. This prevents two opposite errors: erasing history because the endpoint labels match, and inflating every historical difference into strong Path Dependence.
 
 ---
+
+<a id="17-6-case-5-repeated-pattern-with-weak-path-dependence"></a>
 
 ### 17.6 Case 5: Repeated Pattern with Weak Path Dependence
 

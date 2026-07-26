@@ -8087,6 +8087,8 @@ Overlap may alter the source category. If information collection and deliberatio
 
 Interruption and resumption require the same discipline. Resumption preserves the earlier source object only where reference, operative question, relevant roles or succession rules, and completion conditions remain sufficiently continuous. A later activity with the same label may instead be a new Event, a new Non-Event window, or part of a newly composed Path.
 
+<a id="23-10-temporal-granularity-drift"></a>
+
 ### 23.10 Temporal Granularity Drift
 
 Temporal granularity is productive only where the finer distinction changes a warranted praxis reconstruction. Smaller units, more records, or a denser chronology possess no truth priority. A decomposition can become formally elaborate while remaining resolution-neutral, underdetermined, or below the Praxeological Relevance Floor.
@@ -8135,6 +8137,8 @@ The stop question is therefore:
 > Would one more temporal distinction alter a warranted reconstruction of the source object, its category, its internal relation, its praxis effects, or its Loss?
 
 If not, Optional Stop is ordinarily appropriate. Mandatory Stop applies where continuation would require invention, source overreach, categorical substitution, person inference, or an undeclared change of operation.
+
+<a id="23-11-event--non-event-confusion-results-and-completion"></a>
 
 ### 23.11 Event / Non-Event Confusion, Results, and Completion
 

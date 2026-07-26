@@ -1694,6 +1694,8 @@ admissible_but_provisional
 
 The provisionality attaches to the pending integrated synchronization and Chapter 1 lock, not to permission to weaken the identity, non-primitive, Stop, or Non-Capture boundaries established here. No Chapter 1 provisional lock is claimed by WP3.
 
+<a id="chapter-2-frame-granularity-and-relative-level"></a>
+
 ## 2. Frame, Granularity, and Relative Level
 
 Every STRATA transformation requires more than an identifiable source object. It also requires a declaration of **where and how that object is being reconstructed**. A conversation, configuration, non-event structure, transition, or composite may remain the same reference object while the analysis changes what counts as relevant, how finely distinctions are drawn, or where the object is positioned relative to other objects. Those changes are analytically consequential, but they are not interchangeable.
@@ -9346,26 +9348,41 @@ Counterfactual Sensitivity
 
 #### Controlled findings
 
-The local findings are:
+The canonical controlled local findings are:
 
 ```text
-sensitive
-partially sensitive
+strongly_sensitive
+partially_sensitive
+weakly_sensitive
 insensitive
 underdetermined
-not testable with available sources
+untestable
 ```
 
-- **sensitive** — a relevant source change requires a material change in the tested result;
-- **partially sensitive** — one claim segment changes while another remains source-supported;
-- **insensitive** — the result remains unchanged despite removal or alteration of an alleged load-bearing feature;
-- **underdetermined** — available sources support more than one responsible response and do not warrant selection;
-- **not testable with available sources** — the required source relation or interval is unavailable, so the dependency test cannot presently be executed.
+- **`strongly_sensitive`** — a relevant source change requires a material change in, or defeats, the tested result;
+- **`partially_sensitive`** — some claim segments change while another delimited segment remains source-supported;
+- **`weakly_sensitive`** — the result changes only marginally, under a narrow condition, or with insufficient load for the stronger claim;
+- **`insensitive`** — the result remains unchanged despite removal or alteration of an alleged load-bearing feature;
+- **`underdetermined`** — available sources support more than one responsible response and do not warrant selection;
+- **`untestable`** — the required source relation or interval is unavailable, so the dependency test cannot presently be executed.
 
-These findings are not new Output Classes.
+Earlier prose labels map without creating a second vocabulary:
 
 ```text
 sensitive
+→ strongly_sensitive
+
+partially sensitive
+→ partially_sensitive
+
+not testable with available sources
+→ untestable
+```
+
+These findings are local test values, not new Output Classes.
+
+```text
+strongly_sensitive
 ≠ admissible automatically
 
 insensitive
@@ -9373,6 +9390,9 @@ insensitive
 
 underdetermined
 ≠ non_capture automatically
+
+untestable
+≠ true or false automatically
 ```
 
 #### Constructing a responsible source-change test
@@ -9411,7 +9431,7 @@ material source change
 The local finding is:
 
 ```text
-Counterfactual Sensitivity: sensitive
+Counterfactual Sensitivity: strongly_sensitive
 ```
 
 This supports source-result dependency. It does not prove that `N1` caused every later outcome, that completed reconsideration would have produced a particular decision, or that the bounded function is globally valid.
@@ -9430,7 +9450,7 @@ A source-change test focused on `N1` therefore cannot responsibly decide how the
 ```text
 Counterfactual Sensitivity: underdetermined
 or
-not testable with available sources
+untestable
 ```
 
 The analyst must name the missing interval, the rival source possibilities, and the re-entry condition. Where a narrower claim remains coherent—for example, that later reopening pressure is documented without specifying its precise reconsideration mechanism—the result may remain provisional or require reduction. Missing material alone does not authorize a causal inference and does not automatically produce `non_capture`.
@@ -9447,8 +9467,8 @@ Sections 6.5–6.8 establish:
 - source and claim ceiling handoffs;
 - abstraction, fragmentation, and projection without traceable load;
 - Counterfactual Sensitivity as a dependency stress test rather than causal proof;
-- the five controlled sensitivity findings;
-- source-sensitive, partially sensitive, insensitive, underdetermined, and not-testable distinctions;
+- the six controlled sensitivity findings;
+- `strongly_sensitive`, `partially_sensitive`, `weakly_sensitive`, `insensitive`, `underdetermined`, and `untestable` distinctions;
 - four controlled cases: `C6-CEIL-01`, `C6-CEIL-02`, `C6-CF-01`, and `C6-CF-02`.
 
 At the WP2 checkpoint, the following remained incomplete:
@@ -10012,7 +10032,7 @@ The integrated completion test confirms:
 - `PraxisPurchase`, `TraceableLoad`, Type Integrity, and Contextual Boundedness are conjunctive and non-compensatory;
 - Reference, Functional, and Temporal Continuity remain independently applicable and cannot be replaced by the four-term compact gate;
 - mixed claims are segmented before routing, and Claim Reduction requires reformulation and retest rather than automatic passage;
-- local findings such as `below_floor`, `sensitive`, `insensitive`, `underdetermined`, or `stop trigger` are not Output Classes;
+- local findings such as `below_floor`, `strongly_sensitive`, `insensitive`, `underdetermined`, or `stop trigger` are not Output Classes;
 - the ten canonical Output Classes remain closed and require substantive, claim-relative selection;
 - Mandatory Stop blocks impermissible continuation without deleting prior valid findings;
 - Non-Capture preserves unresolved rival claims, limiting conditions, and re-entry requirements without validating a stronger claim;
@@ -10608,7 +10628,7 @@ not applicable with reason
 ≠ omitted assessment
 ```
 
-Local findings such as `below_floor`, `sensitive`, `partially sensitive`, `underdetermined`, failed Type Integrity, or a Stop trigger remain findings within the audit path. They are not automatically canonical Output Classes.
+Local findings such as `below_floor`, `strongly_sensitive`, `partially_sensitive`, `underdetermined`, failed Type Integrity, or a Stop trigger remain findings within the audit path. They are not automatically canonical Output Classes.
 
 ```text
 local rule finding
@@ -11599,6 +11619,8 @@ admissible_but_provisional
 Chapter 7 is provisionally locked. The provisionality is not a known local defect. It preserves legitimate later revision pressure from Chapter 8 Foundational Non-Equivalences, the operation- and Part-specific record procedures, substantive cases and countercases, Appendix C and record templates, the Integrated STRATA Audit, package-level validators, corpus audit, model finalization, and later source-supported record-boundary findings. Reopening requires a documented contradiction, failed case burden, ownership conflict, schema mismatch, audit failure, or later source-supported boundary finding.
 
 ---
+
+<a id="chapter-8-foundational-non-equivalences"></a>
 
 ## 8. Foundational Non-Equivalences
 

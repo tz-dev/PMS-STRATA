@@ -720,11 +720,12 @@ Would a relevant change in the source structure alter the composed object or pro
 
 Mögliche Ergebnisse:
 
-* sensitive
-* partially sensitive
-* insensitive
-* underdetermined
-* not testable with available sources
+* `strongly_sensitive`
+* `partially_sensitive`
+* `weakly_sensitive`
+* `insensitive`
+* `underdetermined`
+* `untestable`
 
 6.9 Type Integrity
 
@@ -1957,6 +1958,8 @@ PATH darf mit Non-Capture enden, wenn:
 * relevante Alternativen unbekannt sind,
 * oder jede Komposition entscheidende Heterogenität zerstört.
 
+<a id="17-path-cases-countercases-and-local-audit"></a>
+
 17. PATH Cases, Countercases, and Local Audit
 
 17.1 Case Architecture
@@ -2146,6 +2149,8 @@ It does not yet determine what function a completed trajectory may perform withi
 PART II — SUB
 Decomposition under Finer Resolution
 
+<a id="18-the-provisionally-compressed-object"></a>
+
 18. The Provisionally Compressed Object
 
 18.1 Purpose of SUB
@@ -2291,6 +2296,8 @@ known_internal_structure:
 unresolved_internal_structure:
 decomposition_reason:
 
+<a id="19-granularity-change-and-the-logic-of-decomposition"></a>
+
 19. Granularity Change and the Logic of Decomposition
 
 19.1 Granularity Change
@@ -2419,6 +2426,8 @@ frame_preserved:
 reference_preserved:
 expected_praxeological_difference:
 comparability_status:
+
+<a id="20-decompose-conditions-procedure-and-preservation-requirements"></a>
 
 20. DECOMPOSE:
     Conditions, Procedure, and Preservation Requirements
@@ -4029,12 +4038,12 @@ Zentrale Frage:
 
 Mögliche Ergebnisse:
 
-* strongly sensitive
-* partially sensitive
-* weakly sensitive
-* insensitive
-* underdetermined
-* not testable
+* `strongly_sensitive`
+* `partially_sensitive`
+* `weakly_sensitive`
+* `insensitive`
+* `underdetermined`
+* `untestable`
 
 30.9 Validity Scope
 
@@ -5798,7 +5807,31 @@ STRATA darf als Ergebnis festhalten:
 * coarser reconstruction preferred,
 * multiple granularities co-valid,
 * comparison underdetermined,
-* oder non-capture.
+* oder `non_capture`.
+
+43.10 LIMITS Record-View Control
+
+Die YAML-Snippets der Kapitel 44–53 sind konzeptuelle Ansichten auf den bestehenden Shared Transformation Record. Sie führen keine LIMITS-spezifischen Top-Level-Objekte, keine zweite Record-Grammatik und keine neuen Schemafelder ein.
+
+| Blueprint view | Canonical Shared Record path |
+| --- | --- |
+| `relevance_floor` | `/admissibility/rule_assessments/praxis_purchase` and `/admissibility/audit_stages/relevance_floor` |
+| `traceability_ceiling` | `/admissibility/rule_assessments/traceable_load` and `/admissibility/audit_stages/traceability_ceiling` |
+| `counterfactual_test` | `/source/constitutive_source_trace`, `/admissibility/rule_assessments/counterfactual_sensitivity`, and `/admissibility/audit_stages/counterfactual_sensitivity` |
+| `continuity` | `/admissibility/rule_assessments/type_integrity`, `/admissibility/rule_assessments/reference_continuity`, `/admissibility/rule_assessments/functional_continuity`, `/admissibility/rule_assessments/temporal_continuity`, and `/admissibility/audit_stages/continuity_and_type_integrity` |
+| Chapter-48 loss view | canonical top-level `/loss` plus `/admissibility/rule_assessments/selection_and_loss` |
+| `source_and_calibration` | `/source/source_basis`, `/source/known_gaps`, `/source/source_ceiling`, the `source_ceiling` and `calibration` rule assessments, and `/admissibility/audit_stages/source_and_calibration_limits` |
+| `stop` | `/admissibility/rule_assessments/stop`, `/admissibility/stop_assessment`, and, where selected, `/result/routing/selected_class` |
+| `capture_status` / `non_capture` | `/admissibility/rule_assessments/non_capture`, `/admissibility/non_capture_assessment`, and, where selected, `/result/routing/selected_class` |
+| `strata_audit` | `/admissibility/audit_stages`, `/admissibility/rule_assessments`, `/loss`, `/alternatives`, `/governance`, and `/result/routing/selected_class` |
+
+```text
+illustrative LIMITS view
+≠ canonical top-level record object
+≠ schema extension
+```
+
+Where a Blueprint label differs from a schema field, the schema path is binding for records and validation. Chapter 48's single-record-system boundary remains controlling.
 
 44. Praxeological Relevance Floor
 
@@ -5886,6 +5919,7 @@ Der Output ist dann resolution-neutral, nicht resolution-gain.
 44.8 Relevance Floor Record
 
 ```yaml
+# Conceptual view only; use the canonical Shared Record paths in §43.10.
 relevance_floor:
   added_distinction:
   affected_praxis_dimension:
@@ -5994,6 +6028,7 @@ Sie verlangt die Erhaltung der tragenden Lastspur.
 45.9 Traceability Ceiling Record
 
 ```yaml
+# Conceptual view only; use the canonical Shared Record paths in §43.10.
 traceability_ceiling:
   target_claim:
   constitutive_source_trace:
@@ -6063,9 +6098,9 @@ Für PROJECT_AS:
 46.5 Sensitivity Classes
 
 ```text
-strongly sensitive
-partially sensitive
-weakly sensitive
+strongly_sensitive
+partially_sensitive
+weakly_sensitive
 insensitive
 underdetermined
 untestable
@@ -6102,11 +6137,12 @@ Der Claim muss jedoch entsprechend reduziert werden:
 * provisional,
 * underdetermined,
 * source-limited,
-* oder non-capture.
+* oder `non_capture`.
 
 46.9 Counterfactual Sensitivity Record
 
 ```yaml
+# Conceptual view only; use the canonical Shared Record paths in §43.10.
 counterfactual_test:
   load_bearing_feature:
   proposed_change:
@@ -6130,13 +6166,25 @@ Sie ergänzt, aber ersetzt nicht Source Trace und Type Integrity.
 
 47. Reference, Type, and Function Continuity
 
-47.1 Three Forms of Continuity
+47.1 Continuity Dimensions and Type-Integrity View
 
-STRATA unterscheidet:
+STRATA unterscheidet drei eigenständige Kontinuitätsdimensionen:
 
 1. reference continuity
-2. type continuity
-3. functional continuity
+2. functional continuity
+3. temporal continuity, where applicable
+
+`type continuity` is retained as continuity-language for the preservation or warranted revision of typing under the canonical `TypeIntegrity` Rule. It is not a fourth continuity Rule and not a new admissibility check.
+
+```text
+type continuity
+=
+continuity view under TypeIntegrity
+
+not
+
+new Rule
+```
 
 47.2 Reference Continuity
 
@@ -6154,9 +6202,9 @@ Reference discontinuity liegt vor, wenn:
 * Ausgangs- und Zielobjekt unterschiedliche historische Prozesse sind,
 * oder die Transformation ihre eigene Quelle ersetzt.
 
-47.4 Type Continuity
+47.4 Type Continuity as a TypeIntegrity View
 
-Type continuity bedeutet:
+As a continuity view under canonical `TypeIntegrity`, type continuity bedeutet:
 
 * Der Ursprungstyp bleibt sichtbar.
 * DECOMPOSE erklärt oder belastet ihn.
@@ -6202,6 +6250,7 @@ Temporal continuity bedeutet nicht vollständige Detailerhaltung.
 47.9 Continuity Matrix
 
 ```yaml
+# Conceptual view only; `type` is a view under canonical TypeIntegrity.
 continuity:
   reference:
     preserved:
@@ -6446,6 +6495,7 @@ threshold remains calibration-sensitive
 49.10 Source and Calibration Record
 
 ```yaml
+# Conceptual view only; use the canonical Shared Record paths in §43.10.
 source_and_calibration:
   source_basis:
   direct_support:
@@ -6664,6 +6714,7 @@ Support downgrade and resolution neutrality are not Claim Reduction.
 51.8 Stop Record
 
 ```yaml
+# Conceptual view only; use /admissibility/stop_assessment in records.
 stop:
   trigger:
   operation:
@@ -6781,6 +6832,7 @@ Die Unentscheidbarkeit bleibt Teil des Ergebnisses.
 PMS-STRATA kann einen Teil der Struktur hinreichend erfassen, andere Teile jedoch offenlassen.
 
 ```yaml
+# Conceptual view only; use /admissibility/non_capture_assessment in records.
 capture_status:
   captured:
   partially_captured:
@@ -6815,6 +6867,7 @@ PMS besitzt keinen Anspruch auf vollständige Erfassung.
 52.12 Non-Capture Record
 
 ```yaml
+# Conceptual view only; use /admissibility/non_capture_assessment in records.
 non_capture:
   object:
   attempted_operations:
@@ -7006,20 +7059,21 @@ Zu prüfen sind:
 
 ```text
 admissible
-admissible with bounded claim
-admissible but provisional
-resolution-neutral
-analogy only
-partially admissible
-claim reduction required
-mandatory stop
-failed transformation
-non-capture
+admissible_with_bounded_claim
+admissible_but_provisional
+resolution_neutral
+analogy_only
+partially_admissible
+claim_reduction_required
+mandatory_stop
+failed_transformation
+non_capture
 ```
 
 53.16 Integrated Audit Record
 
 ```yaml
+# Conceptual integrated view only; this is not a second record grammar.
 strata_audit:
   source_entry:
   claim_scope:

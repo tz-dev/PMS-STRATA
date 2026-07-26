@@ -1,14 +1,14 @@
 artifact:
   id: pms_strata_case_index
   title: PMS-STRATA Case Index
-  version: 0.1.10
+  version: 0.1.12
   status: provisional_part_i_and_part_ii_locked_case_corpus_index
   owner: 03_cases
   authority_role: navigation_and_artifact_registry_only
   independent_theory_authority: false
   formal_validation_not_substantive_validation_acknowledged: true
-  current_production_stage: Part I — PATH and Part II — SUB provisionally locked after integrated audits; Chapter 29 Preparation
-    Gate is next.
+  current_production_stage: Foundations, PATH, and SUB provisionally locked; RETYPE bounded provisional method lock with artifact-complete
+    mandatory_stop; Pre-LIMITS Maintenance WP0-WP5 complete and gate passed; Chapter 41 WP1 next.
 inventory:
   total_instantiated_cases: 29
   positive_cases: 11
@@ -45,7 +45,7 @@ inventory:
   chapter_17_local_audit_status: pass
   part_i_lock_readiness: pass
   part_i_provisional_lock: provisionally_locked
-  next_controlled_step: Chapter 29 Preparation Gate — Functional Projection without Origin-Type Replacement
+  next_controlled_step: Chapter 41 WP1 — Sections 41.1-41.4
   chapter_28_case_targets_total: 16
   chapter_28_wp1_positive_artifacts_complete: 6
   chapter_28_wp1_duties_complete:
