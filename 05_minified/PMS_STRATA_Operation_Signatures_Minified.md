@@ -338,12 +338,12 @@ Central test:
 Possible results:
 
 ```text
-strongly sensitive
-partially sensitive
-weakly sensitive
+strongly_sensitive
+partially_sensitive
+weakly_sensitive
 insensitive
 underdetermined
-not testable with available sources
+untestable
 ```
 
 A composite that remains unchanged under arbitrarily large source changes risks exceeding the Praxeological Traceability Ceiling.
@@ -888,12 +888,12 @@ Central test:
 Possible results:
 
 ```text
-strongly sensitive
-partially sensitive
-weakly sensitive
+strongly_sensitive
+partially_sensitive
+weakly_sensitive
 insensitive
 underdetermined
-not testable
+untestable
 ```
 
 A projection that survives contradictory source structures without changing risks becoming label substitution or abstraction without traceable load.
@@ -914,6 +914,21 @@ loss:
 ```
 
 Projection changes analytical visibility even when source reference and origin type are preserved.
+
+
+### 6.9A Conditional PMS occurrence anchoring
+
+Where `PROJECT_AS` materially depends on PMS operator-typed occurrences or relations, the existing source reference, source basis, Constitutive Source Trace, Counterfactual Sensitivity, and canonical Loss fields must preserve an inspectable route from the warranted occurrence relation to the bounded target-function claim.
+
+```text
+operator label
+≠ occurrence-level Source Trace
+
+material occurrence variation
+≠ abstract operator revision
+```
+
+This requirement is conditional and claim-relevant. It does not require a full Δ–Ψ inventory, introduce a new Record field, change dependencies, or permit source typing to be inferred from target fit.
 
 ### 6.10 Valid PROJECT_AS outputs
 

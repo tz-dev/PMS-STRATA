@@ -1,10 +1,14 @@
 # PMS-STRATA — Operator Index
 
-**Status:** Reference Kernel v0.1.36 — Chapter-20-WP3-synchronized PMS-operator control  
+**Status:** Pre-LIMITS Maintenance WP5-synchronized; maintenance gate passed; Reference Freeze not performed  
+**Historical local version marker:** Reference Kernel v0.1.36 — Chapter-20-WP3-synchronized PMS-operator control  
 **Repository role:** `04_reference` navigation and operator-boundary control; not an independent PMS or STRATA theory source
 **Control sources:** `PMS.yaml` for the repository-reference operator inventory, names, order, dependencies, layers, and Base guardrails; *Towards a Praxeological Meta-Structure Theory* as a supporting PMS explanatory source; [`Chapter 1`](../01_blocks/01_foundations.md#chapter-1-object-model-operator-type-operator-occurrence-and-composite-structure) for the provisionally locked object model and identity burden; `05_minified/*` and `05_minified/Chapter_Contracts.md` for the limits of STRATA inference, transformation, and claim; [`Chapter 2`](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) for analytical-coordinate boundaries; [`Chapter 3`](../01_blocks/01_foundations.md#chapter-3-configuration-event-non-event-transition-path-and-trajectory) for temporal-object burdens; [`Chapter 4`](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) for the closed three-operation grammar; and `04_reference/Chapter_1_Preparation_Record.md` through `04_reference/Chapter_5_Preparation_Record.md` for non-theory production status and handoff
 
 ---
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 
 ## 1. Function and Authority
 
@@ -3307,3 +3311,9 @@ LIMITS
 ```
 
 Recursive operation availability never revises the three-operation inventory or permits operator creation through repeated use, profile stability, macrofunction, or chain length.
+
+## RETYPE occurrence anchoring note
+
+RETYPE does not modify Δ–Ψ. Where a bounded target-function claim depends on concrete operator occurrences, the source route preserves occurrence identity, Frame, temporal or relational position, support, and relevant dependency context. Target-function resemblance never creates source typing.
+
+Family correspondences in Chapters 31–35 remain bounded work claims—`□`-like Frame work, `Α`-like stabilization, `Ω`-like gradients, `Ψ`-like continuity, or `Σ`-like repair—and never operator identity or dependency inheritance.

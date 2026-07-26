@@ -1,7 +1,7 @@
 artifact:
   id: pms_strata_admissibility_rules
   title: PMS-STRATA Admissibility Rules
-  version: 0.1.144
+  version: 0.1.150
   status: formal_model_v0_provisional
   build_step: 3
   artifact_role: Machine-readable formalization of the sixteen canonical STRATA admissibility checks, controlled local result
@@ -14,14 +14,42 @@ artifact:
   - Claim Reduction, Stop, Non-Capture, anti-immunization, Claim Ceiling, and Authority Ceiling rules
   - operation-specific rule overlays without operation redefinition
   - formal-model and cross-artifact ownership boundaries
-  - provisionally locked Chapter 38 invalid-projection taxonomy and Chapter 39 Preparation Gate with lower/upper RETYPE boundaries, Functional Gain, Source Trace, Type/Context, Counterfactual, alternatives, analogy, elasticity, Stop, Non-Capture, and local-gate burdens without pressure-object adjudication, new schema, output, or authority inference
-  - bounded Chapter 39 WP1 lower/upper RETYPE boundary architecture with Functional Gain, renaming and source-only rivals, target-fit/constitutive-source separation, exact Loss, non-compensation, stable W/A-D packets, and eight-duty closure without candidate adjudication, route, Output-Class, new schema, test-YAML, person/group, normative, application, or authority inference
-  - bounded Chapter 39 WP2 Constitutive Source Trace, citation/fit separation, Type Integrity, Context Boundary, counterfactual source/target variation, opposite-source and removal pressure, failure localization, exact Loss, stable W/A-F packets, and sixteen-duty closure without candidate adjudication, causal inference, route, Output-Class, new schema, test-YAML, person/group, normative, application, or authority inference
-  - complete Chapter 39 WP3 alternative-projection, analogy-boundary, elasticity, Stop, Non-Capture, terminal-route, and non-compensatory RETYPE-admissibility architecture with twenty-four-duty closure, stable W/A-F packets, exact Loss, and no candidate adjudication, score, weighting, new schema, test-YAML, person/group, normative, application, or authority inference
-  - provisionally locked Chapter 39 local RETYPE boundary method and Chapter 40 positive/counter/confusion case Preparation Gate with twenty-four assigned duties, thirty-two-point local audit, explicit lock-critical artifact boundary, exact Loss, canonical outputs, and no pressure-object adjudication, invented case completion, new YAML, person/group, normative, application, or authority inference
-  - bounded Chapter 40 WP1 source-locked case architecture and seven positive family demonstrations with target coordinates, Constitutive Source Trace burdens, PraxisPurchase, counterfactuals, alternatives, exact Loss, operation separation, artifact-gap visibility, eight-duty closure, and no case adjudication, canonical mapping, new YAML, person/group, normative, application, or authority inference
-  - bounded Chapter 40 WP2 seven countercase-family demonstrations with localized origin-type, context, substitution, analogy, aggregation, rescue, and person-level pressures, preserved source material, distinct Claim-Reduction/Stop/Failure/Analogy-only/Non-Capture burdens, artifact-gap visibility, sixteen-duty closure, and no case adjudication, automatic negative routing, new YAML, person/group, normative, application, or authority inference
-  - complete Chapter 40 WP3 six confusion-case demonstrations separating DECOMPOSE/PROJECT_AS, COMPOSE/PROJECT_AS, Phi recontextualization/PROJECT_AS, similarity/attractor load, modulator/operator, and analogy/projection with complete twenty-four-duty closure, audit-readiness, exact Loss, artifact-gap visibility, and no case adjudication, operation result, route, Output-Class, new YAML, person/group, normative, application, or authority inference
+  - explicit separation of the current operative formal-rule core from historical chapter, WP, review, and maintenance
+    production traces; the latter remain non-normative provenance and cannot override the current core, controlled vocabularies,
+    operation inventory, Output Classes, audit stages, or authority boundaries
+  - conservative PMS operator-occurrence re-anchoring across RETYPE Chapters 29–40 through existing source-reference, Source-Trace,
+    sensitivity, and Loss positions without operator or dependency change, new field, Rule, audit stage, routing path, Output
+    Class, case/test/smoke YAML, or substantive pressure-object adjudication
+  - provisionally locked Chapter 38 invalid-projection taxonomy and Chapter 39 Preparation Gate with lower/upper RETYPE boundaries,
+    Functional Gain, Source Trace, Type/Context, Counterfactual, alternatives, analogy, elasticity, Stop, Non-Capture, and
+    local-gate burdens without pressure-object adjudication, new schema, output, or authority inference
+  - bounded Chapter 39 WP1 lower/upper RETYPE boundary architecture with Functional Gain, renaming and source-only rivals,
+    target-fit/constitutive-source separation, exact Loss, non-compensation, stable W/A-D packets, and eight-duty closure
+    without candidate adjudication, route, Output-Class, new schema, test-YAML, person/group, normative, application, or authority
+    inference
+  - bounded Chapter 39 WP2 Constitutive Source Trace, citation/fit separation, Type Integrity, Context Boundary, counterfactual
+    source/target variation, opposite-source and removal pressure, failure localization, exact Loss, stable W/A-F packets,
+    and sixteen-duty closure without candidate adjudication, causal inference, route, Output-Class, new schema, test-YAML,
+    person/group, normative, application, or authority inference
+  - complete Chapter 39 WP3 alternative-projection, analogy-boundary, elasticity, Stop, Non-Capture, terminal-route, and non-compensatory
+    RETYPE-admissibility architecture with twenty-four-duty closure, stable W/A-F packets, exact Loss, and no candidate adjudication,
+    score, weighting, new schema, test-YAML, person/group, normative, application, or authority inference
+  - provisionally locked Chapter 39 local RETYPE boundary method and Chapter 40 positive/counter/confusion case Preparation
+    Gate with twenty-four assigned duties, thirty-two-point local audit, explicit lock-critical artifact boundary, exact Loss,
+    canonical outputs, and no pressure-object adjudication, invented case completion, new YAML, person/group, normative, application,
+    or authority inference
+  - bounded Chapter 40 WP1 source-locked case architecture and seven positive family demonstrations with target coordinates,
+    Constitutive Source Trace burdens, PraxisPurchase, counterfactuals, alternatives, exact Loss, operation separation, artifact-gap
+    visibility, eight-duty closure, and no case adjudication, canonical mapping, new YAML, person/group, normative, application,
+    or authority inference
+  - bounded Chapter 40 WP2 seven countercase-family demonstrations with localized origin-type, context, substitution, analogy,
+    aggregation, rescue, and person-level pressures, preserved source material, distinct Claim-Reduction/Stop/Failure/Analogy-only/Non-Capture
+    burdens, artifact-gap visibility, sixteen-duty closure, and no case adjudication, automatic negative routing, new YAML,
+    person/group, normative, application, or authority inference
+  - complete Chapter 40 WP3 six confusion-case demonstrations separating DECOMPOSE/PROJECT_AS, COMPOSE/PROJECT_AS, Phi recontextualization/PROJECT_AS,
+    similarity/attractor load, modulator/operator, and analogy/projection with complete twenty-four-duty closure, audit-readiness,
+    exact Loss, artifact-gap visibility, and no case adjudication, operation result, route, Output-Class, new YAML, person/group,
+    normative, application, or authority inference
   - bounded Chapter 19 WP1 granularity-change, relative-downward, stable-Frame, and changed-Frame handoff without automatic
     component, comparability, operation, result, or authority inference
   - bounded Chapter 19 WP2 distinction-set, local/distributed candidate, component/fragment, carrying/disturbing/replaceable,
@@ -268,53 +296,173 @@ artifact:
     without target-granularity, component, operation-result, source-function, truth, person, application, or authority inference
   - bounded Chapter 18 WP3 preservation, Minimal Source Declaration, Stop, Non-Capture, and Chapter-19/20 handoff without
     automatic reference, source-function, granularity, component, result, or routing inference
-  - bounded Chapter 29 WP1 RETYPE-purpose, typed X/T/C/F claim, source-entry, target-context, same-source contrast,
-    Origin-Type-Preservation, no-new-primitive, and target-function-candidate handoff without automatic source, function,
-    continuity, operation, output, person, normative, causal, application, or authority inference
-  - bounded Chapter 29 WP2 operator-type separation, Source-Object Integrity, load-bearing-source discrimination,
-    Functional-Continuity, bounded source/context variation, elasticity, Contextual-Boundedness, and Loss handoff without
-    automatic source-load, semantic-continuity, counterfactual-truth, causality, operation, output, person, normative,
+  - bounded Chapter 29 WP1 RETYPE-purpose, typed X/T/C/F claim, source-entry, target-context, same-source contrast, Origin-Type-Preservation,
+    no-new-primitive, and target-function-candidate handoff without automatic source, function, continuity, operation, output,
+    person, normative, causal, application, or authority inference
+  - bounded Chapter 29 WP2 operator-type separation, Source-Object Integrity, load-bearing-source discrimination, Functional-Continuity,
+    bounded source/context variation, elasticity, Contextual-Boundedness, and Loss handoff without automatic source-load,
+    semantic-continuity, counterfactual-truth, causality, operation, output, person, normative, application, or authority
+    inference
+  - bounded Chapter 29 WP3 projection-without-replacement, typed-result-axis, non-success-route, re-entry, Recontextualization,
+    COMPOSE, DECOMPOSE, and Chapter-30 handoff discipline without automatic operation identity, semantic warrant, route selection,
+    output mapping, source repair, person, normative, application, or authority inference
+  - provisionally locked Chapter 29 conceptual RETYPE architecture with exact twenty-four-duty closure, typed X/T/C/F claim,
+    source integrity, functional continuity, contextual boundedness, canonical Loss, no-replacement, result-axis, operation-boundary,
+    re-entry, and Chapter-30 handoff without operation execution, target-function selection, output mapping, source repair,
+    person, normative, application, or authority inference
+  - bounded Chapter 30 Preparation Gate assigning the existing PROJECT_AS signature, source/target declarations, Constitutive
+    Source Trace, Counterfactual Sensitivity, validity scope, visibility/five-part-Loss separation, alternatives, result axes,
+    Record view, and twenty-four duties without schema expansion, local-to-canonical class collapse, semantic truth, causal,
+    person, normative, application, or authority inference
+  - bounded Chapter 30 WP1 PROJECT_AS definition, signature-role, non-causal/non-automatic, conjunctive-precondition, source-reference,
+    origin-type, source-coordinate, prior-disposition, uncertainty, and inherited-Loss architecture without operation execution,
+    target-function warrant, schema expansion, output selection, person, normative, application, or authority inference
+  - provisionally locked Chapter 30 generic PROJECT_AS procedure with exact twenty-four-duty closure, source/target declarations,
+    justification, trace, sensitivity, validity scope, visibility/five-part-Loss separation, alternatives, result axes, Shared-Record
+    view, protected non-execution, and Chapter-31 handoff without family adjudication, test-YAML production, semantic truth,
+    causal, person, normative, application, or authority inference
+  - bounded and scientifically hardened Chapter 31 Preparation Gate assigning the trajectory-to-frame-function family, independent
+    source selection, temporal evidence separation, source-warrant/target-function-warrant separation, historical-load, present-condition,
+    multiple-frame-source, non-determinism, rhetorical-history, counterfactual-frame, competing-projection, no-projection,
+    failure, and twenty-four-duty burdens without new operation, Rule, Output Class, schema, test YAML, person, normative,
     application, or authority inference
-  - bounded Chapter 29 WP3 projection-without-replacement, typed-result-axis, non-success-route, re-entry,
-    Recontextualization, COMPOSE, DECOMPOSE, and Chapter-30 handoff discipline without automatic operation identity,
-    semantic warrant, route selection, output mapping, source repair, person, normative, application, or authority inference
-  - provisionally locked Chapter 29 conceptual RETYPE architecture with exact twenty-four-duty closure, typed X/T/C/F claim, source integrity, functional continuity, contextual boundedness, canonical Loss, no-replacement, result-axis, operation-boundary, re-entry, and Chapter-30 handoff without operation execution, target-function selection, output mapping, source repair, person, normative, application, or authority inference
-  - bounded Chapter 30 Preparation Gate assigning the existing PROJECT_AS signature, source/target declarations, Constitutive Source Trace, Counterfactual Sensitivity, validity scope, visibility/five-part-Loss separation, alternatives, result axes, Record view, and twenty-four duties without schema expansion, local-to-canonical class collapse, semantic truth, causal, person, normative, application, or authority inference
-  - bounded Chapter 30 WP1 PROJECT_AS definition, signature-role, non-causal/non-automatic, conjunctive-precondition, source-reference, origin-type, source-coordinate, prior-disposition, uncertainty, and inherited-Loss architecture without operation execution, target-function warrant, schema expansion, output selection, person, normative, application, or authority inference
-  - provisionally locked Chapter 30 generic PROJECT_AS procedure with exact twenty-four-duty closure, source/target declarations, justification, trace, sensitivity, validity scope, visibility/five-part-Loss separation, alternatives, result axes, Shared-Record view, protected non-execution, and Chapter-31 handoff without family adjudication, test-YAML production, semantic truth, causal, person, normative, application, or authority inference
-  - bounded and scientifically hardened Chapter 31 Preparation Gate assigning the trajectory-to-frame-function family, independent source selection, temporal evidence separation, source-warrant/target-function-warrant separation, historical-load, present-condition, multiple-frame-source, non-determinism, rhetorical-history, counterfactual-frame, competing-projection, no-projection, failure, and twenty-four-duty burdens without new operation, Rule, Output Class, schema, test YAML, person, normative, application, or authority inference
-  - bounded Chapter 31 WP1 trajectory-to-frame-function family declaration with prior PATH source, independent source selection, temporal evidence separation, explicit target coordinates, present-condition inclusion, concrete framed praxis difference, Trajectory/Frame-operator separation, same-source Y/Z contrast, and eight-duty closure without historical-load adjudication, result selection, test YAML, person, normative, application, or authority inference
-  - bounded Chapter 31 WP2 Historical-Load, source/target-warrant separation, load-bearing/modulating-carrier, non-deterministic-conditioning, role/time-scope, multiple-frame-source, qualitative-relative-load, and sixteen-duty cumulative support without counterfactual adjudication, result selection, score, test YAML, person, normative, application, or authority inference
-  - bounded Chapter 31 WP3 rhetorical-history, trace-failure, four-route counterfactual-frame, same-end/different-history, competing-projection, background-relevance, no-projection, failure/Stop/Non-Capture, source-non-invalidation, and twenty-four-duty cumulative support without anchor adjudication, causal proof, test YAML, person, normative, application, or authority inference
-  - provisionally locked Chapter 31 trajectory-to-frame-function family with exact twenty-four-duty closure, independent PATH source selection, temporal evidence separation, source/target-warrant separation, Historical Load, non-deterministic conditioning, multiple frame sources, rhetorical-history rejection, counterfactual-frame and same-end pressure, competing projections, no-projection, Failure/Stop/Non-Capture, protected anchor non-adjudication, and Chapter-32 handoff without causal proof, test-YAML production, person, normative, application, or authority inference
-  - bounded Chapter 32 Preparation Gate assigning the trajectory-to-macro-event family, wider target Frame, source-supported boundary selection, anti-retrospective periodization, anti-punctualization, duration and heterogeneity preservation, transition-function, separate COMPOSE/PROJECT_AS Records, counterfactual phase/boundary/source/target pressure, alternative source, no-projection, failure, and twenty-four-duty burdens without new operation, Rule, Output Class, schema, test YAML, causal turning-point, person, normative, application, or authority inference
-  - bounded Chapter 32 WP1 trajectory-to-macro-event family declaration with prior PATH source, separate source/boundary/target/function warrants, transition-bearing target-function grammar, wider target Frame, source-supported boundary candidates, anti-label/anti-outcome periodization, anti-punctualization, same-source B/C contrast, and eight-duty closure without duration, heterogeneity, transition-gain, result, test-YAML, causal, person, normative, application, or authority inference
-  - bounded Chapter 32 WP2 duration, heterogeneity, phase-load, role/time/level scope, visibility-versus-five-part-Loss, transition-function, descriptive-compression/no-projection, causal-boundary, and eight-duty architecture without phase adjudication, counterfactual result, test-YAML, causal monopoly, person, normative, application, or authority inference
-  - bounded Chapter 32 WP3 punctualization-error, separate COMPOSE/PROJECT_AS occurrence-chain, phase/boundary/source/target counterfactual, rival-periodization, alternative-source, no-projection, Failure/Stop/Non-Capture, source-non-invalidation, and eight-duty architecture without anchor adjudication, test-YAML, causal, person, normative, application, or authority inference
-  - provisionally locked Chapter 32 trajectory-to-macro-event family with exact twenty-four-duty closure, duration and heterogeneity preservation, anti-punctualization, separate COMPOSE/PROJECT_AS occurrences, counterfactual phase/boundary/source/target pressure, rival periodizations and sources, no-projection, Failure/Stop/Non-Capture, protected anchor non-adjudication, and Chapter-33 handoff without causal turning-point proof, test-YAML production, person, normative, application, or authority inference
-  - bounded Chapter 33 Preparation Gate assigning recurrent-form source formation across independently warranted trajectories, comparability coordinates, dynamic/static attractor-function distinction, context-sensitive Pattern Threshold, mechanism and later-path burden, sampling/selection pressure, anti-elasticity, counterfactual variation, failure, and twenty-four duties without new operation, Rule, Output Class, schema, test YAML, deterministic, probabilistic, person/group, normative, application, or authority inference
-  - bounded Chapter 33 WP1 recurrent-form-to-dynamic-attractor-function family declaration with multi-Trajectory source packet, one-Trajectory prohibition, comparison coordinates, incomparability, dynamic/static distinction, non-numerical Pattern Threshold, Α/non-primitive boundary, D/E contrast, and eight-duty closure without constitutive-load, mechanism, target-effect, result, test-YAML, deterministic, probabilistic, person/group, normative, application, or authority inference
-  - bounded Chapter 33 WP2 constitutive-repetition, allowable-variation, break-condition, temporally directed mechanism-burden, source-carrier, Attractor-Load, later-path-difference, scope, causal/probability-ceiling, dynamic/static-separation, and eight-duty architecture without source-phase, mechanism, target-effect, result, test-YAML, person/group, normative, application, or authority inference
-  - bounded Chapter 33 WP3 retrospective-similarity, target-blind selection, sampling/survivorship/missingness, anti-elasticity, source/comparison/mechanism/target counterfactual, rival-source, no-projection, Failure/Stop/Non-Capture, and eight-duty architecture without recurrent-form, mechanism, target-effect, probability, result, test-YAML, person/group, normative, application, or authority inference
-  - provisionally locked Chapter 33 recurrent-form-to-attractor-function family method with twenty-four-duty closure, comparison and Pattern-Threshold discipline, constitutive and break-condition architecture, mechanism and Attractor-Load burdens, dynamic/static separation, selection and elasticity pressure, rival/no-projection space, source non-invalidation, and Chapter-34 handoff without pressure-object result, probability, person/group typing, or authority inheritance
-  - bounded Chapter 34 Preparation Gate assigning source-composite, target-context, boundary/non-event/asymmetry/binding/integration function families, source-traceable emergence, component-role and relation trace, substitution, smaller-subset, contradiction, aggregation/formation, threshold, rival-Frame, counterfactual, authority, Failure/Stop/Non-Capture, and twenty-four duties without new operation, Rule, Output Class, schema, test YAML, person/group, normative, application, or authority inference
-  - bounded Chapter 34 WP1 composite-to-higher-level-function family declaration with independently warranted relational-composite source, component-and-relation trace, full target coordinates, same-source H/I contrast, boundary/non-event-attractor/asymmetry-access candidate grammar, operator/non-primitive/essence/authority ceilings, and eight-duty closure without component-load, emergence, formation, target-effect, result, test-YAML, causal, person/group, normative, application, or authority inference
-  - bounded Chapter 34 WP2 binding/integration/source-traceable-emergence family-load architecture with qualitative claim-bound component roles, relation topology, removal/replacement/redundancy/smaller-subset/overinclusive-source/relation-disruption pressure, internal-conflict routing, and eight-duty closure without substantive role, formation, emergence, threshold, target-effect, route, Output-Class, person/group, normative, application, or authority inference
-  - bounded Chapter 34 WP3 aggregation/functional-formation separation, qualitative function-specific threshold, smaller-subset and rival-Frame pressure, integrated component/relation/boundary/target/condition/function counterfactual test, no-authority boundary, localized Reduction/Stop/Failure/Non-Capture, and eight-duty closure without pressure-object formation, threshold, target-effect, result, test-YAML, causal, person/group, normative, application, or authority inference
-  - bounded Chapter 34 WP4 family-method provisional lock and Chapter 35 weighting/modulation/profile Preparation Gate with twenty-four-duty closure, protected Q/H/I non-adjudication, unchanged inventories, existing smoke-test execution, dependency-preservation, modulator non-operator, profile non-type, optional projection, exact Loss, Stop, Non-Capture, and non-authority controls without substantive weighting, profile, target-function, route, Output-Class, person/group, predictive, normative, application, or authority inference
-  - bounded Chapter 35 WP1 weighting/modulation family-entry declaration with independently warranted source occurrences and relations, qualitative load/access/visibility/threshold/temporal dimensions, unchanged Δ–Ψ dependencies, modulator non-operator/non-operation status, stable same-source K/L coordinates, anti-type/anti-prediction/add-on non-authority controls, and eight-duty closure without substantive weighting, modulator-effect, profile, trajectory, target-function, route, Output-Class, person/group, predictive, normative, application, or authority inference
-  - bounded Chapter 35 WP2 source-side profile-formation architecture with occurrence/modulator relation topology, bounded stability, prominence without exclusivity, trajectory-form dimensions without determinism or probability, modulator removal/substitution/reversal/redundancy/changed-access pressure, rival and inert/no-stable-profile options, source-traceable emergent profile formation, and sixteen-duty cumulative closure without substantive weighting, modulator-effect, selected profile, target-function, route, Output-Class, person/group, predictive, normative, application, or authority inference
-  - bounded Chapter 35 WP3 profile/type, explicit profile-projection, dual-threshold, anti-inflation, add-on non-authority, integrated counterfactual, and localized failure architecture with twenty-four-duty closure, exact Loss, distinct Claim Reduction/Stop/Failure/Non-Capture routes, and source non-invalidation without substantive weighting, modulator-effect, selected profile, threshold, target-function, route, Output-Class, person/group, predictive, normative, application, or authority inference
-  - bounded Chapter 35 WP4 family-method provisional lock and Chapter 36 competing-projections Preparation Gate with twenty-four-duty closure, protected P/K/L non-adjudication, unchanged inventories, existing smoke-test execution, compatibility/competition coordinate discipline, serious alternatives and no-projection, qualitative non-compensatory comparison criteria, indeterminacy/non-comparability/non-translation, exact Loss, Stop, Non-Capture, source preservation, and non-tribunal/non-authority controls without preferred projection, comparison result, route, Output-Class, person/theory judgment, normative, political, legal, application, or authority inference
-  - bounded Chapter 36 WP2 qualitative non-compensatory criteria, exact candidate Loss, discriminative performance, weaker-candidate, no-projection, co-validity, context-dependence, indeterminacy, and WP3 handoff without automatic candidate validity, ranking, route, output, tribunal, or authority inference
-  - bounded Chapter 36 WP3 non-translation, non-contradiction, non-comparability, output discipline, non-tribunal counterfactual comparison, localized failure, Projection Comparison Record view, and WP4 handoff with twenty-four-duty substantive closure without pressure-scene adjudication, candidate merger, schema expansion, ranking, route, output, tribunal, or authority inference
-  - bounded Chapter 37 WP1 projection/analogy/substitution triad, complete PROJECT_AS burden, stable source and mapping-subset lock, explicit cross-domain coordinates and direction, positional/formal/praxeological semantic separation, source-only and target-only residual discipline, artificial-fitting pressure, and eight-duty closure without mapping-status, semantic-preservation, target-function, label-substitution, route, Output-Class, test-YAML, domain-rank, recommendation, governance, or authority inference
-  - bounded Chapter 37 WP2 symbolic/formal/executable mapping separation, execution-proof limit, terminal-analogy and partial-analogy discipline, label-substitution markers, source/target/direction/label/countercase/no-projection variation, and sixteen-duty cumulative closure without mapping-status, semantic-preservation, target-function, substitution-result, route, Output-Class, test-YAML, domain-rank, recommendation, governance, or authority inference
-  - bounded Chapter 37 WP3 analogy-drift, translation-breadth, integrated nine-station stress-test, canonical output separation, localized failure, Non-Capture, source-preservation, and non-authority architecture with twenty-four-duty closure without pressure-object adjudication, mapping score, semantic engine, route, Output-Class, test-YAML, domain-rank, recommendation, governance, or authority inference
-  - provisionally locked Chapter 37 projection/analogy/substitution family with stable source/target coordinates, symbolic-formal-executable-semantic-functional separation, residual and exact-Loss discipline, terminal and partial analogy, substitution markers, analogy-drift and translation-breadth controls, localized Reduction/Stop/Failure/Non-Capture, protected M/L non-adjudication, and Chapter-38 handoff without automatic semantic preservation, target function, label result, person/domain/theory rank, recommendation, governance, output, or authority inference
-  - bounded Chapter 38 WP1 invalid-type-jump, origin-type/target-function, complete target-coordinate, missing-context, bounded-metaphor, trigger-separation, source-integrity, ambiguity-review, and WP2 handoff controls with eight-duty closure without pressure-object adjudication, route, Output-Class, new operation, schema, test-YAML, person typing, primitive creation, recommendation, governance, or authority inference
-  - bounded Chapter 38 WP2 level-mixing, granularity-mixing, failure-preserving projection rescue, independently testable new-claim, person/group anti-typing, primitive/inventory protection, genuine dual-record, and WP3 handoff controls with sixteen-duty cumulative closure without pressure-object error, repaired claim, route, output, schema expansion, recommendation, governance, or authority inference
-  - bounded Chapter 38 WP3 scope-inflation, temporal-flattening, exact five-part projection-Loss, visibility-change, invalid-projection-view, failure-localization, claim-reduction, output-boundary, and WP4 handoff controls with twenty-four-duty cumulative closure without pressure-object adjudication, repaired claim, route, Output-Class, schema expansion, recommendation, governance, or authority inference
+  - bounded Chapter 31 WP1 trajectory-to-frame-function family declaration with prior PATH source, independent source selection,
+    temporal evidence separation, explicit target coordinates, present-condition inclusion, concrete framed praxis difference,
+    Trajectory/Frame-operator separation, same-source Y/Z contrast, and eight-duty closure without historical-load adjudication,
+    result selection, test YAML, person, normative, application, or authority inference
+  - bounded Chapter 31 WP2 Historical-Load, source/target-warrant separation, load-bearing/modulating-carrier, non-deterministic-conditioning,
+    role/time-scope, multiple-frame-source, qualitative-relative-load, and sixteen-duty cumulative support without counterfactual
+    adjudication, result selection, score, test YAML, person, normative, application, or authority inference
+  - bounded Chapter 31 WP3 rhetorical-history, trace-failure, four-route counterfactual-frame, same-end/different-history,
+    competing-projection, background-relevance, no-projection, failure/Stop/Non-Capture, source-non-invalidation, and twenty-four-duty
+    cumulative support without anchor adjudication, causal proof, test YAML, person, normative, application, or authority
+    inference
+  - provisionally locked Chapter 31 trajectory-to-frame-function family with exact twenty-four-duty closure, independent PATH
+    source selection, temporal evidence separation, source/target-warrant separation, Historical Load, non-deterministic conditioning,
+    multiple frame sources, rhetorical-history rejection, counterfactual-frame and same-end pressure, competing projections,
+    no-projection, Failure/Stop/Non-Capture, protected anchor non-adjudication, and Chapter-32 handoff without causal proof,
+    test-YAML production, person, normative, application, or authority inference
+  - bounded Chapter 32 Preparation Gate assigning the trajectory-to-macro-event family, wider target Frame, source-supported
+    boundary selection, anti-retrospective periodization, anti-punctualization, duration and heterogeneity preservation, transition-function,
+    separate COMPOSE/PROJECT_AS Records, counterfactual phase/boundary/source/target pressure, alternative source, no-projection,
+    failure, and twenty-four-duty burdens without new operation, Rule, Output Class, schema, test YAML, causal turning-point,
+    person, normative, application, or authority inference
+  - bounded Chapter 32 WP1 trajectory-to-macro-event family declaration with prior PATH source, separate source/boundary/target/function
+    warrants, transition-bearing target-function grammar, wider target Frame, source-supported boundary candidates, anti-label/anti-outcome
+    periodization, anti-punctualization, same-source B/C contrast, and eight-duty closure without duration, heterogeneity,
+    transition-gain, result, test-YAML, causal, person, normative, application, or authority inference
+  - bounded Chapter 32 WP2 duration, heterogeneity, phase-load, role/time/level scope, visibility-versus-five-part-Loss, transition-function,
+    descriptive-compression/no-projection, causal-boundary, and eight-duty architecture without phase adjudication, counterfactual
+    result, test-YAML, causal monopoly, person, normative, application, or authority inference
+  - bounded Chapter 32 WP3 punctualization-error, separate COMPOSE/PROJECT_AS occurrence-chain, phase/boundary/source/target
+    counterfactual, rival-periodization, alternative-source, no-projection, Failure/Stop/Non-Capture, source-non-invalidation,
+    and eight-duty architecture without anchor adjudication, test-YAML, causal, person, normative, application, or authority
+    inference
+  - provisionally locked Chapter 32 trajectory-to-macro-event family with exact twenty-four-duty closure, duration and heterogeneity
+    preservation, anti-punctualization, separate COMPOSE/PROJECT_AS occurrences, counterfactual phase/boundary/source/target
+    pressure, rival periodizations and sources, no-projection, Failure/Stop/Non-Capture, protected anchor non-adjudication,
+    and Chapter-33 handoff without causal turning-point proof, test-YAML production, person, normative, application, or authority
+    inference
+  - bounded Chapter 33 Preparation Gate assigning recurrent-form source formation across independently warranted trajectories,
+    comparability coordinates, dynamic/static attractor-function distinction, context-sensitive Pattern Threshold, mechanism
+    and later-path burden, sampling/selection pressure, anti-elasticity, counterfactual variation, failure, and twenty-four
+    duties without new operation, Rule, Output Class, schema, test YAML, deterministic, probabilistic, person/group, normative,
+    application, or authority inference
+  - bounded Chapter 33 WP1 recurrent-form-to-dynamic-attractor-function family declaration with multi-Trajectory source packet,
+    one-Trajectory prohibition, comparison coordinates, incomparability, dynamic/static distinction, non-numerical Pattern
+    Threshold, Α/non-primitive boundary, D/E contrast, and eight-duty closure without constitutive-load, mechanism, target-effect,
+    result, test-YAML, deterministic, probabilistic, person/group, normative, application, or authority inference
+  - bounded Chapter 33 WP2 constitutive-repetition, allowable-variation, break-condition, temporally directed mechanism-burden,
+    source-carrier, Attractor-Load, later-path-difference, scope, causal/probability-ceiling, dynamic/static-separation, and
+    eight-duty architecture without source-phase, mechanism, target-effect, result, test-YAML, person/group, normative, application,
+    or authority inference
+  - bounded Chapter 33 WP3 retrospective-similarity, target-blind selection, sampling/survivorship/missingness, anti-elasticity,
+    source/comparison/mechanism/target counterfactual, rival-source, no-projection, Failure/Stop/Non-Capture, and eight-duty
+    architecture without recurrent-form, mechanism, target-effect, probability, result, test-YAML, person/group, normative,
+    application, or authority inference
+  - provisionally locked Chapter 33 recurrent-form-to-attractor-function family method with twenty-four-duty closure, comparison
+    and Pattern-Threshold discipline, constitutive and break-condition architecture, mechanism and Attractor-Load burdens,
+    dynamic/static separation, selection and elasticity pressure, rival/no-projection space, source non-invalidation, and
+    Chapter-34 handoff without pressure-object result, probability, person/group typing, or authority inheritance
+  - bounded Chapter 34 Preparation Gate assigning source-composite, target-context, boundary/non-event/asymmetry/binding/integration
+    function families, source-traceable emergence, component-role and relation trace, substitution, smaller-subset, contradiction,
+    aggregation/formation, threshold, rival-Frame, counterfactual, authority, Failure/Stop/Non-Capture, and twenty-four duties
+    without new operation, Rule, Output Class, schema, test YAML, person/group, normative, application, or authority inference
+  - bounded Chapter 34 WP1 composite-to-higher-level-function family declaration with independently warranted relational-composite
+    source, component-and-relation trace, full target coordinates, same-source H/I contrast, boundary/non-event-attractor/asymmetry-access
+    candidate grammar, operator/non-primitive/essence/authority ceilings, and eight-duty closure without component-load, emergence,
+    formation, target-effect, result, test-YAML, causal, person/group, normative, application, or authority inference
+  - bounded Chapter 34 WP2 binding/integration/source-traceable-emergence family-load architecture with qualitative claim-bound
+    component roles, relation topology, removal/replacement/redundancy/smaller-subset/overinclusive-source/relation-disruption
+    pressure, internal-conflict routing, and eight-duty closure without substantive role, formation, emergence, threshold,
+    target-effect, route, Output-Class, person/group, normative, application, or authority inference
+  - bounded Chapter 34 WP3 aggregation/functional-formation separation, qualitative function-specific threshold, smaller-subset
+    and rival-Frame pressure, integrated component/relation/boundary/target/condition/function counterfactual test, no-authority
+    boundary, localized Reduction/Stop/Failure/Non-Capture, and eight-duty closure without pressure-object formation, threshold,
+    target-effect, result, test-YAML, causal, person/group, normative, application, or authority inference
+  - bounded Chapter 34 WP4 family-method provisional lock and Chapter 35 weighting/modulation/profile Preparation Gate with
+    twenty-four-duty closure, protected Q/H/I non-adjudication, unchanged inventories, existing smoke-test execution, dependency-preservation,
+    modulator non-operator, profile non-type, optional projection, exact Loss, Stop, Non-Capture, and non-authority controls
+    without substantive weighting, profile, target-function, route, Output-Class, person/group, predictive, normative, application,
+    or authority inference
+  - bounded Chapter 35 WP1 weighting/modulation family-entry declaration with independently warranted source occurrences and
+    relations, qualitative load/access/visibility/threshold/temporal dimensions, unchanged Δ–Ψ dependencies, modulator non-operator/non-operation
+    status, stable same-source K/L coordinates, anti-type/anti-prediction/add-on non-authority controls, and eight-duty closure
+    without substantive weighting, modulator-effect, profile, trajectory, target-function, route, Output-Class, person/group,
+    predictive, normative, application, or authority inference
+  - bounded Chapter 35 WP2 source-side profile-formation architecture with occurrence/modulator relation topology, bounded
+    stability, prominence without exclusivity, trajectory-form dimensions without determinism or probability, modulator removal/substitution/reversal/redundancy/changed-access
+    pressure, rival and inert/no-stable-profile options, source-traceable emergent profile formation, and sixteen-duty cumulative
+    closure without substantive weighting, modulator-effect, selected profile, target-function, route, Output-Class, person/group,
+    predictive, normative, application, or authority inference
+  - bounded Chapter 35 WP3 profile/type, explicit profile-projection, dual-threshold, anti-inflation, add-on non-authority,
+    integrated counterfactual, and localized failure architecture with twenty-four-duty closure, exact Loss, distinct Claim
+    Reduction/Stop/Failure/Non-Capture routes, and source non-invalidation without substantive weighting, modulator-effect,
+    selected profile, threshold, target-function, route, Output-Class, person/group, predictive, normative, application, or
+    authority inference
+  - bounded Chapter 35 WP4 family-method provisional lock and Chapter 36 competing-projections Preparation Gate with twenty-four-duty
+    closure, protected P/K/L non-adjudication, unchanged inventories, existing smoke-test execution, compatibility/competition
+    coordinate discipline, serious alternatives and no-projection, qualitative non-compensatory comparison criteria, indeterminacy/non-comparability/non-translation,
+    exact Loss, Stop, Non-Capture, source preservation, and non-tribunal/non-authority controls without preferred projection,
+    comparison result, route, Output-Class, person/theory judgment, normative, political, legal, application, or authority
+    inference
+  - bounded Chapter 36 WP2 qualitative non-compensatory criteria, exact candidate Loss, discriminative performance, weaker-candidate,
+    no-projection, co-validity, context-dependence, indeterminacy, and WP3 handoff without automatic candidate validity, ranking,
+    route, output, tribunal, or authority inference
+  - bounded Chapter 36 WP3 non-translation, non-contradiction, non-comparability, output discipline, non-tribunal counterfactual
+    comparison, localized failure, Projection Comparison Record view, and WP4 handoff with twenty-four-duty substantive closure
+    without pressure-scene adjudication, candidate merger, schema expansion, ranking, route, output, tribunal, or authority
+    inference
+  - bounded Chapter 37 WP1 projection/analogy/substitution triad, complete PROJECT_AS burden, stable source and mapping-subset
+    lock, explicit cross-domain coordinates and direction, positional/formal/praxeological semantic separation, source-only
+    and target-only residual discipline, artificial-fitting pressure, and eight-duty closure without mapping-status, semantic-preservation,
+    target-function, label-substitution, route, Output-Class, test-YAML, domain-rank, recommendation, governance, or authority
+    inference
+  - bounded Chapter 37 WP2 symbolic/formal/executable mapping separation, execution-proof limit, terminal-analogy and partial-analogy
+    discipline, label-substitution markers, source/target/direction/label/countercase/no-projection variation, and sixteen-duty
+    cumulative closure without mapping-status, semantic-preservation, target-function, substitution-result, route, Output-Class,
+    test-YAML, domain-rank, recommendation, governance, or authority inference
+  - bounded Chapter 37 WP3 analogy-drift, translation-breadth, integrated nine-station stress-test, canonical output separation,
+    localized failure, Non-Capture, source-preservation, and non-authority architecture with twenty-four-duty closure without
+    pressure-object adjudication, mapping score, semantic engine, route, Output-Class, test-YAML, domain-rank, recommendation,
+    governance, or authority inference
+  - provisionally locked Chapter 37 projection/analogy/substitution family with stable source/target coordinates, symbolic-formal-executable-semantic-functional
+    separation, residual and exact-Loss discipline, terminal and partial analogy, substitution markers, analogy-drift and
+    translation-breadth controls, localized Reduction/Stop/Failure/Non-Capture, protected M/L non-adjudication, and Chapter-38
+    handoff without automatic semantic preservation, target function, label result, person/domain/theory rank, recommendation,
+    governance, output, or authority inference
+  - bounded Chapter 38 WP1 invalid-type-jump, origin-type/target-function, complete target-coordinate, missing-context, bounded-metaphor,
+    trigger-separation, source-integrity, ambiguity-review, and WP2 handoff controls with eight-duty closure without pressure-object
+    adjudication, route, Output-Class, new operation, schema, test-YAML, person typing, primitive creation, recommendation,
+    governance, or authority inference
+  - bounded Chapter 38 WP2 level-mixing, granularity-mixing, failure-preserving projection rescue, independently testable
+    new-claim, person/group anti-typing, primitive/inventory protection, genuine dual-record, and WP3 handoff controls with
+    sixteen-duty cumulative closure without pressure-object error, repaired claim, route, output, schema expansion, recommendation,
+    governance, or authority inference
+  - bounded Chapter 38 WP3 scope-inflation, temporal-flattening, exact five-part projection-Loss, visibility-change, invalid-projection-view,
+    failure-localization, claim-reduction, output-boundary, and WP4 handoff controls with twenty-four-duty cumulative closure
+    without pressure-object adjudication, repaired claim, route, Output-Class, schema expansion, recommendation, governance,
+    or authority inference
   governing_authority_sources:
   - path: PMS.yaml
     role: unchanged external PMS Base dependency
@@ -364,6 +512,54 @@ artifact:
   non_authority_statement: Rule completeness, local vocabulary validity, YAML validity, schema validity, audit-stage completion,
     or compatible final-class references do not establish substantive admissibility, empirical truth, actual causality, semantic
     validity, normative validity, person judgment, legitimacy, intervention warrant, or application authority.
+model_layering:
+  purpose: Make the current operative formal-rule core visibly distinguishable from accumulated chapter, WP, review, and maintenance provenance without deleting development history or creating a second rule registry.
+  current_operative_rule_core:
+    authority_scope: formal_operationalization_only
+    upstream_precedence_preserved: true
+    top_level_keys:
+    - rule_registry_constraints
+    - shared_rule_contract
+    - controlled_local_vocabularies
+    - ordered_audit_contract
+    - rule_profiles
+    - non_compensation_contract
+    - claim_reduction_contract
+    - stop_and_reentry_contract
+    - non_capture_contract
+    - anti_immunization_contract
+    - claim_and_authority_ceiling_contract
+    - operation_specific_rule_overlays
+    - formal_model_boundary
+    current_core_may_be_read_as_empirical_truth_or_application_authority: false
+  integration_metadata:
+    top_level_keys:
+    - cross_artifact_handoffs
+    role: current cross-artifact routing and ownership metadata without independent rule semantics
+    may_override_current_operative_rule_core: false
+  historical_production_trace:
+    key_selectors:
+    - chapter_*_handoff
+    - chapter_*_lock
+    - chapter_*_preparation_handoff
+    - chapter_*_wp*_handoff
+    - pms_operator_reanchoring_*
+    - pre_limits_*_maintenance_*
+    authority_role: non_normative_provenance
+    may_define_new_rule: false
+    may_define_new_operation: false
+    may_define_new_output_class: false
+    may_define_new_audit_stage: false
+    may_override_current_status_or_core_semantics: false
+    stale_pending_or_next_step_language_is_current_status: false
+  interpretation_order:
+  - upstream canonical prose and Minified controls
+  - current operative formal-rule core within this artifact
+  - current integration metadata
+  - historical production trace for provenance only
+  no_large_refactor_performed: true
+  authority_inheritance: prohibited
+
 rule_registry_constraints:
   exact_rule_count: 16
   canonical_rule_ids:
@@ -2053,12 +2249,18 @@ chapter_6_admissibility_band_handoff:
     exhaustive_reproduction_not_required: true
   counterfactual_sensitivity_contract:
     tests_declared_source_dependency: true
-    local_findings:
-    - sensitive
+    canonical_local_findings:
+    - strongly_sensitive
     - partially_sensitive
+    - weakly_sensitive
     - insensitive
     - underdetermined
-    - not_testable_with_available_sources
+    - untestable
+    legacy_label_mapping:
+      sensitive: strongly_sensitive
+      partially sensitive: partially_sensitive
+      not testable with available sources: untestable
+    legacy_labels_not_additional_values: true
     local_findings_not_output_classes: true
     causal_proof_prohibited: true
     necessity_proof_prohibited: true
@@ -10022,8 +10224,6 @@ chapter_28_wp4_handoff:
     automatic_lock_reopening_case_truth_component_relation_operation_mapping_or_target_function_decision_prohibited: true
     automatic_empirical_causal_semantic_normative_person_legitimacy_application_or_authority_inference_prohibited: true
     authority_inheritance: prohibited
-
-
 chapter_29_preparation_handoff:
   preparation_record: 04_reference/Chapter_29_Preparation_Record.md
   canonical_prose: 01_blocks/04_part_iii_retype.md
@@ -10096,9 +10296,9 @@ chapter_29_preparation_handoff:
     chapter: 29
     work_package: WP4
     sections: integrated_chapter_29_lock_audit
-    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, fingerprint, link, package, CRC, roundtrip, provisional-lock, and Chapter-30 Preparation handoff
+    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, fingerprint, link, package, CRC, roundtrip, provisional-lock,
+      and Chapter-30 Preparation handoff
   authority_inheritance: prohibited
-
 chapter_29_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-29-functional-projection-without-origin-type-replacement
   preparation_record: 04_reference/Chapter_29_Preparation_Record.md#16-wp1-execution-record
@@ -10159,8 +10359,6 @@ chapter_29_wp1_handoff:
     sections: 29.5-29.8
     focus: Target Function versus Operator Type, Source Object Integrity, Functional Continuity, and Contextual Boundedness
   authority_inheritance: prohibited
-
-
 chapter_29_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#29-5-target-function-versus-operator-type
   preparation_record: 04_reference/Chapter_29_Preparation_Record.md#17-wp2-execution-record
@@ -10238,14 +10436,15 @@ chapter_29_wp2_handoff:
     new_output_class_required: false
     new_audit_stage_required: false
     schema_change_required: false
-    automatic_source_load_semantic_continuity_counterfactual_truth_causality_operation_output_person_normative_or_authority_inference_prohibited: true
+    ? automatic_source_load_semantic_continuity_counterfactual_truth_causality_operation_output_person_normative_or_authority_inference_prohibited
+    : true
   next_controlled_step:
     chapter: 29
     work_package: WP4
     sections: integrated_chapter_29_lock_audit
-    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, fingerprint, link, package, CRC, roundtrip, provisional-lock, and Chapter-30 Preparation handoff
+    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, fingerprint, link, package, CRC, roundtrip, provisional-lock,
+      and Chapter-30 Preparation handoff
   authority_inheritance: prohibited
-
 chapter_29_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#29-9-projection-without-replacement
   preparation_record: 04_reference/Chapter_29_Preparation_Record.md#18-wp3-execution-record
@@ -10314,14 +10513,15 @@ chapter_29_wp3_handoff:
     new_output_class_required: false
     new_audit_stage_required: false
     schema_change_required: false
-    automatic_operation_identity_semantic_warrant_route_output_source_repair_person_normative_or_authority_inference_prohibited: true
+    ? automatic_operation_identity_semantic_warrant_route_output_source_repair_person_normative_or_authority_inference_prohibited
+    : true
   next_controlled_step:
     chapter: 29
     work_package: WP4
     sections: integrated_chapter_29_lock_audit
-    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, fingerprint, link, package, CRC, roundtrip, provisional-lock, and Chapter-30 Preparation handoff
+    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, fingerprint, link, package, CRC, roundtrip, provisional-lock,
+      and Chapter-30 Preparation handoff
   authority_inheritance: prohibited
-
 chapter_29_wp4_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-29-completion-boundary
   preparation_record: 04_reference/Chapter_29_Preparation_Record.md#19-wp4-execution-and-provisional-lock-record
@@ -10367,9 +10567,9 @@ chapter_29_wp4_handoff:
     sections: 31.1-31.4
     focus: Basic Claim, Source Object, Target Context, and Frame-Function
   formal_model_limits:
-    automatic_lock_target_function_semantic_continuity_counterfactual_truth_causality_output_person_normative_or_authority_inference_prohibited: true
+    ? automatic_lock_target_function_semantic_continuity_counterfactual_truth_causality_output_person_normative_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_30_preparation_handoff:
   preparation_record: 04_reference/Chapter_30_Preparation_Record.md
   canonical_prose: 01_blocks/04_part_iii_retype.md
@@ -10423,13 +10623,12 @@ chapter_30_preparation_handoff:
     chapter: 30
     work_package: WP4
     sections: integrated_audit_and_provisional_lock
-    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, link, fingerprint, package, CRC, roundtrip, provisional-lock decision, and Chapter-31 Preparation handoff
+    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, link, fingerprint, package, CRC, roundtrip, provisional-lock
+      decision, and Chapter-31 Preparation handoff
   formal_model_limits:
-    automatic_source_load_semantic_function_counterfactual_truth_causality_parsimony_route_output_person_normative_or_authority_inference_prohibited: true
+    ? automatic_source_load_semantic_function_counterfactual_truth_causality_parsimony_route_output_person_normative_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
-
 chapter_30_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-30-project-as-signature-context-and-validity-scope
   preparation_record: 04_reference/Chapter_30_Preparation_Record.md#16-wp1-execution-record
@@ -10480,11 +10679,12 @@ chapter_30_wp1_handoff:
     chapter: 30
     work_package: WP4
     sections: integrated_audit_and_provisional_lock
-    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, link, fingerprint, package, CRC, roundtrip, provisional-lock decision, and Chapter-31 Preparation handoff
+    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, link, fingerprint, package, CRC, roundtrip, provisional-lock
+      decision, and Chapter-31 Preparation handoff
   formal_model_limits:
-    automatic_source_identity_source_sufficiency_target_function_semantic_warrant_counterfactual_truth_causality_route_output_person_normative_or_authority_inference_prohibited: true
+    ? automatic_source_identity_source_sufficiency_target_function_semantic_warrant_counterfactual_truth_causality_route_output_person_normative_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_30_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#30-5-target-declaration
   preparation_record: 04_reference/Chapter_30_Preparation_Record.md#17-wp2-execution-record
@@ -10530,7 +10730,7 @@ chapter_30_wp2_handoff:
     - weakly_sensitive
     - insensitive
     - underdetermined
-    - not_testable
+    - untestable
     descriptions_are_scores: false
     descriptions_are_canonical_output_classes: false
     automatic_route_selection: false
@@ -10554,12 +10754,12 @@ chapter_30_wp2_handoff:
     chapter: 30
     work_package: WP4
     sections: integrated_audit_and_provisional_lock
-    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, link, fingerprint, package, CRC, roundtrip, provisional-lock decision, and Chapter-31 Preparation handoff
+    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, link, fingerprint, package, CRC, roundtrip, provisional-lock
+      decision, and Chapter-31 Preparation handoff
   formal_model_limits:
-    automatic_analytical_need_source_load_semantic_function_counterfactual_truth_causality_parsimony_route_output_person_normative_legitimacy_recommendation_sanction_or_authority_inference_prohibited: true
+    ? automatic_analytical_need_source_load_semantic_function_counterfactual_truth_causality_parsimony_route_output_person_normative_legitimacy_recommendation_sanction_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
 chapter_30_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#30-9-validity-scope
   preparation_record: 04_reference/Chapter_30_Preparation_Record.md#18-wp3-execution-record
@@ -10634,11 +10834,12 @@ chapter_30_wp3_handoff:
     chapter: 30
     work_package: WP4
     sections: integrated_audit_and_provisional_lock
-    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, link, fingerprint, package, CRC, roundtrip, provisional-lock decision, and Chapter-31 Preparation handoff
+    focus: Contract, twenty-four-duty, Reference, Formal-Model, schema, link, fingerprint, package, CRC, roundtrip, provisional-lock
+      decision, and Chapter-31 Preparation handoff
   formal_model_limits:
-    automatic_source_load_semantic_function_empirical_difference_counterfactual_truth_causality_parsimony_transfer_route_output_person_normative_legitimacy_recommendation_sanction_or_authority_inference_prohibited: true
+    ? automatic_source_load_semantic_function_empirical_difference_counterfactual_truth_causality_parsimony_transfer_route_output_person_normative_legitimacy_recommendation_sanction_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_30_wp4_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-30-completion-boundary
   preparation_record: 04_reference/Chapter_30_Preparation_Record.md#19-wp4-execution-and-provisional-lock-record
@@ -10685,9 +10886,9 @@ chapter_30_wp4_handoff:
     sections: 31.1-31.4
     focus: Basic Claim, Source Object, Target Context, and Frame-Function
   formal_model_limits:
-    automatic_family_warrant_historical_load_semantic_function_counterfactual_truth_causality_relative_load_route_output_person_normative_or_authority_inference_prohibited: true
+    ? automatic_family_warrant_historical_load_semantic_function_counterfactual_truth_causality_relative_load_route_output_person_normative_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_31_preparation_handoff:
   preparation_record: 04_reference/Chapter_31_Preparation_Record.md
   canonical_prose: 01_blocks/04_part_iii_retype.md
@@ -10747,11 +10948,9 @@ chapter_31_preparation_handoff:
     sections: 32.5-32.7
     focus: Internal Duration, Internal Heterogeneity, and Event Function
   formal_model_limits:
-    automatic_source_selection_independence_evidence_substitution_historical_frame_truth_causality_relative_load_output_person_normative_or_authority_inference_prohibited: true
+    ? automatic_source_selection_independence_evidence_substitution_historical_frame_truth_causality_relative_load_output_person_normative_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
-
 chapter_31_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-31-trajectory-as-frame-function
   preparation_record: 04_reference/Chapter_31_Preparation_Record.md#14-wp1-execution-record
@@ -10817,10 +11016,9 @@ chapter_31_wp1_handoff:
     sections: 31.5-31.7
     focus: Historical Load, Frame-Function without Historical Determinism, and Multiple Frame Sources
   formal_model_limits:
-    automatic_source_selection_independence_evidence_warrant_historical_load_frame_truth_causality_relative_load_route_output_person_normative_legitimacy_recommendation_sanction_or_authority_inference_prohibited: true
+    ? automatic_source_selection_independence_evidence_warrant_historical_load_frame_truth_causality_relative_load_route_output_person_normative_legitimacy_recommendation_sanction_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
 chapter_31_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#31-5-historical-load
   preparation_record: 04_reference/Chapter_31_Preparation_Record.md#15-wp2-execution-record
@@ -10887,12 +11085,12 @@ chapter_31_wp2_handoff:
     chapter: 31
     work_package: WP3
     sections: 31.8-31.11
-    focus: Rhetorical History versus Frame-Function, Counterfactual Frame Test, Competing Frame Projections, and Failed Frame Projection
+    focus: Rhetorical History versus Frame-Function, Counterfactual Frame Test, Competing Frame Projections, and Failed Frame
+      Projection
   formal_model_limits:
-    automatic_historical_load_carrier_truth_causality_prediction_relative_load_score_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_historical_load_carrier_truth_causality_prediction_relative_load_score_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
 chapter_31_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#31-8-rhetorical-history-versus-frame-function
   preparation_record: 04_reference/Chapter_31_Preparation_Record.md#16-wp3-execution-record
@@ -10963,9 +11161,9 @@ chapter_31_wp3_handoff:
     work_package: WP4
     focus: integrated audit, provisional-lock decision, and Chapter-32 Preparation handoff
   formal_model_limits:
-    automatic_rhetorical_history_trace_truth_counterfactual_truth_causality_same_end_equivalence_projection_selection_failure_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_rhetorical_history_trace_truth_counterfactual_truth_causality_same_end_equivalence_projection_selection_failure_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_31_wp4_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-31-completion-boundary
   preparation_record: 04_reference/Chapter_31_Preparation_Record.md#17-wp4-execution-and-provisional-lock-record
@@ -11019,9 +11217,9 @@ chapter_31_wp4_handoff:
     sections: integrated_lock_audit
     focus: Twenty-four-duty audit, provisional Chapter-32 lock decision, and Chapter-33 Preparation handoff
   formal_model_limits:
-    automatic_lock_historical_load_frame_truth_counterfactual_truth_causality_relative_load_projection_selection_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_lock_historical_load_frame_truth_counterfactual_truth_causality_relative_load_projection_selection_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_32_preparation_handoff:
   preparation_record: 04_reference/Chapter_32_Preparation_Record.md
   canonical_prose: 01_blocks/04_part_iii_retype.md
@@ -11083,10 +11281,9 @@ chapter_32_preparation_handoff:
     sections: 32.1-32.4
     focus: Basic Claim, Macro-Event as Target Function, Target Frame, and Boundary Selection
   formal_model_limits:
-    automatic_periodization_boundary_warrant_duration_preservation_transition_function_causal_turning_point_source_preference_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_periodization_boundary_warrant_duration_preservation_transition_function_causal_turning_point_source_preference_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
 chapter_32_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-32-trajectory-as-macro-event
   preparation_record: 04_reference/Chapter_32_Preparation_Record.md#14-wp1-execution-record
@@ -11163,9 +11360,9 @@ chapter_32_wp1_handoff:
     sections: 32.5-32.7
     focus: Internal Duration, Internal Heterogeneity, and Event Function
   formal_model_limits:
-    automatic_source_independence_periodization_boundary_warrant_transition_truth_duration_preservation_heterogeneity_preservation_causality_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_source_independence_periodization_boundary_warrant_transition_truth_duration_preservation_heterogeneity_preservation_causality_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_32_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#32-5-internal-duration
   preparation_record: 04_reference/Chapter_32_Preparation_Record.md#15-wp2-execution-record
@@ -11233,10 +11430,9 @@ chapter_32_wp2_handoff:
     sections: 32.8-32.11
     focus: Punctualization Error, Macro-Event versus COMPOSE, Counterfactual Macro-Event Test, and Failed Macro-Event Projection
   formal_model_limits:
-    automatic_duration_preservation_heterogeneity_preservation_phase_load_transition_truth_counterfactual_causality_source_preference_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_duration_preservation_heterogeneity_preservation_phase_load_transition_truth_counterfactual_causality_source_preference_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
 chapter_32_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#32-8-punctualization-error
   preparation_record: 04_reference/Chapter_32_Preparation_Record.md#16-wp3-execution-record
@@ -11311,7 +11507,8 @@ chapter_32_wp3_handoff:
     sections: integrated_lock_audit
     focus: Twenty-four-duty audit, provisional Chapter-32 lock decision, and Chapter-33 Preparation handoff
   formal_model_limits:
-    automatic_punctualization_truth_historical_periodization_source_preference_transition_truth_counterfactual_causality_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_punctualization_truth_historical_periodization_source_preference_transition_truth_counterfactual_causality_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
 chapter_32_wp4_lock:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-32-completion-boundary
@@ -11366,9 +11563,9 @@ chapter_32_wp4_lock:
     sections: 33.8-33.10
     focus: Recurrent Form versus Retrospective Similarity, Counterfactual Attractor Test, and Failed Attractor Projection
   formal_model_limits:
-    automatic_periodization_punctualization_transition_truth_causality_source_preference_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_periodization_punctualization_transition_truth_causality_source_preference_route_output_person_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_33_preparation_handoff:
   canonical_owner: 04_reference/Chapter_33_Preparation_Record.md
   status: preparation_gate_and_wp1_wp2_wp3_complete_chapter_open
@@ -11432,11 +11629,9 @@ chapter_33_preparation_handoff:
     sections: 33.1-33.4
     focus: Basic Claim, Single Trajectory versus Recurrent Form, Dynamic Attractor, and Pattern Threshold
   formal_model_limits:
-    automatic_trajectory_comparability_recurrent_form_mechanism_threshold_later_path_effect_probability_determinism_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_trajectory_comparability_recurrent_form_mechanism_threshold_later_path_effect_probability_determinism_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
-
 chapter_33_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-33-recurrent-trajectory-form-as-attractor-function
   preparation_record: 04_reference/Chapter_33_Preparation_Record.md#14-wp1-execution-record
@@ -11455,9 +11650,9 @@ chapter_33_wp1_handoff:
     retype_part_locked: false
   source_controls:
     source_trajectories:
-      - documented_trajectory_T1
-      - documented_trajectory_T2
-      - documented_trajectory_T3
+    - documented_trajectory_T1
+    - documented_trajectory_T2
+    - documented_trajectory_T3
     candidate_source_object: recurrent_trajectory_form_R
     origin_type: derived_recurrent_form_composite
     multiple_independently_warranted_trajectories_required: true
@@ -11524,8 +11719,8 @@ chapter_33_wp1_handoff:
     sections: 33.5-33.7
     focus: Constitutive Repetition, Attractor Load, and Dynamic versus Static Attractor-Function
   formal_model_limits:
-    automatic_trajectory_comparability_recurrent_form_pattern_threshold_mechanism_later_path_effect_probability_determinism_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
-
+    ? automatic_trajectory_comparability_recurrent_form_pattern_threshold_mechanism_later_path_effect_probability_determinism_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
 chapter_33_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#33-5-constitutive-repetition
   preparation_record: 04_reference/Chapter_33_Preparation_Record.md#15-wp2-execution-record
@@ -11570,7 +11765,8 @@ chapter_33_wp2_handoff:
     context_roles_level_time_granularity_and_praxis_dimensions_required: true
     present_and_rival_conditions_retained: true
     claim_ceiling_stop_and_non_capture_required: true
-    causal_monopoly_unsupported_probability_diagnosis_classification_recommendation_sanction_legitimacy_and_authority_prohibited: true
+    ? causal_monopoly_unsupported_probability_diagnosis_classification_recommendation_sanction_legitimacy_and_authority_prohibited
+    : true
   dynamic_static_controls:
     dynamic_and_static_claims_separate: true
     traces_scope_loss_results_and_mappings_separate: true
@@ -11606,9 +11802,9 @@ chapter_33_wp2_handoff:
     sections: 33.8-33.10
     focus: Recurrent Form versus Retrospective Similarity, Counterfactual Attractor Test, and Failed Attractor Projection
   formal_model_limits:
-    automatic_constitutive_phase_selection_mechanism_attractor_load_later_path_effect_dynamic_static_truth_probability_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_constitutive_phase_selection_mechanism_attractor_load_later_path_effect_dynamic_static_truth_probability_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_33_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#33-8-recurrent-form-versus-retrospective-similarity
   preparation_record: 04_reference/Chapter_33_Preparation_Record.md#16-wp3-execution-record
@@ -11704,11 +11900,12 @@ chapter_33_wp3_handoff:
   next_controlled_step:
     chapter: 33
     work_package: WP4
-    focus: integrated Contract, redundancy, twenty-four-duty, scientific lock, reference, formal-model, schema, link, fingerprint, and package audit plus Chapter-34 preparation
+    focus: integrated Contract, redundancy, twenty-four-duty, scientific lock, reference, formal-model, schema, link, fingerprint,
+      and package audit plus Chapter-34 preparation
   formal_model_limits:
-    automatic_source_selection_missingness_recurrent_form_mechanism_attractor_load_counterfactual_truth_rival_preference_dynamic_static_truth_probability_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_source_selection_missingness_recurrent_form_mechanism_attractor_load_counterfactual_truth_rival_preference_dynamic_static_truth_probability_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_33_wp4_lock:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-33-completion-boundary
   preparation_record: 04_reference/Chapter_33_Preparation_Record.md#17-wp4-execution-and-provisional-lock-record
@@ -11764,11 +11961,12 @@ chapter_33_wp4_lock:
     chapter: 34
     work_package: WP2
     sections: 34.5-34.7
-    focus: Repeated Commitments as Higher-Level Ψ-Function, Multiple Integrations as Higher-Level Σ-Function, and Emergent Function
+    focus: Repeated Commitments as Higher-Level Ψ-Function, Multiple Integrations as Higher-Level Σ-Function, and Emergent
+      Function
   formal_model_limits:
-    automatic_recurrent_source_mechanism_attractor_load_counterfactual_truth_probability_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_recurrent_source_mechanism_attractor_load_counterfactual_truth_probability_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_34_preparation_handoff:
   canonical_owner: 04_reference/Chapter_34_Preparation_Record.md
   status: preparation_gate_and_wp1_complete_chapter_open
@@ -11833,11 +12031,12 @@ chapter_34_preparation_handoff:
     chapter: 34
     work_package: WP1
     sections: 34.1-34.4
-    focus: Basic Claim, Local Differences as Higher-Level Boundary Function, Repeated Non-Events as Higher-Level Attractor-Function, and Distributed Asymmetries as Higher-Level Ω-Function
+    focus: Basic Claim, Local Differences as Higher-Level Boundary Function, Repeated Non-Events as Higher-Level Attractor-Function,
+      and Distributed Asymmetries as Higher-Level Ω-Function
   formal_model_limits:
-    automatic_composite_identity_relation_truth_functional_formation_emergence_subset_frame_target_effect_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_composite_identity_relation_truth_functional_formation_emergence_subset_frame_target_effect_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_34_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-34-composite-structures-as-higher-level-functions
   preparation_record: 04_reference/Chapter_34_Preparation_Record.md#13-wp1-execution-record
@@ -11916,11 +12115,12 @@ chapter_34_wp1_handoff:
     chapter: 34
     work_package: WP2
     sections: 34.5-34.7
-    focus: Repeated Commitments as Higher-Level Ψ-Function, Multiple Integrations as Higher-Level Σ-Function, and Emergent Function
+    focus: Repeated Commitments as Higher-Level Ψ-Function, Multiple Integrations as Higher-Level Σ-Function, and Emergent
+      Function
   formal_model_limits:
-    automatic_composite_identity_relation_truth_component_load_functional_formation_emergence_target_effect_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_composite_identity_relation_truth_component_load_functional_formation_emergence_target_effect_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_34_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#34-5-repeated-commitments-as-higher-level-psi-function
   preparation_record: 04_reference/Chapter_34_Preparation_Record.md#14-wp2-execution-record
@@ -11972,7 +12172,8 @@ chapter_34_wp2_handoff:
     roles_are_scores_or_permanent_types: false
     roles_assigned_to_Q_components: false
   relation_and_substitution_controls:
-    coordination_reinforcement_dependency_sequence_shared_effect_load_transfer_translation_repair_and_countervailing_trace_supported: true
+    ? coordination_reinforcement_dependency_sequence_shared_effect_load_transfer_translation_repair_and_countervailing_trace_supported
+    : true
     removal_replacement_redundancy_smaller_subset_overinclusive_source_and_relation_disruption_required: true
     internal_conflict_may_weaken_redirect_split_reduce_stop_fail_or_non_capture: true
     internal_conflict_automatically_destroys_composite_or_function: false
@@ -12005,11 +12206,12 @@ chapter_34_wp2_handoff:
     chapter: 34
     work_package: WP3
     sections: 34.8-34.11
-    focus: Aggregation versus Functional Formation, Thresholds, Higher-Level Function without Authority Increase, and Failed Higher-Level Projection
+    focus: Aggregation versus Functional Formation, Thresholds, Higher-Level Function without Authority Increase, and Failed
+      Higher-Level Projection
   formal_model_limits:
-    automatic_component_role_relation_truth_functional_formation_emergence_threshold_target_effect_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_component_role_relation_truth_functional_formation_emergence_threshold_target_effect_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_34_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#34-8-aggregation-versus-functional-formation
   preparation_record: 04_reference/Chapter_34_Preparation_Record.md#15-wp3-execution-record
@@ -12058,7 +12260,8 @@ chapter_34_wp3_handoff:
     schema_validity_smoke_success_or_reader_legibility_adds_substantive_warrant: false
     authority_inheritance: prohibited
   failure_controls:
-    failure_localized_to_component_relation_boundary_target_placement_target_function_threshold_type_counterfactual_or_authority_position: true
+    ? failure_localized_to_component_relation_boundary_target_placement_target_function_threshold_type_counterfactual_or_authority_position
+    : true
     valid_source_components_or_source_side_results_automatically_invalidated: false
     claim_reduction_required_retained: true
     mandatory_stop_retained: true
@@ -12096,9 +12299,9 @@ chapter_34_wp3_handoff:
     work_package: WP4
     focus: Integrated Chapter-34 family-method lock audit and Chapter-35 Preparation handoff
   formal_model_limits:
-    automatic_component_relation_boundary_frame_functional_formation_threshold_emergence_target_effect_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_component_relation_boundary_frame_functional_formation_threshold_emergence_target_effect_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_34_wp4_lock:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-34-completion-boundary
   preparation_record: 04_reference/Chapter_34_Preparation_Record.md#16-wp4-execution-and-provisional-lock-record
@@ -12161,9 +12364,9 @@ chapter_34_wp4_lock:
     sections: 35.5-35.7
     focus: Modulating Profile, From Weighting to Trajectory Form, and Emergent Functional Profile
   formal_model_limits:
-    automatic_component_relation_formation_emergence_threshold_target_effect_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_component_relation_formation_emergence_threshold_target_effect_causality_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_35_preparation_handoff:
   canonical_owner: 04_reference/Chapter_35_Preparation_Record.md
   status: preparation_gate_and_wp1_wp2_wp3_wp4_complete_chapter_provisionally_locked
@@ -12249,10 +12452,9 @@ chapter_35_preparation_handoff:
     sections: 36.1-36.4
     focus: Multiple Plausible Functions, Compatibility, Competition, and Projection Alternatives
   formal_model_limits:
-    automatic_weight_modulator_profile_stability_trajectory_target_effect_causality_prediction_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_weight_modulator_profile_stability_trajectory_target_effect_causality_prediction_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
 chapter_35_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-35-operator-weighting-modulation-and-emergent-functional-profiles
   preparation_record: 04_reference/Chapter_35_Preparation_Record.md#13-wp1-execution-record
@@ -12346,9 +12548,9 @@ chapter_35_wp1_handoff:
     sections: 35.5-35.7
     focus: Modulating Profile, From Weighting to Trajectory Form, and Emergent Functional Profile
   formal_model_limits:
-    automatic_occurrence_weight_modulator_effect_profile_stability_trajectory_target_effect_causality_prediction_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_occurrence_weight_modulator_effect_profile_stability_trajectory_target_effect_causality_prediction_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_35_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#35-5-modulating-profile
   preparation_record: 04_reference/Chapter_35_Preparation_Record.md#14-wp2-execution-record
@@ -12455,11 +12657,12 @@ chapter_35_wp2_handoff:
     chapter: 35
     work_package: WP3
     sections: 35.8-35.12
-    focus: Profile versus Type, Profile Projection, Risks of Profile Inflation, Use of Add-On Stress Cases, and Failed Modulation Claim
+    focus: Profile versus Type, Profile Projection, Risks of Profile Inflation, Use of Add-On Stress Cases, and Failed Modulation
+      Claim
   formal_model_limits:
-    automatic_weight_modulator_effect_profile_stability_trajectory_emergence_target_effect_causality_prediction_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_weight_modulator_effect_profile_stability_trajectory_emergence_target_effect_causality_prediction_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_35_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md#35-8-profile-versus-type
   preparation_record: 04_reference/Chapter_35_Preparation_Record.md#15-wp3-execution-record
@@ -12493,7 +12696,8 @@ chapter_35_wp3_handoff:
     threshold_uncertainty_must_remain_visible: true
   inflation_controls:
     universal_profile_naming_prohibited: true
-    hidden_typing_criteria_drift_counterexample_absorption_projection_inflation_label_invariance_and_authority_inflation_checked: true
+    ? hidden_typing_criteria_drift_counterexample_absorption_projection_inflation_label_invariance_and_authority_inflation_checked
+    : true
     relevance_floor_and_traceability_ceiling_tests_required: true
     canonical_profile_enum_or_taxonomy_required: false
   addon_controls:
@@ -12505,7 +12709,8 @@ chapter_35_wp3_handoff:
     no_stable_profile_no_projection_descriptive_relation_and_non_capture_retained: true
     counterfactual_sensitivity_implies_causal_necessity_sufficiency_percentage_probability_or_prediction: false
   failure_controls:
-    occurrence_relation_weighting_modulator_stability_threshold_type_integrity_projection_and_authority_failure_positions_distinct: true
+    ? occurrence_relation_weighting_modulator_stability_threshold_type_integrity_projection_and_authority_failure_positions_distinct
+    : true
     claim_reduction_mandatory_stop_failed_transformation_and_non_capture_distinct: true
     failed_target_projection_automatically_invalidates_source_occurrences_or_profile: false
     negative_result_authorizes_person_or_group_judgment: false
@@ -12542,9 +12747,9 @@ chapter_35_wp3_handoff:
     sections: integrated_lock_audit
     focus: Chapter 35 family-method provisional-lock decision and Chapter 36 Preparation handoff
   formal_model_limits:
-    automatic_weight_modulator_effect_profile_stability_trajectory_threshold_target_effect_causality_prediction_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_weight_modulator_effect_profile_stability_trajectory_threshold_target_effect_causality_prediction_route_output_person_group_normative_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_35_wp4_lock:
   canonical_owner: 01_blocks/04_part_iii_retype.md#chapter-35-completion-boundary
   preparation_record: 04_reference/Chapter_35_Preparation_Record.md#16-wp4-execution-and-provisional-lock-record
@@ -12602,9 +12807,9 @@ chapter_35_wp4_lock:
     sections: 36.1-36.4
     focus: Multiple Plausible Functions, Compatibility, Competition, and Projection Alternatives
   formal_model_limits:
-    automatic_weight_profile_target_effect_comparison_route_output_person_group_theory_normative_political_legal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_weight_profile_target_effect_comparison_route_output_person_group_theory_normative_political_legal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_36_preparation_handoff:
   canonical_owner: 04_reference/Chapter_36_Preparation_Record.md
   status: preparation_gate_and_wp1_wp2_complete_chapter_open
@@ -12646,7 +12851,8 @@ chapter_36_preparation_handoff:
   comparison_controls:
     target_context_level_object_claim_scope_validity_scope_and_time_coordinates_required: true
     compatibility_and_competition_must_use_explicit_coordinates: true
-    criteria_include_praxis_purchase_source_trace_counterfactual_sensitivity_exact_loss_context_fit_type_integrity_claim_ceiling_and_parsimony: true
+    ? criteria_include_praxis_purchase_source_trace_counterfactual_sensitivity_exact_loss_context_fit_type_integrity_claim_ceiling_and_parsimony
+    : true
     universal_score_or_ranking_metric_required: false
     weaker_more_sensitive_projection_may_be_preferable: true
     co_validity_context_dependence_indeterminacy_non_comparability_and_non_translation_retained: true
@@ -12676,9 +12882,9 @@ chapter_36_preparation_handoff:
     sections: integrated_lock_audit
     focus: Integrated Chapter-36 family-method audit, provisional-lock decision, and Chapter-37 Preparation handoff
   formal_model_limits:
-    automatic_semantic_or_empirical_best_projection_compatibility_competition_ranking_route_output_person_group_theory_normative_political_legal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_semantic_or_empirical_best_projection_compatibility_competition_ranking_route_output_person_group_theory_normative_political_legal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_36_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_36_Preparation_Record.md#chapter-36-wp1-execution-record
@@ -12757,9 +12963,9 @@ chapter_36_wp1_handoff:
     sections: 36.5-36.7
     focus: Comparative Criteria, Discriminative Performance, and Projection Indeterminacy
   formal_model_limits:
-    automatic_candidate_validity_compatibility_competition_preference_indeterminacy_noncomparability_no_projection_route_output_empirical_semantic_person_group_theory_normative_political_legal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_candidate_validity_compatibility_competition_preference_indeterminacy_noncomparability_no_projection_route_output_empirical_semantic_person_group_theory_normative_political_legal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_36_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_36_Preparation_Record.md#chapter-36-wp2-execution-record
@@ -12842,9 +13048,9 @@ chapter_36_wp2_handoff:
     sections: 36.8-36.10
     focus: Non-Translation, Projection Competition without Tribunal Logic, and Projection Comparison Record
   formal_model_limits:
-    automatic_candidate_validity_compatibility_competition_preference_no_projection_indeterminacy_noncomparability_nontranslation_route_output_empirical_semantic_person_group_theory_normative_political_legal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_candidate_validity_compatibility_competition_preference_no_projection_indeterminacy_noncomparability_nontranslation_route_output_empirical_semantic_person_group_theory_normative_political_legal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_36_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_36_Preparation_Record.md#chapter-36-wp3-execution-record
@@ -12936,9 +13142,9 @@ chapter_36_wp3_handoff:
     sections: integrated_lock_audit
     focus: Integrated Chapter-36 family-method audit, provisional-lock decision, and Chapter-37 Preparation handoff
   formal_model_limits:
-    automatic_translation_contradiction_compatibility_competition_preference_no_projection_indeterminacy_noncomparability_route_output_empirical_semantic_person_group_theory_normative_political_legal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_translation_contradiction_compatibility_competition_preference_no_projection_indeterminacy_noncomparability_route_output_empirical_semantic_person_group_theory_normative_political_legal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_36_wp4_lock:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_36_Preparation_Record.md#chapter-36-wp4-execution-record
@@ -12986,9 +13192,9 @@ chapter_36_wp4_lock:
     exact_canonical_loss_fields: 5
     schema_change_required: false
   formal_model_limits:
-    automatic_compatibility_competition_translation_preference_no_projection_route_output_semantic_empirical_person_group_theory_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_compatibility_competition_translation_preference_no_projection_route_output_semantic_empirical_person_group_theory_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_37_preparation_handoff:
   canonical_owner: 04_reference/Chapter_37_Preparation_Record.md
   status: preparation_gate_complete_chapter_not_drafted
@@ -13055,9 +13261,9 @@ chapter_37_preparation_handoff:
     sections: 37.1-37.4
     focus: Why the Distinction Matters, Valid Functional Projection, Structural Analogy, and Cross-Domain Projection
   formal_model_limits:
-    automatic_semantic_preservation_analogy_usefulness_target_function_empirical_causal_equivalence_model_superiority_person_group_domain_theory_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_semantic_preservation_analogy_usefulness_target_function_empirical_causal_equivalence_model_superiority_person_group_domain_theory_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_37_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_37_Preparation_Record.md#chapter-37-wp1-execution-record
@@ -13131,11 +13337,12 @@ chapter_37_wp1_handoff:
     chapter: 37
     work_package: WP2
     sections: 37.5-37.8
-    focus: Symbolic, formal, and executable mapping; analogy status and partial analogy; label substitution markers; and counterfactual mapping test
+    focus: Symbolic, formal, and executable mapping; analogy status and partial analogy; label substitution markers; and counterfactual
+      mapping test
   formal_model_limits:
-    automatic_semantic_preservation_analogy_status_target_function_label_substitution_route_output_empirical_causal_equivalence_model_superiority_person_group_domain_theory_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_semantic_preservation_analogy_status_target_function_label_substitution_route_output_empirical_causal_equivalence_model_superiority_person_group_domain_theory_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_37_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_37_Preparation_Record.md#chapter-37-wp2-execution-record
@@ -13211,11 +13418,12 @@ chapter_37_wp2_handoff:
     chapter: 37
     work_package: WP3
     sections: 37.9-37.12
-    focus: Analogy drift, translation breadth, integrated stress test, output and failure discipline, Non-Capture, and non-authority boundary
+    focus: Analogy drift, translation breadth, integrated stress test, output and failure discipline, Non-Capture, and non-authority
+      boundary
   formal_model_limits:
-    automatic_semantic_preservation_analogy_usefulness_target_function_label_substitution_route_output_empirical_causal_equivalence_model_superiority_person_group_domain_theory_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_semantic_preservation_analogy_usefulness_target_function_label_substitution_route_output_empirical_causal_equivalence_model_superiority_person_group_domain_theory_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_37_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_37_Preparation_Record.md#chapter-37-wp3-execution-record
@@ -13288,9 +13496,9 @@ chapter_37_wp3_handoff:
     sections: integrated_lock_audit
     focus: Chapter-37 family-method lock audit, provisional-lock decision, and Chapter-38 Preparation handoff
   formal_model_limits:
-    automatic_semantic_preservation_analogy_usefulness_target_function_label_substitution_drift_translation_quality_route_output_empirical_causal_equivalence_model_superiority_person_group_domain_theory_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_semantic_preservation_analogy_usefulness_target_function_label_substitution_drift_translation_quality_route_output_empirical_causal_equivalence_model_superiority_person_group_domain_theory_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_37_wp4_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_37_Preparation_Record.md#chapter-37-wp4-execution-record
@@ -13359,9 +13567,9 @@ chapter_37_wp4_handoff:
     sections: 38.1-38.4
     focus: Invalid Type Jump, Origin Type Equals Target Function, Missing Target Context, and Metaphorical Projection
   formal_model_limits:
-    automatic_semantic_preservation_target_function_label_substitution_error_result_route_output_empirical_causal_person_group_domain_theory_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_semantic_preservation_target_function_label_substitution_error_result_route_output_empirical_causal_person_group_domain_theory_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_38_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_38_Preparation_Record.md#chapter-38-wp1-execution-record
@@ -13418,11 +13626,12 @@ chapter_38_wp1_handoff:
     chapter: 38
     work_package: WP2
     sections: 38.5-38.9
-    focus: Unmarked Level Mixing, Granularity Mixing, Projection as Rescue Operation, Macrofunction Attributed to a Person, and New Primitive by Projection
+    focus: Unmarked Level Mixing, Granularity Mixing, Projection as Rescue Operation, Macrofunction Attributed to a Person,
+      and New Primitive by Projection
   formal_model_limits:
-    automatic_intended_metaphor_meaning_target_function_error_result_route_output_empirical_causal_person_group_type_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_intended_metaphor_meaning_target_function_error_result_route_output_empirical_causal_person_group_type_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_38_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_38_Preparation_Record.md#chapter-38-wp2-execution-record
@@ -13494,11 +13703,12 @@ chapter_38_wp2_handoff:
     chapter: 38
     work_package: WP3
     sections: 38.10-38.13
-    focus: Scope Inflation, Temporal Flattening, Projection without Loss, Invalid Projection Record, localized failure, Claim Reduction, and Output-boundary discipline
+    focus: Scope Inflation, Temporal Flattening, Projection without Loss, Invalid Projection Record, localized failure, Claim
+      Reduction, and Output-boundary discipline
   formal_model_limits:
-    automatic_cross_level_or_granular_validity_person_group_type_primitive_route_output_empirical_causal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_cross_level_or_granular_validity_person_group_type_primitive_route_output_empirical_causal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_38_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_38_Preparation_Record.md#chapter-38-wp3-execution-record
@@ -13514,12 +13724,12 @@ chapter_38_wp3_handoff:
     retype_part_locked: false
   scope_inflation_controls:
     scope_dimensions:
-      - context
-      - target_object
-      - population
-      - relative_level
-      - temporal_scope
-      - similarity_class
+    - context
+    - target_object
+    - population
+    - relative_level
+    - temporal_scope
+    - similarity_class
     each_dimension_tested_separately: true
     material_scope_extension_is_new_testable_claim: true
     original_bounded_claim_preserved_if_extension_fails: true
@@ -13533,11 +13743,11 @@ chapter_38_wp3_handoff:
   projection_loss_controls:
     exact_canonical_loss_fields: 5
     required_loss_fields:
-      - preserved
-      - compressed
-      - excluded
-      - uncertain
-      - irrecoverable
+    - preserved
+    - compressed
+    - excluded
+    - uncertain
+    - irrecoverable
     foregrounding_and_backgrounding_required: true
     foregrounding_and_backgrounding_are_additional_loss_fields: false
     lossless_neutral_no_compression_no_exclusion_or_total_reversibility_claim_accepted_automatically: false
@@ -13586,11 +13796,9 @@ chapter_38_wp3_handoff:
     work_package: WP4
     focus: integrated Chapter-38 family-method lock audit and Chapter-39 Preparation Gate
   formal_model_limits:
-    automatic_scope_validity_temporal_permanence_projection_truth_person_group_type_primitive_route_output_empirical_causal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_scope_validity_temporal_permanence_projection_truth_person_group_type_primitive_route_output_empirical_causal_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
-
 chapter_38_lock_and_chapter_39_preparation_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   chapter_38_execution_record: 04_reference/Chapter_38_Preparation_Record.md#chapter-38-wp4-execution-record
@@ -13649,9 +13857,9 @@ chapter_38_lock_and_chapter_39_preparation_handoff:
     sections: 39.1-39.4
     focus: Lower RETYPE Boundary, Renaming without Purchase, Projection without Functional Gain, and Upper RETYPE Boundary
   formal_model_limits:
-    automatic_functional_gain_source_trace_semantic_truth_best_function_route_output_empirical_causal_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_functional_gain_source_trace_semantic_truth_best_function_route_output_empirical_causal_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_39_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_39_Preparation_Record.md#chapter-39-wp1-execution-record
@@ -13701,9 +13909,9 @@ chapter_39_wp1_handoff:
     sections: 39.5-39.8
     focus: Function without Source Trace, Type Integrity Boundary, Context Boundary, and Counterfactual Projection Test
   formal_model_limits:
-    automatic_functional_gain_source_trace_candidate_validity_route_output_empirical_causal_semantic_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_functional_gain_source_trace_candidate_validity_route_output_empirical_causal_semantic_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_39_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_39_Preparation_Record.md#chapter-39-wp2-execution-record
@@ -13768,12 +13976,12 @@ chapter_39_wp2_handoff:
     chapter: 39
     work_package: WP3
     sections: 39.9-39.14
-    focus: Alternative Projection Test, Analogy Boundary, Projection Elasticity, RETYPE Stop Conditions, RETYPE Non-Capture, and RETYPE Admissibility Test
+    focus: Alternative Projection Test, Analogy Boundary, Projection Elasticity, RETYPE Stop Conditions, RETYPE Non-Capture,
+      and RETYPE Admissibility Test
   formal_model_limits:
-    automatic_constitutive_source_feature_source_dependence_causality_semantic_identity_candidate_validity_best_function_route_output_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_constitutive_source_feature_source_dependence_causality_semantic_identity_candidate_validity_best_function_route_output_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
 chapter_39_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_39_Preparation_Record.md#chapter-39-wp3-execution-record
@@ -13827,7 +14035,6 @@ chapter_39_wp3_handoff:
     work_package: WP4
     focus: integrated Chapter 39 lock audit and Chapter 40 Preparation Gate
   authority_inheritance: prohibited
-
 chapter_39_wp4_lock_and_chapter_40_preparation_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   chapter_39_execution_record: 04_reference/Chapter_39_Preparation_Record.md#chapter-39-wp4-execution-record
@@ -13887,9 +14094,9 @@ chapter_39_wp4_lock_and_chapter_40_preparation_handoff:
     sections: 40.1-40.8
     focus: Case Architecture and seven positive RETYPE case families
   formal_model_limits:
-    automatic_case_warrant_source_trace_semantic_truth_best_projection_route_output_lock_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_case_warrant_source_trace_semantic_truth_best_projection_route_output_lock_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_40_wp1_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_40_Preparation_Record.md#chapter-40-wp1-execution-record
@@ -13953,10 +14160,9 @@ chapter_40_wp1_handoff:
     sections: 40.9-40.15
     focus: seven RETYPE countercase families
   formal_model_limits:
-    automatic_case_warrant_source_trace_praxis_purchase_semantic_truth_compatibility_competition_route_output_lock_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_case_warrant_source_trace_praxis_purchase_semantic_truth_compatibility_competition_route_output_lock_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
 chapter_40_wp2_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_40_Preparation_Record.md#chapter-40-wp2-execution-record
@@ -14024,9 +14230,9 @@ chapter_40_wp2_handoff:
     sections: 40.16-40.21
     focus: six RETYPE confusion-case families
   formal_model_limits:
-    automatic_countercase_truth_route_output_lock_person_group_diagnosis_rank_motive_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_countercase_truth_route_output_lock_person_group_diagnosis_rank_motive_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
 chapter_40_wp3_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_40_Preparation_Record.md#chapter-40-wp3-execution-record
@@ -14094,10 +14300,9 @@ chapter_40_wp3_handoff:
     sections: 40.22-40.24
     focus: thirty_two_point_local_audit_canonical_mapping_artifact_audit_and_exact_lock_decision
   formal_model_limits:
-    automatic_operation_selection_case_warrant_semantic_preservation_target_function_route_output_lock_person_group_diagnosis_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_operation_selection_case_warrant_semantic_preservation_target_function_route_output_lock_person_group_diagnosis_rank_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
-
-
 chapter_40_wp4_handoff:
   canonical_owner: 01_blocks/04_part_iii_retype.md
   execution_record: 04_reference/Chapter_40_Preparation_Record.md#chapter-40-wp4-execution-record
@@ -14169,5 +14374,231 @@ chapter_40_wp4_handoff:
     sections: 41.1-41.4
     focus: structural_risk_recursive_availability_infinite_decomposition_and_unlimited_composition
   formal_model_limits:
-    automatic_case_warrant_case_route_substantive_audit_pass_artifact_completion_recursive_necessity_chain_admissibility_empirical_semantic_causal_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+    ? automatic_case_warrant_case_route_substantive_audit_pass_artifact_completion_recursive_necessity_chain_admissibility_empirical_semantic_causal_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
   authority_inheritance: prohibited
+pms_operator_reanchoring_chapters_29_35:
+  canonical_owner: 01_blocks/04_part_iii_retype.md
+  review_records:
+  - 04_reference/PMS_Operator_Reanchoring_Todo_Chapters_29_32.md
+  - 04_reference/PMS_Operator_Reanchoring_Todo_Chapters_33_35.md
+  status: canonical_reanchoring_patch_complete
+  registry_mode: non_routing_retype_source_trace_support
+  chapters_patched:
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  anchoring_controls:
+    occurrence_typing_inferred_from_target_fit: false
+    claim_relevant_occurrence_route_required_where_material: true
+    full_delta_psi_inventory_required: false
+    abstract_operator_varied_by_counterfactual: false
+    canonical_dependencies_changed: false
+    target_function_becomes_operator_occurrence: false
+    complete_operator_semantics_inherited: false
+    existing_record_positions_used: true
+    new_schema_field_created: false
+    new_audit_stage_created: false
+  family_controls:
+    chapter_31_bounded_frame_work_not_square_identity: true
+    chapter_32_macro_event_is_not_operator: true
+    chapter_33_bounded_attractor_work_not_alpha_identity: true
+    chapter_34_bounded_family_correspondence_not_dependency_inheritance: true
+    chapter_35_invoked_occurrence_scope_not_full_census: true
+  routing_controls:
+    missing_occurrence_anchor_is_automatic_failure: false
+    existing_claim_relative_routes_only: true
+  production_controls:
+    new_test_yaml_created: false
+    new_case_yaml_created: false
+    new_smoke_yaml_created: false
+  inventory_protection:
+    exact_operations: 3
+    exact_output_classes: 10
+    exact_rules: 16
+    exact_audit_stages: 12
+    exact_canonical_loss_fields: 5
+  prior_lock_controls:
+    chapter_40_bounded_provisional_lock_preserved: true
+    part_iii_bounded_provisional_lock_preserved: true
+    artifact_complete_retype_lock_route_preserved: mandatory_stop
+  next_controlled_step:
+    chapter: 41
+    work_package: WP1
+    sections: 41.1-41.4
+  formal_model_limits:
+    ? automatic_operator_typing_target_function_truth_semantic_equivalence_causal_inference_route_output_case_warrant_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
+  authority_inheritance: prohibited
+pms_operator_reanchoring_chapters_36_40:
+  canonical_owner: 01_blocks/04_part_iii_retype.md
+  review_record: 04_reference/PMS_Operator_Reanchoring_Todo_Chapters_36_40.md
+  status: canonical_reanchoring_patch_complete
+  registry_mode: non_routing_retype_source_trace_support
+  chapters_patched:
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  heading_normalization:
+    chapters: 35-40
+    part_heading_level: H1
+    chapter_heading_level: H2
+    explicit_anchors_preserved: true
+    prose_semantics_changed_by_heading_patch: false
+  anchoring_controls:
+    occurrence_typing_inferred_from_target_fit: false
+    shared_warranted_occurrence_packet_required_for_rival_comparison_where_material: true
+    analogy_and_projection_occurrence_trace_distinct: true
+    label_removal_test_preserved: true
+    operator_occurrence_not_operator_identity_or_person_type: true
+    traceability_ceiling_operator_label_without_occurrence_load_rejected: true
+    future_case_artifacts_require_existing_field_occurrence_trace_where_material: true
+    full_delta_psi_inventory_required: false
+    abstract_operator_varied_by_counterfactual: false
+    canonical_dependencies_changed: false
+    new_schema_field_created: false
+    new_audit_stage_created: false
+  production_controls:
+    new_test_yaml_created: false
+    new_case_yaml_created: false
+    new_smoke_yaml_created: false
+    case_family_adjudication_performed: false
+    missing_retype_lock_package_substitution: false
+  inventory_protection:
+    exact_operations: 3
+    exact_output_classes: 10
+    exact_rules: 16
+    exact_audit_stages: 12
+    exact_canonical_loss_fields: 5
+  prior_lock_controls:
+    chapter_40_bounded_provisional_lock_preserved: true
+    part_iii_bounded_provisional_lock_preserved: true
+    artifact_complete_retype_lock_route_preserved: mandatory_stop
+  next_controlled_maintenance_step:
+    work_package: WP3
+    focus: reference_and_navigation_synchronization
+  formal_model_limits:
+    ? automatic_operator_typing_target_function_truth_semantic_equivalence_causal_inference_route_output_case_warrant_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
+  authority_inheritance: prohibited
+pre_limits_reference_navigation_maintenance_wp3:
+  canonical_owners:
+  - 04_reference/*
+  - README.md
+  status: maintenance_wp3_complete
+  registry_mode: non_routing_reference_navigation_support
+  current_status_controls:
+    core_reference_files_synchronized: 11
+    historical_stage_statements_preserved_as_non_normative_provenance: true
+  artifact_registry_controls:
+    foundations_path_sub_populated_status_corrected: true
+    retype_bounded_provisional_status_corrected: true
+    path_sub_case_packages_indexed: 29
+    intentional_placeholders_preserved: true
+  anchor_controls:
+    declared_internal_file_targets_resolve: true
+    declared_internal_fragments_resolve: true
+    mass_reference_link_rewrite_performed: false
+    explicit_compatibility_anchors_used: true
+  inventory_protection:
+    exact_operations: 3
+    exact_output_classes: 10
+    exact_rules: 16
+    exact_audit_stages: 12
+    exact_canonical_loss_fields: 5
+  prior_lock_controls:
+    artifact_complete_retype_lock_route_preserved: mandatory_stop
+    chapter_41_canonical_prose_started: false
+  next_controlled_maintenance_step:
+    work_package: WP4
+    focus: formal_model_provenance_and_historical_state_clarity
+  formal_model_limits:
+    ? reference_synchronization_as_theory_case_warrant_truth_semantic_causal_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
+  authority_inheritance: prohibited
+  execution_record: 04_reference/PMS_STRATA_Pre_LIMITS_Reference_Navigation_Maintenance_WP3.md
+
+pre_limits_formal_model_provenance_maintenance_wp4:
+  canonical_owners:
+  - 07_model/PMS-STRATA.yaml
+  - 07_model/Admissibility_Rules.yaml
+  status: maintenance_wp4_complete
+  registry_mode: non_routing_formal_model_maintenance_support
+  assembly_provenance_controls:
+    active_assembly_input_snapshot: PMS-STRATA_Source_of_Truth_ZIP_259.zip
+    active_assembly_input_snapshot_sha256: 5d252aa46e85e6fc6d08c20f9a39bbf0e7ab1f03c96c7f5e0e94efecf5917fc4
+    historical_zip_147_reference_removed_from_active_assembly_basis: true
+    snapshot_is_build_input_not_authority_source: true
+  rule_layering_controls:
+    current_operative_rule_core_explicit: true
+    integration_metadata_explicit: true
+    historical_production_trace_explicitly_non_normative: true
+    historical_trace_may_override_current_core: false
+    large_model_refactor_performed: false
+  inventory_protection:
+    exact_operations: 3
+    exact_output_classes: 10
+    exact_rules: 16
+    exact_audit_stages: 12
+    exact_canonical_loss_fields: 5
+  prior_lock_controls:
+    artifact_complete_retype_lock_route_preserved: mandatory_stop
+    chapter_41_canonical_prose_started: false
+  next_controlled_maintenance_step:
+    work_package: WP5
+    focus: integrated_verification_and_release
+  formal_model_limits:
+    provenance_or_layering_clarity_as_theory_case_warrant_truth_semantic_causal_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+  authority_inheritance: prohibited
+  execution_record: 04_reference/PMS_STRATA_Pre_LIMITS_Formal_Model_Provenance_Maintenance_WP4.md
+
+pre_limits_integrated_verification_maintenance_wp5:
+  canonical_owners:
+  - 04_reference/Chapter_41_Pre_LIMITS_Maintenance_Record.md
+  - 04_reference/PMS_STRATA_Pre_LIMITS_Integrated_Verification_Maintenance_WP5.md
+  status: maintenance_wp5_complete_and_gate_passed
+  registry_mode: non_routing_integrated_maintenance_verification_support
+  input_release:
+    archive: PMS-STRATA_Source_of_Truth_ZIP_260.zip
+    sha256: 278770680a1a0eea4197d09f6c29117f92b81872c28ec11828b013ad91ef2281
+  output_release: PMS-STRATA_Source_of_Truth_ZIP_261.zip
+  verification_results:
+    yaml_files_parsed_with_duplicate_key_rejection: 48
+    json_schemas_parsed: 2
+    formal_model_root_validation: passed
+    smoke_records_validated: 8
+    path_sub_records_validated: 29
+    transformation_records_validated_total: 37
+    case_index_entries_verified: 29
+    local_markdown_targets_checked: 2752
+    missing_local_files: 0
+    unresolved_fragments: 0
+    registered_fingerprints: passed
+    current_status_surfaces_synchronized: true
+    authority_inheritance_values_prohibited: true
+  inventory_protection:
+    exact_operations: 3
+    exact_output_classes: 10
+    exact_rules: 16
+    exact_audit_stages: 12
+    exact_counterfactual_sensitivity_values: 6
+    exact_canonical_loss_fields: 5
+  gate_disposition:
+    pre_limits_maintenance_gate: passed
+    next_controlled_production_step: chapter_41_wp1_sections_41_1_to_41_4
+    chapter_41_canonical_prose_started: false
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    integrated_case_dependency_for_chapter_53_and_part_iv_lock: open_future_dependency
+    part_iv_final_lock: unavailable
+  formal_model_limits:
+    mechanical_verification_as_substantive_admissibility_truth_semantic_causal_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited: true
+  authority_inheritance: prohibited
+  execution_record: 04_reference/PMS_STRATA_Pre_LIMITS_Integrated_Verification_Maintenance_WP5.md

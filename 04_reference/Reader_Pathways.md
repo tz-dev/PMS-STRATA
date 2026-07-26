@@ -1,10 +1,14 @@
 # PMS-STRATA — Reader Pathways
-**Status:** Reference Kernel v0 scaffold v0.3.51; Chapter-20-WP3-synchronized  
+**Status:** Pre-LIMITS Maintenance WP5-synchronized; maintenance gate passed; Reference Freeze not performed  
+**Historical local version marker:** Reference Kernel v0 scaffold v0.3.51 — Chapter-20-WP3-synchronized  
 **Repository role:** `04_reference/*` — reader-route, artifact-role, dependency-warning, and canonical-return navigation; not canonical corpus prose and not the later Reader implementation  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the post-Model synchronized `04_reference/Cross_Reference_Map.md` and `04_reference/Evidence_Map.md`, `04_reference/Audit_Checklist.md`, repository `README.md`, and `PMS.yaml` for PMS Base  
 **Current formal handoff inputs:** all seven populated `07_model/*` Core artifacts, eight populated canonical smoke records, and `07_model/examples/README.md`; Root and Companion synchronized; suite-level and package audits passed  
-**Availability status:** Formal Model Core and Smoke Suite are available as internally validated formal artifacts; Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–19 are available under provisional lock; Chapter 20 Preparation Record and canonical WP1–WP3 §§20.1–20.13 are available; WP4 and Chapters 21–57 remain pending.
+**Availability status:** Formal Model Core and Smoke Suite are available as internally validated formal artifacts; Foundations 0–8, PATH 9–17, and SUB 18–28 are available under provisional lock; RETYPE 29–40 is available under a bounded provisional method lock; 29 PATH/SUB case packages are available; Chapter 41 Preparation and Pre-LIMITS Maintenance are complete, but Chapter 41 prose, the three RETYPE lock packages, later LIMITS prose, appendices, derivatives, and Reader implementation remain unavailable.  
 ---
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 ## 1. Role, Status, and Authority
 This scaffold controls how readers may enter, traverse, leave, and return to PMS-STRATA artifacts without turning convenience into theory, production sequence into rank, or a presentation layer into authority. It remains the pathway owner during Foundations production and distinguishes current Core/smoke inspection and the available Chapter-0 route from still-pending corpus routes. Reference Kernel population and post-model synchronization are not the final Reference Freeze.
 ```text
@@ -99,11 +103,11 @@ The table follows the governing external reference first and then the internal r
 | --- | --- | --- | --- | --- | --- |
 | external `PMS.yaml` | inspect unchanged PMS Base operators and dependencies | external governing reference | available only outside the package | PMS Base itself | internal STRATA artifact or empirical evidence |
 | `00_source/PMS-STRATA_Structure.md` | inspect architecture and chapter blueprint | current architecture control | current | later locked Blocks | substitute for corpus prose |
-| `01_blocks/*` | read canonical corpus after lock | placeholder | relevant chapter and Block locks | self after lock | current prose before production |
+| `01_blocks/*` | read canonical corpus after lock | Foundations/PATH/SUB provisionally locked; RETYPE bounded provisional; Front Matter/LIMITS/Conclusion unstarted | relevant chapter and Block locks | self after lock | current prose before production |
 | `05_minified/*` | inspect binding compact controls and contracts | current binding control | current | governing canonical prose after lock | complete explanation or truth proof |
 | `07_model/*` | inspect machine-readable operationalization | seven Core artifacts and eight-record smoke suite populated and audit-passed | Core and smoke route current; substantive corpus validation remains future | Chapters 4, 6, 7, 53 and relevant Reference artifacts | semantic, empirical, normative, scientific, or authority judge |
 | `02_appendices/*` | use templates, notation, and supplementary test collections | placeholder | Appendices | governing chapter and Reference artifact | repository for unresolved core argument |
-| `03_cases/*` | inspect tests, countercases, and record applications | placeholder | Integrated Cases and Audit | governing operation and audit prose | theory definition |
+| `03_cases/*` | inspect tests, countercases, and record applications | 29 PATH/SUB packages present; RETYPE lock-critical packages absent | local Part locks and Integrated Cases/Audit | governing operation and audit prose | theory definition |
 | `04_reference/*` | look up terms, operations, claims, outputs, evidence, audits, and routes | provisionally controlled pre-Block | current; final synchronization at Reference Freeze | designated prose and governing controls | independent theory source |
 | `06_derivative_publications/*` | read bounded public summaries after corpus stabilization | placeholder | Derivative Publications | canonical corpus | source of truth or back-propagating definition site |
 | `08_PMS-STRATA Reader/*` | navigate and present finalized artifacts | placeholder | Reader | canonical corpus and Reference layer | ranking, diagnostic, or analysis authority |
@@ -608,7 +612,7 @@ These are future Reader presentation candidates, not current implemented feature
 | inspect PMS operator use | Reference Lookup Route | Operator Index | external PMS.yaml and application chapter | application prose pending |
 | inspect or implement schemas | Formal-Model Route | current Root, registries, and schemas | Chapters 4, 6, 7, 53 | Core validation is current, but does not supply smoke-test or material evidence |
 | validate a smoke test | Formal-Model Route | populated Example record and suite README | operation, output, and audit owners | eight records current; internal gate passed; no substantive warrant |
-| read a case first | Case and Countercase Route | Case Index after production | governing chapter and Reference artifacts | cases currently placeholders |
+| read a case first | Case and Countercase Route | current PATH/SUB Case Index; later RETYPE/integrated cases when produced | governing chapter and Reference artifacts | present cases do not complete RETYPE or integrated locks |
 | understand Stop | Stop and Non-Capture Route | Chapter 51 or current Admissibility Band Reference | Chapter 6 and Audit Checklist | chapter anchor pending |
 | understand Non-Capture | Stop and Non-Capture Route | Chapter 52 or current Admissibility Band Reference | Chapter 6, Evidence Map, Audit Checklist | chapter anchor pending |
 | use a record template | Appendix Route | Appendix C–F after production | Chapter 7 and operation procedure | appendices currently placeholders |
@@ -738,7 +742,7 @@ Current artifact state and unlock stage are separate columns.
 | --- | --- | --- | --- | --- |
 | numeric chapter anchors 0–57 | Chapters 0–10 available; Chapters 0–10 provisionally locked; Chapter 11 canonical through §11.4 with WP1 complete; §§11.5–11.14 and Chapters 12–57 pending | later chapter availability remains contract-bound until its own prose and lock | relevant chapter WP and provisional lock | during Blocks |
 | Front-Matter anchors | contract-bound / prose pending | produced after full corpus stabilization | Front Matter | Front Matter |
-| case IDs and record links | case handoff pending | case files are placeholders | Integrated Cases and Audit | Cases |
+| case IDs and record links | PATH/SUB handoff current; RETYPE/integrated handoff pending | 29 PATH/SUB packages available; RETYPE packages absent | Integrated Cases and Audit | Cases |
 | appendix anchors | appendix handoff pending | appendices are placeholders | Appendices | Appendices |
 | smoke-test record and result links | current smoke-test route | eight Example YAML records and examples README are populated and audit-passed | rerun on model or record change | internal formal gate only |
 | derivative source-return links | placeholder | derivative files are empty | Derivative Publications | Derivatives |
@@ -3541,3 +3545,9 @@ The Reader may display:
 - Part-III bounded provisional-lock status.
 
 It may not display any `P/N/X` family as passed, failed, analogous, reduced, stopped, or non-captured, and may not imply that LIMITS repairs the missing artifacts or increases authority.
+
+## Reading RETYPE with visible PMS anchors
+
+Read Chapters 29–30 first for the conditional source-route rule, then Chapters 31–35 for family-specific use. The operator symbols are not a second explanatory layer: they point back to already warranted occurrences in PATH, SUB, or source Records.
+
+A useful reading test is whether the target-function claim still identifies its concrete source relation after the family label is removed. If not, revisit Source Trace before proceeding to comparison, routing, or case execution.

@@ -1,12 +1,16 @@
 # PMS-STRATA — Cross Reference Map
 
-**Status:** Reference Kernel v0 scaffold v0.3.48; Chapter-20-WP3-synchronized  
+**Status:** Pre-LIMITS Maintenance WP5-synchronized; maintenance gate passed; Reference Freeze not performed  
+**Historical local version marker:** Reference Kernel v0 scaffold v0.3.48 — Chapter-20-WP3-synchronized  
 **Repository role:** `04_reference/*` — routing and cross-reference layer; not an independent theory source  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the three synchronized peer scaffolds `04_reference/Evidence_Map.md`, `04_reference/Audit_Checklist.md`, and `04_reference/Reader_Pathways.md`, repository `README.md`, and `PMS.yaml` for PMS Base  
 **Current formal handoff inputs:** all seven populated `07_model/*` Core artifacts plus eight populated canonical smoke records and `07_model/examples/README.md`; internal smoke-test gate audit-passed and Root/Companion synchronized  
-**Block-anchor status:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–19 are provisionally locked; Chapter 20 Preparation Gate and canonical WP1–WP3 §§20.1–20.13 are complete; WP4 and Chapters 21–57 remain pending.
+**Block-anchor status:** Foundations 0–8, PATH 9–17, and SUB 18–28 are provisionally locked; RETYPE 29–40 holds a bounded provisional method lock; LIMITS prose is unstarted; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete; Chapter 41 WP1 is next.  
 
 ---
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 
 ## 1. Role, Status, and Authority
 
@@ -129,10 +133,10 @@ Linking an internal artifact to `PMS.yaml` records source authority. It does not
 | --- | --- | --- | --- | --- | --- |
 | `00_source/PMS-STRATA_Structure.md` | current architecture control | architecture and chapter blueprint | PMS.yaml and project architecture | contracts, references, Blocks, model | Structure lock; later change only by explicit architecture revision |
 | `01_blocks/00_front_matter.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
-| `01_blocks/01_foundations.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
-| `01_blocks/02_part_i_path.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
-| `01_blocks/03_part_ii_sub.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
-| `01_blocks/04_part_iii_retype.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `01_blocks/01_foundations.md` | provisionally locked — Chapters 0–8 | canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `01_blocks/02_part_i_path.md` | provisionally locked — Chapters 9–17 | canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `01_blocks/03_part_ii_sub.md` | provisionally locked — Chapters 18–28 | canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
+| `01_blocks/04_part_iii_retype.md` | bounded provisional method lock — Chapters 29–40; artifact lock `mandatory_stop` | canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
 | `01_blocks/05_part_iv_limits.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
 | `01_blocks/06_conclusion.md` | placeholder | future canonical corpus prose | Structure, contracts, Reference Kernel, Formal Model v0 | appendices, cases, Reference freeze, model finalization | per-chapter and per-part lock |
 | `02_appendices/Appendix_A_Core_Definitions.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
@@ -149,9 +153,9 @@ Linking an internal artifact to `PMS.yaml` records source authority. It does not
 | `02_appendices/Appendix_L_Non_Operator_Remainders_and_Decomposition_Limits.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
 | `02_appendices/Appendix_M_Case_and_Countercase_Index.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
 | `02_appendices/Appendix_N_Integrated_STRATA_Audit_Template.md` | placeholder | future schema, template, and supplement layer | locked Blocks and Reference Kernel | Reference freeze and release | after Conclusion and Front Matter |
-| `03_cases/Case_Index.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
-| `03_cases/Case_Index.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
-| `03_cases/markdown/README.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/Case_Index.md` | populated — 29 indexed PATH/SUB packages; RETYPE lock packages absent | test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/Case_Index.yaml` | populated — 29 indexed PATH/SUB packages; RETYPE lock packages absent | test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/markdown/README.md` | populated directory guide; 29 PATH/SUB Markdown cases present | test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
 | `03_cases/templates/case_template.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
 | `03_cases/templates/compose_case_template.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
 | `03_cases/templates/confusion_case_template.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
@@ -160,7 +164,7 @@ Linking an internal artifact to `PMS.yaml` records source authority. It does not
 | `03_cases/templates/integrated_audit_case_template.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
 | `03_cases/templates/non_capture_case_template.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
 | `03_cases/templates/project_as_case_template.yaml` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
-| `03_cases/yaml/README.md` | placeholder | future test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
+| `03_cases/yaml/README.md` | populated directory guide; 29 PATH/SUB YAML records present | test and countercase layer | operation rules, output classes, and audits | integrated audit and corpus audit | local Part locks and integrated audit |
 | `04_reference/Admissibility_Band_Reference.md` | provisionally controlled pre-Block | terminology and navigation; no independent theory authority | Structure, contracts, minified controls, and PMS.yaml where applicable | Blocks, Formal Model, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
 | `04_reference/Audit_Checklist.md` | populated pre-Block scaffold | executable audit navigation; no independent theory authority | Structure, contracts, minified controls, substantive Reference Kernel, Cross Reference Map, Evidence Map, and PMS.yaml where applicable | Blocks, Formal Model, cases, corpus audit, Reader | final freeze after cases, conclusion, front matter, appendices |
 | `04_reference/Claim_Type_Table.md` | provisionally controlled pre-Block | terminology and navigation; no independent theory authority | Structure, contracts, minified controls, and PMS.yaml where applicable | Blocks, Formal Model, audits, Reader | final freeze after cases, conclusion, front matter, appendices |
@@ -1418,7 +1422,7 @@ Foundations Chapters 0–8 are provisionally complete. The next production route
 | frame and temporal scope | [Chapter 2](../01_blocks/01_foundations.md#chapter-2-frame-granularity-and-relative-level) | temporal-position and comparison declarations | no unmarked frame change |
 | `Θ`, `Λ`, `Φ` | `PMS.yaml` and [`Operator Index`](Operator_Index.md) | bounded operator-occurrence references | no operator retyping |
 | transition versus operation | [Chapter 4](../01_blocks/01_foundations.md#chapter-4-the-three-strata-operations-compose-decompose-and-project_as) | transition record handoff | no fourth operation |
-| continuity and recontextualization | [Chapter 5](../01_blocks/01_foundations.md#chapter-5-origin-type-target-function-and-continuity) | preservation of prior trace | no retroactive erasure |
+| continuity and recontextualization | [Chapter 5](../01_blocks/01_foundations.md#chapter-5-origin-type-target-function-and-transformation-context) | preservation of prior trace | no retroactive erasure |
 | admissibility and routing | [Chapter 6](../01_blocks/01_foundations.md#chapter-6-the-strata-admissibility-band) | transition passage/failure pressure | no temporal score |
 | record architecture | [Chapter 7](../01_blocks/01_foundations.md#chapter-7-shared-transformation-record) | minimal transition declaration | record completion ≠ transition truth |
 | non-equivalence audit | [Chapter 8](../01_blocks/01_foundations.md#chapter-8-foundational-non-equivalences) | PATH-entry confusion control | no category laundering |
@@ -3574,3 +3578,17 @@ Primary sites:
 - [Chapter 41 Preparation Record](Chapter_41_Preparation_Record.md)
 
 The LIMITS handoff preserves the Chapter-40 artifact Stop and does not convert it into a completed RETYPE lock.
+
+## PMS operator re-anchoring — Chapters 29–35
+
+| Control point | Canonical location |
+|---|---|
+| conceptual source integrity and Functional Continuity | Chapters 29.1, 29.6–29.7 |
+| generic `PROJECT_AS` occurrence route | Chapters 30.4, 30.7–30.8, 30.10, 30.13 |
+| bounded Frame work and historical carriers | Chapter 31 |
+| operator-structured phases and Macro-Event compression | Chapter 32 |
+| recurrent occurrence relations and bounded Attractor work | Chapter 33 |
+| component occurrence topology and emergence | Chapter 34 |
+| invoked-occurrence scope and label-removal test | Chapter 35 |
+
+Canonical block: [`01_blocks/04_part_iii_retype.md`](../01_blocks/04_part_iii_retype.md).

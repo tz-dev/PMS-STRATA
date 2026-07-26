@@ -1,12 +1,16 @@
 # PMS-STRATA — Transformation Operation Index
 
-**Status:** Reference Kernel v0.1.38; Chapter-20-WP3-synchronized operation and record navigation  
+**Status:** Pre-LIMITS Maintenance WP5-synchronized; maintenance gate passed; Reference Freeze not performed  
+**Historical local version marker:** Reference Kernel v0.1.38 — Chapter-20-WP3-synchronized operation and record navigation  
 **Repository role:** `04_reference/*` — terminology and cross-reference layer; not an independent theory source  
 **Canonical operation inventory:** `COMPOSE`, `DECOMPOSE`, `PROJECT_AS`  
 **Primary control sources:** `05_minified/PMS_STRATA_Operation_Signatures_Minified.md`, `05_minified/PMS_STRATA_Minified_Canonical.md`, `05_minified/PMS_STRATA_Admissibility_Band_Minified.md`, and `05_minified/Chapter_Contracts.md`  
 **PMS Base boundary:** `PMS.yaml`
 
 ---
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 
 ## 1. Role, Status, and Authority
 
@@ -4984,3 +4988,15 @@ new operation occurrence
 ```
 
 LIMITS does not route or execute an operation.
+
+## PROJECT_AS — PMS occurrence anchoring
+
+For PMS-derived sources, `PROJECT_AS` uses existing `source_reference`, `source_basis`, `constitutive_source_trace`, `counterfactual_sensitivity`, and canonical `loss` positions to preserve an inspectable occurrence-level route where material.
+
+```text
+concrete occurrence relation varied
+≠ abstract operator revised
+
+successful source formation
+≠ successful PROJECT_AS
+```

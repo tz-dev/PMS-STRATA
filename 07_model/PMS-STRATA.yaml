@@ -1,7 +1,7 @@
 artifact:
   id: pms_strata_formal_model_root
   title: PMS-STRATA Formal Model Root
-  version: 0.1.202
+  version: 0.1.208
   status: formal_model_v0_provisional
   build_step: 6
   artifact_role: Formal-model manifest, package-level assembly contract, and cross-artifact integrity declaration.
@@ -15,8 +15,8 @@ artifact:
   - formal-model and authority boundaries
   assembly_basis:
     repository_root: 16. PMS-STRATA/
-    built_from_snapshot: 05_PMS-STRATA_Source_of_Truth_ZIP_147.zip
-    built_from_snapshot_sha256: 4d84b79c88b812184bc0f83f8e5f30aaaf159a28aa15fd17e73b1e53f9b4869a
+    built_from_snapshot: PMS-STRATA_Source_of_Truth_ZIP_260.zip
+    built_from_snapshot_sha256: 278770680a1a0eea4197d09f6c29117f92b81872c28ec11828b013ad91ef2281
     active_component_count: 5
     self_fingerprint_embedded: false
     self_fingerprint_reason: A root artifact cannot contain a stable checksum of its own serialized bytes.
@@ -70,25 +70,25 @@ authority_and_precedence:
   governing_repository_controls:
   - path: 00_source/PMS-STRATA_Structure.md
     role: architecture and chapter blueprint
-    sha256: 895fb78f0685257dbc03f27f77f1b9b23ffc8e6626e2cb6a660951364e8fae58
+    sha256: 5404a2af5b0cf55b7f18880e48bee016e4306da080d41897b7b5e8dfa597e332
   - path: 05_minified/PMS_STRATA_Minified_Canonical.md
     role: canonical compact control
-    sha256: b26a2d8e21debcab134184d082c97835b7bc5ac66fb3c3c8c10314b51d1d7d04
+    sha256: 5964ebecc4dbce92fba91a0f48aaff754a818338d3beebd36b287fa6ac1605dd
   - path: 05_minified/PMS_STRATA_Operation_Signatures_Minified.md
     role: operation-signature control
-    sha256: 82b3fe6eafebca097e1afb2c30159e0b81b9a88bd0dcb2bc7347f294eaa957fb
+    sha256: 3a3a18a8a7626e70fc488267d58348121cd2579a9c84188b86a303869dd859a2
   - path: 05_minified/PMS_STRATA_Admissibility_Band_Minified.md
     role: admissibility-band and twelve-stage audit control
-    sha256: 3c802f74f949c3f4d42079f59c9229370336245594af36f5ea182f1638b66d98
+    sha256: 09621e041e76a0afffdf62e67cad0f5b64887547a874802e18baa74a148cfa6e
   - path: 05_minified/PMS_STRATA_Claim_Boundary_Minified.md
     role: claim and authority boundary control
     sha256: 4b8aa6fccf2e9fd3a3456472473def7387626cf0ef9bd86947492e53b905c2c3
   - path: 05_minified/Block_Contracts.md
     role: block-level production contracts
-    sha256: 55b9ce47a6680da229112c95cb2ed0770f595f8b878fd654c0caad6c72c975e6
+    sha256: 65e79d6588bb6da95d5079d2350fa54c99b0455cc9fedce3581af8254fe31ac0
   - path: 05_minified/Chapter_Contracts.md
     role: chapter-level production contracts
-    sha256: 7cc18619f6974c403df1befb4078c0f88bcbe06904f6c60dc6784902cd981f98
+    sha256: 30454cb082d762dd75bbb7ef2d0ee1c0e2b3ac54ed0903d39acc1c14a24720cb
   supporting_reference_inputs:
     authority_role: supporting_reference_only
     independent_theory_authority: false
@@ -96,37 +96,37 @@ authority_and_precedence:
     entries:
     - path: 04_reference/Glossary.md
       role: terminology support
-      sha256: 670b212946334c199200470adbd4a2d9f43a1207ebb278a39ac7d735ef5ccdd2
+      sha256: 04550c6dcbf5ee44a8447ba3a5cd5cfba37a57ba718a926637e817b0a879d125
     - path: 04_reference/Operator_Index.md
       role: operator terminology and cross-reference support
-      sha256: 56c7d1bd76065c673edf8c6ae7910e519af55f15f0d1848d03fd885a6f6d274a
+      sha256: af5cc3953fb1755b686468a845b696738eb3d6af6061f0f8a1ca0dd3b714be73
     - path: 04_reference/Transformation_Operation_Index.md
       role: operation and transformation cross-reference support
-      sha256: 0fffd0c54bbc1307c14293f4e3917f4f067f1b98c7882152083f9f427bdd607c
+      sha256: 840f7b300b771633f4ec0b379d7dbee6c3b3b048811f4ccb38999ebda7cc70fe
     - path: 04_reference/Non_Equivalence_Index.md
       role: non-equivalence and category-collapse support
-      sha256: eb0b5dee156bb47b5dff4de678589a3187feecf314a6e65706c68ee7237ac124
+      sha256: b9a9615f24cec49ea77eb8d85a34f3d1e829dcdd7d287701f5f59aa7426b0cd5
     - path: 04_reference/Output_Class_Index.md
       role: output-class and boundary support
-      sha256: 417ecf2599dc2282bbfccd5327af6b7d83bc1b4c7dc3cf1918c9ed3d6dba2c9a
+      sha256: c740fed7c004c57fc61fbed9627060f431bc0af1e3387a1eb08e043ca77c0713
     - path: 04_reference/Claim_Type_Table.md
       role: claim, support, disposition, and capture-axis support
-      sha256: 3bb74191d6068d181b3aa6343663ce0a8460b75c4356051c1d02a79da1cc3a60
+      sha256: 5b63d8e99f2982c8f093d1c6f3e8532bba2462695f40dc4f6748279db1d9549d
     - path: 04_reference/Admissibility_Band_Reference.md
       role: admissibility and synchronized twelve-stage audit support
-      sha256: 7e623e969c6468e488b2dfaad5ff9b63f46885b8fa9f04391746989a48ce2614
+      sha256: ecadbda8d97a4a20f918da9ac362b27c2d1cfa8f70a4f8d19fd123cf5bef37d1
     - path: 04_reference/Cross_Reference_Map.md
       role: cross-artifact navigation support
-      sha256: aef78cef405f3a24834ab092aa0c6c6904b3b4e38e41cf8357ceb7552247a41d
+      sha256: 2a714985eb713ff15d9e95b28719d67d8ad948712a76c96b61fb1c1c0538ade2
     - path: 04_reference/Evidence_Map.md
       role: source, support, and warrant routing support
-      sha256: 6cd679f8185b1b1d43ffa2732af69b3105162252a6344e1944ab2a25ee6c9b26
+      sha256: 9c04b4eeb49d51774a22a5cb13c3d020d368438f371a33753d36da86cd3f941b
     - path: 04_reference/Audit_Checklist.md
       role: audit-stage and output-mapping separation support
-      sha256: 20ad0aae714e2994f387548ba2a2a096e4a3621f7271f268def92f007682d481
+      sha256: a5580160d7bfef85541400b396f10187b335d1aa4ec80480d96b7105ae111654
     - path: 04_reference/Reader_Pathways.md
       role: formal-model build and reading-route support
-      sha256: 2b41ce5f2611a6a45f9d0ac5ca56b09de266c743b9041e07bdacb1ea58b20f73
+      sha256: 4104ecf50fef04d48c02bf88196c10c7bdfabecd7fd1ef8325938c0943ef0396
   readme_role:
     path: README.md
     role: navigation and repository status only
@@ -216,10 +216,10 @@ component_manifest:
       path: 07_model/Admissibility_Rules.yaml
       format: yaml
       artifact_id: pms_strata_admissibility_rules
-      version: 0.1.144
+      version: 0.1.150
       declared_status: formal_model_v0_provisional
       build_step: 3
-      sha256: aeec2314be16640fc8fed793fc6f7a720bd5df46d86a39122b80f45a0932d686
+      sha256: fddcd99d3ee99667fcc6f4e1bf46e8a9041ff14b309bb154b15e1646f5c35db6
       role: Canonical rule semantics, controlled local findings, non-compensation, and twelve-stage audit contract.
       owned_scope:
       - sixteen Rule identities and semantics

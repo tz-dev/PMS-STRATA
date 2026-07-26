@@ -1,10 +1,14 @@
 # PMS-STRATA — Glossary
 
-**Status:** Reference Kernel v0.2.44 — Chapter-20-WP3-synchronized terminology core  
+**Status:** Pre-LIMITS Maintenance WP5-synchronized; maintenance gate passed; Reference Freeze not performed  
+**Historical local version marker:** Reference Kernel v0.2.44 — Chapter-20-WP3-synchronized terminology core  
 **Repository role:** `04_reference` navigation and terminology control; not an independent theory source  
 **Authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, the Gate 1 minified kernel, `05_minified/Block_Contracts.md`, and `05_minified/Chapter_Contracts.md`
 
 ---
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 
 ## 1. Function and Status
 
@@ -1374,10 +1378,12 @@ Included are terms required by Foundations or repeatedly used across PATH, SUB, 
   - system-wide definition in Chapter 46
 - **Current control sources:**
   - `05_minified/PMS_STRATA_Admissibility_Band_Minified.md`
+- **Controlled local values:** `strongly_sensitive`, `partially_sensitive`, `weakly_sensitive`, `insensitive`, `underdetermined`, `untestable`
+- **Legacy mapping:** `sensitive` → `strongly_sensitive`; `partially sensitive` → `partially_sensitive`; `not testable with available sources` → `untestable`
 - **Central non-equivalences:**
   - Counterfactual Sensitivity ≠ causal proof
-  - untestable ≠ automatically false
-  - insensitive result ≠ source-dependent result
+  - `untestable` ≠ automatically false
+  - `insensitive` result ≠ source-dependent result
 
 ### `Type Integrity`
 
@@ -1413,7 +1419,7 @@ Included are terms required by Foundations or repeatedly used across PATH, SUB, 
 ### `type continuity`
 
 - **German working rendering:** Typkontinuität
-- **Status:** STRATA canonical
+- **Status:** STRATA continuity view under canonical `TypeIntegrity`; not an independent Rule
 - **Short definition:** The preservation of the source or origin type as visible and correctly bounded while outputs or functions are added, tested, or revised.
 - **Designated primary definition site:** Chapter 5
 - **Secondary definition/application sites:**
@@ -2409,7 +2415,7 @@ A composition, fragmentation, or projection whose target remains rhetorically or
 
 ### Counterfactual Sensitivity Finding
 
-One of the local dependency findings `sensitive`, `partially sensitive`, `insensitive`, `underdetermined`, or `not testable with available sources`. These are not canonical Output Classes and do not prove causality.
+One of the six local dependency findings `strongly_sensitive`, `partially_sensitive`, `weakly_sensitive`, `insensitive`, `underdetermined`, or `untestable`. Earlier prose labels map to these values and do not form a second vocabulary. These are not canonical Output Classes and do not prove causality.
 
 Canonical return: [`Chapter 6 WP2`](../01_blocks/01_foundations.md#chapter-6-the-strata-admissibility-band).
 
@@ -4616,7 +4622,7 @@ Bounded statement of analytical need, candidate source carrier, rival pressure, 
 Source-to-function trace distinguishing load-bearing, modulating, compressed, excluded, and uncertain source structures, with source pointers retained as inspection routes rather than substitutes for trace.
 
 ### Sensitivity Description
-Open local description such as strongly, partially, weakly sensitive, insensitive, underdetermined, or not testable. It is not a score, causal strength, Output Class, or automatic route.
+Open local description using `strongly_sensitive`, `partially_sensitive`, `weakly_sensitive`, `insensitive`, `underdetermined`, or `untestable`. It is not a score, causal strength, Output Class, or automatic route.
 
 ## Chapter 30 WP3 Terminology Addendum
 
@@ -5326,3 +5332,17 @@ Primary site: [Chapter 40 WP3](../01_blocks/04_part_iii_retype.md#40-16-confusio
 **Constitutive LIMITS** — the cross-cutting admissibility and stopping structure already active within every operation and chain. LIMITS is a Part, not a fourth operation or meta-PMS.
 
 Primary sites: [Chapter 40 completion boundary](../01_blocks/04_part_iii_retype.md#chapter-40-completion-boundary) and [Chapter 41 Preparation Record](Chapter_41_Preparation_Record.md).
+
+## PMS operator-occurrence anchoring in RETYPE
+
+**Operator-occurrence anchoring** is the conditional requirement that a RETYPE claim materially dependent on PMS operator-typed occurrences remain reconstructible through the already warranted occurrence Records, relevant dependency context, material occurrence-level variation, and exact canonical Loss.
+
+```text
+operator name
+≠ occurrence-level Source Trace
+
+operator-occurrence anchoring
+≠ full Δ–Ψ inventory
+```
+
+Primary application: Chapters 29–35 in [`04_part_iii_retype.md`](../01_blocks/04_part_iii_retype.md).

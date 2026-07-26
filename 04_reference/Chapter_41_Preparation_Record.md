@@ -1,11 +1,22 @@
 # Chapter 41 Preparation Record
 
 **Chapter:** 41 — Why STRATA Must Bound Itself  
-**Record version:** v0.1  
-**Status:** Preparation Gate complete; Chapter 41 not started  
-**Source-of-truth input:** ZIP 250 plus Chapter 40 WP4 bounded-lock decision  
+**Record version:** v0.7  
+**Status:** Preparation Gate complete; Pre-LIMITS Maintenance WP0–WP5 complete and gate passed; Chapter 41 WP1 authorized but not started  
+**Historical preparation input:** ZIP 250 plus Chapter 40 WP4 bounded-lock decision  
+**Maintenance audit source:** Source-of-Truth ZIP 254  
+**Current maintenance execution release:** Source-of-Truth ZIP 261  
 **Upstream Part status:** Part III — RETYPE provisionally locked with bounded claim; artifact-complete RETYPE lock remains under `mandatory_stop`  
-**Next controlled step:** Chapter 41 — WP1, §§41.1–41.4
+**Next controlled step:** Chapter 41 WP1 — §§41.1–41.4: Structural Risk, Recursive Availability, Infinite Decomposition, and Unlimited Composition  
+
+
+## 0. Pre-LIMITS Maintenance Interposition
+
+A four-pass intake audit completed after this Preparation Record identified bounded maintenance work that has now been closed through Maintenance WP0–WP5 before canonical Chapter 41 prose begins. The controlling inventory, sequencing, deferred dependencies, and verification gate are recorded in:
+
+- [`Chapter_41_Pre_LIMITS_Maintenance_Record.md`](Chapter_41_Pre_LIMITS_Maintenance_Record.md)
+
+This interposition did not reopen the Chapter 41 Preparation Gate and did not alter the bounded RETYPE method dependency. Maintenance synchronization is complete, so the interposition no longer delays WP1 production. The artifact-complete RETYPE lock remains under `mandatory_stop`.
 
 ## 1. Preparation Status and Scope
 
@@ -50,6 +61,19 @@ RETYPE method dependency available to LIMITS
 
 Chapter 41 may use the bounded RETYPE method corpus to demonstrate recursive risk. It may not infer the missing Chapter-40 case results or erase the current Stop by moving to Part IV.
 
+The permission structure is two-stage:
+
+```text
+RETYPE bounded provisional method lock
+→ permits Chapter 41 method production after maintenance
+
+artifact-complete RETYPE lock
+→ remains mandatory_stop
+
+Part IV final lock
+→ remains unavailable until RETYPE artifact and integrated-case dependencies are satisfied
+```
+
 ## 3. Chapter Contract Lock
 
 Chapter 41 must establish:
@@ -79,7 +103,10 @@ Chapter 41 must not claim:
 
 ```text
 Chapter 6
-→ owns the Admissibility Band and twelve-stage audit architecture
+→ owns the Admissibility Band
+
+Chapter 53
+→ owns the integrated twelve-stage STRATA audit
 
 PATH / SUB / RETYPE local chapters
 → own operation-specific limits and local failure conditions
@@ -90,10 +117,13 @@ Chapter 41
   vertical authority drift,
   and the governing LIMITS principle
 
-Chapters 42–53
+Chapters 42–52
 → own detailed ontology, scale, relevance, traceability,
   continuity, loss, anti-immunization, Stop,
-  Non-Capture, and integrated-audit controls
+  and Non-Capture controls
+
+Chapter 53
+→ owns the integrated twelve-stage STRATA audit and its chain-level controls
 ```
 
 Chapter 41 references but does not redefine:
@@ -122,8 +152,10 @@ recursive_risk_pressure_chain:
     source_object: documented_trajectory_R
     target_context: coordination_context_C0
     proposed_function: bounded_frame_function
-    prior_disposition: failed_transformation_candidate_only
-    substantive_result: unadjudicated
+    prior_record_premise: separately_warranted_record_stipulated_for_method_pressure
+    prior_record_artifact_created_here: false
+    prior_disposition: failed_transformation
+    substantive_result: preserved_prior_failure_not_readjudicated_here
 
   recursive_moves:
     Q1_finer_reconstruction:
@@ -152,6 +184,8 @@ recursive_risk_pressure_chain:
     separate_output_required: true
     authority_inheritance: prohibited
 ```
+
+Q0 is a method-pressure premise, not a newly produced case result. This Preparation Record stipulates that a separate, independently warranted Record has already returned `failed_transformation`; it does not create that Record, supply its evidence, or readjudicate its result. Q1–Q3 are new claims and therefore require separate Records, Loss declarations, and outputs if ever executed.
 
 The pressure chain tests:
 
@@ -272,7 +306,7 @@ Assigned duties:
 5. `C41-CHAINCLAIM-01` — require every recursive operation occurrence to remain a separate claim, Record, Loss, and result.
 6. `C41-LOCALGLOBAL-01` — separate operation-local limits from integrated LIMITS without weakening either.
 7. `C41-COUNTERPRESSURE-01` — retain unnecessary-operation, reduced-discrimination, Stop, and Non-Capture counterpressure.
-8. `C41-WP1-HANDOFF-01` — hand WP2 the stable Q0–Q3 chain without adjudication or detailed Chapter-44–53 tests.
+8. `C41-WP1-HANDOFF-01` — hand WP2 the stable pressure chain with Q0 preserved as a stipulated prior `failed_transformation` disposition and Q1–Q3 unadjudicated, without detailed Chapter-44–53 tests.
 
 ### WP2 — §§41.5–41.7
 
@@ -305,7 +339,7 @@ Assigned duties:
 21. `C41-RISKTAXONOMY-01` — consolidate recursive decomposition, composition, projection, authority, and immunization risks without duplicating later test mechanics.
 22. `C41-AUTHORITYBOUNDARY-01` — prohibit authority inheritance across operation, chain, level, granularity, composite, model, Reader, or Part boundaries.
 23. `C41-HANDOFF42-53-01` — assign Chapters 42–53 their non-overlapping ontology, scale, boundary, continuity, loss, Stop, Non-Capture, and audit tasks.
-24. `C41-HANDOFF-01` — hand WP4 a complete method-level LIMITS rationale without adjudicating Q0–Q3 or claiming Part-IV lock.
+24. `C41-HANDOFF-01` — hand WP4 a complete method-level LIMITS rationale without readjudicating Q0 or adjudicating Q1–Q3, and without claiming Part-IV lock.
 
 ### WP4 — integrated lock and Chapter-42 Preparation Gate
 
@@ -313,7 +347,7 @@ WP4 introduces no new Pressure Duty. It performs:
 
 - the Chapter-41 integrated contract and redundancy audit;
 - exact verification that all 24 duties occur once;
-- protected non-adjudication of Q0–Q3;
+- protected retention of Q0 as a stipulated prior `failed_transformation` disposition and non-adjudication of Q1–Q3;
 - provisional-lock decision;
 - Chapter-42 Preparation Gate.
 
@@ -378,6 +412,26 @@ It may not infer:
 - legitimacy, recommendation, sanction, governance, or authority;
 - automatic route or Output Class.
 
+## 11A. Maintenance WP2 execution status
+
+Maintenance WP2 is complete. RETYPE Chapters 36–40 now contain conservative claim-relevant PMS occurrence-level anchors, and Chapters 35–40 use the correct H2 hierarchy under Part III. The execution adds no operation, operator, dependency, Rule, audit stage, schema field, Output Class, or case/test/smoke YAML.
+
+The Chapter-40 Layer-1 bounded lock and the artifact-complete RETYPE `mandatory_stop` remain unchanged. The executed review is recorded in [`PMS_Operator_Reanchoring_Todo_Chapters_36_40.md`](PMS_Operator_Reanchoring_Todo_Chapters_36_40.md).
+
+
+## 11B. Maintenance WP4 execution status
+
+Maintenance WP4 is complete. The Formal Model Root now records ZIP 259 as its verified assembly input, and `Admissibility_Rules.yaml` explicitly separates the current operative formal-rule core from integration metadata and historical chapter/WP/review/maintenance traces. Historical production traces remain non-normative provenance and cannot override rules, vocabularies, operations, Output Classes, audit stages, status, or authority boundaries.
+
+No large model refactor, new Rule, operation, Output Class, audit stage, schema field, route, case result, or authority claim was introduced. The artifact-complete RETYPE lock remains `mandatory_stop`; Chapter 41 canonical prose remains unstarted. The execution is recorded in [`PMS_STRATA_Pre_LIMITS_Formal_Model_Provenance_Maintenance_WP4.md`](PMS_STRATA_Pre_LIMITS_Formal_Model_Provenance_Maintenance_WP4.md).
+
+
+## 11C. Maintenance WP5 completion status
+
+Maintenance WP5 is complete and the Pre-LIMITS completion gate has passed. YAML, JSON Schema, Formal Model Root, Smoke Fixture, PATH/SUB record, inventory, Case Index, component/reference fingerprint, local link/fragment, current-status, authority-inheritance, and RETYPE-Stop checks all passed within their declared scopes. The execution is recorded in [`PMS_STRATA_Pre_LIMITS_Integrated_Verification_Maintenance_WP5.md`](PMS_STRATA_Pre_LIMITS_Integrated_Verification_Maintenance_WP5.md).
+
+This verification authorizes Chapter 41 WP1 as the next controlled production step. It does not start Chapter 41 prose, adjudicate Q1–Q3, produce the three missing RETYPE lock packages, satisfy the future integrated-case dependency, or make Part IV final lock available.
+
 ## 12. Production Boundary
 
 Chapter 41 drafting:
@@ -399,17 +453,25 @@ Chapter 41 is ready for provisional lock only if:
 - local failures and Stops remain visible;
 - no fourth operation or meta-PMS appears;
 - Chapters 42–53 receive non-overlapping assignments;
-- Q0–Q3 remain unadjudicated;
+- Q0 remains a stipulated prior `failed_transformation` disposition that is not readjudicated here, and Q1–Q3 remain unadjudicated;
 - all inventories and authority boundaries remain unchanged.
 
 ## 14. Controlled Handoff
 
 ```text
-Part III — RETYPE bounded provisional lock
-+ artifact-complete RETYPE lock under mandatory_stop
-→ Part IV — LIMITS
+Part III — RETYPE bounded provisional method lock
+→ sufficient dependency for Chapter 41 method production after maintenance
+
+artifact-complete RETYPE lock
+→ mandatory_stop
+→ not inherited by Part IV
+
+Part IV final lock
+→ unavailable until RETYPE artifact and integrated-case dependencies are satisfied
+
+Pre-LIMITS maintenance completion gate
 → Chapter 41 WP1
 → §§41.1–41.4
 ```
 
-WP1 receives the stable Q0–Q3 pressure chain, inherited local failures and artifact Stop, three-operation inventory, exact Loss, prior-disposition continuity, recursive-risk taxonomy, and non-authority boundary. It receives no operation result, no chain result, no route, no Output Class, no repair of the Chapter-40 artifact gap, and no Part-IV lock.
+WP1 receives the stable pressure chain with Q0 preserved as a stipulated prior `failed_transformation` disposition, Q1–Q3 as separate unadjudicated claims, inherited local failures and artifact Stop, the three-operation inventory, exact Loss, prior-disposition continuity, recursive-risk taxonomy, and the non-authority boundary. It receives no newly adjudicated operation result, no chain result, no route, no Output Class, no repair of the Chapter-40 artifact gap, and no Part-IV lock.

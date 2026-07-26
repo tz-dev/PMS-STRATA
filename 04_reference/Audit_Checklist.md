@@ -1,11 +1,15 @@
 # PMS-STRATA — Audit Checklist
 
-**Status:** Reference Kernel v0 scaffold v0.3.38; Chapter-20-WP3-synchronized  
+**Status:** Pre-LIMITS Maintenance WP5-synchronized; maintenance gate passed; Reference Freeze not performed  
+**Historical local version marker:** Reference Kernel v0 scaffold v0.3.38 — Chapter-20-WP3-synchronized  
 **Repository role:** `04_reference/*` — executable audit navigation and production control; not an independent theory source  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the synchronized peer scaffolds `04_reference/Cross_Reference_Map.md`, `04_reference/Evidence_Map.md`, and `04_reference/Reader_Pathways.md`, repository `README.md`, and `PMS.yaml` for PMS Base  
-**Current artifact status:** Formal Model Core and Smoke Suite are internally audit-passed; Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–19 are provisionally locked; Chapter 20 Preparation Gate and canonical WP1–WP3 §§20.1–20.13 are complete; WP4, later SUB/RETYPE/LIMITS chapters, standalone cases, appendices, derivatives, and Reader remain pending.
+**Current artifact status:** Formal Model Core and Smoke Suite are internally audit-passed; Foundations 0–8, PATH 9–17, and SUB 18–28 are provisionally locked; RETYPE 29–40 holds a bounded provisional method lock; 29 PATH/SUB case packages are indexed and validated; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete; Chapter 41 WP1 is next; LIMITS prose, the three RETYPE lock packages, appendices, derivatives, and Reader remain pending.  
 
 ---
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 
 ## 1. Role, Status, and Authority
 
@@ -4461,3 +4465,16 @@ Primary site: [WP2 completion boundary](../01_blocks/04_part_iii_retype.md#chapt
 - [x] No operation, Rule, Output Class, audit stage, Loss field, primitive, person type, or authority extension is introduced.
 
 Chapter 41 must preserve the artifact Stop, prior dispositions, separate operation Records, and the rule that recursive availability does not establish admissibility.
+
+## RETYPE PMS occurrence-anchor check
+
+For Chapters 29–35 and later case execution, ask:
+
+1. Is the source occurrence typing already warranted rather than inferred from target fit?
+2. Can the claim-relevant occurrence relation be reconstructed from the linked source Record?
+3. Are concrete occurrences varied while the abstract operator grammar remains fixed?
+4. Is operator-related compression or uncertainty recorded through the five canonical Loss fields?
+5. Does bounded operator-like target work remain distinct from operator identity and complete semantics?
+6. Would removing operator names leave the substantive relation trace intelligible?
+
+This is not a thirteenth audit stage.

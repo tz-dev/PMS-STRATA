@@ -1,10 +1,14 @@
 # PMS-STRATA — Admissibility Band Reference
 
-**Status:** Reference Kernel v0.2.14 — Chapter-20-WP3-synchronized admissibility registry  
+**Status:** Pre-LIMITS Maintenance WP5-synchronized; maintenance gate passed; Reference Freeze not performed  
+**Historical local version marker:** Reference Kernel v0.2.14 — Chapter-20-WP3-synchronized admissibility registry  
 **Repository role:** `04_reference` boundary, gate, outcome, and audit navigation; not an independent theory source  
 **Authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, and the provisionally locked Gate 3 reference kernel
 
 ---
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 
 ## 1. Role, Status, and Authority
 
@@ -484,12 +488,12 @@ The test must identify a source-grounded feature, a relevant modification, and t
 
 | Local sensitivity result | Meaning | Permissible claim effect | Not automatic |
 | --- | --- | --- | --- |
-| strongly sensitive | relevant change materially alters or removes the result | supports load-bearing relation within scope | causal proof |
-| partially sensitive | some but not all claimed aspects respond | bound, separate, or partially retain claims | `partially_admissible` without claim analysis |
-| weakly sensitive | result changes only marginally or under narrow conditions | reduce strength or function; mark calibration limit | failure in every case |
-| insensitive | result remains unchanged under relevant source modification | reclassify, reduce, fail, stop, or treat as analogy | one fixed output class |
-| underdetermined | sources do not settle the expected change | provisional, bounded, partial, or capture-limited claim | `non_capture` automatically |
-| untestable | available sources cannot support the counterfactual | state unavailable test and limit claim | proof of failure or validity |
+| `strongly_sensitive` | relevant change materially alters or removes the result | supports load-bearing relation within scope | causal proof |
+| `partially_sensitive` | some but not all claimed aspects respond | bound, separate, or partially retain claims | `partially_admissible` without claim analysis |
+| `weakly_sensitive` | result changes only marginally or under narrow conditions | reduce strength or function; mark calibration limit | failure in every case |
+| `insensitive` | result remains unchanged under relevant source modification | reclassify, reduce, fail, stop, or treat as analogy | one fixed output class |
+| `underdetermined` | sources do not settle the expected change | provisional, bounded, partial, or capture-limited claim | `non_capture` automatically |
+| `untestable` | available sources cannot support the counterfactual | state unavailable test and limit claim | proof of failure or validity |
 
 A support downgrade is not a claim reduction:
 
@@ -1332,7 +1336,7 @@ A declared operation remains inside the Admissibility Band only when its exact s
 
 ## Chapter 5 Continuity Admissibility Handoff
 
-Chapter 5 fixes four separately tested continuity dimensions—Reference Continuity, Type Integrity / type continuity, Functional Continuity, and Temporal Continuity—plus Contextual Boundedness. A supported dimension cannot compensate for another failed load-bearing dimension.
+Chapter 5 fixes three separately tested continuity dimensions—Reference Continuity, Functional Continuity, and Temporal Continuity—plus Contextual Boundedness; `type continuity` is the continuity-language view under canonical `TypeIntegrity`, not an additional Rule. A supported dimension cannot compensate for another failed load-bearing dimension.
 
 ```text
 continuity notation
@@ -1457,7 +1461,7 @@ source citation
 ≠ source-result dependency
 ```
 
-Counterfactual Sensitivity is a bounded dependency stress test with local findings `sensitive`, `partially sensitive`, `insensitive`, `underdetermined`, and `not testable with available sources`. None is an automatic Output Class, causal proof, necessity proof, or prediction.
+Counterfactual Sensitivity is a bounded dependency stress test with local findings `strongly_sensitive`, `partially_sensitive`, `weakly_sensitive`, `insensitive`, `underdetermined`, and `untestable`. None is an automatic Output Class, causal proof, necessity proof, or prediction.
 
 Canonical cases: `C6-CEIL-01`, `C6-CEIL-02`, `C6-CF-01`, and `C6-CF-02`.
 
@@ -3339,3 +3343,9 @@ artifact claim
 ```
 
 Chapter 41 generalizes the risk without redefining the Band: a technically available recursive move must establish fresh PraxisPurchase and TraceableLoad. Finer, broader, or differently projected results cannot compensate for a prior failure or Stop.
+
+## Occurrence anchoring inside the Admissibility Band
+
+At the lower boundary, operator vocabulary without changed reconstruction is terminological detail without PraxisPurchase. At the upper boundary, a target function that cannot be traced to material occurrence relations is abstraction without TraceableLoad.
+
+The gate remains non-compensatory: target fit, formal elegance, citation, or repeated operator labels cannot replace occurrence-level Source Trace where it is material.

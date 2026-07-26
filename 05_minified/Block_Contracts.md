@@ -884,11 +884,13 @@ block:
     - Every PROJECT_AS record preserves origin type and source reference.
     - Every projection declares target context, target function, relative target level, and validity scope.
     - Every target function has a constitutive source trace and counterfactual sensitivity result.
+    - Where PMS operator-typed occurrences materially carry a source or target-function claim, the existing source-reference, Source-Trace, sensitivity, and Loss positions preserve an inspectable occurrence-level route and relevant canonical dependency context.
     - Projection is separated from COMPOSE, DECOMPOSE, and mere recontextualization.
     - Structural analogy can remain a legitimate analogy_only output without forced promotion.
     - Label substitution and invalid type jumps are explicit failure classes.
     - Competing projections and the no-projection option remain available.
     - No projection creates a new PMS primitive or person-level type.
+    - Operator-occurrence anchoring is conditional and claim-relevant; it is not a mandatory full Delta-Psi inventory, a new schema field, a new audit stage, or a license to infer source typing from target fit.
     - At least three lock-critical cases are fully instantiated in Markdown and YAML.
     - RETYPE-specific results map to the canonical output system.
     - Mandatory Stop, Claim Reduction, and Non-Capture are available and demonstrated.

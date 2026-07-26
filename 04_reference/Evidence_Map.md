@@ -1,11 +1,15 @@
 # PMS-STRATA — Evidence Map
 
-**Status:** Reference Kernel v0 scaffold v0.3.50; Chapter-20-WP4-lock-synchronized  
+**Status:** Pre-LIMITS Maintenance WP5-synchronized; maintenance gate passed; Reference Freeze not performed  
+**Historical local version marker:** Reference Kernel v0 scaffold v0.3.50 — Chapter-20-WP4-lock-synchronized  
 **Repository role:** `04_reference/*` — source, support, gap, rival, and external-warrant routing; not an independent theory source  
 **Current control provenance:** `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the seven substantive Reference Kernel files, the post-smoke-synchronized `04_reference/Cross_Reference_Map.md`, the current peer scaffolds `04_reference/Audit_Checklist.md` and `04_reference/Reader_Pathways.md`, repository `README.md`, the seven populated Core artifacts in `07_model/`, the eight populated records and suite control in `07_model/examples/`, and `PMS.yaml` for PMS Base  
-**Substantive evidence status:** Formal Model Core and Smoke Suite are internally validated as formal artifacts; Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–20 are provisionally locked methodological prose; Chapter 21 WP1–WP2 §§21.1–21.9 are canonical and locally `admissible_but_provisional`; Chapter 21 WP3–WP4, later blocks, substantive cases, calibration sets, and external evidence remain pending.
+**Substantive evidence status:** Formal Model Core and Smoke Suite are internally validated formal artifacts; Foundations 0–8, PATH 9–17, and SUB 18–28 are provisionally locked methodological prose; RETYPE 29–40 holds a bounded provisional method lock; 29 PATH/SUB case packages are present; Chapter 41 Preparation and Pre-LIMITS Maintenance are complete; the three RETYPE lock-critical packages, Chapter 41/LIMITS prose, calibration sets, and external evidence remain unavailable.  
 
 ---
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 
 ## 1. Role, Status, and Authority
 
@@ -3481,3 +3485,18 @@ Evidence not present:
 - case-specific canonical mappings.
 
 The first set supports `admissible_with_bounded_claim` for method architecture. The second absence supports `mandatory_stop` for the artifact-complete lock claim. Chapter 41 inherits both dispositions without inferring missing evidence.
+
+## Evidence route for PMS-grounded RETYPE claims
+
+Where occurrence anchoring is material, evidence flows from the locked source Record to the RETYPE claim through:
+
+```text
+source occurrence identity and support
+→ relevant dependency and relation context
+→ Constitutive Source Trace
+→ material occurrence-level variation
+→ exact Loss
+→ bounded target-function claim
+```
+
+The target function cannot backfill missing source typing. Unavailable occurrence evidence remains a Source Ceiling or Non-Capture pressure.

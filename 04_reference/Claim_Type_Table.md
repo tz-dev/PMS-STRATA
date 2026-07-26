@@ -1,10 +1,14 @@
 # PMS-STRATA — Claim Type Table
 
-**Status:** Reference Kernel v0.2.44 — Chapter-20-WP3-synchronized claim architecture  
+**Status:** Pre-LIMITS Maintenance WP5-synchronized; maintenance gate passed; Reference Freeze not performed  
+**Historical local version marker:** Reference Kernel v0.2.44 — Chapter-20-WP3-synchronized claim architecture  
 **Repository role:** `04_reference` registry, ceiling, reduction, and audit handoff; not an independent theory source  
 **Authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, `05_minified/*`, the provisionally locked canonical Foundations Chapters 0–8 in `01_blocks/01_foundations.md`, the provisionally controlled Reference Kernel, and `04_reference/Chapter_1_Preparation_Record.md` through `04_reference/Chapter_8_Preparation_Record.md` as non-theory production controls
 
 ---
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 
 ## 1. Role, Status, and Authority
 
@@ -4052,3 +4056,9 @@ Every row remains unadjudicated until Local Audit and canonical mapping.
 | another operation answers the prior artifact gap | recursive chain claim | untested and non-inherited | none selected |
 
 The Chapter-41 rule is that every changed operation, source, context, level, granularity, composite, function, or evidence packet creates a new testable claim while prior dispositions remain visible.
+
+## PMS-grounded RETYPE claim burden
+
+A RETYPE claim that materially depends on PMS occurrences must state, through existing record positions, which warranted occurrence relation carries the target difference and how material variation would affect the claim. The burden remains conditional, source-supported, and claim-relative.
+
+A source object may remain valid even when its projected function is reduced, stopped, failed, analogy-only, or non-capturable.

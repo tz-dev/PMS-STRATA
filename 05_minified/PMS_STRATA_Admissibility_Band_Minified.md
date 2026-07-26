@@ -940,7 +940,7 @@ Admissibility should be checked in the following order:
 2. Operation classification
 3. Praxeological Relevance Floor
 4. Praxeological Traceability Ceiling
-5. Reference and type continuity
+5. Reference Continuity, TypeIntegrity, and continuity views
 6. Counterfactual Sensitivity
 7. Loss and selection
 8. Alternatives and non-translation

@@ -1324,6 +1324,8 @@ chapter:
 
 ---
 
+<a id="chapter-10-path"></a>
+
 ## Chapter 10 — Path
 
 ```yaml
@@ -1858,6 +1860,8 @@ chapter:
 ```
 
 ---
+
+<a id="chapter-15-compose-selection-formation-and-compression"></a>
 
 ## Chapter 15 — COMPOSE: Selection, Formation, and Compression
 
@@ -3471,13 +3475,15 @@ The round receives typed source objects from Foundations, PATH, and SUB. It does
 5. COMPOSE forms source objects; DECOMPOSE opens them; PROJECT_AS assigns bounded contextual functions.
 6. Constitutive Source Trace, Counterfactual Sensitivity, loss disclosure, and alternatives are mandatory.
 7. Each projection family operationalizes Chapter 30 and may not redefine PROJECT_AS.
-8. Functional similarity does not establish operator identity, semantic preservation, or a new primitive.
-9. Higher-level functions remain source-traceable and do not inherit truth, rank, normative force, or application authority.
-10. Operator weightings, modulators, and profiles do not alter Δ–Ψ dependencies and do not become person types.
-11. Analogy-only, claim reduction, mandatory stop, failed transformation, and non-capture remain legitimate outputs.
-12. No later projection erases the failure of an earlier source claim.
-13. Add-on lenses remain optional later stress vectors and do not define RETYPE.
-14. Formal validation checks declarations and consistency, not actual semantic adequacy, causality, or empirical truth.
+8. Where PMS operator-typed occurrences materially carry a RETYPE claim, their already warranted occurrence Records, relevant dependency context, material variation, and exact Loss remain reconstructible through existing record positions. Operator names alone do not supply Source Trace.
+9. Operator-occurrence anchoring does not require a full Δ–Ψ inventory, a new field, a new audit stage, or source typing inferred from target fit.
+10. Functional similarity does not establish operator identity, semantic preservation, or a new primitive.
+11. Higher-level functions remain source-traceable and do not inherit truth, rank, normative force, or application authority.
+12. Operator weightings, modulators, and profiles do not alter Δ–Ψ dependencies and do not become person types.
+13. Analogy-only, claim reduction, mandatory stop, failed transformation, and non-capture remain legitimate outputs.
+14. No later projection erases the failure of an earlier source claim.
+15. Add-on lenses remain optional later stress vectors and do not define RETYPE.
+16. Formal validation checks declarations and consistency, not actual semantic adequacy, causality, or empirical truth.
 
 ---
 
@@ -3501,6 +3507,8 @@ chapter:
       F.
     continuity_rule: Reference identity, origin type, historical load, and constitutive source relations remain
       visible through projection.
+    occurrence_anchor_rule: Where a PMS-derived source claim materially depends on operator occurrences, the linked
+      source Record preserves an inspectable occurrence-level route and material carrier variation without a new field.
     context_rule: No target function exists for RETYPE purposes without a declared target context, target object
       or scene, validity scope, and claim ceiling.
   required_distinctions:
@@ -3725,6 +3733,7 @@ chapter:
   completion_test:
   - Every mandatory PROJECT_AS field is assigned a clear role.
   - Source Trace and Counterfactual Sensitivity are non-optional.
+  - Where PMS occurrence structure is material, source reference, source basis, Constitutive Source Trace, sensitivity, and Loss jointly preserve an inspectable occurrence-level route without adding a schema field.
   - Loss and alternatives are explicit.
   - The no-projection option is representable.
   - Operation-specific and canonical outputs are mapped.
@@ -3754,6 +3763,8 @@ chapter:
     plurality: The projected trajectory may be one frame source among several and its relative load must be stated.
     failure_rule: Rhetorical invocation of “history” without a reconstructible source trace is not an admissible
       frame projection.
+    operator_carrier_rule: Bounded Frame-like work remains traceable to already warranted source occurrences and
+      never creates a `□` occurrence or inherits complete Frame semantics.
   required_distinctions:
   - trajectory as source object versus frame-function as target function
   - historical load versus historical determinism
@@ -3960,6 +3971,7 @@ chapter:
   - Start, end, constitutive phases, and transition function are explicit.
   - Internal duration and heterogeneity remain visible.
   - COMPOSE and PROJECT_AS use separate records.
+  - Source phases retain claim-relevant operator occurrence and `Θ` temporal relations; Macro-Event remains a non-operator target function.
   - Punctualization can cause failure or claim reduction.
 ```
 
@@ -4080,9 +4092,12 @@ chapter:
   - Thresholds remain context-sensitive.
   - Dynamic and static attractor-functions are distinct.
   - Counterexamples can break the pattern claim.
+  - Recurrent-form comparison preserves claim-relevant occurrence relations across linked source Trajectories and separates bounded Attractor-like work from `Α` identity.
 ```
 
 ---
+
+<a id="chapter-34-composite-structures-as-higher-level-functions"></a>
 
 ## Chapter 34 — Composite Structures as Higher-Level Functions
 
@@ -4197,6 +4212,7 @@ chapter:
   - Emergence remains source-traceable.
   - No macrofunction becomes a primitive or person type.
   - Mere aggregation is a failed or reduced result.
+  - Where components are operator-typed occurrences, relation topology and occurrence-level emergence remain reconstructible without dependency inheritance or new operator formation.
 ```
 
 ---
@@ -4270,6 +4286,7 @@ chapter:
   - Several profiles may explain the same trajectory.
   - A profile may be descriptively compact but functionally inert.
   - Thresholds may remain calibration-sensitive.
+  - The source packet is claim-invoked rather than a complete Δ–Ψ census, and profile/function claims remain reconstructible after label removal.
   redundancy_guard:
     defines_here:
     - operator weighting
@@ -4321,6 +4338,8 @@ chapter:
 ```
 
 ---
+
+<a id="chapter-36-competing-projections"></a>
 
 ## Chapter 36 — Competing Projections
 
@@ -4668,6 +4687,8 @@ chapter:
 ```
 
 ---
+
+<a id="chapter-39-retype-boundary-conditions"></a>
 
 ## Chapter 39 — RETYPE Boundary Conditions
 
@@ -5673,13 +5694,14 @@ chapter:
   title: Reference, Type, and Function Continuity
   role_in_work:
     primary_function: Systematize continuity checks across transformations and operation chains.
-    canonical_status: Primary LIMITS audit site for reference, type, functional, and temporal continuity plus discontinuity
-      effects.
+    canonical_status: Primary LIMITS audit site for Reference Continuity, Functional Continuity, Temporal Continuity,
+      and the type-continuity view under canonical TypeIntegrity, plus discontinuity effects.
     handoff: Hands explicit continuity matrices and claim-reduction rules to Chapters 50–53.
   governing_question: What must remain continuous for a transformation to refer to the same object, preserve its type, and
     sustain its claimed function without pretending to be lossless?
   required_claim:
-    core: Reference, type, functional, and where relevant temporal continuity are distinct and must be separately declared.
+    core: Reference, functional, and where relevant temporal continuity are distinct and must be separately declared;
+      type continuity is a continuity view under canonical TypeIntegrity, not a new Rule.
     reference: The same historical or structural referent remains identifiable through preserved constitutive relations.
     type: Origin type remains visible; components and target functions do not automatically rewrite it.
     function: The claimed function remains dependent on concrete source features within a bounded context.
@@ -5689,7 +5711,7 @@ chapter:
       or failure.
   required_distinctions:
   - reference continuity versus nominal sameness
-  - type continuity versus function continuity
+  - type-continuity view under TypeIntegrity versus functional continuity
   - functional continuity versus semantic analogy
   - temporal continuity versus complete chronology
   - partial continuity versus total validity
@@ -5725,7 +5747,7 @@ chapter:
   - A later operation may preserve some continuity dimensions and break others.
   redundancy_guard:
     defines_here:
-    - four-part continuity matrix
+    - continuity matrix with TypeIntegrity view
     - continuity failure classes
     - claim effects of partial continuity
     references_only:
@@ -5758,7 +5780,7 @@ chapter:
     - valid/invalid patterns to Appendix H
     - chain cases to Appendix I
   completion_test:
-  - All continuity dimensions are separated.
+  - All continuity dimensions are separated and type continuity remains a view under TypeIntegrity rather than a new Rule.
   - Nominal sameness is insufficient.
   - Origin type is protected.
   - Temporal continuity is non-exhaustive.

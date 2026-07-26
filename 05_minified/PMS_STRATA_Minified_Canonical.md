@@ -586,6 +586,21 @@ label substitution, analogy drift, or invalid type jump
 
 ---
 
+
+### 8.4 PMS occurrence anchoring for RETYPE
+
+Where a source object or target-function claim materially depends on PMS operator-typed occurrences, the claim remains reconstructible through the already warranted occurrence Records, relevant canonical dependency context, material occurrence-level variation, and exact five-part Loss. Operator names alone do not supply Source Trace.
+
+```text
+operator-occurrence anchoring
+≠ mandatory full Δ–Ψ inventory
+≠ new schema field
+≠ new audit stage
+≠ target-fit inference of source typing
+```
+
+The abstract operator type and canonical grammar remain unchanged. Only concrete claim-relevant occurrences and relations are varied or traced.
+
 ## 9. Operation Identity Matrix
 
 | Criterion | COMPOSE | DECOMPOSE | PROJECT_AS |

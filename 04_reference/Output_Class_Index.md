@@ -1,7 +1,11 @@
 # PMS-STRATA — Output Class Index
 
-**Status:** Reference Kernel v0.1.15 — Chapter-20-WP3-synchronized output mapping registry  
+**Status:** Pre-LIMITS Maintenance WP5-synchronized; maintenance gate passed; Reference Freeze not performed  
+**Historical local version marker:** Reference Kernel v0.1.15 — Chapter-20-WP3-synchronized output mapping registry  
 **Repository role:** `04_reference/*` — output vocabulary and mapping support; not an independent theory source
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 
 ## 1. Role, Status, and Authority
 
@@ -59,6 +63,9 @@ more authority
 ```
 
 ---
+
+**Current synchronization:** Foundations Chapters 0–8, PATH Chapters 9–17, and SUB Chapters 18–28 are provisionally locked; RETYPE Chapters 29–40 hold a bounded provisional method lock; 29 PATH/SUB case packages are present and indexed; Chapter 41 Preparation and Pre-LIMITS Maintenance WP0–WP5 are complete while canonical Chapter 41 prose remains unstarted; Chapter 41 WP1 is the next controlled production step; the artifact-complete RETYPE lock remains `mandatory_stop`, and Part IV final lock remains unavailable.  
+**Historical-layering rule:** Later `pending`, `next controlled step`, availability, or WP-stage statements preserve the local production state at the time of entry unless explicitly marked as current. They do not override this header and remain non-normative provenance until Reference Freeze.  
 
 ### Chapter 1 local-result boundary
 
@@ -2735,3 +2742,12 @@ artifact Stop
 ```
 
 The Stop remains re-enterable only through actual production and audit of the required artifacts. Chapter 41 must preserve this prior disposition.
+
+## Output mapping under occurrence-anchor pressure
+
+PMS occurrence anchoring adds no Output Class. Missing or defeated occurrence-level Source Trace is routed only through the existing claim-relative architecture, including `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, `analogy_only`, or `non_capture` where their independent burdens are met.
+
+```text
+operator-anchor defect
+≠ automatic failed_transformation
+```
