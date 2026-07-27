@@ -1,0 +1,1102 @@
+schema_version: 0.1.2
+record_id: smoke.project-as.label-substitution.04
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-21T15:30:00+02:00'
+  updated_at: '2026-07-21T15:30:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.formal-model-smoke-suite
+  repository_or_case_pointer: 07_model/examples/04_PROJECT_AS_Label_Substitution.yaml
+  record_provenance:
+  - Synthetic negative PROJECT_AS smoke fixture linked to canonical smoke record 01; it tests label substitution without a
+    source-sensitive contextual function.
+  - Built against controlled working state ZIP 48 and Transformation_Record.schema.json v0.1.2; no empirical or external domain
+    warrant is asserted.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: 'Canonical negative PROJECT_AS smoke record: a bounded target label is not a source-traceable contextual
+    function.'
+claim:
+  claim_id: claim.project-as.label-substitution.04
+  statement: Within synthetic label-registry scene delta, authorization sequence alpha performs a binding-function because
+    the scene assigns that label to the sequence; the declared PROJECT_AS claim is tested and rejected because the label does
+    not depend on the source sequence's constitutive identity, order, or relations.
+  claim_type:
+    value: contextual function claim
+    control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
+    inventory_status: extension
+    extension_rationale: The local label identifies the attempted PROJECT_AS target-function claim without adding a canonical
+      claim type.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Only composite.authorization-sequence.alpha from smoke record 01 and synthetic label-registry
+      scene delta.
+    operation_occurrence_boundary: Only PROJECT_AS occurrence project-as.occurrence.04.
+    frame:
+      value: synthetic label-registry frame
+      control_source: 07_model/examples/04_PROJECT_AS_Label_Substitution.yaml#/target/frame
+      inventory_status: extension
+      extension_rationale: Fixture-specific target frame used only to test label substitution.
+    granularity:
+      value: single label-assignment granularity
+      control_source: 07_model/examples/04_PROJECT_AS_Label_Substitution.yaml#/target/granularity
+      inventory_status: extension
+      extension_rationale: Local target granularity for one nominal assignment episode.
+    relative_level:
+      value: attempted contextual target-function level relative to the origin-typed sequence
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Local wording instantiates the controlled source-target relation while preserving the failed status.
+    temporal_scope: Synthetic label-assignment interval t3 only.
+    source_scope: Exactly the sequence formed in smoke record 01 plus the declared synthetic label rule for scene delta.
+    context_scope: Only target scene delta and its nominal label registry.
+    generalization_boundary: No functional projection, analogy, transfer, or real registry behavior is retained beyond this
+      fixture.
+    excluded_reach:
+    - No replacement of the origin type sequence by the target label.
+    - No claim that the assigned label establishes a target function, mechanism, capability, role, or PMS primitive.
+    - No claim that nominal boundedness compensates for absent functional continuity or counterfactual sensitivity.
+    - No person, organization, legal status, security posture, or real system is evaluated.
+  validity_scope: The failed operation assessment is valid only for the declared synthetic label rule in scene delta at t3.
+  claim_ceiling:
+    asserted_relation: The target scene assigns the string binding-function to the independently reconstructed source sequence.
+    reach: The source sequence, scene delta, the nominal assignment rule, and the t3 interval.
+    precision: Source identity, origin type, target label, and absence of source-dependent functional criteria.
+    generality: Single synthetic fixture and one target label registry.
+    functional_scope: No contextual function is retained; only the fact of label assignment and the failed PROJECT_AS claim
+      are recorded.
+    dependence_strength: The assigned label does not depend on the source sequence's constitutive order or relations.
+    inferential_distance: One attempted PROJECT_AS step that fails because nominal assignment is substituted for functional
+      projection.
+    limiting_sources:
+    - source.record.compose.01
+    - source.fixture.label-scene.delta
+    rationale: The sources support source identity and a nominal target label, but not a source-sensitive contextual target
+      function.
+  authority_boundary: The record authorizes only formal rejection of this synthetic PROJECT_AS claim; it grants no empirical
+    truth, role assignment, access decision, or application authority.
+source:
+  reference_object:
+    object_id: composite.authorization-sequence.alpha
+    description: The bounded request-before-approval sequence formed and retained by smoke record 01.
+    typing:
+      value: sequence
+      control_source: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/object_typing
+      inventory_status: current_controlled
+    source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/reference_object
+  object_typing:
+    value: sequence
+    control_source: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/object_typing
+    inventory_status: current_controlled
+  frame:
+    value: synthetic authorization episode frame
+    control_source: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/frame
+    inventory_status: extension
+    extension_rationale: The source frame is inherited from the prior smoke record and is not new theory.
+  granularity:
+    value: paired-event sequence granularity
+    control_source: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/granularity
+    inventory_status: extension
+    extension_rationale: Local source granularity for the retained sequence.
+  relative_level:
+    value: origin-typed source composite relative to target label scene delta
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Local source-side relative-level wording.
+  temporal_scope: Synthetic source interval t0–t1, retained as prior history when labeled at t3.
+  source_scope: Exactly composite.authorization-sequence.alpha and the source declarations retained by smoke record 01.
+  source_basis:
+  - source_item_id: source.record.compose.01
+    source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml
+    provenance_description: Canonical smoke record 01 declares the source sequence, its two events, and the request-before-approval
+      constitutive relation.
+    affected_claim_component: Independent source identity, origin type, and source-side relation.
+    support_mode: direct
+    evidence_role:
+      value: prior canonical smoke record
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local evidence role for cross-record formal smoke validation.
+    evidence_availability: available
+    temporal_scope: t0–t1
+    reference_scope: composite.authorization-sequence.alpha
+    uncertainty_or_provenance_limit: The prior record is synthetic and supplies no empirical or external domain warrant.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.fixture.label-scene.delta
+    source_pointer: fixture://pms-strata/project-as-04/label-scene-delta
+    provenance_description: Synthetic declaration that scene delta assigns the label binding-function to any submitted object
+      without testing its constitutive source features.
+    affected_claim_component: Target-label existence and the absence of a source-sensitive functional rule.
+    support_mode: direct
+    evidence_role:
+      value: synthetic negative target-context declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local evidence role used only to test label-substitution routing.
+    evidence_availability: available
+    temporal_scope: t3
+    reference_scope: synthetic label-registry scene delta
+    uncertainty_or_provenance_limit: The rule is synthetic and supports only the nominal-assignment failure test.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+  - trace_id: trace.sequence.identity.alpha
+    source_feature: Independently reconstructed composite.authorization-sequence.alpha with origin type sequence.
+    affected_claim_component: Source-object validity and origin-type preservation.
+    trace_role: load_bearing
+    result_dependency: The source object remains valid and identifiable even though the attempted projection fails.
+    expected_result_change: Removing or replacing the source object changes the object under test but does not reveal a functional
+      dependency in the target label rule.
+    temporal_or_relational_dependency: The source remains the request-before-approval composite established in smoke record
+      01.
+    claim_limitation: Supports source validity only; it does not support the claimed target function.
+    source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/reference_object
+  - trace_id: trace.sequence.order.alpha
+    source_feature: The request-before-approval order is constitutive to the source sequence.
+    affected_claim_component: Test of whether the target label depends on a constitutive source relation.
+    trace_role: limiting
+    result_dependency: The delta label rule ignores this order and would assign the same label to a reversed or unrelated
+      object.
+    expected_result_change: Reversing the source order leaves the nominal target label unchanged, defeating functional continuity.
+    temporal_or_relational_dependency: Request precedes approval in the source, but the target rule does not use that relation.
+    claim_limitation: Demonstrates source indifference of the label; it does not invalidate the source sequence.
+    source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/operation/details/constitutive_relations/0
+  - trace_id: trace.target-label-rule.delta
+    source_feature: Scene delta assigns the string binding-function solely by nominal registry rule.
+    affected_claim_component: Attempted target-function declaration.
+    trace_role: limiting
+    result_dependency: The label depends only on the registry declaration, not on constitutive source features or a target-scene
+      praxis relation.
+    expected_result_change: Changing source identity, order, or relation leaves the label assignment unchanged; changing the
+      label string changes wording only.
+    temporal_or_relational_dependency: The nominal rule applies only at t3 in scene delta.
+    claim_limitation: Supports the existence of a label assignment and the failure diagnosis, not a contextual function.
+    source_pointer: fixture://pms-strata/project-as-04/label-scene-delta
+  known_gaps:
+  - No source-dependent target rule, functional criterion, mechanism, praxis relation, or defeat condition is supplied.
+  - No affirmative analogy claim is delimited or retained; the fixture tests label substitution only.
+  source_ceiling:
+    asserted_relation: The prior smoke record supplies one independently typed sequence, and the target fixture supplies one
+      source-indifferent nominal label rule.
+    reach: Source identity, source order, scene identity, label text, and the rule's source indifference.
+    precision: Enough to reject the claimed projection, not enough to retain a target function.
+    generality: Single synthetic source object and target label scene.
+    functional_scope: No functional scope is supported beyond the negative finding that the label lacks constitutive source
+      dependence.
+    dependence_strength: The failure assessment is strongly constrained by the rule's explicit indifference to source changes.
+    inferential_distance: One attempted PROJECT_AS claim evaluated against direct source and target declarations.
+    limiting_sources:
+    - source.record.compose.01
+    - source.fixture.label-scene.delta
+    rationale: The sources support the source object and the nominal label assignment but not a functional projection.
+operation:
+  occurrence_id: project-as.occurrence.04
+  kind: PROJECT_AS
+  justification: The tested claim declares PROJECT_AS because it presents an origin-typed source object as a target function;
+    the audit determines that the occurrence is only label substitution and therefore fails the operation identity.
+  expected_praxeological_difference: The attempted projection claims that the sequence does more than exist by performing
+    a binding-function, but the target rule supplies no source-dependent praxis difference.
+  selection_rule: Use exactly composite.authorization-sequence.alpha and scene delta; preserve source identity and origin
+    type; test whether the target label changes with constitutive source features; exclude all other contexts and functions.
+  transformation_context: Synthetic formal-model smoke test of label-substitution failure under PROJECT_AS.
+  details:
+    target_context: Synthetic label-registry scene delta during nominal assignment at t3.
+    constitutive_source_trace:
+    - trace_id: trace.sequence.identity.alpha
+      source_feature: Independently reconstructed composite.authorization-sequence.alpha with origin type sequence.
+      affected_claim_component: Source-object validity and origin-type preservation.
+      trace_role: load_bearing
+      result_dependency: The source object remains valid and identifiable even though the attempted projection fails.
+      expected_result_change: Removing or replacing the source object changes the object under test but does not reveal a
+        functional dependency in the target label rule.
+      temporal_or_relational_dependency: The source remains the request-before-approval composite established in smoke record
+        01.
+      claim_limitation: Supports source validity only; it does not support the claimed target function.
+      source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/reference_object
+    - trace_id: trace.sequence.order.alpha
+      source_feature: The request-before-approval order is constitutive to the source sequence.
+      affected_claim_component: Test of whether the target label depends on a constitutive source relation.
+      trace_role: limiting
+      result_dependency: The delta label rule ignores this order and would assign the same label to a reversed or unrelated
+        object.
+      expected_result_change: Reversing the source order leaves the nominal target label unchanged, defeating functional continuity.
+      temporal_or_relational_dependency: Request precedes approval in the source, but the target rule does not use that relation.
+      claim_limitation: Demonstrates source indifference of the label; it does not invalidate the source sequence.
+      source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/operation/details/constitutive_relations/0
+    - trace_id: trace.target-label-rule.delta
+      source_feature: Scene delta assigns the string binding-function solely by nominal registry rule.
+      affected_claim_component: Attempted target-function declaration.
+      trace_role: limiting
+      result_dependency: The label depends only on the registry declaration, not on constitutive source features or a target-scene
+        praxis relation.
+      expected_result_change: Changing source identity, order, or relation leaves the label assignment unchanged; changing
+        the label string changes wording only.
+      temporal_or_relational_dependency: The nominal rule applies only at t3 in scene delta.
+      claim_limitation: Supports the existence of a label assignment and the failure diagnosis, not a contextual function.
+      source_pointer: fixture://pms-strata/project-as-04/label-scene-delta
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: true
+    alternative_projection_or_no_projection:
+    - Retain the source sequence without projecting a target function.
+    - Create a new PROJECT_AS record only if a target scene supplies a source-sensitive functional rule and explicit defeat
+      conditions.
+    - Retain a separate analogy claim only if an affirmative bounded resemblance is independently stated and tested.
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: scene.label-registry.delta
+    description: Synthetic target scene containing one nominal label registry at t3.
+    typing:
+      value: target scene
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/target_identity_requirements
+      inventory_status: extension
+      extension_rationale: Fixture-specific target-scene type used only for this smoke record.
+    source_pointer: fixture://pms-strata/project-as-04/label-scene-delta
+  object_typing:
+    value: target scene
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/target_identity_requirements
+    inventory_status: extension
+    extension_rationale: Fixture-specific target-scene type used only for this smoke record.
+  contextual_function:
+    value: binding-function
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/recognized_result_families
+    inventory_status: current_controlled
+  frame:
+    value: synthetic label-registry frame
+    control_source: 07_model/examples/04_PROJECT_AS_Label_Substitution.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Fixture-specific target frame used only to test nominal assignment.
+  granularity:
+    value: single label-assignment granularity
+    control_source: 07_model/examples/04_PROJECT_AS_Label_Substitution.yaml#/claim/claim_scope/granularity
+    inventory_status: extension
+    extension_rationale: Local target granularity for one nominal assignment episode.
+  relative_level:
+    value: attempted contextual target-function level relative to the origin-typed sequence
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Local target-side relative-level wording for the failed attempt.
+  temporal_scope: Synthetic label-assignment interval t3 only.
+  validity_scope: Only scene delta, its nominal label rule, and t3; the failed transformation finding does not transfer automatically.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source object, attempted target function, nominal scene rule, scope, ceilings, and authority boundary
+        are complete.
+      rationale: The source exists independently and the target label rule is explicit, allowing the operation claim to be
+        tested rather than treated as missing information.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /target
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: The declared occurrence is an attempted PROJECT_AS, but its defining functional-projection conditions
+        fail.
+      rationale: The claim presents an origin-typed source as a target function; the target relation is only nominal assignment,
+        not COMPOSE, DECOMPOSE, analogy, or valid PROJECT_AS.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /operation
+      - 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The assigned label produces no warranted praxis-relevant reconstruction.
+      rationale: The same label is assigned irrespective of the source sequence's constitutive identity, order, or relations.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/praxis_purchase
+      - /operation/expected_praxeological_difference
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The claimed target function exceeds the Traceability Ceiling.
+      rationale: The label can be traced to the registry declaration but not to load-bearing source features sufficient for
+        the claimed function.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/traceable_load
+      - /operation/details/constitutive_source_trace
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source identity and origin type remain visible, but functional continuity fails.
+      rationale: Nominal boundedness and preserved typing do not compensate for the target label's source indifference.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/type_integrity
+      - /admissibility/rule_assessments/reference_continuity
+      - /admissibility/rule_assessments/functional_continuity
+      - /target
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The attempted target function is insensitive to constitutive source changes.
+      rationale: Reversing the source order, replacing the source object, or removing its relation leaves the nominal label
+        unchanged.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/counterfactual_sensitivity
+      - /source/constitutive_source_trace
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection and loss are explicit and expose the label substitution.
+      rationale: The source object is preserved, while the label compresses away the constitutive order and excludes any demonstrated
+        functional relation.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /loss
+      - /operation/selection_rule
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: No-projection, genuinely source-sensitive projection, and separately delimited analogy alternatives
+        are recorded.
+      rationale: None of these alternatives retroactively validates the failed occurrence.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /alternatives
+      - /operation/details/alternative_projection_or_no_projection
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Sources discriminate nominal assignment from valid PROJECT_AS but provide no external calibration.
+      rationale: The fixture is sufficient for a formal smoke boundary, not for empirical generalization.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /source/source_ceiling
+      - /admissibility/rule_assessments/calibration
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: The failed projection does not revise or erase the prior valid COMPOSE claim.
+      rationale: The source sequence remains separately valid; any materially revised projection requires a new record and
+        new claim.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /admissibility/anti_immunization_assessment
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: The operation has already failed; neither prospective mandatory stop nor non-capture is selected for
+        the same claim.
+      rationale: Failure of this PROJECT_AS occurrence does not establish that all future projections fail or that the object
+        is uncapturable.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/stop_assessment
+      - /admissibility/non_capture_assessment
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: The functional claim is withdrawn while source validity and authority prohibitions remain explicit.
+      rationale: Formal rejection of the transformation grants no target role, application authority, or negative judgment
+        about the source object.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim/claim_ceiling
+      - /governance
+      - /result/status_declaration
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/relevance_floor
+      - /operation
+      - /claim
+      reasoned_finding: The target label does not alter a warranted praxis reconstruction and is assigned independently of
+        source constitution.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the attempted contextual-function claim on the relevance axis.
+      required_action: Do not treat nominal relabeling as praxeological gain.
+      controlled_local_result: below_floor
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/traceability_ceiling
+      - /operation
+      - /claim
+      reasoned_finding: The claimed function cannot be reconstructed from load-bearing source features; only the label assignment
+        is traceable.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the attempted contextual-function claim on the traceability axis.
+      required_action: Retain the source object and record the label substitution failure.
+      controlled_local_result: above_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The source remains typed as sequence and the target label is not promoted to a new origin type or
+        PMS primitive.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve source typing separately from the failed target-function claim.
+      required_action: Do not infer valid PROJECT_AS merely because type replacement was avoided.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The same source reference remains visible throughout the attempted projection.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the source-object identity independently of operation failure.
+      required_action: Keep source validity separate from transformation validity.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: No constitutive source feature constrains the assigned label, so no target-function continuity is
+        established.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the attempted contextual-function claim.
+      required_action: A new operation must supply a source-sensitive target rule and defeat conditions.
+      controlled_local_result: null
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: Source history t0–t1 and label assignment t3 remain distinct and visible.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the temporal record while rejecting the function claim.
+      required_action: Do not use temporal ordering alone as functional evidence.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: Scene delta and t3 are explicit, but ordinary boundedness does not compensate for absent functional
+        projection.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Keep the failure finding bounded to scene delta and t3.
+      required_action: Do not convert a bounded label into an admissible bounded function.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/counterfactual_sensitivity
+      - /operation
+      - /claim
+      reasoned_finding: The label remains unchanged when constitutive source identity, order, or relation changes.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the attempted target-function claim for source insensitivity.
+      required_action: Require a new record for any source-sensitive alternative.
+      controlled_local_result: insensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: The sources support source identity and nominal assignment only, not the claimed function.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the part of the claim above the source ceiling.
+      required_action: Retain only the source object, label fact, and failure assessment.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_calibration_limits
+      - /operation
+      - /claim
+      reasoned_finding: The fixture discriminates valid PROJECT_AS from label substitution, type jump, missing context, and
+        analogy.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the negative smoke boundary as formal calibration only.
+      required_action: Do not treat this synthetic distinction as external empirical calibration.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/loss_and_selection
+      - /operation
+      - /claim
+      reasoned_finding: The exact source and label scene are selected, and the ignored constitutive source features are disclosed.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve source material and losses separately from the rejected claim.
+      required_action: Do not hide source indifference behind the target label.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/alternatives
+      - /operation
+      - /claim
+      reasoned_finding: No-projection and genuinely source-sensitive projection alternatives remain available; no analogy
+        is automatically retained.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Keep alternatives available without reclassifying the failed occurrence.
+      required_action: Any material alternative requires a new delimited claim or record.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: The asserted binding-function exceeds what the source and target rule support.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the current transformation claim while retaining the source claim.
+      required_action: Do not retain a reduced label fact as the same contextual-function claim.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/claim_and_authority_ceiling
+      - /operation
+      - /claim
+      reasoned_finding: Formal failure routing grants no authority over source validity, target roles, access, legitimacy,
+        or application.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the authority prohibitions.
+      required_action: No authority inheritance or application action is permitted.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /operation
+      - /claim
+      reasoned_finding: The attempted operation has already failed; the current class is not a prospective mandatory stop.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Separate operation failure from any future stop decision.
+      required_action: Do not continue or relabel this occurrence as successful; use a new record for reentry.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /operation
+      - /claim
+      reasoned_finding: One declared PROJECT_AS attempt fails, but no claim is made that adequate capture is impossible.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Separate failed transformation from non-capture.
+      required_action: Do not infer uncapturability or universal projection failure.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The declared PROJECT_AS fails because PraxisPurchase is below_floor, TraceableLoad is above_ceiling,
+    and counterfactual sensitivity is insensitive; preserved source identity, origin type, context, and formal completeness
+    do not compensate.
+  anti_immunization_assessment: The failed PROJECT_AS occurrence remains failed. Smoke record 01 and its source sequence remain
+    separately valid, and any revised projection is a new testable claim.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The operation has already failed; mandatory_stop would answer a different prospective-continuation question.
+    reentry_contemplated: true
+    reentry_conditions:
+    - changed_condition: A target scene supplies a source-sensitive functional rule whose result changes when constitutive
+        source identity, order, or relations change.
+      new_or_revised_record_id: smoke.project-as.label-substitution-reentry.04a
+      rationale: Changed grounds require a new PROJECT_AS occurrence and cannot retroactively validate the failed label-substitution
+        record.
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: false
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: No PROJECT_AS claim is retained, but failure of this occurrence does not establish non-capture; the source
+      object and alternatives remain separately available.
+loss:
+  preserved:
+  - item_id: loss.preserved.source-reference
+    affected_element: Source reference
+    description: composite.authorization-sequence.alpha remains the authoritative source object.
+    reason: Operation failure does not invalidate the source object.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserve the independently reconstructed source object.
+    source_or_evidence_pointer: /source/reference_object
+  - item_id: loss.preserved.origin-type
+    affected_element: Origin type
+    description: The source remains typed as sequence despite the target label.
+    reason: Label substitution must not replace the origin type.
+    claim_effect:
+      family:
+        value: separate
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Keep source typing separate from the failed target-function claim.
+    source_or_evidence_pointer: /source/object_typing
+  - item_id: loss.preserved.constitutive-order
+    affected_element: Request-before-approval relation
+    description: The constitutive source order remains recorded even though the target label ignores it.
+    reason: The ignored relation is necessary to diagnose source indifference.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserve the relation and its failed counterfactual test.
+    source_or_evidence_pointer: /source/constitutive_source_trace/1
+  - item_id: loss.preserved.failed-occurrence
+    affected_element: Failed operation occurrence and alternatives
+    description: The failed PROJECT_AS occurrence, no-projection option, and future alternatives remain visible.
+    reason: Anti-immunization prohibits relabeling the failed occurrence as successful.
+    claim_effect:
+      family:
+        value: separate
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserve failure and alternatives on separate axes.
+    source_or_evidence_pointer: /result/routing
+  compressed:
+  - item_id: loss.compressed.source-to-label
+    affected_element: Source constitution under target vocabulary
+    description: The target registry compresses the source object into one source-indifferent label.
+    reason: The nominal rule does not preserve constitutive source load.
+    claim_effect:
+      family:
+        value: withdraw
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Do not retain the compressed label as a function.
+    source_or_evidence_pointer: /source/constitutive_source_trace/2
+    recoverability_or_reentry_note: A new record may test a source-sensitive target rule.
+  - item_id: loss.compressed.internal-relation
+    affected_element: Request-before-approval dependency
+    description: The label assignment hides whether the internal relation matters.
+    reason: The same label is assigned after relation reversal or replacement.
+    claim_effect:
+      family:
+        value: withdraw
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Withdraw functional continuity for the current claim.
+    source_or_evidence_pointer: /admissibility/rule_assessments/counterfactual_sensitivity
+    recoverability_or_reentry_note: A revised projection must declare a relation-sensitive target criterion.
+  excluded:
+  - item_id: loss.excluded.target-function
+    affected_element: Claimed binding-function
+    description: No contextual target function is retained.
+    reason: Nominal assignment does not establish functional projection.
+    claim_effect:
+      family:
+        value: withdraw
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Reject the declared transformation result.
+    source_or_evidence_pointer: /result/class_payload
+  - item_id: loss.excluded.authority-transfer
+    affected_element: Role, causal, authority, and transfer inferences
+    description: No target role, capability, causality, legitimacy, or application authority is retained.
+    reason: PROJECT_AS failure and the authority ceiling prohibit these inferences.
+    claim_effect:
+      family:
+        value: separate
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Separate formal failure from application authority.
+    source_or_evidence_pointer: /governance/authority_ceiling
+  uncertain: []
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions: []
+  rival_projections:
+  - alternative_id: alternative.source-sensitive-projection
+    claim_relation: Test a new target rule that changes when the source identity, order, or constitutive relation changes.
+    source_basis_or_evidence_pointer: /source/constitutive_source_trace
+    comparative_burden: Requires explicit target criteria, source-result dependency, defeat conditions, and a new operation
+      occurrence.
+    current_handling: not_selected
+    rationale: This is a future alternative, not retroactive repair of the current label-substitution occurrence.
+  no_transformation:
+  - alternative_id: alternative.retain-source-sequence-only
+    claim_relation: Retain composite.authorization-sequence.alpha solely as the sequence established by smoke record 01.
+    source_basis_or_evidence_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/target
+    comparative_burden: Retains the source claim without adding a target-function burden.
+    current_handling: retained
+    rationale: The source sequence remains valid independently of the failed projection.
+  non_translation:
+  - alternative_id: alternative.separate-analogy
+    claim_relation: Test a bounded resemblance only if an affirmative analogy claim and its breaking points are separately
+      stated.
+    source_basis_or_evidence_pointer: /source/reference_object
+    comparative_burden: Requires a distinct claim; a label alone supplies no useful resemblance.
+    current_handling: not_selected
+    rationale: No analogy is automatically produced by a failed projection.
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal routing rejects only the current synthetic PROJECT_AS claim; it does not invalidate the source
+    object or authorize any target role, real-world decision, or action.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - label substitution is not PROJECT_AS
+  - contextual boundedness does not compensate for absent source dependence
+  - failed projection does not invalidate the source object
+  - failed projection does not automatically yield analogy_only or non_capture
+  - formal validation does not grant empirical truth or application authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: 'The declared PROJECT_AS occurrence fails: scene delta assigns the label binding-function without a source-sensitive
+      functional relation. The source sequence remains valid and separately retained.'
+    result_family:
+      value: label substitution failure
+      control_source: 07_model/Output_Classes.yaml#/output_classes/failed_transformation/representative_local_results
+      inventory_status: current_controlled
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: unsupported
+    resolution_test_result: null
+    capture_statement:
+      statement: No material capture limit is asserted; the current operation fails because the target label lacks constitutive
+        source dependence.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: PraxisPurchase, TraceableLoad, functional continuity, and counterfactual sensitivity fail; preserved typing
+          and bounded context do not compensate.
+        constitutive_condition_pointers: []
+        preserved_finding: No admissible result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: The defect is not an otherwise admissible claim requiring narrower reach; the operation lacks a constitutive
+          target function.
+        constitutive_condition_pointers: []
+        preserved_finding: No admissible_with_bounded_claim result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The decisive defect is operation identity, not merely incomplete support or calibration.
+        constitutive_condition_pointers: []
+        preserved_finding: No admissible_but_provisional result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: This is PROJECT_AS, not a valid DECOMPOSE resolution test.
+        constitutive_condition_pointers: []
+        preserved_finding: No resolution_neutral result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: rejected
+        rationale: A label is not an affirmative bounded resemblance, so analogy_only is considered and rejected for the same
+          delimited claim.
+        constitutive_condition_pointers:
+        - /claim/statement
+        - /target/contextual_function
+        - /admissibility/rule_assessments/alternatives/reasoned_finding
+        preserved_finding: A future analogy claim may be tested separately if a useful resemblance and breaking points are
+          stated.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+          boundary_id: analogy_only_vs_failed_projection
+          inventory_status: current_load_bearing
+          selected_class: failed_transformation
+          candidate_class: analogy_only
+          adjudication_outcome: selected_over_candidate
+          rationale: The current claim asserts a functional projection and supplies only a source-indifferent label; no separate
+            useful analogy survives.
+          control_source: 07_model/Boundary_Decision_Tree.yaml
+        rejection_reason: No affirmative analogy claim or structural resemblance is retained; the declared PROJECT_AS operation
+          itself fails.
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The source object remains valid, but that is a separate prior claim rather than an admissible component
+          of the current PROJECT_AS claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No partially_admissible result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: Reducing the functional claim to the fact of label assignment would replace the tested claim rather than
+          retain a narrower contextual function.
+        constitutive_condition_pointers: []
+        preserved_finding: No claim_reduction_required result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The operation has already been attempted and failed; mandatory_stop concerns prohibited continuation before
+          or beyond a boundary.
+        constitutive_condition_pointers: []
+        preserved_finding: No mandatory_stop result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: selected
+        rationale: 'The declared PROJECT_AS is only source-indifferent label substitution: no constitutive target function,
+          functional continuity, or counterfactual sensitivity is established.'
+        constitutive_condition_pointers:
+        - /operation/kind
+        - /operation/details/constitutive_source_trace
+        - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+        - /admissibility/rule_assessments/traceable_load/controlled_local_result
+        - /admissibility/rule_assessments/functional_continuity/reasoned_finding
+        - /admissibility/rule_assessments/counterfactual_sensitivity/controlled_local_result
+        - /result/status_declaration/support_status
+        preserved_finding: The source sequence, its prior claim, the nominal label fact, disclosed losses, and alternative
+          future operations remain separately available.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: Failure of one declared projection does not establish that no adequate reconstruction or projection can
+          remain.
+        constitutive_condition_pointers: []
+        preserved_finding: No non_capture result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: failed_transformation
+    route_id: route_failed_transformation
+    matched_constitutive_conditions:
+    - /operation/kind
+    - /operation/details/constitutive_source_trace
+    - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+    - /admissibility/rule_assessments/traceable_load/controlled_local_result
+    - /admissibility/rule_assessments/functional_continuity/reasoned_finding
+    - /admissibility/rule_assessments/counterfactual_sensitivity/controlled_local_result
+    - /result/status_declaration/support_status
+    same_claim_collision_assessed: true
+    same_claim_collision_present: true
+    collision_resolution_state: resolved
+    preserved_non_selected_findings:
+    - The source sequence and prior COMPOSE claim remain valid independently of the failed projection.
+    - No affirmative analogy or non-capture result is inferred from the failure.
+    split_decision:
+      required: false
+      rationale: The current delimited claim is the attempted PROJECT_AS claim. Source-object validity is a prior separately
+        recorded claim, and no affirmative analogy claim is present.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The target relation is a source-indifferent label assignment. PraxisPurchase is below_floor,
+      TraceableLoad is above_ceiling, functional continuity fails, and counterfactual sensitivity is insensitive. Because
+      the operation has already failed rather than merely requiring future stop, failed_transformation is selected.
+    current_claim_disposition:
+      value: failed
+      rationale: The declared PROJECT_AS claim is not retained. The source sequence, prior COMPOSE result, nominal label fact,
+        losses, and alternatives remain separately recorded.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: failed_transformation
+    failed_declared_operation_claim: The authorization sequence performs a binding-function in scene delta merely because
+      the registry assigns that label.
+    failed_constitutive_conditions:
+    - No source-traceable contextual target function is established.
+    - The target label is insensitive to constitutive source identity, order, and relations.
+    - PraxisPurchase is below the relevance floor for the claimed function.
+    - TraceableLoad is above the ceiling for the claimed function.
+    source_object_validity_assessed_separately: true
+    alternatives_and_source_material_preserved: true
+    rationale: The attempted operation is label substitution rather than PROJECT_AS. Failure is limited to the delimited transformation
+      claim and does not invalidate the source object or future separately tested alternatives.
+relations:
+  prior_record_ids:
+  - smoke.compose.admissible.01
+  prior_claim_ids:
+  - claim.compose.admissible.01
+  sibling_claim_or_record_ids:
+  - smoke.project-as.admissible.03
+  rival_record_ids:
+  - smoke.project-as.admissible.03
+  countercase_refs:
+  - 07_model/examples/03_PROJECT_AS_Admissible.yaml
+  - 'planned-negative-mutation: retain failed route after adding a source-sensitive target rule'
+  - 'planned-negative-mutation: classify the label as analogy_only without an affirmative analogy claim'
