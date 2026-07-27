@@ -888,18 +888,6 @@ PMS.yaml
 - Canonical STRATA prose.
 - Primary theory layer for Front Matter, Foundations, PATH, SUB, RETYPE, LIMITS, and Conclusion.
 
-### `05_minified/*`
-
-- Compact control artifacts.
-- Contains the Claim Boundary, Operation Signatures, Admissibility Kernel, Block Contracts, and Chapter Contracts.
-- Used for consistency control rather than as an independent theory source.
-
-### `07_model/*`
-
-- Machine-readable operationalization of transformation and boundary logic.
-- Includes the Operation Registry, Output Classes, Admissibility Rules, Boundary Decision Tree, Transformation Record Schema, Root manifest, and companion schema.
-- Formalizes and checks the corpus but does not replace or substantively validate it.
-
 ### `02_appendices/*`
 
 - Controlled consolidation and operationalization layer.
@@ -918,10 +906,22 @@ PMS.yaml
 - Contains the Glossary, indexes, claim tables, evidence map, cross-references, Reader pathways, audit checklist, coverage matrix, and current control references.
 - Routes to theory owners without becoming a competing theory source.
 
+### `05_minified/*`
+
+- Compact control artifacts.
+- Contains the Claim Boundary, Operation Signatures, Admissibility Kernel, Block Contracts, and Chapter Contracts.
+- Used for consistency control rather than as an independent theory source.
+
 ### `06_derivative_publications/*`
 
 - Reserved for the compact overview, publishable paper, and technical whitepaper.
 - Derivative publications possess no authority to revise the source corpus.
+
+### `07_model/*`
+
+- Machine-readable operationalization of transformation and boundary logic.
+- Includes the Operation Registry, Output Classes, Admissibility Rules, Boundary Decision Tree, Transformation Record Schema, Root manifest, and companion schema.
+- Formalizes and checks the corpus but does not replace or substantively validate it.
 
 ### `08_PMS-STRATA Reader/*`
 
@@ -929,55 +929,7 @@ PMS.yaml
 - Reads repository artifacts without duplicating or redefining their content.
 - Possesses no independent analytical authority.
 
-## Repository Structure
-
-```text
-16. PMS-STRATA/
-├── 00_source/
-│   └── PMS-STRATA_Structure.md
-├── 01_blocks/
-│   ├── 00_front_matter.md
-│   ├── 01_foundations.md
-│   ├── 02_part_i_path.md
-│   ├── 03_part_ii_sub.md
-│   ├── 04_part_iii_retype.md
-│   ├── 05_part_iv_limits.md
-│   └── 06_conclusion.md
-├── 02_appendices/
-│   ├── Appendix_A_Core_Definitions.md
-│   ├── Appendix_B_Formal_Notation.md
-│   ├── Appendix_C_Shared_Transformation_Record_Schema.md
-│   ├── Appendix_D_COMPOSE_Record_Template.md
-│   ├── Appendix_E_DECOMPOSE_Record_Template.md
-│   ├── Appendix_F_PROJECT_AS_Record_Template.md
-│   ├── Appendix_G_Admissibility_Band_Tests.md
-│   ├── Appendix_H_Valid_and_Invalid_Transformation_Patterns.md
-│   ├── Appendix_I_Boundary_and_Confusion_Cases.md
-│   ├── Appendix_J_Operator_Weighting_and_Trajectory_Stress_Tests.md
-│   ├── Appendix_K_Cross_Domain_Projection_and_Analogy_Stress_Tests.md
-│   ├── Appendix_L_Non_Operator_Remainders_and_Decomposition_Limits.md
-│   ├── Appendix_M_Case_and_Countercase_Index.md
-│   └── Appendix_N_Integrated_STRATA_Audit_Template.md
-├── 03_cases/
-│   ├── markdown/
-│   ├── yaml/
-│   ├── packages/
-│   ├── templates/
-│   ├── Case_Index.md
-│   ├── Case_Index.yaml
-│   └── Case_Artifact_Pairing.csv
-├── 04_reference/
-├── 05_minified/
-├── 06_derivative_publications/
-├── 07_model/
-│   └── examples/
-├── 08_PMS-STRATA Reader/
-│   ├── README.md
-│   ├── pms_strata_reader.py
-│   ├── screenshot01.png
-│   └── screenshot02.png
-└── README.md
-```
+---
 
 ## Links and Resources
 
