@@ -1,0 +1,1105 @@
+schema_version: 0.1.2
+record_id: case.c49-cal1.project-as.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T17:40:00+02:00'
+  updated_at: '2026-07-27T17:40:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.Final-Lock-Gap-Closure-Batch-322
+  repository_or_case_pointer: 03_cases/yaml/C49-CAL1_PROJECT_AS_Calibration_Open_Threshold_Function.yaml
+  record_provenance:
+  - Synthetic final-lock gap-closure fixture; no external empirical claim is asserted.
+  - This record contains exactly one PROJECT_AS occurrence and preserves every earlier result without inheritance.
+  - Produced against Source-of-Truth ZIP 321 and Transformation_Record.schema.json schema_version 0.1.2.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Gap Package C calibration-open result with optional Stop after sufficiency.
+claim:
+  claim_id: claim.c49-cal1.project-as.01
+  statement: F49 performs a bounded correction-window threshold function in C49, but the exact threshold remains materially
+    unresolved inside [q2,q4]; retain the form provisionally and stop further current analysis after sufficiency.
+  claim_type:
+    value: calibration-open threshold-function claim
+    control_source: 04_reference/Claim_Type_Table.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: F49 and initial early/late source packet only.
+    operation_occurrence_boundary: Only project-as.c49-cal1.01; all adjacent claims and operations remain separate records.
+    frame:
+      value: synthetic C49 correction-window frame
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    granularity:
+      value: profile-to-threshold-form granularity
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    relative_level:
+      value: contextual target-function level
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    temporal_scope: C49-U0–U4
+    source_scope: F49 and initial early/late source packet only.
+    context_scope: Correction accessibility and bounded threshold interval.
+    generalization_boundary: No transfer beyond this synthetic method fixture.
+    excluded_reach:
+    - No universal numeric threshold.
+    - No inference that missing q3 data is Λ.
+    - No silent continuation after optional Stop.
+  validity_scope: Initial calibration-open claim only.
+  claim_ceiling: &id001
+    asserted_relation: Pattern F49 supports a bounded correction-window threshold form in C49, while the exact threshold remains
+      unresolved until new calibrated sources support re-entry.
+    reach: F49, C49, and declared source packets only.
+    precision: Form discrimination, threshold interval, optional Stop, and re-entry conditions only.
+    generality: Single synthetic gap-closure package.
+    functional_scope: Calibration-open threshold function followed by separately recorded recalibrated retest.
+    dependence_strength: Initial claim remains provisional; re-entry may narrow the interval but cannot rewrite it.
+    inferential_distance: Two separate PROJECT_AS tests separated by optional Stop and materially new sources.
+    limiting_sources:
+    - case://c49-cal1/form
+    - case://c49-cal1/threshold
+    - case://c51-re1/new-sources
+    rationale: The package distinguishes source support, calibration openness, optional Stop, and re-entry without universal
+      thresholds.
+  authority_boundary: No empirical, causal, normative, person, or application authority follows.
+source:
+  reference_object:
+    object_id: profile.F49
+    description: Synthetic correction-window form with source-supported early/late discrimination and unresolved q3 threshold.
+    typing:
+      value: modulating profile
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C49-CAL1_Calibration_Open_Result_Optional_Stop_and_Reentry.md#2-initial-calibration-open-test
+  object_typing:
+    value: modulating profile
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  frame:
+    value: synthetic C49 correction-window frame
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: profile and threshold-interval granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: origin profile level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: F49-T0–T5
+  source_scope: Initial source packet only.
+  source_basis:
+  - source_item_id: source.c49-cal1.form
+    source_pointer: case://c49-cal1/form
+    provenance_description: Synthetic source packet identifies a repeatable correction-window form F49.
+    affected_claim_component: Form identification
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#evidence-role-vocabulary
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    evidence_availability: available
+    temporal_scope: F49-T0–T5
+    reference_scope: profile F49
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain warrant is asserted.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.c49-cal1.threshold
+    source_pointer: case://c49-cal1/threshold
+    provenance_description: Initial packet distinguishes early versus late correction but cannot locate a stable boundary
+      inside interval [q2,q4].
+    affected_claim_component: Calibration openness
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#evidence-role-vocabulary
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    evidence_availability: available
+    temporal_scope: C49-U0–U4
+    reference_scope: target C49
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain warrant is asserted.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace: &id002
+  - trace_id: trace.c49-cal1.form
+    source_feature: F49 consistently changes correction accessibility between early and late windows.
+    affected_claim_component: Threshold-form claim.
+    trace_role: load_bearing
+    result_dependency: Removing the form defeats the target function.
+    expected_result_change: No projection if correction accessibility is unchanged.
+    temporal_or_relational_dependency: F49-T0–T5 to C49-U0–U4
+    claim_limitation: Exact threshold remains open.
+    source_pointer: case://c49-cal1/form
+  - trace_id: trace.c49-cal1.interval
+    source_feature: Initial observations separate q2 success from q4 failure but leave q3 unresolved.
+    affected_claim_component: Calibration interval.
+    trace_role: limiting
+    result_dependency: The result must remain provisional.
+    expected_result_change: New q3 sources can support re-entry.
+    temporal_or_relational_dependency: C49-U0–U4
+    claim_limitation: No universal numeric threshold.
+    source_pointer: case://c49-cal1/threshold
+  known_gaps:
+  - Exact threshold inside [q2,q4] is unresolved.
+  - q3 observations are absent from the initial packet.
+  source_ceiling: *id001
+operation:
+  occurrence_id: project-as.c49-cal1.01
+  kind: PROJECT_AS
+  justification: Test whether F49 supports a target threshold form while preserving unresolved calibration.
+  expected_praxeological_difference: The form separates early correction accessibility from late closure, while the exact
+    q3 boundary remains open.
+  selection_rule: Retain the bounded form and interval; do not invent q3, universalize the threshold, or treat missing source
+    as Non-Event.
+  transformation_context: Gap Package C initial calibration-open result.
+  details:
+    target_context: 'context.C49: Synthetic correction field with q2 success, q4 failure, and absent q3 calibration source.
+      (C49-U0–U4)'
+    constitutive_source_trace: *id002
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: true
+    alternative_projection_or_no_projection:
+    - no projection
+    - broader correction-window function without threshold claim
+    - defer until calibrated
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: target.F49.C49
+    description: Contextual view of F49 as a calibration-open correction-window threshold function.
+    typing:
+      value: contextual function view
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C49-CAL1_Calibration_Open_Result_Optional_Stop_and_Reentry.md#2-initial-calibration-open-test
+  object_typing:
+    value: contextual function view
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  contextual_function:
+    value: calibration-open correction-window threshold function
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/primary_result_kind
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  frame:
+    value: synthetic C49 correction-window frame
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: threshold-interval granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: contextual threshold-function level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: C49-U0–U4
+  validity_scope: Form and interval only; exact q3 threshold unresolved.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source form, absent q3 source, target interval, and claim ceiling are explicit.
+      rationale: Source form, absent q3 source, target interval, and claim ceiling are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Exactly one PROJECT_AS occurrence is declared; adjacent claims and operations remain separate records.
+      rationale: Exactly one PROJECT_AS occurrence is declared; adjacent claims and operations remain separate records.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The early/late form changes correction accessibility.
+      rationale: The early/late form changes correction accessibility.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Initial traces support form and interval but not exact threshold.
+      rationale: Initial traces support form and interval but not exact threshold.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Origin type and bounded function remain; calibration remains open.
+      rationale: Origin type and bounded function remain; calibration remains open.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Removing F49 defeats the form; q3 variation is unavailable in the initial packet.
+      rationale: Removing F49 defeats the form; q3 variation is unavailable in the initial packet.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Interval, absent source, excluded universality, and re-entry are explicit.
+      rationale: Interval, absent source, excluded universality, and re-entry are explicit.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Reduced function, no projection, and optional Stop remain visible.
+      rationale: Reduced function, no projection, and optional Stop remain visible.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Calibration is materially open; missing q3 source is not a Non-Event.
+      rationale: Calibration is materially open; missing q3 source is not a Non-Event.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: Provisional wording cannot hide the threshold gap.
+      rationale: Provisional wording cannot hide the threshold gap.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: Optional Stop is reached after sufficient bounded form identification; re-entry requires new sources
+        and a new record.
+      rationale: Optional Stop is reached after sufficient bounded form identification; re-entry requires new sources and
+        a new record.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: No universal threshold or authority follows.
+      rationale: No universal threshold or authority follows.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The early/late form changes correction accessibility.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain only the C3-bounded dynamic Attractor-function claim.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Initial traces support form and interval but not exact threshold.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve all load-bearing traces and the C3/E3 contrast.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type and bounded function remain; calibration remains open.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Maintain explicit source-type/target-function separation.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type and bounded function remain; calibration remains open.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Do not substitute a label, one source Trajectory, or target outcome for R3.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type and bounded function remain; calibration remains open.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw or retest the function if source or target load changes.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+      applicability_condition: Applies when PROJECT_AS assigns a bounded source-sensitive function while preserving the origin
+        type.
+      applicability_rationale: This occurrence tests whether the independently identified recurrent trajectory form performs
+        a bounded dynamic Attractor-function in one declared later transition field.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type and bounded function remain; calibration remains open.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve source and target temporal scopes and transition order.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Source form, absent q3 source, target interval, and claim ceiling are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the function only for the declared C3 relation.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Removing F49 defeats the form; q3 variation is unavailable in the initial packet.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve defeat conditions and do not infer causality.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Calibration is materially open; missing q3 source is not a Non-Event.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the source claim only under the declared comparison coordinates.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Calibration is materially open; missing q3 source is not a Non-Event.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Use the defined mutations for method testing only; do not treat them as empirical calibration.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result:
+        value: calibration_open
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Interval, absent source, excluded universality, and re-entry are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the function with the declared five-field Loss profile.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Reduced function, no projection, and optional Stop remain visible.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve alternatives without merging them into the selected claim.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No universal threshold or authority follows.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Exclude all-path, deterministic, predictive, and authority reach.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No universal threshold or authority follows.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: 'Maintain authority_inheritance: prohibited.'
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Optional Stop is reached after sufficient bounded form identification; re-entry requires new sources
+        and a new record.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Continue only for this Record; material source or target extension requires a new claim.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: optional
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Optional Stop is reached after sufficient bounded form identification; re-entry requires new sources
+        and a new record.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the claim while preserving genuine Non-Capture if no stable source or function survives.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The selected admissible_but_provisional route follows the non-compensatory twelve-stage and sixteen-rule
+    findings; no adjacent success repairs this record.
+  anti_immunization_assessment: Provisional wording cannot hide the threshold gap.
+  stop_assessment:
+    reached: true
+    condition_assessed: true
+    rationale: The bounded form is sufficient for the current claim; further work without q3 sources would invent precision.
+    reentry_contemplated: true
+    mode: optional
+    stop_condition: Current claim sufficiency plus unresolved calibration and no new source packet.
+    preserved_result: The provisional bounded threshold form and interval remain available.
+    reentry_conditions:
+    - changed_condition: Materially new q3 source observations become available under held source conditions.
+      new_or_revised_record_id: case.c51-re1.project-as.01
+      rationale: Re-entry is a new test and preserves C49-CAL1.
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: Optional Stop is reached after sufficient bounded form identification; re-entry requires new sources and a
+      new record.
+loss:
+  preserved:
+  - item_id: loss.c49-cal1.preserved.1
+    affected_element: Threshold form
+    description: Early/late correction difference remains supported.
+    reason: Source support.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/constitutive_source_trace
+    recoverability_or_reentry_note: Preserved.
+  - item_id: loss.c49-cal1.preserved.2
+    affected_element: Calibration interval
+    description: Exact threshold remains explicitly open.
+    reason: No invented precision.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: Preserved for re-entry.
+  compressed:
+  - item_id: loss.c49-cal1.compressed.1
+    affected_element: Local variation
+    description: Initial record compresses q2/q4 outcomes into an interval.
+    reason: Sufficient for form, not exact threshold.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /operation/selection_rule
+    recoverability_or_reentry_note: New sources may reopen.
+  excluded:
+  - item_id: loss.c49-cal1.excluded.1
+    affected_element: Universal threshold
+    description: Excluded.
+    reason: STRATA supplies no universal calibration.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+    recoverability_or_reentry_note: Not recoverable within this claim.
+  uncertain:
+  - item_id: loss.c49-cal1.uncertain.1
+    affected_element: q3 threshold position
+    description: Absent from initial sources.
+    reason: Missing source is not Λ.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: Recovered only through new source packet and record.
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions: []
+  rival_projections:
+  - alternative_id: alt.c49-cal1.broader
+    claim_relation: Correction-window function without threshold form
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Reduce the claim if the interval is not discriminating.
+    current_handling: retained
+    rationale: A separate reduced claim remains possible.
+  - alternative_id: alt.c49-cal1.none
+    claim_relation: No projection
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Correct if early/late difference disappears.
+    current_handling: unresolved
+    rationale: Retained as rival.
+  no_transformation:
+  - alternative_id: alt.c49-cal1.stop
+    claim_relation: Optional Stop after current sufficiency
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Preserve provisional result until new sources.
+    current_handling: retained
+    rationale: Further current analysis would invent q3 precision.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: This synthetic record grants no empirical truth, causal proof, normative or legal judgment, diagnosis,
+    person or group typing, recommendation, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - local operation passage does not establish chain passage
+  - later success does not erase earlier failure, Stop, Loss, or Non-Capture
+  - origin type is not replaced by target function
+  - formal validation does not establish substantive truth or authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: F49 supports a bounded correction-window threshold form with an unresolved calibration interval; optional Stop
+      follows current sufficiency.
+    result_family:
+      value: calibration-open provisional projection
+      control_source: 07_model/Output_Classes.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: provisional
+    resolution_test_result: null
+    capture_statement:
+      statement: Adequate bounded capture exists for the form; threshold calibration remains open.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: admissible is not selected because the constitutive conditions for admissible_but_provisional control the
+          current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: admissible_with_bounded_claim is not selected because the constitutive conditions for admissible_but_provisional
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_with_bounded_claim result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: selected
+        rationale: Material calibration openness requires provisional routing.
+        constitutive_condition_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /admissibility
+        - /loss
+        - /alternatives
+        - /governance
+        preserved_finding: The operation-specific finding, Loss, alternatives, and authority ceiling remain preserved.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: resolution_neutral is not selected because the constitutive conditions for admissible_but_provisional control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: analogy_only is not selected because the constitutive conditions for admissible_but_provisional control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: partially_admissible is not selected because the constitutive conditions for admissible_but_provisional
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: claim_reduction_required is not selected because the constitutive conditions for admissible_but_provisional
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: mandatory_stop is not selected because the constitutive conditions for admissible_but_provisional control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: failed_transformation is not selected because the constitutive conditions for admissible_but_provisional
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: non_capture is not selected because the constitutive conditions for admissible_but_provisional control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: admissible_but_provisional
+    route_id: route_admissible_but_provisional
+    matched_constitutive_conditions:
+    - /claim
+    - /source
+    - /operation
+    - /target
+    - /admissibility
+    - /loss
+    - /alternatives
+    - /governance
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - Prior failures, Stops, Loss, and source material remain visible.
+    - No source type, function, route, or authority is inherited by later records.
+    split_decision:
+      required: false
+      rationale: Each operation occurrence and any successor claim retains a separate record.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: Material calibration openness requires provisional routing.
+    current_claim_disposition:
+      value: maintained
+      rationale: Material calibration openness requires provisional routing.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_but_provisional
+    material_provisionality:
+    - Exact threshold within [q2,q4] is unresolved.
+    - q3 source material is absent from the initial packet.
+    - The form is supported, but precise calibration is not.
+    claim_effect: Retain the bounded correction-window threshold form provisionally; make no exact threshold claim and stop
+      current analysis after sufficiency.
+    review_or_reentry_conditions:
+    - Obtain materially new q3 source observations under held source conditions.
+    - Create a new record for any recalibrated threshold claim.
+    - Preserve the current provisional result and optional Stop.
+    rationale: The form is discriminating and source-supported, while threshold precision remains materially open.
+relations:
+  sibling_claim_or_record_ids:
+  - case.c51-re1.project-as.01
+  rival_record_ids: []
+  countercase_refs:
+  - C28-UNSUPPORTED-01
+  - C28-OVERFINE-01
+  next_occurrence_id: project-as.c51-re1.01

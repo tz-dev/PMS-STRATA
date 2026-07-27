@@ -1,0 +1,1423 @@
+schema_version: 0.1.2
+record_id: case.c17-attr-01.compose.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-23T21:15:00+02:00'
+  updated_at: '2026-07-27T11:59:29+02:00'
+  revision_id: r2
+  producer_id: PMS-STRATA.Chapter-17-WP3A
+  repository_or_case_pointer: 03_cases/yaml/C17-ATTR-01_Trajectory_or_Attractor.yaml
+  record_provenance:
+    - Synthetic PATH confusion case C17-ATTR-01 instantiated for Chapter 17 local method testing; no external empirical 
+      truth is asserted.
+    - Built against Transformation_Record.schema.json v0.1.3 and the Chapter 17 WP3-A repository snapshot.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Legacy substantive overflight complete against final Chapters 41–57 LIMITS controls; route 
+    admissible_with_bounded_claim confirmed without change.
+claim:
+  claim_id: claim.c17-attr-01.compose.01
+  statement: The declared maintenance history forms one source-sensitive Trajectory; recurrence inside that history does
+    not establish an Attractor identity or contextual Attractor-function, which would require a separate PROJECT_AS 
+    record.
+  claim_type:
+    value: declared-composite claim
+    control_source: 04_reference/Claim_Type_Table.md#76-compose-specific-composite-claims
+    inventory_status: current_controlled
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: One synthetic maintenance-program history.
+    operation_occurrence_boundary: Only COMPOSE occurrence compose.c17-attr-01.01.
+    frame: &id002
+      value: synthetic maintenance-program history frame
+      control_source: 03_cases/yaml/C17-ATTR-01_Trajectory_or_Attractor.yaml#/claim/claim_scope/frame
+      inventory_status: extension
+      extension_rationale: The case-specific frame is local to this synthetic case and does not extend STRATA theory.
+    granularity: &id003
+      value: configuration, repeated-subpath, repair-transition, residual-load, endpoint, and trajectory granularity
+      control_source: 03_cases/yaml/C17-ATTR-01_Trajectory_or_Attractor.yaml#/claim/claim_scope/granularity
+      inventory_status: extension
+      extension_rationale: The case-specific granularity declares the source-to-target distinction set for this 
+        synthetic case.
+    relative_level: &id006
+      value: composed Trajectory relative to constituent maintenance cycles and transitions
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: The local wording instantiates the controlled relative-level relation for this case target.
+    temporal_scope: Synthetic interval M0–M8.
+    source_scope: Baseline, two historically connected cycles, partial repair, residual backlog, and endpoint declared 
+      in the synthetic packet.
+    context_scope: Synthetic Chapter 17 case C17-ATTR-01 only.
+    generalization_boundary: No external domain generalization, application transfer, person evaluation, causal proof, 
+      prediction, or authority claim.
+    excluded_reach:
+      - Causal necessity or intention.
+      - Person, institutional, moral, legal, or political evaluation.
+      - Application, intervention, ranking, sanction, or authority.
+      - Attractor identity, universal recurrence, or contextual Attractor-function.
+      - Prediction from recurrence.
+  validity_scope: Assessment of whether repeated course-form inside one history supports a Trajectory while preserving 
+    the RETYPE boundary against an Attractor-function claim.
+  claim_ceiling:
+    asserted_relation: The source structures form one Trajectory; no Attractor identity or function is established.
+    reach: One synthetic maintenance-program history.
+    precision: Both cycles, their differences, repair, and endpoint residue are declared; cross-context stabilizing 
+      function is not.
+    generality: Single synthetic case C17-ATTR-01.
+    functional_scope: No contextual target function is assigned; any later function requires a separate PROJECT_AS 
+      occurrence.
+    dependence_strength: Historical order changes repair cost and endpoint options; no universal or contextual attractor
+      claim is established.
+    inferential_distance: One explicit COMPOSE occurrence from typed source structures to one bounded temporal 
+      composite.
+    limiting_sources: &id004
+      - source.c17-attr-01.baseline
+      - source.c17-attr-01.cycle-a
+      - source.c17-attr-01.cycle-b
+      - source.c17-attr-01.repair
+      - source.c17-attr-01.endpoint
+    rationale: The record retains the Trajectory and excludes the Attractor-function reach pending a separate PROJECT_AS
+      test.
+  authority_boundary: The record supports only the stated synthetic temporal-object claim and grants no empirical, 
+    causal, normative, diagnostic, legal, political, organizational, or application authority.
+source:
+  reference_object:
+    object_id: source.set.c17-attr-01
+    description: A maintenance history with two connected cycles, partial repair, residual backlog, and changed 
+      continuation costs.
+    typing: &id001
+      value: typed temporal source set
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract
+      inventory_status: extension
+      extension_rationale: The local source-set label groups independently typed source objects without creating a new 
+        PMS primitive.
+    source_pointer: 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md#source-field
+  object_typing: *id001
+  frame: *id002
+  granularity: *id003
+  relative_level:
+    value: configuration, subpath, transition, and endpoint level relative to the Trajectory target
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: The local wording instantiates the controlled relative-level relation for this case source 
+      field.
+  temporal_scope: Synthetic interval M0–M8.
+  source_scope: Baseline, two historically connected cycles, partial repair, residual backlog, and endpoint declared in 
+    the synthetic packet.
+  source_basis:
+    - source_item_id: source.c17-attr-01.baseline
+      source_pointer: case://pms-strata/configuration.attr.baseline
+      provenance_description: Synthetic declaration of the baseline.
+      affected_claim_component: Trajectory origin.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: M0
+      reference_scope: configuration.attr.baseline
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-attr-01.cycle-a
+      source_pointer: case://pms-strata/subpath.attr.cycle-a
+      provenance_description: Synthetic declaration of cycle A.
+      affected_claim_component: First historical cycle.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: M1–M3
+      reference_scope: subpath.attr.cycle-a
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-attr-01.cycle-b
+      source_pointer: case://pms-strata/subpath.attr.cycle-b
+      provenance_description: Synthetic declaration of cycle B.
+      affected_claim_component: Second historically conditioned cycle.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: M4–M6
+      reference_scope: subpath.attr.cycle-b
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-attr-01.repair
+      source_pointer: case://pms-strata/transition.attr.partial-repair
+      provenance_description: Synthetic declaration of partial repair.
+      affected_claim_component: Non-reset transition.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: M6–M7
+      reference_scope: transition.attr.partial-repair
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-attr-01.endpoint
+      source_pointer: case://pms-strata/configuration.attr.endpoint
+      provenance_description: Synthetic declaration of the endpoint.
+      affected_claim_component: Trajectory endpoint and open continuation.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: M8
+      reference_scope: configuration.attr.endpoint
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+    - trace_id: trace.baseline
+      source_feature: Initial maintenance arrangement.
+      affected_claim_component: Trajectory origin.
+      trace_role: load_bearing
+      result_dependency: Without it the historical object has no origin.
+      expected_result_change: Removing it defeats the bounded history.
+      temporal_or_relational_dependency: It precedes both cycles.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/configuration.attr.baseline
+    - trace_id: trace.cycle-a
+      source_feature: First escalation, temporary repair, and renewed backlog course.
+      affected_claim_component: First historical cycle.
+      trace_role: load_bearing
+      result_dependency: Without it later burden is not historically conditioned as claimed.
+      expected_result_change: Removing it changes later repair cost.
+      temporal_or_relational_dependency: It follows M0 and precedes cycle B.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/subpath.attr.cycle-a
+    - trace_id: trace.cycle-b
+      source_feature: Second course-form with altered burden and shorter repair interval.
+      affected_claim_component: Second historically conditioned cycle.
+      trace_role: load_bearing
+      result_dependency: Without it recurrence and later residue are weaker.
+      expected_result_change: Replacing it with an unrelated event removes the repeated course-form.
+      temporal_or_relational_dependency: It follows cycle A.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/subpath.attr.cycle-b
+    - trace_id: trace.repair
+      source_feature: Partial repair reducing but not resetting backlog and cost.
+      affected_claim_component: Non-reset transition.
+      trace_role: load_bearing
+      result_dependency: Without it the endpoint route changes.
+      expected_result_change: Replacing it with reset defeats the residual trajectory.
+      temporal_or_relational_dependency: It follows cycle B and precedes M8.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/transition.attr.partial-repair
+    - trace_id: trace.endpoint
+      source_feature: Endpoint with residual backlog and changed continuation cost.
+      affected_claim_component: Trajectory endpoint and open continuation.
+      trace_role: load_bearing
+      result_dependency: Without it current historical load cannot be assessed.
+      expected_result_change: Removing it defeats the target.
+      temporal_or_relational_dependency: It follows partial repair.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/configuration.attr.endpoint
+  known_gaps:
+    - Micro-events inside each cycle are not encoded.
+    - No cross-context Attractor-function evidence is encoded.
+  source_ceiling:
+    asserted_relation: The declared cycles and transitions support one bounded Trajectory.
+    reach: M0–M8 within one synthetic history.
+    precision: Direct synthetic declarations of cycles, repair, residual load, and endpoint.
+    generality: Single synthetic case C17-ATTR-01.
+    functional_scope: No target function, application status, motive, or authority is sourced.
+    dependence_strength: Direct synthetic declarations support the listed objects, relations, order, and bounded 
+      uncertainty only.
+    inferential_distance: Source declarations only; object formation is tested separately under COMPOSE.
+    limiting_sources: *id004
+    rationale: The source basis is sufficient for the bounded case test and insufficient for broader empirical, causal, 
+      functional, normative, or authority claims.
+operation:
+  occurrence_id: compose.c17-attr-01.01
+  kind: COMPOSE
+  justification: COMPOSE tests the formation of one historical Trajectory while preventing recurrence from becoming an 
+    Attractor label or function automatically.
+  expected_praxeological_difference: Historical order changes present repair burden, backlog residue, and available 
+    continuation while the function boundary prevents RETYPE inflation.
+  selection_rule: Retain both cycles, their differences, partial repair, residual backlog, and endpoint; exclude 
+    universal recurrence and function claims.
+  transformation_context: Synthetic Chapter 17 positive-case reconstruction for C17-ATTR-01.
+  details:
+    source_objects:
+      - object_id: configuration.attr.baseline
+        description: Initial maintenance arrangement.
+        typing:
+          value: configuration
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/configuration.attr.baseline
+      - object_id: subpath.attr.cycle-a
+        description: First escalation, temporary repair, and renewed backlog course.
+        typing:
+          value: subpath
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/subpath.attr.cycle-a
+      - object_id: subpath.attr.cycle-b
+        description: Second course-form with altered burden and shorter repair interval.
+        typing:
+          value: subpath
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/subpath.attr.cycle-b
+      - object_id: transition.attr.partial-repair
+        description: Partial repair reducing but not resetting backlog and cost.
+        typing:
+          value: transition as object
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/transition.attr.partial-repair
+      - object_id: configuration.attr.endpoint
+        description: Endpoint with residual backlog and changed continuation cost.
+        typing:
+          value: configuration
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/configuration.attr.endpoint
+    source_typings:
+      - value: configuration
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: subpath
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: subpath
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: transition as object
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: configuration
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+    ordering_rule: M0 precedes cycle A; cycle A precedes cycle B; partial repair follows cycle B and precedes M8.
+    formation_rule: Form one Trajectory because earlier cycles alter later repair cost, backlog, and continuation 
+      options.
+    constitutive_relations:
+      - relation_id: relation.attr.baseline-cycle-a
+        relation_type:
+          value: first cycle relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: configuration.attr.baseline
+        to_object_id: subpath.attr.cycle-a
+        description: The baseline enters the first escalation-repair course.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md#3-typed-reconstruction
+      - relation_id: relation.attr.cycle-a-cycle-b
+        relation_type:
+          value: historical recurrence relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: subpath.attr.cycle-a
+        to_object_id: subpath.attr.cycle-b
+        description: Cycle A changes burden and repair conditions under which cycle B occurs.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md#3-typed-reconstruction
+      - relation_id: relation.attr.cycle-b-repair
+        relation_type:
+          value: partial repair relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: subpath.attr.cycle-b
+        to_object_id: transition.attr.partial-repair
+        description: Cycle B is followed by partial rather than reset repair.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md#3-typed-reconstruction
+      - relation_id: relation.attr.repair-endpoint
+        relation_type:
+          value: residual load relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: transition.attr.partial-repair
+        to_object_id: configuration.attr.endpoint
+        description: Partial repair leaves backlog and changed continuation costs at M8.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md#3-typed-reconstruction
+    source_trace:
+      - trace_id: trace.baseline
+        source_feature: Initial maintenance arrangement.
+        affected_claim_component: Trajectory origin.
+        trace_role: load_bearing
+        result_dependency: Without it the historical object has no origin.
+        expected_result_change: Removing it defeats the bounded history.
+        temporal_or_relational_dependency: It precedes both cycles.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/configuration.attr.baseline
+      - trace_id: trace.cycle-a
+        source_feature: First escalation, temporary repair, and renewed backlog course.
+        affected_claim_component: First historical cycle.
+        trace_role: load_bearing
+        result_dependency: Without it later burden is not historically conditioned as claimed.
+        expected_result_change: Removing it changes later repair cost.
+        temporal_or_relational_dependency: It follows M0 and precedes cycle B.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/subpath.attr.cycle-a
+      - trace_id: trace.cycle-b
+        source_feature: Second course-form with altered burden and shorter repair interval.
+        affected_claim_component: Second historically conditioned cycle.
+        trace_role: load_bearing
+        result_dependency: Without it recurrence and later residue are weaker.
+        expected_result_change: Replacing it with an unrelated event removes the repeated course-form.
+        temporal_or_relational_dependency: It follows cycle A.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/subpath.attr.cycle-b
+      - trace_id: trace.repair
+        source_feature: Partial repair reducing but not resetting backlog and cost.
+        affected_claim_component: Non-reset transition.
+        trace_role: load_bearing
+        result_dependency: Without it the endpoint route changes.
+        expected_result_change: Replacing it with reset defeats the residual trajectory.
+        temporal_or_relational_dependency: It follows cycle B and precedes M8.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/transition.attr.partial-repair
+      - trace_id: trace.endpoint
+        source_feature: Endpoint with residual backlog and changed continuation cost.
+        affected_claim_component: Trajectory endpoint and open continuation.
+        trace_role: load_bearing
+        result_dependency: Without it current historical load cannot be assessed.
+        expected_result_change: Removing it defeats the target.
+        temporal_or_relational_dependency: It follows partial repair.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/configuration.attr.endpoint
+    selection_rule_pointer: /operation/selection_rule
+    target_reference_object_pointer: /target/reference_object
+    target_object_typing_pointer: /target/object_typing
+target:
+  reference_object:
+    object_id: composite.c17-attr-01
+    description: 'Bounded synthetic trajectory for C17-ATTR-01: Trajectory or Attractor?.'
+    typing: &id005
+      value: trajectory
+      control_source: 
+        07_model/Operation_Registry.yaml#/operation_types/COMPOSE/target_contract/recognized_result_families
+      inventory_status: current_controlled
+    source_pointer: /operation/details
+  object_typing: *id005
+  contextual_function:
+  frame: *id002
+  granularity: *id003
+  relative_level: *id006
+  temporal_scope: Synthetic interval M0–M8.
+  validity_scope: Assessment of whether repeated course-form inside one history supports a Trajectory while preserving 
+    the RETYPE boundary against an Attractor-function claim.
+  contextual_function_origin_occurrence_ref:
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source and claim packet complete
+      rationale: The bounded claim, source field, scope, ceilings, and authority boundary are explicitly declared.
+      rule_assessment_pointers:
+        - source_ceiling
+        - contextual_boundedness
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Operation correctly classified as COMPOSE
+      rationale: Multiple typed source structures are formed into a new temporal composite through explicit selection, 
+        ordering, formation, and constitutive relations.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Praxeological Purchase established
+      rationale: Historical order changes present repair burden, backlog residue, and available continuation while the 
+        function boundary prevents RETYPE inflation.
+      rule_assessment_pointers:
+        - praxis_purchase
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source-to-result dependency remains reconstructible
+      rationale: Trajectory identity traces to both cycles, partial repair, and endpoint residue; no contextual 
+        Attractor-function trace is claimed.
+      rule_assessment_pointers:
+        - traceable_load
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Type, reference, temporal, and functional boundaries preserved
+      rationale: Source objects retain their origin typings; the target is a derived temporal composite; no contextual 
+        function is inferred.
+      rule_assessment_pointers:
+        - type_integrity
+        - reference_continuity
+        - functional_continuity
+        - temporal_continuity
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Load-bearing changes alter or defeat the claim
+      rationale: Removing cycle A or replacing partial repair with reset changes the Trajectory; adding the word 
+        Attractor without a target context does not.
+      rule_assessment_pointers:
+        - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection and five-part Loss are explicit
+      rationale: Included and omitted elements, retained distinctions, compression, uncertainty, and irrecoverability 
+        are recorded without a lossless presumption.
+      rule_assessment_pointers:
+        - selection_and_loss
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Material alternatives are preserved
+      rationale: Path-only, repeated-pattern description, No-Composition, and future separate Attractor-function 
+        projection remain available.
+      rule_assessment_pointers:
+        - alternatives
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source and calibration limits declared
+      rationale: The synthetic packet discriminates the tested positive case from defined mutations but supplies no 
+        external empirical calibration.
+      rule_assessment_pointers:
+        - source_ceiling
+        - calibration
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: No failed claim is repaired by relabeling
+      rationale: Any changed source set, order, frame, granularity, target class, or target function requires a new 
+        testable claim.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: Stop and Non-Capture assessed and not reached
+      rationale: An adequate bounded composite remains; stronger excluded claims remain prohibited rather than silently 
+        retained.
+      rule_assessment_pointers:
+        - stop
+        - non_capture
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: Claim and authority ceilings maintained
+      rationale: The result remains synthetic, bounded, non-causal, non-normative, non-diagnostic, and 
+        non-authoritative.
+      rule_assessment_pointers:
+        - claim_ceiling
+        - authority_ceiling
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: Historical order changes present repair burden, backlog residue, and available continuation 
+        while the function boundary prevents RETYPE inflation.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded temporal-object claim.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: Trajectory identity traces to both cycles, partial repair, and endpoint residue; no contextual 
+        Attractor-function trace is claimed.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim only while the declared source-to-result dependency remains reconstructible.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: Source types remain visible and the target is typed only as the declared composite.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve source typings and target typing.
+      controlled_local_result:
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: The target remains anchored to the same declared case reference and source field.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded reference object.
+      controlled_local_result:
+    functional_continuity:
+      applicability: not_applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: No source or target function is asserted; any later function requires PROJECT_AS.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Do not infer a contextual function.
+      controlled_local_result:
+      applicability_condition: Applies only if a source or target function is claimed.
+      applicability_rationale: No contextual function is claimed in this COMPOSE occurrence.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: M0 precedes cycle A; cycle A precedes cycle B; partial repair follows cycle B and precedes M8.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve the declared temporal and relational order.
+      controlled_local_result:
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: Frame, granularity, relative level, temporal scope, and synthetic case boundary are explicit for
+        C17-ATTR-01.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim only within the declared case scope.
+      controlled_local_result:
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: Removing cycle A or replacing partial repair with reset changes the Trajectory; adding the word 
+        Attractor without a target context does not.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve the source-sensitive defeat and reduction conditions.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: The sources support the bounded temporal composite and no broader empirical, causal, functional,
+        or authority claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain only the bounded claim.
+      controlled_local_result:
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/source_and_calibration_limits
+        - /operation
+        - /claim
+      reasoned_finding: The synthetic case discriminates the positive record from the declared removal, reordering, 
+        substitution, and no-composition variants.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports method discrimination only; no external empirical calibration is claimed.
+      required_action: Use the declared mutations as local tests and preserve the external calibration limit.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: Selection and all five Loss fields are explicit and claim-relative.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the explicit Loss and selection record.
+      controlled_local_result:
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: Path-only, repeated-pattern description, No-Composition, and future separate Attractor-function 
+        projection remain available.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve rival compositions, unresolved alternatives, and No-Composition where declared.
+      controlled_local_result:
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: The record retains the Trajectory and excludes the Attractor-function reach pending a separate 
+        PROJECT_AS test.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim without expansion.
+      controlled_local_result:
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: No empirical, causal, normative, diagnostic, legal, political, intervention, or application 
+        authority is granted.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Maintain all governance prohibitions.
+      controlled_local_result:
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: No mandatory Stop trigger is reached for the bounded case claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Any material extension requires a new testable claim.
+      controlled_local_result:
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+      reasoned_finding: An adequate bounded composite remains; no whole-claim capture limit is decisive.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded claim and its exclusions.
+      controlled_local_result:
+  non_compensation_confirmation: true
+  audit_to_routing_basis: All applicable assessments are complete; Purchase is gain, TraceableLoad is within_ceiling, 
+    source-sensitive defeat conditions are explicit, five-part Loss and alternatives are recorded, and neither Stop nor 
+    Non-Capture is reached.
+  anti_immunization_assessment: The record does not erase or repair any prior failure. Any later change in source 
+    membership, order, frame, granularity, relative level, target class, or function is a new separately testable claim.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The bounded composition remains above the Relevance Floor and below the Traceability Ceiling; no 
+      integrity failure makes continuation inadmissible.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The record adequately captures the bounded temporal composite while preserving exclusions, uncertainty, 
+      alternatives, and stronger unclaimed routes.
+loss:
+  preserved:
+    - item_id: loss.preserved.1
+      affected_element: historical cycles and residue
+      description: Both cycles, their order, partial repair, endpoint residue, and changed continuation remain explicit.
+      reason: They constitute the Trajectory.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the element as load-bearing support.
+      source_or_evidence_pointer: /operation/details/source_objects
+      recoverability_or_reentry_note: Any changed cycle relation requires a new record.
+    - item_id: loss.preserved.2
+      affected_element: Attractor boundary
+      description: Recurrence remains visible while identity and function claims are withheld.
+      reason: Type and operation integrity require separation.
+      claim_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the element as load-bearing support.
+      source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+      recoverability_or_reentry_note: A later PROJECT_AS record is required for function.
+  compressed:
+    - item_id: loss.compressed.1
+      affected_element: cycle micro-events
+      description: Micro-events inside M1–M6 are compressed into two subpaths.
+      reason: The bounded Trajectory does not require every action.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Bound the claim to the retained resolution.
+      source_or_evidence_pointer: /operation/details/source_objects
+      recoverability_or_reentry_note: Finer reconstruction requires a new record.
+  excluded:
+    - item_id: loss.excluded.1
+      affected_element: Attractor function and authority
+      description: Universal recurrence, Attractor identity/function, prediction, evaluation, application, and authority
+        are excluded.
+      reason: They exceed the current operation and sources.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Keep the excluded reach outside the claim.
+      source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+      recoverability_or_reentry_note: Reentry requires separate claims and sources.
+  uncertain:
+    - item_id: loss.uncertain.1
+      affected_element: cross-context recurrence
+      description: Whether the course-form recurs or stabilizes other contexts remains uncertain.
+      reason: No target-context evidence is encoded.
+      claim_effect:
+        family:
+          value: qualify
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Qualify the claim and preserve uncertainty.
+      source_or_evidence_pointer: /source/known_gaps/1
+      recoverability_or_reentry_note: Preserve as untested.
+  irrecoverable:
+    - item_id: loss.irrecoverable.1
+      affected_element: actor-level mechanism
+      description: Unencoded causal mechanisms and deliberations cannot be recovered.
+      reason: They were not encoded.
+      claim_effect:
+        family:
+          value: mark_capture_limit
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Mark the capture limit and prohibit reconstruction beyond it.
+      source_or_evidence_pointer: /source/known_gaps/0
+      recoverability_or_reentry_note: No causal or person claim.
+alternatives:
+  rival_compositions:
+    - alternative_id: alternative.attr.path-only
+      claim_relation: Retain a bounded Path without Trajectory sedimentation.
+      source_basis_or_evidence_pointer: /source
+      comparative_burden: Preserves order while withholding stronger historical load.
+      current_handling: not_selected
+      rationale: The packet supports a bounded Trajectory.
+    - alternative_id: alternative.attr.pattern-only
+      claim_relation: Describe recurrence without any Attractor hypothesis.
+      source_basis_or_evidence_pointer: /source
+      comparative_burden: Preserves repeated form and withholds function.
+      current_handling: not_selected
+      rationale: The current target additionally preserves historical load.
+    - alternative_id: alternative.attr.future-project-as
+      claim_relation: Test a bounded Attractor-function in a new PROJECT_AS record.
+      source_basis_or_evidence_pointer: /claim/claim_scope/excluded_reach
+      comparative_burden: Requires target context, source trace, function boundary, Loss, and new mapping.
+      current_handling: unresolved
+      rationale: RETYPE owns the function test.
+  rival_decompositions: []
+  rival_projections: []
+  no_transformation:
+    - alternative_id: alternative.attr.no-composition
+      claim_relation: Retain cycles and repair transitions separately.
+      source_basis_or_evidence_pointer: /source
+      comparative_burden: Preserves source structures while withholding one Trajectory.
+      current_handling: not_selected
+      rationale: The source-sensitive Trajectory passes.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal and local case admissibility applies only to the declared synthetic transformation claim; it
+    does not establish empirical truth, causality, semantic or normative validity, person judgment, legitimacy, 
+    diagnosis, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+    - admissible does not mean empirically true or causally proven
+    - the derived temporal composite is not a new PMS primitive
+    - COMPOSE does not automatically assign a contextual target function
+    - the synthetic case does not authorize evaluation of persons or institutions
+    - formal validation and case success do not grant application or intervention authority
+    - one successful case does not validate PATH globally
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: One source-sensitive Trajectory is retained while recurrence-based Attractor identity and function claims 
+      are excluded and deferred to RETYPE.
+    result_family:
+      value: admissible path-dependence claim under a materially narrowed historical scope
+      control_source: 
+        07_model/Output_Classes.yaml#/output_classes/admissible_with_bounded_claim/representative_local_results
+      inventory_status: current_controlled
+    source_function_effect:
+    prior_source_claim_disposition:
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids:
+      - claim.c17-attr-01.project-as.pending
+  status_declaration:
+    support_status: supported
+    resolution_test_result:
+    capture_statement:
+      statement: The historical Trajectory is adequately captured; absent cross-context function evidence is an excluded
+        reach, not Non-Capture.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The constitutive conditions for admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: selected
+        rationale: Purchase and TraceableLoad support the Trajectory, but type integrity and contextual boundedness 
+          require the Attractor-function reach to be excluded.
+        constitutive_condition_pointers: &id007
+          - /operation/details/source_objects
+          - /operation/details/ordering_rule
+          - /operation/details/formation_rule
+          - /operation/details/constitutive_relations
+          - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+          - /admissibility/rule_assessments/traceable_load/controlled_local_result
+          - /claim/claim_ceiling
+          - /governance/authority_inheritance
+        preserved_finding: The source-sensitive Trajectory and explicit Attractor boundary are retained.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The constitutive conditions for admissible_but_provisional are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The constitutive conditions for partially_admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The constitutive conditions for claim_reduction_required are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The constitutive conditions for mandatory_stop are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The constitutive conditions for failed_transformation are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: The constitutive conditions for non_capture are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+    selected_class: admissible_with_bounded_claim
+    route_id: route_admissible_with_bounded_claim
+    matched_constitutive_conditions: *id007
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings: []
+    split_decision:
+      required: false
+      rationale: The materially narrowed dependence claim is represented as the current primary claim; no additional 
+        same-occurrence claim split is required.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: Purchase and TraceableLoad support the Trajectory, but type integrity and contextual 
+      boundedness require the Attractor-function reach to be excluded.
+    current_claim_disposition:
+      value: maintained
+      rationale: The narrowed Trajectory claim is maintained; the trajectory-is-attractor formulation is not retained.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_with_bounded_claim
+    original_broader_claim_id: claim.c17-attr-01.trajectory-is-attractor
+    retained_narrower_claim_pointer: /claim/claim_id
+    material_narrowing:
+      - Retain one source-sensitive Trajectory.
+      - Exclude Attractor identity and withhold any contextual Attractor-function until a separate PROJECT_AS record 
+        exists.
+    excluded_reach:
+      - Universal recurrence, Attractor identity, Attractor-function, prediction, and cross-context transfer.
+      - All application or authority transfer.
+    separately_tested: true
+    rationale: The current COMPOSE claim passes only after narrowing the trajectory-is-attractor claim to one historical
+      Trajectory and separating the possible function claim.
+relations:
+  prior_record_ids: []
+  prior_claim_ids: []
+  sibling_claim_or_record_ids:
+    - claim.c17-attr-01.project-as.pending
+  rival_record_ids: []
+  countercase_refs:
+    - C16-DIR-01
+    - C17-WEAKPD-01
+    - C17-PROJ-01
+extensions:
+  - extension_id: pms-strata:chapter17:path-confusion-case:c17-attr-01:v0.1
+    owner_or_source: PMS-STRATA Chapter 17
+    control_source_pointer: 01_blocks/02_part_i_path.md#1714-confusion-case-trajectory-or-attractor
+    purpose: Carry the Chapter-17 case wrapper and local audit summary without replacing Shared Transformation Record 
+      fields.
+    payload:
+      path_case:
+        case_id: C17-ATTR-01
+        case_class: confusion_case
+        title: Trajectory or Attractor?
+        markdown_artifact: 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+        yaml_artifact: 03_cases/yaml/C17-ATTR-01_Trajectory_or_Attractor.yaml
+        governing_claim: The declared maintenance history forms one source-sensitive Trajectory; recurrence inside that 
+          history does not establish an Attractor identity or contextual Attractor-function, which would require a 
+          separate PROJECT_AS record.
+        starting_configuration: Initial maintenance arrangement at M0.
+        transitions:
+          - cycle A escalation and temporary repair
+          - cycle B with altered burden
+          - partial repair
+          - residual endpoint stabilization
+        events:
+          - temporary repairs
+          - partial repair
+          - endpoint stabilization
+        non_events:
+          - recurrent repair incompleteness retained only where source-declared
+        branches_and_alternatives: Path-only, repeated-pattern description, No-Composition, and a future separate 
+          Attractor-function PROJECT_AS route remain available.
+        compose_decision: COMPOSE executed for the origin temporal object only; any PROJECT_AS claim remains separate 
+          and unexecuted.
+        path_or_trajectory_result: admissible single Trajectory with Attractor-function claim withheld
+        path_dependence_finding: bounded historical load is retained for repair cost, backlog, and continuation; 
+          Attractor identity or function is not established.
+        local_audit_result:
+          status: pass
+          stages_complete: 12
+          warnings: 0
+          errors: 0
+        canonical_output_mapping: admissible_with_bounded_claim
+        stop_or_non_capture_status: neither reached for the bounded claim
+        governance_boundary: No target function, causality, person judgment, legitimacy, sanction, application 
+          authority, or authority inheritance.
+    does_not_replace_required_field: true
+  - extension_id: pms-strata:c17-legacy-substantive-overflight:c17-attr-01:v0.1
+    owner_or_source: PMS-STRATA C17 Legacy Substantive Overflight
+    control_source_pointer: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    purpose: Record final-LIMITS substantive review without replacing the original operation occurrence, route, Loss, or
+      historical model-version provenance.
+    payload:
+      review_snapshot: PMS-STRATA_Source_of_Truth_ZIP_311.zip
+      review_snapshot_sha256: a0a243bec1292ac7429fab36de5a066c8f44f7af83661bc4ba84542274186774
+      reviewed_against:
+        - 05_minified/Chapter_Contracts.md#chapter-17-path-cases-countercases-and-local-audit
+        - 01_blocks/05_part_iv_limits.md
+        - 01_blocks/06_conclusion.md
+        - 07_model/Admissibility_Rules.yaml
+        - 07_model/Output_Classes.yaml
+        - 07_model/Transformation_Record.schema.json
+      review_dimensions:
+        - source_and_claim_ceiling
+        - operation_and_type_integrity
+        - reference_functional_and_temporal_continuity
+        - counterfactual_sensitivity
+        - selection_and_five_part_loss
+        - alternatives_and_no_transformation
+        - anti_immunization_and_failure_preservation
+        - stop_failure_and_non_capture_separation
+        - claim_and_authority_ceiling
+        - canonical_output_route
+      substantive_verdict: confirmed_without_route_change
+      selected_class_confirmed: admissible_with_bounded_claim
+      key_finding: A recurrent course within one history supports a Trajectory but not an Attractor-function without a 
+        separate target-context test.
+      formal_conformance_only_not_claimed: false
+      empirical_or_external_validation_claimed: false
+      route_changed: false
+      claim_changed: false
+      loss_inventory_changed: false
+      source_or_operation_changed: false
+    does_not_replace_required_field: true

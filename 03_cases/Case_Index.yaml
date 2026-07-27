@@ -1,0 +1,4330 @@
+artifact:
+  id: pms_strata_case_index
+  title: PMS-STRATA Case Index
+  version: 0.1.98
+  status: appendix_m_publishable_index_synchronized_pairing_retained
+  owner: 03_cases
+  authority_role: navigation_and_artifact_registry_only
+  independent_theory_authority: false
+  formal_validation_not_substantive_validation_acknowledged: true
+  current_production_stage: Appendices A–N substantive completion; Reference Freeze is next.
+inventory:
+  total_instantiated_cases: 59
+  positive_cases: 30
+  countercases: 16
+  confusion_cases: 13
+  lock_critical_artifacts_complete: 11
+  chapter_17_wp1_duties_complete:
+  - C17-LINEAR-01
+  - C17-BRANCH-01
+  - C17-LAMBDA-01
+  chapter_17_remaining_duties: []
+  chapter_17_wp2a_duties_complete:
+  - C17-HISTORY-01
+  - C17-WEAKPD-01
+  chapter_17_wp2b_duties_complete:
+  - C17-CHRON-01
+  - C17-MACRO-01
+  - C17-TEL-01
+  chapter_17_wp2c_duties_complete:
+  - C17-OMEGA-01
+  - C17-FALSEL-01
+  chapter_17_wp3a_duties_complete:
+  - C17-PROJ-01
+  - C17-RES-01
+  - C17-ATTR-01
+  chapter_17_wp3b_duties_complete:
+  - C17-LOSS-01
+  - C17-ALT-01
+  - C17-MAP-01
+  - C17-STOP-01
+  - C17-NC-01
+  - C17-LOCK-01
+  chapter_17_local_audit_controls: 20
+  chapter_17_local_audit_status: pass
+  part_i_lock_readiness: pass
+  part_i_provisional_lock: provisionally_locked
+  next_controlled_step: Reference Freeze.
+  chapter_28_case_targets_total: 16
+  chapter_28_wp1_positive_artifacts_complete: 6
+  chapter_28_wp1_duties_complete:
+  - C28-ARCH-01
+  - C28-ARTIFACT-01
+  - C28-FRAME-01
+  - C28-ATTR-01
+  - C28-ASYM-01
+  - C28-NONEVENT-01
+  - C28-TRAJECTORY-01
+  - C28-GAIN-01
+  chapter_28_lock_critical_trajectory_artifact: complete
+  chapter_28_remaining_artifact_targets: 0
+  chapter_28_local_audit_status: pass_24_of_24
+  chapter_28_lock_readiness: pass
+  part_ii_sub_provisional_lock: provisionally_locked
+  chapter_28_wp2_countercase_artifacts_complete: 6
+  chapter_28_wp2_confusion_artifacts_instantiated: 2
+  chapter_28_wp2_duties_complete:
+  - C28-OVERFINE-01
+  - C28-UNSUPPORTED-01
+  - C28-OPTYPE-01
+  - C28-FRAGMENT-01
+  - C28-ESCAPE-01
+  - C28-FALSEMACRO-01
+  - C28-SUBRETYPE-01
+  - C28-SUBPATH-01
+  chapter_28_lock_critical_overfine_artifact: complete
+  chapter_28_mandatory_operator_error_artifact: complete
+  chapter_28_mandatory_fragmentation_artifact: complete
+  chapter_28_lock_critical_sub_retype_artifact: complete_chain_separation_and_integrated_local_audit_pass
+  chapter_28_wp3_confusion_artifacts_complete: 2
+  chapter_28_wp3_duties_complete:
+  - C28-ANALOGY-01
+  - C28-MODULATOR-01
+  - C28-LOCALAUDIT-01
+  - C28-MAPPING-01
+  - C28-LOSSALT-01
+  - C28-STOPNC-01
+  - C28-CHAIN-01
+  - C28-LOCK-01
+  chapter_28_case_targets_complete: 16
+  chapter_28_standalone_artifact_sets_complete: 16
+  chapter_28_local_audit_questions_passed: 24
+  chapter_28_provisional_lock: provisionally_locked
+  part_ii_sub_integrated_audit_controls: 24
+  part_ii_sub_integrated_audit_status: pass
+  part_ii_sub_chapters_locked: 18-28
+  retype_lock_critical_packages_complete: 3_of_3
+  retype_lock_package_1: C40-P1
+  retype_lock_packages_remaining: []
+  retype_lock_package_2: C40-N3
+  retype_lock_package_3: C40-X6
+  retype_contract_minimum_packages_complete: 7_of_7
+  retype_independent_families_instantiated: 7_of_20
+  chapter_40_contract_package_4: C40-P2
+  chapter_40_contract_package_5: C40-P3
+  artifact_complete_retype_lock: provisionally_locked_with_bounded_claim
+  artifact_complete_retype_lock_output_class: admissible_with_bounded_claim
+  chapter_17_substantive_overflight_status: complete_13_of_13_routes_confirmed
+  chapter_17_substantive_route_changes: 0
+  chapter_17_priority_source_handoffs_reviewed:
+  - C17-LAMBDA-01
+  - C17-LINEAR-01
+  chapter_40_contract_package_6: C40-P7F/G
+  direct_output_class_coverage: 10_of_10
+  missing_direct_output_classes: []
+  chapter_40_contract_package_7: C40-N7
+  remaining_standalone_case_phase_status: complete_at_current_coverage_matrix_level
+  integrated_chain_packages_complete: 1_of_6_minimum_sequences
+  integrated_chain_1: C47-CP1_COMPOSE_to_PROJECT_AS
+  chapter_34_case_package_status: covered_by_C47_CP1
+  chapter_47_continuity_chain_status: covered_by_C47_CP1
+  chapter_47_required_failure_status: covered_by_C47_CP1C
+  yaml_record_count: 59
+  markdown_record_companion_count: 59
+  shared_package_narrative_count: 10
+  yaml_markdown_pairing_status: complete_59_of_59
+chapter_41_and_42_status:
+  chapter_41_duties_complete: 24_of_24
+  chapter_41_contract_audit: pass
+  chapter_41_redundancy_audit: pass
+  chapter_41_pressure_chain:
+    Q0: preserved_stipulated_failed_transformation
+    Q1_Q3: unadjudicated
+  chapter_41_provisional_lock: admissible_but_provisional
+  chapter_42_preparation_gate: admissible_but_provisional
+  chapter_42_canonical_prose_started: true
+  chapter_42_wp1_duties_complete: 8_of_24
+  chapter_42_wp2_duties_complete: 16_of_24
+  chapter_42_wp3_duties_complete: 24_of_24
+  chapter_42_substantive_drafting: complete_pending_wp4_audit
+  chapter_42_pressure_packet:
+    O0: prohibited_ontology_inference
+    R1: unadjudicated
+    R2: unadjudicated
+  artifact_complete_retype_lock: mandatory_stop
+  required_retype_lock_packages_complete: 0_of_3
+  part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+cases:
+- case_id: C17-ATTR-01
+  title: Trajectory or Attractor?
+  case_class: confusion_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible single Trajectory with Attractor-function claim withheld
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+  yaml_artifact: 03_cases/yaml/C17-ATTR-01_Trajectory_or_Attractor.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 96a91788b77f3a2288c5db087b58920e76ad5df5a9cef60e9ac680d6edfa7f66
+    yaml: eb2c208637f4985f37c269453348f695af412e8303fd19299b05961c86d0dc19
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: admissible_with_bounded_claim
+- case_id: C17-BRANCH-01
+  title: Branching Path
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible branching Path
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+  yaml_artifact: 03_cases/yaml/C17-BRANCH-01_Branching_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 6de4c491108c5d3941ff107cdd794c986f98bdc6dfbbf128a01dbee15562c935
+    yaml: a10384371d17b3405145547f87320bc21514fb196cb5d2e57b31413a3382e418
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: admissible
+- case_id: C17-CHRON-01
+  title: Chronology Presented as Path
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed Path claim with retained chronology
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+  yaml_artifact: 03_cases/yaml/C17-CHRON-01_Chronology_Presented_as_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: aef353bdcd9d341bdf37eee0a9d7f25b9d7843379f106ed81729d8e25a3ba37a
+    yaml: a2b67320066aceacd56013de68406bb1d25eb0041f6480d263b10a597650c4e3
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: claim_reduction_required
+- case_id: C17-FALSEL-01
+  title: False Central Non-Event
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: central Λ claim withdrawn with retained event field
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-FALSEL-01_False_Central_Non_Event.md
+  yaml_artifact: 03_cases/yaml/C17-FALSEL-01_False_Central_Non_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 6d795c01e417c79af1659cec4225034ea8c89bbf7927fe84cf45dbce4f4d6577
+    yaml: e64ccdd93ad70ca0b85c0fe8897ba17fc9779b4ab9c34049effbf2e02e04e2ab
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: claim_reduction_required
+- case_id: C17-HISTORY-01
+  title: Similar End States, Different Histories
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible dimension-specific Path-Dependence claim across similar endpoints
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+  yaml_artifact: 03_cases/yaml/C17-HISTORY-01_Similar_End_States_Different_Histories.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 1d4f8422bfc74433271bf01ebe828677ba6ed499f56cfc3831b1ffd5b9ab136c
+    yaml: 156d7dfe314d52dea75e074f383d12d0b14886f54b101ee542968c0ec202950d
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: admissible_with_bounded_claim
+- case_id: C17-LAMBDA-01
+  title: Trajectory with a Central Non-Event
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible source-sensitive Trajectory with central Λ
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.md
+  yaml_artifact: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: d54308d3303a4d978637f4b359c7231f375e2db92aadc707cdc0f3382c366d24
+    yaml: 27ec8bb7fde95f456ae8f75a0c458643d940cfd85e826e243cfdd4321cece461
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: admissible
+- case_id: C17-LINEAR-01
+  title: Simple Linear Path
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible bounded Path
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-LINEAR-01_Simple_Linear_Path.md
+  yaml_artifact: 03_cases/yaml/C17-LINEAR-01_Simple_Linear_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 557b9cd0d510fb200b485e283c0cd78953eb4d8c064d709241d00e0274de6ca8
+    yaml: 2623b38107b1e3f7079a55048d4463c05a88c2d3745ebd6c1fe00ec036851678
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: admissible
+- case_id: C17-MACRO-01
+  title: Macro-Label without Traceable Path
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed source-indifferent macro-Trajectory composition
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C17-MACRO-01_Macro_Label_without_Traceable_Path.md
+  yaml_artifact: 03_cases/yaml/C17-MACRO-01_Macro_Label_without_Traceable_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 0305f8ce7c0c5e1f3b09845c92ba99ccc722e102f4cfcb6e5fbc238951216465
+    yaml: 07f752d99d4b6da25ba9299f0f8a89ff69763841db1f2ca6e20f9df4b12a14a3
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: failed_transformation
+- case_id: C17-OMEGA-01
+  title: Composition through Omitted Asymmetry
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed Trajectory composition through omitted asymmetry
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-OMEGA-01_Composition_through_Omitted_Asymmetry.md
+  yaml_artifact: 03_cases/yaml/C17-OMEGA-01_Composition_through_Omitted_Asymmetry.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 1f558f66a2523eeb9cfa1aa99a6e81f7e6d5631ec619dab726a43558fdd7c24f
+    yaml: 20cd106e06f49eba9ef8ca92260ed30080d933c7b8ae97738ca9a5daae77dcf2
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: failed_transformation
+- case_id: C17-PROJ-01
+  title: Path or Projection?
+  case_class: confusion_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible source-sensitive Trajectory with projection claim separated
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+  yaml_artifact: 03_cases/yaml/C17-PROJ-01_Path_or_Projection.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 2e4d880f1c46eaaacded73ec0c0159b7088c6c9290e986251adfc84557ffcf36
+    yaml: 845dd47544bdfbb8ad423d111c4081f6c607ffa41102e339fd00f77a607570c8
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: admissible_with_bounded_claim
+- case_id: C17-RES-01
+  title: Path or Resolution Drift?
+  case_class: confusion_case
+  chapter_owner: Chapter 17
+  operation: DECOMPOSE
+  local_result: resolution-neutral finer reconstruction; no new Path or stronger historical claim
+  canonical_output_mapping: resolution_neutral
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+  yaml_artifact: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 1b0c01b3523e21fcc6318eac98996a4eaf9f2054cb41e0352e9ef382648c358b
+    yaml: 7c3138f4a0b180a1b84b48f1e4460baa3e3c989e780d962fb71907ebdaea1d71
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: resolution_neutral
+- case_id: C17-TEL-01
+  title: Teleological Composition
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed teleological Trajectory composition
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-TEL-01_Teleological_Composition.md
+  yaml_artifact: 03_cases/yaml/C17-TEL-01_Teleological_Composition.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e6232c0b3a8f30d6d91f167ffd40cb28264424db69b2ffe042fff63b8a2df171
+    yaml: 0f96be7889e32a249e2ffa6fb56b328829f0ee69a47e6b4234edb98ba728563a
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: failed_transformation
+- case_id: C17-WEAKPD-01
+  title: Repeated Pattern with Weak Path Dependence
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible repeated-pattern Path with weak order dependence
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_locally_audited_and_final_limits_substantively_overflown
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-WEAKPD-01_Repeated_Pattern_with_Weak_Path_Dependence.md
+  yaml_artifact: 03_cases/yaml/C17-WEAKPD-01_Repeated_Pattern_with_Weak_Path_Dependence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: b08a8095eb239cdad27d2114591ec0109348c77ee41a7d36f2eed03c13a21844
+    yaml: 56b70fecafcc70938900ee5b58e3a56470d9e9f2b2f549263abb7b866b3dc17a
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  legacy_substantive_overflight:
+    status: confirmed_without_route_change
+    audit_artifact: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    selected_class_confirmed: admissible_with_bounded_claim
+- case_id: C28-FRAME-01
+  title: Frame-Typed Occurrence
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded decomposition of one Frame-typed occurrence into source-supported production and maintenance
+    relations
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-FRAME-01_Frame_Typed_Occurrence.md
+  yaml_artifact: 03_cases/yaml/C28-FRAME-01_Frame_Typed_Occurrence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ec61d94ab8b5a9b3b9871dcc51775ae9ec1b747462f4d25326d3dec79632ae74
+    yaml: f7e7645ac592f57838890f1a28aa4f694e931502bbd23d6a7aa2b0557b842661
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ATTR-01
+  title: Attractor-Typed Occurrence
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded decomposition of an Attractor-typed occurrence into recurrence-maintaining relations
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ATTR-01_Attractor_Typed_Occurrence.md
+  yaml_artifact: 03_cases/yaml/C28-ATTR-01_Attractor_Typed_Occurrence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ad1199560287a6a202cdc82f18f4a23c2b0b1f1ad3c8b52131d397e63274efca
+    yaml: d0341dfe7ceaa2696e6246012e109dbd88c537dad5ce8571dd49a94ecc1b5c8c
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ASYM-01
+  title: Distributed Asymmetry
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded reconstruction of a distributed Asymmetry occurrence without single-center inflation
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ASYM-01_Distributed_Asymmetry.md
+  yaml_artifact: 03_cases/yaml/C28-ASYM-01_Distributed_Asymmetry.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 7e8af108d24fdbfd6857587f4f7060a9e6ccc2f06e436be89330ffb59b576977
+    yaml: dc88efaf4026340c1af85062d9056426d1a5f036bcb120ad0c398d31ff0cbdce
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-NONEVENT-01
+  title: Structured Non-Event
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded decomposition of a structured Non-Event through expectation, blockage, positive sub-events,
+    and later carryover
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-NONEVENT-01_Structured_Non_Event.md
+  yaml_artifact: 03_cases/yaml/C28-NONEVENT-01_Structured_Non_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 86967ae9399f6118be4c45b6d0f6d60c5f29c498df1a306a2ed95c90068d83de
+    yaml: faf096579a537f401edb74ed99f5ae46446c58b5c5dd465f1efe4242cd201d0f
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-TRAJECTORY-01
+  title: Admissible Trajectory Decomposition
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible same-reference Trajectory decomposition with explicit subpaths, relations, residual binding, Loss,
+    and no hidden RETYPE
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+  yaml_artifact: 03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: f2dd6103885af8dadb17c2ae7526d7f2f212822200f2d7378b6801f0bf6ac1f8
+    yaml: b3bf9f2cc7f4bb6e188f9c455b7fd533700a6d17c5b823184e996d7a2b0b0655
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-GAIN-01
+  title: Resolution Gain
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: Resolution Gain through source-supported differentiation of access, sequencing, binding, and repair with reduction
+    of the broader authority-concentration claim
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-GAIN-01_Resolution_Gain.md
+  yaml_artifact: 03_cases/yaml/C28-GAIN-01_Resolution_Gain.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 7082f6ab9734ef8ec33dcf1192c44ee3cbb5dd9711850da77b0eb12731fa78c3
+    yaml: 7ddd5c9791e9ffe2b350208d15efd0edc969e9f7f6a6ad1d6b8f98aae76e0f7c
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-OVERFINE-01
+  title: Overfine Analysis below the Relevance Floor
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: supported microdetail adds no warranted Praxis difference; continuation below the Relevance Floor must stop
+    while the prior adequate reconstruction remains preserved
+  canonical_output_mapping: mandatory_stop
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-OVERFINE-01_Overfine_Analysis_below_the_Relevance_Floor.md
+  yaml_artifact: 03_cases/yaml/C28-OVERFINE-01_Overfine_Analysis_below_the_Relevance_Floor.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 5e815279223af4f0d1dcef01f544467616002a5e1cf3951fb43263895c764da8
+    yaml: 30bb030b4fb01b0104607f62591392368b245e9144a433f83d24f11681b57cba
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-UNSUPPORTED-01
+  title: Unsupported Internal Structure
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the hidden internal-routing reconstruction exceeds the Source Ceiling; only the recorded event field and coarse
+    order survive
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-UNSUPPORTED-01_Unsupported_Internal_Structure.md
+  yaml_artifact: 03_cases/yaml/C28-UNSUPPORTED-01_Unsupported_Internal_Structure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: a8fe9b9c3da05bd1aa29498ba101be1b79be9a0769bf7ef1ca35bf31170062fc
+    yaml: 80e0bb612c0ee651a5c197ba67475f89c38acded3d330e2c2474ccdc33499b6e
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-OPTYPE-01
+  title: Operator Decomposition Error
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: DECOMPOSE fails because the declared source is an operator type rather than an occurrence or composite
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-OPTYPE-01_Operator_Decomposition_Error.md
+  yaml_artifact: 03_cases/yaml/C28-OPTYPE-01_Operator_Decomposition_Error.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 42d04026172d2f3a2197f586614c3a250cdb447cb69769e83772b100d8b6082d
+    yaml: 39f661261ff080a3c9513f00109cc176a927a610a0a961e8e7107f97b095f083
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-FRAGMENT-01
+  title: Fragmentation without Source Function
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the attempted decomposition fragments the source into supported items without supported relations or reconstructible
+    source-function return
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-FRAGMENT-01_Fragmentation_without_Source_Function.md
+  yaml_artifact: 03_cases/yaml/C28-FRAGMENT-01_Fragmentation_without_Source_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 87c7bb815a99d21f2d47fe216cb11bfdee6652c1bf61172160e76fb9056fee6c
+    yaml: 8b77e9b35c44840c411cab867c518c9687a06e11b85ceb3b12bb0ccefb9d2d2c
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ESCAPE-01
+  title: Resolution Escape
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: repeated granularity change displaces rather than answers the counterexample; the finality claim remains failed
+    and the escape route must stop
+  canonical_output_mapping: mandatory_stop
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ESCAPE-01_Resolution_Escape.md
+  yaml_artifact: 03_cases/yaml/C28-ESCAPE-01_Resolution_Escape.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: fcf84fedab86ea4d95d08e35f54d1f2795f728c202a1f31ae0a73de83c8198c5
+    yaml: d64eb73a8997565723f91f877aa70dc9e8bc2f6ab9f72b1f5bad7add86eb8b84
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-FALSEMACRO-01
+  title: False Macro-Asymmetry
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the macro-Asymmetry claim exceeds the supported local field; local differences survive, but coordinated macrostructure
+    is not established
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-FALSEMACRO-01_False_Macro_Asymmetry.md
+  yaml_artifact: 03_cases/yaml/C28-FALSEMACRO-01_False_Macro_Asymmetry.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 224fdddc1ff307df472d9b1ddcec5c912bee0658098d1f44dcdd61566492b355
+    yaml: d77594dc9e1ee1ce43098ff71ace27d2f1c530ae980d5c280cf76ef129f2a2ec
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-SUBRETYPE-01
+  title: SUB or RETYPE?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the internal Trajectory reconstruction is retained, while the audit-training calibration function is separated
+    and not validated in this DECOMPOSE record
+  canonical_output_mapping: partially_admissible
+  artifact_status: instantiated_schema_validated_locally_audited_and_lock_critical_chain_closed
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-SUBRETYPE-01_SUB_or_RETYPE.md
+  yaml_artifact: 03_cases/yaml/C28-SUBRETYPE-01_SUB_or_RETYPE.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 3389026f826b9c823f6047c01717d80f1aab3a8ba28db878c72743c61709efd4
+    yaml: 69552bdad457d76804715cfdc070b3ba93f68e238c844dca1ac535235a8ac71a
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-SUBPATH-01
+  title: SUB or New PATH?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the same-source subpath reconstruction is retained, while the candidate independent sequence is separated
+    for a future COMPOSE claim rather than absorbed into SUB
+  canonical_output_mapping: partially_admissible
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-SUBPATH-01_SUB_or_New_PATH.md
+  yaml_artifact: 03_cases/yaml/C28-SUBPATH-01_SUB_or_New_PATH.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e654884be0b6153235d0c7549f19f0d2db9e9325bda25a1290087e4e30679405
+    yaml: 34b79eedb0534e52e6ae1ad099af893e6a91b35456c3672cdb7d73c0b5066ff2
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ANALOGY-01
+  title: Decomposition or Analogy?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the foreign-domain comparison preserves a bounded gating resemblance but does not establish source-bound decomposition;
+    the stronger identity claim is withdrawn and the result maps to analogy_only
+  canonical_output_mapping: analogy_only
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ANALOGY-01_Decomposition_or_Analogy.md
+  yaml_artifact: 03_cases/yaml/C28-ANALOGY-01_Decomposition_or_Analogy.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 16d521df798f48de6e1ae57c86d8d240bbea03b6b3e37fb30cb6ed5e07be6f05
+    yaml: f2842cda8537b50106c27680de01e89eb3693bdc989defeb3ae9074a4586bb74
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-MODULATOR-01
+  title: Modulator or New Operator?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the recurrent profile is reconstructed as a bounded modulator of existing operator-typed occurrences; the
+    stronger claim that it constitutes a new operator is withdrawn
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-MODULATOR-01_Modulator_or_New_Operator.md
+  yaml_artifact: 03_cases/yaml/C28-MODULATOR-01_Modulator_or_New_Operator.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: a10c5973cca06a09fd04a5d104cf9bf6c092dac6cfe8c197c5257879cdbfe36c
+    yaml: 8243a9549a016dcf59f99ecc31f16ad70ef9d0436a485a4b3407e2acf6526e93
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C40-P1
+  title: Trajectory as Bounded Frame-Function
+  case_class: positive_case
+  chapter_owner: Chapter 40
+  operation: PROJECT_AS
+  local_result: role- and interval-bounded historical frame-function with origin type preserved
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C40-P1_Trajectory_as_Bounded_Frame_Function.md
+  yaml_artifact: 03_cases/yaml/C40-P1_Trajectory_as_Bounded_Frame_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e4f727660fa7331bf386dbf56c3bad00b1a2b3e653178ec102dcac1c7dd91e41
+    yaml: 6333751e0a4df1458f63674eaea60d018b692ec63444e86697548b4871b5fd92
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+- case_id: C40-P2
+  title: Trajectory as Macro-Event
+  case_class: positive_case
+  chapter_owner: Chapter 40
+  operation: PROJECT_AS
+  local_result: non-punctualized wider-path Macro-Event function with origin type and internal duration preserved
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C40-P2_Trajectory_as_Macro_Event.md
+  yaml_artifact: 03_cases/yaml/C40-P2_Trajectory_as_Macro_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 9db249c0be30aa970832b5bd94de466b3d86dc180338f5c18a030c715c678c9b
+    yaml: 02bccaf9a0ef2b877a1f9d1e42064982aa464cc90d45908bae816dbfc71a4665
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, periodization, normative,
+    application, person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C40-P3
+  title: Recurrent Trajectory Form as Attractor-Function
+  case_class: positive_case
+  chapter_owner: Chapter 40
+  operation: PROJECT_AS
+  local_result: source-traceable dynamic attractor-function with recurrence, friction, and reopening bounds preserved
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+  yaml_artifact: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ff69b497a2252adc0d8a2e6afac52aaca8cfca91f8b1bd552ab5b5ebdfdc82bf
+    yaml: 30b3e2f3bea3cf78ddbe043f07b038f80921ab30a33cd4ef33655c24d08de190
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, probabilistic, predictive,
+    normative, application, person/group, legitimacy, sanction, recommendation, or authority status.
+- case_id: C40-N3
+  title: PROJECT_AS Label-Substitution Failure
+  case_class: countercase
+  chapter_owner: Chapter 40
+  operation: PROJECT_AS
+  local_result: source-indifferent registry label fails to establish a contextual target function
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C40-N3_PROJECT_AS_Label_Substitution_Failure.md
+  yaml_artifact: 03_cases/yaml/C40-N3_PROJECT_AS_Label_Substitution_Failure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: c56c2a638488872428bad6209243ead259ce9d699099b36cfe90eb1e6b7ff7a5
+    yaml: e5fd880193a44a2e34708d37bd15c5d25c06b2193ff6da5aa6e4cc69c3057c5b
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+- case_id: C40-X6
+  title: Projection versus Structural Analogy
+  case_class: confusion_case
+  chapter_owner: Chapter 40
+  operation: PROJECT_AS
+  local_result: bounded structural analogy retained; semantic preservation and contextual target function unestablished
+  canonical_output_mapping: analogy_only
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C40-X6_Projection_versus_Structural_Analogy.md
+  yaml_artifact: 03_cases/yaml/C40-X6_Projection_versus_Structural_Analogy.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 4b5fd60e03ef31cfd601c23aedd54bd78d345ddf0ed882bf7788ebeaa172887a
+    yaml: 8c49dbf4a5350f27f1ed343b9060af2ba13cf0c0677d7970983a6ac990ef7f17
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, semantic-identity, normative,
+    application, or authority status.
+- title: Historical Frame-Function Candidate
+  case_class: positive_case
+  chapter_owner: Chapter 40 / Chapter 36
+  operation: PROJECT_AS
+  local_result: provisional same-coordinate candidate with material unresolved rival
+  canonical_output_mapping: admissible_but_provisional
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C40-P7F_Frame_Function_Candidate.md
+  schema_validation: passed
+  local_audit:
+    status: pass_with_material_provisionality
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, person-level,
+    political, legal, governance, application, or authority status.
+  case_id: C40-P7F
+  yaml_artifact: 03_cases/yaml/C40-P7F_Frame_Function_Candidate.yaml
+  sha256:
+    markdown: 6d3839498203845c218cd184099f8c50e829f33e5382c468a4399891f15377f8
+    yaml: 6bad8b110621833babdc761ee647cffaeaa7c8b1d1f31a0f5bebdb377421ee71
+    package_markdown: a82f06b69068a28ad6570169c7c6866fd2eefa32b23c03f14403e8f1560f3787
+  package_markdown_artifact: 03_cases/packages/C40-P7_Competing_Projections.md
+- title: Dynamic Attractor-Function Candidate
+  case_class: positive_case
+  chapter_owner: Chapter 40 / Chapter 36
+  operation: PROJECT_AS
+  local_result: provisional same-coordinate candidate with material unresolved rival
+  canonical_output_mapping: admissible_but_provisional
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C40-P7G_Attractor_Function_Candidate.md
+  schema_validation: passed
+  local_audit:
+    status: pass_with_material_provisionality
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, person-level,
+    political, legal, governance, application, or authority status.
+  case_id: C40-P7G
+  yaml_artifact: 03_cases/yaml/C40-P7G_Attractor_Function_Candidate.yaml
+  sha256:
+    markdown: 897173a216ce3d04c79ae408c3751eef34bcd690df66a175001482232618bcc6
+    yaml: ac79b60e3a342cb981ddd4588fd311857bf4ac37e761c30ebc64dbeabe2bc6ca
+    package_markdown: a82f06b69068a28ad6570169c7c6866fd2eefa32b23c03f14403e8f1560f3787
+  package_markdown_artifact: 03_cases/packages/C40-P7_Competing_Projections.md
+- case_id: C40-N7
+  title: Person-Level Type Jump
+  case_class: countercase
+  chapter_owner: Chapter 40 / Chapter 38
+  operation: PROJECT_AS
+  local_result: configuration-level function and bounded participation do not support an intrinsic person property; the person-type
+    projection fails
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C40-N7_Person_Level_Type_Jump.md
+  yaml_artifact: 03_cases/yaml/C40-N7_Person_Level_Type_Jump.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 6e1567f647f8510294aebdfa85cf150e85ae1f13838c323e1a4ddef2949c5782
+    yaml: ed84a65cb86db1373f5032ac37b105dc6c1ceac27fd4ecd29d3c090e7527fa1a
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, diagnostic, clinical, legal,
+    forensic, normative, person/group, legitimacy, recommendation, sanction, application, or authority status.
+- case_id: C52-NC1
+  title: Competing Decompositions of a Compressed Handoff Occurrence
+  case_class: confusion_case
+  chapter_owner: Chapter 52
+  operation: DECOMPOSE
+  local_result: two source-traceable partial decompositions remain preserved, but no adequate single decisive finer reconstruction
+    is retained
+  canonical_output_mapping: non_capture
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C52-NC1_Competing_Decompositions_of_a_Compressed_Handoff_Occurrence.md
+  yaml_artifact: 03_cases/yaml/C52-NC1_Competing_Decompositions_of_a_Compressed_Handoff_Occurrence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: d0108fae5068eaa3eb4629985ba15e42b50bab591645d522485ccda8a618703d
+    yaml: 0ff0a7fde4dc79e66904f6dbd39687359b75450f708d512b912603a3f9ce9ed7
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, diagnostic, legal, organizational,
+    normative, recommendation, sanction, application, or authority status.
+- case_id: C47-CP1A
+  title: Compose Distributed Access Composite
+  case_class: positive_case
+  chapter_owner: Chapter 47 / Chapter 34
+  operation: COMPOSE
+  local_result: bounded relational composite Q47 with no automatic target function
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C47-CP1A_COMPOSE_Distributed_Access_Composite.md
+  yaml_artifact: 03_cases/yaml/C47-CP1A_COMPOSE_Distributed_Access_Composite.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 5d504c11b850756096b47917ee77626702b49a88924e214772da6ecb06b327f0
+    yaml: 1013b099dcce0240ef64f70c3b5cb5c3148e7ca0c7cabe609f54871d49978731
+    package_markdown: 56c02d8921b1840c864d34a54ccff427ea1d0c3a73920964f06f43bb6d0bb498
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C47-CP1_COMPOSE_to_PROJECT_AS_Continuity_Chain.md
+- case_id: C47-CP1B
+  title: Project Composite as Higher-Level Access Function
+  case_class: positive_case
+  chapter_owner: Chapter 47 / Chapter 34
+  operation: PROJECT_AS
+  local_result: bounded source-sensitive higher-level access function in H47 with I47 no-projection
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C47-CP1B_PROJECT_AS_Higher_Level_Access_Function.md
+  yaml_artifact: 03_cases/yaml/C47-CP1B_PROJECT_AS_Higher_Level_Access_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: b66fd1b77db0d282535801f05fc0b8c694e96d7100464c3f98ee3408f3622ea8
+    yaml: 62699e1236de0cd81630865e112237dd2780351100bc4d1efa6d918f66ef2d2d
+    package_markdown: 56c02d8921b1840c864d34a54ccff427ea1d0c3a73920964f06f43bb6d0bb498
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C47-CP1_COMPOSE_to_PROJECT_AS_Continuity_Chain.md
+- case_id: C47-CP1C
+  title: Nominal Referent-Shift Projection Failure
+  case_class: countercase
+  chapter_owner: Chapter 47 / Chapter 34
+  operation: PROJECT_AS
+  local_result: nominal sameness fails Reference and Functional Continuity; target remains source-insensitive
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C47-CP1C_PROJECT_AS_Nominal_Referent_Shift_Failure.md
+  yaml_artifact: 03_cases/yaml/C47-CP1C_PROJECT_AS_Nominal_Referent_Shift_Failure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 6f3ef9128e180d342b7fca624d14a4db1d9c97ceada18ac9cd8867d568aafa5b
+    yaml: 840f4a41f571e6e6b7a07a5ba74ec930e27582e2aa0085c381038fa5b6083f0e
+    package_markdown: 56c02d8921b1840c864d34a54ccff427ea1d0c3a73920964f06f43bb6d0bb498
+  authority_boundary: Synthetic failure record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C47-CP1_COMPOSE_to_PROJECT_AS_Continuity_Chain.md
+- case_id: C54-CD1A
+  title: Compose Bounded Path P54
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: COMPOSE
+  local_result: bounded path P54 with explicit side-branch exclusion and transition uncertainty
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-CD1A_COMPOSE_Bounded_Path_P54.md
+  yaml_artifact: 03_cases/yaml/C54-CD1A_COMPOSE_Bounded_Path_P54.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: feda64e0be2e91c197b95bb97ecb394c42779e083ae75c8de97dc53e72c23fe1
+    yaml: 2870cdd8f412d69dd6895c777dca28cd4dc58e1d3b35b0175808d11c520e278b
+    package_markdown: cd2bf49af7d5e3c0b4724b5430f1d549ea6f6ffa883fa96d5f36b7bc7ab73216
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-CD1_COMPOSE_to_DECOMPOSE_Non_Invertibility_Chain.md
+- case_id: C54-CD1B
+  title: Reopen P54 Without Inversion
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: DECOMPOSE
+  local_result: same-reference finer reconstruction with inherited Loss and no lossless return
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-CD1B_DECOMPOSE_Reopen_P54.md
+  yaml_artifact: 03_cases/yaml/C54-CD1B_DECOMPOSE_Reopen_P54.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 8a31a1ab58ca3d726cd8b3511a75949c9e3cf495e4dd152bac90b2fea0c89e1a
+    yaml: d9bbbb6a8211d51d6ee54ef238be383b134755d92f32051038224e60e8e1c551
+    package_markdown: cd2bf49af7d5e3c0b4724b5430f1d549ea6f6ffa883fa96d5f36b7bc7ab73216
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-CD1_COMPOSE_to_DECOMPOSE_Non_Invertibility_Chain.md
+- case_id: C54-DC1A
+  title: Decompose Coordination Bundle B55
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: DECOMPOSE
+  local_result: finer B55 component model preserving inferred/direct distinction
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-DC1A_DECOMPOSE_B55.md
+  yaml_artifact: 03_cases/yaml/C54-DC1A_DECOMPOSE_B55.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ec3b9da8c8a0890dfd00cdd25ad53e83b453759beb670f83e39873f0e49b736d
+    yaml: 9ef1f9df1e464454191da7b1d7de1fec5b658aeb685467d8eceaf6b4873b0ca4
+    package_markdown: 7404c0ef0b145dfe99e9964348e064e667d837219e90c88720c7984c42b7137c
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-DC1_DECOMPOSE_to_COMPOSE_Reformation_Chain.md
+- case_id: C54-DC1B
+  title: Compose New Residual-Load Composite K55
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: COMPOSE
+  local_result: new K55 relation composite without restoring B55 identity
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-DC1B_COMPOSE_K55.md
+  yaml_artifact: 03_cases/yaml/C54-DC1B_COMPOSE_K55.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 5642b1fc3ebe8cf726660f4a3694dd287ed97ed7de4297dce87cdc74bef3cd58
+    yaml: a0148aa8e25c5817e31d98f0779b1335e5239fc0d580c724c8085ba7a5887095
+    package_markdown: 7404c0ef0b145dfe99e9964348e064e667d837219e90c88720c7984c42b7137c
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-DC1_DECOMPOSE_to_COMPOSE_Reformation_Chain.md
+- case_id: C54-DP1A
+  title: Decompose H56 Before Projection
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: DECOMPOSE
+  local_result: same-reference phase reconstruction with correction-window distinction and no target function
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-DP1A_DECOMPOSE_H56.md
+  yaml_artifact: 03_cases/yaml/C54-DP1A_DECOMPOSE_H56.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 49678be9d03066c24e49435125e69c153d02a87e0fe35e2e4ea4257c48a83038
+    yaml: cbb4f6686b0aefbac48d21597c83ab4a163446f9c75f30ee282d8d461133339e
+    package_markdown: d40863fccd98edf58673ab2c973246b8577d1733db72059c7606aa1a7581f84a
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-DP1_DECOMPOSE_to_PROJECT_AS_Threshold_Function_Chain.md
+- case_id: C54-DP1B
+  title: Project H56 as A56 Threshold Function
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: PROJECT_AS
+  local_result: bounded source-sensitive A56 correction-window threshold function with B56 no-projection
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-DP1B_PROJECT_AS_A56_Threshold_Function.md
+  yaml_artifact: 03_cases/yaml/C54-DP1B_PROJECT_AS_A56_Threshold_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 191418fca22a8420e23c7f7c75b163beebb2ac24c99a985f4a9c18b9bca02c82
+    yaml: 12606bb917aba2d2bfc92b7861ff6a3973f2e055dd9f66c30abca21bbe7d01a7
+    package_markdown: d40863fccd98edf58673ab2c973246b8577d1733db72059c7606aa1a7581f84a
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-DP1_DECOMPOSE_to_PROJECT_AS_Threshold_Function_Chain.md
+- case_id: C54-PD1B
+  title: Reopen Origin Trajectory After Projection
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: DECOMPOSE
+  local_result: origin Q0–Q5 trajectory reopened; Macro-Event target function remains separate
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-PD1B_DECOMPOSE_Q0_Q5_Origin_Trajectory.md
+  yaml_artifact: 03_cases/yaml/C54-PD1B_DECOMPOSE_Q0_Q5_Origin_Trajectory.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: cc43ff32d089e45defb5cf13074f247ffb3393c0f54dc2f4920b40011cb47b54
+    yaml: 36be4cfc197c1eabafd3d9adc97571913b70dfcdc9494174173a9a03f840fb96
+    package_markdown: c0f1a54cdc13e2e6112a2bab00d5a1eb2e78aa916da9515863917ad66d6fcb23
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-PD1_PROJECT_AS_to_DECOMPOSE_Origin_Source_Chain.md
+- case_id: C53-CPD1C
+  title: Complete-Return Claim After Compose and Projection
+  case_class: confusion_case
+  chapter_owner: Chapter 53
+  operation: DECOMPOSE
+  local_result: complete/lossless return withdrawn; bounded reopening proposed for separate retest
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C53-CPD1C_DECOMPOSE_Q47_Complete_Return_Claim.md
+  yaml_artifact: 03_cases/yaml/C53-CPD1C_DECOMPOSE_Q47_Complete_Return_Claim.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ff8a3035b408e7648f87a882b911c6fbc860f2bdec33c28fddc66222c2197c4c
+    yaml: e8100a81509280338e73751ee50eb981f1d1457f224771d7c9eeaa18cb84be88
+    package_markdown: 20f6344cd3c0f4ef2a2a02e7fcd3f82a8d489a233a2bee2f0d436e77e0ddc880
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C53-CPD1_COMPOSE_PROJECT_AS_DECOMPOSE_Integrated_Audit_Chain.md
+- case_id: C35-A1
+  title: Operator-Weighting Profile as Modulating Function
+  case_class: positive_case
+  chapter_owner: Chapter 35
+  operation: PROJECT_AS
+  local_result: configuration-bound Ω/Θ profile changes continuation cost
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C35-A1_PROJECT_AS_Operator_Weighting_Profile.md
+  yaml_artifact: 03_cases/yaml/C35-A1_PROJECT_AS_Operator_Weighting_Profile.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: f3a40dc5620d2bdc23abac21a5f21e201abe8b40951eea0a0f12ff5ce9cfe0a5
+    yaml: f725fb849377c703e8cfb34b91bd3aace0431ad7923b35bba00a06ad09e0e7c5
+    package_markdown: cbb4e221b0f17c9b557dc0b290b0ea0ff037c7fc2f4e231cb7e3b905a52bab35
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C35-A1_Operator_Weighting_Profile_and_RETYPE_Type_Boundary.md
+- case_id: C38-N1
+  title: Origin-Type Replacement Failure
+  case_class: countercase
+  chapter_owner: Chapter 38
+  operation: PROJECT_AS
+  local_result: profile is incorrectly rewritten as PMS operator type
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C38-N1_PROJECT_AS_Origin_Type_Replacement_Failure.md
+  yaml_artifact: 03_cases/yaml/C38-N1_PROJECT_AS_Origin_Type_Replacement_Failure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: a672881c90cded371e1a06064a7d2476b8061fdd154106c5f2a3e8325a2c5e47
+    yaml: 551ef3c47d54dd388bacb45c82bf8de01f54c926cae7a8c67e481328fc54117b
+    package_markdown: cbb4e221b0f17c9b557dc0b290b0ea0ff037c7fc2f4e231cb7e3b905a52bab35
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C35-A1_Operator_Weighting_Profile_and_RETYPE_Type_Boundary.md
+- case_id: C38-X3
+  title: Projection or Φ-Recontextualization
+  case_class: confusion_case
+  chapter_owner: Chapter 38
+  operation: PROJECT_AS
+  local_result: changed description without target function
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C38-X3_PROJECT_AS_or_Recontextualization_Failure.md
+  yaml_artifact: 03_cases/yaml/C38-X3_PROJECT_AS_or_Recontextualization_Failure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 2b3a4bd7f1744559ec207f8c72c4dee86232e5f3309bbbc16e7b97cbe43fd6c4
+    yaml: 2c31c1346e60aca92a9a27bda8b76f2f1e16fc84bb572f9ac6e22a558c2b2fb2
+    package_markdown: cbb4e221b0f17c9b557dc0b290b0ea0ff037c7fc2f4e231cb7e3b905a52bab35
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C35-A1_Operator_Weighting_Profile_and_RETYPE_Type_Boundary.md
+- case_id: C50-FP1A
+  title: Failed Coarse Frame-Function Claim
+  case_class: countercase
+  chapter_owner: Chapter 50
+  operation: PROJECT_AS
+  local_result: original failed projection preserved
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C50-FP1A_PROJECT_AS_Failed_Coarse_Frame_Function.md
+  yaml_artifact: 03_cases/yaml/C50-FP1A_PROJECT_AS_Failed_Coarse_Frame_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: efb1247139de2ca6c7e3bea5d318b40434a2388fdcf3b9d0a435536a22223106
+    yaml: 1fe2a74c1ec20a0c71489e485d970c793ac993a0ba690f4e39fe5b1024542def
+    package_markdown: 1f666278b2d538e8aebb6f7d15fba6d4c8e5705d635e67d83904af6e631a7ece
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md
+- case_id: C50-FP1B
+  title: Narrower Path Successor
+  case_class: positive_case
+  chapter_owner: Chapter 50
+  operation: DECOMPOSE
+  local_result: same-reference finer path reconstruction
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C50-FP1B_DECOMPOSE_Narrower_Path_Reconstruction.md
+  yaml_artifact: 03_cases/yaml/C50-FP1B_DECOMPOSE_Narrower_Path_Reconstruction.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 835f50504dccc7492e6458a0f546f0d108d21f3d75cf364d4358b8e53472674e
+    yaml: b8017993a4dc44947c5b5794195a3911d4e444061ab879204266be9c8c46ea29
+    package_markdown: 1f666278b2d538e8aebb6f7d15fba6d4c8e5705d635e67d83904af6e631a7ece
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md
+- case_id: C50-FP1X
+  title: Granularity Escape Stop
+  case_class: confusion_case
+  chapter_owner: Chapter 50
+  operation: DECOMPOSE
+  local_result: detail continuation postpones objection without purchase
+  canonical_output_mapping: mandatory_stop
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C50-FP1X_DECOMPOSE_Granularity_Escape_Stop.md
+  yaml_artifact: 03_cases/yaml/C50-FP1X_DECOMPOSE_Granularity_Escape_Stop.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e2f4ac31e65a9e24a66b9a4e3cfdfe72a14f5bc405179cb014e9db239688249e
+    yaml: e161ad52c10c9bb622fbffbe6681a622e3b4f4888994b33c21425a7c21a0008b
+    package_markdown: 1f666278b2d538e8aebb6f7d15fba6d4c8e5705d635e67d83904af6e631a7ece
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md
+- case_id: C50-FP1C
+  title: Broader Coordination Composite
+  case_class: positive_case
+  chapter_owner: Chapter 50
+  operation: COMPOSE
+  local_result: new K50 composite preserves original failure
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C50-FP1C_COMPOSE_Broader_Coordination_Composite.md
+  yaml_artifact: 03_cases/yaml/C50-FP1C_COMPOSE_Broader_Coordination_Composite.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e8248eb3961bd50f56f7a082ee1ecffc7b8fe1a6cf5309e6195da4afd5da1aa0
+    yaml: 3e8d84a40fc85529e66c96c0aa6fb85c13dfcbcb3ee4bfd0a1a8c231f4af3d14
+    package_markdown: 1f666278b2d538e8aebb6f7d15fba6d4c8e5705d635e67d83904af6e631a7ece
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md
+- case_id: C50-FP1D
+  title: New Independent Threshold Projection
+  case_class: positive_case
+  chapter_owner: Chapter 50
+  operation: PROJECT_AS
+  local_result: new K50 target function without claim rescue
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C50-FP1D_PROJECT_AS_New_Threshold_Function.md
+  yaml_artifact: 03_cases/yaml/C50-FP1D_PROJECT_AS_New_Threshold_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 50c2bdddff524ba113194ceaa9987ac39d1ea1ffe17e882d9e5313cb881e1d09
+    yaml: c050be6f76083bbd822309bbad1e1351024541862a0448be12258d3372e2533e
+    package_markdown: 1f666278b2d538e8aebb6f7d15fba6d4c8e5705d635e67d83904af6e631a7ece
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md
+- case_id: C49-CAL1
+  title: Calibration-Open Threshold Function
+  case_class: confusion_case
+  chapter_owner: Chapter 49
+  operation: PROJECT_AS
+  local_result: bounded form with unresolved threshold and optional Stop
+  canonical_output_mapping: admissible_but_provisional
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C49-CAL1_PROJECT_AS_Calibration_Open_Threshold_Function.md
+  yaml_artifact: 03_cases/yaml/C49-CAL1_PROJECT_AS_Calibration_Open_Threshold_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 304f0256584f0c2b6d0eee0c7f28483b29e0e9e56a0460f40d03093bdab035b3
+    yaml: cc424d89bb31521759900d3afc5f4a007f72566c5efe49d02b0f0d455d2a10db
+    package_markdown: bf76f5257d96aaafd604d1a7995b8551ebb4ada8f63d5e690f2321c23b13b8cc
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C49-CAL1_Calibration_Open_Result_Optional_Stop_and_Reentry.md
+- case_id: C51-RE1
+  title: Re-entry After New Sources
+  case_class: positive_case
+  chapter_owner: Chapter 51
+  operation: PROJECT_AS
+  local_result: new source-triggered recalibrated retest
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C51-RE1_PROJECT_AS_Reentry_After_New_Sources.md
+  yaml_artifact: 03_cases/yaml/C51-RE1_PROJECT_AS_Reentry_After_New_Sources.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 00913dc9935e1299c95989ea3d70018c126290f9804177620bb542fb28ce4705
+    yaml: d31b89973ad93cc22d65c8679922e318d53168f98998543305484b4c99a51278
+    package_markdown: bf76f5257d96aaafd604d1a7995b8551ebb4ada8f63d5e690f2321c23b13b8cc
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C49-CAL1_Calibration_Open_Result_Optional_Stop_and_Reentry.md
+governance:
+  case_success_not_global_validation: true
+  case_completeness_not_substantive_truth: true
+  canonical_prose_precedence_preserved: true
+  authority_inheritance: prohibited
+chapter_42_wp3_grammar_world_drift_markers_corrective_form_and_non_capture:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_42_Preparation_Record.md
+  status: chapter_42_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  registry_mode: non_routing_limits_anti_ontology_support
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_267.zip
+  sections_completed:
+  - 42.7
+  - 42.8
+  - 42.9
+  duty_completion:
+    completed_in_wp3: 8
+    cumulative_completed: 24
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  grammar_world_controls:
+    delta_psi_is_reconstruction_grammar: true
+    particle_theory_or_world_inventory_claimed: false
+    universal_causal_architecture_claimed: false
+    operator_occurrence_is_world_substance: false
+    pms_operator_layers_are_real_strata: false
+    pms_dependency_order_is_ontological_hierarchy: false
+    later_operator_is_higher_being_or_authority: false
+  anti_counter_ontology_controls:
+    stable_structures_denied: false
+    parts_and_wholes_reduced_to_mere_language: false
+    flat_or_structureless_metaphysics_asserted: false
+    bounded_reconstruction_strength_retained: true
+  ontology_drift_controls:
+    fundamentality_markers_defined: true
+    totality_markers_defined: true
+    real_layer_markers_defined: true
+    projection_identity_markers_defined: true
+    reduction_markers_defined: true
+    grammar_to_world_markers_defined: true
+    closure_markers_defined: true
+    phrase_detection_is_substantive_verdict: false
+  corrective_form_controls:
+    frame_required: true
+    source_basis_required_where_claim_burden_demands: true
+    granularity_required: true
+    reference_object_required: true
+    relation_required: true
+    claim_scope_required: true
+    alternatives_and_loss_retained: true
+    operation_specific_forms_defined: true
+    pms_occurrence_typed_form_defined: true
+    bounded_form_selects_output_class: false
+  non_capture_controls:
+    source_non_capture_available: true
+    granularity_non_capture_available: true
+    compositional_non_capture_available: true
+    projection_non_capture_available: true
+    calibration_non_capture_available: true
+    semantic_non_capture_available: true
+    partial_capture_available: true
+    outside_current_grammar_means_outside_all_knowledge: false
+    not_captured_means_unreal: false
+  pressure_packet:
+    O0:
+      status: prohibited_ontology_inference
+      substantive_ontology_finding: none
+    R1:
+      status: bounded_reconstruction_candidate
+      result: unadjudicated
+      preferred_granularity: not_selected
+    R2:
+      status: alternative_reconstruction_candidate
+      result: unadjudicated
+      preferred_granularity: not_selected
+    chapter_status_flows_to_pressure_objects: false
+  ownership_controls:
+    chapter_43_comparative_performance_preempted: false
+    chapter_44_53_detailed_limits_preempted: false
+    pms_operator_inventory_or_dependencies_changed: false
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  inventory_protection:
+    exact_operations: 3
+    exact_output_classes: 10
+    exact_rules: 16
+    exact_audit_stages: 12
+    exact_counterfactual_sensitivity_values: 6
+    exact_canonical_loss_fields: 5
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    part_iv_final_lock: unavailable
+  next_controlled_step:
+    chapter: 42
+    work_package: WP4
+    task: integrated_contract_redundancy_and_pressure_packet_audit_provisional_lock_decision_and_chapter_43_preparation_gate
+  formal_model_limits:
+    ? automatic_ontology_truth_world_inventory_operator_layer_reality_counter_ontology_preferred_granularity_substantive_admissibility_case_warrant_causality_semantic_normative_person_group_legitimacy_recommendation_sanction_governance_or_authority_inference_prohibited
+    : true
+  authority_inheritance: prohibited
+chapter_42_wp4_lock_and_chapter_43_preparation:
+  chapter_42_canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_42_preparation_record: _workfiles/chapter_preparation/Chapter_42_Preparation_Record.md
+  chapter_42_audit_record: _workfiles/chapter_lock_records/Chapter_42_WP4_Audit_and_Lock_Record.md
+  chapter_43_preparation_record: _workfiles/chapter_preparation/Chapter_43_Preparation_Record.md
+  status: chapter_42_provisionally_locked_chapter_43_preparation_gate_complete
+  registry_mode: non_routing_limits_lock_and_preparation_support
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_268.zip
+  chapter_42:
+    duties_exact_once: 24_of_24
+    contract_audit: pass
+    redundancy_audit: pass
+    provisional_lock: admissible_but_provisional
+    O0: prohibited_ontology_inference_no_substantive_finding
+    R1: unadjudicated
+    R2: unadjudicated
+    preferred_granularity: not_selected
+  chapter_43_preparation:
+    gate_result: admissible_but_provisional
+    canonical_prose_started: false
+    duties_assigned_unique: 24
+    pressure_objects:
+      P0: privilege_statement_not_accepted
+      RC: unadjudicated
+      RF: unadjudicated
+      RH: unadjudicated
+    preferred_granularity: not_selected
+    forced_merger: prohibited
+    next_controlled_step: chapter_43_wp1_sections_43_1_to_43_3
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_packages_substituted: false
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+chapter_43_wp1_symmetrical_limitation_and_fine_coarse_non_privilege:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_43_Preparation_Record.md
+  status: chapter_43_wp1_complete_chapter_open
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_269.zip
+  sections_completed:
+  - 43.1
+  - 43.2
+  - 43.3
+  duty_completion:
+    completed_in_wp1: 8
+    cumulative_completed: 8
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    P0:
+      status: privilege_assertion_not_accepted
+      substantive_comparison_finding: none
+    RC:
+      status: coarse_reconstruction_candidate
+      result: unadjudicated
+      preferred_granularity: not_selected
+    RF:
+      status: fine_reconstruction_candidate
+      result: unadjudicated
+      preferred_granularity: not_selected
+    RH:
+      status: wider_composition_candidate
+      result: unadjudicated
+      preferred_scope: not_selected
+    chapter_status_flows_to_pressure_objects: false
+  symmetrical_limitation:
+    equal_justificatory_burden: true
+    identical_substantive_result_required: false
+    fine_direction_privileged: false
+    wider_direction_privileged: false
+  fine_resolution_controls:
+    automatic_truth_depth_completeness_or_authority_privilege: prohibited
+    relation_obscuration_checked: true
+    source_overreach_checked: true
+    noise_and_non_discrimination_checked: true
+    fragmentation_checked: true
+    source_object_loss_checked: true
+  coarse_reconstruction_controls:
+    possible_claim_relative_outperformance: true
+    possible_dimensions:
+    - discrimination
+    - source_support
+    - relation_preservation
+    - economy
+    - comparability
+    universal_coarse_privilege: prohibited
+    exact_loss_required: true
+  authority_controls:
+    epistemic_authority_from_direction: prohibited
+    explanatory_authority_from_direction: prohibited
+    normative_authority_from_direction: prohibited
+    application_authority_from_direction: prohibited
+    authority_inheritance: prohibited
+  non_preemption:
+    chapter_43_wp2_scale_relative_performance_preempted: false
+    chapter_43_wp3_comparative_test_preempted: false
+    chapter_44_relevance_floor_procedure_preempted: false
+    chapter_45_traceability_ceiling_procedure_preempted: false
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  next_controlled_step:
+    chapter: 43
+    work_package: WP2
+    sections: 43.4-43.6
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    part_iv_final_lock: unavailable
+chapter_43_wp2_higher_composition_scale_relative_performance_and_co_validity:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_43_Preparation_Record.md
+  status: chapter_43_wp2_complete_chapter_open
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_270.zip
+  sections_completed:
+  - 43.4
+  - 43.5
+  - 43.6
+  duty_completion:
+    completed_in_wp2: 8
+    cumulative_completed: 16
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    P0:
+      status: privilege_assertion_not_accepted
+      substantive_comparison_finding: none
+    RC:
+      result: unadjudicated
+      preferred_granularity: not_selected
+    RF:
+      result: unadjudicated
+      preferred_granularity: not_selected
+    RH:
+      result: unadjudicated
+      preferred_scope: not_selected
+    ranking_selected: false
+    compatibility_selected: false
+    chapter_status_flows_to_pressure_objects: false
+  higher_composition_controls:
+    greater_explanation_by_scope_alone: prohibited
+    greater_warrant_by_inclusion_alone: prohibited
+    authority_by_higher_composition: prohibited
+    exact_loss_required: true
+  scale_relative_performance_controls:
+    question_required: true
+    frame_required: true
+    source_basis_required: true
+    praxis_difference_required: true
+    traceability_required: true
+    loss_required: true
+    claim_scope_required: true
+    universal_score_prohibited: true
+  co_validity_controls:
+    separate_claims_required: true
+    separate_coordinates_required: true
+    separate_source_traces_required: true
+    separate_loss_required: true
+    forced_merger: prohibited
+    non_comparability_available: true
+    underdetermination_available: true
+  non_preemption:
+    chapter_43_wp3_no_reduction_and_comparative_test_preempted: false
+    chapter_44_relevance_floor_procedure_preempted: false
+    chapter_45_traceability_ceiling_procedure_preempted: false
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  next_controlled_step:
+    chapter: 43
+    work_package: WP3
+    sections: 43.7-43.10
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+chapter_43_wp4_lock_and_chapter_44_preparation:
+  chapter_43_canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_43_preparation_record: _workfiles/chapter_preparation/Chapter_43_Preparation_Record.md
+  chapter_43_audit_record: _workfiles/chapter_lock_records/Chapter_43_WP4_Audit_and_Lock_Record.md
+  chapter_44_preparation_record: _workfiles/chapter_preparation/Chapter_44_Preparation_Record.md
+  status: chapter_43_provisionally_locked_chapter_44_preparation_gate_complete
+  registry_mode: non_routing_limits_lock_and_preparation_support
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_272.zip
+  chapter_43:
+    duties_exact_once: 24_of_24
+    contract_audit: pass
+    redundancy_audit: pass
+    provisional_lock: admissible_but_provisional
+    P0: privilege_assertion_not_accepted
+    RC: unadjudicated
+    RF: unadjudicated
+    RH: unadjudicated
+    preferred_granularity: not_selected
+    forced_merger: prohibited
+  chapter_44_preparation:
+    gate_result: admissible_but_provisional
+    canonical_prose_started: false
+    duties_assigned_unique: 24
+    pressure_objects:
+      L0: privilege_statement_not_accepted
+      D: unadjudicated
+      DG: unadjudicated
+      DN: unadjudicated
+      DS: unadjudicated
+    lower_bound_result: not_selected
+    next_controlled_step: chapter_44_wp1_sections_44_1_to_44_3
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_packages_substituted: false
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+chapter_44_wp1_relevance_floor_praxis_purchase_and_claim_relativity:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_44_Preparation_Record.md
+  status: chapter_44_wp1_complete_chapter_open
+  registry_mode: non_routing_limits_lower_boundary_support
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_273.zip
+  sections_completed:
+  - 44.1
+  - 44.2
+  - 44.3
+  duty_completion:
+    completed_in_wp1: 8
+    cumulative_completed: 8
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    L0:
+      status: pressure_statement_not_accepted
+      relevance_privilege: not_granted
+    D:
+      result: unadjudicated
+    DG:
+      result: unadjudicated
+    DN:
+      result: unadjudicated
+    DS:
+      result: unadjudicated
+    lower_bound_result: not_selected
+    preferred_granularity: not_selected
+    output_class_selected: false
+    chapter_status_flows_to_pressure_objects: false
+  relevance_floor_controls:
+    chapter_6_compact_definition_retained: true
+    changed_warranted_reconstruction_required: true
+    universal_smallest_relevant_unit: prohibited
+    fixed_threshold: prohibited
+    scale_hierarchy: prohibited
+    compensatory_score: prohibited
+  praxis_purchase_controls:
+    actionability_required: false
+    controllability_required: false
+    usefulness_required: false
+    recommendation_inference: prohibited
+    affected_praxis_dimensions_declared: true
+  coordinate_controls:
+    frame_required: true
+    granularity_required: true
+    reference_required: true
+    source_basis_required: true
+    claim_required: true
+    claim_scope_required: true
+  source_limit_controls:
+    source_limitation_is_absent_praxis_purchase: false
+    source_limitation_is_resolution_neutral: false
+    new_source_creates_new_testable_claim: true
+    prior_disposition_erasure: prohibited
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  inventory_protection:
+    exact_operations: 3
+    exact_output_classes: 10
+    exact_rules: 16
+    exact_audit_stages: 12
+    exact_counterfactual_sensitivity_values: 6
+    exact_canonical_loss_fields: 5
+  next_controlled_step:
+    chapter: 44
+    work_package: WP2
+    sections: 44.4-44.6
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+chapter_44_wp2_detail_failure_forms_and_changed_reconstruction:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_44_Preparation_Record.md
+  status: chapter_44_wp2_complete_chapter_open
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_274.zip
+  sections_completed:
+  - 44.4
+  - 44.5
+  - 44.6
+  duty_completion:
+    completed_in_wp2: 8
+    cumulative_completed: 16
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    L0:
+      status: pressure_statement_not_accepted
+      relevance_privilege: not_granted
+    D:
+      result: unadjudicated
+    DG:
+      result: unadjudicated
+    DN:
+      result: unadjudicated
+    DS:
+      result: unadjudicated
+    lower_bound_result: not_selected
+    preferred_granularity: not_selected
+    output_class_selected: false
+    mandatory_lower_stop_selected: false
+    chapter_status_flows_to_pressure_objects: false
+  changed_reconstruction_controls:
+    exact_prior_claim_required: true
+    exact_added_distinction_required: true
+    exact_candidate_changed_claim_required: true
+    source_support_for_distinction_required: true
+    source_support_for_changed_relation_required: true
+    affected_praxis_dimension_required: true
+    constitutive_relation_required: true
+    alternatives_required: true
+    five_part_loss_required: true
+    claim_scope_and_ceiling_required: true
+  lower_failure_markers:
+  - event_inflation
+  - temporal_over_resolution
+  - atomistic_listing
+  - role_or_profile_inflation
+  - repeated_reformulation
+  - technical_precision_without_praxis_gain
+  markers_are_automatic_verdicts: false
+  non_compensation:
+    detail_count: prohibited
+    technical_precision: prohibited
+    formal_elegance: prohibited
+    source_abundance: prohibited
+    operator_occurrence_density: prohibited
+  counterpressure:
+    warranted_countercase_can_change_reconstruction: true
+    claim_narrowing_can_change_reconstruction: true
+    alternative_restoration_can_change_reconstruction: true
+    claim_defeat_can_change_reconstruction: true
+    necessary_stop_can_change_reconstruction: true
+    any_of_these_presume_lower_bound_success: false
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  next_controlled_step:
+    chapter: 44
+    work_package: WP3
+    sections: 44.7-44.10
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+chapter_44_wp3_negative_neutral_stop_reentry_and_record_view:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_44_Preparation_Record.md
+  status: chapter_44_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_275.zip
+  sections_completed:
+  - '44.7'
+  - '44.8'
+  - '44.9'
+  - '44.10'
+  duty_completion:
+    completed_in_wp3: 8
+    cumulative_completed: 24
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    L0:
+      status: pressure_statement_not_accepted
+      relevance_privilege: not_granted
+    D:
+      result: unadjudicated
+    DG:
+      result: unadjudicated
+    DN:
+      result: unadjudicated
+    DS:
+      result: unadjudicated
+    lower_bound_result: not_selected
+    preferred_granularity: not_selected
+    output_class_selected: false
+    mandatory_lower_stop_selected: false
+    reentry_selected: false
+    chapter_status_flows_to_pressure_objects: false
+  negative_finding_controls:
+    supported_no_change_requires_testable_relation: true
+    absence_of_evidence_is_negative_finding: false
+    coarse_sufficiency_is_universal_privilege: false
+  resolution_neutral_controls:
+    canonical_class_exists: true
+    automatic_from_supported_detail: false
+    is_resolution_gain: false
+    is_failed_transformation: false
+    is_source_limitation: false
+    is_non_capture: false
+    one_class_per_delimited_routed_claim: true
+  lower_stop_controls:
+    local_to_current_route: true
+    permanent_closure: false
+    source_end_implies_no_relevance: false
+    terminology_accumulation_can_trigger: true
+    repeated_neutrality_can_trigger: true
+    reference_loss_can_trigger: true
+  reentry_controls:
+    new_claim_bearing_condition_required: true
+    prior_disposition_preserved: true
+    repetition_is_reentry: false
+    label_substitution_is_reentry: false
+  record_controls:
+    shared_transformation_record_remains_single_grammar: true
+    new_top_level_object: false
+    new_schema_field: false
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  next_controlled_step:
+    chapter: 44
+    work_package: WP4
+    scope: integrated audit, lock decision, and Chapter 45 Preparation Gate
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+chapter_44_wp4_provisional_lock_and_chapter_45_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_44_preparation_record: _workfiles/chapter_preparation/Chapter_44_Preparation_Record.md
+  chapter_44_audit_record: _workfiles/chapter_lock_records/Chapter_44_WP4_Audit_and_Lock_Record.md
+  chapter_45_preparation_record: _workfiles/chapter_preparation/Chapter_45_Preparation_Record.md
+  status: chapter_44_provisionally_locked_chapter_45_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_276.zip
+  chapter_44_audit:
+    contract_completion: pass
+    preparation_completion: 12_of_12
+    redundancy_guard: pass
+    duties_exact_once: 24_of_24
+    unexpected_duties: 0
+    duplicate_duties: 0
+    method_level_result: admissible_but_provisional
+    part_iv_lock_selected: false
+  pressure_packet:
+    L0:
+      disposition: relevance_privilege_statement_not_accepted
+    D:
+      disposition: unadjudicated
+    DG:
+      disposition: unadjudicated
+    DN:
+      disposition: unadjudicated
+    DS:
+      disposition: unadjudicated
+    lower_bound_result: not_selected
+    mandatory_lower_stop_selected: false
+    reentry_selected: false
+    output_class_selected: false
+    chapter_level_result_flows_to_pressure_objects: false
+  chapter_45_preparation:
+    gate_result: admissible_but_provisional
+    canonical_prose_started: false
+    duties_assigned: 24
+    work_packages: 4
+    pressure_packet:
+      U0: citation_sufficiency_statement_not_accepted
+      T: target_candidate_unadjudicated
+      TL: traceable_load_candidate_unadjudicated
+      TE: elastic_label_candidate_unadjudicated
+      TS: source_limited_candidate_unadjudicated
+    upper_bound_result: not_selected
+    next_controlled_step: chapter_45_wp1_sections_45_1_to_45_3
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    integrated_case_dependency_for_chapter_53_and_part_iv_lock: open_future_dependency
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+chapter_45_wp1_upper_boundary_traceable_load_and_more_than_citation:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_45_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_277.zip
+  status: chapter_45_wp1_complete_chapter_open
+  sections_completed:
+  - 45.1
+  - 45.2
+  - 45.3
+  duty_completion:
+    completed_in_wp1: 8
+    cumulative_completed: 8
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    U0: citation_sufficiency_statement_not_accepted
+    T: unadjudicated
+    TL: unadjudicated
+    TE: unadjudicated
+    TS: unadjudicated
+    upper_bound_result: not_selected
+    route_selected: false
+    output_class_selected: false
+    mandatory_upper_stop_selected: false
+    claim_reduction_selected: false
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    existing_case_test_smoke_artifacts_changed: false
+  next_controlled_step: chapter_45_wp2_sections_45_4_to_45_6
+  authority_inheritance: prohibited
+chapter_45_wp2_upper_failure_source_trace_and_dependency:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_45_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_278.zip
+  status: chapter_45_wp2_complete_chapter_open
+  sections_completed:
+  - 45.4
+  - 45.5
+  - 45.6
+  duty_completion:
+    completed_in_wp2: 8
+    cumulative_completed: 16
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    U0: citation_sufficiency_statement_not_accepted
+    T: unadjudicated
+    TL: unadjudicated
+    TE: unadjudicated
+    TS: unadjudicated
+    upper_bound_result: not_selected
+    route_selected: false
+    sensitivity_class_selected: false
+    mandatory_upper_stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    existing_case_test_smoke_artifacts_changed: false
+  next_controlled_step: chapter_45_wp3_sections_45_7_to_45_11
+  authority_inheritance: prohibited
+chapter_45_wp3_elasticity_nonexhaustive_traceability_stop_and_claim_reduction:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_45_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_279.zip
+  status: chapter_45_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  sections_completed:
+  - '45.7'
+  - '45.8'
+  - '45.9'
+  - '45.10'
+  - '45.11'
+  duty_completion:
+    completed_in_wp3: 8
+    cumulative_completed: 24
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    U0: citation_sufficiency_statement_not_accepted
+    T: unadjudicated
+    TL: unadjudicated
+    TE: unadjudicated
+    TS: unadjudicated
+    upper_bound_result: not_selected
+    route_selected: false
+    sensitivity_class_selected: false
+    mandatory_upper_stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    existing_case_test_smoke_artifacts_changed: false
+  next_controlled_step: chapter_45_wp4_integrated_audit_and_chapter_46_preparation_gate
+  authority_inheritance: prohibited
+chapter_45_wp4_provisional_lock_and_chapter_46_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_45_preparation_record: _workfiles/chapter_preparation/Chapter_45_Preparation_Record.md
+  chapter_45_audit_record: _workfiles/chapter_lock_records/Chapter_45_WP4_Audit_and_Lock_Record.md
+  chapter_46_preparation_record: _workfiles/chapter_preparation/Chapter_46_Preparation_Record.md
+  status: chapter_45_provisionally_locked_chapter_46_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_280.zip
+  chapter_45_audit:
+    contract_completion: pass
+    preparation_completion: 12_of_12
+    redundancy_guard: pass
+    duties_exact_once: 24_of_24
+    unexpected_duties: 0
+    duplicate_duties: 0
+    method_level_result: admissible_but_provisional
+    part_iv_lock_selected: false
+  pressure_packet:
+    U0:
+      disposition: citation_sufficiency_statement_not_accepted
+    T:
+      disposition: unadjudicated
+    TL:
+      disposition: unadjudicated
+    TE:
+      disposition: unadjudicated
+    TS:
+      disposition: unadjudicated
+    upper_bound_result: not_selected
+    sensitivity_class_selected: false
+    mandatory_upper_stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+    chapter_level_result_flows_to_pressure_objects: false
+  chapter_46_preparation:
+    gate_result: admissible_but_provisional
+    canonical_prose_started: false
+    duties_assigned: 24
+    work_packages: 4
+    pressure_packet:
+      C0: causality_assertion_not_accepted
+      F: load_bearing_feature_candidate_unadjudicated
+      M: relevant_modification_candidate_unadjudicated
+      R: target_response_candidate_unadjudicated
+      K: sensitivity_class_unselected
+      U: source_limited_candidate_unadjudicated
+    sensitivity_class_result: not_selected
+    next_controlled_step: chapter_46_wp1_sections_46_1_to_46_3
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    integrated_case_dependency_for_chapter_53_and_part_iv_lock: open_future_dependency
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+chapter_46_wp1_purpose_core_question_and_relevant_source_modification:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_46_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_281.zip
+  status: chapter_46_wp1_complete_chapter_open
+  sections_completed:
+  - 46.1
+  - 46.2
+  - 46.3
+  duty_completion:
+    completed_in_wp1: 8
+    cumulative_completed: 8
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    C0: causality_assertion_not_accepted
+    F: unadjudicated
+    M: unadjudicated
+    R: unadjudicated
+    K: unselected
+    U: unadjudicated
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    existing_case_test_smoke_artifacts_changed: false
+  next_controlled_step: chapter_46_wp2_sections_46_4_to_46_6
+  authority_inheritance: prohibited
+chapter_46_wp2_operation_variants_sensitivity_classes_and_insensitivity:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_46_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_282.zip
+  status: chapter_46_wp2_complete_chapter_open
+  sections_completed:
+  - '46.4'
+  - '46.5'
+  - '46.6'
+  duty_completion:
+    completed_in_wp2: 8
+    cumulative_completed: 16
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    C0: causality_assertion_not_accepted
+    F: unadjudicated
+    M: unadjudicated
+    R: unadjudicated
+    K: unselected
+    U: unadjudicated
+    sensitivity_value_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  inventory_protection:
+    exact_operations: 3
+    exact_output_classes: 10
+    exact_rules: 16
+    exact_audit_stages: 12
+    exact_counterfactual_sensitivity_values: 6
+    exact_canonical_loss_fields: 5
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    existing_case_test_smoke_artifacts_changed: false
+  next_controlled_step: chapter_46_wp3_sections_46_7_to_46_10
+  authority_inheritance: prohibited
+chapter_46_wp3_source_discipline_untestable_underdetermined_claim_effects_and_record_view:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_46_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_283.zip
+  status: chapter_46_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  sections_completed:
+  - '46.7'
+  - '46.8'
+  - '46.9'
+  - '46.10'
+  duty_completion:
+    completed_in_wp3: 8
+    cumulative_completed: 24
+    total_chapter_duties: 24
+    exact_once_in_canonical_prose: true
+  pressure_packet:
+    C0: causality_assertion_not_accepted
+    F: unadjudicated
+    M: unadjudicated
+    R: unadjudicated
+    K: unselected
+    U: unadjudicated
+    sensitivity_value_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    existing_case_test_smoke_artifacts_changed: false
+  next_controlled_step: chapter_46_wp4_integrated_audit_and_chapter_47_preparation_gate
+  authority_inheritance: prohibited
+chapter_46_wp4_provisional_lock_and_chapter_47_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_46_preparation_record: _workfiles/chapter_preparation/Chapter_46_Preparation_Record.md
+  chapter_46_audit_record: _workfiles/chapter_lock_records/Chapter_46_WP4_Audit_and_Lock_Record.md
+  chapter_47_preparation_record: _workfiles/chapter_preparation/Chapter_47_Preparation_Record.md
+  status: chapter_46_provisionally_locked_chapter_47_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_284.zip
+  chapter_46_audit:
+    contract_completion: pass
+    preparation_completion: 12_of_12
+    redundancy_guard: pass
+    duties_exact_once: 24_of_24
+    unexpected_duties: 0
+    duplicate_duties: 0
+    method_level_result: admissible_but_provisional
+    part_iv_lock_selected: false
+  pressure_packet:
+    C0:
+      disposition: causality_assertion_not_accepted
+    F:
+      disposition: unadjudicated
+    M:
+      disposition: unadjudicated
+    R:
+      disposition: unadjudicated
+    K:
+      sensitivity_class: unselected
+    U:
+      disposition: unadjudicated
+    sensitivity_value_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+    chapter_level_result_flows_to_pressure_objects: false
+  chapter_47_preparation:
+    gate_result: admissible_but_provisional
+    canonical_prose_started: false
+    duties_assigned: 24
+    work_packages: 4
+    pressure_packet:
+      N0: nominal_sameness_assertion_not_accepted
+      CR: reference_continuity_candidate_unadjudicated
+      CT: type_integrity_view_candidate_unadjudicated
+      CF: functional_continuity_candidate_unadjudicated
+      CTM: temporal_continuity_candidate_unadjudicated
+      CC: chain_continuity_candidate_unadjudicated
+    continuity_result: not_selected
+    next_controlled_step: chapter_47_wp1_sections_47_1_to_47_3
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    integrated_case_dependency_for_chapter_53_and_part_iv_lock: open_future_dependency
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+chapter_47_wp1_dimensions_typeintegrity_view_and_reference_continuity:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_47_Preparation_Record.md
+  status: chapter_47_wp1_complete_chapter_open
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_285.zip
+  sections_completed:
+  - '47.1'
+  - '47.2'
+  - '47.3'
+  duties_completed: 8_of_24
+  pressure_packet:
+    N0: nominal_sameness_assertion_not_accepted
+    CR: unadjudicated
+    CT: unadjudicated
+    CF: unadjudicated
+    CTM: unadjudicated
+    CC: unadjudicated
+    continuity_result_selected: false
+    chain_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 47 WP2 — §§47.4–47.7
+  authority_inheritance: prohibited
+chapter_47_wp2_typeintegrity_and_functional_continuity:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_47_Preparation_Record.md
+  status: chapter_47_wp2_complete_chapter_open
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_286.zip
+  sections_completed:
+  - '47.4'
+  - '47.5'
+  - '47.6'
+  - '47.7'
+  duties_completed: 16_of_24
+  pressure_packet:
+    N0: nominal_sameness_assertion_not_accepted
+    CR: unadjudicated
+    CT: unadjudicated
+    CF: unadjudicated
+    CTM: unadjudicated
+    CC: unadjudicated
+    continuity_result_selected: false
+    chain_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 47 WP3 — §§47.8–47.10
+  authority_inheritance: prohibited
+chapter_47_wp3_temporal_continuity_matrix_claim_effects_and_record_view:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_47_Preparation_Record.md
+  status: chapter_47_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_287.zip
+  sections_completed:
+  - '47.8'
+  - '47.9'
+  - '47.10'
+  duties_completed: 24_of_24
+  pressure_packet:
+    N0: nominal_sameness_assertion_not_accepted
+    CR: unadjudicated
+    CT: unadjudicated
+    CF: unadjudicated
+    CTM: unadjudicated
+    CC: unadjudicated
+    continuity_result_selected: false
+    chain_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 47 WP4 — integrated audit, provisional-lock decision, and Chapter 48 Preparation Gate
+  authority_inheritance: prohibited
+chapter_47_wp4_provisional_lock_and_chapter_48_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_47_preparation_record: _workfiles/chapter_preparation/Chapter_47_Preparation_Record.md
+  chapter_47_audit_record: _workfiles/chapter_lock_records/Chapter_47_WP4_Audit_and_Lock_Record.md
+  chapter_48_preparation_record: _workfiles/chapter_preparation/Chapter_48_Preparation_Record.md
+  status: chapter_47_provisionally_locked_chapter_48_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_288.zip
+  chapter_47_audit:
+    contract_completion: pass
+    preparation_completion: 12_of_12
+    redundancy_guard: pass
+    duties_exact_once: 24_of_24
+    unexpected_duties: 0
+    duplicate_duties: 0
+    method_level_result: admissible_but_provisional
+    part_iv_lock_selected: false
+  pressure_packet:
+    N0:
+      disposition: nominal_sameness_assertion_not_accepted
+    CR:
+      disposition: unadjudicated
+    CT:
+      disposition: unadjudicated
+    CF:
+      disposition: unadjudicated
+    CTM:
+      disposition: unadjudicated
+    CC:
+      disposition: unadjudicated
+    continuity_result_selected: false
+    chain_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+    chapter_level_result_flows_to_pressure_objects: false
+  chapter_48_preparation:
+    gate_result: admissible_but_provisional
+    canonical_prose_started: false
+    duties_assigned: 24
+    work_packages: 4
+    canonical_loss_fields:
+    - preserved
+    - compressed
+    - excluded
+    - uncertain
+    - irrecoverable
+    pressure_packet:
+      S0: lossless_transformation_assertion_not_accepted
+      LP: preserved_candidate_unadjudicated
+      LC: compressed_candidate_unadjudicated
+      LE: excluded_candidate_unadjudicated
+      LU: uncertain_candidate_unadjudicated
+      LI: irrecoverable_candidate_unadjudicated
+      CD: compression_debt_candidate_unadjudicated
+      HL: hidden_loss_candidate_unadjudicated
+    loss_result: not_selected
+    next_controlled_step: chapter_48_wp1_sections_48_1_to_48_4
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    integrated_case_dependency_for_chapter_53_and_part_iv_lock: open_future_dependency
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+chapter_48_wp1_selection_preservation_compression_and_exclusion:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_48_Preparation_Record.md
+  status: chapter_48_wp1_complete_chapter_open_pending_wp2
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_289.zip
+  sections_completed:
+  - '48.1'
+  - '48.2'
+  - '48.3'
+  - '48.4'
+  duties_completed: 8_of_24
+  pressure_packet:
+    S0: lossless_transformation_assertion_not_accepted
+    LP: unadjudicated
+    LC: unadjudicated
+    LE: unadjudicated
+    LU: unadjudicated
+    LI: unadjudicated
+    CD: unadjudicated
+    HL: unadjudicated
+    loss_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 48 WP2 — §§48.5–48.8
+  authority_inheritance: prohibited
+chapter_48_wp2_uncertainty_irrecoverability_reconstruction_selection_and_selection_effects:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_48_Preparation_Record.md
+  status: chapter_48_wp2_complete_chapter_open_pending_wp3
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_290.zip
+  sections_completed:
+  - '48.5'
+  - '48.6'
+  - '48.7'
+  - '48.8'
+  duties_completed: 16_of_24
+  pressure_packet:
+    S0: lossless_transformation_assertion_not_accepted
+    LP: unadjudicated
+    LC: unadjudicated
+    LE: unadjudicated
+    LU: unadjudicated
+    LI: unadjudicated
+    CD: unadjudicated
+    HL: unadjudicated
+    loss_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 48 WP3 — §§48.9–48.12
+  authority_inheritance: prohibited
+chapter_48_wp3_compression_debt_loss_disclosure_bounded_loss_and_hidden_loss:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_48_Preparation_Record.md
+  status: chapter_48_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_291.zip
+  sections_completed:
+  - '48.9'
+  - '48.10'
+  - '48.11'
+  - '48.12'
+  duties_completed: 24_of_24
+  pressure_packet:
+    S0: lossless_transformation_assertion_not_accepted
+    LP: unadjudicated
+    LC: unadjudicated
+    LE: unadjudicated
+    LU: unadjudicated
+    LI: unadjudicated
+    CD: unadjudicated
+    HL: unadjudicated
+    loss_result_selected: false
+    compression_debt_result_selected: false
+    hidden_loss_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 48 WP4 — integrated audit and Chapter 49 Preparation Gate
+  authority_inheritance: prohibited
+chapter_48_wp4_provisional_lock_and_chapter_49_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_48_preparation_record: _workfiles/chapter_preparation/Chapter_48_Preparation_Record.md
+  chapter_48_audit_record: _workfiles/chapter_lock_records/Chapter_48_WP4_Audit_and_Lock_Record.md
+  chapter_49_preparation_record: _workfiles/chapter_preparation/Chapter_49_Preparation_Record.md
+  status: chapter_48_provisionally_locked_chapter_49_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_292.zip
+  chapter_48_audit:
+    contract_completion: pass
+    preparation_completion: 12_of_12
+    redundancy_guard: pass
+    duties_exact_once: 24_of_24
+    unexpected_duties: 0
+    duplicate_duties: 0
+    canonical_loss_fields:
+    - preserved
+    - compressed
+    - excluded
+    - uncertain
+    - irrecoverable
+    method_level_result: admissible_but_provisional
+    part_iv_lock_selected: false
+  pressure_packet:
+    S0:
+      disposition: lossless_transformation_assertion_not_accepted
+    LP:
+      disposition: unadjudicated
+    LC:
+      disposition: unadjudicated
+    LE:
+      disposition: unadjudicated
+    LU:
+      disposition: unadjudicated
+    LI:
+      disposition: unadjudicated
+    CD:
+      disposition: unadjudicated
+    HL:
+      disposition: unadjudicated
+    loss_result_selected: false
+    compression_debt_result_selected: false
+    hidden_loss_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+    chapter_level_result_flows_to_pressure_objects: false
+  chapter_49_preparation:
+    gate_result: admissible_but_provisional
+    canonical_prose_started: false
+    duties_assigned: 24
+    work_packages: 4
+    pressure_packet:
+      P0: formal_precision_overreach_assertion_not_accepted
+      DS: direct_support_candidate_unadjudicated
+      IS: inferred_structure_candidate_unadjudicated
+      MN: missing_source_non_event_candidate_unadjudicated
+      ID: inferential_distance_candidate_unadjudicated
+      SC: source_ceiling_candidate_unadjudicated
+      CA: calibration_candidate_unadjudicated
+      CO: calibration_open_candidate_unadjudicated
+      TF: technical_formalization_candidate_unadjudicated
+    source_or_calibration_result: not_selected
+    next_controlled_step: chapter_49_wp1_sections_49_1_to_49_4
+  artifact_controls:
+    new_case_yaml_created: false
+    new_test_yaml_created: false
+    new_smoke_yaml_created: false
+    missing_retype_lock_packages_substituted: false
+  deferred_dependencies:
+    artifact_complete_retype_lock: mandatory_stop
+    required_retype_lock_packages_complete: 0_of_3
+    integrated_case_dependency_for_chapter_53_and_part_iv_lock: open_future_dependency
+    part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+pre_chapter_49_reference_and_navigation_maintenance:
+  status: complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_293.zip
+  scope: current_status_and_navigation_metadata_only
+  reference_scaffolds_updated:
+  - 04_reference/Cross_Reference_Map.md
+  - 04_reference/Evidence_Map.md
+  - 04_reference/Audit_Checklist.md
+  - 04_reference/Reader_Pathways.md
+  canonical_prose_changed: false
+  case_test_smoke_artifacts_changed: false
+  instantiated_case_inventory: 29
+  theory_or_inventory_change: false
+  next_controlled_step: chapter_49_wp1_sections_49_1_to_49_4
+  authority_inheritance: prohibited
+chapter_49_wp1_source_bounded_reconstruction_source_types_missing_source_and_inferential_distance:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_49_Preparation_Record.md
+  status: chapter_49_wp1_complete_chapter_open
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_294.zip
+  sections_completed:
+  - '49.1'
+  - '49.2'
+  - '49.3'
+  - '49.4'
+  duties_completed: 8_of_24
+  pressure_packet:
+    P0: formal_precision_overreach_assertion_not_accepted
+    DS: unadjudicated
+    IS: unadjudicated
+    MN: unadjudicated
+    ID: unadjudicated
+    SC: unadjudicated
+    CA: unadjudicated
+    CO: unadjudicated
+    TF: unadjudicated
+    source_result_selected: false
+    calibration_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 49 WP2 — §§49.5–49.7
+  authority_inheritance: prohibited
+chapter_49_wp2_calibration_calibration_loss_granularity_and_openness:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_49_Preparation_Record.md
+  status: chapter_49_wp1_wp2_complete_chapter_open
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_295.zip
+  sections_completed:
+  - '49.5'
+  - '49.6'
+  - '49.7'
+  duties_completed: 16_of_24
+  calibration_controls:
+    comparability_required: true
+    relevant_differentiation_required: true
+    threshold_visibility_required: true
+    countercase_openness_required: true
+    universal_ex_ante_threshold_required: false
+    local_threshold_declaration_required: true
+    calibration_loss_is_sixth_loss_field: false
+    calibration_openness_equals_vagueness: false
+  pressure_packet:
+    P0: formal_precision_overreach_assertion_not_accepted
+    DS: unadjudicated
+    IS: unadjudicated
+    MN: unadjudicated
+    ID: unadjudicated
+    SC: unadjudicated
+    CA: unadjudicated
+    CO: unadjudicated
+    TF: unadjudicated
+    source_result_selected: false
+    calibration_result_selected: false
+    source_ceiling_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 49 WP3 — §§49.8–49.11
+  authority_inheritance: prohibited
+chapter_49_wp3_source_ceiling_calibration_open_record_view_and_formalization_boundary:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_49_Preparation_Record.md
+  status: chapter_49_wp1_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_296.zip
+  sections_completed:
+  - '49.8'
+  - '49.9'
+  - '49.10'
+  - '49.11'
+  duties_completed: 24_of_24
+  source_ceiling_controls:
+    source_ceiling_equals_relevance_floor: false
+    source_ceiling_equals_traceability_ceiling: false
+    source_ceiling_equals_claim_ceiling: false
+    local_ceiling_exhausts_all_bounded_claims: false
+  calibration_open_controls:
+    canonical_output_class_created: false
+    threshold_candidates_required: true
+    affected_cases_required: true
+    missing_discriminator_required: true
+    surviving_bounded_claim_required: true
+  record_and_formalization_controls:
+    new_record_grammar_created: false
+    technical_consistency_equals_substantive_validity: false
+    schema_validity_equals_empirical_truth: false
+    authority_inheritance: prohibited
+  pressure_packet:
+    P0: formal_precision_overreach_assertion_not_accepted
+    DS: unadjudicated
+    IS: unadjudicated
+    MN: unadjudicated
+    ID: unadjudicated
+    SC: unadjudicated
+    CA: unadjudicated
+    CO: unadjudicated
+    TF: unadjudicated
+    source_result_selected: false
+    calibration_result_selected: false
+    calibration_open_result_selected: false
+    source_ceiling_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 49 WP4 — integrated audit and Chapter 50 Preparation Gate
+  authority_inheritance: prohibited
+chapter_49_wp4_provisional_lock_and_chapter_50_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_49_preparation_record: _workfiles/chapter_preparation/Chapter_49_Preparation_Record.md
+  chapter_49_audit_record: _workfiles/chapter_lock_records/Chapter_49_WP4_Audit_and_Lock_Record.md
+  chapter_50_preparation_record: _workfiles/chapter_preparation/Chapter_50_Preparation_Record.md
+  status: chapter_49_provisionally_locked_chapter_50_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_297.zip
+  chapter_49_audit:
+    duties: 24_of_24
+    sections: 11_of_11
+    unexpected_duties: 0
+    duplicate_duties: 0
+    chapter_level_result: admissible_but_provisional
+  chapter_49_pressure_packet:
+    P0: formal_precision_overreach_assertion_not_accepted
+    DS: unadjudicated
+    IS: unadjudicated
+    MN: unadjudicated
+    ID: unadjudicated
+    SC: unadjudicated
+    CA: unadjudicated
+    CO: unadjudicated
+    TF: unadjudicated
+    source_result_selected: false
+    calibration_result_selected: false
+    calibration_open_result_selected: false
+    source_ceiling_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+  chapter_50_preparation:
+    gate_result: admissible_but_provisional
+    duties_assigned: 24
+    work_packages: 4
+    canonical_prose_started: false
+    pressure_packet:
+      I0: analytical_shift_repairs_or_erases_prior_failure_assertion_not_accepted
+      OC: unadjudicated
+      OB: unadjudicated
+      GS: unadjudicated
+      LS: unadjudicated
+      PR: unadjudicated
+      FP: unadjudicated
+      RV: unadjudicated
+      TS: unadjudicated
+    anti_immunization_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+    next_controlled_step: Chapter 50 WP1 — §§50.1–50.3
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+chapter_50_wp1_purpose_granularity_and_higher_level_escape:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_50_Preparation_Record.md
+  status: chapter_50_wp1_complete_chapter_open
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_298.zip
+  sections_completed:
+  - '50.1'
+  - '50.2'
+  - '50.3'
+  duties_completed: 8_of_24
+  pressure_packet:
+    I0: analytical_shift_repairs_or_erases_prior_failure_assertion_not_accepted
+    OC: unadjudicated
+    OB: unadjudicated
+    GS: unadjudicated
+    LS: unadjudicated
+    PR: unadjudicated
+    FP: unadjudicated
+    RV: unadjudicated
+    TS: unadjudicated
+    anti_immunization_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 50 WP2 — §§50.4–50.6
+  authority_inheritance: prohibited
+chapter_50_wp2_projection_rescue_moving_answering_and_failure_preservation:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_50_Preparation_Record.md
+  status: chapter_50_wp1_wp2_complete_chapter_open
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_298.zip
+  sections_completed:
+  - '50.4'
+  - '50.5'
+  - '50.6'
+  duties_completed: 16_of_24
+  pressure_packet:
+    I0: analytical_shift_repairs_or_erases_prior_failure_assertion_not_accepted
+    OC: unadjudicated
+    OB: unadjudicated
+    GS: unadjudicated
+    LS: unadjudicated
+    PR: unadjudicated
+    FP: unadjudicated
+    RV: unadjudicated
+    TS: unadjudicated
+    anti_immunization_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 50 WP3 — §§50.7–50.10
+  authority_inheritance: prohibited
+chapter_50_wp3_rivals_success_trap_test_and_rule:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_50_Preparation_Record.md
+  status: chapter_50_wp1_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_298.zip
+  sections_completed:
+  - '50.7'
+  - '50.8'
+  - '50.9'
+  - '50.10'
+  duties_completed: 24_of_24
+  pressure_packet:
+    I0: analytical_shift_repairs_or_erases_prior_failure_assertion_not_accepted
+    OC: unadjudicated
+    OB: unadjudicated
+    GS: unadjudicated
+    LS: unadjudicated
+    PR: unadjudicated
+    FP: unadjudicated
+    RV: unadjudicated
+    TS: unadjudicated
+    anti_immunization_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  next_controlled_step: Chapter 50 WP4 — integrated audit and Chapter 51 Preparation Gate
+  authority_inheritance: prohibited
+chapter_50_wp4_provisional_lock_and_chapter_51_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_50_preparation_record: _workfiles/chapter_preparation/Chapter_50_Preparation_Record.md
+  chapter_50_audit_record: _workfiles/chapter_lock_records/Chapter_50_WP4_Audit_and_Lock_Record.md
+  chapter_51_preparation_record: _workfiles/chapter_preparation/Chapter_51_Preparation_Record.md
+  status: chapter_50_provisionally_locked_chapter_51_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_298.zip
+  chapter_50_audit:
+    duties: 24_of_24
+    sections: 10_of_10
+    unexpected_duties: 0
+    duplicate_duties: 0
+    chapter_level_result: admissible_but_provisional
+  chapter_50_pressure_packet:
+    I0: analytical_shift_repairs_or_erases_prior_failure_assertion_not_accepted
+    OC: unadjudicated
+    OB: unadjudicated
+    GS: unadjudicated
+    LS: unadjudicated
+    PR: unadjudicated
+    FP: unadjudicated
+    RV: unadjudicated
+    TS: unadjudicated
+    anti_immunization_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+  chapter_51_preparation:
+    gate_result: admissible_but_provisional
+    duties_assigned: 24
+    work_packages: 4
+    canonical_prose_started: false
+    pressure_packet:
+      J0: further_transformation_is_always_preferable_to_stop_assertion_not_accepted
+      GC: unadjudicated
+      PS: unadjudicated
+      SS: unadjudicated
+      RS: unadjudicated
+      MO: unadjudicated
+      CR: unadjudicated
+      RE: unadjudicated
+      PR: unadjudicated
+    stop_result_selected: false
+    claim_reduction_selected: false
+    reentry_selected: false
+    non_capture_selected: false
+    route_selected: false
+    output_class_selected: false
+    next_controlled_step: Chapter 51 WP1 — §§51.1–51.3
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+chapter_51_wp1_positive_general_and_path_stop:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_51_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_299.zip
+  pressure_packet: &id001
+    J0: further_transformation_is_always_preferable_to_stop_assertion_not_accepted
+    GC: unadjudicated
+    PS: unadjudicated
+    SS: unadjudicated
+    RS: unadjudicated
+    MO: unadjudicated
+    CR: unadjudicated
+    RE: unadjudicated
+    PR: unadjudicated
+    stop_result_selected: false
+    claim_reduction_selected: false
+    reentry_selected: false
+    non_capture_selected: false
+    route_selected: false
+    output_class_selected: false
+  case_inventory: &id002
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_51_wp1_complete_chapter_open
+  sections_completed:
+  - '51.1'
+  - '51.2'
+  - '51.3'
+  duties_completed: 8_of_24
+  next_controlled_step: Chapter 51 WP2 — §§51.4–51.7
+chapter_51_wp2_sub_retype_mandatory_optional_and_claim_reduction:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_51_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_299.zip
+  pressure_packet: *id001
+  case_inventory: *id002
+  authority_inheritance: prohibited
+  status: chapter_51_wp1_wp2_complete_chapter_open
+  sections_completed:
+  - '51.4'
+  - '51.5'
+  - '51.6'
+  - '51.7'
+  duties_completed: 16_of_24
+  next_controlled_step: Chapter 51 WP3 — §§51.8–51.10
+chapter_51_wp3_stop_record_reentry_no_shame_and_handoff:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_51_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_299.zip
+  pressure_packet: *id001
+  case_inventory: *id002
+  authority_inheritance: prohibited
+  status: chapter_51_wp1_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  sections_completed:
+  - '51.8'
+  - '51.9'
+  - '51.10'
+  duties_completed: 24_of_24
+  next_controlled_step: Chapter 51 WP4 — integrated audit and Chapter 52 Preparation Gate
+chapter_51_wp4_provisional_lock_and_chapter_52_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_51_preparation_record: _workfiles/chapter_preparation/Chapter_51_Preparation_Record.md
+  chapter_51_audit_record: _workfiles/chapter_lock_records/Chapter_51_WP4_Audit_and_Lock_Record.md
+  chapter_52_preparation_record: _workfiles/chapter_preparation/Chapter_52_Preparation_Record.md
+  status: chapter_51_provisionally_locked_chapter_52_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_299.zip
+  chapter_51_audit:
+    duties: 24_of_24
+    sections: 10_of_10
+    unexpected_duties: 0
+    duplicate_duties: 0
+    chapter_level_result: admissible_but_provisional
+  chapter_51_pressure_packet: *id001
+  chapter_52_preparation:
+    gate_result: admissible_but_provisional
+    duties_assigned: 24
+    work_packages: 4
+    canonical_prose_started: false
+    pressure_packet:
+      NC0: every_relevant_structure_is_adequately_capturable_within_present_PMS_STRATA_assertion_not_accepted
+      SRC: unadjudicated
+      GRN: unadjudicated
+      CMP: unadjudicated
+      PRJ: unadjudicated
+      CAL: unadjudicated
+      SEM: unadjudicated
+      PAR: unadjudicated
+      RIV: unadjudicated
+    non_capture_selected: false
+    rival_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    output_class_selected: false
+    next_controlled_step: Chapter 52 WP1 — §§52.1–52.4
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+chapter_52_wp1_definition_forms_source_and_anti_shield:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_52_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_300.zip
+  pressure_packet: &id003
+    NC0: total_capture_assertion_not_accepted
+    SRC: unadjudicated
+    GRN: unadjudicated
+    CMP: unadjudicated
+    PRJ: unadjudicated
+    CAL: unadjudicated
+    SEM: unadjudicated
+    PAR: unadjudicated
+    RIV: unadjudicated
+    capture_form_selected: false
+    rival_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    reentry_selected: false
+    route_selected: false
+    output_class_selected: false
+  case_inventory: &id004
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_52_wp1_complete_chapter_open
+  sections_completed:
+  - '52.1'
+  - '52.2'
+  - '52.3'
+  - '52.4'
+  duties_completed: 8_of_24
+  next_controlled_step: Chapter 52 WP2 — §§52.5–52.8
+chapter_52_wp2_granularity_composition_projection_calibration_and_rivals:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_52_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_300.zip
+  pressure_packet: *id003
+  case_inventory: *id004
+  authority_inheritance: prohibited
+  status: chapter_52_wp1_wp2_complete_chapter_open
+  sections_completed:
+  - '52.5'
+  - '52.6'
+  - '52.7'
+  - '52.8'
+  duties_completed: 16_of_24
+  next_controlled_step: Chapter 52 WP3 — §§52.9–52.13
+chapter_52_wp3_partial_semantic_record_reentry_and_handoff:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_52_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_300.zip
+  pressure_packet: *id003
+  case_inventory: *id004
+  authority_inheritance: prohibited
+  status: chapter_52_wp1_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  sections_completed:
+  - '52.9'
+  - '52.10'
+  - '52.11'
+  - '52.12'
+  - '52.13'
+  duties_completed: 24_of_24
+  next_controlled_step: Chapter 52 WP4 — integrated audit and Chapter 53 Preparation Gate
+chapter_52_wp4_provisional_lock_and_chapter_53_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_52_preparation_record: _workfiles/chapter_preparation/Chapter_52_Preparation_Record.md
+  chapter_52_audit_record: _workfiles/chapter_lock_records/Chapter_52_WP4_Audit_and_Lock_Record.md
+  chapter_53_preparation_record: _workfiles/chapter_preparation/Chapter_53_Preparation_Record.md
+  status: chapter_52_provisionally_locked_chapter_53_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_300.zip
+  chapter_52_audit:
+    duties: 24_of_24
+    sections: 13_of_13
+    unexpected_duties: 0
+    duplicate_duties: 0
+    chapter_level_result: admissible_but_provisional
+  chapter_52_pressure_packet: *id003
+  chapter_53_preparation:
+    gate_result: admissible_but_provisional
+    duties_assigned: 24
+    work_packages: 4
+    canonical_prose_started: false
+    pressure_packet:
+      A0: technical_and_local_consistency_is_sufficient_for_final_admissibility_assertion_not_accepted
+      E1: unadjudicated
+      E2: unadjudicated
+      E3_4: unadjudicated
+      E5_6: unadjudicated
+      E7_9: unadjudicated
+      E10: unadjudicated
+      E11: unadjudicated
+      E12: unadjudicated
+      FR: unadjudicated
+    stage_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+    next_controlled_step: Chapter 53 WP1 — §§53.1–53.6
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+chapter_53_wp1_audit_object_order_and_stages_1_4:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_53_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_301.zip
+  pressure_packet: &id005
+    A0: technical_and_local_consistency_is_sufficient_assertion_not_accepted
+    E1: unadjudicated
+    E2: unadjudicated
+    E3_4: unadjudicated
+    E5_6: unadjudicated
+    E7_9: unadjudicated
+    E10: unadjudicated
+    E11: unadjudicated
+    E12: unadjudicated
+    FR: unadjudicated
+    stage_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  case_inventory: &id006
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_53_wp1_complete_chapter_open
+  sections_completed:
+  - '53.1'
+  - '53.2'
+  - '53.3'
+  - '53.4'
+  - '53.5'
+  - '53.6'
+  duties_completed: 8_of_24
+  next_controlled_step: Chapter 53 WP2 — §§53.7–53.12
+chapter_53_wp2_stages_5_10_and_non_compensation:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_53_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_301.zip
+  pressure_packet: *id005
+  case_inventory: *id006
+  authority_inheritance: prohibited
+  status: chapter_53_wp1_wp2_complete_chapter_open
+  sections_completed:
+  - '53.7'
+  - '53.8'
+  - '53.9'
+  - '53.10'
+  - '53.11'
+  - '53.12'
+  duties_completed: 16_of_24
+  next_controlled_step: Chapter 53 WP3 — §§53.13–53.18
+chapter_53_wp3_stages_11_12_routes_record_questions_and_closing:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_53_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_301.zip
+  pressure_packet: *id005
+  case_inventory: *id006
+  authority_inheritance: prohibited
+  status: chapter_53_wp1_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  sections_completed:
+  - '53.13'
+  - '53.14'
+  - '53.15'
+  - '53.16'
+  - '53.17'
+  - '53.18'
+  duties_completed: 24_of_24
+  next_controlled_step: Chapter 53 WP4 — integrated audit and Chapter 54 Preparation Gate
+chapter_53_wp4_provisional_lock_and_chapter_54_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_53_preparation_record: _workfiles/chapter_preparation/Chapter_53_Preparation_Record.md
+  chapter_53_audit_record: _workfiles/chapter_lock_records/Chapter_53_WP4_Audit_and_Lock_Record.md
+  chapter_54_preparation_record: _workfiles/chapter_preparation/Chapter_54_Preparation_Record.md
+  status: chapter_53_provisionally_locked_chapter_54_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_301.zip
+  chapter_53_audit:
+    duties: 24_of_24
+    sections: 18_of_18
+    unexpected_duties: 0
+    duplicate_duties: 0
+    chapter_level_result: admissible_but_provisional
+  chapter_53_pressure_packet: *id005
+  chapter_54_preparation:
+    gate_result: admissible_but_provisional
+    duties_assigned: 24
+    work_packages: 4
+    canonical_prose_started: false
+    pressure_packet:
+      M0: integration_creates_superior_or_more_authoritative_PMS_layer_assertion_not_accepted
+      PD: unadjudicated
+      FA: unadjudicated
+      PC: unadjudicated
+      SD: unadjudicated
+      RP: unadjudicated
+      LB: unadjudicated
+      CL: unadjudicated
+      NI: unadjudicated
+      IM: unadjudicated
+    synthesis_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+    next_controlled_step: Chapter 54 WP1 — §§54.1–54.3
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+chapter_54_wp1_problem_architecture_path_and_compose:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_54_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_302.zip
+  pressure_packet: &id007
+    M0: integration_creates_superior_or_more_authoritative_PMS_layer_assertion_not_accepted
+    PD: unadjudicated
+    FA: unadjudicated
+    PC: unadjudicated
+    SD: unadjudicated
+    RP: unadjudicated
+    LB: unadjudicated
+    CL: unadjudicated
+    NI: unadjudicated
+    IM: unadjudicated
+    synthesis_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  case_inventory: &id008
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_54_wp1_complete_chapter_open
+  sections_completed:
+  - '54.1'
+  - '54.2'
+  - '54.3'
+  duties_completed: 8_of_24
+  next_controlled_step: Chapter 54 WP2 — §§54.4–54.7
+chapter_54_wp2_sub_retype_limits_chains_and_handoffs:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_54_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_302.zip
+  pressure_packet: *id007
+  case_inventory: *id008
+  authority_inheritance: prohibited
+  status: chapter_54_wp1_wp2_complete_chapter_open
+  sections_completed:
+  - '54.4'
+  - '54.5'
+  - '54.6'
+  - '54.7'
+  duties_completed: 16_of_24
+  next_controlled_step: Chapter 54 WP3 — §§54.8–54.10
+chapter_54_wp3_noninvertibility_shared_admissibility_and_integrated_model:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_54_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_302.zip
+  pressure_packet: *id007
+  case_inventory: *id008
+  authority_inheritance: prohibited
+  status: chapter_54_wp1_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  sections_completed:
+  - '54.8'
+  - '54.9'
+  - '54.10'
+  duties_completed: 24_of_24
+  next_controlled_step: Chapter 54 WP4 — integrated audit and Chapter 55 Preparation Gate
+chapter_54_wp4_provisional_lock_and_chapter_55_preparation_gate:
+  canonical_owner: 01_blocks/05_part_iv_limits.md
+  chapter_54_preparation_record: _workfiles/chapter_preparation/Chapter_54_Preparation_Record.md
+  chapter_54_audit_record: _workfiles/chapter_lock_records/Chapter_54_WP4_Audit_and_Lock_Record.md
+  chapter_55_preparation_record: _workfiles/chapter_preparation/Chapter_55_Preparation_Record.md
+  status: chapter_54_provisionally_locked_chapter_55_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_302.zip
+  chapter_54_audit:
+    duties: 24_of_24
+    sections: 10_of_10
+    unexpected_duties: 0
+    duplicate_duties: 0
+    chapter_level_result: admissible_but_provisional
+  chapter_54_pressure_packet: *id007
+  chapter_55_preparation:
+    gate_result: admissible_but_provisional
+    duties_assigned: 24
+    work_packages: 4
+    canonical_prose_started: false
+    pressure_packet:
+      V0: established_capabilities_create_broader_truth_or_application_authority_assertion_not_accepted
+      VD: unadjudicated
+      TC: unadjudicated
+      DC: unadjudicated
+      FP: unadjudicated
+      OL: unadjudicated
+      AT: unadjudicated
+      AA: unadjudicated
+      SN: unadjudicated
+      IL: unadjudicated
+    capability_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+    next_controlled_step: Chapter 55 WP1 — §§55.1–55.4
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+chapter_55_wp1_vertical_temporal_decomposition_and_projection_capabilities:
+  canonical_owner: 01_blocks/06_conclusion.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_55_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_303.zip
+  pressure_packet: &id009
+    V0: established_capabilities_create_broader_truth_or_application_authority_assertion_not_accepted
+    VD: unadjudicated
+    TC: unadjudicated
+    DC: unadjudicated
+    FP: unadjudicated
+    OL: unadjudicated
+    AT: unadjudicated
+    AA: unadjudicated
+    SN: unadjudicated
+    IL: unadjudicated
+    capability_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  case_inventory: &id010
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_55_wp1_complete_chapter_open
+  sections_completed:
+  - '55.1'
+  - '55.2'
+  - '55.3'
+  - '55.4'
+  duties_completed: 8_of_24
+  next_controlled_step: Chapter 55 WP2 — §§55.5–55.9
+chapter_55_wp2_occurrence_loss_alternatives_testing_and_profiles:
+  canonical_owner: 01_blocks/06_conclusion.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_55_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_303.zip
+  pressure_packet: *id009
+  case_inventory: *id010
+  authority_inheritance: prohibited
+  status: chapter_55_wp1_wp2_complete_chapter_open
+  sections_completed:
+  - '55.5'
+  - '55.6'
+  - '55.7'
+  - '55.8'
+  - '55.9'
+  duties_completed: 16_of_24
+  next_controlled_step: Chapter 55 WP3 — §§55.10–55.13
+chapter_55_wp3_analogy_antiimmunization_stop_noncapture_and_legibility:
+  canonical_owner: 01_blocks/06_conclusion.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_55_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_303.zip
+  pressure_packet: *id009
+  case_inventory: *id010
+  authority_inheritance: prohibited
+  status: chapter_55_wp1_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  sections_completed:
+  - '55.10'
+  - '55.11'
+  - '55.12'
+  - '55.13'
+  duties_completed: 24_of_24
+  next_controlled_step: Chapter 55 WP4 — integrated audit and Chapter 56 Preparation Gate
+chapter_55_wp4_provisional_lock_and_chapter_56_preparation_gate:
+  canonical_owner: 01_blocks/06_conclusion.md
+  chapter_55_preparation_record: _workfiles/chapter_preparation/Chapter_55_Preparation_Record.md
+  chapter_55_audit_record: _workfiles/chapter_lock_records/Chapter_55_WP4_Audit_and_Lock_Record.md
+  chapter_56_preparation_record: _workfiles/chapter_preparation/Chapter_56_Preparation_Record.md
+  status: chapter_55_provisionally_locked_chapter_56_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_303.zip
+  chapter_55_audit:
+    duties: 24_of_24
+    sections: 13_of_13
+    unexpected_duties: 0
+    duplicate_duties: 0
+    chapter_level_result: admissible_but_provisional
+  chapter_55_pressure_packet: *id009
+  chapter_56_preparation:
+    gate_result: admissible_but_provisional
+    duties_assigned: 24
+    work_packages: 4
+    canonical_prose_started: false
+    pressure_packet:
+      N0: successful_transformation_may_override_a_listed_exclusion_assertion_not_accepted
+      BL: unadjudicated
+      OC: unadjudicated
+      SC: unadjudicated
+      RL: unadjudicated
+      RT: unadjudicated
+      CX: unadjudicated
+      PA: unadjudicated
+      CC: unadjudicated
+      NS: unadjudicated
+    exclusion_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+    next_controlled_step: Chapter 56 WP1 — §§56.1–56.6
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+chapter_56_wp1_base_ontology_constituent_totality_and_finer_resolution_exclusions:
+  canonical_owner: 01_blocks/06_conclusion.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_56_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_304.zip
+  pressure_packet:
+    N0: successful_transformation_may_override_a_listed_exclusion_assertion_not_accepted
+    BL: unadjudicated
+    OC: unadjudicated
+    SC: unadjudicated
+    RL: unadjudicated
+    RT: unadjudicated
+    CX: unadjudicated
+    PA: unadjudicated
+    CC: unadjudicated
+    NS: unadjudicated
+    exclusion_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_56_wp1_complete_chapter_open
+  sections_completed:
+  - '56.1'
+  - '56.2'
+  - '56.3'
+  - '56.4'
+  - '56.5'
+  - '56.6'
+  duties_completed: 8_of_24
+  next_controlled_step: Chapter 56 WP2 — §§56.7–56.12
+chapter_56_wp2_composition_retyping_loss_recursion_threshold_and_causal_exclusions:
+  canonical_owner: 01_blocks/06_conclusion.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_56_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_304.zip
+  pressure_packet:
+    N0: successful_transformation_may_override_a_listed_exclusion_assertion_not_accepted
+    BL: unadjudicated
+    OC: unadjudicated
+    SC: unadjudicated
+    RL: unadjudicated
+    RT: unadjudicated
+    CX: unadjudicated
+    PA: unadjudicated
+    CC: unadjudicated
+    NS: unadjudicated
+    exclusion_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_56_wp1_wp2_complete_chapter_open
+  sections_completed:
+  - '56.7'
+  - '56.8'
+  - '56.9'
+  - '56.10'
+  - '56.11'
+  - '56.12'
+  duties_completed: 16_of_24
+  next_controlled_step: Chapter 56 WP3 — §§56.13–56.18
+chapter_56_wp3_person_cross_domain_counterexample_authority_capture_and_summary:
+  canonical_owner: 01_blocks/06_conclusion.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_56_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_304.zip
+  pressure_packet:
+    N0: successful_transformation_may_override_a_listed_exclusion_assertion_not_accepted
+    BL: unadjudicated
+    OC: unadjudicated
+    SC: unadjudicated
+    RL: unadjudicated
+    RT: unadjudicated
+    CX: unadjudicated
+    PA: unadjudicated
+    CC: unadjudicated
+    NS: unadjudicated
+    exclusion_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_56_wp1_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  sections_completed:
+  - '56.13'
+  - '56.14'
+  - '56.15'
+  - '56.16'
+  - '56.17'
+  - '56.18'
+  duties_completed: 24_of_24
+  next_controlled_step: Chapter 56 WP4 — integrated audit and Chapter 57 Preparation Gate
+chapter_56_wp4_provisional_lock_and_chapter_57_preparation_gate:
+  canonical_owner: 01_blocks/06_conclusion.md
+  chapter_56_preparation_record: _workfiles/chapter_preparation/Chapter_56_Preparation_Record.md
+  chapter_56_audit_record: _workfiles/chapter_lock_records/Chapter_56_WP4_Audit_and_Lock_Record.md
+  chapter_57_preparation_record: _workfiles/chapter_preparation/Chapter_57_Preparation_Record.md
+  status: chapter_56_provisionally_locked_chapter_57_preparation_gate_complete
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_304.zip
+  chapter_56_audit:
+    duties: 24_of_24
+    sections: 18_of_18
+    unexpected_duties: 0
+    duplicate_duties: 0
+    chapter_level_result: admissible_but_provisional
+  chapter_56_pressure_packet:
+    N0: successful_transformation_may_override_a_listed_exclusion_assertion_not_accepted
+    BL: unadjudicated
+    OC: unadjudicated
+    SC: unadjudicated
+    RL: unadjudicated
+    RT: unadjudicated
+    CX: unadjudicated
+    PA: unadjudicated
+    CC: unadjudicated
+    NS: unadjudicated
+    exclusion_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  chapter_57_preparation:
+    gate_result: admissible_but_provisional
+    duties_assigned: 24
+    work_packages: 4
+    canonical_prose_started: false
+    pressure_packet:
+      F0: final_chapter_may_claim_empirical_completion_or_higher_authority_assertion_not_accepted
+      BE: unadjudicated
+      AB: unadjudicated
+      GD: unadjudicated
+      TR: unadjudicated
+      FR: unadjudicated
+      NC: unadjudicated
+      AR: unadjudicated
+      ML: unadjudicated
+      FF: unadjudicated
+    final_boundary_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    output_class_selected: false
+    next_controlled_step: Chapter 57 WP1 — §§57.1–57.3
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+chapter_57_wp1_bounded_extension_band_and_governing_distinction:
+  canonical_owner: 01_blocks/06_conclusion.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_57_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_305.zip
+  pressure_packet:
+    F0: final_chapter_may_claim_empirical_completion_or_higher_authority_assertion_not_accepted
+    BE: unadjudicated
+    AB: unadjudicated
+    GD: unadjudicated
+    TR: unadjudicated
+    FR: unadjudicated
+    NC: unadjudicated
+    AR: unadjudicated
+    ML: unadjudicated
+    FF: unadjudicated
+    final_boundary_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_57_wp1_complete_chapter_open
+  sections_completed:
+  - '57.1'
+  - '57.2'
+  - '57.3'
+  duties_completed: 8_of_24
+  next_controlled_step: Chapter 57 WP2 — §§57.4–57.7
+chapter_57_wp2_transformation_failure_noncapture_and_authority_rules:
+  canonical_owner: 01_blocks/06_conclusion.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_57_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_305.zip
+  pressure_packet:
+    F0: final_chapter_may_claim_empirical_completion_or_higher_authority_assertion_not_accepted
+    BE: unadjudicated
+    AB: unadjudicated
+    GD: unadjudicated
+    TR: unadjudicated
+    FR: unadjudicated
+    NC: unadjudicated
+    AR: unadjudicated
+    ML: unadjudicated
+    FF: unadjudicated
+    final_boundary_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_57_wp1_wp2_complete_chapter_open
+  sections_completed:
+  - '57.4'
+  - '57.5'
+  - '57.6'
+  - '57.7'
+  duties_completed: 16_of_24
+  next_controlled_step: Chapter 57 WP3 — §§57.8–57.10
+chapter_57_wp3_meta_layer_final_formulation_and_closing:
+  canonical_owner: 01_blocks/06_conclusion.md
+  preparation_record: _workfiles/chapter_preparation/Chapter_57_Preparation_Record.md
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_305.zip
+  pressure_packet:
+    F0: final_chapter_may_claim_empirical_completion_or_higher_authority_assertion_not_accepted
+    BE: unadjudicated
+    AB: unadjudicated
+    GD: unadjudicated
+    TR: unadjudicated
+    FR: unadjudicated
+    NC: unadjudicated
+    AR: unadjudicated
+    ML: unadjudicated
+    FF: unadjudicated
+    final_boundary_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+  status: chapter_57_wp1_wp3_complete_substantive_drafting_complete_chapter_open_pending_wp4
+  sections_completed:
+  - '57.8'
+  - '57.9'
+  - '57.10'
+  duties_completed: 24_of_24
+  next_controlled_step: Chapter 57 WP4 — integrated audit and post-canonical-production gate
+chapter_57_wp4_provisional_lock_and_post_canonical_production_gate:
+  canonical_owner: 01_blocks/06_conclusion.md
+  chapter_57_preparation_record: _workfiles/chapter_preparation/Chapter_57_Preparation_Record.md
+  chapter_57_audit_record: _workfiles/chapter_lock_records/Chapter_57_WP4_Audit_and_Lock_Record.md
+  post_canonical_production_gate: 04_reference/Post_Canonical_Production_Gate.md
+  status: chapter_57_provisionally_locked_post_canonical_production_gate_prepared
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_305.zip
+  chapter_57_audit:
+    duties: 24_of_24
+    sections: 10_of_10
+    unexpected_duties: 0
+    duplicate_duties: 0
+    ten_condition_rule: 10_of_10
+    chapter_level_result: admissible_but_provisional
+  chapter_57_pressure_packet:
+    F0: final_chapter_may_claim_empirical_completion_or_higher_authority_assertion_not_accepted
+    BE: unadjudicated
+    AB: unadjudicated
+    GD: unadjudicated
+    TR: unadjudicated
+    FR: unadjudicated
+    NC: unadjudicated
+    AR: unadjudicated
+    ML: unadjudicated
+    FF: unadjudicated
+    final_boundary_result_selected: false
+    route_selected: false
+    stop_selected: false
+    claim_reduction_selected: false
+    failure_selected: false
+    non_capture_selected: false
+    reentry_selected: false
+    output_class_selected: false
+  post_canonical_production:
+    gate_result: admissible_but_provisional
+    canonical_drafting_complete: true
+    corpus_completion_claimed: false
+    integrated_cases_started: false
+    reference_freeze_complete: false
+    model_finalized: false
+    release_ready: false
+    next_controlled_step: Canonical Prose Overflight and Integrated Case/Audit Planning
+  case_inventory:
+    instantiated_cases: 29
+    new_case_added: false
+    new_test_added: false
+    new_smoke_added: false
+  authority_inheritance: prohibited
+canonical_prose_overflight_sync:
+  result: admissible_but_provisional
+  canonical_chapters_reviewed: 49-57
+  canonical_patches_applied: 5
+  new_case_added: false
+  new_test_added: false
+  new_smoke_added: false
+  instantiated_cases: 29
+  retype_lock_critical_packages_complete: 0_of_3
+  next_controlled_step: instantiate three RETYPE lock-critical case packages
+  authority_inheritance: prohibited
+retype_lock_package_1_sync:
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_307.zip
+  case_id: C40-P1
+  record_id: case.c40-p1.project-as.01
+  selected_class: admissible_with_bounded_claim
+  twelve_stage_audit: pass
+  loss_fields: 5_of_5
+  required_retype_lock_packages_complete: 1_of_3
+  artifact_complete_retype_lock: mandatory_stop
+  next_controlled_step: RETYPE Lock Package 2 — PROJECT_AS label substitution failure
+  authority_inheritance: prohibited
+retype_lock_package_2_sync:
+  case_id: C40-N3
+  operation: PROJECT_AS
+  selected_class: failed_transformation
+  source_object_preserved: true
+  origin_type_preserved: true
+  translation_success_rescue_rejected: true
+  packages_complete: 2_of_3
+  artifact_complete_retype_lock: mandatory_stop
+  authority_inheritance: prohibited
+retype_lock_package_3_sync:
+  case_id: C40-X6
+  operation: PROJECT_AS
+  selected_class: analogy_only
+  source_object_preserved: true
+  origin_type_preserved: true
+  breaking_points_explicit: true
+  packages_complete: 3_of_3
+  prior_artifact_lock_stop_trigger_cleared: true
+  artifact_complete_retype_provisional_lock: admissible_with_bounded_claim
+  part_iv_final_lock: unavailable
+  authority_inheritance: prohibited
+case_obligation_and_legacy_conformance_audit_sync:
+  input_snapshot: PMS-STRATA_Source_of_Truth_ZIP_310.zip
+  result: admissible_but_provisional
+  chapter_contract_rows: 58
+  c17_records_formally_conformant: 13_of_13
+  c28_records_formally_conformant: 16_of_16
+  substantive_final_limits_overflight: complete_29_of_29
+  retype_lock_critical_packages_complete: 3_of_3
+  retype_contract_minimum_packages_complete: 3_of_7
+  retype_independent_families_instantiated: 3_of_20
+  direct_output_class_coverage: 8_of_10
+  missing_direct_output_classes:
+  - admissible_but_provisional
+  - non_capture
+  existing_case_results_changed: false
+  next_controlled_step: 'Chapter-40 Contract-minimum package: Trajectory as Macro-Event'
+  authority_inheritance: prohibited
+c28_legacy_substantive_overflight_sync:
+  status: complete
+  records: 16_of_16
+  routes_confirmed: 16_of_16
+  route_changes: 0
+  priority_boundary_records:
+  - C28-TRAJECTORY-01
+  - C28-OVERFINE-01
+  - C28-OPTYPE-01
+  - C28-FRAGMENT-01
+  - C28-SUBRETYPE-01
+  historical_model_versions_preserved: true
+  next_controlled_step: 'Chapter-40 Contract-minimum package: Trajectory as Macro-Event'
+  authority_inheritance: prohibited
+  execution_record: _workfiles/legacy_overflights/C28_Legacy_Substantive_Overflight.md
+chapter_40_contract_minimum_package_4_sync:
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_313.zip
+  case_id: C40-P2
+  record_id: case.c40-p2.project-as.01
+  operation: PROJECT_AS
+  selected_class: admissible_with_bounded_claim
+  source_object_preserved: true
+  origin_type_preserved: true
+  internal_duration_preserved: true
+  punctualization_rejected: true
+  causal_turning_point_proof_rejected: true
+  twelve_stage_audit: pass
+  loss_fields: 5_of_5
+  retype_contract_minimum_packages_complete: 4_of_7
+  retype_independent_families_instantiated: 4_of_20
+  artifact_complete_retype_provisional_lock: admissible_with_bounded_claim
+  next_controlled_step: 'Chapter-40 Contract-minimum package: recurrent trajectory form as Attractor-function'
+  authority_inheritance: prohibited
+chapter_40_contract_minimum_package_5_sync:
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_314.zip
+  case_id: C40-P3
+  record_id: case.c40-p3.project-as.01
+  operation: PROJECT_AS
+  selected_class: admissible_with_bounded_claim
+  source_trajectory_records:
+  - C17-LAMBDA-01
+  - C17-ATTR-01
+  - C17-PROJ-01
+  recurrent_source_form_preserved: true
+  origin_type_preserved: true
+  dynamic_target_function_bounded: true
+  repeated_similarity_insufficient: true
+  alpha_identity_rejected: true
+  comparison_field_e3_no_projection: true
+  twelve_stage_audit: pass
+  loss_fields: 5_of_5
+  retype_contract_minimum_packages_complete: 5_of_7
+  retype_independent_families_instantiated: 5_of_20
+  artifact_complete_retype_provisional_lock: admissible_with_bounded_claim
+  next_controlled_step: 'Chapter-40 Contract-minimum package: two competing projections'
+  authority_inheritance: prohibited
+chapter_40_contract_minimum_package_6_sync:
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_315.zip
+  case_package: C40-P7
+  record_ids:
+  - case.c40-p7f.project-as.01
+  - case.c40-p7g.project-as.01
+  operation_occurrences: 2_PROJECT_AS_records
+  selected_class_each: admissible_but_provisional
+  shared_source_preserved: true
+  shared_target_coordinates_preserved: true
+  forced_merger_rejected: true
+  settled_preference_rejected: true
+  direct_output_class_coverage: 9_of_10
+  retype_contract_minimum_packages_complete: 6_of_7
+  retype_independent_families_instantiated: 6_of_20
+  next_controlled_step: 'Chapter-40 Contract-minimum package: person-level type-jump countercase'
+  authority_inheritance: prohibited
+chapter_40_contract_minimum_package_7_sync:
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_316.zip
+  case_id: C40-N7
+  record_id: case.c40-n7.project-as.01
+  operation: PROJECT_AS
+  selected_class: failed_transformation
+  source_configuration_preserved: true
+  bounded_role_relation_preserved: true
+  person_replacement_test: function_retained
+  configuration_removal_test: function_removed
+  person_group_typing_rejected: true
+  diagnosis_rank_motive_recommendation_sanction_rejected: true
+  twelve_stage_audit: pass
+  loss_fields: 5_of_5
+  retype_contract_minimum_packages_complete: 7_of_7
+  retype_independent_families_instantiated: 7_of_20
+  direct_output_class_coverage: 9_of_10
+  next_controlled_step: genuine non_capture case
+  authority_inheritance: prohibited
+chapter_52_genuine_non_capture_case_sync:
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_317.zip
+  case_id: C52-NC1
+  record_id: case.c52-nc1.decompose.01
+  operation: DECOMPOSE
+  selected_class: non_capture
+  primary_non_capture_form: granularity_non_capture
+  adequate_bounded_attempts: 3
+  partial_capture_preserved: true
+  anti_shield_contrasts:
+  - C28-UNSUPPORTED-01
+  - C28-FRAGMENT-01
+  - C40-N3
+  direct_output_class_coverage: 10_of_10
+  remaining_direct_output_classes: []
+  remaining_standalone_case_phase_status: complete_at_current_coverage_matrix_level
+  next_controlled_step: COMPOSE → PROJECT_AS integrated operation chain
+  authority_inheritance: prohibited
+chapter_47_cp1_integrated_chain_sync:
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_318.zip
+  package_id: C47-CP1
+  chain_id: chain.c47-cp1.compose-project-as.01
+  operation_sequence:
+  - COMPOSE
+  - PROJECT_AS
+  operation_record_ids:
+  - case.c47-cp1a.compose.01
+  - case.c47-cp1b.project-as.01
+  required_failure_record_id: case.c47-cp1c.project-as.01
+  local_routes:
+    C47-CP1A: admissible_with_bounded_claim
+    C47-CP1B: admissible_with_bounded_claim
+    C47-CP1C: failed_transformation
+  integrated_result: admissible_with_bounded_claim
+  chapter_34_coverage: covered
+  chapter_47_minimal_chain: covered
+  chapter_47_required_failure: covered
+  next_controlled_step: COMPOSE → DECOMPOSE
+  authority_inheritance: prohibited
+integrated_operation_chains_batch_320_sync:
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_319.zip
+  batch_id: integrated_operation_chains_batch_320
+  minimum_chain_families_complete: 6_of_6
+  new_operation_records: 8
+  chains:
+    C54-CD1:
+    - COMPOSE
+    - DECOMPOSE
+    C54-DC1:
+    - DECOMPOSE
+    - COMPOSE
+    C54-DP1:
+    - DECOMPOSE
+    - PROJECT_AS
+    C54-PD1:
+    - PROJECT_AS
+    - DECOMPOSE
+    C53-CPD1:
+    - COMPOSE
+    - PROJECT_AS
+    - DECOMPOSE
+  chapter_53_minimal_chain: covered
+  chapter_53_required_source_insensitive_failure: preserved_C47_CP1C
+  chapter_54_noninvertibility: covered
+  local_results_overwritten: false
+  prior_loss_overwritten: false
+  next_controlled_step: final_lock_reassessments
+  authority_inheritance: prohibited
+final_lock_gap_closure_batch_322_sync:
+  source_of_truth_input: PMS-STRATA_Source_of_Truth_ZIP_321.zip
+  packages:
+  - A_profile_and_type_boundary
+  - B_failure_preservation_and_projection_rescue
+  - C_calibration_stop_reentry
+  new_operation_records: 10
+  chapters_closed:
+  - 35
+  - 38
+  - 41
+  - 49
+  - 50
+  - 51
+  retype_residual_families_closed:
+  - P5
+  - N1
+  - N6
+  - X3
+  operations_added: 0
+  output_classes_added: 0
+  rules_added: 0
+  next_controlled_step: RETYPE_final_lock_reassessment
+  authority_inheritance: prohibited

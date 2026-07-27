@@ -1,0 +1,1086 @@
+schema_version: 0.1.2
+record_id: case.c54-dp1b.project-as.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T15:45:00+02:00'
+  updated_at: '2026-07-27T15:45:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.Integrated-Chains-Batch-320
+  repository_or_case_pointer: 03_cases/yaml/C54-DP1B_PROJECT_AS_A56_Threshold_Function.yaml
+  record_provenance:
+  - Synthetic integrated-chain method fixture; no external empirical claim is asserted.
+  - This record contains exactly one PROJECT_AS occurrence and preserves all earlier operation results and Loss without inheritance.
+  - Produced in the five-chain batch against Source-of-Truth ZIP 319 and schema_version 0.1.2.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Second occurrence of C54-DP1; projects H56f in A56 without origin-type replacement or action authority.
+claim:
+  claim_id: claim.c54-dp1b.project-as.01
+  statement: Within target context A56, the origin-typed finer H56 reconstruction performs a bounded correction-window threshold
+    function because the remaining window, closure point, and residual-load relation jointly change when escalation review
+    becomes reconstructively relevant; no projection is retained in comparison context B56.
+  claim_type:
+    value: bounded contextual function projection claim
+    control_source: 04_reference/Claim_Type_Table.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: C54-DP1A H56f reconstruction and inherited Loss.
+    operation_occurrence_boundary: Only project-as.c54-dp1b.01.
+    frame:
+      value: A56 audit-threshold context
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    granularity:
+      value: source-feature to target-function granularity
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    relative_level:
+      value: bounded target function relative to H56 origin object
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    temporal_scope: T0–T6
+    source_scope: C54-DP1A H56f reconstruction and inherited Loss.
+    context_scope: C54-DP1 chain.
+    generalization_boundary: No transfer beyond the synthetic method fixture.
+    excluded_reach:
+    - No prediction or causal threshold.
+    - No B56 transfer.
+    - No origin-type replacement.
+    - No automatic action recommendation.
+  validity_scope: A56 threshold-function claim only.
+  claim_ceiling: &id001
+    asserted_relation: Origin-typed finer H56 reconstruction performs a bounded correction-window threshold function in audit
+      context A56.
+    reach: A56 target context only.
+    precision: Source-feature to target-function level.
+    generality: Single synthetic integrated-chain package.
+    functional_scope: Bounded contextual threshold function only.
+    dependence_strength: Window, closure, and residual-load relations must jointly alter A56.
+    inferential_distance: One PROJECT_AS step.
+    limiting_sources:
+    - case.c54-dp1a.decompose.01
+    rationale: No transfer to B56 or prediction/causal claim.
+  authority_boundary: The projection authorizes no escalation, sanction, or application decision.
+source:
+  reference_object:
+    object_id: reconstruction.H56.finer
+    description: Origin-typed finer reconstruction from C54-DP1A.
+    typing:
+      value: finer relational reconstruction of the same reference object
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/yaml/C54-DP1A_DECOMPOSE_H56.yaml
+  object_typing:
+    value: finer relational reconstruction of the same reference object
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  frame:
+    value: A56 audit-threshold context
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: source-feature granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: origin source level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: T0–T6
+  source_scope: H56f and inherited burdens only.
+  source_basis:
+  - source_item_id: source.c54-dp1b.h56f
+    source_pointer: 03_cases/yaml/C54-DP1A_DECOMPOSE_H56.yaml
+    provenance_description: C54-DP1A supplies the origin-typed finer H56 reconstruction and inherited Loss.
+    affected_claim_component: A56 target-function source
+    support_mode: reconstructed
+    evidence_role:
+      value: primary
+      control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/evidence_role
+      inventory_status: current_controlled
+    evidence_availability: available
+    temporal_scope: bounded synthetic interval
+    reference_scope: H56f
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain claim is supported.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace: &id002
+  - trace_id: trace.c54-dp1b.window
+    source_feature: Remaining correction window.
+    affected_claim_component: threshold function
+    trace_role: load_bearing
+    result_dependency: Without the window the threshold function changes to closed/no-projection.
+    expected_result_change: Removing the window defeats the A56 function.
+    temporal_or_relational_dependency: T2–T4
+    claim_limitation: Exact duration remains uncertain.
+    source_pointer: 03_cases/yaml/C54-DP1A_DECOMPOSE_H56.yaml#/operation/details/components
+  - trace_id: trace.c54-dp1b.closure
+    source_feature: Closure point.
+    affected_claim_component: threshold function
+    trace_role: load_bearing
+    result_dependency: Closure changes target status from open correction to residual review.
+    expected_result_change: Moving closure changes A56 target role.
+    temporal_or_relational_dependency: T4
+    claim_limitation: No causal law.
+    source_pointer: 03_cases/yaml/C54-DP1A_DECOMPOSE_H56.yaml#/operation/details/components
+  - trace_id: trace.c54-dp1b.residual
+    source_feature: Residual load after closure.
+    affected_claim_component: threshold function
+    trace_role: modulating
+    result_dependency: Residual load makes closure analytically consequential in A56.
+    expected_result_change: Removing residual load weakens the target function.
+    temporal_or_relational_dependency: T4–T6
+    claim_limitation: Magnitude unquantified.
+    source_pointer: 03_cases/yaml/C54-DP1A_DECOMPOSE_H56.yaml#/operation/details/components
+  known_gaps:
+  - Exact window duration and residual magnitude remain uncertain.
+  source_ceiling: *id001
+operation:
+  occurrence_id: project-as.c54-dp1b.01
+  kind: PROJECT_AS
+  justification: The independently warranted H56f source is tested for one bounded target function in A56.
+  expected_praxeological_difference: The projection changes reconstruction of when correction remains open versus when residual
+    review becomes relevant in A56.
+  selection_rule: Preserve H56 origin type, phases, inherited Loss, and uncertain duration; foreground only source-sensitive
+    threshold work in A56 and retain B56 no-projection.
+  transformation_context: C54-DP1 integrated source-to-function chain.
+  details:
+    target_context: A56 audit-threshold context with explicit open-window and closed-window states.
+    constitutive_source_trace: *id002
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: true
+    alternative_projection_or_no_projection:
+    - No projection in B56 where target state does not change with the H56 source.
+    - Background relevance only.
+    - Source-only finer reconstruction.
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: target-function.A56.threshold
+    description: Bounded correction-window threshold function in A56.
+    typing:
+      value: bounded contextual target function
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C54-DP1_DECOMPOSE_to_PROJECT_AS_Threshold_Function_Chain.md#4-occurrence-b-project-as
+  object_typing:
+    value: bounded contextual target function
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  contextual_function:
+    value: correction-window threshold function in A56
+    control_source: 04_reference/Transformation_Operation_Index.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  frame:
+    value: A56 audit-threshold context
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: target-function granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: higher contextual function level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: T2–T6
+  validity_scope: A56 only; no prediction, causality, B56 transfer, or action authority.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: The A56 PROJECT_AS claim, H56 origin type, target context, and no-action-authority boundary are explicit.
+      rationale: The A56 PROJECT_AS claim, H56 origin type, target context, and no-action-authority boundary are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Exactly one PROJECT_AS occurrence is declared; adjacent chain steps remain separate records.
+      rationale: Exactly one PROJECT_AS occurrence is declared; adjacent chain steps remain separate records.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The projection distinguishes open correction from closed residual-review states in A56.
+      rationale: The projection distinguishes open correction from closed residual-review states in A56.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Window, closure, and residual-load features remain linked to C54-DP1A and inherited Loss.
+      rationale: Window, closure, and residual-load features remain linked to C54-DP1A and inherited Loss.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: H56 remains an occurrence reconstruction; the threshold role is contextual and absent in B56.
+      rationale: H56 remains an occurrence reconstruction; the threshold role is contextual and absent in B56.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Removing the window or moving closure changes/defeats A56 function; B56 remains source-insensitive.
+      rationale: Removing the window or moving closure changes/defeats A56 function; B56 remains source-insensitive.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Inherited source Loss, target compression, B56 exclusion, and calibration uncertainty are explicit.
+      rationale: Inherited source Loss, target compression, B56 exclusion, and calibration uncertainty are explicit.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Background relevance, B56 projection, and no transformation are compared.
+      rationale: Background relevance, B56 projection, and no transformation are compared.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Synthetic sources support bounded A56 function, not prediction, causal threshold, or exact timing.
+      rationale: Synthetic sources support bounded A56 function, not prediction, causal threshold, or exact timing.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: PROJECT_AS cannot retroactively validate every H56 decomposition choice or erase source uncertainty.
+      rationale: PROJECT_AS cannot retroactively validate every H56 decomposition choice or erase source uncertainty.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: The A56 function is adequately captured; further transfer or action use requires new authority and
+        source.
+      rationale: The A56 function is adequately captured; further transfer or action use requires new authority and source.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: No prediction, causal proof, recommendation, sanction, or application authority follows.
+      rationale: No prediction, causal proof, recommendation, sanction, or application authority follows.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The projection distinguishes open correction from closed residual-review states in A56.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Window, closure, and residual-load features remain linked to C54-DP1A and inherited Loss.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: H56 remains an occurrence reconstruction; the threshold role is contextual and absent in B56.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: H56 remains an occurrence reconstruction; the threshold role is contextual and absent in B56.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: H56 remains an occurrence reconstruction; the threshold role is contextual and absent in B56.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+      applicability_condition: Applies when PROJECT_AS assigns a bounded source-sensitive function while preserving the origin
+        type.
+      applicability_rationale: This occurrence tests whether the independently typed source Trajectory performs a Macro-Event
+        function in one wider target Path.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: H56 remains an occurrence reconstruction; the threshold role is contextual and absent in B56.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The A56 PROJECT_AS claim, H56 origin type, target context, and no-action-authority boundary are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Removing the window or moving closure changes/defeats A56 function; B56 remains source-insensitive.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Synthetic sources support bounded A56 function, not prediction, causal threshold, or exact timing.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Synthetic sources support bounded A56 function, not prediction, causal threshold, or exact timing.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Inherited source Loss, target compression, B56 exclusion, and calibration uncertainty are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Background relevance, B56 projection, and no transformation are compared.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No prediction, causal proof, recommendation, sanction, or application authority follows.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No prediction, causal proof, recommendation, sanction, or application authority follows.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The A56 function is adequately captured; further transfer or action use requires new authority and
+        source.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The A56 function is adequately captured; further transfer or action use requires new authority and
+        source.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the current finding only within the declared claim and authority ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The selected admissible_with_bounded_claim route follows the non-compensatory twelve-stage and sixteen-rule
+    findings; chain coherence does not replace local source load.
+  anti_immunization_assessment: PROJECT_AS cannot retroactively validate every H56 decomposition choice or erase source uncertainty.
+  stop_assessment:
+    condition_assessed: true
+    reached: false
+    rationale: The A56 function is adequately captured; further transfer or action use requires new authority and source.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The A56 function is adequately captured; further transfer or action use requires new authority and source.
+loss:
+  preserved:
+  - item_id: loss.c54-dp1b.preserved.1
+    affected_element: H56 origin type and finer phases
+    description: The source remains an occurrence reconstruction.
+    reason: Type Integrity.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/object_typing
+    recoverability_or_reentry_note: Preserved.
+  - item_id: loss.c54-dp1b.preserved.2
+    affected_element: Inherited C54-DP1A Loss
+    description: Window duration and source limits remain visible.
+    reason: Handoff continuity.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /chain/preserved_occurrence_losses
+    recoverability_or_reentry_note: Preserved.
+  compressed:
+  - item_id: loss.c54-dp1b.compressed.1
+    affected_element: Target-irrelevant phase microdetail
+    description: Only threshold-relevant source features are foregrounded.
+    reason: Contextual boundedness.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /operation/selection_rule
+    recoverability_or_reentry_note: Recoverable in source record.
+  excluded:
+  - item_id: loss.c54-dp1b.excluded.1
+    affected_element: B56 transfer and prediction
+    description: No projection in source-insensitive B56 and no forecast claim.
+    reason: Counterfactual and authority ceiling.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+    recoverability_or_reentry_note: Requires new target/source support.
+  uncertain:
+  - item_id: loss.c54-dp1b.uncertain.1
+    affected_element: Exact threshold timing
+    description: Window duration remains uncertain.
+    reason: Calibration ceiling.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: New calibration/source required.
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions: []
+  rival_projections:
+  - alternative_id: alt.c54-dp1b.background
+    claim_relation: background relevance only
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Show target sensitivity is too weak for function.
+    current_handling: not_selected
+    rationale: A56 changes materially under source removal.
+  - alternative_id: alt.c54-dp1b.b56
+    claim_relation: same function in B56
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Demonstrate target uptake.
+    current_handling: rejected
+    rationale: B56 remains source-insensitive.
+  no_transformation:
+  - alternative_id: alt.c54-dp1b.none
+    claim_relation: retain source-only reconstruction
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Forfeit A56 functional discrimination.
+    current_handling: not_selected
+    rationale: A56 target work is source-sensitive.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: This synthetic chain record grants no empirical truth, causal proof, normative or legal judgment, diagnosis,
+    person or group typing, recommendation, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - local operation passage does not establish chain passage
+  - later success does not erase earlier Loss, failure, Stop, or Non-Capture
+  - same reference object does not imply identical representation
+  - formal validation does not establish substantive truth or authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: H56f performs one bounded A56 correction-window threshold function.
+    result_family:
+      value: bounded contextual projection
+      control_source: 07_model/Output_Classes.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: supported
+    resolution_test_result: null
+    capture_statement:
+      statement: The bounded A56 function is adequately captured.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: admissible is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: selected
+        rationale: The claim passes only as a context-bound source-sensitive function.
+        constitutive_condition_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /admissibility
+        - /loss
+        - /alternatives
+        - /governance
+        preserved_finding: The operation-specific finding, inherited chain burdens, Loss, alternatives, and authority ceiling
+          remain preserved.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: admissible_but_provisional is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: resolution_neutral is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: analogy_only is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: partially_admissible is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: claim_reduction_required is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: mandatory_stop is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: failed_transformation is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: non_capture is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: admissible_with_bounded_claim
+    route_id: route_admissible_with_bounded_claim
+    matched_constitutive_conditions:
+    - /claim
+    - /source
+    - /operation
+    - /target
+    - /admissibility
+    - /loss
+    - /alternatives
+    - /governance
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - Earlier operation results and five-part Loss remain visible.
+    - No source type, target function, route, or authority is inherited by later chain steps.
+    split_decision:
+      required: false
+      rationale: Each operation occurrence and any weaker retest claim retains a separate record.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The claim passes only as a context-bound source-sensitive function.
+    current_claim_disposition:
+      value: maintained
+      rationale: The claim passes only as a context-bound source-sensitive function.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_with_bounded_claim
+    original_broader_claim_id: candidate.c54-dp1b.universal-warning-threshold
+    retained_narrower_claim_pointer: /claim/claim_id
+    material_narrowing:
+    - A56 only.
+    - Correction-window threshold function only.
+    - Exact timing remains uncertain.
+    excluded_reach:
+    - No B56 transfer, prediction, causality, recommendation, or authority.
+    separately_tested: true
+    rationale: The function is supported only under declared A56 context, source sensitivity, inherited Loss, and ceilings.
+relations:
+  prior_record_ids:
+  - case.c54-dp1a.decompose.01
+  prior_claim_ids:
+  - claim.c54-dp1a.decompose.01
+  chain_id: chain.c54-dp1.decompose-project-as.01
+  previous_occurrence_id: decompose.c54-dp1a.01
+  rival_record_ids: []
+  countercase_refs:
+  - B56 source-insensitive no-projection

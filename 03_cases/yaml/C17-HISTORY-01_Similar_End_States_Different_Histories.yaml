@@ -1,0 +1,1636 @@
+schema_version: 0.1.2
+record_id: case.c17-history-01.compose.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-23T18:20:00+02:00'
+  updated_at: '2026-07-27T11:59:29+02:00'
+  revision_id: r2
+  producer_id: PMS-STRATA.Chapter-17-WP2A
+  repository_or_case_pointer: 03_cases/yaml/C17-HISTORY-01_Similar_End_States_Different_Histories.yaml
+  record_provenance:
+    - Synthetic PATH case C17-HISTORY-01 instantiated for Chapter 17 local method testing; no external empirical truth 
+      is asserted.
+    - Built against Transformation_Record.schema.json v0.1.3 and the Chapter 17 WP2-A repository snapshot.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Legacy substantive overflight complete against final Chapters 41–57 LIMITS controls; route 
+    admissible_with_bounded_claim confirmed without change.
+claim:
+  claim_id: claim.c17-history-01.compose.01
+  statement: Two service units with the same formal weekly-allocation endpoint remain historically different in present 
+    burden, reversibility, and residual repair because their source-sensitive Paths differ in review timing, workaround 
+    persistence, asymmetric load, and repair sequence.
+  claim_type:
+    value: declared-composite claim
+    control_source: 04_reference/Claim_Type_Table.md#76-compose-specific-composite-claims
+    inventory_status: current_controlled
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Only the two synthetic service-unit Paths from their declared baselines to the formally 
+      similar weekly-allocation endpoints.
+    operation_occurrence_boundary: Only COMPOSE occurrence compose.c17-history-01.01.
+    frame: &id002
+      value: synthetic paired service-unit history comparison frame
+      control_source: 03_cases/yaml/C17-HISTORY-01_Similar_End_States_Different_Histories.yaml#/claim/claim_scope/frame
+      inventory_status: extension
+      extension_rationale: The case-specific frame is local to this synthetic case and does not extend STRATA theory.
+    granularity: &id003
+      value: parallel configuration, transition, Non-Event, and residual-load granularity
+      control_source: 
+        03_cases/yaml/C17-HISTORY-01_Similar_End_States_Different_Histories.yaml#/claim/claim_scope/granularity
+      inventory_status: extension
+      extension_rationale: The case-specific granularity declares the source-to-target distinction set for this 
+        synthetic case.
+    relative_level: &id006
+      value: comparative path-dependence object relative to two constituent unit Paths
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: The local wording instantiates the controlled relative-level relation for this case target.
+    temporal_scope: Synthetic interval A0–A3 and B0–B5.
+    source_scope: Exactly the two typed parallel histories, their endpoint-similarity declaration, and the present 
+      residual burden, reversibility, and repair-corridor observations.
+    context_scope: Synthetic Chapter 17 case C17-HISTORY-01 only.
+    generalization_boundary: No external domain generalization, application transfer, person evaluation, causal proof, 
+      prediction, or authority claim.
+    excluded_reach:
+      - No whole-object claim that every present feature is historically determined.
+      - No claim that the endpoint protocols are technically different in every respect.
+      - No causal necessity, motive, institutional ranking, legitimacy, or target function.
+      - No prediction that either unit will continue on a fixed course.
+  validity_scope: Valid only as the dimension-specific comparison of the two synthetic Paths and their present 
+    historical load.
+  claim_ceiling:
+    asserted_relation: Endpoint similarity coexists with source-sensitive historical difference in present burden, 
+      reversibility, and residual repair dimensions.
+    reach: The two declared unit histories and the three present dependence dimensions only.
+    precision: Parallel ordering, early versus deferred review, explicit versus workaround-mediated redistribution, 
+      accumulated Ω-load, late repair, and present residue.
+    generality: Single synthetic case C17-HISTORY-01.
+    functional_scope: No contextual target function is assigned; any later function requires a separate PROJECT_AS 
+      occurrence.
+    dependence_strength: Strong historical indispensability is supported only for present burden, reversibility, and 
+      residual repair; current technical protocol status remains adequately describable from the present endpoint.
+    inferential_distance: One explicit COMPOSE occurrence from typed source structures to one bounded temporal 
+      composite.
+    limiting_sources: &id004
+      - source.c17-history-01.a-baseline
+      - source.c17-history-01.a-review
+      - source.c17-history-01.a-endpoint
+      - source.c17-history-01.b-baseline
+      - source.c17-history-01.b-delay
+      - source.c17-history-01.b-workaround
+      - source.c17-history-01.b-omega
+      - source.c17-history-01.b-repair
+      - source.c17-history-01.b-endpoint
+    rationale: The packet supports dimension-specific Path Dependence across similar endpoints and does not support 
+      total historical determination, causal necessity, quality ranking, target function, or authority.
+  authority_boundary: The record supports only the stated synthetic temporal-object claim and grants no empirical, 
+    causal, normative, diagnostic, legal, political, organizational, or application authority.
+source:
+  reference_object:
+    object_id: source.set.c17-history-01
+    description: Typed paired source set containing two parallel unit histories, formally similar endpoints, and present
+      residual-load observations.
+    typing: &id001
+      value: typed temporal source set
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract
+      inventory_status: extension
+      extension_rationale: The local source-set label groups independently typed source objects without creating a new 
+        PMS primitive.
+    source_pointer: 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md#source-field
+  object_typing: *id001
+  frame: *id002
+  granularity: *id003
+  relative_level:
+    value: configuration, transition, Non-Event, and endpoint level relative to the comparative target
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: The local wording instantiates the controlled relative-level relation for this case source 
+      field.
+  temporal_scope: Synthetic interval A0–A3 and B0–B5.
+  source_scope: Exactly the two typed parallel histories, their endpoint-similarity declaration, and the present 
+    residual burden, reversibility, and repair-corridor observations.
+  source_basis:
+    - source_item_id: source.c17-history-01.a-baseline
+      source_pointer: case://pms-strata/configuration.history.a-baseline
+      provenance_description: Synthetic declaration of Unit A baseline.
+      affected_claim_component: Unit A Path origin.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: A0
+      reference_scope: configuration.history.a-baseline
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-history-01.a-review
+      source_pointer: case://pms-strata/transition.history.a-review
+      provenance_description: Synthetic declaration of an early review followed by explicit redistribution.
+      affected_claim_component: Unit A low-residue route.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: A1
+      reference_scope: transition.history.a-review
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-history-01.a-endpoint
+      source_pointer: case://pms-strata/configuration.history.a-endpoint
+      provenance_description: Synthetic declaration of Unit A endpoint.
+      affected_claim_component: First formally similar endpoint.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: A3
+      reference_scope: configuration.history.a-endpoint
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-history-01.b-baseline
+      source_pointer: case://pms-strata/configuration.history.b-baseline
+      provenance_description: Synthetic declaration of Unit B baseline.
+      affected_claim_component: Unit B Path origin.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: B0
+      reference_scope: configuration.history.b-baseline
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-history-01.b-delay
+      source_pointer: case://pms-strata/non-event.history.b-review
+      provenance_description: Synthetic declaration of a formally expected review and supported non-realization.
+      affected_claim_component: Central Unit B Λ load.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: B1–B2
+      reference_scope: non-event.history.b-review
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-history-01.b-workaround
+      source_pointer: case://pms-strata/subpath.history.b-workaround
+      provenance_description: Synthetic declaration of workaround persistence.
+      affected_claim_component: Carrier of later Ω-load.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: B2–B3
+      reference_scope: subpath.history.b-workaround
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-history-01.b-omega
+      source_pointer: case://pms-strata/operator.history.b-omega
+      provenance_description: Synthetic declaration of asymmetric burden and reduced reversibility.
+      affected_claim_component: Present burden and reversibility dependence dimensions.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: B3–B4
+      reference_scope: operator.history.b-omega
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-history-01.b-repair
+      source_pointer: case://pms-strata/transition.history.b-repair
+      provenance_description: Synthetic declaration of late partial repair.
+      affected_claim_component: Residual repair dimension.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: B4
+      reference_scope: transition.history.b-repair
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-history-01.b-endpoint
+      source_pointer: case://pms-strata/configuration.history.b-endpoint
+      provenance_description: Synthetic declaration of Unit B endpoint.
+      affected_claim_component: Second formally similar endpoint with different present load.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: B5
+      reference_scope: configuration.history.b-endpoint
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+    - trace_id: trace.a-baseline
+      source_feature: Unit A baseline allocation configuration.
+      affected_claim_component: Unit A Path origin.
+      trace_role: load_bearing
+      result_dependency: Without it Unit A has no declared origin.
+      expected_result_change: Removing it defeats the paired comparison boundary.
+      temporal_or_relational_dependency: It precedes the early review.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/configuration.history.a-baseline
+    - trace_id: trace.a-review
+      source_feature: Unit A early review and explicit redistribution transition.
+      affected_claim_component: Unit A low-residue route.
+      trace_role: load_bearing
+      result_dependency: Without it Unit A no longer carries the declared low-residue historical route.
+      expected_result_change: Replacing it with deferral changes the present burden/reversibility comparison.
+      temporal_or_relational_dependency: It follows A baseline and precedes A endpoint.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/transition.history.a-review
+    - trace_id: trace.a-endpoint
+      source_feature: Unit A weekly-allocation protocol endpoint with low backlog.
+      affected_claim_component: First formally similar endpoint.
+      trace_role: load_bearing
+      result_dependency: Without it endpoint similarity cannot be tested.
+      expected_result_change: Removing it defeats the paired comparison.
+      temporal_or_relational_dependency: It follows the explicit redistribution route.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/configuration.history.a-endpoint
+    - trace_id: trace.b-baseline
+      source_feature: Unit B baseline allocation configuration.
+      affected_claim_component: Unit B Path origin.
+      trace_role: load_bearing
+      result_dependency: Without it Unit B has no declared origin.
+      expected_result_change: Removing it defeats the paired comparison boundary.
+      temporal_or_relational_dependency: It precedes the deferred review window.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/configuration.history.b-baseline
+    - trace_id: trace.b-delay
+      source_feature: Unit B expected review not realized in the declared window.
+      affected_claim_component: Central Unit B Λ load.
+      trace_role: load_bearing
+      result_dependency: Without the delay Unit B no longer carries the declared workaround-mediated route.
+      expected_result_change: Replacing it with an early review changes burden and reversibility.
+      temporal_or_relational_dependency: It follows B baseline and precedes the workaround.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/non-event.history.b-review
+    - trace_id: trace.b-workaround
+      source_feature: Centralized workaround persisting after the missed review.
+      affected_claim_component: Carrier of later Ω-load.
+      trace_role: load_bearing
+      result_dependency: Without it accumulated burden and late repair are not formed as declared.
+      expected_result_change: Removing it narrows the comparison materially.
+      temporal_or_relational_dependency: It follows the missed review and precedes late redistribution.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/subpath.history.b-workaround
+    - trace_id: trace.b-omega
+      source_feature: Uneven workload and exit-cost concentration in Unit B.
+      affected_claim_component: Present burden and reversibility dependence dimensions.
+      trace_role: load_bearing
+      result_dependency: Without it the principal present historical difference is unsupported.
+      expected_result_change: Homogenizing it defeats the bounded dependence claim.
+      temporal_or_relational_dependency: It accumulates during workaround persistence.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/operator.history.b-omega
+    - trace_id: trace.b-repair
+      source_feature: Late redistribution reducing but not erasing backlog and exit cost.
+      affected_claim_component: Residual repair dimension.
+      trace_role: load_bearing
+      result_dependency: Without it the present endpoint and remaining residue are different.
+      expected_result_change: Replacing it with complete reset changes the claim.
+      temporal_or_relational_dependency: It follows accumulated burden and precedes B endpoint.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/transition.history.b-repair
+    - trace_id: trace.b-endpoint
+      source_feature: Unit B weekly-allocation protocol endpoint with residual backlog and elevated exit cost.
+      affected_claim_component: Second formally similar endpoint with different present load.
+      trace_role: load_bearing
+      result_dependency: Without it endpoint similarity and historical difference cannot be compared.
+      expected_result_change: Removing it defeats the target.
+      temporal_or_relational_dependency: It follows late partial repair.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/configuration.history.b-endpoint
+  known_gaps:
+    - Fine actor-level allocation inside each unit is not represented.
+    - The packet does not establish causal sufficiency of any single transition or external organizational quality.
+  source_ceiling:
+    asserted_relation: The packet directly declares two distinct historical routes to the same formal endpoint label and
+      three present dimensions that remain different.
+    reach: The identity, order, branch and Non-Event structure of each unit Path plus present burden, reversibility, and
+      repair residue.
+    precision: Configuration and transition ordering with bounded uncertainty about fine internal workload allocation.
+    generality: Single synthetic case C17-HISTORY-01.
+    functional_scope: No target function, application status, motive, or authority is sourced.
+    dependence_strength: Direct synthetic declarations support the listed objects, relations, order, and bounded 
+      uncertainty only.
+    inferential_distance: Source declarations only; object formation is tested separately under COMPOSE.
+    limiting_sources: *id004
+    rationale: The source basis is sufficient for the bounded case test and insufficient for broader empirical, causal, 
+      functional, normative, or authority claims.
+operation:
+  occurrence_id: compose.c17-history-01.01
+  kind: COMPOSE
+  justification: The paired source field preserves two traceable histories and shows that identical endpoint labels do 
+    not erase dimension-specific present historical load.
+  expected_praxeological_difference: Historical comparison changes reconstruction of present backlog burden, exit 
+    reversibility, and repair corridor while leaving current technical protocol similarity intact.
+  selection_rule: Include the load-bearing structures from both unit Paths, the endpoint-similarity relation, and 
+    present residual dimensions; exclude motive, quality ranking, and unrelated technical detail.
+  transformation_context: Synthetic Chapter 17 positive-case reconstruction for C17-HISTORY-01.
+  details:
+    source_objects:
+      - object_id: configuration.history.a-baseline
+        description: Unit A baseline allocation configuration.
+        typing:
+          value: configuration
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/configuration.history.a-baseline
+      - object_id: transition.history.a-review
+        description: Unit A early review and explicit redistribution transition.
+        typing:
+          value: transition as object
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/transition.history.a-review
+      - object_id: configuration.history.a-endpoint
+        description: Unit A weekly-allocation protocol endpoint with low backlog.
+        typing:
+          value: configuration
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/configuration.history.a-endpoint
+      - object_id: configuration.history.b-baseline
+        description: Unit B baseline allocation configuration.
+        typing:
+          value: configuration
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/configuration.history.b-baseline
+      - object_id: non-event.history.b-review
+        description: Unit B expected review not realized in the declared window.
+        typing:
+          value: non-event structure
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/non-event.history.b-review
+      - object_id: subpath.history.b-workaround
+        description: Centralized workaround persisting after the missed review.
+        typing:
+          value: subpath
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/subpath.history.b-workaround
+      - object_id: operator.history.b-omega
+        description: Uneven workload and exit-cost concentration in Unit B.
+        typing:
+          value: operator-typed occurrence
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/operator.history.b-omega
+      - object_id: transition.history.b-repair
+        description: Late redistribution reducing but not erasing backlog and exit cost.
+        typing:
+          value: transition as object
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/transition.history.b-repair
+      - object_id: configuration.history.b-endpoint
+        description: Unit B weekly-allocation protocol endpoint with residual backlog and elevated exit cost.
+        typing:
+          value: configuration
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/configuration.history.b-endpoint
+    source_typings:
+      - value: configuration
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: transition as object
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: configuration
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: configuration
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: non-event structure
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: subpath
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: operator-typed occurrence
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: transition as object
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: configuration
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+    ordering_rule: Use two parallel orders A0 < A1 < A3 and B0 < B1–B2 < B2–B3 < B3–B4 < B4 < B5, then compare the two 
+      endpoints without collapsing their histories.
+    formation_rule: Form a comparative Path-Dependence object only where a present dimension changes under bounded 
+      substitution of one unit history for the other while formally similar endpoint features remain fixed.
+    constitutive_relations:
+      - relation_id: relation.history.a-route
+        relation_type:
+          value: explicit-redistribution path relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: configuration.history.a-baseline
+        to_object_id: configuration.history.a-endpoint
+        description: Early review and explicit redistribution connect Unit A baseline to the low-residue endpoint.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md#typed-reconstruction
+      - relation_id: relation.history.b-delay-workaround
+        relation_type:
+          value: non-event carryover relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: non-event.history.b-review
+        to_object_id: subpath.history.b-workaround
+        description: The missed review leaves the centralized workaround in place.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md#typed-reconstruction
+      - relation_id: relation.history.b-workaround-omega
+        relation_type:
+          value: asymmetry accumulation relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: subpath.history.b-workaround
+        to_object_id: operator.history.b-omega
+        description: Workaround persistence accumulates uneven workload and exit cost.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md#typed-reconstruction
+      - relation_id: relation.history.b-omega-repair
+        relation_type:
+          value: partial repair relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: operator.history.b-omega
+        to_object_id: transition.history.b-repair
+        description: Late redistribution reduces but does not erase accumulated burden.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md#typed-reconstruction
+      - relation_id: relation.history.endpoint-comparison
+        relation_type:
+          value: similar-endpoint differentiated-load relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: configuration.history.a-endpoint
+        to_object_id: configuration.history.b-endpoint
+        description: The endpoints share a formal protocol label while differing in present burden, reversibility, and 
+          repair residue.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md#dependence-dimensions
+    source_trace:
+      - trace_id: trace.a-baseline
+        source_feature: Unit A baseline allocation configuration.
+        affected_claim_component: Unit A Path origin.
+        trace_role: load_bearing
+        result_dependency: Without it Unit A has no declared origin.
+        expected_result_change: Removing it defeats the paired comparison boundary.
+        temporal_or_relational_dependency: It precedes the early review.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/configuration.history.a-baseline
+      - trace_id: trace.a-review
+        source_feature: Unit A early review and explicit redistribution transition.
+        affected_claim_component: Unit A low-residue route.
+        trace_role: load_bearing
+        result_dependency: Without it Unit A no longer carries the declared low-residue historical route.
+        expected_result_change: Replacing it with deferral changes the present burden/reversibility comparison.
+        temporal_or_relational_dependency: It follows A baseline and precedes A endpoint.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/transition.history.a-review
+      - trace_id: trace.a-endpoint
+        source_feature: Unit A weekly-allocation protocol endpoint with low backlog.
+        affected_claim_component: First formally similar endpoint.
+        trace_role: load_bearing
+        result_dependency: Without it endpoint similarity cannot be tested.
+        expected_result_change: Removing it defeats the paired comparison.
+        temporal_or_relational_dependency: It follows the explicit redistribution route.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/configuration.history.a-endpoint
+      - trace_id: trace.b-baseline
+        source_feature: Unit B baseline allocation configuration.
+        affected_claim_component: Unit B Path origin.
+        trace_role: load_bearing
+        result_dependency: Without it Unit B has no declared origin.
+        expected_result_change: Removing it defeats the paired comparison boundary.
+        temporal_or_relational_dependency: It precedes the deferred review window.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/configuration.history.b-baseline
+      - trace_id: trace.b-delay
+        source_feature: Unit B expected review not realized in the declared window.
+        affected_claim_component: Central Unit B Λ load.
+        trace_role: load_bearing
+        result_dependency: Without the delay Unit B no longer carries the declared workaround-mediated route.
+        expected_result_change: Replacing it with an early review changes burden and reversibility.
+        temporal_or_relational_dependency: It follows B baseline and precedes the workaround.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/non-event.history.b-review
+      - trace_id: trace.b-workaround
+        source_feature: Centralized workaround persisting after the missed review.
+        affected_claim_component: Carrier of later Ω-load.
+        trace_role: load_bearing
+        result_dependency: Without it accumulated burden and late repair are not formed as declared.
+        expected_result_change: Removing it narrows the comparison materially.
+        temporal_or_relational_dependency: It follows the missed review and precedes late redistribution.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/subpath.history.b-workaround
+      - trace_id: trace.b-omega
+        source_feature: Uneven workload and exit-cost concentration in Unit B.
+        affected_claim_component: Present burden and reversibility dependence dimensions.
+        trace_role: load_bearing
+        result_dependency: Without it the principal present historical difference is unsupported.
+        expected_result_change: Homogenizing it defeats the bounded dependence claim.
+        temporal_or_relational_dependency: It accumulates during workaround persistence.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/operator.history.b-omega
+      - trace_id: trace.b-repair
+        source_feature: Late redistribution reducing but not erasing backlog and exit cost.
+        affected_claim_component: Residual repair dimension.
+        trace_role: load_bearing
+        result_dependency: Without it the present endpoint and remaining residue are different.
+        expected_result_change: Replacing it with complete reset changes the claim.
+        temporal_or_relational_dependency: It follows accumulated burden and precedes B endpoint.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/transition.history.b-repair
+      - trace_id: trace.b-endpoint
+        source_feature: Unit B weekly-allocation protocol endpoint with residual backlog and elevated exit cost.
+        affected_claim_component: Second formally similar endpoint with different present load.
+        trace_role: load_bearing
+        result_dependency: Without it endpoint similarity and historical difference cannot be compared.
+        expected_result_change: Removing it defeats the target.
+        temporal_or_relational_dependency: It follows late partial repair.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/configuration.history.b-endpoint
+    selection_rule_pointer: /operation/selection_rule
+    target_reference_object_pointer: /target/reference_object
+    target_object_typing_pointer: /target/object_typing
+target:
+  reference_object:
+    object_id: composite.c17-history-01
+    description: 'Bounded synthetic comparative path-dependence object for C17-HISTORY-01: Similar End States, Different Histories.'
+    typing: &id005
+      value: comparative path-dependence object
+      control_source: 
+        07_model/Operation_Registry.yaml#/operation_types/COMPOSE/target_contract/recognized_result_families
+      inventory_status: current_controlled
+    source_pointer: /operation/details
+  object_typing: *id005
+  contextual_function:
+  frame: *id002
+  granularity: *id003
+  relative_level: *id006
+  temporal_scope: Synthetic interval A0–A3 and B0–B5.
+  validity_scope: Valid only as the dimension-specific comparison of the two synthetic Paths and their present 
+    historical load.
+  contextual_function_origin_occurrence_ref:
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source and claim packet complete
+      rationale: The bounded claim, source field, scope, ceilings, and authority boundary are explicitly declared.
+      rule_assessment_pointers:
+        - source_ceiling
+        - contextual_boundedness
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Operation correctly classified as COMPOSE
+      rationale: Multiple typed source structures are formed into a new temporal composite through explicit selection, 
+        ordering, formation, and constitutive relations.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Praxeological Purchase established
+      rationale: Historical comparison changes reconstruction of present backlog burden, exit reversibility, and repair 
+        corridor while leaving current technical protocol similarity intact.
+      rule_assessment_pointers:
+        - praxis_purchase
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source-to-result dependency remains reconstructible
+      rationale: The present burden, reversibility, and residual-repair differences remain reconstructible from the 
+        early-review route versus the delayed-review/workaround/Ω/late-repair route.
+      rule_assessment_pointers:
+        - traceable_load
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Type, reference, temporal, and functional boundaries preserved
+      rationale: Source objects retain their origin typings; the target is a derived temporal composite; no contextual 
+        function is inferred.
+      rule_assessment_pointers:
+        - type_integrity
+        - reference_continuity
+        - functional_continuity
+        - temporal_continuity
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Load-bearing changes alter or defeat the claim
+      rationale: Substituting Unit A history for Unit B while holding the endpoint protocol label fixed removes the 
+        declared backlog, exit-cost, and repair-residue difference; removing fine historical detail outside these 
+        dimensions does not alter the bounded claim.
+      rule_assessment_pointers:
+        - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection and five-part Loss are explicit
+      rationale: Included and omitted elements, retained distinctions, compression, uncertainty, and irrecoverability 
+        are recorded without a lossless presumption.
+      rule_assessment_pointers:
+        - selection_and_loss
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Material alternatives are preserved
+      rationale: Endpoint-only comparison, two independent Paths without a dependence claim, and No-Composition remain 
+        available; total historical determination is not selected.
+      rule_assessment_pointers:
+        - alternatives
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source and calibration limits declared
+      rationale: The synthetic packet discriminates the tested positive case from defined mutations but supplies no 
+        external empirical calibration.
+      rule_assessment_pointers:
+        - source_ceiling
+        - calibration
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: No failed claim is repaired by relabeling
+      rationale: Any changed source set, order, frame, granularity, target class, or target function requires a new 
+        testable claim.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: Stop and Non-Capture assessed and not reached
+      rationale: An adequate bounded composite remains; stronger excluded claims remain prohibited rather than silently 
+        retained.
+      rule_assessment_pointers:
+        - stop
+        - non_capture
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: Claim and authority ceilings maintained
+      rationale: The result remains synthetic, bounded, non-causal, non-normative, non-diagnostic, and 
+        non-authoritative.
+      rule_assessment_pointers:
+        - claim_ceiling
+        - authority_ceiling
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: Historical comparison changes reconstruction of present backlog burden, exit reversibility, and 
+        repair corridor while leaving current technical protocol similarity intact.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded temporal-object claim.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: The present burden, reversibility, and residual-repair differences remain reconstructible from 
+        the early-review route versus the delayed-review/workaround/Ω/late-repair route.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim only while the declared source-to-result dependency remains reconstructible.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: Source types remain visible and the target is typed only as the declared composite.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve source typings and target typing.
+      controlled_local_result:
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: The target remains anchored to the same declared case reference and source field.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded reference object.
+      controlled_local_result:
+    functional_continuity:
+      applicability: not_applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: No source or target function is asserted; any later function requires PROJECT_AS.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Do not infer a contextual function.
+      controlled_local_result:
+      applicability_condition: Applies only if a source or target function is claimed.
+      applicability_rationale: No contextual function is claimed in this COMPOSE occurrence.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: Use two parallel orders A0 < A1 < A3 and B0 < B1–B2 < B2–B3 < B3–B4 < B4 < B5, then compare the 
+        two endpoints without collapsing their histories.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve the declared temporal and relational order.
+      controlled_local_result:
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: Frame, granularity, relative level, temporal scope, and synthetic case boundary are explicit for
+        C17-HISTORY-01.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim only within the declared case scope.
+      controlled_local_result:
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: Substituting Unit A history for Unit B while holding the endpoint protocol label fixed removes 
+        the declared backlog, exit-cost, and repair-residue difference; removing fine historical detail outside these 
+        dimensions does not alter the bounded claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve the source-sensitive defeat and reduction conditions.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: The sources support the bounded temporal composite and no broader empirical, causal, functional,
+        or authority claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain only the bounded claim.
+      controlled_local_result:
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/source_and_calibration_limits
+        - /operation
+        - /claim
+      reasoned_finding: The synthetic case discriminates the positive record from the declared removal, reordering, 
+        substitution, and no-composition variants.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports method discrimination only; no external empirical calibration is claimed.
+      required_action: Use the declared mutations as local tests and preserve the external calibration limit.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: Selection and all five Loss fields are explicit and claim-relative.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the explicit Loss and selection record.
+      controlled_local_result:
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: Endpoint-only comparison, two independent Paths without a dependence claim, and No-Composition 
+        remain available; total historical determination is not selected.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve rival compositions, unresolved alternatives, and No-Composition where declared.
+      controlled_local_result:
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: The packet supports dimension-specific Path Dependence across similar endpoints and does not 
+        support total historical determination, causal necessity, quality ranking, target function, or authority.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim without expansion.
+      controlled_local_result:
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: No empirical, causal, normative, diagnostic, legal, political, intervention, or application 
+        authority is granted.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Maintain all governance prohibitions.
+      controlled_local_result:
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: No mandatory Stop trigger is reached for the bounded case claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Any material extension requires a new testable claim.
+      controlled_local_result:
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+      reasoned_finding: An adequate bounded composite remains; no whole-claim capture limit is decisive.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded claim and its exclusions.
+      controlled_local_result:
+  non_compensation_confirmation: true
+  audit_to_routing_basis: All applicable assessments are complete; Purchase is gain, TraceableLoad is within_ceiling, 
+    source-sensitive defeat conditions are explicit, five-part Loss and alternatives are recorded, and neither Stop nor 
+    Non-Capture is reached.
+  anti_immunization_assessment: The record does not erase or repair any prior failure. Any later change in source 
+    membership, order, frame, granularity, relative level, target class, or function is a new separately testable claim.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The bounded composition remains above the Relevance Floor and below the Traceability Ceiling; no 
+      integrity failure makes continuation inadmissible.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The record adequately captures the bounded temporal composite while preserving exclusions, uncertainty, 
+      alternatives, and stronger unclaimed routes.
+loss:
+  preserved:
+    - item_id: loss.preserved.1
+      affected_element: parallel histories
+      description: Both unit routes, the missed review, workaround, Ω-load, repair, endpoints, and endpoint similarity 
+        remain explicit.
+      reason: They are constitutive to the bounded comparison.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the element as load-bearing support.
+      source_or_evidence_pointer: /operation/details/source_objects
+      recoverability_or_reentry_note: Changing either route requires a new record.
+    - item_id: loss.preserved.2
+      affected_element: dependence dimensions
+      description: Present burden, reversibility, and residual repair remain separated from technically similar endpoint
+        features.
+      reason: The claim is dimension-specific.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the element as load-bearing support.
+      source_or_evidence_pointer: /claim/claim_ceiling
+      recoverability_or_reentry_note: Broader dependence requires separate testing.
+  compressed:
+    - item_id: loss.compressed.1
+      affected_element: local implementation detail
+      description: Fine local actions inside each unit are compressed into load-bearing configurations and transitions.
+      reason: The comparison does not require every micro-event.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Bound the claim to the retained resolution.
+      source_or_evidence_pointer: /source/known_gaps
+      recoverability_or_reentry_note: A finer reconstruction requires DECOMPOSE or a new record.
+  excluded:
+    - item_id: loss.excluded.1
+      affected_element: total determination and quality ranking
+      description: Whole-object historical determination, motive, causal necessity, quality, legitimacy, prediction, and
+        target functions are excluded.
+      reason: They exceed the source and authority ceilings.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Keep the excluded reach outside the claim.
+      source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+      recoverability_or_reentry_note: Reentry requires separate claims and warrant.
+  uncertain:
+    - item_id: loss.uncertain.1
+      affected_element: fine burden allocation
+      description: Exact internal distribution of backlog and exit cost remains uncertain.
+      reason: The packet supports a difference but not complete allocation.
+      claim_effect:
+        family:
+          value: qualify
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Qualify the claim and preserve uncertainty.
+      source_or_evidence_pointer: /source/known_gaps/0
+      recoverability_or_reentry_note: Preserve bounded uncertainty.
+  irrecoverable:
+    - item_id: loss.irrecoverable.1
+      affected_element: actor-level causal mechanism
+      description: Actor-level causal mechanisms cannot be recovered from the synthetic packet.
+      reason: They were not encoded.
+      claim_effect:
+        family:
+          value: mark_capture_limit
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Mark the capture limit and prohibit reconstruction beyond it.
+      source_or_evidence_pointer: /source/known_gaps/1
+      recoverability_or_reentry_note: No causal claim without new sources.
+alternatives:
+  rival_compositions:
+    - alternative_id: alternative.history.endpoint-only
+      claim_relation: Compare only the two present protocol configurations.
+      source_basis_or_evidence_pointer: /target
+      comparative_burden: Preserves endpoint similarity but cannot represent present historical load in the declared 
+        dimensions.
+      current_handling: not_selected
+      rationale: The bounded historical-difference claim has additional source-sensitive Purchase.
+    - alternative_id: alternative.history.parallel-paths
+      claim_relation: Retain two independent Paths without composing a comparative dependence object.
+      source_basis_or_evidence_pointer: /source
+      comparative_burden: Preserves both histories but withholds the tested present-dimension comparison.
+      current_handling: not_selected
+      rationale: The packet supports the bounded comparative claim.
+  rival_decompositions: []
+  rival_projections: []
+  no_transformation:
+    - alternative_id: alternative.history.no-composition
+      claim_relation: Retain all source structures and endpoint observations without an integrated comparative object.
+      source_basis_or_evidence_pointer: /source
+      comparative_burden: Preserves source material while withholding any dependence claim.
+      current_handling: not_selected
+      rationale: The three specified present dimensions remain source-sensitive.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal and local case admissibility applies only to the declared synthetic transformation claim; it
+    does not establish empirical truth, causality, semantic or normative validity, person judgment, legitimacy, 
+    diagnosis, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+    - admissible does not mean empirically true or causally proven
+    - the derived temporal composite is not a new PMS primitive
+    - COMPOSE does not automatically assign a contextual target function
+    - the synthetic case does not authorize evaluation of persons or institutions
+    - formal validation and case success do not grant application or intervention authority
+    - one successful case does not validate PATH globally
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: Two formally similar endpoints remain historically different in three present dimensions under a 
+      source-sensitive paired Path comparison.
+    result_family:
+      value: admissible path-dependence claim under a materially narrowed historical scope
+      control_source: 
+        07_model/Output_Classes.yaml#/output_classes/admissible_with_bounded_claim/representative_local_results
+      inventory_status: current_controlled
+    source_function_effect:
+    prior_source_claim_disposition:
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: supported
+    resolution_test_result:
+    capture_statement:
+      statement: No material capture limit defeats the three-dimension claim; excluded dimensions and fine allocation 
+        uncertainty remain outside it.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The constitutive conditions for admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: selected
+        rationale: Purchase and TraceableLoad support a paired comparative object, but the claim must remain materially 
+          narrowed to the tested present dimensions.
+        constitutive_condition_pointers: &id007
+          - /operation/details/source_objects
+          - /operation/details/ordering_rule
+          - /operation/details/formation_rule
+          - /operation/details/constitutive_relations
+          - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+          - /admissibility/rule_assessments/traceable_load/controlled_local_result
+          - /claim/claim_ceiling
+          - /governance/authority_inheritance
+        preserved_finding: The three dimension-specific historical-load findings are retained.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The constitutive conditions for admissible_but_provisional are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The constitutive conditions for partially_admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The constitutive conditions for claim_reduction_required are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The constitutive conditions for mandatory_stop are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The constitutive conditions for failed_transformation are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: The constitutive conditions for non_capture are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+    selected_class: admissible_with_bounded_claim
+    route_id: route_admissible_with_bounded_claim
+    matched_constitutive_conditions: *id007
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings: []
+    split_decision:
+      required: false
+      rationale: The materially narrowed dependence claim is represented as the current primary claim; no additional 
+        same-occurrence claim split is required.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: Purchase and TraceableLoad support a paired comparative object, but the claim must remain
+      materially narrowed to the tested present dimensions.
+    current_claim_disposition:
+      value: maintained
+      rationale: The dimension-specific dependence claim is maintained; the broader total-determination claim is not 
+        retained.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_with_bounded_claim
+    original_broader_claim_id: claim.c17-history-01.total-historical-determination
+    retained_narrower_claim_pointer: /claim/claim_id
+    material_narrowing:
+      - Historical indispensability is retained only for present burden, reversibility, and residual repair.
+      - Current technical protocol identity is not claimed to require the complete history.
+    excluded_reach:
+      - Whole-object historical determination.
+      - Causal necessity, institutional quality ranking, prediction, and target function.
+    separately_tested: true
+    rationale: The current claim is admissible only after materially narrowing the broader dependence claim to three 
+      source-sensitive present dimensions.
+relations:
+  prior_record_ids: []
+  prior_claim_ids: []
+  sibling_claim_or_record_ids: []
+  rival_record_ids: []
+  countercase_refs:
+    - C17-WEAKPD-01
+    - C17-OMEGA-01
+extensions:
+  - extension_id: pms-strata:chapter17:path-case:c17-history-01:v0.2
+    owner_or_source: PMS-STRATA Chapter 17
+    control_source_pointer: 01_blocks/02_part_i_path.md#17-5-case-4-similar-end-states-different-histories
+    purpose: Carry the Chapter-17 case wrapper and local audit summary without replacing Shared Transformation Record 
+      fields.
+    payload:
+      path_case:
+        case_id: C17-HISTORY-01
+        case_class: positive_case
+        title: Similar End States, Different Histories
+        markdown_artifact: 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+        yaml_artifact: 03_cases/yaml/C17-HISTORY-01_Similar_End_States_Different_Histories.yaml
+        governing_claim: Two service units with the same formal weekly-allocation endpoint remain historically different
+          in present burden, reversibility, and residual repair because their source-sensitive Paths differ in review 
+          timing, workaround persistence, asymmetric load, and repair sequence.
+        starting_configuration: Two synthetic service units with separately declared baseline configurations.
+        transitions:
+          - Unit A early review and explicit redistribution
+          - Unit B missed review
+          - Unit B workaround persistence
+          - Unit B asymmetric burden accumulation
+          - Unit B late partial repair
+          - paired endpoint comparison
+        events:
+          - early review
+          - explicit redistribution
+          - workaround activity
+          - late partial repair
+        non_events:
+          - Unit B expected review not realized
+        branches_and_alternatives: Endpoint-only comparison, parallel Paths, and No-Composition remain available.
+        compose_decision: COMPOSE executed as one bounded operation occurrence.
+        path_or_trajectory_result: admissible dimension-specific Path-Dependence claim across similar endpoints
+        path_dependence_finding: supported only for present burden, reversibility, and residual repair; not supported 
+          for every present feature or technical protocol identity.
+        local_audit_result:
+          status: pass
+          stages_complete: 12
+          warnings: 0
+          errors: 0
+        canonical_output_mapping: admissible_with_bounded_claim
+        stop_or_non_capture_status: neither reached for the bounded claim
+        governance_boundary: No target function, causality, person judgment, legitimacy, sanction, application 
+          authority, or authority inheritance.
+    does_not_replace_required_field: true
+  - extension_id: pms-strata:c17-legacy-substantive-overflight:c17-history-01:v0.1
+    owner_or_source: PMS-STRATA C17 Legacy Substantive Overflight
+    control_source_pointer: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    purpose: Record final-LIMITS substantive review without replacing the original operation occurrence, route, Loss, or
+      historical model-version provenance.
+    payload:
+      review_snapshot: PMS-STRATA_Source_of_Truth_ZIP_311.zip
+      review_snapshot_sha256: a0a243bec1292ac7429fab36de5a066c8f44f7af83661bc4ba84542274186774
+      reviewed_against:
+        - 05_minified/Chapter_Contracts.md#chapter-17-path-cases-countercases-and-local-audit
+        - 01_blocks/05_part_iv_limits.md
+        - 01_blocks/06_conclusion.md
+        - 07_model/Admissibility_Rules.yaml
+        - 07_model/Output_Classes.yaml
+        - 07_model/Transformation_Record.schema.json
+      review_dimensions:
+        - source_and_claim_ceiling
+        - operation_and_type_integrity
+        - reference_functional_and_temporal_continuity
+        - counterfactual_sensitivity
+        - selection_and_five_part_loss
+        - alternatives_and_no_transformation
+        - anti_immunization_and_failure_preservation
+        - stop_failure_and_non_capture_separation
+        - claim_and_authority_ceiling
+        - canonical_output_route
+      substantive_verdict: confirmed_without_route_change
+      selected_class_confirmed: admissible_with_bounded_claim
+      key_finding: Similar endpoints do not erase different histories; the retained claim remains bounded to present 
+        burdens traceable to the declared histories.
+      formal_conformance_only_not_claimed: false
+      empirical_or_external_validation_claimed: false
+      route_changed: false
+      claim_changed: false
+      loss_inventory_changed: false
+      source_or_operation_changed: false
+    does_not_replace_required_field: true

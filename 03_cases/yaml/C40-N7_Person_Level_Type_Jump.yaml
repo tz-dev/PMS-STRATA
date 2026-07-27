@@ -1,0 +1,1083 @@
+schema_version: 0.1.2
+record_id: case.c40-n7.project-as.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T12:10:00+02:00'
+  updated_at: '2026-07-27T12:10:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.integrated-case-production
+  repository_or_case_pointer: 03_cases/yaml/C40-N7_Person_Level_Type_Jump.yaml
+  record_provenance:
+  - Synthetic Chapter-40 N7 person-level type-jump countercase instantiated from the canonical Layer-1 packet and the bounded
+    C40-P3 configuration/function result.
+  - The record preserves the source configuration and participation relation while rejecting essence, diagnosis, stable-trait,
+    motive, ranking, recommendation, sanction, and authority inferences.
+  - Built against PMS-STRATA Source-of-Truth ZIP 316 and Transformation_Record.schema.json v0.1.3.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: 'Chapter-40 Contract-minimum package 7 of 7: person-level type-jump countercase, routed to failed_transformation
+    and locally audited.'
+claim:
+  claim_id: claim.c40-n7.person-type-jump.01
+  statement: Within synthetic coordination configuration C3 during C3-R0–R4, role-holder p7 is claimed to be an intrinsic
+    attractor type or binding type because p7 participates in a configuration in which recurrent form R3 performs a bounded
+    dynamic attractor-function. The declared PROJECT_AS claim is rejected because a configuration-level function and bounded
+    participation relation do not constitute a stable person property, diagnosis, motive, rank, or sanction basis.
+  claim_type:
+    value: failed person-level contextual-function claim
+    control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
+    inventory_status: extension
+    extension_rationale: Case-local label for the canonical Chapter-40 N7 countercase; no new claim type is created.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Only configuration.c40-n7.c3-role-field, recurrent form R3 as already bounded in C40-P3, role-holder
+      p7, role r_coord, and comparison context D7.
+    operation_occurrence_boundary: Only PROJECT_AS occurrence project-as.c40-n7.01.
+    frame:
+      value: synthetic C3 role-participation and person-attribution review frame
+      control_source: 03_cases/yaml/C40-N7_Person_Level_Type_Jump.yaml#/target/frame
+      inventory_status: extension
+      extension_rationale: Case-local target frame used only to test person-level type jumping.
+    granularity:
+      value: configuration-role-person attribution granularity
+      control_source: 03_cases/yaml/C40-N7_Person_Level_Type_Jump.yaml#/target/granularity
+      inventory_status: extension
+      extension_rationale: Case-local granularity distinguishing configuration function, role relation, and person predicate.
+    relative_level:
+      value: attempted person-property level relative to a configuration-level function
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Case-local level relation used to expose the prohibited jump.
+    temporal_scope: Source configuration C3-R0–R4; p7 participation C3-R1–R3; comparison D7-R0–R2.
+    source_scope: Exactly the bounded C3 configuration/function result from C40-P3 plus the declared synthetic role-participation
+      fixture.
+    context_scope: Only synthetic C3 and comparison context D7.
+    generalization_boundary: No person or group trait, diagnosis, motive, maturity, rank, legitimacy, recommendation, sanction,
+      or cross-context generalization is retained.
+    excluded_reach:
+    - No conversion of configuration function into person or group essence.
+    - No inference from participation to stable trait, diagnosis, motive, moral rank, maturity, legitimacy, recommendation,
+      or sanction.
+    - No generalization from C3 to later contexts or group members.
+    - No application to real persons, organizations, legal statuses, clinical states, or governance decisions.
+  validity_scope: The failed-operation assessment is valid only for the declared synthetic C3/D7 comparison and the stated
+    person-property claim.
+  claim_ceiling:
+    asserted_relation: p7 is an intrinsic attractor type or binding type because p7 participates in C3 while C3 carries a
+      bounded attractor-function.
+    reach: p7, C3-R0–R4, role r_coord, and comparison context D7 only.
+    precision: Source configuration, prior bounded function, declared role participation, person-replacement test, configuration-removal
+      test, and cross-context comparison.
+    generality: One synthetic person, one role, one configuration, and one comparison context.
+    functional_scope: No person-level function is retained; only the failed PROJECT_AS claim and the bounded configuration/participation
+      relations remain recorded.
+    dependence_strength: The alleged person property remains asserted despite person replacement and disappears when the configuration
+      changes, demonstrating dependence on configuration rather than person identity.
+    inferential_distance: One attempted PROJECT_AS step that improperly transfers a configuration-level function to a stable
+      person property.
+    limiting_sources:
+    - source.record.c40-p3
+    - source.case.c40-n7.role-fixture
+    rationale: The packet supports the configuration function and bounded role participation but not intrinsic person typing.
+  authority_boundary: The record authorizes only rejection of this synthetic person-type claim; it grants no diagnosis, person
+    evaluation, rank, legitimacy decision, recommendation, sanction, or application authority.
+source:
+  reference_object:
+    object_id: configuration.c40-n7.c3-role-field
+    description: Bounded relational configuration C3 in which recurrent form R3 performs a dynamic attractor-function and
+      p7 occupies role r_coord during a declared interval.
+    typing:
+      value: configuration
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/source_contract/recognized_object_families
+      inventory_status: current_controlled
+    source_pointer: 03_cases/markdown/C40-N7_Person_Level_Type_Jump.md#2-source-configuration
+  object_typing:
+    value: configuration
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/source_contract/recognized_object_families
+    inventory_status: current_controlled
+  frame:
+    value: bounded recurrent maintenance and coordination configuration C3
+    control_source: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml#/target/frame
+    inventory_status: extension
+    extension_rationale: Source-side configuration frame inherited from the bounded prior target context.
+  granularity:
+    value: configuration, role-relation, and transition-friction granularity
+    control_source: 03_cases/yaml/C40-N7_Person_Level_Type_Jump.yaml#/source/granularity
+    inventory_status: extension
+    extension_rationale: Case-local source granularity preserving configuration and role relations.
+  relative_level:
+    value: configuration level relative to attempted person-property target level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local source-side relative-level wording.
+  temporal_scope: C3-R0–R4; p7 role participation C3-R1–R3.
+  source_scope: Exactly configuration.c40-n7.c3-role-field, C40-P3 bounded function support, and the synthetic p7 role-participation
+    fixture.
+  source_basis:
+  - source_item_id: source.record.c40-p3
+    source_pointer: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml
+    provenance_description: Schema-valid PROJECT_AS case establishing a bounded dynamic attractor-function at configuration
+      C3 while retaining recurrent-form origin type and context bounds.
+    affected_claim_component: Independent support for the configuration-level function.
+    support_mode: direct
+    evidence_role:
+      value: prior canonical case record
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Case-local cross-record evidence role.
+    evidence_availability: available
+    temporal_scope: C3-R0–R4
+    reference_scope: configuration.c40-p3.continuation-and-reopening-c3
+    uncertainty_or_provenance_limit: Synthetic prior record; no external empirical or person-level warrant.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.case.c40-n7.role-fixture
+    source_pointer: case://pms-strata/c40-n7/role-fixture
+    provenance_description: Synthetic fixture declares p7 participation in role r_coord, person replacement by p8, configuration
+      dissolution, and comparison context D7.
+    affected_claim_component: Bounded participation relation and material variation tests.
+    support_mode: direct
+    evidence_role:
+      value: synthetic target-context case
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Case-local source/variation fixture.
+    evidence_availability: available
+    temporal_scope: C3-R1–R3 and D7-R0–R2
+    reference_scope: p7 role participation and variation tests only
+    uncertainty_or_provenance_limit: Synthetic fixture does not establish motive, trait, diagnosis, rank, or real-world person
+      evidence.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace: &id001
+  - trace_id: trace.c40-n7.configuration-function
+    source_feature: The bounded C3 configuration carries the dynamic attractor-function established by C40-P3 through transition
+      access, role recurrence, resource commitment, reopening friction, and release cost.
+    affected_claim_component: Configuration-level function from which the person-property claim is attempted.
+    trace_role: load_bearing
+    result_dependency: The function is reconstructible from configuration relations rather than from person identity.
+    expected_result_change: Changing the configuration relations weakens or removes the function even if p7 remains.
+    temporal_or_relational_dependency: C3-R0–R4 and the declared role/resource relations.
+    claim_limitation: Supports configuration-only function and bounded participation claims; cannot support person essence.
+    source_pointer: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml#/target
+  - trace_id: trace.c40-n7.person-replacement
+    source_feature: p7 is replaced by p8 while the C3 role script, resources, access rules, and reopening costs remain.
+    affected_claim_component: Purported intrinsic person property.
+    trace_role: limiting
+    result_dependency: The configuration function remains materially present after person replacement.
+    expected_result_change: A genuine person property should materially change with person identity; the claimed function
+      does not.
+    temporal_or_relational_dependency: Controlled replacement in C3-R2 while configuration relations remain fixed.
+    claim_limitation: Defeats transfer from configuration function to person property.
+    source_pointer: case://pms-strata/c40-n7#person-replacement
+  - trace_id: trace.c40-n7.configuration-removal
+    source_feature: p7 remains while the recurrent role/resource configuration is dissolved and ordinary transition routes
+      reopen.
+    affected_claim_component: Purported intrinsic person property.
+    trace_role: limiting
+    result_dependency: The alleged attractor/binding property disappears when the configuration is removed.
+    expected_result_change: The result follows configuration removal rather than person persistence.
+    temporal_or_relational_dependency: Comparison D7-R0–R2 after C3 dissolution.
+    claim_limitation: Supports configuration dependence and no person projection.
+    source_pointer: case://pms-strata/c40-n7#configuration-removal
+  known_gaps:
+  - No independent evidence supports an intrinsic person property.
+  - p7 exact contribution relative to other role and resource relations remains uncertain.
+  - No external calibration, diagnosis, motive, maturity, or person-trait evidence is available or permitted.
+  source_ceiling:
+    asserted_relation: p7 is an intrinsic attractor type or binding type because p7 participates in C3 while C3 carries a
+      bounded attractor-function.
+    reach: p7, C3-R0–R4, role r_coord, and comparison context D7 only.
+    precision: Source configuration, prior bounded function, declared role participation, person-replacement test, configuration-removal
+      test, and cross-context comparison.
+    generality: One synthetic person, one role, one configuration, and one comparison context.
+    functional_scope: No person-level function is retained; only the failed PROJECT_AS claim and the bounded configuration/participation
+      relations remain recorded.
+    dependence_strength: The alleged person property remains asserted despite person replacement and disappears when the configuration
+      changes, demonstrating dependence on configuration rather than person identity.
+    inferential_distance: One attempted PROJECT_AS step that improperly transfers a configuration-level function to a stable
+      person property.
+    limiting_sources:
+    - source.record.c40-p3
+    - source.case.c40-n7.role-fixture
+    rationale: The packet supports the configuration function and bounded role participation but not intrinsic person typing.
+operation:
+  occurrence_id: project-as.c40-n7.01
+  kind: PROJECT_AS
+  justification: The record deliberately tests a declared PROJECT_AS candidate that transfers a bounded configuration-level
+    function to a stable person property; the audit determines whether that type and level jump is admissible.
+  expected_praxeological_difference: A valid person-level target function would require a person-specific, context-bounded
+    difference that changes with person identity; the tested claim instead follows configuration relations.
+  selection_rule: Retain the source configuration, prior bounded function, p7 role participation, person-replacement and configuration-removal
+    variations; exclude essence, diagnosis, trait, motive, rank, legitimacy, recommendation, sanction, and cross-context generalization.
+  transformation_context: Synthetic C3 person-attribution review with comparison context D7.
+  details:
+    target_context: synthetic C3/D7 person-attribution review
+    constitutive_source_trace: *id001
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: false
+    alternative_projection_or_no_projection:
+    - bounded role-participation relation in a new record
+    - configuration-only function
+    - source-only description of role and relations
+    - no person or group projection
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: projection.c40-n7.failed-person-property
+    description: Attempted target view in which role-holder p7 is assigned an intrinsic attractor-type or binding-type property
+      from participation in C3.
+    typing:
+      value: prohibited person-level property candidate
+      control_source: 01_blocks/04_part_iii_retype.md#40-15-countercase-7-person-level-type-jump
+      inventory_status: extension
+      extension_rationale: Case-local failed target wording; no person type is added to any inventory.
+    source_pointer: 03_cases/markdown/C40-N7_Person_Level_Type_Jump.md#3-tested-project_as-claim
+  object_typing:
+    value: prohibited person-level property candidate
+    control_source: 01_blocks/04_part_iii_retype.md#40-15-countercase-7-person-level-type-jump
+    inventory_status: extension
+    extension_rationale: Case-local failed target wording; no person type is created.
+  contextual_function:
+    value: intrinsic attractor-type or binding-type person property
+    control_source: 01_blocks/04_part_iii_retype.md#40-15-countercase-7-person-level-type-jump
+    inventory_status: current_controlled
+  frame:
+    value: synthetic C3/D7 person-attribution review frame
+    control_source: 03_cases/yaml/C40-N7_Person_Level_Type_Jump.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Case-local target frame.
+  granularity:
+    value: person-property attribution granularity
+    control_source: 03_cases/yaml/C40-N7_Person_Level_Type_Jump.yaml#/claim/claim_scope/granularity
+    inventory_status: extension
+    extension_rationale: Case-local target granularity.
+  relative_level:
+    value: attempted person-property level relative to configuration function
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local target-side relation.
+  temporal_scope: Claimed stable reach beyond C3; rejected. Audit observations limited to C3-R0–R4 and D7-R0–R2.
+  validity_scope: Failed-operation assessment only; no person-level target function is retained.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source configuration, prior bounded function, person relation, overstrong target predicate, scope,
+        ceilings, and authority boundary are complete.
+      rationale: The current claim is sufficiently explicit to adjudicate rather than treat as missing information.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /target
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: The declared occurrence is an attempted PROJECT_AS from configuration to person property and contains
+        an invalid type and level jump.
+      rationale: It is not COMPOSE, DECOMPOSE, analogy, or a bounded role relation.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /operation
+      - 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The intrinsic person-type label produces no warranted person-specific praxis reconstruction.
+      rationale: The alleged result remains after person replacement and disappears after configuration change.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/praxis_purchase
+      - /operation/expected_praxeological_difference
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The person-property claim exceeds the Traceability Ceiling.
+      rationale: Available trace supports configuration function and participation only, not person essence or stable trait.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/traceable_load
+      - /operation/details/constitutive_source_trace
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source reference remains visible, but Type Integrity and Functional Continuity fail at the person-property
+        target.
+      rationale: A configuration-level function cannot be rewritten as a person origin type or intrinsic property.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/type_integrity
+      - /admissibility/rule_assessments/reference_continuity
+      - /admissibility/rule_assessments/functional_continuity
+      - /target
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The claim is insensitive to person identity and sensitive to configuration removal.
+      rationale: This variation pattern defeats the asserted person-level dependency.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/counterfactual_sensitivity
+      - /source/constitutive_source_trace
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection and five-part Loss expose the collapse from configuration and role history into trait language.
+      rationale: Source configuration and bounded participation survive; person typing is excluded.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /loss
+      - /operation/selection_rule
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Configuration-only, bounded role-relation, source-only, and no-person-projection alternatives remain
+        available.
+      rationale: Each affirmative participation claim requires a separate record and cannot rescue this operation.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /alternatives
+      - /operation/details/alternative_projection_or_no_projection
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Sources discriminate configuration dependence from person attribution but provide no external person
+        calibration.
+      rationale: The case supports a formal boundary only.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /source/source_ceiling
+      - /admissibility/rule_assessments/calibration
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: The failed person-type projection remains failed under rewording, relocation, or a later role claim.
+      rationale: A new bounded participation claim would be independently testable and would not erase this failure.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /admissibility/anti_immunization_assessment
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: The executed claim fails; future continuation requiring diagnosis, rank, sanction, or person essence
+        must stop. Non-capture is not selected.
+      rationale: The source configuration and participation relations remain adequately describable.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/stop_assessment
+      - /admissibility/non_capture_assessment
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: The person-property claim is withdrawn and all person-evaluation and authority prohibitions remain
+        explicit.
+      rationale: Formal rejection creates no negative person finding or application authority.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim/claim_ceiling
+      - /governance
+      - /result/status_declaration
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/relevance_floor
+      - /operation
+      - /claim
+      reasoned_finding: The person-type label adds no warranted person-specific praxis difference; the observed function follows
+        configuration relations.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the person-property claim on the relevance axis.
+      required_action: Do not treat participation as an intrinsic person function.
+      controlled_local_result: below_floor
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/traceability_ceiling
+      - /operation
+      - /claim
+      reasoned_finding: The available trace supports configuration function and bounded participation but not person essence,
+        stable trait, diagnosis, or cross-context reach.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the person-property claim on the traceability axis.
+      required_action: Retain configuration and role relations at their supported levels.
+      controlled_local_result: above_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The proposed target changes a configuration-level function into a stable property of a person, violating
+        the source/target type boundary.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Reject the person-level type jump while preserving source typing.
+      required_action: 'Do not create a person type or overwrite configuration origin. '
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The source configuration and p7 participation remain referenced, but the target predicate changes
+        the subject of attribution from configuration to person.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve source and role references separately from the failed target claim.
+      required_action: Keep configuration and person references distinct.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: 'The configuration function does not continue as a person function: person replacement retains it
+        and configuration removal defeats it.'
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw functional continuity at the person target.
+      required_action: Retain only configuration-level function unless a new person-specific function is independently warranted.
+      controlled_local_result: null
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The person-property claim improperly extends beyond the bounded C3 interval without source-supported
+        temporal continuity.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw stable cross-context reach.
+      required_action: Limit retained relations to declared intervals.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: The audit context is bounded, but the asserted person property is explicitly cross-context and therefore
+        exceeds that boundary.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the unbounded person predicate.
+      required_action: Retain only C3/D7 audit scope.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/counterfactual_sensitivity
+      - /operation
+      - /claim
+      reasoned_finding: The target claim is insensitive to person replacement and strongly sensitive to configuration dissolution,
+        defeating person-specific dependence.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the person-property dependency claim.
+      required_action: Treat configuration—not person identity—as the supported dependency.
+      controlled_local_result: insensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: The sources support C3 function and p7 participation only.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Bound all retained claims to configuration and role relations.
+      required_action: Do not infer essence, diagnosis, motive, rank, or sanction.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_calibration_limits
+      - /operation
+      - /claim
+      reasoned_finding: The synthetic variations discriminate configuration dependence from person attribution but do not
+        calibrate real persons or domains.
+      claim_or_artifact_effect:
+        family:
+          value: qualify
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Qualify the result as a formal synthetic countercase.
+      required_action: No external person application.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/loss_and_selection
+      - /operation
+      - /claim
+      reasoned_finding: The record explicitly preserves configuration and role relations while excluding person-essentializing
+        outputs.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the disclosed five-part Loss.
+      required_action: Do not hide contextual role history under trait language.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/alternatives
+      - /operation
+      - /claim
+      reasoned_finding: Bounded participation, configuration-only, source-only, and no-person-projection alternatives are
+        explicit.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Keep alternatives separate from the failed claim.
+      required_action: A future role claim requires a new record.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: No person-level function survives the ceiling; only the failed claim and bounded source relations
+        remain.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw the person-type claim.
+      required_action: Preserve the stated failure and source relations.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/claim_and_authority_ceiling
+      - /operation
+      - /claim
+      reasoned_finding: No person evaluation, diagnosis, legitimacy, recommendation, sanction, or application authority is
+        granted.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Separate formal failure from any person judgment.
+      required_action: Maintain authority inheritance prohibition.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /operation
+      - /claim
+      reasoned_finding: The current operation has been executed and fails. Continuation that requires diagnosis, rank, sanction,
+        or person essence must stop.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Separate current failure from prospective mandatory stop.
+      required_action: Use no further transformation to support prohibited person typing.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /operation
+      - /claim
+      reasoned_finding: Adequate configuration and role descriptions remain; no material capture limit is asserted.
+      claim_or_artifact_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Separate failed type jump from non-capture.
+      required_action: Do not use non-capture to shield the overstrong claim.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The declared PROJECT_AS fails because it converts a configuration-level function into a stable person
+    property, lacks person-specific PraxisPurchase and TraceableLoad, violates Type Integrity and Functional Continuity, and
+    is insensitive to person identity. Formal completeness and bounded audit context do not compensate.
+  anti_immunization_assessment: The failed person-level type jump remains failed. C40-P3 and the source configuration remain
+    separately valid; any bounded participation claim is a new testable claim and cannot erase this failure.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The current operation has already been executed and fails. A future continuation requiring essence, diagnosis,
+      rank, motive, recommendation, sanction, or authority would trigger mandatory stop rather than a new projection.
+    reentry_contemplated: true
+    reentry_conditions:
+    - changed_condition: A separately bounded role-participation claim is stated without person typing and is supported by
+        role-specific evidence and variation tests.
+      new_or_revised_record_id: case.c40-n7.role-relation.reentry.01
+      rationale: This would be a new claim and operation occurrence; it cannot retroactively validate the failed person-type
+        record.
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: false
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: No person-level PROJECT_AS claim is retained, but the source configuration and bounded participation relations
+      remain adequately describable; non-capture is not established.
+loss:
+  preserved:
+  - item_id: loss.preserved.source-configuration
+    affected_element: Source configuration and function
+    description: C3 and its bounded dynamic attractor-function remain separately retained.
+    reason: Operation failure does not invalidate the source configuration or C40-P3.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserve the independently warranted source configuration/function.
+    source_or_evidence_pointer: /source/reference_object
+  - item_id: loss.preserved.role-relation
+    affected_element: Bounded participation relation
+    description: p7 occupies r_coord during C3-R1–R3 and may contribute to or be constrained by the configuration.
+    reason: The role relation is source-supported without person typing.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain only the bounded relation.
+    source_or_evidence_pointer: /source/source_basis/1
+  - item_id: loss.preserved.variation-tests
+    affected_element: Material variation tests
+    description: Person replacement, configuration dissolution, and D7 comparison remain visible.
+    reason: They diagnose configuration dependence.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserve the defeating variation pattern.
+    source_or_evidence_pointer: /source/constitutive_source_trace
+  - item_id: loss.preserved.failed-occurrence
+    affected_element: Failed operation and alternatives
+    description: The failed PROJECT_AS occurrence and future bounded alternatives remain visible.
+    reason: Anti-immunization prohibits rescue by rewording.
+    claim_effect:
+      family:
+        value: separate
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserve failure and alternatives separately.
+    source_or_evidence_pointer: /result/routing
+  compressed:
+  - item_id: loss.compressed.role-history
+    affected_element: Role and interaction history
+    description: The bounded participation summary compresses heterogeneous acts, resistance, repair, and constraint.
+    reason: The case tests type attribution rather than reconstructing every act.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Disclose compression and avoid trait inference.
+    source_or_evidence_pointer: /claim/claim_scope
+    recoverability_or_reentry_note: A new role-relation record may reconstruct additional supported history.
+  excluded:
+  - item_id: loss.excluded.person-property
+    affected_element: Person or group essence and stable trait
+    description: No intrinsic attractor type, binding type, diagnosis, motive, maturity, or moral rank is retained.
+    reason: These outputs require an invalid person-level type jump.
+    claim_effect:
+      family:
+        value: withdraw
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Reject the target person property.
+    source_or_evidence_pointer: /target
+  - item_id: loss.excluded.authority
+    affected_element: Legitimacy, recommendation, sanction, and authority
+    description: No decision or action authority is retained.
+    reason: STRATA is structural and authority inheritance is prohibited.
+    claim_effect:
+      family:
+        value: separate
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Separate formal failure from application authority.
+    source_or_evidence_pointer: /governance
+  uncertain:
+  - item_id: loss.uncertain.contribution
+    affected_element: Exact role-holder contribution
+    description: p7 exact contribution relative to other roles, scripts, and resources remains unresolved.
+    reason: The synthetic fixture supports participation but not exhaustive attribution.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Keep contribution uncertainty explicit.
+    source_or_evidence_pointer: /source/known_gaps
+  irrecoverable:
+  - item_id: loss.irrecoverable.context-if-traited
+    affected_element: Contextual role history under trait collapse
+    description: If the configuration history were replaced by an intrinsic trait label, scene-specific variation and role
+      relations would no longer be reconstructible from the label alone.
+    reason: Trait collapse destroys the configuration-dependent explanatory path.
+    claim_effect:
+      family:
+        value: withdraw
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Do not permit trait collapse.
+    source_or_evidence_pointer: /admissibility/rule_assessments/type_integrity
+alternatives:
+  rival_compositions: []
+  rival_decompositions: []
+  rival_projections:
+  - alternative_id: alternative.bounded-role-relation
+    claim_relation: Test whether p7 contributed to, reproduced, resisted, repaired, or was constrained by C3 during a declared
+      interval.
+    source_basis_or_evidence_pointer: /source/source_basis/1
+    comparative_burden: Requires a separate claim, role-specific evidence, temporal scope, variation tests, Loss, and a new
+      PROJECT_AS occurrence if a target function is asserted.
+    current_handling: not_selected
+    rationale: This is a future bounded alternative, not a reduction or repair of the current person-type claim.
+  no_transformation:
+  - alternative_id: alternative.configuration-only
+    claim_relation: Retain the configuration-level dynamic attractor-function established by C40-P3 without any person projection.
+    source_basis_or_evidence_pointer: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml#/target
+    comparative_burden: Adds no person-level claim burden.
+    current_handling: retained
+    rationale: The source function remains valid independently of the failed projection.
+  - alternative_id: alternative.source-only-role-description
+    claim_relation: Describe p7 role participation and the variation tests without assigning any target person function.
+    source_basis_or_evidence_pointer: /source/source_basis/1
+    comparative_burden: Retains only source-level relations.
+    current_handling: retained
+    rationale: Participation does not require RETYPE to a person property.
+  non_translation:
+  - alternative_id: alternative.no-person-claim
+    claim_relation: No projection to person or group; preserve configuration and role relations only.
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: None beyond accurate source description.
+    current_handling: retained
+    rationale: This is the default safe boundary when person-specific function is unwarranted.
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal routing rejects only the synthetic person-type PROJECT_AS claim. It does not evaluate p7 or any
+    real person/group and authorizes no diagnosis, rank, legitimacy decision, recommendation, sanction, or action.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - configuration function is not a person property
+  - participation is not essence, diagnosis, motive, maturity, or rank
+  - person replacement and configuration removal defeat person-specific dependence
+  - failed person projection does not invalidate the source configuration
+  - a bounded role claim would be a new claim and cannot rescue this failure
+  - formal validation does not grant empirical truth or application authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: 'The declared PROJECT_AS occurrence fails: a bounded configuration-level function and participation relation
+      are converted into an intrinsic person property without person-specific source dependence. The source configuration
+      and bounded role relation remain separately valid.'
+    result_family:
+      value: person-level type-jump failure
+      control_source: 07_model/Output_Classes.yaml#/output_classes/failed_transformation/representative_local_results
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates the Chapter-40 N7 failure without adding a new result class.
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: unsupported
+    resolution_test_result: null
+    capture_statement:
+      statement: No material capture limit is asserted; the current operation fails because configuration function and participation
+        do not support a stable person property.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The constitutive conditions for admissible are not decisive for this delimited person-type claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible route is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: The constitutive conditions for admissible_with_bounded_claim are not decisive for this delimited person-type
+          claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_with_bounded_claim route is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The constitutive conditions for admissible_but_provisional are not decisive for this delimited person-type
+          claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional route is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for this delimited person-type claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral route is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for this delimited person-type claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only route is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The constitutive conditions for partially_admissible are not decisive for this delimited person-type claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible route is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: A bounded participation relation changes the subject and predicate of the claim and therefore requires
+          a new record; it is not a narrower surviving person-type claim.
+        constitutive_condition_pointers: []
+        preserved_finding: A future bounded role claim remains separately available.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The current operation has already been executed and fails; mandatory stop is preserved for any attempted
+          continuation requiring person essence, diagnosis, rank, recommendation, or sanction.
+        constitutive_condition_pointers: []
+        preserved_finding: Prospective prohibited continuation must stop, but the current routed claim is failed_transformation.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: selected
+        rationale: 'The declared PROJECT_AS performs an invalid person-level type jump: configuration function is predicated
+          as person property, Type Integrity and Functional Continuity fail, and variation tests show configuration rather
+          than person dependence.'
+        constitutive_condition_pointers: &id002
+        - /operation/kind
+        - /target/object_typing
+        - /admissibility/rule_assessments/type_integrity
+        - /admissibility/rule_assessments/functional_continuity
+        - /admissibility/rule_assessments/counterfactual_sensitivity
+        - /result/status_declaration/support_status
+        preserved_finding: The C3 configuration/function, p7 bounded participation relation, variation tests, exact Loss,
+          and no-person alternatives remain separately available.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: The constitutive conditions for non_capture are not decisive for this delimited person-type claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture route is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: failed_transformation
+    route_id: route_failed_transformation
+    matched_constitutive_conditions: *id002
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - C40-P3 and the source configuration function remain valid independently of the failed person projection.
+    - A bounded role-participation claim remains possible only as a new claim and record.
+    - Prospective continuation into diagnosis, ranking, recommendation, sanction, or person essence must stop.
+    split_decision:
+      required: false
+      rationale: The current claim is the attempted person-property PROJECT_AS. Configuration validity and bounded role participation
+        are prior or alternative claims, not admissible components of this person-type claim.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The source supports configuration-level function and bounded participation only. The target
+      shifts the predicate to an intrinsic person property, violates Type Integrity and Functional Continuity, exceeds the
+      Traceability Ceiling, and is insensitive to person identity. Because the operation has been executed and fails, failed_transformation
+      is selected.
+    current_claim_disposition:
+      value: failed
+      rationale: The person-level PROJECT_AS claim is not retained. The source configuration/function, bounded participation
+        relation, Loss, variations, and alternatives remain separately recorded.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: failed_transformation
+    failed_declared_operation_claim: p7 is an intrinsic attractor type or binding type because p7 participates in configuration
+      C3 while C3 carries a bounded dynamic attractor-function.
+    failed_constitutive_conditions:
+    - A configuration-level function is predicated as a stable person property.
+    - Person replacement retains the configuration function while configuration removal defeats it.
+    - Type Integrity and Functional Continuity fail at the target person level.
+    - The asserted cross-context person property exceeds the supported source and claim ceilings.
+    source_object_validity_assessed_separately: true
+    alternatives_and_source_material_preserved: true
+    rationale: The attempted operation is a person-level type jump rather than bounded PROJECT_AS. Failure is limited to the
+      delimited transformation claim and does not invalidate the source configuration, C40-P3, bounded role participation,
+      or future separately tested role claims.
+relations:
+  prior_record_ids:
+  - case.c40-p3.project-as.01
+  prior_claim_ids:
+  - claim.c40-p3.project-as.01
+  sibling_claim_or_record_ids:
+  - case.c40-n3.project-as.01
+  rival_record_ids: []
+  countercase_refs:
+  - 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml
+  - 'negative mutation: replace p7 while retaining C3 and observe function persistence'
+  - 'negative mutation: retain p7 while dissolving C3 and observe function loss'
+  - 'future separate claim: bounded role participation without person typing'

@@ -1,0 +1,1143 @@
+schema_version: 0.1.2
+record_id: case.c40-p2.project-as.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T15:30:00+02:00'
+  updated_at: '2026-07-27T15:30:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.chapter-40-contract-minimum-production
+  repository_or_case_pointer: 03_cases/yaml/C40-P2_Trajectory_as_Macro_Event.yaml
+  record_provenance:
+  - Synthetic Chapter-40 Contract-minimum positive PROJECT_AS case instantiated from the canonical C40-P2 pressure packet
+    and the independently typed source case C17-LAMBDA-01.
+  - The record tests a non-punctualized trajectory-to-Macro-Event projection within one wider synthetic institutional path;
+    it supplies no external empirical, causal, normative, or application warrant.
+  - Built against PMS-STRATA Source-of-Truth ZIP 313 and Transformation_Record.schema.json with schema_version 0.1.2.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: 'Chapter-40 Contract-minimum package 4 of 7: positive Trajectory-as-Macro-Event case, routed and locally
+    audited.'
+claim:
+  claim_id: claim.c40-p2.macro-event.01
+  statement: Within synthetic wider institutional path W2 from Q-1 through Q8, the independently reconstructed Q0–Q5 workload-review
+    Trajectory from C17-LAMBDA-01 performs one bounded Macro-Event function for the transition from ordinary review-correctable
+    coordination to redesign-dependent coordination, because its internal sequence of missed review, workaround persistence,
+    asymmetric load shift, default stabilization, and partial repair materially conditions later branching; the source remains
+    a temporally extended Trajectory and is not punctualized into one Event or inflated into a causal turning-point proof.
+  claim_type:
+    value: bounded trajectory-to-macro-event claim
+    control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
+    inventory_status: extension
+    extension_rationale: Case-local label for the canonical Chapter-32 PROJECT_AS family; no new claim type is created.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Only composite.c17-lambda-01 from C17-LAMBDA-01 and the declared synthetic wider institutional
+      path W2.
+    operation_occurrence_boundary: Only PROJECT_AS occurrence project-as.c40-p2.01.
+    frame:
+      value: synthetic wider institutional path frame W2
+      control_source: 03_cases/yaml/C40-P2_Trajectory_as_Macro_Event.yaml#/target/frame
+      inventory_status: extension
+      extension_rationale: Case-local wider target frame only.
+    granularity:
+      value: one extended Macro-Event unit within a wider path reconstruction
+      control_source: 03_cases/yaml/C40-P2_Trajectory_as_Macro_Event.yaml#/target/granularity
+      inventory_status: extension
+      extension_rationale: Case-local target granularity preserving source duration beneath one wider-path unit.
+    relative_level:
+      value: Macro-Event target-function level relative to the origin-typed Trajectory
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Instantiates the controlled source-target relative-level relation.
+    temporal_scope: Source trajectory Q0–Q5; wider target path Q-1–Q8.
+    source_scope: Exactly the baseline, central missed Q1 review, positive sub-events, persistent workaround, asymmetric load
+      shift, default stabilization, partial Q5 repair, and retained uncertainty recorded in C17-LAMBDA-01.
+    context_scope: Only the declared transition from review-correctable coordination to redesign-dependent coordination in
+      wider path W2.
+    generalization_boundary: No transfer to other paths, periods, institutions, trajectories, or real historical settings.
+    excluded_reach:
+    - No claim that the source Trajectory becomes an Event type, Macro-Event primitive, or PMS operator.
+    - No claim that Q1, Q4, Q5, or any other punctual date is the complete event.
+    - No claim that the source is the sole cause, necessary turning point, or explanatory monopoly for later redesign.
+    - No transfer to comparison path Z2, in which timely review, full reset, and a later independent rule change carry the
+      reconstruction without an additional Macro-Event function.
+    - No person typing, legitimacy judgment, sanction, recommendation, or application authority.
+  validity_scope: Valid only for the declared wider path W2, transition dimension, and Q-1–Q8 target period.
+  claim_ceiling:
+    asserted_relation: The retained Q0–Q5 phase sequence functions as one extended transition-bearing unit in W2 because its
+      unresolved and partially repaired internal relations materially change later branching between ordinary review and formal
+      redesign.
+    reach: composite.c17-lambda-01, wider path W2, transition dimension review-correctable to redesign-dependent coordination,
+      Q-1–Q8 only.
+    precision: Internal phase order, retained duration, later branching difference, defeat conditions, and bounded target
+      function only.
+    generality: One synthetic source Trajectory and one wider synthetic target path.
+    functional_scope: Bounded Macro-Event function for one wider-path segmentation and transition relation; no Event-type
+      replacement, punctualization, or causal turning-point proof.
+    dependence_strength: The function weakens or disappears if the Q1 review is completed with redistribution, the Q2–Q4 workaround/default
+      relation does not stabilize, Q5 produces a full reset, or W2 is replaced by comparison path Z2.
+    inferential_distance: One explicit PROJECT_AS occurrence from an independently typed Trajectory to one bounded non-operator
+      target function.
+    limiting_sources: &id001
+    - source.record.c17-lambda-01
+    - source.fixture.c40-p2.wider-path-w2
+    rationale: The packet supports one extended transition-bearing unit in W2, but not a complete historical period, a punctual
+      Event identity, causal necessity, cross-path transfer, or authority claim.
+  authority_boundary: The case authorizes only the bounded methodological routing of this synthetic projection claim; it grants
+    no empirical truth, causal proof, person judgment, institutional decision, policy, sanction, or application authority.
+source:
+  reference_object:
+    object_id: composite.c17-lambda-01
+    description: The bounded Q0–Q5 workload-review Trajectory with central Non-Event instantiated in C17-LAMBDA-01.
+    typing:
+      value: trajectory
+      control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/object_typing
+      inventory_status: current_controlled
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/reference_object
+  object_typing:
+    value: trajectory
+    control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/object_typing
+    inventory_status: current_controlled
+  frame:
+    value: synthetic workload-review trajectory frame
+    control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/frame
+    inventory_status: extension
+    extension_rationale: Inherited local source frame from the prior case.
+  granularity:
+    value: quarterly configuration, Non-Event, load-shift, default, and repair granularity
+    control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/granularity
+    inventory_status: extension
+    extension_rationale: Inherited local source granularity.
+  relative_level:
+    value: origin-typed Trajectory relative to the wider-path Macro-Event target function
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local source-side relative level.
+  temporal_scope: Synthetic source interval Q0–Q5, retained in full beneath the wider Q-1–Q8 target reconstruction.
+  source_scope: Exactly the baseline, central missed Q1 review, positive sub-events, persistent workaround, asymmetric load
+    shift, default stabilization, partial Q5 repair, and retained uncertainty recorded in C17-LAMBDA-01.
+  source_basis:
+  - source_item_id: source.record.c17-lambda-01
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+    provenance_description: Schema-valid positive COMPOSE case establishing the origin-typed Trajectory, central missed review,
+      phase order, later carriers, uncertainty, and prior Loss.
+    affected_claim_component: Independent source identity, origin type, internal duration, phase heterogeneity, and retained
+      historical load.
+    support_mode: direct
+    evidence_role:
+      value: prior instantiated STRATA case record
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local cross-record evidence role.
+    evidence_availability: available
+    temporal_scope: Q0–Q5
+    reference_scope: composite.c17-lambda-01
+    uncertainty_or_provenance_limit: Synthetic case record; exact local cost allocation and causal mechanism remain uncertain
+      or irrecoverable.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.fixture.c40-p2.wider-path-w2
+    source_pointer: case://pms-strata/c40-p2/wider-path-w2
+    provenance_description: 'Synthetic declaration of wider path W2 and comparison path Z2: W2 begins with an ordinary review-correctable
+      arrangement at Q-1, includes the Q0–Q5 source Trajectory, and reaches a Q6–Q8 redesign branch only after residual default
+      and partial repair; Z2 instead includes timely review, full reset, and a later independent rule change that carries
+      the redesign branch without additional source-dependent Macro-Event work.'
+    affected_claim_component: Wider target path, before/after transition difference, later branching, and no-projection contrast.
+    support_mode: direct
+    evidence_role:
+      value: synthetic target-path and contrast declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local evidence role for the Chapter-40 Contract-minimum case.
+    evidence_availability: available
+    temporal_scope: Q-1–Q8
+    reference_scope: wider path W2 and comparison path Z2
+    uncertainty_or_provenance_limit: Synthetic target packet; no external periodization, causal calibration, or real-world
+      transfer is asserted.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace: &id002
+  - trace_id: trace.c40-p2.phase-sequence
+    source_feature: The ordered Q0–Q5 sequence of baseline, missed review, workaround, asymmetric load shift, default stabilization,
+      and partial repair.
+    affected_claim_component: Internal duration and extended transition-bearing unity in W2.
+    trace_role: load_bearing
+    result_dependency: Without the ordered phase relation, the source becomes an event list or chronology and does not support
+      one Macro-Event function.
+    expected_result_change: Fragmenting or reordering the phases withdraws the unitary Macro-Event claim or reduces it to
+      an Event Cluster.
+    temporal_or_relational_dependency: All six phases remain visible and ordered beneath the target-level compression.
+    claim_limitation: Supports one extended unit only; it does not make the source punctual or internally homogeneous.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details
+  - trace_id: trace.c40-p2.central-non-event
+    source_feature: The warrantable Q1 review Non-Event with positive preparation activity and later non-repair.
+    affected_claim_component: Transition from ordinary review-correctability toward workaround-dependent continuation.
+    trace_role: load_bearing
+    result_dependency: If the review occurs with effective redistribution, the claimed transition begins to dissolve.
+    expected_result_change: Timely review and redistribution narrow or withdraw the Macro-Event function in W2.
+    temporal_or_relational_dependency: The Q1 Non-Event must remain linked to the Q2 workaround and later default rather than
+      isolated as a punctual event.
+    claim_limitation: Supports bounded transition load, not causal monopoly or hidden intention.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/source/constitutive_source_trace
+  - trace_id: trace.c40-p2.default-stabilization
+    source_feature: Persistent workaround and asymmetric workload concentration stabilize into a default through Q4.
+    affected_claim_component: Later closure of the low-cost ordinary-review branch and opening of redesign-dependent continuation.
+    trace_role: load_bearing
+    result_dependency: Without stabilization, later redesign can remain a present-condition choice rather than a source-conditioned
+      branch transition.
+    expected_result_change: Removing default stabilization weakens the wider-path segmentation and may leave only background
+      history.
+    temporal_or_relational_dependency: Workaround, asymmetry, and default must remain relationally connected across Q2–Q4.
+    claim_limitation: Supports one bounded branch-condition difference, not institutional determinism.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/source/constitutive_source_trace
+  - trace_id: trace.c40-p2.partial-repair
+    source_feature: Partial Q5 repair reverses part of the load but leaves residual revision and exit costs.
+    affected_claim_component: Internal reversal, non-homogeneity, and the transition into redesign-dependent rather than fully
+      reset continuation.
+    trace_role: load_bearing
+    result_dependency: Treating Q5 as full restoration falsely closes the source and defeats the later residual transition
+      relation.
+    expected_result_change: A complete reset at Q5 supports no additional Macro-Event projection in comparison path Z2.
+    temporal_or_relational_dependency: Partial repair must remain a phase inside the source Trajectory, not a punctual endpoint
+      that erases earlier phases.
+    claim_limitation: Exact residual-cost magnitude remains uncertain; only the bounded direction and branch effect are retained.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/loss/uncertain
+  known_gaps:
+  - Exact contribution of each source phase to the later redesign branch remains uncertain.
+  - A narrower Q1–Q5 source object may carry the target function more precisely but is not independently warranted in this
+    package.
+  - Fine causal mechanisms and exact cost allocation are irrecoverable in the synthetic packet.
+  - No external historical periodization or rival-model calibration is supplied.
+  source_ceiling:
+    asserted_relation: The source packet supports one extended source-sensitive transition unit in W2 while preserving all
+      internal phases and the Z2 no-projection contrast.
+    reach: composite.c17-lambda-01, wider path W2, transition dimension review-correctable to redesign-dependent coordination,
+      Q-1–Q8 only.
+    precision: Internal phase order, retained duration, later branching difference, defeat conditions, and bounded target
+      function only.
+    generality: One synthetic source Trajectory and one wider synthetic target path.
+    functional_scope: Bounded Macro-Event function for one wider-path segmentation and transition relation; no Event-type
+      replacement, punctualization, or causal turning-point proof.
+    dependence_strength: The function weakens or disappears if the Q1 review is completed with redistribution, the Q2–Q4 workaround/default
+      relation does not stabilize, Q5 produces a full reset, or W2 is replaced by comparison path Z2.
+    inferential_distance: One explicit PROJECT_AS occurrence from an independently typed Trajectory to one bounded non-operator
+      target function.
+    limiting_sources: *id001
+    rationale: The packet supports one extended transition-bearing unit in W2, but not a complete historical period, a punctual
+      Event identity, causal necessity, cross-path transfer, or authority claim.
+operation:
+  occurrence_id: project-as.c40-p2.01
+  kind: PROJECT_AS
+  justification: The independently typed source Trajectory is tested for one additional bounded transition-bearing function
+    in a wider target Path; no source reconstruction, type replacement, punctual Event identity, composition, or decomposition
+    occurs.
+  expected_praxeological_difference: Distinguish a wider path in which ordinary review remains a low-cost correction route
+    from one in which the retained Q0–Q5 course closes that corridor and makes formal redesign a materially different later
+    branch.
+  selection_rule: Foreground the complete ordered phase relation, central Non-Event, workaround/default stabilization, asymmetric
+    load, partial repair, residual branch effect, and W2/Z2 contrast; retain source uncertainty and Loss; compress only non-load-bearing
+    microdetail; exclude punctualization, rhetorical period labels, causal monopoly, and unrelated history.
+  transformation_context: Synthetic wider institutional path W2 from Q-1 through Q8.
+  details:
+    target_context: wider institutional path W2, Q-1–Q8, transition from review-correctable to redesign-dependent coordination
+    constitutive_source_trace: *id002
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: true
+    alternative_projection_or_no_projection:
+    - bounded Event Cluster in the wider path
+    - one narrower phase as turning Event
+    - bounded frame-function in a different target context
+    - source Trajectory as background history only
+    - structural analogy only
+    - no projection in comparison path Z2
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: projection.c40-p2.macro-event
+    description: A derived contextual view in which composite.c17-lambda-01 performs one bounded non-punctualized Macro-Event
+      function inside wider institutional path W2.
+    typing:
+      value: derived contextual function
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/primary_result_kind
+      inventory_status: extension
+      extension_rationale: Case-local PROJECT_AS target wording.
+    source_pointer: 03_cases/markdown/C40-P2_Trajectory_as_Macro_Event.md#4-tested-projection
+  object_typing:
+    value: derived contextual function
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/primary_result_kind
+    inventory_status: extension
+    extension_rationale: Case-local PROJECT_AS target wording.
+  contextual_function:
+    value: bounded Macro-Event function
+    control_source: 01_blocks/04_part_iii_retype.md#32-2-macro-event-as-target-function
+    inventory_status: current_controlled
+  frame:
+    value: synthetic wider institutional path frame W2
+    control_source: 03_cases/yaml/C40-P2_Trajectory_as_Macro_Event.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Case-local wider target frame.
+  granularity:
+    value: one extended Macro-Event unit within the wider path
+    control_source: 03_cases/yaml/C40-P2_Trajectory_as_Macro_Event.yaml#/claim/claim_scope/granularity
+    inventory_status: extension
+    extension_rationale: Material target-level compression with internal duration retained.
+  relative_level:
+    value: Macro-Event target-function level relative to the origin-typed Trajectory
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local target-side relation.
+  temporal_scope: Wider path Q-1–Q8; source duration Q0–Q5 remains explicit.
+  validity_scope: Valid only for the declared wider path W2, transition dimension, and Q-1–Q8 target period.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source Trajectory, prior record, wider target path, transition dimension, function, scope, ceilings,
+        and authority boundary are complete.
+      rationale: The source exists independently; W2 and comparison Z2 are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /target
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: The occurrence is correctly classified as PROJECT_AS.
+      rationale: An origin-typed Trajectory is assigned one bounded non-operator target function; no type replacement, composition,
+        decomposition, or punctual Event identity occurs.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /operation
+      - 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The projection yields a concrete wider-path segmentation and later-branching difference.
+      rationale: It distinguishes ordinary review-correctable continuation from redesign-dependent continuation rather than
+        merely naming a period.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/praxis_purchase
+      - /operation/expected_praxeological_difference
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The target function remains reconstructible from four declared phase relations and the W2/Z2 contrast.
+      rationale: The claim does not exceed the source record, target packet, or retained uncertainty.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/traceable_load
+      - /operation/details/constitutive_source_trace
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Reference, Trajectory origin type, internal duration, target function, temporal scopes, and context
+        boundary are preserved.
+      rationale: The source remains a Trajectory; Macro-Event is derived and contextual, not an Event type or new primitive.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/type_integrity
+      - /admissibility/rule_assessments/reference_continuity
+      - /admissibility/rule_assessments/functional_continuity
+      - /target
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The claim changes under timely review, removal of default stabilization, full repair, phase fragmentation,
+        punctualization, or target-path substitution.
+      rationale: These mutations reduce, withdraw, or reroute the Macro-Event claim while leaving the source Trajectory separately
+        intact.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/counterfactual_sensitivity
+      - /source/constitutive_source_trace
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: All five Loss fields and target-level compression effects are explicit.
+      rationale: Internal duration, phases, reversal, residuals, uncertainty, excluded causal reach, and irrecoverable mechanism
+        limits remain visible.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /operation/selection_rule
+      - /loss
+      - /admissibility/rule_assessments/selection_and_loss
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Event Cluster, narrower Event, different-context frame-function, background history, analogy, and no-projection
+        options were compared.
+      rationale: No-projection is retained for Z2; alternatives are not merged into the routed claim.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /alternatives
+      - /admissibility/rule_assessments/alternatives
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source, boundary, periodization, and synthetic discrimination limits are explicit.
+      rationale: The packet distinguishes non-punctualized Macro-Event function from chronology, headline periodization, and
+        causal-turning-point inflation without claiming external calibration.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /source/source_ceiling
+      - /admissibility/rule_assessments/source_ceiling
+      - /admissibility/rule_assessments/calibration
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: The prior COMPOSE result is neither repaired nor strengthened by the projection.
+      rationale: Failure of this target-function claim would leave C17-LAMBDA-01 independently testable and would not be rescued
+        by moving boundaries or levels.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /admissibility/anti_immunization_assessment
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: No Mandatory Stop or material Non-Capture trigger is reached for the narrowed W2 claim.
+      rationale: A source-sensitive bounded projection remains; continuation beyond W2 or toward causal proof would require
+        a new claim or stop.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/stop_assessment
+      - /admissibility/non_capture_assessment
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: The claim and authority ceilings exclude Event identity, punctualization, causal necessity, transfer,
+        person typing, and application authority.
+      rationale: Formal validation and routing do not increase substantive or practical authority.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim/claim_ceiling
+      - /governance
+      - /result/status_declaration
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/relevance_floor
+      - /operation
+      - /claim
+      reasoned_finding: The projection changes reconstruction of the wider path by distinguishing review-correctable continuation
+        from redesign-dependent continuation and by locating one extended transition-bearing unit rather than merely naming
+        history.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the praxis_purchase finding and its existing scope.
+      required_action: Retain only the W2 transition-bounded Macro-Event claim.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/traceability_ceiling
+      - /operation
+      - /claim
+      reasoned_finding: The target function remains below the Traceability Ceiling through ordered phase, central Non-Event,
+        default-stabilization, partial-repair, and W2/Z2 discrimination traces.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the traceable_load finding and its existing scope.
+      required_action: Preserve all four load-bearing traces and the W2/Z2 contrast.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The source remains typed as Trajectory; bounded Macro-Event function is a separate non-operator target
+        function and not an Event identity or new primitive.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the type_integrity finding and its existing scope.
+      required_action: Maintain explicit source-type/target-function separation.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The same source reference composite.c17-lambda-01 is retained throughout the projection.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the reference_continuity finding and its existing scope.
+      required_action: Do not substitute a period label or punctual date for the source object.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The target function depends on the source phase relations, internal duration, residual transition
+        load, and the declared W2 wider-path rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the functional_continuity finding and its existing scope.
+      required_action: Withdraw or retest the function if load-bearing phases or the wider target path change.
+      controlled_local_result: null
+      applicability_condition: Applies when PROJECT_AS assigns a bounded source-sensitive function while preserving the origin
+        type.
+      applicability_rationale: This occurrence tests whether the independently typed source Trajectory performs a Macro-Event
+        function in one wider target Path.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The source duration Q0–Q5 remains explicit beneath the wider Q-1–Q8 target representation; no phase
+        becomes instantaneous.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the temporal_continuity finding and its existing scope.
+      required_action: Preserve distinct source and target temporal scopes and internal phase order.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: W2, target frame, target granularity, relative level, transition dimension, Q-1–Q8 period, and transfer
+        limits are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the contextual_boundedness finding and its existing scope.
+      required_action: Retain the function only for the declared W2 transition relation.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/counterfactual_sensitivity
+      - /operation
+      - /claim
+      reasoned_finding: Timely review, phase fragmentation, removal of default stabilization, full reset, punctualization,
+        or substitution of Z2 materially narrows, reroutes, or withdraws the function claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the counterfactual_sensitivity finding and its existing scope.
+      required_action: Preserve defeat conditions and do not infer causality.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: The source supports one bounded wider-path Macro-Event function but not a complete period identity,
+        sole turning point, causal monopoly, or permanent effect.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the source_ceiling finding and its existing scope.
+      required_action: Retain only the bounded synthetic projection.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_calibration_limits
+      - /operation
+      - /claim
+      reasoned_finding: The synthetic packet discriminates W2 from Z2 and the bounded function from chronology, headline periodization,
+        Event Cluster sufficiency, punctualization, and causal inflation; external calibration remains absent.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the calibration finding and its existing scope.
+      required_action: Use the defined mutations for case testing; do not treat them as external empirical calibration.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/loss_and_selection
+      - /operation
+      - /claim
+      reasoned_finding: The projection preserves duration, phases, reversal, residuals, and source uncertainty; compresses
+        non-load-bearing microdetail; excludes transfer and causal authority; and marks fine mechanism detail irrecoverable.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the selection_and_loss finding and its existing scope.
+      required_action: Retain the function with the declared five-field Loss profile.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/alternatives
+      - /operation
+      - /claim
+      reasoned_finding: Event Cluster, narrower Event, different-context frame-function, source-only background, analogy-only,
+        and no-projection options remain visible; Z2 receives no projection.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the alternatives finding and its existing scope.
+      required_action: Preserve alternatives without merging them into the selected claim.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: The claim ceiling excludes Event-type replacement, punctualization, complete-period identity, causal
+        necessity, cross-path transfer, person properties, and application claims.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the claim_ceiling finding and its existing scope.
+      required_action: Exclude decisive-turning-point, all-path, permanent, and transfer claims.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/claim_and_authority_ceiling
+      - /operation
+      - /claim
+      reasoned_finding: Formal validation and routing grant no empirical truth, historical authority, institutional decision,
+        policy, or application authority.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the authority_ceiling finding and its existing scope.
+      required_action: Maintain prohibition on person typing, legitimacy, policy, sanction, recommendation, and intervention.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /operation
+      - /claim
+      reasoned_finding: No stop condition is reached because the projection is relevant, traceable, type-preserving, non-punctualized,
+        source-sensitive, and context-bound.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the stop finding and its existing scope.
+      required_action: Continue only for this record; any material extension requires a new testable claim.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /operation
+      - /claim
+      reasoned_finding: An adequate narrowed W2 claim remains after bounded alternatives and mutations; no material capture
+        limit is asserted for that claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the non_capture finding and its existing scope.
+      required_action: Retain the claim while preserving periodization, causal, transfer, and authority limits.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The twelve-stage audit supports one source-sensitive non-punctualized Macro-Event function in W2
+    while materially excluding Event identity, punctualization, decisive causal turning-point reach, transfer to Z2, and authority.
+    The retained restriction is decisive, so admissible_with_bounded_claim is generated.
+  anti_immunization_assessment: The PROJECT_AS occurrence neither revises nor rescues C17-LAMBDA-01. Alternative periodizations,
+    narrower source objects, Event-Cluster treatment, no projection, and later failure remain available; moving the target
+    frame cannot erase an earlier failed claim.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: No relevance, traceability, type, reference, temporal, functional, contextual, or authority Stop trigger is
+      reached for the narrowed W2 claim; punctualized or causal-monopoly extensions would require reduction or stop.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The bounded W2 target function remains adequately reconstructible; unresolved exact mechanisms and rival periodization
+      pressure are retained as limits rather than converted into a material capture failure.
+loss:
+  preserved:
+  - item_id: loss.c40-p2.preserved.source-trajectory
+    affected_element: Source reference, Trajectory origin type, and prior disposition
+    description: composite.c17-lambda-01 remains the authoritative Q0–Q5 source Trajectory with its central Non-Event, ordered
+      phases, uncertainty, and prior Loss.
+    reason: PROJECT_AS requires source, reference, and origin-type preservation.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserve the source Trajectory separately from the Macro-Event function.
+    source_or_evidence_pointer: /source/reference_object
+  - item_id: loss.c40-p2.preserved.duration-phases
+    affected_element: Internal duration, phase order, reversal, asymmetry, default stabilization, and partial repair
+    description: All load-bearing phases remain explicit beneath the wider-path compression.
+    reason: Macro-Event unity may not punctualize or homogenize the source.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain internal duration and heterogeneous phase relations.
+    source_or_evidence_pointer: /source/constitutive_source_trace
+  - item_id: loss.c40-p2.preserved.target-boundary
+    affected_element: W2, Q-1–Q8, and the review-correctable to redesign-dependent transition dimension
+    description: The wider target Path, before/after relation, comparison Z2, and validity period remain explicit.
+    reason: They are constitutive to the bounded route.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Bind the function to W2 and the declared transition dimension.
+    source_or_evidence_pointer: /target/validity_scope
+  compressed:
+  - item_id: loss.c40-p2.compressed.microdetail
+    affected_element: Non-load-bearing local actions and micro-events inside Q0–Q5
+    description: Fine local detail is compressed when the Trajectory is represented as one wider-path unit, while remaining
+      recoverable from the source case.
+    reason: The target claim depends on phase relations and later branching rather than every local occurrence.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Do not infer instantaneous occurrence or micro-event completeness.
+    source_or_evidence_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+    recoverability_or_reentry_note: Use a separate DECOMPOSE record if finer source detail becomes claim-bearing.
+  excluded:
+  - item_id: loss.c40-p2.excluded.other-paths-periods
+    affected_element: Other wider paths, periodizations, transition dimensions, and comparison path Z2
+    description: No Macro-Event function is asserted outside W2 or for a different source boundary.
+    reason: Transfer or rival periodization is a new claim; Z2 is carried by timely review, full reset, and an independent
+      later rule.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Exclude cross-path and cross-period transfer.
+    source_or_evidence_pointer: /claim/claim_scope/generalization_boundary
+  - item_id: loss.c40-p2.excluded.punctual-causal-authority
+    affected_element: Punctual Event identity, decisive turning-point status, causal necessity, explanatory monopoly, person
+      typing, legitimacy, recommendation, and authority
+    description: The bounded Macro-Event function structures one wider-path transition without proving a single event date,
+      causal sufficiency, necessity, or authorization.
+    reason: PROJECT_AS does not increase evidential or practical authority.
+    claim_effect:
+      family:
+        value: separate
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Separate bounded target function from Event identity, causal, and authority claims.
+    source_or_evidence_pointer: /governance/authority_ceiling
+  uncertain:
+  - item_id: loss.c40-p2.uncertain.phase-contribution
+    affected_element: Exact contribution of each source phase and the optimal rival periodization
+    description: The phase sequence and bounded transition effect are supported, but exact contribution weights and superiority
+      over a narrower Q1–Q5 source remain uncertain.
+    reason: The synthetic packet does not provide external periodization or quantitative phase calibration.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the function without exact phase weighting or unique-periodization claims.
+    source_or_evidence_pointer: /source/known_gaps
+  irrecoverable:
+  - item_id: loss.c40-p2.irrecoverable.causal-mechanism
+    affected_element: Fine causal mechanism and exact local cost transmission from every source phase into Q6–Q8 branching
+    description: The synthetic packet cannot recover a complete causal mechanism or exhaustive local cost pathway.
+    reason: Such detail was not encoded and is not required for the bounded structural function claim.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Exclude causal proof and mechanism completeness.
+    source_or_evidence_pointer: /source/known_gaps
+alternatives:
+  rival_compositions: []
+  rival_decompositions: []
+  rival_projections:
+  - alternative_id: alternative.c40-p2.event-cluster
+    claim_relation: Treat the Q0–Q5 source as a bounded Event Cluster in W2 without one Macro-Event function.
+    source_basis_or_evidence_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+    comparative_burden: Preserves multiplicity and duration but does not by itself establish one transition-bearing unit.
+    current_handling: not_selected
+    rationale: The W2 packet supports a source-sensitive unitary transition function while retaining internal phases.
+  - alternative_id: alternative.c40-p2.narrower-turning-event
+    claim_relation: Project only Q4 default stabilization or Q5 partial repair as one narrower turning Event.
+    source_basis_or_evidence_pointer: /source/constitutive_source_trace
+    comparative_burden: Lower temporal breadth but risks losing the central Non-Event, workaround, asymmetry, and partial
+      reversal relation.
+    current_handling: not_selected
+    rationale: No single phase carries the declared W2 transition difference without the wider ordered source relation.
+  - alternative_id: alternative.c40-p2.frame-function
+    claim_relation: Retain the same source as a bounded historical frame-function in a different target context.
+    source_basis_or_evidence_pointer: 03_cases/yaml/C40-P1_Trajectory_as_Bounded_Frame_Function.yaml
+    comparative_burden: Different target coordinates and functional burden; compatible only if kept separate.
+    current_handling: not_selected
+    rationale: C40-P1 remains a sibling projection in a different context and cannot substitute for the W2 Macro-Event claim.
+  - alternative_id: alternative.c40-p2.background-history
+    claim_relation: Treat the source Trajectory as accessible background history only.
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Requires no target transition function.
+    current_handling: rejected
+    rationale: W2 differs from Z2 along the declared branch-transition dimension when load-bearing source phases are altered.
+  - alternative_id: alternative.c40-p2.analogy-only
+    claim_relation: Use the source phase structure only as an analogy for one larger event form.
+    source_basis_or_evidence_pointer: /source/reference_object
+    comparative_burden: Preserves resemblance but not functional continuity.
+    current_handling: rejected
+    rationale: The packet contains a source-dependent wider-path function and defeat conditions, not resemblance alone.
+  no_transformation:
+  - alternative_id: alternative.c40-p2.no-projection-z2
+    claim_relation: Retain the source Trajectory without additional Macro-Event function in comparison path Z2.
+    source_basis_or_evidence_pointer: source.fixture.c40-p2.wider-path-w2
+    comparative_burden: Lower inferential burden and correct where timely repair, full reset, and an independent later rule
+      carry the target reconstruction.
+    current_handling: not_selected
+    rationale: No-projection is warranted in Z2 but does not defeat the bounded W2 function.
+  non_translation: []
+  unresolved:
+  - alternative_id: alternative.c40-p2.narrower-source-q1-q5
+    claim_relation: A separately warranted Q1–Q5 source object may carry the target function more precisely.
+    source_basis_or_evidence_pointer: /source/known_gaps
+    comparative_burden: Would require a new source claim or DECOMPOSE/COMPOSE work rather than target-driven boundary revision.
+    current_handling: unresolved
+    rationale: The current package preserves the locked Q0–Q5 source boundary and does not fabricate a narrower source object.
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal validation and bounded routing apply only to this synthetic W2 Macro-Event function claim. They
+    establish no empirical truth, historically correct periodization, causal necessity, person type, legitimacy, policy, sanction,
+    recommendation, institutional authority, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - Trajectory origin type is not replaced by Event or Macro-Event
+  - target-level unity does not imply punctual occurrence or internal homogeneity
+  - transition-bearing function does not prove causal necessity, sole turning-point status, or explanatory monopoly
+  - W2 validity does not transfer to other paths, periods, institutions, or real settings
+  - the target function is not a new PMS primitive or operator occurrence
+  - formal passage does not authorize institutional decisions or intervention
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: The independently typed Q0–Q5 Trajectory is projected as one bounded, non-punctualized Macro-Event function only
+      within wider path W2 and only for the transition from review-correctable to redesign-dependent coordination; internal
+      duration and phase heterogeneity remain visible, the source claim remains intact, and causal or authority reach is excluded.
+    result_family:
+      value: admissible bounded contextual function with material reach restriction
+      control_source: 07_model/Output_Classes.yaml#/output_classes/admissible_with_bounded_claim/representative_local_results
+      inventory_status: extension
+      extension_rationale: Local result wording instantiates the canonical admissible_with_bounded_claim class for PROJECT_AS.
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: supported
+    resolution_test_result: null
+    capture_statement:
+      statement: No material capture limit is asserted for the bounded W2 Macro-Event claim; periodization pressure, source
+        uncertainty, alternatives, and excluded causal reach remain separately visible.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The broad decisive-turning-point and unrestricted wider-path claim is not supported; material transition,
+          period, and causal narrowing is decisive.
+        constitutive_condition_pointers: []
+        preserved_finding: Ordinary boundedness alone is insufficient for the broader candidate.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: selected
+        rationale: The source-sensitive projection passes the applicable checks, but only after materially restricting the
+          broader decisive-turning-point candidate to one W2 transition dimension, one wider period, explicit internal duration,
+          and excluded causal and cross-path reach.
+        constitutive_condition_pointers: &id003
+        - /operation/details/constitutive_source_trace
+        - /operation/details/source_reference_preserved
+        - /operation/details/origin_type_preserved
+        - /operation/details/target_function_bounded
+        - /admissibility/rule_assessments/praxis_purchase
+        - /admissibility/rule_assessments/traceable_load
+        - /admissibility/rule_assessments/counterfactual_sensitivity
+        - /claim/claim_ceiling
+        - /loss
+        - /governance/authority_inheritance
+        preserved_finding: The W2 transition-bounded Macro-Event function is retained while Event identity, punctualization,
+          causal monopoly, cross-path transfer, and authority are excluded.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The retained W2 claim is supported despite declared uncertainty; the open narrower-source alternative does
+          not make current support provisional.
+        constitutive_condition_pointers: []
+        preserved_finding: Periodization pressure remains visible without defeating the bounded current route.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: No separable unsupported component remains inside the delimited claim; excluded causal and transfer claims
+          are not retained as partial subclaims.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The record already tests the materially narrowed replacement claim rather than preserving the broader candidate
+          as the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: No current Stop trigger is reached; only later punctualized, causal-monopoly, or source-revision extensions
+          would require reduction or stop.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: Source, type, wider target frame, transition function, Source Trace, duration, and defeat conditions are
+          present; this is not label substitution or invalid type jump.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: Adequate bounded capture remains for the current W2 claim; unresolved exact mechanisms and rival-source
+          pressure do not constitute material Non-Capture.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: admissible_with_bounded_claim
+    route_id: route_admissible_with_bounded_claim
+    matched_constitutive_conditions: *id003
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - The source Trajectory remains independently admissible under C17-LAMBDA-01.
+    - C40-P1 remains a separate compatible frame-function projection in different target coordinates.
+    - No-projection remains correct for comparison path Z2.
+    - A narrower Q1–Q5 source candidate remains open and requires a separate source operation rather than target-driven boundary
+      revision.
+    split_decision:
+      required: false
+      rationale: One narrowed PROJECT_AS claim is routed here; the prior COMPOSE claim, sibling C40-P1 projection, Z2 no-projection
+        contrast, and unresolved narrower-source alternative remain separate claims or records.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: Source and target are explicit; PraxisPurchase, TraceableLoad, Type Integrity, Reference, Functional
+      and Temporal Continuity, strong Counterfactual Sensitivity, exact five-field Loss, alternatives, Source and Claim Ceilings,
+      Stop, Non-Capture, and Authority Ceiling pass. Material restriction to one W2 transition dimension with internal duration
+      preserved and causal reach excluded is decisive, so admissible_with_bounded_claim is selected.
+    current_claim_disposition:
+      value: maintained
+      rationale: The narrowed W2 Macro-Event function claim is maintained; broader decisive-turning-point, punctual Event,
+        complete-period, causal-monopoly, and cross-path reach is excluded without erasing the source Trajectory.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_with_bounded_claim
+    original_broader_claim_id: candidate.c40-p2.decisive-turning-point-macro-event
+    retained_narrower_claim_pointer: /claim/claim_id
+    material_narrowing:
+    - Function limited to wider path W2 and the transition from review-correctable to redesign-dependent coordination.
+    - Function limited to Q-1–Q8 while source duration Q0–Q5 and all load-bearing phases remain explicit.
+    - Punctual Event identity, complete-period identity, causal necessity, sole-turning-point status, and comparison path
+      Z2 are excluded.
+    excluded_reach:
+    - No Event-type replacement, punctualization, complete historical period identity, causal monopoly, cross-path transfer,
+      person typing, or authority.
+    separately_tested: true
+    rationale: The source-sensitive target function passes only under the declared wider path, transition dimension, temporal,
+      source-trace, Loss, claim, and authority ceilings.
+relations:
+  prior_record_ids:
+  - case.c17-lambda-01.compose.01
+  prior_claim_ids:
+  - claim.c17-lambda-01.compose.01
+  sibling_claim_or_record_ids:
+  - case.c40-p1.project-as.01
+  rival_record_ids: []
+  countercase_refs:
+  - 'comparison finding: no projection in reset path Z2'
+  - 'negative mutation: punctualize the source to Q1 or Q4'
+  - 'negative mutation: remove internal phase order and retain only a historical label'
+  - 'unresolved rival: separately warrant a narrower Q1–Q5 source object'

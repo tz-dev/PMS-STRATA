@@ -1,0 +1,1260 @@
+schema_version: 0.1.2
+record_id: case.c40-p3.project-as.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T16:45:00+02:00'
+  updated_at: '2026-07-27T16:45:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.chapter-40-contract-minimum-production
+  repository_or_case_pointer: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml
+  record_provenance:
+  - Synthetic Chapter-40 Contract-minimum positive PROJECT_AS case instantiated from the canonical C40-P3 pressure packet
+    and three independently warranted C17 Trajectory Records.
+  - The record tests one bounded dynamic recurrent-form-to-attractor-function projection in later transition field C3; source
+    formation, prior COMPOSE results, and all alternative source claims remain separate.
+  - Built against PMS-STRATA Source-of-Truth ZIP 314 and Transformation_Record.schema.json with schema_version 0.1.2.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: 'Chapter-40 Contract-minimum package 5 of 7: positive recurrent-trajectory-form-as-Attractor-function
+    case, routed and locally audited.'
+claim:
+  claim_id: claim.c40-p3.project-as.01
+  statement: The independently source-warranted recurrent transition form R3, while retaining origin type derived recurrent-form
+    composite, performs one bounded dynamic attractor-function in later transition field C3 by changing transition access,
+    friction, expectation, role recurrence, resource commitment, and reopening cost; visible similarity without those source-dependent
+    effects in E3 receives no projection.
+  claim_type:
+    value: bounded recurrent-form-to-attractor-function claim
+    control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
+    inventory_status: extension
+    extension_rationale: Case-local label for the canonical Chapter-33 PROJECT_AS family; no new claim type is created.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Exactly recurrent-form composite R3 reconstructed from C17-LAMBDA-01, C17-ATTR-01, and C17-PROJ-01
+      under declared comparison coordinates, projected only in later transition field C3.
+    operation_occurrence_boundary: One PROJECT_AS occurrence only; no new COMPOSE, DECOMPOSE, source-boundary revision, operator
+      creation, or prior-record reassessment.
+    frame:
+      value: synthetic recurrent coordination and later-transition frame C3
+      control_source: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml#/claim/claim_scope/frame
+      inventory_status: extension
+      extension_rationale: Case-local source and target boundary only.
+    granularity:
+      value: cross-trajectory recurrent-form and target transition-access granularity
+      control_source: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml#/claim/claim_scope/granularity
+      inventory_status: extension
+      extension_rationale: Case-local comparison and target-function granularity only.
+    relative_level:
+      value: dynamic target-function level relative to an origin-typed recurrent-form composite
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Instantiates the controlled source-target relative-level relation.
+    temporal_scope: Three bounded prior source histories and one synthetic target follow-on window C3-R0–R4.
+    source_scope: Only the three prior C17 Trajectory Records, their declared recurrent positions, comparison coordinates,
+      inherited uncertainty/Loss, and the bounded C3/E3 fixture.
+    context_scope: Only transition access, friction, expectation, role recurrence, resource commitment, and reopening cost
+      in C3.
+    generalization_boundary: No transfer to E3, other paths, institutions, periods, persons, groups, or real historical settings.
+    excluded_reach:
+    - No claim that R3 becomes the PMS Attractor operator Α, an Attractor-typed occurrence, or a new primitive.
+    - No static-state attractor claim, universal Pattern Threshold, recurrence count, probability, prediction, causal law,
+      or deterministic continuation.
+    - No claim that every source surface event, duration, or sequence is identical.
+    - No transfer to E3 or to changed source sets and target fields without a new record.
+    - No person or group typing, diagnosis, rank, legitimacy, sanction, recommendation, intervention, or application authority.
+  validity_scope: Valid only for recurrent-form source R3 and the declared C3 transition field, roles, dimensions, and C3-R0–R4
+    target window.
+  claim_ceiling:
+    asserted_relation: R3 performs bounded dynamic attractor work in C3 because its source-traceable incomplete-reset and
+      lock-in relation changes later transition accessibility and persistence.
+    reach: R3, target field C3, transition-access dimensions, declared roles, and C3-R0–R4 only.
+    precision: Three source identities, comparison coordinates, four constitutive recurrent positions, target uptake conditions,
+      C3/E3 contrast, and defeat conditions only.
+    generality: One synthetic recurrent-form source object and one synthetic later transition field.
+    functional_scope: Bounded dynamic attractor-function for one transition form; no static-state function, Α identity, general
+      law, probability, prediction, or causal proof.
+    dependence_strength: The function narrows or disappears if source membership is materially reduced, incomplete reset or
+      lock-in is removed, target uptake is absent, approval/release friction is equalized, or C3 is replaced by E3.
+    inferential_distance: One explicit PROJECT_AS occurrence from an independently identified recurrent trajectory form to
+      one bounded contextual target function.
+    limiting_sources:
+    - source.record.c17-lambda-01
+    - source.record.c17-attr-01
+    - source.record.c17-proj-01
+    - source.fixture.c40-p3.c3-e3
+    rationale: The packet supports one bounded dynamic target function, but not source-type replacement, static attraction,
+      universal recurrence, probability, causality, prediction, transfer, or authority.
+  authority_boundary: The case authorizes only bounded methodological routing of this synthetic projection claim; it grants
+    no empirical truth, causal proof, prediction, person judgment, institutional decision, policy, sanction, recommendation,
+    or application authority.
+source:
+  reference_object:
+    object_id: composite.recurrent-form.c40-p3.r3
+    description: Bounded synthetic recurrent transition-form composite R3 reconstructed across three independently warranted
+      source Trajectories under declared comparison coordinates.
+    typing:
+      value: recurrent trajectory form
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/source_contract/recognized_object_families
+      inventory_status: current_controlled
+    source_pointer: case://pms-strata/recurrent-form.c40-p3.r3
+  object_typing:
+    value: recurrent trajectory form
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/source_contract/recognized_object_families
+    inventory_status: current_controlled
+  frame:
+    value: bounded recurrent maintenance and coordination comparison frame
+    control_source: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml#/source/frame
+    inventory_status: extension
+    extension_rationale: Case-local source comparison frame only.
+  granularity:
+    value: recurrent transition-form relations across independently warranted Trajectories
+    control_source: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml#/source/granularity
+    inventory_status: extension
+    extension_rationale: Case-local recurrent-form granularity only.
+  relative_level:
+    value: derived recurrent-form level relative to three constituent Trajectories
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Instantiates the controlled composite/source relative-level relation.
+  temporal_scope: C17-LAMBDA Q0–Q5; C17-ATTR M0–M8; C17-PROJ P0–P5; retained only as bounded source histories.
+  source_scope: Exactly the three prior Trajectory Records, their prior dispositions, declared comparison coordinates, constitutive/variable/background/uncertain/incompatible
+    positions, and inherited five-part Loss limits.
+  source_basis:
+  - source_item_id: source.record.c17-lambda-01
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+    provenance_description: Independently warranted source-sensitive Trajectory with central Non-Event, workaround persistence,
+      asymmetric load shift, default stabilization, and partial repair.
+    affected_claim_component: Incomplete reset, lock-in, and constrained reopening positions.
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#evidence-role-vocabulary
+      inventory_status: extension
+      extension_rationale: Case-local evidence-role wording under the Evidence Map.
+    evidence_availability: available
+    temporal_scope: bounded prior source interval
+    reference_scope: one prior synthetic Trajectory
+    uncertainty_or_provenance_limit: Synthetic source Record; no external empirical warrant.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.record.c17-attr-01
+    source_pointer: 03_cases/yaml/C17-ATTR-01_Trajectory_or_Attractor.yaml
+    provenance_description: Independently warranted single maintenance Trajectory with recurring escalation, temporary repair,
+      renewed backlog, and residual continuation cost; prior Attractor-function claim withheld.
+    affected_claim_component: Recurrent course-form and residual reopening load without inherited target function.
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#evidence-role-vocabulary
+      inventory_status: extension
+      extension_rationale: Case-local evidence-role wording under the Evidence Map.
+    evidence_availability: available
+    temporal_scope: bounded prior source interval
+    reference_scope: one prior synthetic Trajectory
+    uncertainty_or_provenance_limit: Synthetic source Record; no external empirical warrant.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.record.c17-proj-01
+    source_pointer: 03_cases/yaml/C17-PROJ-01_Path_or_Projection.yaml
+    provenance_description: Independently warranted coordination Trajectory with ad hoc allocation, review-mediated coordination
+      deferral, repeated rotation, burden redistribution, and residual commitment; later projection separated.
+    affected_claim_component: Allowable source variation and retained resource/role commitment.
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#evidence-role-vocabulary
+      inventory_status: extension
+      extension_rationale: Case-local evidence-role wording under the Evidence Map.
+    evidence_availability: available
+    temporal_scope: bounded prior source interval
+    reference_scope: one prior synthetic Trajectory
+    uncertainty_or_provenance_limit: Synthetic source Record; no external empirical warrant.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.fixture.c40-p3.c3-e3
+    source_pointer: case://pms-strata/fixture.c40-p3.c3-e3
+    provenance_description: Synthetic later transition fixture contrasting source-form uptake in C3 with visually similar
+      but source-independent continuation in E3.
+    affected_claim_component: Target-function discrimination, target uptake, friction, role, resource, and reopening conditions.
+    support_mode: direct
+    evidence_role:
+      value: target-context fixture
+      control_source: 04_reference/Evidence_Map.md#evidence-role-vocabulary
+      inventory_status: extension
+      extension_rationale: Case-local evidence-role wording under the Evidence Map.
+    evidence_availability: available
+    temporal_scope: C3-R0–R4 and comparison E3-R0–R4
+    reference_scope: one bounded synthetic target contrast
+    uncertainty_or_provenance_limit: No external calibration, probability, or causal evidence.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+  - trace_id: trace.c40-p3.recurrent-order
+    source_feature: Across T1–T3, a provisional or temporary arrangement is followed by deferred or incomplete coordination
+      reset, retained resource/role load, and constrained reopening.
+    affected_claim_component: Discriminating recurrent transition-form source R3.
+    trace_role: load_bearing
+    result_dependency: Without the cross-trajectory relation, the source reduces to three separate histories or a loose motif.
+    expected_result_change: Removing the relation or admitting opposite sequences withdraws or revises R3 before target projection.
+    temporal_or_relational_dependency: The relation is temporally ordered while allowing bounded variation in surface events
+      and duration.
+    claim_limitation: Supports one recurrent source form only; it does not establish Α, law, frequency, probability, or target
+      function by itself.
+    source_pointer: 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md#3-source-warrant-packet
+  - trace_id: trace.c40-p3.incomplete-reset
+    source_feature: Each source contains a coordination, review, or repair position that does not fully reset accumulated
+      load and continuation conditions.
+    affected_claim_component: Constitutive deferral/incomplete-reset position.
+    trace_role: load_bearing
+    result_dependency: If clean reset replaces incomplete reset in two sources, the recurrent-form claim materially weakens
+      or fails.
+    expected_result_change: Complete reset narrows the source set or defeats the recurrent relation.
+    temporal_or_relational_dependency: The incomplete reset precedes retained load and constrained reopening.
+    claim_limitation: Does not infer motive, blame, or causal necessity.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/source/constitutive_source_trace
+  - trace_id: trace.c40-p3.lock-in
+    source_feature: Workaround, backlog, repeated rotation, asymmetric burden, or residual commitment persists into later
+      continuation.
+    affected_claim_component: Resource and role lock-in within R3 and target transition friction.
+    trace_role: load_bearing
+    result_dependency: Without retained load, the source form becomes temporary recurrence without later path-shaping relevance.
+    expected_result_change: Clean release of roles/resources withdraws the lock-in and reopening-cost components.
+    temporal_or_relational_dependency: Lock-in follows the provisional/incomplete-reset position and precedes constrained
+      reopening.
+    claim_limitation: Supports structural persistence, not quantitative cost or causal monopoly.
+    source_pointer: 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md#5-attractor-load
+  - trace_id: trace.c40-p3.constrained-reopening
+    source_feature: Partial repair or reopening changes the course without restoring a clean pre-history corridor.
+    affected_claim_component: Dynamic rather than static attractor work and bounded reopening corridor.
+    trace_role: load_bearing
+    result_dependency: A full reset removes the recurrent constrained-reopening relation and may defeat projection.
+    expected_result_change: Full reopening supports no additional dynamic function from R3 in the declared target field.
+    temporal_or_relational_dependency: Reopening is a later transition position, not an endpoint identity.
+    claim_limitation: Exact residual-cost magnitude remains uncertain.
+    source_pointer: 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md#6-counterfactual-attractor-test
+  - trace_id: trace.c40-p3.target-uptake
+    source_feature: In C3, planning precedent, approval templates, role expectations, reserved resources, and release costs
+      make the familiar transition form easier to continue and clean reset harder to access.
+    affected_claim_component: Bounded dynamic attractor-function in C3.
+    trace_role: load_bearing
+    result_dependency: Without source-form uptake and differential access/friction, R3 remains descriptive background only.
+    expected_result_change: Removing uptake or substituting E3 yields no projection.
+    temporal_or_relational_dependency: Source-form availability precedes and conditions the C3 transition choice; it does
+      not determine it.
+    claim_limitation: Supports one structural access/cost relation, not probability, prediction, or causality.
+    source_pointer: case://pms-strata/fixture.c40-p3.c3-e3
+  known_gaps:
+  - No external sample, recurrence frequency, universal Pattern Threshold, or probabilistic calibration.
+  - Exact contribution weight of T1, T2, and T3 remains uncalibrated.
+  - Coverage of divergent, truncated, or independently regenerated trajectories is bounded to the declared synthetic counterpressure.
+  - Fine target micro-negotiation and quantitative approval/release cost are not encoded.
+  - A revised source set or narrower recurrent boundary may support a different claim and requires a new source record.
+  source_ceiling:
+    asserted_relation: Three prior Trajectories support one bounded discriminating recurrent transition form R3 under declared
+      comparison coordinates.
+    reach: T1–T3 and the four constitutive recurrent positions only.
+    precision: Source identities, prior dispositions, comparison coordinates, allowable variation, break conditions, and inherited
+      uncertainty/Loss.
+    generality: One synthetic three-Trajectory source packet.
+    functional_scope: Source-form warrant only; target function requires the separate PROJECT_AS assessment in this Record.
+    dependence_strength: R3 narrows or fails if source selection becomes target-driven, incomplete reset and lock-in are removed,
+      opposite sequences are admitted, or source boundaries materially change.
+    inferential_distance: One derived source object reconstructed across three already warranted Trajectories; no claim of
+      universal recurrence.
+    limiting_sources:
+    - source.record.c17-lambda-01
+    - source.record.c17-attr-01
+    - source.record.c17-proj-01
+    rationale: The source packet supports a bounded recurrent form but not a universal law, Α identity, frequency threshold,
+      probability, target function, or external warrant.
+operation:
+  occurrence_id: project-as.c40-p3.01
+  kind: PROJECT_AS
+  justification: The independently identified recurrent trajectory form R3 is tested for one additional bounded dynamic function
+    in later transition field C3; no source reconstruction, type replacement, operator creation, composition, or decomposition
+    occurs.
+  expected_praxeological_difference: Distinguish descriptive recurrence from a later field in which source-form uptake changes
+    transition access, friction, expectation, role recurrence, resource commitment, and reopening cost.
+  selection_rule: Foreground the recurrent transition order, incomplete-reset relation, lock-in, constrained reopening, C3
+    target uptake, and C3/E3 contrast; preserve source differences and uncertainty; exclude visual resemblance, count thresholds,
+    static attraction, deterministic or probabilistic law, causal monopoly, and person/group typing.
+  transformation_context: Synthetic later cross-unit transition field C3, C3-R0–R4.
+  details:
+    target_context: later transition field C3, C3-R0–R4, transition access and constrained reopening only
+    constitutive_source_trace:
+    - trace_id: trace.c40-p3.recurrent-order
+      source_feature: Across T1–T3, a provisional or temporary arrangement is followed by deferred or incomplete coordination
+        reset, retained resource/role load, and constrained reopening.
+      affected_claim_component: Discriminating recurrent transition-form source R3.
+      trace_role: load_bearing
+      result_dependency: Without the cross-trajectory relation, the source reduces to three separate histories or a loose
+        motif.
+      expected_result_change: Removing the relation or admitting opposite sequences withdraws or revises R3 before target
+        projection.
+      temporal_or_relational_dependency: The relation is temporally ordered while allowing bounded variation in surface events
+        and duration.
+      claim_limitation: Supports one recurrent source form only; it does not establish Α, law, frequency, probability, or
+        target function by itself.
+      source_pointer: 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md#3-source-warrant-packet
+    - trace_id: trace.c40-p3.incomplete-reset
+      source_feature: Each source contains a coordination, review, or repair position that does not fully reset accumulated
+        load and continuation conditions.
+      affected_claim_component: Constitutive deferral/incomplete-reset position.
+      trace_role: load_bearing
+      result_dependency: If clean reset replaces incomplete reset in two sources, the recurrent-form claim materially weakens
+        or fails.
+      expected_result_change: Complete reset narrows the source set or defeats the recurrent relation.
+      temporal_or_relational_dependency: The incomplete reset precedes retained load and constrained reopening.
+      claim_limitation: Does not infer motive, blame, or causal necessity.
+      source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/source/constitutive_source_trace
+    - trace_id: trace.c40-p3.lock-in
+      source_feature: Workaround, backlog, repeated rotation, asymmetric burden, or residual commitment persists into later
+        continuation.
+      affected_claim_component: Resource and role lock-in within R3 and target transition friction.
+      trace_role: load_bearing
+      result_dependency: Without retained load, the source form becomes temporary recurrence without later path-shaping relevance.
+      expected_result_change: Clean release of roles/resources withdraws the lock-in and reopening-cost components.
+      temporal_or_relational_dependency: Lock-in follows the provisional/incomplete-reset position and precedes constrained
+        reopening.
+      claim_limitation: Supports structural persistence, not quantitative cost or causal monopoly.
+      source_pointer: 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md#5-attractor-load
+    - trace_id: trace.c40-p3.constrained-reopening
+      source_feature: Partial repair or reopening changes the course without restoring a clean pre-history corridor.
+      affected_claim_component: Dynamic rather than static attractor work and bounded reopening corridor.
+      trace_role: load_bearing
+      result_dependency: A full reset removes the recurrent constrained-reopening relation and may defeat projection.
+      expected_result_change: Full reopening supports no additional dynamic function from R3 in the declared target field.
+      temporal_or_relational_dependency: Reopening is a later transition position, not an endpoint identity.
+      claim_limitation: Exact residual-cost magnitude remains uncertain.
+      source_pointer: 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md#6-counterfactual-attractor-test
+    - trace_id: trace.c40-p3.target-uptake
+      source_feature: In C3, planning precedent, approval templates, role expectations, reserved resources, and release costs
+        make the familiar transition form easier to continue and clean reset harder to access.
+      affected_claim_component: Bounded dynamic attractor-function in C3.
+      trace_role: load_bearing
+      result_dependency: Without source-form uptake and differential access/friction, R3 remains descriptive background only.
+      expected_result_change: Removing uptake or substituting E3 yields no projection.
+      temporal_or_relational_dependency: Source-form availability precedes and conditions the C3 transition choice; it does
+        not determine it.
+      claim_limitation: Supports one structural access/cost relation, not probability, prediction, or causality.
+      source_pointer: case://pms-strata/fixture.c40-p3.c3-e3
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: true
+    alternative_projection_or_no_projection:
+    - bounded recurrence description without target function
+    - one narrower role-relation or reopening-cost function
+    - static attractor-function in a separately declared target
+    - current-condition lock-in account
+    - structural analogy only
+    - no projection in comparison field E3
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: configuration.c40-p3.continuation-and-reopening-c3
+    description: Bounded later transition and reopening configuration in C3 whose route accessibility, role expectations,
+      resource commitments, and release costs are tested under recurrent-form source R3.
+    typing:
+      value: derived contextual function
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/primary_result_kind
+      inventory_status: extension
+      extension_rationale: Case-local PROJECT_AS target wording.
+    source_pointer: case://pms-strata/fixture.c40-p3.c3-e3
+  object_typing:
+    value: derived contextual function
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/primary_result_kind
+    inventory_status: extension
+    extension_rationale: Case-local PROJECT_AS target wording.
+  contextual_function:
+    value: bounded dynamic attractor-function
+    control_source: 01_blocks/04_part_iii_retype.md#33-3-dynamic-attractor
+    inventory_status: current_controlled
+  frame:
+    value: later cross-unit transition frame C3
+    control_source: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml#/target/frame
+    inventory_status: extension
+    extension_rationale: Case-local target frame only.
+  granularity:
+    value: transition-access, role/resource, and reopening-friction granularity
+    control_source: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml#/target/granularity
+    inventory_status: extension
+    extension_rationale: Case-local target-function granularity only.
+  relative_level:
+    value: dynamic target-function level relative to recurrent-form source R3
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Instantiates the controlled source-target relative-level relation.
+  temporal_scope: C3-R0–R4 follow-on transition window; source histories remain separately bounded.
+  validity_scope: Only C3, its declared roles, planning-template uptake, approval/release relation, transition-access dimensions,
+    and C3-R0–R4 window.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source and claim packet complete
+      rationale: Three prior Trajectories, comparison coordinates, R3, C3/E3, Claim Ceiling, Source Ceiling, and authority
+        boundary are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+      - 03_cases/yaml/C17-ATTR-01_Trajectory_or_Attractor.yaml
+      - 03_cases/yaml/C17-PROJ-01_Path_or_Projection.yaml
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Operation correctly classified as PROJECT_AS
+      rationale: Exactly one bounded target-function claim is tested; prior COMPOSE results and any revised source formation
+        remain separate.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - 01_blocks/04_part_iii_retype.md#33-recurrent-trajectory-form-as-attractor-function
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Praxeological Purchase established
+      rationale: The projection changes reconstruction of transition access, friction, expectation, roles, resources, and
+        reopening in C3.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /admissibility/rule_assessments/praxis_purchase
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source-to-result dependency remains reconstructible
+      rationale: Three source Records, four recurrent positions, target uptake, and C3/E3 discrimination remain explicit.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Type, reference, and function boundaries preserved
+      rationale: R3 remains a recurrent trajectory form; Attractor-function is contextual and derived; Α remains unchanged.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /source/reference_object
+      - /target/contextual_function
+      - /operation/details/origin_type_preserved
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Load-bearing changes alter or defeat the claim
+      rationale: Source membership, incomplete reset, lock-in, reopening, target uptake, approval/release friction, and E3
+        substitution pressure the result.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /admissibility/rule_assessments/counterfactual_sensitivity
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection and five-part Loss are explicit
+      rationale: Source differences, recurrence boundaries, target load, compression, exclusions, uncertainty, and irrecoverability
+        are recorded.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /loss
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Material alternatives remain live
+      rationale: Descriptive, narrower, static, present-condition, analogy, rival-source, and no-projection routes remain
+        explicit.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /alternatives
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source and calibration limits declared
+      rationale: The synthetic packet discriminates defined mutations but provides no empirical frequency, probability, causal,
+        or universal threshold calibration.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /source/source_ceiling
+      - /source/known_gaps
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: No target-driven source repair permitted
+      rationale: Changed source membership, recurrent boundary, comparison coordinates, or target conditions create a new
+        claim; elastic relabeling cannot preserve failure.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /claim/claim_scope/generalization_boundary
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: Stop and Non-Capture assessed and not reached
+      rationale: An adequate bounded C3 claim remains; declared failure conditions preserve Stop, Failure, and genuine Non-Capture
+        as possible later routes.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /admissibility/rule_assessments/stop
+      - /admissibility/rule_assessments/non_capture
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: Claim and authority ceilings maintained
+      rationale: No Α identity, law, probability, prediction, person/group type, legitimacy, recommendation, sanction, intervention,
+        or authority follows.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /claim/claim_ceiling
+      - /governance/authority_ceiling
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: The projection distinguishes descriptive recurrence from a C3 field in which the recurrent form changes
+        transition access, friction, expectation, role recurrence, resource commitment, and reopening cost.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain only the C3-bounded dynamic Attractor-function claim.
+      required_action: Retain only the C3-bounded dynamic Attractor-function claim.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: The target function remains below the Traceability Ceiling through three source Records, declared
+        comparison coordinates, recurrent-order, incomplete-reset, lock-in, constrained-reopening, target-uptake, and C3/E3
+        traces.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve all load-bearing traces and the C3/E3 contrast.
+      required_action: Preserve all load-bearing traces and the C3/E3 contrast.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: R3 remains typed as recurrent trajectory form; the bounded dynamic Attractor-function is a separate
+        non-operator target function and not Α, an Attractor occurrence, or a new primitive.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Maintain explicit source-type/target-function separation.
+      required_action: Maintain explicit source-type/target-function separation.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: The same source reference composite.recurrent-form.c40-p3.r3 is retained throughout the projection.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Do not substitute a label, one source Trajectory, or target outcome for R3.
+      required_action: Do not substitute a label, one source Trajectory, or target outcome for R3.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: The target function depends on the recurrent relation, target planning-template uptake, differential
+        approval/release friction, role/resource recurrence, and constrained reopening.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw or retest the function if source or target load changes.
+      required_action: Withdraw or retest the function if source or target load changes.
+      controlled_local_result: null
+      applicability_condition: Applies when PROJECT_AS assigns a bounded source-sensitive function while preserving the origin
+        type.
+      applicability_rationale: This occurrence tests whether the independently identified recurrent trajectory form performs
+        a bounded dynamic Attractor-function in one declared later transition field.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: The three source histories and the C3-R0–R4 target window remain separately visible; dynamic attraction
+        concerns transition form rather than timeless or static identity.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve source and target temporal scopes and transition order.
+      required_action: Preserve source and target temporal scopes and transition order.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: C3, target frame, granularity, roles, transition dimensions, validity window, transfer limits, and
+        E3 comparison are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the function only for the declared C3 relation.
+      required_action: Retain the function only for the declared C3 relation.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: Removing source Trajectories, replacing incomplete reset with clean reset, removing target uptake,
+        equalizing approval/release friction, or substituting E3 materially narrows, reroutes, or withdraws the claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve defeat conditions and do not infer causality.
+      required_action: Preserve defeat conditions and do not infer causality.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: The source supports one bounded recurrent form across T1–T3 but not a universal recurrence law, frequency
+        threshold, probability, Α identity, or automatic target function.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the source claim only under the declared comparison coordinates.
+      required_action: Retain the source claim only under the declared comparison coordinates.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: The synthetic packet discriminates C3 from E3 and dynamic source-dependent load from visual similarity,
+        current-condition sufficiency, static attraction, and elastic patterning; external calibration remains absent.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Use the defined mutations for method testing only; do not treat them as empirical calibration.
+      required_action: Use the defined mutations for method testing only; do not treat them as empirical calibration.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: The projection preserves source identities, recurrent relations, target uptake, and defeat conditions;
+        compresses non-constitutive surface detail; excludes law, prediction, causality, transfer, and authority; and marks
+        unrecorded mechanisms irrecoverable.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the function with the declared five-field Loss profile.
+      required_action: Retain the function with the declared five-field Loss profile.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: Descriptive recurrence, narrower role/reopening effect, static function, current-condition account,
+        analogy, rival source forms, and no-projection remain visible; E3 receives no projection.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve alternatives without merging them into the selected claim.
+      required_action: Preserve alternatives without merging them into the selected claim.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: The claim ceiling excludes Α identity, static-state attraction, universal threshold, recurrence law,
+        probability, prediction, causality, cross-context transfer, person/group properties, and application claims.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Exclude all-path, deterministic, predictive, and authority reach.
+      required_action: Exclude all-path, deterministic, predictive, and authority reach.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: Formal validation and routing grant no empirical truth, institutional decision, person judgment, policy,
+        sanction, recommendation, or application authority.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: 'Maintain authority_inheritance: prohibited.'
+      required_action: 'Maintain authority_inheritance: prohibited.'
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: No current Stop trigger is reached because the claim is relevant, traceable, type-preserving, source-sensitive,
+        discriminating, and context-bound.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Continue only for this Record; material source or target extension requires a new claim.
+      required_action: Continue only for this Record; material source or target extension requires a new claim.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+      - /operation/details/constitutive_source_trace
+      - /claim/claim_ceiling
+      reasoned_finding: An adequate bounded C3 claim remains after source and target counterpressure; declared uncertainty
+        and rival-source pressure do not constitute material Non-Capture for the current claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the claim while preserving genuine Non-Capture if no stable source or function survives.
+      required_action: Retain the claim while preserving genuine Non-Capture if no stable source or function survives.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The twelve-stage audit supports one source-sensitive dynamic Attractor-function in C3 while materially
+    excluding repeated-similarity sufficiency, Α identity, static attraction, universal threshold, probability, prediction,
+    causality, transfer to E3, person/group typing, and authority. The retained restriction is decisive, so admissible_with_bounded_claim
+    is generated.
+  anti_immunization_assessment: The PROJECT_AS occurrence neither revises nor rescues the prior C17 source Records. Rival
+    source sets, narrower recurrent forms, descriptive recurrence, static-function claims, current-condition accounts, analogy,
+    no projection, and later failure remain available; changing source membership or target coordinates creates a new claim
+    rather than repairing this one.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: No relevance, traceability, type, reference, temporal, functional, contextual, or authority Stop trigger is
+      reached for the narrowed C3 claim; elastic source formation, absent target load with retained function, Α identity,
+      deterministic or probabilistic inflation, or unbounded transfer would require reduction or stop.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The bounded C3 target function remains adequately reconstructible; rival source-form pressure, missing external
+      calibration, and exact friction magnitude remain visible as limits rather than converted into a material capture failure.
+loss:
+  preserved:
+  - item_id: loss.c40-p3.preserved.source-identities
+    affected_element: T1, T2, T3 identities, prior dispositions, and comparison coordinates
+    description: All source identities, prior routes, and comparison coordinates remain explicit.
+    reason: They prevent source selection from being retroactively controlled by the target result.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserve prior source claims without strengthening or repair.
+    source_or_evidence_pointer: /source/source_basis
+  - item_id: loss.c40-p3.preserved.recurrent-load
+    affected_element: Recurrent order, incomplete reset, lock-in, constrained reopening, and target uptake
+    description: Constitutive recurrent positions and C3 target work remain traceable.
+    reason: They carry the bounded dynamic target function.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain source-to-function dependency and defeat conditions.
+    source_or_evidence_pointer: /operation/details/constitutive_source_trace
+  - item_id: loss.c40-p3.preserved.type-context
+    affected_element: Origin type, target context, C3/E3 contrast, and authority boundary
+    description: R3 remains a recurrent trajectory form and the target remains one bounded contextual function.
+    reason: Type Integrity and Contextual Boundedness are non-compensatory.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserve origin type and no-projection comparison.
+    source_or_evidence_pointer: /target
+  compressed:
+  - item_id: loss.c40-p3.compressed.surface-variation
+    affected_element: Trajectory-specific micro-events, terminology, and non-constitutive duration variation
+    description: Fine source differences are compressed only where they do not alter the recurrent relation.
+    reason: The target claim concerns cross-trajectory constitutive form rather than every micro-event.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Do not infer identity or lossless recurrence from compression.
+    source_or_evidence_pointer: /source/source_basis
+  - item_id: loss.c40-p3.compressed.target-microdetail
+    affected_element: Target micro-negotiation outside the tested access and cost relation
+    description: Local detail not changing transition accessibility is compressed.
+    reason: It is not load-bearing for the bounded function.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Require a new record for finer target reconstruction.
+    source_or_evidence_pointer: /target/granularity
+  excluded:
+  - item_id: loss.c40-p3.excluded.operator-law
+    affected_element: Α identity, static attraction, universal threshold, recurrence law, probability, prediction, and causal
+      monopoly
+    description: These stronger claims are excluded from the Record.
+    reason: They exceed origin type, source evidence, calibration, and functional scope.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Separate or prohibit stronger operator, law, and prediction claims.
+    source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+  - item_id: loss.c40-p3.excluded.person-authority
+    affected_element: Person/group typing, legitimacy, ranking, sanction, recommendation, intervention, and authority
+    description: No person-level or authority-bearing inference is retained.
+    reason: PROJECT_AS does not increase authority.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Keep governance boundary explicit.
+    source_or_evidence_pointer: /governance/authority_ceiling
+  uncertain:
+  - item_id: loss.c40-p3.uncertain.weights-threshold
+    affected_element: Exact source contribution weights, optimal recurrent boundary, divergent-source coverage, and target
+      friction magnitude
+    description: The recurrent relation and bounded target difference are supported, but weights, universal threshold, and
+      quantitative effect are not.
+    reason: The synthetic packet supplies discrimination without external calibration.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the claim without exact weighting, threshold, or magnitude.
+    source_or_evidence_pointer: /source/known_gaps
+  irrecoverable:
+  - item_id: loss.c40-p3.irrecoverable.microstates
+    affected_element: Unrecorded source microstates, deliberations, external recurrence frequency, and quantitative causal
+      mechanism
+    description: The packet cannot recover information not encoded in the prior Records or target fixture.
+    reason: Such detail is not required for the bounded structural function and cannot be invented.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Exclude mechanism completeness, frequency, probability, and causal proof.
+    source_or_evidence_pointer: /source/known_gaps
+alternatives:
+  rival_compositions: []
+  rival_decompositions: []
+  rival_projections:
+  - alternative_id: alternative.c40-p3.descriptive-only
+    claim_relation: Retain R3 as a bounded recurrent source description without any target Attractor-function.
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Lower inferential burden; requires no target-function continuity.
+    current_handling: not_selected
+    rationale: C3 target uptake and differential access/friction support one additional bounded function.
+  - alternative_id: alternative.c40-p3.narrower-role-reopening
+    claim_relation: Project only one role-recurrence or reopening-cost function in C3.
+    source_basis_or_evidence_pointer: /operation/details/constitutive_source_trace
+    comparative_burden: Narrower target reach and fewer dimensions.
+    current_handling: not_selected
+    rationale: The fixture supports the linked access, role, resource, and reopening relation while preserving exact bounds.
+  - alternative_id: alternative.c40-p3.static-function
+    claim_relation: Test stabilization of a configuration range rather than a transition form.
+    source_basis_or_evidence_pointer: /target/contextual_function
+    comparative_burden: Different target-function family requiring separate traces and result.
+    current_handling: not_selected
+    rationale: The current packet concerns sequence accessibility and reopening, not static-state persistence.
+  - alternative_id: alternative.c40-p3.current-condition-only
+    claim_relation: Explain C3 entirely through present resource lock-in and approval rules.
+    source_basis_or_evidence_pointer: source.fixture.c40-p3.c3-e3
+    comparative_burden: Lower historical-source burden; correct if source-form uptake changes no target relation.
+    current_handling: rejected
+    rationale: The C3/E3 contrast makes source-form uptake load-bearing for the bounded fixture.
+  - alternative_id: alternative.c40-p3.analogy-only
+    claim_relation: Retain only formal sequence resemblance across source and target.
+    source_basis_or_evidence_pointer: /source/reference_object
+    comparative_burden: Preserves similarity without source-dependent functional continuity.
+    current_handling: rejected
+    rationale: The packet includes target access/cost differences and defeat conditions, not resemblance alone.
+  no_transformation:
+  - alternative_id: alternative.c40-p3.no-projection-e3
+    claim_relation: Retain R3 without additional function in comparison field E3.
+    source_basis_or_evidence_pointer: source.fixture.c40-p3.c3-e3
+    comparative_burden: Correct where the visible sequence is generated by current conditions and source-form uptake changes
+      no access or cost.
+    current_handling: not_selected
+    rationale: No-projection is warranted in E3 but does not defeat the bounded C3 result.
+  non_translation: []
+  unresolved:
+  - alternative_id: alternative.c40-p3.revised-source-set
+    claim_relation: A different or narrower recurrent-form source set may support a rival claim.
+    source_basis_or_evidence_pointer: /source/known_gaps
+    comparative_burden: Requires a new source claim and cannot be selected by target fit.
+    current_handling: unresolved
+    rationale: The current Record preserves T1–T3 and does not silently revise source membership.
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal validation and bounded routing apply only to this synthetic C3 dynamic Attractor-function claim.
+    They establish no empirical recurrence law, universal Pattern Threshold, probability, prediction, causal necessity, Α
+    identity, person/group property, legitimacy, policy, sanction, recommendation, institutional authority, or application
+    authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - recurrent-form origin type is not replaced by Α, an Attractor occurrence, or a new primitive
+  - repeated similarity and label recurrence do not establish stabilizing load
+  - bounded dynamic Attractor-function does not imply deterministic or probabilistic recurrence
+  - C3 validity does not transfer to E3, other contexts, persons, groups, or real settings
+  - counterfactual sensitivity does not prove causality
+  - formal passage does not authorize institutional decisions or intervention
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: The independently identified recurrent trajectory form R3 is projected as one bounded dynamic Attractor-function
+      only within later transition field C3 and only for transition access, expectation, role/resource recurrence, and constrained
+      reopening; source identities and variation remain visible, E3 receives no projection, and Α identity, law, probability,
+      causality, transfer, and authority are excluded.
+    result_family:
+      value: admissible bounded contextual function with material reach restriction
+      control_source: 07_model/Output_Classes.yaml#/output_classes/admissible_with_bounded_claim/representative_local_results
+      inventory_status: extension
+      extension_rationale: Local result wording instantiates the canonical admissible_with_bounded_claim class for PROJECT_AS.
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: supported
+    resolution_test_result: null
+    capture_statement:
+      statement: No material capture limit is asserted for the bounded C3 claim; source-set uncertainty, rival recurrent forms,
+        divergent trajectories, target alternatives, and excluded law/authority reach remain separately visible.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: An unrestricted or generally recurrent Attractor claim is not supported; material source-set, target-field,
+          function, calibration, and transfer narrowing is decisive.
+        constitutive_condition_pointers: []
+        preserved_finding: Ordinary boundedness alone is insufficient for the broader recurrence-law or all-context candidate.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: selected
+        rationale: The source-sensitive projection passes all applicable checks, but only after restricting the claim to recurrent-form
+          source R3, one dynamic function in C3, declared transition dimensions and roles, explicit E3 no-projection, and
+          excluded Α identity, law, probability, causality, transfer, and authority.
+        constitutive_condition_pointers: &id001
+        - /operation/details/constitutive_source_trace
+        - /operation/details/source_reference_preserved
+        - /operation/details/origin_type_preserved
+        - /operation/details/target_function_bounded
+        - /admissibility/rule_assessments/praxis_purchase
+        - /admissibility/rule_assessments/traceable_load
+        - /admissibility/rule_assessments/counterfactual_sensitivity
+        - /claim/claim_ceiling
+        - /loss
+        - /governance/authority_inheritance
+        preserved_finding: The C3-bounded dynamic Attractor-function is retained while source identities, allowable variation,
+          E3 no-projection, and all operator/law/authority exclusions remain explicit.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: Declared source-set and calibration uncertainty does not defeat support inside the fully specified synthetic
+          C3 fixture; it prohibits broader claims rather than making the delimited result provisional.
+        constitutive_condition_pointers: []
+        preserved_finding: Rival source-set pressure remains open without defeating the current bounded route.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for the delimited C3 claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for the delimited C3 claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: No separable unsupported component remains inside the delimited function; static, law, prediction, and
+          authority claims are excluded rather than retained as partial subclaims.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The Record already tests the materially narrowed replacement claim rather than preserving a broader recurrence-law
+          or Α-identity candidate as current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: No current Stop trigger is reached; Stop would be required for elastic source formation, absent target
+          load with retained function, Α identity, or unbounded transfer.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: Source object, origin type, comparison coordinates, target context, dynamic function, Source Trace, target
+          load, counterfactuals, and defeat conditions are present; this is not label substitution, similarity-only reasoning,
+          or invalid type jump.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: Adequate bounded capture remains for the current C3 claim; rival source forms and missing external calibration
+          do not constitute material Non-Capture here.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: admissible_with_bounded_claim
+    route_id: route_admissible_with_bounded_claim
+    matched_constitutive_conditions: *id001
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - T1, T2, and T3 remain independently warranted under their prior C17 Records.
+    - R3 remains a source-side recurrent-form claim and does not become Α or an Attractor occurrence.
+    - No-projection remains correct for comparison field E3.
+    - A revised source set, static function, or narrower role/reopening function requires a separate claim and Record.
+    split_decision:
+      required: false
+      rationale: One narrowed PROJECT_AS claim is routed here; prior COMPOSE claims, source-form revisions, E3 no-projection,
+        static-function alternatives, and rival source forms remain separate claims or records.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: Source and target are explicit; PraxisPurchase, TraceableLoad, Type Integrity, Reference, Functional
+      and Temporal Continuity, strong Counterfactual Sensitivity, exact five-field Loss, alternatives, Source and Claim Ceilings,
+      Stop, Non-Capture, and Authority Ceiling pass. Material restriction to R3, one C3 dynamic function, declared transition
+      dimensions, and excluded operator/law/authority reach is decisive, so admissible_with_bounded_claim is selected.
+    current_claim_disposition:
+      value: maintained
+      rationale: The narrowed C3 dynamic Attractor-function claim is maintained; Α identity, static attraction, universal
+        threshold, recurrence law, probability, prediction, causality, cross-context transfer, person/group typing, and authority
+        are excluded without erasing source Trajectories or R3.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_with_bounded_claim
+    original_broader_claim_id: claim.c40-p3.broader-attractor-candidate
+    retained_narrower_claim_pointer: /claim/claim_id
+    material_narrowing:
+    - from repeated similarity or general recurrence to one discriminating recurrent-form source R3
+    - from Attractor identity or general function to one dynamic contextual function in C3
+    - from all later paths to declared transition-access, role/resource, and reopening dimensions only
+    - from implied law or prediction to bounded structural friction and accessibility difference
+    - from transfer or authority to explicit no-transfer and non-authority
+    excluded_reach:
+    - Α identity or new primitive; static-state attraction; universal Pattern Threshold or recurrence law; probability, prediction,
+      causality, or determinism; transfer to E3 or other contexts; person/group typing and application authority
+    separately_tested: true
+    rationale: The current claim is supported only after material restriction to one source-traceable recurrent form, one
+      dynamic function, one target field, explicit defeat conditions, and bounded non-authoritative reach.
+relations:
+  prior_record_ids:
+  - case.c17-lambda-01.compose.01
+  - case.c17-attr-01.compose.01
+  - case.c17-proj-01.compose.01
+  prior_claim_ids:
+  - claim.c17-lambda-01.compose.01
+  - claim.c17-attr-01.compose.01
+  - claim.c17-proj-01.compose.01
+  sibling_claim_or_record_ids:
+  - case.c40-p1.project-as.01
+  - case.c40-p2.project-as.01
+  rival_record_ids:
+  - case.c17-weakpd-01.compose.01
+  countercase_refs:
+  - 'comparison finding: no projection in E3'
+  - 'negative mutation: retain visual sequence but remove target access and cost difference'
+  - 'negative mutation: admit opposite sequences under an elastic recurrent label'
+  - 'negative mutation: replace incomplete reset with clean reset in two source Trajectories'
+  - 'unresolved rival: revise source membership or recurrent-form boundary under a new source claim'

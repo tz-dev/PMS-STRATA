@@ -1,0 +1,1109 @@
+schema_version: 0.1.2
+record_id: template.integrated-audit.chain.01
+record_scope: integrated_chain
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T18:30:00+02:00'
+  updated_at: '2026-07-27T18:30:00+02:00'
+  revision_id: appendix-n-template-r1
+  producer_id: PMS-STRATA.Appendix-N
+  repository_or_case_pointer: 03_cases/templates/integrated_audit_case_template.yaml
+  record_provenance:
+  - Derived from the canonical integrated-chain smoke fixture and adapted as the reusable Appendix-N template.
+  - Built against the current Shared Record Schema and existing synthetic component examples; no external or empirical warrant is asserted.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Schema-valid worked integrated-chain audit fixture. The non_capture route is retained only to exercise the full audit and is not a default outcome.
+claim:
+  claim_id: claim.template.integrated-audit.01
+  statement: The authorization sequence alpha and its scene-gamma binding-function together constitute a complete and globally
+    transferable authorization regime for all downstream access contexts.
+  claim_type:
+    value: integrated whole-chain authorization-regime claim
+    control_source: 04_reference/Claim_Type_Table.md
+    inventory_status: extension
+    extension_rationale: Local integrated-claim type used only for this smoke record.
+  claim_role:
+    value: tested integrated claim
+    control_source: 04_reference/Claim_Type_Table.md
+    inventory_status: extension
+    extension_rationale: Chain-level claim role distinct from both component claims.
+  claim_scope:
+    reference_object_boundary: Exactly the proposed whole formed from smoke records 01 and 03, not either component claim
+      by itself.
+    operation_occurrence_boundary: Integrated COMPOSE → PROJECT_AS chain only; no third operation and no new primitive.
+    frame:
+      value: cross-context downstream access frame
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Attempted chain frame whose overreach is tested.
+    granularity:
+      value: integrated chain-level resolution
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Local chain granularity label.
+    relative_level:
+      value: integrated result relative to two component occurrences
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Local relative-level declaration.
+    temporal_scope: t0–t2 for the component trace, with an attempted but unsupported extension to all later downstream contexts.
+    source_scope: Only the two synthetic component records 01 and 03 and their declared source traces.
+    context_scope: The attempted claim ranges beyond scene gamma to all downstream access contexts; that extension is the
+      tested capture boundary.
+    generalization_boundary: No empirical system, security regime, institutional policy, legal authorization, or external
+      context is represented.
+    excluded_reach:
+    - causal sufficiency
+    - security completeness
+    - legal or normative authorization
+    - global transfer from gamma
+    - new PMS primitive or operator
+  validity_scope: The record evaluates only whether the two existing local outputs can retain the declared global whole-chain
+    claim under current STRATA sources and boundaries.
+  claim_ceiling:
+    asserted_relation: The current sources establish one sequence and one scene-bound projected function but do not establish
+      a complete transferable regime.
+    reach: Component identity, order, local gamma function, component classes, component losses, and the chain handoff.
+    precision: Precise enough to reject false closure of the declared whole claim; insufficient to characterize unrepresented
+      contexts.
+    generality: One synthetic sequence, one synthetic target scene, and one integrated test claim.
+    functional_scope: No functional scope beyond gamma is retained.
+    dependence_strength: Direct component-record dependence; no independent cross-context dependence evidence.
+    inferential_distance: One chain-level inferential step beyond two local results, tested and rejected as adequate capture.
+    limiting_sources:
+    - 07_model/examples/01_COMPOSE_Admissible.yaml
+    - 07_model/examples/03_PROJECT_AS_Admissible.yaml
+    rationale: The ceiling preserves the local records while withdrawing the global whole-chain claim.
+  authority_boundary: This record grants no access, security, governance, legal, normative, institutional, or application
+    authority.
+source:
+  reference_object:
+    object_id: chain-input.authorization-alpha.gamma
+    description: The ordered pair of component occurrence records 01 and 03, including their distinct claims, classes, and
+      loss records.
+    typing:
+      value: integrated chain source set
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Local analytical-object wording for the integrated smoke test.
+    source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml + 07_model/examples/03_PROJECT_AS_Admissible.yaml
+  object_typing:
+    value: heterogeneous component-result set
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Local chain-source typing; not a new PMS object primitive.
+  frame:
+    value: component-preservation audit frame
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Local frame for integrated-result inspection.
+  granularity:
+    value: cross-record component resolution
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Local granularity for two occurrence records.
+  relative_level:
+    value: source components relative to an attempted integrated claim
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Local relative-level declaration.
+  temporal_scope: Record 01 covers t0–t1 and record 03 applies the retained source sequence in scene gamma at t2.
+  source_scope: The full structured contents of component records 01 and 03, including selected classes, local boundaries,
+    and losses.
+  source_basis:
+  - source_item_id: source.record.compose.01
+    source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml
+    provenance_description: Canonical synthetic COMPOSE smoke record establishing sequence alpha and an admissible local result.
+    affected_claim_component: Component source identity, origin type, order, loss, and local result.
+    support_mode: direct
+    evidence_role:
+      value: prior canonical smoke record
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local evidence role for cross-record formal smoke validation.
+    evidence_availability: available
+    temporal_scope: t0–t2
+    reference_scope: smoke.compose.admissible.01
+    uncertainty_or_provenance_limit: Synthetic record; no empirical sequence or authorization is established.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.record.project-as.03
+    source_pointer: 07_model/examples/03_PROJECT_AS_Admissible.yaml
+    provenance_description: Canonical synthetic PROJECT_AS smoke record establishing a bounded binding-function only in scene
+      gamma at t2.
+    affected_claim_component: Component target function, contextual boundary, loss, and local result.
+    support_mode: direct
+    evidence_role:
+      value: prior canonical smoke record
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local evidence role for cross-record formal smoke validation.
+    evidence_availability: available
+    temporal_scope: t0–t2
+    reference_scope: smoke.project-as.admissible.03
+    uncertainty_or_provenance_limit: Synthetic record; validity is limited to gamma and supplies no cross-context warrant.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+  - trace_id: trace.component.compose.01
+    source_feature: Record 01 establishes composite.authorization-sequence.alpha with origin type sequence and selected class
+      admissible.
+    affected_claim_component: First chain component and its local result.
+    trace_role: load_bearing
+    result_dependency: Without record 01 there is no source sequence for record 03 or the integrated test.
+    expected_result_change: Removing record 01 defeats the chain declaration.
+    temporal_or_relational_dependency: The request-before-approval relation at t0–t1 precedes the projected use at t2.
+    claim_limitation: Supports only the local sequence claim and does not imply a target function or global regime.
+    source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml
+  - trace_id: trace.component.project-as.03
+    source_feature: Record 03 projects the same sequence only as a bounded binding-function in synthetic scene gamma at t2.
+    affected_claim_component: Second chain component and local target-function result.
+    trace_role: load_bearing
+    result_dependency: Without record 03 there is no projected function to integrate.
+    expected_result_change: Removing or changing the gamma rule defeats the second component and the current chain input.
+    temporal_or_relational_dependency: The source sequence identity and order are handed from record 01 into record 03.
+    claim_limitation: Supports only gamma; it does not establish transfer, completeness, or authority.
+    source_pointer: 07_model/examples/03_PROJECT_AS_Admissible.yaml
+  - trace_id: trace.chain.boundary.08
+    source_feature: Both component records explicitly prohibit authority inheritance and transfer beyond their declared scopes.
+    affected_claim_component: Boundary of the attempted whole-chain claim.
+    trace_role: limiting
+    result_dependency: These local boundaries prevent the component outputs from constituting a complete global authorization
+      regime.
+    expected_result_change: Deleting the local boundaries would alter the record text but would not create missing cross-context
+      evidence.
+    temporal_or_relational_dependency: The chain must preserve rather than erase component-level boundedness.
+    claim_limitation: This trace supports non-capture of the declared whole claim, not impossibility of future differently
+      sourced reconstruction.
+    source_pointer: 07_model/examples/03_PROJECT_AS_Admissible.yaml#/claim/claim_scope/context_scope
+  known_gaps:
+  - No downstream context other than gamma is represented.
+  - No rule composes one scene-bound function into a complete authorization regime.
+  - No cross-context counterfactual matrix, rival scene rule, implementation behavior, or empirical system trace exists.
+  - No source supports security sufficiency, legal authorization, institutional completeness, or global persistence.
+  source_ceiling:
+    asserted_relation: The source basis directly supports the two component records and their handoff but not the globally
+      transferable whole claim.
+    reach: Two record identities, two local classes, component losses, source-sequence identity, constitutive order, gamma
+      target rule, and local boundaries.
+    precision: Exact for the synthetic component declarations; absent for any further context.
+    generality: Two local records only.
+    functional_scope: Local sequence and gamma binding-function only.
+    dependence_strength: Direct for component preservation; unsupported for global whole formation.
+    inferential_distance: The whole claim requires a relation not present in either component record.
+    limiting_sources:
+    - source.record.compose.01
+    - source.record.project-as.03
+    rationale: Missing contexts alone do not mechanically establish non-capture; the decisive limit is that retaining the
+      declared whole would require erasing explicit component boundedness or inventing a whole-forming relation.
+chain:
+  chain_id: chain.template.integrated-audit.01
+  ordered_occurrence_record_ids:
+  - smoke.compose.admissible.01
+  - smoke.project-as.admissible.03
+  declared_operation_sequence:
+  - COMPOSE
+  - PROJECT_AS
+  chain_claim_id: claim.template.integrated-audit.01
+  continuity_handoffs:
+  - Record 01 target object composite.authorization-sequence.alpha is the source reference object of record 03.
+  - Record 01 origin type sequence and request-before-approval order remain preserved through record 03.
+  - Record 03 adds only the bounded gamma binding-function; it does not replace the source type or globalize the function.
+  preserved_occurrence_results:
+  - 07_model/examples/01_COMPOSE_Admissible.yaml#/result/routing
+  - 07_model/examples/03_PROJECT_AS_Admissible.yaml#/result/routing
+  preserved_occurrence_losses:
+  - 07_model/examples/01_COMPOSE_Admissible.yaml#/loss
+  - 07_model/examples/03_PROJECT_AS_Admissible.yaml#/loss
+  preserved_stops_and_non_capture: []
+  sequence_alignment_rationale: 'The chain order mirrors the actual handoff: COMPOSE creates sequence alpha before PROJECT_AS
+    uses that same origin-typed sequence in scene gamma. The chain is a record scope, not a fourth operation.'
+target:
+  reference_object:
+    object_id: claim-object.global-authorization-regime.omega
+    description: Attempted integrated whole claiming that the local sequence and gamma function form a complete transferable
+      regime.
+    typing:
+      value: attempted integrated whole claim
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Local analytical-object wording for the integrated smoke test.
+    source_pointer: /claim/claim_id
+  object_typing:
+    value: attempted integrated authorization-regime object
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Local target typing for a claim that is not retained.
+  contextual_function:
+    value: globally sufficient authorization-regime function
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Attempted target function whose unsupported transfer is tested.
+  frame:
+    value: all downstream access contexts
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Attempted target frame beyond the source ceiling.
+  granularity:
+    value: whole-regime resolution
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Attempted integrated granularity.
+  relative_level:
+    value: whole relative to component sequence and local function
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Attempted relative-level declaration.
+  temporal_scope: Attempted persistence from t2 into all later downstream contexts.
+  validity_scope: 'Not retained: the source supports scene gamma only and no adequate whole-chain validity scope remains.'
+  contextual_function_origin_occurrence_ref: 07_model/examples/03_PROJECT_AS_Admissible.yaml#/operation/occurrence_id
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: The two component records, the separately delimited chain claim, scopes, ceilings, and authority boundary
+        are complete.
+      rationale: Component claims and the whole-chain claim are explicitly separated.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /target
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: The record is correctly classified as an integrated chain rather than an operation occurrence.
+      rationale: The declared sequence contains only COMPOSE and PROJECT_AS; the chain itself is not a fourth operation.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /chain
+      - 07_model/Operation_Registry.yaml#/chain_contract
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The attempted whole claim would create a praxis-relevant difference if warranted.
+      rationale: A complete transferable regime would materially differ from one local sequence and one scene-bound function.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /admissibility/rule_assessments/praxis_purchase
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The declared whole exceeds the Traceability Ceiling.
+      rationale: Neither component supplies the relation that converts gamma-bounded function into a complete global regime.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /source/constitutive_source_trace
+      - /admissibility/rule_assessments/traceable_load
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Component references, types, results, and losses remain preserved, while forced capture would violate
+        functional and contextual continuity.
+      rationale: The chain audit refuses to turn sequence into regime type or gamma function into globally inherited authority.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /chain
+      - /source
+      - /target
+      - /admissibility/rule_assessments/functional_continuity
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Whole-claim sensitivity is untestable under the present source basis.
+      rationale: Only gamma has a declared defeat test; unrepresented downstream contexts cannot constrain the global regime
+        claim.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/counterfactual_sensitivity
+      - /admissibility/non_capture_assessment/capture_boundary
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Component heterogeneity and local losses remain visible; the attempted whole would erase decisive boundaries.
+      rationale: The chain record preserves both component loss records and documents the additional integrated loss.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /chain/preserved_occurrence_losses
+      - /loss
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: No-transformation, local conjunction, additional context records, and rival methods are considered.
+      rationale: None retains the same complete global whole claim under current sources.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /alternatives
+      - /admissibility/non_capture_assessment/capture_boundary/rivals_or_external_method
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The component sources are available, but whole-chain calibration is unavailable.
+      rationale: Current records calibrate two local operations, not transfer across all contexts.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /source/source_ceiling
+      - /admissibility/rule_assessments/calibration
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: Local admissibility does not validate the integrated claim.
+      rationale: The chain is a new testable claim; the two prior successes remain local and cannot be inherited.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /chain/preserved_occurrence_results
+      - /admissibility/anti_immunization_assessment
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: A material compositional non-capture boundary is reached without selecting mandatory_stop.
+      rationale: No adequate retained whole-chain claim remains; component claims remain separately captured.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/stop_assessment
+      - /admissibility/non_capture_assessment
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: The global claim is withdrawn and all authority inferences remain prohibited.
+      rationale: Non-capture preserves local results without converting them into authorization or system sufficiency.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim/claim_ceiling
+      - /governance
+      - /result/routing/current_claim_disposition
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/relevance_floor
+      - /claim
+      reasoned_finding: If warranted, a complete transferable regime would materially change the praxis reconstruction beyond
+        the two local results.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the praxis_purchase finding while component records
+          remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/traceability_ceiling
+      - /chain
+      reasoned_finding: The global whole cannot be reconstructed from the two component records without inventing a whole-forming
+        relation and erasing gamma-boundedness.
+      claim_or_artifact_effect:
+        family:
+          value: mark_capture_limit
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the traceable_load finding while component records
+          remain preserved.
+      required_action: Withdraw the global whole-chain claim and preserve the component traces.
+      controlled_local_result: above_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /chain
+      reasoned_finding: The record preserves sequence as origin type and binding-function as a local target function; forced
+        whole capture would collapse them into a new regime type.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the type_integrity finding while component records
+          remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /chain
+      reasoned_finding: The two component references remain identifiable, but no independently sourced global regime reference
+        object exists.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the reference_continuity finding while component records
+          remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /chain
+      reasoned_finding: Functional continuity is established only for gamma; global function inheritance is not source-supported.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the functional_continuity finding while component
+          records remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: null
+      applicability_condition: Applies when a COMPOSE claim carries, preserves, revises, or compares a source or coarser function.
+      applicability_rationale: This occurrence forms only a declared sequence and explicitly leaves contextual_function null.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /chain
+      reasoned_finding: The t0–t2 component order is retained, while persistence into later contexts is unsupported.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the temporal_continuity finding while component records
+          remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /chain
+      reasoned_finding: The attempted all-context target exceeds the explicit gamma boundary of record 03.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the contextual_boundedness finding while component
+          records remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/counterfactual_sensitivity
+      - /chain
+      reasoned_finding: The local gamma function is source-sensitive, but the whole claim cannot be tested against unrepresented
+        downstream contexts.
+      claim_or_artifact_effect:
+        family:
+          value: mark_capture_limit
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the counterfactual_sensitivity finding while component
+          records remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: untestable
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_calibration_limits
+      - /chain
+      reasoned_finding: The sources support two local results and their handoff, not complete cross-context authorization.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the source_ceiling finding while component records
+          remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_calibration_limits
+      - /chain
+      reasoned_finding: The suite calibrates local operation boundaries but supplies no cross-context calibration for the
+        proposed regime.
+      claim_or_artifact_effect:
+        family:
+          value: mark_capture_limit
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the calibration finding while component records remain
+          preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result:
+        value: not_calibratable_with_present_sources
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/loss_and_selection
+      - /chain
+      reasoned_finding: Both component classes and loss records are preserved; the integrated loss exposes what forced whole
+        capture would hide.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the selection_and_loss finding while component records
+          remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/alternatives
+      - /chain
+      reasoned_finding: Retaining local claims separately, adding new context records, and using rival architecture or empirical
+        methods remain available without rescuing the current whole claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the alternatives finding while component records remain
+          preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/claim_and_authority_ceiling
+      - /claim
+      reasoned_finding: The maximum retained result is the separate local component claims plus the chain-level non-capture
+        statement.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the claim_ceiling finding while component records
+          remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/claim_and_authority_ceiling
+      - /chain
+      reasoned_finding: No local or integrated result grants authorization, security sufficiency, legitimacy, or application
+        authority.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the authority_ceiling finding while component records
+          remain preserved.
+      required_action: Preserve component results and apply the chain-level finding without authority inheritance.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /chain
+      reasoned_finding: No independent mandatory-stop class is selected; the current claim is withdrawn through non-capture
+        and re-entry requires changed grounds.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the stop finding while component records remain preserved.
+      required_action: Do not continue the unchanged global claim; use a new record for changed grounds.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /chain
+      reasoned_finding: No adequate retained claim remains for the same complete global regime claim after component separation,
+        reduction, and rival comparison.
+      claim_or_artifact_effect:
+        family:
+          value: mark_capture_limit
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The chain-level claim is governed independently by the non_capture finding while component records remain
+          preserved.
+      required_action: Retain captured components, withdraw the whole claim, preserve rivals, and require changed grounds
+        for re-entry.
+      controlled_local_result:
+        value: compositional_non_capture
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/non_capture_form
+        inventory_status: current_controlled
+  non_compensation_confirmation: true
+  audit_to_routing_basis: PraxisPurchase is gain, but TraceableLoad is above_ceiling, global counterfactual sensitivity is
+    untestable, contextual transfer is unsupported, no adequate retained whole claim remains, and component claims stay separately
+    captured; the integrated claim therefore routes to non_capture.
+  anti_immunization_assessment: Records 01 and 03 remain locally admissible, but their success does not validate the new integrated
+    claim. A new composition, frame, level, or target-function reach is a new testable claim and receives no inherited validity
+    or authority.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: No distinct mandatory-stop output is selected. The current whole claim receives non_capture; unchanged continuation
+      is prohibited by its claim disposition and re-entry contract rather than by a separate stop class.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: true
+    adequate_retained_claim_remains: false
+    partial_capture_asserted: true
+    non_capture_form_asserted: true
+    rationale: The two component claims are captured and preserved, but they are separately delimited claims. No adequate
+      retained version of the same complete global whole remains without destroying boundedness or inventing a constitutive
+      relation.
+    capture_boundary:
+      captured_structure:
+      - 'Record 01: the admissible authorization-sequence alpha and its local loss profile.'
+      - 'Record 03: the admissible gamma-bounded binding-function and its local loss profile.'
+      - The continuity handoff preserving source identity, origin type, order, and local target context.
+      uncaptured_structure:
+      - A complete authorization-regime whole distinct from the two component claims.
+      - Transfer of the gamma binding-function to every downstream context.
+      - Cross-context sufficiency, persistence, rival-context compatibility, and authority consequences.
+      limiting_condition: The component records contain no source-supported relation that converts one scene-bound projected
+        function into a complete globally transferable regime, and both records explicitly prohibit authority inheritance.
+      distortion_if_forced: Forced capture would erase gamma-boundedness, collapse origin type into target function, treat
+        local admissibility as inherited global validity, and create false closure.
+      attempted_operations:
+      - COMPOSE
+      - PROJECT_AS
+      rivals_or_external_method:
+      - Retain records 01 and 03 as separate local claims.
+      - Create additional PROJECT_AS records for independently sourced target contexts and a new integrated-chain record.
+      - Use an external architecture specification, implementation trace, or empirical security method for whole-system sufficiency.
+      reentry_condition: A new chain record may be created only after changed grounds provide multiple context-specific traces,
+        an explicit whole-forming relation, rival comparison, and a newly delimited claim; this non-capture result remains
+        recorded.
+      non_capture_form:
+        value: compositional_non_capture
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/non_capture_form
+        inventory_status: current_controlled
+loss:
+  preserved:
+  - item_id: loss.preserved.component-results.08
+    affected_element: component results
+    description: Both admissible component routes and claims remain unchanged.
+    reason: Integrated classification may not replace component classes.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserves local validity without inheritance.
+  - item_id: loss.preserved.component-losses.08
+    affected_element: component loss records
+    description: Each component loss profile remains independently inspectable.
+    reason: Chain compression must not erase prior loss.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Prevents false losslessness.
+  - item_id: loss.preserved.type-context.08
+    affected_element: type and context distinctions
+    description: Sequence remains the origin type and binding-function remains gamma-bounded.
+    reason: Type Integrity and Contextual Boundedness are load-bearing.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Blocks global type/function collapse.
+  - item_id: loss.preserved.rivals.08
+    affected_element: rivals and re-entry
+    description: Alternative reconstruction and future changed-ground re-entry remain open.
+    reason: Non-capture is not final impossibility or rival proof.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserves revisability.
+  compressed:
+  - item_id: loss.compressed.chain-summary.08
+    affected_element: two full occurrence records
+    description: The chain declaration compresses the two local records into one ordered audit view.
+    reason: Integrated inspection requires a bounded cross-record summary.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: The summary cannot substitute for component records.
+    source_or_evidence_pointer: /chain/preserved_occurrence_results
+    recoverability_or_reentry_note: Recoverable by returning to records 01 and 03.
+  excluded:
+  - item_id: loss.excluded.global-transfer.08
+    affected_element: global transfer claim
+    description: Transfer beyond gamma is excluded from retained results.
+    reason: No source-supported cross-context relation exists.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: The whole claim is withdrawn.
+    source_or_evidence_pointer: /admissibility/non_capture_assessment/capture_boundary
+    recoverability_or_reentry_note: Requires new context records and a new chain claim.
+  - item_id: loss.excluded.authority.08
+    affected_element: authorization and sufficiency inferences
+    description: Security, legal, institutional, normative, and application authority are excluded.
+    reason: Authority inheritance is prohibited.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: No action or legitimacy follows.
+    source_or_evidence_pointer: /governance
+    recoverability_or_reentry_note: Not recoverable from formal smoke records.
+  uncertain:
+  - item_id: loss.uncertain.downstream-contexts.08
+    affected_element: unrepresented downstream contexts
+    description: Their rules, incompatibilities, and effects are unknown.
+    reason: Only gamma is represented.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Prevents global generalization but does not prove future impossibility.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: May be addressed only through new sources and records.
+  irrecoverable: []
+alternatives:
+  rival_compositions:
+  - alternative_id: alternative.bounded-chain-description.08
+    claim_relation: Describe records 01 and 03 as an ordered two-step analytical chain without claiming a complete authorization
+      regime.
+    comparative_burden: Requires a separately delimited descriptive chain claim and does not retain the current whole-regime
+      claim.
+    current_handling: retained
+    rationale: This preserves trace linkage but is not an adequate retained form of the tested global whole.
+    source_basis_or_evidence_pointer: /chain
+  - alternative_id: alternative.multi-context-regime.08
+    claim_relation: Compose independently tested context-specific projections into a later regime claim.
+    comparative_burden: Requires new context sources, new PROJECT_AS records, explicit formation rules, rival comparison,
+      and a new chain record.
+    current_handling: unresolved
+    rationale: This is a possible future reconstruction, not evidence for the current claim.
+  rival_decompositions: []
+  rival_projections:
+  - alternative_id: alternative.gamma-only-projection.08
+    claim_relation: Retain only the gamma binding-function already tested in record 03.
+    comparative_burden: No new burden for the existing local claim; it does not preserve global completeness.
+    current_handling: retained
+    rationale: The local projection remains valid but is a different delimited claim.
+    source_basis_or_evidence_pointer: 07_model/examples/03_PROJECT_AS_Admissible.yaml
+  no_transformation:
+  - alternative_id: alternative.keep-components-separate.08
+    claim_relation: Keep records 01 and 03 as independent local results with no integrated whole claim.
+    comparative_burden: Lowest unsupported-extension burden and fully preserves component distinctions.
+    current_handling: retained
+    rationale: This is the default retained treatment under current sources.
+    source_basis_or_evidence_pointer: /chain/preserved_occurrence_results
+  non_translation:
+  - alternative_id: alternative.external-system-method.08
+    claim_relation: Use architecture, implementation, security, or empirical methods rather than translating whole-system
+      sufficiency into STRATA alone.
+    comparative_burden: Requires external evidence and its own authority regime.
+    current_handling: unresolved
+    rationale: A rival or external method may be necessary; non-capture does not establish which method is superior.
+  unresolved:
+  - alternative_id: alternative.rival-context-rules.08
+    claim_relation: Test target contexts whose rules defeat or alter the gamma binding-function.
+    comparative_burden: Requires new synthetic or empirical context records and a new counterfactual matrix.
+    current_handling: unresolved
+    rationale: Such cases are needed before any whole-regime claim can be reconsidered.
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: The result is an internal formal smoke-test classification only. It preserves component records and states
+    a chain-level capture limit; it establishes no empirical truth, system completion, security sufficiency, authorization,
+    legitimacy, diagnosis, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - local admissibility does not aggregate into global admissibility
+  - an integrated chain is not a fourth operation
+  - sequence does not become authorization-regime as an origin type
+  - gamma binding-function does not transfer to all contexts
+  - non_capture is not missing information alone
+  - non_capture does not prove rival superiority or permanent impossibility
+  - formal validation does not grant security, legal, normative, institutional, or application authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: The COMPOSE and PROJECT_AS component records remain locally admissible and correctly linked, but no adequate
+      retained chain-level claim establishes a complete globally transferable authorization regime; the integrated claim is
+      withdrawn as compositional non-capture.
+    result_family:
+      value: integrated non-capture
+      control_source: 07_model/Output_Classes.yaml#/output_classes/non_capture/representative_local_results
+      inventory_status: extension
+      extension_rationale: Local result wording instantiates the canonical non_capture class for an integrated chain.
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: unsupported
+    resolution_test_result: null
+    capture_statement:
+      statement: The local sequence, gamma binding-function, component classes, and losses are captured; the complete globally
+        transferable regime claim remains uncaptured under current sources and boundaries.
+      claim_relative: true
+      capture_limit_present: true
+    evidence_availability_summary: partially_available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The whole claim exceeds the source, traceability, contextual, and counterfactual ceilings despite both
+          local components being admissible.
+        constitutive_condition_pointers: []
+        preserved_finding: No admissible result is selected for the current integrated claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: Bounding the claim back to gamma leaves record 03, not an adequate retained version of the complete global
+          whole.
+        constitutive_condition_pointers: []
+        preserved_finding: No admissible_with_bounded_claim result is selected for the current integrated claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The decisive issue is not temporary support uncertainty around an otherwise adequate whole; retaining the
+          whole would require unsupported extension and false closure.
+        constitutive_condition_pointers: []
+        preserved_finding: No admissible_but_provisional result is selected for the current integrated claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: No DECOMPOSE resolution test defines the integrated result.
+        constitutive_condition_pointers: []
+        preserved_finding: No resolution_neutral result is selected for the current integrated claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: No affirmative analogy claim is separately delimited; the attempted claim is one of complete functional
+          constitution.
+        constitutive_condition_pointers: []
+        preserved_finding: No analogy_only result is selected for the current integrated claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The captured portions are already distinct component claims. No separable retained portion of the same
+          integrated whole claim remains adequate.
+        constitutive_condition_pointers: []
+        preserved_finding: No partially_admissible result is selected for the current integrated claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: Reducing the whole to a local sequence plus gamma function replaces it with the already separate component
+          claims; any new bounded chain claim requires a new test rather than pre-authorization.
+        constitutive_condition_pointers: []
+        preserved_finding: No claim_reduction_required result is selected for the current integrated claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: No independent stop trigger answers the current governance question; the whole claim is classified by its
+          adequate-capture failure.
+        constitutive_condition_pointers: []
+        preserved_finding: No mandatory_stop result is selected for the current integrated claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The component operations and chain handoff remain structurally valid. The result concerns absence of an
+          adequate retained whole claim, not a failed component operation.
+        constitutive_condition_pointers: []
+        preserved_finding: No failed_transformation result is selected for the current integrated claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: selected
+        rationale: After preserving the two local component claims, testing reduction, partial retention, stop, failure, and
+          rival routes, no adequate retained form of the same complete global authorization-regime claim remains without erasing
+          gamma-boundedness, inventing a whole-forming relation, or creating false closure.
+        constitutive_condition_pointers:
+        - /chain
+        - /source/source_ceiling
+        - /admissibility/rule_assessments/traceable_load/controlled_local_result
+        - /admissibility/rule_assessments/counterfactual_sensitivity/controlled_local_result
+        - /admissibility/non_capture_assessment/capture_boundary
+        - /claim/claim_ceiling
+        preserved_finding: Records 01 and 03, their local admissible classes, losses, boundaries, alternatives, and re-entry
+          routes remain preserved as separate results.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: non_capture
+    route_id: route_non_capture
+    matched_constitutive_conditions:
+    - /record_scope
+    - /chain/declared_operation_sequence
+    - /chain/preserved_occurrence_results
+    - /source/source_ceiling
+    - /admissibility/rule_assessments/traceable_load/controlled_local_result
+    - /admissibility/rule_assessments/counterfactual_sensitivity/controlled_local_result
+    - /admissibility/non_capture_assessment/material_capture_limit_asserted
+    - /admissibility/non_capture_assessment/adequate_retained_claim_remains
+    - /admissibility/non_capture_assessment/capture_boundary
+    - /result/status_declaration/capture_statement
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - The component occurrence results are admissible and remain valid only within their own claims and boundaries.
+    - A bounded two-step chain description may be formulated as a separate future claim, but it does not retain the tested
+      complete global whole.
+    split_decision:
+      required: false
+      rationale: The captured portions already exist as separately delimited component records 01 and 03. No additional same-record
+        class split is needed for the current whole-chain claim.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The chain claim has praxeological significance but exceeds TraceableLoad, global sensitivity
+      is untestable, gamma-boundedness blocks transfer, and no adequate retained whole remains after separating the two local
+      component claims and considering reduction, partial, failure, stop, and rival routes. Non-capture is therefore selected
+      without altering either component class.
+    current_claim_disposition:
+      value: withdrawn
+      rationale: The complete globally transferable authorization-regime claim is not retained. The component claims and a
+        future changed-ground re-entry route remain preserved.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: non_capture
+    delimited_whole_claim_pointer: /claim/claim_id
+    captured_portion_refs:
+    - 07_model/examples/01_COMPOSE_Admissible.yaml#/claim
+    - 07_model/examples/03_PROJECT_AS_Admissible.yaml#/claim
+    - /chain/continuity_handoffs
+    attempted_operation_refs:
+    - /chain/declared_operation_sequence
+    - 07_model/examples/01_COMPOSE_Admissible.yaml#/operation
+    - 07_model/examples/03_PROJECT_AS_Admissible.yaml#/operation
+    limits_and_rivals_preserved: true
+    rationale: The present grammar and source basis capture both local operations and their handoff but cannot retain the
+      declared complete global whole without unsupported extension, type/function collapse, erased contextual boundedness,
+      and false closure.
+relations:
+  prior_record_ids:
+  - smoke.compose.admissible.01
+  - smoke.project-as.admissible.03
+  prior_claim_ids:
+  - claim.compose.admissible.01
+  - claim.project-as.admissible.03
+  chain_id: chain.template.integrated-audit.01
+  sibling_claim_or_record_ids: []
+  rival_record_ids: []
+  countercase_refs:
+  - 07_model/examples/01_COMPOSE_Admissible.yaml
+  - 07_model/examples/03_PROJECT_AS_Admissible.yaml
+  - 'planned-cross-record-mutation: inherit local admissibility into the chain claim'

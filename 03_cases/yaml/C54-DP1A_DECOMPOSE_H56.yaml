@@ -1,0 +1,1144 @@
+schema_version: 0.1.2
+record_id: case.c54-dp1a.decompose.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T15:45:00+02:00'
+  updated_at: '2026-07-27T15:45:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.Integrated-Chains-Batch-320
+  repository_or_case_pointer: 03_cases/yaml/C54-DP1A_DECOMPOSE_H56.yaml
+  record_provenance:
+  - Synthetic integrated-chain method fixture; no external empirical claim is asserted.
+  - This record contains exactly one DECOMPOSE occurrence and preserves all earlier operation results and Loss without inheritance.
+  - Produced in the five-chain batch against Source-of-Truth ZIP 319 and schema_version 0.1.2.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: First occurrence of C54-DP1; opens H56 and withholds target function.
+claim:
+  claim_id: claim.c54-dp1a.decompose.01
+  statement: Compressed occurrence H56 admits a finer same-reference reconstruction into entry delay, provisional workaround,
+    correction window, closure, and residual load.
+  claim_type:
+    value: same-reference occurrence decomposition claim
+    control_source: 04_reference/Claim_Type_Table.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: H56 and declared source packet.
+    operation_occurrence_boundary: Only decompose.c54-dp1a.01.
+    frame:
+      value: synthetic coordination incident frame
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    granularity:
+      value: phase and relation granularity
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    relative_level:
+      value: finer reconstruction of H56
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    temporal_scope: T0–T5
+    source_scope: H56 and declared source packet.
+    context_scope: C54-DP1 chain.
+    generalization_boundary: No transfer beyond the synthetic method fixture.
+    excluded_reach:
+    - No warning or target function.
+    - No causal threshold.
+    - No person typing.
+  validity_scope: Bounded finer reconstruction of H56.
+  claim_ceiling: &id001
+    asserted_relation: Compressed occurrence H56 can be reconstructed into entry delay, provisional workaround, correction
+      window, closure, and residual-load components.
+    reach: One bounded T0–T5 occurrence.
+    precision: Phase and relation level.
+    generality: Single synthetic integrated-chain package.
+    functional_scope: Same-reference decomposition only.
+    dependence_strength: Delay→workaround→correction-window relations must remain.
+    inferential_distance: One DECOMPOSE step.
+    limiting_sources:
+    - case://pms-strata/c54-dp1/h56
+    rationale: Exact threshold timing remains uncertain.
+  authority_boundary: No warning, sanction, or authority follows from decomposition.
+source:
+  reference_object:
+    object_id: occurrence.H56
+    description: Compressed coordination incident occurrence.
+    typing:
+      value: compressed occurrence
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C54-DP1_DECOMPOSE_to_PROJECT_AS_Threshold_Function_Chain.md#2-source-fixture
+  object_typing:
+    value: compressed occurrence
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  frame:
+    value: synthetic coordination incident frame
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: compressed occurrence granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: coarse occurrence level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: T0–T5
+  source_scope: H56 only.
+  source_basis: &id002
+  - source_item_id: source.c54-dp1.h56
+    source_pointer: case://pms-strata/c54-dp1/h56
+    provenance_description: H56 compresses delay, workaround, correction window, closure, and residual load.
+    affected_claim_component: H56 internal phases
+    support_mode: mixed
+    evidence_role:
+      value: primary
+      control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/evidence_role
+      inventory_status: current_controlled
+    evidence_availability: available
+    temporal_scope: bounded synthetic interval
+    reference_scope: H56
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain claim is supported.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+  - trace_id: trace.c54-dp1.window
+    source_feature: A correction window remains open after workaround.
+    affected_claim_component: correction-window relation
+    trace_role: load_bearing
+    result_dependency: Without the window the later target function changes.
+    expected_result_change: Removing it defeats the later warning-function projection.
+    temporal_or_relational_dependency: T2–T4
+    claim_limitation: Exact duration remains uncertain.
+    source_pointer: case://pms-strata/c54-dp1/window
+  known_gaps:
+  - Exact correction-window duration remains uncertain.
+  source_ceiling: *id001
+operation:
+  occurrence_id: decompose.c54-dp1a.01
+  kind: DECOMPOSE
+  justification: H56 compression hides the correction window and residual-load relation needed for later contextual testing.
+  expected_praxeological_difference: The finer model distinguishes delay, workaround, correction opportunity, closure, and
+    residual load without creating a warning function.
+  selection_rule: Open only the five source-supported phases/relations; preserve uncertain duration and withhold target function.
+  transformation_context: C54-DP1 integrated source-to-function chain.
+  details:
+    source_function:
+      value: retain H56 as the bounded incident from entry delay through closure and residual load
+      control_source: 03_cases/packages/C54-DP1_DECOMPOSE_to_PROJECT_AS_Threshold_Function_Chain.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    decomposition_question: Which internal phases make H56 reconstructively adequate before any target-function claim?
+    insufficiency_of_current_compression: The coarse occurrence hides whether correction remained possible before closure.
+    components:
+    - object_id: H56e
+      description: Entry-delay phase.
+      typing:
+        value: typed phase occurrence
+        control_source: 07_model/Operation_Registry.yaml
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      source_pointer: case://pms-strata/c54-dp1/entry
+    - object_id: H56w
+      description: Provisional-workaround phase.
+      typing:
+        value: typed phase occurrence
+        control_source: 07_model/Operation_Registry.yaml
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      source_pointer: case://pms-strata/c54-dp1/workaround
+    - object_id: H56c
+      description: Correction-window phase.
+      typing:
+        value: typed temporal opportunity occurrence
+        control_source: 07_model/Operation_Registry.yaml
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      source_pointer: case://pms-strata/c54-dp1/window
+    - object_id: H56x
+      description: Closure phase.
+      typing:
+        value: typed phase occurrence
+        control_source: 07_model/Operation_Registry.yaml
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      source_pointer: case://pms-strata/c54-dp1/closure
+    - object_id: H56r
+      description: Residual-load relation.
+      typing:
+        value: typed residual relation component
+        control_source: 07_model/Operation_Registry.yaml
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      source_pointer: case://pms-strata/c54-dp1/residual
+    component_relations:
+    - relation_id: rel.c54-dp1.e-w
+      relation_type:
+        value: delay-to-workaround relation
+        control_source: 04_reference/Transformation_Operation_Index.md
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      from_object_id: H56e
+      to_object_id: H56w
+      description: Entry delay induces provisional workaround.
+      constitutive: true
+      source_pointer: case://synthetic/relation
+    - relation_id: rel.c54-dp1.w-c
+      relation_type:
+        value: workaround-to-correction-window relation
+        control_source: 04_reference/Transformation_Operation_Index.md
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      from_object_id: H56w
+      to_object_id: H56c
+      description: Workaround remains revisable during the correction window.
+      constitutive: true
+      source_pointer: case://synthetic/relation
+    - relation_id: rel.c54-dp1.c-x
+      relation_type:
+        value: window-closure relation
+        control_source: 04_reference/Transformation_Operation_Index.md
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      from_object_id: H56c
+      to_object_id: H56x
+      description: Closure ends the correction window.
+      constitutive: true
+      source_pointer: case://synthetic/relation
+    - relation_id: rel.c54-dp1.x-r
+      relation_type:
+        value: closure-residual relation
+        control_source: 04_reference/Transformation_Operation_Index.md
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      from_object_id: H56x
+      to_object_id: H56r
+      description: Closure leaves residual load.
+      constitutive: true
+      source_pointer: case://synthetic/relation
+    internal_temporality: Entry delay→workaround→correction window→closure, with residual load after closure.
+    source_support: *id002
+    source_reference_preserved: true
+    prior_source_claim_id: claim.c54-dp1.coarse-h56
+    unresolved_structure:
+    - Exact correction-window duration remains uncertain.
+    counterfactual_component_test: Removing the correction window leaves H56 as a delay/workaround/closure course but defeats
+      the later threshold-function claim.
+    source_function_effect_pointer: /result/operation_specific_result/source_function_effect
+    resolution_test_result_pointer: /result/status_declaration/resolution_test_result
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_granularity_pointer: /target/granularity
+target:
+  reference_object:
+    object_id: reconstruction.H56.finer
+    description: Finer same-reference H56 reconstruction with correction-window and residual-load relations.
+    typing:
+      value: finer relational reconstruction of the same reference object
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C54-DP1_DECOMPOSE_to_PROJECT_AS_Threshold_Function_Chain.md#3-occurrence-a-decompose
+  object_typing:
+    value: finer relational reconstruction of the same reference object
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  contextual_function: null
+  frame:
+    value: synthetic coordination incident frame
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: phase and relation granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: finer reconstruction of H56
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: T0–T5
+  validity_scope: Same-reference decomposition only; no target function.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: The H56 DECOMPOSE claim and no-target-function boundary are explicit.
+      rationale: The H56 DECOMPOSE claim and no-target-function boundary are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Exactly one DECOMPOSE occurrence is declared; adjacent chain steps remain separate records.
+      rationale: Exactly one DECOMPOSE occurrence is declared; adjacent chain steps remain separate records.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The correction window changes reconstruction of reversibility and residual load inside H56.
+      rationale: The correction window changes reconstruction of reversibility and residual load inside H56.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Each phase and relation traces to H56; uncertain duration remains visible.
+      rationale: Each phase and relation traces to H56; uncertain duration remains visible.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: H56 remains the same occurrence and finer components retain local typing.
+      rationale: H56 remains the same occurrence and finer components retain local typing.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Removing the correction window defeats the later target-function claim while preserving a coarser H56
+        occurrence.
+      rationale: Removing the correction window defeats the later target-function claim while preserving a coarser H56 occurrence.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Phase compression, function exclusion, duration uncertainty, and recovery conditions are explicit.
+      rationale: Phase compression, function exclusion, duration uncertainty, and recovery conditions are explicit.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: No-window and no-transformation alternatives are compared.
+      rationale: No-window and no-transformation alternatives are compared.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Sources support phase order and window existence, not exact duration or causality.
+      rationale: Sources support phase order and window existence, not exact duration or causality.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: Later PROJECT_AS cannot retroactively turn the window into a causal threshold or validate the decomposition
+        more strongly.
+      rationale: Later PROJECT_AS cannot retroactively turn the window into a causal threshold or validate the decomposition
+        more strongly.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: The bounded finer reconstruction is adequately captured; no Stop or Non-Capture is triggered.
+      rationale: The bounded finer reconstruction is adequately captured; no Stop or Non-Capture is triggered.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: No warning, prediction, person judgment, recommendation, or authority follows.
+      rationale: No warning, prediction, person judgment, recommendation, or authority follows.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The correction window changes reconstruction of reversibility and residual load inside H56.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Each phase and relation traces to H56; uncertain duration remains visible.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: H56 remains the same occurrence and finer components retain local typing.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: H56 remains the same occurrence and finer components retain local typing.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: H56 remains the same occurrence and finer components retain local typing.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: H56 remains the same occurrence and finer components retain local typing.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The H56 DECOMPOSE claim and no-target-function boundary are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Removing the correction window defeats the later target-function claim while preserving a coarser
+        H56 occurrence.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Sources support phase order and window existence, not exact duration or causality.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Sources support phase order and window existence, not exact duration or causality.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Phase compression, function exclusion, duration uncertainty, and recovery conditions are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No-window and no-transformation alternatives are compared.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No warning, prediction, person judgment, recommendation, or authority follows.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No warning, prediction, person judgment, recommendation, or authority follows.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The bounded finer reconstruction is adequately captured; no Stop or Non-Capture is triggered.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The bounded finer reconstruction is adequately captured; no Stop or Non-Capture is triggered.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The selected admissible_with_bounded_claim route follows the non-compensatory twelve-stage and sixteen-rule
+    findings; chain coherence does not replace local source load.
+  anti_immunization_assessment: Later PROJECT_AS cannot retroactively turn the window into a causal threshold or validate
+    the decomposition more strongly.
+  stop_assessment:
+    condition_assessed: true
+    reached: false
+    rationale: The bounded finer reconstruction is adequately captured; no Stop or Non-Capture is triggered.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The bounded finer reconstruction is adequately captured; no Stop or Non-Capture is triggered.
+loss:
+  preserved:
+  - item_id: loss.c54-dp1a.preserved.1
+    affected_element: H56 reference and internal order
+    description: The same occurrence and declared phase order remain visible.
+    reason: Required for DECOMPOSE and later handoff.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/reference_object
+    recoverability_or_reentry_note: Preserved.
+  - item_id: loss.c54-dp1a.preserved.2
+    affected_element: No-function boundary
+    description: DECOMPOSE creates no warning function.
+    reason: Operation separation.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+    recoverability_or_reentry_note: PROJECT_AS must test separately.
+  compressed:
+  - item_id: loss.c54-dp1a.compressed.1
+    affected_element: Phase microdetail
+    description: Only load-bearing distinctions are retained.
+    reason: Relevance floor.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /operation/details/components
+    recoverability_or_reentry_note: New source may reopen.
+  excluded:
+  - item_id: loss.c54-dp1a.excluded.1
+    affected_element: Target-context function
+    description: No threshold or warning role is selected here.
+    reason: Belongs to PROJECT_AS.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+    recoverability_or_reentry_note: Tested in C54-DP1B.
+  uncertain:
+  - item_id: loss.c54-dp1a.uncertain.1
+    affected_element: Correction-window duration
+    description: Duration remains uncertain.
+    reason: Source ceiling.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: New source required.
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions:
+  - alternative_id: alt.c54-dp1a.no-window
+    claim_relation: three-phase model without correction window
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Explain closure without revisability.
+    current_handling: rejected
+    rationale: It loses claim-relevant opportunity structure.
+  rival_projections: []
+  no_transformation:
+  - alternative_id: alt.c54-dp1a.none
+    claim_relation: retain compressed H56
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Forfeit correction-window distinction.
+    current_handling: not_selected
+    rationale: Resolution gain is material.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: This synthetic chain record grants no empirical truth, causal proof, normative or legal judgment, diagnosis,
+    person or group typing, recommendation, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - local operation passage does not establish chain passage
+  - later success does not erase earlier Loss, failure, Stop, or Non-Capture
+  - same reference object does not imply identical representation
+  - formal validation does not establish substantive truth or authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: H56 is reopened into phases without creating a target function.
+    result_family:
+      value: bounded same-reference decomposition
+      control_source: 07_model/Output_Classes.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_function_effect:
+      value: refined
+      control_source: 04_reference/Glossary.md#source-function-effect
+      inventory_status: current_controlled
+    prior_source_claim_disposition: maintained
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: supported
+    resolution_test_result: resolution_gain
+    capture_statement:
+      statement: The bounded finer reconstruction is adequately captured.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: admissible is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: selected
+        rationale: The claim passes only with uncertain duration and no-function boundary.
+        constitutive_condition_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /admissibility
+        - /loss
+        - /alternatives
+        - /governance
+        preserved_finding: The operation-specific finding, inherited chain burdens, Loss, alternatives, and authority ceiling
+          remain preserved.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: admissible_but_provisional is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: resolution_neutral is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: analogy_only is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: partially_admissible is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: claim_reduction_required is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: mandatory_stop is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: failed_transformation is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: non_capture is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: admissible_with_bounded_claim
+    route_id: route_admissible_with_bounded_claim
+    matched_constitutive_conditions:
+    - /claim
+    - /source
+    - /operation
+    - /target
+    - /admissibility
+    - /loss
+    - /alternatives
+    - /governance
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - Earlier operation results and five-part Loss remain visible.
+    - No source type, target function, route, or authority is inherited by later chain steps.
+    split_decision:
+      required: false
+      rationale: Each operation occurrence and any weaker retest claim retains a separate record.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The claim passes only with uncertain duration and no-function boundary.
+    current_claim_disposition:
+      value: maintained
+      rationale: The claim passes only with uncertain duration and no-function boundary.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_with_bounded_claim
+    original_broader_claim_id: candidate.c54-dp1a.complete-incident-mechanism
+    retained_narrower_claim_pointer: /claim/claim_id
+    material_narrowing:
+    - Five phases/relations only.
+    - Correction-window duration remains uncertain.
+    excluded_reach:
+    - No target function, causal mechanism, prediction, or authority.
+    separately_tested: true
+    rationale: H56 is adequately reopened only within declared phase, relation, and source limits.
+relations:
+  sibling_claim_or_record_ids:
+  - case.c54-dp1b.project-as.01
+  chain_id: chain.c54-dp1.decompose-project-as.01
+  next_occurrence_id: project-as.c54-dp1b.01
+  rival_record_ids: []
+  countercase_refs:
+  - PROJECT_AS cannot be hidden inside DECOMPOSE

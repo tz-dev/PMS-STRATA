@@ -1,0 +1,1447 @@
+schema_version: 0.1.2
+record_id: case.c28-trajectory-01.decompose.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-24T18:14:55+00:00'
+  updated_at: '2026-07-27T12:58:13+02:00'
+  revision_id: r2
+  producer_id: PMS-STRATA.Chapter-28-WP1
+  repository_or_case_pointer: 03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml
+  record_provenance:
+  - Synthetic Chapter-28 positive SUB case C28-TRAJECTORY-01; no external empirical truth is asserted.
+  - Built against the retained Shared Transformation Record schema and source repository ZIP 197.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Legacy substantive overflight complete against final Chapters 41–57 LIMITS controls; route 
+    admissible confirmed without change.
+claim:
+  claim_id: claim.c28-trajectory-01.decompose.01
+  statement: admissible same-reference Trajectory decomposition with explicit subpaths, relations, residual binding, 
+    Loss, and no hidden RETYPE.
+  claim_type:
+    value: bounded SUB positive-case claim
+    control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+      inventory.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope: &id001
+    reference_object_boundary: one previously warranted review-governance Trajectory from intake through formal closure,
+      residual binding, and later reopening.
+    operation_occurrence_boundary: Only DECOMPOSE occurrence decompose.c28-trajectory-01.01.
+    frame:
+      value: synthetic review-governance Trajectory frame
+      control_source: 03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/claim/claim_scope/frame
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+        inventory.
+    granularity:
+      value: coarse Trajectory granularity across five bounded phases opened at subpath, transition-cluster, Non-Event, 
+        residual-binding, and reopening-relation reconstruction
+      control_source: 
+        03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/claim/claim_scope/granularity
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+        inventory.
+    relative_level:
+      value: finer reconstruction relative to the retained source occurrence or composite
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+        inventory.
+    temporal_scope: One bounded synthetic Chapter-28 case interval.
+    source_scope: Only the declared synthetic source object, finer packet, components, relations, and known gaps.
+    context_scope: Synthetic Chapter-28 positive case C28-TRAJECTORY-01 only.
+    generalization_boundary: No general validation of DECOMPOSE or of the source type beyond this record.
+    excluded_reach:
+    - No new Trajectory is composed by this record.
+    - No audit-training or warning target function is projected.
+    - No person or authority claim follows.
+  validity_scope: Assessment of one same-reference bounded finer reconstruction under the Chapter-27 SUB admissibility 
+    gates.
+  claim_ceiling: &id002
+    asserted_relation: admissible same-reference Trajectory decomposition with explicit subpaths, relations, residual 
+      binding, Loss, and no hidden RETYPE
+    reach: One explicit DECOMPOSE occurrence and its declared relation map.
+    precision: Components and relations are asserted only at the granularity explicitly listed in the source packet.
+    generality: Single synthetic positive case C28-TRAJECTORY-01.
+    functional_scope: 'Only the tested source function: retain the historically connected course from intake through closure
+      and later reopening while preserving path-dependent residual load. No contextual target function.'
+    dependence_strength: Local structural dependence only; no universal causal law.
+    inferential_distance: One source-bound decomposition and Changed-Reconstruction Test.
+    limiting_sources:
+    - source.c28-trajectory-01.coarse
+    - source.c28-trajectory-01.finer
+    rationale: The finer result is retained only to the extent supported by the declared components, relations, 
+      counterfactual, uncertainty, and Loss.
+  authority_boundary: No empirical, causal, normative, diagnostic, legal, political, organizational, application, 
+    person, legitimacy, sanction, recommendation, or authority status follows.
+source:
+  reference_object:
+    object_id: source-object.c28-trajectory-01
+    description: one previously warranted review-governance Trajectory from intake through formal closure, residual 
+      binding, and later reopening.
+    typing:
+      value: Trajectory composite
+      control_source: 
+        07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/source_contract/recognized_object_families
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+        inventory.
+    source_pointer: 
+      03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md#2-source-and-claim-boundary
+  object_typing:
+    value: Trajectory composite
+    control_source: 
+      07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/source_contract/recognized_object_families
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+      inventory.
+  frame:
+    value: synthetic review-governance Trajectory frame
+    control_source: 03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+      inventory.
+  granularity:
+    value: coarse Trajectory granularity across five bounded phases
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/direction/source_form
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+      inventory.
+  relative_level:
+    value: retained source occurrence or composite relative to candidate internal components
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+      inventory.
+  temporal_scope: One bounded synthetic case interval.
+  source_scope: Exactly the coarse source declaration and finer source packet listed in this record.
+  source_basis:
+  - source_item_id: source.c28-trajectory-01.coarse
+    source_pointer: case://c28-trajectory-01/coarse-source
+    provenance_description: Synthetic declaration of one previously warranted review-governance Trajectory from intake 
+      through formal closure, residual binding, and later reopening.
+    affected_claim_component: Source identity, origin type, coarse function, Frame, and source granularity.
+    support_mode: direct
+    evidence_role:
+      value: synthetic case declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+        inventory.
+    evidence_availability: available
+    temporal_scope: bounded synthetic interval
+    reference_scope: source-object.c28-trajectory-01
+    uncertainty_or_provenance_limit: Synthetic case source; no external empirical warrant.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.c28-trajectory-01.finer
+    source_pointer: case://c28-trajectory-01/finer-packet
+    provenance_description: Synthetic declaration of the listed components, relations, counterfactual variation, and 
+      known gaps.
+    affected_claim_component: Internal reconstruction, source-function effect, Resolution Gain, and Claim Ceiling.
+    support_mode: direct
+    evidence_role:
+      value: synthetic case declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+        inventory.
+    evidence_availability: available
+    temporal_scope: bounded synthetic interval
+    reference_scope: internal structure of source-object.c28-trajectory-01
+    uncertainty_or_provenance_limit: The exact informal communication route into reopening remains underdetermined but 
+      is not required for the bounded relation.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+  - trace_id: trace.c28-trajectory-01.reference
+    source_feature: Independently identifiable bounded source object.
+    affected_claim_component: Reference Continuity and type integrity.
+    trace_role: load_bearing
+    result_dependency: Without the retained source object there is no same-reference DECOMPOSE claim.
+    expected_result_change: Replacing the source object requires a new claim and record.
+    temporal_or_relational_dependency: The source remains fixed across the coarse/fine comparison.
+    claim_limitation: Supports only this bounded source-object identity.
+    source_pointer: case://c28-trajectory-01/coarse-source
+  - trace_id: trace.c28-trajectory-01.relations
+    source_feature: Declared component relations and counterfactual effect.
+    affected_claim_component: PraxisPurchase, source-function effect, and Resolution Gain.
+    trace_role: load_bearing
+    result_dependency: The positive result depends on the listed relations rather than component enumeration alone.
+    expected_result_change: Removing a load-bearing relation reduces or changes the decomposition claim.
+    temporal_or_relational_dependency: Relations remain internal to the declared source interval and Frame.
+    claim_limitation: Supports only the bounded relation map; no universal causality.
+    source_pointer: case://c28-trajectory-01/relations
+  known_gaps:
+  - The exact informal communication route into reopening remains underdetermined but is not required for the bounded 
+    relation.
+  - Any changed source packet, object identity, or relation map requires a new record.
+  source_ceiling:
+    asserted_relation: The sources support the listed components, internal relations, bounded counterfactual, and 
+      source-function effect.
+    reach: One synthetic source occurrence or composite and one finer packet.
+    precision: Only the listed component and relation granularity.
+    generality: Single Chapter-28 positive case.
+    functional_scope: Source function only; no target function.
+    dependence_strength: Local source-bound structural dependence.
+    inferential_distance: Direct synthetic declarations plus one bounded reconstruction.
+    limiting_sources:
+    - source.c28-trajectory-01.coarse
+    - source.c28-trajectory-01.finer
+    rationale: The ceiling excludes missing edges, motive, universal causality, target function, application, and 
+      authority.
+operation:
+  occurrence_id: decompose.c28-trajectory-01.01
+  kind: DECOMPOSE
+  justification: Which subpaths, transition clusters, Non-Events, authority shifts, residual obligations, and repair 
+    relations constitute the same Trajectory without composing a new PATH or assigning a target function?
+  expected_praxeological_difference: The finer reconstruction should preserve the Trajectory reference, explain how 
+    formal closure differs from finality, and expose the relation by which residual binding connects closure to later 
+    reopening.
+  selection_rule: Include only the declared source-supported components and internal relations; retain the source object
+    and exclude new PATH, PROJECT_AS, analogy, person, and authority claims.
+  transformation_context: Synthetic Chapter-28 positive case C28-TRAJECTORY-01.
+  details:
+    source_function:
+      value: retain the historically connected course from intake through closure and later reopening while preserving 
+        path-dependent residual load
+      control_source: 
+        03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/operation/details/source_function
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+        inventory.
+    decomposition_question: Which subpaths, transition clusters, Non-Events, authority shifts, residual obligations, and
+      repair relations constitute the same Trajectory without composing a new PATH or assigning a target function?
+    insufficiency_of_current_compression: The finer reconstruction should preserve the Trajectory reference, explain how
+      formal closure differs from finality, and expose the relation by which residual binding connects closure to later 
+      reopening.
+    components:
+    - object_id: component.c28-trajectory-01.intake-subpath
+      description: intake and admissibility subpath
+      typing:
+        value: bounded decomposition component
+        control_source: 
+          03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/operation/details/components
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      source_pointer: case://c28-trajectory-01/component/intake-subpath
+    - object_id: component.c28-trajectory-01.review-cluster
+      description: review and contestation transition cluster
+      typing:
+        value: bounded decomposition component
+        control_source: 
+          03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/operation/details/components
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      source_pointer: case://c28-trajectory-01/component/review-cluster
+    - object_id: component.c28-trajectory-01.closure-event
+      description: formal closure occurrence
+      typing:
+        value: bounded decomposition component
+        control_source: 
+          03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/operation/details/components
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      source_pointer: case://c28-trajectory-01/component/closure-event
+    - object_id: component.c28-trajectory-01.residual-obligation
+      description: binding residue that survives formal closure
+      typing:
+        value: bounded decomposition component
+        control_source: 
+          03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/operation/details/components
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      source_pointer: case://c28-trajectory-01/component/residual-obligation
+    - object_id: component.c28-trajectory-01.reopening-subpath
+      description: later reconsideration and repair subpath
+      typing:
+        value: bounded decomposition component
+        control_source: 
+          03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/operation/details/components
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      source_pointer: case://c28-trajectory-01/component/reopening-subpath
+    component_relations:
+    - relation_id: relation.c28-trajectory-01.1
+      relation_type:
+        value: entry-to-review relation
+        control_source: 
+          03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/operation/details/component_relations
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      from_object_id: component.c28-trajectory-01.intake-subpath
+      to_object_id: component.c28-trajectory-01.review-cluster
+      description: admitted material enters the review cluster
+      constitutive: true
+      source_pointer: case://c28-trajectory-01/relations
+    - relation_id: relation.c28-trajectory-01.2
+      relation_type:
+        value: review-to-closure relation
+        control_source: 
+          03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/operation/details/component_relations
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      from_object_id: component.c28-trajectory-01.review-cluster
+      to_object_id: component.c28-trajectory-01.closure-event
+      description: review culminates in formal closure
+      constitutive: true
+      source_pointer: case://c28-trajectory-01/relations
+    - relation_id: relation.c28-trajectory-01.3
+      relation_type:
+        value: closure-to-residue relation
+        control_source: 
+          03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/operation/details/component_relations
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      from_object_id: component.c28-trajectory-01.closure-event
+      to_object_id: component.c28-trajectory-01.residual-obligation
+      description: closure leaves a declared obligation unresolved
+      constitutive: true
+      source_pointer: case://c28-trajectory-01/relations
+    - relation_id: relation.c28-trajectory-01.4
+      relation_type:
+        value: residue-to-reopening relation
+        control_source: 
+          03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/operation/details/component_relations
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      from_object_id: component.c28-trajectory-01.residual-obligation
+      to_object_id: component.c28-trajectory-01.reopening-subpath
+      description: continuing binding provides the traceable connection to later reopening
+      constitutive: true
+      source_pointer: case://c28-trajectory-01/relations
+    internal_temporality: The listed components and relations remain ordered or co-present only as declared; no 
+      additional sequence or causal law is inferred.
+    source_support:
+    - source_item_id: source.c28-trajectory-01.coarse
+      source_pointer: case://c28-trajectory-01/coarse-source
+      provenance_description: Synthetic declaration of one previously warranted review-governance Trajectory from intake
+        through formal closure, residual binding, and later reopening.
+      affected_claim_component: Source identity, origin type, coarse function, Frame, and source granularity.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      evidence_availability: available
+      temporal_scope: bounded synthetic interval
+      reference_scope: source-object.c28-trajectory-01
+      uncertainty_or_provenance_limit: Synthetic case source; no external empirical warrant.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c28-trajectory-01.finer
+      source_pointer: case://c28-trajectory-01/finer-packet
+      provenance_description: Synthetic declaration of the listed components, relations, counterfactual variation, and 
+        known gaps.
+      affected_claim_component: Internal reconstruction, source-function effect, Resolution Gain, and Claim Ceiling.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+          inventory.
+      evidence_availability: available
+      temporal_scope: bounded synthetic interval
+      reference_scope: internal structure of source-object.c28-trajectory-01
+      uncertainty_or_provenance_limit: The exact informal communication route into reopening remains underdetermined but
+        is not required for the bounded relation.
+      warrant_route: strata_internal_support_assessable
+    source_reference_preserved: true
+    prior_source_claim_id: claim.c28-trajectory-01.coarse-trajectory
+    unresolved_structure:
+    - The exact informal communication route into reopening remains underdetermined but is not required for the bounded 
+      relation.
+    counterfactual_component_test: Replacing residual obligation with a non-binding recommendation preserves formal 
+      closure but weakens the source-supported connection to reopening; the Trajectory remains, while the 
+      continuing-binding claim changes.
+    source_function_effect_pointer: /result/operation_specific_result/source_function_effect
+    resolution_test_result_pointer: /result/status_declaration/resolution_test_result
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_granularity_pointer: /target/granularity
+target:
+  reference_object:
+    object_id: reconstruction.c28-trajectory-01.finer
+    description: admissible same-reference Trajectory decomposition with explicit subpaths, relations, residual binding,
+      Loss, and no hidden RETYPE.
+    typing:
+      value: finer relational reconstruction of the same reference object
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/target_contract/primary_result_kind
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+        inventory.
+    source_pointer: 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md#4-finer-reconstruction
+  object_typing:
+    value: finer relational reconstruction of the same reference object
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/target_contract/primary_result_kind
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+      inventory.
+  contextual_function:
+  frame:
+    value: synthetic review-governance Trajectory frame
+    control_source: 03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+      inventory.
+  granularity:
+    value: subpath, transition-cluster, Non-Event, residual-binding, and reopening-relation reconstruction
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/direction/target_form
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+      inventory.
+  relative_level:
+    value: finer target reconstruction relative to the retained source object
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+      inventory.
+  temporal_scope: Same bounded synthetic interval as the source object.
+  validity_scope: Only the declared components, relations, source-function effect, Resolution Gain, uncertainty, and 
+    Loss.
+  contextual_function_origin_occurrence_ref:
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes source_and_claim_entry for one bounded positive DECOMPOSE case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes operation_classification for one bounded positive DECOMPOSE case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes relevance_floor for one bounded positive DECOMPOSE case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes traceability_ceiling for one bounded positive DECOMPOSE case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes continuity_and_type_integrity for one bounded positive DECOMPOSE 
+        case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes counterfactual_sensitivity for one bounded positive DECOMPOSE case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes loss_and_selection for one bounded positive DECOMPOSE case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes alternatives for one bounded positive DECOMPOSE case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes source_and_calibration_limits for one bounded positive DECOMPOSE 
+        case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes anti_immunization for one bounded positive DECOMPOSE case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes stop_and_non_capture for one bounded positive DECOMPOSE case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: C28-TRAJECTORY-01 completes claim_and_authority_ceiling for one bounded positive DECOMPOSE case.
+      rationale: Source object, operation, components, relations, source-function effect, Resolution Gain, Loss, 
+        alternatives, Stop, and governance boundary are explicit.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /admissibility
+      - /loss
+      - /alternatives
+      - /governance
+      - 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: praxis_purchase is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: traceable_load is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: type_integrity is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: reference_continuity is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: functional_continuity is bounded and satisfied for C28-TRAJECTORY-01; the positive result 
+        remains claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: temporal_continuity is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: contextual_boundedness is bounded and satisfied for C28-TRAJECTORY-01; the positive result 
+        remains claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: counterfactual_sensitivity is bounded and satisfied for C28-TRAJECTORY-01; the positive result 
+        remains claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: source_ceiling is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: calibration is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: selection_and_loss is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: alternatives is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: claim_ceiling is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: authority_ceiling is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: stop is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains claim-relative 
+        and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      reasoned_finding: non_capture is bounded and satisfied for C28-TRAJECTORY-01; the positive result remains 
+        claim-relative and source-limited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Retain the bounded finer reconstruction and require a new record for changed source, object, 
+        granularity, operation, or claim.
+      controlled_local_result:
+  non_compensation_confirmation: true
+  audit_to_routing_basis: C28-TRAJECTORY-01 passes the non-compensatory SUB gates and routes to admissible.
+  anti_immunization_assessment: Resolution Gain is a new testable claim and does not erase the prior broader claim 
+    disposition; changed grounds require a new record.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The bounded reconstruction remains above the Relevance Floor and below the Traceability Ceiling; 
+      unsupported continuation is prohibited but the completed result does not require a selected Stop class.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The record adequately captures the bounded source object, components, relations, function effect, 
+      uncertainty, alternatives, and Loss.
+loss: &id003
+  preserved:
+  - item_id: loss.c28-trajectory-01.preserved.1
+    affected_element: Source reference and origin type
+    description: The bounded source object and occurrence/composite type remain explicit.
+    reason: Same-reference DECOMPOSE requires preserved or explicitly revised reference.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the bounded source-object identity.
+  - item_id: loss.c28-trajectory-01.preserved.2
+    affected_element: Components and internal relations
+    description: The listed source-supported components and relations remain explicit.
+    reason: A valid decomposition requires more than component enumeration.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the bounded relational reconstruction.
+  - item_id: loss.c28-trajectory-01.preserved.3
+    affected_element: Source-function effect, Resolution Gain, uncertainty, and governance ceiling
+    description: The changed-reconstruction finding and its limits remain explicit.
+    reason: Result axes and authority boundaries must remain separate.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Bound the current result and prevent automatic extension.
+  compressed:
+  - item_id: loss.c28-trajectory-01.compressed.1
+    affected_element: Repeated or non-load-bearing microdetail
+    description: Repetitive microdetail is summarized after relation and function testing.
+    reason: Compression preserves the tested claim while avoiding false detail priority.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Keep only claim-relevant internal distinctions.
+    source_or_evidence_pointer: /operation/details/components
+    recoverability_or_reentry_note: Recoverable in a new record if materially new source-supported difference appears.
+  excluded:
+  - item_id: loss.c28-trajectory-01.excluded.1
+    affected_element: Unsupported broader reach
+    description: No new Trajectory is composed by this record.; No audit-training or warning target function is 
+      projected.; No person or authority claim follows.
+    reason: The Claim Ceiling excludes unsupported operation, causal, person, normative, application, and authority 
+      reach.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Exclude the unsupported broader reach.
+    source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+    recoverability_or_reentry_note: Requires new sources and a separate claim/record; no inheritance from this result.
+  uncertain:
+  - item_id: loss.c28-trajectory-01.uncertain.1
+    affected_element: Unresolved internal structure
+    description: The exact informal communication route into reopening remains underdetermined but is not required for 
+      the bounded relation.
+    reason: The source packet does not warrant false precision.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Keep uncertainty explicit without defeating the bounded result.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: May be revisited only with materially new source support.
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions:
+  - alternative_id: alternative.c28-trajectory-01.rival.1
+    claim_relation: A coarser or differently segmented reconstruction may be tested in a separate record.
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Must preserve the same source object or declare a rival object and meet the same 
+      relation/function burdens.
+    current_handling: unresolved
+    rationale: The present record does not claim unique decomposition.
+  rival_projections: []
+  no_transformation:
+  - alternative_id: alternative.c28-trajectory-01.no_transform.1
+    claim_relation: Retain the coarse source claim without further opening.
+    source_basis_or_evidence_pointer: /source/reference_object
+    comparative_burden: Remains available but lacks the changed-reconstruction detail established here.
+    current_handling: rejected
+    rationale: The source-supported finer relations create a material Resolution Gain for the tested claim.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: This synthetic case classifies one bounded DECOMPOSE occurrence and grants no empirical, causal, 
+    normative, diagnostic, legal, political, organizational, application, person, legitimacy, sanction, recommendation, 
+    or authority status.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - one positive case does not validate DECOMPOSE generally
+  - operator type is not decomposed
+  - Resolution Gain does not grant truth priority to fine resolution
+  - source-function effect does not automatically select the Output Class
+  - formal validation does not establish substantive truth or authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: admissible same-reference Trajectory decomposition with explicit subpaths, relations, residual binding, 
+      Loss, and no hidden RETYPE
+    result_family:
+      value: bounded positive SUB case result
+      control_source: 01_blocks/03_part_ii_sub.md#28-sub-cases-countercases-and-local-audit
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical 
+        inventory.
+    source_function_effect:
+      value: refined
+      control_source: 04_reference/Glossary.md#source-function-effect
+      inventory_status: current_controlled
+    prior_source_claim_disposition: superseded_without_erasure
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids:
+    - claim.c28-trajectory-01.coarse-trajectory
+  status_declaration:
+    support_status: supported
+    resolution_test_result: resolution_gain
+    capture_statement:
+      statement: The bounded finer reconstruction captures the declared components, relations, source-function effect, 
+        and remaining uncertainty without claiming completeness beyond the source packet.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: selected
+        rationale: admissible is selected because the same-reference DECOMPOSE occurrence preserves source, relations, 
+          function translation, type integrity, and bounded Loss.
+        constitutive_condition_pointers:
+        - /operation/details/components
+        - /operation/details/component_relations
+        - /operation/details/source_support
+        - /admissibility/rule_assessments/praxis_purchase
+        - /admissibility/rule_assessments/traceable_load
+        - /claim/claim_ceiling
+        - /loss
+        - /governance/authority_inheritance
+        preserved_finding: admissible same-reference Trajectory decomposition with explicit subpaths, relations, 
+          residual binding, Loss, and no hidden RETYPE
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: The constitutive conditions for admissible_with_bounded_claim are not decisive for this case claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_with_bounded_claim result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The constitutive conditions for admissible_but_provisional are not decisive for this case claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for this case claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for this case claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The constitutive conditions for partially_admissible are not decisive for this case claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The constitutive conditions for claim_reduction_required are not decisive for this case claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The constitutive conditions for mandatory_stop are not decisive for this case claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The constitutive conditions for failed_transformation are not decisive for this case claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: The constitutive conditions for non_capture are not decisive for this case claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+    selected_class: admissible
+    route_id: route_admissible
+    matched_constitutive_conditions:
+    - /operation/details/components
+    - /operation/details/component_relations
+    - /operation/details/source_support
+    - /admissibility/rule_assessments/praxis_purchase
+    - /admissibility/rule_assessments/traceable_load
+    - /claim/claim_ceiling
+    - /loss
+    - /governance/authority_inheritance
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - Resolution Gain and source-function effect refined remain separate from the selected canonical class.
+    split_decision:
+      required: false
+      rationale: One bounded DECOMPOSE claim is classified in this record; any new PATH or PROJECT_AS claim requires a 
+        separate occurrence.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: admissible same-reference Trajectory decomposition with explicit subpaths, relations, 
+      residual binding, Loss, and no hidden RETYPE; the claim remains within its declared source, function, type, Loss, 
+      and governance ceiling.
+    current_claim_disposition:
+      value: maintained
+      rationale: The current finer reconstruction is maintained; the broader prior claim is superseded without erasure.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible
+    ordinary_boundedness_confirmed: true
+    rationale: admissible same-reference Trajectory decomposition with explicit subpaths, relations, residual binding, 
+      Loss, and no hidden RETYPE All remaining exclusions and uncertainty are non-defeating and explicit.
+relations:
+  prior_record_ids: []
+  prior_claim_ids:
+  - claim.c28-trajectory-01.coarse-trajectory
+  sibling_claim_or_record_ids: []
+  rival_record_ids: []
+  countercase_refs:
+  - C28-OVERFINE-01
+  - C28-UNSUPPORTED-01
+  - C28-FRAGMENT-01
+extensions:
+- extension_id: pms-strata:chapter28:sub-positive-case:c28-trajectory-01:v0.1
+  owner_or_source: PMS-STRATA Chapter 28
+  control_source_pointer: 01_blocks/03_part_ii_sub.md#28-trajectory-01
+  purpose: Carry the Chapter-28 SUB case wrapper and case-local audit without replacing Shared Transformation Record 
+    fields.
+  payload:
+    sub_case:
+      case_id: C28-TRAJECTORY-01
+      case_class: positive_case
+      title: Admissible Trajectory Decomposition
+      markdown_artifact: 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+      yaml_artifact: 03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml
+      governing_claim: admissible same-reference Trajectory decomposition with explicit subpaths, relations, residual 
+        binding, Loss, and no hidden RETYPE.
+      claim_scope: *id001
+      claim_ceiling: *id002
+      source_transformation_record: case.c28-trajectory-01.decompose.01
+      source_object: one previously warranted review-governance Trajectory from intake through formal closure, residual 
+        binding, and later reopening
+      source_origin_type: Trajectory composite
+      source_frame: synthetic review-governance Trajectory frame
+      source_granularity: coarse Trajectory granularity across five bounded phases
+      target_granularity: subpath, transition-cluster, Non-Event, residual-binding, and reopening-relation 
+        reconstruction
+      decomposition_question: Which subpaths, transition clusters, Non-Events, authority shifts, residual obligations, 
+        and repair relations constitute the same Trajectory without composing a new PATH or assigning a target function?
+      expected_additional_praxis_difference: The finer reconstruction should preserve the Trajectory reference, explain 
+        how formal closure differs from finality, and expose the relation by which residual binding connects closure to 
+        later reopening.
+      components:
+      - intake-subpath
+      - review-cluster
+      - closure-event
+      - residual-obligation
+      - reopening-subpath
+      component_relations:
+      - entry-to-review relation
+      - review-to-closure relation
+      - closure-to-residue relation
+      - residue-to-reopening relation
+      source_reference_status: preserved
+      coarser_function_status: refined
+      type_integrity_status: preserved_without_operator_type_decomposition
+      resolution_result: resolution_gain
+      operation_boundary_status: DECOMPOSE only; new PATH, PROJECT_AS, analogy, and recontextualization not executed
+      counterfactual_sensitivity: Replacing residual obligation with a non-binding recommendation preserves formal 
+        closure but weakens the source-supported connection to reopening; the Trajectory remains, while the 
+        continuing-binding claim changes.
+      loss: *id003
+      alternatives: Rival decomposition and no-transformation alternatives retained in controlled fields.
+      local_audit_result:
+        status: pass
+        stages_complete: 12
+        case_specific_checks:
+        - check: source_object_bounded
+          status: pass
+        - check: operator_type_not_decomposed
+          status: pass
+        - check: components_present
+          status: pass
+        - check: relations_present
+          status: pass
+        - check: source_function_effect_explicit
+          status: pass
+        - check: resolution_result_separate
+          status: pass
+        - check: loss_complete
+          status: pass
+        - check: one_canonical_mapping
+          status: pass
+        warnings: 0
+        errors: 0
+      canonical_output_mapping: admissible
+      stop_or_non_capture_status: Stop condition declared; Mandatory Stop and Non-Capture not selected for the completed
+        bounded result.
+      governance_boundary: This synthetic case classifies one bounded DECOMPOSE occurrence and grants no empirical, 
+        causal, normative, diagnostic, legal, political, organizational, application, person, legitimacy, sanction, 
+        recommendation, or authority status.
+  does_not_replace_required_field: true
+- extension_id: pms-strata:c28-legacy-substantive-overflight:c28-trajectory-01:v0.1
+  owner_or_source: PMS-STRATA C28 Legacy Substantive Overflight
+  control_source_pointer: _workfiles/legacy_overflights/C28_Legacy_Substantive_Overflight.md
+  purpose: Record final-LIMITS substantive review without replacing the original operation occurrence, route, Loss, or 
+    historical model-version provenance.
+  payload:
+    review_snapshot: PMS-STRATA_Source_of_Truth_ZIP_312.zip
+    review_snapshot_sha256: 9bd2f0b663fe2f81681e1263f88a315772e84b94c161b0ae1eba29e0d5c3536d
+    reviewed_against:
+    - 05_minified/Chapter_Contracts.md#chapter-28-sub-cases-countercases-and-local-audit
+    - 01_blocks/03_part_ii_sub.md#27-12-sub-admissibility-test
+    - 01_blocks/03_part_ii_sub.md#28-sub-cases-countercases-and-local-audit
+    - 01_blocks/05_part_iv_limits.md
+    - 01_blocks/06_conclusion.md
+    - 07_model/Admissibility_Rules.yaml
+    - 07_model/Output_Classes.yaml
+    - 07_model/Transformation_Record.schema.json
+    review_dimensions:
+    - source_and_claim_ceiling
+    - decompose_source_eligibility_and_type_integrity
+    - reference_function_and_granularity_continuity
+    - component_and_relation_reconstructibility
+    - resolution_and_source_function_effect_separation
+    - counterfactual_sensitivity
+    - selection_and_five_part_loss
+    - alternatives_and_operation_boundary
+    - anti_immunization_and_failure_preservation
+    - stop_reduction_failure_and_non_capture_separation
+    - claim_and_authority_ceiling
+    - canonical_output_route
+    substantive_verdict: confirmed_without_route_change
+    selected_class_confirmed: admissible
+    key_finding: The same-reference Trajectory decomposition retains its subpaths, closure-residue-reopening relations, 
+      source function, and bounded Resolution Gain without composing a new PATH or projecting a target function.
+    formal_conformance_only_not_claimed: false
+    empirical_or_external_validation_claimed: false
+    route_changed: false
+    claim_changed: false
+    loss_inventory_changed: false
+    source_or_operation_changed: false
+    downstream_record_ids_reviewed: []
+    operation_chain_boundary_finding: No later operation occurrence changes, repairs, strengthens, or inherits the 
+      current DECOMPOSE result.
+  does_not_replace_required_field: true

@@ -1,0 +1,1411 @@
+schema_version: 0.1.2
+record_id: case.c17-branch-01.compose.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-23T17:30:00+02:00'
+  updated_at: '2026-07-27T11:59:29+02:00'
+  revision_id: r2
+  producer_id: PMS-STRATA.Chapter-17-WP1
+  repository_or_case_pointer: 03_cases/yaml/C17-BRANCH-01_Branching_Path.yaml
+  record_provenance:
+    - Synthetic PATH case C17-BRANCH-01 instantiated for Chapter 17 local method testing; no external empirical truth is
+      asserted.
+    - Built against Transformation_Record.schema.json v0.1.3 and the Chapter 17 WP1 repository snapshot.
+  model_versions:
+    operation_registry: 0.1.1
+    output_classes: 0.1.1
+    admissibility_rules: 0.1.2
+    boundary_decision_tree: 0.1.1
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Legacy substantive overflight complete against final Chapters 41–57 LIMITS controls; route 
+    admissible confirmed without change.
+claim:
+  claim_id: claim.c17-branch-01.compose.01
+  statement: The legacy configuration, contemporaneous branch point, realized staged route, rejected immediate route, 
+    and later reachability closure form one bounded branching Path under the declared rules.
+  claim_type:
+    value: declared-composite claim
+    control_source: 04_reference/Claim_Type_Table.md#76-compose-specific-composite-claims
+    inventory_status: current_controlled
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Only the synthetic migration decision window and later compatibility closure from t0 
+      through t4.
+    operation_occurrence_boundary: Only COMPOSE occurrence compose.c17-branch-01.01.
+    frame: &id002
+      value: synthetic platform-migration decision frame
+      control_source: 03_cases/yaml/C17-BRANCH-01_Branching_Path.yaml#/claim/claim_scope/frame
+      inventory_status: extension
+      extension_rationale: The case-specific frame is local to this synthetic case and does not extend STRATA theory.
+    granularity: &id003
+      value: branch-point and continuation granularity
+      control_source: 03_cases/yaml/C17-BRANCH-01_Branching_Path.yaml#/claim/claim_scope/granularity
+      inventory_status: extension
+      extension_rationale: The case-specific granularity declares the source-to-target distinction set for this 
+        synthetic case.
+    relative_level: &id006
+      value: branching path relative to constituent branch structures and transitions
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: The local wording instantiates the controlled relative-level relation for this case target.
+    temporal_scope: Synthetic interval t0–t4.
+    source_scope: Exactly the declared legacy configuration, branch point, staged branch, immediate branch, pilot 
+      result, phased rollout, and compatibility freeze.
+    context_scope: Synthetic Chapter 17 case C17-BRANCH-01 only.
+    generalization_boundary: No external domain generalization, application transfer, person evaluation, causal proof, 
+      prediction, or authority claim.
+    excluded_reach:
+      - No claim that the realized staged branch was optimal, rational, legitimate, or inevitable.
+      - No claim about the unrealized ultimate outcome of immediate cutover.
+      - No causal or person-level attribution.
+      - No contextual target function.
+  validity_scope: Valid only as the bounded synthetic branching Path described by this record.
+  claim_ceiling:
+    asserted_relation: A source-supported Branch Point connects one starting configuration to two historically available
+      continuations; one is realized, one rejected, and later reachability changes.
+    reach: Legacy platform through staged migration and closure of the original immediate-cutover option.
+    precision: Branch availability, selection status, realized transitions, and bounded later reachability; exact 
+      closure instant remains uncertain.
+    generality: Single synthetic case C17-BRANCH-01.
+    functional_scope: No contextual target function is assigned; any later function requires a separate PROJECT_AS 
+      occurrence.
+    dependence_strength: The branching Path depends on the contemporaneous alternative field and later closure; no 
+      strong Path-Dependence or counterfactual-outcome claim is made.
+    inferential_distance: One explicit COMPOSE occurrence from typed source structures to one bounded temporal 
+      composite.
+    limiting_sources: &id004
+      - source.c17-branch-01.legacy
+      - source.c17-branch-01.branchpoint
+      - source.c17-branch-01.staged
+      - source.c17-branch-01.immediate
+      - source.c17-branch-01.freeze
+    rationale: The sources support a bounded branching Path, not inevitability, optimality, causal superiority, known 
+      unrealized outcomes, or target function.
+  authority_boundary: The record supports only the stated synthetic temporal-object claim and grants no empirical, 
+    causal, normative, diagnostic, legal, political, organizational, or application authority.
+source:
+  reference_object:
+    object_id: source.set.c17-branch-01
+    description: Typed source set containing the synthetic migration Branch Point, realized and rejected continuations, 
+      and later reachability change.
+    typing: &id001
+      value: typed temporal source set
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract
+      inventory_status: extension
+      extension_rationale: The local source-set label groups independently typed source objects without creating a new 
+        PMS primitive.
+    source_pointer: 03_cases/markdown/C17-BRANCH-01_Branching_Path.md#source-field
+  object_typing: *id001
+  frame: *id002
+  granularity: *id003
+  relative_level:
+    value: branch and transition level relative to the target branching path
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: The local wording instantiates the controlled relative-level relation for this case source 
+      field.
+  temporal_scope: Synthetic interval t0–t4.
+  source_scope: Exactly the declared legacy configuration, branch point, staged branch, immediate branch, pilot result, 
+    phased rollout, and compatibility freeze.
+  source_basis:
+    - source_item_id: source.c17-branch-01.legacy
+      source_pointer: case://pms-strata/configuration.branch.legacy
+      provenance_description: Synthetic declaration of the legacy starting configuration.
+      affected_claim_component: Starting configuration.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: t0
+      reference_scope: configuration.branch.legacy
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-branch-01.branchpoint
+      source_pointer: case://pms-strata/branch.branchpoint.migration
+      provenance_description: Synthetic declaration that staged migration and immediate cutover were both prepared and 
+        available.
+      affected_claim_component: Branch Point and alternative field.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: t1
+      reference_scope: branch.branchpoint.migration
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-branch-01.staged
+      source_pointer: case://pms-strata/subpath.branch.staged
+      provenance_description: Synthetic declaration of pilot and phased-rollout traversal.
+      affected_claim_component: Realized branch.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: t2–t3
+      reference_scope: subpath.branch.staged
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-branch-01.immediate
+      source_pointer: case://pms-strata/branch.branch.immediate
+      provenance_description: Synthetic declaration of contemporaneous availability and explicit rejection of immediate 
+        cutover.
+      affected_claim_component: Rejected branch and alternative-space structure.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: t1
+      reference_scope: branch.branch.immediate
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-branch-01.freeze
+      source_pointer: case://pms-strata/transition.branch.compatibility-freeze
+      provenance_description: Synthetic declaration that a compatibility freeze materially closes the original 
+        immediate-cutover route.
+      affected_claim_component: Later reachability change.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: t4
+      reference_scope: transition.branch.compatibility-freeze
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+    - trace_id: trace.legacy
+      source_feature: Legacy platform configuration at t0.
+      affected_claim_component: Starting configuration.
+      trace_role: load_bearing
+      result_dependency: Without it, the branch reference object changes.
+      expected_result_change: Removing it defeats the declared migration boundary.
+      temporal_or_relational_dependency: It precedes the decision window.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/configuration.branch.legacy
+    - trace_id: trace.branchpoint
+      source_feature: Migration Branch Point at t1 with two prepared continuations.
+      affected_claim_component: Branch Point and alternative field.
+      trace_role: load_bearing
+      result_dependency: Without contemporaneous plural availability, no Branch Point is established.
+      expected_result_change: Removing one branch reduces the result to a linear Path.
+      temporal_or_relational_dependency: It follows the legacy configuration and precedes branch selection.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/branch.branchpoint.migration
+    - trace_id: trace.staged
+      source_feature: Realized staged-migration subpath from pilot to phased rollout.
+      affected_claim_component: Realized branch.
+      trace_role: load_bearing
+      result_dependency: Without traversal, the realized branch claim fails.
+      expected_result_change: Removing the subpath reduces the record to a decision without realized continuation.
+      temporal_or_relational_dependency: It follows the branch decision.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/subpath.branch.staged
+    - trace_id: trace.immediate
+      source_feature: Immediate-cutover continuation rejected during the open t1 window.
+      affected_claim_component: Rejected branch and alternative-space structure.
+      trace_role: load_bearing
+      result_dependency: Without it, selectivity and Branch Point plurality are lost.
+      expected_result_change: Removing it converts the representation toward a linear Path.
+      temporal_or_relational_dependency: It is contemporaneous with the staged option at t1.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/branch.branch.immediate
+    - trace_id: trace.freeze
+      source_feature: Compatibility-freeze transition at t4 closing the original immediate route.
+      affected_claim_component: Later reachability change.
+      trace_role: load_bearing
+      result_dependency: Without the freeze, later closure is unsupported.
+      expected_result_change: Removing it preserves the earlier rejection but defeats the lost-reachability claim.
+      temporal_or_relational_dependency: It follows staged rollout and changes later alternative availability.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/transition.branch.compatibility-freeze
+  known_gaps:
+    - The exact instant at which immediate cutover became materially unreachable is not declared.
+    - The internal reasons for rejecting immediate cutover are not represented beyond the recorded decision.
+  source_ceiling:
+    asserted_relation: The branch candidates, selection status, realized route, and compatibility closure are directly 
+      declared.
+    reach: Contemporaneous availability, realized/rejected status, staged transitions, and later reachability.
+    precision: Branch status is explicit; the exact moment of material closure is bounded but not point-exact.
+    generality: Single synthetic case C17-BRANCH-01.
+    functional_scope: No target function, application status, motive, or authority is sourced.
+    dependence_strength: Direct synthetic declarations support the listed objects, relations, order, and bounded 
+      uncertainty only.
+    inferential_distance: Source declarations only; object formation is tested separately under COMPOSE.
+    limiting_sources: *id004
+    rationale: The source basis is sufficient for the bounded case test and insufficient for broader empirical, causal, 
+      functional, normative, or authority claims.
+operation:
+  occurrence_id: compose.c17-branch-01.01
+  kind: COMPOSE
+  justification: The source field contains a contemporaneous plural continuation set, explicit selection status, 
+    realized traversal, and a later reachability change; together they support a bounded branching Path rather than a 
+    linear retrospective story.
+  expected_praxeological_difference: The composite preserves selectivity, rejected availability, and later closure, 
+    changing how the realized route and future accessibility are reconstructed.
+  selection_rule: Include the starting configuration, Branch Point, both contemporaneously available continuations, the 
+    realized staged subpath, and the compatibility freeze; exclude later imagined alternatives.
+  transformation_context: Synthetic Chapter 17 positive-case reconstruction for C17-BRANCH-01.
+  details:
+    source_objects:
+      - object_id: configuration.branch.legacy
+        description: Legacy platform configuration at t0.
+        typing:
+          value: configuration
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/configuration.branch.legacy
+      - object_id: branch.branchpoint.migration
+        description: Migration Branch Point at t1 with two prepared continuations.
+        typing:
+          value: branch structure
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/branch.branchpoint.migration
+      - object_id: subpath.branch.staged
+        description: Realized staged-migration subpath from pilot to phased rollout.
+        typing:
+          value: subpath
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/subpath.branch.staged
+      - object_id: branch.branch.immediate
+        description: Immediate-cutover continuation rejected during the open t1 window.
+        typing:
+          value: branch structure
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/branch.branch.immediate
+      - object_id: transition.branch.compatibility-freeze
+        description: Compatibility-freeze transition at t4 closing the original immediate route.
+        typing:
+          value: transition as object
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/transition.branch.compatibility-freeze
+    source_typings:
+      - value: configuration
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: branch structure
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: subpath
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: branch structure
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: transition as object
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+    ordering_rule: 'Use partial order: legacy precedes Branch Point; staged and immediate continuations are contemporaneous
+      candidates; staged traversal precedes compatibility freeze.'
+    formation_rule: Form a branching Path only if plural continuations were contemporaneously available, selection 
+      status is supported, realized traversal is traceable, and later reachability change remains explicit.
+    constitutive_relations:
+      - relation_id: relation.branch.legacy-to-branchpoint
+        relation_type:
+          value: branch-opening transition relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: configuration.branch.legacy
+        to_object_id: branch.branchpoint.migration
+        description: The legacy configuration enters a bounded decision window with two prepared continuations.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-BRANCH-01_Branching_Path.md#typed-reconstruction
+      - relation_id: relation.branch.realized-staged
+        relation_type:
+          value: realized-branch traversal relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: branch.branchpoint.migration
+        to_object_id: subpath.branch.staged
+        description: The staged route is selected and traversed through pilot and phased rollout.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-BRANCH-01_Branching_Path.md#typed-reconstruction
+      - relation_id: relation.branch.rejected-immediate
+        relation_type:
+          value: rejected-branch status relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: branch.branchpoint.migration
+        to_object_id: branch.branch.immediate
+        description: Immediate cutover remains historically available but is explicitly rejected while the window is 
+          open.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-BRANCH-01_Branching_Path.md#typed-reconstruction
+      - relation_id: relation.branch.freeze-closes-route
+        relation_type:
+          value: later-reachability closure relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: subpath.branch.staged
+        to_object_id: transition.branch.compatibility-freeze
+        description: The later compatibility freeze closes the original immediate-cutover continuation.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-BRANCH-01_Branching_Path.md#typed-reconstruction
+    source_trace:
+      - trace_id: trace.legacy
+        source_feature: Legacy platform configuration at t0.
+        affected_claim_component: Starting configuration.
+        trace_role: load_bearing
+        result_dependency: Without it, the branch reference object changes.
+        expected_result_change: Removing it defeats the declared migration boundary.
+        temporal_or_relational_dependency: It precedes the decision window.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/configuration.branch.legacy
+      - trace_id: trace.branchpoint
+        source_feature: Migration Branch Point at t1 with two prepared continuations.
+        affected_claim_component: Branch Point and alternative field.
+        trace_role: load_bearing
+        result_dependency: Without contemporaneous plural availability, no Branch Point is established.
+        expected_result_change: Removing one branch reduces the result to a linear Path.
+        temporal_or_relational_dependency: It follows the legacy configuration and precedes branch selection.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/branch.branchpoint.migration
+      - trace_id: trace.staged
+        source_feature: Realized staged-migration subpath from pilot to phased rollout.
+        affected_claim_component: Realized branch.
+        trace_role: load_bearing
+        result_dependency: Without traversal, the realized branch claim fails.
+        expected_result_change: Removing the subpath reduces the record to a decision without realized continuation.
+        temporal_or_relational_dependency: It follows the branch decision.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/subpath.branch.staged
+      - trace_id: trace.immediate
+        source_feature: Immediate-cutover continuation rejected during the open t1 window.
+        affected_claim_component: Rejected branch and alternative-space structure.
+        trace_role: load_bearing
+        result_dependency: Without it, selectivity and Branch Point plurality are lost.
+        expected_result_change: Removing it converts the representation toward a linear Path.
+        temporal_or_relational_dependency: It is contemporaneous with the staged option at t1.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/branch.branch.immediate
+      - trace_id: trace.freeze
+        source_feature: Compatibility-freeze transition at t4 closing the original immediate route.
+        affected_claim_component: Later reachability change.
+        trace_role: load_bearing
+        result_dependency: Without the freeze, later closure is unsupported.
+        expected_result_change: Removing it preserves the earlier rejection but defeats the lost-reachability claim.
+        temporal_or_relational_dependency: It follows staged rollout and changes later alternative availability.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/transition.branch.compatibility-freeze
+    selection_rule_pointer: /operation/selection_rule
+    target_reference_object_pointer: /target/reference_object
+    target_object_typing_pointer: /target/object_typing
+target:
+  reference_object:
+    object_id: composite.c17-branch-01
+    description: 'Bounded synthetic path for C17-BRANCH-01: Branching Path.'
+    typing: &id005
+      value: path
+      control_source: 
+        07_model/Operation_Registry.yaml#/operation_types/COMPOSE/target_contract/recognized_result_families
+      inventory_status: current_controlled
+    source_pointer: /operation/details
+  object_typing: *id005
+  contextual_function:
+  frame: *id002
+  granularity: *id003
+  relative_level: *id006
+  temporal_scope: Synthetic interval t0–t4.
+  validity_scope: Valid only as the bounded synthetic branching Path described by this record.
+  contextual_function_origin_occurrence_ref:
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source and claim packet complete
+      rationale: The bounded claim, source field, scope, ceilings, and authority boundary are explicitly declared.
+      rule_assessment_pointers:
+        - source_ceiling
+        - contextual_boundedness
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Operation correctly classified as COMPOSE
+      rationale: Multiple typed source structures are formed into a new temporal composite through explicit selection, 
+        ordering, formation, and constitutive relations.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Praxeological Purchase established
+      rationale: The composite preserves selectivity, rejected availability, and later closure, changing how the 
+        realized route and future accessibility are reconstructed.
+      rule_assessment_pointers:
+        - praxis_purchase
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source-to-result dependency remains reconstructible
+      rationale: The Branch Point and later closure remain reconstructible from the branch candidates, selection status,
+        realized subpath, and compatibility freeze.
+      rule_assessment_pointers:
+        - traceable_load
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Type, reference, temporal, and functional boundaries preserved
+      rationale: Source objects retain their origin typings; the target is a derived temporal composite; no contextual 
+        function is inferred.
+      rule_assessment_pointers:
+        - type_integrity
+        - reference_continuity
+        - functional_continuity
+        - temporal_continuity
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Load-bearing changes alter or defeat the claim
+      rationale: Removing the immediate branch defeats Branch Point plurality; removing the staged traversal defeats 
+        realized-Path formation; removing the freeze defeats later closure.
+      rule_assessment_pointers:
+        - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection and five-part Loss are explicit
+      rationale: Included and omitted elements, retained distinctions, compression, uncertainty, and irrecoverability 
+        are recorded without a lossless presumption.
+      rule_assessment_pointers:
+        - selection_and_loss
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Material alternatives are preserved
+      rationale: A linearized staged-only Path and No-Composition remain available but fail to preserve the full 
+        alternative-space and reachability structure.
+      rule_assessment_pointers:
+        - alternatives
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source and calibration limits declared
+      rationale: The synthetic packet discriminates the tested positive case from defined mutations but supplies no 
+        external empirical calibration.
+      rule_assessment_pointers:
+        - source_ceiling
+        - calibration
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: No failed claim is repaired by relabeling
+      rationale: Any changed source set, order, frame, granularity, target class, or target function requires a new 
+        testable claim.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: Stop and Non-Capture assessed and not reached
+      rationale: An adequate bounded composite remains; stronger excluded claims remain prohibited rather than silently 
+        retained.
+      rule_assessment_pointers:
+        - stop
+        - non_capture
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: Claim and authority ceilings maintained
+      rationale: The result remains synthetic, bounded, non-causal, non-normative, non-diagnostic, and 
+        non-authoritative.
+      rule_assessment_pointers:
+        - claim_ceiling
+        - authority_ceiling
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: The composite preserves selectivity, rejected availability, and later closure, changing how the 
+        realized route and future accessibility are reconstructed.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded temporal-object claim.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: The Branch Point and later closure remain reconstructible from the branch candidates, selection 
+        status, realized subpath, and compatibility freeze.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim only while the declared source-to-result dependency remains reconstructible.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: Source types remain visible and the target is typed only as the declared composite.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve source typings and target typing.
+      controlled_local_result:
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: The target remains anchored to the same declared case reference and source field.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded reference object.
+      controlled_local_result:
+    functional_continuity:
+      applicability: not_applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: No source or target function is asserted; any later function requires PROJECT_AS.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Do not infer a contextual function.
+      controlled_local_result:
+      applicability_condition: Applies only if a source or target function is claimed.
+      applicability_rationale: No contextual function is claimed in this COMPOSE occurrence.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: 'Use partial order: legacy precedes Branch Point; staged and immediate continuations are contemporaneous
+        candidates; staged traversal precedes compatibility freeze.'
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve the declared temporal and relational order.
+      controlled_local_result:
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: Frame, granularity, relative level, temporal scope, and synthetic case boundary are explicit for
+        C17-BRANCH-01.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim only within the declared case scope.
+      controlled_local_result:
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: Removing the immediate branch defeats Branch Point plurality; removing the staged traversal 
+        defeats realized-Path formation; removing the freeze defeats later closure.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve the source-sensitive defeat and reduction conditions.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: The sources support the bounded temporal composite and no broader empirical, causal, functional,
+        or authority claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain only the bounded claim.
+      controlled_local_result:
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/source_and_calibration_limits
+        - /operation
+        - /claim
+      reasoned_finding: The synthetic case discriminates the positive record from the declared removal, reordering, 
+        substitution, and no-composition variants.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports method discrimination only; no external empirical calibration is claimed.
+      required_action: Use the declared mutations as local tests and preserve the external calibration limit.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: Selection and all five Loss fields are explicit and claim-relative.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the explicit Loss and selection record.
+      controlled_local_result:
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: A linearized staged-only Path and No-Composition remain available but fail to preserve the full 
+        alternative-space and reachability structure.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve rival compositions, unresolved alternatives, and No-Composition where declared.
+      controlled_local_result:
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: The sources support a bounded branching Path, not inevitability, optimality, causal superiority,
+        known unrealized outcomes, or target function.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim without expansion.
+      controlled_local_result:
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: No empirical, causal, normative, diagnostic, legal, political, intervention, or application 
+        authority is granted.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Maintain all governance prohibitions.
+      controlled_local_result:
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: No mandatory Stop trigger is reached for the bounded case claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Any material extension requires a new testable claim.
+      controlled_local_result:
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+      reasoned_finding: An adequate bounded composite remains; no whole-claim capture limit is decisive.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded claim and its exclusions.
+      controlled_local_result:
+  non_compensation_confirmation: true
+  audit_to_routing_basis: All applicable assessments are complete; Purchase is gain, TraceableLoad is within_ceiling, 
+    source-sensitive defeat conditions are explicit, five-part Loss and alternatives are recorded, and neither Stop nor 
+    Non-Capture is reached.
+  anti_immunization_assessment: The record does not erase or repair any prior failure. Any later change in source 
+    membership, order, frame, granularity, relative level, target class, or function is a new separately testable claim.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The bounded composition remains above the Relevance Floor and below the Traceability Ceiling; no 
+      integrity failure makes continuation inadmissible.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The record adequately captures the bounded temporal composite while preserving exclusions, uncertainty, 
+      alternatives, and stronger unclaimed routes.
+loss:
+  preserved:
+    - item_id: loss.preserved.1
+      affected_element: Branch Point and branch statuses
+      description: The contemporaneous staged and immediate continuations and realized/rejected statuses remain 
+        explicit.
+      reason: Alternative-space structure is constitutive.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the element as load-bearing support.
+      source_or_evidence_pointer: /operation/details/source_objects
+      recoverability_or_reentry_note: Changing branch status requires a new record.
+    - item_id: loss.preserved.2
+      affected_element: later reachability
+      description: Compatibility closure of the original immediate route remains explicit.
+      reason: Later reachability changes the Path.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the element as load-bearing support.
+      source_or_evidence_pointer: /operation/details/constitutive_relations/3
+      recoverability_or_reentry_note: Removing closure defeats the lost-reachability component.
+  compressed:
+    - item_id: loss.compressed.1
+      affected_element: minor implementation decisions
+      description: Local pilot and rollout decisions are compressed into one staged subpath.
+      reason: They are not required individually for the bounded branch claim.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Bound the claim to the retained resolution.
+      source_or_evidence_pointer: /operation/details/source_objects/2
+      recoverability_or_reentry_note: A finer claim requires DECOMPOSE or new source support.
+  excluded:
+    - item_id: loss.excluded.1
+      affected_element: optimality and unrealized outcomes
+      description: Optimality, inevitability, and the ultimate result of immediate cutover are excluded.
+      reason: They exceed the source and claim ceilings.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Keep the excluded reach outside the claim.
+      source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+      recoverability_or_reentry_note: Reentry requires independent sources and separate claims.
+  uncertain:
+    - item_id: loss.uncertain.1
+      affected_element: exact closure moment
+      description: The precise instant of material unreachability after the compatibility freeze remains uncertain.
+      reason: The source supports bounded closure but not point-exact timing.
+      claim_effect:
+        family:
+          value: qualify
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Qualify the claim and preserve uncertainty.
+      source_or_evidence_pointer: /source/known_gaps/0
+      recoverability_or_reentry_note: Preserve bounded temporal uncertainty.
+  irrecoverable:
+    - item_id: loss.irrecoverable.1
+      affected_element: internal rejection deliberation
+      description: Fine internal deliberation behind rejection is not recoverable.
+      reason: The source packet records the decision, not its full deliberative process.
+      claim_effect:
+        family:
+          value: mark_capture_limit
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Mark the capture limit and prohibit reconstruction beyond it.
+      source_or_evidence_pointer: /source/known_gaps/1
+      recoverability_or_reentry_note: No reentry without new independent sources.
+alternatives:
+  rival_compositions:
+    - alternative_id: alternative.branch.linearized
+      claim_relation: Compose only the realized staged route as a linear Path.
+      source_basis_or_evidence_pointer: /operation/details/source_objects
+      comparative_burden: Removes the rejected branch and later change in alternative availability.
+      current_handling: rejected
+      rationale: The branch and reachability structure is source-supported and materially changes the Path claim.
+  rival_decompositions: []
+  rival_projections: []
+  no_transformation:
+    - alternative_id: alternative.branch.no-composition
+      claim_relation: Retain the branch declarations as separate records with no integrated Path.
+      source_basis_or_evidence_pointer: /source
+      comparative_burden: Preserves local facts but cannot express how selection and later closure belong to one bounded
+        migration episode.
+      current_handling: not_selected
+      rationale: The integrated branching Path remains source-supported.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal and local case admissibility applies only to the declared synthetic transformation claim; it
+    does not establish empirical truth, causality, semantic or normative validity, person judgment, legitimacy, 
+    diagnosis, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+    - admissible does not mean empirically true or causally proven
+    - the derived temporal composite is not a new PMS primitive
+    - COMPOSE does not automatically assign a contextual target function
+    - the synthetic case does not authorize evaluation of persons or institutions
+    - formal validation and case success do not grant application or intervention authority
+    - one successful case does not validate PATH globally
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: A source-supported Branch Point, realized staged subpath, rejected immediate branch, and later reachability
+      closure form one traceable branching Path.
+    result_family:
+      value: admissible path
+      control_source: 07_model/Output_Classes.yaml#/output_classes/admissible/representative_local_results
+      inventory_status: current_controlled
+    source_function_effect:
+    prior_source_claim_disposition:
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: supported
+    resolution_test_result:
+    capture_statement:
+      statement: No material capture limit is asserted for the bounded path claim; declared exclusions and uncertainties
+        remain outside the claim.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: selected
+        rationale: The declared COMPOSE occurrence satisfies the positive route within ordinary boundedness.
+        constitutive_condition_pointers:
+          - /operation/details/source_objects
+          - /operation/details/ordering_rule
+          - /operation/details/formation_rule
+          - /operation/details/constitutive_relations
+          - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+          - /admissibility/rule_assessments/traceable_load/controlled_local_result
+          - /admissibility/stop_assessment/reached
+          - /admissibility/non_capture_assessment/material_capture_limit_asserted
+        preserved_finding: The bounded path claim is retained.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: The constitutive conditions for admissible_with_bounded_claim are not decisive for this delimited 
+          claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_with_bounded_claim result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The constitutive conditions for admissible_but_provisional are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The constitutive conditions for partially_admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The constitutive conditions for claim_reduction_required are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The constitutive conditions for mandatory_stop are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The constitutive conditions for failed_transformation are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: The constitutive conditions for non_capture are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+    selected_class: admissible
+    route_id: route_admissible
+    matched_constitutive_conditions:
+      - /operation/kind
+      - /operation/details/source_objects
+      - /operation/details/constitutive_relations
+      - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+      - /admissibility/rule_assessments/traceable_load/controlled_local_result
+      - /admissibility/non_compensation_confirmation
+      - /claim/claim_ceiling
+      - /governance/authority_inheritance
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings: []
+    split_decision:
+      required: false
+      rationale: All material findings support one bounded claim and one selected class; no separate claim split is 
+        required.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The record satisfies COMPOSE identity, Purchase, TraceableLoad, type and reference 
+      integrity, temporal continuity, contextual boundedness, counterfactual sensitivity, source and claim ceilings, 
+      complete Loss, alternatives, Stop, Non-Capture, and authority limits.
+    current_claim_disposition:
+      value: maintained
+      rationale: The declared path claim is retained exactly within its synthetic scope and ceiling.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible
+    ordinary_boundedness_confirmed: true
+    rationale: The path composition passes as declared. Scope, source ceiling, Loss, alternatives, and authority 
+      boundary are ordinary required boundedness rather than a separate reduction or provisional whole-claim condition.
+relations:
+  prior_record_ids: []
+  prior_claim_ids: []
+  sibling_claim_or_record_ids: []
+  rival_record_ids: []
+  countercase_refs:
+    - C17-TEL-01
+    - C17-ALT-01
+extensions:
+  - extension_id: pms-strata:chapter17:path-case:c17-branch-01:v0.1
+    owner_or_source: PMS-STRATA Chapter 17
+    control_source_pointer: 01_blocks/02_part_i_path.md#17-3-case-2-branching-path
+    purpose: Carry the Chapter-17 case wrapper and local audit summary without replacing Shared Transformation Record 
+      fields.
+    payload:
+      path_case:
+        case_id: C17-BRANCH-01
+        case_class: positive_case
+        title: Branching Path
+        markdown_artifact: 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+        yaml_artifact: 03_cases/yaml/C17-BRANCH-01_Branching_Path.yaml
+        governing_claim: The legacy configuration, contemporaneous branch point, realized staged route, rejected 
+          immediate route, and later reachability closure form one bounded branching Path under the declared rules.
+        starting_configuration: Legacy platform configuration at t0.
+        transitions:
+          - Branch Point
+          - staged pilot and rollout
+          - compatibility freeze
+        events:
+          - branch decision
+          - pilot
+          - phased rollout
+          - compatibility freeze
+        non_events: []
+        branches_and_alternatives: Staged route realized; immediate cutover rejected during the open window and later 
+          materially unavailable.
+        compose_decision: COMPOSE executed as one bounded operation occurrence.
+        path_or_trajectory_result: admissible branching Path
+        path_dependence_finding: not claimed; later closure is reconstructed without strong historical-indispensability 
+          inflation.
+        local_audit_result:
+          status: pass
+          stages_complete: 12
+          warnings: 0
+          errors: 0
+        canonical_output_mapping: admissible
+        stop_or_non_capture_status: neither reached for the bounded claim
+        governance_boundary: No target function, causality, person judgment, legitimacy, sanction, application 
+          authority, or authority inheritance.
+    does_not_replace_required_field: true
+  - extension_id: pms-strata:c17-legacy-substantive-overflight:c17-branch-01:v0.1
+    owner_or_source: PMS-STRATA C17 Legacy Substantive Overflight
+    control_source_pointer: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
+    purpose: Record final-LIMITS substantive review without replacing the original operation occurrence, route, Loss, or
+      historical model-version provenance.
+    payload:
+      review_snapshot: PMS-STRATA_Source_of_Truth_ZIP_311.zip
+      review_snapshot_sha256: a0a243bec1292ac7429fab36de5a066c8f44f7af83661bc4ba84542274186774
+      reviewed_against:
+        - 05_minified/Chapter_Contracts.md#chapter-17-path-cases-countercases-and-local-audit
+        - 01_blocks/05_part_iv_limits.md
+        - 01_blocks/06_conclusion.md
+        - 07_model/Admissibility_Rules.yaml
+        - 07_model/Output_Classes.yaml
+        - 07_model/Transformation_Record.schema.json
+      review_dimensions:
+        - source_and_claim_ceiling
+        - operation_and_type_integrity
+        - reference_functional_and_temporal_continuity
+        - counterfactual_sensitivity
+        - selection_and_five_part_loss
+        - alternatives_and_no_transformation
+        - anti_immunization_and_failure_preservation
+        - stop_failure_and_non_capture_separation
+        - claim_and_authority_ceiling
+        - canonical_output_route
+      substantive_verdict: confirmed_without_route_change
+      selected_class_confirmed: admissible
+      key_finding: Realized and unrealized branches remain source-bounded and temporally available without teleology or 
+        counterfactual inflation.
+      formal_conformance_only_not_claimed: false
+      empirical_or_external_validation_claimed: false
+      route_changed: false
+      claim_changed: false
+      loss_inventory_changed: false
+      source_or_operation_changed: false
+    does_not_replace_required_field: true
