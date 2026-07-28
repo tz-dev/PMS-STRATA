@@ -1,9 +1,9 @@
 # PMS-STRATA Case Index
 
-**Version:** 0.1.98
-**Status:** Appendix-M publishable index synchronized; YAML/Markdown pairing retained
+**Version:** 0.2.0
+**Status:** active case registry synchronized; YAML/Markdown pairing retained
 **Authority:** navigation and artifact registry only; no independent theory authority  
-**Current production stage:** Appendices A–N substantive completion; Reference Freeze is next.
+**Corpus status:** 59 operation Records, 59 same-basename Markdown companions, and 10 shared package narratives are indexed.
 
 ```text
 59 operation-record YAML files
@@ -19,7 +19,7 @@ active registry count:
 
 Directory READMEs and the eight assigned template stubs are support files and are not included in the 70/60 active registry count.
 
-A package narrative may contain several operation occurrences. Each occurrence nevertheless has its own YAML Record and, from ZIP 329 onward, its own same-basename Markdown companion. The package narrative remains the shared source and chain account; the companion isolates one record without creating a new operation or claim.
+A package narrative may contain several operation occurrences. Each occurrence has its own YAML Record and its own same-basename Markdown companion. The package narrative remains the shared source and chain account; the companion isolates one record without creating a new operation or claim.
 
 ## Instantiated Operation Records
 

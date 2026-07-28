@@ -128,7 +128,7 @@ No person, motive, diagnosis, legitimacy, sanction, recommendation, application 
 **Case index:** [`../Case_Index.md`](../Case_Index.md)  
 **Canonical chapter:** [`../../01_blocks/03_part_ii_sub.md`](../../01_blocks/03_part_ii_sub.md)
 
-## 13. WP3 Lock-Critical Closure
+## 13. Lock-Critical Record-Separation Closure
 
 The integrated Chapter-28 Local Audit confirms that the source-bound Trajectory reconstruction and the proposed audit-training target function remain different claim segments. The primary `DECOMPOSE` Record retains only internal constitution. The contextual-function segment remains an unexecuted future `PROJECT_AS` claim with its own required target context, source-traceable functional relation, Loss, result, Output Class, Stop, and Non-Capture route.
 

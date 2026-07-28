@@ -19,10 +19,10 @@ record_metadata:
     truth is asserted.
   - Retains synthetic worked values only to demonstrate the full Non-Capture carrier; replace all case-specific content and rerun the substantive audit before use.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
   record_status_note: Genuine claim-relative non_capture case with three adequately tested bounded decomposition routes, partial
     capture, preserved rivals, and explicit re-entry.

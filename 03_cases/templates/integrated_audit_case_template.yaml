@@ -12,10 +12,10 @@ record_metadata:
   - Derived from the canonical integrated-chain smoke fixture and adapted as the reusable Appendix-N template.
   - Built against the current Shared Record Schema and existing synthetic component examples; no external or empirical warrant is asserted.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
   record_status_note: Schema-valid worked integrated-chain audit fixture. The non_capture route is retained only to exercise the full audit and is not a default outcome.
 claim:
