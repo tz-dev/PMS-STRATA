@@ -35,18 +35,22 @@ package it separately as ``python3-tk``.
 
 from __future__ import annotations
 
+import bisect
 import csv
 import json
 import math
+import posixpath
 import queue
 import re
 import sys
 import threading
 import time
+import webbrowser
 import zipfile
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
+from urllib.parse import unquote, urlparse
 
 try:
     import tkinter as tk
@@ -59,7 +63,7 @@ except ImportError as exc:  # pragma: no cover
     ) from exc
 
 APP_TITLE = "PMS-STRATA Reader"
-APP_VERSION = "0.3.0-prototype"
+APP_VERSION = "0.5.1-reader-fixes"
 
 DEBUG = True  # set False to silence console output
 
@@ -87,7 +91,7 @@ SECTION_LABELS: Dict[str, str] = {
     "README.md": "Start",
     "00_source": "Structure",
     "01_blocks": "Canonical Corpus",
-    "02_appendices": "Appendices A–N",
+    "02_appendices": "Appendices",
     "03_cases": "Cases and Records",
     "04_reference": "Reference Kernel",
     "05_minified": "Minified Controls",
@@ -95,6 +99,28 @@ SECTION_LABELS: Dict[str, str] = {
     "07_model": "Formal Model",
     "08_PMS-STRATA Reader": "Reader",
 }
+
+CANONICAL_BLOCK_LABELS: Dict[str, str] = {
+    "01_blocks/00_front_matter.md": "Front Matter",
+    "01_blocks/01_foundations.md": "Foundations",
+    "01_blocks/02_part_i_path.md": "PATH",
+    "01_blocks/03_part_ii_sub.md": "SUB",
+    "01_blocks/04_part_iii_retype.md": "RETYPE",
+    "01_blocks/05_part_iv_limits.md": "LIMITS",
+    "01_blocks/06_conclusion.md": "Conclusion",
+}
+
+# Graph Lab's browser is deliberately narrower than the general Reader tree.
+# It lists only audit- and graph-relevant artifacts that the Reader can render.
+GRAPH_BROWSER_SECTIONS = {
+    "01_blocks",
+    "02_appendices",
+    "03_cases",
+    "04_reference",
+    "05_minified",
+    "07_model",
+}
+GRAPH_BROWSER_FILE_TYPES = {"md", "yaml", "yml", "json", "csv", "txt"}
 
 ACTIVE_TEXT_EXTENSIONS = {".md", ".yaml", ".yml", ".json", ".csv", ".txt", ".py"}
 EXCLUDED_TOP_LEVEL = {"_workfiles", ".git", "__pycache__"}
@@ -113,9 +139,43 @@ ORDERED_LIST_RE = re.compile(r"^(\s*)(\d+)[.)]\s+(.+?)\s*$")
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 WORD_RE = re.compile(r"\b\w+\b", re.UNICODE)
 YAML_KEY_RE = re.compile(r"^(\s*)([^#\s][^:]*?):(?:\s*(.*))?$")
+YAML_OUTLINE_KEY_RE = re.compile(r"^(\s*)(-\s+)?([A-Za-z0-9_.-]+)\s*:\s*(.*?)\s*$")
+HTML_ANCHOR_RE = re.compile(
+    r'^\s*<a\s+(?:name|id)=["\']([^"\']+)["\']\s*></a>\s*$',
+    re.IGNORECASE,
+)
+MARKDOWN_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
 # Above this threshold the renderer avoids per-line source marks.
 LARGE_DOC_LINE_THRESHOLD = 8000
+
+# Audit-support rendering thresholds. Large source artifacts stay unchanged;
+# only their presentation is prepared and inserted in seamless chunks.
+CHUNKED_RENDER_LINE_THRESHOLD = 10_000
+CHUNKED_RENDER_BYTE_THRESHOLD = 1_048_576
+CHUNK_TARGET_BYTES = 192 * 1024
+MAX_SEARCH_HIGHLIGHTS = 2_000
+
+YAML_OUTLINE_LEVEL3_KEYS = {
+    "claim",
+    "statement",
+    "claim_type",
+    "source",
+    "target",
+    "reference_object",
+    "operation",
+    "kind",
+    "admissibility",
+    "audit_stages",
+    "result",
+    "routing",
+    "loss",
+    "governance",
+    "selected_class",
+    "failure_condition",
+    "stop_condition",
+    "non_capture_condition",
+}
 
 # ---------------------------------------------------------------------------
 # Data model
@@ -137,14 +197,34 @@ class Document:
     file_type: str
     headings: List[Heading] = field(default_factory=list)
     frontmatter: Dict[str, str] = field(default_factory=dict)
+    _line_count: int = field(init=False, repr=False)
+    _word_count: int = field(init=False, repr=False)
+    _byte_count: int = field(init=False, repr=False)
+
+    def __post_init__(self) -> None:
+        self._line_count = self.text.count("\n") + (
+            1 if self.text and not self.text.endswith("\n") else 0
+        )
+        self._word_count = len(WORD_RE.findall(self.text))
+        self._byte_count = len(self.text.encode("utf-8", errors="replace"))
 
     @property
     def line_count(self) -> int:
-        return len(self.text.splitlines())
+        return self._line_count
 
     @property
     def word_count(self) -> int:
-        return len(WORD_RE.findall(self.text))
+        return self._word_count
+
+    @property
+    def byte_count(self) -> int:
+        return self._byte_count
+
+
+@dataclass(frozen=True)
+class RenderChunk:
+    text: str
+    start_line: int
 
 
 @dataclass
@@ -179,6 +259,7 @@ class GraphNode:
     z: float
     rel_path: str = ""
     details: str = ""
+    record_id: str = ""
 
 
 class CorpusError(RuntimeError):
@@ -365,6 +446,10 @@ class Corpus:
                 frontmatter, body = parse_frontmatter(text)
                 headings = parse_headings(body)
                 title = frontmatter.get("title") or first_heading_title(headings) or prettify_file_name(rel_path)
+            elif suffix in {"yaml", "yml"}:
+                frontmatter = {}
+                headings = parse_yaml_outline(text)
+                title = prettify_file_name(rel_path)
             else:
                 frontmatter = {}
                 headings = []
@@ -521,6 +606,234 @@ class Corpus:
         return sum(doc.line_count for doc in self.documents.values())
 
 
+class AutoHideScrollbar(ttk.Scrollbar):
+    """A grid-managed scrollbar that disappears when the full range is visible."""
+
+    def __init__(self, master: tk.Misc, **kwargs):
+        super().__init__(master, **kwargs)
+        self.visibility_callback = None
+        self._is_visible: Optional[bool] = None
+
+    def set(self, first: str, last: str) -> None:
+        try:
+            fully_visible = float(first) <= 0.0 and float(last) >= 0.999999
+        except (TypeError, ValueError):
+            fully_visible = False
+        visible = not fully_visible
+        if visible:
+            self.grid()
+        else:
+            self.grid_remove()
+        super().set(first, last)
+        if visible != self._is_visible:
+            self._is_visible = visible
+            callback = self.visibility_callback
+            if callback is not None:
+                self.after_idle(lambda: callback(visible))
+
+
+class BrowseFilesDialog(tk.Toplevel):
+    """Searchable, category-aware browser for active Reader artifacts."""
+
+    def __init__(self, graph_lab: "GraphLab"):
+        super().__init__(graph_lab)
+        self.graph_lab = graph_lab
+        self.app = graph_lab.app
+        self.title(f"{APP_TITLE} — Browse Files")
+        self.geometry("980x680")
+        self.minsize(720, 480)
+        self.transient(graph_lab)
+        self.protocol("WM_DELETE_WINDOW", self.withdraw)
+
+        self.query_var = tk.StringVar()
+        self.status_var = tk.StringVar()
+        self._category_items: Dict[str, str] = {}
+        self._row_to_path: Dict[str, str] = {}
+        self._selected_section = "ALL"
+
+        self._build_ui()
+        self.apply_theme()
+        self._populate_categories()
+        self.refresh_files()
+        self.after_idle(self._center_over_parent)
+
+    def _build_ui(self) -> None:
+        top = ttk.Frame(self, padding=(10, 10, 10, 6))
+        top.pack(fill=tk.X)
+        ttk.Label(top, text="Search active files").pack(side=tk.LEFT)
+        self.search_entry = ttk.Entry(top, textvariable=self.query_var, width=44)
+        self.search_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(8, 8))
+        self.search_entry.bind("<KeyRelease>", lambda event: self.refresh_files())
+        ttk.Button(top, text="Clear", command=self._clear_search).pack(side=tk.LEFT)
+        ttk.Button(top, text="Close", command=self.withdraw).pack(side=tk.RIGHT, padx=(8, 0))
+
+        pane = ttk.PanedWindow(self, orient=tk.HORIZONTAL)
+        pane.pack(fill=tk.BOTH, expand=True, padx=10, pady=(0, 6))
+
+        categories_frame = ttk.Frame(pane, padding=(0, 0, 8, 0))
+        files_frame = ttk.Frame(pane)
+        pane.add(categories_frame, weight=1)
+        pane.add(files_frame, weight=4)
+
+        ttk.Label(categories_frame, text="Categories", font=("Segoe UI", 10, "bold")).pack(anchor=tk.W, pady=(0, 5))
+        self.categories = ttk.Treeview(categories_frame, show="tree", selectmode="browse", style="Browser.Treeview")
+        cat_scroll = ttk.Scrollbar(categories_frame, orient=tk.VERTICAL, command=self.categories.yview)
+        self.categories.configure(yscrollcommand=cat_scroll.set)
+        self.categories.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        cat_scroll.pack(side=tk.RIGHT, fill=tk.Y)
+        self.categories.bind("<<TreeviewSelect>>", self._on_category_selected)
+
+        ttk.Label(files_frame, text="Graph-relevant files", font=("Segoe UI", 10, "bold")).pack(anchor=tk.W, pady=(0, 5))
+        table_wrap = ttk.Frame(files_frame)
+        table_wrap.pack(fill=tk.BOTH, expand=True)
+        self.files = ttk.Treeview(
+            table_wrap,
+            columns=("title", "path", "type"),
+            show="headings",
+            selectmode="browse",
+            style="Browser.Treeview",
+        )
+        self.files.heading("title", text="Title")
+        self.files.heading("path", text="Repository path")
+        self.files.heading("type", text="Type")
+        self.files.column("title", width=250, minwidth=140, stretch=True)
+        self.files.column("path", width=470, minwidth=220, stretch=True)
+        self.files.column("type", width=70, minwidth=55, stretch=False, anchor=tk.CENTER)
+        yscroll = ttk.Scrollbar(table_wrap, orient=tk.VERTICAL, command=self.files.yview)
+        xscroll = AutoHideScrollbar(table_wrap, orient=tk.HORIZONTAL, command=self.files.xview)
+        self.files.configure(yscrollcommand=yscroll.set, xscrollcommand=xscroll.set)
+        self.files.grid(row=0, column=0, sticky="nsew")
+        yscroll.grid(row=0, column=1, sticky="ns")
+        xscroll.grid(row=1, column=0, sticky="ew")
+        table_wrap.rowconfigure(0, weight=1)
+        table_wrap.columnconfigure(0, weight=1)
+        self.files.bind("<Double-1>", lambda event: self.open_selected())
+        self.files.bind("<Return>", lambda event: self.open_selected())
+
+        bottom = ttk.Frame(self, padding=(10, 4, 10, 10))
+        bottom.pack(fill=tk.X)
+        ttk.Label(bottom, textvariable=self.status_var, style="Status.TLabel").pack(side=tk.LEFT, fill=tk.X, expand=True)
+        ttk.Button(bottom, text="Open", command=self.open_selected).pack(side=tk.RIGHT)
+
+        for widget in (self.categories, self.files):
+            widget.configure(cursor="hand2")
+        self.search_entry.configure(cursor="xterm")
+
+    def _populate_categories(self) -> None:
+        self.categories.delete(*self.categories.get_children())
+        self._category_items.clear()
+        self._selected_section = "ALL"
+        all_item = self.categories.insert("", tk.END, text="All Files", open=True)
+        self._category_items[all_item] = "ALL"
+        corpus = self.app.corpus
+        if corpus is not None:
+            sections = []
+            seen = set()
+            for rel_path in corpus.ordered_paths:
+                section = rel_path.split("/", 1)[0] if "/" in rel_path else rel_path
+                doc = corpus.documents.get(rel_path)
+                if (
+                    section not in GRAPH_BROWSER_SECTIONS
+                    or doc is None
+                    or doc.file_type not in GRAPH_BROWSER_FILE_TYPES
+                ):
+                    continue
+                if section not in seen:
+                    seen.add(section)
+                    sections.append(section)
+            for section in sections:
+                label = SECTION_LABELS.get(section, section)
+                item = self.categories.insert("", tk.END, text=label)
+                self._category_items[item] = section
+        self.categories.selection_set(all_item)
+        self.categories.focus(all_item)
+
+    def _on_category_selected(self, event: tk.Event) -> None:
+        selection = self.categories.selection()
+        if not selection:
+            return
+        self._selected_section = self._category_items.get(selection[0], "ALL")
+        self.refresh_files()
+
+    def _clear_search(self) -> None:
+        self.query_var.set("")
+        self.refresh_files()
+        self.search_entry.focus_set()
+
+    def refresh_files(self) -> None:
+        self.files.delete(*self.files.get_children())
+        self._row_to_path.clear()
+        corpus = self.app.corpus
+        if corpus is None:
+            self.status_var.set("No corpus loaded")
+            return
+        query = self.query_var.get().strip().casefold()
+        visible = 0
+        for rel_path in corpus.ordered_paths:
+            section = rel_path.split("/", 1)[0] if "/" in rel_path else rel_path
+            doc = corpus.documents[rel_path]
+            if section not in GRAPH_BROWSER_SECTIONS or doc.file_type not in GRAPH_BROWSER_FILE_TYPES:
+                continue
+            if self._selected_section != "ALL" and section != self._selected_section:
+                continue
+            haystack = f"{doc.title} {rel_path}".casefold()
+            if query and query not in haystack:
+                continue
+            row = self.files.insert("", tk.END, values=(doc.title, rel_path, doc.file_type.upper()))
+            self._row_to_path[row] = rel_path
+            visible += 1
+        self.status_var.set(f"{visible:,} graph-relevant file{'s' if visible != 1 else ''}")
+
+    def open_selected(self) -> None:
+        selection = self.files.selection()
+        if not selection:
+            return
+        rel_path = self._row_to_path.get(selection[0])
+        if not rel_path:
+            return
+        self.app.open_document(rel_path)
+        self.app.deiconify()
+        self.app.lift()
+
+    def apply_theme(self) -> None:
+        palette = self.graph_lab.theme_palette()
+        self.configure(background=palette["window_bg"])
+        style = ttk.Style(self)
+        style.configure(
+            "Browser.Treeview",
+            background=palette["panel_bg"],
+            fieldbackground=palette["panel_bg"],
+            foreground=palette["fg"],
+            rowheight=26,
+        )
+        style.map(
+            "Browser.Treeview",
+            background=[("selected", palette["selection_bg"])],
+            foreground=[("selected", palette["fg"])],
+        )
+        style.configure(
+            "Browser.Treeview.Heading",
+            background=palette["button_bg"],
+            foreground=palette["fg"],
+        )
+        style.map("Browser.Treeview.Heading", background=[("active", palette["button_hover_bg"])])
+
+    def _center_over_parent(self) -> None:
+        try:
+            self.update_idletasks()
+            width = max(self.winfo_width(), 720)
+            height = max(self.winfo_height(), 480)
+            parent_x = self.graph_lab.winfo_rootx()
+            parent_y = self.graph_lab.winfo_rooty()
+            parent_w = self.graph_lab.winfo_width()
+            parent_h = self.graph_lab.winfo_height()
+            x = max(0, parent_x + (parent_w - width) // 2)
+            y = max(0, parent_y + (parent_h - height) // 2)
+            self.geometry(f"{width}x{height}+{x}+{y}")
+        except tk.TclError:
+            pass
+
+
 class GraphLab(tk.Toplevel):
     """Interactive graph and pseudo-3D exploration layer."""
 
@@ -543,32 +856,40 @@ class GraphLab(tk.Toplevel):
         self.operation_var = tk.StringVar(value="ALL")
         self.class_var = tk.StringVar(value="ALL")
         self.labels_var = tk.BooleanVar(value=True)
-        self.status_var = tk.StringVar(value="Drag to rotate • wheel to zoom • double-click a record to open it")
+        self.status_var = tk.StringVar(value="Drag to rotate • wheel to zoom • click a node for details")
 
         self.nodes: List[GraphNode] = []
         self.edges: List[Tuple[str, str]] = []
         self.node_by_id: Dict[str, GraphNode] = {}
         self.projected: Dict[str, Tuple[float, float, float, float]] = {}
         self.selected_node_id = ""
+        self.hovered_node_id = ""
         self.angle_x = -0.22
         self.angle_y = 0.52
         self.zoom = 1.0
         self._drag_start: Optional[Tuple[int, int]] = None
         self._drag_moved = False
+        self.browser_dialog: Optional[BrowseFilesDialog] = None
+        self._detail_texts: Dict[str, tk.Text] = {}
 
         self._build_ui()
+        self.apply_theme()
         self.refresh()
+        self.after_idle(self._maximize)
 
     def _build_ui(self) -> None:
         toolbar = ttk.Frame(self, padding=(8, 8, 8, 5))
         toolbar.pack(fill=tk.X)
 
+        ttk.Button(toolbar, text="Browse Files", command=self.browse_files).pack(side=tk.LEFT, padx=(0, 14))
+
         ttk.Label(toolbar, text="View").pack(side=tk.LEFT)
-        view_box = ttk.Combobox(
+        self.view_box = ttk.Combobox(
             toolbar,
             textvariable=self.view_var,
             state="readonly",
             width=25,
+            style="Graph.TCombobox",
             values=[
                 self.VIEW_CASE_TREE,
                 self.VIEW_AUTHORITY,
@@ -578,28 +899,38 @@ class GraphLab(tk.Toplevel):
                 self.VIEW_CHAIN,
             ],
         )
-        view_box.pack(side=tk.LEFT, padx=(5, 12))
-        view_box.bind("<<ComboboxSelected>>", lambda event: self.refresh())
+        self.view_box.pack(side=tk.LEFT, padx=(5, 12))
+        self.view_box.bind("<<ComboboxSelected>>", lambda event: self.refresh())
 
         ttk.Label(toolbar, text="Operation").pack(side=tk.LEFT)
-        op_box = ttk.Combobox(
+        self.op_box = ttk.Combobox(
             toolbar,
             textvariable=self.operation_var,
             state="readonly",
             width=13,
+            style="Graph.TCombobox",
             values=["ALL", "COMPOSE", "DECOMPOSE", "PROJECT_AS"],
         )
-        op_box.pack(side=tk.LEFT, padx=(5, 12))
-        op_box.bind("<<ComboboxSelected>>", lambda event: self.refresh())
+        self.op_box.pack(side=tk.LEFT, padx=(5, 12))
+        self.op_box.bind("<<ComboboxSelected>>", lambda event: self.refresh())
 
         ttk.Label(toolbar, text="Output Class").pack(side=tk.LEFT)
-        self.class_box = ttk.Combobox(toolbar, textvariable=self.class_var, state="readonly", width=30)
+        self.class_box = ttk.Combobox(
+            toolbar,
+            textvariable=self.class_var,
+            state="readonly",
+            width=30,
+            style="Graph.TCombobox",
+        )
         self.class_box.pack(side=tk.LEFT, padx=(5, 12))
         self.class_box.bind("<<ComboboxSelected>>", lambda event: self.refresh())
 
         ttk.Checkbutton(toolbar, text="Labels", variable=self.labels_var, command=self.redraw).pack(side=tk.LEFT)
         ttk.Button(toolbar, text="Reset View", command=self.reset_view).pack(side=tk.LEFT, padx=(10, 0))
-        ttk.Button(toolbar, text="Open Selected", command=self.open_selected).pack(side=tk.RIGHT)
+        ttk.Button(toolbar, text="Close", command=self._hide).pack(side=tk.RIGHT)
+
+        for box in (self.view_box, self.op_box, self.class_box):
+            box.configure(cursor="hand2")
 
         main = ttk.PanedWindow(self, orient=tk.HORIZONTAL)
         main.pack(fill=tk.BOTH, expand=True, padx=8, pady=(0, 5))
@@ -613,20 +944,74 @@ class GraphLab(tk.Toplevel):
         self.canvas.bind("<B1-Motion>", self._on_drag)
         self.canvas.bind("<ButtonRelease-1>", self._on_release)
         self.canvas.bind("<Double-1>", self._on_double_click)
+        self.canvas.bind("<Motion>", self._on_motion)
+        self.canvas.bind("<Leave>", self._on_leave)
         self.canvas.bind("<MouseWheel>", self._on_wheel)
         self.canvas.bind("<Button-4>", lambda event: self._zoom_by(1.12))
         self.canvas.bind("<Button-5>", lambda event: self._zoom_by(0.89))
 
         detail_frame = ttk.Frame(main, padding=(8, 4, 4, 4))
-        main.add(detail_frame, weight=1)
-        ttk.Label(detail_frame, text="Trace / Node Details", font=("Segoe UI", 10, "bold")).pack(anchor=tk.W)
-        self.details = tk.Text(detail_frame, wrap=tk.WORD, width=38, padx=10, pady=10, state=tk.DISABLED)
-        self.details.pack(fill=tk.BOTH, expand=True, pady=(5, 0))
+        main.add(detail_frame, weight=2)
+        ttk.Label(detail_frame, text="Case / Node Details", font=("Segoe UI", 10, "bold")).pack(anchor=tk.W)
+        self.detail_notebook = ttk.Notebook(detail_frame, style="Graph.TNotebook")
+        self.detail_notebook.pack(fill=tk.BOTH, expand=True, pady=(5, 0))
+        self._create_detail_tab("Summary", wrap=tk.WORD)
+        self._create_detail_tab("YAML", wrap=tk.NONE)
+        self._create_detail_tab("Markdown", wrap=tk.WORD)
+        self._create_detail_tab("Relations", wrap=tk.WORD)
+        self._create_detail_tab("Trace", wrap=tk.WORD)
 
-        ttk.Label(self, textvariable=self.status_var, anchor=tk.W, padding=(8, 4)).pack(fill=tk.X)
+        ttk.Label(self, textvariable=self.status_var, anchor=tk.W, padding=(8, 4), style="Status.TLabel").pack(fill=tk.X)
+
+    def _create_detail_tab(self, label: str, wrap: str) -> None:
+        frame = ttk.Frame(self.detail_notebook, padding=0)
+        text = tk.Text(frame, wrap=wrap, padx=10, pady=10, state=tk.DISABLED, undo=False)
+        yscroll = ttk.Scrollbar(frame, orient=tk.VERTICAL, command=text.yview)
+        text.configure(yscrollcommand=yscroll.set)
+        text.grid(row=0, column=0, sticky="nsew")
+        yscroll.grid(row=0, column=1, sticky="ns")
+        if wrap == tk.NONE:
+            xscroll = AutoHideScrollbar(frame, orient=tk.HORIZONTAL, command=text.xview)
+            text.configure(xscrollcommand=xscroll.set)
+            xscroll.grid(row=1, column=0, sticky="ew")
+        frame.rowconfigure(0, weight=1)
+        frame.columnconfigure(0, weight=1)
+        self.detail_notebook.add(frame, text=label)
+        self._detail_texts[label] = text
+
+    def _maximize(self) -> None:
+        try:
+            self.state("zoomed")
+            return
+        except tk.TclError:
+            pass
+        try:
+            self.attributes("-zoomed", True)
+            return
+        except tk.TclError:
+            pass
+        try:
+            width = self.winfo_screenwidth()
+            height = self.winfo_screenheight()
+            self.geometry(f"{width}x{height}+0+0")
+        except tk.TclError:
+            pass
 
     def _hide(self) -> None:
+        if self.browser_dialog is not None and self.browser_dialog.winfo_exists():
+            self.browser_dialog.withdraw()
         self.withdraw()
+
+    def browse_files(self) -> None:
+        if self.browser_dialog is None or not self.browser_dialog.winfo_exists():
+            self.browser_dialog = BrowseFilesDialog(self)
+        else:
+            self.browser_dialog.deiconify()
+            self.browser_dialog.lift()
+            self.browser_dialog._populate_categories()
+            self.browser_dialog.refresh_files()
+            self.browser_dialog.apply_theme()
+            self.browser_dialog.after_idle(self.browser_dialog._center_over_parent)
 
     def set_current_path(self, rel_path: Optional[str]) -> None:
         if self.view_var.get() in {self.VIEW_RECORD, self.VIEW_CHAIN}:
@@ -663,7 +1048,8 @@ class GraphLab(tk.Toplevel):
 
         self.node_by_id = {node.node_id: node for node in self.nodes}
         self.selected_node_id = ""
-        self._set_details(self._view_description(view))
+        self.hovered_node_id = ""
+        self._show_general_details(self._view_description(view))
         self.redraw()
 
     def _filtered_records(self) -> List[RecordSummary]:
@@ -704,9 +1090,11 @@ class GraphLab(tk.Toplevel):
                     rx = cx + radius * math.cos(local_angle)
                     ry = cy + radius * math.sin(local_angle)
                     rz = 245 + 18 * (ri % 5)
-                    details = self._record_details(record)
                     node_id = f"record:{record.record_id}"
-                    nodes.append(GraphNode(node_id, record.case_id, "record", rx, ry, rz, record.yaml_path, details))
+                    nodes.append(GraphNode(
+                        node_id, record.case_id, "record", rx, ry, rz,
+                        record.yaml_path, self._record_summary(record), record.record_id,
+                    ))
                     edges.append((class_id, node_id))
         return nodes, edges
 
@@ -786,15 +1174,16 @@ class GraphLab(tk.Toplevel):
         record = self._current_record()
         if record is None:
             return [GraphNode("none", "Select a case YAML or Markdown companion", "warning", 0, 0, 0)], []
+        rid = record.record_id
         nodes = [
-            GraphNode("source", record.source_id or "Source", "source", -280, -90, -80, details=record.source_description),
-            GraphNode("claim", "Claim", "claim", -120, -230, 0, details=record.claim),
-            GraphNode("operation", record.operation, "operation", 0, 0, 0, details=record.operation),
-            GraphNode("audit", "12-stage audit", "audit", 100, -220, 75, details="Audit findings remain qualitative and non-compensatory."),
-            GraphNode("loss", "5-part Loss", "loss", 220, 180, 90, details="preserved / compressed / excluded / uncertain / irrecoverable"),
-            GraphNode("target", record.target_id or "Target", "target", 280, -70, 110, details=record.target_description),
-            GraphNode("class", record.output_class, "class", 100, 250, 190, details=record.output_class),
-            GraphNode("record", record.case_id, "record", -120, 230, 240, record.yaml_path, self._record_details(record)),
+            GraphNode("source", record.source_id or "Source", "source", -280, -90, -80, details=record.source_description, record_id=rid),
+            GraphNode("claim", "Claim", "claim", -120, -230, 0, details=record.claim, record_id=rid),
+            GraphNode("operation", record.operation, "operation", 0, 0, 0, details=record.operation, record_id=rid),
+            GraphNode("audit", "12-stage audit", "audit", 100, -220, 75, details="Audit findings remain qualitative and non-compensatory.", record_id=rid),
+            GraphNode("loss", "5-part Loss", "loss", 220, 180, 90, details="preserved / compressed / excluded / uncertain / irrecoverable", record_id=rid),
+            GraphNode("target", record.target_id or "Target", "target", 280, -70, 110, details=record.target_description, record_id=rid),
+            GraphNode("class", record.output_class, "class", 100, 250, 190, details=record.output_class, record_id=rid),
+            GraphNode("record", record.case_id, "record", -120, 230, 240, record.yaml_path, self._record_summary(record), rid),
         ]
         edges = [
             ("source", "operation"), ("claim", "operation"), ("operation", "audit"),
@@ -816,9 +1205,15 @@ class GraphLab(tk.Toplevel):
             y = (index - (len(members) - 1) / 2) * 115
             z = index * 80 - 120
             node_id = f"chain:{member.record_id}"
-            nodes.append(GraphNode(node_id, f"{member.case_id}\n{member.operation}", "record", x, y, z, member.yaml_path, self._record_details(member)))
+            nodes.append(GraphNode(
+                node_id, f"{member.case_id}\n{member.operation}", "record", x, y, z,
+                member.yaml_path, self._record_summary(member), member.record_id,
+            ))
             class_id = f"chainclass:{member.record_id}"
-            nodes.append(GraphNode(class_id, member.output_class, "class", x + 150, y + 35, z + 35, details=member.output_class))
+            nodes.append(GraphNode(
+                class_id, member.output_class, "class", x + 150, y + 35, z + 35,
+                details=member.output_class, record_id=member.record_id,
+            ))
             edges.append((node_id, class_id))
             if index:
                 edges.append((f"chain:{members[index - 1].record_id}", node_id))
@@ -837,28 +1232,117 @@ class GraphLab(tk.Toplevel):
         return descriptions.get(view, "")
 
     @staticmethod
-    def _record_details(record: RecordSummary) -> str:
+    def _record_summary(record: RecordSummary) -> str:
+        stop_status, failure_status, non_capture_status = GraphLab._status_flags(record)
         return (
             f"{record.case_id} — {record.title}\n\n"
-            f"Operation: {record.operation}\n"
-            f"Output class: {record.output_class}\n"
-            f"Case class: {record.case_class or '—'}\n"
-            f"Owner: {record.chapter_owner or '—'}\n"
             f"Record ID: {record.record_id}\n"
-            f"Chain ID: {record.chain_id or '—'}\n\n"
+            f"Operation: {record.operation}\n"
+            f"Output Class: {record.output_class}\n"
+            f"Case Class: {record.case_class or '—'}\n"
+            f"Chapter Owner: {record.chapter_owner or '—'}\n\n"
             f"Claim\n{record.claim or '—'}\n\n"
-            f"Source\n{record.source_id or '—'}\n{record.source_description or ''}\n\n"
-            f"Target\n{record.target_id or '—'}\n{record.target_description or ''}\n\n"
-            f"YAML: {record.yaml_path}\n"
+            f"Source\n{record.source_id or '—'}\n{record.source_description or '—'}\n\n"
+            f"Target\n{record.target_id or '—'}\n{record.target_description or '—'}\n\n"
+            f"Status\nStop: {stop_status}\nFailure: {failure_status}\nNon-Capture: {non_capture_status}\n\n"
+            f"Loss\nFive-channel profile: preserved / compressed / excluded / uncertain / irrecoverable. "
+            f"See the YAML tab for the declared values.\n\n"
+            f"Paired Artifacts\nYAML: {record.yaml_path}\n"
             f"Markdown: {record.markdown_path or '—'}\n"
             f"Package: {record.package_path or '—'}"
         )
 
-    def _set_details(self, text: str) -> None:
-        self.details.configure(state=tk.NORMAL)
-        self.details.delete("1.0", tk.END)
-        self.details.insert("1.0", text)
-        self.details.configure(state=tk.DISABLED)
+    @staticmethod
+    def _status_flags(record: RecordSummary) -> Tuple[str, str, str]:
+        output = record.output_class.casefold()
+        stop = "present" if "stop" in output else "not selected by Output Class"
+        failure = "present" if output == "failed_transformation" or "failed" in output else "not selected by Output Class"
+        non_capture = "present" if "non_capture" in output or "non-capture" in output else "not selected by Output Class"
+        return stop, failure, non_capture
+
+    def _record_for_node(self, node: GraphNode) -> Optional[RecordSummary]:
+        corpus = self.app.corpus
+        if corpus is None or not node.record_id:
+            return None
+        return corpus.record_by_id.get(node.record_id)
+
+    def _show_general_details(self, summary: str) -> None:
+        self._set_detail_text("Summary", summary)
+        for label in ("YAML", "Markdown", "Relations", "Trace"):
+            self._set_detail_text(label, "Select a Record node to inspect this view.")
+        self.detail_notebook.select(0)
+
+    def _show_node_details(self, node: GraphNode) -> None:
+        record = self._record_for_node(node)
+        if record is None:
+            summary = node.details or node.label
+            if node.rel_path:
+                summary += f"\n\nRepository artifact\n{node.rel_path}\n\nDouble-click the node to open it in the Reader."
+            self._show_general_details(summary)
+            return
+
+        self._set_detail_text("Summary", self._record_summary(record))
+        corpus = self.app.corpus
+        yaml_text = "Artifact unavailable in active corpus."
+        markdown_text = "No Markdown companion is declared."
+        if corpus is not None:
+            yaml_doc = corpus.documents.get(record.yaml_path)
+            if yaml_doc is not None:
+                yaml_text = yaml_doc.text
+            if record.markdown_path:
+                markdown_doc = corpus.documents.get(record.markdown_path)
+                if markdown_doc is not None:
+                    markdown_text = markdown_doc.text
+        self._set_detail_text("YAML", yaml_text)
+        self._set_detail_text("Markdown", markdown_text)
+        self._set_detail_text("Relations", self._relations_text(record))
+        self._set_detail_text("Trace", self._trace_text(record))
+
+    def _relations_text(self, record: RecordSummary) -> str:
+        corpus = self.app.corpus
+        chain_members: List[RecordSummary] = []
+        if corpus is not None:
+            chain_members = corpus.records_for_chain(record)
+        member_lines = "\n".join(
+            f"- {member.case_id} — {member.operation} → {member.output_class}"
+            for member in chain_members
+        ) or "—"
+        return (
+            f"Record ID: {record.record_id}\n"
+            f"Chain ID: {record.chain_id or '—'}\n"
+            f"Previous occurrence: {record.previous_occurrence_id or '—'}\n"
+            f"Next occurrence: {record.next_occurrence_id or '—'}\n"
+            f"Package narrative: {record.package_path or '—'}\n\n"
+            f"Paired artifacts\n"
+            f"- YAML: {record.yaml_path}\n"
+            f"- Markdown: {record.markdown_path or '—'}\n\n"
+            f"Chain / package members\n{member_lines}\n\n"
+            "Each occurrence preserves its own operation, Loss profile, and local Output Class."
+        )
+
+    @staticmethod
+    def _trace_text(record: RecordSummary) -> str:
+        stop_status, failure_status, non_capture_status = GraphLab._status_flags(record)
+        return (
+            f"1. Source\n   {record.source_id or '—'} — {record.source_description or '—'}\n\n"
+            f"2. Claim\n   {record.claim or '—'}\n\n"
+            f"3. Operation\n   {record.operation}\n\n"
+            "4. Admissibility Audit\n   Qualitative, non-compensatory, and bounded by Stop / Non-Capture.\n\n"
+            "5. Loss\n   preserved / compressed / excluded / uncertain / irrecoverable\n\n"
+            f"6. Target\n   {record.target_id or '—'} — {record.target_description or '—'}\n\n"
+            f"7. Output Class\n   {record.output_class}\n\n"
+            f"8. Status\n   Stop: {stop_status}\n   Failure: {failure_status}\n   Non-Capture: {non_capture_status}\n\n"
+            f"9. Record Preservation\n   {record.record_id}\n"
+        )
+
+    def _set_detail_text(self, label: str, text: str) -> None:
+        widget = self._detail_texts[label]
+        widget.configure(state=tk.NORMAL)
+        widget.delete("1.0", tk.END)
+        widget.insert("1.0", text)
+        widget.configure(state=tk.DISABLED)
+        widget.yview_moveto(0.0)
+        widget.xview_moveto(0.0)
 
     def redraw(self) -> None:
         if not hasattr(self, "canvas"):
@@ -870,7 +1354,8 @@ class GraphLab(tk.Toplevel):
         for node in self.nodes:
             self.projected[node.node_id] = self._project(node, width, height)
 
-        edge_color = "#526173"
+        palette = self.theme_palette()
+        edge_color = palette["edge"]
         for source_id, target_id in self.edges:
             if source_id not in self.projected or target_id not in self.projected:
                 continue
@@ -883,13 +1368,54 @@ class GraphLab(tk.Toplevel):
             sx, sy, _depth, scale = self.projected[node.node_id]
             radius = self._node_radius(node.kind) * max(0.55, min(1.5, scale))
             fill, outline = self._node_colors(node)
-            width_line = 3 if node.node_id == self.selected_node_id else 1
-            self.canvas.create_oval(sx - radius, sy - radius, sx + radius, sy + radius, fill=fill, outline=outline, width=width_line)
-            if self.labels_var.get() and (node.kind != "record" or len(self.nodes) < 35 or node.node_id == self.selected_node_id):
-                self.canvas.create_text(sx, sy + radius + 10, text=node.label, fill="#e8edf3", font=("Segoe UI", 8 if node.kind == "record" else 9, "bold"), justify=tk.CENTER, width=150)
+            if node.node_id == self.selected_node_id:
+                self.canvas.create_oval(
+                    sx - radius - 5, sy - radius - 5, sx + radius + 5, sy + radius + 5,
+                    outline=palette["selected_ring"], width=3,
+                )
+            elif node.node_id == self.hovered_node_id:
+                self.canvas.create_oval(
+                    sx - radius - 4, sy - radius - 4, sx + radius + 4, sy + radius + 4,
+                    outline=palette["hover_ring"], width=2,
+                )
+            width_line = 3 if node.node_id == self.selected_node_id else 2 if node.node_id == self.hovered_node_id else 1
+            self.canvas.create_oval(
+                sx - radius, sy - radius, sx + radius, sy + radius,
+                fill=fill, outline=outline, width=width_line,
+            )
+            show_label = self.labels_var.get() and (
+                self.view_var.get() == self.VIEW_CASE_TREE
+                or node.kind != "record"
+                or len(self.nodes) < 35
+                or node.node_id in {self.selected_node_id, self.hovered_node_id}
+            )
+            if show_label:
+                self._draw_node_label(node, sx, sy + radius + 11)
 
-        self.canvas.create_text(12, 12, anchor=tk.NW, text=self.view_var.get(), fill="#d7e0ea", font=("Segoe UI", 12, "bold"))
-        self.canvas.create_text(12, 34, anchor=tk.NW, text=f"{len(self.nodes)} nodes • {len(self.edges)} edges", fill="#8fa3b8", font=("Segoe UI", 9))
+        self.canvas.create_text(12, 12, anchor=tk.NW, text=self.view_var.get(), fill=palette["title_fg"], font=("Segoe UI", 12, "bold"))
+        self.canvas.create_text(12, 34, anchor=tk.NW, text=f"{len(self.nodes)} nodes • {len(self.edges)} edges", fill=palette["muted_fg"], font=("Segoe UI", 9))
+
+    def _draw_node_label(self, node: GraphNode, x: float, y: float) -> None:
+        palette = self.theme_palette()
+        font_size = 8 if node.kind == "record" else 9
+        text_id = self.canvas.create_text(
+            x, y,
+            text=node.label,
+            fill=palette["label_fg"],
+            font=("Segoe UI", font_size, "bold"),
+            justify=tk.CENTER,
+            width=160,
+        )
+        bbox = self.canvas.bbox(text_id)
+        if bbox is None:
+            return
+        left, top, right, bottom = bbox
+        pad_x, pad_y = 5, 3
+        rect_id = self.canvas.create_rectangle(
+            left - pad_x, top - pad_y, right + pad_x, bottom + pad_y,
+            fill=palette["label_bg"], outline=palette["label_border"], width=1,
+        )
+        self.canvas.tag_lower(rect_id, text_id)
 
     def _project(self, node: GraphNode, width: int, height: int) -> Tuple[float, float, float, float]:
         cosy, siny = math.cos(self.angle_y), math.sin(self.angle_y)
@@ -970,14 +1496,38 @@ class GraphLab(tk.Toplevel):
             node = self._nearest_node(event.x, event.y)
             if node:
                 self.selected_node_id = node.node_id
-                self._set_details(node.details or node.label)
+                self._show_node_details(node)
+                self.status_var.set(f"Selected: {node.label} • double-click to open linked artifact")
                 self.redraw()
         self._drag_start = None
+
+    def _on_motion(self, event: tk.Event) -> None:
+        if self._drag_start is not None and self._drag_moved:
+            return
+        node = self._nearest_node(event.x, event.y, threshold=30)
+        node_id = node.node_id if node else ""
+        if node_id != self.hovered_node_id:
+            self.hovered_node_id = node_id
+            self.canvas.configure(cursor="hand2" if node else "arrow")
+            if node:
+                detail = (node.details or node.label).splitlines()[0]
+                self.status_var.set(f"{node.label} • {detail} • click for details")
+            else:
+                self.status_var.set("Drag to rotate • wheel to zoom • click a node for details")
+            self.redraw()
+
+    def _on_leave(self, event: tk.Event) -> None:
+        if self.hovered_node_id:
+            self.hovered_node_id = ""
+            self.canvas.configure(cursor="arrow")
+            self.status_var.set("Drag to rotate • wheel to zoom • click a node for details")
+            self.redraw()
 
     def _on_double_click(self, event: tk.Event) -> None:
         node = self._nearest_node(event.x, event.y, threshold=30)
         if node and node.rel_path:
             self.app.open_document(node.rel_path)
+            self.app.deiconify()
             self.app.lift()
 
     def _on_wheel(self, event: tk.Event) -> str:
@@ -988,11 +1538,97 @@ class GraphLab(tk.Toplevel):
         self.zoom = max(0.35, min(3.0, self.zoom * factor))
         self.redraw()
 
-    def open_selected(self) -> None:
-        node = self.node_by_id.get(self.selected_node_id)
-        if node and node.rel_path:
-            self.app.open_document(node.rel_path)
-            self.app.lift()
+    def theme_palette(self) -> Dict[str, str]:
+        if self.app.dark_mode:
+            return {
+                "window_bg": "#151617",
+                "panel_bg": "#191c1f",
+                "fg": "#d4d4d4",
+                "muted_fg": "#98a6b5",
+                "canvas_bg": "#0d1117",
+                "text_bg": "#101214",
+                "text_fg": "#d4d4d4",
+                "input_bg": "#202428",
+                "button_bg": "#30343a",
+                "button_hover_bg": "#3b4148",
+                "selection_bg": "#3a5068",
+                "edge": "#526173",
+                "selected_ring": "#f4c95d",
+                "hover_ring": "#7cc7ff",
+                "label_bg": "#1b222b",
+                "label_border": "#556273",
+                "label_fg": "#eef3f8",
+                "title_fg": "#d7e0ea",
+            }
+        return {
+            "window_bg": "#f0f0f0",
+            "panel_bg": "#ffffff",
+            "fg": "#111111",
+            "muted_fg": "#5a6875",
+            "canvas_bg": "#f5f7fa",
+            "text_bg": "#ffffff",
+            "text_fg": "#111111",
+            "input_bg": "#ffffff",
+            "button_bg": "#eceff2",
+            "button_hover_bg": "#dfe5ea",
+            "selection_bg": "#cde8ff",
+            "edge": "#8997a5",
+            "selected_ring": "#a46a00",
+            "hover_ring": "#1769aa",
+            "label_bg": "#f7f9fb",
+            "label_border": "#9aa8b6",
+            "label_fg": "#15202b",
+            "title_fg": "#15202b",
+        }
+
+    def apply_theme(self) -> None:
+        palette = self.theme_palette()
+        self.configure(background=palette["window_bg"])
+        self.canvas.configure(background=palette["canvas_bg"])
+        style = ttk.Style(self)
+        style.configure(
+            "Graph.TCombobox",
+            fieldbackground=palette["input_bg"],
+            background=palette["button_bg"],
+            foreground=palette["fg"],
+            arrowcolor=palette["fg"],
+            selectbackground=palette["selection_bg"],
+            selectforeground=palette["fg"],
+        )
+        style.map(
+            "Graph.TCombobox",
+            fieldbackground=[("readonly", palette["input_bg"]), ("disabled", palette["button_bg"])],
+            foreground=[("readonly", palette["fg"]), ("disabled", palette["muted_fg"])],
+            background=[("active", palette["button_hover_bg"]), ("readonly", palette["button_bg"])],
+            selectbackground=[("readonly", palette["selection_bg"])],
+            selectforeground=[("readonly", palette["fg"])],
+        )
+        style.configure("Graph.TNotebook", background=palette["window_bg"], borderwidth=0)
+        style.configure(
+            "Graph.TNotebook.Tab",
+            background=palette["button_bg"],
+            foreground=palette["fg"],
+            padding=(10, 6),
+        )
+        style.map(
+            "Graph.TNotebook.Tab",
+            background=[("selected", palette["panel_bg"]), ("active", palette["button_hover_bg"])],
+            foreground=[("selected", palette["fg"]), ("active", palette["fg"])],
+        )
+        self.option_add("*TCombobox*Listbox.background", palette["input_bg"])
+        self.option_add("*TCombobox*Listbox.foreground", palette["fg"])
+        self.option_add("*TCombobox*Listbox.selectBackground", palette["selection_bg"])
+        self.option_add("*TCombobox*Listbox.selectForeground", palette["fg"])
+        for widget in self._detail_texts.values():
+            widget.configure(
+                background=palette["text_bg"],
+                foreground=palette["text_fg"],
+                insertbackground=palette["text_fg"],
+                selectbackground=palette["selection_bg"],
+            )
+        if self.browser_dialog is not None and self.browser_dialog.winfo_exists():
+            self.browser_dialog.apply_theme()
+        self.redraw()
 
 
 # ---------------------------------------------------------------------------
@@ -1019,6 +1655,9 @@ class PmsStrataReaderApp(tk.Tk):
         self.search_results: List[Tuple[str, int, str]] = []
         self._file_item_to_path: Dict[str, str] = {}
         self._heading_item_to_anchor: Dict[str, str] = {}
+        self._heading_anchor_to_item: Dict[str, str] = {}
+        self._document_anchor_indices: Dict[str, str] = {}
+        self._heading_positions: List[Tuple[int, str, str]] = []
         self._search_entry: Optional[ttk.Entry] = None
         self.dark_mode = False
         self.graph_lab: Optional[GraphLab] = None
@@ -1030,15 +1669,38 @@ class PmsStrataReaderApp(tk.Tk):
         # Guard against recursive Treeview callbacks:
         # programmatic selection_set() also emits <<TreeviewSelect>>.
         self._suppress_file_select_event = False
+        self._suppress_heading_select_event = False
+        self._heading_sync_after_id: Optional[str] = None
+        self._manual_heading_until = 0.0
+
+        self._link_tags: List[str] = []
+        self._next_link_id = 0
+        self._embedded_tables: List[tk.Widget] = []
+        self._table_resize_after_id: Optional[str] = None
 
         # Queue for results coming back from the background loader thread.
         self._load_queue: queue.Queue = queue.Queue()
+
+        # Separate queue and generation counter for document rendering. Opening
+        # another file invalidates any delayed blocks from the previous file.
+        self._render_queue: queue.Queue = queue.Queue()
+        self._render_generation = 0
+        self._render_poll_after_id: Optional[str] = None
+        self._active_render_doc: Optional[Document] = None
+        self._active_render_mode = ""
+        self._active_render_total = 0
+        self._active_render_inserted = 0
+        self._chunk_heading_counter = 0
+        self._pending_line_number: Optional[int] = None
+        self._pending_anchor: Optional[str] = None
 
         self._configure_style()
         self._build_ui()
         self._bind_shortcuts()
         self.apply_theme()
+        self._configure_clickable_cursors()
         self._center_window()
+        self.after_idle(self._set_initial_pane_positions)
 
         dbg("App: UI built, scheduling background load")
 
@@ -1161,21 +1823,47 @@ class PmsStrataReaderApp(tk.Tk):
         self._build_toolbar()
         self._build_fullscreen_toolbar()
 
-        self.main_pane = ttk.PanedWindow(self, orient=tk.HORIZONTAL)
+        self.main_pane = tk.PanedWindow(
+            self,
+            orient=tk.HORIZONTAL,
+            borderwidth=0,
+            sashwidth=7,
+            sashrelief=tk.RAISED,
+            showhandle=True,
+            handlesize=11,
+            handlepad=2,
+            opaqueresize=True,
+        )
         self.main_pane.pack(fill=tk.BOTH, expand=True)
 
-        self.left_pane = ttk.PanedWindow(self.main_pane, orient=tk.VERTICAL)
-        self.main_pane.add(self.left_pane, weight=1)
+        self.left_pane = tk.PanedWindow(
+            self.main_pane,
+            orient=tk.VERTICAL,
+            borderwidth=0,
+            sashwidth=7,
+            sashrelief=tk.RAISED,
+            showhandle=True,
+            handlesize=11,
+            handlepad=2,
+            opaqueresize=True,
+        )
+        self.main_pane.add(self.left_pane, minsize=230, stretch="always")
 
         # File tree
-        file_frame = ttk.Frame(self.left_pane, padding=(6, 6, 6, 3))
-        self.left_pane.add(file_frame, weight=3)
-        ttk.Label(file_frame, text="Corpus", font=("Segoe UI", 10, "bold")).pack(anchor=tk.W)
+        self.file_frame = ttk.Frame(self.left_pane, padding=(6, 6, 6, 3), style="Navigation.TFrame")
+        self.left_pane.add(self.file_frame, minsize=160, stretch="always")
+        self.file_title_label = ttk.Label(
+            self.file_frame,
+            text="Corpus",
+            font=("Segoe UI", 10, "bold"),
+            style="NavigationTitle.TLabel",
+        )
+        self.file_title_label.pack(anchor=tk.W)
 
-        file_tree_wrap = ttk.Frame(file_frame)
+        file_tree_wrap = ttk.Frame(self.file_frame, style="Navigation.TFrame")
         file_tree_wrap.pack(fill=tk.BOTH, expand=True, pady=(4, 0))
 
-        self.file_tree = ttk.Treeview(file_tree_wrap, show="tree")
+        self.file_tree = ttk.Treeview(file_tree_wrap, show="tree", style="Corpus.Treeview")
         self.file_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
         file_scrollbar = ttk.Scrollbar(file_tree_wrap, orient=tk.VERTICAL, command=self.file_tree.yview)
@@ -1186,11 +1874,17 @@ class PmsStrataReaderApp(tk.Tk):
         self._bind_mousewheel_scroll(self.file_tree)
 
         # Search results
-        search_frame = ttk.Frame(self.left_pane, padding=(6, 3, 6, 6))
-        self.left_pane.add(search_frame, weight=2)
-        ttk.Label(search_frame, text="Search Results", font=("Segoe UI", 10, "bold")).pack(anchor=tk.W)
+        self.search_frame = ttk.Frame(self.left_pane, padding=(6, 3, 6, 6), style="Navigation.TFrame")
+        self.left_pane.add(self.search_frame, minsize=120, stretch="always")
+        self.search_title_label = ttk.Label(
+            self.search_frame,
+            text="Search Results",
+            font=("Segoe UI", 10, "bold"),
+            style="NavigationTitle.TLabel",
+        )
+        self.search_title_label.pack(anchor=tk.W)
 
-        search_tree_wrap = ttk.Frame(search_frame)
+        search_tree_wrap = ttk.Frame(self.search_frame, style="Navigation.TFrame")
         search_tree_wrap.pack(fill=tk.BOTH, expand=True, pady=(4, 0))
 
         self.search_tree = ttk.Treeview(
@@ -1198,6 +1892,7 @@ class PmsStrataReaderApp(tk.Tk):
             show="headings",
             columns=("file", "line", "text"),
             height=9,
+            style="Search.Treeview",
         )
         self.search_tree.heading("file", text="File")
         self.search_tree.heading("line", text="Line")
@@ -1216,14 +1911,24 @@ class PmsStrataReaderApp(tk.Tk):
         self._bind_mousewheel_scroll(self.search_tree)
 
         # Heading tree
-        self.heading_frame = ttk.Frame(self.main_pane, padding=(6, 6, 6, 6))
-        self.main_pane.add(self.heading_frame, weight=1)
-        ttk.Label(self.heading_frame, text="Headings", font=("Segoe UI", 10, "bold")).pack(anchor=tk.W)
+        self.heading_frame = ttk.Frame(
+            self.main_pane,
+            padding=(6, 6, 6, 6),
+            style="HeadingPane.TFrame",
+        )
+        self.main_pane.add(self.heading_frame, minsize=200, stretch="always")
+        self.heading_title_label = ttk.Label(
+            self.heading_frame,
+            text="Headings",
+            font=("Segoe UI", 10, "bold"),
+            style="HeadingTitle.TLabel",
+        )
+        self.heading_title_label.pack(anchor=tk.W)
 
-        heading_tree_wrap = ttk.Frame(self.heading_frame)
+        heading_tree_wrap = ttk.Frame(self.heading_frame, style="HeadingPane.TFrame")
         heading_tree_wrap.pack(fill=tk.BOTH, expand=True, pady=(4, 0))
 
-        self.heading_tree = ttk.Treeview(heading_tree_wrap, show="tree")
+        self.heading_tree = ttk.Treeview(heading_tree_wrap, show="tree", style="Heading.Treeview")
         self.heading_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
         heading_scrollbar = ttk.Scrollbar(heading_tree_wrap, orient=tk.VERTICAL, command=self.heading_tree.yview)
@@ -1234,14 +1939,19 @@ class PmsStrataReaderApp(tk.Tk):
         self._bind_mousewheel_scroll(self.heading_tree)
 
         # Document content
-        self.content_frame = ttk.Frame(self.main_pane, padding=(6, 6, 6, 6))
-        self.main_pane.add(self.content_frame, weight=4)
+        self.content_frame = ttk.Frame(
+            self.main_pane,
+            padding=(8, 6, 8, 6),
+            style="DocumentPane.TFrame",
+        )
+        self.main_pane.add(self.content_frame, minsize=420, stretch="always")
 
         self.document_label_var = tk.StringVar(value="No document loaded")
         self.document_label = ttk.Label(
             self.content_frame,
             textvariable=self.document_label_var,
             font=("Segoe UI", 11, "bold"),
+            style="DocumentTitle.TLabel",
         )
         self.document_label.pack(anchor=tk.W, padx=(2, 0), pady=(0, 4))
 
@@ -1255,7 +1965,8 @@ class PmsStrataReaderApp(tk.Tk):
         )
         self.reader_border.pack(fill=tk.BOTH, expand=True)
 
-        text_wrap = ttk.Frame(self.reader_border)
+        text_wrap = tk.Frame(self.reader_border, borderwidth=0, highlightthickness=0)
+        self.text_wrap = text_wrap
         text_wrap.pack(fill=tk.BOTH, expand=True)
 
         self.text = tk.Text(
@@ -1270,14 +1981,21 @@ class PmsStrataReaderApp(tk.Tk):
         )
         self.text.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-        yscroll = ttk.Scrollbar(text_wrap, orient=tk.VERTICAL, command=self.text.yview)
-        yscroll.pack(side=tk.RIGHT, fill=tk.Y)
-        self.text.configure(yscrollcommand=yscroll.set)
+        self.text_yscroll = ttk.Scrollbar(text_wrap, orient=tk.VERTICAL, command=self.text.yview)
+        self.text_yscroll.pack(side=tk.RIGHT, fill=tk.Y)
+        self.text.configure(yscrollcommand=self._on_text_yscroll)
+        self.text.bind("<Configure>", self._on_text_configure)
 
         self._configure_text_tags()
 
         self.status_var = tk.StringVar(value="Starting ...")
-        self.status_label = ttk.Label(self, textvariable=self.status_var, anchor=tk.W, padding=(6, 3))
+        self.status_label = ttk.Label(
+            self,
+            textvariable=self.status_var,
+            anchor=tk.W,
+            padding=(6, 3),
+            style="Status.TLabel",
+        )
         self.status_label.pack(fill=tk.X, side=tk.BOTTOM)
 
     def _build_toolbar(self) -> None:
@@ -1292,12 +2010,11 @@ class PmsStrataReaderApp(tk.Tk):
         self._search_entry = ttk.Entry(self.toolbar, textvariable=self.search_var, width=42)
         self._search_entry.pack(side=tk.LEFT, padx=(6, 4))
         self._search_entry.bind("<Return>", lambda event: self.run_search())
-        ttk.Button(self.toolbar, text="Run", command=self.run_search).pack(side=tk.LEFT)
+        ttk.Button(self.toolbar, text="Search", command=self.run_search).pack(side=tk.LEFT)
         ttk.Button(self.toolbar, text="Clear", command=self.clear_search).pack(side=tk.LEFT, padx=(4, 12))
 
         ttk.Button(self.toolbar, text="Reload", command=self.reload_source).pack(side=tk.LEFT)
-        ttk.Button(self.toolbar, text="Home", command=self.open_home).pack(side=tk.LEFT, padx=(6, 6))
-        ttk.Button(self.toolbar, text="Graph Lab", command=self.open_graph_lab).pack(side=tk.LEFT, padx=(0, 12))
+        ttk.Button(self.toolbar, text="Home", command=self.open_home).pack(side=tk.LEFT, padx=(6, 12))
 
         ttk.Button(self.toolbar, text="A−", command=self.decrease_reader_font).pack(side=tk.LEFT)
         ttk.Button(self.toolbar, text="A+", command=self.increase_reader_font).pack(side=tk.LEFT, padx=(4, 12))
@@ -1307,7 +2024,9 @@ class PmsStrataReaderApp(tk.Tk):
             text="Reader Fullscreen",
             command=self.toggle_reader_fullscreen,
         )
-        self.fullscreen_button.pack(side=tk.LEFT, padx=(0, 12))
+        self.fullscreen_button.pack(side=tk.LEFT, padx=(0, 8))
+
+        ttk.Button(self.toolbar, text="Graph Lab", command=self.open_graph_lab).pack(side=tk.LEFT, padx=(0, 8))
 
         self.theme_button = ttk.Button(self.toolbar, text="Dark Mode", command=self.toggle_dark_mode)
         self.theme_button.pack(side=tk.LEFT)
@@ -1370,6 +2089,15 @@ class PmsStrataReaderApp(tk.Tk):
         self.text.tag_configure("rule", foreground="#777777")
         self.text.tag_configure("search", background="#fff2a8")
         self.text.tag_configure("current_line", background="#eef5ff")
+        self.text.tag_configure("link", foreground="#0563c1", underline=True)
+        self.text.tag_configure("link_hover", background="#dceeff")
+        self.text.tag_configure(
+            "loading",
+            font=("Segoe UI", 14, "bold"),
+            justify=tk.CENTER,
+            spacing1=180,
+            spacing3=20,
+        )
 
     def toggle_dark_mode(self) -> None:
         self.dark_mode = not self.dark_mode
@@ -1377,13 +2105,16 @@ class PmsStrataReaderApp(tk.Tk):
 
     def apply_theme(self) -> None:
         if self.dark_mode:
-            bg = "#1e1e1e"
-            panel_bg = "#252526"
+            bg = "#151617"
+            navigation_bg = "#1c1e20"
+            heading_bg = "#202326"
+            document_panel_bg = "#17191b"
+            panel_bg = navigation_bg
             fg = "#d4d4d4"
             muted_fg = "#a0a0a0"
-            text_bg = "#1e1e1e"
+            text_bg = "#101214"
             text_fg = "#d4d4d4"
-            code_bg = "#2d2d2d"
+            code_bg = "#1b1e21"
             button_bg = "#333333"
             button_hover_bg = "#404040"
             selection_bg = "#3a3d41"
@@ -1392,11 +2123,16 @@ class PmsStrataReaderApp(tk.Tk):
             rule_fg = "#777777"
             yaml_key_fg = "#ce9178"
             yaml_value_fg = "#b5cea8"
-            reader_border_fg = "#3a3d41"
+            reader_border_fg = "#34383c"
+            link_fg = "#6cb6ff"
+            link_hover_bg = "#24384a"
             self.theme_button.configure(text="Light Mode")
         else:
             bg = "#f0f0f0"
-            panel_bg = "#ffffff"
+            navigation_bg = "#f2f4f6"
+            heading_bg = "#f7f8fa"
+            document_panel_bg = "#ffffff"
+            panel_bg = navigation_bg
             fg = "#000000"
             muted_fg = "#555555"
             text_bg = "#ffffff"
@@ -1411,14 +2147,37 @@ class PmsStrataReaderApp(tk.Tk):
             yaml_key_fg = "#7a3e9d"
             yaml_value_fg = "#555555"
             reader_border_fg = "#cfcfcf"
+            link_fg = "#0563c1"
+            link_hover_bg = "#dceeff"
             self.theme_button.configure(text="Dark Mode")
 
         self.configure(background=bg)
+
+        # Native paned windows keep resize handles visible in both themes.
+        sash_bg = "#55595e" if self.dark_mode else "#9aa1a8"
+        for pane in (getattr(self, "main_pane", None), getattr(self, "left_pane", None)):
+            if pane is not None:
+                pane.configure(
+                    background=sash_bg,
+                    sashrelief=tk.RAISED,
+                    sashwidth=7,
+                    showhandle=True,
+                    handlesize=11,
+                    handlepad=2,
+                )
 
         style = ttk.Style(self)
         style.configure(".", background=bg, foreground=fg)
         style.configure("TFrame", background=bg)
         style.configure("TLabel", background=bg, foreground=fg)
+        style.configure("Navigation.TFrame", background=navigation_bg)
+        style.configure("HeadingPane.TFrame", background=heading_bg)
+        style.configure("DocumentPane.TFrame", background=document_panel_bg)
+        style.configure("NavigationTitle.TLabel", background=navigation_bg, foreground=fg)
+        style.configure("HeadingTitle.TLabel", background=heading_bg, foreground=fg)
+        style.configure("DocumentTitle.TLabel", background=document_panel_bg, foreground=fg)
+        style.configure("Status.TLabel", background=bg, foreground=muted_fg)
+        style.configure("Table.TFrame", background=text_bg)
         style.configure("TButton", background=button_bg, foreground=fg)
         style.map(
             "TButton",
@@ -1445,6 +2204,18 @@ class PmsStrataReaderApp(tk.Tk):
             background=[("selected", selection_bg)],
             foreground=[("selected", fg)],
         )
+        style.configure("Corpus.Treeview", background=navigation_bg, fieldbackground=navigation_bg, foreground=fg)
+        style.configure("Search.Treeview", background=navigation_bg, fieldbackground=navigation_bg, foreground=fg)
+        style.configure("Heading.Treeview", background=heading_bg, fieldbackground=heading_bg, foreground=fg)
+        style.configure("Data.Treeview", background=text_bg, fieldbackground=text_bg, foreground=text_fg, rowheight=26)
+        for tree_style in ("Corpus.Treeview", "Search.Treeview", "Heading.Treeview", "Data.Treeview"):
+            style.map(
+                tree_style,
+                background=[("selected", selection_bg)],
+                foreground=[("selected", fg)],
+            )
+        style.configure("Data.Treeview.Heading", background=button_bg, foreground=fg, relief="flat")
+        style.map("Data.Treeview.Heading", background=[("active", button_hover_bg)])
 
         if hasattr(self, "reader_border"):
             self.reader_border.configure(
@@ -1458,6 +2229,8 @@ class PmsStrataReaderApp(tk.Tk):
             foreground=text_fg,
             insertbackground=text_fg,
         )
+        if hasattr(self, "text_wrap"):
+            self.text_wrap.configure(background=text_bg)
 
         for tag in ("h1", "h2", "h3", "h4", "h5", "h6"):
             self.text.tag_configure(tag, background=text_bg, foreground=text_fg)
@@ -1476,6 +2249,73 @@ class PmsStrataReaderApp(tk.Tk):
         self.text.tag_configure("rule", background=text_bg, foreground=rule_fg)
         self.text.tag_configure("search", background=search_bg, foreground=text_fg)
         self.text.tag_configure("current_line", background=current_line_bg)
+        self.text.tag_configure("link", background=text_bg, foreground=link_fg)
+        self.text.tag_configure("link_hover", background=link_hover_bg, foreground=link_fg)
+        self.text.tag_configure("loading", background=text_bg, foreground=text_fg)
+
+        if self.graph_lab is not None and self.graph_lab.winfo_exists():
+            self.graph_lab.apply_theme()
+
+    def _on_text_configure(self, _event: tk.Event) -> None:
+        self._schedule_heading_sync()
+        if self._table_resize_after_id is not None:
+            try:
+                self.after_cancel(self._table_resize_after_id)
+            except tk.TclError:
+                pass
+        self._table_resize_after_id = self.after(40, self._resize_embedded_tables)
+
+    def _resize_embedded_tables(self) -> None:
+        self._table_resize_after_id = None
+        available_width = max(320, self.text.winfo_width() - 44)
+        live_frames: List[tk.Widget] = []
+        for frame in self._embedded_tables:
+            try:
+                if not frame.winfo_exists():
+                    continue
+                live_frames.append(frame)
+                tree = getattr(frame, "_table_tree", None)
+                xscroll = getattr(frame, "_table_xscroll", None)
+                if tree is None or xscroll is None:
+                    continue
+                frame.configure(width=available_width)
+                tree.update_idletasks()
+                scroll_height = xscroll.winfo_reqheight() if xscroll.winfo_manager() == "grid" else 0
+                frame.configure(height=tree.winfo_reqheight() + scroll_height + 4)
+            except tk.TclError:
+                continue
+        self._embedded_tables = live_frames
+
+    def _configure_clickable_cursors(self) -> None:
+        """Apply consistent interaction cursors without changing semantics."""
+        for widget in walk_widgets(self):
+            try:
+                if isinstance(widget, ttk.Button):
+                    widget.configure(cursor="hand2")
+                elif isinstance(widget, ttk.Treeview):
+                    widget.configure(cursor="hand2")
+            except tk.TclError:
+                pass
+        try:
+            self.text.configure(cursor="xterm")
+        except tk.TclError:
+            pass
+
+    def _set_initial_pane_positions(self) -> None:
+        """Keep Corpus, Search Results, Headings, and Reader visible at startup."""
+        try:
+            self.update_idletasks()
+            width = max(self.main_pane.winfo_width(), 960)
+            left_width = max(230, min(int(width * 0.19), width - 650))
+            heading_width = max(200, min(int(width * 0.17), width - left_width - 440))
+            self.main_pane.sash_place(0, left_width, 1)
+            self.main_pane.sash_place(1, left_width + heading_width, 1)
+
+            height = max(self.left_pane.winfo_height(), 500)
+            corpus_height = max(180, min(int(height * 0.58), height - 140))
+            self.left_pane.sash_place(0, 1, corpus_height)
+        except (tk.TclError, IndexError):
+            pass
 
     def _bind_mousewheel_scroll(self, widget: tk.Widget) -> None:
         """Make mouse-wheel scrolling work reliably for Treeview-like widgets.
@@ -1515,6 +2355,56 @@ class PmsStrataReaderApp(tk.Tk):
 
         return "break"
 
+    def _on_text_yscroll(self, first: str, last: str) -> None:
+        self.text_yscroll.set(first, last)
+        self._schedule_heading_sync()
+
+    def _schedule_heading_sync(self) -> None:
+        if self._heading_sync_after_id is not None:
+            try:
+                self.after_cancel(self._heading_sync_after_id)
+            except tk.TclError:
+                pass
+        self._heading_sync_after_id = self.after(120, self._sync_heading_from_scroll)
+
+    def _refresh_heading_positions(self) -> None:
+        positions: List[Tuple[int, str, str]] = []
+        for anchor, index in self.heading_indices.items():
+            item = self._heading_anchor_to_item.get(anchor)
+            if not item:
+                continue
+            try:
+                line_number = int(self.text.index(index).split(".", 1)[0])
+            except (tk.TclError, ValueError):
+                continue
+            positions.append((line_number, item, anchor))
+        self._heading_positions = sorted(positions, key=lambda entry: entry[0])
+
+    def _sync_heading_from_scroll(self) -> None:
+        self._heading_sync_after_id = None
+        if (
+            not self._heading_positions
+            or self._active_render_doc is not None
+            or time.monotonic() < self._manual_heading_until
+        ):
+            return
+        try:
+            top_line = int(self.text.index("@0,0").split(".", 1)[0]) + 2
+        except (tk.TclError, ValueError):
+            return
+        lines = [entry[0] for entry in self._heading_positions]
+        position = max(0, bisect.bisect_right(lines, top_line) - 1)
+        _line, item, _anchor = self._heading_positions[position]
+        if self.heading_tree.selection() == (item,):
+            return
+        self._suppress_heading_select_event = True
+        try:
+            self.heading_tree.selection_set(item)
+            self.heading_tree.focus(item)
+            self.heading_tree.see(item)
+        finally:
+            self.after_idle(self._enable_heading_select_events)
+
     def _center_window(self) -> None:
         """Center the main window on the current screen after widgets exist."""
         self.update_idletasks()
@@ -1546,9 +2436,12 @@ class PmsStrataReaderApp(tk.Tk):
             "  Reload                  Reload the current corpus\n\n"
             "Search:\n"
             "  Ctrl+F                  Focus search field\n"
-            "  Enter                   Run search from search field\n"
+            "  Enter                   Search from search field\n"
             "  Double-click result     Open search result\n\n"
             "Reader:\n"
+            "  Click link              Open internal links in Reader\n"
+            "  External link           Confirm before browser opening\n"
+            "  Scroll document         Synchronize active heading\n"
             "  A+ / Ctrl++             Increase reader font size\n"
             "  A− / Ctrl+-             Decrease reader font size\n"
             "  Ctrl+0                  Reset reader font size\n"
@@ -1639,15 +2532,17 @@ class PmsStrataReaderApp(tk.Tk):
         except tk.TclError:
             pass
 
-        self.main_pane.add(self.left_pane, weight=1)
-        self.main_pane.add(self.heading_frame, weight=1)
-        self.main_pane.add(self.content_frame, weight=4)
+        self.main_pane.add(self.left_pane, minsize=230, stretch="always")
+        self.main_pane.add(self.heading_frame, minsize=200, stretch="always")
+        self.main_pane.add(self.content_frame, minsize=420, stretch="always")
 
         self.toolbar.pack(fill=tk.X, before=self.main_pane)
         self.status_label.pack(fill=tk.X, side=tk.BOTTOM)
 
         if self._normal_geometry:
             self.geometry(self._normal_geometry)
+
+        self.after_idle(self._set_initial_pane_positions)
 
         self.fullscreen_button.configure(text="Reader Fullscreen")
         self.text.focus_set()
@@ -1706,7 +2601,9 @@ class PmsStrataReaderApp(tk.Tk):
         else:
             self.graph_lab.deiconify()
             self.graph_lab.lift()
+            self.graph_lab.apply_theme()
             self.graph_lab.refresh()
+            self.graph_lab.after_idle(self.graph_lab._maximize)
 
     # ------------------------------------------------------------------ #
     # Tree population                                                    #
@@ -1737,7 +2634,8 @@ class PmsStrataReaderApp(tk.Tk):
                 parent = folder_items[key]
 
             doc = self.corpus.documents[rel_path]
-            item = self.file_tree.insert(parent, tk.END, text=doc.title, open=False)
+            display_title = CANONICAL_BLOCK_LABELS.get(rel_path, doc.title)
+            item = self.file_tree.insert(parent, tk.END, text=display_title, open=False)
             self._file_item_to_path[item] = rel_path
 
         dbg(f"populate_file_tree: inserted {len(self._file_item_to_path)} file items")
@@ -1745,6 +2643,7 @@ class PmsStrataReaderApp(tk.Tk):
     def populate_heading_tree(self, doc: Document) -> None:
         self.heading_tree.delete(*self.heading_tree.get_children())
         self._heading_item_to_anchor.clear()
+        self._heading_anchor_to_item.clear()
 
         parent_by_level: Dict[int, str] = {0: ""}
         for heading in doc.headings:
@@ -1755,6 +2654,7 @@ class PmsStrataReaderApp(tk.Tk):
             label = f"{'  ' * max(0, heading.level - 1)}{heading.text}"
             item = self.heading_tree.insert(parent, tk.END, text=label, open=True)
             self._heading_item_to_anchor[item] = heading.anchor
+            self._heading_anchor_to_item[heading.anchor] = item
             parent_by_level[heading.level] = item
             for deeper in list(parent_by_level):
                 if deeper > heading.level:
@@ -1764,35 +2664,58 @@ class PmsStrataReaderApp(tk.Tk):
     # Document rendering                                                 #
     # ------------------------------------------------------------------ #
 
-    def open_document(self, rel_path: str, line_number: Optional[int] = None) -> None:
+    def open_document(
+        self,
+        rel_path: str,
+        line_number: Optional[int] = None,
+        anchor_name: Optional[str] = None,
+    ) -> None:
         if self.corpus is None or rel_path not in self.corpus.documents:
             return
-        if self.current_path == rel_path and line_number is None:
+
+        if self.current_path == rel_path:
+            if anchor_name:
+                self.scroll_to_anchor(anchor_name)
+            elif line_number is not None:
+                self.scroll_to_source_line(line_number)
             return
 
         dbg(f"open_document: {rel_path}")
+        self._cancel_active_render()
         doc = self.corpus.documents[rel_path]
         self.current_path = rel_path
         self.document_label_var.set(f"{doc.title} — {rel_path}")
         self.populate_heading_tree(doc)
-        self.render_document(doc)
-        self.highlight_query()
         self._select_file_tree_item(rel_path)
-        if line_number is not None:
-            self.scroll_to_source_line(line_number)
-        else:
-            self.text.yview_moveto(0)
+        self._pending_line_number = line_number
+        self._pending_anchor = anchor_name
 
-        record = self.corpus.record_for_path(rel_path)
-        record_suffix = f" • {record.operation} → {record.output_class}" if record else ""
-        self.status_var.set(
-            f"{rel_path} — {doc.line_count:,} lines, {doc.word_count:,} words, "
-            f"{len(doc.headings):,} headings{record_suffix}"
-        )
+        rendered_now = self.render_document(doc)
+        if rendered_now:
+            self._finish_document_render(doc)
+
         if self.graph_lab is not None and self.graph_lab.winfo_exists():
             self.graph_lab.set_current_path(rel_path)
 
-    def render_document(self, doc: Document) -> None:
+    def _document_status(self, doc: Document) -> str:
+        record = self.corpus.record_for_path(doc.rel_path) if self.corpus is not None else None
+        record_suffix = f" • {record.operation} → {record.output_class}" if record else ""
+        return (
+            f"{doc.rel_path} — {doc.line_count:,} lines, {doc.word_count:,} words, "
+            f"{len(doc.headings):,} headings{record_suffix}"
+        )
+
+    def _should_chunk_render(self, doc: Document) -> bool:
+        return (
+            doc.line_count > CHUNKED_RENDER_LINE_THRESHOLD
+            or doc.byte_count > CHUNKED_RENDER_BYTE_THRESHOLD
+        ) and doc.file_type in {"md", "yaml", "yml", "json", "txt", "py"}
+
+    def render_document(self, doc: Document) -> bool:
+        """Render a document and return True when rendering finished synchronously."""
+        if self._should_chunk_render(doc):
+            self._start_chunked_render(doc)
+            return False
         if doc.file_type == "md":
             self.render_markdown(doc)
         elif doc.file_type in {"yaml", "yml"}:
@@ -1803,16 +2726,198 @@ class PmsStrataReaderApp(tk.Tk):
             self.render_csv(doc)
         else:
             self.render_plain(doc)
+        return True
 
-    def render_yaml(self, doc: Document) -> None:
+    def _reset_document_surface(self) -> None:
+        for widget in self._embedded_tables:
+            try:
+                widget.destroy()
+            except tk.TclError:
+                pass
+        self._embedded_tables.clear()
+
+        for tag_name in self._link_tags:
+            try:
+                self.text.tag_delete(tag_name)
+            except tk.TclError:
+                pass
+        self._link_tags.clear()
+        self._next_link_id = 0
+
         self.heading_indices.clear()
+        self._document_anchor_indices.clear()
+        self._heading_positions.clear()
         self.text.configure(state=tk.NORMAL)
         self.text.delete("1.0", tk.END)
+
+    def _cancel_active_render(self) -> None:
+        self._render_generation += 1
+        self._active_render_doc = None
+        self._active_render_mode = ""
+        self._active_render_total = 0
+        self._active_render_inserted = 0
+        self._pending_line_number = None
+        self._pending_anchor = None
+        if self._render_poll_after_id is not None:
+            try:
+                self.after_cancel(self._render_poll_after_id)
+            except tk.TclError:
+                pass
+            self._render_poll_after_id = None
+
+    def _show_loading(self, doc: Document) -> None:
+        self._reset_document_surface()
+        self.heading_tree.state(["disabled"])
+        self.text.insert(
+            "1.0",
+            f"Loading {Path(doc.rel_path).name}…\n\nPreparing seamless audit view.",
+            ("loading",),
+        )
+        self.text.configure(state=tk.DISABLED)
+        self.status_var.set(f"Loading {doc.rel_path}…")
+
+    def _start_chunked_render(self, doc: Document) -> None:
+        generation = self._render_generation
+        self._active_render_doc = doc
+        self._active_render_mode = ""
+        self._active_render_total = 0
+        self._active_render_inserted = 0
+        self._chunk_heading_counter = 0
+        self._show_loading(doc)
+        worker = threading.Thread(
+            target=self._prepare_document_chunks,
+            args=(generation, doc),
+            daemon=True,
+        )
+        worker.start()
+        self._schedule_render_poll()
+
+    def _prepare_document_chunks(self, generation: int, doc: Document) -> None:
+        """Prepare document chunks in a worker. Never touches Tk widgets."""
+        try:
+            if doc.file_type == "md":
+                mode = "markdown"
+                chunks = chunk_markdown_text(strip_frontmatter(doc.text), CHUNK_TARGET_BYTES)
+            elif doc.file_type in {"yaml", "yml"}:
+                mode = "yaml_plain"
+                chunks = chunk_text_by_bytes(doc.text, CHUNK_TARGET_BYTES)
+            else:
+                mode = "code" if doc.file_type in {"json", "py"} else "body"
+                chunks = chunk_text_by_bytes(doc.text, CHUNK_TARGET_BYTES)
+
+            self._render_queue.put(("start", generation, doc.rel_path, mode, len(chunks)))
+            for block_number, chunk in enumerate(chunks, start=1):
+                self._render_queue.put(("chunk", generation, doc.rel_path, block_number, chunk))
+            self._render_queue.put(("done", generation, doc.rel_path))
+        except Exception as exc:
+            self._render_queue.put(("error", generation, doc.rel_path, str(exc)))
+
+    def _schedule_render_poll(self) -> None:
+        if self._render_poll_after_id is None:
+            self._render_poll_after_id = self.after(20, self._poll_render_queue)
+
+    def _poll_render_queue(self) -> None:
+        self._render_poll_after_id = None
+        processed = 0
+        while processed < 4:
+            try:
+                message = self._render_queue.get_nowait()
+            except queue.Empty:
+                break
+            processed += 1
+            kind = message[0]
+            generation = message[1]
+            rel_path = message[2]
+            if generation != self._render_generation or rel_path != self.current_path:
+                continue
+
+            if kind == "start":
+                _kind, _generation, _path, mode, total = message
+                self._active_render_mode = mode
+                self._active_render_total = total
+                self._active_render_inserted = 0
+                self._reset_document_surface()
+                self.text.configure(state=tk.NORMAL)
+            elif kind == "chunk":
+                _kind, _generation, _path, block_number, chunk = message
+                self._insert_prepared_chunk(chunk)
+                self._active_render_inserted = block_number
+                total = max(1, self._active_render_total)
+                self.status_var.set(
+                    f"Loading {rel_path}… {block_number:,} / {total:,} blocks"
+                )
+            elif kind == "done":
+                self.text.configure(state=tk.DISABLED)
+                doc = self._active_render_doc
+                self._active_render_doc = None
+                self.heading_tree.state(["!disabled"])
+                if doc is not None:
+                    if self._active_render_mode == "yaml_plain":
+                        self._install_outline_indices(doc)
+                    self._finish_document_render(doc)
+                return
+            elif kind == "error":
+                _kind, _generation, _path, error_message = message
+                self.text.configure(state=tk.DISABLED)
+                self.heading_tree.state(["!disabled"])
+                self._active_render_doc = None
+                self.status_var.set(f"Render error: {error_message}")
+                messagebox.showerror(APP_TITLE, f"Could not render {rel_path}:\n\n{error_message}")
+                return
+
+        if self._active_render_doc is not None:
+            self._schedule_render_poll()
+
+    def _insert_prepared_chunk(self, chunk: RenderChunk) -> None:
+        mode = self._active_render_mode
+        if mode == "markdown":
+            self._chunk_heading_counter = self._render_markdown_blocks(
+                self._active_render_doc,
+                chunk.text,
+                use_source_marks=False,
+                source_line_offset=chunk.start_line - 1,
+                heading_counter_start=self._chunk_heading_counter,
+            )
+        else:
+            tag = "code" if mode in {"yaml_plain", "code"} else "body"
+            self.text.insert(tk.END, chunk.text, (tag,))
+
+    def _finish_document_render(self, doc: Document) -> None:
+        self.text.configure(state=tk.DISABLED)
+        if doc.file_type in {"yaml", "yml"} and not self.heading_indices:
+            self._install_outline_indices(doc)
+        self._refresh_heading_positions()
+        self.highlight_query()
+
+        if self._pending_anchor:
+            pending = self._pending_anchor
+            self._pending_anchor = None
+            self.scroll_to_anchor(pending)
+        elif self._pending_line_number is not None:
+            pending_line = self._pending_line_number
+            self._pending_line_number = None
+            self.scroll_to_source_line(pending_line)
+        else:
+            self.text.yview_moveto(0)
+
+        self.status_var.set(self._document_status(doc))
+        self._schedule_heading_sync()
+
+    def _install_outline_indices(self, doc: Document) -> None:
+        for heading in doc.headings:
+            index = f"{max(1, heading.line_number)}.0"
+            self.heading_indices[heading.anchor] = index
+            self._document_anchor_indices.setdefault(slugify(heading.text), index)
+            self._document_anchor_indices[heading.anchor] = index
+
+    def render_yaml(self, doc: Document) -> None:
+        self._reset_document_surface()
         for line_number, line in enumerate(doc.text.splitlines(), start=1):
             if doc.line_count <= LARGE_DOC_LINE_THRESHOLD:
                 self.text.mark_set(f"source_line_{line_number}", self.text.index(tk.INSERT))
             self._insert_yaml_line(line)
         self.text.configure(state=tk.DISABLED)
+        self._install_outline_indices(doc)
 
     def render_json(self, doc: Document) -> None:
         try:
@@ -1822,93 +2927,85 @@ class PmsStrataReaderApp(tk.Tk):
         self._render_plain_text(rendered, "code")
 
     def render_csv(self, doc: Document) -> None:
+        self._reset_document_surface()
         try:
             rows = list(csv.reader(doc.text.splitlines()))
-            if not rows:
-                rendered = ""
-            else:
-                width_count = max(len(row) for row in rows)
-                padded = [row + [""] * (width_count - len(row)) for row in rows]
-                widths = [min(48, max(len(row[i]) for row in padded)) for i in range(width_count)]
-                rendered_lines = []
-                for row_index, row in enumerate(padded):
-                    rendered_lines.append("  │  ".join(row[i][:widths[i]].ljust(widths[i]) for i in range(width_count)))
-                    if row_index == 0:
-                        rendered_lines.append("──┼──".join("─" * width for width in widths))
-                rendered = "\n".join(rendered_lines)
-        except Exception:
-            rendered = doc.text
-        self._render_plain_text(rendered, "table")
+            self._insert_table_widget(rows, sortable=True)
+        except Exception as exc:
+            dbg(f"render_csv: table fallback ({exc})")
+            self.text.insert("1.0", doc.text, ("table",))
+        self.text.configure(state=tk.DISABLED)
 
     def render_plain(self, doc: Document) -> None:
         self._render_plain_text(doc.text, "code" if doc.file_type == "py" else "body")
 
     def _render_plain_text(self, text: str, tag: str) -> None:
-        self.heading_indices.clear()
-        self.text.configure(state=tk.NORMAL)
-        self.text.delete("1.0", tk.END)
+        self._reset_document_surface()
         self.text.insert("1.0", text, (tag,))
         self.text.configure(state=tk.DISABLED)
 
     def render_markdown(self, doc: Document) -> None:
-        """Render *doc* into the text widget.
-
-        This renderer keeps large files fast by avoiding per-line source marks
-        in large documents, but still performs Markdown-light normalization:
-        headings, fenced code blocks, YAML blocks, lists, and tables.
-        """
+        """Render Markdown without changing the source artifact."""
         dbg(f"render_markdown: {doc.rel_path} ({doc.line_count} lines)")
         body = strip_frontmatter(doc.text)
-        self.heading_indices.clear()
-
-        self.text.configure(state=tk.NORMAL)
-        self.text.delete("1.0", tk.END)
-
+        self._reset_document_surface()
         try:
             use_source_marks = doc.line_count <= LARGE_DOC_LINE_THRESHOLD
-            self._render_markdown_blocks(doc, body, use_source_marks=use_source_marks)
+            self._render_markdown_blocks(
+                doc,
+                body,
+                use_source_marks=use_source_marks,
+                source_line_offset=0,
+                heading_counter_start=0,
+            )
         except Exception as exc:
             dbg(f"render_markdown: exception: {exc}")
             self.status_var.set(f"Render error: {exc}")
         finally:
             self.text.configure(state=tk.DISABLED)
 
-    def _render_markdown_blocks(self, doc: Document, body: str, use_source_marks: bool) -> None:
-        """Markdown-light block renderer.
-
-        It is intentionally not a full Markdown engine. It renders the PMS-STRATA
-        corpus well enough without external dependencies and without destroying
-        performance on the large monolith.
-        """
+    def _render_markdown_blocks(
+        self,
+        doc: Optional[Document],
+        body: str,
+        use_source_marks: bool,
+        source_line_offset: int = 0,
+        heading_counter_start: int = 0,
+    ) -> int:
+        """Markdown-light block renderer with links, anchors, and table widgets."""
         lines = body.splitlines()
         i = 0
-        heading_counter = 0
+        heading_counter = heading_counter_start
 
         while i < len(lines):
             raw_line = lines[i]
-            source_line = i + 1
+            source_line = source_line_offset + i + 1
             line_start = self.text.index(tk.INSERT)
 
             if use_source_marks:
                 self.text.mark_set(f"source_line_{source_line}", line_start)
+
+            anchor_match = HTML_ANCHOR_RE.match(raw_line)
+            if anchor_match:
+                anchor_id = unquote(anchor_match.group(1).strip())
+                self._document_anchor_indices[anchor_id] = line_start
+                self._document_anchor_indices[slugify(anchor_id)] = line_start
+                i += 1
+                continue
 
             fence_match = FENCE_RE.match(raw_line)
             if fence_match:
                 language = (fence_match.group(2) or "").lower()
                 block_lines: List[str] = []
                 i += 1
-
                 while i < len(lines):
                     close_match = FENCE_RE.match(lines[i])
                     if close_match:
                         break
                     block_lines.append(lines[i])
                     i += 1
-
-                # Skip closing fence when present.
                 if i < len(lines) and FENCE_RE.match(lines[i]):
                     i += 1
-
                 self._insert_code_block(block_lines, language)
                 continue
 
@@ -1919,6 +3016,8 @@ class PmsStrataReaderApp(tk.Tk):
                 anchor = f"h-{heading_counter}-{slugify(heading_text)}"
                 heading_counter += 1
                 self.heading_indices[anchor] = line_start
+                self._document_anchor_indices.setdefault(slugify(heading_text), line_start)
+                self._document_anchor_indices[anchor] = line_start
                 self._insert_inline_markdown(heading_text, (f"h{level}",))
                 self.text.insert(tk.END, "\n", (f"h{level}",))
                 i += 1
@@ -1936,8 +3035,7 @@ class PmsStrataReaderApp(tk.Tk):
             if list_match:
                 indent, _bullet, content = list_match.groups()
                 level = max(0, len(indent.replace("\t", "    ")) // 2)
-                prefix = "  " * level + "• "
-                self.text.insert(tk.END, prefix, ("list",))
+                self.text.insert(tk.END, "  " * level + "• ", ("list",))
                 self._insert_inline_markdown(content, ("list",))
                 self.text.insert(tk.END, "\n", ("list",))
                 i += 1
@@ -1947,8 +3045,7 @@ class PmsStrataReaderApp(tk.Tk):
             if ordered_match:
                 indent, number, content = ordered_match.groups()
                 level = max(0, len(indent.replace("\t", "    ")) // 2)
-                prefix = "  " * level + f"{number}. "
-                self.text.insert(tk.END, prefix, ("list",))
+                self.text.insert(tk.END, "  " * level + f"{number}. ", ("list",))
                 self._insert_inline_markdown(content, ("list",))
                 self.text.insert(tk.END, "\n", ("list",))
                 i += 1
@@ -1962,7 +3059,7 @@ class PmsStrataReaderApp(tk.Tk):
                 continue
 
             if raw_line.strip() in {"---", "***", "___"}:
-                self.text.insert(tk.END, "\u2500" * 80 + "\n", ("rule",))
+                self.text.insert(tk.END, "─" * 80 + "\n", ("rule",))
                 i += 1
                 continue
 
@@ -1971,6 +3068,7 @@ class PmsStrataReaderApp(tk.Tk):
             i += 1
 
         dbg(f"_render_markdown_blocks: done ({heading_counter} headings rendered)")
+        return heading_counter
 
     def _insert_code_block(self, block_lines: List[str], language: str) -> None:
         """Insert a fenced code block without showing the fence markers."""
@@ -2007,30 +3105,21 @@ class PmsStrataReaderApp(tk.Tk):
         self.text.insert(tk.END, value + "\n", ("yaml_value",))
 
     def _insert_inline_markdown(self, text: str, base_tags: Tuple[str, ...]) -> None:
-        """Insert one text fragment with lightweight inline Markdown styling.
-
-        Supported:
-        - `inline code`
-        - ***bold italic***
-        - **bold**
-        - *italic*
-
-        This intentionally avoids full Markdown parsing but handles the corpus'
-        most common inline patterns.
-        """
+        """Insert inline Markdown, including navigable internal/external links."""
         token_re = re.compile(
-            r"(`[^`]+`|\*\*\*[^*]+\*\*\*|\*\*[^*]+\*\*|\*[^*\n]+\*)"
+            r"(\[[^\]]+\]\([^)]+\)|`[^`]+`|\*\*\*[^*]+\*\*\*|\*\*[^*]+\*\*|\*[^*\n]+\*)"
         )
-
         pos = 0
-
         for match in token_re.finditer(text):
             if match.start() > pos:
                 self.text.insert(tk.END, text[pos:match.start()], base_tags)
 
             token = match.group(0)
-
-            if token.startswith("`") and token.endswith("`"):
+            link_match = MARKDOWN_LINK_RE.fullmatch(token)
+            if link_match:
+                label, target = link_match.groups()
+                self._insert_markdown_link(label, target, base_tags)
+            elif token.startswith("`") and token.endswith("`"):
                 self.text.insert(tk.END, token[1:-1], base_tags + ("inline_code",))
             elif token.startswith("***") and token.endswith("***"):
                 self.text.insert(tk.END, token[3:-3], base_tags + ("bold_italic",))
@@ -2040,53 +3129,221 @@ class PmsStrataReaderApp(tk.Tk):
                 self.text.insert(tk.END, token[1:-1], base_tags + ("italic",))
             else:
                 self.text.insert(tk.END, token, base_tags)
-
             pos = match.end()
 
         if pos < len(text):
             self.text.insert(tk.END, text[pos:], base_tags)
 
-    def _insert_table_block(self, table_lines: List[str]) -> None:
-        """Render a Markdown table as an aligned monospace text table."""
-        rows: List[List[str]] = []
+    def _insert_markdown_link(
+        self,
+        label: str,
+        target: str,
+        base_tags: Tuple[str, ...],
+    ) -> None:
+        tag_name = f"document_link_{self._next_link_id}"
+        self._next_link_id += 1
+        self._link_tags.append(tag_name)
+        self.text.insert(tk.END, label, base_tags + ("link", tag_name))
+        self.text.tag_bind(
+            tag_name,
+            "<Button-1>",
+            lambda _event, link_target=target: self._open_markdown_link(link_target),
+        )
+        self.text.tag_bind(
+            tag_name,
+            "<Enter>",
+            lambda _event, name=tag_name: self._set_link_hover(name, True),
+        )
+        self.text.tag_bind(
+            tag_name,
+            "<Leave>",
+            lambda _event, name=tag_name: self._set_link_hover(name, False),
+        )
 
-        for line in table_lines:
-            cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+    def _set_link_hover(self, tag_name: str, active: bool) -> None:
+        ranges = self.text.tag_ranges(tag_name)
+        if len(ranges) < 2:
+            return
+        if active:
+            self.text.configure(cursor="hand2")
+            self.text.tag_add("link_hover", ranges[0], ranges[1])
+        else:
+            self.text.configure(cursor="xterm")
+            self.text.tag_remove("link_hover", ranges[0], ranges[1])
 
-            # Skip Markdown separator rows like | --- | :---: |
-            if cells and all(re.fullmatch(r":?-{3,}:?", cell or "---") for cell in cells):
-                continue
+    def _open_markdown_link(self, raw_target: str) -> None:
+        target = raw_target.strip()
+        if target.startswith("<") and target.endswith(">"):
+            target = target[1:-1].strip()
+        title_match = re.match(r'^(\S+?)(?:\s+["\'].*["\'])?$', target)
+        if title_match:
+            target = title_match.group(1)
+        target = unquote(target)
 
-            rows.append(cells)
-
-        if not rows:
+        parsed = urlparse(target)
+        if parsed.scheme.lower() in {"http", "https", "mailto"}:
+            if messagebox.askyesno(
+                "Open external link",
+                f"Open this external destination in the default browser?\n\n{target}",
+                parent=self,
+            ):
+                webbrowser.open_new_tab(target)
             return
 
+        file_part, _separator, anchor = target.partition("#")
+        if not file_part:
+            self.scroll_to_anchor(anchor)
+            return
+        if self.corpus is None or self.current_path is None:
+            return
+
+        if file_part.startswith("/"):
+            candidate = normalize_rel_path(posixpath.normpath(file_part))
+        else:
+            base_dir = posixpath.dirname(self.current_path)
+            candidate = normalize_rel_path(posixpath.normpath(posixpath.join(base_dir, file_part)))
+
+        if candidate.startswith("../") or candidate == "..":
+            self._report_missing_link(target, "The target leaves the active repository root.")
+            return
+        if candidate not in self.corpus.documents:
+            readme_candidate = normalize_rel_path(posixpath.join(candidate, "README.md"))
+            if readme_candidate in self.corpus.documents:
+                candidate = readme_candidate
+            else:
+                self._report_missing_link(target, f"No active Reader artifact exists at {candidate}.")
+                return
+
+        self.open_document(candidate, anchor_name=anchor or None)
+
+    def _report_missing_link(self, target: str, reason: str) -> None:
+        self.status_var.set(f"Link target unavailable: {target}")
+        messagebox.showwarning(
+            "Link target unavailable",
+            f"The Reader could not open this link:\n\n{target}\n\n{reason}",
+            parent=self,
+        )
+
+    def _insert_table_block(self, table_lines: List[str]) -> None:
+        """Render a Markdown table as a real scrollable cell grid."""
+        rows: List[List[str]] = []
+        for line in table_lines:
+            cells = split_markdown_table_row(line)
+            if cells and all(re.fullmatch(r":?-{3,}:?", cell or "---") for cell in cells):
+                continue
+            rows.append(cells)
+        self._insert_table_widget(rows, sortable=False)
+
+    def _insert_table_widget(self, rows: List[List[str]], sortable: bool) -> None:
+        if not rows:
+            return
         column_count = max(len(row) for row in rows)
-        normalized_rows: List[List[str]] = [
-            row + [""] * (column_count - len(row))
-            for row in rows
-        ]
+        normalized = [row + [""] * (column_count - len(row)) for row in rows]
+        display_rows: List[List[str]] = []
+        cell_links: Dict[Tuple[str, int], str] = {}
+        for row_index, row in enumerate(normalized):
+            display_row: List[str] = []
+            for column_index, value in enumerate(row):
+                label, link_target = markdown_link_cell(value)
+                display_row.append(f"↗ {label}" if link_target else label)
+                if row_index > 0 and link_target:
+                    cell_links[(str(row_index - 1), column_index)] = link_target
+            display_rows.append(display_row)
 
-        widths = [
-            max(len(row[column]) for row in normalized_rows)
-            for column in range(column_count)
-        ]
+        headers = display_rows[0]
+        data_rows = display_rows[1:]
+        columns = tuple(f"c{index}" for index in range(column_count))
 
-        rendered_lines: List[str] = []
-        for row_index, row in enumerate(normalized_rows):
-            rendered = "  │  ".join(
-                row[column].ljust(widths[column])
-                for column in range(column_count)
-            )
-            rendered_lines.append(rendered)
+        frame = ttk.Frame(self.text, style="Table.TFrame", padding=(0, 2, 0, 2))
+        tree_height = min(max(len(data_rows), 1), 16)
+        tree = ttk.Treeview(
+            frame,
+            columns=columns,
+            show="headings",
+            height=tree_height,
+            style="Data.Treeview",
+            selectmode="browse",
+        )
+        tree.grid(row=0, column=0, sticky="nsew")
+        frame.columnconfigure(0, weight=1)
+        frame.rowconfigure(0, weight=1)
 
-            if row_index == 0 and len(normalized_rows) > 1:
-                rendered_lines.append("──┼──".join("─" * width for width in widths))
+        xscroll = AutoHideScrollbar(frame, orient=tk.HORIZONTAL, command=tree.xview)
+        xscroll.grid(row=1, column=0, sticky="ew")
+        tree.configure(xscrollcommand=xscroll.set)
 
+        if len(data_rows) > tree_height:
+            yscroll = ttk.Scrollbar(frame, orient=tk.VERTICAL, command=tree.yview)
+            yscroll.grid(row=0, column=1, sticky="ns")
+            tree.configure(yscrollcommand=yscroll.set)
+
+        sort_state: Dict[int, bool] = {}
+        for index, column in enumerate(columns):
+            header = headers[index].strip() or f"Column {index + 1}"
+            values = [str(row[index]) for row in display_rows]
+            max_chars = max((len(value) for value in values), default=8)
+            width = max(90, min(420, max_chars * 8 + 24))
+            command = None
+            if sortable:
+                command = lambda col=index: self._sort_table_column(tree, col, sort_state)
+            if command is None:
+                tree.heading(column, text=header)
+            else:
+                tree.heading(column, text=header, command=command)
+            tree.column(column, width=width, minwidth=70, stretch=False, anchor=tk.W)
+
+        for row_index, row in enumerate(data_rows):
+            tree.insert("", tk.END, iid=str(row_index), values=row)
+
+        def table_link_at(event: tk.Event) -> Optional[str]:
+            item = tree.identify_row(event.y)
+            column = tree.identify_column(event.x)
+            if not item or not column.startswith("#"):
+                return None
+            try:
+                column_index = int(column[1:]) - 1
+            except ValueError:
+                return None
+            return cell_links.get((item, column_index))
+
+        def on_table_motion(event: tk.Event) -> None:
+            tree.configure(cursor="hand2" if table_link_at(event) else ("hand2" if sortable else "arrow"))
+
+        def on_table_click(event: tk.Event) -> None:
+            link_target = table_link_at(event)
+            if link_target:
+                self._open_markdown_link(link_target)
+
+        tree.bind("<Motion>", on_table_motion)
+        tree.bind("<ButtonRelease-1>", on_table_click)
+        tree.configure(cursor="hand2" if sortable else "arrow")
+
+        frame._table_tree = tree
+        frame._table_xscroll = xscroll
+        frame.grid_propagate(False)
+        xscroll.visibility_callback = lambda _visible: self._resize_embedded_tables()
+        self._embedded_tables.append(frame)
         self.text.insert(tk.END, "\n", ("body",))
-        self.text.insert(tk.END, "\n".join(rendered_lines) + "\n", ("table",))
-        self.text.insert(tk.END, "\n", ("body",))
+        self.text.window_create(tk.END, window=frame, padx=8, pady=6, stretch=True)
+        self.text.insert(tk.END, "\n\n", ("body",))
+        self.after_idle(self._resize_embedded_tables)
+
+    def _sort_table_column(
+        self,
+        tree: ttk.Treeview,
+        column_index: int,
+        sort_state: Dict[int, bool],
+    ) -> None:
+        descending = sort_state.get(column_index, False)
+        rows = []
+        for item in tree.get_children(""):
+            values = tree.item(item, "values")
+            value = values[column_index] if column_index < len(values) else ""
+            rows.append((table_sort_value(str(value)), item))
+        rows.sort(key=lambda pair: pair[0], reverse=descending)
+        for position, (_value, item) in enumerate(rows):
+            tree.move(item, "", position)
+        sort_state[column_index] = not descending
 
     # ------------------------------------------------------------------ #
     # Search                                                             #
@@ -2118,11 +3375,14 @@ class PmsStrataReaderApp(tk.Tk):
         self.text.configure(state=tk.DISABLED)
 
     def highlight_query(self) -> None:
+        if self._active_render_doc is not None:
+            return
         query = self.search_var.get().strip()
         self.text.configure(state=tk.NORMAL)
         self.text.tag_remove("search", "1.0", tk.END)
         if query:
             start = "1.0"
+            count = 0
             while True:
                 pos = self.text.search(query, start, stopindex=tk.END, nocase=True)
                 if not pos:
@@ -2130,9 +3390,15 @@ class PmsStrataReaderApp(tk.Tk):
                 end = f"{pos}+{len(query)}c"
                 self.text.tag_add("search", pos, end)
                 start = end
+                count += 1
+                if count >= MAX_SEARCH_HIGHLIGHTS:
+                    break
         self.text.configure(state=tk.DISABLED)
 
     def scroll_to_source_line(self, line_number: int) -> None:
+        if self._active_render_doc is not None:
+            self._pending_line_number = line_number
+            return
         mark = f"source_line_{line_number}"
 
         try:
@@ -2147,6 +3413,27 @@ class PmsStrataReaderApp(tk.Tk):
         self.text.tag_add("current_line", index, f"{index} lineend+1c")
         self.text.configure(state=tk.DISABLED)
         self.text.see(index)
+
+    def scroll_to_anchor(self, anchor_name: str) -> None:
+        anchor = unquote((anchor_name or "").lstrip("#").strip())
+        if not anchor:
+            return
+        if self._active_render_doc is not None:
+            self._pending_anchor = anchor
+            return
+        candidates = [anchor, anchor.lower(), slugify(anchor)]
+        index = next(
+            (self._document_anchor_indices[key] for key in candidates if key in self._document_anchor_indices),
+            None,
+        )
+        if index is None:
+            self._report_missing_link(f"#{anchor}", "No matching document anchor was found.")
+            return
+        self.text.see(index)
+        self.text.configure(state=tk.NORMAL)
+        self.text.tag_remove("current_line", "1.0", tk.END)
+        self.text.tag_add("current_line", index, f"{index} lineend+1c")
+        self.text.configure(state=tk.DISABLED)
 
     # ------------------------------------------------------------------ #
     # Toolbar / dialog actions                                           #
@@ -2184,18 +3471,24 @@ class PmsStrataReaderApp(tk.Tk):
             self.open_document(rel_path)
 
     def _on_heading_selected(self, event: tk.Event) -> None:
+        if self._suppress_heading_select_event:
+            return
         selection = self.heading_tree.selection()
         if not selection:
             return
         item = selection[0]
         anchor = self._heading_item_to_anchor.get(item)
         if anchor and anchor in self.heading_indices:
+            self._manual_heading_until = time.monotonic() + 0.65
             index = self.heading_indices[anchor]
             self.text.see(index)
             self.text.configure(state=tk.NORMAL)
             self.text.tag_remove("current_line", "1.0", tk.END)
             self.text.tag_add("current_line", index, f"{index} lineend+1c")
             self.text.configure(state=tk.DISABLED)
+
+    def _enable_heading_select_events(self) -> None:
+        self._suppress_heading_select_event = False
 
     def _on_search_result_open(self, event: tk.Event) -> None:
         selection = self.search_tree.selection()
@@ -2229,6 +3522,7 @@ class PmsStrataReaderApp(tk.Tk):
     # ------------------------------------------------------------------ #
 
     def destroy(self) -> None:
+        self._cancel_active_render()
         if self.graph_lab is not None and self.graph_lab.winfo_exists():
             try:
                 self.graph_lab.destroy()
@@ -2381,6 +3675,100 @@ def strip_frontmatter(text: str) -> str:
     return FRONTMATTER_RE.sub("", text, count=1)
 
 
+def parse_yaml_outline(text: str) -> List[Heading]:
+    """Return a shallow, indentation-based YAML outline.
+
+    This is a navigation aid only. It is deliberately not a YAML parser and
+    does not perform schema or semantic validation.
+    """
+    headings: List[Heading] = []
+    stack: List[Tuple[int, str]] = []
+    counter = 0
+    identifier_keys = {"id", "rule_id", "stage_id", "class_id", "record_id", "name"}
+
+    for line_number, raw_line in enumerate(text.splitlines(), start=1):
+        if not raw_line.strip() or raw_line.lstrip().startswith("#"):
+            continue
+        match = YAML_OUTLINE_KEY_RE.match(raw_line)
+        if not match:
+            continue
+        indent_text, list_marker, key, value = match.groups()
+        indent = len(indent_text.replace("\t", "    ")) + (2 if list_marker else 0)
+        while stack and stack[-1][0] >= indent:
+            stack.pop()
+        level = len(stack) + 1
+
+        include = level <= 2 or (level == 3 and key in YAML_OUTLINE_LEVEL3_KEYS)
+        if include:
+            label = key
+            scalar = clean_yaml_scalar(value)
+            if key in identifier_keys and scalar and scalar not in {"|", ">"}:
+                label = f"{key}: {scalar[:120]}"
+            anchor = f"y-{counter}-{slugify(label)}"
+            headings.append(Heading(level=min(level, 3), text=label, line_number=line_number, anchor=anchor))
+            counter += 1
+        stack.append((indent, key))
+
+    return headings
+
+
+def chunk_text_by_bytes(text: str, target_bytes: int) -> List[RenderChunk]:
+    """Split text on line boundaries while preserving exact source content."""
+    lines = text.splitlines(keepends=True)
+    if not lines:
+        return [RenderChunk("", 1)]
+    chunks: List[RenderChunk] = []
+    current: List[str] = []
+    current_bytes = 0
+    start_line = 1
+    line_number = 1
+    for line in lines:
+        line_bytes = len(line.encode("utf-8", errors="replace"))
+        if current and current_bytes + line_bytes > target_bytes:
+            chunks.append(RenderChunk("".join(current), start_line))
+            current = []
+            current_bytes = 0
+            start_line = line_number
+        current.append(line)
+        current_bytes += line_bytes
+        line_number += 1
+    if current:
+        chunks.append(RenderChunk("".join(current), start_line))
+    return chunks
+
+
+def chunk_markdown_text(text: str, target_bytes: int) -> List[RenderChunk]:
+    """Split Markdown at safe block boundaries, never inside fenced code."""
+    lines = text.splitlines(keepends=True)
+    if not lines:
+        return [RenderChunk("", 1)]
+    chunks: List[RenderChunk] = []
+    current: List[str] = []
+    current_bytes = 0
+    start_line = 1
+    in_fence = False
+    line_number = 1
+
+    for line in lines:
+        current.append(line)
+        current_bytes += len(line.encode("utf-8", errors="replace"))
+        if FENCE_RE.match(line.rstrip("\r\n")):
+            in_fence = not in_fence
+
+        safe_boundary = not in_fence and not line.strip()
+        forced_boundary = not in_fence and current_bytes >= target_bytes * 2
+        if current_bytes >= target_bytes and (safe_boundary or forced_boundary):
+            chunks.append(RenderChunk("".join(current), start_line))
+            current = []
+            current_bytes = 0
+            start_line = line_number + 1
+        line_number += 1
+
+    if current:
+        chunks.append(RenderChunk("".join(current), start_line))
+    return chunks
+
+
 def parse_headings(text: str) -> List[Heading]:
     headings: List[Heading] = []
     in_code = False
@@ -2445,6 +3833,47 @@ def looks_like_table_line(line: str) -> bool:
         and stripped.endswith("|")
         and stripped.count("|") >= 2
     )
+
+
+def split_markdown_table_row(line: str) -> List[str]:
+    """Split a pipe table row while preserving escaped pipes."""
+    stripped = line.strip().strip("|")
+    cells: List[str] = []
+    current: List[str] = []
+    escaped = False
+    for char in stripped:
+        if escaped:
+            current.append(char)
+            escaped = False
+        elif char == "\\":
+            escaped = True
+        elif char == "|":
+            cells.append("".join(current).strip())
+            current = []
+        else:
+            current.append(char)
+    if escaped:
+        current.append("\\")
+    cells.append("".join(current).strip())
+    return cells
+
+
+def markdown_link_cell(value: str) -> Tuple[str, Optional[str]]:
+    """Return display text and target for a cell containing one Markdown link."""
+    match = MARKDOWN_LINK_RE.fullmatch(value.strip())
+    if not match:
+        return value, None
+    label, target = match.groups()
+    label = re.sub(r"[`*_]", "", label).strip()
+    return label, target.strip()
+
+
+def table_sort_value(value: str) -> Tuple[int, object]:
+    cleaned = value.strip().replace(",", "")
+    try:
+        return 0, float(cleaned)
+    except ValueError:
+        return 1, value.casefold()
 
 
 def prettify_file_name(rel_path: str) -> str:

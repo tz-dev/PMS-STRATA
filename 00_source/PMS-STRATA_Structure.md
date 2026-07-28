@@ -1,98 +1,101 @@
-PMS-STRATA
-Granularity, Trajectory, Composition, and Cross-Level Functional Projection in PMS
+# PMS-STRATA
 
-Expanded Provisional Table of Contents
-Complete Working Structure
+## Granularity, Trajectory, Composition, and Cross-Level Functional Projection in PMS
 
-FRONT MATTER
+### Expanded Provisional Table of Contents
 
-Preface
+### Complete Working Structure
 
-* Ausgangspunkt der Entwicklung von PMS-STRATA
-* Das bislang implizite Problem vertikaler PMS-Operationen
-* STRATA als Präzisierung, nicht als Erweiterung der Basisgrammatik
-* Verhältnis von theoretischer Ambition und methodischer Begrenzung
-* Status des vorliegenden Textes als interne Spezifikation
+# FRONT MATTER
 
-Status and Scope Note
+## Preface
 
-* PMS Base als alleinige theoretische Grundlage
-* Verwendung der bestehenden Δ–Ψ-Grammatik
-* Keine Einführung neuer Basisoperatoren
-* Keine Erhöhung von Claim-Typ oder Anwendungsautorität
-* Keine ontologische Behauptung realer Schichten
-* Keine universelle Mikro–Meso–Makro-Hierarchie
-* Add-on-Lenses höchstens als optionale Testvektoren
-* Formale und technische Implementierung nicht als Wahrheitsbeweis
+* Starting point of the development of PMS-STRATA
+* The previously implicit problem of vertical PMS operations
+* STRATA as a specification, not an extension, of the base grammar
+* Relationship between theoretical ambition and methodological limitation
+* Status of the present text as an internal specification
 
-Terminology and Notation Note
+## Status and Scope Note
 
-* Verwendung englischer Operationsnamen und technischer Schlüsselbegriffe
-* Verwendung von Δ–Ψ gemäß PMS Base
-* Unterscheidung zwischen Operatorzeichen, Operatornamen und konkreten Vorkommen
-* Vorläufige Notation für Konfigurationen, Ebenen und Granularitäten
-* Status von Formeln als Spezifikationen, nicht als empirische Gesetze
-* Bedeutung der Begriffe source, target, frame, level und granularity
+* PMS Base as the sole theoretical foundation
+* Use of the existing Δ–Ψ grammar
+* No introduction of new base operators
+* No increase in claim type or application authority
+* No ontological assertion of real layers
+* No universal micro–meso–macro hierarchy
+* Add-on lenses at most as optional test vectors
+* Formal and technical implementation not as proof of truth
 
-How to Read PMS-STRATA
+## Terminology and Notation Note
 
-* Foundations als begriffliche und formale Voraussetzung
-* PATH als temporale und kompositorische Aufwärtsbildung
-* SUB als Dekomposition unter feinerer Auflösung
-* RETYPE als kontextuelle Funktionsprojektion
-* LIMITS als durchgängige Zulässigkeits- und Stopdisziplin
-* Lokale Audits innerhalb jedes operativen Parts
-* Verhältnis von Haupttext, Fällen, Gegenfällen und Appendices
+* Use of English operation names and technical keywords
+* Use of Δ–Ψ in accordance with PMS Base
+* Distinction between operator symbols, operator names, and concrete occurrences
+* Provisional notation for configurations, levels, and granularities
+* Status of formulas as specifications, not empirical laws
+* Meaning of the terms source, target, frame, level, and granularity
 
-FOUNDATIONS
-Conceptual and Formal Groundwork
+## How to Read PMS-STRATA
 
-0. Position and Claim Boundary
+* Foundations as the conceptual and formal prerequisite
+* PATH as temporal and compositional upward formation
+* SUB as decomposition under finer resolution
+* RETYPE as contextual functional projection
+* LIMITS as the continuous discipline of admissibility and stop
+* Local audits within each operational Part
+* Relationship between main text, cases, countercases, and appendices
 
-0.1 Why PMS-STRATA?
+# FOUNDATIONS
 
-* PMS rekonstruiert Praxis gewöhnlich innerhalb eines gewählten Frames und einer gewählten Auflösung.
-* Komplexe Rekonstruktionen benötigen jedoch kontrollierte Bewegungen zwischen zeitlichen, kompositorischen und granularen Positionen.
-* Ohne explizite Regeln drohen Ebenenvermischung, Auflösungsdrift und nachträgliche Großtypisierung.
+## Conceptual and Formal Groundwork
 
-0.2 The Missing Vertical Discipline
+# 0. Position and Claim Boundary
 
-* Implizite Komposition in bestehenden PMS-Anwendungen
-* Implizite Dekomposition scheinbar elementarer Strukturen
-* Implizite Funktionswechsel zwischen relativen Ebenen
-* Fehlende gemeinsame Kriterien für Zulässigkeit, Verlust und Stop
-* Risiko, dass analytische Beweglichkeit mit zusätzlicher Autorität verwechselt wird
+## 0.1 Why PMS-STRATA?
 
-0.3 STRATA as a Bounded Transformation Discipline
+* PMS ordinarily reconstructs praxis within a selected frame and at a selected resolution.
+* Complex reconstructions, however, require controlled movement between temporal, compositional, and granular positions.
+* Without explicit rules, level conflation, resolution drift, and retrospective macro-typing become likely.
 
-* STRATA spezifiziert Transformationen zwischen erklärten Analysepositionen.
-* STRATA erzeugt keine eigenen Domänenbefunde.
-* STRATA bewertet keine Personen, Institutionen oder Praktiken.
-* STRATA ist eine Disziplin des Rekonstruierens, nicht des Urteilens.
-* Jede Transformation bleibt claim-typisiert und frame-gebunden.
+## 0.2 The Missing Vertical Discipline
 
-0.4 No Meta-PMS
+* Implicit composition in existing PMS applications
+* Implicit decomposition of apparently elementary structures
+* Implicit functional shifts between relative levels
+* Absence of shared criteria for admissibility, loss, and stop
+* Risk of analytical mobility being mistaken for additional authority
 
-* STRATA steht nicht über PMS Base.
-* STRATA korrigiert oder ersetzt keine Basisoperatoren.
-* STRATA kann keine kanonischen Abhängigkeiten überschreiben.
-* STRATA besitzt keine eigenständige Geltungsquelle.
-* Mehrstufige Rekonstruktion erzeugt keine Meta-Autorität.
+## 0.3 STRATA as a Bounded Transformation Discipline
 
-0.5 No Ontology of Layers
+* STRATA specifies transformations between declared analytical positions.
+* STRATA does not generate domain findings of its own.
+* STRATA does not evaluate persons, institutions, or practices.
+* STRATA is a discipline of reconstruction, not judgment.
+* Every transformation remains claim-typed and frame-bound.
 
-* Relative Ebenen sind analytische Relationen.
-* Granularitäten sind gewählte Auflösungen.
-* Kompositionen sind Rekonstruktionsleistungen.
-* Kein Anspruch auf letzte Bestandteile
-* Kein Anspruch auf objektiv diskrete Schichten der Wirklichkeit
-* Kein Anspruch auf universelle Ebenengrenzen
+## 0.4 No Meta-PMS
 
-0.6 Governing Claim
+* STRATA does not stand above PMS Base.
+* STRATA does not correct or replace any base operator.
+* STRATA cannot override canonical dependencies.
+* STRATA possesses no independent source of validity.
+* Multi-stage reconstruction generates no meta-authority.
+
+## 0.5 No Ontology of Layers
+
+* Relative levels are analytical relations.
+* Granularities are selected resolutions.
+* Compositions are reconstructive achievements.
+* No claim to ultimate constituents
+* No claim to objectively discrete layers of reality
+* No claim to universal level boundaries
+
+## 0.6 Governing Claim
 
 PMS-STRATA specifies how praxis structures may be composed, decomposed, and functionally projected across declared granularities and relative levels—while preserving source traceability, origin-type integrity, transformation loss, claim boundaries, stop, and non-capture. It does not turn analytical recursion into ontological totality, greater authority, or immunity from failure.
 
-0.7 Initial Claim Boundary
+## 0.7 Initial Claim Boundary
 
 PMS-STRATA is not:
 
@@ -107,73 +110,74 @@ PMS-STRATA is not:
 * a mechanism for dissolving counterexamples
 * a source of additional application authority
 
-1. Object Model:
-   Operator Type, Operator Occurrence, and Composite Structure
+# 1. Object Model:
 
-1.1 Why an Object Model Is Required
+## Operator Type, Operator Occurrence, and Composite Structure
 
-* STRATA-Operationen können nur kontrolliert werden, wenn ihr Ausgangsobjekt klar bestimmt ist.
-* Die bloße Nennung eines Operators reicht nicht aus.
-* Ein Operatorzeichen darf nicht mit einem konkreten Fall seiner Anwendung verwechselt werden.
-* Komposite benötigen andere Transformationsregeln als einzelne Vorkommen.
+## 1.1 Why an Object Model Is Required
 
-1.2 Operator Type
+* STRATA operations can be controlled only if their source object is clearly determined.
+* Merely naming an operator is insufficient.
+* An operator symbol must not be confused with a concrete case of its application.
+* Composites require different transformation rules than individual occurrences.
 
-* Kanonische Funktion innerhalb der Δ–Ψ-Grammatik
-* Abstrakter Typ, nicht empirisches Objekt
-* Durch PMS Base definierte Abhängigkeiten
-* Keine interne Dekomposition des Operator-Typs durch STRATA
-* Beispiele: Frame-Typ, Attractor-Typ, Asymmetry-Typ
+## 1.2 Operator Type
 
-1.3 Operator Occurrence
+* Canonical function within the Δ–Ψ grammar
+* Abstract type, not empirical object
+* Dependencies defined by PMS Base
+* No internal decomposition of the operator type by STRATA
+* Examples: Frame type, Attractor type, Asymmetry type
 
-* Konkrete, frame- und quellengebundene Struktur
-* Analytische Typisierung eines beobachteten oder rekonstruierten Vorkommens
-* Lokale Geltung innerhalb einer bestimmten Rekonstruktion
-* Möglichkeit konkurrierender Typisierungen
-* Revidierbarkeit ohne Änderung des Basisoperators
+## 1.3 Operator Occurrence
 
-1.4 Composite Structure
+* Concrete, frame-bound, and source-bound structure
+* Analytical typing of an observed or reconstructed occurrence
+* Local validity within a specific reconstruction
+* Possibility of competing typings
+* Revisability without modification of the base operator
 
-* Zusammensetzung mehrerer Vorkommen, Relationen, Ereignisse oder Übergänge
-* Möglichkeit interner zeitlicher Ordnung
-* Möglichkeit verteilter Operatorgewichtung
-* Möglichkeit mehrerer gleichzeitig tragender Funktionen
-* Keine automatische Reduktion auf einen dominanten Operator
+## 1.4 Composite Structure
 
-1.5 Configuration
+* Composition of multiple occurrences, relations, events, or transitions
+* Possibility of internal temporal order
+* Possibility of distributed operator weighting
+* Possibility of several simultaneously carrying functions
+* No automatic reduction to one dominant operator
 
-* Zeitlich lokalisierte, operatorisch strukturierte Konstellation
-* Enthält positive Ereignisse und relevante Nicht-Ereignisse
-* Enthält Rollen, Frames, Asymmetrien, Bindungen und Handlungsmöglichkeiten
-* Ist keine vollständige Weltbeschreibung
-* Wird relativ zu einem Analyseframe gebildet
+## 1.5 Configuration
 
-1.6 Event-Like Object
+* Temporally located, operator-structured constellation
+* Contains positive events and relevant non-events
+* Contains roles, frames, asymmetries, bindings, and possibilities for action
+* Is not a complete description of the world
+* Is formed relative to an analytical frame
 
-* Positiv markierter Strukturwandel innerhalb eines Frames
-* Kann punktuell oder zeitlich ausgedehnt sein
-* Kann intern zusammengesetzt sein
-* Ist nicht notwendig kausal isolierbar
-* Kann auf höherer Ebene komprimiert werden
+## 1.6 Event-Like Object
 
-1.7 Non-Event Structure
+* Positively marked structural change within a frame
+* May be punctual or temporally extended
+* May be internally composite
+* Is not necessarily causally isolable
+* May be compressed at a higher level
 
-* Erwartete, aber ausbleibende Struktur innerhalb eines Frames
-* Nicht bloße Abwesenheit
-* Kann Pfade und Kosten aktiv strukturieren
-* Kann intern aus Verzögerungen, Blockaden und wiederholter Nicht-Entscheidung bestehen
-* Darf durch Dekomposition nicht in bloße positive Ereignisse aufgelöst werden
+## 1.7 Non-Event Structure
 
-1.8 Transition
+* Expected but absent structure within a frame
+* Not mere absence
+* May actively structure paths and costs
+* May internally consist of delays, blockages, and repeated non-decision
+* Must not be dissolved into merely positive events through decomposition
 
-* Strukturierter Übergang zwischen Konfigurationen
-* Umfasst mehr als die Differenz zweier Zustände
-* Bezieht Ereignisse, Nicht-Ereignisse und Reihenfolge ein
-* Kann Handlungskorridore öffnen oder schließen
-* Kann Asymmetrien, Bindungen und Attraktoren verändern
+## 1.8 Transition
 
-1.9 Derived Analytical Objects
+* Structured transition between configurations
+* Encompasses more than the difference between two states
+* Includes events, non-events, and order
+* May open or close action corridors
+* May alter asymmetries, bindings, and attractors
+
+## 1.9 Derived Analytical Objects
 
 * Path
 * Trajectory
@@ -183,19 +187,20 @@ PMS-STRATA is not:
 * Modulating profile
 * Higher-level composite function
 
-Diese Objekte sind keine neuen Basisoperatoren. Sie entstehen durch deklarierte STRATA-Operationen.
+These objects are not new base operators. They arise through declared STRATA operations.
 
-1.10 Object Identity across Transformation
+## 1.10 Object Identity across Transformation
 
-* Referenzidentität
-* Ursprungstyp
-* interne konstitutive Relationen
-* funktionale Kontinuität
-* historische Kontinuität
-* Grenzen legitimer Identitätsbehauptung
+* Reference identity
+* Origin type
+* Internal constitutive relations
+* Functional continuity
+* Historical continuity
+* Limits of legitimate identity claims
 
-1.11 Foundational Object Distinctions
+## 1.11 Foundational Object Distinctions
 
+```text
 operator type
 ≠
 operator occurrence
@@ -223,109 +228,111 @@ trajectory
 derived analytical object
 ≠
 new PMS primitive
+```
 
-2. Frame, Granularity, and Relative Level
+# 2. Frame, Granularity, and Relative Level
 
-2.1 Why These Terms Must Be Separated
+## 2.1 Why These Terms Must Be Separated
 
-* Frühere Ebenensprache kann Frame, Auflösung und Position vermischen.
-* Ein Framewechsel ist nicht automatisch ein Granularitätswechsel.
-* Eine feinere Granularität ist nicht automatisch eine tiefere Ebene.
-* Dieselbe Struktur kann in verschiedenen Relationen unterschiedliche Ebenenpositionen einnehmen.
+* Earlier level language may conflate frame, resolution, and position.
+* A frame change is not automatically a granularity change.
+* Finer granularity is not automatically a deeper level.
+* The same structure may occupy different level positions in different relations.
 
-2.2 Frame
+## 2.2 Frame
 
-* Kontextuelle Grenze einer Rekonstruktion
-* Legt Relevanz, Gegenstand und Binnen/Außen-Unterscheidung fest
-* Kann zeitlich, institutionell, relational oder funktional bestimmt sein
-* Bestimmt, welche Nicht-Ereignisse als relevant lesbar werden
-* Begrenzt den zulässigen Claim
+* Contextual boundary of a reconstruction
+* Determines relevance, object, and the inside/outside distinction
+* May be temporally, institutionally, relationally, or functionally specified
+* Determines which non-events become legible as relevant
+* Limits the admissible claim
 
-2.3 Granularity
+## 2.3 Granularity
 
-* Auflösung der verwendeten Unterscheidungen
-* Dichte und Feinheit der rekonstruierten Struktur
-* Keine Maßeinheit für Wahrheit
-* Kann innerhalb desselben Frames verändert werden
-* Muss durch zusätzlichen praxeologischen Gewinn begründet werden
+* Resolution of the distinctions being used
+* Density and fineness of the reconstructed structure
+* Not a measure of truth
+* May be changed within the same frame
+* Must be justified by additional praxeological gain
 
-2.4 Relative Level
+## 2.4 Relative Level
 
-* Position eines Objekts innerhalb einer erklärten Kompositionsrelation
-* Keine absolute Größe
-* Nur relativ zu source object, target object und transformation context bestimmbar
-* Ein Gespräch kann zugleich Mikro- und Makroposition einnehmen, abhängig vom Vergleichsobjekt
-* Ebenenbezeichnungen müssen lokal deklariert werden
+* Position of an object within a declared compositional relation
+* Not an absolute magnitude
+* Determinable only relative to source object, target object, and transformation context
+* A conversation may occupy both a micro- and macro-position, depending on the comparison object
+* Level designations must be declared locally
 
-2.5 Micro, Meso, and Macro
+## 2.5 Micro, Meso, and Macro
 
-* Optionale relationale Kurzbegriffe
-* Keine festen Klassen
-* Keine universellen Größenordnungen
-* Keine ontologischen Schichten
-* Nur bei expliziter Referenzrelation zulässig
+* Optional relational shorthand
+* No fixed classes
+* No universal orders of magnitude
+* No ontological layers
+* Admissible only under an explicit reference relation
 
-2.6 Temporal Scope
+## 2.6 Temporal Scope
 
-* Zeitlicher Ausschnitt der Rekonstruktion
-* Beginn und Ende der betrachteten Struktur
-* Relevante Vorbedingungen
-* Relevante Nachwirkungen
-* Umgang mit offenen Enden
+* Temporal segment of the reconstruction
+* Beginning and end of the structure under consideration
+* Relevant preconditions
+* Relevant aftereffects
+* Treatment of open endings
 
-2.7 Source Scope
+## 2.7 Source Scope
 
-* Welche Materialien tragen die Rekonstruktion?
-* Welche Strukturen sind tatsächlich zugänglich?
-* Welche internen Differenzierungen werden durch Quellen gestützt?
-* Wo beginnt spekulative Ergänzung?
-* Welche Lücken bleiben offen?
+* Which materials support the reconstruction?
+* Which structures are actually accessible?
+* Which internal differentiations are supported by sources?
+* Where does speculative supplementation begin?
+* Which gaps remain open?
 
-2.8 Claim Scope
+## 2.8 Claim Scope
 
-* Worüber darf die Transformation eine Aussage machen?
-* Welche Reichweite besitzt die Aussage?
-* Gilt sie für ein Objekt, einen Pfad, einen Typ oder ein wiederkehrendes Muster?
-* Welche Generalisierung ist nicht gedeckt?
-* Welche Ebene darf keine Autorität erben?
+* What may the transformation make a statement about?
+* What reach does the statement possess?
+* Does it apply to an object, a path, a type, or a recurring pattern?
+* Which generalization is not supported?
+* Which level may not inherit authority?
 
-2.9 Stable Frame, Changed Granularity
+## 2.9 Stable Frame, Changed Granularity
 
-* Derselbe Gegenstand bleibt bestehen.
-* Die Menge der Unterscheidungen wird verändert.
-* Relevanz und Claim Boundary bleiben kontrolliert.
-* Typischer SUB-Fall
+* The same object remains in place.
+* The set of distinctions is changed.
+* Relevance and claim boundary remain controlled.
+* Typical SUB case
 
-2.10 Changed Frame, Stable Granularity
+## 2.10 Changed Frame, Stable Granularity
 
-* Derselbe Auflösungsgrad wird auf einen anderen Kontext angewandt.
-* Keine notwendige vertikale Bewegung
-* Möglicher Recontextualization-Fall
-* Noch keine RETYPE-Operation ohne neue Zielfunktion
+* The same degree of resolution is applied to another context.
+* No necessary vertical movement
+* Possible recontextualization case
+* Not yet a RETYPE operation without a new target function
 
-2.11 Changed Relative Level
+## 2.11 Changed Relative Level
 
-* Ein Objekt wird als Teil, Komposit oder kontextuelle Funktion eines anderen Objekts gelesen.
-* Erfordert deklarierte Transformationsrelation
-* Kann durch COMPOSE, DECOMPOSE oder PROJECT_AS erfolgen
-* Darf nicht nur metaphorisch behauptet werden
+* An object is read as a part, composite, or contextual function of another object.
+* Requires a declared transformation relation
+* May occur through COMPOSE, DECOMPOSE, or PROJECT_AS
+* Must not be asserted merely metaphorically
 
-2.12 Multiple Valid Granularities
+## 2.12 Multiple Valid Granularities
 
-* Mehrere Auflösungen können gleichzeitig legitim sein.
-* Feinere und gröbere Rekonstruktionen können unterschiedliche Funktionen erfüllen.
-* Keine notwendige Reduktion auf eine privilegierte Ebene
-* Vergleich anhand praxeologischer Leistung und Verlust
+* Several resolutions may be legitimate simultaneously.
+* Finer and coarser reconstructions may fulfil different functions.
+* No necessary reduction to one privileged level
+* Comparison by praxeological performance and loss
 
-2.13 Granularity Conflict
+## 2.13 Granularity Conflict
 
-* Unterschiedliche Rekonstruktionen wählen verschiedene Auflösungen.
-* Scheinbarer Widerspruch kann aus nicht vergleichbaren Granularitäten entstehen.
-* Granularitätsunterschiede dürfen echte inhaltliche Konflikte nicht automatisch neutralisieren.
-* Vergleichbarkeit muss begründet werden.
+* Different reconstructions select different resolutions.
+* Apparent contradiction may arise from non-comparable granularities.
+* Granularity differences must not automatically neutralize genuine substantive conflicts.
+* Comparability must be justified.
 
-2.14 Minimal Level Declaration
+## 2.14 Minimal Level Declaration
 
+```yaml
 reference_object:
 frame:
 source_granularity:
@@ -335,152 +342,157 @@ target_level:
 granularity_relation:
 temporal_scope:
 claim_scope:
+```
 
-3. Configuration, Event, Non-Event, Transition, Path, and Trajectory
+# 3. Configuration, Event, Non-Event, Transition, Path, and Trajectory
 
-3.1 Configuration
+## 3.1 Configuration
 
-* Strukturzustand zu einem analytisch gesetzten Zeitpunkt oder Zeitraum
-* Keine statische Ontologie
-* Enthält operatorisch relevante Relationen
-* Kann intern dynamisch sein
-* Dient als Bezugspunkt für Übergänge
+* Structural state at an analytically selected point or period in time
+* No static ontology
+* Contains operator-relevant relations
+* May be internally dynamic
+* Serves as a reference point for transitions
 
-3.2 State and Configuration
+## 3.2 State and Configuration
 
-* State als formale Kurzbezeichnung
-* Configuration als reichere praxeologische Rekonstruktion
-* Ein Zustand kann unzureichend sein, wenn Reihenfolge und Nicht-Ereignisse relevant sind.
-* STRATA bevorzugt Konfiguration, wo strukturelle Dichte erforderlich ist.
+* State as formal shorthand
+* Configuration as the richer praxeological reconstruction
+* A state may be insufficient where order and non-events are relevant.
+* STRATA prefers configuration where structural density is required.
 
-3.3 Event
+## 3.3 Event
 
-* Positiv eingetretene relevante Veränderung
-* Frame-gebundene Identifikation
-* Punktuell oder ausgedehnt
-* Potenziell dekomponierbar
-* Nicht automatisch alleiniger Träger eines Übergangs
+* Positively occurring relevant change
+* Frame-bound identification
+* Punctual or extended
+* Potentially decomposable
+* Not automatically the sole carrier of a transition
 
-3.4 Non-Event
+## 3.4 Non-Event
 
-* Strukturierte Nicht-Realisierung einer erwartbaren Veränderung
-* Abhängigkeit von Frame und Erwartung
-* Möglichkeit kumulativer Wirkung
-* Möglichkeit trajektorieller Zentralität
-* Keine Gleichsetzung mit fehlender Information
+* Structured non-realization of an expectable change
+* Dependent on frame and expectation
+* Possibility of cumulative effect
+* Possibility of trajectory-level centrality
+* Not equivalent to missing information
 
-3.5 Transition
+## 3.5 Transition
 
-* Relation zwischen mindestens zwei Konfigurationen
-* Berücksichtigt zeitliche Ordnung
-* Berücksichtigt Ereignis und Nicht-Ereignis
-* Berücksichtigt veränderte Handlungskorridore
-* Berücksichtigt Kosten- und Asymmetrieverschiebungen
+* Relation between at least two configurations
+* Takes temporal order into account
+* Takes event and non-event into account
+* Takes changed action corridors into account
+* Takes shifts in costs and asymmetries into account
 
-3.6 Sequence
+## 3.6 Sequence
 
-* Zeitlich geordnete Reihe
-* Noch kein Pfad im starken Sinn
-* Kann bloße Chronologie bleiben
-* Benötigt keine starke strukturelle Verbindung
-* Ausgangspunkt möglicher PATH-Bildung
+* Temporally ordered series
+* Not yet a path in the strong sense
+* May remain mere chronology
+* Requires no strong structural connection
+* Starting point for possible PATH formation
 
-3.7 Path
+## 3.7 Path
 
-* Tatsächlich durchlaufene Folge relevanter Konfigurationen und Übergänge
-* Selektive Rekonstruktion
-* Enthält realisierte und gegebenenfalls verworfene Alternativen
-* Muss nicht stark pfadabhängig sein
-* Kann mehrere Skalen umfassen, sofern diese deklariert sind
+* Actually traversed sequence of relevant configurations and transitions
+* Selective reconstruction
+* Contains realized and, where relevant, rejected alternatives
+* Need not be strongly path-dependent
+* May encompass several scales, provided they are declared
 
-3.8 Trajectory
+## 3.8 Trajectory
 
-* Zeitlich geordnete und historisch sedimentierte Entwicklung
-* Enthält mehr als die bloße Ereignisfolge
-* Bezieht Attraktoren, Asymmetrien, Residuen und Bindungen ein
-* Bezieht veränderte Fortsetzungsmöglichkeiten ein
-* Besitzt keine notwendige teleologische Richtung
+* Temporally ordered and historically sedimented development
+* Contains more than a mere sequence of events
+* Includes attractors, asymmetries, residues, and bindings
+* Includes changed possibilities for continuation
+* Has no necessary teleological direction
 
-3.9 Path Dependence
+## 3.9 Path Dependence
 
-* Gegenwärtige Struktur ist aus dem aktuellen Zustand allein nicht hinreichend bestimmbar.
-* Vorherige Reihenfolge verändert Bedeutung, Kosten oder Erreichbarkeit.
-* Historische Entwicklung bleibt strukturell wirksam.
-* Nicht jede Trajektorie ist stark pfadabhängig.
-* Nicht jede Reihenfolgeabhängigkeit erzeugt Sedimentation.
+* Present structure cannot be adequately determined from the current state alone.
+* Prior order changes meaning, costs, or reachability.
+* Historical development remains structurally active.
+* Not every trajectory is strongly path-dependent.
+* Not every order dependence generates sedimentation.
 
-3.10 Sedimentation
+## 3.10 Sedimentation
 
-* Wiederholung stabilisiert Attraktoren.
-* Zeit akkumuliert Asymmetrien.
-* Bindungen werden über Zeit tragend oder kostspielig.
-* Nicht-Ereignisse schließen Alternativen oder halten Residuen offen.
-* Sedimentation ist keine Metapher für bloße Dauer.
+* Repetition stabilizes attractors.
+* Time accumulates asymmetries.
+* Bindings become carrying or costly over time.
+* Non-events close alternatives or keep residues open.
+* Sedimentation is not a metaphor for mere duration.
 
-3.11 Irreversibility
+## 3.11 Irreversibility
 
-* Spätere Recontextualization löscht frühere Folgen nicht.
-* Exit ist nicht Rückkehr zum Ausgangszustand.
-* Komposition darf zeitliche Kosten nicht neutralisieren.
-* Irreversibilität ist frame- und claim-gebunden zu bestimmen.
-* Kein metaphysischer Anspruch auf absolute Unumkehrbarkeit
+* Later recontextualization does not erase earlier consequences.
+* Exit is not a return to the initial state.
+* Composition must not neutralize temporal costs.
+* Irreversibility must be determined in a frame-bound and claim-bound manner.
+* No metaphysical claim of absolute irreversibility
 
-3.12 Unrealized Alternatives
+## 3.12 Unrealized Alternatives
 
-* Nicht gewählte Pfade
-* blockierte Übergänge
-* verspätete Möglichkeiten
-* verworfene Fortsetzungen
-* nachträglich unerreichbare Alternativen
-* Λ-Strukturen innerhalb des Pfadraums
+* Paths not selected
+* Blocked transitions
+* Delayed possibilities
+* Rejected continuations
+* Alternatives rendered unreachable in retrospect
+* Λ-structures within the path space
 
-3.13 Minimal Temporal Object Chain
+## 3.13 Minimal Temporal Object Chain
 
+```text
 configuration
 → transition
 → sequence
 → path
 → trajectory
+```
 
-Diese Reihe ist keine automatische Ableitung. Jeder Schritt benötigt zusätzliche Struktur und Begründung.
+This series is not an automatic derivation. Every step requires additional structure and justification.
 
-4. The Three STRATA Operations:
-   COMPOSE, DECOMPOSE, and PROJECT_AS
+# 4. The Three STRATA Operations:
 
-4.1 Why Operations Must Be Explicit
+## COMPOSE, DECOMPOSE, and PROJECT_AS
 
-* Vertikale Bewegung darf nicht durch bloße Sprache erfolgen.
-* Jede Transformation braucht Ausgangsobjekt, Zielobjekt und Kontext.
-* Jede Operation verändert Sichtbarkeit und Informationsverteilung.
-* Jede Operation besitzt eigene Fehlerformen.
-* Operationsketten müssen typisiert werden.
+## 4.1 Why Operations Must Be Explicit
 
-4.2 COMPOSE
+* Vertical movement must not occur through language alone.
+* Every transformation requires a source object, target object, and context.
+* Every operation changes visibility and information distribution.
+* Every operation has its own failure modes.
+* Operation chains must be typed.
 
-* Mehrere zeitlich oder strukturell geordnete Elemente werden zu einem Komposit zusammengefasst.
-* Ziel kann ein Pfad, eine Trajektorie oder ein anderes höheres Analyseobjekt sein.
-* Auswahl, Reihenfolge und Kompressionsverlust müssen ausgewiesen werden.
-* Keine verlustfreie Addition
-* Schwerpunkt von PATH
+## 4.2 COMPOSE
 
-4.3 DECOMPOSE
+* Several temporally or structurally ordered elements are combined into a composite.
+* The target may be a path, a trajectory, or another higher analytical object.
+* Selection, order, and compression loss must be disclosed.
+* No lossless addition
+* Primary focus of PATH
 
-* Ein vorläufig komprimiertes Objekt wird unter feinerer Auflösung rekonstruiert.
-* Der Operator-Typ selbst wird nicht zerlegt.
-* Dekomponiert werden konkrete Vorkommen und Komposite.
-* Die gröbere Funktion muss rekonstruierbar bleiben.
-* Schwerpunkt von SUB
+## 4.3 DECOMPOSE
 
-4.4 PROJECT_AS
+* A provisionally compressed object is reconstructed at a finer resolution.
+* The operator type itself is not decomposed.
+* Concrete occurrences and composites are decomposed.
+* The coarser function must remain reconstructable.
+* Primary focus of SUB
 
-* Ein Objekt behält seinen Ursprungstyp.
-* In einem deklarierten Zielkontext übernimmt es eine begrenzte Funktion.
-* Die Zielfunktion muss auf tragende Ausgangsstrukturen zurückgeführt werden.
-* Keine vollständige Umtypisierung
-* Schwerpunkt von RETYPE
+## 4.4 PROJECT_AS
 
-4.5 Transformation Direction
+* An object retains its origin type.
+* Within a declared target context, it assumes a bounded function.
+* The target function must be traced back to carrying source structures.
+* No complete retyping
+* Primary focus of RETYPE
 
+## 4.5 Transformation Direction
+
+```text
 COMPOSE:
 many / sequential
 →
@@ -495,28 +507,30 @@ PROJECT_AS:
 origin-typed object
 →
 contextual target function
+```
 
-4.6 Operation and Level Relation
+## 4.6 Operation and Level Relation
 
-* COMPOSE bewegt sich häufig relativ aufwärts.
-* DECOMPOSE bewegt sich häufig relativ abwärts.
-* PROJECT_AS verändert primär die kontextuelle Funktion.
-* Keine Richtung ist ontologisch.
-* Operationsrichtung und Geltungsrichtung sind zu trennen.
+* COMPOSE often moves relatively upward.
+* DECOMPOSE often moves relatively downward.
+* PROJECT_AS primarily changes contextual function.
+* No direction is ontological.
+* Operation direction and direction of validity must be distinguished.
 
-4.7 Operation Chains
+## 4.7 Operation Chains
 
 * COMPOSE → PROJECT_AS
 * COMPOSE → DECOMPOSE
 * DECOMPOSE → COMPOSE
 * DECOMPOSE → PROJECT_AS
 * PROJECT_AS → DECOMPOSE
-* wiederholte Operationsketten
+* Repeated operation chains
 
-Jede Kette benötigt eine eigene Verlust- und Typprüfung.
+Each chain requires its own loss and type test.
 
-4.8 Non-Invertibility
+## 4.8 Non-Invertibility
 
+```text
 DECOMPOSE(COMPOSE(X))
 ≠
 X
@@ -528,19 +542,21 @@ X
 PROJECT_AS(X)
 ≠
 X as a new origin type
+```
 
-Die Operationen sind weder symmetrisch noch verlustfrei umkehrbar.
+The operations are neither symmetrical nor losslessly reversible.
 
-4.9 Operation Confusion
+## 4.9 Operation Confusion
 
-* Chronologische Aufzählung wird als COMPOSE ausgegeben.
-* Bloße Beschreibung wird als DECOMPOSE ausgegeben.
-* Neue Benennung wird als PROJECT_AS ausgegeben.
-* Recontextualization wird mit Funktionsprojektion verwechselt.
-* Framewechsel wird mit Ebenenwechsel verwechselt.
+* A chronological enumeration is presented as COMPOSE.
+* Mere description is presented as DECOMPOSE.
+* Renaming is presented as PROJECT_AS.
+* Recontextualization is confused with functional projection.
+* Frame change is confused with level change.
 
-4.10 Operation Declaration
+## 4.10 Operation Declaration
 
+```yaml
 operation:
 kind:
 source_object:
@@ -554,171 +570,174 @@ target_frame:
 target_granularity:
 target_level:
 justification:
+```
 
-5. Origin Type, Target Function, and Transformation Context
+# 5. Origin Type, Target Function, and Transformation Context
 
-5.1 Origin Type
+## 5.1 Origin Type
 
-* Analytischer Typ des Ausgangsobjekts
-* Bleibt durch PROJECT_AS erhalten
-* Darf durch COMPOSE oder DECOMPOSE nicht rückwirkend verändert werden
-* Ist von der konkreten Funktion im Zielkontext zu unterscheiden
+* Analytical type of the source object
+* Remains preserved through PROJECT_AS
+* Must not be changed retroactively through COMPOSE or DECOMPOSE
+* Must be distinguished from the concrete function in the target context
 
-5.2 Target Function
+## 5.2 Target Function
 
-* Begrenzte Funktion eines Objekts innerhalb eines anderen Kontexts
-* Keine neue Basisprimitive
-* Keine ontologische Identität
-* Keine automatische Dauerhaftigkeit
-* Muss lokal und relational bestimmt werden
+* Bounded function of an object within another context
+* No new base primitive
+* No ontological identity
+* No automatic permanence
+* Must be determined locally and relationally
 
-5.3 Transformation Context
+## 5.3 Transformation Context
 
-* Kontext, innerhalb dessen die Transformation analytische Leistung besitzt
-* Bestimmt die Zielfunktion
-* Bestimmt die Geltungsdauer
-* Bestimmt die relevanten Quellen
-* Bestimmt die Claim Boundary
+* Context within which the transformation has analytical purchase
+* Determines the target function
+* Determines the duration of validity
+* Determines the relevant sources
+* Determines the claim boundary
 
-5.4 Reference Identity
+## 5.4 Reference Identity
 
-* Bezieht sich die Transformation weiterhin auf denselben historischen Prozess?
-* Ist das Ausgangsobjekt noch identifizierbar?
-* Bleiben konstitutive Relationen erhalten?
-* Wird Identität nur rhetorisch behauptet?
+* Does the transformation continue to refer to the same historical process?
+* Is the source object still identifiable?
+* Are constitutive relations preserved?
+* Is identity merely asserted rhetorically?
 
-5.5 Type Integrity
+## 5.5 Type Integrity
 
-* Ursprungstyp bleibt sichtbar.
-* Zielfunktion wird getrennt deklariert.
-* Keine rückwirkende Typüberschreibung
-* Keine Vermischung von Ebenen
-* Keine neue Primitive aus einer Projektion
+* Origin type remains visible.
+* Target function is declared separately.
+* No retroactive type override
+* No level conflation
+* No new primitive produced from a projection
 
-5.6 Functional Continuity
+## 5.6 Functional Continuity
 
-* Die Zielfunktion wird durch konkrete Ausgangsmerkmale getragen.
-* Relevante Änderungen der Quelle verändern die Zielfunktion.
-* Die Funktion bleibt an einen Kontext gebunden.
-* Die Funktion darf nicht beliebig elastisch sein.
+* The target function is carried by concrete source features.
+* Relevant changes to the source alter the target function.
+* The function remains bound to a context.
+* The function must not be arbitrarily elastic.
 
-5.7 Temporal Continuity
+## 5.7 Temporal Continuity
 
-* Historische Reihenfolge bleibt rekonstruierbar.
-* Spätere Funktionen löschen frühere Pfade nicht.
-* Makro-Kompression darf Dauer und Heterogenität nicht punktualisieren.
-* Trajektorien dürfen nicht als zeitlose Eigenschaften behandelt werden.
+* Historical order remains reconstructable.
+* Later functions do not erase earlier paths.
+* Macro-compression must not punctualize duration and heterogeneity.
+* Trajectories must not be treated as timeless properties.
 
-5.8 Contextual Boundedness
+## 5.8 Contextual Boundedness
 
-* Geltung nur im deklarierten Zielkontext
-* Keine automatische Übertragung auf andere Szenen
-* Keine unbegrenzte Funktionsvererbung
-* Keine Autoritätsvererbung
-* Möglichkeit späterer Revidierung
+* Validity only within the declared target context
+* No automatic transfer to other scenes
+* No unlimited functional inheritance
+* No authority inheritance
+* Possibility of later revision
 
-5.9 Minimal Projection Form
+## 5.9 Minimal Projection Form
 
+```yaml
 source:
-object: X
-origin_type: T_o
-source_level: g
+  object: X
+  origin_type: T_o
+  source_level: g
 
 projection:
-operation: PROJECT_AS
-target_context: C_t
-target_level: g'
-target_function: F_t
+  operation: PROJECT_AS
+  target_context: C_t
+  target_level: g'
+  target_function: F_t
 
 constraints:
-origin_type_preserved: true
-target_function_bounded: true
-source_trace_required: true
+  origin_type_preserved: true
+  target_function_bounded: true
+  source_trace_required: true
+```
 
-6. The STRATA Admissibility Band
+# 6. The STRATA Admissibility Band
 
-6.1 Why STRATA Requires an Operating Range
+## 6.1 Why STRATA Requires an Operating Range
 
-* Unbegrenzte Auflösung erzeugt nicht unbegrenzt bessere Rekonstruktion.
-* Unbegrenzte Komposition erzeugt nicht unbegrenzt tragfähige Makrostrukturen.
-* Flexible Projektion kann in reine Labelproduktion kippen.
-* STRATA benötigt deshalb eine untere und eine obere Zulässigkeitsgrenze.
+* Unlimited resolution does not generate unlimited improvement in reconstruction.
+* Unlimited composition does not generate indefinitely supportable macro-structures.
+* Flexible projection can collapse into mere label production.
+* STRATA therefore requires a lower and an upper admissibility boundary.
 
-6.2 Praxeological Relevance Floor
+## 6.2 Praxeological Relevance Floor
 
-* Untere Grenze produktiver Differenzierung
-* Zusätzliche Unterscheidung muss eine praxeologisch relevante Rekonstruktion verändern.
-* Relevanz ist nicht mit Änderbarkeit oder Handlungsanweisung gleichzusetzen.
-* Auch irreversible oder nicht steuerbare Strukturen können praxeologisch relevant sein.
+* Lower boundary of productive differentiation
+* An additional distinction must change a praxeologically relevant reconstruction.
+* Relevance is not equivalent to changeability or action instruction.
+* Irreversible or uncontrollable structures may also be praxeologically relevant.
 
-6.3 Praxis-Relevant Dimensions
+## 6.3 Praxis-Relevant Dimensions
 
-Eine zusätzliche Unterscheidung kann relevant sein, wenn sie mindestens einen begründeten Unterschied erzeugt hinsichtlich:
+An additional distinction may be relevant if it produces at least one justified difference regarding:
 
-* verfügbarer oder geschlossener Handlungskorridore
-* Kostenverteilung
-* Exposition und Risiko
-* Rollen und Asymmetrien
-* Bindungen und Verpflichtungsstrukturen
-* Erwartungen und Nicht-Ereignissen
-* zeitlicher Reihenfolge
-* Verzögerung und Irreversibilität
+* Available or closed action corridors
+* Distribution of costs
+* Exposure and risk
+* Roles and asymmetries
+* Bindings and structures of obligation
+* Expectations and non-events
+* Temporal order
+* Delay and irreversibility
 * Recontextualization
-* Integrations- und Stopbedingungen
+* Conditions of integration and stop
 
-6.4 Distinction without Praxeological Purchase
+## 6.4 Distinction without Praxeological Purchase
 
-Eine feinere Unterscheidung liegt unterhalb des Relevance Floor, wenn sie:
+A finer distinction lies below the relevance floor if it:
 
-* lediglich mehr Details erzeugt,
-* keine tragende Rekonstruktion verändert,
-* keine zusätzliche Diskriminationsleistung besitzt,
-* keine relevante Alternative eröffnet oder schließt,
-* keine bestehende Typisierung belastet,
-* und keinen Verlust der gröberen Rekonstruktion sichtbar macht.
-
-Canonical formulation:
-
-For STRATA, a distinction below praxeological relevance is not an additional praxis finding. It is resolution without praxeological purchase.
-
-6.5 Praxeological Traceability Ceiling
-
-* Obere Grenze zulässiger Komposition, Dekomposition und Projektion
-* Zielaussagen müssen auf tragende Ausgangsstrukturen zurückführbar bleiben.
-* Der Ausgangspfad oder das Ausgangskomposit muss rekonstruierbar bleiben.
-* Ein höheres Label genügt nicht als Begründung.
-
-6.6 Traceable Load
-
-Ein Transformationsresultat besitzt traceable load, wenn:
-
-* seine konstitutiven Ausgangselemente identifizierbar sind,
-* seine relevanten Relationen erhalten bleiben,
-* sein zeitlicher Aufbau rekonstruierbar ist,
-* seine Kosten- und Asymmetriestruktur nicht verschwindet,
-* und das Transformationsresultat auf konkrete Ausgangsmerkmale reagiert.
-
-6.7 Abstraction without Traceable Load
-
-Die obere Grenze wird überschritten, wenn:
-
-* ein Großlabel unabhängig von der Ausgangsstruktur gleich bleibt,
-* relevante Quelländerungen keine Auswirkung auf das Transformationsresultat haben,
-* Kompression Heterogenität vollständig verdeckt,
-* Ursprungstyp und historische Referenz nicht mehr rekonstruierbar sind,
-* oder das Transformationsresultat nur noch metaphorisch an die Quelle gebunden ist.
+* Merely generates more detail
+* Changes no carrying reconstruction
+* Possesses no additional discriminatory performance
+* Opens or closes no relevant alternative
+* Places no existing typing under pressure
+* Reveals no loss in the coarser reconstruction
 
 Canonical formulation:
 
-A composition, decomposition, or projection above praxeological traceability does not carry warranted higher- or finer-level structure. It is abstraction or fragmentation without traceable load.
+> For STRATA, a distinction below praxeological relevance is not an additional praxis finding. It is resolution without praxeological purchase.
 
-6.8 Counterfactual Sensitivity
+## 6.5 Praxeological Traceability Ceiling
 
-Zentrale Frage:
+* Upper boundary of admissible composition, decomposition, and projection
+* Target statements must remain traceable to carrying source structures.
+* The source path or source composite must remain reconstructable.
+* A higher-level label is insufficient as justification.
 
-Would a relevant change in the source structure alter the composed object or projected function?
+## 6.6 Traceable Load
 
-Mögliche Ergebnisse:
+A transformation result possesses traceable load if:
+
+* Its constitutive source elements are identifiable
+* Its relevant relations remain preserved
+* Its temporal formation remains reconstructable
+* Its cost and asymmetry structure does not disappear
+* The transformation result responds to concrete source features
+
+## 6.7 Abstraction without Traceable Load
+
+The upper boundary is exceeded if:
+
+* A macro-label remains unchanged independently of the source structure
+* Relevant source changes have no effect on the transformation result
+* Compression fully conceals heterogeneity
+* Origin type and historical reference are no longer reconstructable
+* The transformation result is connected to the source only metaphorically
+
+Canonical formulation:
+
+> A composition, decomposition, or projection above praxeological traceability does not carry warranted higher- or finer-level structure. It is abstraction or fragmentation without traceable load.
+
+## 6.8 Counterfactual Sensitivity
+
+Central question:
+
+> Would a relevant change in the source structure alter the composed object or projected function?
+
+Possible results:
 
 * `strongly_sensitive`
 * `partially_sensitive`
@@ -727,23 +746,24 @@ Mögliche Ergebnisse:
 * `underdetermined`
 * `untestable`
 
-6.9 Type Integrity
+## 6.9 Type Integrity
 
-* Keine Vermischung von Ursprungstyp und Zielfunktion
-* Keine Umwandlung einer Trajektorie in einen Basisoperator
-* Keine nachträgliche Erfindung einer Primitive
-* Keine unmarkierte Ebenenbewegung
-* Keine semantische Elastizität ohne Grenze
+* No conflation of origin type and target function
+* No transformation of a trajectory into a base operator
+* No retrospective invention of a primitive
+* No unmarked level movement
+* No semantic elasticity without a boundary
 
-6.10 Reference Continuity
+## 6.10 Reference Continuity
 
-* Historischer Referent bleibt erkennbar.
-* Ausgangsobjekt ist nicht nur nominell dasselbe.
-* Konstitutive Beziehungen bleiben erhalten.
-* Transformation löscht nicht die Bedingungen ihrer eigenen Möglichkeit.
+* The historical referent remains identifiable.
+* The source object is not merely nominally the same.
+* Constitutive relations remain preserved.
+* The transformation does not erase the conditions of its own possibility.
 
-6.11 Transformation Admissibility Test
+## 6.11 Transformation Admissibility Test
 
+```text
 Admissible(T, X, C)
 iff
 
@@ -754,9 +774,11 @@ and
 TypeIntegrity(T, X, C)
 and
 ContextualBoundedness(T, X, C)
+```
 
-6.12 The Admissibility Band
+## 6.12 The Admissibility Band
 
+```text
 Below:
 distinction without purchase
 
@@ -765,210 +787,228 @@ discriminating and reconstructively anchored transformation
 
 Above:
 abstraction without traceable load
+```
 
-6.13 No Universal STRATA Scale
+## 6.13 No Universal STRATA Scale
 
-* Kein universelles kleinstes praxeologisches Element
-* Kein universelles größtes legitimes Komposit
-* Grenzen hängen von Frame, Objekt, Quellen und Claim ab.
-* Die Planck-Analogie bleibt höchstens heuristisch.
-* Zulässigkeit ist relational und prüfbar, nicht konstant.
+* No universal smallest praxeological element
+* No universal largest legitimate composite
+* Boundaries depend on frame, object, sources, and claim.
+* The Planck analogy remains at most heuristic.
+* Admissibility is relational and testable, not constant.
 
-7. Shared Transformation Record
+# 7. Shared Transformation Record
 
-7.1 Purpose of the Record
+## 7.1 Purpose of the Record
 
-* Einheitliches Format für COMPOSE, DECOMPOSE und PROJECT_AS
-* Vergleichbarkeit verschiedener Transformationen
-* Offenlegung von Voraussetzungen, Verlust und Grenzen
-* Vorbereitung späterer technischer Prüfbarkeit
-* Keine Automatisierung von Wahrheit
+* Uniform format for COMPOSE, DECOMPOSE, and PROJECT_AS
+* Comparability of different transformations
+* Disclosure of preconditions, loss, and limits
+* Preparation for later technical testability
+* No automation of truth
 
-7.2 Source Declaration
+## 7.2 Source Declaration
 
+```yaml
 source:
-object:
-operator_typing:
-frame:
-granularity:
-relative_level:
-temporal_scope:
-source_basis:
+  object:
+  operator_typing:
+  frame:
+  granularity:
+  relative_level:
+  temporal_scope:
+  source_basis:
+```
 
-7.3 Operation Declaration
+## 7.3 Operation Declaration
 
+```yaml
 operation:
-kind:
-justification:
-expected_praxeological_difference:
-selection_rule:
-transformation_context:
+  kind:
+  justification:
+  expected_praxeological_difference:
+  selection_rule:
+  transformation_context:
+```
 
-7.4 Target Declaration
+## 7.4 Target Declaration
 
+```yaml
 target:
-object:
-contextual_function:
-frame:
-granularity:
-relative_level:
-validity_scope:
+  object:
+  contextual_function:
+  frame:
+  granularity:
+  relative_level:
+  validity_scope:
+```
 
-7.5 Admissibility Declaration
+## 7.5 Admissibility Declaration
 
+```yaml
 admissibility:
-affected_praxis_dimensions:
-relevance_floor_result:
-constitutive_source_trace:
-counterfactual_sensitivity:
-traceability_ceiling_result:
-origin_reference_preserved:
-origin_type_preserved:
-target_function_bounded:
-result:
+  affected_praxis_dimensions:
+  relevance_floor_result:
+  constitutive_source_trace:
+  counterfactual_sensitivity:
+  traceability_ceiling_result:
+  origin_reference_preserved:
+  origin_type_preserved:
+  target_function_bounded:
+  result:
+```
 
-7.6 Loss Declaration
+## 7.6 Loss Declaration
 
+```yaml
 loss:
-preserved:
-compressed:
-excluded:
-uncertain:
-irrecoverable:
+  preserved:
+  compressed:
+  excluded:
+  uncertain:
+  irrecoverable:
+```
 
-7.7 Alternative Transformations
+## 7.7 Alternative Transformations
 
+```yaml
 alternatives:
-rival_compositions:
-rival_decompositions:
-rival_projections:
-non_translation:
-unresolved:
+  rival_compositions:
+  rival_decompositions:
+  rival_projections:
+  non_translation:
+  unresolved:
+```
 
-7.8 Governance Declaration
+## 7.8 Governance Declaration
 
+```yaml
 governance:
-claim_ceiling:
-stop_condition:
-non_capture_status:
-authority_inheritance: prohibited
+  claim_ceiling:
+  stop_condition:
+  non_capture_status:
+  authority_inheritance: prohibited
+```
 
-7.9 Separated Record Status and Result Axes
+## 7.9 Separated Record Status and Result Axes
 
-Der gemeinsame Transformationsrecord verwendet keinen gemischten `record_status`. Mindestens folgende Achsen bleiben getrennt:
+The shared transformation record does not use a mixed `record_status`. At minimum, the following axes remain separate:
 
-support_status:
+### support_status
 
-* supported
-* provisional
-* contested
-* underdetermined
-* unsupported
+* `supported`
+* `provisional`
+* `contested`
+* `underdetermined`
+* `unsupported`
 
-resolution_test_result:
+### resolution_test_result
 
-* resolution_gain
-* resolution_neutral
-* resolution_drift
-* resolution_escape
-* bei nicht anwendbaren Records: null
+* `resolution_gain`
+* `resolution_neutral`
+* `resolution_drift`
+* `resolution_escape`
+* For records to which the test does not apply: `null`
 
-claim_disposition:
+### claim_disposition
 
-* maintained
-* withdrawn
-* failed
-* superseded_without_erasure
+* `maintained`
+* `withdrawn`
+* `failed`
+* `superseded_without_erasure`
 
-capture_statement:
+### capture_statement
 
-* claim-relative statement
-* capture_limit_present
-* keine automatische Output-Class-Zuordnung
+* Claim-relative statement
+* Capture limit present
+* No automatic output-class assignment
 
-routing_state:
+### routing_state
 
-* routed
-* formal_diagnostic
+* `routed`
+* `formal_diagnostic`
 
-Für einen routed Record wird genau eine kanonische Output Class je abgegrenztem getestetem Claim ausgewählt. Ein formal_diagnostic Record besitzt keine kanonische Output Class.
+For a routed record, exactly one canonical Output Class is selected for each bounded claim under test. A formal-diagnostic record has no canonical Output Class.
 
-Verbindliche Nicht-Gleichsetzungen:
+Binding non-equivalences:
 
-* support status ≠ resolution-test result
-* support status ≠ claim disposition
-* support status ≠ canonical Output Class
-* provisional support ≠ admissible_but_provisional
-* failed claim disposition ≠ failed_transformation
-* capture limit ≠ automatic non_capture
-* underdetermined support ≠ non_capture
-* formal diagnostic ≠ failed_transformation
-* formal diagnostic ≠ mandatory_stop
-* formal diagnostic ≠ non_capture
+* Support status ≠ resolution-test result
+* Support status ≠ claim disposition
+* Support status ≠ canonical Output Class
+* Provisional support ≠ `admissible_but_provisional`
+* Failed claim disposition ≠ `failed_transformation`
+* Capture limit ≠ automatic `non_capture`
+* Underdetermined support ≠ `non_capture`
+* Formal diagnostic ≠ `failed_transformation`
+* Formal diagnostic ≠ `mandatory_stop`
+* Formal diagnostic ≠ `non_capture`
 
-7.10 Local and Integrated Use
+## 7.10 Local and Integrated Use
 
-* Jeder Part verwendet denselben Grundrecord.
-* Part-spezifische Felder dürfen ergänzt werden.
-* Kein Part darf die gemeinsamen Pflichtfelder umgehen.
-* Der Integrated STRATA Audit prüft die vollständige Transformationskette.
+* Every Part uses the same base record.
+* Part-specific fields may be added.
+* No Part may bypass the shared required fields.
+* The Integrated STRATA Audit examines the full transformation chain.
 
-8. Foundational Non-Equivalences
+# 8. Foundational Non-Equivalences
 
-8.1 Finer Granularity Is Not Higher Truth
+## 8.1 Finer Granularity Is Not Higher Truth
 
-Mehr Detail kann:
+More detail may:
 
-* relevante Unterschiede zeigen,
-* Rauschen erzeugen,
-* Quellen überdehnen,
-* Zusammenhänge verdecken,
-* oder keine zusätzliche Leistung erbringen.
+* Reveal relevant differences
+* Generate noise
+* Overextend sources
+* Obscure relations
+* Produce no additional performance
 
-8.2 Relative Level Is Not Ontological Layer
+## 8.2 Relative Level Is Not Ontological Layer
 
-* analytische Position ≠ reale Schicht
-* höheres Komposit ≠ höheres Sein
-* feinere Rekonstruktion ≠ tieferes Wesen
+```text
+analytical position ≠ real layer
+higher composite ≠ higher being
+finer reconstruction ≠ deeper essence
+```
 
-8.3 Composition Is Not Lossless Addition
+## 8.3 Composition Is Not Lossless Addition
 
-* Auswahl ist unvermeidbar.
-* Reihenfolge wird gesetzt.
-* Heterogenität wird komprimiert.
-* Alternativen werden ausgelassen.
-* ein Komposit besitzt eine neue Analyseform, nicht einfach die Summe seiner Teile.
+* Selection is unavoidable.
+* Order is imposed.
+* Heterogeneity is compressed.
+* Alternatives are omitted.
+* A composite possesses a new analytical form, not merely the sum of its parts.
 
-8.4 Decomposition Is Not Discovery of Final Constituents
+## 8.4 Decomposition Is Not Discovery of Final Constituents
 
-* Dekomposition bleibt frame- und quellgebunden.
-* Feinere Bestandteile sind nicht „letzte“ Bestandteile.
-* Die gewählte Auflösung bleibt revidierbar.
-* Rekonstruktion bleibt selektiv.
+* Decomposition remains frame-bound and source-bound.
+* Finer constituents are not “ultimate” constituents.
+* The selected resolution remains revisable.
+* Reconstruction remains selective.
 
-8.5 Path Is Not Sequence
+## 8.5 Path Is Not Sequence
 
-* Sequenz benötigt nur zeitliche Ordnung.
-* Pfad benötigt tatsächlich durchlaufene Übergänge.
-* Pfad enthält strukturelle Auswahl.
-* Pfad kann nicht durch beliebige Chronologie ersetzt werden.
+* A sequence requires only temporal order.
+* A path requires actually traversed transitions.
+* A path contains structural selection.
+* A path cannot be replaced by arbitrary chronology.
 
-8.6 Path Is Not Trajectory
+## 8.6 Path Is Not Trajectory
 
-* Trajektorie enthält Sedimentation.
-* Trajektorie verändert Fortsetzungsmöglichkeiten.
-* Trajektorie trägt historische Last.
-* Nicht jeder Pfad besitzt starke trajektorielle Form.
+* A trajectory contains sedimentation.
+* A trajectory changes possibilities for continuation.
+* A trajectory carries historical load.
+* Not every path has a strong trajectory form.
 
-8.7 Trajectory Is Not Path Dependence
+## 8.7 Trajectory Is Not Path Dependence
 
-* Eine Trajektorie kann geringe Pfadabhängigkeit besitzen.
-* Pfadabhängigkeit ist eine Eigenschaft der historischen Bestimmtheit.
-* Trajektorie bezeichnet das entwickelte Objekt.
-* Beides muss getrennt geprüft werden.
+* A trajectory may possess low path dependence.
+* Path dependence is a property of historical determination.
+* Trajectory designates the developed object.
+* Both must be tested separately.
 
-8.8 Origin Type Is Not Target Function
+## 8.8 Origin Type Is Not Target Function
 
+```text
 trajectory
 PROJECT_AS
 frame-function
@@ -976,1169 +1016,1199 @@ frame-function
 ≠
 
 trajectory becomes frame as origin type
+```
 
-8.9 Projection Is Not Operator Identity
+## 8.9 Projection Is Not Operator Identity
 
-* Ähnliche Funktion ≠ identischer Operator
-* kontextuelle Rolle ≠ neue Primitive
-* semantische Nähe ≠ formale Gleichheit
+* Similar function ≠ identical operator
+* Contextual role ≠ new primitive
+* Semantic proximity ≠ formal equality
 
-8.10 Operator Weighting Is Not Operator Replacement
+## 8.10 Operator Weighting Is Not Operator Replacement
 
-* Eine Konfiguration kann bestimmte Operatoren stark gewichten.
-* Gewichtung verändert Verlaufsform und Sichtbarkeit.
-* Gewichtung verändert nicht die Basisgrammatik.
-* Dominanz erzeugt keinen neuen Operator.
+* A configuration may strongly weight certain operators.
+* Weighting changes trajectory form and visibility.
+* Weighting does not change the base grammar.
+* Dominance does not generate a new operator.
 
-8.11 Structural Analogy Is Not Valid Projection
+## 8.11 Structural Analogy Is Not Valid Projection
 
-* ähnliche Form ≠ gleiche Semantik
-* nützliche Übersetzung ≠ Typidentität
-* symbolische Übertragung ≠ traceable load
-* Cross-domain mapping benötigt zusätzliche Prüfung
+* Similar form ≠ identical semantics
+* Useful translation ≠ type identity
+* Symbolic transfer ≠ traceable load
+* Cross-domain mapping requires additional testing
 
-8.12 Recursion Is Not Completeness
+## 8.12 Recursion Is Not Completeness
 
-* Eine Struktur kann erneut geöffnet werden.
-* Rekursive Möglichkeit garantiert keine vollständige Auflösung.
-* Quellen, Relevanz und Traceability begrenzen Rekursion.
-* Stop bleibt konstitutiv.
+* A structure may be opened again.
+* Recursive possibility does not guarantee complete resolution.
+* Sources, relevance, and traceability limit recursion.
+* Stop remains constitutive.
 
-8.13 Legibility Is Not Authority
+## 8.13 Legibility Is Not Authority
 
-* bessere Lesbarkeit ≠ höhere Wahrheit
-* formale Präzision ≠ empirische Bestätigung
-* technische Implementierung ≠ ontologische Evidenz
-* erfolgreiche Transformation ≠ zusätzliche Anwendungsautorität
+* Better readability ≠ higher truth
+* Formal precision ≠ empirical confirmation
+* Technical implementation ≠ ontological evidence
+* Successful transformation ≠ additional application authority
 
-PART I — PATH
-Temporal Composition and Trajectory Formation
+# PART I — PATH
 
-9. Temporal Order and Transition
+## Temporal Composition and Trajectory Formation
 
-9.1 Purpose of PATH
+# 9. Temporal Order and Transition
 
-PATH spezifiziert:
+## 9.1 Purpose of PATH
 
-* zeitliche Ordnung,
-* Übergänge zwischen Konfigurationen,
-* Pfadbildung,
-* Trajektorienbildung,
-* Pfadabhängigkeit,
-* und die Operation COMPOSE.
+PATH specifies:
 
-PATH spezifiziert noch keine höherstufige Zielfunktion. Diese gehört zu RETYPE.
+* Temporal order
+* Transitions between configurations
+* Path formation
+* Trajectory formation
+* Path dependence
+* The operation COMPOSE
 
-9.2 Θ as Temporal Structuring
+PATH does not yet specify a higher-level target function. That belongs to RETYPE.
 
-Θ ermöglicht innerhalb STRATA:
+## 9.2 Θ as Temporal Structuring
 
-* Reihenfolge
-* Dauer
-* Verzögerung
-* Wiederholung
-* Persistenz
-* Akkumulation
-* Irreversibilität
-* historische Positionierung
+Within STRATA, Θ enables:
 
-Θ allein erzeugt weder Pfadabhängigkeit noch Recontextualization.
+* Order
+* Duration
+* Delay
+* Repetition
+* Persistence
+* Accumulation
+* Irreversibility
+* Historical positioning
 
-9.3 Temporal Position
+Θ alone generates neither path dependence nor recontextualization.
 
-* analytischer Zeitpunkt
-* analytischer Zeitraum
-* relative Vorher/Nachher-Relation
-* offene und geschlossene Intervalle
-* unklare oder umstrittene Datierung
-* retrospektive Periodisierung
+## 9.3 Temporal Position
 
-9.4 Order Dependence
+* Analytical point in time
+* Analytical period
+* Relative before/after relation
+* Open and closed intervals
+* Unclear or contested dating
+* Retrospective periodization
 
+## 9.4 Order Dependence
+
+```text
 A → B
 ≠
 B → A
+```
 
-Mögliche Reihenfolgeeffekte:
+Possible order effects:
 
-* veränderte Frame-Lesbarkeit
-* veränderte Erwartung
-* veränderte Kosten
-* veränderte Bindung
-* veränderte Alternativen
-* veränderte Bedeutung desselben späteren Ereignisses
+* Changed frame legibility
+* Changed expectation
+* Changed costs
+* Changed binding
+* Changed alternatives
+* Changed meaning of the same later event
 
-9.5 Duration
+## 9.5 Duration
 
-* Dauer als praxeologisch relevante Struktur
-* keine bloße metrische Zeit
-* unterschiedliche Wirkung gleicher Ereignisse bei unterschiedlicher Dauer
-* Dauer von Frames, Nicht-Ereignissen und Übergängen
-* Dauer als möglicher Attraktorverstärker
+* Duration as a praxeologically relevant structure
+* Not merely metric time
+* Different effects of identical events under different durations
+* Duration of frames, non-events, and transitions
+* Duration as a possible attractor amplifier
 
-9.6 Delay
+## 9.6 Delay
 
-* Verzögerung als Übergangsstruktur
-* Verzögerung als Nicht-Ereignis
-* Verschiebung von Kosten
-* Veränderung erreichbarer Alternativen
-* mögliche Stabilisierung von Erwartungen und Asymmetrien
+* Delay as transition structure
+* Delay as non-event
+* Shifting of costs
+* Change in reachable alternatives
+* Possible stabilization of expectations and asymmetries
 
-9.7 Persistence
+## 9.7 Persistence
 
-* Fortbestehen einer Struktur trotz veränderter Ereignisse
-* Fortbestehen von Frames
-* Fortbestehen von Residuen
-* Fortbestehen von Kosten
-* Fortbestehen von Bindung
+* Continuation of a structure despite changed events
+* Continuation of frames
+* Continuation of residues
+* Continuation of costs
+* Continuation of binding
 
-9.8 Irreversibility
+## 9.8 Irreversibility
 
-* Unterschied zwischen Wiederholung und Rückkehr
-* Unterschied zwischen Recontextualization und Löschung
-* Unterschied zwischen Exit und Reset
-* lokale versus starke Irreversibilität
-* source-bound claims über Unumkehrbarkeit
+* Difference between repetition and return
+* Difference between recontextualization and erasure
+* Difference between exit and reset
+* Local versus strong irreversibility
+* Source-bound claims about irreversibility
 
-9.9 Temporal Recontextualization
+## 9.9 Temporal Recontextualization
 
-* Spätere Ereignisse verändern die Lesbarkeit früherer Strukturen.
-* Frühere Strukturen bleiben dennoch Teil des Pfads.
-* Neue Frames können frühere Bedeutung verschieben.
-* Keine rückwirkende Aufhebung der historischen Sequenz
+* Later events alter the legibility of earlier structures.
+* Earlier structures nevertheless remain part of the path.
+* New frames may shift earlier meaning.
+* No retroactive erasure of the historical sequence
 
-9.10 Transition Preconditions
+## 9.10 Transition Preconditions
 
-* mindestens zwei rekonstruierbare Konfigurationen
-* relevante zeitliche Relation
-* bestimmbarer Veränderungsgegenstand
-* ausreichende Quellenbasis
-* deklarierter Frame
-* begrenzter Claim
+* At least two reconstructable configurations
+* Relevant temporal relation
+* Determinable object of change
+* Sufficient source basis
+* Declared frame
+* Bounded claim
 
-9.11 Transition Structure
+## 9.11 Transition Structure
 
+```yaml
 transition:
-source_configuration:
-target_configuration:
-events:
-non_events:
-temporal_order:
-changed_frames:
-changed_action_corridors:
-changed_asymmetries:
-changed_bindings:
-unresolved_residue:
+  source_configuration:
+  target_configuration:
+  events:
+  non_events:
+  temporal_order:
+  changed_frames:
+  changed_action_corridors:
+  changed_asymmetries:
+  changed_bindings:
+  unresolved_residue:
+```
 
-9.12 Transition Failure
+## 9.12 Transition Failure
 
-Kein hinreichender Übergang liegt vor, wenn:
+No sufficient transition is present if:
 
-* nur zwei isolierte Zustandsbilder vorliegen,
-* die zeitliche Relation unbekannt ist,
-* Veränderung lediglich behauptet wird,
-* Zwischenstrukturen relevant, aber vollständig ausgelassen sind,
-* oder der Frame zwischen beiden Konfigurationen unmarkiert wechselt.
+* Only two isolated state images are available
+* The temporal relation is unknown
+* Change is merely asserted
+* Relevant intermediate structures are fully omitted
+* The frame changes between the two configurations without being marked
 
-10. Path
+# 10. Path
 
-10.1 Definition of Path
+## 10.1 Definition of Path
 
-Ein Pfad ist die tatsächlich durchlaufene, analytisch rekonstruierte Folge relevanter Konfigurationen und Übergänge innerhalb eines deklarierten Frames.
+A path is the actually traversed, analytically reconstructed sequence of relevant configurations and transitions within a declared frame.
 
-10.2 Path versus Chronology
+## 10.2 Path versus Chronology
 
-Chronology:
+### Chronology
 
-* Ereignisse sind zeitlich sortiert.
+* Events are temporally sorted.
 
-Path:
+### Path
 
-* Übergänge sind strukturell verbunden.
-* Auswahl und Nicht-Auswahl sind relevant.
-* Veränderungen von Möglichkeiten werden rekonstruiert.
-* die Folge besitzt praxeologische Last.
+* Transitions are structurally connected.
+* Selection and non-selection are relevant.
+* Changes in possibilities are reconstructed.
+* The sequence carries praxeological load.
 
-10.3 Path Components
+## 10.3 Path Components
 
-* source configuration
-* transitions
-* intermediate configurations
-* event clusters
-* non-event structures
-* branch points
-* selected continuation
-* foreclosed alternatives
-* current endpoint or open continuation
+* Source configuration
+* Transitions
+* Intermediate configurations
+* Event clusters
+* Non-event structures
+* Branch points
+* Selected continuation
+* Foreclosed alternatives
+* Current endpoint or open continuation
 
-10.4 Path Selection
+## 10.4 Path Selection
 
-* Welche Konfigurationen werden aufgenommen?
-* Welche Übergänge gelten als tragend?
-* Welche Details werden ausgelassen?
-* Welche Zwischenphasen werden komprimiert?
-* Welche Alternativen bleiben sichtbar?
+* Which configurations are included?
+* Which transitions count as carrying?
+* Which details are omitted?
+* Which intermediate phases are compressed?
+* Which alternatives remain visible?
 
-10.5 Path Frame
+## 10.5 Path Frame
 
-* Gegenstand des Pfads
-* Beginn und Ende
-* relevante Rollen und Institutionen
-* eingeschlossene und ausgeschlossene Umwelten
-* zulässige Reichweite der Pfadaussage
+* Object of the path
+* Beginning and end
+* Relevant roles and institutions
+* Included and excluded environments
+* Admissible reach of the path claim
 
-10.6 Path Evidence
+## 10.6 Path Evidence
 
-* direkte Ereignisbelege
-* dokumentierte Reihenfolge
-* indirekt rekonstruierte Übergänge
-* belegte Nicht-Ereignisse
-* Unsicherheiten und Lücken
-* alternative Sequenzrekonstruktionen
+* Direct event evidence
+* Documented order
+* Indirectly reconstructed transitions
+* Supported non-events
+* Uncertainties and gaps
+* Alternative sequence reconstructions
 
-10.7 Realized Path
+## 10.7 Realized Path
 
-* tatsächlich durchlaufene Fortsetzung
-* keine Behauptung notwendiger Entwicklung
-* Unterscheidung zwischen realisiert und retrospektiv plausibilisiert
-* Möglichkeit offener Endpunkte
+* Actually traversed continuation
+* No claim of necessary development
+* Distinction between realized and retrospectively plausibilized
+* Possibility of open endpoints
 
-10.8 Blocked Path
+## 10.8 Blocked Path
 
-* Fortsetzung war strukturell vorbereitet, wurde aber blockiert.
-* Blockade kann durch Frame, Asymmetrie, Nicht-Ereignis oder Bindung entstehen.
-* Ein blockierter Pfad ist nicht identisch mit einer bloß imaginierten Alternative.
-* Quellen müssen seine reale Verfügbarkeit stützen.
+* A continuation was structurally prepared but blocked.
+* The blockage may arise from frame, asymmetry, non-event, or binding.
+* A blocked path is not identical to a merely imagined alternative.
+* Sources must support its real availability.
 
-10.9 Aborted Path
+## 10.9 Aborted Path
 
-* Pfad wurde begonnen, aber nicht fortgeführt.
-* Abbruch kann selbst ein Ereignis oder Nicht-Ereignis sein.
-* Abbruch kann zukünftige Alternativen verändern.
-* Abgebrochene Pfade können Residuen hinterlassen.
+* A path was begun but not continued.
+* The abort may itself be an event or non-event.
+* The abort may change future alternatives.
+* Aborted paths may leave residues.
 
-10.10 Deferred Path
+## 10.10 Deferred Path
 
-* Fortsetzung bleibt möglich, wird aber verzögert.
-* Verzögerung kann Kosten und Erwartungen verändern.
-* Ein später fortgesetzter Pfad ist nicht identisch mit einer ununterbrochenen Entwicklung.
-* zeitliche Verschiebung kann den Pfadtyp verändern.
+* Continuation remains possible but is delayed.
+* Delay may change costs and expectations.
+* A path continued later is not identical to uninterrupted development.
+* Temporal displacement may change the path type.
 
-10.11 Path Comparison
+## 10.11 Path Comparison
 
-Vergleichsfragen:
+Comparison questions:
 
-* gleicher Ausgangspunkt?
-* gleicher Frame?
-* gleiche Granularität?
-* gleiche Zeitspanne?
-* gleiche relevanten Alternativen?
-* gleiche Kosten- und Asymmetriestruktur?
-* vergleichbare Quellenlage?
+* Same starting point?
+* Same frame?
+* Same granularity?
+* Same timespan?
+* Same relevant alternatives?
+* Same cost and asymmetry structure?
+* Comparable source situation?
 
-10.12 Similar End States, Different Paths
+## 10.12 Similar End States, Different Paths
 
-* gleiche Endkonfiguration
-* unterschiedliche Vorgeschichte
-* unterschiedliche Kosten
-* unterschiedliche Bindungen
-* unterschiedliche Residuen
-* unterschiedliche Fortsetzungsmöglichkeiten
+* Same end configuration
+* Different prior history
+* Different costs
+* Different bindings
+* Different residues
+* Different possibilities for continuation
 
-10.13 Path without Strong Dependence
+## 10.13 Path without Strong Dependence
 
-* Der Pfad kann rekonstruiert werden.
-* Der aktuelle Zustand bleibt dennoch weitgehend aus der Gegenwart bestimmbar.
-* historische Reihenfolge besitzt geringe zusätzliche Erklärungslast.
-* PATH darf nicht automatisch Pfadabhängigkeit behaupten.
+* The path can be reconstructed.
+* The current state nevertheless remains largely determinable from the present.
+* Historical order carries little additional explanatory load.
+* PATH must not automatically assert path dependence.
 
-10.14 Minimal Path Record
+## 10.14 Minimal Path Record
 
+```yaml
 path:
-frame:
-source_configuration:
-transitions:
-intermediate_configurations:
-realized_continuation:
-unrealized_alternatives:
-endpoint:
-open_residue:
-evidence_status:
-claim_scope:
+  frame:
+  source_configuration:
+  transitions:
+  intermediate_configurations:
+  realized_continuation:
+  unrealized_alternatives:
+  endpoint:
+  open_residue:
+  evidence_status:
+  claim_scope:
+```
 
-11. Trajectory
+# 11. Trajectory
 
-11.1 Definition of Trajectory
+## 11.1 Definition of Trajectory
 
-Eine Trajektorie ist ein zeitlich geordneter Pfad, dessen wiederholte und irreversible Struktur die gegenwärtige Konfiguration und ihre Fortsetzungsmöglichkeiten historisch mitbestimmt.
+A trajectory is a temporally ordered path whose repeated and irreversible structure historically co-determines the present configuration and its possibilities for continuation.
 
-11.2 From Path to Trajectory
+## 11.2 From Path to Trajectory
 
-Zusätzliche Anforderungen gegenüber einem Pfad:
+Additional requirements beyond a path:
 
 * Sedimentation
-* kumulative Veränderung
-* fortwirkende Residuen
-* veränderte Handlungskorridore
-* historische Last
-* gerichtete, aber nicht teleologische Fortsetzungsmöglichkeiten
+* Cumulative change
+* Persisting residues
+* Changed action corridors
+* Historical load
+* Directed but non-teleological possibilities for continuation
 
-11.3 Historical Sedimentation
+## 11.3 Historical Sedimentation
 
-* Wiederholung verdichtet Attraktoren.
-* Asymmetrien werden akkumuliert.
-* Bindungen werden verstärkt, geschwächt oder teuer.
-* Nicht-Ereignisse stabilisieren Erwartungen und Ausschlüsse.
-* vergangene Framewechsel wirken fort.
+* Repetition condenses attractors.
+* Asymmetries accumulate.
+* Bindings are strengthened, weakened, or made costly.
+* Non-events stabilize expectations and exclusions.
+* Past frame changes continue to have effects.
 
-11.4 Directionality without Teleology
+## 11.4 Directionality without Teleology
 
-* Trajektorien können eine erkennbare Richtung besitzen.
-* Richtung bedeutet keine Zielnotwendigkeit.
-* retrospektive Kohärenz darf nicht als ursprünglicher Plan ausgegeben werden.
-* Alternativen und Kontingenzen bleiben sichtbar.
+* Trajectories may possess a recognizable direction.
+* Direction does not mean necessary destination.
+* Retrospective coherence must not be presented as an original plan.
+* Alternatives and contingencies remain visible.
 
-11.5 Attractor Sedimentation
+## 11.5 Attractor Sedimentation
 
-* wiederholte Konfigurationen senken lokale Reibung
-* bestimmte Fortsetzungen werden wahrscheinlicher
-* andere Möglichkeiten verlieren Sichtbarkeit oder Zugänglichkeit
-* Α wirkt mit Θ als historische Stabilisierung
+* Repeated configurations lower local friction.
+* Certain continuations become more likely.
+* Other possibilities lose visibility or accessibility.
+* Α acts with Θ as historical stabilization.
 
-11.6 Asymmetry Accumulation
+## 11.6 Asymmetry Accumulation
 
-* lokale Unterschiede werden über Zeit tragend
-* Kosten verteilen sich wiederholt ungleich
-* Rollen verhärten
-* Exitbedingungen verändern sich
-* Ω + Θ erzeugt sedimentierte Asymmetrie
+* Local differences become carrying over time.
+* Costs are repeatedly distributed unequally.
+* Roles harden.
+* Exit conditions change.
+* Ω + Θ generates sedimented asymmetry.
 
-11.7 Binding Accumulation
+## 11.7 Binding Accumulation
 
-* wiederholte Commitments
-* implizite Bindungserwartungen
-* fortwirkende Verpflichtungsstrukturen
-* steigende Kosten des Bruchs
-* Ψ + Θ erzeugt historische Bindungslast
+* Repeated commitments
+* Implicit expectations of binding
+* Persisting structures of obligation
+* Rising costs of rupture
+* Ψ + Θ generates historical binding load
 
-11.8 Residual Accumulation
+## 11.8 Residual Accumulation
 
-* ungeklärte Nicht-Ereignisse
-* nicht bearbeitete Abbrüche
-* fortwirkende Erwartungen
-* ausgeschlossene Alternativen
-* Λ + Θ erzeugt persistente Residuen
+* Unresolved non-events
+* Unprocessed aborts
+* Persisting expectations
+* Excluded alternatives
+* Λ + Θ generates persistent residues
 
-11.9 Changed Action Corridors
+## 11.9 Changed Action Corridors
 
-* neue Möglichkeiten
-* erschwerte Möglichkeiten
-* geschlossene Möglichkeiten
-* institutionalisierte Fortsetzungen
-* Pfade, die nur noch unter hohen Kosten verlassen werden können
+* New possibilities
+* More difficult possibilities
+* Closed possibilities
+* Institutionalized continuations
+* Paths that can be exited only at high cost
 
-11.10 Trajectory Boundary
+## 11.10 Trajectory Boundary
 
-* Wo beginnt die relevante Entwicklung?
-* Welche Vorgeschichte gehört noch zur Trajektorie?
-* Wo endet die Rekonstruktion?
-* Ist die Trajektorie abgeschlossen oder offen?
-* Welche Periodisierung ist umstritten?
+* Where does the relevant development begin?
+* Which prior history still belongs to the trajectory?
+* Where does the reconstruction end?
+* Is the trajectory complete or open?
+* Which periodization is contested?
 
-11.11 Trajectory Compression
+## 11.11 Trajectory Compression
 
-* notwendige Auswahl
-* Erhaltung tragender Wendepunkte
-* Erhaltung zentraler Nicht-Ereignisse
-* Erhaltung von Asymmetrie- und Bindungslast
-* Offenlegung ausgelassener Zwischenphasen
+* Necessary selection
+* Preservation of carrying turning points
+* Preservation of central non-events
+* Preservation of asymmetry and binding load
+* Disclosure of omitted intermediate phases
 
-11.12 Competing Trajectory Constructions
+## 11.12 Competing Trajectory Constructions
 
-* gleiche Materialien, unterschiedliche Periodisierung
-* unterschiedliche Auswahl tragender Übergänge
-* unterschiedliche Bewertung von Wendepunkten
-* unterschiedliche Relevanz von Nicht-Ereignissen
-* Möglichkeit mehrerer zulässiger Trajektorien
+* Same materials, different periodization
+* Different selection of carrying transitions
+* Different assessment of turning points
+* Different relevance assigned to non-events
+* Possibility of several admissible trajectories
 
-11.13 False Trajectory
+## 11.13 False Trajectory
 
-Eine vermeintliche Trajektorie liegt vor, wenn:
+An alleged trajectory is present if:
 
-* nur Chronologie vorliegt,
-* Richtung lediglich retrospektiv behauptet wird,
-* Sedimentation fehlt,
-* relevante Alternativen entfernt wurden,
-* oder ein Makrolabel den Pfad ersetzt.
+* Only chronology is available
+* Direction is asserted only retrospectively
+* Sedimentation is absent
+* Relevant alternatives have been removed
+* A macro-label replaces the path
 
-11.14 Minimal Trajectory Record
+## 11.14 Minimal Trajectory Record
 
+```yaml
 trajectory:
-path_reference:
-temporal_scope:
-sedimented_attractors:
-accumulated_asymmetries:
-persistent_residues:
-binding_changes:
-changed_action_corridors:
-irreversible_transitions:
-open_continuations:
-competing_constructions:
-claim_scope:
+  path_reference:
+  temporal_scope:
+  sedimented_attractors:
+  accumulated_asymmetries:
+  persistent_residues:
+  binding_changes:
+  changed_action_corridors:
+  irreversible_transitions:
+  open_continuations:
+  competing_constructions:
+  claim_scope:
+```
 
-12. Path Dependence and Sedimentation
+# 12. Path Dependence and Sedimentation
 
-12.1 Path Dependence as a Property
+## 12.1 Path Dependence as a Property
 
-Pfadabhängigkeit ist keine zusätzliche Objektklasse. Sie ist eine Eigenschaft, nach der gegenwärtige Bedeutung, Kosten oder Fortsetzungen nicht ohne die historische Entwicklung hinreichend rekonstruiert werden können.
+Path dependence is not an additional object class. It is a property according to which present meaning, costs, or continuations cannot be adequately reconstructed without historical development.
 
-12.2 Weak Order Dependence
+## 12.2 Weak Order Dependence
 
-* Reihenfolge verändert lokale Bedeutung.
-* Die Gegenwart bleibt weitgehend ohne ausführliche Historie rekonstruierbar.
-* geringe Sedimentation
-* geringe Einschränkung zukünftiger Möglichkeiten
+* Order changes local meaning.
+* The present remains largely reconstructable without detailed history.
+* Low sedimentation
+* Low restriction of future possibilities
 
-12.3 Strong Path Dependence
+## 12.3 Strong Path Dependence
 
-* historische Reihenfolge ist konstitutiv
-* gleiche Endzustände besitzen unterschiedliche Praxisstruktur
-* frühere Übergänge bestimmen Kosten und Erreichbarkeit
-* Alternativen wurden irreversibel verändert
+* Historical order is constitutive.
+* Identical end states possess different praxis structures.
+* Earlier transitions determine costs and reachability.
+* Alternatives have been irreversibly changed.
 
-12.4 Α + Θ
+## 12.4 Α + Θ
 
-* Wiederholung über Zeit
-* Stabilisierung von Mustern
-* sinkende Reibung innerhalb des Attraktors
-* steigende Reibung alternativer Wege
-* historische Verstärkung
+* Repetition over time
+* Stabilization of patterns
+* Falling friction within the attractor
+* Rising friction of alternative paths
+* Historical reinforcement
 
-12.5 Ω + Θ
+## 12.5 Ω + Θ
 
-* akkumulierte Kosten
-* verfestigte Rollen
-* ungleiche Exitmöglichkeiten
-* sedimentierte Exposition
-* institutionalisierte Asymmetrie
+* Accumulated costs
+* Hardened roles
+* Unequal exit possibilities
+* Sedimented exposure
+* Institutionalized asymmetry
 
-12.6 Ψ + Θ
+## 12.6 Ψ + Θ
 
-* fortwirkende Bindungen
-* Erwartungskontinuität
-* Verpflichtungslast
-* Identifizierbarkeit einer gebundenen Trajektorie
-* Kosten des Bruchs
+* Persisting bindings
+* Continuity of expectation
+* Burden of obligation
+* Identifiability of a bound trajectory
+* Costs of rupture
 
-12.7 Λ + Θ
+## 12.7 Λ + Θ
 
-* fortwirkende Nicht-Entscheidung
-* verpasste Zeitfenster
-* blockierte Alternativen
-* offene Residuen
-* sedimentierte Abwesenheit
+* Persisting non-decision
+* Missed time windows
+* Blocked alternatives
+* Open residues
+* Sedimented absence
 
-12.8 Φ under Path Dependence
+## 12.8 Φ under Path Dependence
 
-* Recontextualization verändert Bedeutung.
-* Recontextualization löscht die Vorgeschichte nicht.
-* Neue Frames können alte Attraktoren forttragen.
-* scheinbarer Neuanfang kann strukturell derselbe Pfad bleiben.
+* Recontextualization changes meaning.
+* Recontextualization does not erase prior history.
+* New frames may carry old attractors forward.
+* An apparent new beginning may structurally remain the same path.
 
-12.9 Χ, Σ, and Ψ as Later Trajectory Modifiers
+## 12.9 Χ, Σ, and Ψ as Later Trajectory Modifiers
 
-* Χ kann Unterbrechung und Re-Lektüre ermöglichen.
-* Σ kann widersprüchliche Pfadlasten integrieren.
-* Ψ kann eine Trajektorie stabil binden.
-* Keiner dieser Operatoren löscht den bisherigen Pfad.
-* Operatoren höherer Ordnung sind Modifikatoren, keine Resetfunktionen.
+* Χ may enable interruption and re-reading.
+* Σ may integrate contradictory path loads.
+* Ψ may stably bind a trajectory.
+* None of these operators erases the previous path.
+* Higher-order operators are modifiers, not reset functions.
 
-12.10 Path Dependence without Determinism
+## 12.10 Path Dependence without Determinism
 
-* Pfadabhängigkeit schließt Alternativen nicht vollständig aus.
-* Sie verändert ihre Kosten und Zugänglichkeit.
-* neue Frames und Ereignisse können Pfade verändern.
-* Wahrscheinlichkeit ist nicht Notwendigkeit.
-* historische Last ist nicht Schicksal.
+* Path dependence does not fully exclude alternatives.
+* It changes their costs and accessibility.
+* New frames and events may alter paths.
+* Probability is not necessity.
+* Historical load is not fate.
 
-12.11 Path Dependence Test
+## 12.11 Path Dependence Test
 
-* Würde derselbe aktuelle Zustand mit anderer Vorgeschichte anders rekonstruiert?
-* Sind Kosten oder Rollen historisch sedimentiert?
-* Sind Alternativen durch frühere Übergänge verändert?
-* Tragen Nicht-Ereignisse weiterhin Last?
-* Ist die aktuelle Fortsetzung ohne den Pfad nicht hinreichend erklärbar?
+* Would the same current state be reconstructed differently under a different prior history?
+* Are costs or roles historically sedimented?
+* Have alternatives been changed by earlier transitions?
+* Do non-events continue to carry load?
+* Is the current continuation inadequately explainable without the path?
 
-12.12 Failure to Establish Path Dependence
+## 12.12 Failure to Establish Path Dependence
 
-Pfadabhängigkeit ist nicht hinreichend gezeigt, wenn:
+Path dependence has not been sufficiently established if:
 
-* nur zeitliche Dauer vorliegt,
-* Wiederholung ohne Wirkung behauptet wird,
-* die Gegenwart vollständig aus aktuellen Bedingungen erklärt werden kann,
-* oder die historische Erzählung keine zusätzliche Diskriminationsleistung besitzt.
+* Only temporal duration is present
+* Repetition without effect is asserted
+* The present can be fully explained from current conditions
+* The historical narrative provides no additional discriminatory performance
 
-13. Branches, Aborts, Delays, and Unavailable Alternatives
+# 13. Branches, Aborts, Delays, and Unavailable Alternatives
 
-13.1 Why PATH Must Include Alternatives
+## 13.1 Why PATH Must Include Alternatives
 
-* Reale Pfade entstehen durch Auswahl.
-* Auswahl ist nur relativ zu Alternativen lesbar.
-* Nicht realisierte Möglichkeiten können Folgen hinterlassen.
-* Linearität darf nicht retrospektiv erzeugt werden.
+* Real paths arise through selection.
+* Selection is legible only relative to alternatives.
+* Unrealized possibilities may leave consequences.
+* Linearity must not be generated retrospectively.
 
-13.2 Branch Point
+## 13.2 Branch Point
 
-* mehrere strukturell verfügbare Fortsetzungen
-* unterschiedliche erwartbare Kosten
-* unterschiedliche Frameanforderungen
-* unterschiedliche Bindungsfolgen
-* Quellen müssen reale Verfügbarkeit stützen
+* Several structurally available continuations
+* Different expected costs
+* Different frame requirements
+* Different binding consequences
+* Sources must support real availability
 
-13.3 Realized Branch
+## 13.3 Realized Branch
 
-* tatsächlich durchlaufene Fortsetzung
-* Auswahl kann explizit oder implizit erfolgen
-* Auswahl kann durch Ereignis oder Nicht-Ereignis bestimmt werden
-* keine automatische Rationalitätsbehauptung
+* Actually traversed continuation
+* Selection may occur explicitly or implicitly
+* Selection may be determined by event or non-event
+* No automatic claim of rationality
 
-13.4 Rejected Branch
+## 13.4 Rejected Branch
 
-* explizit verworfene Fortsetzung
-* dokumentierte Nicht-Auswahl
-* mögliche Residuen
-* mögliche spätere Recontextualization
+* Explicitly rejected continuation
+* Documented non-selection
+* Possible residues
+* Possible later recontextualization
 
-13.5 Blocked Branch
+## 13.5 Blocked Branch
 
-* strukturell verfügbare, aber verhinderte Fortsetzung
-* Blockade durch Frame, Ressource, Asymmetrie oder Bindung
-* Unterschied zwischen Unmöglichkeit und Verhinderung
+* Structurally available but prevented continuation
+* Blockage through frame, resource, asymmetry, or binding
+* Difference between impossibility and prevention
 
-13.6 Aborted Branch
+## 13.6 Aborted Branch
 
-* begonnene, dann unterbrochene Fortsetzung
-* hinterlässt möglicherweise Kosten und Erwartungen
-* kann spätere Pfade prägen
-* darf nicht als nie existent behandelt werden
+* Begun and then interrupted continuation
+* May leave costs and expectations
+* May shape later paths
+* Must not be treated as though it never existed
 
-13.7 Deferred Branch
+## 13.7 Deferred Branch
 
-* zeitlich verschobene Fortsetzung
-* verändert sich während der Verzögerung
-* kann später unter anderem Frame fortgesetzt werden
-* Verzögerung ist selbst Teil des Pfads
+* Temporally displaced continuation
+* Changes during the delay
+* May later be continued under another frame
+* Delay is itself part of the path
 
-13.8 Lost Alternative
+## 13.8 Lost Alternative
 
-* früher erreichbar, später nicht mehr verfügbar
-* Verlust kann durch Θ, Ω, Ψ oder Λ entstehen
-* verlorene Alternative ist keine bloße kontrafaktische Fantasie
-* Nachweis ihrer früheren Erreichbarkeit erforderlich
+* Previously reachable, later no longer available
+* Loss may arise through Θ, Ω, Ψ, or Λ
+* A lost alternative is not merely a counterfactual fantasy.
+* Evidence of its earlier reachability is required.
 
-13.9 Counterfactual Path
+## 13.9 Counterfactual Path
 
-* hypothetische Fortsetzung auf Basis realer damaliger Möglichkeiten
-* keine freie Erzählung
-* muss an Frame, Quellen und verfügbare Handlungskorridore gebunden sein
-* dient der Prüfung von Pfadabhängigkeit und Verlust
+* Hypothetical continuation based on real possibilities available at the time
+* No free narrative
+* Must remain bound to frame, sources, and available action corridors
+* Serves to test path dependence and loss
 
-13.10 Non-Selection as Praxis Structure
+## 13.10 Non-Selection as Praxis Structure
 
-* Unterlassene Wahl kann Folgen tragen.
-* Nicht-Entscheidung kann Alternativen schließen.
-* Verzögerung kann selbst selektiv wirken.
-* Λ kann einen Pfad formen, ohne positives Auswahlereignis.
+* An omitted choice may carry consequences.
+* Non-decision may close alternatives.
+* Delay may itself operate selectively.
+* Λ may shape a path without a positive selection event.
 
-13.11 Alternative-Space Compression
+## 13.11 Alternative-Space Compression
 
-* Komposition reduziert die Sichtbarkeit von Alternativen.
-* Nachträgliche Pfaderzählung kann Kontingenz verdecken.
-* COMPOSE muss relevante verlorene Alternativen dokumentieren.
-* keine vollständige Erhaltung des damaligen Möglichkeitsraums
+* Composition reduces the visibility of alternatives.
+* Retrospective path narration may conceal contingency.
+* COMPOSE must document relevant lost alternatives.
+* No complete preservation of the possibility space existing at the time
 
-13.12 Alternative Status Record
+## 13.12 Alternative Status Record
 
+```yaml
 alternative:
-branch_point:
-availability_status:
-source_support:
-selection_status:
-blocking_structure:
-temporal_window:
-later_reachability:
-residual_effect:
-certainty:
+  branch_point:
+  availability_status:
+  source_support:
+  selection_status:
+  blocking_structure:
+  temporal_window:
+  later_reachability:
+  residual_effect:
+  certainty:
+```
 
-14. Non-Events within Paths and Trajectories
+# 14. Non-Events within Paths and Trajectories
 
-14.1 Why Λ Is Central to PATH
+## 14.1 Why Λ Is Central to PATH
 
-* Pfade bestehen nicht nur aus eingetretenen Ereignissen.
-* Erwartungen strukturieren, was als Ausbleiben relevant wird.
-* Wiederholte Nicht-Ereignisse können stärker wirken als einzelne Ereignisse.
-* Nicht-Ereignisse beeinflussen Übergänge, Alternativen und Sedimentation.
+* Paths consist not only of events that occurred.
+* Expectations structure what becomes relevant as non-occurrence.
+* Repeated non-events may have a stronger effect than individual events.
+* Non-events affect transitions, alternatives, and sedimentation.
 
-14.2 Frame-Dependence of Non-Events
+## 14.2 Frame-Dependence of Non-Events
 
-* Ein Nicht-Ereignis existiert nur relativ zu einer Erwartungsstruktur.
-* Erwartung kann institutionell, relational oder prozedural sein.
-* bloße Abwesenheit ist kein Λ-Vorkommen
-* Frame und Erwartungsgrund müssen ausgewiesen werden
+* A non-event exists only relative to a structure of expectation.
+* Expectation may be institutional, relational, or procedural.
+* Mere absence is not a Λ occurrence.
+* Frame and basis of expectation must be disclosed.
 
-14.3 Delay as Non-Event
+## 14.3 Delay as Non-Event
 
-* erwarteter Übergang tritt nicht ein
-* Zeitfenster bleibt offen oder schließt sich
-* Kosten akkumulieren
-* Alternativen verändern sich
-* Verzögerung wird trajektoriell relevant
+* Expected transition does not occur.
+* The time window remains open or closes.
+* Costs accumulate.
+* Alternatives change.
+* Delay becomes trajectory-relevant.
 
-14.4 Repeated Non-Decision
+## 14.4 Repeated Non-Decision
 
-* wiederholte Aussetzung
-* keine explizite Ablehnung
-* steigende Erwartungs- und Koordinationslast
-* mögliche Attraktorbildung
-* mögliche Asymmetrieverstärkung
+* Repeated suspension
+* No explicit rejection
+* Increasing expectation and coordination load
+* Possible attractor formation
+* Possible amplification of asymmetry
 
-14.5 Blocked Responsibility
+## 14.5 Blocked Responsibility
 
-* Handlung oder Entscheidung bleibt aus, weil Zuständigkeit verteilt oder blockiert ist.
-* Das Ausbleiben kann strukturell wirksam sein, ohne einer Person zugeschrieben zu werden.
-* PATH rekonstruiert die Konfiguration, nicht Schuld.
+* Action or decision remains absent because responsibility is distributed or blocked.
+* The absence may be structurally effective without being attributed to a person.
+* PATH reconstructs the configuration, not guilt.
 
-14.6 Missing Repair
+## 14.6 Missing Repair
 
-* erwartbare Integration oder Korrektur tritt nicht ein
-* Residuen bleiben bestehen
-* Bindungs- und Asymmetriekosten steigen
-* spätere Ereignisse werden anders lesbar
+* Expectable integration or correction does not occur.
+* Residues remain.
+* Binding and asymmetry costs rise.
+* Later events become legible differently.
 
-14.7 Missing Exit
+## 14.7 Missing Exit
 
-* formaler Exit ist vorhanden, praktischer Exit tritt nicht ein
-* Attraktoren oder Bindungen halten den Pfad
-* Nicht-Ausstieg kann aus asymmetrischen Kosten entstehen
-* keine automatische Personenzuschreibung
+* Formal exit is available, but practical exit does not occur.
+* Attractors or bindings hold the path in place.
+* Non-exit may arise from asymmetric costs.
+* No automatic person attribution
 
-14.8 Non-Event Sedimentation
+## 14.8 Non-Event Sedimentation
 
-* wiederholtes Ausbleiben stabilisiert Erwartungen
-* Nicht-Ereignis wird Teil des Pfadmusters
-* Alternativen verlieren Verfügbarkeit
-* spätere Ereignisse erhalten neue Bedeutung
+* Repeated non-occurrence stabilizes expectations.
+* The non-event becomes part of the path pattern.
+* Alternatives lose availability.
+* Later events acquire new meaning.
 
-14.9 Preserving Λ in Composition
+## 14.9 Preserving Λ in Composition
 
-COMPOSE darf:
+COMPOSE may:
 
-* Nicht-Ereignisse markieren,
-* ihre Erwartungsgrundlage angeben,
-* ihre Dauer und Wiederholung erfassen,
-* ihre Folgen dokumentieren.
+* Mark non-events
+* State their basis of expectation
+* Capture their duration and repetition
+* Document their consequences
 
-COMPOSE darf nicht:
+COMPOSE may not:
 
-* Λ in bloße Ereignisse umwandeln,
-* Abwesenheit kausal überdehnen,
-* oder jede Lücke als strukturierte Nicht-Realisierung behandeln.
+* Convert Λ into merely positive events
+* Causally overextend absence
+* Treat every gap as structured non-realization
 
-14.10 False Non-Event
+## 14.10 False Non-Event
 
-Kein belastbares Λ liegt vor, wenn:
+No supportable Λ is present if:
 
-* keine relevante Erwartung bestand,
-* die Erwartung nur retrospektiv erfunden wird,
-* Quellen die Erwartungsstruktur nicht tragen,
-* oder das Ausbleiben keinerlei praxeologische Differenz erzeugt.
+* No relevant expectation existed
+* The expectation is invented only retrospectively
+* Sources do not support the expectation structure
+* The non-occurrence produces no praxeological difference
 
-14.11 Non-Event Record
+## 14.11 Non-Event Record
 
+```yaml
 non_event:
-expected_structure:
-expectation_frame:
-expected_window:
-non_occurrence:
-persistence:
-affected_roles:
-affected_alternatives:
-accumulated_costs:
-source_support:
-claim_scope:
+  expected_structure:
+  expectation_frame:
+  expected_window:
+  non_occurrence:
+  persistence:
+  affected_roles:
+  affected_alternatives:
+  accumulated_costs:
+  source_support:
+  claim_scope:
+```
 
-15. COMPOSE:
-    Selection, Formation, and Compression
+# 15. COMPOSE:
 
-15.1 Purpose of COMPOSE
+## Selection, Formation, and Compression
 
-COMPOSE bildet aus mehreren geordneten Konfigurationen und Übergängen ein höheres Analyseobjekt, ohne zu behaupten, alle Ausgangsdetails vollständig zu erhalten.
+## 15.1 Purpose of COMPOSE
 
-15.2 Preconditions
+COMPOSE forms a higher analytical object from several ordered configurations and transitions without claiming to preserve all source details completely.
 
-* deklarierter Frame
-* identifizierbare Ausgangsobjekte
-* begründete zeitliche oder strukturelle Ordnung
-* hinreichende Quellen
-* erwarteter praxeologischer Gewinn
-* mögliche Verlustrechnung
+## 15.2 Preconditions
 
-15.3 Source Objects
+* Declared frame
+* Identifiable source objects
+* Justified temporal or structural order
+* Sufficient sources
+* Expected praxeological gain
+* Possible loss accounting
 
-Mögliche Ausgangsobjekte:
+## 15.3 Source Objects
 
-* configurations
-* transitions
-* events
-* non-events
-* subpaths
-* branch structures
-* partial trajectories
-* operator-typed occurrences
-* composite structures
+Possible source objects:
 
-15.4 Selection Rule
+* Configurations
+* Transitions
+* Events
+* Non-events
+* Subpaths
+* Branch structures
+* Partial trajectories
+* Operator-typed occurrences
+* Composite structures
 
-* Warum werden diese Elemente aufgenommen?
-* Warum werden andere Elemente ausgelassen?
-* Welche Elemente tragen die Zielstruktur?
-* Welche Details sind nur illustrativ?
-* Welche Auswahl ist umstritten?
+## 15.4 Selection Rule
 
-15.5 Temporal Ordering Rule
+* Why are these elements included?
+* Why are other elements omitted?
+* Which elements carry the target structure?
+* Which details are merely illustrative?
+* Which selection is contested?
 
-* lineare Ordnung
-* teilweise Ordnung
-* überlappende Übergänge
-* parallele Teilpfade
-* unsichere Reihenfolge
-* rückwirkende Periodisierung
+## 15.5 Temporal Ordering Rule
 
-15.6 Composition Frame
+* Linear order
+* Partial order
+* Overlapping transitions
+* Parallel subpaths
+* Uncertain order
+* Retrospective periodization
 
-* Gegenstand
-* zeitliche Reichweite
-* relevante Rollen
-* eingeschlossene Kontexte
-* ausgeschlossene Kontexte
-* Claim Boundary
+## 15.6 Composition Frame
 
-15.7 Formation Rule
+* Object
+* Temporal reach
+* Relevant roles
+* Included contexts
+* Excluded contexts
+* Claim boundary
 
-* Wie entsteht aus der Sequenz ein Pfad?
-* Wie entsteht aus dem Pfad eine Trajektorie?
-* Welche strukturelle Leistung erzeugt das Komposit?
-* Welche Relationen werden konstitutiv?
+## 15.7 Formation Rule
 
-15.8 Preserved Structure
+* How does a path arise from the sequence?
+* How does a trajectory arise from the path?
+* What structural performance does the composite generate?
+* Which relations become constitutive?
 
-* tragende Übergänge
-* zentrale Nicht-Ereignisse
-* relevante Reihenfolge
-* historische Asymmetrie
-* Bindungsstruktur
-* wesentliche Alternativen
-* Wendepunkte
+## 15.8 Preserved Structure
 
-15.9 Compressed Structure
+* Carrying transitions
+* Central non-events
+* Relevant order
+* Historical asymmetry
+* Binding structure
+* Essential alternatives
+* Turning points
 
-* lokale Details
-* interne Variation
-* parallele Nebenpfade
-* wiederholte ähnliche Ereignisse
-* nicht tragende Differenzen
-* feine zeitliche Auflösung
+## 15.9 Compressed Structure
 
-15.10 Excluded Structure
+* Local details
+* Internal variation
+* Parallel secondary paths
+* Repeated similar events
+* Non-carrying differences
+* Fine temporal resolution
 
-* bewusst nicht aufgenommene Materialien
-* irrelevante Nebenpfade
-* nicht tragfähige Alternativen
-* fremde Frames
-* unsupported detail
+## 15.10 Excluded Structure
 
-15.11 Irrecoverable Loss
+* Materials deliberately not included
+* Irrelevant secondary paths
+* Unsupportable alternatives
+* Foreign frames
+* Unsupported detail
 
-* Informationen, die durch die Komposition nicht wiederherstellbar sind
-* Unsicherheit über Zwischenzustände
-* verlorene Heterogenität
-* nicht mehr trennbare lokale Kosten
-* verschwundene Alternativstruktur
+## 15.11 Irrecoverable Loss
 
-15.12 Composition Claim
+* Information that cannot be restored through the composition
+* Uncertainty concerning intermediate states
+* Lost heterogeneity
+* Local costs that can no longer be separated
+* Disappeared alternative structure
 
-Mögliche Claims:
+## 15.12 Composition Claim
 
-* sequence claim
-* path claim
-* trajectory claim
-* path-dependence claim
-* branch-closure claim
-* sedimentation claim
+Possible claims:
 
-Jeder Claim benötigt eigene Begründung.
+* Sequence claim
+* Path claim
+* Trajectory claim
+* Path-dependence claim
+* Branch-closure claim
+* Sedimentation claim
 
-15.13 Composition without Retyping
+Each claim requires its own justification.
 
-COMPOSE bildet ein neues Analyseobjekt.
+## 15.13 Composition without Retyping
 
-Es bestimmt noch nicht automatisch:
+COMPOSE forms a new analytical object.
 
-* frame-function
-* macro-event function
-* attractor-function
-* higher-level operator function
+It does not yet automatically determine:
 
-Diese Funktionen erfordern später PROJECT_AS.
+* Frame-function
+* Macro-event function
+* Attractor-function
+* Higher-level operator function
 
-15.14 COMPOSE and Counterfactual Sensitivity
+These functions later require PROJECT_AS.
 
-* Würde der Wegfall eines Ausgangselements das Komposit verändern?
-* Welche Elemente sind konstitutiv?
-* Welche Elemente sind austauschbar?
-* Bleibt das Komposit gegenüber zu vielen Änderungen unverändert?
-* Ist die gebildete Trajektorie überelastisch?
+## 15.14 COMPOSE and Counterfactual Sensitivity
 
-15.15 Composition Failure
+* Would removing a source element change the composite?
+* Which elements are constitutive?
+* Which elements are interchangeable?
+* Does the composite remain unchanged under too many modifications?
+* Is the formed trajectory overly elastic?
 
-COMPOSE scheitert, wenn:
+## 15.15 Composition Failure
 
-* keine tragende Ordnung vorliegt,
-* Auswahl nur narrativ motiviert ist,
-* Quellen die Verbindung nicht tragen,
-* relevante Heterogenität zerstört wird,
-* der Pfad nicht rekonstruierbar bleibt,
-* oder das Zielobjekt keine zusätzliche praxeologische Leistung besitzt.
+COMPOSE fails if:
 
-15.16 COMPOSE Record
+* No carrying order exists
+* Selection is motivated only narratively
+* Sources do not support the connection
+* Relevant heterogeneity is destroyed
+* The path does not remain reconstructable
+* The target object produces no additional praxeological performance
 
+## 15.16 COMPOSE Record
+
+```yaml
 compose:
-source_objects:
-source_frame:
-temporal_scope:
-ordering_rule:
-selection_rule:
-formation_rule:
-preserved:
-compressed:
-excluded:
-irrecoverable:
-target_object:
-expected_praxeological_difference:
-counterfactual_sensitivity:
-claim_scope:
-admissibility_result:
+  source_objects:
+  source_frame:
+  temporal_scope:
+  ordering_rule:
+  selection_rule:
+  formation_rule:
+  preserved:
+  compressed:
+  excluded:
+  irrecoverable:
+  target_object:
+  expected_praxeological_difference:
+  counterfactual_sensitivity:
+  claim_scope:
+  admissibility_result:
+```
 
-16. PATH Boundary Conditions
+# 16. PATH Boundary Conditions
 
-16.1 The Lower PATH Boundary
+## 16.1 The Lower PATH Boundary
 
-Zu wenig PATH liegt vor, wenn:
+Too little PATH is present if:
 
-* bloße Chronologie als Pfad ausgegeben wird,
-* Reihenfolge keine praxeologische Differenz erzeugt,
-* zusätzliche zeitliche Details keine Rekonstruktion verändern,
-* oder ein Übergang ohne tragende Struktur behauptet wird.
+* Mere chronology is presented as a path
+* Order generates no praxeological difference
+* Additional temporal details change no reconstruction
+* A transition is asserted without carrying structure
 
-16.2 Chronology without Trajectory Gain
+## 16.2 Chronology without Trajectory Gain
 
-* viele Datenpunkte
-* keine Sedimentation
-* keine Veränderung der Fortsetzungsmöglichkeiten
-* keine historische Last
-* kein zusätzlicher Praxisgewinn
+* Many data points
+* No sedimentation
+* No change in possibilities for continuation
+* No historical load
+* No additional praxis gain
 
-16.3 The Upper PATH Boundary
+## 16.3 The Upper PATH Boundary
 
-Zu viel PATH liegt vor, wenn:
+Too much PATH is present if:
 
-* ein Makrolabel den Pfad ersetzt,
-* die Komposition nicht auf Ausgangsübergänge rückführbar ist,
-* Zeiträume homogenisiert werden,
-* konkurrierende Teilpfade verschwinden,
-* oder die Trajektorie gegenüber Quelländerungen indifferent bleibt.
+* A macro-label replaces the path
+* The composition cannot be traced back to source transitions
+* Time periods are homogenized
+* Competing subpaths disappear
+* The trajectory remains indifferent to source changes
 
-16.4 Trajectory without Path Trace
+## 16.4 Trajectory without Path Trace
 
-* Zielbegriff ist vorhanden.
-* Rekonstruierbare Übergänge fehlen.
-* Wendepunkte bleiben unbestimmt.
-* Nicht-Ereignisse werden nicht ausgewiesen.
-* historische Last wird nur behauptet.
+* The target concept is present.
+* Reconstructable transitions are absent.
+* Turning points remain undetermined.
+* Non-events are not disclosed.
+* Historical load is merely asserted.
 
-16.5 Excessive Temporal Compression
+## 16.5 Excessive Temporal Compression
 
-* lange Zeiträume werden punktualisiert
-* widersprüchliche Phasen werden zusammengezogen
-* lokale Umkehrungen verschwinden
-* Dauer wird durch Label ersetzt
-* innere Temporalität geht verloren
+* Long periods are punctualized.
+* Contradictory phases are collapsed.
+* Local reversals disappear.
+* Duration is replaced by a label.
+* Internal temporality is lost.
 
-16.6 Artificial Directionality
+## 16.6 Artificial Directionality
 
-* rückblickende Ordnung wird als ursprüngliche Entwicklung ausgegeben
-* Kontingenz wird entfernt
-* Alternativen werden unsichtbar
-* gegenläufige Teilpfade werden ignoriert
+* Retrospective order is presented as original development.
+* Contingency is removed.
+* Alternatives become invisible.
+* Countervailing subpaths are ignored.
 
-16.7 Hidden Teleology
+## 16.7 Hidden Teleology
 
-* späteres Ergebnis bestimmt die Auswahl früherer Ereignisse
-* Zielzustand erscheint notwendig
-* nicht passende Übergänge werden entfernt
-* Pfad wird als Fortschritt, Verfall oder Reifung vorausgesetzt
+* The later result determines the selection of earlier events.
+* The target state appears necessary.
+* Non-fitting transitions are removed.
+* The path is presupposed as progress, decline, or maturation.
 
-16.8 Omitted Non-Events
+## 16.8 Omitted Non-Events
 
-* Pfad wird ausschließlich aus positiven Ereignissen komponiert
-* Verzögerungen und Blockaden verschwinden
-* alternative Schließungen werden nicht sichtbar
-* Λ-Last wird in Ereignissprache übersetzt
+* The path is composed exclusively from positive events.
+* Delays and blockages disappear.
+* Alternative closures remain invisible.
+* Λ-load is translated into event language.
 
-16.9 Omitted Asymmetries
+## 16.9 Omitted Asymmetries
 
-* gleiche Ereignisse werden als gleich belastend behandelt
-* ungleiche Exit- und Handlungskosten verschwinden
-* Rollenverfestigung wird nicht rekonstruiert
-* Pfadabhängigkeit wird unterschätzt
+* Identical events are treated as equally burdensome.
+* Unequal exit and action costs disappear.
+* Role hardening is not reconstructed.
+* Path dependence is underestimated.
 
-16.10 PATH versus RETYPE
+## 16.10 PATH versus RETYPE
 
-PATH fragt:
+PATH asks:
 
-* Wie entstand die zeitlich sedimentierte Struktur?
+* How did the temporally sedimented structure arise?
 
-RETYPE fragt später:
+RETYPE later asks:
 
-* Welche Funktion übernimmt diese Struktur in einem anderen Kontext?
+* What function does this structure assume in another context?
 
-Eine Trajektorie als späterer Frame ist kein PATH-Befund allein.
+A trajectory functioning as a later frame is not a PATH finding alone.
 
-16.11 PATH versus SUB
+## 16.11 PATH versus SUB
 
-PATH komponiert zeitliche Strukturen.
+PATH composes temporal structures.
 
-SUB öffnet ein bereits gebildetes Pfad- oder Trajektorienobjekt unter feinerer Auflösung.
+SUB opens an already formed path or trajectory object under finer resolution.
 
-Eine detailliertere Chronologie ist nicht automatisch SUB, solange kein komprimiertes Objekt rekonstruktiv geöffnet wird.
+A more detailed chronology is not automatically SUB as long as no compressed object is reconstructively opened.
 
-16.12 Praxeological Purchase Test
+## 16.12 Praxeological Purchase Test
 
-* Verändert die zeitliche Ordnung die Rekonstruktion?
-* Werden Handlungskorridore anders lesbar?
-* Werden Kosten oder Asymmetrien sichtbar?
-* Werden Bindungen oder Residuen sichtbar?
-* Werden Alternativen und Verluste präziser?
+* Does temporal order change the reconstruction?
+* Do action corridors become legible differently?
+* Do costs or asymmetries become visible?
+* Do bindings or residues become visible?
+* Do alternatives and losses become more precise?
 
-16.13 Traceable Path Test
+## 16.13 Traceable Path Test
 
-* Sind Ausgangskonfigurationen identifizierbar?
-* Sind Übergänge rekonstruierbar?
-* Sind zentrale Nicht-Ereignisse sichtbar?
-* Reagiert die Trajektorie auf relevante Quelländerungen?
-* Bleibt die Kompression überprüfbar?
+* Are source configurations identifiable?
+* Are transitions reconstructable?
+* Are central non-events visible?
+* Does the trajectory respond to relevant source changes?
+* Does the compression remain auditable?
 
-16.14 PATH Stop Conditions
+## 16.14 PATH Stop Conditions
 
-PATH wird gestoppt, wenn:
+PATH is stopped if:
 
-* keine zusätzliche zeitliche Differenz entsteht,
-* die Quellenbasis überschritten wird,
-* die Periodisierung beliebig wird,
-* weitere Komposition nur dasselbe Label wiederholt,
-* oder der Pfad nicht mehr rekonstruierbar bleibt.
+* No additional temporal difference arises
+* The source basis is exceeded
+* Periodization becomes arbitrary
+* Further composition merely repeats the same label
+* The path no longer remains reconstructable
 
-16.15 PATH Non-Capture
+## 16.15 PATH Non-Capture
 
-PATH darf mit Non-Capture enden, wenn:
+PATH may end in Non-Capture if:
 
-* keine stabile Reihenfolge rekonstruierbar ist,
-* konkurrierende Pfade unentscheidbar bleiben,
-* Quellen zentrale Übergänge nicht tragen,
-* relevante Alternativen unbekannt sind,
-* oder jede Komposition entscheidende Heterogenität zerstört.
+* No stable order can be reconstructed
+* Competing paths remain undecidable
+* Sources do not support central transitions
+* Relevant alternatives are unknown
+* Every composition destroys decisive heterogeneity
 
 <a id="17-path-cases-countercases-and-local-audit"></a>
 
-17. PATH Cases, Countercases, and Local Audit
+# 17. PATH Cases, Countercases, and Local Audit
 
-17.1 Case Architecture
+## 17.1 Case Architecture
 
-Jeder PATH-Fall sollte mindestens enthalten:
+Every PATH case should include at least:
 
-* Ausgangsframe
-* zeitliche Reichweite
-* Ausgangskonfiguration
-* Übergänge
-* Ereignisse und Nicht-Ereignisse
-* Alternativen
-* COMPOSE-Entscheidung
-* Verlustrechnung
-* Admissibility Test
-* Claim Boundary
+* Source frame
+* Temporal scope
+* Source configuration
+* Transitions
+* Events and non-events
+* Alternatives
+* COMPOSE decision
+* Loss accounting
+* Admissibility test
+* Claim boundary
 
-17.2 Case 1:
-Simple Linear Path
+## 17.2 Case 1:
 
-* klare Reihenfolge
-* wenige Übergänge
-* geringe Verzweigung
-* überprüfbare Ereignisse
-* begrenzte Pfadbehauptung
+### Simple Linear Path
 
-17.3 Case 2:
-Branching Path
+* Clear sequence
+* Few transitions
+* Low branching
+* Verifiable events
+* Bounded path claim
 
-* mehrere reale Fortsetzungen
-* dokumentierter Branch Point
-* selektierte und verworfene Pfade
-* veränderte spätere Erreichbarkeit
+## 17.3 Case 2:
 
-17.4 Case 3:
-Trajectory with a Central Non-Event
+### Branching Path
 
-* entscheidende Nicht-Entscheidung oder ausgebliebene Handlung
-* zunehmende Λ-Last
-* Attraktor- und Asymmetriefolgen
-* Komposition ohne Ereignisinflation
+* Several real continuations
+* Documented branch point
+* Selected and rejected paths
+* Changed later reachability
 
-17.5 Case 4:
-Similar End States, Different Histories
+## 17.4 Case 3:
 
-* vergleichbare Endkonfigurationen
-* unterschiedliche Kosten
-* unterschiedliche Bindungen
-* unterschiedliche Residuen
-* Nachweis starker Pfadabhängigkeit
+### Trajectory with a Central Non-Event
 
-17.6 Case 5:
-Repeated Pattern with Weak Path Dependence
+* Decisive non-decision or omitted action
+* Increasing Λ-load
+* Attractor and asymmetry consequences
+* Composition without event inflation
 
-* sichtbare Wiederholung
-* geringe historische Zusatzlast
-* aktueller Zustand bleibt überwiegend gegenwartsbestimmt
-* Gegenfall gegen automatische Pfadabhängigkeitsbehauptung
+## 17.5 Case 4:
 
-17.7 Countercase 1:
-Chronology Presented as Path
+### Similar End States, Different Histories
 
-* viele Ereignisse
-* keine tragenden Übergänge
-* keine Auswahlstruktur
-* kein praxeologischer Mehrwert
+* Comparable end configurations
+* Different costs
+* Different bindings
+* Different residues
+* Demonstration of strong path dependence
 
-17.8 Countercase 2:
-Macro-Label without Traceable Path
+## 17.6 Case 5:
 
-* starke Gesamtbezeichnung
-* fehlende Zwischenstrukturen
-* geringe Counterfactual Sensitivity
-* Überschreitung des Traceability Ceiling
+### Repeated Pattern with Weak Path Dependence
 
-17.9 Countercase 3:
-Teleological Composition
+* Visible repetition
+* Low additional historical load
+* Current state remains predominantly determined by present conditions
+* Countercase against automatic assertions of path dependence
 
-* Zielzustand selektiert rückwirkend die Quellen
-* Alternativen verschwinden
-* Richtung wird als Notwendigkeit ausgegeben
-* inadmissible COMPOSE
+## 17.7 Countercase 1:
 
-17.10 Countercase 4:
-Composition through Omitted Asymmetry
+### Chronology Presented as Path
 
-* Ereignisse sind korrekt geordnet
-* Kosten- und Rollenverteilung fehlt
-* gleiche Endpunkte werden fälschlich gleichgesetzt
-* Trajektorienclaim scheitert
+* Many events
+* No carrying transitions
+* No selection structure
+* No praxeological added value
 
-17.11 Countercase 5:
-False Central Non-Event
+## 17.8 Countercase 2:
 
-* Erwartungsstruktur ist nicht belegt
-* Abwesenheit wird nachträglich bedeutungsvoll gemacht
-* Λ wird überdehnt
-* Pfadclaim muss reduziert werden
+### Macro-Label without Traceable Path
 
-17.12 Confusion Case:
-Path or Projection?
+* Strong overall designation
+* Missing intermediate structures
+* Low counterfactual sensitivity
+* Traceability ceiling exceeded
 
-* Eine vergangene Entwicklung strukturiert eine spätere Szene.
-* PATH rekonstruiert zunächst die Entwicklung.
-* Die Behauptung einer Frame-Funktion gehört zu PROJECT_AS.
-* Beide Operationen müssen getrennte Records besitzen.
+## 17.9 Countercase 3:
 
-17.13 Confusion Case:
-Path or Resolution Drift?
+### Teleological Composition
 
-* zusätzliche Zeitpunkte werden ergänzt
-* keine neue Übergangsstruktur
-* keine veränderte Praxisrekonstruktion
-* Relevance Floor wird unterschritten
+* Target state retrospectively selects the sources
+* Alternatives disappear
+* Direction is presented as necessity
+* Inadmissible COMPOSE
 
-17.14 Confusion Case:
-Trajectory or Attractor?
+## 17.10 Countercase 4:
 
-* einzelne historische Entwicklung
-* wiederkehrende Verlaufsform
-* Unterschied zwischen Trajektorie und Attraktor-Funktion
-* Vorbereitung der späteren RETYPE-Prüfung
+### Composition through Omitted Asymmetry
 
-17.15 PATH Local Audit
+* Events are correctly ordered
+* Cost and role distribution is missing
+* Identical endpoints are falsely equated
+* Trajectory claim fails
 
-1. Ist der Frame deklariert?
+## 17.11 Countercase 5:
 
-2. Ist die zeitliche Reichweite bestimmt?
+### False Central Non-Event
 
-3. Sind Konfigurationen und Übergänge getrennt?
+* Expectation structure is unsupported
+* Absence is retrospectively made meaningful
+* Λ is overextended
+* Path claim must be reduced
 
-4. Sind Ereignisse und Nicht-Ereignisse ausgewiesen?
+## 17.12 Confusion Case:
 
-5. Ist der Pfad mehr als eine Chronologie?
+### Path or Projection?
 
-6. Ist die Trajektorie mehr als ein Pfad?
+* A past development structures a later scene.
+* PATH first reconstructs the development.
+* The claim of a frame-function belongs to PROJECT_AS.
+* Both operations require separate records.
 
-7. Ist Pfadabhängigkeit separat begründet?
+## 17.13 Confusion Case:
 
-8. Sind Branches und verlorene Alternativen sichtbar?
+### Path or Resolution Drift?
 
-9. Ist die COMPOSE-Auswahl begründet?
+* Additional points in time are added.
+* No new transition structure
+* No changed praxis reconstruction
+* Relevance floor is undercut
 
-10. Sind preserved, compressed, excluded und irrecoverable dokumentiert?
+## 17.14 Confusion Case:
 
-11. Erzeugt die Komposition praxeologischen Mehrwert?
+### Trajectory or Attractor?
 
-12. Bleibt der Pfad rekonstruierbar?
+* Individual historical development
+* Recurring trajectory form
+* Difference between trajectory and attractor-function
+* Preparation for the later RETYPE test
 
-13. Reagiert die Zielstruktur auf relevante Quelländerungen?
+## 17.15 PATH Local Audit
 
-14. Wurde Teleologie vermieden?
+1. Is the frame declared?
 
-15. Wurde eine Zielfunktion fälschlich bereits in PATH behauptet?
+2. Is the temporal scope determined?
 
-16. Bleibt der Ursprungstyp erhalten?
+3. Are configurations and transitions separated?
 
-17. Ist der Claim Ceiling angemessen?
+4. Are events and non-events disclosed?
 
-18. Ist eine Stopbedingung angegeben?
+5. Is the path more than a chronology?
 
-19. Bleibt Non-Capture möglich?
+6. Is the trajectory more than a path?
 
-20. Erzeugt PATH keinerlei zusätzliche Autorität?
+7. Is path dependence justified separately?
 
-17.16 PATH Output Classes
+8. Are branches and lost alternatives visible?
 
-* admissible sequence
-* admissible path
-* admissible trajectory
-* admissible path-dependence claim
-* provisional path
-* competing path constructions
-* reduced claim
-* failed composition
-* mandatory stop
-* non-capture
+9. Is the COMPOSE selection justified?
 
-17.17 PATH Closing Statement
+10. Are `preserved`, `compressed`, `excluded`, and `irrecoverable` documented?
+
+11. Does the composition generate praxeological added value?
+
+12. Does the path remain reconstructable?
+
+13. Does the target structure respond to relevant source changes?
+
+14. Has teleology been avoided?
+
+15. Has a target function already been falsely asserted within PATH?
+
+16. Is the origin type preserved?
+
+17. Is the claim ceiling appropriate?
+
+18. Is a stop condition stated?
+
+19. Does non-capture remain possible?
+
+20. Does PATH generate no additional authority?
+
+## 17.16 PATH Output Classes
+
+* Admissible sequence
+* Admissible path
+* Admissible trajectory
+* Admissible path-dependence claim
+* Provisional path
+* Competing path constructions
+* Reduced claim
+* Failed composition
+* Mandatory stop
+* Non-capture
+
+## 17.17 PATH Closing Statement
 
 PATH specifies how temporally ordered configurations and transitions may be composed into paths and trajectories while preserving sequence, non-events, asymmetries, alternatives, and historical load.
 
@@ -2146,145 +2216,151 @@ It does not yet determine what function a completed trajectory may perform withi
 
 ---
 
-PART II — SUB
-Decomposition under Finer Resolution
+# PART II — SUB
+
+## Decomposition under Finer Resolution
 
 <a id="18-the-provisionally-compressed-object"></a>
 
-18. The Provisionally Compressed Object
+# 18. The Provisionally Compressed Object
 
-18.1 Purpose of SUB
+## 18.1 Purpose of SUB
 
-SUB spezifiziert die Bedingungen, unter denen ein bislang als analytische Einheit behandeltes Objekt unter feinerer Granularität rekonstruiert werden darf.
+SUB specifies the conditions under which an object previously treated as an analytical unit may be reconstructed under finer granularity.
 
-SUB fragt:
+SUB asks:
 
-* Welche interne Struktur wurde bislang komprimiert?
-* Warum genügt die gröbere Rekonstruktion nicht?
-* Welche zusätzliche praxeologische Differenz wird erwartet?
-* Welche feineren Strukturen tragen die gröbere Funktion?
-* Wann erzeugt zusätzliche Auflösung keinen weiteren Erkenntnisgewinn?
-* Wann verliert die Dekomposition den Bezug zu ihrem Ausgangsobjekt?
+* Which internal structure has so far been compressed?
+* Why is the coarser reconstruction insufficient?
+* What additional praxeological difference is expected?
+* Which finer structures carry the coarser function?
+* When does additional resolution produce no further analytical gain?
+* When does decomposition lose its relation to its source object?
 
-18.2 Provisional Elementarity
+## 18.2 Provisional Elementarity
 
-Ein Objekt ist innerhalb STRATA niemals absolut elementar.
+Within STRATA, an object is never absolutely elementary.
 
-„Elementar“ bedeutet lediglich:
+“Elementary” means only:
 
-* innerhalb des aktuellen Frames nicht weiter geöffnet,
-* für den gegenwärtigen Claim als Einheit behandelt,
-* unter der aktuellen Granularität hinreichend bestimmt,
-* vorläufig von interner Differenzierung entlastet.
+* Not opened further within the current frame
+* Treated as a unit for the current claim
+* Sufficiently determined under the current granularity
+* Provisionally relieved of internal differentiation
 
-Provisional elementarity
+```text
+provisional elementarity
 ≠
 ontological indivisibility
+```
 
-18.3 The Compressed Object
+## 18.3 The Compressed Object
 
-Ein komprimiertes Objekt kann sein:
+A compressed object may be:
 
-* ein operatorisch typisiertes Vorkommen,
-* ein Ereignis,
-* ein Nicht-Ereignis,
-* ein Übergang,
-* ein institutionelles Arrangement,
-* ein Pfad,
-* eine Trajektorie,
-* oder ein bereits komponiertes Analyseobjekt.
+* An operator-typed occurrence
+* An event
+* A non-event
+* A transition
+* An institutional arrangement
+* A path
+* A trajectory
+* An already composed analytical object
 
-Die Kompression kann enthalten:
+The compression may contain:
 
-* ausgelassene Teilstrukturen,
-* verdeckte zeitliche Ordnung,
-* interne Konflikte,
-* verteilte Asymmetrien,
-* wiederholte Reproduktionspraktiken,
-* nicht sichtbare Abhängigkeiten,
-* und konkurrierende interne Pfade.
+* Omitted substructures
+* Concealed temporal order
+* Internal conflicts
+* Distributed asymmetries
+* Repeated reproduction practices
+* Invisible dependencies
+* Competing internal paths
 
-18.4 Operator Type versus Decomposable Occurrence
+## 18.4 Operator Type versus Decomposable Occurrence
 
-SUB dekomponiert nicht:
+SUB does not decompose:
 
-* Δ als Difference,
-* □ als Frame-Operator,
-* Α als Attractor-Operator,
-* Ω als Asymmetry-Operator,
-* oder andere Basisoperatoren als formale Typen.
+* Δ as Difference
+* □ as the Frame operator
+* Α as the Attractor operator
+* Ω as the Asymmetry operator
+* Any other base operator as a formal type
 
-SUB dekomponiert:
+SUB decomposes:
 
-* konkrete frame-typisierte Vorkommen,
-* konkrete attractor-typisierte Vorkommen,
-* konkrete asymmetry-typisierte Vorkommen,
-* und Komposite, die durch diese Operatoren strukturiert werden.
+* Concrete frame-typed occurrences
+* Concrete attractor-typed occurrences
+* Concrete asymmetry-typed occurrences
+* Composites structured by these operators
 
+```text
 operator type
 ≠
 decomposable occurrence
+```
 
-18.5 Why Compression Is Necessary
+## 18.5 Why Compression Is Necessary
 
-Kompression ist keine bloße Schwäche.
+Compression is not merely a weakness.
 
-Sie ermöglicht:
+It enables:
 
-* handhabbare Rekonstruktion,
-* Erhaltung übergreifender Relationen,
-* Vergleichbarkeit,
-* zeitliche Orientierung,
-* und begrenzte Claims.
+* Manageable reconstruction
+* Preservation of overarching relations
+* Comparability
+* Temporal orientation
+* Bounded claims
 
-Ohne Kompression würde jede Analyse in unendliche Detailauflösung zerfallen.
+Without compression, every analysis would dissolve into infinite detail resolution.
 
-18.6 Why Compression Can Become Insufficient
+## 18.6 Why Compression Can Become Insufficient
 
-Eine bestehende Kompression kann unzureichend werden, wenn:
+An existing compression may become insufficient if:
 
-* relevante Unterschiede verdeckt bleiben,
-* eine Funktion scheinbar ohne Träger erscheint,
-* konkurrierende interne Prozesse vereinheitlicht werden,
-* Kostenverteilungen unsichtbar bleiben,
-* eine stabile Makrofunktion fälschlich als interne Homogenität erscheint,
-* oder ein Gegenfall die gröbere Typisierung belastet.
+* Relevant differences remain concealed
+* A function appears to lack carriers
+* Competing internal processes are unified
+* Cost distributions remain invisible
+* A stable macro-function falsely appears internally homogeneous
+* A countercase places the coarser typing under pressure
 
-18.7 Reasons to Decompose
+## 18.7 Reasons to Decompose
 
-Legitime Gründe können sein:
+Legitimate reasons may include:
 
-* unklare Entstehung einer stabilen Funktion,
-* widersprüchliche Befunde innerhalb des Objekts,
-* verdeckte Asymmetrie,
-* relevante interne Zeitstruktur,
-* unzureichende Erklärung eines Übergangs,
-* konkurrierende interne Pfade,
-* oder Scheitern eines gröberen Claims.
+* Unclear formation of a stable function
+* Contradictory findings within the object
+* Concealed asymmetry
+* Relevant internal temporal structure
+* Insufficient explanation of a transition
+* Competing internal paths
+* Failure of a coarser claim
 
-18.8 Reasons Not to Decompose
+## 18.8 Reasons Not to Decompose
 
-Keine Dekomposition ist erforderlich, wenn:
+No decomposition is required if:
 
-* die gröbere Rekonstruktion den Claim bereits hinreichend trägt,
-* feinere Details keine praxeologische Differenz erzeugen,
-* Quellen die Öffnung nicht stützen,
-* die interne Struktur für den aktuellen Gegenstand irrelevant ist,
-* oder zusätzliche Auflösung die Kalibrierbarkeit verschlechtert.
+* The coarser reconstruction already supports the claim sufficiently
+* Finer details generate no praxeological difference
+* Sources do not support opening the object
+* Internal structure is irrelevant to the current object of analysis
+* Additional resolution reduces calibratability
 
-18.9 Preservation Requirement
+## 18.9 Preservation Requirement
 
-SUB darf das Ausgangsobjekt nicht einfach durch eine Menge von Teilen ersetzen.
+SUB must not simply replace the source object with a set of parts.
 
-Die Dekomposition muss erklären:
+The decomposition must explain:
 
-* wie die feineren Strukturen zusammenhängen,
-* wie sie die gröbere Funktion tragen,
-* wie sie diese gegebenenfalls destabilisieren,
-* und warum weiterhin vom selben Ausgangsobjekt gesprochen werden darf.
+* How the finer structures relate to one another
+* How they carry the coarser function
+* How they may destabilize it
+* Why it remains legitimate to speak of the same source object
 
-18.10 Minimal Source Declaration
+## 18.10 Minimal Source Declaration
 
+```yaml
 compressed_object:
 reference:
 origin_type:
@@ -2295,1095 +2371,1117 @@ current_function:
 known_internal_structure:
 unresolved_internal_structure:
 decomposition_reason:
+```
 
 <a id="19-granularity-change-and-the-logic-of-decomposition"></a>
 
-19. Granularity Change and the Logic of Decomposition
+# 19. Granularity Change and the Logic of Decomposition
 
-19.1 Granularity Change
+## 19.1 Granularity Change
 
-Granularitätswechsel bedeutet:
+Granularity change means:
 
-* Veränderung der verwendeten Unterscheidungsdichte,
-* nicht notwendig Veränderung des Frames,
-* nicht notwendig Veränderung des Gegenstands,
-* und nicht automatisch Veränderung der Zielfunktion.
+* Changing the density of distinctions being used
+* Not necessarily changing the frame
+* Not necessarily changing the object
+* Not automatically changing the target function
 
-SUB bewegt sich gewöhnlich zu feinerer Auflösung, nicht zu „tieferer Wahrheit“.
+SUB ordinarily moves toward finer resolution, not toward “deeper truth.”
 
-19.2 Relative Downward Movement
+## 19.2 Relative Downward Movement
 
-Die Rede von einer Bewegung „nach unten“ ist relational.
+The language of moving “downward” is relational.
 
-Sie bedeutet:
+It means:
 
-* ein Komposit wird in Teilstrukturen geöffnet,
-* ein Vorkommen wird in seine Reproduktionsbedingungen zerlegt,
-* ein Pfad wird in Teilpfade und Übergänge geöffnet,
-* oder eine Makrofunktion wird in ihre tragenden Konfigurationen rekonstruiert.
+* A composite is opened into substructures
+* An occurrence is decomposed into its conditions of reproduction
+* A path is opened into subpaths and transitions
+* A macro-function is reconstructed through its carrying configurations
 
-Diese Richtung ist analytisch, nicht ontologisch.
+This direction is analytical, not ontological.
 
-19.3 Stable Frame, Finer Granularity
+## 19.3 Stable Frame, Finer Granularity
 
-Typischer SUB-Fall:
+Typical SUB case:
 
-* derselbe Analyseframe bleibt bestehen,
-* das Ausgangsobjekt bleibt Referenzpunkt,
-* die interne Unterscheidungsdichte steigt,
-* und die gröbere Funktion bleibt prüfbar.
+* The same analytical frame remains in place.
+* The source object remains the reference point.
+* Internal distinction density increases.
+* The coarser function remains testable.
 
-19.4 Changed Frame during Decomposition
+## 19.4 Changed Frame during Decomposition
 
-Ein Framewechsel kann während SUB notwendig werden, darf aber nicht unmarkiert erfolgen.
+A frame change may become necessary during SUB, but it must not occur without being marked.
 
-Zu unterscheiden sind:
+The following must be distinguished:
 
-* feinerer Blick innerhalb desselben Frames,
-* Wechsel zu einem internen Teilframe,
-* Wechsel zu einem anderen Kontext,
-* und Übergang von SUB zu RETYPE.
+* A finer view within the same frame
+* A shift to an internal subframe
+* A shift to another context
+* A transition from SUB to RETYPE
 
-Ein Framewechsel allein ist noch keine Dekomposition.
+A frame change alone is not yet decomposition.
 
-19.5 Change of Distinction Set
+## 19.5 Change of Distinction Set
 
-Dekomposition verändert, welche Unterschiede sichtbar werden.
+Decomposition changes which differences become visible.
 
-Mögliche neue Differenzen:
+Possible new differences include:
 
-* Teilrollen,
-* lokale Kosten,
-* einzelne Übergänge,
-* konkurrierende Erwartungen,
-* interne Nicht-Ereignisse,
-* Reproduktionsbedingungen,
-* unterschiedliche Zeitfenster,
-* oder ungleiche Zugänge und Expositionen.
+* Subroles
+* Local costs
+* Individual transitions
+* Competing expectations
+* Internal non-events
+* Conditions of reproduction
+* Different temporal windows
+* Unequal access and exposure
 
-19.6 Local versus Distributed Structure
+## 19.6 Local versus Distributed Structure
 
-Ein scheinbar einheitliches Objekt kann intern:
+An apparently unified object may internally be:
 
-* lokal konzentriert,
-* räumlich verteilt,
-* institutionell verteilt,
-* zeitlich verteilt,
-* oder über mehrere Rollen verteilt sein.
+* Locally concentrated
+* Spatially distributed
+* Institutionally distributed
+* Temporally distributed
+* Distributed across several roles
 
-SUB darf „Teil“ deshalb nicht ausschließlich räumlich verstehen.
+SUB must therefore not understand “part” exclusively in spatial terms.
 
-19.7 Functional Parts versus Mere Fragments
+## 19.7 Functional Parts versus Mere Fragments
 
-Nicht jedes Detail ist ein funktionaler Bestandteil.
+Not every detail is a functional component.
 
-Ein relevanter Teil muss mindestens:
+A relevant part must at minimum:
 
-* eine Beziehung zum Ausgangsobjekt besitzen,
-* eine tragende oder störende Funktion erfüllen,
-* unter Quellen gestützt sein,
-* und für die gröbere Rekonstruktion Bedeutung besitzen.
+* Possess a relation to the source object
+* Fulfil a carrying or disruptive function
+* Be supported by sources
+* Matter to the coarser reconstruction
 
+```text
 fragment
 ≠
 functional component
+```
 
-19.8 Granularity Comparability
+## 19.8 Granularity Comparability
 
-Zwei Dekompositionen sind nur vergleichbar, wenn:
+Two decompositions are comparable only if:
 
-* derselbe Ausgangsgegenstand vorliegt,
-* Frames hinreichend kompatibel sind,
-* ähnliche zeitliche Reichweiten gelten,
-* vergleichbare Quellenstandards verwendet werden,
-* und die Zielgranularitäten zueinander in Beziehung gesetzt werden können.
+* They concern the same source object
+* Their frames are sufficiently compatible
+* Similar temporal scopes apply
+* Comparable source standards are used
+* Their target granularities can be related to one another
 
-19.9 Granularity Mismatch
+## 19.9 Granularity Mismatch
 
-Ein Granularitätskonflikt entsteht, wenn:
+A granularity conflict arises if:
 
-* eine Dekomposition lokale Prozesse zeigt,
-* eine andere Rekonstruktion aber eine Makrofunktion prüft,
-* und beide Befunde ohne Vermittlung als Widerspruch ausgegeben werden.
+* One decomposition shows local processes
+* Another reconstruction tests a macro-function
+* Both findings are presented as contradictory without mediation
 
-Ein Level mismatch kann einen Widerspruch erklären, aber nicht automatisch auflösen.
+A level mismatch may explain a contradiction, but it does not automatically resolve it.
 
-19.10 The Lower Granularity Question
+## 19.10 The Lower Granularity Question
 
-Zentrale SUB-Frage:
+Central SUB question:
 
-Does the additional distinction change a warranted reconstruction of the praxis-relevant structure?
+> Does the additional distinction change a warranted reconstruction of the praxis-relevant structure?
 
-Wenn nein, liegt möglicherweise Auflösungsneutralität oder Auflösungsdrift vor.
+If not, resolution neutrality or resolution drift may be present.
 
-19.11 Minimal Granularity Relation
+## 19.11 Minimal Granularity Relation
 
+```yaml
 granularity_change:
-source_granularity:
-target_granularity:
-distinction_added:
-frame_preserved:
-reference_preserved:
-expected_praxeological_difference:
-comparability_status:
+  source_granularity:
+  target_granularity:
+  distinction_added:
+  frame_preserved:
+  reference_preserved:
+  expected_praxeological_difference:
+  comparability_status:
+```
 
 <a id="20-decompose-conditions-procedure-and-preservation-requirements"></a>
 
-20. DECOMPOSE:
-    Conditions, Procedure, and Preservation Requirements
+# 20. DECOMPOSE:
 
-20.1 Definition
+## Conditions, Procedure, and Preservation Requirements
 
-DECOMPOSE ist die kontrollierte Rekonstruktion eines vorläufig komprimierten Objekts als relationale Zusammensetzung feinerer Strukturen unter deklarierter Granularität.
+## 20.1 Definition
 
-20.2 Preconditions
+DECOMPOSE is the controlled reconstruction of a provisionally compressed object as a relational composition of finer structures under a declared granularity.
 
-Eine Dekomposition benötigt:
+## 20.2 Preconditions
 
-* ein identifizierbares Ausgangsobjekt,
-* eine begründete Unzulänglichkeit der bisherigen Kompression,
-* einen erwarteten zusätzlichen Praxisgewinn,
-* ausreichende Quellen,
-* einen deklarierten Granularitätswechsel,
-* und ein Erhaltungskriterium für die Ausgangsfunktion.
+A decomposition requires:
 
-20.3 Source Object
+* An identifiable source object
+* A justified insufficiency of the existing compression
+* Expected additional praxeological gain
+* Sufficient sources
+* A declared granularity change
+* A preservation criterion for the source function
 
-Das Ausgangsobjekt muss bestimmt sein hinsichtlich:
+## 20.3 Source Object
 
-* Referenz,
-* Ursprungstyp,
-* Frame,
-* Granularität,
-* relativer Ebene,
-* zeitlicher Reichweite,
-* bisheriger Funktion,
-* und bestehender Unsicherheit.
+The source object must be determined with respect to:
 
-20.4 Decomposition Question
+* Reference
+* Origin type
+* Frame
+* Granularity
+* Relative level
+* Temporal scope
+* Existing function
+* Existing uncertainty
 
-Jede Dekomposition benötigt eine präzise Leitfrage.
+## 20.4 Decomposition Question
 
-Beispiele:
+Every decomposition requires a precise guiding question.
 
-* Welche lokalen Reproduktionspraktiken tragen diesen Attraktor?
-* Aus welchen asymmetrischen Rollen- und Kostenrelationen besteht diese Makro-Ω-Struktur?
-* Welche internen Nicht-Entscheidungen bilden dieses scheinbar punktuelle Nicht-Ereignis?
-* Welche Teilpfade und Wendepunkte tragen diese Trajektorie?
+Examples:
 
-20.5 Expected Additional Difference
+* Which local reproduction practices carry this attractor?
+* Which asymmetrical role and cost relations constitute this macro-Ω structure?
+* Which internal non-decisions constitute this apparently punctual non-event?
+* Which subpaths and turning points carry this trajectory?
 
-Vor der Öffnung sollte angegeben werden:
+## 20.5 Expected Additional Difference
 
-* welche neue Differenz erwartet wird,
-* welche bestehende Rekonstruktion dadurch verändert werden könnte,
-* welcher Claim belastet oder präzisiert werden soll,
-* und woran das Ausbleiben eines Auflösungsgewinns erkennbar wäre.
+Before opening the object, the record should state:
 
-20.6 Source Support
+* Which new difference is expected
+* Which existing reconstruction it may alter
+* Which claim is to be tested or refined
+* How the absence of resolution gain would be recognized
 
-Die feinere Rekonstruktion darf nur so weit gehen, wie Quellen tragen.
+## 20.6 Source Support
 
-Zu dokumentieren sind:
+The finer reconstruction may proceed only as far as the sources support it.
 
-* direkte Belege,
-* indirekte Rekonstruktionen,
-* unsichere Zuordnungen,
-* fehlende Zwischenstrukturen,
-* alternative interne Modelle,
-* und nicht zugängliche Bereiche.
+The following must be documented:
 
-20.7 Component Identification
+* Direct evidence
+* Indirect reconstructions
+* Uncertain assignments
+* Missing intermediate structures
+* Alternative internal models
+* Inaccessible areas
 
-Komponenten können sein:
+## 20.7 Component Identification
 
-* operatorisch typisierte Vorkommen,
-* lokale Konfigurationen,
-* Teilereignisse,
-* Nicht-Ereignisse,
-* Übergänge,
-* Rollen,
-* Ressourcenrelationen,
-* Teilpfade,
-* oder wiederholte Reproduktionspraktiken.
+Components may include:
 
-20.8 Relation Identification
+* Operator-typed occurrences
+* Local configurations
+* Subevents
+* Non-events
+* Transitions
+* Roles
+* Resource relations
+* Subpaths
+* Repeated reproduction practices
 
-DECOMPOSE darf nicht bei einer Teileliste stehen bleiben.
+## 20.8 Relation Identification
 
-Zu rekonstruieren sind:
+DECOMPOSE must not stop at a list of parts.
 
-* Abhängigkeiten,
-* zeitliche Reihenfolgen,
-* Rückkopplungen,
-* Schwellen,
-* wechselseitige Verstärkungen,
-* asymmetrische Lastverteilungen,
-* und Bedingungen des Fortbestehens.
+The following must be reconstructed:
 
-20.9 Preservation of Source Function
+* Dependencies
+* Temporal sequences
+* Feedback relations
+* Thresholds
+* Mutual reinforcement
+* Asymmetrical distributions of load
+* Conditions of persistence
 
-Die gröbere Funktion kann nach der Dekomposition:
+## 20.9 Preservation of Source Function
 
-* bestätigt,
-* präzisiert,
-* relativiert,
-* intern differenziert,
-* nur teilweise erhalten,
-* oder verworfen werden.
+After decomposition, the coarser function may be:
 
-Erhaltung bedeutet nicht Immunisierung gegen feinere Befunde.
+* Confirmed
+* Refined
+* Relativized
+* Internally differentiated
+* Only partially preserved
+* Rejected
 
-20.10 Decomposition Output
+Preservation does not mean immunization against finer findings.
 
-Mögliche Outputs:
+## 20.10 Decomposition Output
 
-* supported decomposition
-* revised source function
-* heterogeneous source object
-* competing internal models
-* insufficient source support
-* resolution-neutral result
-* failed decomposition
-* non-capture
+Possible outputs:
 
-20.11 Non-Invertibility
+* Supported decomposition
+* Revised source function
+* Heterogeneous source object
+* Competing internal models
+* Insufficient source support
+* Resolution-neutral result
+* Failed decomposition
+* Non-capture
 
+## 20.11 Non-Invertibility
+
+```text
 DECOMPOSE(COMPOSE(X))
 ≠
 X
+```
 
-Gründe:
+Reasons:
 
-* ursprüngliche Kompression hat Informationen verloren,
-* spätere Quellen können neue Strukturen zeigen,
-* die Dekomposition verwendet neue Auswahlregeln,
-* und interne Alternativen können nachträglich sichtbar werden.
+* The original compression lost information.
+* Later sources may reveal new structures.
+* The decomposition uses new selection rules.
+* Internal alternatives may become visible retrospectively.
 
-20.12 Decomposition Failure
+## 20.12 Decomposition Failure
 
-DECOMPOSE scheitert, wenn:
+DECOMPOSE fails if:
 
-* kein klarer Ausgangsgegenstand besteht,
-* Details ohne Relation gesammelt werden,
-* Quellen überdehnt werden,
-* die gröbere Funktion nicht mehr rekonstruierbar ist,
-* der Granularitätswechsel nur behauptet wird,
-* oder kein zusätzlicher Praxisgewinn entsteht.
+* No clear source object exists
+* Details are collected without relations
+* Sources are overextended
+* The coarser function no longer remains reconstructable
+* The granularity change is merely asserted
+* No additional praxeological gain arises
 
-20.13 DECOMPOSE Record
+## 20.13 DECOMPOSE Record
 
+```yaml
 decompose:
-source_object:
-origin_type:
-source_frame:
-source_granularity:
-target_granularity:
-decomposition_question:
-expected_difference:
-components:
-component_relations:
-internal_temporality:
-source_support:
-preserved_function:
-revised_function:
-unresolved_structure:
-loss:
-admissibility_result:
+  source_object:
+  origin_type:
+  source_frame:
+  source_granularity:
+  target_granularity:
+  decomposition_question:
+  expected_difference:
+  components:
+  component_relations:
+  internal_temporality:
+  source_support:
+  preserved_function:
+  revised_function:
+  unresolved_structure:
+  loss:
+  admissibility_result:
+```
 
-21. Decomposing Operator-Typed Occurrences
+# 21. Decomposing Operator-Typed Occurrences
 
-21.1 General Rule
+## 21.1 General Rule
 
-SUB öffnet konkrete operatorisch typisierte Vorkommen, nicht die Basisoperatoren selbst.
+SUB opens concrete operator-typed occurrences, not the base operators themselves.
 
-Die Frage lautet nicht:
+The question is not:
 
-What is □ made of?
+> What is □ made of?
 
-Sondern:
+Instead:
 
-Which finer structures produce and maintain this frame-typed occurrence?
+> Which finer structures produce and maintain this frame-typed occurrence?
 
-21.2 Frame-Typed Occurrence
+## 21.2 Frame-Typed Occurrence
 
-Ein konkreter Frame kann auf feinerer Granularität getragen werden durch:
+At finer granularity, a concrete frame may be carried by:
 
-* wiederholte Auswahlpraktiken,
-* Ausschlusspraktiken,
-* Rollenverteilungen,
-* Zugangsregeln,
-* zeitliche Routinen,
-* wiederholte Nicht-Ereignisse,
-* institutionelle Bindungen,
-* und stabilisierte Interpretationsmuster.
+* Repeated selection practices
+* Exclusion practices
+* Role distributions
+* Access rules
+* Temporal routines
+* Repeated non-events
+* Institutional bindings
+* Stabilized interpretive patterns
 
-21.3 Frame Formation
+## 21.3 Frame Formation
 
-Zu prüfen sind:
+The following must be tested:
 
-* Wer oder was setzt Relevanzgrenzen?
-* Welche Praktiken reproduzieren Innen/Außen?
-* Welche Alternativen werden unsichtbar?
-* Welche Nicht-Ereignisse stabilisieren den Frame?
-* Welche Rollen profitieren oder tragen Kosten?
+* Who or what sets relevance boundaries?
+* Which practices reproduce inside/outside?
+* Which alternatives become invisible?
+* Which non-events stabilize the frame?
+* Which roles benefit or carry costs?
 
-21.4 Frame Stability and Internal Variation
+## 21.4 Frame Stability and Internal Variation
 
-stabile Frame-Funktion
+```text
+stable frame-function
 ≠
-intern homogene Struktur
+internally homogeneous structure
+```
 
-Ein Frame kann stabil bleiben, obwohl:
+A frame may remain stable even though:
 
-* interne Konflikte bestehen,
-* Rollen wechseln,
-* Reproduktionsarbeit ungleich verteilt ist,
-* lokale Regeln variieren,
-* oder einzelne Elemente ausfallen.
+* Internal conflicts exist
+* Roles change
+* Reproduction work is distributed unequally
+* Local rules vary
+* Individual elements fail
 
-21.5 Attractor-Typed Occurrence
+## 21.5 Attractor-Typed Occurrence
 
-Ein konkreter Attraktor kann auf feinerer Ebene getragen werden durch:
+At finer granularity, a concrete attractor may be carried by:
 
-* Wiederholung,
-* niedrige lokale Reibung,
-* Erwartungsstabilisierung,
-* Belohnungs- und Kostenverteilungen,
-* Nicht-Ereignisse,
-* Rollenwiederholung,
-* eingeschränkte Alternativen,
-* und veränderte Exitkosten.
+* Repetition
+* Low local friction
+* Stabilization of expectation
+* Distributions of reward and cost
+* Non-events
+* Repetition of roles
+* Restricted alternatives
+* Changed exit costs
 
-21.6 Attractor Reproduction
+## 21.6 Attractor Reproduction
 
-Zu prüfen sind:
+The following must be tested:
 
-* Was wird wiederholt?
-* Welche Konfiguration wird leichter erreichbar?
-* Welche Alternativen werden teurer?
-* Welche Nicht-Ereignisse erhöhen den Attraktordruck?
-* Welche Rollen halten die Wiederholung aufrecht?
-* Welche zeitlichen Schwellen verstärken die Stabilisierung?
+* What is repeated?
+* Which configuration becomes easier to reach?
+* Which alternatives become more costly?
+* Which non-events increase attractor pressure?
+* Which roles maintain the repetition?
+* Which temporal thresholds reinforce stabilization?
 
-21.7 Dynamic Attractor Occurrence
+## 21.7 Dynamic Attractor Occurrence
 
-Ein Attraktor kann nicht nur einen Zustand, sondern eine wiederkehrende Übergangsform stabilisieren.
+An attractor may stabilize not only a state, but a recurring transition form.
 
-Beispielstruktur:
+Example structure:
 
-* Annäherung
-* Intensivierung
-* Bindungserwartung
-* Rückzug
+* Approach
+* Intensification
+* Expectation of binding
+* Withdrawal
 * Reframing
-* erneute Annäherung
+* Renewed approach
 
-SUB rekonstruiert die internen Übergänge.
+SUB reconstructs the internal transitions.
 
-Die spätere Typisierung dieser Verlaufsform als höherstufige Attractor-Function gehört jedoch zu RETYPE.
+The later typing of this trajectory form as a higher-level attractor-function, however, belongs to RETYPE.
 
-21.8 Asymmetry-Typed Occurrence
+## 21.8 Asymmetry-Typed Occurrence
 
-Eine konkrete Asymmetrie kann auf feinerer Ebene bestehen aus:
+At finer granularity, a concrete asymmetry may consist of:
 
-* Rollenunterschieden,
-* Ressourcenunterschieden,
-* Zugriffsdifferenzen,
-* Expositionsunterschieden,
-* ungleichen Exitkosten,
-* Informationsunterschieden,
-* ungleichen zeitlichen Lasten,
-* oder unterschiedlicher Verantwortungskapazität.
+* Role differences
+* Resource differences
+* Differences in access
+* Differences in exposure
+* Unequal exit costs
+* Information differences
+* Unequal temporal burdens
+* Different capacities for responsibility
 
-21.9 Distributed Asymmetry
+## 21.9 Distributed Asymmetry
 
-Eine Makroasymmetrie kann aus vielen lokalen Unterschieden entstehen.
+A macro-asymmetry may arise from many local differences.
 
-Zu prüfen sind:
+The following must be tested:
 
-* Sind die lokalen Unterschiede koordiniert?
-* Verstärken sie sich?
-* Gleichen sie sich teilweise aus?
-* Sind sie zeitlich stabil?
-* Oder wird eine Makroasymmetrie nur aufgrund einzelner Fälle behauptet?
+* Are the local differences coordinated?
+* Do they reinforce one another?
+* Do they partially offset one another?
+* Are they temporally stable?
+* Or is a macro-asymmetry being asserted from isolated cases alone?
 
-21.10 Impulse-Typed Occurrence
+## 21.10 Impulse-Typed Occurrence
 
-Ein konkreter Impuls kann auf feinerer Granularität selbst eine zeitliche Entstehungsstruktur besitzen.
+At finer granularity, a concrete impulse may itself possess a temporal structure of formation.
 
-SUB darf zeigen:
+SUB may show:
 
-* welche Differenzen ihn aktivieren,
-* welche Frames ihn richten,
-* welche Nicht-Ereignisse ihn verstärken,
-* und wie er in eine stabile Verlaufsform eintritt.
+* Which differences activate it
+* Which frames direct it
+* Which non-events intensify it
+* How it enters a stable trajectory form
 
-SUB darf daraus nicht schließen, der Basisoperator ∇ sei selbst ein Komposit.
+SUB must not infer from this that the base operator ∇ is itself a composite.
 
-21.11 Binding-Typed Occurrence
+## 21.11 Binding-Typed Occurrence
 
-Eine konkrete Ψ-Struktur kann getragen werden durch:
+A concrete Ψ structure may be carried by:
 
-* wiederholte Commitments,
-* institutionelle Regeln,
-* erwartete Kontinuität,
-* geteilte Records,
-* Rollenstabilisierung,
-* und Kosten des Bruchs.
+* Repeated commitments
+* Institutional rules
+* Expected continuity
+* Shared records
+* Role stabilization
+* Costs of rupture
 
-Die feinere Rekonstruktion kann zeigen, dass eine scheinbar einheitliche Bindung intern ungleich oder teilweise widersprüchlich ist.
+The finer reconstruction may show that an apparently unified binding is internally unequal or partially contradictory.
 
-21.12 Failed Operator-Occurrence Decomposition
+## 21.12 Failed Operator-Occurrence Decomposition
 
-Eine Dekomposition scheitert, wenn:
+A decomposition fails if:
 
-* der Basisoperator selbst als materielles Objekt behandelt wird,
-* Funktionsbeschreibung und Entstehungserklärung vermischt werden,
-* jede lokale Struktur dem gröberen Typ angepasst wird,
-* oder die Ausgangstypisierung gegen Gegenbefunde immunisiert wird.
+* The base operator itself is treated as a material object
+* Functional description and explanation of formation are conflated
+* Every local structure is adjusted to fit the coarser type
+* The source typing is immunized against counterevidence
 
-22. Decomposing Composite Structures
+# 22. Decomposing Composite Structures
 
-22.1 Composite Structure as SUB Object
+## 22.1 Composite Structure as SUB Object
 
-Komposite enthalten bereits mehrere Elemente.
+Composites already contain several elements.
 
-SUB fragt daher nicht nur:
+SUB therefore asks not only:
 
-What are the parts?
+> What are the parts?
 
-Sondern:
+But:
 
-How are the parts related, selected, compressed, and made functionally coherent?
+> How are the parts related, selected, compressed, and made functionally coherent?
 
-22.2 Internal Composition Map
+## 22.2 Internal Composition Map
 
-Ein Komposit kann intern enthalten:
+A composite may internally contain:
 
-* dominante und periphere Komponenten,
-* parallele Teilstrukturen,
-* konkurrierende Funktionscluster,
-* zeitliche Schichten,
-* Abhängigkeiten,
-* Rückkopplungen,
-* und Residuen.
+* Dominant and peripheral components
+* Parallel substructures
+* Competing functional clusters
+* Temporal layers
+* Dependencies
+* Feedback relations
+* Residues
 
-22.3 Component Hierarchy
+## 22.3 Component Hierarchy
 
-SUB darf lokale Hierarchien rekonstruieren, ohne ontologische Schichten zu behaupten.
+SUB may reconstruct local hierarchies without asserting ontological layers.
 
-Zu unterscheiden sind:
+The following must be distinguished:
 
-* konstitutive Komponenten,
-* modulierende Komponenten,
-* austauschbare Komponenten,
-* kompensatorische Komponenten,
-* und bloß begleitende Details.
+* Constitutive components
+* Modulating components
+* Replaceable components
+* Compensatory components
+* Merely accompanying details
 
-22.4 Dominant Operator Weighting
+## 22.4 Dominant Operator Weighting
 
-Ein Komposit kann durch bestimmte Operatoren besonders stark geprägt sein.
+A composite may be shaped especially strongly by certain operators.
 
-Beispiele:
+Examples:
 
-* Λ/Θ-dominante Struktur,
-* Ω/Θ-dominante Struktur,
-* Χ/Σ-stabilisierte Struktur,
-* Α-dominante Wiederholungsstruktur.
+* Λ/Θ-dominant structure
+* Ω/Θ-dominant structure
+* Χ/Σ-stabilized structure
+* Α-dominant repetition structure
 
-Operatorgewichtung:
+Operator weighting:
 
-* verändert Verlaufsform,
-* verändert Zugänglichkeit,
-* verändert Kosten,
-* verändert jedoch nicht die PMS-Basisgrammatik.
+* Changes trajectory form
+* Changes accessibility
+* Changes costs
+* Does not change the PMS base grammar
 
-22.5 Modulating Profiles
+## 22.5 Modulating Profiles
 
-Modulatoren sind keine neuen Operatoren und keine Personentypen.
+Modulators are neither new operators nor person types.
 
-Sie bezeichnen:
+They designate:
 
-* Gewichtungen bestehender Operatoren,
-* unterschiedliche Zugänglichkeit von Operatorfunktionen,
-* unterschiedliche Schwellen,
-* unterschiedliche zeitliche Wirksamkeit,
-* oder unterschiedliche Stabilisierungslasten.
+* Weightings of existing operators
+* Different accessibility of operator functions
+* Different thresholds
+* Different temporal effectiveness
+* Different stabilization loads
 
-SUB kann solche Profile innerhalb eines Komposits rekonstruieren.
+SUB may reconstruct such profiles within a composite.
 
-22.6 Distributed Function
+## 22.6 Distributed Function
 
-Eine gröbere Funktion kann durch räumlich, institutionell oder zeitlich getrennte Elemente getragen werden.
+A coarser function may be carried by elements separated spatially, institutionally, or temporally.
 
-SUB muss zeigen:
+SUB must show:
 
-* wie die verteilten Teile koordiniert sind,
-* wodurch ihre gemeinsame Funktion entsteht,
-* und ob die Funktion auch bei Teilveränderungen bestehen bleibt.
+* How the distributed parts are coordinated
+* How their shared function arises
+* Whether the function persists when individual parts change
 
-22.7 Redundant and Substitutable Components
+## 22.7 Redundant and Substitutable Components
 
-Komposite können Redundanz enthalten.
+Composites may contain redundancy.
 
-Zu prüfen sind:
+The following must be tested:
 
-* Welche Teile können ausfallen?
-* Welche Teile werden ersetzt?
-* Welche Funktion bleibt bestehen?
-* Ab wann verändert sich das Komposit qualitativ?
-* Welche Komponenten sind wirklich konstitutiv?
+* Which parts may fail?
+* Which parts can be replaced?
+* Which function remains?
+* At what point does the composite change qualitatively?
+* Which components are genuinely constitutive?
 
-22.8 Internal Conflict
+## 22.8 Internal Conflict
 
-Ein Komposit kann intern widersprüchlich sein.
+A composite may be internally contradictory.
 
-Mögliche Ergebnisse:
+Possible results:
 
-* Konflikt destabilisiert die Makrofunktion.
-* Konflikt wird funktional integriert.
-* Konflikt wird durch Asymmetrie unterdrückt.
-* Konflikt bleibt als Residuum bestehen.
-* Konflikt erzeugt konkurrierende Teilpfade.
+* Conflict destabilizes the macro-function.
+* Conflict is functionally integrated.
+* Conflict is suppressed through asymmetry.
+* Conflict remains as residue.
+* Conflict generates competing subpaths.
 
-22.9 Composite Stability
+## 22.9 Composite Stability
 
-Makrostabilität kann entstehen durch:
+Macro-stability may arise through:
 
-* stabile Teilprozesse,
-* dynamische Kompensation,
-* wiederholte Reparatur,
-* institutionelle Bindung,
-* oder ungleiche Lastverteilung.
+* Stable subprocesses
+* Dynamic compensation
+* Repeated repair
+* Institutional binding
+* Unequal distribution of load
 
-Stabilität allein zeigt nicht, wie sie erzeugt wird.
+Stability alone does not show how it is generated.
 
-22.10 Decomposition of a Composite without Fragmentation
+## 22.10 Decomposition of a Composite without Fragmentation
 
-Eine gute Dekomposition:
+A good decomposition:
 
-* hält Relationen sichtbar,
-* erhält die Makrofunktion als Prüfgegenstand,
-* zeigt interne Heterogenität,
-* vermeidet bloße Teilelisten,
-* und kann erklären, warum das Komposit trotz Variation fortbesteht.
+* Keeps relations visible
+* Preserves the macro-function as the object under test
+* Shows internal heterogeneity
+* Avoids mere lists of parts
+* Can explain why the composite persists despite variation
 
-22.11 Failed Composite Decomposition
+## 22.11 Failed Composite Decomposition
 
-Fehlerformen:
+Failure forms:
 
-* atomistische Teileliste,
-* Verlust der Relationen,
-* Überprivilegierung lokaler Details,
-* Verwechslung von Korrelation und konstitutiver Funktion,
-* oder vollständiges Verschwinden des Ausgangsobjekts.
+* Atomistic list of parts
+* Loss of relations
+* Overprivileging local details
+* Confusion of correlation with constitutive function
+* Complete disappearance of the source object
 
-23. Decomposing Events, Non-Events, and Internal Temporal Structures
+# 23. Decomposing Events, Non-Events, and Internal Temporal Structures
 
-23.1 Event Decomposition
+## 23.1 Event Decomposition
 
-Ein scheinbar punktuelles Ereignis kann intern bestehen aus:
+An apparently punctual event may internally consist of:
 
-* vorbereitenden Schritten,
-* Teilentscheidungen,
-* parallelen Handlungen,
-* Verzögerungen,
-* Rollenwechseln,
-* und Abschlussbedingungen.
+* Preparatory steps
+* Partial decisions
+* Parallel actions
+* Delays
+* Role changes
+* Completion conditions
 
-23.2 Extended Event
+## 23.2 Extended Event
 
-Ein Ereignis kann zeitlich ausgedehnt sein.
+An event may be temporally extended.
 
-SUB muss klären:
+SUB must clarify:
 
-* Was markiert seinen Beginn?
-* Welche internen Phasen besitzt es?
-* Was markiert seinen Abschluss?
-* Welche Teile sind konstitutiv?
-* Welche Teile sind lediglich Kontext?
+* What marks its beginning?
+* Which internal phases does it possess?
+* What marks its completion?
+* Which parts are constitutive?
+* Which parts are merely context?
 
-23.3 Event Cluster
+## 23.3 Event Cluster
 
-Mehrere lokale Ereignisse können auf gröberer Ebene als ein Ereigniskomplex erscheinen.
+Several local events may appear at a coarser level as an event complex.
 
-SUB kann zeigen:
+SUB may show:
 
-* interne Reihenfolge,
-* unterschiedliche Verantwortungspositionen,
-* ungleiche Kosten,
-* und konkurrierende Teilereignisse.
+* Internal order
+* Different positions of responsibility
+* Unequal costs
+* Competing subevents
 
-23.4 Event Inflation
+## 23.4 Event Inflation
 
-Nicht jedes Detail ist ein Teilereignis.
+Not every detail is a subevent.
 
-Event inflation liegt vor, wenn:
+Event inflation is present if:
 
-* jede minimale Veränderung als Ereignis typisiert wird,
-* keine Relevanzschwelle besteht,
-* bloße Beobachtungsdichte Ereignisdichte erzeugt,
-* oder die Dekomposition die Handlungseinheit zerstört.
+* Every minimal change is typed as an event
+* No relevance threshold exists
+* Mere observation density generates event density
+* Decomposition destroys the unity of action
 
-23.5 Non-Event Decomposition
+## 23.5 Non-Event Decomposition
 
-Ein Nicht-Ereignis kann intern bestehen aus:
+A non-event may internally consist of:
 
-* Verzögerungen,
-* blockierten Zuständigkeiten,
-* wiederholter Nicht-Entscheidung,
-* konkurrierenden Frames,
-* unterlassener Kommunikation,
-* fehlenden Ressourcen,
-* und institutioneller Zerstreuung.
+* Delays
+* Blocked responsibilities
+* Repeated non-decision
+* Competing frames
+* Omitted communication
+* Missing resources
+* Institutional dispersion
 
-23.6 Preserving the Non-Event Character
+## 23.6 Preserving the Non-Event Character
 
-SUB darf ein Nicht-Ereignis nicht so zerlegen, dass nur positive Teilereignisse übrig bleiben.
+SUB must not decompose a non-event in such a way that only positive subevents remain.
 
-Die Dekomposition muss erhalten:
+The decomposition must preserve:
 
-* welche erwartete Struktur nicht eingetreten ist,
-* innerhalb welchen Frames sie erwartet wurde,
-* und wie die Teilprozesse dieses Ausbleiben hervorgebracht oder stabilisiert haben.
+* Which expected structure did not occur
+* Within which frame it was expected
+* How the subprocesses produced or stabilized the non-occurrence
 
-23.7 Delay Structure
+## 23.7 Delay Structure
 
-Verzögerung kann intern enthalten:
+Delay may internally contain:
 
-* wiederholte Aufschübe,
-* wechselnde Zuständigkeiten,
-* Informationsengpässe,
-* strategisches Warten,
-* oder strukturell fehlende Entscheidungskapazität.
+* Repeated postponements
+* Shifting responsibilities
+* Information bottlenecks
+* Strategic waiting
+* Structurally missing decision capacity
 
-Nicht jede Verzögerung ist absichtliche Verhinderung.
+Not every delay is intentional obstruction.
 
-23.8 Repeated Non-Decision
+## 23.8 Repeated Non-Decision
 
-Ein scheinbar einheitliches „Es wurde nicht entschieden“ kann zerlegt werden in:
+An apparently unified statement that “no decision was made” may be decomposed into:
 
-* vertagte Beschlüsse,
-* nicht erreichte Quoren,
-* konkurrierende Zuständigkeiten,
-* wiederholte Umrahmung,
-* und das Ausbleiben einer verbindlichen Ψ-Struktur.
+* Deferred resolutions
+* Quorums not reached
+* Competing responsibilities
+* Repeated reframing
+* Absence of a binding Ψ structure
 
-23.9 Internal Temporal Order
+## 23.9 Internal Temporal Order
 
-SUB muss interne Zeitrelationen erhalten:
+SUB must preserve internal temporal relations:
 
-* Vorbedingungen,
-* Reihenfolge,
-* Überlappungen,
-* Verzögerungen,
-* Wiederholungen,
-* Schwellen,
-* und irreversible Teilübergänge.
+* Preconditions
+* Sequence
+* Overlaps
+* Delays
+* Repetitions
+* Thresholds
+* Irreversible subtransitions
 
-23.10 Temporal Granularity Drift
+## 23.10 Temporal Granularity Drift
 
-Eine feinere Zeitauflösung kann unproduktiv werden, wenn:
+Finer temporal resolution may become unproductive if:
 
-* immer kleinere Zeitpunkte erzeugt werden,
-* keine neue Übergangsstruktur sichtbar wird,
-* Dauer in bloße Punktfolgen zerfällt,
-* oder praxeologische Relevanz verloren geht.
+* Ever smaller points in time are generated
+* No new transition structure becomes visible
+* Duration dissolves into mere point sequences
+* Praxeological relevance is lost
 
-23.11 Event / Non-Event Confusion
+## 23.11 Event / Non-Event Confusion
 
-Fehlerformen:
+Failure forms:
 
-* Ausbleiben wird als Handlung ausgegeben.
-* positive Teilereignisse löschen den Nicht-Ereignischarakter.
-* fehlende Quellen werden als Λ rekonstruiert.
-* erwartungslose Abwesenheit wird bedeutungsvoll gemacht.
+* Non-occurrence is presented as action.
+* Positive subevents erase the non-event character.
+* Missing sources are reconstructed as Λ.
+* Absence without expectation is made meaningful.
 
-24. Decomposing Paths and Trajectories
+# 24. Decomposing Paths and Trajectories
 
-24.1 PATH Objects as SUB Objects
+## 24.1 PATH Objects as SUB Objects
 
-Ein durch PATH gebildetes Objekt kann später selbst dekomponiert werden.
+An object formed through PATH may later itself be decomposed.
 
-Mögliche Ausgangsobjekte:
+Possible source objects:
 
-* Pfad,
-* Teilpfad,
-* Trajektorie,
-* Phase,
-* Wendepunkt,
-* Branch cluster,
-* oder Pfadabhängigkeitsclaim.
+* Path
+* Subpath
+* Trajectory
+* Phase
+* Turning point
+* Branch cluster
+* Path-dependence claim
 
-24.2 Why Decompose a Path?
+## 24.2 Why Decompose a Path?
 
-Gründe:
+Reasons:
 
-* Zwischenübergänge sind unklar.
-* Eine vermeintlich lineare Entwicklung enthält Verzweigungen.
-* relevante Nicht-Ereignisse wurden komprimiert.
-* eine Wendepunktbehauptung ist zu grob.
-* Kosten- und Asymmetrien wurden homogenisiert.
+* Intermediate transitions are unclear.
+* An apparently linear development contains branches.
+* Relevant non-events were compressed.
+* A turning-point claim is too coarse.
+* Costs and asymmetries were homogenized.
 
-24.3 Subpaths
+## 24.3 Subpaths
 
-Ein Pfad kann aus Teilpfaden bestehen, die:
+A path may consist of subpaths that proceed:
 
-* parallel,
-* sequenziell,
-* konkurrierend,
-* unterbrochen,
-* oder unterschiedlich schnell verlaufen.
+* In parallel
+* Sequentially
+* Competitively
+* With interruptions
+* At different speeds
 
-SUB muss erklären, wie diese Teilpfade das gröbere Pfadobjekt tragen.
+SUB must explain how these subpaths carry the coarser path object.
 
-24.4 Transition Clusters
+## 24.4 Transition Clusters
 
-Ein grober Übergang kann intern bestehen aus mehreren Übergängen:
+A coarse transition may internally consist of several transitions:
 
+```text
 configuration A
 →
 intermediate cluster
 →
 configuration B
+```
 
-Die Zwischenstruktur kann den Claim verändern.
+The intermediate structure may change the claim.
 
-24.5 Turning Points
+## 24.5 Turning Points
 
-Ein Wendepunkt darf nicht nur retrospektiv benannt werden.
+A turning point must not be named merely retrospectively.
 
-SUB fragt:
+SUB asks:
 
-* Welche konkreten Übergänge tragen den Wendepunkt?
-* Welche Alternativen wurden verändert?
-* Welche Kosten oder Bindungen verschoben sich?
-* War der Wendepunkt damals bereits strukturell wirksam?
+* Which concrete transitions carry the turning point?
+* Which alternatives were changed?
+* Which costs or bindings shifted?
+* Was the turning point already structurally effective at the time?
 
-24.6 Branch Reconstruction
+## 24.6 Branch Reconstruction
 
-Eine lineare Trajektorie kann bei feinerer Auflösung enthalten:
+At finer resolution, a linear trajectory may contain:
 
-* verworfene Pfade,
-* parallele Prozesse,
-* zeitweilige Umkehrungen,
-* oder später geschlossene Alternativen.
+* Rejected paths
+* Parallel processes
+* Temporary reversals
+* Alternatives later closed
 
-Die Dekomposition darf die gröbere Trajektorie bestätigen oder relativieren.
+The decomposition may confirm or relativize the coarser trajectory.
 
-24.7 Internal Frame Changes
+## 24.7 Internal Frame Changes
 
-Eine Trajektorie kann mehrere Frames durchlaufen.
+A trajectory may pass through several frames.
 
-SUB rekonstruiert:
+SUB reconstructs:
 
-* wann Frames wechseln,
-* welche Strukturen fortbestehen,
-* welche Operatorgewichtungen sich verändern,
-* und ob die vermeintliche Einheit der Trajektorie erhalten bleibt.
+* When frames change
+* Which structures persist
+* Which operator weightings change
+* Whether the alleged unity of the trajectory remains intact
 
-24.8 Competing Continuations
+## 24.8 Competing Continuations
 
-Eine offene Trajektorie kann intern mehrere Fortsetzungen tragen.
+An open trajectory may internally carry several continuations.
 
-SUB kann sichtbar machen:
+SUB may make visible:
 
-* unterschiedliche Handlungskorridore,
-* asymmetrische Zugänglichkeit,
-* konkurrierende Bindungen,
-* und Schwellen, an denen Alternativen verloren gehen.
+* Different action corridors
+* Asymmetrical accessibility
+* Competing bindings
+* Thresholds at which alternatives are lost
 
-24.9 Irrecoverable Compression
+## 24.9 Irrecoverable Compression
 
-Nach ursprünglichem COMPOSE können Informationen unwiederbringlich fehlen.
+After the original COMPOSE operation, information may be irrecoverably missing.
 
-Dekomposition kann daher:
+Decomposition may therefore:
 
-* mehr zeigen als der ursprüngliche Record,
-* anderes zeigen,
-* oder bestimmte Details nicht mehr rekonstruieren.
+* Show more than the original record
+* Show something different
+* Fail to reconstruct certain details
 
+```text
 SUB(PATH(X))
 ≠
 X
+```
 
-24.10 Decomposition of Path Dependence
+## 24.10 Decomposition of Path Dependence
 
-Pfadabhängigkeit kann geöffnet werden in:
+Path dependence may be opened into:
 
-* Α/Θ-Stabilisierung,
-* Ω/Θ-Kostenakkumulation,
-* Ψ/Θ-Bindungslast,
-* Λ/Θ-Residuen,
-* und spezifische verlorene Alternativen.
+* Α/Θ stabilization
+* Ω/Θ cost accumulation
+* Ψ/Θ binding load
+* Λ/Θ residues
+* Specific lost alternatives
 
-Pfadabhängigkeit ist dabei keine Substanz, sondern ein Bündel historischer Tragstrukturen.
+Path dependence is not a substance here, but a bundle of historically carrying structures.
 
-24.11 Decomposition versus Alternative PATH Construction
+## 24.11 Decomposition versus Alternative PATH Construction
 
-Nicht jede neue Detailrekonstruktion ist SUB.
+Not every new detailed reconstruction is SUB.
 
-Manchmal entsteht:
+Sometimes it produces:
 
-* eine konkurrierende Pfadkomposition,
-* eine neue Periodisierung,
-* oder ein alternativer PATH-Claim.
+* A competing path composition
+* A new periodization
+* An alternative PATH claim
 
-Zu unterscheiden sind:
+The following must be distinguished:
 
-* Öffnung desselben Pfadobjekts,
-* und Bildung eines anderen Pfadobjekts.
+* Opening the same path object
+* Forming a different path object
 
-24.12 Failed Trajectory Decomposition
+## 24.12 Failed Trajectory Decomposition
 
-Fehlerformen:
+Failure forms:
 
-* nur mehr Chronologie,
-* Verlust der Trajektorienfunktion,
-* willkürliche Wendepunkte,
-* ungestützte Teilpfade,
-* oder Zerlegung bis zur Unkenntlichkeit des Ausgangsobjekts.
+* Merely more chronology
+* Loss of trajectory function
+* Arbitrary turning points
+* Unsupported subpaths
+* Decomposition until the source object becomes unrecognizable
 
-25. Resolution Gain, Neutrality, Drift, and Escape
+# 25. Resolution Gain, Neutrality, Drift, and Escape
 
-25.1 Resolution Gain
+## 25.1 Resolution Gain
 
-Auflösungsgewinn liegt vor, wenn die feinere Rekonstruktion:
+Resolution gain is present if the finer reconstruction:
 
-* neue relevante Unterschiede zeigt,
-* einen Claim präzisiert oder korrigiert,
-* tragende Relationen sichtbar macht,
-* Kosten oder Asymmetrien neu verteilt,
-* Alternativen anders bestimmt,
-* oder die gröbere Funktion besser erklärt.
+* Shows new relevant differences
+* Refines or corrects a claim
+* Makes carrying relations visible
+* Redistributes costs or asymmetries
+* Determines alternatives differently
+* Better explains the coarser function
 
-25.2 Resolution Neutrality
+## 25.2 Resolution Neutrality
 
-Auflösungsneutralität liegt vor, wenn:
+Resolution neutrality is present if:
 
-* zusätzliche Details korrekt sein können,
-* die tragende Praxisrekonstruktion jedoch unverändert bleibt,
-* kein Claim verändert wird,
-* keine relevante Alternative sichtbar wird,
-* und keine neue Verluststruktur entsteht.
+* Additional details may be correct
+* The carrying praxis reconstruction nevertheless remains unchanged
+* No claim is altered
+* No relevant alternative becomes visible
+* No new loss structure arises
 
-Neutralität ist nicht automatisch Fehler, aber kein starker SUB-Gewinn.
+Neutrality is not automatically an error, but it is not a strong SUB gain.
 
-25.3 Resolution Drift
+## 25.3 Resolution Drift
 
-Auflösungsdrift liegt vor, wenn:
+Resolution drift is present if:
 
-* Komplexität schneller wächst als Diskriminationsleistung,
-* Quellenunsicherheit zunimmt,
-* Beziehungen zwischen Details unklar bleiben,
-* das Ausgangsobjekt aus dem Blick gerät,
-* oder Analyse nur noch durch weitere Analyse stabilisiert wird.
+* Complexity grows faster than discriminatory performance
+* Source uncertainty increases
+* Relations between details remain unclear
+* The source object disappears from view
+* Analysis is stabilized only through further analysis
 
-25.4 Resolution Escape
+## 25.4 Resolution Escape
 
-Auflösungsflucht liegt vor, wenn ein schwacher Claim durch Wechsel zu immer feinerer Granularität gerettet werden soll.
+Resolution escape is present if an increasingly fine granularity is used to rescue a weak claim.
 
-Typische Form:
+Typical form:
 
-* Gegenbeispiel belastet gröbere Typisierung.
-* Analyse wechselt auf feinere Ebene.
-* neue Details werden als Bestätigung ausgegeben.
-* der ursprüngliche Einwand wird nicht beantwortet.
+* A counterexample places the coarser typing under pressure.
+* The analysis shifts to a finer level.
+* New details are presented as confirmation.
+* The original objection remains unanswered.
 
-25.5 Detail without Purchase
+## 25.5 Detail without Purchase
 
-Unterhalb des Relevance Floor liegen Details, die:
+Details lie below the relevance floor if they:
 
-* keine Handlungskorridore verändern,
-* keine Kosten- oder Rollenstruktur verändern,
-* keine Erwartung oder Bindung verändern,
-* keine zeitliche Struktur verändern,
-* und keinen bestehenden Claim belasten.
+* Change no action corridors
+* Change no cost or role structure
+* Change no expectation or binding
+* Change no temporal structure
+* Place no existing claim under pressure
 
-25.6 Components without Coarser Function
+## 25.6 Components without Coarser Function
 
-Eine Dekomposition verliert den Bezug zum Ausgangsobjekt, wenn:
+A decomposition loses relation to its source object if:
 
-* Teile identifiziert werden,
-* ihre gemeinsame Funktion aber nicht mehr rekonstruierbar ist,
-* oder jeder Teil unabhängig behandelt wird.
+* Parts are identified
+* Their shared function is no longer reconstructable
+* Each part is treated independently
 
-Dies nähert sich einer oberen SUB-Grenze: Zerlegung ohne reconstructive anchoring.
+This approaches an upper SUB boundary: decomposition without reconstructive anchoring.
 
-25.7 Source Overreach
+## 25.7 Source Overreach
 
-Source overreach liegt vor, wenn:
+Source overreach is present if:
 
-* Lücken durch Modellannahmen gefüllt werden,
-* Unsicherheit als Feinstruktur erscheint,
-* semantische Präzision größer ist als die Quellenpräzision,
-* oder interne Prozesse lediglich aus dem groben Typ abgeleitet werden.
+* Gaps are filled with model assumptions
+* Uncertainty appears as fine structure
+* Semantic precision exceeds source precision
+* Internal processes are derived merely from the coarse type
 
-25.8 Calibration Loss
+## 25.8 Calibration Loss
 
-Kalibrierbarkeit sinkt, wenn:
+Calibratability declines if:
 
-* keine relevanten Schwellen mehr bestimmbar sind,
-* jede Abweichung durch neue Details erklärt werden kann,
-* konkurrierende Dekompositionen nicht mehr vergleichbar sind,
-* oder das Modell gegen Widerlegung elastisch wird.
+* No relevant thresholds remain determinable
+* Every deviation can be explained by additional detail
+* Competing decompositions are no longer comparable
+* The model becomes elastic against refutation
 
-25.9 Decomposition Fatigue
+## 25.9 Decomposition Fatigue
 
-Ein optionaler Begriff für einen Zustand, in dem:
+An optional term for a condition in which:
 
-* immer weitere Öffnung möglich wäre,
-* aber die Analyse keine zusätzliche strukturelle Last mehr trägt.
+* Further opening would always remain possible
+* The analysis no longer carries additional structural load
 
-Decomposition fatigue ist keine psychologische Ermüdung, sondern ein methodischer Stopmarker.
+Decomposition fatigue is not psychological exhaustion, but a methodological stop marker.
 
-25.10 Resolution Classification
+## 25.10 Resolution Classification
 
+```yaml
 resolution_result:
-gain:
-neutral:
-drift:
-escape:
-unsupported:
-non_capture:
+  gain:
+  neutral:
+  drift:
+  escape:
+  unsupported:
+  non_capture:
+```
 
-25.11 Mandatory Stop
+## 25.11 Mandatory Stop
 
-SUB muss gestoppt werden, wenn:
+SUB must be stopped if:
 
-* der Relevance Floor unterschritten wird,
-* Quellen keine feinere Rekonstruktion tragen,
-* das Ausgangsobjekt nicht mehr rekonstruierbar bleibt,
-* oder weitere Dekomposition nur den Einwand verschiebt.
+* The relevance floor is undercut
+* Sources do not support finer reconstruction
+* The source object no longer remains reconstructable
+* Further decomposition merely displaces the objection
 
-26. The Boundary between SUB and RETYPE
+# 26. The Boundary between SUB and RETYPE
 
-26.1 Why the Boundary Is Difficult
+## 26.1 Why the Boundary Is Difficult
 
-SUB und RETYPE können ähnlich aussehen, weil beide:
+SUB and RETYPE may appear similar because both:
 
-* ein bestehendes Objekt neu beschreiben,
-* zusätzliche Struktur sichtbar machen,
-* und Ebenenrelationen verändern können.
+* Describe an existing object anew
+* Make additional structure visible
+* May change level relations
 
-Der entscheidende Unterschied liegt nicht in der sprachlichen Form, sondern in der Operation.
+The decisive difference lies not in linguistic form, but in the operation.
 
-26.2 SUB Question
+## 26.2 SUB Question
 
-SUB fragt:
+SUB asks:
 
-What finer structures constitute, reproduce, or destabilize this source object?
+> What finer structures constitute, reproduce, or destabilize this source object?
 
-26.3 RETYPE Question
+## 26.3 RETYPE Question
 
-RETYPE fragt:
+RETYPE asks:
 
-What bounded function does this source object perform within a declared target context?
+> What bounded function does this source object perform within a declared target context?
 
-26.4 Decomposition versus Functional Projection
+## 26.4 Decomposition versus Functional Projection
 
-DECOMPOSE:
+### DECOMPOSE
 
-* öffnet interne Struktur,
-* verändert Granularität,
-* erhält das Ausgangsobjekt als Erklärungsziel.
+* Opens internal structure
+* Changes granularity
+* Preserves the source object as the explanatory target
 
-PROJECT_AS:
+### PROJECT_AS
 
-* erhält Ursprungstyp,
-* weist eine kontextuelle Zielfunktion aus,
-* verändert primär die funktionale Relation.
+* Preserves origin type
+* Declares a contextual target function
+* Primarily changes the functional relation
 
-26.5 Example:
-Trajectory Decomposition
+## 26.5 Example:
 
-SUB:
-
-* Die Trajektorie wird in Teilpfade, Übergänge und Residuen geöffnet.
-
-RETYPE:
-
-* Die Trajektorie fungiert in einer späteren Szene als Frame-Function.
-
-26.6 Example:
-Attractor Occurrence
+### Trajectory Decomposition
 
 SUB:
 
-* Der Attraktor wird in wiederholte Frames, Nicht-Ereignisse und Kostenstrukturen geöffnet.
+* The trajectory is opened into subpaths, transitions, and residues.
 
 RETYPE:
 
-* Eine wiederkehrende Trajektorienform wird in einem größeren Kontext als Attractor-Function projiziert.
+* The trajectory functions in a later scene as a frame-function.
 
-26.7 Subtle Misclassification
+## 26.6 Example:
 
-Eine Analyse sieht wie SUB aus, ist aber RETYPE, wenn sie:
+### Attractor Occurrence
 
-* keine interne Struktur öffnet,
-* sondern eine neue Zielfunktion zuweist,
-* einen anderen Kontext benötigt,
-* und origin type sowie target function unterscheiden muss.
+SUB:
 
-26.8 Reverse Misclassification
+* The attractor is opened into repeated frames, non-events, and cost structures.
 
-Eine Analyse sieht wie RETYPE aus, ist aber SUB, wenn:
+RETYPE:
 
-* eine neue Bezeichnung nur die intern sichtbaren Komponenten zusammenfasst,
-* kein Zielkontext vorliegt,
-* keine neue Funktion entsteht,
-* und die Ausgangsfunktion weiterhin Erklärungsziel bleibt.
+* A recurring trajectory form is projected within a larger context as an attractor-function.
 
-26.9 SUB versus Recontextualization
+## 26.7 Subtle Misclassification
 
-Ein neuer Frame allein erzeugt noch keine RETYPE-Operation.
+An analysis appears to be SUB but is RETYPE if it:
 
-Es kann sich handeln um:
+* Opens no internal structure
+* Instead assigns a new target function
+* Requires another context
+* Must distinguish origin type from target function
 
-* Recontextualization des Materials,
-* neue Quellenperspektive,
-* oder veränderte Fragestellung.
+## 26.8 Reverse Misclassification
 
-Erst eine deklarierte Zielfunktion macht PROJECT_AS erforderlich.
+An analysis appears to be RETYPE but is SUB if:
 
-26.10 SUB / RETYPE Decision Test
+* A new designation merely summarizes the internally visible components
+* No target context exists
+* No new function arises
+* The source function remains the explanatory target
 
-1. Wird die interne Struktur des Ausgangsobjekts geöffnet?
+## 26.9 SUB versus Recontextualization
 
-2. Verändert sich primär die Granularität?
+A new frame alone does not yet generate a RETYPE operation.
 
-3. Bleibt die Ausgangsfunktion das Erklärungsziel?
+It may instead involve:
 
-→ wahrscheinlich SUB
+* Recontextualization of the material
+* A new source perspective
+* A changed research question
 
-Oder:
+Only a declared target function makes PROJECT_AS necessary.
 
-1. Bleibt das Ausgangsobjekt als Einheit erhalten?
+## 26.10 SUB / RETYPE Decision Test
 
-2. Wird eine Funktion in einem anderen Kontext behauptet?
+1. Is the internal structure of the source object being opened?
 
-3. Muss origin type von target function getrennt werden?
+2. Does granularity primarily change?
 
-→ wahrscheinlich RETYPE
+3. Does the source function remain the explanatory target?
 
-26.11 Dual Operation
+→ probably SUB
 
-Ein Fall kann beide Operationen benötigen:
+Or:
 
+1. Does the source object remain intact as a unit?
+
+2. Is a function asserted within another context?
+
+3. Must origin type be separated from target function?
+
+→ probably RETYPE
+
+## 26.11 Dual Operation
+
+A case may require both operations:
+
+```text
 DECOMPOSE(X)
 →
-rekonstruiert tragende Quellstruktur
+reconstructs carrying source structure
 
 PROJECT_AS(X)
 →
-weist anschließend kontextuelle Funktion aus
+subsequently assigns contextual function
+```
 
-Die Records müssen getrennt bleiben.
+The records must remain separate.
 
-26.12 Invalid Collapse
+## 26.12 Invalid Collapse
 
-Unzulässig ist:
+The following collapse is inadmissible:
 
 ```text
 DECOMPOSE
@@ -3391,122 +3489,123 @@ DECOMPOSE
 PROJECT_AS
 ```
 
-Denn interne Konstitution und externe Funktion sind unterschiedliche Claims.
+Internal constitution and external function are different claims.
 
-27. SUB Boundary Conditions
+# 27. SUB Boundary Conditions
 
-27.1 Lower SUB Boundary
+## 27.1 Lower SUB Boundary
 
-Die untere Grenze wird unterschritten, wenn:
+The lower boundary is undercut if:
 
-* feinere Unterschiede keinen Praxisgewinn erzeugen,
-* mehr Details keinen Claim verändern,
-* oder die Dekomposition unterhalb praxeologischer Relevanz operiert.
+* Finer differences generate no praxis gain
+* More details alter no claim
+* The decomposition operates below praxeological relevance
 
-27.2 Resolution without Purchase
+## 27.2 Resolution without Purchase
 
-Typische Form:
+Typical form:
 
-* hohe Detaildichte,
-* geringe strukturelle Wirkung,
-* keine veränderten Handlungskorridore,
-* keine veränderte Kosten- oder Bindungslast,
-* keine neue Diskriminationsleistung.
+* High detail density
+* Low structural effect
+* No changed action corridors
+* No changed cost or binding load
+* No new discriminatory performance
 
-27.3 Upper SUB Boundary
+## 27.3 Upper SUB Boundary
 
-Die obere Grenze wird verletzt, wenn:
+The upper boundary is violated if:
 
-* das Ausgangsobjekt nicht mehr rekonstruierbar ist,
-* Teile ohne gemeinsame Funktion bleiben,
-* die Referenzidentität zerfällt,
-* oder Dekomposition in beliebige Mikrobeschreibung übergeht.
+* The source object is no longer reconstructable
+* Parts remain without a shared function
+* Reference identity disintegrates
+* Decomposition becomes arbitrary micro-description
 
-27.4 Fragmentation without Reconstruction
+## 27.4 Fragmentation without Reconstruction
 
-* Komponenten sind benannt.
-* Relationen fehlen.
-* gröbere Funktion verschwindet.
-* Ausgangstyp wird aufgegeben.
-* keine Rückbindung an den Source Claim
+* Components are named.
+* Relations are absent.
+* The coarser function disappears.
+* The origin type is abandoned.
+* No return to the source claim
 
-27.5 Source Ceiling
+## 27.5 Source Ceiling
 
-Eine feinere Rekonstruktion darf nicht präziser erscheinen als ihre Quellen.
+A finer reconstruction must not appear more precise than its sources.
 
-Mögliche Ergebnisse:
+Possible results:
 
-* supported
-* partially supported
-* underdetermined
-* speculative
-* unavailable
+* `supported`
+* `partially_supported`
+* `underdetermined`
+* `speculative`
+* `unavailable`
 
-27.6 Counterfactual Component Test
+## 27.6 Counterfactual Component Test
 
-Zentrale Frage:
+Central question:
 
-Would changing or removing this component alter the reconstructed source function?
+> Would changing or removing this component alter the reconstructed source function?
 
-Ergebnisse:
+Results:
 
-* constitutive
-* strongly modulating
-* weakly modulating
-* replaceable
-* incidental
-* underdetermined
+* `constitutive`
+* `strongly_modulating`
+* `weakly_modulating`
+* `replaceable`
+* `incidental`
+* `underdetermined`
 
-27.7 Coarser-Function Traceability
+## 27.7 Coarser-Function Traceability
 
-Die gröbere Funktion bleibt rückverfolgbar, wenn:
+The coarser function remains traceable if:
 
-* tragende Komponenten identifiziert sind,
-* ihre Relationen erklärt werden,
-* relevante Änderungen funktionale Folgen besitzen,
-* und interne Heterogenität nicht nur aufgelistet wird.
+* Carrying components are identified
+* Their relations are explained
+* Relevant changes have functional consequences
+* Internal heterogeneity is not merely listed
 
-27.8 Type Preservation
+## 27.8 Type Preservation
 
-* Frame-Occurrence bleibt Frame-Occurrence.
-* Attractor-Occurrence bleibt Attractor-Occurrence.
-* Asymmetry-Occurrence bleibt Asymmetry-Occurrence.
-* Die feinere Rekonstruktion erklärt oder belastet den Typ.
-* Sie ersetzt ihn nicht automatisch durch ihre Bestandteile.
+* Frame occurrence remains a frame occurrence.
+* Attractor occurrence remains an attractor occurrence.
+* Asymmetry occurrence remains an asymmetry occurrence.
+* The finer reconstruction explains or places pressure on the type.
+* It does not automatically replace the type with its components.
 
-27.9 No Privilege of Fine Resolution
+## 27.9 No Privilege of Fine Resolution
 
-Die feinere Rekonstruktion kann:
+For the current claim, the finer reconstruction may be:
 
-* besser,
-* gleichwertig,
-* schlechter,
-* oder inkommensurabel für den aktuellen Claim sein.
+* Better
+* Equivalent
+* Worse
+* Incommensurable
 
-Der gröbere Typ darf analytisch überlegen bleiben.
+The coarser type may remain analytically superior.
 
-27.10 SUB Stop Conditions
+## 27.10 SUB Stop Conditions
 
-SUB wird gestoppt, wenn:
+SUB is stopped if:
 
-* keine neue relevante Differenz entsteht,
-* Quellen erschöpft sind,
-* Kalibrierbarkeit sinkt,
-* Bestandteile nur noch nominal erzeugt werden,
-* der Ausgangsgegenstand verloren geht,
-* oder ein Einwand nur verschoben wird.
+* No new relevant difference arises
+* Sources are exhausted
+* Calibratability declines
+* Components are generated only nominally
+* The source object is lost
+* An objection is merely displaced
 
-27.11 SUB Non-Capture
+## 27.11 SUB Non-Capture
 
-Non-Capture ist angemessen, wenn:
+Non-capture is appropriate if:
 
-* keine stabile interne Struktur rekonstruierbar ist,
-* konkurrierende Dekompositionen gleich tragfähig bleiben,
-* Quellen entscheidende Teile nicht zugänglich machen,
-* oder jede feinere Rekonstruktion die gröbere Funktion zerstört.
+* No stable internal structure can be reconstructed
+* Competing decompositions remain equally supportable
+* Sources make decisive parts inaccessible
+* Every finer reconstruction destroys the coarser function
 
-27.12 SUB Admissibility Test
+## 27.12 SUB Admissibility Test
 
+```text
 Admissible(DECOMPOSE, X, C)
 iff
 
@@ -3521,219 +3620,236 @@ and
 GranularityDeclared
 and
 StopConditionDefined
+```
 
-28. SUB Cases, Countercases, and Local Audit
-
-28.1 Case Architecture
+# 28. SUB Cases, Countercases, and Local Audit
 
-Jeder SUB-Fall sollte enthalten:
-
-* Ausgangsobjekt
-* Ursprungstyp
-* Ausgangsframe
-* Ausgangsgranularität
-* Dekompositionsfrage
-* erwartete Zusatzdifferenz
-* Quellenbasis
-* Komponenten
-* Relationen
-* Erhalt oder Revision der gröberen Funktion
-* Admissibility Test
-* Claim Boundary
+## 28.1 Case Architecture
 
-28.2 Case 1:
-Frame-Typed Occurrence
-
-* stabiler Makroframe
-* interne Auswahl- und Ausschlusspraktiken
-* unterschiedliche Reproduktionsrollen
-* fortbestehende Frame-Funktion trotz interner Variation
+Every SUB case should include:
 
-28.3 Case 2:
-Attractor-Typed Occurrence
-
-* wiederkehrendes Muster
-* interne Frames und Nicht-Ereignisse
-* sinkende lokale Reibung
-* steigende Alternativkosten
-* Erhaltung des Attraktorclaims
+* Source object
+* Origin type
+* Source frame
+* Source granularity
+* Decomposition question
+* Expected additional difference
+* Source basis
+* Components
+* Relations
+* Preservation or revision of the coarser function
+* Admissibility test
+* Claim boundary
 
-28.4 Case 3:
-Distributed Asymmetry
+## 28.2 Case 1:
 
-* mehrere lokale Ω-Strukturen
-* unterschiedliche Rollen und Ressourcen
-* zeitliche Verstärkung
-* Prüfung, ob eine gemeinsame Makroasymmetrie getragen wird
+### Frame-Typed Occurrence
 
-28.5 Case 4:
-Structured Non-Event
+* Stable macro-frame
+* Internal selection and exclusion practices
+* Different reproduction roles
+* Persisting frame-function despite internal variation
 
-* ausgebliebene Entscheidung
-* interne Verzögerungen und Blockaden
-* Erhaltung des Λ-Charakters
-* keine nachträgliche Ereignisinflation
+## 28.3 Case 2:
 
-28.6 Case 5:
-Trajectory Decomposition
+### Attractor-Typed Occurrence
 
-* grobe Phase oder Entwicklung
-* Teilpfade und Wendepunkte
-* konkurrierende Fortsetzungen
-* sichtbarer Kompressionsverlust aus PATH
+* Recurring pattern
+* Internal frames and non-events
+* Falling local friction
+* Rising alternative costs
+* Preservation of the attractor claim
 
-28.7 Case 6:
-Resolution Gain
+## 28.4 Case 3:
 
-* feinere Struktur verändert einen Claim
-* neue Kosten- oder Rollenverteilung
-* bessere Erklärung der Makrofunktion
-* zulässige Dekomposition
+### Distributed Asymmetry
 
-28.8 Countercase 1:
-Overfine Analysis
+* Several local Ω structures
+* Different roles and resources
+* Temporal reinforcement
+* Test of whether a shared macro-asymmetry is supported
 
-* viele Details
-* keine neue Praxisdifferenz
-* Relevance Floor unterschritten
-* mandatory stop
+## 28.5 Case 4:
 
-28.9 Countercase 2:
-Unsupported Internal Structure
+### Structured Non-Event
 
-* plausible Teilprozesse
-* unzureichende Quellen
-* semantische Präzision übersteigt Evidenz
-* Claim muss reduziert werden
+* Omitted decision
+* Internal delays and blockages
+* Preservation of the Λ character
+* No retrospective event inflation
 
-28.10 Countercase 3:
-Operator Decomposition Error
+## 28.6 Case 5:
 
-* Basisoperator wird als materielles Komposit behandelt
-* Operator-Typ und Vorkommen werden vermischt
-* formaler Kategorienfehler
+### Trajectory Decomposition
 
-28.11 Countercase 4:
-Fragmentation without Source Function
+* Coarse phase or development
+* Subpaths and turning points
+* Competing continuations
+* Visible compression loss from PATH
 
-* Teileliste
-* keine Relationen
-* Ausgangsobjekt verschwindet
-* obere SUB-Grenze überschritten
+## 28.7 Case 6:
 
-28.12 Countercase 5:
-Resolution Escape
+### Resolution Gain
 
-* gröberer Claim wird belastet
-* immer feinere Ebene wird als Rettung genutzt
-* Einwand bleibt unbeantwortet
-* Anti-Immunisierungsverstoß
+* Finer structure changes a claim
+* New cost or role distribution
+* Better explanation of the macro-function
+* Admissible decomposition
 
-28.13 Countercase 6:
-False Macro-Asymmetry
+## 28.8 Countercase 1:
 
-* lokale Unterschiede vorhanden
-* keine koordinierte oder sedimentierte Makrostruktur
-* unzulässige Hochskalierung
-* möglicher RETYPE-Fehler
+### Overfine Analysis
 
-28.14 Confusion Case:
-SUB or RETYPE?
+* Many details
+* No new praxis difference
+* Relevance floor undercut
+* Mandatory stop
 
-* Eine Trajektorie wird geöffnet.
-* Gleichzeitig wird behauptet, sie fungiere als Frame.
-* Erforderlich sind zwei getrennte Operationen.
-* DECOMPOSE trägt nicht automatisch PROJECT_AS.
+## 28.9 Countercase 2:
 
-28.15 Confusion Case:
-SUB or New PATH?
+### Unsupported Internal Structure
 
-* neue Zwischenstrukturen werden rekonstruiert
-* daraus ergibt sich möglicherweise ein anderer Pfad
-* zu entscheiden ist, ob dasselbe Pfadobjekt geöffnet oder ein konkurrierender Pfad komponiert wird
+* Plausible subprocesses
+* Insufficient sources
+* Semantic precision exceeds evidence
+* Claim must be reduced
 
-28.16 Confusion Case:
-Decomposition or Analogy?
+## 28.10 Countercase 3:
 
-* interne Struktur wird mit einem fremden Domänenmodell beschrieben
-* Ähnlichkeit kann erklärend wirken
-* semantische Erhaltung bleibt ungeklärt
-* kein belastbares SUB ohne source-bound reconstruction
+### Operator Decomposition Error
 
-28.17 Confusion Case:
-Modulator or New Operator?
+* Base operator is treated as a material composite
+* Operator type and occurrence are conflated
+* Formal category error
 
-* wiederkehrende Gewichtung verändert Pfadwahrscheinlichkeit
-* kein neuer Basisoperator
-* Modulator bleibt Profil bestehender Operatoren
-* Typinflation wird vermieden
+## 28.11 Countercase 4:
 
-28.18 SUB Local Audit
+### Fragmentation without Source Function
 
-1. Ist das Ausgangsobjekt eindeutig bestimmt?
+* List of parts
+* No relations
+* Source object disappears
+* Upper SUB boundary exceeded
 
-2. Ist der Ursprungstyp angegeben?
+## 28.12 Countercase 5:
 
-3. Wird ein Vorkommen oder ein Komposit dekomponiert — nicht der Basisoperator?
+### Resolution Escape
 
-4. Ist der Granularitätswechsel deklariert?
+* Coarser claim is placed under pressure
+* Ever finer levels are used as rescue
+* Objection remains unanswered
+* Violation of anti-immunization
 
-5. Bleibt der Frame erhalten oder ist sein Wechsel markiert?
+## 28.13 Countercase 6:
 
-6. Ist die Dekompositionsfrage präzise?
+### False Macro-Asymmetry
 
-7. Ist die erwartete Zusatzdifferenz angegeben?
+* Local differences are present
+* No coordinated or sedimented macro-structure
+* Inadmissible upward scaling
+* Possible RETYPE error
 
-8. Tragen die Quellen die feinere Struktur?
+## 28.14 Confusion Case:
 
-9. Sind Komponenten und Relationen getrennt ausgewiesen?
+### SUB or RETYPE?
 
-10. Bleibt die Ausgangsfunktion rekonstruierbar?
+* A trajectory is opened.
+* At the same time, it is claimed to function as a frame.
+* Two separate operations are required.
+* DECOMPOSE does not automatically carry PROJECT_AS.
 
-11. Wird interne Heterogenität sichtbar, ohne das Objekt aufzulösen?
+## 28.15 Confusion Case:
 
-12. Erzeugt die Dekomposition praxeologischen Mehrwert?
+### SUB or New PATH?
 
-13. Wird der Relevance Floor eingehalten?
+* New intermediate structures are reconstructed.
+* These may generate another path.
+* It must be decided whether the same path object is being opened or a competing path is being composed.
 
-14. Wurde Auflösungsneutralität als solche benannt?
+## 28.16 Confusion Case:
 
-15. Wurde Auflösungsdrift ausgeschlossen?
+### Decomposition or Analogy?
 
-16. Wird ein Gegenbeispiel nicht nur auf eine feinere Ebene verschoben?
+* Internal structure is described through a foreign domain model.
+* Similarity may be explanatorily useful.
+* Semantic preservation remains unresolved.
+* No supportable SUB without source-bound reconstruction
 
-17. Ist SUB von RETYPE getrennt?
+## 28.17 Confusion Case:
 
-18. Ist SUB von einer konkurrierenden PATH-Komposition getrennt?
+### Modulator or New Operator?
 
-19. Werden Operatorgewichtungen nicht zu neuen Operatoren erklärt?
+* Recurring weighting changes path probability.
+* No new base operator
+* The modulator remains a profile of existing operators.
+* Type inflation is avoided.
 
-20. Ist der Counterfactual Component Test durchgeführt?
+## 28.18 SUB Local Audit
 
-21. Sind Quellen- und Kalibrierungsgrenzen offengelegt?
+1. Is the source object determined unambiguously?
 
-22. Ist eine Stopbedingung angegeben?
+2. Is the origin type stated?
 
-23. Bleibt Non-Capture möglich?
+3. Is an occurrence or composite being decomposed—not the base operator?
 
-24. Erzeugt die feinere Rekonstruktion keine zusätzliche Autorität?
+4. Is the granularity change declared?
 
-28.19 SUB Output Classes
+5. Is the frame preserved, or is its change marked?
 
-* admissible decomposition
-* source function confirmed
-* source function refined
-* source function internally differentiated
-* source function partially preserved
-* source function rejected
-* resolution-neutral result
-* competing decompositions
-* unsupported decomposition
-* resolution drift
-* mandatory stop
-* non-capture
+6. Is the decomposition question precise?
 
-28.20 SUB Closing Statement
+7. Is the expected additional difference stated?
+
+8. Do the sources support the finer structure?
+
+9. Are components and relations disclosed separately?
+
+10. Does the source function remain reconstructable?
+
+11. Does internal heterogeneity become visible without dissolving the object?
+
+12. Does the decomposition generate praxeological added value?
+
+13. Is the relevance floor observed?
+
+14. Has resolution neutrality been identified as such?
+
+15. Has resolution drift been excluded?
+
+16. Is a counterexample not merely displaced to a finer level?
+
+17. Is SUB separated from RETYPE?
+
+18. Is SUB separated from a competing PATH composition?
+
+19. Are operator weightings not declared to be new operators?
+
+20. Has the counterfactual component test been performed?
+
+21. Are source and calibration limits disclosed?
+
+22. Is a stop condition stated?
+
+23. Does non-capture remain possible?
+
+24. Does the finer reconstruction generate no additional authority?
+
+## 28.19 SUB Output Classes
+
+* Admissible decomposition
+* Source function confirmed
+* Source function refined
+* Source function internally differentiated
+* Source function partially preserved
+* Source function rejected
+* Resolution-neutral result
+* Competing decompositions
+* Unsupported decomposition
+* Resolution drift
+* Mandatory stop
+* Non-capture
+
+## 28.20 SUB Closing Statement
 
 SUB specifies how provisionally compressed PMS-typed occurrences and composite structures may be reconstructed under finer granularity while preserving source reference, testing the coarser function, and stopping where additional detail no longer produces praxeological purchase.
 
@@ -3741,30 +3857,31 @@ It does not authorize arbitrary micro-description, decomposition of the PMS oper
 
 ---
 
-PART III — RETYPE
-Cross-Level Functional Projection
+# PART III — RETYPE
 
-29. Functional Projection without Origin-Type Replacement
+## Cross-Level Functional Projection
 
-29.1 Purpose of RETYPE
+# 29. Functional Projection without Origin-Type Replacement
 
-RETYPE spezifiziert, unter welchen Bedingungen ein bereits bestimmtes PMS- oder STRATA-Objekt innerhalb eines deklarierten Zielkontexts eine neue analytische Funktion übernehmen kann.
+## 29.1 Purpose of RETYPE
 
-RETYPE fragt:
+RETYPE specifies the conditions under which an already determined PMS or STRATA object may assume a new analytical function within a declared target context.
 
-* Welchen Ursprungstyp besitzt das Ausgangsobjekt?
-* Innerhalb welches Zielkontexts soll es funktional gelesen werden?
-* Welche Zielfunktion wird behauptet?
-* Welche Ausgangsstrukturen tragen diese Funktion?
-* Wie weit reicht die Projektion?
-* Welche Informationen werden hervorgehoben, komprimiert oder zurückgestellt?
-* Wann handelt es sich nur um Umbenennung, Analogie oder Typensprung?
+RETYPE asks:
 
-29.2 Functional Projection
+* What origin type does the source object possess?
+* Within which target context is it to be read functionally?
+* Which target function is asserted?
+* Which source structures carry this function?
+* How far does the projection extend?
+* Which information is highlighted, compressed, or set aside?
+* When is the operation merely renaming, analogy, or a type jump?
 
-Eine funktionale Projektion behandelt ein Ausgangsobjekt als Träger einer begrenzten Funktion innerhalb eines anderen analytischen Zusammenhangs.
+## 29.2 Functional Projection
 
-Beispiel:
+A functional projection treats a source object as the carrier of a bounded function within another analytical context.
+
+Example:
 
 ```yaml
 source_object: trajectory_X
@@ -3778,15 +3895,15 @@ target_level: g+1
 target_function: frame_function
 ```
 
-Die Trajektorie bleibt auf ihrer Ursprungsebene eine Trajektorie.
+At its origin level, the trajectory remains a trajectory.
 
-Sie ist nicht zu einem Frame-Operator geworden.
+It has not become a Frame operator.
 
-29.3 Origin Type Preservation
+## 29.3 Origin Type Preservation
 
-Der Ursprungstyp bezeichnet die analytische Identität des Ausgangsobjekts innerhalb seiner Ausgangsrekonstruktion.
+The origin type designates the analytical identity of the source object within its source reconstruction.
 
-Er bleibt sichtbar und erhalten.
+It remains visible and preserved.
 
 ```text
 trajectory
@@ -3798,33 +3915,33 @@ frame-function
 trajectory becomes frame as origin type
 ```
 
-RETYPE verändert die kontextuelle Funktion, nicht rückwirkend den Ursprungstyp.
+RETYPE changes the contextual function, not the origin type retrospectively.
 
-29.4 Target Function
+## 29.4 Target Function
 
-Die Zielfunktion bezeichnet, was das Ausgangsobjekt innerhalb des Zielkontexts analytisch leistet.
+The target function designates what the source object analytically does within the target context.
 
-Mögliche Zielfunktionen sind etwa:
+Possible target functions include:
 
-* frame-function
-* macro-event function
-* attractor-function
-* asymmetry-function
-* binding-function
-* modulating function
-* integration-function
-* higher-level boundary function
+* Frame-function
+* Macro-event function
+* Attractor-function
+* Asymmetry-function
+* Binding-function
+* Modulating function
+* Integration-function
+* Higher-level boundary function
 
-Eine Zielfunktion ist:
+A target function is:
 
-* relational,
-* kontextgebunden,
-* claim-begrenzt,
-* und keine neue PMS-Primitive.
+* Relational
+* Context-bound
+* Claim-bounded
+* Not a new PMS primitive
 
-29.5 Target Function versus Operator Type
+## 29.5 Target Function versus Operator Type
 
-Eine Struktur kann eine operatorähnliche Funktion übernehmen, ohne selbst zum Basisoperator zu werden.
+A structure may assume an operator-like function without itself becoming a base operator.
 
 ```text
 functions as □
@@ -3836,59 +3953,59 @@ functions as Α
 is Α as origin type
 ```
 
-Diese Unterscheidung ist für RETYPE konstitutiv.
+This distinction is constitutive of RETYPE.
 
-29.6 Source Object Integrity
+## 29.6 Source Object Integrity
 
-Das Ausgangsobjekt muss durch die Projektion weiterhin erkennbar bleiben.
+The source object must remain identifiable through the projection.
 
-Dazu gehören:
+This includes:
 
-* historische Referenz,
-* Ursprungstyp,
-* tragende Relationen,
-* relevante zeitliche Struktur,
-* Kosten- und Asymmetrielast,
-* und die Grenzen der ursprünglichen Rekonstruktion.
+* Historical reference
+* Origin type
+* Carrying relations
+* Relevant temporal structure
+* Cost and asymmetry load
+* Limits of the original reconstruction
 
-29.7 Functional Continuity
+## 29.7 Functional Continuity
 
-Die Zielfunktion muss auf konkrete Eigenschaften des Ausgangsobjekts zurückführbar sein.
+The target function must be traceable to concrete properties of the source object.
 
-Eine Trajektorie kann etwa als Frame-Function wirken, wenn ihre sedimentierten Erwartungen, Kosten, Rollen oder Ausschlüsse die Lesbarkeit einer späteren Konfiguration tatsächlich strukturieren.
+A trajectory may function as a frame-function, for example, if its sedimented expectations, costs, roles, or exclusions actually structure the legibility of a later configuration.
 
-Die Zielfunktion darf nicht nur aufgrund sprachlicher Ähnlichkeit behauptet werden.
+The target function must not be asserted merely because of linguistic similarity.
 
-29.8 Contextual Boundedness
+## 29.8 Contextual Boundedness
 
-Eine Projektion gilt nur innerhalb eines bestimmten Zielkontexts.
+A projection applies only within a specific target context.
 
-Zu bestimmen sind:
+The following must be determined:
 
-* Zielobjekt oder Zielszene,
-* zeitliche Reichweite,
-* relative Zielebene,
-* relevante Rollen,
-* Funktionsbereich,
-* Geltungsdauer,
-* und Claim Ceiling.
+* Target object or target scene
+* Temporal scope
+* Relative target level
+* Relevant roles
+* Functional range
+* Duration of validity
+* Claim ceiling
 
-Eine Zielfunktion darf nicht automatisch auf alle späteren Kontexte übertragen werden.
+A target function must not automatically be transferred to all later contexts.
 
-29.9 Projection without Replacement
+## 29.9 Projection without Replacement
 
-RETYPE ersetzt nicht:
+RETYPE does not replace:
 
-* die ursprüngliche PATH-Rekonstruktion,
-* eine mögliche SUB-Dekomposition,
-* den Ursprungstyp,
-* oder die verbleibende interne Heterogenität.
+* The original PATH reconstruction
+* A possible SUB decomposition
+* The origin type
+* Remaining internal heterogeneity
 
-RETYPE fügt eine funktionale Relation hinzu.
+RETYPE adds a functional relation.
 
-29.10 Functional Projection as a Typed Claim
+## 29.10 Functional Projection as a Typed Claim
 
-Jede Projektion ist ein spezifischer Claim:
+Every projection is a specific claim:
 
 ```text
 Within target context C,
@@ -3897,28 +4014,28 @@ while retaining origin type T,
 performs bounded function F.
 ```
 
-Die Projektion ist kein Claim darüber, was X „an sich“ ist.
+The projection is not a claim about what X is “in itself.”
 
-29.11 RETYPE versus Recontextualization
+## 29.11 RETYPE versus Recontextualization
 
-Φ kann die Lesbarkeit eines Objekts in einem neuen Frame verändern.
+Φ may change the legibility of an object within a new frame.
 
-PROJECT_AS geht einen Schritt weiter:
+PROJECT_AS goes one step further:
 
-* Das Ausgangsobjekt bleibt bestimmt.
-* Ein Zielkontext wird deklariert.
-* Eine konkrete Zielfunktion wird behauptet.
-* Die Funktion wird durch Source Trace und Gegenprobe geprüft.
+* The source object remains determined.
+* A target context is declared.
+* A concrete target function is asserted.
+* The function is tested through source trace and countertest.
 
-Nicht jede Recontextualization ist daher RETYPE.
+Not every recontextualization is therefore RETYPE.
 
-29.12 RETYPE versus COMPOSE
+## 29.12 RETYPE versus COMPOSE
 
-COMPOSE bildet ein neues Analyseobjekt aus mehreren Strukturen.
+COMPOSE forms a new analytical object from several structures.
 
-PROJECT_AS bestimmt, welche Funktion ein bereits gebildetes Objekt innerhalb eines Zielkontexts übernimmt.
+PROJECT_AS determines which function an already formed object assumes within a target context.
 
-Typische Kette:
+Typical chain:
 
 ```text
 configurations
@@ -3930,22 +4047,23 @@ PROJECT_AS
 frame-function
 ```
 
-29.13 RETYPE versus DECOMPOSE
+## 29.13 RETYPE versus DECOMPOSE
 
-DECOMPOSE öffnet die interne Struktur des Ausgangsobjekts.
+DECOMPOSE opens the internal structure of the source object.
 
-PROJECT_AS erhält das Objekt als Einheit und ordnet ihm eine Zielfunktion zu.
+PROJECT_AS preserves the object as a unit and assigns it a target function.
 
-Beide Operationen können kombiniert werden, müssen aber getrennte Records besitzen.
+Both operations may be combined, but they must have separate records. 
 
-30. PROJECT_AS:
-    Signature, Context, and Validity Scope
+# 30. PROJECT_AS:
 
-30.1 Definition
+## Signature, Context, and Validity Scope
 
-PROJECT_AS ist die kontrollierte Projektion eines origin-typisierten Ausgangsobjekts als begrenzte Funktion innerhalb eines deklarierten Zielkontexts.
+## 30.1 Definition
 
-30.2 Minimal Signature
+PROJECT_AS is the controlled projection of an origin-typed source object as a bounded function within a declared target context.
+
+## 30.2 Minimal Signature
 
 ```text
 PROJECT_AS:
@@ -3954,31 +4072,31 @@ PROJECT_AS:
 (F_t, g', J, L, V)
 ```
 
-Dabei stehen:
+Where:
 
-* `X_g` für das Ausgangsobjekt auf der relativen Ebene `g`,
-* `T_o` für den Ursprungstyp,
-* `C_t` für den Zielkontext,
-* `F_t` für die Zielfunktion,
-* `g'` für die relative Zielebene,
-* `J` für die Begründung,
-* `L` für Verlust und Kompression,
-* `V` für den Geltungsbereich.
+* `X_g` denotes the source object at relative level `g`,
+* `T_o` denotes the origin type,
+* `C_t` denotes the target context,
+* `F_t` denotes the target function,
+* `g'` denotes the relative target level,
+* `J` denotes the justification,
+* `L` denotes loss and compression,
+* `V` denotes the validity scope.
 
-30.3 Preconditions
+## 30.3 Preconditions
 
-PROJECT_AS benötigt:
+PROJECT_AS requires:
 
-* identifizierbares Ausgangsobjekt,
-* bestimmten Ursprungstyp,
-* deklarierte Ausgangs- und Zielebene,
-* bestimmten Zielkontext,
-* klar benannte Zielfunktion,
-* erwartete praxeologische Zusatzleistung,
-* nachvollziehbare Quellspur,
-* und begrenzten Claim.
+* An identifiable source object
+* A determined origin type
+* Declared source and target levels
+* A determined target context
+* A clearly named target function
+* Expected additional praxeological performance
+* A traceable source trace
+* A bounded claim
 
-30.4 Source Declaration
+## 30.4 Source Declaration
 
 ```yaml
 source:
@@ -3991,7 +4109,7 @@ source:
   source_basis:
 ```
 
-30.5 Target Declaration
+## 30.5 Target Declaration
 
 ```yaml
 target:
@@ -4004,23 +4122,23 @@ target:
   validity_scope:
 ```
 
-30.6 Projection Justification
+## 30.6 Projection Justification
 
-Die Begründung muss zeigen:
+The justification must show:
 
-* weshalb die Zielfunktion im Zielkontext analytisch nötig ist,
-* welche Eigenschaften des Ausgangsobjekts sie tragen,
-* welche Alternativprojektionen geprüft wurden,
-* und welche zusätzliche Praxisdifferenz entsteht.
+* Why the target function is analytically necessary within the target context
+* Which properties of the source object carry it
+* Which alternative projections were tested
+* Which additional praxis difference arises
 
-30.7 Constitutive Source Trace
+## 30.7 Constitutive Source Trace
 
-Die Source Trace weist aus:
+The source trace identifies:
 
-* welche Ausgangsmerkmale konstitutiv sind,
-* welche nur modulierend wirken,
-* welche komprimiert werden,
-* und welche für die Zielfunktion irrelevant bleiben.
+* Which source features are constitutive
+* Which act only as modulators
+* Which are compressed
+* Which remain irrelevant to the target function
 
 ```yaml
 constitutive_source_trace:
@@ -4030,13 +4148,13 @@ constitutive_source_trace:
   excluded_features:
 ```
 
-30.8 Counterfactual Sensitivity
+## 30.8 Counterfactual Sensitivity
 
-Zentrale Frage:
+Central question:
 
-> Würde eine relevante Änderung der Ausgangsstruktur die Zielfunktion verändern?
+> Would a relevant change in the source structure alter the target function?
 
-Mögliche Ergebnisse:
+Possible results:
 
 * `strongly_sensitive`
 * `partially_sensitive`
@@ -4045,24 +4163,24 @@ Mögliche Ergebnisse:
 * `underdetermined`
 * `untestable`
 
-30.9 Validity Scope
+## 30.9 Validity Scope
 
-Die Projektion muss begrenzt werden hinsichtlich:
+The projection must be bounded with respect to:
 
-* Zielkontext,
-* Zeitraum,
-* relativer Ebene,
-* betroffener Rollen,
-* praxeologischer Dimensionen,
-* und möglicher Übertragbarkeit.
+* Target context
+* Time period
+* Relative level
+* Affected roles
+* Praxeological dimensions
+* Possible transferability
 
-Eine lokale Frame-Function darf nicht automatisch als allgemeine historische Wahrheit gelten.
+A local frame-function must not automatically be treated as a general historical truth.
 
-30.10 Projection Loss
+## 30.10 Projection Loss
 
-PROJECT_AS hebt bestimmte Funktionen hervor und stellt andere zurück.
+PROJECT_AS foregrounds certain functions and backgrounds others.
 
-Zu dokumentieren sind:
+The following must be documented:
 
 ```yaml
 loss:
@@ -4075,33 +4193,33 @@ loss:
   irrecoverable:
 ```
 
-30.11 Projection Alternatives
+## 30.11 Projection Alternatives
 
-Mögliche Alternativen:
+Possible alternatives:
 
-* anderes target function
-* andere Zielgranularität
-* keine Projektion
-* bloße Recontextualization
-* konkurrierende PATH-Komposition
-* konkurrierende SUB-Rekonstruktion
-* Non-Capture
+* Another target function
+* Another target granularity
+* No projection
+* Mere recontextualization
+* Competing PATH composition
+* Competing SUB reconstruction
+* Non-capture
 
-30.12 Projection Result
+## 30.12 Projection Result
 
-Mögliche Ergebnisse:
+Possible results:
 
-* admissible projection
-* admissible but narrow projection
-* competing projections
-* provisional projection
-* analogy only
-* label substitution
-* invalid type jump
-* mandatory stop
-* non-capture
+* Admissible projection
+* Admissible but narrow projection
+* Competing projections
+* Provisional projection
+* Analogy only
+* Label substitution
+* Invalid type jump
+* Mandatory stop
+* Non-capture
 
-30.13 PROJECT_AS Record
+## 30.13 PROJECT_AS Record
 
 ```yaml
 project_as:
@@ -4125,147 +4243,147 @@ project_as:
   admissibility_result:
 ```
 
-31. Trajectory as Frame-Function
+# 31. Trajectory as Frame-Function
 
-31.1 Basic Claim
+## 31.1 Basic Claim
 
-Eine vergangene Trajektorie kann innerhalb einer späteren Konfiguration als Frame-Function wirken, wenn sie die Lesbarkeit, Erwartbarkeit oder Erreichbarkeit späterer Praxis strukturiert.
+A past trajectory may function as a frame-function within a later configuration if it structures the legibility, expectability, or reachability of later praxis.
 
-31.2 Source Object
+## 31.2 Source Object
 
-Das Ausgangsobjekt ist eine bereits rekonstruierte Trajektorie mit:
+The source object is an already reconstructed trajectory containing:
 
-* zeitlicher Ordnung,
-* Sedimentation,
-* relevanten Nicht-Ereignissen,
-* akkumulierten Asymmetrien,
-* Bindungslast,
-* und veränderten Handlungskorridoren.
+* Temporal order
+* Sedimentation
+* Relevant non-events
+* Accumulated asymmetries
+* Binding load
+* Changed action corridors
 
-31.3 Target Context
+## 31.3 Target Context
 
-Der Zielkontext ist eine spätere Konfiguration oder ein späterer Pfadabschnitt.
+The target context is a later configuration or a later segment of a path.
 
-Zu klären ist:
+The following must be clarified:
 
-* Was wird später interpretiert oder gehandhabt?
-* Welche vergangenen Strukturen sind weiterhin wirksam?
-* Welche Rollen tragen historische Erwartungen?
-* Welche Alternativen werden durch die Vorgeschichte anders lesbar?
+* What is later interpreted or handled?
+* Which past structures remain effective?
+* Which roles carry historical expectations?
+* Which alternatives become differently legible through prior history?
 
-31.4 Frame-Function
+## 31.4 Frame-Function
 
-Die Trajektorie kann später bestimmen:
+The trajectory may later determine:
 
-* was als normal oder abweichend erscheint,
-* welche Erwartungen plausibel sind,
-* welche Reaktionen als verfügbar gelten,
-* welche Risiken angenommen werden,
-* welche Rollen vorausgesetzt werden,
-* und welche Handlungen als glaubwürdig oder unglaubwürdig erscheinen.
+* What appears normal or deviant
+* Which expectations appear plausible
+* Which responses count as available
+* Which risks are assumed
+* Which roles are presupposed
+* Which actions appear credible or incredible
 
-31.5 Historical Load
+## 31.5 Historical Load
 
-Die Frame-Function muss durch historische Last getragen werden.
+The frame-function must be carried by historical load.
 
-Mögliche Träger:
+Possible carriers include:
 
-* sedimentierte Erwartungen,
-* wiederholte Enttäuschungen,
-* stabile Attraktoren,
-* institutionalisierte Rollen,
-* frühere Commitments,
-* offene Residuen,
-* oder asymmetrische Kostenverläufe.
+* Sedimented expectations
+* Repeated disappointments
+* Stable attractors
+* Institutionalized roles
+* Earlier commitments
+* Open residues
+* Asymmetrical cost trajectories
 
-31.6 Frame-Function without Historical Determinism
+## 31.6 Frame-Function without Historical Determinism
 
-Die Vergangenheit strukturiert die spätere Szene, bestimmt sie aber nicht vollständig.
+The past structures the later scene, but does not determine it completely.
 
-Die Projektion darf nicht behaupten:
+The projection must not claim:
 
-* jede spätere Handlung sei notwendig,
-* jede neue Interpretation sei ausgeschlossen,
-* oder die Trajektorie sei der einzige relevante Frame.
+* That every later action is necessary
+* That every new interpretation is excluded
+* That the trajectory is the only relevant frame
 
-31.7 Multiple Frame Sources
+## 31.7 Multiple Frame Sources
 
-Eine spätere Szene kann durch mehrere Frame-Funktionen strukturiert werden:
+A later scene may be structured by several frame-functions:
 
-* frühere Trajektorie,
-* gegenwärtige Institution,
-* neue Ereignisse,
-* externe Regeln,
-* konkurrierende Narrative,
-* oder veränderte Rollen.
+* Earlier trajectory
+* Present institution
+* New events
+* External rules
+* Competing narratives
+* Changed roles
 
-PROJECT_AS muss die relative Last der projizierten Trajektorie bestimmen.
+PROJECT_AS must determine the relative load of the projected trajectory.
 
-31.8 Rhetorical History versus Frame-Function
+## 31.8 Rhetorical History versus Frame-Function
 
-„Die Geschichte“ ist keine hinreichende Begründung.
+“History” is not sufficient justification.
 
-Eine rhetorische Geschichtsprojektion liegt vor, wenn:
+A rhetorical projection of history is present if:
 
-* Vergangenheit nur zur Schließung eines neuen Falls verwendet wird,
-* der konkrete Source Trace fehlt,
-* neue Gegenbefunde nicht zugelassen werden,
-* oder jede spätere Szene automatisch aus der Vorgeschichte erklärt wird.
+* The past is used merely to close a new case
+* The concrete source trace is missing
+* New counterevidence is not admitted
+* Every later scene is automatically explained through prior history
 
-31.9 Counterfactual Frame Test
+## 31.9 Counterfactual Frame Test
 
-Zu fragen ist:
+The following must be asked:
 
-* Würde eine andere Trajektorie die spätere Szene anders rahmen?
-* Welche historischen Merkmale sind dafür entscheidend?
-* Würde der Wegfall eines tragenden Merkmals die Frame-Function schwächen?
-* Bleibt die Projektion auch bei gegenteiliger Quellstruktur unverändert?
+* Would another trajectory frame the later scene differently?
+* Which historical features are decisive?
+* Would removing a carrying feature weaken the frame-function?
+* Does the projection remain unchanged even under an opposite source structure?
 
-31.10 Competing Frame Projections
+## 31.10 Competing Frame Projections
 
-Dieselbe Trajektorie kann in derselben späteren Szene möglicherweise wirken als:
+The same trajectory may possibly function within the same later scene as:
 
-* warning frame,
-* legitimacy frame,
-* expectation frame,
-* constraint frame,
-* identity frame,
-* oder background condition.
+* Warning frame
+* Legitimacy frame
+* Expectation frame
+* Constraint frame
+* Identity frame
+* Background condition
 
-Diese Projektionen können kompatibel oder konkurrierend sein.
+These projections may be compatible or competing.
 
-31.11 Failed Frame Projection
+## 31.11 Failed Frame Projection
 
-Die Projektion scheitert, wenn:
+The projection fails if:
 
-* die spätere Szene ohne die Trajektorie gleich rekonstruiert wird,
-* nur allgemeine historische Sprache vorliegt,
-* der Ursprungspfad nicht mehr nachvollziehbar ist,
-* oder der Vergangenheit unbegrenzte Schließungskraft zugeschrieben wird.
+* The later scene is reconstructed identically without the trajectory
+* Only general historical language is available
+* The source path is no longer traceable
+* Unlimited closure power is attributed to the past
 
-32. Trajectory as Macro-Event
+# 32. Trajectory as Macro-Event
 
-32.1 Basic Claim
+## 32.1 Basic Claim
 
-Eine zeitlich ausgedehnte Trajektorie kann innerhalb eines umfassenderen Zeitrahmens als Macro-Event behandelt werden.
+A temporally extended trajectory may be treated as a macro-event within a broader temporal frame.
 
-Beispiele für solche Funktionsbildungen sind:
+Examples of such functional formations include:
 
-* eine Eskalationsphase,
-* eine institutionelle Reorganisation,
-* eine längere Stagnation,
-* eine Integrationsperiode,
-* oder ein wiederholter Zusammenbruchspfad.
+* An escalation phase
+* An institutional reorganization
+* A prolonged stagnation
+* A period of integration
+* A recurring collapse path
 
-32.2 Macro-Event as Target Function
+## 32.2 Macro-Event as Target Function
 
-Die Trajektorie bleibt intern zeitlich ausgedehnt.
+The trajectory remains internally extended in time.
 
-Als Macro-Event übernimmt sie innerhalb eines größeren Pfads jedoch die Funktion eines abgegrenzten Übergangselements.
+As a macro-event, however, it assumes the function of a bounded transition element within a larger path.
 
-32.3 Target Frame
+## 32.3 Target Frame
 
-Die Macro-Event-Projektion benötigt einen größeren zeitlichen oder strukturellen Frame.
+Macro-event projection requires a larger temporal or structural frame.
 
 ```text
 trajectory within period A
@@ -4273,105 +4391,105 @@ PROJECT_AS
 macro-event within wider history B
 ```
 
-32.4 Boundary Selection
+## 32.4 Boundary Selection
 
-Zu bestimmen sind:
+The following must be determined:
 
-* Beginn,
-* Ende,
-* konstitutive Phasen,
-* innere Wendepunkte,
-* und Verhältnis zu vorherigen und späteren Entwicklungen.
+* Beginning
+* End
+* Constitutive phases
+* Internal turning points
+* Relation to earlier and later developments
 
-Die Grenzen dürfen nicht nur durch ein späteres Label gesetzt werden.
+The boundaries must not be set merely by a later label.
 
-32.5 Internal Duration
+## 32.5 Internal Duration
 
-Ein Macro-Event darf nicht so behandelt werden, als habe es punktuell stattgefunden.
+A macro-event must not be treated as though it occurred punctually.
 
-Die Projektion muss erhalten:
+The projection must preserve:
 
-* innere Dauer,
-* Sequenz,
-* relevante Teilpfade,
-* und mögliche interne Umkehrungen.
+* Internal duration
+* Sequence
+* Relevant subpaths
+* Possible internal reversals
 
-32.6 Internal Heterogeneity
+## 32.6 Internal Heterogeneity
 
-Eine längere Entwicklung kann enthalten:
+A prolonged development may contain:
 
-* verschiedene Phasen,
-* widersprüchliche Teilprozesse,
-* parallele Entwicklungen,
-* und unterschiedliche lokale Folgen.
+* Different phases
+* Contradictory subprocesses
+* Parallel developments
+* Different local consequences
 
-Die Macro-Event-Funktion darf diese Heterogenität komprimieren, aber nicht leugnen.
+The macro-event function may compress this heterogeneity, but it must not deny it.
 
-32.7 Event Function
+## 32.7 Event Function
 
-Die Trajektorie kann als Macro-Event gelten, wenn sie innerhalb des Zielrahmens:
+The trajectory may count as a macro-event if, within the target frame, it:
 
-* einen relevanten Übergang markiert,
-* spätere Möglichkeiten verändert,
-* einen größeren Pfad strukturiert,
-* oder einen historischen Zustand klar von einem anderen trennt.
+* Marks a relevant transition
+* Changes later possibilities
+* Structures a larger path
+* Clearly separates one historical condition from another
 
-32.8 Punctualization Error
+## 32.8 Punctualization Error
 
-Ein Fehler entsteht, wenn:
+An error arises if:
 
-* Dauer unsichtbar wird,
-* interne Prozesse als simultan erscheinen,
-* Verantwortung und Kosten punktualisiert werden,
-* oder die Trajektorie wie ein einzelner Akt behandelt wird.
+* Duration becomes invisible
+* Internal processes appear simultaneous
+* Responsibility and costs are punctualized
+* The trajectory is treated as a single act
 
-32.9 Macro-Event versus COMPOSE
+## 32.9 Macro-Event versus COMPOSE
 
-COMPOSE bildet die Trajektorie.
+COMPOSE forms the trajectory.
 
-PROJECT_AS weist ihr anschließend innerhalb eines größeren Zeitrahmens die Macro-Event-Funktion zu.
+PROJECT_AS subsequently assigns it a macro-event function within a broader temporal frame.
 
-Beide Schritte dürfen nicht vermischt werden.
+The two steps must not be conflated.
 
-32.10 Counterfactual Macro-Event Test
+## 32.10 Counterfactual Macro-Event Test
 
-Zu prüfen ist:
+The following must be tested:
 
-* Würde das Wegfallen zentraler Phasen die Macro-Event-Typisierung verändern?
-* Welche internen Elemente tragen den Übergangscharakter?
-* Ist die Großfunktion gegenüber innerer Variation sensitiv?
-* Wäre ein anderes Kompositionsobjekt geeigneter?
+* Would removing central phases alter the macro-event typing?
+* Which internal elements carry the transition character?
+* Is the macro-function sensitive to internal variation?
+* Would another composite object be more appropriate?
 
-32.11 Failed Macro-Event Projection
+## 32.11 Failed Macro-Event Projection
 
-Die Projektion scheitert, wenn:
+The projection fails if:
 
-* nur ein historisches Schlagwort entsteht,
-* der Zielrahmen unbestimmt bleibt,
-* die innere Dauer vollständig verschwindet,
-* oder das Macro-Event keinen praxeologischen Unterschied im größeren Pfad erzeugt.
+* It produces only a historical slogan
+* The target frame remains undetermined
+* Internal duration disappears completely
+* The macro-event generates no praxeological difference within the larger path
 
-33. Recurrent Trajectory Form as Attractor-Function
+# 33. Recurrent Trajectory Form as Attractor-Function
 
-33.1 Basic Claim
+## 33.1 Basic Claim
 
-Nicht notwendig die einzelne Trajektorie, sondern ihre wiederkehrende Verlaufsform kann innerhalb eines umfassenderen Kontexts als Attractor-Function projiziert werden.
+It is not necessarily an individual trajectory, but its recurrent trajectory form, that may be projected as an attractor-function within a broader context.
 
-33.2 Single Trajectory versus Recurrent Form
+## 33.2 Single Trajectory versus Recurrent Form
 
-Einzelne Trajektorie:
+### Single trajectory
 
-* einmaliger historischer Verlauf
+* One-time historical course
 
-Recurrent trajectory form:
+### Recurrent trajectory form
 
-* vergleichbare Übergangsstruktur tritt wiederholt auf
-* Rollen, Kosten oder Erwartungen stabilisieren sich
-* bestimmte Sequenzen werden leichter reproduzierbar
+* A comparable transition structure occurs repeatedly
+* Roles, costs, or expectations stabilize
+* Certain sequences become easier to reproduce
 
-33.3 Dynamic Attractor
+## 33.3 Dynamic Attractor
 
-Eine Attractor-Function kann nicht nur einen stabilen Zustand, sondern eine wiederkehrende Bewegungsform stabilisieren.
+An attractor-function may stabilize not only a stable state, but a recurring form of movement.
 
 ```text
 configuration A
@@ -4382,208 +4500,210 @@ configuration A
 → renewed configuration A'
 ```
 
-33.4 Pattern Threshold
+## 33.4 Pattern Threshold
 
-Eine wiederkehrende Form darf erst als Attractor-Function projiziert werden, wenn:
+A recurrent form may be projected as an attractor-function only if:
 
-* mehrere hinreichend vergleichbare Verläufe bestehen,
-* die Wiederholung nicht nur oberflächlich ist,
-* tragende Übergänge wiederkehren,
-* und die Form spätere Pfade tatsächlich beeinflusst.
+* Several sufficiently comparable trajectories exist
+* The repetition is not merely superficial
+* Carrying transitions recur
+* The form actually influences later paths
 
-33.5 Constitutive Repetition
+## 33.5 Constitutive Repetition
 
-Zu bestimmen sind:
+The following must be determined:
 
-* welche Phasen konstitutiv sind,
-* welche variieren dürfen,
-* welche Rollen wiederkehren,
-* welche Nicht-Ereignisse die Form tragen,
-* und welche Kosten über Wiederholung stabilisiert werden.
+* Which phases are constitutive
+* Which may vary
+* Which roles recur
+* Which non-events carry the form
+* Which costs are stabilized through repetition
 
-33.6 Attractor Load
+## 33.6 Attractor Load
 
-Die Zielfunktion kann getragen werden durch:
+The target function may be carried by:
 
-* sinkende Reibung des bekannten Verlaufs,
-* stabilisierte Erwartungen,
-* wiederholte Rollenverteilung,
-* wiederkehrende Exit- oder Reparaturmuster,
-* und steigende Kosten alternativer Sequenzen.
+* Falling friction of the familiar trajectory
+* Stabilized expectations
+* Repeated role distribution
+* Recurring exit or repair patterns
+* Rising costs of alternative sequences
 
-33.7 Dynamic versus Static Attractor-Function
+## 33.7 Dynamic versus Static Attractor-Function
 
-Static attractor-function:
+### Static attractor-function
 
-* stabilisiert eine Konfiguration oder Lage
+* Stabilizes a configuration or position
 
-Dynamic attractor-function:
+### Dynamic attractor-function
 
-* stabilisiert eine Übergangsform oder Sequenz
+* Stabilizes a transition form or sequence
 
-Die Unterscheidung muss im Claim sichtbar sein.
+The distinction must remain visible in the claim.
 
-33.8 Recurrent Form versus Retrospective Similarity
+## 33.8 Recurrent Form versus Retrospective Similarity
 
-Nicht jede Ähnlichkeit mehrerer Verläufe zeigt einen Attraktor.
+Not every similarity between several trajectories demonstrates an attractor.
 
-Zu prüfen sind:
+The following must be tested:
 
-* echte Wiederholungsmechanismen,
-* gemeinsame Framebedingungen,
-* vergleichbare Operatorgewichtung,
-* und Einfluss auf spätere Fortsetzungen.
+* Actual repetition mechanisms
+* Shared frame conditions
+* Comparable operator weighting
+* Influence on later continuations
 
-33.9 Counterfactual Attractor Test
+## 33.9 Counterfactual Attractor Test
 
-* Würden veränderte Framebedingungen die Verlaufsform verändern?
-* Bricht die Form bei veränderter Rollen- oder Kostenverteilung?
-* Welche Übergänge sind austauschbar?
-* Welche Wiederholungen sind nur oberflächlich ähnlich?
+* Would changed frame conditions alter the trajectory form?
+* Does the form break under changed role or cost distributions?
+* Which transitions are replaceable?
+* Which repetitions are only superficially similar?
 
-33.10 Failed Attractor Projection
+## 33.10 Failed Attractor Projection
 
-Die Projektion scheitert, wenn:
+The projection fails if:
 
-* nur eine einzelne Trajektorie vorliegt,
-* Ähnlichkeit rein narrativ ist,
-* keine stabilisierende Wirkung besteht,
-* oder jede Sequenz unter ein zu elastisches Muster subsumiert werden kann.
+* Only one trajectory is available
+* Similarity is purely narrative
+* No stabilizing effect exists
+* Every sequence can be subsumed under an overly elastic pattern
 
-34. Composite Structures as Higher-Level Functions
+# 34. Composite Structures as Higher-Level Functions
 
-34.1 Basic Claim
+## 34.1 Basic Claim
 
-Komposite aus mehreren PMS-typisierten Vorkommen können innerhalb eines Zielkontexts eine höherstufige operatorähnliche Funktion übernehmen.
+Composites consisting of several PMS-typed occurrences may assume a higher-level operator-like function within a target context.
 
-Diese Funktion bleibt:
+This function remains:
 
-* abgeleitet,
-* kontextuell,
-* source-traceable,
-* und nicht-primitiv.
+* Derived
+* Contextual
+* Source-traceable
+* Non-primitive
 
-34.2 Local Differences as Higher-Level Boundary Function
+## 34.2 Local Differences as Higher-Level Boundary Function
 
-Viele lokale Differenzen können gemeinsam eine höherstufige Grenzfunktion tragen, wenn sie:
+Many local differences may jointly carry a higher-level boundary function if they:
 
-* koordiniert sind,
-* einen stabilen Innen/Außen-Effekt erzeugen,
-* relevante Zugänge strukturieren,
-* und nicht nur zufällig nebeneinanderstehen.
+* Are coordinated
+* Generate a stable inside/outside effect
+* Structure relevant access
+* Do not merely occur beside one another by chance
 
-34.3 Repeated Non-Events as Higher-Level Attractor-Function
+## 34.3 Repeated Non-Events as Higher-Level Attractor-Function
 
-Wiederholte Nicht-Ereignisse können eine stabile Erwartungs- oder Nicht-Entscheidungsstruktur bilden.
+Repeated non-events may form a stable expectation or non-decision structure.
 
-Die Projektion ist zulässig, wenn:
+The projection is admissible if:
 
-* die Nicht-Ereignisse einen gemeinsamen Frame besitzen,
-* ihre Wiederholung spätere Möglichkeiten beeinflusst,
-* und eine eigenständige Makrofunktion entsteht.
+* The non-events share a common frame
+* Their repetition influences later possibilities
+* An independent macro-function arises
 
-34.4 Distributed Asymmetries as Higher-Level Ω-Function
+## 34.4 Distributed Asymmetries as Higher-Level Ω-Function
 
-Viele lokale Asymmetrien können gemeinsam eine institutionelle oder relationale Asymmetry-Function tragen.
+Many local asymmetries may jointly carry an institutional or relational asymmetry-function.
 
-Erforderlich sind:
+The following are required:
 
-* Koordination oder gegenseitige Verstärkung,
-* wiederkehrende Lastverteilung,
-* zeitliche Stabilität,
-* und Rückwirkung auf Handlungskorridore.
+* Coordination or mutual reinforcement
+* Recurring distribution of load
+* Temporal stability
+* Effects on action corridors
 
-34.5 Repeated Commitments as Higher-Level Ψ-Function
+## 34.5 Repeated Commitments as Higher-Level Ψ-Function
 
-Wiederholte lokale Commitments können eine höherstufige Binding-Function bilden, wenn:
+Repeated local commitments may form a higher-level binding-function if:
 
-* Kontinuität entsteht,
-* Bruchkosten akkumulieren,
-* Rollen institutionell oder relational stabilisiert werden,
-* und die Bindung mehr leistet als die Summe einzelner Zusagen.
+* Continuity arises
+* Costs of rupture accumulate
+* Roles are stabilized institutionally or relationally
+* The binding performs more than the sum of individual commitments
 
-34.6 Multiple Integrations as Higher-Level Σ-Function
+## 34.6 Multiple Integrations as Higher-Level Σ-Function
 
-Mehrere lokale Integrationen können innerhalb eines größeren Frames eine koordinierende Integration-Function tragen.
+Several local integrations may carry a coordinating integration-function within a larger frame.
 
-Die Projektion darf nicht behaupten:
+The projection must not claim:
 
-* das Gesamtsystem sei widerspruchsfrei,
-* alle lokalen Spannungen seien gelöst,
-* oder Integration sei vollständig.
+* That the overall system is free of contradiction
+* That all local tensions have been resolved
+* That integration is complete
 
-34.7 Emergent Function
+## 34.7 Emergent Function
 
-„Emergent“ bezeichnet hier:
+Here, “emergent” designates:
 
-* eine Funktion, die nur auf Ebene des Komposits sichtbar wird,
-* aber vollständig auf tragende Ausgangsrelationen zurückgeführt werden muss.
+* A function visible only at the level of the composite
+* Which must nevertheless remain fully traceable to carrying source relations
 
-Emergence
+```text
+emergence
 ≠
 source-free novelty
+```
 
-34.8 Aggregation versus Functional Formation
+## 34.8 Aggregation versus Functional Formation
 
-Aggregation:
+### Aggregation
 
-* mehrere Elemente werden zusammengezählt.
+* Several elements are added together.
 
-Functional formation:
+### Functional formation
 
-* Relationen erzeugen eine höherstufige Praxisleistung.
+* Relations generate a higher-level praxeological performance.
 
-Eine reine Häufung genügt nicht.
+Mere accumulation is insufficient.
 
-34.9 Thresholds
+## 34.9 Thresholds
 
-Höherstufige Funktionen benötigen Schwellenkriterien:
+Higher-level functions require threshold criteria:
 
-* Anzahl allein genügt nicht.
-* Dauer allein genügt nicht.
-* Wiederholung allein genügt nicht.
-* entscheidend ist die Veränderung der Praxisstruktur.
+* Number alone is insufficient.
+* Duration alone is insufficient.
+* Repetition alone is insufficient.
+* What matters is a change in praxis structure.
 
-34.10 Higher-Level Function without Authority Increase
+## 34.10 Higher-Level Function without Authority Increase
 
-Eine erfolgreiche Projektion erzeugt:
+A successful projection generates:
 
-* bessere Lesbarkeit,
-* zusätzliche Vergleichbarkeit,
-* oder präzisere Rekonstruktion.
+* Better legibility
+* Additional comparability
+* More precise reconstruction
 
-Sie erzeugt nicht:
+It does not generate:
 
-* mehr Wahrheit,
-* mehr Geltung,
-* mehr normativen Rang,
-* oder höhere Anwendungsautorität.
+* More truth
+* More validity
+* Higher normative rank
+* Greater application authority
 
-34.11 Failed Higher-Level Projection
+## 34.11 Failed Higher-Level Projection
 
-Fehlerformen:
+Failure forms:
 
-* beliebige Aggregation,
-* fehlende Relation zwischen Komponenten,
-* Großtypisierung aufgrund einzelner Beispiele,
-* oder Zielfunktion ohne kontrafaktische Sensitivität.
+* Arbitrary aggregation
+* Missing relations between components
+* Macro-typing based on isolated examples
+* Target function without counterfactual sensitivity
 
-35. Operator Weighting, Modulation, and Emergent Functional Profiles
+# 35. Operator Weighting, Modulation, and Emergent Functional Profiles
 
-35.1 Purpose
+## 35.1 Purpose
 
-Dieses Kapitel klärt, wie unterschiedliche Gewichtungen und Zugänglichkeiten bestehender Operatoren verschiedene Verlaufsmuster und höherstufige Funktionsprofile erzeugen können, ohne die Basisgrammatik zu verändern.
+This chapter clarifies how different weightings and accessibility conditions of existing operators may generate different trajectory patterns and higher-level functional profiles without changing the base grammar.
 
-35.2 Operator Weighting
+## 35.2 Operator Weighting
 
-Operatorgewichtung bezeichnet:
+Operator weighting designates:
 
-* unterschiedliche relative Traglast,
-* unterschiedliche Sichtbarkeit,
-* unterschiedliche zeitliche Wirksamkeit,
-* oder unterschiedliche Bedeutung innerhalb eines Komposits.
+* Different relative carrying load
+* Different visibility
+* Different temporal effectiveness
+* Different significance within a composite
 
-Beispiele:
+Examples:
 
 ```text
 Λ / Θ dominant
@@ -4593,9 +4713,9 @@ Beispiele:
 Ψ sensitive
 ```
 
-35.3 Weighting Is Not Reordering
+## 35.3 Weighting Is Not Reordering
 
-Gewichtung darf die kanonischen PMS-Abhängigkeiten nicht ersetzen.
+Weighting must not replace the canonical PMS dependencies.
 
 ```text
 high Ω relevance
@@ -4607,58 +4727,58 @@ high Χ relevance
 Χ becomes a primitive
 ```
 
-35.4 Modulator
+## 35.4 Modulator
 
-Ein Modulator ist kein Operator und kein Personentyp.
+A modulator is neither an operator nor a person type.
 
-Er bezeichnet eine Bedingung, welche:
+It designates a condition that:
 
-* Pfadwahrscheinlichkeiten verändert,
-* Schwellen verschiebt,
-* Operatorzugänglichkeit beeinflusst,
-* oder Stabilisierungslasten verändert.
+* Changes path probabilities
+* Shifts thresholds
+* Influences operator accessibility
+* Changes stabilization loads
 
-35.5 Modulating Profile
+## 35.5 Modulating Profile
 
-Ein Profil kann enthalten:
+A profile may include:
 
-* hohe Nicht-Ereignisdichte,
-* stabile oder instabile Frames,
-* starke oder schwache Distanzfähigkeit,
-* hohe Asymmetriesensitivität,
-* fragmentierte Temporalität,
-* oder starke Bindungsanfälligkeit.
+* High non-event density
+* Stable or unstable frames
+* Strong or weak capacity for distance
+* High asymmetry sensitivity
+* Fragmented temporality
+* Strong susceptibility to binding
 
-Solche Profile sind konfigurationsgebunden.
+Such profiles are configuration-bound.
 
-35.6 From Weighting to Trajectory Form
+## 35.6 From Weighting to Trajectory Form
 
-Operatorgewichtung kann beeinflussen:
+Operator weighting may influence:
 
-* welche Übergänge wahrscheinlich werden,
-* welche Nicht-Ereignisse zentral werden,
-* welche Attraktoren entstehen,
-* wie schnell Kosten sedimentieren,
-* und welche Formen später projizierbar werden.
+* Which transitions become likely
+* Which non-events become central
+* Which attractors arise
+* How quickly costs sediment
+* Which forms later become projectable
 
-35.7 Emergent Functional Profile
+## 35.7 Emergent Functional Profile
 
-Ein Komposit kann als Ganzes ein erkennbares Funktionsprofil besitzen, etwa:
+A composite as a whole may possess a recognizable functional profile, such as:
 
-* closure-resistant profile,
-* escalation-prone profile,
-* asymmetry-stabilizing profile,
-* restraint-oriented profile,
-* binding-intensive profile,
-* or recontextualization-dependent profile.
+* Closure-resistant profile
+* Escalation-prone profile
+* Asymmetry-stabilizing profile
+* Restraint-oriented profile
+* Binding-intensive profile
+* Recontextualization-dependent profile
 
-Das Profil ist eine Beschreibung der Komposition, kein neuer Operator.
+The profile is a description of the composition, not a new operator.
 
-35.8 Profile versus Type
+## 35.8 Profile versus Type
 
-Ein Profil beschreibt Gewichtung und Relation.
+A profile describes weighting and relation.
 
-Ein Typ bestimmt eine formale analytische Kategorie.
+A type determines a formal analytical category.
 
 ```text
 Ω-dominant profile
@@ -4666,138 +4786,138 @@ Ein Typ bestimmt eine formale analytische Kategorie.
 new Ω-derived operator type
 ```
 
-35.9 Profile Projection
+## 35.9 Profile Projection
 
-Ein modulierendes Profil kann innerhalb eines größeren Kontexts als Funktion projiziert werden, wenn es:
+A modulating profile may be projected as a function within a broader context if it:
 
-* stabil genug ist,
-* source-traceable bleibt,
-* spätere Pfade beeinflusst,
-* und einen zusätzlichen Praxisunterschied sichtbar macht.
+* Is sufficiently stable
+* Remains source-traceable
+* Influences later paths
+* Makes an additional praxis difference visible
 
-35.10 Risks of Profile Inflation
+## 35.10 Risks of Profile Inflation
 
-Fehlerformen:
+Failure forms:
 
-* jede Konfiguration erhält ein neues Profil,
-* Profilbegriffe werden zu versteckten Typen,
-* Gewichtungen werden ohne Kriterien behauptet,
-* oder Profile werden Personen und Gruppen zugeschrieben.
+* Every configuration receives a new profile
+* Profile terms become hidden types
+* Weightings are asserted without criteria
+* Profiles are attributed to persons or groups
 
-35.11 Use of Add-On Stress Cases
+## 35.11 Use of Add-On Stress Cases
 
-Domänenspezifische PMS-Anwendungen können als optionale Testvektoren zeigen:
+Domain-specific PMS applications may serve as optional test vectors showing:
 
-* unterschiedliche Operatorgewichtungen,
-* unterschiedliche Trajektorien,
-* unterschiedliche Stabilisierungslasten,
-* oder unterschiedliche Funktionsprojektionen.
+* Different operator weightings
+* Different trajectories
+* Different stabilization loads
+* Different functional projections
 
-Sie begründen jedoch keine STRATA-Regeln und erhalten keinen eigenen Architekturstatus.
+They do not establish STRATA rules and receive no independent architectural status.
 
-35.12 Failed Modulation Claim
+## 35.12 Failed Modulation Claim
 
-Ein Modulationsclaim scheitert, wenn:
+A modulation claim fails if:
 
-* Gewichtung nicht nachweisbar ist,
-* keine Verlaufsdifferenz entsteht,
-* ein Profil nur sprachlich attraktiv ist,
-* oder eine neue Primitive durch Profilbildung eingeschmuggelt wird.
+* Weighting cannot be demonstrated
+* No trajectory difference arises
+* A profile is only linguistically attractive
+* A new primitive is smuggled in through profile formation
 
-36. Competing Projections
+# 36. Competing Projections
 
-36.1 Multiple Plausible Functions
+## 36.1 Multiple Plausible Functions
 
-Dasselbe Ausgangsobjekt kann innerhalb eines Zielkontexts mehrere plausible Zielfunktionen besitzen.
+The same source object may possess several plausible target functions within a target context.
 
-Eine Trajektorie kann etwa wirken als:
+A trajectory may, for example, function as:
 
-* Frame-Function,
-* Macro-Event,
-* Attractor-Function,
-* oder Asymmetry-Function.
+* Frame-function
+* Macro-event
+* Attractor-function
+* Asymmetry-function
 
-36.2 Compatibility
+## 36.2 Compatibility
 
-Mehrere Projektionen können kompatibel sein, wenn sie:
+Several projections may be compatible if they concern:
 
-* unterschiedliche Zielkontexte,
-* unterschiedliche relative Ebenen,
-* unterschiedliche Claim Scopes,
-* oder komplementäre Praxisdimensionen betreffen.
+* Different target contexts
+* Different relative levels
+* Different claim scopes
+* Complementary praxeological dimensions
 
-36.3 Competition
+## 36.3 Competition
 
-Projektionen konkurrieren, wenn sie:
+Projections compete if they claim:
 
-* denselben Zielkontext,
-* dieselbe Zielebene,
-* denselben Gegenstand,
-* und denselben erklärenden Anspruch beanspruchen.
+* The same target context
+* The same target level
+* The same object
+* The same explanatory role
 
-36.4 Projection Alternatives
+## 36.4 Projection Alternatives
 
-Jede starke Projektion sollte mindestens eine relevante Alternative prüfen.
+Every strong projection should test at least one relevant alternative.
 
-Zu dokumentieren sind:
+The following must be documented:
 
-* alternative target function,
-* alternative context,
-* no-projection option,
-* narrower claim,
-* und mögliche Non-Capture.
+* Alternative target function
+* Alternative context
+* No-projection option
+* Narrower claim
+* Possible non-capture
 
-36.5 Comparative Criteria
+## 36.5 Comparative Criteria
 
-Projektionen können verglichen werden anhand von:
+Projections may be compared according to:
 
-* Praxisgewinn,
-* Source Trace,
-* Counterfactual Sensitivity,
-* Informationsverlust,
-* Kontextpassung,
-* Typintegrität,
-* und Sparsamkeit.
+* Praxis gain
+* Source trace
+* Counterfactual sensitivity
+* Information loss
+* Context fit
+* Type integrity
+* Parsimony
 
-36.6 Discriminative Performance
+## 36.6 Discriminative Performance
 
-Eine Projektion ist stärker, wenn sie:
+A projection is stronger if it:
 
-* relevante Fälle besser unterscheidet,
-* Gegenfälle nicht absorbiert,
-* weniger Zusatzannahmen benötigt,
-* und empfindlicher auf Quellunterschiede reagiert.
+* Distinguishes relevant cases more effectively
+* Does not absorb countercases
+* Requires fewer additional assumptions
+* Responds more sensitively to source differences
 
-36.7 Projection Indeterminacy
+## 36.7 Projection Indeterminacy
 
-Es kann unentscheidbar bleiben, welche Projektion vorzuziehen ist.
+It may remain undecidable which projection should be preferred.
 
-Mögliche Ergebnisse:
+Possible results:
 
-* co-valid
-* context-dependent
-* underdetermined
-* non-comparable
-* non-capture
+* `co_valid`
+* `context_dependent`
+* `underdetermined`
+* `non_comparable`
+* `non_capture`
 
-36.8 Non-Translation
+## 36.8 Non-Translation
 
-Nicht jede Projektion lässt sich verlustfrei in eine andere übersetzen.
+Not every projection can be translated losslessly into another.
 
-Eine Frame-Function und eine Attractor-Function können unterschiedliche Aspekte hervorheben und unterschiedliche Gegenfälle besitzen.
+A frame-function and an attractor-function may foreground different aspects and possess different countercases.
 
-36.9 Projection Competition without Tribunal Logic
+## 36.9 Projection Competition without Tribunal Logic
 
-RETYPE bewertet Projektionen als Rekonstruktionsclaims.
+RETYPE evaluates projections as reconstructive claims.
 
-Es bewertet nicht:
+It does not evaluate:
 
-* Personen,
-* moralische Qualität,
-* politische Legitimität,
-* oder absolute Theorieüberlegenheit.
+* Persons
+* Moral quality
+* Political legitimacy
+* Absolute theoretical superiority
 
-36.10 Projection Comparison Record
+## 36.10 Projection Comparison Record
 
 ```yaml
 projection_comparison:
@@ -4813,57 +4933,57 @@ projection_comparison:
   unresolved:
 ```
 
-37. Projection, Structural Analogy, and Label Substitution
+# 37. Projection, Structural Analogy, and Label Substitution
 
-37.1 Why the Distinction Matters
+## 37.1 Why the Distinction Matters
 
-RETYPE kann besonders leicht in Analogie oder bloße Benennung kippen.
+RETYPE can especially easily collapse into analogy or mere naming.
 
-Drei Formen sind daher zu unterscheiden:
+Three forms must therefore be distinguished:
 
-* valid functional projection
-* structural analogy
-* label substitution
+* Valid functional projection
+* Structural analogy
+* Label substitution
 
-37.2 Valid Functional Projection
+## 37.2 Valid Functional Projection
 
-Eine gültige Projektion besitzt:
+A valid projection possesses:
 
-* bestimmten Ursprungstyp,
-* bestimmten Zielkontext,
-* nachvollziehbare Zielfunktion,
-* tragende Quellspur,
-* kontrafaktische Sensitivität,
-* und begrenzten Claim.
+* A determined origin type
+* A determined target context
+* A traceable target function
+* A carrying source trace
+* Counterfactual sensitivity
+* A bounded claim
 
-37.3 Structural Analogy
+## 37.3 Structural Analogy
 
-Eine strukturelle Analogie zeigt Ähnlichkeit zwischen zwei Formen.
+A structural analogy identifies similarity between two forms.
 
-Sie kann:
+It may be:
 
-* heuristisch nützlich,
-* modellbildend,
-* oder kontrastiv aufschlussreich sein.
+* Heuristically useful
+* Model-forming
+* Contrastively informative
 
-Sie beweist jedoch nicht:
+It does not, however, prove:
 
-* Typidentität,
-* semantische Erhaltung,
-* oder gültige PROJECT_AS-Relation.
+* Type identity
+* Semantic preservation
+* A valid PROJECT_AS relation
 
-37.4 Cross-Domain Projection
+## 37.4 Cross-Domain Projection
 
-Bei Projektionen zwischen stark unterschiedlichen Domänen ist zusätzlich zu prüfen:
+For projections between strongly different domains, the following must additionally be tested:
 
-* Bleibt die PMS-Funktion semantisch erhalten?
-* Oder wird nur eine formale Ähnlichkeit genutzt?
-* Welche Teile der Ausgangsstruktur besitzen im Ziel keine Entsprechung?
-* Welche Zielmerkmale werden künstlich an das Ausgangsmodell angepasst?
+* Does the PMS function remain semantically preserved?
+* Or is only formal similarity being used?
+* Which parts of the source structure have no counterpart in the target?
+* Which target features are artificially adjusted to the source model?
 
-37.5 Symbolic Mapping
+## 37.5 Symbolic Mapping
 
-Eine symbolische Zuordnung kann technisch konsistent sein, ohne praxeologisch dieselbe Funktion zu tragen.
+A symbolic mapping may be technically consistent without carrying the same praxeological function.
 
 ```text
 formal correspondence
@@ -4875,9 +4995,9 @@ executable mapping
 valid STRATA projection
 ```
 
-37.6 Analogy Status
+## 37.6 Analogy Status
 
-Eine Analogie kann als solche legitim dokumentiert werden:
+An analogy may legitimately be documented as such:
 
 ```yaml
 mapping_status: analogy
@@ -4885,79 +5005,79 @@ semantic_preservation: unestablished
 praxeological_projection: not claimed
 ```
 
-37.7 Label Substitution
+## 37.7 Label Substitution
 
-Label substitution liegt vor, wenn:
+Label substitution is present if:
 
-* ein bekanntes PMS-Wort auf ein Zielobjekt gesetzt wird,
-* ohne neue Diskriminationsleistung,
-* ohne Source Trace,
-* ohne Gegenprobe,
-* und ohne klaren Funktionskontext.
+* A familiar PMS term is applied to a target object
+* Without new discriminatory performance
+* Without source trace
+* Without countertest
+* Without a clear functional context
 
-37.8 Signs of Label Substitution
+## 37.8 Signs of Label Substitution
 
-Typische Marker:
+Typical markers:
 
-* Begriff bleibt bei jeder Quelländerung gleich.
-* Zielfunktion ist nur metaphorisch.
-* Zielkontext ist unbestimmt.
-* keine Verlustrechnung
-* keine relevante Alternative
-* hohe rhetorische Stärke bei geringer Prüfleistung
+* The term remains unchanged under every source change.
+* The target function is merely metaphorical.
+* The target context is undetermined.
+* No loss accounting
+* No relevant alternative
+* High rhetorical strength with low test performance
 
-37.9 Analogy Drift
+## 37.9 Analogy Drift
 
-Analogie driftet, wenn:
+Analogy drifts if:
 
-* anfängliche Ähnlichkeit später als Identität behandelt wird,
-* illustrative Sprache formale Autorität erhält,
-* oder eine symbolische Übertragung zur neuen PMS-Primitive erklärt wird.
+* Initial similarity is later treated as identity
+* Illustrative language acquires formal authority
+* A symbolic transfer is declared to be a new PMS primitive
 
-37.10 Projection versus Translation Success
+## 37.10 Projection versus Translation Success
 
-Ein Modell kann viele andere Strukturen elegant in seine Sprache übersetzen.
+A model may elegantly translate many other structures into its own language.
 
-Das zeigt:
+This demonstrates:
 
-* Ausdrucksfähigkeit,
-* mögliche Kompressionsleistung,
-* oder heuristische Reichweite.
+* Expressive capacity
+* Possible compression performance
+* Heuristic reach
 
-Es zeigt nicht automatisch:
+It does not automatically demonstrate:
 
-* semantische Überlegenheit,
-* vollständige Erfassung,
-* oder gültige Retypisierung.
+* Semantic superiority
+* Complete capture
+* Valid retyping
 
-37.11 Analogy Stress Test
+## 37.11 Analogy Stress Test
 
-Zu prüfen ist:
+The following must be tested:
 
-* Welche Quellstruktur wird tatsächlich erhalten?
-* Welche Zielstruktur bleibt fremd?
-* Welche Gegenfälle brechen die Analogie?
-* Ändert sich das Mapping bei relevanten Quelländerungen?
-* Ist die Zuordnung mehr als terminologische Ähnlichkeit?
+* Which source structure is actually preserved?
+* Which target structure remains foreign?
+* Which countercases break the analogy?
+* Does the mapping change under relevant source changes?
+* Is the mapping more than terminological similarity?
 
-37.12 Acceptable Outcome
+## 37.12 Acceptable Outcome
 
-Ein RETYPE-Verfahren darf mit dem Ergebnis enden:
+A RETYPE procedure may end with the result:
 
 ```text
 useful structural analogy,
 but no admissible functional projection established
 ```
 
-38. Invalid Type Jumps and Unmarked Level Mixing
+# 38. Invalid Type Jumps and Unmarked Level Mixing
 
-38.1 Invalid Type Jump
+## 38.1 Invalid Type Jump
 
-Ein ungültiger Typensprung liegt vor, wenn eine Struktur ohne deklarierte Operation als anderer Ursprungstyp behandelt wird.
+An invalid type jump occurs when a structure is treated as another origin type without a declared operation.
 
-38.2 Origin Type Equals Target Function
+## 38.2 Origin Type Equals Target Function
 
-Fehler:
+Error:
 
 ```text
 trajectory functions as frame
@@ -4965,66 +5085,66 @@ therefore
 trajectory is a frame
 ```
 
-Die kontextuelle Funktion wird zum Ursprungstyp umgeschrieben.
+The contextual function is rewritten as the origin type.
 
-38.3 Missing Target Context
+## 38.3 Missing Target Context
 
-Eine Projektion ohne Zielkontext ist unbestimmt.
+A projection without a target context is undetermined.
 
-Beispiele:
+Examples:
 
-* „Die Geschichte ist ein Frame.“
-* „Dieses Muster ist ein Attraktor.“
-* „Die Phase ist ein Ereignis.“
+* “History is a frame.”
+* “This pattern is an attractor.”
+* “The phase is an event.”
 
-Erforderlich ist:
+The following are required:
 
-* für wen oder was,
-* in welchem Frame,
-* auf welcher Ebene,
-* und mit welchem Claim.
+* For whom or what
+* Within which frame
+* At which level
+* Under which claim
 
-38.4 Metaphorical Projection
+## 38.4 Metaphorical Projection
 
-Metaphorische Sprache kann erhellend sein.
+Metaphorical language may be illuminating.
 
-Sie ist jedoch kein formal gültiges PROJECT_AS, solange:
+It is not, however, a formally valid PROJECT_AS as long as the following are absent:
 
-* Source Trace,
-* Zielfunktion,
-* und Geltungsbereich fehlen.
+* Source trace
+* Target function
+* Validity scope
 
-38.5 Unmarked Level Mixing
+## 38.5 Unmarked Level Mixing
 
-Level mixing liegt vor, wenn:
+Level mixing occurs if:
 
-* lokale und höhere Funktionen im selben Satz verschmelzen,
-* Mikro- und Makroclaims dieselbe Evidenz erben,
-* oder ein Objekt gleichzeitig als Teil und Ganzes behandelt wird, ohne Relationserklärung.
+* Local and higher-level functions merge within the same statement
+* Micro- and macro-claims inherit the same evidence
+* An object is simultaneously treated as part and whole without explanation of the relation
 
-38.6 Granularity Mixing
+## 38.6 Granularity Mixing
 
-Granularitätsmischung liegt vor, wenn:
+Granularity mixing occurs if:
 
-* feine Komponenten direkt mit groben Funktionen verglichen werden,
-* lokale Gegenfälle als irrelevant erklärt werden,
-* oder Makroclaims durch Mikrodaten scheinbar automatisch bewiesen werden.
+* Fine components are compared directly with coarse functions
+* Local countercases are dismissed as irrelevant
+* Macro-claims are treated as automatically proven by micro-data
 
-38.7 Projection as Rescue Operation
+## 38.7 Projection as Rescue Operation
 
-Ein belasteter Claim darf nicht allein dadurch gerettet werden, dass das Objekt auf einer anderen Ebene neu funktionalisiert wird.
+A claim under pressure must not be rescued solely by refunctionalizing the object at another level.
 
-Ein PROJECT_AS-Versuch ist:
+A PROJECT_AS attempt is:
 
-* neuer Claim,
-* neue Begründung,
-* und neue Fehlerchance.
+* A new claim
+* A new justification
+* A new possibility of failure
 
-Er löscht den ursprünglichen Einwand nicht.
+It does not erase the original objection.
 
-38.8 Macrofunction Attributed to a Person
+## 38.8 Macrofunction Attributed to a Person
 
-Eine höherstufige Funktion darf nicht unmittelbar in eine Personeneigenschaft umgeschrieben werden.
+A higher-level function must not be rewritten directly as a personal property.
 
 ```text
 configuration performs asymmetry-function
@@ -5032,44 +5152,44 @@ configuration performs asymmetry-function
 person is asymmetry
 ```
 
-38.9 New Primitive by Projection
+## 38.9 New Primitive by Projection
 
-Unzulässig ist:
+The following are inadmissible:
 
-* eine Zielfunktion als neuen Basisoperator auszugeben,
-* einen Profilbegriff in die Δ–Ψ-Grammatik einzufügen,
-* oder eine erfolgreiche Projektion als Erweiterung der Operatorabhängigkeiten zu behandeln.
+* Presenting a target function as a new base operator
+* Inserting a profile term into the Δ–Ψ grammar
+* Treating a successful projection as an extension of operator dependencies
 
-38.10 Scope Inflation
+## 38.10 Scope Inflation
 
-Eine lokale Projektion wird unzulässig erweitert auf:
+A local projection is inadmissibly extended to:
 
-* alle späteren Szenen,
-* alle Mitglieder einer Gruppe,
-* alle Ebenen,
-* oder alle ähnlichen Objekte.
+* All later scenes
+* All members of a group
+* All levels
+* All similar objects
 
-38.11 Temporal Flattening
+## 38.11 Temporal Flattening
 
-Ein zeitlich entstandenes Objekt wird als zeitlose Eigenschaft behandelt.
+A historically formed object is treated as a timeless property.
 
-Beispiele:
+Examples:
 
-* Trajektorie wird zur Essenz.
-* wiederkehrender Verlauf wird zum unveränderlichen Typ.
-* historische Bindung wird zur permanenten Identität.
+* A trajectory becomes an essence.
+* A recurrent trajectory becomes an immutable type.
+* Historical binding becomes permanent identity.
 
-38.12 Projection without Loss
+## 38.12 Projection without Loss
 
-Jede Projektion verändert Sichtbarkeit.
+Every projection changes visibility.
 
-Ein Claim verlässt RETYPE-Disziplin, wenn er behauptet:
+A claim leaves RETYPE discipline if it asserts that it generates:
 
-* keine Kompression,
-* keine Perspektivierung,
-* und keinen Funktionsverlust zu erzeugen.
+* No compression
+* No perspectival selection
+* No functional loss
 
-38.13 Invalid Projection Record
+## 38.13 Invalid Projection Record
 
 ```yaml
 invalid_projection:
@@ -5084,108 +5204,108 @@ invalid_projection:
   required_claim_reduction:
 ```
 
-39. RETYPE Boundary Conditions
+# 39. RETYPE Boundary Conditions
 
-39.1 Lower RETYPE Boundary
+## 39.1 Lower RETYPE Boundary
 
-Die untere Grenze wird unterschritten, wenn eine neue Zielfunktion keine zusätzliche praxeologische Unterscheidung erzeugt.
+The lower boundary is undercut if a new target function generates no additional praxeological distinction.
 
-39.2 Renaming without Purchase
+## 39.2 Renaming without Purchase
 
-Typische Form:
+Typical form:
 
-* neues Label,
-* gleiche Rekonstruktion,
-* keine veränderten Handlungskorridore,
-* keine neue Kosten- oder Erwartungsstruktur,
-* keine neue Diskriminationsleistung.
+* New label
+* Same reconstruction
+* No changed action corridors
+* No new cost or expectation structure
+* No new discriminatory performance
 
-39.3 Projection without Functional Gain
+## 39.3 Projection without Functional Gain
 
-Eine Projektion ist nicht erforderlich, wenn das Ausgangsobjekt im Zielkontext bereits ohne neue Zielfunktion hinreichend beschrieben werden kann.
+A projection is unnecessary if the source object can already be described sufficiently within the target context without a new target function.
 
-39.4 Upper RETYPE Boundary
+## 39.4 Upper RETYPE Boundary
 
-Die obere Grenze wird überschritten, wenn die Zielfunktion keinen traceable load mehr aus dem Ausgangsobjekt trägt.
+The upper boundary is exceeded if the target function no longer carries traceable load from the source object.
 
-39.5 Function without Source Trace
+## 39.5 Function without Source Trace
 
-Marker:
+Markers:
 
-* konstitutive Ausgangsmerkmale sind unklar,
-* Ursprungspfad ist nicht mehr rekonstruierbar,
-* relevante Quelländerungen verändern die Projektion nicht,
-* oder die Funktion hängt nur am Label.
+* Constitutive source features are unclear
+* The origin path is no longer reconstructable
+* Relevant source changes do not alter the projection
+* The function depends only on the label
 
-39.6 Type Integrity Boundary
+## 39.6 Type Integrity Boundary
 
-Die Projektion ist unzulässig, wenn:
+The projection is inadmissible if:
 
-* Ursprungstyp überschrieben wird,
-* Ziel- und Ausgangsebene verschmelzen,
-* oder eine neue Primitive entsteht.
+* The origin type is overwritten
+* Target and source levels merge
+* A new primitive arises
 
-39.7 Context Boundary
+## 39.7 Context Boundary
 
-Die Projektion ist unzulässig, wenn:
+The projection is inadmissible if:
 
-* kein klarer Zielkontext besteht,
-* der Geltungsbereich unbegrenzt bleibt,
-* oder lokale Funktionsaussagen globalisiert werden.
+* No clear target context exists
+* The validity scope remains unlimited
+* Local functional statements are globalized
 
-39.8 Counterfactual Projection Test
+## 39.8 Counterfactual Projection Test
 
-Zu fragen ist:
+The following must be asked:
 
-* Welche Quelländerung müsste die Zielfunktion verändern?
-* Welche Quelländerung wäre irrelevant?
-* Ist die Funktion gegenüber tragenden Eigenschaften sensitiv?
-* Kann ein Gegenfall die Projektion widerlegen?
+* Which source change would have to alter the target function?
+* Which source change would be irrelevant?
+* Is the function sensitive to carrying properties?
+* Can a countercase refute the projection?
 
-39.9 Alternative Projection Test
+## 39.9 Alternative Projection Test
 
-* Wurde mindestens eine andere Zielfunktion geprüft?
-* Ist keine Projektion die sparsamere Option?
-* Wurde bloße Analogie als Möglichkeit erwogen?
-* Bleibt Non-Capture zulässig?
+* Was at least one alternative target function tested?
+* Is no projection the more parsimonious option?
+* Was mere analogy considered as a possibility?
+* Does non-capture remain admissible?
 
-39.10 Analogy Boundary
+## 39.10 Analogy Boundary
 
-Eine Analogie darf nicht als Projektion ausgegeben werden, wenn:
+An analogy must not be presented as a projection if:
 
-* semantische Erhaltung ungeklärt ist,
-* keine praxeologische Zielfunktion besteht,
-* oder die Ähnlichkeit nur formal ist.
+* Semantic preservation remains unresolved
+* No praxeological target function exists
+* Similarity is merely formal
 
-39.11 Projection Elasticity
+## 39.11 Projection Elasticity
 
-Eine Projektion wird überelastisch, wenn sie:
+A projection becomes overly elastic if it:
 
-* gegensätzliche Quellstrukturen gleichermaßen bestätigt,
-* jeden Gegenfall recontextualisiert,
-* oder durch immer neue Funktionsvarianten erhalten bleibt.
+* Confirms opposite source structures equally
+* Recontextualizes every countercase
+* Is preserved through ever new functional variants
 
-39.12 RETYPE Stop Conditions
+## 39.12 RETYPE Stop Conditions
 
-RETYPE wird gestoppt, wenn:
+RETYPE is stopped if:
 
-* keine neue Praxisdifferenz entsteht,
-* Source Trace nicht herstellbar ist,
-* Zielkontext beliebig wird,
-* konkurrierende Projektionen unentscheidbar bleiben,
-* Analogie und Funktion nicht trennbar sind,
-* oder Typintegrität nicht erhalten werden kann.
+* No new praxis difference arises
+* A source trace cannot be established
+* The target context becomes arbitrary
+* Competing projections remain undecidable
+* Analogy and function cannot be separated
+* Type integrity cannot be preserved
 
-39.13 RETYPE Non-Capture
+## 39.13 RETYPE Non-Capture
 
-Non-Capture ist angemessen, wenn:
+Non-capture is appropriate if:
 
-* keine tragfähige Zielfunktion bestimmt werden kann,
-* mehrere Projektionen gleich stark bleiben,
-* das Ausgangsobjekt im Zielkontext keine zusätzliche Funktion besitzt,
-* oder jede Projektion entscheidende Quellstrukturen verliert.
+* No supportable target function can be determined
+* Several projections remain equally strong
+* The source object possesses no additional function in the target context
+* Every projection loses decisive source structures
 
-39.14 RETYPE Admissibility Test
+## 39.14 RETYPE Admissibility Test
 
 ```text
 Admissible(PROJECT_AS, X, C)
@@ -5206,265 +5326,285 @@ and
 LossDeclared
 ```
 
-40. RETYPE Cases, Countercases, and Local Audit
-
-40.1 Case Architecture
-
-Jeder RETYPE-Fall sollte enthalten:
-
-* Ausgangsobjekt,
-* Ursprungstyp,
-* Ausgangsframe,
-* Zielkontext,
-* Zielfunktion,
-* relative Ebenenrelation,
-* Source Trace,
-* Counterfactual Sensitivity,
-* Verlustrechnung,
-* Alternativprojektion,
-* Geltungsbereich,
-* und Claim Boundary.
-
-40.2 Case 1:
-Trajectory as Frame-Function
-
-* rekonstruierte historische Trajektorie
-* spätere Konfiguration
-* sedimentierte Erwartungen und Kosten
-* begrenzte historische Frame-Function
-* kein Determinismus
-
-40.3 Case 2:
-Trajectory as Macro-Event
-
-* zeitlich ausgedehnte Entwicklung
-* umfassenderer Zielrahmen
-* erhaltene interne Dauer
-* klarer Übergangseffekt
-* keine Punctualization
-
-40.4 Case 3:
-Recurrent Trajectory Form as Attractor-Function
-
-* mehrere vergleichbare Verlaufsformen
-* stabile Übergangsstruktur
-* veränderte spätere Pfadwahrscheinlichkeit
-* dynamische Attractor-Function
-
-40.5 Case 4:
-Distributed Local Asymmetries as Higher-Level Function
-
-* mehrere lokale Ω-Vorkommen
-* koordinierte Lastverteilung
-* zeitliche Stabilisierung
-* institutionelle oder relationale Asymmetry-Function
-
-40.6 Case 5:
-Operator-Weighting Profile as Modulating Function
-
-* stabiles Gewichtungsprofil
-* erkennbare Verlaufswirkung
-* keine neue Primitive
-* begrenzte Profilprojektion
-
-40.7 Case 6:
-Two Compatible Projections
-
-* dasselbe Ausgangsobjekt
-* unterschiedliche Zielkontexte
-* Frame-Function in Kontext A
-* Macro-Event in Kontext B
-* kein Widerspruch
-
-40.8 Case 7:
-Two Competing Projections
+# 40. RETYPE Cases, Countercases, and Local Audit
 
-* gleicher Zielkontext
-* Frame-Function versus Attractor-Function
-* Vergleich von Source Trace und Diskriminationsleistung
-* begründete Präferenz oder Indetermination
-
-40.9 Countercase 1:
-Origin-Type Replacement
+## 40.1 Case Architecture
 
-* Zielfunktion überschreibt Ursprungstyp
-* Trajektorie wird zum Frame erklärt
-* Typintegrität scheitert
+Every RETYPE case should include:
 
-40.10 Countercase 2:
-Projection without Context
+* Source object
+* Origin type
+* Source frame
+* Target context
+* Target function
+* Relative level relation
+* Source trace
+* Counterfactual sensitivity
+* Loss accounting
+* Alternative projection
+* Validity scope
+* Claim boundary
 
-* starke Funktionsbezeichnung
-* kein bestimmtes Zielobjekt
-* keine Zielebene
-* kein begrenzter Claim
+## 40.2 Case 1:
 
-40.11 Countercase 3:
-Label Substitution
+### Trajectory as Frame-Function
 
-* neues PMS-Label
-* keine Source Trace
-* keine Gegenprobe
-* keine zusätzliche Praxisdifferenz
+* Reconstructed historical trajectory
+* Later configuration
+* Sedimented expectations and costs
+* Bounded historical frame-function
+* No determinism
 
-40.12 Countercase 4:
-Analogy Presented as Projection
+## 40.3 Case 2:
 
-* formale Ähnlichkeit
-* semantische Erhaltung ungeklärt
-* Cross-Domain-Mapping
-* Projektionsclaim muss auf Analogie reduziert werden
+### Trajectory as Macro-Event
 
-40.13 Countercase 5:
-Macrofunction from Mere Aggregation
+* Temporally extended development
+* Broader target frame
+* Preserved internal duration
+* Clear transition effect
+* No punctualization
 
-* viele lokale Ereignisse
-* keine koordinierte Funktion
-* Menge wird mit Makrostruktur verwechselt
-* Traceability Ceiling verletzt
+## 40.4 Case 3:
 
-40.14 Countercase 6:
-Projection as Claim Rescue
+### Recurrent Trajectory Form as Attractor-Function
 
-* ursprünglicher Claim scheitert
-* neue Ebene wird eingeführt
-* Gegenbeispiel bleibt unbeantwortet
-* Anti-Immunisierungsverstoß
+* Several comparable trajectory forms
+* Stable transition structure
+* Changed probability of later paths
+* Dynamic attractor-function
 
-40.15 Countercase 7:
-Person-Level Type Jump
+## 40.5 Case 4:
 
-* konfigurationelle Funktion
-* wird in Personeneigenschaft übersetzt
-* Ebenen- und Claim-Verstoß
+### Distributed Local Asymmetries as Higher-Level Function
 
-40.16 Confusion Case:
-RETYPE or SUB?
+* Several local Ω occurrences
+* Coordinated distribution of load
+* Temporal stabilization
+* Institutional or relational asymmetry-function
 
-* interne Struktur wird geöffnet
-* gleichzeitig neue Zielfunktion behauptet
-* zwei getrennte Operationen erforderlich
+## 40.6 Case 5:
 
-40.17 Confusion Case:
-RETYPE or COMPOSE?
+### Operator-Weighting Profile as Modulating Function
 
-* mehrere Strukturen werden zusammengeführt
-* anschließend entsteht ein Makrolabel
-* zuerst COMPOSE prüfen
-* erst danach mögliche PROJECT_AS-Funktion
+* Stable weighting profile
+* Recognizable effect on trajectory
+* No new primitive
+* Bounded profile projection
 
-40.18 Confusion Case:
-Projection or Recontextualization?
+## 40.7 Case 6:
 
-* Objekt wird in neuem Frame betrachtet
-* keine spezifische Zielfunktion
-* möglicherweise Φ, aber noch kein PROJECT_AS
+### Two Compatible Projections
 
-40.19 Confusion Case:
-Attractor-Function or Repeated Similarity?
+* Same source object
+* Different target contexts
+* Frame-function in context A
+* Macro-event in context B
+* No contradiction
 
-* mehrere ähnliche Verläufe
-* unklare gemeinsame Stabilisierung
-* Ähnlichkeit allein genügt nicht
+## 40.8 Case 7:
 
-40.20 Confusion Case:
-Modulator or New Operator?
+### Two Competing Projections
 
-* stabile Gewichtung verändert Verlauf
-* Profil bleibt Beschreibung bestehender Operatoren
-* keine Erweiterung der Basisgrammatik
+* Same target context
+* Frame-function versus attractor-function
+* Comparison of source trace and discriminatory performance
+* Justified preference or indeterminacy
 
-40.21 Confusion Case:
-Projection or Structural Analogy?
+## 40.9 Countercase 1:
 
-* funktionale Ähnlichkeit
-* unterschiedliche Domäne
-* semantische Erhaltung unsicher
-* Projektion muss gegebenenfalls auf Analogie herabgestuft werden
+### Origin-Type Replacement
 
-40.22 RETYPE Local Audit
+* Target function overwrites origin type
+* Trajectory is declared to be a frame
+* Type integrity fails
 
-1. Ist das Ausgangsobjekt eindeutig bestimmt?
+## 40.10 Countercase 2:
 
-2. Ist der Ursprungstyp angegeben?
+### Projection without Context
 
-3. Bleibt der Ursprungstyp durch die Projektion erhalten?
+* Strong functional designation
+* No determined target object
+* No target level
+* No bounded claim
 
-4. Ist der Zielkontext deklariert?
+## 40.11 Countercase 3:
 
-5. Ist die Zielfunktion präzise benannt?
+### Label Substitution
 
-6. Ist die relative Zielebene angegeben?
+* New PMS label
+* No source trace
+* No countertest
+* No additional praxis difference
 
-7. Wird die Zielfunktion von einer neuen Primitive unterschieden?
+## 40.12 Countercase 4:
 
-8. Ist die Source Trace ausgewiesen?
+### Analogy Presented as Projection
 
-9. Sind tragende und nur modulierende Quellmerkmale getrennt?
+* Formal similarity
+* Semantic preservation unresolved
+* Cross-domain mapping
+* Projection claim must be reduced to analogy
 
-10. Erzeugt die Projektion eine neue praxeologische Unterscheidung?
+## 40.13 Countercase 5:
 
-11. Ist der Counterfactual Sensitivity Test durchgeführt?
+### Macrofunction from Mere Aggregation
 
-12. Würde eine relevante Quelländerung die Zielfunktion verändern?
+* Many local events
+* No coordinated function
+* Quantity is confused with macro-structure
+* Traceability ceiling violated
 
-13. Bleibt die historische Referenz erhalten?
+## 40.14 Countercase 6:
 
-14. Bleiben relevante Kosten, Asymmetrien und Nicht-Ereignisse sichtbar?
+### Projection as Claim Rescue
 
-15. Ist der Geltungsbereich begrenzt?
+* Original claim fails
+* New level is introduced
+* Counterexample remains unanswered
+* Violation of anti-immunization
 
-16. Ist der Informationsverlust offengelegt?
+## 40.15 Countercase 7:
 
-17. Wurde mindestens eine Alternativprojektion geprüft?
+### Person-Level Type Jump
 
-18. Wurde die Möglichkeit keiner Projektion geprüft?
+* Configurational function
+* Translated into a personal property
+* Level and claim violation
 
-19. Ist RETYPE von COMPOSE getrennt?
+## 40.16 Confusion Case:
 
-20. Ist RETYPE von DECOMPOSE getrennt?
+### RETYPE or SUB?
 
-21. Ist RETYPE von bloßer Recontextualization getrennt?
+* Internal structure is opened.
+* At the same time, a new target function is asserted.
+* Two separate operations are required.
 
-22. Ist eine strukturelle Analogie als solche markiert?
+## 40.17 Confusion Case:
 
-23. Wurde Label Substitution ausgeschlossen?
+### RETYPE or COMPOSE?
 
-24. Wurde unmarkiertes Level Mixing ausgeschlossen?
+* Several structures are combined.
+* A macro-label then arises.
+* COMPOSE must be tested first.
+* Only afterward may a possible PROJECT_AS function be tested.
 
-25. Wurde Granularitätsmischung ausgeschlossen?
+## 40.18 Confusion Case:
 
-26. Wird keine Makrofunktion unmittelbar Personen zugeschrieben?
+### Projection or Recontextualization?
 
-27. Wird kein belasteter Claim durch Ebenenwechsel immunisiert?
+* Object is considered within a new frame.
+* No specific target function
+* Possibly Φ, but not yet PROJECT_AS
 
-28. Ist der Relevance Floor eingehalten?
+## 40.19 Confusion Case:
 
-29. Ist das Traceability Ceiling eingehalten?
+### Attractor-Function or Repeated Similarity?
 
-30. Ist eine Stopbedingung angegeben?
+* Several similar trajectories
+* Unclear shared stabilization
+* Similarity alone is insufficient
 
-31. Bleibt Non-Capture möglich?
+## 40.20 Confusion Case:
 
-32. Erzeugt die Projektion keinerlei zusätzliche Autorität?
+### Modulator or New Operator?
 
-40.23 RETYPE Output Classes
+* Stable weighting changes the trajectory.
+* The profile remains a description of existing operators.
+* No extension of the base grammar
 
-* admissible functional projection
-* admissible narrow projection
-* compatible multiple projections
-* competing projections
-* provisional projection
-* context-dependent projection
-* analogy only
-* label substitution
-* invalid type jump
-* unmarked level mixing
-* mandatory claim reduction
-* mandatory stop
-* non-capture
+## 40.21 Confusion Case:
 
-40.24 RETYPE Closing Statement
+### Projection or Structural Analogy?
+
+* Functional similarity
+* Different domain
+* Semantic preservation uncertain
+* The projection may need to be downgraded to analogy
+
+## 40.22 RETYPE Local Audit
+
+1. Is the source object determined unambiguously?
+
+2. Is the origin type stated?
+
+3. Does the origin type remain preserved through the projection?
+
+4. Is the target context declared?
+
+5. Is the target function named precisely?
+
+6. Is the relative target level stated?
+
+7. Is the target function distinguished from a new primitive?
+
+8. Is the source trace disclosed?
+
+9. Are carrying and merely modulating source features separated?
+
+10. Does the projection generate a new praxeological distinction?
+
+11. Has the counterfactual sensitivity test been performed?
+
+12. Would a relevant source change alter the target function?
+
+13. Does the historical reference remain preserved?
+
+14. Do relevant costs, asymmetries, and non-events remain visible?
+
+15. Is the validity scope bounded?
+
+16. Is information loss disclosed?
+
+17. Was at least one alternative projection tested?
+
+18. Was the possibility of no projection tested?
+
+19. Is RETYPE separated from COMPOSE?
+
+20. Is RETYPE separated from DECOMPOSE?
+
+21. Is RETYPE separated from mere recontextualization?
+
+22. Is a structural analogy marked as such?
+
+23. Has label substitution been excluded?
+
+24. Has unmarked level mixing been excluded?
+
+25. Has granularity mixing been excluded?
+
+26. Is no macro-function attributed directly to persons?
+
+27. Is no claim under pressure immunized through a level change?
+
+28. Is the relevance floor observed?
+
+29. Is the traceability ceiling observed?
+
+30. Is a stop condition stated?
+
+31. Does non-capture remain possible?
+
+32. Does the projection generate no additional authority?
+
+## 40.23 RETYPE Output Classes
+
+* Admissible functional projection
+* Admissible narrow projection
+* Compatible multiple projections
+* Competing projections
+* Provisional projection
+* Context-dependent projection
+* Analogy only
+* Label substitution
+* Invalid type jump
+* Unmarked level mixing
+* Mandatory claim reduction
+* Mandatory stop
+* Non-capture
+
+## 40.24 RETYPE Closing Statement
 
 RETYPE specifies how an origin-typed PMS or STRATA object may perform a bounded function within a declared target context while preserving its source reference, origin type, historical load, and counterfactual sensitivity.
 
@@ -5472,236 +5612,239 @@ It does not authorize origin-type replacement, arbitrary higher-level labeling, 
 
 ---
 
-PART IV — LIMITS
-Admissibility Boundaries, Stop, and Non-Capture
+# PART IV — LIMITS
 
-41. Why STRATA Must Bound Itself
+## Admissibility Boundaries, Stop, and Non-Capture
 
-41.1 The Structural Risk of STRATA
+# 41. Why STRATA Must Bound Itself
 
-STRATA erhöht die analytische Beweglichkeit von PMS.
+## 41.1 The Structural Risk of STRATA
 
-Es erlaubt:
+STRATA increases the analytical mobility of PMS.
 
-* zeitliche Komposition,
-* feinere Dekomposition,
-* kontextuelle Funktionsprojektion,
-* wiederholte Operationsketten,
-* und Wechsel zwischen relativen Ebenen.
+It permits:
 
-Gerade diese Beweglichkeit erzeugt das Risiko, dass jede belastete Rekonstruktion durch eine weitere Transformation gerettet werden kann.
+* Temporal composition
+* Finer decomposition
+* Contextual functional projection
+* Repeated operation chains
+* Movement between relative levels
 
-41.2 Recursive Availability
+This very mobility creates the risk that every challenged reconstruction can be rescued through another transformation.
 
-Nahezu jedes STRATA-Objekt kann erneut:
+## 41.2 Recursive Availability
 
-* komponiert,
-* dekomponiert,
-* recontextualisiert,
-* oder funktional projiziert werden.
+Almost every STRATA object can be further:
 
-Recursive availability
+* Composed
+* Decomposed
+* Recontextualized
+* Functionally projected
+
+```text
+recursive availability
 ≠
 recursive necessity
+```
 
-Die Möglichkeit einer weiteren Operation begründet noch nicht ihre Zulässigkeit.
+The availability of a further operation does not establish its admissibility.
 
-41.3 The Risk of Infinite Decomposition
+## 41.3 The Risk of Infinite Decomposition
 
-Ohne untere Grenze könnte jede Struktur immer weiter geöffnet werden.
+Without a lower boundary, every structure could be opened indefinitely.
 
-Mögliche Folgen:
+Possible consequences:
 
-* zunehmende Detailmenge,
-* sinkende Praxisrelevanz,
-* schwindende Quellenstützung,
-* Verlust des Ausgangsobjekts,
-* und Immunisierung durch Mikrokomplexität.
+* Increasing amount of detail
+* Decreasing praxis relevance
+* Declining source support
+* Loss of the source object
+* Immunization through micro-complexity
 
-41.4 The Risk of Unlimited Composition
+## 41.4 The Risk of Unlimited Composition
 
-Ohne obere Grenze könnten immer größere Komposite gebildet werden.
+Without an upper boundary, ever larger composites could be formed.
 
-Mögliche Folgen:
+Possible consequences:
 
-* Verlust lokaler Unterschiede,
-* Homogenisierung widersprüchlicher Pfade,
-* Makrolabel ohne rekonstruierbare Last,
-* unprüfbare historische Großformen,
-* und automatische Zuschreibung höherer Funktionen.
+* Loss of local differences
+* Homogenization of contradictory paths
+* Macro-labels without reconstructable load
+* Untestable historical large-scale forms
+* Automatic attribution of higher-level functions
 
-41.5 The Risk of Arbitrary Projection
+## 41.5 The Risk of Arbitrary Projection
 
-PROJECT_AS kann missbraucht werden, um beinahe jede Struktur als beinahe jede andere Funktion zu lesen.
+PROJECT_AS can be misused to read almost any structure as almost any other function.
 
-Die bloße Form:
+The mere form:
 
 ```text
 X functions as Y
 ```
 
-ist keine hinreichende Projektion.
+is not a sufficient projection.
 
-Erforderlich bleiben:
+The following remain required:
 
-* Zielkontext,
-* Source Trace,
-* Counterfactual Sensitivity,
-* Typintegrität,
-* und begrenzte Geltung.
+* Target context
+* Source trace
+* Counterfactual sensitivity
+* Type integrity
+* Bounded validity
 
-41.6 Vertical Authority Drift
+## 41.6 Vertical Authority Drift
 
-Analytische Aufwärtsbewegung kann fälschlich als Autoritätsgewinn erscheinen.
+Analytical upward movement may be falsely interpreted as an increase in authority.
 
-Typische Fehlannahmen:
+Typical false assumptions:
 
 ```text
-höhere Ebene
+higher level
 =
-umfassendere Wahrheit
+more comprehensive truth
 
-feinere Ebene
+finer level
 =
-tiefere Wahrheit
+deeper truth
 
-mehr Transformationen
+more transformations
 =
-stärkerer Claim
+stronger claim
 ```
 
-STRATA weist diese Gleichsetzungen zurück.
+STRATA rejects these equivalences.
 
-41.7 Analytical Self-Immunization
+## 41.7 Analytical Self-Immunization
 
-Selbstimmunisierung entsteht, wenn ein Einwand beantwortet wird durch:
+Self-immunization arises if an objection is answered through:
 
-* Wechsel der Granularität,
-* Wechsel der Ebene,
-* neue Komposition,
-* neue Projektion,
-* oder nachträgliche Umdefinition des Gegenstands,
+* A change of granularity
+* A change of level
+* A new composition
+* A new projection
+* A retrospective redefinition of the object
 
-ohne den ursprünglichen Einwand tatsächlich zu prüfen.
+without actually testing the original objection.
 
-41.8 LIMITS as Constitutive Structure
+## 41.8 LIMITS as Constitutive Structure
 
-LIMITS ist kein nachträglicher Warnabschnitt.
+LIMITS is not a subsequent warning section.
 
-Die Grenzregeln gelten bereits innerhalb von:
+The boundary rules already apply within:
 
-* COMPOSE,
-* DECOMPOSE,
-* PROJECT_AS,
-* den lokalen Audits,
-* und allen Operationsketten.
+* COMPOSE
+* DECOMPOSE
+* PROJECT_AS
+* Local audits
+* All operation chains
 
-Part IV systematisiert diese Regeln und macht ihre gemeinsame Logik explizit.
+Part IV systematizes these rules and makes their shared logic explicit.
 
-41.9 Governing LIMITS Principle
+## 41.9 Governing LIMITS Principle
 
 > An available STRATA operation is not thereby an admissible STRATA operation.
 
-Zulässigkeit entsteht nur innerhalb des Admissibility Band.
+Admissibility arises only within the admissibility band.
 
-42. No Ontology of Strata
+# 42. No Ontology of Strata
 
-42.1 Analytical Levels
+## 42.1 Analytical Levels
 
-Eine Ebene ist eine relationale Position innerhalb einer erklärten Rekonstruktion.
+A level is a relational position within a declared reconstruction.
 
-Sie ist bestimmt durch:
+It is determined through:
 
-* Ausgangsobjekt,
-* Zielobjekt,
-* Kompositionsrelation,
-* Granularität,
-* und Frame.
+* Source object
+* Target object
+* Compositional relation
+* Granularity
+* Frame
 
-Sie ist keine unabhängig existierende Schicht.
+It is not an independently existing layer.
 
-42.2 Reconstructive Relations
+## 42.2 Reconstructive Relations
 
-STRATA beschreibt Relationen wie:
+STRATA describes relations such as:
 
-* Teil/Ganzes,
-* Sequenz/Trajektorie,
-* Quelle/Zielfunktion,
-* lokale Struktur/Makrofunktion,
-* und Ausgangsframe/Zielkontext.
+* Part/whole
+* Sequence/trajectory
+* Source/target function
+* Local structure/macro-function
+* Source frame/target context
 
-Diese Relationen sind analytische Rekonstruktionen.
+These relations are analytical reconstructions.
 
-42.3 No Discrete Reality Layers
+## 42.3 No Discrete Reality Layers
 
-STRATA behauptet nicht, dass Wirklichkeit aus eindeutig trennbaren Mikro-, Meso- und Makroschichten besteht.
+STRATA does not claim that reality consists of clearly separable micro-, meso-, and macro-layers.
 
-Solche Bezeichnungen bleiben:
+Such designations remain:
 
-* relativ,
-* lokal,
-* heuristisch,
-* und revidierbar.
+* Relative
+* Local
+* Heuristic
+* Revisable
 
-42.4 No Final Constituents
+## 42.4 No Final Constituents
 
-DECOMPOSE entdeckt keine letzten Bestandteile.
+DECOMPOSE does not discover ultimate constituents.
 
-Jede Dekomposition bleibt abhängig von:
+Every decomposition remains dependent on:
 
-* Frame,
-* Quellen,
-* Granularität,
-* Leitfrage,
-* und Claim Scope.
+* Frame
+* Sources
+* Granularity
+* Guiding question
+* Claim scope
 
-42.5 No Ultimate Composite
+## 42.5 No Ultimate Composite
 
-COMPOSE bildet kein endgültiges Ganzes.
+COMPOSE does not form a final whole.
 
-Jedes Komposit:
+Every composite:
 
-* selektiert,
-* komprimiert,
-* grenzt aus,
-* und bleibt für alternative Rekonstruktionen offen.
+* Selects
+* Compresses
+* Excludes
+* Remains open to alternative reconstructions
 
-42.6 No Ontological Promotion through Projection
+## 42.6 No Ontological Promotion through Projection
 
-Ein Objekt wird durch PROJECT_AS nicht ontologisch verändert.
+An object is not ontologically transformed through PROJECT_AS.
 
-Eine Trajektorie, die als Frame-Function wirkt, wird nicht zu einer eigenständigen Schicht der Realität.
+A trajectory functioning as a frame-function does not become an independent layer of reality.
 
-42.7 Operator Grammar versus World Structure
+## 42.7 Operator Grammar versus World Structure
 
-Die Δ–Ψ-Grammatik ist eine Rekonstruktionsgrammatik.
+The Δ–Ψ grammar is a reconstructive grammar.
 
-Sie ist nicht:
+It is not:
 
-* eine Teilchenlehre,
-* ein ontologisches Periodensystem,
-* eine universelle Kausalarchitektur,
-* oder eine Behauptung letzter Realbestandteile.
+* A particle theory
+* An ontological periodic table
+* A universal causal architecture
+* A claim about ultimate constituents of reality
 
-42.8 Ontology Drift Markers
+## 42.8 Ontology Drift Markers
 
-Ontologiedrift liegt nahe, wenn Formulierungen behaupten:
+Ontology drift is likely when formulations claim:
 
-* „Die Realität besteht aus …“
-* „Unterhalb dieser Ebene liegt …“
-* „Die wahre Struktur ist …“
-* „Alle Makrophänomene sind letztlich …“
-* „Dieses Objekt ist in Wirklichkeit nur …“
+* “Reality consists of …”
+* “Below this level lies …”
+* “The true structure is …”
+* “All macro-phenomena are ultimately …”
+* “This object is really only …”
 
-42.9 Corrective Formulation
+## 42.9 Corrective Formulation
 
-Statt:
+Instead of:
 
 ```text
 X is fundamentally composed of Y.
 ```
 
-präferiert STRATA:
+STRATA prefers:
 
 ```text
 Within frame C and granularity g,
@@ -5709,75 +5852,72 @@ X can be reconstructed through Y
 for claim Q.
 ```
 
-43. No Privilege of Finer Resolution or Higher Composition
+# 43. No Privilege of Finer Resolution or Higher Composition
 
-43.1 Symmetrical Limitation
+## 43.1 Symmetrical Limitation
 
-STRATA begrenzt beide Richtungen symmetrisch:
+STRATA symmetrically limits both directions:
 
-* feinere Auflösung,
-* und höhere Komposition.
+* Finer resolution
+* Higher composition
 
-Weder Mikroanalyse noch Makroanalyse besitzt automatischen Vorrang.
+Neither micro-analysis nor macro-analysis possesses automatic priority.
 
-43.2 Finer Is Not Better
+## 43.2 Finer Is Not Better
 
-Eine feinere Rekonstruktion kann:
+A finer reconstruction may:
 
-* zusätzliche Unterschiede zeigen,
-* aber zugleich Relationen verdecken,
-* Quellen überdehnen,
-* Rauschen erhöhen,
-* oder das Ausgangsobjekt verlieren.
+* Reveal additional differences
+* Obscure relations
+* Overextend sources
+* Increase noise
+* Lose the source object
 
-43.3 Coarser Is Not Inferior
+## 43.3 Coarser Is Not Inferior
 
-Eine gröbere Rekonstruktion kann analytisch überlegen sein, wenn sie:
+A coarser reconstruction may be analytically superior if it:
 
-* tragende Relationen besser erhält,
-* den relevanten Claim sparsamer trägt,
-* höhere Vergleichbarkeit besitzt,
-* oder feine Unterschiede für den Gegenstand irrelevant sind.
+* Better preserves carrying relations
+* Supports the relevant claim more parsimoniously
+* Possesses greater comparability
+* Treats fine differences as irrelevant to the object
 
-43.4 Higher Composition Is Not Greater Explanation
+## 43.4 Higher Composition Is Not Greater Explanation
 
-Ein größeres Komposit erklärt nicht automatisch mehr.
+A larger composite does not automatically explain more.
 
-Es kann:
+It may:
 
-* mehr Fälle umfassen,
-* aber weniger unterscheiden,
-* mehr Geschichte erzählen,
-* aber weniger Pfadspur erhalten,
-* oder mehr Ordnung erzeugen,
-* aber weniger kalibrierbar sein.
+* Encompass more cases but distinguish less
+* Narrate more history but preserve less path trace
+* Generate more order but become less calibratable
 
-43.5 Scale-Relative Performance
+## 43.5 Scale-Relative Performance
 
-Die Leistung einer Rekonstruktion wird beurteilt relativ zu:
+The performance of a reconstruction is assessed relative to:
 
-* Leitfrage,
-* Frame,
-* Quellenlage,
-* betroffenem Praxisunterschied,
-* und Claim Scope.
+* Guiding question
+* Frame
+* Source situation
+* Affected praxis difference
+* Claim scope
 
-43.6 Coarse and Fine Co-Validity
+## 43.6 Coarse and Fine Co-Validity
 
-Mehrere Auflösungen können gleichzeitig zulässig sein.
+Several resolutions may be admissible simultaneously.
 
-Beispiel:
+Example:
 
-* feine Ebene erklärt Reproduktionsbedingungen,
-* gröbere Ebene erklärt stabile Funktion.
+* The finer level explains conditions of reproduction.
+* The coarser level explains stable function.
 
-Beide Claims dürfen bestehen, sofern ihre Ebenen nicht vermischt werden.
+Both claims may remain valid as long as their levels are not conflated.
 
-43.7 No Automatic Reduction
+## 43.7 No Automatic Reduction
 
-Ein Makroclaim muss nicht vollständig durch Mikroclaims ersetzt werden.
+A macro-claim need not be fully replaced by micro-claims.
 
-Ein Mikroclaim beweist nicht automatisch einen Makroclaim.
+A micro-claim does not automatically prove a macro-claim.
 
 ```text
 micro-support
@@ -5789,41 +5929,41 @@ macro-function
 micro-homogeneity
 ```
 
-43.8 Comparative Granularity Test
+## 43.8 Comparative Granularity Test
 
-Zu fragen ist:
+The following must be asked:
 
-* Welche Auflösung unterscheidet relevante Fälle besser?
-* Welche erhält tragende Relationen?
-* Welche benötigt weniger spekulative Ergänzung?
-* Welche offenbart oder verdeckt Verluste?
-* Welche ist für den Claim angemessen?
+* Which resolution distinguishes relevant cases more effectively?
+* Which preserves carrying relations?
+* Which requires less speculative supplementation?
+* Which reveals or conceals losses?
+* Which is appropriate to the claim?
 
-43.9 Granularity Humility
+## 43.9 Granularity Humility
 
-STRATA darf als Ergebnis festhalten:
+STRATA may record the following as results:
 
-* finer resolution not warranted,
-* coarser reconstruction preferred,
-* multiple granularities co-valid,
-* comparison underdetermined,
-* oder `non_capture`.
+* Finer resolution not warranted
+* Coarser reconstruction preferred
+* Multiple granularities co-valid
+* Comparison underdetermined
+* `non_capture`
 
-43.10 LIMITS Record-View Control
+## 43.10 LIMITS Record-View Control
 
-Die YAML-Snippets der Kapitel 44–53 sind konzeptuelle Ansichten auf den bestehenden Shared Transformation Record. Sie führen keine LIMITS-spezifischen Top-Level-Objekte, keine zweite Record-Grammatik und keine neuen Schemafelder ein.
+The YAML snippets in Chapters 44–53 are conceptual views onto the existing Shared Transformation Record. They introduce no LIMITS-specific top-level objects, no second record grammar, and no new schema fields.
 
-| Blueprint view | Canonical Shared Record path |
-| --- | --- |
-| `relevance_floor` | `/admissibility/rule_assessments/praxis_purchase` and `/admissibility/audit_stages/relevance_floor` |
-| `traceability_ceiling` | `/admissibility/rule_assessments/traceable_load` and `/admissibility/audit_stages/traceability_ceiling` |
-| `counterfactual_test` | `/source/constitutive_source_trace`, `/admissibility/rule_assessments/counterfactual_sensitivity`, and `/admissibility/audit_stages/counterfactual_sensitivity` |
-| `continuity` | `/admissibility/rule_assessments/type_integrity`, `/admissibility/rule_assessments/reference_continuity`, `/admissibility/rule_assessments/functional_continuity`, `/admissibility/rule_assessments/temporal_continuity`, and `/admissibility/audit_stages/continuity_and_type_integrity` |
-| Chapter-48 loss view | canonical top-level `/loss` plus `/admissibility/rule_assessments/selection_and_loss` |
-| `source_and_calibration` | `/source/source_basis`, `/source/known_gaps`, `/source/source_ceiling`, the `source_ceiling` and `calibration` rule assessments, and `/admissibility/audit_stages/source_and_calibration_limits` |
-| `stop` | `/admissibility/rule_assessments/stop`, `/admissibility/stop_assessment`, and, where selected, `/result/routing/selected_class` |
-| `capture_status` / `non_capture` | `/admissibility/rule_assessments/non_capture`, `/admissibility/non_capture_assessment`, and, where selected, `/result/routing/selected_class` |
-| `strata_audit` | `/admissibility/audit_stages`, `/admissibility/rule_assessments`, `/loss`, `/alternatives`, `/governance`, and `/result/routing/selected_class` |
+| Blueprint view                   | Canonical Shared Record path                                                                                                                                                                                                                                                              |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `relevance_floor`                | `/admissibility/rule_assessments/praxis_purchase` and `/admissibility/audit_stages/relevance_floor`                                                                                                                                                                                       |
+| `traceability_ceiling`           | `/admissibility/rule_assessments/traceable_load` and `/admissibility/audit_stages/traceability_ceiling`                                                                                                                                                                                   |
+| `counterfactual_test`            | `/source/constitutive_source_trace`, `/admissibility/rule_assessments/counterfactual_sensitivity`, and `/admissibility/audit_stages/counterfactual_sensitivity`                                                                                                                           |
+| `continuity`                     | `/admissibility/rule_assessments/type_integrity`, `/admissibility/rule_assessments/reference_continuity`, `/admissibility/rule_assessments/functional_continuity`, `/admissibility/rule_assessments/temporal_continuity`, and `/admissibility/audit_stages/continuity_and_type_integrity` |
+| Chapter 48 loss view             | Canonical top-level `/loss` plus `/admissibility/rule_assessments/selection_and_loss`                                                                                                                                                                                                     |
+| `source_and_calibration`         | `/source/source_basis`, `/source/known_gaps`, `/source/source_ceiling`, the `source_ceiling` and `calibration` rule assessments, and `/admissibility/audit_stages/source_and_calibration_limits`                                                                                          |
+| `stop`                           | `/admissibility/rule_assessments/stop`, `/admissibility/stop_assessment`, and, where selected, `/result/routing/selected_class`                                                                                                                                                           |
+| `capture_status` / `non_capture` | `/admissibility/rule_assessments/non_capture`, `/admissibility/non_capture_assessment`, and, where selected, `/result/routing/selected_class`                                                                                                                                             |
+| `strata_audit`                   | `/admissibility/audit_stages`, `/admissibility/rule_assessments`, `/loss`, `/alternatives`, `/governance`, and `/result/routing/selected_class`                                                                                                                                           |
 
 ```text
 illustrative LIMITS view
@@ -5831,44 +5971,44 @@ illustrative LIMITS view
 ≠ schema extension
 ```
 
-Where a Blueprint label differs from a schema field, the schema path is binding for records and validation. Chapter 48's single-record-system boundary remains controlling.
+Where a Blueprint label differs from a schema field, the schema path is binding for records and validation. Chapter 48’s single-record-system boundary remains controlling. 
 
-44. Praxeological Relevance Floor
+# 44. Praxeological Relevance Floor
 
-44.1 Definition
+## 44.1 Definition
 
-Der Praxeological Relevance Floor bezeichnet die untere Grenze, unterhalb derer zusätzliche Unterscheidungen keine weitere begründete Praxisdifferenz erzeugen.
+The Praxeological Relevance Floor designates the lower boundary below which additional distinctions generate no further warranted praxis difference.
 
-44.2 Praxeological Purchase
+## 44.2 Praxeological Purchase
 
-Eine Unterscheidung besitzt praxeologischen Mehrwert, wenn sie mindestens eine relevante Rekonstruktion verändert hinsichtlich:
+A distinction possesses praxeological purchase if it changes at least one relevant reconstruction with respect to:
 
-* Handlungskorridoren,
-* Kosten,
-* Exposition,
-* Rollen,
-* Asymmetrien,
-* Erwartungen,
-* Nicht-Ereignissen,
-* Bindungen,
-* zeitlicher Ordnung,
-* Irreversibilität,
-* Integrationsmöglichkeiten,
-* oder Stopbedingungen.
+* Action corridors
+* Costs
+* Exposure
+* Roles
+* Asymmetries
+* Expectations
+* Non-events
+* Bindings
+* Temporal order
+* Irreversibility
+* Possibilities for integration
+* Stop conditions
 
-44.3 Relevance Is Claim-Relative
+## 44.3 Relevance Is Claim-Relative
 
-Eine Differenz kann:
+A difference may be:
 
-* für einen Claim relevant,
-* für einen anderen irrelevant,
-* und für einen dritten nicht ausreichend belegt sein.
+* Relevant to one claim
+* Irrelevant to another
+* Insufficiently supported for a third
 
-Es gibt keine universelle Liste immer relevanter Details.
+There is no universal list of details that are always relevant.
 
-44.4 Detail versus Difference
+## 44.4 Detail versus Difference
 
-Mehr Information ist nicht automatisch mehr Unterschied.
+More information does not automatically produce more difference.
 
 ```text
 additional detail
@@ -5878,45 +6018,45 @@ no changed reconstruction
 resolution without praxeological purchase
 ```
 
-44.5 Lower-Bound Failure Forms
+## 44.5 Lower-Bound Failure Forms
 
-Typische Verletzungen:
+Typical violations include:
 
-* Ereignisinflation,
-* zeitliche Überauflösung,
-* atomistische Teilelisten,
-* überfeine Rollenunterscheidung,
-* Modulatorinflation,
-* Profilbildung ohne Verlaufswirkung,
-* oder technische Präzision ohne Praxisgewinn.
+* Event inflation
+* Excessive temporal resolution
+* Atomistic lists of parts
+* Overly fine role distinctions
+* Modulator inflation
+* Profile formation without trajectory effect
+* Technical precision without praxis gain
 
-44.6 The Changed-Reconstruction Test
+## 44.6 The Changed-Reconstruction Test
 
-Zentrale Frage:
+Central question:
 
-> Welche belastbare Aussage müsste aufgrund dieser zusätzlichen Unterscheidung anders formuliert werden?
+> Which supportable statement would have to be formulated differently because of this additional distinction?
 
-Mögliche Antworten:
+Possible answers:
 
-* Typisierung verändert sich.
-* Kostenverteilung verändert sich.
-* Pfadabhängigkeit verändert sich.
-* Zielfunktion verändert sich.
-* Claim wird enger.
-* Gegenfall wird sichtbar.
-* Keine relevante Veränderung.
+* Typing changes.
+* Cost distribution changes.
+* Path dependence changes.
+* Target function changes.
+* The claim becomes narrower.
+* A countercase becomes visible.
+* No relevant change occurs.
 
-44.7 Negative Findings
+## 44.7 Negative Findings
 
-Auch eine feinere Rekonstruktion ohne erwarteten Gewinn kann nützlich sein, wenn sie zeigt:
+A finer reconstruction without the expected gain may still be useful if it shows:
 
-* dass die gröbere Struktur stabil bleibt,
-* dass ein vermuteter Unterschied irrelevant ist,
-* oder dass die Dekomposition keinen Claim verändern darf.
+* That the coarser structure remains stable
+* That a suspected difference is irrelevant
+* That decomposition must not alter the claim
 
-Der Output ist dann resolution-neutral, nicht resolution-gain.
+The output is then `resolution_neutral`, not resolution gain.
 
-44.8 Relevance Floor Record
+## 44.8 Relevance Floor Record
 
 ```yaml
 # Conceptual view only; use the canonical Shared Record paths in §43.10.
@@ -5929,73 +6069,73 @@ relevance_floor:
   result:
 ```
 
-44.9 Mandatory Lower Stop
+## 44.9 Mandatory Lower Stop
 
-Die Operation wird gestoppt, wenn:
+The operation is stopped if:
 
-* keine Rekonstruktion verändert wird,
-* nur terminologische Feinheit entsteht,
-* Quellen zusätzliche Differenzen nicht tragen,
-* oder weitere Auflösung lediglich dieselbe Aussage wiederholt.
+* No reconstruction changes
+* Only terminological refinement arises
+* Sources do not support additional distinctions
+* Further resolution merely repeats the same statement
 
-44.10 Canonical Formulation
+## 44.10 Canonical Formulation
 
 > Below the Praxeological Relevance Floor, additional resolution is not an additional praxis finding. It is distinction without praxeological purchase.
 
-45. Praxeological Traceability Ceiling
+# 45. Praxeological Traceability Ceiling
 
-45.1 Definition
+## 45.1 Definition
 
-Das Praxeological Traceability Ceiling bezeichnet die obere Grenze, oberhalb derer eine Komposition, Dekomposition oder Projektion keine nachvollziehbare strukturelle Last mehr aus ihren Ausgangsobjekten trägt.
+The Praxeological Traceability Ceiling designates the upper boundary above which a composition, decomposition, or projection no longer carries reconstructable structural load from its source objects.
 
-45.2 Traceable Load
+## 45.2 Traceable Load
 
-Ein Transformationsresultat besitzt traceable load, wenn:
+A transformation result possesses traceable load if:
 
-* konstitutive Ausgangsmerkmale identifizierbar sind,
-* relevante Relationen erhalten bleiben,
-* zeitliche Bildung rekonstruierbar ist,
-* Kosten und Asymmetrien nicht verschwinden,
-* und das Transformationsresultat auf Quelländerungen reagiert.
+* Constitutive source features are identifiable
+* Relevant relations remain preserved
+* Temporal formation remains reconstructable
+* Costs and asymmetries do not disappear
+* The transformation result responds to source changes
 
-45.3 Traceability Is More than Citation
+## 45.3 Traceability Is More than Citation
 
-Eine Quellenangabe allein genügt nicht.
+A source citation alone is insufficient.
 
-Traceability verlangt:
+Traceability requires:
 
-* strukturelle Zuordnung,
-* funktionale Begründung,
-* Abhängigkeit der Zielaussage von der Quelle,
-* und Offenlegung der Kompression.
+* Structural attribution
+* Functional justification
+* Dependence of the target claim on the source
+* Disclosure of compression
 
-45.4 Upper-Bound Failure Forms
+## 45.4 Upper-Bound Failure Forms
 
-Typische Verletzungen:
+Typical violations include:
 
-* Makrolabel ohne Pfad,
-* Großereignis ohne innere Dauer,
-* Attraktor ohne Wiederholungsmechanismus,
-* Komponenteninventar ohne erhaltenes Referenzobjekt,
-* Mikrorekonstruktion ohne Rückbezug auf die gröbere Funktion,
-* Makroasymmetrie ohne lokale Lastspur,
-* Frame-Function ohne historische Träger,
-* Profil ohne stabile Gewichtung,
-* oder Projektion ohne Quellabhängigkeit.
+* Macro-label without path
+* Large-scale event without internal duration
+* Attractor without a repetition mechanism
+* Component inventory without a preserved reference object
+* Micro-reconstruction without return to the coarser function
+* Macro-asymmetry without a local load trace
+* Frame-function without historical carriers
+* Profile without stable weighting
+* Projection without source dependence
 
-45.5 Constitutive Source Trace
+## 45.5 Constitutive Source Trace
 
-Die Source Trace muss mindestens ausweisen:
+The source trace must identify at least:
 
-* load-bearing features,
-* modulating features,
-* compressed features,
-* excluded features,
-* uncertain features.
+* Load-bearing features
+* Modulating features
+* Compressed features
+* Excluded features
+* Uncertain features
 
-45.6 Source-Target Dependency
+## 45.6 Source–Target Dependency
 
-Das Transformationsresultat muss sich bei relevanten Änderungen der Quelle verändern.
+The transformation result must change when relevant changes are made to the source.
 
 ```text
 material source change
@@ -6005,27 +6145,27 @@ unchanged or source-independent result
 possible abstraction without traceable load
 ```
 
-45.7 Macro-Label Elasticity
+## 45.7 Macro-Label Elasticity
 
-Ein Großbegriff ist verdächtig, wenn er:
+A macro-term is suspect if it:
 
-* widersprüchliche Pfade gleichermaßen erfasst,
-* bei gegensätzlichen Ausgangsstrukturen unverändert bleibt,
-* oder keinen möglichen Gegenfall besitzt.
+* Encompasses contradictory paths equally
+* Remains unchanged under opposing source structures
+* Possesses no possible countercase
 
-45.8 Traceability versus Exhaustiveness
+## 45.8 Traceability versus Exhaustiveness
 
-Nicht jedes Detail muss erhalten bleiben.
+Not every detail must be preserved.
 
-Traceability verlangt nicht:
+Traceability does not require:
 
-* vollständige Reproduktion,
-* verlustfreie Transformation,
-* oder totale Rekonstruierbarkeit.
+* Complete reproduction
+* Lossless transformation
+* Total reconstructability
 
-Sie verlangt die Erhaltung der tragenden Lastspur.
+It requires preservation of the load-bearing trace.
 
-45.9 Traceability Ceiling Record
+## 45.9 Traceability Ceiling Record
 
 ```yaml
 # Conceptual view only; use the canonical Shared Record paths in §43.10.
@@ -6040,62 +6180,60 @@ traceability_ceiling:
   result:
 ```
 
-45.10 Mandatory Upper Stop
+## 45.10 Mandatory Upper Stop
 
-Die Operation wird gestoppt oder der Claim reduziert, wenn:
+The operation is stopped or the claim is reduced if:
 
-* Ausgangsstrukturen nicht mehr identifizierbar sind,
-* relevante Relationen vollständig verschwinden,
-* eine feinere Rekonstruktion Referenzobjekt oder gröbere Funktionslast verliert,
-* die Zielfunktion quellenindifferent wird,
-* oder nur metaphorische Kontinuität besteht.
+* Source structures are no longer identifiable
+* Relevant relations disappear completely
+* A finer reconstruction loses the reference object or the load of the coarser function
+* The target function becomes indifferent to the source
+* Only metaphorical continuity remains
 
-45.11 Canonical Formulation
+## 45.11 Canonical Formulation
 
 > Above the Praxeological Traceability Ceiling, abstraction no longer carries reconstructible praxis load. It becomes a label without traceable source structure.
 
-46. Counterfactual Sensitivity
+# 46. Counterfactual Sensitivity
 
-46.1 Purpose
+## 46.1 Purpose
 
-Counterfactual Sensitivity prüft, ob eine STRATA-Transformation tatsächlich von den Strukturen abhängt, die sie als tragend ausweist.
+Counterfactual Sensitivity tests whether a STRATA transformation actually depends on the structures it identifies as load-bearing.
 
-46.2 Core Question
+## 46.2 Core Question
 
-> Würde eine relevante Änderung der Ausgangsstruktur das Transformationsresultat verändern?
+> Would a relevant change in the source structure alter the transformation result?
 
-46.3 Relevant Source Modification
+## 46.3 Relevant Source Modification
 
-Eine Gegenprobe darf nicht beliebig sein.
+A countertest must not be arbitrary.
 
-Sie muss eine Struktur verändern, die im Record als:
+It must alter a structure identified in the record as:
 
-* konstitutiv,
-* stark modulierend,
-* zeitlich tragend,
-* oder funktional notwendig
+* Constitutive
+* Strongly modulating
+* Temporally load-bearing
+* Functionally necessary
 
-ausgewiesen wurde.
+## 46.4 Operation-Specific Tests
 
-46.4 Operation-Specific Tests
+For COMPOSE:
 
-Für COMPOSE:
+* Would a different order alter the path?
+* Would removing a turning point weaken the trajectory?
+* Would a relevant non-event alter the composition?
 
-* Würde eine andere Reihenfolge den Pfad verändern?
-* Würde der Wegfall eines Wendepunkts die Trajektorie schwächen?
-* Würde ein relevantes Nicht-Ereignis die Komposition verändern?
+For DECOMPOSE:
 
-Für DECOMPOSE:
+* Would removing a component alter the coarser function?
+* Is the component constitutive or merely accompanying?
 
-* Würde der Wegfall einer Komponente die gröbere Funktion verändern?
-* Ist die Komponente konstitutiv oder nur begleitend?
+For PROJECT_AS:
 
-Für PROJECT_AS:
+* Would a different source trajectory carry the same target function?
+* Which source features are indispensable to the function?
 
-* Würde eine andere Ausgangstrajektorie dieselbe Zielfunktion tragen?
-* Welche Quellmerkmale sind für die Funktion unverzichtbar?
-
-46.5 Sensitivity Classes
+## 46.5 Sensitivity Classes
 
 ```text
 strongly_sensitive
@@ -6106,40 +6244,40 @@ underdetermined
 untestable
 ```
 
-46.6 Insensitive Result
+## 46.6 Insensitive Result
 
-Ein Ergebnis ist problematisch, wenn es trotz gegensätzlicher Ausgangsstrukturen gleich bleibt.
+A result is problematic if it remains unchanged despite opposing source structures.
 
-Mögliche Ursachen:
+Possible causes include:
 
-* überelastisches Label,
-* unklare Konstitutionsannahme,
-* rein metaphorische Projektion,
-* oder bereits vorausgesetztes Ergebnis.
+* An overly elastic label
+* An unclear assumption of constitution
+* A purely metaphorical projection
+* A result already presupposed
 
-46.7 Counterfactuals and Source Discipline
+## 46.7 Counterfactuals and Source Discipline
 
-Gegenproben dürfen nicht mehr Quellenwissen behaupten, als vorhanden ist.
+Countertests must not assert more source knowledge than is available.
 
-Zu unterscheiden sind:
+The following must be distinguished:
 
-* source-grounded counterfactual,
-* bounded hypothetical variation,
-* speculative scenario,
-* unavailable counterfactual.
+* Source-grounded counterfactual
+* Bounded hypothetical variation
+* Speculative scenario
+* Unavailable counterfactual
 
-46.8 Counterfactual Failure
+## 46.8 Counterfactual Failure
 
-Eine Transformation scheitert nicht automatisch, wenn sie nicht testbar ist.
+A transformation does not automatically fail merely because it is untestable.
 
-Der Claim muss jedoch entsprechend reduziert werden:
+The claim must, however, be reduced accordingly:
 
-* provisional,
-* underdetermined,
-* source-limited,
-* oder `non_capture`.
+* Provisional
+* Underdetermined
+* Source-limited
+* `non_capture`
 
-46.9 Counterfactual Sensitivity Record
+## 46.9 Counterfactual Sensitivity Record
 
 ```yaml
 # Conceptual view only; use the canonical Shared Record paths in §43.10.
@@ -6153,28 +6291,28 @@ counterfactual_test:
   claim_effect:
 ```
 
-46.10 Limits of Counterfactual Testing
+## 46.10 Limits of Counterfactual Testing
 
-Counterfactual Sensitivity ist:
+Counterfactual Sensitivity is:
 
-* ein Belastungstest,
-* kein Kausalitätsbeweis,
-* kein empirisches Experiment,
-* und keine vollständige Validierung.
+* A stress test
+* Not proof of causality
+* Not an empirical experiment
+* Not complete validation
 
-Sie ergänzt, aber ersetzt nicht Source Trace und Type Integrity.
+It supplements but does not replace source trace and type integrity.
 
-47. Reference, Type, and Function Continuity
+# 47. Reference, Type, and Function Continuity
 
-47.1 Continuity Dimensions and Type-Integrity View
+## 47.1 Continuity Dimensions and Type-Integrity View
 
-STRATA unterscheidet drei eigenständige Kontinuitätsdimensionen:
+STRATA distinguishes three independent continuity dimensions:
 
-1. reference continuity
-2. functional continuity
-3. temporal continuity, where applicable
+1. Reference continuity
+2. Functional continuity
+3. Temporal continuity, where applicable
 
-`type continuity` is retained as continuity-language for the preservation or warranted revision of typing under the canonical `TypeIntegrity` Rule. It is not a fourth continuity Rule and not a new admissibility check.
+`type continuity` is retained as continuity language for the preservation or warranted revision of typing under the canonical `TypeIntegrity` Rule. It is not a fourth continuity Rule and not a new admissibility check.
 
 ```text
 type continuity
@@ -6186,68 +6324,68 @@ not
 new Rule
 ```
 
-47.2 Reference Continuity
+## 47.2 Reference Continuity
 
-Reference continuity bedeutet:
+Reference continuity means:
 
-* Die Transformation bezieht sich weiterhin auf denselben historischen oder strukturellen Gegenstand.
-* Der Gegenstand bleibt trotz Kompression oder Öffnung identifizierbar.
-* Konstitutive Relationen werden nicht vollständig ausgetauscht.
+* The transformation continues to concern the same historical or structural object.
+* The object remains identifiable despite compression or opening.
+* Constitutive relations are not completely replaced.
 
-47.3 Reference Discontinuity
+## 47.3 Reference Discontinuity
 
-Reference discontinuity liegt vor, wenn:
+Reference discontinuity is present if:
 
-* nur der Name gleich bleibt,
-* Ausgangs- und Zielobjekt unterschiedliche historische Prozesse sind,
-* oder die Transformation ihre eigene Quelle ersetzt.
+* Only the name remains the same
+* Source and target objects concern different historical processes
+* The transformation replaces its own source
 
-47.4 Type Continuity as a TypeIntegrity View
+## 47.4 Type Continuity as a TypeIntegrity View
 
-As a continuity view under canonical `TypeIntegrity`, type continuity bedeutet:
+As a continuity view under canonical `TypeIntegrity`, type continuity means:
 
-* Der Ursprungstyp bleibt sichtbar.
-* DECOMPOSE erklärt oder belastet ihn.
-* PROJECT_AS überschreibt ihn nicht.
-* COMPOSE erzeugt ein neues Analyseobjekt, ohne die Typen seiner Bestandteile rückwirkend umzuschreiben.
+* The origin type remains visible.
+* DECOMPOSE explains or places pressure on it.
+* PROJECT_AS does not overwrite it.
+* COMPOSE forms a new analytical object without retrospectively rewriting the types of its components.
 
-47.5 Type Discontinuity
+## 47.5 Type Discontinuity
 
-Unzulässige Typdiskontinuität entsteht, wenn:
+Inadmissible type discontinuity arises if:
 
-* Zielfunktion zum Ursprungstyp wird,
-* Komponenten den Typ des Ganzen automatisch erben,
-* oder ein Profil zu einem neuen Operator erklärt wird.
+* The target function becomes the origin type
+* Components automatically inherit the type of the whole
+* A profile is declared to be a new operator
 
-47.6 Functional Continuity
+## 47.6 Functional Continuity
 
-Functional continuity bedeutet:
+Functional continuity means:
 
-* Die behauptete Funktion bleibt durch konkrete Quellmerkmale getragen.
-* Veränderungen dieser Merkmale verändern die Funktion.
-* Die Funktion gilt nur innerhalb des deklarierten Kontexts.
+* The asserted function remains carried by concrete source features.
+* Changes to these features alter the function.
+* The function applies only within the declared context.
 
-47.7 Functional Discontinuity
+## 47.7 Functional Discontinuity
 
-Eine Funktion verliert Kontinuität, wenn:
+A function loses continuity if:
 
-* sie unabhängig vom Ausgangsobjekt behauptet wird,
-* nur noch an einer Metapher hängt,
-* oder ihr Zielkontext beliebig austauschbar ist.
+* It is asserted independently of the source object
+* It depends only on a metaphor
+* Its target context is arbitrarily interchangeable
 
-47.8 Temporal Continuity
+## 47.8 Temporal Continuity
 
-Bei PATH-Objekten muss zusätzlich erhalten bleiben:
+For PATH objects, the following must additionally remain preserved:
 
-* Reihenfolge,
-* Dauer,
-* Sedimentation,
-* relevante Wendepunkte,
-* und historische Last.
+* Sequence
+* Duration
+* Sedimentation
+* Relevant turning points
+* Historical load
 
-Temporal continuity bedeutet nicht vollständige Detailerhaltung.
+Temporal continuity does not mean complete preservation of detail.
 
-47.9 Continuity Matrix
+## 47.9 Continuity Matrix
 
 ```yaml
 # Conceptual view only; `type` is a view under canonical TypeIntegrity.
@@ -6266,112 +6404,112 @@ continuity:
     limits:
 ```
 
-47.10 Continuity Failure and Claim Reduction
+## 47.10 Continuity Failure and Claim Reduction
 
-Bei teilweiser Kontinuität kann der Claim:
+Where continuity is partial, the claim may be:
 
-* enger gefasst,
-* zeitlich begrenzt,
-* auf Analogie reduziert,
-* oder als provisional markiert werden.
+* Narrowed
+* Temporally bounded
+* Reduced to analogy
+* Marked as provisional
 
-Nicht jeder Kontinuitätsverlust verlangt vollständige Verwerfung.
+Not every loss of continuity requires complete rejection.
 
-48. Compression Loss and Reconstruction Selection
+# 48. Compression Loss and Reconstruction Selection
 
-48.1 No Transformation without Selection
+## 48.1 No Transformation without Selection
 
-Jede STRATA-Operation wählt aus.
+Every STRATA operation selects.
 
-COMPOSE wählt:
+COMPOSE selects:
 
-* relevante Elemente,
-* Reihenfolge,
-* Periodisierung,
-* und Zielobjekt.
+* Relevant elements
+* Order
+* Periodization
+* Target object
 
-DECOMPOSE wählt:
+DECOMPOSE selects:
 
-* neue Unterschiede,
-* Komponenten,
-* Beziehungen,
-* und interne Schwellen.
+* New distinctions
+* Components
+* Relations
+* Internal thresholds
 
-PROJECT_AS wählt:
+PROJECT_AS selects:
 
-* hervorgehobene Quellmerkmale,
-* Zielkontext,
-* und Zielfunktion.
+* Foregrounded source features
+* Target context
+* Target function
 
-48.2 Preservation
+## 48.2 Preservation
 
-Preserved bezeichnet Strukturen, die im Transformationsresultat weiterhin explizit oder funktional erhalten bleiben.
+`preserved` designates structures that remain explicitly or functionally present in the transformation result.
 
-48.3 Compression
+## 48.3 Compression
 
-Compressed bezeichnet Strukturen, die nicht vollständig dargestellt werden, deren Vorhandensein und mögliche Relevanz aber anerkannt bleiben.
+`compressed` designates structures that are not represented completely, while their existence and possible relevance remain acknowledged.
 
-48.4 Exclusion
+## 48.4 Exclusion
 
-Excluded bezeichnet bewusst nicht aufgenommene Strukturen.
+`excluded` designates structures deliberately omitted.
 
-Ausschluss benötigt:
+Exclusion requires:
 
-* Begründung,
-* Scope-Angabe,
-* und Prüfung möglicher Claim-Auswirkungen.
+* Justification
+* Scope declaration
+* Testing of possible effects on the claim
 
-48.5 Uncertainty
+## 48.5 Uncertainty
 
-Uncertain bezeichnet Strukturen, deren Status aufgrund der Quellen oder Rekonstruktionslage unklar bleibt.
+`uncertain` designates structures whose status remains unclear because of the source or reconstruction situation.
 
-48.6 Irrecoverability
+## 48.6 Irrecoverability
 
-Irrecoverable bezeichnet Informationen, die nach einer Transformation nicht mehr zuverlässig rekonstruiert werden können.
+`irrecoverable` designates information that can no longer be reconstructed reliably after a transformation.
 
-Dies kann entstehen durch:
+This may arise through:
 
-* ursprüngliche Quellenlücken,
-* starke Kompression,
-* unklare Periodisierung,
-* oder Zusammenführung heterogener Strukturen.
+* Original source gaps
+* Strong compression
+* Unclear periodization
+* Combination of heterogeneous structures
 
-48.7 Reconstruction Selection
+## 48.7 Reconstruction Selection
 
-Eine Rekonstruktion ist nicht einfach gegeben.
+A reconstruction is not simply given.
 
-Sie wird gebildet durch:
+It is formed through:
 
-* Framewahl,
-* Granularitätswahl,
-* Quellenauswahl,
-* Relevanzentscheidung,
-* und Claim Scope.
+* Frame selection
+* Granularity selection
+* Source selection
+* Relevance decision
+* Claim scope
 
-48.8 Selection Effects
+## 48.8 Selection Effects
 
-Auswahl kann:
+Selection may:
 
-* bestimmte Übergänge hervorheben,
-* Nicht-Ereignisse verdecken,
-* Asymmetrien homogenisieren,
-* Pfade linear erscheinen lassen,
-* oder Zielfunktionen begünstigen.
+* Foreground certain transitions
+* Conceal non-events
+* Homogenize asymmetries
+* Make paths appear linear
+* Favour particular target functions
 
-48.9 Compression Debt
+## 48.9 Compression Debt
 
-Compression debt bezeichnet die spätere Belastung, die entsteht, wenn eine frühere Kompression relevante Details ausgelassen hat.
+Compression debt designates the later burden created when an earlier compression omitted relevant details.
 
-Mögliche Folgen:
+Possible consequences include:
 
-* spätere SUB-Öffnung,
-* Revision eines PATH-Claims,
-* Reduktion einer RETYPE-Projektion,
-* oder Non-Capture.
+* Later SUB opening
+* Revision of a PATH claim
+* Reduction of a RETYPE projection
+* Non-capture
 
-48.10 Loss Disclosure Rule
+## 48.10 Loss Disclosure Rule
 
-Jeder Transformationsrecord muss mindestens ausweisen:
+Every transformation record must identify at least:
 
 ```yaml
 loss:
@@ -6382,48 +6520,48 @@ loss:
   irrecoverable:
 ```
 
-48.11 Loss Is Not Automatic Failure
+## 48.11 Loss Is Not Automatic Failure
 
-Informationsverlust ist zulässig, wenn:
+Information loss is admissible if:
 
-* er offengelegt wird,
-* tragende Strukturen erhalten bleiben,
-* der Claim entsprechend begrenzt ist,
-* und keine falsche Vollständigkeit behauptet wird.
+* It is disclosed
+* Load-bearing structures remain preserved
+* The claim is bounded accordingly
+* No false completeness is asserted
 
-48.12 Hidden Loss
+## 48.12 Hidden Loss
 
-Verdeckter Verlust liegt vor, wenn:
+Hidden loss is present if:
 
-* Kompression als vollständige Erhaltung dargestellt wird,
-* ausgelassene Alternativen verschwinden,
-* interne Heterogenität geleugnet wird,
-* oder Unsicherheit in Präzision übersetzt wird.
+* Compression is presented as complete preservation
+* Omitted alternatives disappear
+* Internal heterogeneity is denied
+* Uncertainty is translated into precision
 
-49. Source Limits and Calibration Limits
+# 49. Source Limits and Calibration Limits
 
-49.1 Source-Bounded Reconstruction
+## 49.1 Source-Bounded Reconstruction
 
-STRATA darf nur rekonstruieren, was die Quellen in angemessener Form tragen.
+STRATA may reconstruct only what the sources adequately support.
 
-Die formale Präzision des Records darf die epistemische Präzision der Quellen nicht übersteigen.
+The formal precision of the record must not exceed the epistemic precision of the sources.
 
-49.2 Source Types
+## 49.2 Source Types
 
-Mögliche Source-Basen:
+Possible source bases include:
 
-* direkte Dokumentation,
-* zeitlich geordnete Records,
-* institutionelle Materialien,
-* beobachtbare Konfigurationen,
-* rekonstruierte Übergänge,
-* oder bereits bestehende PMS-Objekte.
+* Direct documentation
+* Temporally ordered records
+* Institutional materials
+* Observable configurations
+* Reconstructed transitions
+* Existing PMS objects
 
-Jede Source-Art besitzt eigene Grenzen.
+Each source type possesses its own limits.
 
-49.3 Missing Source versus Non-Event
+## 49.3 Missing Source versus Non-Event
 
-Fehlende Information ist nicht automatisch Λ.
+Missing information is not automatically Λ.
 
 ```text
 no record
@@ -6435,64 +6573,64 @@ unknown event
 non-event
 ```
 
-Ein Nicht-Ereignis benötigt eine begründete Erwartungsstruktur.
+A non-event requires a justified expectation structure.
 
-49.4 Inferential Distance
+## 49.4 Inferential Distance
 
-Je größer die Distanz zwischen Quelle und Claim, desto stärker müssen sein:
+The greater the distance between source and claim, the stronger the requirements for:
 
-* Begründung,
-* Verlustoffenlegung,
-* Alternativprüfung,
-* und Claim Reduction.
+* Justification
+* Loss disclosure
+* Alternative testing
+* Claim reduction
 
-49.5 Calibration
+## 49.5 Calibration
 
-Calibration bezeichnet die Fähigkeit, Schwellen und Unterschiede so zu bestimmen, dass:
+Calibration designates the ability to determine thresholds and distinctions such that:
 
-* ähnliche Fälle vergleichbar,
-* relevante Unterschiede sichtbar,
-* und Gegenfälle möglich bleiben.
+* Similar cases remain comparable
+* Relevant differences remain visible
+* Countercases remain possible
 
-49.6 Calibration Loss
+## 49.6 Calibration Loss
 
-Kalibrierbarkeit sinkt, wenn:
+Calibratability declines if:
 
-* Begriffe immer elastischer werden,
-* jede Struktur nachträglich passend gemacht werden kann,
-* Schwellen unbekannt bleiben,
-* oder unterschiedliche Analysts denselben Record nicht sinnvoll prüfen können.
+* Terms become increasingly elastic
+* Every structure can be made to fit retrospectively
+* Thresholds remain unknown
+* Different analysts cannot meaningfully inspect the same record
 
-49.7 Granularity Calibration
+## 49.7 Granularity Calibration
 
-Zu prüfen ist:
+The following must be tested:
 
-* Wann gilt eine Differenz als relevant?
-* Wann wird eine Wiederholung zum Attraktor?
-* Wann tragen lokale Asymmetrien eine Makrofunktion?
-* Wann ist eine Trajektorie hinreichend sedimentiert?
-* Wann wird eine Analogie zur Projektion?
+* When does a difference count as relevant?
+* When does repetition become an attractor?
+* When do local asymmetries carry a macro-function?
+* When is a trajectory sufficiently sedimented?
+* When does an analogy become a projection?
 
-STRATA kann nicht alle Schwellen universell vorab festlegen.
+STRATA cannot define all thresholds universally in advance.
 
-49.8 Source Ceiling
+## 49.8 Source Ceiling
 
-Die Source Ceiling ist erreicht, wenn:
+The source ceiling is reached if:
 
-* keine zusätzlichen belastbaren Unterscheidungen möglich sind,
-* interne Abläufe nicht rekonstruierbar bleiben,
-* oder weitere Präzision nur noch Modellannahme wäre.
+* No additional supportable distinctions are possible
+* Internal processes remain unreconstructable
+* Further precision would consist only of model assumptions
 
-49.9 Calibration-Open Result
+## 49.9 Calibration-Open Result
 
-Ein zulässiger Output kann lauten:
+An admissible output may state:
 
 ```text
 structural form identified,
 threshold remains calibration-sensitive
 ```
 
-49.10 Source and Calibration Record
+## 49.10 Source and Calibration Record
 
 ```yaml
 # Conceptual view only; use the canonical Shared Record paths in §43.10.
@@ -6507,211 +6645,211 @@ source_and_calibration:
   claim_reduction:
 ```
 
-49.11 Technical Formalization Boundary
+## 49.11 Technical Formalization Boundary
 
-Maschinenlesbarkeit, Typprüfung oder Ausführbarkeit können zeigen:
+Machine readability, type checking, or executability may demonstrate:
 
-* interne Konsistenz,
-* formale Vollständigkeit eines Records,
-* und technische Prüfbarkeit.
+* Internal consistency
+* Formal completeness of a record
+* Technical inspectability
 
-Sie zeigen nicht automatisch:
+They do not automatically demonstrate:
 
-* empirische Wahrheit,
-* semantische Angemessenheit,
-* oder ontologische Gültigkeit.
+* Empirical truth
+* Semantic adequacy
+* Ontological validity
 
-50. Anti-Immunization
+# 50. Anti-Immunization
 
-50.1 Purpose
+## 50.1 Purpose
 
-Die Anti-Immunisierungsregel verhindert, dass STRATA seine Transformationsfähigkeit verwendet, um Gegenbeispiele, Rivalen oder Fehlbefunde systematisch zu absorbieren.
+The Anti-Immunization Rule prevents STRATA from using its transformational capacity to absorb counterexamples, rivals, or failed findings systematically.
 
-50.2 The Granularity Escape
+## 50.2 The Granularity Escape
 
-Typische Form:
+Typical form:
 
 ```text
 The objection only appears because the analysis is too coarse.
 ```
 
-Dies ist nur dann zulässig, wenn:
+This is admissible only if:
 
-* eine konkrete feinere Rekonstruktion vorgelegt wird,
-* zusätzlicher Praxisgewinn entsteht,
-* und der ursprüngliche Einwand erneut geprüft wird.
+* A concrete finer reconstruction is provided
+* Additional praxis gain arises
+* The original objection is tested again
 
-50.3 The Higher-Level Escape
+## 50.3 The Higher-Level Escape
 
-Typische Form:
+Typical form:
 
 ```text
 The objection disappears at the higher level.
 ```
 
-Ein höherer Claim beantwortet einen lokalen Einwand nicht automatisch.
+A higher-level claim does not automatically answer a local objection.
 
-Möglich sind:
+The following may be present:
 
-* unterschiedlicher Claim,
-* anderer Zielkontext,
-* oder echte Ebenendifferenz.
+* A different claim
+* Another target context
+* A genuine level difference
 
-Der ursprüngliche Einwand bleibt bestehen, sofern er nicht direkt beantwortet wird.
+The original objection remains unless it is answered directly.
 
-50.4 The Projection Rescue
+## 50.4 The Projection Rescue
 
-Eine belastete Typisierung darf nicht gerettet werden durch:
+A typing under pressure must not be rescued through:
 
 ```text
 It is not T here, but it functions as T elsewhere.
 ```
 
-Das kann eine neue Projektion begründen, hebt das ursprüngliche Scheitern jedoch nicht auf.
+This may justify a new projection, but it does not annul the original failure.
 
-50.5 Moving versus Answering an Objection
+## 50.5 Moving versus Answering an Objection
 
-Ein Einwand wurde nur verschoben, wenn:
+An objection has merely been moved if:
 
-* neuer Frame,
-* neue Granularität,
-* neue Ebene,
-* oder neue Zielfunktion eingeführt wird,
+* A new frame
+* A new granularity
+* A new level
+* A new target function
 
-ohne den ursprünglichen Claim zu korrigieren.
+is introduced without correcting the original claim.
 
-50.6 Failure Preservation
+## 50.6 Failure Preservation
 
-STRATA muss frühere Fehlresultate erhalten können.
+STRATA must be able to preserve earlier failure results.
 
-Mögliche Records:
+Possible records:
 
-* original claim failed
-* new transformation proposed
-* original objection remains valid
-* transformed claim separately tested
+* Original claim failed
+* New transformation proposed
+* Original objection remains valid
+* Transformed claim separately tested
 
-50.7 Rival Sensitivity
+## 50.7 Rival Sensitivity
 
-Eine STRATA-Rekonstruktion muss zulassen, dass:
+A STRATA reconstruction must permit that:
 
-* eine alternative Granularität besser ist,
-* eine andere Komposition sparsamer ist,
-* keine Projektion nötig ist,
-* oder PMS den Gegenstand nicht angemessen erfasst.
+* An alternative granularity is better
+* Another composition is more parsimonious
+* No projection is necessary
+* PMS does not capture the object adequately
 
-50.8 Success Trap
+## 50.8 Success Trap
 
-Gerade erfolgreiche Übersetzung kann immunisierend wirken.
+Successful translation can itself become immunizing.
 
-Gefahr:
+Risk:
 
-* Jede fremde Struktur wird in PMS-Sprache überführt.
-* Übersetzbarkeit erscheint als Bestätigung.
-* Nicht-Übersetzbares wird als falsche Granularität erklärt.
+* Every foreign structure is translated into PMS language.
+* Translatability appears as confirmation.
+* What cannot be translated is explained away as incorrect granularity.
 
-STRATA behandelt Übersetzungserfolg nicht als Überlegenheitsbeweis.
+STRATA does not treat translation success as proof of superiority.
 
-50.9 Anti-Immunization Test
+## 50.9 Anti-Immunization Test
 
-1. Welcher ursprüngliche Claim wurde belastet?
+1. Which original claim was placed under pressure?
 
-2. Wird er korrigiert oder nur verschoben?
+2. Is it corrected or merely moved?
 
-3. Welche neue Operation wird eingeführt?
+3. Which new operation is introduced?
 
-4. Erzeugt sie einen separaten Claim?
+4. Does it generate a separate claim?
 
-5. Bleibt der ursprüngliche Gegenfall sichtbar?
+5. Does the original countercase remain visible?
 
-6. Kann auch die neue Operation scheitern?
+6. Can the new operation also fail?
 
-50.10 Anti-Immunization Rule
+## 50.10 Anti-Immunization Rule
 
 > A change of granularity, level, composition, or target function constitutes a new testable reconstruction. It does not erase the failure of the claim from which the transformation began.
 
-51. Stop Conditions
+# 51. Stop Conditions
 
-51.1 Stop as a Positive Methodological Result
+## 51.1 Stop as a Positive Methodological Result
 
-Stop ist kein bloßer Abbruch.
+Stop is not merely an interruption.
 
-Ein Stop zeigt, dass:
+A stop shows that:
 
-* die zulässige Auflösung erreicht,
-* die Quellenbasis ausgeschöpft,
-* der Claim hinreichend bestimmt,
-* oder weitere Transformation methodisch schädlich wäre.
+* The admissible resolution has been reached
+* The source basis has been exhausted
+* The claim has been sufficiently determined
+* Further transformation would be methodologically harmful
 
-51.2 General Stop Conditions
+## 51.2 General Stop Conditions
 
-Eine STRATA-Operation wird gestoppt, wenn:
+A STRATA operation is stopped if:
 
-* keine neue relevante Differenz entsteht,
-* Traceability verloren geht,
-* Quellen überschritten werden,
-* Kalibrierbarkeit sinkt,
-* Typintegrität nicht erhalten bleibt,
-* oder ein Einwand nur verschoben wird.
+* No new relevant difference arises
+* Traceability is lost
+* Sources are exceeded
+* Calibratability declines
+* Type integrity cannot be preserved
+* An objection is merely displaced
 
-51.3 PATH Stop Conditions
+## 51.3 PATH Stop Conditions
 
-PATH stoppt, wenn:
+PATH stops if:
 
-* weitere zeitliche Differenzierung keinen Pfadgewinn erzeugt,
-* Periodisierung beliebig wird,
-* relevante Übergänge nicht rekonstruierbar sind,
-* oder ein Makrolabel den Pfad ersetzt.
+* Further temporal differentiation generates no path gain
+* Periodization becomes arbitrary
+* Relevant transitions cannot be reconstructed
+* A macro-label replaces the path
 
-51.4 SUB Stop Conditions
+## 51.4 SUB Stop Conditions
 
-SUB stoppt, wenn:
+SUB stops if:
 
-* Relevance Floor unterschritten wird,
-* Komponenten ohne Funktion verbleiben,
-* das Ausgangsobjekt verloren geht,
-* oder Quellen keine feinere Struktur tragen.
+* The relevance floor is undercut
+* Components remain without function
+* The source object is lost
+* Sources do not support finer structure
 
-51.5 RETYPE Stop Conditions
+## 51.5 RETYPE Stop Conditions
 
-RETYPE stoppt, wenn:
+RETYPE stops if:
 
-* keine zusätzliche Zielfunktion nötig ist,
-* Source Trace fehlt,
-* Ursprungstyp nicht erhalten bleibt,
-* Analogie und Projektion nicht trennbar sind,
-* oder Zielkontext beliebig wird.
+* No additional target function is necessary
+* Source trace is missing
+* Origin type cannot be preserved
+* Analogy and projection cannot be distinguished
+* The target context becomes arbitrary
 
-51.6 Mandatory versus Optional Stop
+## 51.6 Mandatory versus Optional Stop
 
-Mandatory stop:
+### Mandatory stop
 
-* Fortsetzung wäre unzulässig.
+* Continuation would be inadmissible.
 
-Optional stop:
+### Optional stop
 
-* Fortsetzung wäre möglich, aber für den aktuellen Claim nicht erforderlich.
+* Continuation would be possible but unnecessary for the current claim.
 
-51.7 Claim Reduction
+## 51.7 Claim Reduction
 
-Vor vollständigem Stop kann ein Claim reduziert werden:
+Before a complete stop, a claim may be reduced:
 
-* trajectory → path
-* path → sequence
-* projection → analogy
-* strong function → limited function
+* Trajectory → path
+* Path → sequence
+* Projection → analogy
+* Strong function → limited function
 
 Support downgrade is recorded separately:
 
-* supported → provisional → underdetermined
+* `supported` → `provisional` → `underdetermined`
 
 Resolution-test outcome is recorded separately:
 
-* tested resolution-gain claim → resolution-neutral result
+* Tested resolution-gain claim → `resolution_neutral` result
 
-Support downgrade and resolution neutrality are not Claim Reduction.
+Support downgrade and resolution neutrality are not claim reduction.
 
-51.8 Stop Record
+## 51.8 Stop Record
 
 ```yaml
 # Conceptual view only; use /admissibility/stop_assessment in records.
@@ -6726,110 +6864,110 @@ stop:
   possible_future_reentry:
 ```
 
-51.9 Re-Entry after Stop
+## 51.9 Re-Entry after Stop
 
-Ein späterer Wiedereintritt ist möglich, wenn:
+Later re-entry is possible if:
 
-* neue Quellen vorliegen,
-* ein anderer Claim gestellt wird,
-* eine relevante Gegenstruktur erscheint,
-* oder eine neue Kalibrierung begründet wird.
+* New sources become available
+* A different claim is posed
+* A relevant counterstructure appears
+* A new calibration is justified
 
-Re-Entry ist eine neue Prüfung, keine Fortsetzung ohne Record.
+Re-entry is a new test, not continuation without a record.
 
-51.10 No Shame in Stop
+## 51.10 No Shame in Stop
 
-Ein gestoppter Claim ist nicht automatisch widerlegt.
+A stopped claim is not automatically refuted.
 
-Mögliche Bedeutungen:
+Possible meanings include:
 
-* hinreichend beantwortet,
-* nicht weiter relevant,
-* source-limited,
-* underdetermined,
-* oder nicht zulässig weiterzuführen.
+* Sufficiently answered
+* No longer relevant
+* Source-limited
+* Underdetermined
+* Inadmissible to continue
 
-52. Non-Capture
+# 52. Non-Capture
 
-52.1 Definition
+## 52.1 Definition
 
-Non-Capture bezeichnet das Ergebnis, dass ein Gegenstand innerhalb der gegenwärtigen PMS-STRATA-Rekonstruktion nicht oder nur teilweise hinreichend erfasst werden kann.
+Non-capture designates the result that an object cannot be captured adequately, or can be captured only partially, within the current PMS-STRATA reconstruction.
 
-52.2 Non-Capture Is Not Failure Avoidance
+## 52.2 Non-Capture Is Not Failure Avoidance
 
-Non-Capture darf nicht als Ausweichkategorie verwendet werden, um einen schlechten Claim unangreifbar zu machen.
+Non-capture must not be used as an escape category that immunizes a weak claim.
 
-Es muss begründet werden:
+It must be justified by specifying:
 
-* was nicht erfasst wird,
-* weshalb nicht,
-* und welche Transformationen geprüft wurden.
+* What is not captured
+* Why it is not captured
+* Which transformations were tested
 
-52.3 Forms of Non-Capture
+## 52.3 Forms of Non-Capture
 
-Mögliche Formen:
+Possible forms include:
 
-* source non-capture
-* granularity non-capture
-* compositional non-capture
-* projection non-capture
-* calibration non-capture
-* semantic non-capture
-* partial capture
+* Source non-capture
+* Granularity non-capture
+* Compositional non-capture
+* Projection non-capture
+* Calibration non-capture
+* Semantic non-capture
+* Partial capture
 
-52.4 Source Non-Capture
+## 52.4 Source Non-Capture
 
-Die Quellen tragen keine hinreichende Rekonstruktion.
+The sources do not support an adequate reconstruction.
 
-Beispiele:
+Examples:
 
-* Reihenfolge unbekannt,
-* interne Struktur unzugänglich,
-* Erwartungsframe nicht belegbar,
-* oder historische Last nicht rekonstruierbar.
+* Sequence unknown
+* Internal structure inaccessible
+* Expectation frame unsupported
+* Historical load unreconstructable
 
-52.5 Granularity Non-Capture
+## 52.5 Granularity Non-Capture
 
-Keine Granularität ist zugleich:
+No granularity is simultaneously:
 
-* ausreichend relevant,
-* hinreichend kalibrierbar,
-* und source-supported.
+* Sufficiently relevant
+* Adequately calibratable
+* Source-supported
 
-Feinere Auflösung zerfällt; gröbere Auflösung verliert Entscheidendes.
+Finer resolution fragments the object; coarser resolution loses what matters.
 
-52.6 Compositional Non-Capture
+## 52.6 Compositional Non-Capture
 
-Keine zulässige Komposition erhält die relevante Heterogenität.
+No admissible composition preserves the relevant heterogeneity.
 
-Jede Trajektorienbildung würde:
+Every trajectory formation would:
 
-* konkurrierende Pfade zerstören,
-* zentrale Nicht-Ereignisse verdecken,
-* oder unzulässige Richtung erzeugen.
+* Destroy competing paths
+* Conceal central non-events
+* Generate inadmissible directionality
 
-52.7 Projection Non-Capture
+## 52.7 Projection Non-Capture
 
-Keine Zielfunktion erfüllt zugleich:
+No target function simultaneously satisfies:
 
-* Praxisgewinn,
-* Source Trace,
-* Counterfactual Sensitivity,
-* und Type Integrity.
+* Praxis gain
+* Source trace
+* Counterfactual sensitivity
+* Type integrity
 
-52.8 Competing Reconstructions
+## 52.8 Competing Reconstructions
 
-Non-Capture kann vorliegen, wenn mehrere Rekonstruktionen:
+Non-capture may be present if several reconstructions are:
 
-* gleich tragfähig,
-* nicht sinnvoll vergleichbar,
-* und nicht integrierbar sind.
+* Equally supportable
+* Not meaningfully comparable
+* Not integrable
 
-Die Unentscheidbarkeit bleibt Teil des Ergebnisses.
+The indeterminacy remains part of the result.
 
-52.9 Partial Capture
+## 52.9 Partial Capture
 
-PMS-STRATA kann einen Teil der Struktur hinreichend erfassen, andere Teile jedoch offenlassen.
+PMS-STRATA may capture one part of the structure adequately while leaving other parts open.
 
 ```yaml
 # Conceptual view only; use /admissibility/non_capture_assessment in records.
@@ -6840,31 +6978,31 @@ capture_status:
   reason:
 ```
 
-52.10 Non-Operator Remainders
+## 52.10 Non-Operator Remainders
 
-Manche praxeologisch relevante Last kann operatorisch lesbar, aber nicht vollständig operatorisch auflösbar sein.
+Some praxeologically relevant load may be operator-legible without being fully operator-resolvable.
 
-Mögliche Kategorien:
+Possible categories include:
 
-* materielle Reste,
-* domänenspezifische Mechanismen,
-* nicht rekonstruierbare interne Prozesse,
-* oder semantische Überschüsse.
+* Material remainders
+* Domain-specific mechanisms
+* Unreconstructable internal processes
+* Semantic excesses
 
-Diese werden nicht automatisch zu neuen Operatoren.
+These do not automatically become new operators.
 
-52.11 Rival Superiority
+## 52.11 Rival Superiority
 
-Non-Capture muss offenlassen, dass ein anderes Modell:
+Non-capture must leave open that another model may be:
 
-* sparsamer,
-* genauer,
-* empirisch näher,
-* oder semantisch angemessener sein kann.
+* More parsimonious
+* More precise
+* Empirically closer
+* Semantically more adequate
 
-PMS besitzt keinen Anspruch auf vollständige Erfassung.
+PMS possesses no claim to complete capture.
 
-52.12 Non-Capture Record
+## 52.12 Non-Capture Record
 
 ```yaml
 # Conceptual view only; use /admissibility/non_capture_assessment in records.
@@ -6879,183 +7017,183 @@ non_capture:
   reentry_condition:
 ```
 
-52.13 Non-Capture Statement
+## 52.13 Non-Capture Statement
 
 > PMS-STRATA preserves the possibility that a structure remains only partially reconstructible, non-projectable, or better captured outside the present grammar.
 
-53. Integrated STRATA Admissibility Audit
+# 53. Integrated STRATA Admissibility Audit
 
-53.1 Purpose
+## 53.1 Purpose
 
-Der Integrated STRATA Admissibility Audit prüft eine vollständige Transformationskette.
+The Integrated STRATA Admissibility Audit examines a complete transformation chain.
 
-Er ersetzt nicht die lokalen Audits von PATH, SUB und RETYPE, sondern verbindet deren Ergebnisse.
+It does not replace the local audits of PATH, SUB, and RETYPE, but connects their results.
 
-53.2 Audit Object
+## 53.2 Audit Object
 
-Der Audit kann prüfen:
+The audit may examine:
 
-* einzelne Operation,
-* Operationskette,
-* vollständige Fallrekonstruktion,
-* Transformation Record,
-* oder technisch formalisierte STRATA-Ausgabe.
+* An individual operation
+* An operation chain
+* A complete case reconstruction
+* A transformation record
+* A technically formalized STRATA output
 
-53.3 Stage 1 — Source and Claim Entry
+## 53.3 Stage 1 — Source and Claim Entry
 
-Zu prüfen sind:
+The following must be tested:
 
-1. Ist der Gegenstand bestimmt?
+1. Is the object determined?
 
-2. Ist der Frame deklariert?
+2. Is the frame declared?
 
-3. Ist die Granularität angegeben?
+3. Is the granularity stated?
 
-4. Ist die relative Ebene angegeben?
+4. Is the relative level stated?
 
-5. Ist der Ursprungstyp bestimmt?
+5. Is the origin type determined?
 
-6. Ist der Claim Scope begrenzt?
+6. Is the claim scope bounded?
 
-7. Tragen die Quellen den Einstieg?
+7. Do the sources support entry?
 
-53.4 Stage 2 — Operation Classification
+## 53.4 Stage 2 — Operation Classification
 
-1. Ist die Operation COMPOSE, DECOMPOSE oder PROJECT_AS?
+1. Is the operation COMPOSE, DECOMPOSE, or PROJECT_AS?
 
-2. Werden mehrere Operationen vermischt?
+2. Are several operations being conflated?
 
-3. Ist die Operationsrichtung deklariert?
+3. Is the operation direction declared?
 
-4. Ist eine getrennte Record-Kette erforderlich?
+4. Is a separate record chain required?
 
-5. Liegt möglicherweise nur Recontextualization oder Analogie vor?
+5. Is only recontextualization or analogy present?
 
-53.5 Stage 3 — Praxeological Relevance Floor
+## 53.5 Stage 3 — Praxeological Relevance Floor
 
-1. Welche neue Differenz soll entstehen?
+1. Which new difference is expected to arise?
 
-2. Welche Praxisdimension wird verändert?
+2. Which praxis dimension changes?
 
-3. Welcher Claim wird präzisiert, korrigiert oder begrenzt?
+3. Which claim is refined, corrected, or bounded?
 
-4. Entsteht nur zusätzliche Detailmenge?
+4. Does only additional detail arise?
 
-5. Muss die Operation wegen fehlenden Praxisgewinns gestoppt werden?
+5. Must the operation be stopped because no praxis gain is present?
 
-53.6 Stage 4 — Praxeological Traceability Ceiling
+## 53.6 Stage 4 — Praxeological Traceability Ceiling
 
-1. Welche Quellstrukturen tragen das Ergebnis?
+1. Which source structures carry the result?
 
-2. Sind zeitliche und relationale Lastspuren erhalten?
+2. Are temporal and relational load traces preserved?
 
-3. Bleiben Kosten und Asymmetrien sichtbar?
+3. Do costs and asymmetries remain visible?
 
-4. Reagiert das Ergebnis auf relevante Quelländerungen?
+4. Does the result respond to relevant source changes?
 
-5. Liegt ein Makrolabel ohne Lastspur vor?
+5. Is a macro-label without a load trace present?
 
-53.7 Stage 5 — Continuity and Type Integrity
+## 53.7 Stage 5 — Continuity and Type Integrity
 
-1. Bleibt die Referenzidentität erhalten?
+1. Does reference identity remain preserved?
 
-2. Bleibt der Ursprungstyp sichtbar?
+2. Does the origin type remain visible?
 
-3. Ist die Zielfunktion getrennt?
+3. Is the target function kept separate?
 
-4. Bleibt funktionale Kontinuität bestehen?
+4. Does functional continuity remain preserved?
 
-5. Werden Ebenen oder Granularitäten unmarkiert vermischt?
+5. Are levels or granularities mixed without being marked?
 
-6. Entsteht eine illegitime neue Primitive?
+6. Does an illegitimate new primitive arise?
 
-53.8 Stage 6 — Counterfactual Sensitivity
+## 53.8 Stage 6 — Counterfactual Sensitivity
 
-1. Welche Merkmale gelten als konstitutiv?
+1. Which features are treated as constitutive?
 
-2. Welche relevante Änderung wird getestet?
+2. Which relevant change is tested?
 
-3. Wie müsste das Zielresultat reagieren?
+3. How would the target result have to respond?
 
-4. Ist die Reaktion stark, schwach oder unbestimmt?
+4. Is the response strong, weak, or undetermined?
 
-5. Ist der Claim gegenüber Gegenproben überelastisch?
+5. Is the claim overly elastic against countertests?
 
-53.9 Stage 7 — Loss and Selection
+## 53.9 Stage 7 — Loss and Selection
 
-1. Was bleibt erhalten?
+1. What remains preserved?
 
-2. Was wird komprimiert?
+2. What is compressed?
 
-3. Was wird ausgeschlossen?
+3. What is excluded?
 
-4. Was bleibt unsicher?
+4. What remains uncertain?
 
-5. Was ist irrecoverable?
+5. What is irrecoverable?
 
-6. Wie beeinflusst die Auswahl das Ergebnis?
+6. How does selection affect the result?
 
-53.10 Stage 8 — Alternatives
+## 53.10 Stage 8 — Alternatives
 
-1. Welche alternative Komposition ist möglich?
+1. Which alternative composition is possible?
 
-2. Welche alternative Dekomposition ist möglich?
+2. Which alternative decomposition is possible?
 
-3. Welche alternative Projektion ist möglich?
+3. Which alternative projection is possible?
 
-4. Ist keine Transformation die sparsamere Option?
+4. Is no transformation the more parsimonious option?
 
-5. Bleibt Non-Capture möglich?
+5. Does non-capture remain possible?
 
-53.11 Stage 9 — Source and Calibration Limits
+## 53.11 Stage 9 — Source and Calibration Limits
 
-1. Wo liegt die Source Ceiling?
+1. Where is the source ceiling?
 
-2. Welche Schwellen sind kalibrierbar?
+2. Which thresholds are calibratable?
 
-3. Welche Schwellen bleiben offen?
+3. Which thresholds remain open?
 
-4. Überschreitet die formale Präzision die Quellenpräzision?
+4. Does formal precision exceed source precision?
 
-5. Muss der Claim als provisional markiert werden?
+5. Must the claim be marked as provisional?
 
-53.12 Stage 10 — Anti-Immunization
+## 53.12 Stage 10 — Anti-Immunization
 
-1. Reagiert die Operation auf einen Einwand?
+1. Does the operation respond to an objection?
 
-2. Wird der ursprüngliche Claim korrigiert?
+2. Is the original claim corrected?
 
-3. Oder wird der Einwand nur auf eine andere Ebene verschoben?
+3. Or is the objection merely displaced to another level?
 
-4. Kann die neue Operation unabhängig scheitern?
+4. Can the new operation fail independently?
 
-5. Bleibt der ursprüngliche Gegenfall dokumentiert?
+5. Does the original countercase remain documented?
 
-53.13 Stage 11 — Stop and Non-Capture
+## 53.13 Stage 11 — Stop and Non-Capture
 
-1. Ist eine Stopbedingung definiert?
+1. Is a stop condition defined?
 
-2. Ist Stop bereits erreicht?
+2. Has stop already been reached?
 
-3. Ist Claim Reduction erforderlich?
+3. Is claim reduction required?
 
-4. Ist Non-Capture angemessener?
+4. Is non-capture more appropriate?
 
-5. Unter welchen Bedingungen wäre späterer Re-Entry möglich?
+5. Under which conditions would later re-entry be possible?
 
-53.14 Stage 12 — Claim and Authority Ceiling
+## 53.14 Stage 12 — Claim and Authority Ceiling
 
-1. Welcher Claim-Typ liegt vor?
+1. Which claim type is present?
 
-2. Hat die Transformation lediglich Lesbarkeit erhöht?
+2. Has the transformation merely increased legibility?
 
-3. Wird aus formaler Präzision Wahrheit abgeleitet?
+3. Is truth being derived from formal precision?
 
-4. Wird aus höherer Ebene zusätzliche Autorität abgeleitet?
+4. Is additional authority being derived from a higher level?
 
-5. Bleibt authority inheritance ausdrücklich ausgeschlossen?
+5. Does `authority_inheritance` remain expressly prohibited?
 
-53.15 Audit Result Classes
+## 53.15 Audit Result Classes
 
 ```text
 admissible
@@ -7070,7 +7208,7 @@ failed_transformation
 non_capture
 ```
 
-53.16 Integrated Audit Record
+## 53.16 Integrated Audit Record
 
 ```yaml
 # Conceptual integrated view only; this is not a second record grammar.
@@ -7093,29 +7231,29 @@ strata_audit:
   final_result:
 ```
 
-53.17 Final Audit Questions
+## 53.17 Final Audit Questions
 
-1. Produziert STRATA tatsächlich eine zusätzliche praxeologische Unterscheidung?
+1. Does STRATA actually produce an additional praxeological distinction?
 
-2. Bleibt die Zielstruktur auf tragende Ausgangsstrukturen zurückführbar?
+2. Does the target structure remain traceable to load-bearing source structures?
 
-3. Bleiben Ursprungstyp und Zielfunktion getrennt?
+3. Do origin type and target function remain separate?
 
-4. Könnte ein relevanter Gegenfall die Transformation verändern oder zum Scheitern bringen?
+4. Could a relevant countercase alter the transformation or cause it to fail?
 
-5. Sind Auswahl und Informationsverlust offengelegt?
+5. Are selection and information loss disclosed?
 
-6. Sind Quellen- und Kalibrierungsgrenzen sichtbar?
+6. Are source and calibration limits visible?
 
-7. Wurde ein Einwand beantwortet und nicht nur verschoben?
+7. Was an objection answered rather than merely displaced?
 
-8. Ist Stop möglich?
+8. Is stop possible?
 
-9. Ist Non-Capture möglich?
+9. Is non-capture possible?
 
-10. Wurde keinerlei zusätzliche Autorität erzeugt?
+10. Has no additional authority been generated?
 
-53.18 LIMITS Closing Statement
+## 53.18 LIMITS Closing Statement
 
 LIMITS specifies the admissible operating range of PMS-STRATA.
 
@@ -7125,34 +7263,35 @@ STRATA remains valid only where its transformations are both discriminating and 
 
 ---
 
-CONCLUSION
-The Bounded Vertical Extension of PMS
+# CONCLUSION
 
-54. The Integrated STRATA Model
+## The Bounded Vertical Extension of PMS
 
-54.1 The Problem Addressed
+# 54. The Integrated STRATA Model
+
+## 54.1 The Problem Addressed
 
 PMS-STRATA began from a limited but consequential problem.
 
-PMS Base provides a grammar for reconstructing praxis through Δ–Ψ. It does not, by itself, fully specify how analysts should move between:
+PMS Base provides a grammar for reconstructing praxis through Δ–Ψ. By itself, however, it does not fully specify how analysts should move between:
 
-* temporally ordered configurations,
-* provisionally compressed structures,
-* different granularities,
-* relative compositional levels,
-* and context-dependent higher-level functions.
+* Temporally ordered configurations
+* Provisionally compressed structures
+* Different granularities
+* Relative compositional levels
+* Context-dependent higher-level functions
 
 Without an explicit discipline for these movements, several analytical errors become likely:
 
-* chronology is treated as trajectory,
-* detail is treated as explanation,
-* composition is treated as lossless addition,
-* functional projection is treated as type identity,
-* and a change of level is used to evade failure.
+* Chronology is treated as trajectory.
+* Detail is treated as explanation.
+* Composition is treated as lossless addition.
+* Functional projection is treated as type identity.
+* A change of level is used to evade failure.
 
 STRATA specifies the conditions under which such movements remain legitimate.
 
-54.2 The Four-Part Architecture
+## 54.2 The Four-Part Architecture
 
 The integrated model consists of four mutually dependent Parts:
 
@@ -7170,17 +7309,17 @@ LIMITS
 defines admissibility, stop, failure, and non-capture.
 ```
 
-54.3 PATH
+## 54.3 PATH
 
 PATH reconstructs:
 
-* temporal order,
-* transitions,
-* realized and unrealized branches,
-* paths,
-* trajectories,
-* sedimentation,
-* and path dependence.
+* Temporal order
+* Transitions
+* Realized and unrealized branches
+* Paths
+* Trajectories
+* Sedimentation
+* Path dependence
 
 Its principal operation is:
 
@@ -7190,18 +7329,18 @@ COMPOSE
 
 COMPOSE forms higher-order temporal objects while disclosing:
 
-* selection,
-* temporal ordering,
-* preserved structure,
-* compressed detail,
-* excluded alternatives,
-* and irrecoverable loss.
+* Selection
+* Temporal ordering
+* Preserved structure
+* Compressed detail
+* Excluded alternatives
+* Irrecoverable loss
 
-PATH does not itself determine what function a completed trajectory performs in a different context.
+PATH does not itself determine what function a completed trajectory performs in another context.
 
-54.4 SUB
+## 54.4 SUB
 
-SUB reconstructs the internal structure of objects that were provisionally treated as analytical units.
+SUB reconstructs the internal structure of objects provisionally treated as analytical units.
 
 Its principal operation is:
 
@@ -7211,18 +7350,18 @@ DECOMPOSE
 
 DECOMPOSE applies to:
 
-* operator-typed occurrences,
-* composite structures,
-* events,
-* non-events,
-* paths,
-* and trajectories.
+* Operator-typed occurrences
+* Composite structures
+* Events
+* Non-events
+* Paths
+* Trajectories
 
 It does not decompose the Δ–Ψ operator types themselves.
 
 A valid decomposition must preserve or critically revise the relation between finer components and the coarser source function.
 
-54.5 RETYPE
+## 54.5 RETYPE
 
 RETYPE specifies cross-level functional projection.
 
@@ -7234,10 +7373,10 @@ PROJECT_AS
 
 PROJECT_AS preserves:
 
-* source reference,
-* origin type,
-* historical load,
-* and type integrity,
+* Source reference
+* Origin type
+* Historical load
+* Type integrity
 
 while assigning a bounded target function within a declared context.
 
@@ -7251,7 +7390,7 @@ contextual target function
 
 The target function does not overwrite the origin type.
 
-54.6 LIMITS
+## 54.6 LIMITS
 
 LIMITS defines the admissible range within which PATH, SUB, and RETYPE may operate.
 
@@ -7277,9 +7416,9 @@ Above the upper boundary:
 abstraction without traceable load
 ```
 
-54.7 Integrated Transformation Logic
+## 54.7 Integrated Transformation Logic
 
-The three operations can occur in sequence:
+The three operations may occur in sequence:
 
 ```text
 configurations
@@ -7295,15 +7434,15 @@ PROJECT_AS
 frame-function in a later context
 ```
 
-Such chains remain admissible only if every operation has:
+Such chains remain admissible only if every operation possesses:
 
-* its own declaration,
-* its own justification,
-* its own loss record,
-* its own validity scope,
-* and its own possibility of failure.
+* Its own declaration
+* Its own justification
+* Its own loss record
+* Its own validity scope
+* Its own possibility of failure
 
-54.8 Non-Invertibility
+## 54.8 Non-Invertibility
 
 STRATA transformations are not losslessly reversible.
 
@@ -7329,7 +7468,7 @@ Projection foregrounds a bounded function.
 
 No transformation returns a neutral or complete representation of its source.
 
-54.9 The Shared Admissibility Logic
+## 54.9 The Shared Admissibility Logic
 
 A STRATA transformation is admissible only if it remains both discriminating and reconstructively anchored.
 
@@ -7352,9 +7491,9 @@ Counterfactual Sensitivity provides an additional load test:
 
 > Would a relevant change in the source structure alter the transformation result?
 
-54.10 The Integrated Model
+## 54.10 The Integrated Model
 
-The complete logic can be summarized as follows:
+The complete logic may be summarized as follows:
 
 ```text
 PMS Base
@@ -7377,59 +7516,59 @@ STRATA therefore does not create a new theoretical authority above PMS.
 
 It makes explicit how existing PMS structures may be moved, related, and transformed without losing their claim boundaries.
 
-55. What PMS-STRATA Provides
+# 55. What PMS-STRATA Provides
 
-55.1 Explicit Vertical Transformation Discipline
+## 55.1 Explicit Vertical Transformation Discipline
 
 STRATA provides a vocabulary and procedure for declaring analytical movement between relative levels and granularities.
 
 It replaces unmarked level changes with explicit transformation records.
 
-55.2 Controlled Temporal Composition
+## 55.2 Controlled Temporal Composition
 
 STRATA distinguishes:
 
-* sequence,
-* path,
-* trajectory,
-* and path dependence.
+* Sequence
+* Path
+* Trajectory
+* Path dependence
 
 It provides criteria for determining when temporal ordering produces genuine historical structure rather than mere chronology.
 
-55.3 Granularity-Controlled Decomposition
+## 55.3 Granularity-Controlled Decomposition
 
 STRATA provides a method for opening compressed structures without assuming:
 
-* final constituents,
-* deeper truth,
-* or automatic superiority of fine resolution.
+* Final constituents
+* Deeper truth
+* Automatic superiority of fine resolution
 
-It requires each finer distinction to demonstrate praxeological purchase.
+It requires every finer distinction to demonstrate praxeological purchase.
 
-55.4 Cross-Level Functional Projection
+## 55.4 Cross-Level Functional Projection
 
-STRATA provides a typed procedure for saying that an object performs a function within another context without claiming that it becomes a different origin type.
+STRATA provides a typed procedure for stating that an object performs a function within another context without claiming that it becomes a different origin type.
 
 This permits precise claims such as:
 
-* trajectory as frame-function,
-* trajectory as macro-event,
-* recurrent trajectory form as attractor-function,
-* or distributed structures as higher-level functional profiles.
+* Trajectory as frame-function
+* Trajectory as macro-event
+* Recurrent trajectory form as attractor-function
+* Distributed structures as higher-level functional profiles
 
-55.5 Operator-Occurrence Discipline
+## 55.5 Operator-Occurrence Discipline
 
 STRATA sharply distinguishes:
 
-* operator type,
-* operator occurrence,
-* composite structure,
-* derived analytical object,
-* and contextual function.
+* Operator type
+* Operator occurrence
+* Composite structure
+* Derived analytical object
+* Contextual function
 
-This prevents the decomposition of abstract operators as though they were empirical objects and prevents derived functions from becoming hidden new primitives.
+This prevents abstract operators from being decomposed as though they were empirical objects and prevents derived functions from becoming hidden new primitives.
 
-55.6 Explicit Loss Accounting
+## 55.6 Explicit Loss Accounting
 
 STRATA requires transformations to declare:
 
@@ -7441,43 +7580,43 @@ uncertain:
 irrecoverable:
 ```
 
-Loss is thereby treated as an ordinary property of analysis rather than as an exceptional defect.
+Loss is thereby treated as an ordinary property of analysis rather than an exceptional defect.
 
-55.7 Competing Reconstruction Support
+## 55.7 Competing Reconstruction Support
 
-STRATA allows:
+STRATA permits:
 
-* competing paths,
-* competing decompositions,
-* competing functional projections,
-* multiple valid granularities,
-* and unresolved alternatives.
+* Competing paths
+* Competing decompositions
+* Competing functional projections
+* Multiple valid granularities
+* Unresolved alternatives
 
 It does not require every difference to be integrated into one preferred representation.
 
-55.8 Counterfactual Load Testing
+## 55.8 Counterfactual Load Testing
 
 Counterfactual Sensitivity provides a way to test whether a target claim depends on the source structures it identifies as constitutive.
 
 This helps distinguish:
 
-* valid projection,
-* weak projection,
-* analogy,
-* and label substitution.
+* Valid projection
+* Weak projection
+* Analogy
+* Label substitution
 
-55.9 Controlled Use of Operator Weighting
+## 55.9 Controlled Use of Operator Weighting
 
 STRATA can describe how different operator weightings and modulation profiles shape:
 
-* trajectories,
-* thresholds,
-* stabilization burdens,
-* and higher-level functional forms.
+* Trajectories
+* Thresholds
+* Stabilization burdens
+* Higher-level functional forms
 
 It does so without changing the Δ–Ψ grammar or creating new operator types.
 
-55.10 Structural Analogy Discipline
+## 55.10 Structural Analogy Discipline
 
 STRATA provides criteria for distinguishing:
 
@@ -7497,104 +7636,104 @@ label substitution
 
 This is especially important where PMS language is applied across strongly different domains.
 
-55.11 Anti-Immunization
+## 55.11 Anti-Immunization
 
 STRATA explicitly prevents changes of granularity, level, composition, or target function from automatically dissolving prior failure.
 
 Every such movement becomes a new testable claim.
 
-55.12 Stop and Non-Capture
+## 55.12 Stop and Non-Capture
 
 STRATA provides legitimate outcomes other than successful expansion:
 
-* claim reduction,
-* mandatory stop,
-* source limitation,
-* calibration openness,
-* partial capture,
-* and non-capture.
+* Claim reduction
+* Mandatory stop
+* Source limitation
+* Calibration openness
+* Partial capture
+* Non-capture
 
 These outcomes prevent analytical recursion from becoming compulsory.
 
-55.13 Increased Internal Legibility
+## 55.13 Increased Internal Legibility
 
 STRATA makes PMS more explicit about:
 
-* what object is being reconstructed,
-* at what resolution,
-* within which frame,
-* through which transformation,
-* and under which claim ceiling.
+* Which object is being reconstructed
+* At which resolution
+* Within which frame
+* Through which transformation
+* Under which claim ceiling
 
 Its principal gain is not broader authority, but better internal control.
 
-56. What PMS-STRATA Does Not Provide
+# 56. What PMS-STRATA Does Not Provide
 
-56.1 No New PMS Base
+## 56.1 No New PMS Base
 
 STRATA does not:
 
-* add operators,
-* rename operators,
-* change dependencies,
-* or revise the Δ–Ψ grammar.
+* Add operators
+* Rename operators
+* Change dependencies
+* Revise the Δ–Ψ grammar
 
-56.2 No Superior PMS Layer
+## 56.2 No Superior PMS Layer
 
 STRATA is not positioned above PMS Base.
 
-It does not adjudicate the validity of the basis from a higher theoretical level.
+It does not adjudicate the validity of the Base from a higher theoretical level.
 
-56.3 No Ontology of Reality
+## 56.3 No Ontology of Reality
 
 STRATA does not claim that reality is objectively divided into:
 
-* micro,
-* meso,
-* macro,
-* or any other discrete strata.
+* Micro
+* Meso
+* Macro
+* Any other discrete strata
 
 Its levels are reconstructive relations.
 
-56.4 No Final Constituents
+## 56.4 No Final Constituents
 
 DECOMPOSE does not reveal the ultimate components of an object.
 
 Every decomposition remains:
 
-* frame-bound,
-* source-bound,
-* claim-bound,
-* and revisable.
+* Frame-bound
+* Source-bound
+* Claim-bound
+* Revisable
 
-56.5 No Ultimate Totality
+## 56.5 No Ultimate Totality
 
 COMPOSE does not produce a complete whole.
 
 Every composition selects and compresses.
 
-56.6 No Privilege of Finer Resolution
+## 56.6 No Privilege of Finer Resolution
 
 More detail does not automatically provide:
 
-* more truth,
-* more relevance,
-* more explanation,
-* or more authority.
+* More truth
+* More relevance
+* More explanation
+* More authority
 
 The coarser reconstruction may remain analytically preferable.
 
-56.7 No Privilege of Higher Composition
+## 56.7 No Privilege of Higher Composition
 
 A macro-object does not automatically possess:
 
-* greater explanatory power,
-* greater causal status,
-* or greater claim strength.
+* Greater explanatory power
+* Greater causal status
+* Greater claim strength
 
-A higher-level label must retain a traceable source load.
+A higher-level label must retain traceable source load.
 
-56.8 No Automatic Retyping
+## 56.8 No Automatic Retyping
 
 A structure does not become a different operator type merely because it performs an analogous function in another context.
 
@@ -7604,91 +7743,91 @@ target function
 new origin type
 ```
 
-56.9 No Lossless Projection
+## 56.9 No Lossless Projection
 
 PROJECT_AS always foregrounds some structures and backgrounds others.
 
 No projection is context-free or lossless.
 
-56.10 No Unlimited Recursive Method
+## 56.10 No Unlimited Recursive Method
 
 The possibility of further analysis does not generate an obligation to continue.
 
 STRATA requires stop where:
 
-* relevance ends,
-* traceability fails,
-* sources are exhausted,
-* or calibration collapses.
+* Relevance ends
+* Traceability fails
+* Sources are exhausted
+* Calibration collapses
 
-56.11 No Universal Thresholds
+## 56.11 No Universal Thresholds
 
 STRATA does not determine in advance:
 
-* how many repetitions form an attractor,
-* how much duration forms a trajectory,
-* how many local asymmetries form a macrofunction,
-* or where every relevant granularity boundary lies.
+* How many repetitions form an attractor
+* How much duration forms a trajectory
+* How many local asymmetries form a macro-function
+* Where every relevant granularity boundary lies
 
 Such thresholds remain context- and source-sensitive.
 
-56.12 No Causal Proof
+## 56.12 No Causal Proof
 
 A STRATA transformation reconstructs structural relations.
 
-It does not by itself prove:
+By itself, it does not prove:
 
-* causal necessity,
-* empirical universality,
-* or predictive law.
+* Causal necessity
+* Empirical universality
+* Predictive law
 
-56.13 No Person-Level Typing
+## 56.13 No Person-Level Typing
 
-Higher-level functions, profiles, paths, or asymmetries may not be directly converted into global person properties.
+Higher-level functions, profiles, paths, or asymmetries must not be converted directly into global personal properties.
 
 The relevant object remains the configuration, occurrence, composite, path, or declared target context.
 
-56.14 No Automatic Cross-Domain Validity
+## 56.14 No Automatic Cross-Domain Validity
 
 Formal correspondence across domains does not establish semantic identity.
 
 Technical mapping, symbolic translation, or executable implementation may support consistency, but not praxeological equivalence by themselves.
 
-56.15 No Immunity from Counterexamples
+## 56.15 No Immunity from Counterexamples
 
-STRATA does not allow PMS to answer every objection with:
+STRATA does not permit PMS to answer every objection with:
 
-* a finer level,
-* a higher level,
-* another frame,
-* or another projection.
+* A finer level
+* A higher level
+* Another frame
+* Another projection
 
 The transformed claim must be tested separately.
 
-56.16 No Source of Application Authority
+## 56.16 No Source of Application Authority
 
 A successful STRATA transformation does not authorize:
 
-* intervention,
-* judgment,
-* sanction,
-* person classification,
-* or normative instruction.
+* Intervention
+* Judgment
+* Sanction
+* Person classification
+* Normative instruction
 
 Analytical visibility does not inherit practical authority.
 
-56.17 No Guarantee of Full Capture
+## 56.17 No Guarantee of Full Capture
 
 Some structures may remain:
 
-* partially reconstructible,
-* non-composable,
-* non-decomposable,
-* non-projectable,
-* semantically resistant,
-* or better captured elsewhere.
+* Partially reconstructible
+* Non-composable
+* Non-decomposable
+* Non-projectable
+* Semantically resistant
+* Better captured elsewhere
 
-56.18 Negative Summary
+## 56.18 Negative Summary
 
 ```text
 PMS-STRATA is not:
@@ -7707,22 +7846,22 @@ a source of application authority
 a proof that every structure can be translated into PMS
 ```
 
-57. Final Claim Boundary
+# 57. Final Claim Boundary
 
-57.1 Bounded Vertical Extension
+## 57.1 Bounded Vertical Extension
 
 PMS-STRATA is a bounded vertical extension of PMS in the specific sense that it specifies relations among:
 
-* temporal structures,
-* granular reconstructions,
-* composite objects,
-* and contextual functions.
+* Temporal structures
+* Granular reconstructions
+* Composite objects
+* Contextual functions
 
 It extends the explicit method, not the authority or ontology of PMS.
 
-57.2 The Central Limitation
+## 57.2 The Central Limitation
 
-STRATA is valid only where its transformations remain within the admissible range:
+STRATA remains valid only where its transformations remain within the admissible range:
 
 ```text
 above distinction without purchase
@@ -7730,7 +7869,7 @@ and
 below abstraction without traceable load
 ```
 
-57.3 The Governing Distinction
+## 57.3 The Governing Distinction
 
 The central distinction of the entire project is:
 
@@ -7742,58 +7881,58 @@ more authority
 
 This applies equally to:
 
-* finer decomposition,
-* larger composition,
-* formal precision,
-* technical implementation,
-* and cross-level projection.
+* Finer decomposition
+* Larger composition
+* Formal precision
+* Technical implementation
+* Cross-level projection
 
-57.4 The Transformation Rule
+## 57.4 The Transformation Rule
 
 A STRATA operation is legitimate only if it:
 
-1. identifies its source object;
+1. Identifies its source object
 
-2. declares its frame, granularity, and relative level;
+2. Declares its frame, granularity, and relative level
 
-3. specifies COMPOSE, DECOMPOSE, or PROJECT_AS;
+3. Specifies COMPOSE, DECOMPOSE, or PROJECT_AS
 
-4. states the expected praxeological difference;
+4. States the expected praxeological difference
 
-5. remains traceable to its constitutive source structures;
+5. Remains traceable to its constitutive source structures
 
-6. preserves reference and type integrity;
+6. Preserves reference and type integrity
 
-7. discloses selection and loss;
+7. Discloses selection and loss
 
-8. permits counterfactual failure;
+8. Permits counterfactual failure
 
-9. defines its validity scope;
+9. Defines its validity scope
 
-10. preserves stop and non-capture.
+10. Preserves stop and non-capture
 
-57.5 The Failure Rule
+## 57.5 The Failure Rule
 
-A transformation must be reduced, stopped, or rejected when:
+A transformation must be reduced, stopped, or rejected if:
 
-* it adds no relevant distinction,
-* its source load disappears,
-* its type relation becomes unstable,
-* its target context becomes arbitrary,
-* its sources are exceeded,
-* or it serves primarily to rescue a failed claim.
+* It adds no relevant distinction
+* Its source load disappears
+* Its type relation becomes unstable
+* Its target context becomes arbitrary
+* It exceeds its sources
+* It primarily serves to rescue a failed claim
 
-57.6 The Non-Capture Rule
+## 57.6 The Non-Capture Rule
 
 PMS-STRATA must preserve the possibility that:
 
-* the available granularity is inadequate,
-* no stable trajectory can be composed,
-* no source-supported decomposition is available,
-* no bounded projection is justified,
-* or another grammar captures the structure more adequately.
+* The available granularity is inadequate
+* No stable trajectory can be composed
+* No source-supported decomposition is available
+* No bounded projection is justified
+* Another grammar captures the structure more adequately
 
-57.7 The Authority Rule
+## 57.7 The Authority Rule
 
 No result produced by STRATA inherits authority beyond the claim type and application conditions already permitted by PMS.
 
@@ -7811,25 +7950,25 @@ finer reconstruction
 stronger judgment
 ```
 
-57.8 No Required Further Meta-Layer
+## 57.8 No Required Further Meta-Layer
 
 STRATA does not require another project above it to validate its level operations.
 
 Its credibility depends on:
 
-* internal consistency,
-* explicit records,
-* discriminating cases,
-* countercases,
-* source sensitivity,
-* technical inspectability where appropriate,
-* and the preservation of failure.
+* Internal consistency
+* Explicit records
+* Discriminating cases
+* Countercases
+* Source sensitivity
+* Technical inspectability where appropriate
+* Preservation of failure
 
-57.9 Final Formulation
+## 57.9 Final Formulation
 
 > **PMS-STRATA specifies how praxis structures may be composed, decomposed, and functionally projected across declared granularities and relative levels—while preserving source traceability, origin-type integrity, transformation loss, claim boundaries, stop, and non-capture. It does not turn analytical recursion into ontological totality, greater authority, or immunity from failure.**
 
-57.10 Closing Statement
+## 57.10 Closing Statement
 
 PMS-STRATA does not claim that every praxis structure can be placed on a final map.
 
@@ -7837,38 +7976,39 @@ It claims something narrower:
 
 that where PMS moves between temporal structures, granularities, and relative levels, those movements can be made explicit, typed, limited, and criticizable.
 
-The value of STRATA therefore lies not in allowing PMS to speak at every scale.
+The value of STRATA therefore does not lie in allowing PMS to speak at every scale.
 
 It lies in specifying when PMS should not move further.
 
 ---
 
-APPENDICES
+# APPENDICES
 
-Appendix A — Core Definitions
+## Appendix A — Core Definitions
 
-Appendix B — Formal Notation
+## Appendix B — Formal Notation
 
-Appendix C — Shared Transformation Record Schema
+## Appendix C — Shared Transformation Record Schema
 
-Appendix D — COMPOSE Record Template
+## Appendix D — COMPOSE Record Template
 
-Appendix E — DECOMPOSE Record Template
+## Appendix E — DECOMPOSE Record Template
 
-Appendix F — PROJECT_AS Record Template
+## Appendix F — PROJECT_AS Record Template
 
-Appendix G — Admissibility Band Tests
+## Appendix G — Admissibility Band Tests
 
-Appendix H — Valid and Invalid Transformation Patterns
+## Appendix H — Valid and Invalid Transformation Patterns
 
-Appendix I — Boundary and Confusion Cases
+## Appendix I — Boundary and Confusion Cases
 
-Appendix J — Optional Operator-Weighting and Trajectory Stress Tests
+## Appendix J — Optional Operator-Weighting and Trajectory Stress Tests
 
-Appendix K — Cross-Domain Projection and Analogy Stress Tests
+## Appendix K — Cross-Domain Projection and Analogy Stress Tests
 
-Appendix L — Non-Operator Remainders and Limits of Decomposition
+## Appendix L — Non-Operator Remainders and Limits of Decomposition
 
-Appendix M — Case and Countercase Index
+## Appendix M — Case and Countercase Index
 
-Appendix N — Integrated STRATA Audit Template
+## Appendix N — Integrated STRATA Audit Template
+
