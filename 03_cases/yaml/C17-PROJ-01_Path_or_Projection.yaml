@@ -1,0 +1,1419 @@
+schema_version: 0.1.2
+record_id: case.c17-proj-01.compose.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-23T21:15:00+02:00'
+  updated_at: '2026-07-27T11:59:29+02:00'
+  revision_id: r2
+  producer_id: PMS-STRATA.Case-C17-PROJ-01
+  repository_or_case_pointer: 03_cases/yaml/C17-PROJ-01_Path_or_Projection.yaml
+  record_provenance:
+    - Synthetic PATH confusion case C17-PROJ-01 instantiated for Chapter 17 local method testing; no external empirical 
+      truth is asserted.
+    - Built against Transformation_Record.schema.json v0.1.3 and the canonical Chapter 17 case corpus.
+  model_versions:
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Final LIMITS review complete against Chapters 41–57 controls; route 
+    admissible_with_bounded_claim confirmed without change.
+claim:
+  claim_id: claim.c17-proj-01.compose.01
+  statement: The declared service-coordination history forms a source-sensitive Trajectory; any claim that this 
+    origin-typed Trajectory performs a Frame-function in a later governance scene is a separate, untested PROJECT_AS 
+    claim.
+  claim_type:
+    value: declared-composite claim
+    control_source: 04_reference/Claim_Type_Table.md#76-compose-specific-composite-claims
+    inventory_status: current_controlled
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: One synthetic service-coordination history from ad hoc allocation through stable 
+      rotation.
+    operation_occurrence_boundary: Only COMPOSE occurrence compose.c17-proj-01.01.
+    frame: &id002
+      value: synthetic service-coordination history frame
+      control_source: 03_cases/yaml/C17-PROJ-01_Path_or_Projection.yaml#/claim/claim_scope/frame
+      inventory_status: extension
+      extension_rationale: The case-specific frame is local to this synthetic case and does not extend STRATA theory.
+    granularity: &id003
+      value: configuration, transition, repeated-subpath, occurrence-load, endpoint, and trajectory granularity
+      control_source: 03_cases/yaml/C17-PROJ-01_Path_or_Projection.yaml#/claim/claim_scope/granularity
+      inventory_status: extension
+      extension_rationale: The case-specific granularity declares the source-to-target distinction set for this 
+        synthetic case.
+    relative_level: &id006
+      value: composed Trajectory relative to its constituent historical structures
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: The local wording instantiates the controlled relative-level relation for this case target.
+    temporal_scope: Synthetic interval P0–P5.
+    source_scope: Baseline, review transition, repeated rotation, burden redistribution, and endpoint residue declared 
+      in the synthetic packet.
+    context_scope: Synthetic Chapter 17 case C17-PROJ-01 only.
+    generalization_boundary: No external domain generalization, application transfer, person evaluation, causal proof, 
+      prediction, or authority claim.
+    excluded_reach:
+      - Causal necessity or intention.
+      - Person, institutional, moral, legal, or political evaluation.
+      - Application, intervention, ranking, sanction, or authority.
+      - Any contextual Frame-function or other target function.
+      - Any assertion that the Trajectory becomes a Frame as origin type.
+  validity_scope: Assessment of whether the historical source field forms a Trajectory while preserving the operation 
+    boundary against a later contextual projection.
+  claim_ceiling:
+    asserted_relation: The source structures form one Trajectory; the alleged later Frame-function is not part of this 
+      occurrence.
+    reach: One synthetic historical source field.
+    precision: The source order and load are explicit; the later target context and function test are deliberately 
+      absent.
+    generality: Single synthetic case C17-PROJ-01.
+    functional_scope: No contextual target function is assigned; any later function requires a separate PROJECT_AS 
+      occurrence.
+    dependence_strength: Historical order is constitutive to the Trajectory claim; no contextual function or global 
+      transfer is established.
+    inferential_distance: One explicit COMPOSE occurrence from typed source structures to one bounded temporal 
+      composite.
+    limiting_sources: &id004
+      - source.c17-proj-01.baseline
+      - source.c17-proj-01.review
+      - source.c17-proj-01.rotation
+      - source.c17-proj-01.omega
+      - source.c17-proj-01.endpoint
+    rationale: The record retains only the source-sensitive Trajectory and requires a new PROJECT_AS record for any 
+      later Frame-function.
+  authority_boundary: The record supports only the stated synthetic temporal-object claim and grants no empirical, 
+    causal, normative, diagnostic, legal, political, organizational, or application authority.
+source:
+  reference_object:
+    object_id: source.set.c17-proj-01
+    description: A service-coordination history with review-mediated change, repeated rotation, redistributed burden, 
+      and residual endpoint commitments.
+    typing: &id001
+      value: typed temporal source set
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract
+      inventory_status: extension
+      extension_rationale: The local source-set label groups independently typed source objects without creating a new 
+        PMS primitive.
+    source_pointer: 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md#2-source-and-claim-boundary
+  object_typing: *id001
+  frame: *id002
+  granularity: *id003
+  relative_level:
+    value: configuration, transition, subpath, and occurrence level relative to the Trajectory target
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: The local wording instantiates the controlled relative-level relation for this case source 
+      field.
+  temporal_scope: Synthetic interval P0–P5.
+  source_scope: Baseline, review transition, repeated rotation, burden redistribution, and endpoint residue declared in 
+    the synthetic packet.
+  source_basis:
+    - source_item_id: source.c17-proj-01.baseline
+      source_pointer: case://pms-strata/configuration.proj.baseline
+      provenance_description: Synthetic declaration of the baseline configuration.
+      affected_claim_component: Trajectory origin.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: P0
+      reference_scope: configuration.proj.baseline
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-proj-01.review
+      source_pointer: case://pms-strata/transition.proj.review
+      provenance_description: Synthetic declaration of the review transition.
+      affected_claim_component: First load-bearing change.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: P1
+      reference_scope: transition.proj.review
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-proj-01.rotation
+      source_pointer: case://pms-strata/subpath.proj.rotation
+      provenance_description: Synthetic declaration of repeated rotation.
+      affected_claim_component: Sedimented course-form within the history.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: P2–P4
+      reference_scope: subpath.proj.rotation
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-proj-01.omega
+      source_pointer: case://pms-strata/occurrence.proj.omega
+      provenance_description: Synthetic declaration of occurrence-level Ω redistribution.
+      affected_claim_component: Historical burden and reversibility load.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: P3–P4
+      reference_scope: occurrence.proj.omega
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.c17-proj-01.endpoint
+      source_pointer: case://pms-strata/configuration.proj.endpoint
+      provenance_description: Synthetic declaration of the endpoint.
+      affected_claim_component: Trajectory endpoint and open continuation.
+      support_mode: direct
+      evidence_role:
+        value: synthetic case declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Synthetic case declarations test the method and record architecture; they are not empirical
+          evidence.
+      evidence_availability: available
+      temporal_scope: P5
+      reference_scope: configuration.proj.endpoint
+      uncertainty_or_provenance_limit: Synthetic declaration only; no external empirical or domain claim is supported.
+      warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+    - trace_id: trace.baseline
+      source_feature: Ad hoc request-allocation baseline with concentrated coordination burden.
+      affected_claim_component: Trajectory origin.
+      trace_role: load_bearing
+      result_dependency: Without it the historical object has no declared origin.
+      expected_result_change: Removing it defeats the formation boundary.
+      temporal_or_relational_dependency: It precedes the review.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/configuration.proj.baseline
+    - trace_id: trace.review
+      source_feature: Documented review introducing scheduled coordination.
+      affected_claim_component: First load-bearing change.
+      trace_role: load_bearing
+      result_dependency: Without it the later rotation lacks the declared formation route.
+      expected_result_change: Removing it changes target identity.
+      temporal_or_relational_dependency: It follows P0 and precedes rotation.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/transition.proj.review
+    - trace_id: trace.rotation
+      source_feature: Repeated scheduled rotation that stabilizes a new coordination course.
+      affected_claim_component: Sedimented course-form within the history.
+      trace_role: load_bearing
+      result_dependency: Without it no Trajectory-level continuation is formed.
+      expected_result_change: Replacing it with isolated events reduces the target to a Path.
+      temporal_or_relational_dependency: It follows the review and precedes the endpoint.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/subpath.proj.rotation
+    - trace_id: trace.omega
+      source_feature: Redistributed coordination burden and bounded exit cost under the rotation.
+      affected_claim_component: Historical burden and reversibility load.
+      trace_role: load_bearing
+      result_dependency: Without it the claimed praxis difference is materially weaker.
+      expected_result_change: Retaining concentrated burden changes the endpoint.
+      temporal_or_relational_dependency: It accumulates within the repeated rotation.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/occurrence.proj.omega
+    - trace_id: trace.endpoint
+      source_feature: Stable rotation endpoint with residual historical commitments.
+      affected_claim_component: Trajectory endpoint and open continuation.
+      trace_role: load_bearing
+      result_dependency: Without it the target lacks a bounded current configuration.
+      expected_result_change: Replacing it with reset changes the Trajectory.
+      temporal_or_relational_dependency: It follows rotation and redistribution.
+      claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+        legitimacy, or target function.
+      source_pointer: case://pms-strata/configuration.proj.endpoint
+  known_gaps:
+    - Fine local adjustments inside the repeated rotation are not encoded.
+    - No later governance-scene function evidence is encoded.
+  source_ceiling:
+    asserted_relation: The declared source objects and relations support one bounded Trajectory.
+    reach: P0–P5 within one synthetic history.
+    precision: Direct synthetic declarations of configurations, transitions, repetition, burden redistribution, and 
+      endpoint residue.
+    generality: Single synthetic case C17-PROJ-01.
+    functional_scope: No target function, application status, motive, or authority is sourced.
+    dependence_strength: Direct synthetic declarations support the listed objects, relations, order, and bounded 
+      uncertainty only.
+    inferential_distance: Source declarations only; object formation is tested separately under COMPOSE.
+    limiting_sources: *id004
+    rationale: The source basis is sufficient for the bounded case test and insufficient for broader empirical, causal, 
+      functional, normative, or authority claims.
+operation:
+  occurrence_id: compose.c17-proj-01.01
+  kind: COMPOSE
+  justification: COMPOSE tests whether the ordered source structures form a Trajectory while explicitly refusing to 
+    assign a contextual function.
+  expected_praxeological_difference: The composed history changes the reconstruction of burden, reversibility, and 
+    available continuation while the projection boundary prevents type and operation confusion.
+  selection_rule: Retain the baseline, review transition, repeated rotation, burden redistribution, and endpoint 
+    residue; exclude unrelated administrative detail and all later function claims.
+  transformation_context: Synthetic Chapter 17 positive-case reconstruction for C17-PROJ-01.
+  details:
+    source_objects:
+      - object_id: configuration.proj.baseline
+        description: Ad hoc request-allocation baseline with concentrated coordination burden.
+        typing:
+          value: configuration
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/configuration.proj.baseline
+      - object_id: transition.proj.review
+        description: Documented review introducing scheduled coordination.
+        typing:
+          value: transition as object
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/transition.proj.review
+      - object_id: subpath.proj.rotation
+        description: Repeated scheduled rotation that stabilizes a new coordination course.
+        typing:
+          value: subpath
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/subpath.proj.rotation
+      - object_id: occurrence.proj.omega
+        description: Redistributed coordination burden and bounded exit cost under the rotation.
+        typing:
+          value: operator-typed occurrence
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/occurrence.proj.omega
+      - object_id: configuration.proj.endpoint
+        description: Stable rotation endpoint with residual historical commitments.
+        typing:
+          value: configuration
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+          inventory_status: current_controlled
+        source_pointer: case://pms-strata/configuration.proj.endpoint
+    source_typings:
+      - value: configuration
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: transition as object
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: subpath
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: operator-typed occurrence
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+      - value: configuration
+        control_source: 
+          07_model/Operation_Registry.yaml#/operation_types/COMPOSE/source_contract/recognized_object_families
+        inventory_status: current_controlled
+    ordering_rule: P0 precedes P1; repeated rotation occupies P2–P4; redistributed burden and endpoint residue remain 
+      active at P5.
+    formation_rule: Form one Trajectory only because the review and repeated rotation alter burden, reversibility, and 
+      continuation options across the declared history.
+    constitutive_relations:
+      - relation_id: relation.proj.baseline-review
+        relation_type:
+          value: review transition relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: configuration.proj.baseline
+        to_object_id: transition.proj.review
+        description: The baseline is altered through the documented review.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md#3-typed-reconstruction
+      - relation_id: relation.proj.review-rotation
+        relation_type:
+          value: formation relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: transition.proj.review
+        to_object_id: subpath.proj.rotation
+        description: The review enables the repeated scheduled rotation.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md#3-typed-reconstruction
+      - relation_id: relation.proj.rotation-omega
+        relation_type:
+          value: burden redistribution relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: subpath.proj.rotation
+        to_object_id: occurrence.proj.omega
+        description: Repetition redistributes rather than erases burden.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md#3-typed-reconstruction
+      - relation_id: relation.proj.omega-endpoint
+        relation_type:
+          value: residual load relation
+          control_source: 
+            07_model/Operation_Registry.yaml#/operation_types/COMPOSE/constitutive_duties/constitutive_relations
+          inventory_status: extension
+          extension_rationale: The case-specific relation label remains governed by the canonical COMPOSE 
+            constitutive-relation duties.
+        from_object_id: occurrence.proj.omega
+        to_object_id: configuration.proj.endpoint
+        description: Redistributed burden and exit cost remain active at the endpoint.
+        constitutive: true
+        source_pointer: 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md#3-typed-reconstruction
+    source_trace:
+      - trace_id: trace.baseline
+        source_feature: Ad hoc request-allocation baseline with concentrated coordination burden.
+        affected_claim_component: Trajectory origin.
+        trace_role: load_bearing
+        result_dependency: Without it the historical object has no declared origin.
+        expected_result_change: Removing it defeats the formation boundary.
+        temporal_or_relational_dependency: It precedes the review.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/configuration.proj.baseline
+      - trace_id: trace.review
+        source_feature: Documented review introducing scheduled coordination.
+        affected_claim_component: First load-bearing change.
+        trace_role: load_bearing
+        result_dependency: Without it the later rotation lacks the declared formation route.
+        expected_result_change: Removing it changes target identity.
+        temporal_or_relational_dependency: It follows P0 and precedes rotation.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/transition.proj.review
+      - trace_id: trace.rotation
+        source_feature: Repeated scheduled rotation that stabilizes a new coordination course.
+        affected_claim_component: Sedimented course-form within the history.
+        trace_role: load_bearing
+        result_dependency: Without it no Trajectory-level continuation is formed.
+        expected_result_change: Replacing it with isolated events reduces the target to a Path.
+        temporal_or_relational_dependency: It follows the review and precedes the endpoint.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/subpath.proj.rotation
+      - trace_id: trace.omega
+        source_feature: Redistributed coordination burden and bounded exit cost under the rotation.
+        affected_claim_component: Historical burden and reversibility load.
+        trace_role: load_bearing
+        result_dependency: Without it the claimed praxis difference is materially weaker.
+        expected_result_change: Retaining concentrated burden changes the endpoint.
+        temporal_or_relational_dependency: It accumulates within the repeated rotation.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/occurrence.proj.omega
+      - trace_id: trace.endpoint
+        source_feature: Stable rotation endpoint with residual historical commitments.
+        affected_claim_component: Trajectory endpoint and open continuation.
+        trace_role: load_bearing
+        result_dependency: Without it the target lacks a bounded current configuration.
+        expected_result_change: Replacing it with reset changes the Trajectory.
+        temporal_or_relational_dependency: It follows rotation and redistribution.
+        claim_limitation: Supports the bounded temporal-object claim only; it does not establish motive, causality, 
+          legitimacy, or target function.
+        source_pointer: case://pms-strata/configuration.proj.endpoint
+    selection_rule_pointer: /operation/selection_rule
+    target_reference_object_pointer: /target/reference_object
+    target_object_typing_pointer: /target/object_typing
+target:
+  reference_object:
+    object_id: composite.c17-proj-01
+    description: 'Bounded synthetic trajectory for C17-PROJ-01: Path or Projection?.'
+    typing: &id005
+      value: trajectory
+      control_source: 
+        07_model/Operation_Registry.yaml#/operation_types/COMPOSE/target_contract/recognized_result_families
+      inventory_status: current_controlled
+    source_pointer: /operation/details
+  object_typing: *id005
+  contextual_function:
+  frame: *id002
+  granularity: *id003
+  relative_level: *id006
+  temporal_scope: Synthetic interval P0–P5.
+  validity_scope: Assessment of whether the historical source field forms a Trajectory while preserving the operation 
+    boundary against a later contextual projection.
+  contextual_function_origin_occurrence_ref:
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source and claim packet complete
+      rationale: The bounded claim, source field, scope, ceilings, and authority boundary are explicitly declared.
+      rule_assessment_pointers:
+        - source_ceiling
+        - contextual_boundedness
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Operation correctly classified as COMPOSE
+      rationale: Multiple typed source structures are formed into a new temporal composite through explicit selection, 
+        ordering, formation, and constitutive relations.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Praxeological Purchase established
+      rationale: The composed history changes the reconstruction of burden, reversibility, and available continuation 
+        while the projection boundary prevents type and operation confusion.
+      rule_assessment_pointers:
+        - praxis_purchase
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source-to-result dependency remains reconstructible
+      rationale: Trajectory identity traces to the review, repeated rotation, redistributed burden, and endpoint 
+        residue; no Frame-function trace is claimed.
+      rule_assessment_pointers:
+        - traceable_load
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Type, reference, temporal, and functional boundaries preserved
+      rationale: Source objects retain their origin typings; the target is a derived temporal composite; no contextual 
+        function is inferred.
+      rule_assessment_pointers:
+        - type_integrity
+        - reference_continuity
+        - functional_continuity
+        - temporal_continuity
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Load-bearing changes alter or defeat the claim
+      rationale: Removing the review, preventing rotation stabilization, or retaining concentrated burden changes the 
+        Trajectory; changing only the untested later function label does not alter the origin object.
+      rule_assessment_pointers:
+        - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection and five-part Loss are explicit
+      rationale: Included and omitted elements, retained distinctions, compression, uncertainty, and irrecoverability 
+        are recorded without a lossless presumption.
+      rule_assessment_pointers:
+        - selection_and_loss
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Material alternatives are preserved
+      rationale: Path-only, No-Composition, and a future separate PROJECT_AS route remain available; no function claim 
+        inherits support.
+      rule_assessment_pointers:
+        - alternatives
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source and calibration limits declared
+      rationale: The synthetic packet discriminates the tested positive case from defined mutations but supplies no 
+        external empirical calibration.
+      rule_assessment_pointers:
+        - source_ceiling
+        - calibration
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: No failed claim is repaired by relabeling
+      rationale: Any changed source set, order, frame, granularity, target class, or target function requires a new 
+        testable claim.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: Stop and Non-Capture assessed and not reached
+      rationale: An adequate bounded composite remains; stronger excluded claims remain prohibited rather than silently 
+        retained.
+      rule_assessment_pointers:
+        - stop
+        - non_capture
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: Claim and authority ceilings maintained
+      rationale: The result remains synthetic, bounded, non-causal, non-normative, non-diagnostic, and 
+        non-authoritative.
+      rule_assessment_pointers:
+        - claim_ceiling
+        - authority_ceiling
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: The composed history changes the reconstruction of burden, reversibility, and available 
+        continuation while the projection boundary prevents type and operation confusion.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded temporal-object claim.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: Trajectory identity traces to the review, repeated rotation, redistributed burden, and endpoint 
+        residue; no Frame-function trace is claimed.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim only while the declared source-to-result dependency remains reconstructible.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: Source types remain visible and the target is typed only as the declared composite.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve source typings and target typing.
+      controlled_local_result:
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: The target remains anchored to the same declared case reference and source field.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded reference object.
+      controlled_local_result:
+    functional_continuity:
+      applicability: not_applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: No source or target function is asserted; any later function requires PROJECT_AS.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Do not infer a contextual function.
+      controlled_local_result:
+      applicability_condition: Applies only if a source or target function is claimed.
+      applicability_rationale: No contextual function is claimed in this COMPOSE occurrence.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: P0 precedes P1; repeated rotation occupies P2–P4; redistributed burden and endpoint residue 
+        remain active at P5.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve the declared temporal and relational order.
+      controlled_local_result:
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: Frame, granularity, relative level, temporal scope, and synthetic case boundary are explicit for
+        C17-PROJ-01.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim only within the declared case scope.
+      controlled_local_result:
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: Removing the review, preventing rotation stabilization, or retaining concentrated burden changes
+        the Trajectory; changing only the untested later function label does not alter the origin object.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve the source-sensitive defeat and reduction conditions.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: The sources support the bounded temporal composite and no broader empirical, causal, functional,
+        or authority claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain only the bounded claim.
+      controlled_local_result:
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/source_and_calibration_limits
+        - /operation
+        - /claim
+      reasoned_finding: The synthetic case discriminates the positive record from the declared removal, reordering, 
+        substitution, and no-composition variants.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports method discrimination only; no external empirical calibration is claimed.
+      required_action: Use the declared mutations as local tests and preserve the external calibration limit.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: Selection and all five Loss fields are explicit and claim-relative.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the explicit Loss and selection record.
+      controlled_local_result:
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: Path-only, No-Composition, and a future separate PROJECT_AS route remain available; no function 
+        claim inherits support.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Preserve rival compositions, unresolved alternatives, and No-Composition where declared.
+      controlled_local_result:
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: The record retains only the source-sensitive Trajectory and requires a new PROJECT_AS record for
+        any later Frame-function.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the claim without expansion.
+      controlled_local_result:
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: No empirical, causal, normative, diagnostic, legal, political, intervention, or application 
+        authority is granted.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Maintain all governance prohibitions.
+      controlled_local_result:
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: No mandatory Stop trigger is reached for the bounded case claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Any material extension requires a new testable claim.
+      controlled_local_result:
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /loss
+        - /alternatives
+        - 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+      reasoned_finding: An adequate bounded composite remains; no whole-claim capture limit is decisive.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Supports the bounded retained claim and prohibits stronger untested reach.
+      required_action: Retain the bounded claim and its exclusions.
+      controlled_local_result:
+  non_compensation_confirmation: true
+  audit_to_routing_basis: All applicable assessments are complete; Purchase is gain, TraceableLoad is within_ceiling, 
+    source-sensitive defeat conditions are explicit, five-part Loss and alternatives are recorded, and neither Stop nor 
+    Non-Capture is reached.
+  anti_immunization_assessment: The record does not erase or repair any prior failure. Any later change in source 
+    membership, order, frame, granularity, relative level, target class, or function is a new separately testable claim.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The bounded composition remains above the Relevance Floor and below the Traceability Ceiling; no 
+      integrity failure makes continuation inadmissible.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The record adequately captures the bounded temporal composite while preserving exclusions, uncertainty, 
+      alternatives, and stronger unclaimed routes.
+loss:
+  preserved:
+    - item_id: loss.preserved.1
+      affected_element: trajectory formation
+      description: Baseline, review, rotation, burden redistribution, and endpoint residue remain explicit.
+      reason: They constitute the origin Trajectory.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the element as load-bearing support.
+      source_or_evidence_pointer: /operation/details/source_objects
+      recoverability_or_reentry_note: Any change requires a new COMPOSE record.
+    - item_id: loss.preserved.2
+      affected_element: projection separation
+      description: The pending Frame-function claim remains visible but untested.
+      reason: Operation and type integrity require separation.
+      claim_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the element as load-bearing support.
+      source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+      recoverability_or_reentry_note: A later PROJECT_AS record is required.
+  compressed:
+    - item_id: loss.compressed.1
+      affected_element: rotation micro-events
+      description: Fine actions inside P2–P4 are compressed into one repeated subpath.
+      reason: The bounded Trajectory does not require every micro-event.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Bound the claim to the retained resolution.
+      source_or_evidence_pointer: /operation/details/source_objects
+      recoverability_or_reentry_note: Finer opening requires a new DECOMPOSE or source record.
+  excluded:
+    - item_id: loss.excluded.1
+      affected_element: target function and authority
+      description: Frame-function, Macro-Event function, Attractor function, causal, evaluative, application, and 
+        authority claims are excluded.
+      reason: They exceed the current operation and sources.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Keep the excluded reach outside the claim.
+      source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+      recoverability_or_reentry_note: Reentry requires separate claims and warrant.
+  uncertain:
+    - item_id: loss.uncertain.1
+      affected_element: fine local adjustment
+      description: Unrecorded local adjustments within the rotation remain uncertain.
+      reason: They are not encoded.
+      claim_effect:
+        family:
+          value: qualify
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Qualify the claim and preserve uncertainty.
+      source_or_evidence_pointer: /source/known_gaps/0
+      recoverability_or_reentry_note: Preserve uncertainty.
+  irrecoverable:
+    - item_id: loss.irrecoverable.1
+      affected_element: unencoded deliberation
+      description: Unencoded actor-level deliberation cannot be recovered.
+      reason: The synthetic packet does not contain it.
+      claim_effect:
+        family:
+          value: mark_capture_limit
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Mark the capture limit and prohibit reconstruction beyond it.
+      source_or_evidence_pointer: /source/known_gaps/0
+      recoverability_or_reentry_note: No causal or intention claim.
+alternatives:
+  rival_compositions:
+    - alternative_id: alternative.proj.path-only
+      claim_relation: Retain a bounded Path without Trajectory sedimentation.
+      source_basis_or_evidence_pointer: /source
+      comparative_burden: Preserves order while withholding stronger historical load.
+      current_handling: not_selected
+      rationale: The source packet supports the bounded Trajectory.
+    - alternative_id: alternative.proj.future-project-as
+      claim_relation: Test a bounded Frame-function in a new PROJECT_AS record.
+      source_basis_or_evidence_pointer: /claim/claim_scope/excluded_reach
+      comparative_burden: Requires a declared target context, source trace, function, Loss, and new output mapping.
+      current_handling: unresolved
+      rationale: The function claim belongs to RETYPE and receives no inherited result.
+  rival_decompositions: []
+  rival_projections: []
+  no_transformation:
+    - alternative_id: alternative.proj.no-composition
+      claim_relation: Retain all source structures without one temporal composite.
+      source_basis_or_evidence_pointer: /source
+      comparative_burden: Preserves the source field while withholding Trajectory formation.
+      current_handling: not_selected
+      rationale: The source-sensitive Trajectory passes the current test.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal and local case admissibility applies only to the declared synthetic transformation claim; it
+    does not establish empirical truth, causality, semantic or normative validity, person judgment, legitimacy, 
+    diagnosis, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+    - admissible does not mean empirically true or causally proven
+    - the derived temporal composite is not a new PMS primitive
+    - COMPOSE does not automatically assign a contextual target function
+    - the synthetic case does not authorize evaluation of persons or institutions
+    - formal validation and case success do not grant application or intervention authority
+    - one successful case does not validate PATH globally
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: A source-sensitive Trajectory is retained while the later Frame-function claim is separated into a required
+      future PROJECT_AS record.
+    result_family:
+      value: admissible narrow projection boundary with a retained origin Trajectory
+      control_source: 
+        07_model/Output_Classes.yaml#/output_classes/admissible_with_bounded_claim/representative_local_results
+      inventory_status: current_controlled
+    source_function_effect:
+    prior_source_claim_disposition:
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids:
+      - claim.c17-proj-01.project-as.pending
+  status_declaration:
+    support_status: supported
+    resolution_test_result:
+    capture_statement:
+      statement: The historical Trajectory is adequately captured; the later function claim is outside this record 
+        rather than treated as a capture failure.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The constitutive conditions for admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: selected
+        rationale: Purchase and TraceableLoad support the Trajectory, but operation and type integrity require the 
+          Frame-function reach to be excluded and separately tested.
+        constitutive_condition_pointers: &id007
+          - /operation/details/source_objects
+          - /operation/details/ordering_rule
+          - /operation/details/formation_rule
+          - /operation/details/constitutive_relations
+          - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+          - /admissibility/rule_assessments/traceable_load/controlled_local_result
+          - /claim/claim_ceiling
+          - /governance/authority_inheritance
+        preserved_finding: The source-sensitive Trajectory and explicit projection boundary are retained.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The constitutive conditions for admissible_but_provisional are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The constitutive conditions for partially_admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The constitutive conditions for claim_reduction_required are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The constitutive conditions for mandatory_stop are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The constitutive conditions for failed_transformation are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: The constitutive conditions for non_capture are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+    selected_class: admissible_with_bounded_claim
+    route_id: route_admissible_with_bounded_claim
+    matched_constitutive_conditions: *id007
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings: []
+    split_decision:
+      required: false
+      rationale: The materially narrowed dependence claim is represented as the current primary claim; no additional 
+        same-occurrence claim split is required.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: Purchase and TraceableLoad support the Trajectory, but operation and type integrity 
+      require the Frame-function reach to be excluded and separately tested.
+    current_claim_disposition:
+      value: maintained
+      rationale: The narrowed Trajectory claim is maintained; the combined trajectory-is-frame formulation is not 
+        retained.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_with_bounded_claim
+    original_broader_claim_id: claim.c17-proj-01.trajectory-is-frame
+    retained_narrower_claim_pointer: /claim/claim_id
+    material_narrowing:
+      - Retain the source-sensitive Trajectory only.
+      - Separate and withhold the alleged Frame-function until a new PROJECT_AS record exists.
+    excluded_reach:
+      - Contextual Frame-function, Macro-Event function, Attractor function, and operator identity.
+      - All application or authority transfer.
+    separately_tested: true
+    rationale: The current COMPOSE claim passes only after materially narrowing the combined trajectory-as-frame claim 
+      to the origin Trajectory and separating the function claim.
+relations:
+  prior_record_ids: []
+  prior_claim_ids: []
+  sibling_claim_or_record_ids:
+    - claim.c17-proj-01.project-as.pending
+  rival_record_ids: []
+  countercase_refs:
+    - C16-RETYPE-01
+    - C17-MACRO-01
+    - C17-LOCK-01
+extensions:
+  - extension_id: pms-strata:chapter17:path-confusion-case:c17-proj-01:v0.1
+    owner_or_source: PMS-STRATA Chapter 17
+    control_source_pointer: 01_blocks/02_part_i_path.md#1712-confusion-case-path-or-projection
+    purpose: Carry the Chapter-17 case wrapper and local audit summary without replacing Shared Transformation Record 
+      fields.
+    payload:
+      path_case:
+        case_id: C17-PROJ-01
+        case_class: confusion_case
+        title: Path or Projection?
+        markdown_artifact: 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+        yaml_artifact: 03_cases/yaml/C17-PROJ-01_Path_or_Projection.yaml
+        governing_claim: The declared service-coordination history forms a source-sensitive Trajectory; any claim that 
+          this origin-typed Trajectory performs a Frame-function in a later governance scene is a separate, untested 
+          PROJECT_AS claim.
+        starting_configuration: Ad hoc request allocation with concentrated coordination burden at P0.
+        transitions:
+          - documented coordination review
+          - scheduled rotation formation
+          - repeated rotation
+          - burden redistribution
+          - residual endpoint stabilization
+        events:
+          - coordination review
+          - rotation implementation
+          - endpoint stabilization
+        non_events: []
+        branches_and_alternatives: Path-only, No-Composition, and a later separate PROJECT_AS record remain available.
+        compose_decision: COMPOSE executed for the origin temporal object only; any PROJECT_AS claim remains separate 
+          and unexecuted.
+        path_or_trajectory_result: admissible source-sensitive Trajectory with projection claim separated
+        path_dependence_finding: bounded historical load is retained for burden, reversibility, and continuation; no 
+          contextual target function is established.
+        local_audit_result:
+          status: pass
+          stages_complete: 12
+          warnings: 0
+          errors: 0
+        canonical_output_mapping: admissible_with_bounded_claim
+        stop_or_non_capture_status: neither reached for the bounded claim
+        governance_boundary: No target function, causality, person judgment, legitimacy, sanction, application 
+          authority, or authority inheritance.
+    does_not_replace_required_field: true
+  - extension_id: pms-strata:c17-final-limits-review:c17-proj-01:v0.1
+    owner_or_source: PMS-STRATA C17 Final LIMITS Review
+    control_source_pointer: 01_blocks/05_part_iv_limits.md
+    purpose: Record the active final-LIMITS review without replacing the original operation occurrence, route, Loss, or
+      record-level model-version provenance.
+    payload:
+      reviewed_against:
+        - 05_minified/Chapter_Contracts.md#chapter-17-path-cases-countercases-and-local-audit
+        - 01_blocks/05_part_iv_limits.md
+        - 01_blocks/06_conclusion.md
+        - 07_model/Admissibility_Rules.yaml
+        - 07_model/Output_Classes.yaml
+        - 07_model/Transformation_Record.schema.json
+      review_dimensions:
+        - source_and_claim_ceiling
+        - operation_and_type_integrity
+        - reference_functional_and_temporal_continuity
+        - counterfactual_sensitivity
+        - selection_and_five_part_loss
+        - alternatives_and_no_transformation
+        - anti_immunization_and_failure_preservation
+        - stop_failure_and_non_capture_separation
+        - claim_and_authority_ceiling
+        - canonical_output_route
+      substantive_verdict: confirmed_without_route_change
+      selected_class_confirmed: admissible_with_bounded_claim
+      key_finding: The temporal composite survives only with the contextual function withheld; any function requires a 
+        new PROJECT_AS record.
+      formal_conformance_only_not_claimed: false
+      empirical_or_external_validation_claimed: false
+      route_changed: false
+      claim_changed: false
+      loss_inventory_changed: false
+      source_or_operation_changed: false
+    does_not_replace_required_field: true

@@ -1,0 +1,1103 @@
+schema_version: 0.1.2
+record_id: case.c50-fp1a.project-as.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T17:40:00+02:00'
+  updated_at: '2026-07-27T17:40:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.Final-Lock-Gap-Closure-Batch-322
+  repository_or_case_pointer: 03_cases/yaml/C50-FP1A_PROJECT_AS_Failed_Coarse_Frame_Function.yaml
+  record_provenance:
+  - Synthetic final-lock gap-closure fixture; no external empirical claim is asserted.
+  - This record contains exactly one PROJECT_AS occurrence and preserves every earlier result without inheritance.
+  - Produced against Source-of-Truth ZIP 321 and Transformation_Record.schema.json schema_version 0.1.2.
+  model_versions:
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Gap Package B original failed projection; must remain preserved through all successor claims.
+claim:
+  claim_id: claim.c50-fp1a.project-as.01
+  statement: T50 functions as a stabilizing frame in C50 solely because the chronology is labeled “stabilization trajectory.”
+  claim_type:
+    value: failed coarse frame-function claim
+    control_source: 04_reference/Claim_Type_Table.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  claim_role:
+    value: original failed transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: T50 chronology and C50 target conditions.
+    operation_occurrence_boundary: Only project-as.c50-fp1a.01; all adjacent claims and operations remain separate records.
+    frame:
+      value: synthetic C50 target frame
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    granularity:
+      value: coarse trajectory-to-function granularity
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    relative_level:
+      value: claimed target-function level
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    temporal_scope: T50-S0–S5
+    source_scope: T50 chronology and C50 target conditions.
+    context_scope: Attempted stabilizing frame-function in C50.
+    generalization_boundary: No transfer beyond this synthetic method fixture.
+    excluded_reach:
+    - No target effect from label alone.
+    - No source-sensitive function.
+    - No rescue by later granularity or level shifts.
+  validity_scope: Only the failed original claim.
+  claim_ceiling: &id001
+    asserted_relation: The original T50 frame-function claim fails; successor claims may test finer path structure, a broader
+      composite, and a new target function without repairing that failure.
+    reach: T50, selected internal phases, G50, and H50 only.
+    precision: Separate records and claim IDs for every operation occurrence.
+    generality: Single synthetic gap-closure package.
+    functional_scope: Failure preservation and bounded successor claims only.
+    dependence_strength: Every later result remains independent of the original failure.
+    inferential_distance: Up to four separately recorded operation occurrences plus one sibling escape test.
+    limiting_sources:
+    - case://c50-fp1/T50
+    - case://c50-fp1/micro
+    - case://c50-fp1/H50
+    rationale: The packet supports anti-immunization architecture, not empirical causality or claim inheritance.
+  authority_boundary: Failure has no person, causal, normative, or application authority.
+source:
+  reference_object:
+    object_id: trajectory.T50
+    description: Coarse synthetic trajectory T50 with a rhetorically stabilized label and separately source-supported finer
+      phase packet.
+    typing:
+      value: trajectory
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md#2-original-failed-claim-c50-fp1a
+  object_typing:
+    value: trajectory
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  frame:
+    value: synthetic coordination-repair frame C50
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: coarse trajectory granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: trajectory source level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: T50-S0–S5
+  source_scope: T50, finer phase packet, and H50 fixture only.
+  source_basis:
+  - source_item_id: source.c50-fp1.coarse
+    source_pointer: case://c50-fp1/T50
+    provenance_description: Synthetic coarse trajectory label T50 with observed phases but no source-sensitive target effect.
+    affected_claim_component: Original failed frame-function claim
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#52-evidence-role-matrix
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    evidence_availability: available
+    temporal_scope: T50-S0–S5
+    reference_scope: trajectory T50
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain warrant is asserted.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.c50-fp1.micro
+    source_pointer: case://c50-fp1/micro
+    provenance_description: Synthetic finer phase packet with request, hold, repair, and release relations.
+    affected_claim_component: Successor DECOMPOSE and COMPOSE claims
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#52-evidence-role-matrix
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    evidence_availability: available
+    temporal_scope: T50-S0–S5
+    reference_scope: internal T50 structure
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain warrant is asserted.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.c50-fp1.target
+    source_pointer: case://c50-fp1/H50
+    provenance_description: Synthetic later context H50 with new external gate occurrence G50.
+    affected_claim_component: New successor projection only
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#52-evidence-role-matrix
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    evidence_availability: available
+    temporal_scope: H50-U0–U3
+    reference_scope: target H50
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain warrant is asserted.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace: &id002
+  - trace_id: trace.c50-fp1.label
+    source_feature: T50 is chronologically named “stabilization trajectory,” but removal does not change C50 target interpretation
+      or access.
+    affected_claim_component: Original projection claim.
+    trace_role: limiting
+    result_dependency: The original frame-function requires source-dependent target work.
+    expected_result_change: No target change defeats the original PROJECT_AS claim.
+    temporal_or_relational_dependency: T50-S0–S5 to C50
+    claim_limitation: Chronological naming is not target function.
+    source_pointer: case://c50-fp1/T50
+  - trace_id: trace.c50-fp1.hold
+    source_feature: Finer packet identifies request→hold→repair→release relations.
+    affected_claim_component: Narrower path and broader composite successor claims.
+    trace_role: load_bearing
+    result_dependency: Removing hold/repair relation defeats the narrower path.
+    expected_result_change: Supports new claims but does not answer old projection failure.
+    temporal_or_relational_dependency: T50-S1–S4
+    claim_limitation: No causal monopoly.
+    source_pointer: case://c50-fp1/micro
+  known_gaps:
+  - Original target-function effect is absent.
+  - Exact causal relation among finer phases is not asserted.
+  source_ceiling: *id001
+operation:
+  occurrence_id: project-as.c50-fp1a.01
+  kind: PROJECT_AS
+  justification: Execute and preserve the original coarse frame-function claim before any successor transformation.
+  expected_praxeological_difference: A valid function would change C50 interpretation, access, or continuation under T50 variation.
+  selection_rule: Hold C50 fixed and remove or vary T50; do not use later finer findings to repair this record.
+  transformation_context: Gap Package B original failure.
+  details:
+    target_context: 'context.C50: Synthetic C50 target context whose access and interpretation do not change under T50 removal.
+      (C50-U0–U2)'
+    constitutive_source_trace: *id002
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: false
+    alternative_projection_or_no_projection:
+    - no projection
+    - source-only chronology
+    - narrower successor path claim
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: target.C50.failed-frame
+    description: Attempted stabilizing frame-function view in C50.
+    typing:
+      value: invalid contextual function view
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md#2-original-failed-claim-c50-fp1a
+  object_typing:
+    value: invalid contextual function view
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  contextual_function:
+    value: unsupported stabilizing frame-function
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  frame:
+    value: synthetic C50 target frame
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: target interpretation and access granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: claimed contextual function level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: C50-U0–U2
+  validity_scope: No valid target function is established.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Original claim, source, and target test are explicit.
+      rationale: Original claim, source, and target test are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Exactly one PROJECT_AS occurrence is declared; adjacent claims and operations remain separate records.
+      rationale: Exactly one PROJECT_AS occurrence is declared; adjacent claims and operations remain separate records.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: No valid praxis difference follows from the chronology label.
+      rationale: No valid praxis difference follows from the chronology label.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: T50 removal leaves C50 unchanged.
+      rationale: T50 removal leaves C50 unchanged.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Origin type remains trajectory, but Functional Continuity for the claimed function fails.
+      rationale: Origin type remains trajectory, but Functional Continuity for the claimed function fails.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source variation directly defeats the function.
+      rationale: Source variation directly defeats the function.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The original failure and source trajectory remain preserved.
+      rationale: The original failure and source trajectory remain preserved.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: No projection and successor decomposition remain available.
+      rationale: No projection and successor decomposition remain available.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: No calibration issue repairs absent target effect.
+      rationale: No calibration issue repairs absent target effect.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: All later records must preserve this failure.
+      rationale: All later records must preserve this failure.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: The current projection fails; further rescue inside this record is prohibited.
+      rationale: The current projection fails; further rescue inside this record is prohibited.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: No authority follows.
+      rationale: No authority follows.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No valid praxis difference follows from the chronology label.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain only the C3-bounded dynamic Attractor-function claim.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: below_floor
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: T50 removal leaves C50 unchanged.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve all load-bearing traces and the C3/E3 contrast.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: above_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type remains trajectory, but Functional Continuity for the claimed function fails.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Maintain explicit source-type/target-function separation.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type remains trajectory, but Functional Continuity for the claimed function fails.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Do not substitute a label, one source Trajectory, or target outcome for R3.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type remains trajectory, but Functional Continuity for the claimed function fails.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw or retest the function if source or target load changes.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+      applicability_condition: Applies when PROJECT_AS assigns a bounded source-sensitive function while preserving the origin
+        type.
+      applicability_rationale: This occurrence tests whether the independently identified recurrent trajectory form performs
+        a bounded dynamic Attractor-function in one declared later transition field.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type remains trajectory, but Functional Continuity for the claimed function fails.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve source and target temporal scopes and transition order.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Original claim, source, and target test are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the function only for the declared C3 relation.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Source variation directly defeats the function.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve defeat conditions and do not infer causality.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: insensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No calibration issue repairs absent target effect.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the source claim only under the declared comparison coordinates.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No calibration issue repairs absent target effect.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Use the defined mutations for method testing only; do not treat them as empirical calibration.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The original failure and source trajectory remain preserved.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the function with the declared five-field Loss profile.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No projection and successor decomposition remain available.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve alternatives without merging them into the selected claim.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No authority follows.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Exclude all-path, deterministic, predictive, and authority reach.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No authority follows.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: 'Maintain authority_inheritance: prohibited.'
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The current projection fails; further rescue inside this record is prohibited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Continue only for this Record; material source or target extension requires a new claim.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The current projection fails; further rescue inside this record is prohibited.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the claim while preserving genuine Non-Capture if no stable source or function survives.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The selected failed_transformation route follows the non-compensatory twelve-stage and sixteen-rule
+    findings; no adjacent success repairs this record.
+  anti_immunization_assessment: All later records must preserve this failure.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The current projection fails; further rescue inside this record is prohibited.
+    reentry_contemplated: true
+    reentry_conditions:
+    - changed_condition: Materially new source support or a separately bounded claim becomes available.
+      new_or_revised_record_id: new-record-required
+      rationale: Re-entry requires a new record and preserves the current result.
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: false
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The current projection fails; further rescue inside this record is prohibited.
+loss:
+  preserved:
+  - item_id: loss.c50-fp1a.preserved.1
+    affected_element: T50 chronology
+    description: The source trajectory remains available.
+    reason: Failure is claim-local.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source
+    recoverability_or_reentry_note: Preserved.
+  - item_id: loss.c50-fp1a.preserved.2
+    affected_element: Original failure
+    description: The unsupported frame-function result remains visible.
+    reason: Anti-Immunization.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /result
+    recoverability_or_reentry_note: Must remain through all successor records.
+  compressed:
+  - item_id: loss.c50-fp1a.compressed.1
+    affected_element: Coarse chronology label
+    description: The label compresses phase structure.
+    reason: Label is not functional warrant.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /claim
+    recoverability_or_reentry_note: May motivate separate DECOMPOSE.
+  excluded:
+  - item_id: loss.c50-fp1a.excluded.1
+    affected_element: Frame-function claim
+    description: No C50 target effect is supported.
+    reason: Counterfactual defeat.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /result
+    recoverability_or_reentry_note: Cannot be restored by successor success.
+  uncertain:
+  - item_id: loss.c50-fp1a.uncertain.1
+    affected_element: Finer internal structure
+    description: Not assessed in this record.
+    reason: Separate claim and operation required.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: Tested in C50-FP1B.
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions:
+  - alternative_id: alt.c50-fp1a.decompose
+    claim_relation: Finer same-reference reconstruction
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Test internal phases without repairing this projection.
+    current_handling: retained
+    rationale: C50-FP1B.
+  rival_projections: []
+  no_transformation:
+  - alternative_id: alt.c50-fp1a.none
+    claim_relation: Retain T50 as chronology only
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Make no target function claim.
+    current_handling: retained
+    rationale: Fits current target evidence.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: This synthetic record grants no empirical truth, causal proof, normative or legal judgment, diagnosis,
+    person or group typing, recommendation, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - local operation passage does not establish chain passage
+  - later success does not erase earlier failure, Stop, Loss, or Non-Capture
+  - origin type is not replaced by target function
+  - formal validation does not establish substantive truth or authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: The original T50 frame-function claim fails and is preserved as the chain’s initial disposition.
+    result_family:
+      value: preserved original projection failure
+      control_source: 07_model/Output_Classes.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: unsupported
+    resolution_test_result: null
+    capture_statement:
+      statement: No capture limit is asserted; the operation fails.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: admissible is not selected because the constitutive conditions for failed_transformation control the current
+          claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: admissible_with_bounded_claim is not selected because the constitutive conditions for failed_transformation
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_with_bounded_claim result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: admissible_but_provisional is not selected because the constitutive conditions for failed_transformation
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: resolution_neutral is not selected because the constitutive conditions for failed_transformation control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: analogy_only is not selected because the constitutive conditions for failed_transformation control the
+          current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: partially_admissible is not selected because the constitutive conditions for failed_transformation control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: claim_reduction_required is not selected because the constitutive conditions for failed_transformation
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: mandatory_stop is not selected because the constitutive conditions for failed_transformation control the
+          current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: selected
+        rationale: The target effect is absent.
+        constitutive_condition_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /admissibility
+        - /loss
+        - /alternatives
+        - /governance
+        preserved_finding: The operation-specific finding, Loss, alternatives, and authority ceiling remain preserved.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: non_capture is not selected because the constitutive conditions for failed_transformation control the current
+          claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: failed_transformation
+    route_id: route_failed_transformation
+    matched_constitutive_conditions:
+    - /claim
+    - /source
+    - /operation
+    - /target
+    - /admissibility
+    - /loss
+    - /alternatives
+    - /governance
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - Prior failures, Stops, Loss, and source material remain visible.
+    - No source type, function, route, or authority is inherited by later records.
+    split_decision:
+      required: false
+      rationale: Each operation occurrence and any successor claim retains a separate record.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The target effect is absent.
+    current_claim_disposition:
+      value: failed
+      rationale: The target effect is absent.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: failed_transformation
+    failed_declared_operation_claim: T50 performs a stabilizing frame-function in C50 because it is labeled a stabilization
+      trajectory.
+    failed_constitutive_conditions:
+    - No source-sensitive target function is demonstrated.
+    - Removing T50 does not change C50 interpretation or access.
+    - Label substitution is the only support.
+    source_object_validity_assessed_separately: true
+    alternatives_and_source_material_preserved: true
+    rationale: T50 remains a valid source trajectory, but the original PROJECT_AS claim fails and remains permanently recorded.
+relations:
+  sibling_claim_or_record_ids:
+  - case.c50-fp1b.decompose.01
+  - case.c50-fp1x.decompose.01
+  - case.c50-fp1c.compose.01
+  - case.c50-fp1d.project-as.01
+  rival_record_ids: []
+  countercase_refs:
+  - C40-N3
+  - C17-CHRON-01
+  next_occurrence_id: decompose.c50-fp1b.01

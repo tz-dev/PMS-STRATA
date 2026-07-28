@@ -1,0 +1,1148 @@
+schema_version: 0.1.2
+record_id: case.c54-dc1a.decompose.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T15:45:00+02:00'
+  updated_at: '2026-07-27T15:45:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.Integrated-Chains-Batch-320
+  repository_or_case_pointer: 03_cases/yaml/C54-DC1A_DECOMPOSE_B55.yaml
+  record_provenance:
+  - Synthetic integrated-chain method fixture; no external empirical claim is asserted.
+  - This record contains exactly one DECOMPOSE occurrence and preserves all earlier operation results and Loss without inheritance.
+  - Produced in the five-chain batch against Source-of-Truth ZIP 319 and schema_version 0.1.2.
+  model_versions:
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: First occurrence of C54-DC1; opens B55 and preserves inferred/direct warrant.
+claim:
+  claim_id: claim.c54-dc1a.decompose.01
+  statement: Compressed coordination bundle B55 admits a source-supported finer reconstruction into request, review, hold,
+    release, and residual-debt components while remaining the same bounded occurrence bundle.
+  claim_type:
+    value: same-reference compressed-bundle decomposition claim
+    control_source: 04_reference/Claim_Type_Table.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Compressed bundle B55 and its source packet.
+    operation_occurrence_boundary: Only decompose.c54-dc1a.01.
+    frame:
+      value: synthetic coordination bundle frame
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    granularity:
+      value: component and internal-relation granularity
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    relative_level:
+      value: finer reconstruction of B55
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    temporal_scope: T0–T5
+    source_scope: Compressed bundle B55 and its source packet.
+    context_scope: C54-DC1 chain.
+    generalization_boundary: No transfer beyond the synthetic method fixture.
+    excluded_reach:
+    - No final constituents.
+    - No new composite yet.
+    - No direct-evidence upgrade for inferred relation x55.
+  validity_scope: Bounded finer reconstruction of B55.
+  claim_ceiling: &id001
+    asserted_relation: Compressed bundle B55 can be reconstructed into request, review, hold, release, and residual-debt components
+      with declared relations.
+    reach: One bounded T0–T5 bundle.
+    precision: Component and relation level.
+    generality: Single synthetic integrated-chain package.
+    functional_scope: Same-reference decomposition only.
+    dependence_strength: The request→review→hold/release relation set must remain.
+    inferential_distance: One DECOMPOSE step.
+    limiting_sources:
+    - case://pms-strata/c54-dc1/b55
+    rationale: Relation x55 remains inferred and may not be upgraded in later composition.
+  authority_boundary: No truth priority or authority follows from finer resolution.
+source:
+  reference_object:
+    object_id: occurrence.B55
+    description: Compressed coordination occurrence bundle.
+    typing:
+      value: compressed occurrence composite
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C54-DC1_DECOMPOSE_to_COMPOSE_Reformation_Chain.md#1-source-fixture
+  object_typing:
+    value: compressed occurrence composite
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  frame:
+    value: synthetic coordination bundle frame
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: compressed bundle granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: coarse source occurrence
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: T0–T5
+  source_scope: B55 only.
+  source_basis: &id002
+  - source_item_id: source.c54-dc1.b55
+    source_pointer: case://pms-strata/c54-dc1/b55
+    provenance_description: B55 compresses a request, review, hold, release, and residual-debt course.
+    affected_claim_component: B55 internal structure
+    support_mode: mixed
+    evidence_role:
+      value: primary
+      control_source: 04_reference/Evidence_Map.md#52-evidence-role-matrix
+      inventory_status: current_controlled
+    evidence_availability: available
+    temporal_scope: bounded synthetic interval
+    reference_scope: B55
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain claim is supported.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+  - trace_id: trace.c54-dc1.hold
+    source_feature: Hold occurs between review and release.
+    affected_claim_component: hold/release relation
+    trace_role: load_bearing
+    result_dependency: Without hold, residual debt and later composition change.
+    expected_result_change: Removing hold weakens both the fine reconstruction and later relation composite.
+    temporal_or_relational_dependency: T2–T4
+    claim_limitation: Exact hold trigger x55 remains inferred.
+    source_pointer: case://pms-strata/c54-dc1/hold
+  known_gaps:
+  - Exact trigger x55 between review and hold remains inferred.
+  source_ceiling: *id001
+operation:
+  occurrence_id: decompose.c54-dc1a.01
+  kind: DECOMPOSE
+  justification: The compressed B55 bundle hides component and relation distinctions needed for later relational analysis.
+  expected_praxeological_difference: The finer reconstruction exposes the hold and residual-debt relation while preserving
+    B55 and uncertainty x55.
+  selection_rule: Open only the five source-supported components and four relations; keep x55 inferred and do not form a new
+    composite in this record.
+  transformation_context: C54-DC1 integrated reformation chain.
+  details:
+    source_function:
+      value: retain B55 as the bounded coordination bundle from request through release and residual debt
+      control_source: 03_cases/packages/C54-DC1_DECOMPOSE_to_COMPOSE_Reformation_Chain.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    decomposition_question: Which components and relations constitute B55 without treating inferred x55 as direct evidence?
+    insufficiency_of_current_compression: The coarse bundle hides hold and residual-debt load.
+    components:
+    - object_id: R55q
+      description: Request component.
+      typing:
+        value: typed occurrence component
+        control_source: 07_model/Operation_Registry.yaml
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      source_pointer: case://pms-strata/c54-dc1/request
+    - object_id: R55v
+      description: Review component.
+      typing:
+        value: typed occurrence component
+        control_source: 07_model/Operation_Registry.yaml
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      source_pointer: case://pms-strata/c54-dc1/review
+    - object_id: R55h
+      description: Hold component.
+      typing:
+        value: typed Non-Event/hold component
+        control_source: 07_model/Operation_Registry.yaml
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      source_pointer: case://pms-strata/c54-dc1/hold
+    - object_id: R55r
+      description: Release component.
+      typing:
+        value: typed occurrence component
+        control_source: 07_model/Operation_Registry.yaml
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      source_pointer: case://pms-strata/c54-dc1/release
+    - object_id: R55d
+      description: Residual-debt component.
+      typing:
+        value: typed residual relation component
+        control_source: 07_model/Operation_Registry.yaml
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      source_pointer: case://pms-strata/c54-dc1/debt
+    component_relations:
+    - relation_id: rel.c54-dc1.q-v
+      relation_type:
+        value: ordered review relation
+        control_source: 04_reference/Transformation_Operation_Index.md
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      from_object_id: R55q
+      to_object_id: R55v
+      description: Request enters review.
+      constitutive: true
+      source_pointer: case://synthetic/relation
+    - relation_id: rel.c54-dc1.v-h
+      relation_type:
+        value: bounded hold relation
+        control_source: 04_reference/Transformation_Operation_Index.md
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      from_object_id: R55v
+      to_object_id: R55h
+      description: Review is followed by a hold; exact trigger x55 remains inferred.
+      constitutive: true
+      source_pointer: case://synthetic/relation
+    - relation_id: rel.c54-dc1.h-r
+      relation_type:
+        value: release-after-hold relation
+        control_source: 04_reference/Transformation_Operation_Index.md
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      from_object_id: R55h
+      to_object_id: R55r
+      description: Release follows the hold.
+      constitutive: true
+      source_pointer: case://synthetic/relation
+    - relation_id: rel.c54-dc1.h-d
+      relation_type:
+        value: residual-load relation
+        control_source: 04_reference/Transformation_Operation_Index.md
+        inventory_status: extension
+        extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+      from_object_id: R55h
+      to_object_id: R55d
+      description: The hold leaves residual work debt.
+      constitutive: true
+      source_pointer: case://synthetic/relation
+    internal_temporality: Request→review→hold→release with residual debt; no stronger causal mechanism is inferred.
+    source_support: *id002
+    source_reference_preserved: true
+    prior_source_claim_id: claim.c54-dc1.coarse-bundle
+    unresolved_structure:
+    - Exact review-to-hold trigger x55 remains inferred.
+    counterfactual_component_test: Removing the hold removes the residual-debt relation and changes the later composite claim.
+    source_function_effect_pointer: /result/operation_specific_result/source_function_effect
+    resolution_test_result_pointer: /result/status_declaration/resolution_test_result
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_granularity_pointer: /target/granularity
+target:
+  reference_object:
+    object_id: reconstruction.B55.finer
+    description: Same B55 bundle reconstructed into five components and four relations.
+    typing:
+      value: finer relational reconstruction of the same reference object
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C54-DC1_DECOMPOSE_to_COMPOSE_Reformation_Chain.md#2-decompose
+  object_typing:
+    value: finer relational reconstruction of the same reference object
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  contextual_function: null
+  frame:
+    value: synthetic coordination bundle frame
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: component and internal-relation granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: finer reconstruction of B55
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: T0–T5
+  validity_scope: Same-reference decomposition only; no new composite.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: The B55 same-reference DECOMPOSE claim and later-operation boundary are explicit.
+      rationale: The B55 same-reference DECOMPOSE claim and later-operation boundary are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Exactly one DECOMPOSE occurrence is declared; adjacent chain steps remain separate records.
+      rationale: Exactly one DECOMPOSE occurrence is declared; adjacent chain steps remain separate records.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Hold and residual-debt distinctions alter reconstruction of the bundle and later relation formation.
+      rationale: Hold and residual-debt distinctions alter reconstruction of the bundle and later relation formation.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: All five components and four relations remain linked to B55; x55 remains explicitly inferred.
+      rationale: All five components and four relations remain linked to B55; x55 remains explicitly inferred.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: B55 remains the same compressed occurrence bundle; component typing does not create a new composite.
+      rationale: B55 remains the same compressed occurrence bundle; component typing does not create a new composite.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Removing the hold removes residual debt and changes the later COMPOSE claim.
+      rationale: Removing the hold removes residual debt and changes the later COMPOSE claim.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection, compression, exclusion, inferred x55, and recoverability are explicit.
+      rationale: Selection, compression, exclusion, inferred x55, and recoverability are explicit.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Coarse, two-part, unsupported six-part, and no-transformation options are compared.
+      rationale: Coarse, two-part, unsupported six-part, and no-transformation options are compared.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Synthetic sources support component order and residual load, not exact trigger or motive.
+      rationale: Synthetic sources support component order and residual load, not exact trigger or motive.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: Later COMPOSE cannot cite reconstructed x55 as direct observation or erase T1 Loss.
+      rationale: Later COMPOSE cannot cite reconstructed x55 as direct observation or erase T1 Loss.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: The bounded decomposition is adequately captured; additional motive detail is rejected rather than
+        pursued.
+      rationale: The bounded decomposition is adequately captured; additional motive detail is rejected rather than pursued.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: No new composite, motive, causal proof, or application authority is granted.
+      rationale: No new composite, motive, causal proof, or application authority is granted.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Hold and residual-debt distinctions alter reconstruction of the bundle and later relation formation.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: All five components and four relations remain linked to B55; x55 remains explicitly inferred.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: B55 remains the same compressed occurrence bundle; component typing does not create a new composite.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: B55 remains the same compressed occurrence bundle; component typing does not create a new composite.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: B55 remains the same compressed occurrence bundle; component typing does not create a new composite.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: B55 remains the same compressed occurrence bundle; component typing does not create a new composite.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The B55 same-reference DECOMPOSE claim and later-operation boundary are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Removing the hold removes residual debt and changes the later COMPOSE claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Synthetic sources support component order and residual load, not exact trigger or motive.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Synthetic sources support component order and residual load, not exact trigger or motive.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Selection, compression, exclusion, inferred x55, and recoverability are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Coarse, two-part, unsupported six-part, and no-transformation options are compared.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No new composite, motive, causal proof, or application authority is granted.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No new composite, motive, causal proof, or application authority is granted.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The bounded decomposition is adequately captured; additional motive detail is rejected rather than
+        pursued.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The bounded decomposition is adequately captured; additional motive detail is rejected rather than
+        pursued.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the bounded current finding without extending it beyond the declared Claim Ceiling.
+      required_action: Preserve the operation-specific result, inherited burdens, five-part Loss, alternatives, prior dispositions,
+        and authority ceiling without inheritance.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The selected admissible_with_bounded_claim route follows the non-compensatory twelve-stage and sixteen-rule
+    findings; chain coherence does not replace local source load.
+  anti_immunization_assessment: Later COMPOSE cannot cite reconstructed x55 as direct observation or erase T1 Loss.
+  stop_assessment:
+    condition_assessed: true
+    reached: false
+    rationale: The bounded decomposition is adequately captured; additional motive detail is rejected rather than pursued.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The bounded decomposition is adequately captured; additional motive detail is rejected rather than pursued.
+loss:
+  preserved:
+  - item_id: loss.c54-dc1a.preserved.1
+    affected_element: B55 reference
+    description: The coarse bundle remains the same reference object.
+    reason: Required for DECOMPOSE.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/reference_object
+    recoverability_or_reentry_note: Preserved.
+  - item_id: loss.c54-dc1a.preserved.2
+    affected_element: Inferred/direct distinction
+    description: x55 remains inferred.
+    reason: Later composition may not upgrade warrant.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: Preserved in handoff.
+  compressed:
+  - item_id: loss.c54-dc1a.compressed.1
+    affected_element: Non-load-bearing microdetail
+    description: Only claim-relevant components are retained.
+    reason: Fine detail has no automatic priority.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /operation/details/components
+    recoverability_or_reentry_note: New sources may reopen.
+  excluded:
+  - item_id: loss.c54-dc1a.excluded.1
+    affected_element: New composite identity
+    description: No R55 relational composite is formed in this record.
+    reason: Operation separation is required.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+    recoverability_or_reentry_note: Requires C54-DC1B.
+  uncertain:
+  - item_id: loss.c54-dc1a.uncertain.1
+    affected_element: Exact hold trigger x55
+    description: The trigger is underdetermined.
+    reason: Source ceiling blocks precision.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: May be retested with new sources.
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions:
+  - alternative_id: alt.c54-dc1a.two-part
+    claim_relation: two-part request/release model
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Explain residual debt without hold detail.
+    current_handling: rejected
+    rationale: It loses load-bearing structure.
+  - alternative_id: alt.c54-dc1a.six-part
+    claim_relation: six-part model with motive component
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Add an unsupported motive component.
+    current_handling: rejected
+    rationale: Person/motive inference is outside source support.
+  rival_projections: []
+  no_transformation:
+  - alternative_id: alt.c54-dc1a.none
+    claim_relation: retain coarse B55
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Forfeit hold/debt distinction.
+    current_handling: not_selected
+    rationale: Resolution gain is material.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: This synthetic chain record grants no empirical truth, causal proof, normative or legal judgment, diagnosis,
+    person or group typing, recommendation, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - local operation passage does not establish chain passage
+  - later success does not erase earlier Loss, failure, Stop, or Non-Capture
+  - same reference object does not imply identical representation
+  - formal validation does not establish substantive truth or authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: B55 is reopened into five components without upgrading inferred x55.
+    result_family:
+      value: bounded same-reference decomposition
+      control_source: 07_model/Output_Classes.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_function_effect:
+      value: refined
+      control_source: 04_reference/Glossary.md#source-function
+      inventory_status: current_controlled
+    prior_source_claim_disposition: maintained
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: supported
+    resolution_test_result: resolution_gain
+    capture_statement:
+      statement: The bounded component reconstruction is adequately captured.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: admissible is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: selected
+        rationale: The claim passes with explicit inferred/direct distinction.
+        constitutive_condition_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /admissibility
+        - /loss
+        - /alternatives
+        - /governance
+        preserved_finding: The operation-specific finding, inherited chain burdens, Loss, alternatives, and authority ceiling
+          remain preserved.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: admissible_but_provisional is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: resolution_neutral is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: analogy_only is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: partially_admissible is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: claim_reduction_required is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: mandatory_stop is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: failed_transformation is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: non_capture is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: admissible_with_bounded_claim
+    route_id: route_admissible_with_bounded_claim
+    matched_constitutive_conditions:
+    - /claim
+    - /source
+    - /operation
+    - /target
+    - /admissibility
+    - /loss
+    - /alternatives
+    - /governance
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - Earlier operation results and five-part Loss remain visible.
+    - No source type, target function, route, or authority is inherited by later chain steps.
+    split_decision:
+      required: false
+      rationale: Each operation occurrence and any weaker retest claim retains a separate record.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The claim passes with explicit inferred/direct distinction.
+    current_claim_disposition:
+      value: maintained
+      rationale: The claim passes with explicit inferred/direct distinction.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_with_bounded_claim
+    original_broader_claim_id: candidate.c54-dc1a.complete-constituent-model
+    retained_narrower_claim_pointer: /claim/claim_id
+    material_narrowing:
+    - Five components and four relations only.
+    - x55 remains inferred.
+    excluded_reach:
+    - No final constituents, motive, new composite, or authority.
+    separately_tested: true
+    rationale: The finer reconstruction is supported only within B55 and inherited source limits.
+relations:
+  sibling_claim_or_record_ids:
+  - case.c54-dc1b.compose.01
+  chain_id: chain.c54-dc1.decompose-compose.01
+  next_occurrence_id: compose.c54-dc1b.01
+  rival_record_ids: []
+  countercase_refs:
+  - Chapter 54 reconstructed-components-not-direct-evidence boundary

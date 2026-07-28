@@ -1,0 +1,1167 @@
+schema_version: 0.1.2
+record_id: case.c40-x6.project-as.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T13:00:00+02:00'
+  updated_at: '2026-07-27T13:00:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.integrated-case-production
+  repository_or_case_pointer: 03_cases/yaml/C40-X6_Projection_versus_Structural_Analogy.yaml
+  record_provenance:
+  - Synthetic lock-critical RETYPE confusion case instantiated from canonical C40-X6 and independently typed source case
+    C17-LAMBDA-01.
+  - The record separates an affirmatively useful cross-domain structural analogy from an unestablished PROJECT_AS target-function
+    claim; no empirical, causal, semantic-identity, normative, or application warrant is supplied.
+  - Built against PMS-STRATA Source-of-Truth ZIP 309 and Transformation_Record.schema.json v0.1.3.
+  model_versions:
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: 'RETYPE lock-package 3 of 3: projection-versus-structural-analogy confusion case, routed to analogy_only
+    and locally audited.'
+claim:
+  claim_id: claim.c40-x6.analogy.01
+  statement: Within synthetic transition-comparison context TCC, the independently reconstructed C17-LAMBDA-01 Trajectory
+    and a technical workflow transition trace retain a bounded structural analogy across ordered phases, a missed or
+    skipped transition, later workaround persistence, and partial rollback. The stronger claim that the historical Trajectory
+    performs a transition-debugging function for the technical workflow is not retained because semantic preservation
+    and constitutive source-function dependence are not established.
+  claim_type:
+    value: bounded structural analogy with unretained projection candidate
+    control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
+    inventory_status: extension
+    extension_rationale: Case-local label for the canonical Chapter-37/40 analogy-versus-projection boundary; no new
+      claim type is created.
+  claim_role:
+    value: primary routed analogy claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Only composite.c17-lambda-01 and the declared synthetic technical workflow trace workflow.trace.tcc-01.
+    operation_occurrence_boundary: Only attempted PROJECT_AS occurrence project-as.c40-x6.01 and its retained analogy
+      result.
+    frame:
+      value: synthetic cross-domain transition-comparison frame TCC
+      control_source: 03_cases/yaml/C40-X6_Projection_versus_Structural_Analogy.yaml#/target/frame
+      inventory_status: extension
+      extension_rationale: Case-local comparison frame only.
+    granularity:
+      value: phase-state and transition-relation comparison granularity
+      control_source: 03_cases/yaml/C40-X6_Projection_versus_Structural_Analogy.yaml#/target/granularity
+      inventory_status: extension
+      extension_rationale: Case-local granularity for selected formal correspondences and explicit residuals.
+    relative_level:
+      value: comparison relation between origin-typed historical Trajectory and technical workflow trace
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Instantiates a cross-domain comparison without asserting ontological level identity.
+    temporal_scope: Historical source Q0–Q5; technical comparison trace s0–s5; no shared empirical clock is claimed.
+    source_scope: Exactly the bounded C17-LAMBDA-01 Trajectory and the synthetic technical trace declared in this record.
+    context_scope: Only formal comparison in TCC; no transfer into a real technical or institutional system.
+    generalization_boundary: No semantic identity, target function, causal mechanism, universal workflow model, or cross-domain
+      validity beyond the declared analogy.
+    excluded_reach:
+    - No claim that the historical Trajectory becomes a technical workflow, algorithm, state machine, Frame operator,
+      or new PMS primitive.
+    - No claim that expectation, responsibility, binding, exit cost, or historical uncertainty are preserved by the technical
+      trace.
+    - No claim that executable similarity establishes a transition-debugging function or application guidance.
+    - No person typing, diagnosis, legitimacy, sanction, intervention, recommendation, or authority transfer.
+  validity_scope: Valid only as a bounded structural analogy in synthetic comparison context TCC.
+  claim_ceiling:
+    asserted_relation: 'Selected formal relations correspond: ordered phases to states, the missed review position to
+      a skipped transition node, workaround persistence to a repeated fallback branch, and partial repair to rollback-with-residual-state.'
+    reach: One synthetic historical Trajectory, one synthetic workflow trace, and one declared comparison context.
+    precision: Formal correspondence, declared residuals, breaking points, source/target asymmetry, and defeat conditions
+      only.
+    generality: No transfer to other trajectories, workflows, domains, implementations, or empirical systems.
+    functional_scope: No contextual target function is retained; the stronger transition-debugging projection remains
+      unestablished.
+    dependence_strength: The analogy weakens if the selected formal relations are removed, but it does not become a target
+      function merely because those relations remain.
+    inferential_distance: One attempted PROJECT_AS boundary test resulting in a retained analogy claim rather than a
+      functional projection.
+    limiting_sources:
+    - source.record.c17-lambda-01
+    - source.fixture.c40-x6.workflow-trace-tcc
+    rationale: The packet supports a useful bounded resemblance and explicit breaking points, but not semantic preservation
+      or a source-traceable target function.
+  authority_boundary: The record authorizes only the bounded methodological classification analogy_only; it grants no
+    technical design decision, empirical truth, causal proof, semantic identity, person judgment, or application authority.
+source:
+  reference_object:
+    object_id: composite.c17-lambda-01
+    description: The bounded Q0–Q5 workload-review Trajectory with central Non-Event independently instantiated in C17-LAMBDA-01.
+    typing:
+      value: trajectory
+      control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/object_typing
+      inventory_status: current_controlled
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/reference_object
+  object_typing:
+    value: trajectory
+    control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/object_typing
+    inventory_status: current_controlled
+  frame:
+    value: synthetic workload-review trajectory frame
+    control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/frame
+    inventory_status: extension
+    extension_rationale: Inherited local source frame.
+  granularity:
+    value: quarterly configuration, Non-Event, carrier, default, and repair granularity
+    control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/granularity
+    inventory_status: extension
+    extension_rationale: Inherited local source granularity.
+  relative_level:
+    value: origin-typed Trajectory relative to the cross-domain comparison relation
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local source-side relative level.
+  temporal_scope: Synthetic source interval Q0–Q5.
+  source_scope: Exactly the central missed review, positive sub-events, persistent workaround, asymmetric load shift,
+    default stabilization, partial repair, uncertainty, and prior Loss retained by C17-LAMBDA-01.
+  source_basis:
+  - source_item_id: source.record.c17-lambda-01
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+    provenance_description: Schema-valid positive COMPOSE case establishing the origin-typed Trajectory, central missed
+      review, later carriers, uncertainty, and five-part Loss.
+    affected_claim_component: Independent source identity, origin type, temporal order, and source-only residuals.
+    support_mode: direct
+    evidence_role:
+      value: prior instantiated STRATA case record
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local cross-record evidence role.
+    evidence_availability: available
+    temporal_scope: Q0–Q5
+    reference_scope: composite.c17-lambda-01
+    uncertainty_or_provenance_limit: Synthetic source record; exact causal mechanism and burden allocation remain uncertain
+      or irrecoverable.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.fixture.c40-x6.workflow-trace-tcc
+    source_pointer: case://pms-strata/c40-x6/workflow-trace-tcc
+    provenance_description: Synthetic technical workflow trace with states s0–s5, an optional check node skipped at s1,
+      fallback-loop persistence at s2–s3, stable fallback at s4, and rollback-with-residual-state at s5.
+    affected_claim_component: Target-side formal correspondence and explicit target-only residuals.
+    support_mode: direct
+    evidence_role:
+      value: synthetic cross-domain comparison fixture
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Case-local fixture for the confusion boundary.
+    evidence_availability: available
+    temporal_scope: s0–s5
+    reference_scope: workflow.trace.tcc-01
+    uncertainty_or_provenance_limit: No real implementation, semantic bridge, user practice, or empirical target function
+      is supplied.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+  - trace_id: trace.c40-x6.order
+    source_feature: Ordered Q0–Q5 phase progression.
+    affected_claim_component: Correspondence to ordered technical states s0–s5.
+    trace_role: load_bearing
+    result_dependency: Removing or radically reordering phases weakens the declared analogy.
+    expected_result_change: The analogy narrows or fails if ordered correspondence disappears.
+    temporal_or_relational_dependency: Formal order correspondence only; no shared semantics are inferred.
+    claim_limitation: Supports analogy, not target function.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details/ordering_rule
+  - trace_id: trace.c40-x6.non-event
+    source_feature: Warrantable missed Q1 review with positive sub-events.
+    affected_claim_component: Correspondence to a declared but skipped technical check while other transitions occur.
+    trace_role: load_bearing
+    result_dependency: Replacing the missed review with completed review removes this correspondence.
+    expected_result_change: The analogy loses one central relation.
+    temporal_or_relational_dependency: Position and non-realization correspond; expectation and responsibility semantics
+      do not.
+    claim_limitation: No equivalence between Λ and an unexecuted workflow node.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details/source_objects/1
+  - trace_id: trace.c40-x6.workaround
+    source_feature: Persistent workaround and default stabilization.
+    affected_claim_component: Correspondence to repeated fallback-loop execution and stable fallback state.
+    trace_role: load_bearing
+    result_dependency: Removing persistence weakens the repeated-fallback correspondence.
+    expected_result_change: The analogy narrows to simple ordered transition similarity.
+    temporal_or_relational_dependency: Persistence pattern only; practical burden and responsibility remain source-only.
+    claim_limitation: No functional identity.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details/source_objects/3
+  - trace_id: trace.c40-x6.repair
+    source_feature: Partial repair reducing but not erasing accumulated burden.
+    affected_claim_component: Correspondence to rollback-with-residual-state.
+    trace_role: load_bearing
+    result_dependency: Replacing partial with complete repair removes the residual-state correspondence.
+    expected_result_change: The analogy changes materially.
+    temporal_or_relational_dependency: Residual structure corresponds; historical cost semantics do not.
+    claim_limitation: No semantic preservation or debugging function follows.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details/source_objects/6
+  - trace_id: trace.c40-x6.source-residuals
+    source_feature: Expectation, responsibility, binding, exit cost, asymmetric burden, and contested historical boundary.
+    affected_claim_component: Breaking points and source-only residual ledger.
+    trace_role: limiting
+    result_dependency: These features prevent semantic identity and defeat the stronger projection claim.
+    expected_result_change: Deleting them would improve fit only by falsifying the source record.
+    temporal_or_relational_dependency: Historically and praxeologically load-bearing in the source, absent from the technical
+      trace.
+    claim_limitation: Requires analogy_only rather than PROJECT_AS.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/loss
+  - trace_id: trace.c40-x6.target-residuals
+    source_feature: Executable guards, runtime constraints, deterministic state rules, and machine rollback semantics
+      in workflow.trace.tcc-01.
+    affected_claim_component: Breaking points and target-only residual ledger.
+    trace_role: limiting
+    result_dependency: These target features are not supplied by the historical Trajectory.
+    expected_result_change: Removing them changes the technical trace but does not establish historical semantics.
+    temporal_or_relational_dependency: Target-native implementation relations only.
+    claim_limitation: Native target description may be preferable; no imported function follows.
+    source_pointer: case://pms-strata/c40-x6/workflow-trace-tcc#target-residuals
+  known_gaps:
+  - No source-supported semantic bridge between expectation/responsibility and executable workflow states.
+  - No empirical evidence that the historical Trajectory changes target-side debugging, design, or operational discrimination.
+  - No common calibration for historical burden and runtime constraints.
+  source_ceiling:
+    asserted_relation: The packet directly supports selected formal correspondences and explicit residuals between the
+      source Trajectory and target workflow trace.
+    reach: One synthetic historical Trajectory, one synthetic workflow trace, and one declared comparison context.
+    precision: Formal correspondence, declared residuals, breaking points, source/target asymmetry, and defeat conditions
+      only.
+    generality: No transfer to other trajectories, workflows, domains, implementations, or empirical systems.
+    functional_scope: Bounded structural analogy only; no contextual target function is retained.
+    dependence_strength: The analogy weakens if the selected formal relations are removed, but it does not become a target
+      function merely because those relations remain.
+    inferential_distance: One attempted PROJECT_AS boundary test resulting in a retained analogy claim rather than a
+      functional projection.
+    limiting_sources:
+    - source.record.c17-lambda-01
+    - source.fixture.c40-x6.workflow-trace-tcc
+    rationale: The source and target records support a useful resemblance, but not semantic preservation or source-dependent
+      target function.
+operation:
+  occurrence_id: project-as.c40-x6.01
+  kind: PROJECT_AS
+  justification: The record tests whether a declared cross-domain transition correspondence warrants PROJECT_AS or remains
+    a bounded structural analogy.
+  expected_praxeological_difference: The retained analogy distinguishes useful relation-preserving resemblance from label
+    substitution, semantic identity, and independently warranted contextual function.
+  selection_rule: Retain only four explicit formal correspondences and all source-only and target-only residuals; do
+    not infer semantic preservation, target function, or identity from formal or executable fit.
+  transformation_context: Synthetic cross-domain transition-comparison context TCC.
+  details:
+    target_context: synthetic cross-domain transition-comparison context TCC
+    constitutive_source_trace:
+    - trace_id: trace.c40-x6.order
+      source_feature: Ordered Q0–Q5 phase progression.
+      affected_claim_component: Correspondence to ordered technical states s0–s5.
+      trace_role: load_bearing
+      result_dependency: Removing or radically reordering phases weakens the declared analogy.
+      expected_result_change: The analogy narrows or fails if ordered correspondence disappears.
+      temporal_or_relational_dependency: Formal order correspondence only; no shared semantics are inferred.
+      claim_limitation: Supports analogy, not target function.
+      source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details/ordering_rule
+    - trace_id: trace.c40-x6.non-event
+      source_feature: Warrantable missed Q1 review with positive sub-events.
+      affected_claim_component: Correspondence to a declared but skipped technical check while other transitions occur.
+      trace_role: load_bearing
+      result_dependency: Replacing the missed review with completed review removes this correspondence.
+      expected_result_change: The analogy loses one central relation.
+      temporal_or_relational_dependency: Position and non-realization correspond; expectation and responsibility semantics
+        do not.
+      claim_limitation: No equivalence between Λ and an unexecuted workflow node.
+      source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details/source_objects/1
+    - trace_id: trace.c40-x6.workaround
+      source_feature: Persistent workaround and default stabilization.
+      affected_claim_component: Correspondence to repeated fallback-loop execution and stable fallback state.
+      trace_role: load_bearing
+      result_dependency: Removing persistence weakens the repeated-fallback correspondence.
+      expected_result_change: The analogy narrows to simple ordered transition similarity.
+      temporal_or_relational_dependency: Persistence pattern only; practical burden and responsibility remain source-only.
+      claim_limitation: No functional identity.
+      source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details/source_objects/3
+    - trace_id: trace.c40-x6.repair
+      source_feature: Partial repair reducing but not erasing accumulated burden.
+      affected_claim_component: Correspondence to rollback-with-residual-state.
+      trace_role: load_bearing
+      result_dependency: Replacing partial with complete repair removes the residual-state correspondence.
+      expected_result_change: The analogy changes materially.
+      temporal_or_relational_dependency: Residual structure corresponds; historical cost semantics do not.
+      claim_limitation: No semantic preservation or debugging function follows.
+      source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details/source_objects/6
+    - trace_id: trace.c40-x6.source-residuals
+      source_feature: Expectation, responsibility, binding, exit cost, asymmetric burden, and contested historical boundary.
+      affected_claim_component: Breaking points and source-only residual ledger.
+      trace_role: limiting
+      result_dependency: These features prevent semantic identity and defeat the stronger projection claim.
+      expected_result_change: Deleting them would improve fit only by falsifying the source record.
+      temporal_or_relational_dependency: Historically and praxeologically load-bearing in the source, absent from the
+        technical trace.
+      claim_limitation: Requires analogy_only rather than PROJECT_AS.
+      source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/loss
+    - trace_id: trace.c40-x6.target-residuals
+      source_feature: Executable guards, runtime constraints, deterministic state rules, and machine rollback semantics
+        in workflow.trace.tcc-01.
+      affected_claim_component: Breaking points and target-only residual ledger.
+      trace_role: limiting
+      result_dependency: These target features are not supplied by the historical Trajectory.
+      expected_result_change: Removing them changes the technical trace but does not establish historical semantics.
+      temporal_or_relational_dependency: Target-native implementation relations only.
+      claim_limitation: Native target description may be preferable; no imported function follows.
+      source_pointer: case://pms-strata/c40-x6/workflow-trace-tcc#target-residuals
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: false
+    alternative_projection_or_no_projection:
+    - bounded structural analogy
+    - native target description
+    - symbolic or formal mapping only
+    - new independently warranted bounded PROJECT_AS
+    - no projection
+    - non_capture only after adequate attempts
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: workflow.trace.tcc-01
+    description: Synthetic executable state-transition trace used as the comparison target; not a transformed identity
+      of the historical Trajectory.
+    typing:
+      value: technical workflow transition trace
+      control_source: 03_cases/yaml/C40-X6_Projection_versus_Structural_Analogy.yaml#/target/object_typing
+      inventory_status: extension
+      extension_rationale: Case-local target object for cross-domain comparison.
+    source_pointer: case://pms-strata/c40-x6/workflow-trace-tcc
+  object_typing:
+    value: technical workflow transition trace
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract
+    inventory_status: extension
+    extension_rationale: Target-native object type; not a PMS primitive or source origin type.
+  contextual_function:
+    value: unretained transition-debugging function candidate
+    control_source: 01_blocks/04_part_iii_retype.md#40-21-confusion-case-6-projection-or-structural-analogy
+    inventory_status: extension
+    extension_rationale: Candidate function tested and not retained; the routed result is analogy_only.
+  frame:
+    value: synthetic cross-domain transition-comparison frame TCC
+    control_source: 03_cases/yaml/C40-X6_Projection_versus_Structural_Analogy.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Case-local target/comparison frame.
+  granularity:
+    value: state-node and transition-relation comparison granularity
+    control_source: 03_cases/yaml/C40-X6_Projection_versus_Structural_Analogy.yaml#/claim/claim_scope/granularity
+    inventory_status: extension
+    extension_rationale: Case-local target granularity.
+  relative_level:
+    value: technical comparison target relative to the origin-typed historical Trajectory
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local source-target relation without ontological identity.
+  temporal_scope: Synthetic technical trace s0–s5; no shared empirical time scale with Q0–Q5.
+  validity_scope: Target trace is retained as comparison object; no contextual function is retained.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source Trajectory, technical trace, analogy claim, stronger projection candidate, coordinates,
+        ceilings, and residuals are separately declared.
+      rationale: The source exists independently; both comparison objects and the exact claim split are inspectable.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /target
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: The declared occurrence is an attempted PROJECT_AS boundary test whose retained result is a separately
+        delimited structural analogy.
+      rationale: A target function is tested but not retained; analogy_only does not become a fourth operation.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /operation
+      - 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The bounded correspondence yields comparative PraxisPurchase without asserting a target function.
+      rationale: Selected relations and breaking points distinguish useful resemblance from label substitution and semantic
+        identity.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/praxis_purchase
+      - /operation/expected_praxeological_difference
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The analogy remains within the Traceability Ceiling; the stronger projection would exceed it.
+      rationale: Formal correspondences trace to source and target relations, while semantic and functional extensions
+        lack constitutive support.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/traceable_load
+      - /operation/details/constitutive_source_trace
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source reference and Trajectory origin type remain intact; analogy continuity is bounded, while
+        functional continuity is not established.
+      rationale: The technical trace remains a target-native object and neither side is retyped as the other.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/type_integrity
+      - /admissibility/rule_assessments/reference_continuity
+      - /admissibility/rule_assessments/functional_continuity
+      - /target
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The analogy is partially sensitive to selected formal relations; the proposed target function
+        remains underdetermined and unretained.
+      rationale: Removing order, skipped-transition, fallback, or residual-rollback correspondences weakens the analogy,
+        but no source-dependent target function has been shown.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/counterfactual_sensitivity
+      - /source/constitutive_source_trace
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection and exact five-part Loss preserve formal correspondences and expose source-only and
+        target-only residuals.
+      rationale: Fit is not improved by deleting responsibility, cost, runtime, or guard semantics.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /loss
+      - /operation/selection_rule
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Symbolic mapping, formal mapping, native target description, new bounded projection, no projection,
+        and later non_capture assessment remain visible.
+      rationale: The selected analogy is not merged with these alternatives.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /alternatives
+      - /operation/details/alternative_projection_or_no_projection
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Sources discriminate analogy from projection but do not calibrate cross-domain semantics or target-side
+        function.
+      rationale: The analogy claim survives under a lower ceiling; the stronger function does not.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /source/source_ceiling
+      - /admissibility/rule_assessments/calibration
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: Retaining analogy_only does not rescue the unestablished projection claim or alter C17-LAMBDA-01.
+      rationale: A later functional projection requires a new PROJECT_AS occurrence and new source-function warrant.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /admissibility/anti_immunization_assessment
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: The analogy claim can terminate positively without mandatory stop or non_capture.
+      rationale: One bounded analogy and one unretained projection candidate do not exhaust future bridges or prove capture
+        impossibility.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/stop_assessment
+      - /admissibility/non_capture_assessment
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: Only the bounded resemblance is retained; semantic identity, target function, design authority,
+        and cross-domain transfer are excluded.
+      rationale: Formal comparison grants no application or person authority.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim/claim_ceiling
+      - /governance
+      - /result/status_declaration
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /operation/expected_praxeological_difference
+      - /result/class_payload
+      reasoned_finding: The selected correspondences and breaking points add comparative discrimination beyond a label
+        while stopping below a functional claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain only the bounded analogy claim.
+      required_action: Retain only the bounded analogy claim.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /source/constitutive_source_trace
+      - /loss
+      reasoned_finding: Formal correspondence is reconstructible from declared source/target relations; semantic preservation
+        and target function are not.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Keep the projection candidate unretained and preserve residuals.
+      required_action: Keep the projection candidate unretained and preserve residuals.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The source remains a Trajectory and the target remains a technical workflow trace; neither becomes
+        the other.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve both types and prohibit identity claims.
+      required_action: Preserve both types and prohibit identity claims.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The historical source reference remains linked to C17-LAMBDA-01 throughout the comparison.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the source reference and prior record independently.
+      required_action: Retain the source reference and prior record independently.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: No source-traceable transition-debugging function is established.
+      claim_or_artifact_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Do not retain the target-function claim; retain only analogy.
+      required_action: Do not retain the target-function claim; retain only analogy.
+      controlled_local_result: null
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: Ordered positions are compared without asserting one common empirical chronology.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain formal order correspondence only.
+      required_action: Retain formal order correspondence only.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: TCC, both objects, comparison granularity, scope, and transfer exclusions are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Keep the analogy confined to TCC.
+      required_action: Keep the analogy confined to TCC.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /source/constitutive_source_trace
+      - /admissibility/counterfactual_tests
+      reasoned_finding: The analogy changes when selected formal relations change, but the functional projection remains
+        underdetermined.
+      claim_or_artifact_effect:
+        family:
+          value: qualify
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Classify the analogy as partially sensitive and require a new record for any projection.
+      required_action: Classify the analogy as partially sensitive and require a new record for any projection.
+      controlled_local_result: partially_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: The source packet supports formal correspondence and residuals, not cross-domain semantic preservation
+        or target function.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Enforce analogy-only ceiling.
+      required_action: Enforce analogy-only ceiling.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_calibration_limits
+      - /operation
+      - /claim
+      reasoned_finding: No common scale calibrates historical burden against runtime constraints; the analogy remains
+        bounded without a universal threshold.
+      claim_or_artifact_effect:
+        family:
+          value: qualify
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve the uncalibrated cross-domain limit.
+      required_action: Preserve the uncalibrated cross-domain limit.
+      controlled_local_result:
+        value: calibration_open
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/loss_and_selection
+      - /operation
+      - /claim
+      reasoned_finding: Four relations are foregrounded; source-only and target-only residuals remain visible under exact
+        five-field Loss.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain correspondence and breaking points with full Loss.
+      required_action: Retain correspondence and breaking points with full Loss.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/alternatives
+      - /operation
+      - /claim
+      reasoned_finding: Native target description, formal mapping, new projection, no projection, and future non_capture
+        remain available.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Do not merge alternatives into the analogy claim.
+      required_action: Do not merge alternatives into the analogy claim.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: Only bounded structural resemblance is supported.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw semantic identity and target-function reach.
+      required_action: Withdraw semantic identity and target-function reach.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/claim_and_authority_ceiling
+      - /operation
+      - /claim
+      reasoned_finding: The comparison grants no design, technical, institutional, person, or application authority.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Maintain authority prohibition.
+      required_action: Maintain authority prohibition.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /operation
+      - /claim
+      reasoned_finding: No mandatory stop is required because analogy_only is a positive terminal route; continuation
+        to projection requires new grounds.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Terminate this claim at analogy_only.
+      required_action: Terminate this claim at analogy_only.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /operation
+      - /claim
+      reasoned_finding: Adequate retained analogy remains; no material claim-relative capture limit is asserted after
+        this bounded attempt.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Do not select non_capture.
+      required_action: Do not select non_capture.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The declared PROJECT_AS fails because PraxisPurchase is below_floor, TraceableLoad is above_ceiling,
+    and counterfactual sensitivity is insensitive; preserved source identity, origin type, context, and formal completeness
+    do not compensate.
+  anti_immunization_assessment: The retained analogy does not validate or repair the unestablished PROJECT_AS target-function
+    claim. C17-LAMBDA-01 remains separately valid, and any later projection is a new testable claim in a new record.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: analogy_only is a positive terminal result for the bounded resemblance; no inadmissible continuation is
+      required.
+    reentry_contemplated: true
+    reentry_conditions:
+    - changed_condition: A source-supported semantic bridge and target-side praxis difference are independently established.
+      new_or_revised_record_id: case.c40-x6.project-as.reentry.01
+      rationale: A materially new functional projection requires a new PROJECT_AS occurrence.
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: A bounded analogy remains adequately retained; failure to establish semantic preservation or target function
+      does not establish non_capture.
+loss:
+  preserved:
+  - item_id: loss.preserved.1
+    affected_element: source and target object identities
+    description: The historical Trajectory and technical workflow trace remain separately typed and referenced.
+    reason: Analogy requires two distinguishable relata.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: The historical Trajectory and technical workflow trace remain separately typed and referenced.
+    source_or_evidence_pointer: /source/reference_object
+    recoverability_or_reentry_note: Any changed object requires a new record.
+  - item_id: loss.preserved.2
+    affected_element: four bounded correspondences
+    description: Order, skipped-transition position, persistent fallback, and residual rollback remain explicit.
+    reason: They supply the useful analogy.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Order, skipped-transition position, persistent fallback, and residual rollback remain explicit.
+    source_or_evidence_pointer: /source/constitutive_source_trace
+    recoverability_or_reentry_note: Removal narrows or defeats the analogy.
+  - item_id: loss.preserved.3
+    affected_element: breaking points and residuals
+    description: Expectation, responsibility, binding, costs, runtime guards, and deterministic state rules remain visible
+      as non-shared structure.
+    reason: They block semantic identity and target-function inflation.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Expectation, responsibility, binding, costs, runtime guards, and deterministic state rules remain
+        visible as non-shared structure.
+    source_or_evidence_pointer: /result/class_payload/breaking_points
+    recoverability_or_reentry_note: Do not delete residuals to improve fit.
+  compressed:
+  - item_id: loss.compressed.1
+    affected_element: domain-specific relation detail
+    description: Historical and technical relations are summarized at the declared phase-state comparison granularity.
+    reason: The analogy does not require every micro-event or implementation step.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Historical and technical relations are summarized at the declared phase-state comparison granularity.
+    source_or_evidence_pointer: /operation/selection_rule
+    recoverability_or_reentry_note: Finer comparison requires a new record or DECOMPOSE occurrence.
+  excluded:
+  - item_id: loss.excluded.1
+    affected_element: semantic identity and target function
+    description: No equivalence of expectation, responsibility, cost, guards, runtime constraints, or debugging function
+      is retained.
+    reason: These exceed the source and claim ceilings.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: No equivalence of expectation, responsibility, cost, guards, runtime constraints, or debugging function
+        is retained.
+    source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+    recoverability_or_reentry_note: A later projection needs new grounds.
+  - item_id: loss.excluded.2
+    affected_element: authority and person reach
+    description: No design recommendation, diagnosis, legitimacy, sanction, person type, or application authority is
+      included.
+    reason: Authority inheritance is prohibited.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: No design recommendation, diagnosis, legitimacy, sanction, person type, or application authority is
+        included.
+    source_or_evidence_pointer: /governance
+    recoverability_or_reentry_note: External authority cannot be inferred from analogy.
+  uncertain:
+  - item_id: loss.uncertain.1
+    affected_element: semantic bridge
+    description: Whether any narrower historical-to-technical semantic bridge is supportable remains uncertain.
+    reason: The synthetic packet does not adjudicate it.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Whether any narrower historical-to-technical semantic bridge is supportable remains uncertain.
+    source_or_evidence_pointer: /source/known_gaps/0
+    recoverability_or_reentry_note: Reentry requires independent evidence and a new PROJECT_AS record.
+  irrecoverable:
+  - item_id: loss.irrecoverable.1
+    affected_element: shared empirical mechanism
+    description: No common empirical mechanism linking historical praxis and technical runtime can be reconstructed from
+      the retained records.
+    reason: It was not encoded in either source.
+    claim_effect:
+      family:
+        value: mark_capture_limit
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: No common empirical mechanism linking historical praxis and technical runtime can be reconstructed
+        from the retained records.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: Do not invent a cross-domain mechanism.
+alternatives:
+  rival_compositions: []
+  rival_decompositions: []
+  rival_projections:
+  - alternative_id: alternative.c40-x6.new-bounded-projection
+    claim_relation: Test a new transition-debugging target function only after independent semantic-bridge and target-side
+      praxis-difference evidence is available.
+    source_basis_or_evidence_pointer: /source/constitutive_source_trace
+    comparative_burden: Requires full PROJECT_AS duties, source-function dependency, defeat conditions, exact scope and
+      Loss, and a new operation occurrence.
+    current_handling: not_selected
+    rationale: A future projection is a new claim and does not change the current analogy_only route.
+  no_transformation:
+  - alternative_id: alternative.c40-x6.no-cross-domain-claim
+    claim_relation: Retain the historical Trajectory and technical workflow trace independently with no cross-domain
+      claim.
+    source_basis_or_evidence_pointer: /source/reference_object
+    comparative_burden: No additional transformation burden.
+    current_handling: retained
+    rationale: Neither source nor target validity depends on the analogy.
+  non_translation:
+  - alternative_id: alternative.c40-x6.native-target-description
+    claim_relation: Describe the technical workflow entirely in native target vocabulary.
+    source_basis_or_evidence_pointer: /target/reference_object
+    comparative_burden: Preserves target-native guards and runtime semantics without importing historical vocabulary.
+    current_handling: retained
+    rationale: Native target description is a serious rival to analogy and projection.
+  - alternative_id: alternative.c40-x6.formal-mapping-only
+    claim_relation: Retain a relation-preserving formal mapping without explanatory or functional claim.
+    source_basis_or_evidence_pointer: /operation/selection_rule
+    comparative_burden: Narrower than analogy_only and requires no target function.
+    current_handling: not_selected
+    rationale: The current case retains additional explanatory comparison value, so analogy_only is selected.
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal routing rejects only the current synthetic PROJECT_AS claim; it does not invalidate the source
+    object or authorize any target role, real-world decision, or action.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - structural-correspondence substitution is not PROJECT_AS
+  - contextual boundedness does not compensate for absent source dependence
+  - failed projection does not invalidate the source object
+  - failed projection does not automatically yield analogy_only or non_capture
+  - formal validation does not grant empirical truth or application authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: The attempted PROJECT_AS boundary test retains a bounded structural analogy with explicit breaking points;
+      the stronger transition-debugging function is not retained.
+    result_family:
+      value: bounded RETYPE confusion-case result
+      control_source: 01_blocks/04_part_iii_retype.md#40-21-confusion-case-6-projection-or-structural-analogy
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing RETYPE controls without extending the canonical inventory.
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids:
+    - claim.c40-x6.projection-candidate.01
+  status_declaration:
+    support_status: supported
+    resolution_test_result: null
+    capture_statement:
+      statement: The selected formal resemblance and breaking points are retained; semantic preservation and contextual
+        target function remain outside the retained claim.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The constitutive conditions for admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible route is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: The constitutive conditions for admissible_with_bounded_claim are not decisive for this delimited
+          claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_with_bounded_claim route is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The constitutive conditions for admissible_but_provisional are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional route is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral route is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: selected
+        rationale: A bounded phase-state resemblance with explicit breaking points remains useful, while semantic preservation
+          and a source-traceable contextual target function are not established.
+        constitutive_condition_pointers: &id001
+        - /claim/claim_ceiling
+        - /operation/details/components
+        - /operation/details/component_relations
+        - /admissibility/rule_assessments/praxis_purchase
+        - /admissibility/rule_assessments/traceable_load
+        - /admissibility/stop_assessment
+        - /loss
+        - /governance/authority_inheritance
+        preserved_finding: Selected formal correspondences, explicit residuals, and breaking points remain visible.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The constitutive conditions for partially_admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible route is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The constitutive conditions for claim_reduction_required are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required route is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The constitutive conditions for mandatory_stop are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop route is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The constitutive conditions for failed_transformation are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation route is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: The constitutive conditions for non_capture are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture route is required.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: analogy_only
+    route_id: route_analogy_only
+    matched_constitutive_conditions: *id001
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - The source Trajectory and target workflow trace remain separately valid.
+    - The stronger target-function candidate remains visible as unretained.
+    split_decision:
+      required: false
+      rationale: The stronger target-function candidate is withdrawn rather than routed as a second operation occurrence;
+        a future projection requires a new record.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: A useful bounded structural analogy survives with explicit breaking points, while semantic
+      preservation and source-dependent contextual function remain unestablished.
+    current_claim_disposition:
+      value: superseded_without_erasure
+      rationale: The stronger projection candidate is not retained; the separately delimited analogy claim remains.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: analogy_only
+    resemblance: Both objects display bounded ordered-transition, skipped-transition, persistent-fallback, and residual-repair
+      relations.
+    scope: Explanatory structural resemblance only in synthetic context TCC; no semantic identity or target function
+      is established.
+    breaking_points:
+    - Historical expectation and responsibility are absent from the technical trace.
+    - Binding, exit cost, asymmetric burden, and contested historical boundaries are not runtime-state semantics.
+    - Executable guards, runtime constraints, deterministic state rules, and machine rollback are target-only.
+    - Formal or executable correspondence does not establish a transition-debugging function.
+    stronger_projection_or_identity_claim_not_retained: No semantic preservation, historical-to-technical function, causal
+      identity, target-function warrant, operator identity, or cross-domain authority is retained.
+    separate_projection_result_pointer: /alternatives/rival_projections/0
+    rationale: The declared analogy adds comparative value and preserves breaking points; full PROJECT_AS duties are
+      not satisfied.
+relations:
+  prior_record_ids:
+  - case.c17-lambda-01.compose.01
+  prior_claim_ids:
+  - claim.c17-lambda-01.trajectory.01
+  sibling_claim_or_record_ids:
+  - case.c40-p1.project-as.01
+  - case.c40-n3.project-as.01
+  rival_record_ids:
+  - case.c40-p1.project-as.01
+  countercase_refs:
+  - 03_cases/yaml/C40-P1_Trajectory_as_Bounded_Frame_Function.yaml
+  - 03_cases/yaml/C40-N3_PROJECT_AS_Label_Substitution_Failure.yaml
+  - 'planned-operation-chain: PROJECT_AS → DECOMPOSE'

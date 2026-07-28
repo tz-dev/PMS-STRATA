@@ -1,0 +1,1113 @@
+schema_version: 0.1.2
+record_id: case.c35-a1.project-as.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T17:40:00+02:00'
+  updated_at: '2026-07-27T17:40:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.Final-Lock-Gap-Closure-Batch-322
+  repository_or_case_pointer: 03_cases/yaml/C35-A1_PROJECT_AS_Operator_Weighting_Profile.yaml
+  record_provenance:
+  - Synthetic final-lock gap-closure fixture; no external empirical claim is asserted.
+  - This record contains exactly one PROJECT_AS occurrence and preserves every earlier result without inheritance.
+  - Produced against Source-of-Truth ZIP 321 and Transformation_Record.schema.json schema_version 0.1.2.
+  model_versions:
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Gap Package A positive profile-function record for Chapter 35/P5.
+claim:
+  claim_id: claim.c35-a1.project-as.01
+  statement: Configuration-bound profile W35, in which Ω exposure and Θ accumulation are prominent while all Δ–Ψ dependencies
+    remain explicit, performs a bounded continuation-cost modulating function in H35; equalizing Ω or removing Θ accumulation
+    defeats the projection.
+  claim_type:
+    value: operator-weighting-profile function claim
+    control_source: 04_reference/Claim_Type_Table.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Only configuration C35, profile W35, declared Ω/Θ load relations, and H35 variation fixture.
+    operation_occurrence_boundary: Only project-as.c35-a1.01; all adjacent claims and operations remain separate records.
+    frame:
+      value: synthetic continuation-cost frame C35/H35
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    granularity:
+      value: configuration-bound operator-weighting profile and target continuation corridor
+      control_source: 04_reference/Glossary.md
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    relative_level:
+      value: target-function level relative to an origin-typed profile
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    temporal_scope: C35-T0–T6 and H35-U0–U3
+    source_scope: Only configuration C35, profile W35, declared Ω/Θ load relations, and H35 variation fixture.
+    context_scope: Continuation cost, option accessibility, and reopening window in H35.
+    generalization_boundary: No transfer beyond this synthetic method fixture.
+    excluded_reach:
+    - No operator replacement or dependency reordering.
+    - No claim that W35 is Ω, Θ, Α, or a new primitive.
+    - No person/group profile or predictive law.
+    - No automatic function outside H35.
+  validity_scope: W35 and H35 only.
+  claim_ceiling: &id001
+    asserted_relation: Profile W35 is an Ω/Θ-prominent configuration-bound operator-weighting profile that changes continuation
+      cost and access in H35.
+    reach: Configuration C35 and target continuation field H35 only.
+    precision: Declared Ω load, Θ accumulation, continuation alternatives, and source variation only.
+    generality: Single synthetic gap-closure package.
+    functional_scope: Bounded continuation-cost modulating function; no operator identity or person trait.
+    dependence_strength: Function weakens if Ω is equalized or Θ accumulation is removed.
+    inferential_distance: One PROJECT_AS step from an independently identified profile.
+    limiting_sources:
+    - case://c35-a1/omega-load
+    - case://c35-a1/theta-accumulation
+    - case://c35-a1/continuation-window
+    rationale: The packet supports a bounded profile function but not a new operator, dependency order, person type, quantitative
+      threshold, or causal law.
+  authority_boundary: Methodological routing only; no person, institutional, causal, normative, or application authority.
+source:
+  reference_object:
+    object_id: profile.W35
+    description: Configuration-bound operator-weighting profile with Ω exposure and Θ accumulation prominent relative to the
+      declared continuation claim.
+    typing:
+      value: operator-weighting profile
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C35-A1_Operator_Weighting_Profile_and_RETYPE_Type_Boundary.md#2-source-profile-w35
+  object_typing:
+    value: operator-weighting profile
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  frame:
+    value: synthetic continuation-cost frame C35
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: profile relation granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: origin profile level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: C35-T0–T6
+  source_scope: Configuration C35 and declared profile relations only.
+  source_basis:
+  - source_item_id: source.c35-a1.omega
+    source_pointer: case://c35-a1/omega-load
+    provenance_description: Synthetic declaration of asymmetric exposure and exit burden in C35.
+    affected_claim_component: Ω-prominent profile component
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#52-evidence-role-matrix
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    evidence_availability: available
+    temporal_scope: C35-T0–T6
+    reference_scope: configuration C35
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain warrant is asserted.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.c35-a1.theta
+    source_pointer: case://c35-a1/theta-accumulation
+    provenance_description: Synthetic declaration of accumulated commitments and narrowing windows across C35-T0–T6.
+    affected_claim_component: Θ-prominent profile component
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#52-evidence-role-matrix
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    evidence_availability: available
+    temporal_scope: C35-T0–T6
+    reference_scope: configuration C35
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain warrant is asserted.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.c35-a1.target
+    source_pointer: case://c35-a1/continuation-window
+    provenance_description: Synthetic H35 fixture with continuation alternatives and source variations.
+    affected_claim_component: Target uptake and defeat conditions
+    support_mode: direct
+    evidence_role:
+      value: load-bearing source support
+      control_source: 04_reference/Evidence_Map.md#52-evidence-role-matrix
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    evidence_availability: available
+    temporal_scope: H35-U0–U3
+    reference_scope: target context H35
+    uncertainty_or_provenance_limit: Synthetic method fixture only; no external empirical or domain warrant is asserted.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace: &id002
+  - trace_id: trace.c35-a1.omega
+    source_feature: Exit burden is asymmetrically concentrated in role r_hold.
+    affected_claim_component: Continuation cost and option accessibility.
+    trace_role: load_bearing
+    result_dependency: Equalizing the burden weakens the function.
+    expected_result_change: Projection narrows or fails under Ω equalization.
+    temporal_or_relational_dependency: C35-T2–T6 into H35-U0–U3
+    claim_limitation: No quantitative or moral burden magnitude is claimed.
+    source_pointer: case://c35-a1/omega-load
+  - trace_id: trace.c35-a1.theta
+    source_feature: Commitments accumulate before the continuation window closes.
+    affected_claim_component: Temporal persistence and reopening cost.
+    trace_role: load_bearing
+    result_dependency: Removing accumulation defeats temporal modulation.
+    expected_result_change: Without Θ accumulation W35 becomes descriptively compact but functionally inert.
+    temporal_or_relational_dependency: C35-T0–T6
+    claim_limitation: No universal threshold or prediction is claimed.
+    source_pointer: case://c35-a1/theta-accumulation
+  known_gaps:
+  - Relative prominence is qualitative and claim-bound.
+  - No universal numeric weighting scale is supplied.
+  source_ceiling: *id001
+operation:
+  occurrence_id: project-as.c35-a1.01
+  kind: PROJECT_AS
+  justification: Test whether the independently identified profile W35 changes later praxis in H35 without changing PMS operator
+    identity or dependencies.
+  expected_praxeological_difference: A valid projection changes continuation cost, option accessibility, and reopening conditions
+    in H35 under source variation.
+  selection_rule: Foreground Ω exposure and Θ accumulation only as configuration-bound profile relations; preserve all dependencies,
+    source traces, alternatives, and no-projection.
+  transformation_context: Gap Package A — Chapter 35 positive profile function.
+  details:
+    target_context: 'context.H35: Synthetic continuation field with declared options, costs, and reopening window. (H35-U0–U3)'
+    constitutive_source_trace: *id002
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: true
+    alternative_projection_or_no_projection:
+    - source-only profile description
+    - bounded frame-function
+    - no projection
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: target.W35.H35
+    description: Contextual view of W35 as a bounded continuation-cost modulating function in H35.
+    typing:
+      value: contextual function view
+      control_source: 07_model/Operation_Registry.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_pointer: 03_cases/packages/C35-A1_Operator_Weighting_Profile_and_RETYPE_Type_Boundary.md#3-positive-projection-c35-a1
+  object_typing:
+    value: contextual function view
+    control_source: 07_model/Operation_Registry.yaml
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  contextual_function:
+    value: bounded continuation-cost modulating function
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/primary_result_kind
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  frame:
+    value: synthetic H35 continuation frame
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  granularity:
+    value: target continuation-corridor granularity
+    control_source: 04_reference/Glossary.md
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  relative_level:
+    value: contextual target-function level
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+  temporal_scope: H35-U0–U3
+  validity_scope: Only H35 under retained Ω exposure, Θ accumulation, and declared alternatives.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source profile, origin type, target context, and claim ceiling are explicit.
+      rationale: Source profile, origin type, target context, and claim ceiling are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: Exactly one PROJECT_AS occurrence is declared; adjacent claims and operations remain separate records.
+      rationale: Exactly one PROJECT_AS occurrence is declared; adjacent claims and operations remain separate records.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The profile changes continuation cost and accessibility rather than merely naming salience.
+      rationale: The profile changes continuation cost and accessibility rather than merely naming salience.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Ω/Θ traces and H35 variations are source-declared and defeat the projection when removed.
+      rationale: Ω/Θ traces and H35 variations are source-declared and defeat the projection when removed.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Origin type and PMS dependencies remain unchanged; function is context-bound.
+      rationale: Origin type and PMS dependencies remain unchanged; function is context-bound.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Equalizing Ω or removing Θ accumulation weakens or defeats the function.
+      rationale: Equalizing Ω or removing Θ accumulation weakens or defeats the function.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Foregrounding, backgrounding, excluded reach, calibration openness, and re-entry are explicit.
+      rationale: Foregrounding, backgrounding, excluded reach, calibration openness, and re-entry are explicit.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Profile-only, frame-function, and no-projection remain live alternatives.
+      rationale: Profile-only, frame-function, and no-projection remain live alternatives.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Synthetic sources support qualitative discrimination but no universal weights or thresholds.
+      rationale: Synthetic sources support qualitative discrimination but no universal weights or thresholds.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: The profile function cannot rescue a failed type claim or become an operator/person type.
+      rationale: The profile function cannot rescue a failed type claim or become an operator/person type.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: The bounded claim is adequately captured; further profile naming is unnecessary without new purchase.
+      rationale: The bounded claim is adequately captured; further profile naming is unnecessary without new purchase.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: No causal, predictive, person, group, normative, or application authority follows.
+      rationale: No causal, predictive, person, group, normative, or application authority follows.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The profile changes continuation cost and accessibility rather than merely naming salience.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain only the C3-bounded dynamic Attractor-function claim.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Ω/Θ traces and H35 variations are source-declared and defeat the projection when removed.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve all load-bearing traces and the C3/E3 contrast.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type and PMS dependencies remain unchanged; function is context-bound.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Maintain explicit source-type/target-function separation.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type and PMS dependencies remain unchanged; function is context-bound.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Do not substitute a label, one source Trajectory, or target outcome for R3.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type and PMS dependencies remain unchanged; function is context-bound.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Withdraw or retest the function if source or target load changes.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+      applicability_condition: Applies when PROJECT_AS assigns a bounded source-sensitive function while preserving the origin
+        type.
+      applicability_rationale: This occurrence tests whether the independently identified recurrent trajectory form performs
+        a bounded dynamic Attractor-function in one declared later transition field.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Origin type and PMS dependencies remain unchanged; function is context-bound.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve source and target temporal scopes and transition order.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Source profile, origin type, target context, and claim ceiling are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the function only for the declared C3 relation.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Equalizing Ω or removing Θ accumulation weakens or defeats the function.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve defeat conditions and do not infer causality.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Synthetic sources support qualitative discrimination but no universal weights or thresholds.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the source claim only under the declared comparison coordinates.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Synthetic sources support qualitative discrimination but no universal weights or thresholds.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Use the defined mutations for method testing only; do not treat them as empirical calibration.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result:
+        value: calibration_open
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Foregrounding, backgrounding, excluded reach, calibration openness, and re-entry are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the function with the declared five-field Loss profile.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: Profile-only, frame-function, and no-projection remain live alternatives.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve alternatives without merging them into the selected claim.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No causal, predictive, person, group, normative, or application authority follows.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Exclude all-path, deterministic, predictive, and authority reach.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: No causal, predictive, person, group, normative, or application authority follows.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: 'Maintain authority_inheritance: prohibited.'
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The bounded claim is adequately captured; further profile naming is unnecessary without new purchase.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Continue only for this Record; material source or target extension requires a new claim.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /operation
+      - /target
+      - /loss
+      - /alternatives
+      - /relations
+      reasoned_finding: The bounded claim is adequately captured; further profile naming is unnecessary without new purchase.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain the claim while preserving genuine Non-Capture if no stable source or function survives.
+      required_action: Preserve the operation-specific result, five-part Loss, alternatives, prior dispositions, and authority
+        ceiling without inheritance.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: The selected admissible_with_bounded_claim route follows the non-compensatory twelve-stage and sixteen-rule
+    findings; no adjacent success repairs this record.
+  anti_immunization_assessment: The profile function cannot rescue a failed type claim or become an operator/person type.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The bounded claim is adequately captured; further profile naming is unnecessary without new purchase.
+    reentry_contemplated: true
+    reentry_conditions:
+    - changed_condition: Materially new source support or a separately bounded claim becomes available.
+      new_or_revised_record_id: new-record-required
+      rationale: Re-entry requires a new record and preserves the current result.
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The bounded claim is adequately captured; further profile naming is unnecessary without new purchase.
+loss:
+  preserved:
+  - item_id: loss.c35-a1.preserved.1
+    affected_element: Origin profile type
+    description: W35 remains an operator-weighting profile, not an operator or person type.
+    reason: Type Integrity.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/object_typing
+    recoverability_or_reentry_note: Preserved.
+  - item_id: loss.c35-a1.preserved.2
+    affected_element: PMS dependencies
+    description: All Δ–Ψ dependencies remain unchanged.
+    reason: Weighting cannot reorder PMS.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /claim/claim_scope/excluded_reach
+    recoverability_or_reentry_note: Preserved.
+  compressed:
+  - item_id: loss.c35-a1.compressed.1
+    affected_element: Non-dominant operator detail
+    description: The claim foregrounds Ω/Θ prominence while backgrounding other operator loads.
+    reason: Claim-bounded profile description.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /operation/selection_rule
+    recoverability_or_reentry_note: A new profile claim may foreground other loads.
+  excluded:
+  - item_id: loss.c35-a1.excluded.1
+    affected_element: Universal profile reach
+    description: No transfer outside C35/H35.
+    reason: Contextual boundedness.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /claim/claim_scope/generalization_boundary
+    recoverability_or_reentry_note: New context and record required.
+  uncertain:
+  - item_id: loss.c35-a1.uncertain.1
+    affected_element: Numeric threshold
+    description: Relative prominence remains qualitative and calibration-sensitive.
+    reason: PMS supplies no universal weighting scale.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the current finding only within the declared claim, source, operation, and authority ceiling.
+    source_or_evidence_pointer: /source/known_gaps
+    recoverability_or_reentry_note: New calibrated sources required.
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions: []
+  rival_projections:
+  - alternative_id: alt.c35-a1.frame
+    claim_relation: W35 as a bounded historical frame-function
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Show interpretive expectation rather than continuation cost carries the load.
+    current_handling: unresolved
+    rationale: A separate PROJECT_AS record would be required.
+  - alternative_id: alt.c35-a1.none
+    claim_relation: No target function
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Correct if Ω equalization and Θ removal do not change H35.
+    current_handling: not_selected
+    rationale: The declared variation defeats the current function.
+  no_transformation: []
+  non_translation:
+  - alternative_id: alt.c35-a1.profile-only
+    claim_relation: Retain W35 as descriptive profile only
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Forfeit target-function purchase.
+    current_handling: not_selected
+    rationale: H35 variation supplies bounded functional purchase.
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: This synthetic record grants no empirical truth, causal proof, normative or legal judgment, diagnosis,
+    person or group typing, recommendation, sanction, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - local operation passage does not establish chain passage
+  - later success does not erase earlier failure, Stop, Loss, or Non-Capture
+  - origin type is not replaced by target function
+  - formal validation does not establish substantive truth or authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: W35 performs a bounded continuation-cost modulating function in H35 while remaining an origin-typed profile.
+    result_family:
+      value: bounded profile projection
+      control_source: 07_model/Output_Classes.yaml
+      inventory_status: extension
+      extension_rationale: Case-local wording instantiates existing STRATA controls without extending the canonical inventory.
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: supported
+    resolution_test_result: null
+    capture_statement:
+      statement: The bounded profile-function claim is adequately captured.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: admissible is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: selected
+        rationale: The claim passes only under configuration, source, and target bounds.
+        constitutive_condition_pointers:
+        - /claim
+        - /source
+        - /operation
+        - /target
+        - /admissibility
+        - /loss
+        - /alternatives
+        - /governance
+        preserved_finding: The operation-specific finding, Loss, alternatives, and authority ceiling remain preserved.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: admissible_but_provisional is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: resolution_neutral is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: analogy_only is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: partially_admissible is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: claim_reduction_required is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: mandatory_stop is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: failed_transformation is not selected because the constitutive conditions for admissible_with_bounded_claim
+          control the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: non_capture is not selected because the constitutive conditions for admissible_with_bounded_claim control
+          the current claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is selected for this claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: admissible_with_bounded_claim
+    route_id: route_admissible_with_bounded_claim
+    matched_constitutive_conditions:
+    - /claim
+    - /source
+    - /operation
+    - /target
+    - /admissibility
+    - /loss
+    - /alternatives
+    - /governance
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - Prior failures, Stops, Loss, and source material remain visible.
+    - No source type, function, route, or authority is inherited by later records.
+    split_decision:
+      required: false
+      rationale: Each operation occurrence and any successor claim retains a separate record.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: The claim passes only under configuration, source, and target bounds.
+    current_claim_disposition:
+      value: maintained
+      rationale: The claim passes only under configuration, source, and target bounds.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_with_bounded_claim
+    original_broader_claim_id: candidate.c35-a1.universal-profile-function
+    retained_narrower_claim_pointer: /claim/claim_id
+    material_narrowing:
+    - W35 remains configuration-bound.
+    - Function applies only in H35 under retained Ω/Θ conditions.
+    - Weighting is qualitative and claim-relative.
+    excluded_reach:
+    - No operator replacement, dependency reordering, person trait, universal threshold, prediction, or authority.
+    separately_tested: true
+    rationale: The profile has source-sensitive functional purchase only within the declared configuration and target context.
+relations:
+  sibling_claim_or_record_ids:
+  - case.c38-n1.project-as.01
+  - case.c38-x3.project-as.01
+  rival_record_ids: []
+  countercase_refs:
+  - C38-N1
+  - C38-X3
+  - C28-MODULATOR-01

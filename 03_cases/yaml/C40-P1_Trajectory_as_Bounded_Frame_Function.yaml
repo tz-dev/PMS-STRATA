@@ -1,0 +1,1101 @@
+schema_version: 0.1.2
+record_id: case.c40-p1.project-as.01
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-27T10:00:00+02:00'
+  updated_at: '2026-07-27T10:00:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.integrated-case-production
+  repository_or_case_pointer: 03_cases/yaml/C40-P1_Trajectory_as_Bounded_Frame_Function.yaml
+  record_provenance:
+  - Synthetic lock-critical positive PROJECT_AS case instantiated from the canonical C40-P1 pressure packet and independently
+    typed source case C17-LAMBDA-01.
+  - The record tests a bounded trajectory-to-frame-function projection only; it supplies no external empirical, causal, normative,
+    or application warrant.
+  - Built against PMS-STRATA Source-of-Truth ZIP 307 and Transformation_Record.schema.json v0.1.3.
+  model_versions:
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: 'RETYPE lock-package 1 of 3: positive trajectory-as-bounded-frame-function case, routed and locally
+    audited.'
+claim:
+  claim_id: claim.c40-p1.frame-function.01
+  statement: Within synthetic later coordination context C1 during Q6–Q7, the independently reconstructed workload-review
+    trajectory from C17-LAMBDA-01 performs a bounded historical frame-function for the declared overloaded-role relation by
+    structuring credible reopening interpretations, expected repair costs, and practically available coordination moves, while
+    remaining a Trajectory and not becoming a Frame operator type.
+  claim_type:
+    value: bounded trajectory-to-frame-function claim
+    control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
+    inventory_status: extension
+    extension_rationale: Case-local label for the canonical Chapter-31 PROJECT_AS family; no new claim type is created.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Only composite.c17-lambda-01 from C17-LAMBDA-01 and the declared synthetic later coordination
+      context C1.
+    operation_occurrence_boundary: Only PROJECT_AS occurrence project-as.c40-p1.01.
+    frame:
+      value: synthetic later coordination frame C1
+      control_source: 03_cases/yaml/C40-P1_Trajectory_as_Bounded_Frame_Function.yaml#/target/frame
+      inventory_status: extension
+      extension_rationale: Case-local target frame only.
+    granularity:
+      value: role-specific follow-on coordination granularity
+      control_source: 03_cases/yaml/C40-P1_Trajectory_as_Bounded_Frame_Function.yaml#/target/granularity
+      inventory_status: extension
+      extension_rationale: Case-local target granularity for one role relation and one follow-on interval.
+    relative_level:
+      value: contextual frame-function level relative to the origin-typed Trajectory
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Instantiates the controlled source-target relative-level relation.
+    temporal_scope: Source trajectory Q0–Q5; target-function interval Q6–Q7.
+    source_scope: Exactly the central missed review, persistent workaround, asymmetric load shift, default stabilization,
+      partial repair, and retained uncertainty recorded in C17-LAMBDA-01.
+    context_scope: Only the declared overloaded-role relation in later coordination context C1 during Q6–Q7.
+    generalization_boundary: No transfer to other roles, periods, organizations, trajectories, or real coordination settings.
+    excluded_reach:
+    - No claim that the source Trajectory becomes a Frame operator type or a new PMS primitive.
+    - No claim that history determines later action, exhausts present conditions, or proves causality.
+    - No projection to the comparison context Z, where a full role reset and new repair rule carry the target reconstruction
+      without additional historical framing.
+    - No person typing, legitimacy judgment, sanction, recommendation, or application authority.
+  validity_scope: Valid only for the declared overloaded-role relation in synthetic context C1 during Q6–Q7.
+  claim_ceiling:
+    asserted_relation: Load-bearing features of the retained Q0–Q5 Trajectory materially structure which reopening interpretations,
+      repair expectations, and coordination moves are practically credible for one declared role relation in C1.
+    reach: composite.c17-lambda-01, target context C1, overloaded-role relation R_over, and Q6–Q7 only.
+    precision: Historical load carriers, target-side praxis difference, defeat conditions, and bounded contextual function
+      only.
+    generality: One synthetic source trajectory, one target context, one role relation, and one follow-on interval.
+    functional_scope: Bounded historical frame-function for interpretation, expectation, and repair-cost navigation; no origin-type
+      replacement or global frame identity.
+    dependence_strength: The function weakens or disappears if the missed review is timely repaired, the residual workload
+      binding is released, or the target context is replaced by the reset context Z.
+    inferential_distance: One explicit PROJECT_AS occurrence from an independently typed Trajectory to one bounded contextual
+      function.
+    limiting_sources:
+    - source.record.c17-lambda-01
+    - source.fixture.c40-p1.target-c1
+    rationale: The packet supports a role- and interval-bounded frame-function, but not all-role, permanent, causal-monopoly,
+      deterministic, cross-context, or authority claims.
+  authority_boundary: The case authorizes only the bounded methodological routing of this synthetic projection claim; it grants
+    no empirical truth, person judgment, coordination decision, policy, sanction, or application authority.
+source:
+  reference_object:
+    object_id: composite.c17-lambda-01
+    description: The bounded Q0–Q5 workload-review Trajectory with central Non-Event instantiated in C17-LAMBDA-01.
+    typing:
+      value: trajectory
+      control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/object_typing
+      inventory_status: current_controlled
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/reference_object
+  object_typing:
+    value: trajectory
+    control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/object_typing
+    inventory_status: current_controlled
+  frame:
+    value: synthetic workload-review trajectory frame
+    control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/frame
+    inventory_status: extension
+    extension_rationale: Inherited local source frame from the prior case.
+  granularity:
+    value: quarterly configuration, Non-Event, load-shift, default, and repair granularity
+    control_source: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/target/granularity
+    inventory_status: extension
+    extension_rationale: Inherited local source granularity.
+  relative_level:
+    value: origin-typed Trajectory relative to the later contextual frame-function
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local source-side relative level.
+  temporal_scope: Synthetic source interval Q0–Q5, retained as prior history when C1 is assessed during Q6–Q7.
+  source_scope: Exactly the central missed review, persistent workaround, asymmetric load shift, default stabilization, partial
+    repair, and retained uncertainty recorded in C17-LAMBDA-01.
+  source_basis:
+  - source_item_id: source.record.c17-lambda-01
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+    provenance_description: Schema-valid positive COMPOSE case establishing the origin-typed Trajectory, central missed review,
+      later carriers, uncertainty, and prior Loss.
+    affected_claim_component: Independent source identity, origin type, temporal structure, and retained historical load.
+    support_mode: direct
+    evidence_role:
+      value: prior instantiated STRATA case record
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local cross-record evidence role.
+    evidence_availability: available
+    temporal_scope: Q0–Q5
+    reference_scope: composite.c17-lambda-01
+    uncertainty_or_provenance_limit: Synthetic case record; exact local cost allocation and causal mechanism remain uncertain
+      or irrecoverable.
+    warrant_route: strata_internal_support_assessable
+  - source_item_id: source.fixture.c40-p1.target-c1
+    source_pointer: case://pms-strata/c40-p1/later-coordination-context-c1
+    provenance_description: 'Synthetic declaration of C1 and comparison context Z: identical formal reopening text in both
+      contexts, but only C1 retains the overloaded-role relation, residual workload binding, and unrepaired exit/revision
+      cost carried from the source Trajectory.'
+    affected_claim_component: Target context, present-condition comparison, role-specific praxis difference, and no-projection
+      contrast.
+    support_mode: direct
+    evidence_role:
+      value: synthetic target-context and contrast declaration
+      control_source: 04_reference/Evidence_Map.md
+      inventory_status: extension
+      extension_rationale: Local evidence role for the lock-critical case.
+    evidence_availability: available
+    temporal_scope: Q6–Q7
+    reference_scope: later coordination contexts C1 and Z
+    uncertainty_or_provenance_limit: Synthetic target packet; no external calibration or real-world transfer is asserted.
+    warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+  - trace_id: trace.c40-p1.missed-review
+    source_feature: Warrantable Q1 review Non-Event followed by repeated non-repair.
+    affected_claim_component: Later expectation that nominal reopening may again fail to redistribute workload.
+    trace_role: load_bearing
+    result_dependency: Without the missed review and repeated non-repair, the role-specific expectation component loses its
+      source-specific historical load.
+    expected_result_change: Timely credible review and redistribution narrows or withdraws the expectation-frame claim.
+    temporal_or_relational_dependency: The Q1 Non-Event must remain linked to the Q2–Q4 workaround and default stabilization.
+    claim_limitation: Supports bounded expectation framing, not causal monopoly or intention.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details
+  - trace_id: trace.c40-p1.residual-binding
+    source_feature: Persistent workaround, asymmetric workload concentration, and default stabilization through Q4.
+    affected_claim_component: Role-specific interpretation of which coordination moves are practically credible and costly.
+    trace_role: load_bearing
+    result_dependency: The function depends on residual workload binding rather than chronological priority or rhetorical
+      history.
+    expected_result_change: Releasing the binding or replacing the role relation weakens or defeats the frame-function.
+    temporal_or_relational_dependency: The carrier must remain traceable from workaround through default stabilization into
+      C1.
+    claim_limitation: Supports one declared role relation only.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/source/constitutive_source_trace
+  - trace_id: trace.c40-p1.partial-repair
+    source_feature: Partial Q5 repair reduces but does not erase accumulated revision and exit costs.
+    affected_claim_component: Bounded repair-cost and continuation-corridor component of the target function.
+    trace_role: load_bearing
+    result_dependency: A complete reset would support the no-projection comparison context Z rather than the selected C1 claim.
+    expected_result_change: Full repair and role reset withdraw the additional historical frame-function in Z.
+    temporal_or_relational_dependency: Partial repair must be preserved as incomplete rather than treated as full restoration.
+    claim_limitation: Exact cost magnitude remains uncertain; only the direction and bounded role difference are retained.
+    source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/loss/uncertain
+  known_gaps:
+  - Exact allocation and magnitude of accumulated revision and exit costs remain uncertain.
+  - Fine causal mechanisms connecting each source phase to each target interpretation are irrecoverable in the synthetic packet.
+  - No external domain calibration or rival-model benchmark is supplied.
+  source_ceiling:
+    asserted_relation: The source packet supports the declared historical carriers and C1/Z discrimination, not a universal
+      or deterministic historical frame.
+    reach: composite.c17-lambda-01, target context C1, overloaded-role relation R_over, and Q6–Q7 only.
+    precision: Historical load carriers, target-side praxis difference, defeat conditions, and bounded contextual function
+      only.
+    generality: One synthetic source trajectory, one target context, one role relation, and one follow-on interval.
+    functional_scope: Bounded historical frame-function for interpretation, expectation, and repair-cost navigation; no origin-type
+      replacement or global frame identity.
+    dependence_strength: The function weakens or disappears if the missed review is timely repaired, the residual workload
+      binding is released, or the target context is replaced by the reset context Z.
+    inferential_distance: One explicit PROJECT_AS occurrence from an independently typed Trajectory to one bounded contextual
+      function.
+    limiting_sources:
+    - source.record.c17-lambda-01
+    - source.fixture.c40-p1.target-c1
+    rationale: The packet supports a role- and interval-bounded frame-function, but not all-role, permanent, causal-monopoly,
+      deterministic, cross-context, or authority claims.
+operation:
+  occurrence_id: project-as.c40-p1.01
+  kind: PROJECT_AS
+  justification: The independently typed source Trajectory is tested for one additional source-dependent function in C1; the
+    claim is not a recontextualization label, composition, decomposition, or origin-type replacement.
+  expected_praxeological_difference: Distinguish formally available reopening options from role-specifically credible and
+    costly coordination moves after the retained missed review, workload binding, default stabilization, and partial repair.
+  selection_rule: Foreground only the load-bearing missed-review, residual-binding, default, partial-repair, role-relation,
+    and C1/Z contrast features; retain all source Loss and uncertainty; exclude rhetorical history and unrelated source detail.
+  transformation_context: Synthetic C1 role-specific follow-on coordination assessment during Q6–Q7.
+  details:
+    target_context: later coordination context C1, overloaded-role relation R_over, Q6–Q7
+    constitutive_source_trace:
+    - trace_id: trace.c40-p1.missed-review
+      source_feature: Warrantable Q1 review Non-Event followed by repeated non-repair.
+      affected_claim_component: Later expectation that nominal reopening may again fail to redistribute workload.
+      trace_role: load_bearing
+      result_dependency: Without the missed review and repeated non-repair, the role-specific expectation component loses
+        its source-specific historical load.
+      expected_result_change: Timely credible review and redistribution narrows or withdraws the expectation-frame claim.
+      temporal_or_relational_dependency: The Q1 Non-Event must remain linked to the Q2–Q4 workaround and default stabilization.
+      claim_limitation: Supports bounded expectation framing, not causal monopoly or intention.
+      source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/operation/details
+    - trace_id: trace.c40-p1.residual-binding
+      source_feature: Persistent workaround, asymmetric workload concentration, and default stabilization through Q4.
+      affected_claim_component: Role-specific interpretation of which coordination moves are practically credible and costly.
+      trace_role: load_bearing
+      result_dependency: The function depends on residual workload binding rather than chronological priority or rhetorical
+        history.
+      expected_result_change: Releasing the binding or replacing the role relation weakens or defeats the frame-function.
+      temporal_or_relational_dependency: The carrier must remain traceable from workaround through default stabilization into
+        C1.
+      claim_limitation: Supports one declared role relation only.
+      source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/source/constitutive_source_trace
+    - trace_id: trace.c40-p1.partial-repair
+      source_feature: Partial Q5 repair reduces but does not erase accumulated revision and exit costs.
+      affected_claim_component: Bounded repair-cost and continuation-corridor component of the target function.
+      trace_role: load_bearing
+      result_dependency: A complete reset would support the no-projection comparison context Z rather than the selected C1
+        claim.
+      expected_result_change: Full repair and role reset withdraw the additional historical frame-function in Z.
+      temporal_or_relational_dependency: Partial repair must be preserved as incomplete rather than treated as full restoration.
+      claim_limitation: Exact cost magnitude remains uncertain; only the direction and bounded role difference are retained.
+      source_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml#/loss/uncertain
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: true
+    alternative_projection_or_no_projection:
+    - bounded Path-Dependence description without frame-function
+    - background historical relevance only
+    - one narrower expectation effect
+    - structural analogy only
+    - no projection in reset context Z
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: projection.c40-p1.frame-function
+    description: A derived contextual view in which composite.c17-lambda-01 performs one bounded historical frame-function
+      for R_over in C1 during Q6–Q7.
+    typing:
+      value: derived contextual function
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/primary_result_kind
+      inventory_status: extension
+      extension_rationale: Case-local PROJECT_AS target wording.
+    source_pointer: 03_cases/markdown/C40-P1_Trajectory_as_Bounded_Frame_Function.md#4-tested-projection
+  object_typing:
+    value: derived contextual function
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/primary_result_kind
+    inventory_status: extension
+    extension_rationale: Case-local PROJECT_AS target wording.
+  contextual_function:
+    value: bounded historical frame-function
+    control_source: 01_blocks/04_part_iii_retype.md#311-basic-claim
+    inventory_status: current_controlled
+  frame:
+    value: synthetic later coordination frame C1
+    control_source: 03_cases/yaml/C40-P1_Trajectory_as_Bounded_Frame_Function.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Case-local target frame.
+  granularity:
+    value: one role relation and one follow-on coordination interval
+    control_source: 03_cases/yaml/C40-P1_Trajectory_as_Bounded_Frame_Function.yaml#/claim/claim_scope/granularity
+    inventory_status: extension
+    extension_rationale: Material scope narrowing decisive to the routed claim.
+  relative_level:
+    value: contextual frame-function level relative to the origin-typed Trajectory
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Case-local target-side relation.
+  temporal_scope: Q6–Q7 only.
+  validity_scope: Valid only for the declared overloaded-role relation in synthetic context C1 during Q6–Q7.
+  contextual_function_origin_occurrence_ref: null
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source Trajectory, prior record, target context, role relation, function, scope, ceilings, and authority
+        boundary are complete.
+      rationale: The source exists independently; target C1 and comparison Z are explicit.
+      rule_assessment_pointers:
+      - source_ceiling
+      - contextual_boundedness
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /claim
+      - /source
+      - /target
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: The occurrence is correctly classified as PROJECT_AS.
+      rationale: An origin-typed Trajectory is assigned one bounded source-dependent function; no type replacement, composition,
+        decomposition, or mere relabeling occurs.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /operation
+      - 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The projection yields a declared role-specific praxis difference.
+      rationale: It distinguishes formal reopening availability from historically conditioned credibility, expectation, and
+        repair cost for R_over.
+      rule_assessment_pointers:
+      - praxis_purchase
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/praxis_purchase
+      - /operation/expected_praxeological_difference
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The target function remains reconstructible from three declared historical carriers and the C1/Z contrast.
+      rationale: The claim does not exceed the source record, target packet, or retained uncertainty.
+      rule_assessment_pointers:
+      - traceable_load
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/traceable_load
+      - /operation/details/constitutive_source_trace
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Reference, Trajectory origin type, target function, temporal distinction, and context boundary are
+        preserved.
+      rationale: The source remains a Trajectory; frame-function is derived and contextual, not a Frame operator identity.
+      rule_assessment_pointers:
+      - type_integrity
+      - reference_continuity
+      - functional_continuity
+      - temporal_continuity
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/type_integrity
+      - /admissibility/rule_assessments/reference_continuity
+      - /admissibility/rule_assessments/functional_continuity
+      - /target
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The claim changes under timely repair, release of residual binding, full reset, role replacement, or
+        target-context substitution.
+      rationale: These mutations narrow or withdraw the frame-function while leaving the source Trajectory separately intact.
+      rule_assessment_pointers:
+      - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/rule_assessments/counterfactual_sensitivity
+      - /source/constitutive_source_trace
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: All five Loss fields and selection effects are explicit.
+      rationale: Duration, carriers, partial repair, uncertainty, excluded contexts, and irrecoverable mechanism limits remain
+        visible.
+      rule_assessment_pointers:
+      - selection_and_loss
+      evidence_or_artifact_pointers:
+      - /operation/selection_rule
+      - /loss
+      - /admissibility/rule_assessments/selection_and_loss
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Rival projection, narrower claim, background relevance, analogy, and no-projection options were compared.
+      rationale: No-projection is selected for Z but not for C1; alternatives are not merged into the routed claim.
+      rule_assessment_pointers:
+      - alternatives
+      evidence_or_artifact_pointers:
+      - /alternatives
+      - /admissibility/rule_assessments/alternatives
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source and synthetic discrimination limits are explicit.
+      rationale: The package discriminates C1 from Z and positive projection from label substitution without claiming external
+        calibration.
+      rule_assessment_pointers:
+      - source_ceiling
+      - calibration
+      evidence_or_artifact_pointers:
+      - /source/source_ceiling
+      - /admissibility/rule_assessments/source_ceiling
+      - /admissibility/rule_assessments/calibration
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: The PROJECT_AS claim does not repair, strengthen, or erase C17-LAMBDA-01.
+      rationale: The prior COMPOSE result remains independently testable; this is a new claim and occurrence.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+      - /admissibility/anti_immunization_assessment
+      - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: No mandatory stop or material Non-Capture condition is reached for the narrowed C1 claim.
+      rationale: An adequate bounded claim remains; any transfer or all-role extension requires a new record.
+      rule_assessment_pointers:
+      - stop
+      - non_capture
+      - claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/stop_assessment
+      - /admissibility/non_capture_assessment
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: The role-, interval-, context-, and authority ceilings are explicit and respected.
+      rationale: No determinism, causal monopoly, person typing, policy, legitimacy, sanction, or application authority follows.
+      rule_assessment_pointers:
+      - claim_ceiling
+      - authority_ceiling
+      - contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /claim/claim_ceiling
+      - /governance
+      - /result/status_declaration
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/relevance_floor
+      - /operation
+      - /claim
+      reasoned_finding: The projection changes reconstruction of credible interpretations, expected repair costs, and available
+        coordination moves for R_over rather than merely invoking history.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the praxis_purchase finding and its existing scope.
+      required_action: Retain only the C1 role-specific frame-function.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/traceability_ceiling
+      - /operation
+      - /claim
+      reasoned_finding: The target function remains below the Traceability Ceiling through the missed-review, residual-binding,
+        partial-repair, and C1/Z discrimination traces.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the traceable_load finding and its existing scope.
+      required_action: Preserve all three load-bearing traces and the C1/Z contrast.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The source remains typed as trajectory; bounded historical frame-function is a separate derived target
+        function and not a new origin type.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the type_integrity finding and its existing scope.
+      required_action: Maintain the explicit source-type/target-function separation.
+      controlled_local_result: null
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The same source reference composite.c17-lambda-01 is retained throughout the projection.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the reference_continuity finding and its existing scope.
+      required_action: Do not substitute an object identified only by the target label.
+      controlled_local_result: null
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The target function depends on the source trajectory, its missed-review-through-partial-repair relation,
+        and the C1 scene rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the functional_continuity finding and its existing scope.
+      required_action: Withdraw or retest the function if any load-bearing source feature or context rule changes.
+      controlled_local_result: null
+      applicability_condition: Applies when a COMPOSE claim carries, preserves, revises, or compares a source or coarser function.
+      applicability_rationale: This occurrence forms only a declared trajectory and explicitly leaves contextual_function
+        null.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/continuity_and_type_integrity
+      - /operation
+      - /claim
+      reasoned_finding: The source history t0–t1 remains visible and the target function is valid only at Q6–Q7.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the temporal_continuity finding and its existing scope.
+      required_action: Preserve the distinct source and target temporal scopes.
+      controlled_local_result: null
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: Target context C1, target frame, target granularity, relative level, Q6–Q7 duration, and transfer
+        limits are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the contextual_boundedness finding and its existing scope.
+      required_action: Retain the function only for R_over in C1 during Q6–Q7.
+      controlled_local_result: null
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/counterfactual_sensitivity
+      - /operation
+      - /claim
+      reasoned_finding: Timely repair, full role reset, release of residual binding, or target-context substitution materially
+        narrows or withdraws the function claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the counterfactual_sensitivity finding and its existing scope.
+      required_action: Preserve these defeat conditions and do not infer causality.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: The source supports one role- and interval-bound function but not a global historical Frame, causal
+        monopoly, or permanent effect.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the source_ceiling finding and its existing scope.
+      required_action: Retain only the bounded synthetic projection.
+      controlled_local_result: null
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_calibration_limits
+      - /operation
+      - /claim
+      reasoned_finding: The synthetic packet discriminates C1 from Z and the bounded function from rhetorical history, type
+        replacement, and source-insensitive labeling; external calibration remains absent.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the calibration finding and its existing scope.
+      required_action: Use the defined negative mutations during suite validation; do not treat this as external empirical
+        calibration.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/loss_and_selection
+      - /operation
+      - /claim
+      reasoned_finding: The projection preserves source duration and carriers, compresses non-load-bearing microdetail, excludes
+        transfer and authority, retains cost uncertainty, and marks fine causal mechanism as irrecoverable.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the selection_and_loss finding and its existing scope.
+      required_action: Retain the function with the declared loss profile.
+      controlled_local_result: null
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/alternatives
+      - /operation
+      - /claim
+      reasoned_finding: The bounded Path-Dependence description, background relevance, narrower expectation effect, analogy-only,
+        and no-projection options remain visible; Z receives no projection.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the alternatives finding and its existing scope.
+      required_action: Preserve alternatives without merging them into the selected claim.
+      controlled_local_result: null
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/source_and_claim_entry
+      - /operation
+      - /claim
+      reasoned_finding: The claim ceiling excludes origin-type replacement, global function, causality, legitimacy, real access,
+        person properties, and application claims.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the claim_ceiling finding and its existing scope.
+      required_action: Exclude all-role, permanent, deterministic, causal-monopoly, and transfer claims.
+      controlled_local_result: null
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/claim_and_authority_ceiling
+      - /operation
+      - /claim
+      reasoned_finding: Formal validation and routing grant no empirical truth, coordination authority, coordination decision,
+        or application authority.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the authority_ceiling finding and its existing scope.
+      required_action: Maintain prohibition on person typing, coordination authority, policy, legitimacy, sanction, and recommendation.
+      controlled_local_result: null
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /operation
+      - /claim
+      reasoned_finding: No stop condition is reached because the projection is relevant, traceable, type-preserving, source-sensitive,
+        and context-bound.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the stop finding and its existing scope.
+      required_action: Continue only for this record; any material extension requires a new testable claim.
+      controlled_local_result: null
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+      - /admissibility/audit_stages/stop_and_non_capture
+      - /operation
+      - /claim
+      reasoned_finding: An adequate narrowed C1 claim remains after bounded attempts; no material capture limit is asserted
+        for that claim.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the non_capture finding and its existing scope.
+      required_action: Retain the claim while preserving its exclusions and transfer limits.
+      controlled_local_result: null
+  non_compensation_confirmation: true
+  audit_to_routing_basis: All twelve stages are complete. The broad all-role/permanent candidate is not retained; the role-
+    and interval-bounded C1 claim has PraxisPurchase, TraceableLoad, origin-type and reference integrity, strong counterfactual
+    sensitivity, complete Loss, alternatives, and explicit ceilings. The decisive material narrowing routes to admissible_with_bounded_claim.
+  anti_immunization_assessment: This PROJECT_AS occurrence is a new testable claim linked to but not repairing or strengthening
+    C17-LAMBDA-01. Any new role, period, context, function, or source packet requires a new record.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The narrowed C1 claim remains above the Relevance Floor and below the Traceability Ceiling with type, reference,
+      continuity, source, and context burdens satisfied.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The bounded C1 role-specific function is adequately captured; broader all-role and cross-context claims are
+      excluded rather than protected by Non-Capture.
+loss:
+  preserved:
+  - item_id: loss.c40-p1.preserved.source-trajectory
+    affected_element: Source reference and origin type
+    description: composite.c17-lambda-01 remains the authoritative source Trajectory with its Q0–Q5 duration, central Non-Event,
+      carriers, uncertainty, and prior disposition.
+    reason: PROJECT_AS requires source and origin-type preservation.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Preserve the source Trajectory separately from the contextual function.
+    source_or_evidence_pointer: /source/reference_object
+  - item_id: loss.c40-p1.preserved.historical-carriers
+    affected_element: Missed review, residual workload binding, default stabilization, and partial repair
+    description: The three load-bearing traces remain explicit and counterfactually defeasible.
+    reason: They carry the target-side expectation, interpretation, and cost differences.
+    claim_effect:
+      family:
+        value: retain
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the carriers and their defeat conditions.
+    source_or_evidence_pointer: /source/constitutive_source_trace
+  - item_id: loss.c40-p1.preserved.context-boundary
+    affected_element: C1, R_over, and Q6–Q7
+    description: The target context, role relation, and interval remain explicit.
+    reason: They are constitutive to the bounded route.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Bind the function to C1, R_over, and Q6–Q7.
+    source_or_evidence_pointer: /target/validity_scope
+  compressed:
+  - item_id: loss.c40-p1.compressed.micro-events
+    affected_element: Non-load-bearing quarterly micro-events
+    description: Fine local actions not constitutive to the frame-function are compressed while remaining recoverable from
+      the source case.
+    reason: The target claim depends on declared historical carriers rather than every source event.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Do not infer micro-event completeness.
+    source_or_evidence_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+    recoverability_or_reentry_note: Use a separate DECOMPOSE record if finer internal detail becomes claim-bearing.
+  excluded:
+  - item_id: loss.c40-p1.excluded.other-roles-contexts
+    affected_element: Other roles, periods, and contexts
+    description: No frame-function is asserted for other role relations, later periods, or comparison context Z.
+    reason: Transfer would be a new claim and Z is carried by present reset conditions.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Exclude transfer and all-role generalization.
+    source_or_evidence_pointer: /claim/claim_scope/generalization_boundary
+  - item_id: loss.c40-p1.excluded.determinism-authority
+    affected_element: Historical determinism, causal monopoly, person typing, legitimacy, recommendation, and authority
+    description: The bounded frame-function conditions interpretation and cost without determining action or authorizing intervention.
+    reason: PROJECT_AS does not increase evidential or practical authority.
+    claim_effect:
+      family:
+        value: separate
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Separate bounded function from causal and authority claims.
+    source_or_evidence_pointer: /governance/authority_ceiling
+  uncertain:
+  - item_id: loss.c40-p1.uncertain.cost-allocation
+    affected_element: Exact magnitude and allocation of accumulated revision and exit costs
+    description: The direction and role-specific asymmetry are supported, but exact local magnitudes remain uncertain.
+    reason: The source packet does not encode complete cost allocation.
+    claim_effect:
+      family:
+        value: qualify
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Retain the function without numerical or exhaustive cost claims.
+    source_or_evidence_pointer: /source/known_gaps
+  irrecoverable:
+  - item_id: loss.c40-p1.irrecoverable.causal-mechanism
+    affected_element: Fine causal mechanism for every source-to-target interpretation
+    description: The synthetic packet cannot recover a complete causal mechanism connecting each source phase to each later
+      interpretation.
+    reason: Such mechanism detail was not encoded and is not required for the bounded structural function claim.
+    claim_effect:
+      family:
+        value: bound
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+        inventory_status: current_controlled
+      description: Exclude causal proof and mechanism completeness.
+    source_or_evidence_pointer: /source/known_gaps
+alternatives:
+  rival_compositions: []
+  rival_decompositions: []
+  rival_projections:
+  - alternative_id: alternative.c40-p1.path-dependence-description
+    claim_relation: Retain a bounded Path-Dependence or historical-load description without assigning a frame-function.
+    source_basis_or_evidence_pointer: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+    comparative_burden: Lower functional burden but does not capture the declared C1 interpretation and coordination-cost
+      difference.
+    current_handling: not_selected
+    rationale: The target packet supplies a source-sensitive contextual function beyond source-only description.
+  - alternative_id: alternative.c40-p1.background-relevance
+    claim_relation: Treat the source Trajectory as accessible historical background only.
+    source_basis_or_evidence_pointer: /source
+    comparative_burden: Requires no source-dependent target difference.
+    current_handling: rejected
+    rationale: C1 differs from Z along declared role-specific credibility and cost dimensions when load-bearing source carriers
+      are altered.
+  - alternative_id: alternative.c40-p1.analogy-only
+    claim_relation: Use the prior phase order as a structural analogy for later coordination.
+    source_basis_or_evidence_pointer: /source/reference_object
+    comparative_burden: Preserves resemblance but not functional continuity.
+    current_handling: rejected
+    rationale: The current packet contains a source-dependent target function and defeat conditions, not resemblance alone.
+  no_transformation:
+  - alternative_id: alternative.c40-p1.no-projection-z
+    claim_relation: Retain the source Trajectory without additional function in reset context Z.
+    source_basis_or_evidence_pointer: source.fixture.c40-p1.target-c1
+    comparative_burden: Lower inferential burden and correct where present reset conditions carry the target reconstruction.
+    current_handling: not_selected
+    rationale: No-projection is warranted in Z but does not defeat the role-specific C1 function.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal validation and bounded routing apply only to this synthetic role-specific frame-function claim.
+    They establish no empirical truth, causal necessity, person type, diagnosis, legitimacy, policy, sanction, recommendation,
+    coordination authority, or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+  - Trajectory origin type is not replaced by Frame or frame-function
+  - bounded historical load does not imply historical determinism or causal monopoly
+  - C1 validity does not transfer to other roles, periods, contexts, or real settings
+  - the target function is not a new PMS primitive or operator occurrence
+  - formal passage does not authorize coordination decisions or intervention
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: The C17-LAMBDA-01 Trajectory performs one source-sensitive historical frame-function for R_over in C1 during
+      Q6–Q7 while remaining a Trajectory; broader all-role, permanent, deterministic, causal, and authority claims are excluded.
+    result_family:
+      value: admissible narrow contextual projection
+      control_source: 07_model/Output_Classes.yaml#/output_classes/admissible_with_bounded_claim/representative_local_results
+      inventory_status: extension
+      extension_rationale: Case-local wording for the selected canonical class.
+    source_function_effect: null
+    prior_source_claim_disposition: null
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: supported
+    resolution_test_result: null
+    capture_statement:
+      statement: An adequate role- and interval-bounded C1 claim remains; broader reach is excluded and no material Non-Capture
+        condition is asserted.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: partially_available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The constitutive conditions for admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: selected
+        rationale: The projection passes only after material restriction to one role relation, one target context, and Q6–Q7;
+          the all-role, permanent, deterministic, and cross-context candidate is excluded.
+        constitutive_condition_pointers: &id001
+        - /operation/details/constitutive_source_trace
+        - /operation/details/source_reference_preserved
+        - /operation/details/origin_type_preserved
+        - /operation/details/target_function_bounded
+        - /admissibility/rule_assessments/praxis_purchase
+        - /admissibility/rule_assessments/traceable_load
+        - /admissibility/rule_assessments/counterfactual_sensitivity
+        - /claim/claim_ceiling
+        - /loss
+        - /governance/authority_inheritance
+        preserved_finding: A role- and interval-bounded trajectory-to-frame-function projection is retained for C1.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The constitutive conditions for admissible_but_provisional are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate admissible_but_provisional result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: The constitutive conditions for resolution_neutral are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate resolution_neutral result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: The constitutive conditions for analogy_only are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate analogy_only result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The constitutive conditions for partially_admissible are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate partially_admissible result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The constitutive conditions for claim_reduction_required are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate claim_reduction_required result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: The constitutive conditions for mandatory_stop are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate mandatory_stop result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The constitutive conditions for failed_transformation are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate failed_transformation result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: The constitutive conditions for non_capture are not decisive for this delimited claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No separate non_capture result is required for the delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication: null
+    selected_class: admissible_with_bounded_claim
+    route_id: route_admissible_with_bounded_claim
+    matched_constitutive_conditions: *id001
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+    - The source Trajectory remains independently admissible under C17-LAMBDA-01.
+    - No-projection remains the correct result for comparison context Z.
+    split_decision:
+      required: false
+      rationale: One narrowed PROJECT_AS claim is routed here; the prior COMPOSE claim and Z no-projection contrast remain
+        separate records or findings.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: Source and target are explicit; PraxisPurchase, TraceableLoad, TypeIntegrity, Reference and
+      Functional Continuity, strong Counterfactual Sensitivity, exact Loss, alternatives, Source and Claim Ceilings, Stop,
+      Non-Capture, and Authority Ceiling pass. Material role, context, and temporal narrowing is decisive, so admissible_with_bounded_claim
+      is selected.
+    current_claim_disposition:
+      value: maintained
+      rationale: The narrowed C1 frame-function claim is maintained; broader all-role, permanent, deterministic, and cross-context
+        reach is excluded without erasing the source Trajectory.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible_with_bounded_claim
+    original_broader_claim_id: candidate.c40-p1.all-role-permanent-frame-function
+    retained_narrower_claim_pointer: /claim/claim_id
+    material_narrowing:
+    - Function limited to overloaded-role relation R_over in C1.
+    - Function limited to Q6–Q7 and declared interpretation, expectation, and repair-cost dimensions.
+    - Comparison context Z receives no additional projection.
+    excluded_reach:
+    - No Frame operator identity, all-role or permanent function, historical determinism, causal monopoly, cross-context transfer,
+      person typing, or authority.
+    separately_tested: true
+    rationale: The source-sensitive target function passes only under the declared role, context, temporal, claim, Loss, and
+      authority ceilings.
+relations:
+  prior_record_ids:
+  - case.c17-lambda-01.compose.01
+  prior_claim_ids:
+  - claim.c17-lambda-01.compose.01
+  sibling_claim_or_record_ids: []
+  rival_record_ids: []
+  countercase_refs:
+  - 'planned-case: C40-N3 PROJECT_AS label substitution failure'
+  - 'planned-case: C40-X6 projection versus structural analogy'
+  - 'comparison finding: no projection in reset context Z'

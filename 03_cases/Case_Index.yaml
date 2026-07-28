@@ -1,0 +1,1549 @@
+artifact:
+  id: pms_strata_case_index
+  title: PMS-STRATA Case Index
+  version: 0.2.0
+  status: active_case_registry_synchronized_pairing_retained
+  owner: 03_cases
+  authority_role: navigation_and_artifact_registry_only
+  independent_theory_authority: false
+  formal_validation_not_substantive_validation_acknowledged: true
+inventory:
+  total_instantiated_cases: 59
+  positive_cases: 30
+  countercases: 16
+  confusion_cases: 13
+  operation_record_yaml_files: 59
+  markdown_record_companions: 59
+  shared_package_narratives: 10
+  yaml_markdown_pairing_status: complete_59_of_59
+  direct_output_class_coverage: 10_of_10
+  lock_critical_artifacts_complete: 11
+  retype_lock_critical_case_ids:
+  - C40-P1
+  - C40-N3
+  - C40-X6
+  package_narrative_ids:
+  - C35-A1_Operator_Weighting_Profile_and_RETYPE_Type_Boundary
+  - C40-P7_Competing_Projections
+  - C47-CP1_COMPOSE_to_PROJECT_AS_Continuity_Chain
+  - C49-CAL1_Calibration_Open_Result_Optional_Stop_and_Reentry
+  - C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain
+  - C53-CPD1_COMPOSE_PROJECT_AS_DECOMPOSE_Integrated_Audit_Chain
+  - C54-CD1_COMPOSE_to_DECOMPOSE_Non_Invertibility_Chain
+  - C54-DC1_DECOMPOSE_to_COMPOSE_Reformation_Chain
+  - C54-DP1_DECOMPOSE_to_PROJECT_AS_Threshold_Function_Chain
+  - C54-PD1_PROJECT_AS_to_DECOMPOSE_Origin_Source_Chain
+chapter_case_coverage:
+  chapter_17:
+    count: 13
+    case_ids:
+    - C17-ATTR-01
+    - C17-BRANCH-01
+    - C17-CHRON-01
+    - C17-FALSEL-01
+    - C17-HISTORY-01
+    - C17-LAMBDA-01
+    - C17-LINEAR-01
+    - C17-MACRO-01
+    - C17-OMEGA-01
+    - C17-PROJ-01
+    - C17-RES-01
+    - C17-TEL-01
+    - C17-WEAKPD-01
+  chapter_28:
+    count: 16
+    case_ids:
+    - C28-FRAME-01
+    - C28-ATTR-01
+    - C28-ASYM-01
+    - C28-NONEVENT-01
+    - C28-TRAJECTORY-01
+    - C28-GAIN-01
+    - C28-OVERFINE-01
+    - C28-UNSUPPORTED-01
+    - C28-OPTYPE-01
+    - C28-FRAGMENT-01
+    - C28-ESCAPE-01
+    - C28-FALSEMACRO-01
+    - C28-SUBRETYPE-01
+    - C28-SUBPATH-01
+    - C28-ANALOGY-01
+    - C28-MODULATOR-01
+  chapter_40:
+    count: 5
+    case_ids:
+    - C40-P1
+    - C40-P2
+    - C40-P3
+    - C40-N3
+    - C40-X6
+  chapter_40_/_chapter_38:
+    count: 1
+    case_ids:
+    - C40-N7
+  chapter_40_/_chapter_36:
+    count: 2
+    case_ids:
+    - C40-P7F
+    - C40-P7G
+  chapter_52:
+    count: 1
+    case_ids:
+    - C52-NC1
+  chapter_47_/_chapter_34:
+    count: 3
+    case_ids:
+    - C47-CP1A
+    - C47-CP1B
+    - C47-CP1C
+  chapter_54:
+    count: 7
+    case_ids:
+    - C54-CD1A
+    - C54-CD1B
+    - C54-DC1A
+    - C54-DC1B
+    - C54-DP1A
+    - C54-DP1B
+    - C54-PD1B
+  chapter_53:
+    count: 1
+    case_ids:
+    - C53-CPD1C
+  chapter_35:
+    count: 1
+    case_ids:
+    - C35-A1
+  chapter_38:
+    count: 2
+    case_ids:
+    - C38-N1
+    - C38-X3
+  chapter_50:
+    count: 5
+    case_ids:
+    - C50-FP1A
+    - C50-FP1B
+    - C50-FP1X
+    - C50-FP1C
+    - C50-FP1D
+  chapter_49:
+    count: 1
+    case_ids:
+    - C49-CAL1
+  chapter_51:
+    count: 1
+    case_ids:
+    - C51-RE1
+registry_controls:
+  case_entries_below_canonical_prose: true
+  case_success_not_global_validation: true
+  case_completeness_not_substantive_truth: true
+  canonical_prose_precedence_preserved: true
+  package_narrative_not_operation_record: true
+  formal_validation_not_semantic_authority: true
+  authority_inheritance: prohibited
+cases:
+- case_id: C17-ATTR-01
+  title: Trajectory or Attractor?
+  case_class: confusion_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible single Trajectory with Attractor-function claim withheld
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-ATTR-01_Trajectory_or_Attractor.md
+  yaml_artifact: 03_cases/yaml/C17-ATTR-01_Trajectory_or_Attractor.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 96a91788b77f3a2288c5db087b58920e76ad5df5a9cef60e9ac680d6edfa7f66
+    yaml: c759980ef7915e98bd4b92024557a3390b66c91afc86909b16844ace6ea858c2
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: admissible_with_bounded_claim
+- case_id: C17-BRANCH-01
+  title: Branching Path
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible branching Path
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-BRANCH-01_Branching_Path.md
+  yaml_artifact: 03_cases/yaml/C17-BRANCH-01_Branching_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 6de4c491108c5d3941ff107cdd794c986f98bdc6dfbbf128a01dbee15562c935
+    yaml: bacc04014f8ea27cbb7f3573e771c22be2d333ff31a15396b890b72cee373378
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: admissible
+- case_id: C17-CHRON-01
+  title: Chronology Presented as Path
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed Path claim with retained chronology
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-CHRON-01_Chronology_Presented_as_Path.md
+  yaml_artifact: 03_cases/yaml/C17-CHRON-01_Chronology_Presented_as_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: aef353bdcd9d341bdf37eee0a9d7f25b9d7843379f106ed81729d8e25a3ba37a
+    yaml: b8ad82ffbeeb358184f7e153143253c4b4c3d3686c0761b1ed38cf6e55d94800
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: claim_reduction_required
+- case_id: C17-FALSEL-01
+  title: False Central Non-Event
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: central Λ claim withdrawn with retained event field
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-FALSEL-01_False_Central_Non_Event.md
+  yaml_artifact: 03_cases/yaml/C17-FALSEL-01_False_Central_Non_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 6d795c01e417c79af1659cec4225034ea8c89bbf7927fe84cf45dbce4f4d6577
+    yaml: ff495d13cefdd2c90e5dbcc86c5f17f589a11523dd6ee9063a2e3a55d9382024
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: claim_reduction_required
+- case_id: C17-HISTORY-01
+  title: Similar End States, Different Histories
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible dimension-specific Path-Dependence claim across similar endpoints
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-HISTORY-01_Similar_End_States_Different_Histories.md
+  yaml_artifact: 03_cases/yaml/C17-HISTORY-01_Similar_End_States_Different_Histories.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 1d4f8422bfc74433271bf01ebe828677ba6ed499f56cfc3831b1ffd5b9ab136c
+    yaml: 7ca34f4ffe8bcd3f92a263a05a6b5727a681ec8fb7240344351e95e8ba38be1e
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: admissible_with_bounded_claim
+- case_id: C17-LAMBDA-01
+  title: Trajectory with a Central Non-Event
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible source-sensitive Trajectory with central Λ
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.md
+  yaml_artifact: 03_cases/yaml/C17-LAMBDA-01_Trajectory_with_Central_Non_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: d54308d3303a4d978637f4b359c7231f375e2db92aadc707cdc0f3382c366d24
+    yaml: 39ff2dd1b9fb9d2aafd3c0a6001686ca5a72258aaa1d27e7ed7545541c4601e2
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: admissible
+- case_id: C17-LINEAR-01
+  title: Simple Linear Path
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible bounded Path
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-LINEAR-01_Simple_Linear_Path.md
+  yaml_artifact: 03_cases/yaml/C17-LINEAR-01_Simple_Linear_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 557b9cd0d510fb200b485e283c0cd78953eb4d8c064d709241d00e0274de6ca8
+    yaml: 28dee441fd3b941ef3b42d0d2c47946faf730e07bd705225865ed1dadb2b19f1
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: admissible
+- case_id: C17-MACRO-01
+  title: Macro-Label without Traceable Path
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed source-indifferent macro-Trajectory composition
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C17-MACRO-01_Macro_Label_without_Traceable_Path.md
+  yaml_artifact: 03_cases/yaml/C17-MACRO-01_Macro_Label_without_Traceable_Path.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 0305f8ce7c0c5e1f3b09845c92ba99ccc722e102f4cfcb6e5fbc238951216465
+    yaml: c3fb3916ece6800605d32520f35f4a6f652f9c79df9440c90ecb668360ea057f
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: failed_transformation
+- case_id: C17-OMEGA-01
+  title: Composition through Omitted Asymmetry
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed Trajectory composition through omitted asymmetry
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-OMEGA-01_Composition_through_Omitted_Asymmetry.md
+  yaml_artifact: 03_cases/yaml/C17-OMEGA-01_Composition_through_Omitted_Asymmetry.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 1f558f66a2523eeb9cfa1aa99a6e81f7e6d5631ec619dab726a43558fdd7c24f
+    yaml: 9426c0b841183d52027034c4b5f8b2239e707e584119a574d2399a31ddd357eb
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: failed_transformation
+- case_id: C17-PROJ-01
+  title: Path or Projection?
+  case_class: confusion_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible source-sensitive Trajectory with projection claim separated
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C17-PROJ-01_Path_or_Projection.md
+  yaml_artifact: 03_cases/yaml/C17-PROJ-01_Path_or_Projection.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 2e4d880f1c46eaaacded73ec0c0159b7088c6c9290e986251adfc84557ffcf36
+    yaml: 1225146a841476963142d94815a2531a9feea548efcbf7c6571d4c2ab007d6a7
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: admissible_with_bounded_claim
+- case_id: C17-RES-01
+  title: Path or Resolution Drift?
+  case_class: confusion_case
+  chapter_owner: Chapter 17
+  operation: DECOMPOSE
+  local_result: resolution-neutral finer reconstruction; no new Path or stronger historical claim
+  canonical_output_mapping: resolution_neutral
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-RES-01_Path_or_Resolution_Drift.md
+  yaml_artifact: 03_cases/yaml/C17-RES-01_Path_or_Resolution_Drift.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 1b0c01b3523e21fcc6318eac98996a4eaf9f2054cb41e0352e9ef382648c358b
+    yaml: 38478d732eabcf2dcd905eb3454a5296c839ae16d9281e0ed6e7c0370e56a219
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: resolution_neutral
+- case_id: C17-TEL-01
+  title: Teleological Composition
+  case_class: countercase
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: failed teleological Trajectory composition
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-TEL-01_Teleological_Composition.md
+  yaml_artifact: 03_cases/yaml/C17-TEL-01_Teleological_Composition.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e6232c0b3a8f30d6d91f167ffd40cb28264424db69b2ffe042fff63b8a2df171
+    yaml: 726fccbf6e636c44b5068f71f1967efd49cc55e8760f4832ca88f82a4adcf8f7
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: failed_transformation
+- case_id: C17-WEAKPD-01
+  title: Repeated Pattern with Weak Path Dependence
+  case_class: positive_case
+  chapter_owner: Chapter 17
+  operation: COMPOSE
+  local_result: admissible repeated-pattern Path with weak order dependence
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_locally_audited_and_final_limits_reviewed
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C17-WEAKPD-01_Repeated_Pattern_with_Weak_Path_Dependence.md
+  yaml_artifact: 03_cases/yaml/C17-WEAKPD-01_Repeated_Pattern_with_Weak_Path_Dependence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: b08a8095eb239cdad27d2114591ec0109348c77ee41a7d36f2eed03c13a21844
+    yaml: 9da24c0bb88e97e9235598ace15f23efd230f35e71cefff6445da54e1285b0f9
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+  final_limits_review:
+    status: confirmed_without_route_change
+    selected_class_confirmed: admissible_with_bounded_claim
+- case_id: C28-FRAME-01
+  title: Frame-Typed Occurrence
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded decomposition of one Frame-typed occurrence into source-supported production and maintenance
+    relations
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-FRAME-01_Frame_Typed_Occurrence.md
+  yaml_artifact: 03_cases/yaml/C28-FRAME-01_Frame_Typed_Occurrence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ec61d94ab8b5a9b3b9871dcc51775ae9ec1b747462f4d25326d3dec79632ae74
+    yaml: 3256dea2dd23afdae1ac08881ab42b9c661808eea69bb5de1f385a466f94927e
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ATTR-01
+  title: Attractor-Typed Occurrence
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded decomposition of an Attractor-typed occurrence into recurrence-maintaining relations
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ATTR-01_Attractor_Typed_Occurrence.md
+  yaml_artifact: 03_cases/yaml/C28-ATTR-01_Attractor_Typed_Occurrence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ad1199560287a6a202cdc82f18f4a23c2b0b1f1ad3c8b52131d397e63274efca
+    yaml: 152c4f77b03061529ea253f2c3feae4484695d1d965c43cb25c0e577cc418061
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ASYM-01
+  title: Distributed Asymmetry
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded reconstruction of a distributed Asymmetry occurrence without single-center inflation
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ASYM-01_Distributed_Asymmetry.md
+  yaml_artifact: 03_cases/yaml/C28-ASYM-01_Distributed_Asymmetry.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 7e8af108d24fdbfd6857587f4f7060a9e6ccc2f06e436be89330ffb59b576977
+    yaml: 8ca986006132550317951eaea459da9d0af105a07cc672f6bb70f56b4799c31c
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-NONEVENT-01
+  title: Structured Non-Event
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible bounded decomposition of a structured Non-Event through expectation, blockage, positive sub-events,
+    and later carryover
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-NONEVENT-01_Structured_Non_Event.md
+  yaml_artifact: 03_cases/yaml/C28-NONEVENT-01_Structured_Non_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 86967ae9399f6118be4c45b6d0f6d60c5f29c498df1a306a2ed95c90068d83de
+    yaml: ccc874b48d6ab9ebd7216bcc34b980bed1dd9c5c71edbad88992a09584620845
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-TRAJECTORY-01
+  title: Admissible Trajectory Decomposition
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: admissible same-reference Trajectory decomposition with explicit subpaths, relations, residual binding, Loss,
+    and no hidden RETYPE
+  canonical_output_mapping: admissible
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.md
+  yaml_artifact: 03_cases/yaml/C28-TRAJECTORY-01_Admissible_Trajectory_Decomposition.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: f2dd6103885af8dadb17c2ae7526d7f2f212822200f2d7378b6801f0bf6ac1f8
+    yaml: 5aa3432248d59975f832eb756c441b6e0df8d151f09d0e069bc4775485c069d2
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-GAIN-01
+  title: Resolution Gain
+  case_class: positive_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: Resolution Gain through source-supported differentiation of access, sequencing, binding, and repair with reduction
+    of the broader authority-concentration claim
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-GAIN-01_Resolution_Gain.md
+  yaml_artifact: 03_cases/yaml/C28-GAIN-01_Resolution_Gain.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 7082f6ab9734ef8ec33dcf1192c44ee3cbb5dd9711850da77b0eb12731fa78c3
+    yaml: 78a86f65c3f18fd614f1b81870b8a8f201e08add5e2636779ab3bf11ba67a84d
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-OVERFINE-01
+  title: Overfine Analysis below the Relevance Floor
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: supported microdetail adds no warranted Praxis difference; continuation below the Relevance Floor must stop
+    while the prior adequate reconstruction remains preserved
+  canonical_output_mapping: mandatory_stop
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-OVERFINE-01_Overfine_Analysis_below_the_Relevance_Floor.md
+  yaml_artifact: 03_cases/yaml/C28-OVERFINE-01_Overfine_Analysis_below_the_Relevance_Floor.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 5e815279223af4f0d1dcef01f544467616002a5e1cf3951fb43263895c764da8
+    yaml: 64c184cad6c2db5fcfae2d49957835b1de579beeb74657b2c046e6924d7fbf61
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-UNSUPPORTED-01
+  title: Unsupported Internal Structure
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the hidden internal-routing reconstruction exceeds the Source Ceiling; only the recorded event field and coarse
+    order survive
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-UNSUPPORTED-01_Unsupported_Internal_Structure.md
+  yaml_artifact: 03_cases/yaml/C28-UNSUPPORTED-01_Unsupported_Internal_Structure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: a8fe9b9c3da05bd1aa29498ba101be1b79be9a0769bf7ef1ca35bf31170062fc
+    yaml: 32d45e0226c548b0794625992cbe9e8ae853fbc4430e86f0db01db530decfd73
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-OPTYPE-01
+  title: Operator Decomposition Error
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: DECOMPOSE fails because the declared source is an operator type rather than an occurrence or composite
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-OPTYPE-01_Operator_Decomposition_Error.md
+  yaml_artifact: 03_cases/yaml/C28-OPTYPE-01_Operator_Decomposition_Error.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 42d04026172d2f3a2197f586614c3a250cdb447cb69769e83772b100d8b6082d
+    yaml: e6e90a3fd32a4416730f118ed2805f09aec3efade96745faa313c1326c48b039
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-FRAGMENT-01
+  title: Fragmentation without Source Function
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the attempted decomposition fragments the source into supported items without supported relations or reconstructible
+    source-function return
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-FRAGMENT-01_Fragmentation_without_Source_Function.md
+  yaml_artifact: 03_cases/yaml/C28-FRAGMENT-01_Fragmentation_without_Source_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 87c7bb815a99d21f2d47fe216cb11bfdee6652c1bf61172160e76fb9056fee6c
+    yaml: 2aef1a7caf2322373942e63d2ba467adef1de586cc9c2cd06fa77504221176c3
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ESCAPE-01
+  title: Resolution Escape
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: repeated granularity change displaces rather than answers the counterexample; the finality claim remains failed
+    and the escape route must stop
+  canonical_output_mapping: mandatory_stop
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ESCAPE-01_Resolution_Escape.md
+  yaml_artifact: 03_cases/yaml/C28-ESCAPE-01_Resolution_Escape.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: fcf84fedab86ea4d95d08e35f54d1f2795f728c202a1f31ae0a73de83c8198c5
+    yaml: 2986f3d6b0e0af56cb2210b071de037e743c999848d7a28a41aeaf22a6d72b5f
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-FALSEMACRO-01
+  title: False Macro-Asymmetry
+  case_class: countercase
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the macro-Asymmetry claim exceeds the supported local field; local differences survive, but coordinated macrostructure
+    is not established
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-FALSEMACRO-01_False_Macro_Asymmetry.md
+  yaml_artifact: 03_cases/yaml/C28-FALSEMACRO-01_False_Macro_Asymmetry.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 224fdddc1ff307df472d9b1ddcec5c912bee0658098d1f44dcdd61566492b355
+    yaml: 42ec47f201cced0306836d223244cbf79331779bf137618e12eefd0d07c5e417
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-SUBRETYPE-01
+  title: SUB or RETYPE?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the internal Trajectory reconstruction is retained, while the audit-training calibration function is separated
+    and not validated in this DECOMPOSE record
+  canonical_output_mapping: partially_admissible
+  artifact_status: instantiated_schema_validated_locally_audited_and_lock_critical_chain_closed
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C28-SUBRETYPE-01_SUB_or_RETYPE.md
+  yaml_artifact: 03_cases/yaml/C28-SUBRETYPE-01_SUB_or_RETYPE.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: f25ec2d0361ab73f628c6e385bd70070426cb3d8bbfe3dba6b42b483069e577d
+    yaml: 5f0f0e8e125f746ad1d3b105edb2d2ee51d6ad35a1944bc7254653cda11d7d70
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-SUBPATH-01
+  title: SUB or New PATH?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the same-source subpath reconstruction is retained, while the candidate independent sequence is separated
+    for a future COMPOSE claim rather than absorbed into SUB
+  canonical_output_mapping: partially_admissible
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-SUBPATH-01_SUB_or_New_PATH.md
+  yaml_artifact: 03_cases/yaml/C28-SUBPATH-01_SUB_or_New_PATH.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e654884be0b6153235d0c7549f19f0d2db9e9325bda25a1290087e4e30679405
+    yaml: 91102253d9996a1100351fbe8a9e3978a68e47da773e0d908a1a2f8b0d2193c6
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-ANALOGY-01
+  title: Decomposition or Analogy?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the foreign-domain comparison preserves a bounded gating resemblance but does not establish source-bound decomposition;
+    the stronger identity claim is withdrawn and the result maps to analogy_only
+  canonical_output_mapping: analogy_only
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-ANALOGY-01_Decomposition_or_Analogy.md
+  yaml_artifact: 03_cases/yaml/C28-ANALOGY-01_Decomposition_or_Analogy.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 16d521df798f48de6e1ae57c86d8d240bbea03b6b3e37fb30cb6ed5e07be6f05
+    yaml: c5b7518b9c8280f7608032058a7b9b168e8240570bd60e8911790b7fd856410c
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C28-MODULATOR-01
+  title: Modulator or New Operator?
+  case_class: confusion_case
+  chapter_owner: Chapter 28
+  operation: DECOMPOSE
+  local_result: the recurrent profile is reconstructed as a bounded modulator of existing operator-typed occurrences; the
+    stronger claim that it constitutes a new operator is withdrawn
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_schema_validated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C28-MODULATOR-01_Modulator_or_New_Operator.md
+  yaml_artifact: 03_cases/yaml/C28-MODULATOR-01_Modulator_or_New_Operator.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: a10c5973cca06a09fd04a5d104cf9bf6c092dac6cfe8c197c5257879cdbfe36c
+    yaml: b903094fbd637118e46c7de53e64649306c25a49a53b99dc71c7b4831e58b1b1
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C40-P1
+  title: Trajectory as Bounded Frame-Function
+  case_class: positive_case
+  chapter_owner: Chapter 40
+  operation: PROJECT_AS
+  local_result: role- and interval-bounded historical frame-function with origin type preserved
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C40-P1_Trajectory_as_Bounded_Frame_Function.md
+  yaml_artifact: 03_cases/yaml/C40-P1_Trajectory_as_Bounded_Frame_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e4f727660fa7331bf386dbf56c3bad00b1a2b3e653178ec102dcac1c7dd91e41
+    yaml: b0f51f8cff14436d6a555faf38697247510b3f81bce0be24edde6f7204a4feac
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+- case_id: C40-P2
+  title: Trajectory as Macro-Event
+  case_class: positive_case
+  chapter_owner: Chapter 40
+  operation: PROJECT_AS
+  local_result: non-punctualized wider-path Macro-Event function with origin type and internal duration preserved
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C40-P2_Trajectory_as_Macro_Event.md
+  yaml_artifact: 03_cases/yaml/C40-P2_Trajectory_as_Macro_Event.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 9db249c0be30aa970832b5bd94de466b3d86dc180338f5c18a030c715c678c9b
+    yaml: 3496f51f74002f969dafdaa70d486d24db8a04a8a8fff85f523dae169a5332b0
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, periodization, normative,
+    application, person, legitimacy, sanction, recommendation, or authority status.
+- case_id: C40-P3
+  title: Recurrent Trajectory Form as Attractor-Function
+  case_class: positive_case
+  chapter_owner: Chapter 40
+  operation: PROJECT_AS
+  local_result: source-traceable dynamic attractor-function with recurrence, friction, and reopening bounds preserved
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.md
+  yaml_artifact: 03_cases/yaml/C40-P3_Recurrent_Trajectory_Form_as_Attractor_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ff69b497a2252adc0d8a2e6afac52aaca8cfca91f8b1bd552ab5b5ebdfdc82bf
+    yaml: e64722603144a28c563897014a8e526ee3f942e7bd8a47515730cf9bd1ad0a73
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, probabilistic, predictive,
+    normative, application, person/group, legitimacy, sanction, recommendation, or authority status.
+- case_id: C40-N3
+  title: PROJECT_AS Label-Substitution Failure
+  case_class: countercase
+  chapter_owner: Chapter 40
+  operation: PROJECT_AS
+  local_result: source-indifferent registry label fails to establish a contextual target function
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C40-N3_PROJECT_AS_Label_Substitution_Failure.md
+  yaml_artifact: 03_cases/yaml/C40-N3_PROJECT_AS_Label_Substitution_Failure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 8809b6c62cee8254b572d851ed64f02d156cbd8f3086265e191ac45f04498a4d
+    yaml: 9f47b9556cbfac1f1691d320578a09551d4acb8abf449bfe8c0a4000d7bb9e7e
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, application,
+    or authority status.
+- case_id: C40-X6
+  title: Projection versus Structural Analogy
+  case_class: confusion_case
+  chapter_owner: Chapter 40
+  operation: PROJECT_AS
+  local_result: bounded structural analogy retained; semantic preservation and contextual target function unestablished
+  canonical_output_mapping: analogy_only
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C40-X6_Projection_versus_Structural_Analogy.md
+  yaml_artifact: 03_cases/yaml/C40-X6_Projection_versus_Structural_Analogy.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 4b5fd60e03ef31cfd601c23aedd54bd78d345ddf0ed882bf7788ebeaa172887a
+    yaml: 98089e0eba13eaa408f94ce76a0bc6b13c0d9bde128b83bd50594b057887df3b
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, semantic-identity, normative,
+    application, or authority status.
+- title: Historical Frame-Function Candidate
+  case_class: positive_case
+  chapter_owner: Chapter 40 / Chapter 36
+  operation: PROJECT_AS
+  local_result: provisional same-coordinate candidate with material unresolved rival
+  canonical_output_mapping: admissible_but_provisional
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C40-P7F_Frame_Function_Candidate.md
+  schema_validation: passed
+  local_audit:
+    status: pass_with_material_provisionality
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, person-level,
+    political, legal, governance, application, or authority status.
+  case_id: C40-P7F
+  yaml_artifact: 03_cases/yaml/C40-P7F_Frame_Function_Candidate.yaml
+  sha256:
+    markdown: 6d3839498203845c218cd184099f8c50e829f33e5382c468a4399891f15377f8
+    yaml: 4f2a79db59b5d3ee0b1e5e0bbf1c14bc9dc4e889a1455def716b24c400f8bdec
+    package_markdown: a82f06b69068a28ad6570169c7c6866fd2eefa32b23c03f14403e8f1560f3787
+  package_markdown_artifact: 03_cases/packages/C40-P7_Competing_Projections.md
+- title: Dynamic Attractor-Function Candidate
+  case_class: positive_case
+  chapter_owner: Chapter 40 / Chapter 36
+  operation: PROJECT_AS
+  local_result: provisional same-coordinate candidate with material unresolved rival
+  canonical_output_mapping: admissible_but_provisional
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C40-P7G_Attractor_Function_Candidate.md
+  schema_validation: passed
+  local_audit:
+    status: pass_with_material_provisionality
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, normative, person-level,
+    political, legal, governance, application, or authority status.
+  case_id: C40-P7G
+  yaml_artifact: 03_cases/yaml/C40-P7G_Attractor_Function_Candidate.yaml
+  sha256:
+    markdown: 897173a216ce3d04c79ae408c3751eef34bcd690df66a175001482232618bcc6
+    yaml: 34f1250bb2a8ae0dd749e7caedc2744a8e4d584e4f0affe9e60a91e9444cc3b2
+    package_markdown: a82f06b69068a28ad6570169c7c6866fd2eefa32b23c03f14403e8f1560f3787
+  package_markdown_artifact: 03_cases/packages/C40-P7_Competing_Projections.md
+- case_id: C40-N7
+  title: Person-Level Type Jump
+  case_class: countercase
+  chapter_owner: Chapter 40 / Chapter 38
+  operation: PROJECT_AS
+  local_result: configuration-level function and bounded participation do not support an intrinsic person property; the person-type
+    projection fails
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C40-N7_Person_Level_Type_Jump.md
+  yaml_artifact: 03_cases/yaml/C40-N7_Person_Level_Type_Jump.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 6e1567f647f8510294aebdfa85cf150e85ae1f13838c323e1a4ddef2949c5782
+    yaml: 3ea9ee7384b3120a888f3c731a5680ebe31bf2b6e1b74b119e4db6a552cec9d8
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, diagnostic, clinical, legal,
+    forensic, normative, person/group, legitimacy, recommendation, sanction, application, or authority status.
+- case_id: C52-NC1
+  title: Competing Decompositions of a Compressed Handoff Occurrence
+  case_class: confusion_case
+  chapter_owner: Chapter 52
+  operation: DECOMPOSE
+  local_result: two source-traceable partial decompositions remain preserved, but no adequate single decisive finer reconstruction
+    is retained
+  canonical_output_mapping: non_capture
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C52-NC1_Competing_Decompositions_of_a_Compressed_Handoff_Occurrence.md
+  yaml_artifact: 03_cases/yaml/C52-NC1_Competing_Decompositions_of_a_Compressed_Handoff_Occurrence.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: b0c90110de5c70442fde2a584639f29d41f51d847cb8073c1541d6c2b92fd7e6
+    yaml: 276cb6400e3424158630c0c1bd531f7ed8e80dac2f0d8a171d14a9e51ba85bd0
+  authority_boundary: Case artifact below canonical prose; no independent theory, empirical, causal, diagnostic, legal, organizational,
+    normative, recommendation, sanction, application, or authority status.
+- case_id: C47-CP1A
+  title: Compose Distributed Access Composite
+  case_class: positive_case
+  chapter_owner: Chapter 47 / Chapter 34
+  operation: COMPOSE
+  local_result: bounded relational composite Q47 with no automatic target function
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C47-CP1A_COMPOSE_Distributed_Access_Composite.md
+  yaml_artifact: 03_cases/yaml/C47-CP1A_COMPOSE_Distributed_Access_Composite.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 5d504c11b850756096b47917ee77626702b49a88924e214772da6ecb06b327f0
+    yaml: 66b9d27cb2860e7671d354437a52a2542dc4eb5de432ad84830186ad1f7419a0
+    package_markdown: 56c02d8921b1840c864d34a54ccff427ea1d0c3a73920964f06f43bb6d0bb498
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C47-CP1_COMPOSE_to_PROJECT_AS_Continuity_Chain.md
+- case_id: C47-CP1B
+  title: Project Composite as Higher-Level Access Function
+  case_class: positive_case
+  chapter_owner: Chapter 47 / Chapter 34
+  operation: PROJECT_AS
+  local_result: bounded source-sensitive higher-level access function in H47 with I47 no-projection
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C47-CP1B_PROJECT_AS_Higher_Level_Access_Function.md
+  yaml_artifact: 03_cases/yaml/C47-CP1B_PROJECT_AS_Higher_Level_Access_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: b66fd1b77db0d282535801f05fc0b8c694e96d7100464c3f98ee3408f3622ea8
+    yaml: daa63740995823ff8e64ba75ada328d044db71a2e841bc4c7b3bfacd5e8d08a8
+    package_markdown: 56c02d8921b1840c864d34a54ccff427ea1d0c3a73920964f06f43bb6d0bb498
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C47-CP1_COMPOSE_to_PROJECT_AS_Continuity_Chain.md
+- case_id: C47-CP1C
+  title: Nominal Referent-Shift Projection Failure
+  case_class: countercase
+  chapter_owner: Chapter 47 / Chapter 34
+  operation: PROJECT_AS
+  local_result: nominal sameness fails Reference and Functional Continuity; target remains source-insensitive
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C47-CP1C_PROJECT_AS_Nominal_Referent_Shift_Failure.md
+  yaml_artifact: 03_cases/yaml/C47-CP1C_PROJECT_AS_Nominal_Referent_Shift_Failure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 6f3ef9128e180d342b7fca624d14a4db1d9c97ceada18ac9cd8867d568aafa5b
+    yaml: a8605da4669f9cc26ae6b8b89f9175dc093daeb66aa7f98b4d78d51109ea23ec
+    package_markdown: 56c02d8921b1840c864d34a54ccff427ea1d0c3a73920964f06f43bb6d0bb498
+  authority_boundary: Synthetic failure record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C47-CP1_COMPOSE_to_PROJECT_AS_Continuity_Chain.md
+- case_id: C54-CD1A
+  title: Compose Bounded Path P54
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: COMPOSE
+  local_result: bounded path P54 with explicit side-branch exclusion and transition uncertainty
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-CD1A_COMPOSE_Bounded_Path_P54.md
+  yaml_artifact: 03_cases/yaml/C54-CD1A_COMPOSE_Bounded_Path_P54.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: feda64e0be2e91c197b95bb97ecb394c42779e083ae75c8de97dc53e72c23fe1
+    yaml: 3a3f1d676cc9d3343b0c827345457faf988a8d91de2d4e111c46a9245d123ff1
+    package_markdown: cd2bf49af7d5e3c0b4724b5430f1d549ea6f6ffa883fa96d5f36b7bc7ab73216
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-CD1_COMPOSE_to_DECOMPOSE_Non_Invertibility_Chain.md
+- case_id: C54-CD1B
+  title: Reopen P54 Without Inversion
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: DECOMPOSE
+  local_result: same-reference finer reconstruction with inherited Loss and no lossless return
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-CD1B_DECOMPOSE_Reopen_P54.md
+  yaml_artifact: 03_cases/yaml/C54-CD1B_DECOMPOSE_Reopen_P54.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 8a31a1ab58ca3d726cd8b3511a75949c9e3cf495e4dd152bac90b2fea0c89e1a
+    yaml: 6e9ed89eecddb3cf02e1d7c85894c87acfc6d205049f9d83c298dd5f01a164bd
+    package_markdown: cd2bf49af7d5e3c0b4724b5430f1d549ea6f6ffa883fa96d5f36b7bc7ab73216
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-CD1_COMPOSE_to_DECOMPOSE_Non_Invertibility_Chain.md
+- case_id: C54-DC1A
+  title: Decompose Coordination Bundle B55
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: DECOMPOSE
+  local_result: finer B55 component model preserving inferred/direct distinction
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-DC1A_DECOMPOSE_B55.md
+  yaml_artifact: 03_cases/yaml/C54-DC1A_DECOMPOSE_B55.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ec3b9da8c8a0890dfd00cdd25ad53e83b453759beb670f83e39873f0e49b736d
+    yaml: 83647ac8aef841e5f57e3eac98413ef990f6d1ed0a6d79fb55b55ba0a36cb02b
+    package_markdown: 7404c0ef0b145dfe99e9964348e064e667d837219e90c88720c7984c42b7137c
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-DC1_DECOMPOSE_to_COMPOSE_Reformation_Chain.md
+- case_id: C54-DC1B
+  title: Compose New Residual-Load Composite K55
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: COMPOSE
+  local_result: new K55 relation composite without restoring B55 identity
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-DC1B_COMPOSE_K55.md
+  yaml_artifact: 03_cases/yaml/C54-DC1B_COMPOSE_K55.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 5642b1fc3ebe8cf726660f4a3694dd287ed97ed7de4297dce87cdc74bef3cd58
+    yaml: eda4c4e8a7c23b30d45b0379b7c180a8afbcff112e09fa6bf0c8ea475baf5f4a
+    package_markdown: 7404c0ef0b145dfe99e9964348e064e667d837219e90c88720c7984c42b7137c
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-DC1_DECOMPOSE_to_COMPOSE_Reformation_Chain.md
+- case_id: C54-DP1A
+  title: Decompose H56 Before Projection
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: DECOMPOSE
+  local_result: same-reference phase reconstruction with correction-window distinction and no target function
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-DP1A_DECOMPOSE_H56.md
+  yaml_artifact: 03_cases/yaml/C54-DP1A_DECOMPOSE_H56.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 49678be9d03066c24e49435125e69c153d02a87e0fe35e2e4ea4257c48a83038
+    yaml: 2271bc92e93caf592a81c7dc16bf0d365f9a5a7c003e45ee24188619a44a3e1b
+    package_markdown: d40863fccd98edf58673ab2c973246b8577d1733db72059c7606aa1a7581f84a
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-DP1_DECOMPOSE_to_PROJECT_AS_Threshold_Function_Chain.md
+- case_id: C54-DP1B
+  title: Project H56 as A56 Threshold Function
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: PROJECT_AS
+  local_result: bounded source-sensitive A56 correction-window threshold function with B56 no-projection
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-DP1B_PROJECT_AS_A56_Threshold_Function.md
+  yaml_artifact: 03_cases/yaml/C54-DP1B_PROJECT_AS_A56_Threshold_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 191418fca22a8420e23c7f7c75b163beebb2ac24c99a985f4a9c18b9bca02c82
+    yaml: 165fcb2af791f66bcd8d07b2211bf5f48cce06299c6bdb2733ddbb9f5f2c479b
+    package_markdown: d40863fccd98edf58673ab2c973246b8577d1733db72059c7606aa1a7581f84a
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-DP1_DECOMPOSE_to_PROJECT_AS_Threshold_Function_Chain.md
+- case_id: C54-PD1B
+  title: Reopen Origin Trajectory After Projection
+  case_class: positive_case
+  chapter_owner: Chapter 54
+  operation: DECOMPOSE
+  local_result: origin Q0–Q5 trajectory reopened; Macro-Event target function remains separate
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C54-PD1B_DECOMPOSE_Q0_Q5_Origin_Trajectory.md
+  yaml_artifact: 03_cases/yaml/C54-PD1B_DECOMPOSE_Q0_Q5_Origin_Trajectory.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: cc43ff32d089e45defb5cf13074f247ffb3393c0f54dc2f4920b40011cb47b54
+    yaml: 718a6a866225edcef75409deda93e84e5a3606e19d5a0b6e80c084f74e2aac57
+    package_markdown: c0f1a54cdc13e2e6112a2bab00d5a1eb2e78aa916da9515863917ad66d6fcb23
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C54-PD1_PROJECT_AS_to_DECOMPOSE_Origin_Source_Chain.md
+- case_id: C53-CPD1C
+  title: Complete-Return Claim After Compose and Projection
+  case_class: confusion_case
+  chapter_owner: Chapter 53
+  operation: DECOMPOSE
+  local_result: complete/lossless return withdrawn; bounded reopening proposed for separate retest
+  canonical_output_mapping: claim_reduction_required
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: false
+  markdown_artifact: 03_cases/markdown/C53-CPD1C_DECOMPOSE_Q47_Complete_Return_Claim.md
+  yaml_artifact: 03_cases/yaml/C53-CPD1C_DECOMPOSE_Q47_Complete_Return_Claim.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: ff8a3035b408e7648f87a882b911c6fbc860f2bdec33c28fddc66222c2197c4c
+    yaml: b3936dcf8e8e416fc6181a5af81810d82a0583c2b258def6ae4ad7d41041fc55
+    package_markdown: 20f6344cd3c0f4ef2a2a02e7fcd3f82a8d489a233a2bee2f0d436e77e0ddc880
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C53-CPD1_COMPOSE_PROJECT_AS_DECOMPOSE_Integrated_Audit_Chain.md
+- case_id: C35-A1
+  title: Operator-Weighting Profile as Modulating Function
+  case_class: positive_case
+  chapter_owner: Chapter 35
+  operation: PROJECT_AS
+  local_result: configuration-bound Ω/Θ profile changes continuation cost
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C35-A1_PROJECT_AS_Operator_Weighting_Profile.md
+  yaml_artifact: 03_cases/yaml/C35-A1_PROJECT_AS_Operator_Weighting_Profile.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: f3a40dc5620d2bdc23abac21a5f21e201abe8b40951eea0a0f12ff5ce9cfe0a5
+    yaml: b2ea6f9adf72d526850d8a9717519d086e4ca7569d3f2f6a3f2c824748bd04c1
+    package_markdown: cbb4e221b0f17c9b557dc0b290b0ea0ff037c7fc2f4e231cb7e3b905a52bab35
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C35-A1_Operator_Weighting_Profile_and_RETYPE_Type_Boundary.md
+- case_id: C38-N1
+  title: Origin-Type Replacement Failure
+  case_class: countercase
+  chapter_owner: Chapter 38
+  operation: PROJECT_AS
+  local_result: profile is incorrectly rewritten as PMS operator type
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C38-N1_PROJECT_AS_Origin_Type_Replacement_Failure.md
+  yaml_artifact: 03_cases/yaml/C38-N1_PROJECT_AS_Origin_Type_Replacement_Failure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: a672881c90cded371e1a06064a7d2476b8061fdd154106c5f2a3e8325a2c5e47
+    yaml: 09ba644f2b6baea987c9883330559932e1b4e94a785883d2dbb7626cf558c563
+    package_markdown: cbb4e221b0f17c9b557dc0b290b0ea0ff037c7fc2f4e231cb7e3b905a52bab35
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C35-A1_Operator_Weighting_Profile_and_RETYPE_Type_Boundary.md
+- case_id: C38-X3
+  title: Projection or Φ-Recontextualization
+  case_class: confusion_case
+  chapter_owner: Chapter 38
+  operation: PROJECT_AS
+  local_result: changed description without target function
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C38-X3_PROJECT_AS_or_Recontextualization_Failure.md
+  yaml_artifact: 03_cases/yaml/C38-X3_PROJECT_AS_or_Recontextualization_Failure.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 2b3a4bd7f1744559ec207f8c72c4dee86232e5f3309bbbc16e7b97cbe43fd6c4
+    yaml: 11918328faafa4f6820a2a76059da456b694a3a09d0116a74cd991a73546e2f9
+    package_markdown: cbb4e221b0f17c9b557dc0b290b0ea0ff037c7fc2f4e231cb7e3b905a52bab35
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C35-A1_Operator_Weighting_Profile_and_RETYPE_Type_Boundary.md
+- case_id: C50-FP1A
+  title: Failed Coarse Frame-Function Claim
+  case_class: countercase
+  chapter_owner: Chapter 50
+  operation: PROJECT_AS
+  local_result: original failed projection preserved
+  canonical_output_mapping: failed_transformation
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C50-FP1A_PROJECT_AS_Failed_Coarse_Frame_Function.md
+  yaml_artifact: 03_cases/yaml/C50-FP1A_PROJECT_AS_Failed_Coarse_Frame_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: efb1247139de2ca6c7e3bea5d318b40434a2388fdcf3b9d0a435536a22223106
+    yaml: ffbb4e41a2e17e7ea0125809c90b648f5393fd293f695c1a3bd871ac5a86b12a
+    package_markdown: 1f666278b2d538e8aebb6f7d15fba6d4c8e5705d635e67d83904af6e631a7ece
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md
+- case_id: C50-FP1B
+  title: Narrower Path Successor
+  case_class: positive_case
+  chapter_owner: Chapter 50
+  operation: DECOMPOSE
+  local_result: same-reference finer path reconstruction
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C50-FP1B_DECOMPOSE_Narrower_Path_Reconstruction.md
+  yaml_artifact: 03_cases/yaml/C50-FP1B_DECOMPOSE_Narrower_Path_Reconstruction.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 835f50504dccc7492e6458a0f546f0d108d21f3d75cf364d4358b8e53472674e
+    yaml: e4cc8191dc5c52978234fb31ba111f9657dbcd1f89e2c71677279ce352cc3305
+    package_markdown: 1f666278b2d538e8aebb6f7d15fba6d4c8e5705d635e67d83904af6e631a7ece
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md
+- case_id: C50-FP1X
+  title: Granularity Escape Stop
+  case_class: confusion_case
+  chapter_owner: Chapter 50
+  operation: DECOMPOSE
+  local_result: detail continuation postpones objection without purchase
+  canonical_output_mapping: mandatory_stop
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C50-FP1X_DECOMPOSE_Granularity_Escape_Stop.md
+  yaml_artifact: 03_cases/yaml/C50-FP1X_DECOMPOSE_Granularity_Escape_Stop.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e2f4ac31e65a9e24a66b9a4e3cfdfe72a14f5bc405179cb014e9db239688249e
+    yaml: ab4930debd47d167fcb7e709a6b2b01cc40a40c31090eb9df877978effe47f8b
+    package_markdown: 1f666278b2d538e8aebb6f7d15fba6d4c8e5705d635e67d83904af6e631a7ece
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md
+- case_id: C50-FP1C
+  title: Broader Coordination Composite
+  case_class: positive_case
+  chapter_owner: Chapter 50
+  operation: COMPOSE
+  local_result: new K50 composite preserves original failure
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C50-FP1C_COMPOSE_Broader_Coordination_Composite.md
+  yaml_artifact: 03_cases/yaml/C50-FP1C_COMPOSE_Broader_Coordination_Composite.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: e8248eb3961bd50f56f7a082ee1ecffc7b8fe1a6cf5309e6195da4afd5da1aa0
+    yaml: e5f16ee9c467445d9561277bb3a255e001f3918f07d589e7515700d6aad0f314
+    package_markdown: 1f666278b2d538e8aebb6f7d15fba6d4c8e5705d635e67d83904af6e631a7ece
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md
+- case_id: C50-FP1D
+  title: New Independent Threshold Projection
+  case_class: positive_case
+  chapter_owner: Chapter 50
+  operation: PROJECT_AS
+  local_result: new K50 target function without claim rescue
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C50-FP1D_PROJECT_AS_New_Threshold_Function.md
+  yaml_artifact: 03_cases/yaml/C50-FP1D_PROJECT_AS_New_Threshold_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 50c2bdddff524ba113194ceaa9987ac39d1ea1ffe17e882d9e5313cb881e1d09
+    yaml: 20ef6fbdceaf448d29fff81952897cb068715d372d9d85ae3873675fb9aa1d12
+    package_markdown: 1f666278b2d538e8aebb6f7d15fba6d4c8e5705d635e67d83904af6e631a7ece
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C50-FP1_Failure_Preservation_and_Projection_Rescue_Chain.md
+- case_id: C49-CAL1
+  title: Calibration-Open Threshold Function
+  case_class: confusion_case
+  chapter_owner: Chapter 49
+  operation: PROJECT_AS
+  local_result: bounded form with unresolved threshold and optional Stop
+  canonical_output_mapping: admissible_but_provisional
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C49-CAL1_PROJECT_AS_Calibration_Open_Threshold_Function.md
+  yaml_artifact: 03_cases/yaml/C49-CAL1_PROJECT_AS_Calibration_Open_Threshold_Function.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 304f0256584f0c2b6d0eee0c7f28483b29e0e9e56a0460f40d03093bdab035b3
+    yaml: f53165abf3acd7506aec2578df97639edadd0db5393b0bd19e2b5c60ae1e318c
+    package_markdown: bf76f5257d96aaafd604d1a7995b8551ebb4ada8f63d5e690f2321c23b13b8cc
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C49-CAL1_Calibration_Open_Result_Optional_Stop_and_Reentry.md
+- case_id: C51-RE1
+  title: Re-entry After New Sources
+  case_class: positive_case
+  chapter_owner: Chapter 51
+  operation: PROJECT_AS
+  local_result: new source-triggered recalibrated retest
+  canonical_output_mapping: admissible_with_bounded_claim
+  artifact_status: instantiated_and_locally_audited
+  lock_critical: true
+  markdown_artifact: 03_cases/markdown/C51-RE1_PROJECT_AS_Reentry_After_New_Sources.md
+  yaml_artifact: 03_cases/yaml/C51-RE1_PROJECT_AS_Reentry_After_New_Sources.yaml
+  schema_validation: passed
+  local_audit:
+    status: pass
+    stages_complete: 12
+    warnings: 0
+    errors: 0
+  sha256:
+    markdown: 00913dc9935e1299c95989ea3d70018c126290f9804177620bb542fb28ce4705
+    yaml: 4a77aaf4d22b21b5602d466b4f040e256e93f17d540a0b825a3ec06fcf4dcccf
+    package_markdown: bf76f5257d96aaafd604d1a7995b8551ebb4ada8f63d5e690f2321c23b13b8cc
+  authority_boundary: Synthetic method record only; no empirical, causal, person, normative, recommendation, sanction, application,
+    or authority status.
+  package_markdown_artifact: 03_cases/packages/C49-CAL1_Calibration_Open_Result_Optional_Stop_and_Reentry.md
+governance:
+  case_success_not_global_validation: true
+  case_completeness_not_substantive_truth: true
+  canonical_prose_precedence_preserved: true
+  authority_inheritance: prohibited
