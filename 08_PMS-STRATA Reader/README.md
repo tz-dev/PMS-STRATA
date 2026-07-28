@@ -1,13 +1,13 @@
 # PMS-STRATA Reader
 
 **Status:** experimental executable prototype; downstream presentation and navigation layer only  
-**Version:** `0.5.2-graph-navigation`  
+**Version:** `0.5.4-toolbar-cleanup`  
 **Implementation:** single-file Python/Tkinter desktop application  
 **Authority:** none beyond the artifacts it reads
 
 The current prototype adapts the first executable PMS-EM Reader layer to the active PMS-STRATA repository. It can open either the repository folder or a Source-of-Truth ZIP and provides ordinary corpus reading together with an interactive graph layer.
 
-Version `0.4.0-audit-support` supplied the bounded Reader Audit Support Patch required for reliable Corpus Audit work. Version `0.5.0-graph-lab` added the separately scoped **Graph Lab Package**. Version `0.5.1-reader-fixes` corrected file-browser scope, resize handles, startup pane minima, conditional horizontal table scrollbars, and the Search label. Version `0.5.2-graph-navigation` adds explicit README naming under Start, middle/right-button graph panning, selected-node rotation pivots, blank-space deselection, and selected-node artifact rendering in the Graph Lab detail tabs. These versions change only the Reader presentation layer and do not modify canonical theory or authority.
+Version `0.4.0-audit-support` supplied the bounded Reader Audit Support Patch required for reliable Corpus Audit work. Version `0.5.0-graph-lab` added the separately scoped **Graph Lab Package**. Version `0.5.1-reader-fixes` corrected file-browser scope, resize handles, startup pane minima, conditional horizontal table scrollbars, and the Search label. Version `0.5.2-graph-navigation` added explicit README naming under Start, middle/right-button graph panning, selected-node rotation pivots, blank-space deselection, and selected-node artifact rendering in the Graph Lab detail tabs. Version `0.5.3-rendered-details` completed rendered detail views and selected-node centering. Version `0.5.4-toolbar-cleanup` removes the redundant Browse Files, Open Folder, and Open ZIP controls; corpus selection occurs at launch, while Graph Lab navigation is node-selection based. These versions change only the Reader presentation layer and do not modify canonical theory or authority.
 
 ```text
 Reader
@@ -181,39 +181,11 @@ double click
 
 Selected nodes remain visibly marked and are named as the active rotation pivot on the canvas and in Summary. Clickable nodes and controls use a hand cursor and visible hover feedback.
 
-### 4.1 Browse Files
+### 4.1 Node-based navigation
 
-The former **Open Selected** control has been replaced by **Browse Files** at the far left of the Graph Lab toolbar.
+Graph Lab navigation is intentionally node-selection based. Selecting a node centers it, makes it the rotation pivot, and renders its linked artifacts in the detail tabs. No separate file-browser control is shown in Graph Lab.
 
-The centered browser lists only graph- and audit-relevant artifacts that the Reader can display. It supports:
-
-- categories matching the active corpus layers;
-- title and repository-path search;
-- file-type display;
-- direct opening by button, Enter, or double-click;
-- light and dark mode.
-
-The categories are:
-
-```text
-Canonical Corpus
-Appendices
-Cases and Records
-Reference Kernel
-Minified Controls
-Formal Model
-```
-
-Root Start material, production Structure, Derivative Publications, and Reader implementation files remain available in the main Reader tree but are intentionally excluded from the Graph Lab browser.
-
-The browser is a navigation surface only.
-
-```text
-Browse Files
-≠ source mutation
-≠ validation
-≠ authority
-```
+The main Reader loads its corpus at application launch, either from the default repository context or from a folder/ZIP path supplied on the command line. The toolbar therefore omits separate **Open Folder** and **Open ZIP** controls.
 
 ### 4.2 Detail tabs
 
@@ -257,7 +229,6 @@ Graph Lab now applies Light/Dark Mode consistently to:
 - selected, hover, disabled, and drop-down states;
 - detail notebook tabs;
 - Summary, YAML, Markdown, Relations, and Trace surfaces;
-- Browse Files categories and result table;
 - status surfaces.
 
 The select-box text remains visible in both modes.

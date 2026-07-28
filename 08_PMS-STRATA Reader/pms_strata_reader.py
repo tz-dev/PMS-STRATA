@@ -63,7 +63,7 @@ except ImportError as exc:  # pragma: no cover
     ) from exc
 
 APP_TITLE = "PMS-STRATA Reader"
-APP_VERSION = "0.5.3-rendered-details"
+APP_VERSION = "0.5.4-toolbar-cleanup"
 
 DEBUG = True  # set False to silence console output
 
@@ -884,8 +884,6 @@ class GraphLab(tk.Toplevel):
     def _build_ui(self) -> None:
         toolbar = ttk.Frame(self, padding=(8, 8, 8, 5))
         toolbar.pack(fill=tk.X)
-
-        ttk.Button(toolbar, text="Browse Files", command=self.browse_files).pack(side=tk.LEFT, padx=(0, 14))
 
         ttk.Label(toolbar, text="View").pack(side=tk.LEFT)
         self.view_box = ttk.Combobox(
@@ -2333,9 +2331,6 @@ class PmsStrataReaderApp(tk.Tk):
         self.toolbar = ttk.Frame(self, padding=(6, 6, 6, 3))
         self.toolbar.pack(fill=tk.X)
 
-        ttk.Button(self.toolbar, text="Open Folder", command=self._open_folder).pack(side=tk.LEFT)
-        ttk.Button(self.toolbar, text="Open ZIP", command=self._open_zip).pack(side=tk.LEFT, padx=(6, 10))
-
         ttk.Label(self.toolbar, text="Search").pack(side=tk.LEFT)
         self.search_var = tk.StringVar()
         self._search_entry = ttk.Entry(self.toolbar, textvariable=self.search_var, width=42)
@@ -2762,7 +2757,6 @@ class PmsStrataReaderApp(tk.Tk):
             f"{APP_TITLE} Help",
             "PMS-STRATA Reader controls\n\n"
             "Navigation:\n"
-            "  Open Folder / Open ZIP  Load a PMS-STRATA corpus\n"
             "  Home                    Open the preferred start document\n"
             "  Reload                  Reload the current corpus\n\n"
             "Search:\n"
