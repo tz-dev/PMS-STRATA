@@ -13,10 +13,10 @@ record_metadata:
   - This record contains exactly one PROJECT_AS occurrence and receives Q47 from a separately routed COMPOSE record.
   - Built against Source-of-Truth ZIP 318 and schema_version 0.1.2.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
   record_status_note: Second occurrence of integrated chain C47-CP1; origin type, prior Loss, and continuity handoff remain
     preserved.

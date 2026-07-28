@@ -13,10 +13,10 @@ record_metadata:
   - This record contains exactly one PROJECT_AS occurrence and preserves every earlier result without inheritance.
   - Produced against Source-of-Truth ZIP 321 and Transformation_Record.schema.json schema_version 0.1.2.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
   record_status_note: Gap Package C calibration-open result with optional Stop after sufficiency.
 claim:

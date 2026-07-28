@@ -15,10 +15,10 @@ record_metadata:
     claim; no empirical, causal, semantic-identity, normative, or application warrant is supplied.
   - Built against PMS-STRATA Source-of-Truth ZIP 309 and Transformation_Record.schema.json v0.1.3.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
   record_status_note: 'RETYPE lock-package 3 of 3: projection-versus-structural-analogy confusion case, routed to analogy_only
     and locally audited.'

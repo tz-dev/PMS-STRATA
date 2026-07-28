@@ -15,10 +15,10 @@ record_metadata:
     motive, ranking, recommendation, sanction, and authority inferences.
   - Built against PMS-STRATA Source-of-Truth ZIP 316 and Transformation_Record.schema.json v0.1.3.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
   record_status_note: 'Chapter-40 Contract-minimum package 7 of 7: person-level type-jump countercase, routed to failed_transformation
     and locally audited.'

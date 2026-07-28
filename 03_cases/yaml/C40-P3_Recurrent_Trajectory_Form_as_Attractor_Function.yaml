@@ -15,10 +15,10 @@ record_metadata:
     formation, prior COMPOSE results, and all alternative source claims remain separate.
   - Built against PMS-STRATA Source-of-Truth ZIP 314 and Transformation_Record.schema.json with schema_version 0.1.2.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
   record_status_note: 'Chapter-40 Contract-minimum package 5 of 7: positive recurrent-trajectory-form-as-Attractor-function
     case, routed and locally audited.'

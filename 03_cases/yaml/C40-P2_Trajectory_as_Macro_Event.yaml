@@ -15,10 +15,10 @@ record_metadata:
     it supplies no external empirical, causal, normative, or application warrant.
   - Built against PMS-STRATA Source-of-Truth ZIP 313 and Transformation_Record.schema.json with schema_version 0.1.2.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
   record_status_note: 'Chapter-40 Contract-minimum package 4 of 7: positive Trajectory-as-Macro-Event case, routed and locally
     audited.'

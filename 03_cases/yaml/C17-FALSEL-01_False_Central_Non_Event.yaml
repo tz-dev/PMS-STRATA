@@ -6,19 +6,19 @@ record_metadata:
   created_at: '2026-07-23T20:30:00+02:00'
   updated_at: '2026-07-27T11:59:29+02:00'
   revision_id: r2
-  producer_id: PMS-STRATA.Chapter-17-WP2C
+  producer_id: PMS-STRATA.Case-C17-FALSEL-01
   repository_or_case_pointer: 03_cases/yaml/C17-FALSEL-01_False_Central_Non_Event.yaml
   record_provenance:
     - Synthetic PATH countercase C17-FALSEL-01 instantiated for Chapter 17 local method testing; no external empirical 
       truth is asserted.
-    - Built against Transformation_Record.schema.json v0.1.3 and the Chapter 17 WP2-C repository snapshot.
+    - Built against Transformation_Record.schema.json v0.1.3 and the canonical Chapter 17 case corpus.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
-  record_status_note: Legacy substantive overflight complete against final Chapters 41–57 LIMITS controls; route 
+  record_status_note: Final LIMITS review complete against Chapters 41–57 controls; route 
     claim_reduction_required confirmed without change.
 claim:
   claim_id: claim.c17-falsel-01.compose.01
@@ -1284,14 +1284,12 @@ extensions:
         governance_boundary: No target function, causality, intention, responsibility, legitimacy, intervention, 
           application authority, or authority inheritance.
     does_not_replace_required_field: true
-  - extension_id: pms-strata:c17-legacy-substantive-overflight:c17-falsel-01:v0.1
-    owner_or_source: PMS-STRATA C17 Legacy Substantive Overflight
-    control_source_pointer: _workfiles/legacy_overflights/C17_Legacy_Substantive_Overflight.md
-    purpose: Record final-LIMITS substantive review without replacing the original operation occurrence, route, Loss, or
-      historical model-version provenance.
+  - extension_id: pms-strata:c17-final-limits-review:c17-falsel-01:v0.1
+    owner_or_source: PMS-STRATA C17 Final LIMITS Review
+    control_source_pointer: 01_blocks/05_part_iv_limits.md
+    purpose: Record the active final-LIMITS review without replacing the original operation occurrence, route, Loss, or
+      record-level model-version provenance.
     payload:
-      review_snapshot: PMS-STRATA_Source_of_Truth_ZIP_311.zip
-      review_snapshot_sha256: a0a243bec1292ac7429fab36de5a066c8f44f7af83661bc4ba84542274186774
       reviewed_against:
         - 05_minified/Chapter_Contracts.md#chapter-17-path-cases-countercases-and-local-audit
         - 01_blocks/05_part_iv_limits.md

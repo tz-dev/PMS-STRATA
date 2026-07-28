@@ -13,10 +13,10 @@ record_metadata:
   - This record contains exactly one DECOMPOSE occurrence and preserves all earlier operation results and Loss without inheritance.
   - Produced in the five-chain batch against Source-of-Truth ZIP 319 and schema_version 0.1.2.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
   record_status_note: First occurrence of C54-DP1; opens H56 and withholds target function.
 claim:

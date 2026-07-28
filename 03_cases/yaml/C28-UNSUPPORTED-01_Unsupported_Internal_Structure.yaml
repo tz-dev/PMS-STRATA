@@ -6,18 +6,18 @@ record_metadata:
   created_at: '2026-07-24T18:40:42+00:00'
   updated_at: '2026-07-27T12:58:13+02:00'
   revision_id: r2
-  producer_id: PMS-STRATA.Chapter-28-WP2
+  producer_id: PMS-STRATA.Case-C28-UNSUPPORTED-01
   repository_or_case_pointer: 03_cases/yaml/C28-UNSUPPORTED-01_Unsupported_Internal_Structure.yaml
   record_provenance:
   - Synthetic Chapter-28 countercase C28-UNSUPPORTED-01; no external empirical truth is asserted.
   - Built against the retained Shared Transformation Record schema and source repository ZIP 198.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
-  record_status_note: Legacy substantive overflight complete against final Chapters 41–57 LIMITS controls; route 
+  record_status_note: Final LIMITS review complete against Chapters 41–57 controls; route 
     claim_reduction_required confirmed without change.
 claim:
   claim_id: claim.c28-unsupported-01.decompose.01
@@ -1295,7 +1295,7 @@ relations:
   - C28-TRAJECTORY-01
   - C28-GAIN-01
 extensions:
-- extension_id: pms-strata:chapter28:sub-wp2-case:c28-unsupported-01:v0.1
+- extension_id: pms-strata:chapter28:sub-case:c28-unsupported-01:v0.1
   owner_or_source: PMS-STRATA Chapter 28
   control_source_pointer: 01_blocks/03_part_ii_sub.md#28-unsupported-01
   purpose: Carry the Chapter-28 countercase/confusion wrapper and case-local audit without replacing Shared 
@@ -1369,14 +1369,12 @@ extensions:
         empirical, causal, normative, diagnostic, legal, political, organizational, application, person, legitimacy, 
         sanction, recommendation, or authority status.
   does_not_replace_required_field: true
-- extension_id: pms-strata:c28-legacy-substantive-overflight:c28-unsupported-01:v0.1
-  owner_or_source: PMS-STRATA C28 Legacy Substantive Overflight
-  control_source_pointer: _workfiles/legacy_overflights/C28_Legacy_Substantive_Overflight.md
-  purpose: Record final-LIMITS substantive review without replacing the original operation occurrence, route, Loss, or 
-    historical model-version provenance.
+- extension_id: pms-strata:c28-final-limits-review:c28-unsupported-01:v0.1
+  owner_or_source: PMS-STRATA C28 Final LIMITS Review
+  control_source_pointer: 01_blocks/05_part_iv_limits.md
+  purpose: Record the active final-LIMITS review without replacing the original operation occurrence, route, Loss, or 
+    record-level model-version provenance.
   payload:
-    review_snapshot: PMS-STRATA_Source_of_Truth_ZIP_312.zip
-    review_snapshot_sha256: 9bd2f0b663fe2f81681e1263f88a315772e84b94c161b0ae1eba29e0d5c3536d
     reviewed_against:
     - 05_minified/Chapter_Contracts.md#chapter-28-sub-cases-countercases-and-local-audit
     - 01_blocks/03_part_ii_sub.md#27-12-sub-admissibility-test

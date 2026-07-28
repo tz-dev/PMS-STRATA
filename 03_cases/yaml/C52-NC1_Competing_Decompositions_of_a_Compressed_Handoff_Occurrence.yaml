@@ -13,10 +13,10 @@ record_metadata:
     truth is asserted.
   - Built against the canonical Chapter 52 Non-Capture method, current minified controls, and ZIP 317 as Source of Truth.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
   record_status_note: Genuine claim-relative non_capture case with three adequately tested bounded decomposition routes, partial
     capture, preserved rivals, and explicit re-entry.
