@@ -1,0 +1,1017 @@
+artifact:
+  id: pms_strata_output_classes
+  title: PMS-STRATA Output Classes
+  version: 0.2.0
+  status: active_formal_model
+  artifact_role: Machine-readable registry of the ten canonical PMS-STRATA Output Classes, their meanings, semantic boundaries, claim 
+    effects, and cross-artifact handoffs.
+  registered_scope:
+    - exact canonical Output Class inventory and spelling
+    - class meanings and semantic use boundaries
+    - claim, continuation, and re-entry effects
+    - semantic collision boundaries without route selection
+    - operation-chain and integrated-result preservation rules
+    - formal-model and authority safeguards
+    - cross-artifact ownership handoffs
+  governing_authority_sources:
+    - path: PMS.yaml
+      role: unchanged external PMS Base dependency
+  governing_repository_controls:
+    - path: 00_source/PMS-STRATA_Structure.md
+      role: architecture and chapter blueprint
+    - path: 05_minified/PMS_STRATA_Claim_Boundary_Minified.md
+      role: claim and authority boundary control
+    - path: 05_minified/PMS_STRATA_Admissibility_Band_Minified.md
+      role: compact output meanings and admissibility-result control
+    - path: 05_minified/PMS_STRATA_Minified_Canonical.md
+      role: canonical ten-class inventory and separation control
+    - path: 05_minified/PMS_STRATA_Operation_Signatures_Minified.md
+      role: operation-local result and class-mapping handoff control
+    - path: 05_minified/Block_Contracts.md
+      role: block-level control contract
+    - path: 05_minified/Chapter_Contracts.md
+      role: chapter-level control contract
+  supporting_reference_inputs:
+    - path: 04_reference/Output_Class_Index.md
+      role: principal populated class and boundary reference without independent theory authority
+    - path: 04_reference/Claim_Type_Table.md
+      role: claim, support, status, disposition, and class separation support without independent theory authority
+    - path: 04_reference/Transformation_Operation_Index.md
+      role: operation-local result mapping support without independent theory authority
+    - path: 04_reference/Admissibility_Band_Reference.md
+      role: boundary-result and non-compensation support without independent theory authority
+    - path: 04_reference/Non_Equivalence_Index.md
+      role: class collision and non-equivalence support without independent theory authority
+    - path: 04_reference/Audit_Checklist.md
+      role: output-class audit support without independent theory authority
+    - path: 04_reference/Glossary.md
+      role: terminology support without independent theory authority
+    - path: 04_reference/Cross_Reference_Map.md
+      role: cross-reference support without independent theory authority
+    - path: 04_reference/Evidence_Map.md
+      role: evidence-role separation support without independent theory authority
+    - path: 04_reference/Reader_Pathways.md
+      role: formal-model build and reading route support without independent theory authority
+  existing_formal_input:
+    - path: 07_model/Operation_Registry.yaml
+      role: operation identity, operation-specific boundaries, and ownership handoff input
+  prose_precedence: This registry mirrors and tests the active controlled prose. It does not replace PMS Base, canonical corpus prose, 
+    binding compact controls, or substantive human and domain-grounded judgment.
+  non_authority_statement: Enum validity, class membership, YAML validity, schema validity, formal completeness, or a selected class label 
+    do not establish substantive admissibility, empirical truth, actual causality, semantic validity, normative validity, person judgment, 
+    legitimacy, or application authority.
+class_registry_constraints:
+  exact_class_count: 10
+  canonical_class_ids:
+    - admissible
+    - admissible_with_bounded_claim
+    - admissible_but_provisional
+    - resolution_neutral
+    - analogy_only
+    - partially_admissible
+    - claim_reduction_required
+    - mandatory_stop
+    - failed_transformation
+    - non_capture
+  canonical_spelling: lowercase_snake_case
+  inventory_closed: true
+  additional_class_prohibited: true
+  classes_non_ordinal: true
+  class_hierarchy_prohibited: true
+  class_scoring_prohibited: true
+  class_stacking_prohibited: true
+  single_class_per_delimited_tested_claim: true
+  separate_claims_or_record_segments_required_for_distinct_material_results: true
+  local_result_not_class: true
+  support_status_not_class: true
+  claim_type_not_class: true
+  record_status_not_class: true
+  method_concept_not_class: true
+  source_function_effect_not_class: true
+  prior_claim_result_not_class: true
+  ordinary_boundedness_not_automatic_bounded_claim_output: true
+  provisional_support_status_not_automatic_provisional_class: true
+  uncertainty_not_automatic_non_capture: true
+  stop_trigger_not_automatic_mandatory_stop_class: true
+  new_transformation_new_testable_claim: true
+  navigation_families_not_formalized_as_superclasses: true
+shared_output_contract:
+  class_entry_required_keys:
+    - canonical_value
+    - canonical_meaning
+    - primary_governance_question
+    - use_conditions
+    - exclusion_conditions
+    - claim_effect
+    - continuation_and_reentry
+    - special_preconditions
+    - representative_local_results
+    - representative_local_results_closed
+    - central_non_equivalences
+    - prohibited_inferences
+    - boundary_handoffs
+  required_result_separations:
+    - canonical output class != operation-specific result
+    - canonical output class != support status
+    - canonical output class != resolution-test result
+    - canonical output class != claim disposition
+    - canonical output class != capture statement
+    - canonical output class != source-function effect
+    - canonical output class != prior claim result
+    - canonical output class != record-level status declaration
+    - canonical output class != claim type or claim ceiling
+  class_selection_rationale_required: true
+  class_selection_is_substantive_judgment: true
+  field_presence_does_not_establish_class: true
+  representative_local_results_are_open_examples: true
+  representative_local_results_are_not_class_aliases: true
+  class_does_not_erase_local_result: true
+  class_does_not_erase_loss: true
+  class_does_not_erase_support_limits: true
+  class_does_not_erase_prior_failure_stop_or_non_capture: true
+  class_does_not_raise_claim_or_authority_ceiling: true
+  prohibited_inferences_are_minimum_not_exhaustive: true
+  class_applicability_policy:
+    system_wide_class_identity: true
+    hard_operation_exclusivity_not_encoded_by_default: true
+    operation_local_result_recorded_separately: true
+    special_applicability_expressed_through_semantic_preconditions: true
+    route_selection_owner: 07_model/Boundary_Decision_Tree.yaml
+  decompose_separation:
+    operation_result_and_class_separate_from_source_function_effect: true
+    operation_result_and_class_separate_from_prior_source_claim_result: true
+    successful_decompose_may_reject_prior_source_function_claim: true
+    source_function_effect_does_not_automatically_classify_operation: true
+  controlled_use_boundary:
+    controlled_use_means_controlled_analytical_retention: true
+    controlled_use_does_not_authorize_application: true
+output_classes:
+  admissible:
+    canonical_value: admissible
+    canonical_meaning: The declared operation satisfies all applicable common and operation-specific requirements for the claim and scope 
+      already stated, without a further output-relevant restriction beyond ordinary STRATA boundedness.
+    primary_governance_question: Does the tested claim pass as declared without a material output-relevant restriction beyond ordinary 
+      boundedness?
+    use_conditions:
+      - the operation identity is correct
+      - all applicable common and operation-specific requirements have been substantively addressed
+      - PraxisPurchase and TraceableLoad are sufficient for the declared claim
+      - Type Integrity, continuity, boundedness, counterfactual sensitivity, ceilings, loss, stop, and Non-Capture duties are addressed as 
+        applicable
+      - no material scope reduction, provisional support condition, partial split, or claim reduction is the primary governance result
+    exclusion_conditions:
+      - empirical truth or causal proof
+      - semantic or normative validity
+      - application authorization or authority inheritance
+      - unlimited validity or completeness
+      - ordinary contextual boundedness treated as a bounded-claim output
+    claim_effect:
+      immediate: Retain the tested claim in its declared form and scope.
+      preserved_result: The local operation result, loss profile, declared scope, and all prior records remain visible.
+      withdrawn_or_unretained_result: No broader, stronger, transferred, or authority-bearing claim is retained by this class.
+    continuation_and_reentry:
+      continuation_principle: Further analysis is optional and requires separate praxeological justification.
+      reentry_principle: Any extension of source, frame, scope, granularity, level, operation, or target function is a new testable claim.
+      new_record_required_for_material_extension_or_changed_grounds: true
+      prior_result_must_remain_recorded: true
+    special_preconditions:
+      - ordinary required contextual and claim boundedness is already declared
+      - no additional material narrowing is itself the decisive output result
+    representative_local_results:
+      - admissible sequence
+      - admissible path
+      - admissible trajectory
+      - admissible declared composite
+      - admissible decomposition
+      - admissible functional projection
+    representative_local_results_closed: false
+    central_non_equivalences:
+      - admissible != true
+      - admissible != unlimited
+      - admissible != immune from revision
+      - admissible != admissible_with_bounded_claim
+    prohibited_inferences:
+      - the transformation is empirically true
+      - the transformation proves causality
+      - the claim transfers beyond its declared scope
+      - the result authorizes application or intervention
+      - the class validates persons, institutions, theories, or moral positions
+    boundary_handoffs:
+      - admissible_vs_bounded_claim
+  admissible_with_bounded_claim:
+    canonical_value: admissible_with_bounded_claim
+    canonical_meaning: The transformation is warranted, but a material narrowing of context, time, level, object, function, case population,
+      or generality is itself the decisive governance result.
+    primary_governance_question: Is a material restriction of reach or scope itself the decisive result for an already revised and tested 
+      claim?
+    use_conditions:
+      - the transformation passes only after a material narrowing relative to the initially tested or normally expected claim
+      - the limitation concerns reach or scope rather than unresolved support alone
+      - the bounded claim itself has already been revised and tested
+      - the record states both the retained scope and what lies outside it
+      - ordinary Contextual Boundedness alone would not justify this class
+    exclusion_conditions:
+      - a merely provisional record
+      - a still-unrevised overclaim
+      - different outcomes across separable components or subclaims
+      - automatic weakness or low value
+      - a claim labelled bounded without a material output-relevant restriction
+    claim_effect:
+      immediate: Retain only the tested narrower claim.
+      preserved_result: The declared scope boundary, local result, loss profile, and original broader claim record remain visible.
+      withdrawn_or_unretained_result: The broader or transferred formulation is not retained as if it had passed.
+    continuation_and_reentry:
+      continuation_principle: No scope transfer is authorized by the bounded result.
+      reentry_principle: Expansion beyond the tested boundary requires a new claim, new record, and new test.
+      new_record_required_for_material_extension_or_changed_grounds: true
+      prior_result_must_remain_recorded: true
+    special_preconditions:
+      - a material reach or scope restriction is the primary governance result
+      - the narrower claim has already been formulated and substantively tested
+      - the excluded reach is explicitly declared
+    representative_local_results:
+      - admissible path-dependence claim under a materially narrowed historical scope
+      - admissible decomposition with a separately recorded narrowed source claim
+      - heterogeneous source object with a materially narrowed whole-object claim
+      - admissible narrow projection
+      - context-dependent projection whose valid reach is materially narrower than the tested claim
+      - compatible multiple projections with materially separated contexts
+    representative_local_results_closed: false
+    central_non_equivalences:
+      - admissible_with_bounded_claim != admissible_but_provisional
+      - bounded claim != untested reduced claim
+      - contextual boundedness != global transfer
+      - ordinary contextual boundedness != bounded-claim output
+      - admissible_with_bounded_claim != partially_admissible
+    prohibited_inferences:
+      - the untested broader claim has passed
+      - scope narrowing is merely a support-status qualifier
+      - the bounded class authorizes transfer to other contexts
+      - the result is partial merely because its scope is narrow
+    boundary_handoffs:
+      - admissible_vs_bounded_claim
+      - bounded_claim_vs_provisional
+      - bounded_claim_vs_partial
+      - claim_reduction_vs_bounded_claim
+  admissible_but_provisional:
+    canonical_value: admissible_but_provisional
+    canonical_meaning: The operation is coherent and sufficiently supported for controlled use, while material source, counterfactual, 
+      calibration, temporal, or rival-reconstruction limits remain unresolved.
+    primary_governance_question: Does one coherent delimited claim remain usable while a material support or calibration limitation remains?
+    use_conditions:
+      - the claim is usable under current support
+      - the unresolved issue concerns evidential, counterfactual, calibration, temporal, or rival stability rather than scope alone
+      - the record names the material uncertainty and its claim effect
+      - the claim remains revisable without being treated as failed
+    exclusion_conditions:
+      - a synonym for narrow scope
+      - generic incomplete writing or unfinished documentation
+      - automatic conversion of a provisional support or record status into a class
+      - different outcomes across separable subclaims or stages
+      - no adequate retained claim
+    claim_effect:
+      immediate: Retain the current claim with an explicit provisional qualification.
+      preserved_result: The usable claim, its material uncertainty, supporting evidence, rivals, loss, and re-entry condition remain 
+        visible.
+      withdrawn_or_unretained_result: No claim of settled support, stability, uniqueness, or completeness is retained.
+    continuation_and_reentry:
+      continuation_principle: Further support, calibration, counterfactual testing, or rival comparison may continue.
+      reentry_principle: New evidence, calibration criteria, temporal support, or rival comparison may strengthen, narrow, split, or defeat 
+        the claim.
+      new_record_required_for_material_extension_or_changed_grounds: true
+      prior_result_must_remain_recorded: true
+    special_preconditions:
+      - one coherent claim remains substantively usable
+      - the unresolved limit is material rather than merely editorial or formal
+      - the provisional condition and its claim effect are explicitly stated
+    representative_local_results:
+      - provisional composition
+      - provisional path
+      - admissible decomposition with unresolved source-function support
+      - provisional projection
+      - currently preferred reconstruction with a material unresolved rival
+      - calibration-sensitive structural form
+    representative_local_results_closed: false
+    central_non_equivalences:
+      - admissible_but_provisional != admissible_with_bounded_claim
+      - provisional support != failed transformation
+      - support status provisional != automatic class assignment
+      - admissible_but_provisional != partially_admissible
+      - admissible_but_provisional != non_capture
+    prohibited_inferences:
+      - the claim is merely narrow
+      - the class follows automatically from a status field
+      - the provisional qualifier protects the claim from criticism
+      - materially incompatible subclaims may be averaged
+      - uncertainty alone establishes non-capture
+    boundary_handoffs:
+      - bounded_claim_vs_provisional
+      - partial_vs_provisional
+      - provisional_vs_non_capture
+      - provisional_vs_resolution_neutral
+  resolution_neutral:
+    canonical_value: resolution_neutral
+    canonical_meaning: A valid finer-resolution or explicit granularity test is permissible, but the added distinctions do not change the 
+      warranted praxis reconstruction or claim.
+    primary_governance_question: Did a source-supported resolution test occur without changing the warranted reconstruction?
+    use_conditions:
+      - a genuine finer-resolution or explicit granularity comparison has occurred
+      - the added distinctions are source-supported
+      - the tested reconstruction remains materially unchanged
+      - the result records absence of resolution gain rather than pretending additional discovery
+    exclusion_conditions:
+      - generic lack of findings
+      - unsupported decomposition
+      - failed transformation
+      - non-capture
+      - proof that no finer distinction could ever matter
+      - automatic mandatory stop for the valid neutral test itself
+    claim_effect:
+      immediate: Retain the prior warranted reconstruction and reject only the tested resolution-gain claim.
+      preserved_result: The valid resolution test, added distinctions, prior warranted claim, and unchanged-reconstruction finding remain 
+        visible.
+      withdrawn_or_unretained_result: No additional praxis finding or resolution-gain claim is retained from this test.
+    continuation_and_reentry:
+      continuation_principle: Repetition of the identical refinement without changed grounds is unnecessary.
+      reentry_principle: A different distinction, source basis, frame, granularity relation, or claim may justify a new resolution test.
+      new_record_required_for_material_extension_or_changed_grounds: true
+      prior_result_must_remain_recorded: true
+    special_preconditions:
+      - a valid resolution or granularity test occurred
+      - the added distinctions are source-supported
+      - the warranted praxis reconstruction remains unchanged
+      - the class is not used as a generic negative result for COMPOSE or PROJECT_AS
+    representative_local_results:
+      - resolution-neutral result
+      - valid finer reconstruction with no changed source-function claim
+      - negative Changed-Reconstruction Test
+    representative_local_results_closed: false
+    central_non_equivalences:
+      - resolution_neutral != resolution gain
+      - resolution_neutral != failed_transformation
+      - resolution_neutral != non_capture
+      - resolution_neutral != claim_reduction_required
+      - resolution_neutral != mandatory_stop
+      - resolution_neutral != automatic mandatory_stop
+    prohibited_inferences:
+      - the attempted decomposition failed
+      - no future finer distinction can matter
+      - the valid neutral result erases the tested distinctions
+      - lack of support is a neutral result
+      - resolution neutrality automatically requires mandatory stop
+    boundary_handoffs:
+      - resolution_neutral_vs_claim_reduction
+      - provisional_vs_resolution_neutral
+  analogy_only:
+    canonical_value: analogy_only
+    canonical_meaning: A useful and declared structural resemblance is retained, while semantic preservation or a source-traceable 
+      contextual target function is not established.
+    primary_governance_question: Does a bounded resemblance remain useful while a valid functional projection or semantic preservation is 
+      not established?
+    use_conditions:
+      - the resemblance has explanatory or comparative value
+      - the relation is explicitly marked as analogy
+      - PROJECT_AS duties are not claimed as satisfied
+      - the limits and breaking points of the analogy remain visible
+      - the analogy claim is separately delimited from any failed projection claim
+    exclusion_conditions:
+      - label substitution
+      - operator identity
+      - valid functional projection
+      - semantic equivalence
+      - automatic result of every failed PROJECT_AS attempt
+      - non-capture merely because a projection is not established
+    claim_effect:
+      immediate: Retain only the bounded analogy claim.
+      preserved_result: The resemblance, its declared limits, breaking points, and any separate projection result remain visible.
+      withdrawn_or_unretained_result: Any stronger projection, identity, semantic-preservation, or target-function claim is not retained 
+        unless separately tested.
+    continuation_and_reentry:
+      continuation_principle: Resemblance does not authorize PROJECT_AS or origin-type substitution.
+      reentry_principle: A later projection claim must satisfy the full PROJECT_AS duties in a new operation occurrence and record.
+      new_record_required_for_material_extension_or_changed_grounds: true
+      prior_result_must_remain_recorded: true
+    special_preconditions:
+      - a bounded analogy claim is affirmatively retained
+      - a valid contextual target function or semantic preservation is not established
+      - the analogy is not merely a renamed label
+      - analogy_only need not originate in a failed PROJECT_AS attempt
+    representative_local_results:
+      - useful structural analogy
+      - projection reduced to analogy
+      - cross-domain mapping with unestablished semantic preservation
+    representative_local_results_closed: false
+    central_non_equivalences:
+      - analogy_only != label substitution
+      - analogy_only != valid projection
+      - analogy_only != operator identity
+      - analogy_only != failed_transformation in every respect
+      - analogy_only != non_capture
+    prohibited_inferences:
+      - the analogy establishes a target function
+      - the source and target have identical semantics
+      - a failed projection automatically yields a useful analogy
+      - analogy authorizes a new PMS primitive
+      - analogy transfers application authority
+    boundary_handoffs:
+      - analogy_only_vs_failed_projection
+  partially_admissible:
+    canonical_value: partially_admissible
+    canonical_meaning: Clearly identified stages, parts, relations, or subclaims satisfy the applicable tests while other parts require 
+      reduction, separation, rejection, or unresolved status.
+    primary_governance_question: Can the retained and non-retained parts be explicitly separated and independently traced?
+    use_conditions:
+      - the retained and non-retained or differently classified separable portions can be named
+      - the retained parts remain independently traceable
+      - the class does not average incompatible results
+      - local failures, provisional limits, or non-capture remain separately recorded
+    exclusion_conditions:
+      - general uncertainty
+      - a merely provisional whole claim
+      - a narrow but fully admissible whole claim
+      - a substitute for separate operation results in a chain
+      - an average score across incompatible components
+    claim_effect:
+      immediate: Retain only the specified admissible components, relations, stages, or subclaims.
+      preserved_result: Each retained part and each non-retained, failed, provisional, reduced, or uncaptured remainder remain separately 
+        identified.
+      withdrawn_or_unretained_result: No whole-operation, whole-object, or whole-chain validation is retained unless separately established.
+    continuation_and_reentry:
+      continuation_principle: Unresolved, failed, or uncaptured parts remain separate and may not inherit the retained result.
+      reentry_principle: Each non-retained part requires its own revised claim, operation occurrence, record, or rival reconstruction.
+      new_record_required_for_material_extension_or_changed_grounds: true
+      prior_result_must_remain_recorded: true
+    special_preconditions:
+      - retained and non-retained parts are explicitly separable
+      - retained parts are independently traceable and supportable
+      - no averaging or class stacking substitutes for separated reasoning
+    representative_local_results:
+      - competing compositions with a shared admissible core
+      - admissible decomposition with a separately recorded partially preserved source-function claim
+      - heterogeneous source object where only specified parts remain warranted
+      - competing internal models with common structure
+      - competing projections with separable partial functions
+      - integrated claim with explicitly separable admissible and non-admissible components
+    representative_local_results_closed: false
+    central_non_equivalences:
+      - partially_admissible != admissible_with_bounded_claim
+      - partially_admissible != admissible_but_provisional
+      - partial admissibility != whole-operation validation
+      - partially_admissible != non_capture
+      - partial result != binary pass/fail partition
+    prohibited_inferences:
+      - a narrow whole claim is partial
+      - general uncertainty is partiality
+      - component outputs may be averaged
+      - retained parts validate failed or uncaptured parts
+      - an integrated partial class overwrites component classes
+    boundary_handoffs:
+      - bounded_claim_vs_partial
+      - partial_vs_provisional
+      - partial_vs_non_capture
+  claim_reduction_required:
+    canonical_value: claim_reduction_required
+    canonical_meaning: The currently tested claim is too strong, but a concrete weaker object class, function, level, scope, confidence, or 
+      relation has identifiable source- or rule-grounded support sufficient to justify explicit reformulation and retesting without 
+      pre-authorizing its admissibility.
+    primary_governance_question: Must the present claim be weakened before any retained result can be tested?
+    use_conditions:
+      - the stronger claim does not pass as stated
+      - a concrete weaker formulation has identifiable source- or rule-grounded support sufficient to justify reformulation and retesting
+      - the weaker formulation has not been treated as automatically validated
+      - the reduction preserves the original failure or overreach
+    exclusion_conditions:
+      - an already revised and tested bounded claim
+      - silent rewriting of the original claim
+      - automatic admissibility of the proposed weaker claim
+      - mandatory stop in every case
+      - a source-function effect that does not alter the tested operation claim
+    claim_effect:
+      immediate: Do not retain the current claim as stated; formulate the weaker claim explicitly for a new test.
+      preserved_result: The original claim, its failed or excessive reach, the proposed reduction, and all prior results remain recorded.
+      withdrawn_or_unretained_result: The current stronger claim and any presumption that the reduced claim has already passed are not 
+        retained.
+    continuation_and_reentry:
+      continuation_principle: The current claim may not continue unchanged.
+      reentry_principle: The reduced claim re-enters as a new testable claim with its own source, scope, loss, rationale, and output class.
+      new_record_required_for_material_extension_or_changed_grounds: true
+      prior_result_must_remain_recorded: true
+    special_preconditions:
+      - the current claim exceeds its warranted ceiling or specificity
+      - a concrete weaker formulation is source- or rule-grounded and sufficiently plausible to warrant explicit retesting
+      - the weaker formulation has not yet received substantive testing
+      - the original result remains preserved rather than rewritten
+    representative_local_results:
+      - trajectory to path
+      - path to sequence
+      - strong path dependence to weak order dependence
+      - projection to analogy
+      - broad function to narrow function
+      - mandatory claim reduction
+    representative_local_results_closed: false
+    central_non_equivalences:
+      - claim_reduction_required != admissible_with_bounded_claim
+      - claim reduction != concealment of failure
+      - revised claim != unchanged original claim
+      - claim_reduction_required != resolution_neutral
+      - candidate for retesting != already admissible reduced claim
+    prohibited_inferences:
+      - the proposed weaker claim is already admissible
+      - the original claim may be silently replaced
+      - claim reduction erases failure or overreach
+      - every source-function revision classifies DECOMPOSE as claim reduction required
+      - a valid resolution-neutral test is claim reduction merely because it lacks gain
+    boundary_handoffs:
+      - claim_reduction_vs_bounded_claim
+      - resolution_neutral_vs_claim_reduction
+      - claim_reduction_vs_mandatory_stop
+  mandatory_stop:
+    canonical_value: mandatory_stop
+    canonical_meaning: Continuation of the present operation under the present conditions would violate a load-bearing STRATA boundary such 
+      as the Relevance Floor, Traceability Ceiling, Source Ceiling, Type Integrity, contextual boundedness, calibration, or 
+      anti-immunization requirements.
+    primary_governance_question: Would further continuation under the present conditions cross a mandatory boundary?
+    use_conditions:
+      - the current continuation, not merely analyst preference, would be inadmissible
+      - the trigger and preserved result are stated
+      - optional stopping is insufficient to describe the boundary
+      - re-entry conditions, if any, are explicit
+    exclusion_conditions:
+      - optional stop
+      - methodological defeat
+      - failed transformation in every case
+      - non-capture in every case
+      - permanent prohibition under all future conditions
+      - the mere existence of a valid resolution-neutral result
+    claim_effect:
+      immediate: End the current continuation and record the reached mandatory boundary.
+      preserved_result: Preserve any valid prior result, loss, source object, partial claim, failure, or non-capture statement.
+      withdrawn_or_unretained_result: No further unmodified continuation under the present conditions is retained or authorized.
+    continuation_and_reentry:
+      continuation_principle: Continuation under the present grounds is prohibited.
+      reentry_principle: Re-entry requires changed grounds and a new record, such as new sources, a different claim, or newly justified 
+        calibration.
+      new_record_required_for_material_extension_or_changed_grounds: true
+      prior_result_must_remain_recorded: true
+    special_preconditions:
+      - a mandatory boundary is reached or would be crossed by further continuation
+      - the stop trigger is load-bearing and explicitly justified
+      - the preserved prior result is identified
+      - the class concerns the continuation claim rather than automatically classifying a prior operation result
+    representative_local_results:
+      - operation-specific mandatory stop
+      - resolution drift that must not continue
+      - source ceiling reached
+      - continued projection would violate type integrity
+      - continued composition would lose traceable load
+    representative_local_results_closed: false
+    central_non_equivalences:
+      - mandatory_stop != optional stop
+      - mandatory_stop != failed_transformation in every case
+      - mandatory_stop != non_capture
+      - stop != erasure of prior result
+      - resolution_neutral != automatic mandatory_stop
+    prohibited_inferences:
+      - the prior valid result is erased
+      - the operation necessarily failed
+      - the object is necessarily uncapturable
+      - the stop applies permanently under all changed conditions
+      - a stop record is a person or legitimacy verdict
+    boundary_handoffs:
+      - mandatory_stop_vs_failed_transformation
+      - mandatory_stop_vs_non_capture
+      - claim_reduction_vs_mandatory_stop
+  failed_transformation:
+    canonical_value: failed_transformation
+    canonical_meaning: The declared operation does not satisfy its defining identity or one or more necessary admissibility conditions and 
+      therefore does not establish the claimed transformation result.
+    primary_governance_question: Did the declared operation fail its identity or necessary conditions for the tested claim?
+    use_conditions:
+      - COMPOSE is asserted without a constitutive formation relation
+      - DECOMPOSE is asserted as a parts list without relational reconstruction
+      - PROJECT_AS is asserted through label substitution, invalid type jump, or absent constitutive source trace
+      - source support or another necessary condition is insufficient for the declared operation
+      - the attempted operation itself fails rather than merely remaining provisional or bounded
+    exclusion_conditions:
+      - automatic invalidation of the source object itself
+      - non-capture
+      - a successful DECOMPOSE that rejects or revises a prior source-function claim
+      - proof that every alternative operation will fail
+      - a surviving bounded analogy claim
+    claim_effect:
+      immediate: Reject the declared transformation result for the tested claim.
+      preserved_result: Valid source objects, prior claims, reduced alternatives, analogies, losses, and rival operations remain separately 
+        available where warranted.
+      withdrawn_or_unretained_result: The claimed operation result and any retroactive rescue of that occurrence are not retained.
+    continuation_and_reentry:
+      continuation_principle: The failed occurrence may not be treated as successful through a later operation or relabelling.
+      reentry_principle: A materially revised operation is a new claim and new occurrence; it is not retroactive success of the failed 
+        transformation.
+      new_record_required_for_material_extension_or_changed_grounds: true
+      prior_result_must_remain_recorded: true
+    special_preconditions:
+      - the declared operation identity or a necessary admissibility condition fails
+      - the failure applies to a clearly delimited tested operation claim
+      - source-object validity and alternative claims are assessed separately
+    representative_local_results:
+      - failed composition
+      - unsupported decomposition
+      - resolution drift where the attempted decomposition itself fails
+      - label substitution
+      - invalid type jump
+      - unmarked level mixing
+    representative_local_results_closed: false
+    central_non_equivalences:
+      - failed_transformation != non_capture
+      - failed operation != invalid source object
+      - rejected prior source-function claim != failed DECOMPOSE transformation
+      - failed_transformation != mandatory_stop in every case
+      - failed projection != analogy_only for the same claim
+    prohibited_inferences:
+      - the source object is invalid
+      - all alternative operations fail
+      - the object is uncapturable
+      - a later admissible operation retroactively validates this occurrence
+      - a separate surviving analogy is erased by the projection failure
+    boundary_handoffs:
+      - mandatory_stop_vs_failed_transformation
+      - failed_transformation_vs_non_capture
+      - analogy_only_vs_failed_projection
+  non_capture:
+    canonical_value: non_capture
+    canonical_meaning: The present STRATA grammar, source basis, granularity, composition, calibration, or projection cannot adequately 
+      capture the declared object, relation, or function without distortion, unsupported extension, or false closure.
+    primary_governance_question: Does no adequate retained STRATA claim remain under the present limiting conditions without distortion or 
+      false closure?
+    use_conditions:
+      - captured and uncaptured portions are identified
+      - the limiting condition is stated
+      - attempted operations and alternatives are documented
+      - no adequate retained claim remains after bounded separation, reduction, or rival comparison
+      - the result remains open to future or rival reconstruction without presuming one
+    exclusion_conditions:
+      - missing information alone
+      - a failed transformation alone
+      - immunity from criticism
+      - proof of rival superiority
+      - a protective label for a weak claim
+      - an adequate retained claim for the same delimited tested claim
+    claim_effect:
+      immediate: State what remains uncaptured and reduce any totalizing claim.
+      preserved_result: Captured portions, attempted operations, limiting conditions, failures, partial results, and rivals remain 
+        explicitly recorded.
+      withdrawn_or_unretained_result: No adequate whole or totalizing STRATA claim is retained under the present conditions.
+    continuation_and_reentry:
+      continuation_principle: False closure, unsupported extension, and protective use of weak claims are prohibited.
+      reentry_principle: Re-entry requires a changed limiting condition, new source basis, new calibration, different operation, or rival 
+        framework; the original non-capture remains recorded.
+      new_record_required_for_material_extension_or_changed_grounds: true
+      prior_result_must_remain_recorded: true
+    special_preconditions:
+      - no adequate retained STRATA claim remains under the present conditions
+      - distortion, unsupported extension, or false closure would be required to claim capture
+      - captured and uncaptured structure and the limiting condition are explicitly stated
+      - missing information alone is insufficient
+      - a failed operation alone is insufficient
+    representative_local_results:
+      - competing path constructions with no warranted selection
+      - source function underdetermined with no adequate retained result
+      - competing internal models that cannot be integrated
+      - operation-specific non-capture
+      - projection non-capture
+      - integrated non-capture
+    representative_local_results_closed: false
+    central_non_equivalences:
+      - non_capture != failed_transformation
+      - non_capture != missing information alone
+      - non_capture != immunity from criticism
+      - non_capture != proof of rival superiority
+      - non_capture != partially_admissible
+      - non_capture != admissible_but_provisional
+      - separate analogy or partial capture != automatic exclusion of non_capture for a broader delimited claim
+    prohibited_inferences:
+      - the class protects a weak claim from criticism
+      - a rival framework is automatically superior
+      - all future capture is impossible
+      - missing data alone establishes non-capture
+      - a failed operation retroactively becomes non-capture
+      - non-capture authorizes person or institutional judgment
+      - a separate analogy or partial capture automatically excludes non-capture for a broader delimited claim
+    boundary_handoffs:
+      - provisional_vs_non_capture
+      - partial_vs_non_capture
+      - failed_transformation_vs_non_capture
+      - mandatory_stop_vs_non_capture
+class_boundary_contract:
+  boundary_entries:
+    - boundary_id: admissible_vs_bounded_claim
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: admissible
+        - kind: canonical_class
+          id: admissible_with_bounded_claim
+      distinguishing_question: Is a material restriction relative to the tested or normally expected claim itself the decisive governance 
+        result?
+      semantic_rule:
+        - ordinary required contextual boundedness with no further output-relevant narrowing -> admissible
+        - material narrowing of reach or scope as the decisive result for an already tested claim -> admissible_with_bounded_claim
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: bounded_claim_vs_provisional
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: admissible_with_bounded_claim
+        - kind: canonical_class
+          id: admissible_but_provisional
+      distinguishing_question: Is the primary result a material scope restriction or a material unresolved support or calibration condition 
+        within one coherent scope?
+      semantic_rule:
+        - already revised and tested narrower reach as primary issue -> admissible_with_bounded_claim
+        - one coherent claim remains usable but support, calibration, temporal, counterfactual, or rival stability remains material -> 
+          admissible_but_provisional
+        - where both matter, state both conditions separately and select the class representing the primary governance result for the 
+          delimited claim
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: bounded_claim_vs_partial
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: admissible_with_bounded_claim
+        - kind: canonical_class
+          id: partially_admissible
+      distinguishing_question: Does one whole claim pass under narrower reach, or do separable parts receive different outcomes?
+      semantic_rule:
+        - one whole claim passes under materially narrower reach -> admissible_with_bounded_claim
+        - specified separable parts, stages, or subclaims have different admissibility outcomes -> partially_admissible
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: partial_vs_provisional
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: partially_admissible
+        - kind: canonical_class
+          id: admissible_but_provisional
+      distinguishing_question: Are there different outcomes across separable parts, or one coherent usable claim with unresolved support?
+      semantic_rule:
+        - separable subclaims or stages have different outcomes -> partially_admissible
+        - one coherent claim remains usable but support or rival comparison is unsettled -> admissible_but_provisional
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: provisional_vs_resolution_neutral
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: admissible_but_provisional
+        - kind: canonical_class
+          id: resolution_neutral
+      distinguishing_question: Does one usable claim remain under material support limits, or did a valid resolution test leave the 
+        warranted reconstruction unchanged?
+      semantic_rule:
+        - one coherent delimited claim remains usable while material source, counterfactual, calibration, temporal, or rival limits remain 
+          -> admissible_but_provisional
+        - a valid source-supported resolution test adds distinctions but does not change the warranted reconstruction -> resolution_neutral
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: provisional_vs_non_capture
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: admissible_but_provisional
+        - kind: canonical_class
+          id: non_capture
+      distinguishing_question: Does one adequate claim remain usable under a material qualifier, or does no adequate retained claim remain?
+      semantic_rule:
+        - one coherent claim remains usable under a material provisional qualifier -> admissible_but_provisional
+        - no adequate claim remains without distortion, unsupported extension, or false closure -> non_capture
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: partial_vs_non_capture
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: partially_admissible
+        - kind: canonical_class
+          id: non_capture
+      distinguishing_question: Do specified separable parts remain warranted after separation?
+      semantic_rule:
+        - specified separable parts remain warranted -> partially_admissible
+        - no adequate retained claim remains even after separating the parts -> non_capture
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: claim_reduction_vs_bounded_claim
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: claim_reduction_required
+        - kind: canonical_class
+          id: admissible_with_bounded_claim
+      distinguishing_question: Has the narrower claim already been revised and tested, or must the current claim still be weakened?
+      semantic_rule:
+        - current claim must still be weakened and retested -> claim_reduction_required
+        - narrower claim has already been revised, tested, and passed -> admissible_with_bounded_claim
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: claim_reduction_vs_mandatory_stop
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: claim_reduction_required
+        - kind: canonical_class
+          id: mandatory_stop
+      distinguishing_question: Can a grounded weaker claim be formulated and retested, or is continuation of the present operation under the
+        present conditions inadmissible?
+      semantic_rule:
+        - a concrete source- or rule-grounded weaker claim may be formulated and retested -> claim_reduction_required
+        - continuation of the current operation under the present conditions would cross a mandatory boundary -> mandatory_stop
+        - claim reduction does not pre-authorize the reduced claim, and mandatory stop does not prohibit all future re-entry under changed 
+          grounds
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: mandatory_stop_vs_failed_transformation
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: mandatory_stop
+        - kind: canonical_class
+          id: failed_transformation
+      distinguishing_question: Has the attempted operation already failed, or would further continuation cross a mandatory boundary while 
+        prior results may remain?
+      semantic_rule:
+        - declared operation fails its identity or necessary conditions -> failed_transformation
+        - further continuation crosses a mandatory boundary while a prior result may remain -> mandatory_stop
+        - both may occur only for separately delimited stages or claims
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: failed_transformation_vs_non_capture
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: failed_transformation
+        - kind: canonical_class
+          id: non_capture
+      distinguishing_question: Did one declared operation fail, or does no adequate retained reconstruction remain after bounded tests and 
+        alternatives?
+      semantic_rule:
+        - declared operation fails its test -> failed_transformation
+        - no adequate retained claim remains without distortion or false closure -> non_capture
+        - operation failure does not prove uncapturability; non-capture does not invalidate every attempted operation
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: mandatory_stop_vs_non_capture
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: mandatory_stop
+        - kind: canonical_class
+          id: non_capture
+      distinguishing_question: Is the primary result inadmissible continuation, or unavailability of adequate capture?
+      semantic_rule:
+        - present continuation is inadmissible -> mandatory_stop
+        - adequate capture remains unavailable after bounded tests -> non_capture
+        - a stop trigger and a non-capture statement may coexist in separate fields without class stacking
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: resolution_neutral_vs_claim_reduction
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: resolution_neutral
+        - kind: canonical_class
+          id: claim_reduction_required
+      distinguishing_question: Did a supported finer-resolution test leave the warranted reconstruction unchanged, or must a stronger claim 
+        be reformulated?
+      semantic_rule:
+        - supported resolution test produces no changed warranted reconstruction -> resolution_neutral
+        - current stronger claim must be reformulated and retested -> claim_reduction_required
+        - unsupported refinement points instead to failed_transformation or mandatory_stop according to the tested claim and continuation 
+          boundary
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+    - boundary_id: analogy_only_vs_failed_projection
+      classes_or_results_distinguished:
+        - kind: canonical_class
+          id: analogy_only
+        - kind: operation_specific_result
+          id: failed PROJECT_AS claim
+      distinguishing_question: Does a bounded analogy survive separately from an unestablished or failed projection claim?
+      semantic_rule:
+        - failed PROJECT_AS claim is recorded as failed_transformation for that projection occurrence where applicable
+        - a separately retained useful bounded resemblance is recorded as analogy_only for the analogy claim
+        - the two results require separated claims or record segments and do not constitute class stacking for one claim
+      no_default_precedence: true
+      route_owner: 07_model/Boundary_Decision_Tree.yaml
+  exact_boundary_count: 14
+  boundary_inventory_closed: false
+  boundary_entries_are_current_load_bearing_set: true
+  boundaries_semantic_not_ordinal: true
+  boundaries_do_not_select_routes: true
+  no_default_precedence_across_classes: true
+  collision_resolution_owner: 07_model/Boundary_Decision_Tree.yaml
+  rule_condition_owner: 07_model/Admissibility_Rules.yaml
+operation_chain_and_integrated_result_contract:
+  component_result_preservation:
+    each_operation_occurrence_retains_own_local_result: true
+    each_operation_occurrence_retains_own_canonical_output_class: true
+    each_operation_occurrence_retains_own_loss_record: true
+    each_operation_occurrence_retains_own_stop_and_non_capture_record: true
+    later_class_does_not_retroactively_change_earlier_class: true
+    later_admissible_does_not_validate_earlier_failure: true
+    later_transformation_does_not_erase_prior_stop_failure_or_non_capture: true
+  integrated_result:
+    separately_delimited_integrated_claim_may_receive_class: true
+    integrated_class_does_not_replace_component_classes: true
+    integrated_class_requires_own_rationale: true
+    integrated_partially_admissible_requires_explicitly_separable_retained_and_non_retained_parts: true
+    integrated_partially_admissible_is_not_average_of_component_outputs: true
+    integrated_failed_transformation_must_identify_failed_integrated_claim: true
+    integrated_failure_does_not_convert_successful_components_into_failed_occurrences: true
+    integrated_non_capture_requires_no_adequate_chain_level_retained_claim: true
+    integrated_non_capture_must_preserve_component_trace_heterogeneity_and_type_results: true
+  new_transformation_rule:
+    new_frame_granularity_level_composition_or_function_is_new_testable_claim: true
+    validity_inheritance: prohibited
+    authority_inheritance: prohibited
+    retroactive_validation: prohibited
+formal_model_boundary:
+  may_validate:
+    - exact canonical enum membership and spelling
+    - exact class count and absence of extra canonical values
+    - presence of required descriptive class fields
+    - structural separation of local result, support status, claim type, source-function effect, and Output Class
+    - presence of class-selection rationale fields in later record schemas
+    - cross-artifact identifier and ownership consistency
+    - component and integrated-result preservation structure
+  may_not_determine:
+    - whether a transformation is empirically true
+    - whether actual causality is established
+    - whether semantic or normative validity exists
+    - whether a selected class is substantively correct merely because fields are complete
+    - whether a claim is substantively best or complete
+    - person evaluation, diagnosis, maturity, dignity, blame, or ranking
+    - political or legal legitimacy
+    - sanction, intervention, or automatic action recommendation
+    - application authority
+    - theory superiority
+    - completeness of capture
+  non_inference_equivalences:
+    - valid enum value != valid substantive classification
+    - complete result record != warranted result
+    - admissible != true
+    - admissible != authorized
+    - output class != truth value
+    - output class != confidence score
+    - output class != rank
+    - more structure != more authority
+  implementation_safeguards:
+    automatic_class_inference_from_field_presence_prohibited: true
+    aggregate_class_score_prohibited: true
+    class_ordering_or_ranking_prohibited: true
+    class_stacking_as_reasoning_substitute_prohibited: true
+    automatic_admissibility_inference_prohibited: true
+    formal_completion_as_truth_proof_prohibited: true
+    human_or_domain_grounded_judgment_required: true
+cross_artifact_handoffs:
+  07_model/Operation_Registry.yaml:
+    owns:
+      - exactly three operation types
+      - operation identities and signatures
+      - operation-specific duties
+      - operation-level outcome handoffs
+    output_classes_relation: may reference canonical class identifiers but must not redefine class semantics or select routes
+  07_model/Output_Classes.yaml:
+    owns:
+      - exact ten-class inventory
+      - exact canonical identifiers and spelling
+      - canonical class meanings
+      - semantic class boundaries
+      - class claim, continuation, and re-entry effects
+      - class-level prohibited inferences
+  07_model/Admissibility_Rules.yaml:
+    owns:
+      - rule semantics
+      - check result vocabularies
+      - non-compensation rules
+      - stop, claim-ceiling, and boundary trigger logic
+    output_classes_relation: may supply rule conditions but must not redefine class identity or meaning
+  07_model/Boundary_Decision_Tree.yaml:
+    owns:
+      - route selection
+      - collision resolution
+      - routing precedence
+      - confusion routing
+    output_classes_relation: uses class meanings and semantic boundaries without redefining them
+  07_model/Transformation_Record.schema.json:
+    owns:
+      - concrete result fields
+      - required rationale syntax
+      - operation-specific result field
+      - canonical class value validation
+      - separate support, resolution, disposition, capture, source-function, and prior-result fields
+    output_classes_relation: validates exact class identifiers and required separation without deciding substantive correctness
+  07_model/PMS-STRATA.yaml:
+    owns:
+      - formal-model manifest
+      - artifact relationships
+      - package-level model assembly
+    output_classes_relation: references this registry as one formal-model component
+  07_model/PMS-STRATA.schema.json:
+    owns:
+      - package-level schema validation
+    output_classes_relation: must not duplicate class semantics beyond necessary reference validation
+  07_model/examples/*:
+    owns:
+      - concrete smoke-test records
+      - expected canonical routes
+      - case-specific rationales
+    output_classes_relation: this registry contains no case occurrence data

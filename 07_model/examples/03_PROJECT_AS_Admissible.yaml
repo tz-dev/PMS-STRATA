@@ -1,0 +1,1063 @@
+schema_version: 0.1.2
+record_id: smoke.project-as.admissible.03
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-21T15:00:00+02:00'
+  updated_at: '2026-07-21T15:00:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.formal-model-smoke-suite
+  repository_or_case_pointer: 07_model/examples/03_PROJECT_AS_Admissible.yaml
+  record_provenance:
+    - Synthetic positive PROJECT_AS smoke fixture linked to canonical smoke record 01; no empirical case truth or external domain warrant is
+      asserted.
+    - Validated against the active formal-model component set; no empirical or external-domain warrant is asserted.
+  model_versions:
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: Canonical positive PROJECT_AS smoke record for an admissible bounded contextual function with origin type preserved.
+claim:
+  claim_id: claim.project-as.admissible.03
+  statement: Within synthetic access-evaluation scene gamma, the origin-typed authorization sequence alpha performs a bounded 
+    binding-function for the scene's transition-eligibility check while remaining a sequence rather than becoming a new type or PMS 
+    primitive.
+  claim_type:
+    value: contextual function claim
+    control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
+    inventory_status: extension
+    extension_rationale: The local label identifies the bounded PROJECT_AS target-function claim without adding a canonical claim type.
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Only composite.authorization-sequence.alpha from smoke record 01 and synthetic access-evaluation scene gamma.
+    operation_occurrence_boundary: Only PROJECT_AS occurrence project-as.occurrence.03.
+    frame:
+      value: synthetic access-evaluation frame
+      control_source: 07_model/examples/03_PROJECT_AS_Admissible.yaml#/target/frame
+      inventory_status: extension
+      extension_rationale: Fixture-specific target frame used only for this smoke record.
+    granularity:
+      value: single transition-evaluation granularity
+      control_source: 07_model/examples/03_PROJECT_AS_Admissible.yaml#/target/granularity
+      inventory_status: extension
+      extension_rationale: Local target granularity for one bounded evaluation episode.
+    relative_level:
+      value: contextual target-function level relative to the origin-typed sequence
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Local wording instantiates the controlled source-target relative-level relation.
+    temporal_scope: Synthetic evaluation interval t2 only.
+    source_scope: Exactly the sequence formed in smoke record 01 plus the declared synthetic target-scene rule for gamma.
+    context_scope: Only target scene gamma and its declared transition-eligibility check.
+    generalization_boundary: No transfer to another scene, controller, institution, process, or real access system.
+    excluded_reach:
+      - No replacement of the origin type sequence by the target function.
+      - No claim that the function is a new PMS primitive or a global property of the source object.
+      - No claim that the sequence causes a physical transition, proves authorization legitimacy, or grants access.
+      - No person, organization, legal status, security posture, or real system is evaluated.
+  validity_scope: Valid only for the declared synthetic target scene gamma during the single evaluation interval t2.
+  claim_ceiling:
+    asserted_relation: The independently reconstructed source sequence is used by the declared target-scene rule as one bounded binding 
+      input to a transition-eligibility check.
+    reach: The source sequence, target scene gamma, the declared eligibility-check relation, and the t2 evaluation interval.
+    precision: Source identity, origin type, request-before-approval relation, target context, and bounded function only.
+    generality: Single synthetic fixture and one target scene.
+    functional_scope: Binding-function within target scene gamma only; no global function, origin-type identity, causal mechanism, or 
+      authorization authority.
+    dependence_strength: The target function depends on the same source sequence, its order, and the declared scene rule.
+    inferential_distance: One explicit PROJECT_AS step from an independently typed source composite to a bounded contextual function.
+    limiting_sources:
+      - source.record.compose.01
+      - source.fixture.access-scene.gamma
+    rationale: The sources support a context-bound functional projection but do not support transfer, type replacement, causal efficacy, 
+      legitimacy, or real-world authorization.
+  authority_boundary: The record authorizes only formal routing of this synthetic contextual-function claim; it grants no empirical truth, 
+    security decision, access permission, or application authority.
+source:
+  reference_object:
+    object_id: composite.authorization-sequence.alpha
+    description: The bounded request-before-approval sequence formed and retained by smoke record 01.
+    typing:
+      value: sequence
+      control_source: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/object_typing
+      inventory_status: current_controlled
+    source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/reference_object
+  object_typing:
+    value: sequence
+    control_source: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/object_typing
+    inventory_status: current_controlled
+  frame:
+    value: synthetic authorization episode frame
+    control_source: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/frame
+    inventory_status: extension
+    extension_rationale: The source frame is inherited as a declared local frame from the prior smoke record, not as new theory.
+  granularity:
+    value: paired-event sequence granularity
+    control_source: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/granularity
+    inventory_status: extension
+    extension_rationale: Local source granularity for the retained sequence.
+  relative_level:
+    value: origin-typed source composite relative to target scene gamma
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Local source-side relative-level wording.
+  temporal_scope: Synthetic source interval t0–t1, retained as prior history when evaluated at t2.
+  source_scope: Exactly composite.authorization-sequence.alpha and the source declarations retained by smoke record 01.
+  source_basis:
+    - source_item_id: source.record.compose.01
+      source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml
+      provenance_description: Canonical smoke record 01 declares the source sequence, its two events, and the request-before-approval 
+        constitutive relation.
+      affected_claim_component: Independent source identity, origin type, and source-side relation.
+      support_mode: direct
+      evidence_role:
+        value: prior canonical smoke record
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Local evidence role for cross-record formal smoke validation.
+      evidence_availability: available
+      temporal_scope: t0–t1
+      reference_scope: composite.authorization-sequence.alpha
+      uncertainty_or_provenance_limit: The prior record is synthetic and supplies no empirical or external domain warrant.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.fixture.access-scene.gamma
+      source_pointer: fixture://pms-strata/project-as-03/access-scene-gamma
+      provenance_description: Synthetic declaration of target scene gamma, its transition-eligibility check, and the rule that the retained 
+        ordered sequence is one binding input during t2.
+      affected_claim_component: Target-context existence, functional relation, and validity boundary.
+      support_mode: direct
+      evidence_role:
+        value: synthetic target-context declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Local evidence role used only to test PROJECT_AS formal routing.
+      evidence_availability: available
+      temporal_scope: t2
+      reference_scope: synthetic access-evaluation scene gamma
+      uncertainty_or_provenance_limit: The scene rule is synthetic and supports no transfer beyond this fixture.
+      warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+    - trace_id: trace.sequence.identity.alpha
+      source_feature: Independently reconstructed composite.authorization-sequence.alpha with origin type sequence.
+      affected_claim_component: Source reference and origin-type preservation.
+      trace_role: load_bearing
+      result_dependency: Without the independently identified source sequence, the projection would collapse into a target label with no 
+        source object.
+      expected_result_change: Removing or replacing the source sequence defeats the current projection claim.
+      temporal_or_relational_dependency: The sequence must remain the same request-before-approval composite established in smoke record 01.
+      claim_limitation: Supports source identity and origin type, not target-scene validity by itself.
+      source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/reference_object
+    - trace_id: trace.sequence.order.alpha
+      source_feature: The request-before-approval order is constitutive to the source sequence.
+      affected_claim_component: Functional continuity of the projected binding-function.
+      trace_role: load_bearing
+      result_dependency: The target-scene rule recognizes only the declared ordered sequence, not either isolated event or a reversed pair.
+      expected_result_change: Reversing the order or removing either event withdraws the binding-function in scene gamma.
+      temporal_or_relational_dependency: Request precedes approval within the retained source composite.
+      claim_limitation: Counterfactual sensitivity establishes source dependence, not causality or external authorization.
+      source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/operation/details/constitutive_relations/0
+    - trace_id: trace.target-rule.gamma
+      source_feature: Synthetic scene rule declares that the retained ordered sequence is a binding input to the t2 transition-eligibility 
+        check.
+      affected_claim_component: Contextual target function and its boundary.
+      trace_role: limiting
+      result_dependency: Without the declared target-scene rule, no PROJECT_AS target function is warranted.
+      expected_result_change: Changing or removing the scene rule requires withdrawal or a new PROJECT_AS record.
+      temporal_or_relational_dependency: The rule applies only in scene gamma during t2.
+      claim_limitation: Supports only the synthetic scene-bound function; no transfer or application authority follows.
+      source_pointer: fixture://pms-strata/project-as-03/access-scene-gamma
+  known_gaps:
+    - No real controller behavior, access event, institutional rule, or security outcome is represented.
+    - The fixture tests one declared functional relation and does not establish that other target contexts would preserve it.
+  source_ceiling:
+    asserted_relation: The prior smoke record supplies one independently typed ordered sequence, and the synthetic scene declaration 
+      supplies one bounded target-context rule.
+    reach: Source identity, origin type, source order, scene identity, scene rule, and validity interval.
+    precision: Enough to test source-dependent contextual projection, not real operation or authorization.
+    generality: Single synthetic source object and target scene.
+    functional_scope: Potential support for the declared binding-function in gamma only.
+    dependence_strength: Direct prior-record and fixture declarations.
+    inferential_distance: Source declarations only; admissibility of PROJECT_AS is assessed separately.
+    limiting_sources:
+      - source.record.compose.01
+      - source.fixture.access-scene.gamma
+    rationale: The source basis supports the bounded projection while excluding global transfer, causal efficacy, legitimacy, and 
+      application authority.
+operation:
+  occurrence_id: project-as.occurrence.03
+  kind: PROJECT_AS
+  justification: The source sequence is independently identified and typed before the target function is proposed; a separately declared 
+    target scene uses source-dependent features as a bounded contextual function, so the operation is PROJECT_AS rather than renaming, 
+    analogy, COMPOSE, or DECOMPOSE.
+  expected_praxeological_difference: The projection distinguishes the sequence merely existing as an origin-typed composite from the same 
+    sequence performing a source-sensitive binding-function within scene gamma.
+  selection_rule: Use exactly composite.authorization-sequence.alpha and scene gamma; preserve the origin type sequence, the 
+    request-before-approval relation, and the t2 validity boundary; exclude all other contexts and functions.
+  transformation_context: Synthetic formal-model smoke test of positive PROJECT_AS routing.
+  details:
+    target_context: Synthetic access-evaluation scene gamma during transition-eligibility check at t2.
+    constitutive_source_trace:
+      - trace_id: trace.sequence.identity.alpha
+        source_feature: Independently reconstructed composite.authorization-sequence.alpha with origin type sequence.
+        affected_claim_component: Source reference and origin-type preservation.
+        trace_role: load_bearing
+        result_dependency: Without the independently identified source sequence, the projection would collapse into a target label with no 
+          source object.
+        expected_result_change: Removing or replacing the source sequence defeats the current projection claim.
+        temporal_or_relational_dependency: The sequence must remain the same request-before-approval composite established in smoke record 
+          01.
+        claim_limitation: Supports source identity and origin type, not target-scene validity by itself.
+        source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/target/reference_object
+      - trace_id: trace.sequence.order.alpha
+        source_feature: The request-before-approval order is constitutive to the source sequence.
+        affected_claim_component: Functional continuity of the projected binding-function.
+        trace_role: load_bearing
+        result_dependency: The target-scene rule recognizes only the declared ordered sequence, not either isolated event or a reversed 
+          pair.
+        expected_result_change: Reversing the order or removing either event withdraws the binding-function in scene gamma.
+        temporal_or_relational_dependency: Request precedes approval within the retained source composite.
+        claim_limitation: Counterfactual sensitivity establishes source dependence, not causality or external authorization.
+        source_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/operation/details/constitutive_relations/0
+      - trace_id: trace.target-rule.gamma
+        source_feature: Synthetic scene rule declares that the retained ordered sequence is a binding input to the t2 transition-eligibility
+          check.
+        affected_claim_component: Contextual target function and its boundary.
+        trace_role: limiting
+        result_dependency: Without the declared target-scene rule, no PROJECT_AS target function is warranted.
+        expected_result_change: Changing or removing the scene rule requires withdrawal or a new PROJECT_AS record.
+        temporal_or_relational_dependency: The rule applies only in scene gamma during t2.
+        claim_limitation: Supports only the synthetic scene-bound function; no transfer or application authority follows.
+        source_pointer: fixture://pms-strata/project-as-03/access-scene-gamma
+    source_reference_preserved: true
+    origin_type_preserved: true
+    target_function_bounded: true
+    alternative_projection_or_no_projection:
+      - Retain the source sequence without projecting a target function.
+      - Treat the relation as a mere label or analogy; this is rejected because the fixture declares a source-sensitive target-scene rule.
+    target_contextual_function_pointer: /target/contextual_function
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_reference_object_pointer: /target/reference_object
+    target_frame_pointer: /target/frame
+    validity_scope_pointer: /target/validity_scope
+target:
+  reference_object:
+    object_id: scene.access-evaluation.gamma
+    description: Synthetic target scene containing one transition-eligibility check at t2.
+    typing:
+      value: target scene
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/target_identity_requirements
+      inventory_status: extension
+      extension_rationale: Fixture-specific target-scene type used only for this smoke record.
+    source_pointer: fixture://pms-strata/project-as-03/access-scene-gamma
+  object_typing:
+    value: target scene
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/target_identity_requirements
+    inventory_status: extension
+    extension_rationale: Fixture-specific target-scene type used only for this smoke record.
+  contextual_function:
+    value: binding-function
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS/target_contract/recognized_result_families
+    inventory_status: current_controlled
+  frame:
+    value: synthetic access-evaluation frame
+    control_source: 07_model/examples/03_PROJECT_AS_Admissible.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Fixture-specific target frame used only for this smoke record.
+  granularity:
+    value: single transition-evaluation granularity
+    control_source: 07_model/examples/03_PROJECT_AS_Admissible.yaml#/claim/claim_scope/granularity
+    inventory_status: extension
+    extension_rationale: Local target granularity for one bounded evaluation episode.
+  relative_level:
+    value: contextual target-function level relative to the origin-typed sequence
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Local target-side relative-level wording.
+  temporal_scope: Synthetic evaluation interval t2 only.
+  validity_scope: Only scene gamma, its declared transition-eligibility check, and the single t2 interval; no transfer is asserted.
+  contextual_function_origin_occurrence_ref:
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source object, origin type, target scene, contextual function, scope, ceilings, and authority boundary are complete.
+      rationale: The source sequence exists independently of the target label, and both source-side and target-side declarations are 
+        explicit.
+      rule_assessment_pointers:
+        - source_ceiling
+        - contextual_boundedness
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /target
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: The occurrence is correctly classified as PROJECT_AS.
+      rationale: An origin-typed source object is projected as a bounded source-dependent function within a declared target scene; no type 
+        replacement, composition, decomposition, or mere renaming occurs.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /operation
+        - 07_model/Operation_Registry.yaml#/operation_types/PROJECT_AS
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The contextual function yields a declared praxis-relevant distinction.
+      rationale: The target distinguishes the source sequence merely existing from that same sequence serving as a binding input to the 
+        gamma eligibility check.
+      rule_assessment_pointers:
+        - praxis_purchase
+      evidence_or_artifact_pointers:
+        - /admissibility/rule_assessments/praxis_purchase
+        - /operation/expected_praxeological_difference
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The target function remains reconstructible from the source sequence and the declared scene rule.
+      rationale: Source identity, origin type, constitutive order, target context, and validity boundary remain directly traceable.
+      rule_assessment_pointers:
+        - traceable_load
+      evidence_or_artifact_pointers:
+        - /admissibility/rule_assessments/traceable_load
+        - /operation/details/constitutive_source_trace
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source reference, origin type, contextual function, temporal boundary, and source-target distinction are preserved.
+      rationale: The sequence remains a sequence; binding-function is separately typed as contextual and derived; scene gamma and t2 are 
+        explicit.
+      rule_assessment_pointers:
+        - type_integrity
+        - reference_continuity
+        - functional_continuity
+        - temporal_continuity
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /admissibility/rule_assessments/type_integrity
+        - /admissibility/rule_assessments/reference_continuity
+        - /admissibility/rule_assessments/functional_continuity
+        - /target
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The target function changes under load-bearing source or context changes.
+      rationale: Removing the source sequence, reversing its order, or removing the gamma scene rule withdraws the projected function.
+      rule_assessment_pointers:
+        - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /admissibility/rule_assessments/counterfactual_sensitivity
+        - /source/constitutive_source_trace
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Source selection, contextual visibility changes, and projection loss are explicit and compatible with the bounded 
+        claim.
+      rationale: Origin type and constitutive order are preserved; non-load-bearing source detail is compressed; other contexts and 
+        authority claims are excluded.
+      rule_assessment_pointers:
+        - selection_and_loss
+      evidence_or_artifact_pointers:
+        - /operation/selection_rule
+        - /loss
+        - /admissibility/rule_assessments/selection_and_loss
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: A rival label-only projection and the no-projection option were considered.
+      rationale: Mere relabeling lacks source-dependent functional gain; retaining the source without projection remains possible but does 
+        not express the tested target-scene function.
+      rule_assessment_pointers:
+        - alternatives
+      evidence_or_artifact_pointers:
+        - /alternatives
+        - /admissibility/rule_assessments/alternatives
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The source ceiling and synthetic projection-calibration limits are declared.
+      rationale: The fixture discriminates the positive projection from type replacement, missing context, label substitution, and 
+        source-insensitive variants without claiming external calibration.
+      rule_assessment_pointers:
+        - source_ceiling
+        - calibration
+      evidence_or_artifact_pointers:
+        - /source/source_ceiling
+        - /admissibility/rule_assessments/source_ceiling
+        - /admissibility/rule_assessments/calibration
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: The projection does not revise or erase the prior COMPOSE claim.
+      rationale: Smoke record 01 remains separately testable; PROJECT_AS creates a new target-function claim and does not repair, 
+        strengthen, or globalize the prior composite claim.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /admissibility/anti_immunization_assessment
+        - /relations
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: No mandatory stop or material non-capture condition is reached for the declared projection.
+      rationale: The bounded function is source-sensitive, type-preserving, context-bound, and adequately captured within the stated claim 
+        ceiling.
+      rule_assessment_pointers:
+        - stop
+        - non_capture
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /admissibility/stop_assessment
+        - /admissibility/non_capture_assessment
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: The claim and authority ceilings are explicit and respected.
+      rationale: The result retains only a synthetic scene-bound binding-function and grants no type identity, empirical truth, access 
+        permission, legitimacy, or application authority.
+      rule_assessment_pointers:
+        - claim_ceiling
+        - authority_ceiling
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim/claim_ceiling
+        - /governance
+        - /result/status_declaration
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/relevance_floor
+        - /operation
+        - /claim
+      reasoned_finding: The projection distinguishes a scene-bound binding role from mere source-object existence or target labeling.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the praxis_purchase finding and its existing scope.
+      required_action: Retain the contextual function only for scene gamma.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/traceability_ceiling
+        - /operation
+        - /claim
+      reasoned_finding: The function is reconstructible from the prior source sequence, its constitutive order, and the declared 
+        target-scene rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the traceable_load finding and its existing scope.
+      required_action: Preserve all load-bearing traces and do not transfer the function beyond gamma.
+      controlled_local_result: within_ceiling
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/continuity_and_type_integrity
+        - /operation
+        - /claim
+      reasoned_finding: The source remains typed as sequence; binding-function is a separate derived target function and not a new origin 
+        type.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the type_integrity finding and its existing scope.
+      required_action: Maintain the explicit source-type/target-function separation.
+      controlled_local_result:
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/continuity_and_type_integrity
+        - /operation
+        - /claim
+      reasoned_finding: The same source reference composite.authorization-sequence.alpha is retained throughout the projection.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the reference_continuity finding and its existing scope.
+      required_action: Do not substitute an object identified only by the target label.
+      controlled_local_result:
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/continuity_and_type_integrity
+        - /operation
+        - /claim
+      reasoned_finding: The target function depends on the source sequence, its request-before-approval relation, and the gamma scene rule.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the functional_continuity finding and its existing scope.
+      required_action: Withdraw or retest the function if any load-bearing source feature or context rule changes.
+      controlled_local_result:
+      applicability_condition: Applies when a COMPOSE claim carries, preserves, revises, or compares a source or coarser function.
+      applicability_rationale: This occurrence forms only a declared sequence and explicitly leaves contextual_function null.
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/continuity_and_type_integrity
+        - /operation
+        - /claim
+      reasoned_finding: The source history t0–t1 remains visible and the target function is valid only at t2.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the temporal_continuity finding and its existing scope.
+      required_action: Preserve the distinct source and target temporal scopes.
+      controlled_local_result:
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/source_and_claim_entry
+        - /operation
+        - /claim
+      reasoned_finding: Target scene gamma, target frame, target granularity, relative level, t2 duration, and transfer limits are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the contextual_boundedness finding and its existing scope.
+      required_action: Retain only ordinary declared boundedness; any new context requires a new record.
+      controlled_local_result:
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/counterfactual_sensitivity
+        - /operation
+        - /claim
+      reasoned_finding: Removing the source, reversing its order, or removing the target-scene rule defeats the function.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the counterfactual_sensitivity finding and its existing scope.
+      required_action: Preserve these defeat conditions and do not infer causality.
+      controlled_local_result: strongly_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/source_and_claim_entry
+        - /operation
+        - /claim
+      reasoned_finding: The source basis supports source identity, order, context rule, and bounded function but not real access, causal 
+        efficacy, legitimacy, or transfer.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the source_ceiling finding and its existing scope.
+      required_action: Retain only the bounded synthetic projection.
+      controlled_local_result:
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/source_and_calibration_limits
+        - /operation
+        - /claim
+      reasoned_finding: The fixture discriminates the positive record from missing-context, origin-type-replacement, label-substitution, and
+        source-insensitive variants.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the calibration finding and its existing scope.
+      required_action: Use the defined negative mutations during suite validation; do not treat this as external empirical calibration.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/loss_and_selection
+        - /operation
+        - /claim
+      reasoned_finding: The exact source sequence and target scene are selected; preserved, compressed, and excluded features are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the selection_and_loss finding and its existing scope.
+      required_action: Retain the function with the declared loss profile.
+      controlled_local_result:
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/alternatives
+        - /operation
+        - /claim
+      reasoned_finding: The no-projection option and label-only rival are recorded and distinguished.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the alternatives finding and its existing scope.
+      required_action: Preserve alternatives without merging them into the selected claim.
+      controlled_local_result:
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/source_and_claim_entry
+        - /operation
+        - /claim
+      reasoned_finding: The claim ceiling excludes origin-type replacement, global function, causality, legitimacy, real access, person 
+        properties, and application claims.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the claim_ceiling finding and its existing scope.
+      required_action: Retain the contextual-function claim without expansion.
+      controlled_local_result:
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/claim_and_authority_ceiling
+        - /operation
+        - /claim
+      reasoned_finding: Formal validation and routing grant no empirical truth, access permission, security decision, or application 
+        authority.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the authority_ceiling finding and its existing scope.
+      required_action: Maintain the governance prohibitions.
+      controlled_local_result:
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/stop_and_non_capture
+        - /operation
+        - /claim
+      reasoned_finding: No stop condition is reached because the projection is relevant, traceable, type-preserving, source-sensitive, and 
+        context-bound.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the stop finding and its existing scope.
+      required_action: Continue only for this record; any material extension requires a new testable claim.
+      controlled_local_result:
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/stop_and_non_capture
+        - /operation
+        - /claim
+      reasoned_finding: The bounded target-function claim is adequately captured and no material capture limit is asserted.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The declared claim is retained subject to the non_capture finding and its existing scope.
+      required_action: Retain the claim while preserving its exclusions and transfer limits.
+      controlled_local_result:
+  non_compensation_confirmation: true
+  audit_to_routing_basis: All applicable Rule assessments are complete; PraxisPurchase is gain, TraceableLoad is within_ceiling, source 
+    reference and origin type are preserved, functional and contextual continuity are explicit, counterfactual sensitivity is strong, no 
+    material narrowing or provisional condition is decisive, and no stop or non-capture result is reached.
+  anti_immunization_assessment: The PROJECT_AS claim is new and separately testable. It does not erase, repair, or strengthen smoke record 
+    01; changing source, scene, frame, granularity, level, function, or validity scope requires a new record.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The projection stays above the Relevance Floor and below the Traceability Ceiling while preserving type, reference, 
+      functional continuity, and contextual bounds.
+    reentry_contemplated: false
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: true
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: The record adequately captures the bounded synthetic source-target function while excluding transfer, type replacement, 
+      causal, normative, and application claims.
+loss:
+  preserved:
+    - item_id: loss.preserved.source-reference
+      affected_element: Source reference
+      description: composite.authorization-sequence.alpha remains the authoritative source object.
+      reason: PROJECT_AS requires same-source reference continuity.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve the independently reconstructed source object.
+      source_or_evidence_pointer: /source/reference_object
+    - item_id: loss.preserved.origin-type
+      affected_element: Origin type
+      description: The source remains typed as sequence after projection.
+      reason: A contextual target function must not replace the origin type.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Retain origin type sequence separately from binding-function.
+      source_or_evidence_pointer: /source/object_typing
+    - item_id: loss.preserved.constitutive-order
+      affected_element: Request-before-approval relation
+      description: The source order remains load-bearing for the target function.
+      reason: Functional continuity depends on the constitutive source relation.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Preserve the relation and its counterfactual defeat condition.
+      source_or_evidence_pointer: /source/constitutive_source_trace/1
+    - item_id: loss.preserved.context-boundary
+      affected_element: Target-context boundary
+      description: Scene gamma and t2 remain explicit.
+      reason: Ordinary contextual boundedness is constitutive to admissible PROJECT_AS.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Bind the function to the declared scene and interval.
+      source_or_evidence_pointer: /target/validity_scope
+  compressed:
+    - item_id: loss.compressed.elapsed-duration
+      affected_element: Exact elapsed duration inside the source sequence
+      description: The projection retains order but not exact duration between request and approval.
+      reason: Exact duration is not load-bearing for this fixture's target rule.
+      claim_effect:
+        family:
+          value: qualify
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Do not infer duration-sensitive behavior.
+      source_or_evidence_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/loss/compressed
+      recoverability_or_reentry_note: A new record is required if duration becomes constitutive.
+    - item_id: loss.compressed.source-internal-context
+      affected_element: Non-load-bearing internal source context
+      description: Motives, actor biographies, and surrounding organizational context remain outside the projected function.
+      reason: The target claim depends only on the declared source sequence and scene rule.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Limit the function to declared load-bearing features.
+      source_or_evidence_pointer: /source/known_gaps
+  excluded:
+    - item_id: loss.excluded.other-contexts
+      affected_element: Other target contexts
+      description: No projection is asserted outside scene gamma.
+      reason: Transfer would be a new testable claim.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Exclude global or cross-context transfer.
+      source_or_evidence_pointer: /target/validity_scope
+    - item_id: loss.excluded.authority
+      affected_element: Authorization, legitimacy, and application authority
+      description: The synthetic binding-function does not grant access or validate a legal, normative, or security decision.
+      reason: PROJECT_AS does not increase authority.
+      claim_effect:
+        family:
+          value: separate
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Separate formal target function from application authority.
+      source_or_evidence_pointer: /governance/authority_ceiling
+  uncertain: []
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions: []
+  rival_projections:
+    - alternative_id: alternative.label-only-authorized
+      claim_relation: Rename the source sequence as authorized without declaring a target scene, source-dependent function, or 
+        counterfactual behavior.
+      source_basis_or_evidence_pointer: /source/reference_object
+      comparative_burden: Lower descriptive burden but no PROJECT_AS functional continuity or discriminative gain.
+      current_handling: rejected
+      rationale: Label substitution is not a bounded contextual function.
+  no_transformation:
+    - alternative_id: alternative.retain-source-sequence-only
+      claim_relation: Retain composite.authorization-sequence.alpha solely as the sequence established by smoke record 01.
+      source_basis_or_evidence_pointer: 07_model/examples/01_COMPOSE_Admissible.yaml#/target
+      comparative_burden: Lower inferential burden and preserves the source claim but does not represent the declared gamma target-function 
+        relation.
+      current_handling: not_selected
+      rationale: The fixture supplies a bounded, source-sensitive target-scene function, so no-projection remains an available alternative 
+        rather than the selected result.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal schema conformance and admissible routing apply only to this synthetic contextual-function claim; they do not 
+    establish empirical truth, causal efficacy, security sufficiency, access permission, legal or normative legitimacy, diagnosis, sanction,
+    or application authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+    - origin type sequence is not replaced by binding-function
+    - the contextual function is not a new PMS primitive
+    - local validity in scene gamma does not transfer globally
+    - source sensitivity does not prove causality
+    - formal validation does not grant access, legitimacy, or application authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: The independently typed authorization sequence alpha is projected as a source-sensitive binding-function only within synthetic 
+      scene gamma at t2, while the source remains a sequence and all transfer and authority claims are excluded.
+    result_family:
+      value: admissible bounded contextual function
+      control_source: 07_model/Output_Classes.yaml#/output_classes/admissible/representative_local_results
+      inventory_status: extension
+      extension_rationale: Local result wording instantiates the canonical admissible class for PROJECT_AS.
+    source_function_effect:
+    prior_source_claim_disposition:
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids: []
+  status_declaration:
+    support_status: supported
+    resolution_test_result:
+    capture_statement:
+      statement: No material capture limit is asserted for the bounded gamma target-function claim; the source claim and excluded contexts 
+        remain separately visible.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: selected
+        rationale: The PROJECT_AS occurrence preserves source reference and origin type, establishes a source-sensitive bounded target 
+          function within a declared context, and requires no material output-relevant restriction beyond ordinary boundedness.
+        constitutive_condition_pointers:
+          - /operation/kind
+          - /operation/details/source_reference_preserved
+          - /operation/details/origin_type_preserved
+          - /operation/details/target_function_bounded
+          - /target/contextual_function
+          - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+          - /admissibility/rule_assessments/traceable_load/controlled_local_result
+          - /admissibility/rule_assessments/counterfactual_sensitivity/controlled_local_result
+          - /admissibility/stop_assessment/reached
+        preserved_finding: The origin-typed source sequence and the bounded gamma binding-function claim are retained on separate axes.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: not_generated
+        rationale: No additional material reach or scope narrowing is the decisive result; scene gamma and t2 are ordinary constitutive 
+          boundedness declared from entry.
+        constitutive_condition_pointers: []
+        preserved_finding: No admissible_with_bounded_claim result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The synthetic source and context declarations are available, and no unresolved calibration or support condition is 
+          decisive.
+        constitutive_condition_pointers: []
+        preserved_finding: No admissible_but_provisional result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: not_generated
+        rationale: This is PROJECT_AS, not a DECOMPOSE occurrence with a resolution result.
+        constitutive_condition_pointers: []
+        preserved_finding: No resolution_neutral result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: 'The claim is not retained merely as analogy: a declared source-dependent contextual function and defeat conditions are present.'
+        constitutive_condition_pointers: []
+        preserved_finding: No analogy_only result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: The full bounded projection claim is supported; no separable unsupported remainder requires a partial result.
+        constitutive_condition_pointers: []
+        preserved_finding: No partially_admissible result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: not_generated
+        rationale: The claim already stays within source, traceability, context, and authority ceilings; no narrower replacement claim is 
+          required.
+        constitutive_condition_pointers: []
+        preserved_finding: No claim_reduction_required result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: not_generated
+        rationale: No relevance, traceability, type, reference, functional-continuity, or contextual-boundary stop is reached.
+        constitutive_condition_pointers: []
+        preserved_finding: No mandatory_stop result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: The source object exists independently, origin type is preserved, target context is declared, and the target function is 
+          source-sensitive rather than a label substitution.
+        constitutive_condition_pointers: []
+        preserved_finding: No failed_transformation result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: An adequate bounded PROJECT_AS claim remains and no material capture limit is asserted.
+        constitutive_condition_pointers: []
+        preserved_finding: No non_capture result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+    selected_class: admissible
+    route_id: route_admissible
+    matched_constitutive_conditions:
+      - /operation/kind
+      - /operation/details/source_reference_preserved
+      - /operation/details/origin_type_preserved
+      - /operation/details/target_function_bounded
+      - /target/contextual_function
+      - /target/validity_scope
+      - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+      - /admissibility/rule_assessments/traceable_load/controlled_local_result
+      - /admissibility/rule_assessments/counterfactual_sensitivity/controlled_local_result
+      - /admissibility/stop_assessment/reached
+      - /admissibility/non_capture_assessment/material_capture_limit_asserted
+    same_claim_collision_assessed: true
+    same_claim_collision_present: false
+    collision_resolution_state: no_collision
+    preserved_non_selected_findings:
+      - The source sequence remains valid independently of the projection and is not transformed into the target function.
+    split_decision:
+      required: false
+      rationale: The source claim and target-function claim are already separated by record fields and do not require competing Output 
+        Classes for the current delimited projection claim.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: PraxisPurchase is gain, TraceableLoad is within_ceiling, reference and origin type are preserved, target 
+      function and context are explicit, functional continuity is source-sensitive, ordinary boundedness is constitutive rather than a later
+      material narrowing, and no stop or capture limit is reached. Admissible is therefore selected.
+    current_claim_disposition:
+      value: maintained
+      rationale: The bounded contextual-function claim is retained exactly within scene gamma and t2; the prior source-sequence claim 
+        remains separately intact.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: admissible
+    ordinary_boundedness_confirmed: true
+    rationale: The projection satisfies relevance, traceability, type, reference, functional continuity, contextual boundedness, 
+      counterfactual sensitivity, loss, alternatives, claim-ceiling, authority-ceiling, stop, and non-capture checks without a decisive 
+      material restriction beyond its declared target context.
+relations:
+  prior_record_ids:
+    - smoke.compose.admissible.01
+  prior_claim_ids:
+    - claim.compose.admissible.01
+  sibling_claim_or_record_ids: []
+  rival_record_ids: []
+  countercase_refs:
+    - 'planned-record: 04_PROJECT_AS_Label_Substitution.yaml'
+    - 'planned-negative-mutation: replace origin type with binding-function'
+    - 'planned-negative-mutation: remove target context or make the function source-insensitive'

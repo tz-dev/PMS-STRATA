@@ -305,11 +305,11 @@ These distinctions remain operational throughout PATH, SUB, RETYPE, LIMITS, the 
 Every STRATA transformation must operate between a lower and an upper bound.
 
 ```text
-Praxeological Relevance Floor
+Praxeological Traceability Ceiling
 ─────────────────────────────
 admissible transformation
 ─────────────────────────────
-Praxeological Traceability Ceiling
+Praxeological Relevance Floor
 ```
 
 ### Praxeological Relevance Floor

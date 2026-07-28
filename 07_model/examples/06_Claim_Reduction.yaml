@@ -1,0 +1,1181 @@
+schema_version: 0.1.2
+record_id: smoke.decompose.claim-reduction.06
+record_scope: operation_occurrence
+routing_state: routed
+record_metadata:
+  created_at: '2026-07-21T18:30:00+02:00'
+  updated_at: '2026-07-21T18:30:00+02:00'
+  revision_id: r1
+  producer_id: PMS-STRATA.formal-model-smoke-suite
+  repository_or_case_pointer: 07_model/examples/06_Claim_Reduction.yaml
+  record_provenance:
+    - Synthetic DECOMPOSE smoke fixture testing explicit reduction of an overstrong internal-continuity claim.
+    - Validated against the active formal-model component set; no empirical or external-domain warrant is asserted.
+  model_versions:
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
+  formal_validation_not_substantive_validation_acknowledged: true
+  record_status_note: 'Canonical DECOMPOSE smoke record for claim_reduction_required: finer reconstruction produces genuine gain but does not
+    support the original uninterrupted-continuity claim.'
+claim:
+  claim_id: claim.decompose.claim-reduction.06
+  statement: The synthetic release-handoff occurrence decomposes into three internally continuous and fully coordinated stages whose 
+    relations establish one uninterrupted control handoff from request through verification to activation.
+  claim_type:
+    value: transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
+    inventory_status: current_controlled
+  claim_role:
+    value: primary transformation claim
+    control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
+    inventory_status: current_controlled
+  claim_scope:
+    reference_object_boundary: Only compressed release-handoff occurrence zeta and its three declared finer components.
+    operation_occurrence_boundary: Only DECOMPOSE occurrence decompose.occurrence.06.
+    frame:
+      value: synthetic release-handoff occurrence frame
+      control_source: 07_model/examples/06_Claim_Reduction.yaml#/claim/claim_scope/frame
+      inventory_status: extension
+      extension_rationale: Fixture-specific frame used only to test claim reduction after DECOMPOSE.
+    granularity:
+      value: compressed occurrence to three-stage relational reconstruction
+      control_source: 07_model/examples/06_Claim_Reduction.yaml#/claim/claim_scope/granularity
+      inventory_status: extension
+      extension_rationale: Local granularity comparison for this fixture.
+    relative_level:
+      value: finer component reconstruction relative to one compressed handoff occurrence
+      control_source: 04_reference/Glossary.md#relative-level
+      inventory_status: extension
+      extension_rationale: Local wording instantiates the controlled relative-level relation.
+    temporal_scope: 'Synthetic interval t0–t2: request at t0, verification during t1, and activation at t2.'
+    source_scope: Exactly occurrence.release-handoff.zeta plus direct fixture declarations for request, verification, activation, their 
+      order, and the unresolved verification-to-activation relation.
+    context_scope: Formal smoke-test fixture only.
+    generalization_boundary: No extension beyond this fixture and no claim that staged handoffs generally lack continuity.
+    excluded_reach:
+      - No causal, technical-safety, organizational-quality, or authorization-validity conclusion.
+      - No operator-type decomposition and no new PMS primitive.
+      - No automatic admissibility of the proposed weaker formulation.
+      - No person, institution, or real technical system is evaluated.
+  validity_scope: Valid only as a synthetic demonstration that a stronger DECOMPOSE claim can require explicit reduction and retesting.
+  claim_ceiling:
+    asserted_relation: Three finer stages are asserted not merely to occur in order but to form one fully coordinated uninterrupted control 
+      handoff.
+    reach: The three stage identities, both stage relations, and the claimed uninterrupted coordination across t0–t2.
+    precision: Stage identities and order are source-supported; continuity of the verification-to-activation relation is not.
+    generality: Single synthetic fixture.
+    functional_scope: Source function limited to a release-handoff occurrence; no contextual target function is projected.
+    dependence_strength: The stronger claim requires both stage relations to be source-supported and counterfactually load-bearing.
+    inferential_distance: One DECOMPOSE step from a compressed occurrence to a three-component relational reconstruction.
+    limiting_sources:
+      - source.fixture.release-request.zeta
+      - source.fixture.release-verification.zeta
+      - source.fixture.release-activation.zeta
+      - source.fixture.relation-gap.zeta
+    rationale: The sources warrant a concrete ordered-stage candidate but not the original uninterrupted-coordination claim.
+  authority_boundary: The record authorizes only formal reduction and retesting of this synthetic claim; it grants no empirical truth, 
+    deployment decision, authorization, or application authority.
+source:
+  reference_object:
+    object_id: occurrence.release-handoff.zeta
+    description: One synthetic compressed release-handoff occurrence provisionally represented as a continuous coordinated transition.
+    typing:
+      value: operator-typed occurrence
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/source_contract/recognized_object_families
+      inventory_status: current_controlled
+    source_pointer: fixture://pms-strata/decompose-06/release-handoff-zeta
+  object_typing:
+    value: operator-typed occurrence
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/source_contract/recognized_object_families
+    inventory_status: current_controlled
+  frame:
+    value: synthetic release-handoff occurrence frame
+    control_source: 07_model/examples/06_Claim_Reduction.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Fixture-specific frame used only to test claim reduction after DECOMPOSE.
+  granularity:
+    value: single compressed handoff-occurrence granularity
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/direction/source_form
+    inventory_status: extension
+    extension_rationale: Local source granularity for the compressed occurrence.
+  relative_level:
+    value: source occurrence relative to three finer handoff stages
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Local source-side relative-level wording.
+  temporal_scope: Synthetic interval t0–t2.
+  source_scope: Exactly occurrence.release-handoff.zeta and the four fixture declarations used to test its internal continuity claim.
+  source_basis:
+    - source_item_id: source.fixture.release-request.zeta
+      source_pointer: fixture://pms-strata/decompose-06/request-zeta
+      provenance_description: Synthetic declaration that a release request is registered at t0.
+      affected_claim_component: First component identity and sequence opening.
+      support_mode: direct
+      evidence_role:
+        value: synthetic fixture declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Local synthetic evidence role for formal smoke validation.
+      evidence_availability: available
+      temporal_scope: t0
+      reference_scope: component.release-request.zeta
+      uncertainty_or_provenance_limit: Synthetic and non-empirical; supports only component identity and time position.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.fixture.release-verification.zeta
+      source_pointer: fixture://pms-strata/decompose-06/verification-zeta
+      provenance_description: Synthetic declaration that a verification stage occurs during t1 and follows the request.
+      affected_claim_component: Second component identity and request-to-verification relation.
+      support_mode: direct
+      evidence_role:
+        value: synthetic fixture declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Local synthetic evidence role for formal smoke validation.
+      evidence_availability: available
+      temporal_scope: t1
+      reference_scope: component.release-verification.zeta
+      uncertainty_or_provenance_limit: Synthetic and non-empirical; does not itself establish that verification output controls activation.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.fixture.release-activation.zeta
+      source_pointer: fixture://pms-strata/decompose-06/activation-zeta
+      provenance_description: Synthetic declaration that release activation occurs at t2 after the verification interval.
+      affected_claim_component: Third component identity and sequence endpoint.
+      support_mode: direct
+      evidence_role:
+        value: synthetic fixture declaration
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Local synthetic evidence role for formal smoke validation.
+      evidence_availability: available
+      temporal_scope: t2
+      reference_scope: component.release-activation.zeta
+      uncertainty_or_provenance_limit: Synthetic and non-empirical; supports order but not uninterrupted control continuity.
+      warrant_route: strata_internal_support_assessable
+    - source_item_id: source.fixture.relation-gap.zeta
+      source_pointer: fixture://pms-strata/decompose-06/relation-gap-zeta
+      provenance_description: Synthetic declaration that no trace establishes whether the verification output directly governs the 
+        activation stage.
+      affected_claim_component: Unresolved second relation and overreach of the uninterrupted-continuity claim.
+      support_mode: direct
+      evidence_role:
+        value: synthetic fixture limitation
+        control_source: 04_reference/Evidence_Map.md
+        inventory_status: extension
+        extension_rationale: Local limiting evidence role used to test explicit claim reduction.
+      evidence_availability: available
+      temporal_scope: t1–t2
+      reference_scope: relation verification-to-activation in occurrence.release-handoff.zeta
+      uncertainty_or_provenance_limit: Supports only the declared absence of a relation trace, not proof that no relation exists.
+      warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+    - trace_id: trace.request.zeta
+      source_feature: Release request registered at t0.
+      affected_claim_component: First stage and sequence opening.
+      trace_role: load_bearing
+      result_dependency: Removing the request defeats both the stronger claim and the proposed weaker sequence formulation.
+      expected_result_change: The candidate reconstruction would no longer be a request-to-activation handoff sequence.
+      temporal_or_relational_dependency: Request precedes verification.
+      claim_limitation: Supports stage identity and order only.
+      source_pointer: fixture://pms-strata/decompose-06/request-zeta
+    - trace_id: trace.verification.zeta
+      source_feature: Verification stage during t1 after the request.
+      affected_claim_component: Second stage and first relation.
+      trace_role: load_bearing
+      result_dependency: Removing verification defeats the three-stage candidate.
+      expected_result_change: The proposed weaker claim would require reformulation as a two-stage sequence.
+      temporal_or_relational_dependency: Verification follows request and precedes activation.
+      claim_limitation: Does not establish direct control over activation.
+      source_pointer: fixture://pms-strata/decompose-06/verification-zeta
+    - trace_id: trace.activation.zeta
+      source_feature: Activation stage at t2.
+      affected_claim_component: Third stage and sequence endpoint.
+      trace_role: load_bearing
+      result_dependency: Removing activation defeats the handoff endpoint.
+      expected_result_change: No release-handoff sequence to activation would remain.
+      temporal_or_relational_dependency: Activation follows the verification interval.
+      claim_limitation: Supports stage identity and order only.
+      source_pointer: fixture://pms-strata/decompose-06/activation-zeta
+    - trace_id: trace.relation-gap.zeta
+      source_feature: No source trace establishes direct verification-to-activation control continuity.
+      affected_claim_component: The uninterrupted and fully coordinated relation asserted by the current stronger claim.
+      trace_role: limiting
+      result_dependency: The current claim must be reduced because the relation required by its strongest dimension is not traceable.
+      expected_result_change: A new direct relation trace could support retesting a stronger coordination claim in a new record.
+      temporal_or_relational_dependency: The gap lies specifically between t1 verification and t2 activation.
+      claim_limitation: Absence of trace is not proof of non-existence.
+      source_pointer: fixture://pms-strata/decompose-06/relation-gap-zeta
+  known_gaps:
+    - No external implementation trace or measurement is represented.
+    - The verification-to-activation control relation remains unresolved.
+    - The proposed weaker formulation has not yet been substantively tested as its own claim.
+  source_ceiling:
+    asserted_relation: Three distinct ordered stages are declared, with one supported relation and one unresolved relation trace.
+    reach: Stage identities, temporal order, request-to-verification succession, and the absence of a trace for direct 
+      verification-to-activation control.
+    precision: Enough to reject the uninterrupted-continuity dimension and ground a weaker sequence candidate; not enough to admit that 
+      candidate automatically.
+    generality: Single synthetic fixture.
+    functional_scope: Compressed release-handoff source occurrence only.
+    dependence_strength: Direct fixture declarations for components and order; limiting declaration for the unresolved relation.
+    inferential_distance: Source declarations plus one finer relational reconstruction.
+    limiting_sources:
+      - source.fixture.release-request.zeta
+      - source.fixture.release-verification.zeta
+      - source.fixture.release-activation.zeta
+      - source.fixture.relation-gap.zeta
+    rationale: The source ceiling supports explicit reduction from uninterrupted coordination to a separately testable ordered-stage claim.
+operation:
+  occurrence_id: decompose.occurrence.06
+  kind: DECOMPOSE
+  justification: One compressed occurrence is opened into finer components and relations while preserving the same reference object; the 
+    operation tests whether its original internal-continuity claim survives the finer reconstruction.
+  expected_praxeological_difference: The finer reconstruction should distinguish an actually source-supported ordered handoff structure from
+    the stronger claim of fully coordinated uninterrupted continuity.
+  selection_rule: Retain exactly the three declared stages and both relations; preserve the unresolved second relation rather than filling 
+    it by assumption.
+  transformation_context: Synthetic formal-model smoke test of claim reduction after a source-supported DECOMPOSE resolution gain.
+  details:
+    source_function:
+      value: represent one release-handoff occurrence as a coordinated transition
+      control_source: 07_model/examples/06_Claim_Reduction.yaml#/operation/details/source_function
+      inventory_status: extension
+      extension_rationale: Fixture-specific source function retained as the object of decomposition; not a contextual target function.
+    decomposition_question: Do request, verification, and activation form the fully coordinated uninterrupted handoff asserted by the 
+      compressed source claim, or only a weaker ordered-stage reconstruction?
+    insufficiency_of_current_compression: The compressed occurrence hides that the second stage relation lacks a trace sufficient to support
+      uninterrupted control continuity.
+    components:
+      - object_id: component.release-request.zeta
+        description: Request stage registering a proposed release at t0.
+        typing:
+          value: handoff stage
+          control_source: 07_model/examples/06_Claim_Reduction.yaml#/operation/details/components
+          inventory_status: extension
+          extension_rationale: Fixture-specific component type; not a PMS primitive.
+        source_pointer: fixture://pms-strata/decompose-06/request-zeta
+      - object_id: component.release-verification.zeta
+        description: Verification stage occurring during t1.
+        typing:
+          value: handoff stage
+          control_source: 07_model/examples/06_Claim_Reduction.yaml#/operation/details/components
+          inventory_status: extension
+          extension_rationale: Fixture-specific component type; not a PMS primitive.
+        source_pointer: fixture://pms-strata/decompose-06/verification-zeta
+      - object_id: component.release-activation.zeta
+        description: Activation stage completing the represented handoff at t2.
+        typing:
+          value: handoff stage
+          control_source: 07_model/examples/06_Claim_Reduction.yaml#/operation/details/components
+          inventory_status: extension
+          extension_rationale: Fixture-specific component type; not a PMS primitive.
+        source_pointer: fixture://pms-strata/decompose-06/activation-zeta
+    component_relations:
+      - relation_id: relation.request-before-verification.zeta
+        relation_type:
+          value: source-supported temporal and procedural succession
+          control_source: 07_model/examples/06_Claim_Reduction.yaml#/operation/details/component_relations
+          inventory_status: extension
+          extension_rationale: Local relation wording for the synthetic fixture.
+        from_object_id: component.release-request.zeta
+        to_object_id: component.release-verification.zeta
+        description: The request precedes and is the declared object of the verification stage.
+        constitutive: true
+        source_pointer: fixture://pms-strata/decompose-06/verification-zeta
+      - relation_id: relation.verification-before-activation.zeta
+        relation_type:
+          value: temporal succession with unresolved control continuity
+          control_source: 07_model/examples/06_Claim_Reduction.yaml#/operation/details/component_relations
+          inventory_status: extension
+          extension_rationale: Local limiting relation wording used to distinguish order from uninterrupted coordination.
+        from_object_id: component.release-verification.zeta
+        to_object_id: component.release-activation.zeta
+        description: Activation follows verification temporally, but the fixture supplies no trace that verification output directly 
+          controls activation.
+        constitutive: true
+        source_pointer: fixture://pms-strata/decompose-06/relation-gap-zeta
+    internal_temporality: Request occurs at t0, verification during t1, and activation at t2; order is supported while direct control 
+      continuity across t1–t2 is unresolved.
+    source_support:
+      - source_item_id: source.fixture.release-request.zeta
+        source_pointer: fixture://pms-strata/decompose-06/request-zeta
+        provenance_description: Synthetic declaration that a release request is registered at t0.
+        affected_claim_component: First component identity and sequence opening.
+        support_mode: direct
+        evidence_role:
+          value: synthetic fixture declaration
+          control_source: 04_reference/Evidence_Map.md
+          inventory_status: extension
+          extension_rationale: Local synthetic evidence role for formal smoke validation.
+        evidence_availability: available
+        temporal_scope: t0
+        reference_scope: component.release-request.zeta
+        uncertainty_or_provenance_limit: Synthetic and non-empirical; supports only component identity and time position.
+        warrant_route: strata_internal_support_assessable
+      - source_item_id: source.fixture.release-verification.zeta
+        source_pointer: fixture://pms-strata/decompose-06/verification-zeta
+        provenance_description: Synthetic declaration that a verification stage occurs during t1 and follows the request.
+        affected_claim_component: Second component identity and request-to-verification relation.
+        support_mode: direct
+        evidence_role:
+          value: synthetic fixture declaration
+          control_source: 04_reference/Evidence_Map.md
+          inventory_status: extension
+          extension_rationale: Local synthetic evidence role for formal smoke validation.
+        evidence_availability: available
+        temporal_scope: t1
+        reference_scope: component.release-verification.zeta
+        uncertainty_or_provenance_limit: Synthetic and non-empirical; does not itself establish that verification output controls 
+          activation.
+        warrant_route: strata_internal_support_assessable
+      - source_item_id: source.fixture.release-activation.zeta
+        source_pointer: fixture://pms-strata/decompose-06/activation-zeta
+        provenance_description: Synthetic declaration that release activation occurs at t2 after the verification interval.
+        affected_claim_component: Third component identity and sequence endpoint.
+        support_mode: direct
+        evidence_role:
+          value: synthetic fixture declaration
+          control_source: 04_reference/Evidence_Map.md
+          inventory_status: extension
+          extension_rationale: Local synthetic evidence role for formal smoke validation.
+        evidence_availability: available
+        temporal_scope: t2
+        reference_scope: component.release-activation.zeta
+        uncertainty_or_provenance_limit: Synthetic and non-empirical; supports order but not uninterrupted control continuity.
+        warrant_route: strata_internal_support_assessable
+      - source_item_id: source.fixture.relation-gap.zeta
+        source_pointer: fixture://pms-strata/decompose-06/relation-gap-zeta
+        provenance_description: Synthetic declaration that no trace establishes whether the verification output directly governs the 
+          activation stage.
+        affected_claim_component: Unresolved second relation and overreach of the uninterrupted-continuity claim.
+        support_mode: direct
+        evidence_role:
+          value: synthetic fixture limitation
+          control_source: 04_reference/Evidence_Map.md
+          inventory_status: extension
+          extension_rationale: Local limiting evidence role used to test explicit claim reduction.
+        evidence_availability: available
+        temporal_scope: t1–t2
+        reference_scope: relation verification-to-activation in occurrence.release-handoff.zeta
+        uncertainty_or_provenance_limit: Supports only the declared absence of a relation trace, not proof that no relation exists.
+        warrant_route: strata_internal_support_assessable
+    source_reference_preserved: true
+    prior_source_claim_id: claim.source.release-handoff.zeta.continuous
+    unresolved_structure:
+      - Whether verification output directly governs activation.
+      - Whether the proposed weaker ordered-stage formulation passes a separate admissibility test.
+    counterfactual_component_test: Removing any stage defeats the proposed three-stage sequence; changing the unresolved relation to a 
+      supported direct-control trace would materially alter whether the stronger coordination claim can be retested.
+    source_function_effect_pointer: /result/operation_specific_result/source_function_effect
+    resolution_test_result_pointer: /result/status_declaration/resolution_test_result
+    source_reference_object_pointer: /source/reference_object
+    origin_type_pointer: /source/object_typing
+    target_granularity_pointer: /target/granularity
+target:
+  reference_object:
+    object_id: occurrence.release-handoff.zeta
+    description: The same release-handoff occurrence reconstructed as three ordered stages with one unresolved constitutive relation.
+    typing:
+      value: operator-typed occurrence
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/source_contract/recognized_object_families
+      inventory_status: current_controlled
+    source_pointer: fixture://pms-strata/decompose-06/release-handoff-zeta
+  object_typing:
+    value: finer relational reconstruction of the same reference object
+    control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/target_contract/primary_result_kind
+    inventory_status: extension
+    extension_rationale: Local target description instantiates DECOMPOSE without replacing the source object.
+  contextual_function:
+  frame:
+    value: synthetic release-handoff occurrence frame
+    control_source: 07_model/examples/06_Claim_Reduction.yaml#/claim/claim_scope/frame
+    inventory_status: extension
+    extension_rationale: Fixture-specific frame used only to test claim reduction after DECOMPOSE.
+  granularity:
+    value: three-stage relational granularity
+    control_source: 07_model/examples/06_Claim_Reduction.yaml#/target/granularity
+    inventory_status: extension
+    extension_rationale: Local finer granularity tested by this fixture.
+  relative_level:
+    value: finer than the compressed handoff-occurrence granularity
+    control_source: 04_reference/Glossary.md#relative-level
+    inventory_status: extension
+    extension_rationale: Local target-side relative-level wording.
+  temporal_scope: The same synthetic interval t0–t2.
+  validity_scope: Target reconstruction supports explicit weakening and retesting only; no reduced claim is admitted in this record.
+  contextual_function_origin_occurrence_ref:
+admissibility:
+  audit_stages:
+    source_and_claim_entry:
+      stage_id: source_and_claim_entry
+      assessment_mode: declaration_entry
+      completion_state: complete
+      summary_finding: Source occurrence, stronger claim, proposed reduction grounds, ceilings, and authority boundary are explicit.
+      rationale: The same reference object and current stronger claim are delimited without silently replacing it.
+      rule_assessment_pointers:
+        - source_ceiling
+        - contextual_boundedness
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim
+        - /source
+        - /target
+      unresolved_items: []
+    operation_classification:
+      stage_id: operation_classification
+      assessment_mode: operation_classification
+      completion_state: complete
+      summary_finding: The occurrence is correctly classified as DECOMPOSE.
+      rationale: One compressed occurrence is opened into finer components and relations while retaining source reference and type.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /operation
+        - 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE
+      unresolved_items: []
+    relevance_floor:
+      stage_id: relevance_floor
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The finer reconstruction produces a praxeological resolution gain.
+      rationale: It distinguishes source-supported stage order from unsupported uninterrupted coordination.
+      rule_assessment_pointers:
+        - praxis_purchase
+      evidence_or_artifact_pointers:
+        - /operation/details/components
+        - /operation/details/component_relations
+      unresolved_items: []
+    traceability_ceiling:
+      stage_id: traceability_ceiling
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Traceability supports a concrete reduction but not the original stronger claim.
+      rationale: Stage identities and order are traceable; one constitutive continuity relation is not.
+      rule_assessment_pointers:
+        - traceable_load
+      evidence_or_artifact_pointers:
+        - /source/constitutive_source_trace
+        - /operation/details/source_support
+      unresolved_items: []
+    continuity_and_type_integrity:
+      stage_id: continuity_and_type_integrity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Reference, source type, frame, temporal scope, and the partially preserved source function remain explicit.
+      rationale: The same occurrence is reconstructed without operator-type decomposition or target-function projection.
+      rule_assessment_pointers:
+        - type_integrity
+        - reference_continuity
+        - functional_continuity
+        - temporal_continuity
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /source/reference_object
+        - /operation/details/source_reference_preserved
+        - /result/operation_specific_result/source_function_effect
+      unresolved_items: []
+    counterfactual_sensitivity:
+      stage_id: counterfactual_sensitivity
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The reconstruction is partially source-sensitive.
+      rationale: Removing a stage defeats the weaker candidate, while the stronger relation remains untestable without a new trace.
+      rule_assessment_pointers:
+        - counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /operation/details/counterfactual_component_test
+        - /admissibility/rule_assessments/counterfactual_sensitivity
+      unresolved_items: []
+    loss_and_selection:
+      stage_id: loss_and_selection
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: Selection preserves the source occurrence, finer stage identities, and unresolved relation while withdrawing the 
+        overstrong continuity dimension.
+      rationale: The record neither erases the original overreach nor admits the proposed weaker claim.
+      rule_assessment_pointers:
+        - selection_and_loss
+      evidence_or_artifact_pointers:
+        - /loss
+        - /operation/selection_rule
+      unresolved_items: []
+    alternatives:
+      stage_id: alternatives
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: A concrete weaker formulation and rival future reconstructions are explicit.
+      rationale: The reduced formulation is routed to a new test rather than silently substituted.
+      rule_assessment_pointers:
+        - alternatives
+      evidence_or_artifact_pointers:
+        - /alternatives
+      unresolved_items: []
+    source_and_calibration_limits:
+      stage_id: source_and_calibration_limits
+      assessment_mode: substantive_assessment
+      completion_state: complete
+      summary_finding: The fixture discriminates source-supported ordered stages from unsupported uninterrupted coordination.
+      rationale: External implementation dynamics and the unresolved relation remain outside the present warrant.
+      rule_assessment_pointers:
+        - source_ceiling
+        - calibration
+      evidence_or_artifact_pointers:
+        - /source/source_ceiling
+        - /admissibility/rule_assessments/calibration
+      unresolved_items: []
+    anti_immunization:
+      stage_id: anti_immunization
+      assessment_mode: cross_cutting_assessment
+      completion_state: complete
+      summary_finding: The original stronger claim remains recorded as overstrong and the proposed reduction receives no inherited 
+        admissibility.
+      rationale: Any reduced claim is a new testable claim with its own record.
+      rule_assessment_pointers: []
+      evidence_or_artifact_pointers:
+        - /admissibility/anti_immunization_assessment
+        - /result/class_payload
+      unresolved_items: []
+    stop_and_non_capture:
+      stage_id: stop_and_non_capture
+      assessment_mode: preliminary_trigger_assessment
+      completion_state: complete
+      summary_finding: No mandatory stop or non-capture limit is selected.
+      rationale: A grounded weaker formulation permits retesting, while the current stronger claim may not continue unchanged.
+      rule_assessment_pointers:
+        - stop
+        - non_capture
+        - claim_ceiling
+      evidence_or_artifact_pointers:
+        - /admissibility/stop_assessment
+        - /admissibility/non_capture_assessment
+      unresolved_items: []
+    claim_and_authority_ceiling:
+      stage_id: claim_and_authority_ceiling
+      assessment_mode: final_ceiling_determination
+      completion_state: complete
+      summary_finding: The final result is claim_reduction_required for the current stronger claim.
+      rationale: Formal routing does not admit the reduced claim or grant application authority.
+      rule_assessment_pointers:
+        - claim_ceiling
+        - authority_ceiling
+        - contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim/claim_ceiling
+        - /governance/authority_ceiling
+      unresolved_items: []
+  rule_assessments:
+    praxis_purchase:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/relevance_floor
+        - /operation/details/components
+        - /operation/details/component_relations
+      reasoned_finding: The finer reconstruction changes the warranted description by separating ordered stages from the unsupported 
+        continuity claim.
+      claim_or_artifact_effect:
+        family:
+          value: reduce
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Retain the resolution gain but reduce and retest the operation claim.
+      controlled_local_result: gain
+    traceable_load:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/traceability_ceiling
+        - /source/constitutive_source_trace
+      reasoned_finding: The sources support a concrete weaker formulation but not the original uninterrupted coordination claim.
+      claim_or_artifact_effect:
+        family:
+          value: reduce
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Route to explicit claim reduction and prohibit automatic admissibility.
+      controlled_local_result: claim_reduction
+    type_integrity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/continuity_and_type_integrity
+        - /operation
+      reasoned_finding: The source remains an operator-typed occurrence and the target remains a finer reconstruction, not a new primitive.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Preserve source type and keep operation identity explicit.
+      controlled_local_result:
+    reference_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
+      evidence_or_artifact_pointers:
+        - /source/reference_object
+        - /target/reference_object
+      reasoned_finding: occurrence.release-handoff.zeta remains the reference object throughout.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Preserve the same source reference in any reduced-claim retest.
+      controlled_local_result:
+    functional_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
+      evidence_or_artifact_pointers:
+        - /result/operation_specific_result/source_function_effect
+        - /operation/details/component_relations
+      reasoned_finding: The broad handoff function is partially preserved, but uninterrupted coordination is not supported.
+      claim_or_artifact_effect:
+        family:
+          value: reduce
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Record partial preservation without treating the stronger source-function description as maintained.
+      controlled_local_result:
+    temporal_continuity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
+      evidence_or_artifact_pointers:
+        - /operation/details/internal_temporality
+      reasoned_finding: The finer reconstruction preserves t0–t2 order and exposes the unresolved t1–t2 relation.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Retain stage order and unresolved temporal-relational status.
+      controlled_local_result:
+    contextual_boundedness:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
+      evidence_or_artifact_pointers:
+        - /claim/claim_scope
+        - /target
+      reasoned_finding: Frame, source, target granularity, validity scope, and fixture-only boundary are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Apply reduction only to this delimited claim.
+      controlled_local_result:
+    counterfactual_sensitivity:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
+      evidence_or_artifact_pointers:
+        - /operation/details/counterfactual_component_test
+      reasoned_finding: Removing a component changes the weaker sequence candidate, but the stronger continuity relation cannot be supported
+        without changed evidence.
+      claim_or_artifact_effect:
+        family:
+          value: reduce
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Record partial sensitivity and require a new relation-grounded test.
+      controlled_local_result: partially_sensitive
+    source_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
+      evidence_or_artifact_pointers:
+        - /source/source_ceiling
+      reasoned_finding: The source ceiling supports stage identities, order, and an unresolved relation, not uninterrupted control 
+        continuity.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Reduce the claim to a source-grounded candidate and retest.
+      controlled_local_result:
+    calibration:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
+      evidence_or_artifact_pointers:
+        - /admissibility/audit_stages/source_and_calibration_limits
+      reasoned_finding: The fixture distinguishes uninterrupted coordination, ordered-stage reconstruction, resolution neutrality, and 
+        mandatory stop.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Use the defined negative mutations to verify this discrimination only.
+      controlled_local_result:
+        value: discriminating
+        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/calibration_state
+        inventory_status: current_controlled
+    selection_and_loss:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
+      evidence_or_artifact_pointers:
+        - /loss
+        - /operation/selection_rule
+      reasoned_finding: The record preserves all three components and the relation gap while withdrawing only the unsupported continuity 
+        dimension.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Retain the canonical loss profile and original overreach.
+      controlled_local_result:
+    alternatives:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
+      evidence_or_artifact_pointers:
+        - /alternatives
+      reasoned_finding: A concrete weaker ordered-stage formulation and future stronger retest path are explicit.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Send the weaker formulation to a new record without pre-authorization.
+      controlled_local_result:
+    claim_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
+      evidence_or_artifact_pointers:
+        - /claim/claim_ceiling
+      reasoned_finding: The current claim exceeds source support in relation strength and certainty.
+      claim_or_artifact_effect:
+        family:
+          value: reduce
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Weaken relation and certainty dimensions before retest.
+      controlled_local_result:
+    authority_ceiling:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
+      evidence_or_artifact_pointers:
+        - /governance/authority_ceiling
+      reasoned_finding: Formal claim reduction grants no empirical, technical, or application authority.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Maintain all authority prohibitions.
+      controlled_local_result:
+    stop:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
+      evidence_or_artifact_pointers:
+        - /admissibility/stop_assessment
+      reasoned_finding: No mandatory continuation boundary prevents formulating and retesting a grounded weaker claim.
+      claim_or_artifact_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Do not select mandatory_stop; prohibit continuation of the unchanged stronger claim only.
+      controlled_local_result:
+    non_capture:
+      applicability: applicable
+      assessment_state: complete
+      control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
+      evidence_or_artifact_pointers:
+        - /admissibility/non_capture_assessment
+      reasoned_finding: A concrete source-grounded weaker formulation remains available for testing, so no material capture limit is 
+        asserted.
+      claim_or_artifact_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The claim-reduction route and preservation requirements are controlled by this rule finding.
+      required_action: Do not select non_capture.
+      controlled_local_result:
+  non_compensation_confirmation: true
+  audit_to_routing_basis: PraxisPurchase is gain and the finer reconstruction is traceable enough to ground a weaker formulation, but the 
+    original uninterrupted-continuity claim exceeds the source ceiling. Gain, detail, and type integrity do not compensate for the 
+    unsupported relation; the reduced claim must be reformulated and retested.
+  anti_immunization_assessment: The stronger claim remains recorded as overreaching. The proposed weaker formulation receives no inherited 
+    admissibility and must re-enter as a new testable claim.
+  stop_assessment:
+    reached: false
+    condition_assessed: true
+    rationale: The unchanged stronger claim may not continue, but a concrete grounded weaker formulation can be tested; this is claim 
+      reduction rather than mandatory stop.
+    reentry_contemplated: true
+    reentry_conditions:
+      - changed_condition: The proposed weaker ordered-stage formulation is entered as a distinct claim with its own scope, loss, source 
+          assessment, and class routing.
+        new_or_revised_record_id: smoke.decompose.claim-reduction-retest.06a
+        rationale: Claim reduction never pre-authorizes the reduced claim; retesting requires a new record.
+  non_capture_assessment:
+    adequate_capture_assessed: true
+    material_capture_limit_asserted: false
+    adequate_retained_claim_remains: false
+    partial_capture_asserted: false
+    non_capture_form_asserted: false
+    rationale: No transformed claim is retained as admissible in this record, but a concrete grounded weaker formulation remains testable; 
+      therefore non_capture is not selected.
+loss:
+  preserved:
+    - item_id: loss.preserved.source-occurrence
+      affected_element: Source reference object
+      description: occurrence.release-handoff.zeta remains the same identifiable source object.
+      reason: Claim reduction changes claim strength, not reference identity.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The same occurrence remains available for retesting.
+    - item_id: loss.preserved.stage-order
+      affected_element: Finer stage identities and temporal order
+      description: Request, verification, activation, and their t0–t2 order remain explicit.
+      reason: These are source-supported grounds for the proposed weaker formulation.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The grounded weaker candidate remains inspectable.
+    - item_id: loss.preserved.original-overreach
+      affected_element: Original stronger claim and failure dimension
+      description: The uninterrupted-coordination claim remains recorded as exceeding source support.
+      reason: Reduction must not silently rewrite or erase the original claim.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The original overreach remains part of the audit trail.
+  compressed:
+    - item_id: loss.compressed.source-function
+      affected_element: Compressed source-function description
+      description: The broad release-handoff label is retained only as a provisional umbrella over differentiated stages.
+      reason: The finer reconstruction shows that continuity within the umbrella function is not fully supported.
+      claim_effect:
+        family:
+          value: qualify
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The source-function description is partially preserved and must be stated more weakly.
+      source_or_evidence_pointer: /result/operation_specific_result/source_function_effect
+      recoverability_or_reentry_note: A new record may test a more precise function claim.
+  excluded:
+    - item_id: loss.excluded.uninterrupted-control
+      affected_element: Uninterrupted verification-to-activation control continuity
+      description: The current record excludes this relation from any retained formulation.
+      reason: No source trace supports it.
+      claim_effect:
+        family:
+          value: withdraw
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The stronger relation dimension is not retained.
+      source_or_evidence_pointer: /source/constitutive_source_trace/3
+      recoverability_or_reentry_note: Requires changed evidence and a new stronger-claim retest.
+    - item_id: loss.excluded.real-system-interpretation
+      affected_element: Real technical or organizational implications
+      description: Deployment safety, authorization validity, causality, and organizational quality are outside the fixture.
+      reason: No external evidence or application authority is supplied.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: No real-system inference is authorized.
+      source_or_evidence_pointer: /governance/authority_ceiling
+      recoverability_or_reentry_note: Requires external warrant and a separately authorized record.
+  uncertain:
+    - item_id: loss.uncertain.second-relation
+      affected_element: Verification-to-activation relation
+      description: Temporal succession is known, but direct control continuity is unresolved.
+      reason: The fixture declares a relation-trace gap rather than a negative event.
+      claim_effect:
+        family:
+          value: qualify
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The proposed weaker formulation must preserve the unresolved relation.
+      source_or_evidence_pointer: /operation/details/component_relations/1
+      recoverability_or_reentry_note: New relation evidence could alter the stronger-claim test.
+  irrecoverable: []
+alternatives:
+  rival_compositions: []
+  rival_decompositions:
+    - alternative_id: alternative.ordered-stage-retest
+      claim_relation: The same occurrence is reconstructed as an ordered three-stage handoff sequence with unresolved 
+        verification-to-activation continuity.
+      source_basis_or_evidence_pointer: /result/class_payload/proposed_weaker_formulation
+      comparative_burden: Requires a new claim record and full admissibility test; no admissibility is inherited.
+      current_handling: unresolved
+      rationale: This is the concrete source-grounded weaker formulation produced by the current reduction.
+    - alternative_id: alternative.stronger-continuity-retest
+      claim_relation: A future record retests uninterrupted coordination after obtaining a direct verification-to-activation relation trace.
+      source_basis_or_evidence_pointer: /admissibility/stop_assessment/reentry_conditions
+      comparative_burden: Requires changed source grounds and a new record.
+      current_handling: unresolved
+      rationale: The current fixture neither establishes nor permanently rules out that stronger relation.
+  rival_projections: []
+  no_transformation:
+    - alternative_id: alternative.retain-compressed-source-only
+      claim_relation: Retain only the minimally declared compressed source occurrence without a finer transformed claim.
+      source_basis_or_evidence_pointer: /source/reference_object
+      comparative_burden: Lowest inferential burden but loses the genuine resolution gain already established.
+      current_handling: rejected
+      rationale: The finer reconstruction has source-supported praxeological purchase, so pure no-transformation would discard warranted 
+        differentiation.
+  non_translation: []
+  unresolved: []
+  no_additional_alternatives_asserted: false
+governance:
+  authority_ceiling: Formal schema conformance and claim-reduction routing apply only to this synthetic DECOMPOSE claim; they do not 
+    establish empirical truth, technical safety, authorization validity, causality, legitimacy, diagnosis, sanction, or application 
+    authority.
+  external_warrant: []
+  prohibited_inferences_acknowledged:
+    - claim_reduction_required does not mean the proposed weaker claim is already admissible
+    - the original stronger claim may not be silently replaced or erased
+    - resolution gain does not compensate for an unsupported constitutive relation
+    - DECOMPOSE opens an occurrence or composite, never a PMS Base operator type
+    - formal validation does not grant application or intervention authority
+  authority_inheritance: prohibited
+  formal_validation_not_substantive_validation_acknowledged: true
+  application_authority_not_granted: true
+  claim_ceiling_pointer: /claim/claim_ceiling
+result:
+  operation_specific_result:
+    summary: The same source occurrence is reconstructed as three ordered stages. The reconstruction yields genuine resolution gain but 
+      exposes an unsupported continuity relation, so the original claim must be weakened and retested.
+    result_family:
+      value: mandatory claim reduction
+      control_source: 07_model/Output_Classes.yaml#/output_classes/claim_reduction_required/representative_local_results
+      inventory_status: current_controlled
+    source_function_effect:
+      value: partially_preserved
+      control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/reference_logic/recognized_source_function_result_examples
+      inventory_status: current_controlled
+    prior_source_claim_disposition: superseded_without_erasure
+    current_claim_pointer: /claim/claim_id
+    additional_affected_claim_ids:
+      - claim.source.release-handoff.zeta.continuous
+  status_declaration:
+    support_status: unsupported
+    resolution_test_result: resolution_gain
+    capture_statement:
+      statement: The original uninterrupted-continuity claim is not adequately captured, but a concrete weaker ordered-stage formulation 
+        remains source-grounded and testable.
+      claim_relative: true
+      capture_limit_present: false
+    evidence_availability_summary: available
+    claim_disposition_pointer: /result/routing/current_claim_disposition
+  routing:
+    candidate_assessments:
+      admissible:
+        candidate_class: admissible
+        status: not_generated
+        rationale: The current stronger claim exceeds source support and cannot be admitted as stated.
+        constitutive_condition_pointers: []
+        preserved_finding: No admissible result is selected for the current delimited claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      admissible_with_bounded_claim:
+        candidate_class: admissible_with_bounded_claim
+        status: rejected
+        rationale: A concrete narrower formulation exists, but it has not yet been revised and substantively tested.
+        constitutive_condition_pointers:
+          - /result/class_payload/proposed_weaker_formulation
+          - /result/class_payload/retest_required
+        preserved_finding: The proposed weaker formulation remains a candidate for a new record, not an admitted bounded claim.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+          boundary_id: claim_reduction_vs_bounded_claim
+          inventory_status: current_load_bearing
+          selected_class: claim_reduction_required
+          candidate_class: admissible_with_bounded_claim
+          adjudication_outcome: selected_over_candidate
+          rationale: The narrower claim has not yet been tested; reduction precedes bounded admissibility.
+          control_source: 07_model/Boundary_Decision_Tree.yaml
+        rejection_reason: The reduced claim is not pre-authorized.
+      admissible_but_provisional:
+        candidate_class: admissible_but_provisional
+        status: not_generated
+        rationale: The issue is excessive claim strength, not merely provisional calibration of the same claim.
+        constitutive_condition_pointers: []
+        preserved_finding: No admissible_but_provisional result is selected.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      resolution_neutral:
+        candidate_class: resolution_neutral
+        status: rejected
+        rationale: The finer reconstruction changes the warranted description and is not resolution-neutral.
+        constitutive_condition_pointers:
+          - /result/status_declaration/resolution_test_result
+          - /operation/details/insufficiency_of_current_compression
+        preserved_finding: Resolution gain remains recorded on the status axis.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+          boundary_id: resolution_neutral_vs_claim_reduction
+          inventory_status: current_load_bearing
+          selected_class: claim_reduction_required
+          candidate_class: resolution_neutral
+          adjudication_outcome: selected_over_candidate
+          rationale: The test changes the warranted reconstruction and requires reformulation rather than preserving the stronger claim 
+            unchanged.
+          control_source: 07_model/Boundary_Decision_Tree.yaml
+        rejection_reason: The supported resolution test is not neutral.
+      analogy_only:
+        candidate_class: analogy_only
+        status: not_generated
+        rationale: No PROJECT_AS analogy or contextual target-function relation is attempted.
+        constitutive_condition_pointers: []
+        preserved_finding: No analogy_only result is selected.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      partially_admissible:
+        candidate_class: partially_admissible
+        status: not_generated
+        rationale: No separable transformed component claims are retained as independently admissible outputs in this record.
+        constitutive_condition_pointers: []
+        preserved_finding: Stage identities remain source material, not partial final classes.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      claim_reduction_required:
+        candidate_class: claim_reduction_required
+        status: selected
+        rationale: The current uninterrupted-continuity claim is too strong, while a concrete ordered-stage formulation has identifiable 
+          source support sufficient for explicit reformulation and retesting.
+        constitutive_condition_pointers:
+          - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+          - /admissibility/rule_assessments/traceable_load/controlled_local_result
+          - /result/status_declaration/resolution_test_result
+          - /result/class_payload/proposed_weaker_formulation
+        preserved_finding: The original overreach, proposed weaker formulation, relation gap, and all source material remain recorded.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      mandatory_stop:
+        candidate_class: mandatory_stop
+        status: rejected
+        rationale: The unchanged stronger claim may not continue, but a grounded weaker claim can be formulated and retested under current 
+          source conditions.
+        constitutive_condition_pointers:
+          - /admissibility/stop_assessment/reached
+          - /result/class_payload/grounding_for_retest
+        preserved_finding: Future retesting remains available through a new claim record.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+          boundary_id: claim_reduction_vs_mandatory_stop
+          inventory_status: current_load_bearing
+          selected_class: claim_reduction_required
+          candidate_class: mandatory_stop
+          adjudication_outcome: selected_over_candidate
+          rationale: A concrete grounded weaker formulation exists, so claim reduction is selected over mandatory stop.
+          control_source: 07_model/Boundary_Decision_Tree.yaml
+        rejection_reason: No mandatory boundary blocks reduced-claim retesting.
+      failed_transformation:
+        candidate_class: failed_transformation
+        status: not_generated
+        rationale: DECOMPOSE identity, reference, components, relations, and source support are valid; the claim is overstrong rather than 
+          the operation malformed.
+        constitutive_condition_pointers: []
+        preserved_finding: No failed_transformation result is selected.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+      non_capture:
+        candidate_class: non_capture
+        status: not_generated
+        rationale: A concrete grounded weaker formulation remains available for testing, so no material capture limit is asserted.
+        constitutive_condition_pointers: []
+        preserved_finding: No non_capture result is selected.
+        separated_claim_or_record_ids: []
+        boundary_adjudication:
+    selected_class: claim_reduction_required
+    route_id: route_claim_reduction_required
+    matched_constitutive_conditions:
+      - /operation/kind
+      - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+      - /admissibility/rule_assessments/traceable_load/controlled_local_result
+      - /result/status_declaration/resolution_test_result
+      - /result/class_payload/proposed_weaker_formulation
+      - /result/class_payload/retest_required
+      - /result/class_payload/reduced_claim_admissibility_pre_authorized
+    same_claim_collision_assessed: true
+    same_claim_collision_present: true
+    collision_resolution_state: resolved
+    preserved_non_selected_findings:
+      - The finer reconstruction produces resolution gain.
+      - The source occurrence and stage order remain traceable.
+      - No mandatory stop or material non-capture limit is asserted.
+      - The proposed weaker claim remains untested.
+    split_decision:
+      required: false
+      rationale: The current record classifies only the original stronger claim. The proposed weaker formulation is named for future 
+        retesting but is not yet a separately routed claim or completed record.
+      separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
+    class_selection_rationale: PraxisPurchase is gain, TraceableLoad yields claim_reduction, resolution_test_result is resolution_gain, and 
+      a concrete source-grounded weaker formulation exists but has not been tested. Claim reduction is therefore selected over bounded 
+      admissibility, resolution neutrality, and mandatory stop.
+    current_claim_disposition:
+      value: withdrawn
+      rationale: The uninterrupted-continuity claim is not retained as stated. Its wording, overreach, and grounds for a weaker retest 
+        remain preserved.
+    substantive_judgment_acknowledged: true
+    boundary_adjudication_source_pointer: /result/routing/candidate_assessments
+  class_payload:
+    class_id: claim_reduction_required
+    original_stronger_claim_pointer: /claim/claim_id
+    failed_or_excessive_claim_dimensions:
+      - 'relation strength: uninterrupted direct control continuity'
+      - 'coordination scope: fully coordinated across all three stages'
+      - 'certainty: relation treated as established despite a declared trace gap'
+    proposed_weaker_formulation: The synthetic release-handoff occurrence can be reconstructed as an ordered three-stage sequence from 
+      request through verification to activation, while direct verification-to-activation control continuity remains unresolved.
+    grounding_for_retest:
+      - All three component identities are directly declared.
+      - The request-to-verification relation and overall temporal order are source-supported.
+      - The verification-to-activation relation gap is explicitly preserved rather than filled by assumption.
+    retest_required: true
+    reduced_claim_admissibility_pre_authorized: false
+    rationale: The stronger claim exceeds the source ceiling, but a precise weaker formulation has enough source- and rule-grounded support 
+      to justify a new test without inheriting admissibility.
+relations:
+  prior_record_ids: []
+  prior_claim_ids:
+    - claim.source.release-handoff.zeta.continuous
+  sibling_claim_or_record_ids: []
+  rival_record_ids: []
+  countercase_refs:
+    - 'planned-negative-mutation: treat proposed weaker formulation as already admissible'
+    - 'planned-negative-mutation: remove retest requirement'
+    - 'planned-negative-mutation: route to mandatory_stop despite grounded weaker formulation'
+    - 'planned-negative-mutation: erase the original stronger claim'
