@@ -1,18 +1,18 @@
 # PMS-STRATA — Chapter Contracts
 
-**Status:** Gate 2 complete, accepted chapter contract set — production round 4 of 4  
-**Completed scope:** Chapters 0–57 plus Front Matter — all chapter and orientation contracts  
+**Status:** accepted and active chapter contract set  
+**Scope:** Chapters 0–57 plus Front Matter — all chapter and orientation contracts  
 **Target corpus blocks:** `01_blocks/00_front_matter.md` through `01_blocks/06_conclusion.md`  
-**Governing authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, the completed Gate 1 minified kernel, and `05_minified/Block_Contracts.md`  
+**Governing authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, the Canonical Minified Kernel, and `05_minified/Block_Contracts.md`  
 **Status and navigation input:** `README.md`
 
 ---
 
 ## 1. Contract Function
 
-These contracts constrain chapter production. They are not chapter summaries and do not substitute for the later prose.
+These contracts constrain chapter structure, content, dependencies, and completion. They are not chapter summaries and do not substitute for the canonical prose.
 
-A chapter is complete only when it has produced its assigned claim and distinctions, preserved its dependencies and non-claims, survived the required counterpressure, respected the redundancy guard, supported its model and appendix handoffs, and passed its completion test.
+A chapter is complete only when it contains its assigned claim and distinctions, preserves its dependencies and non-claims, survives the required counterpressure, respects the redundancy guard, supports its model and appendix relations, and passes its completion test.
 
 The governing rule is:
 
@@ -41,7 +41,7 @@ No chapter may obtain authority from its position, length, level of formalizatio
 
 ---
 
-## 2. Round 1 Global Rules
+## 2. Foundations Contract Rules
 
 1. PMS Base remains the sole source of the Δ–Ψ operator grammar and dependencies.
 2. No Foundation chapter may introduce a new operator, primitive, fixed stratum, universal scale, person type, or application authority.
@@ -54,7 +54,7 @@ No chapter may obtain authority from its position, length, level of formalizatio
 9. The Admissibility Band is non-compensatory and non-numeric.
 10. Formal records and schemas may check declarations and consistency, not truth, causality, semantic adequacy, or normative validity.
 11. Claim Reduction, Mandatory Stop, Failure, and Non-Capture remain available throughout.
-12. Add-on lenses are absent from the Foundations architecture except as later optional stress vectors.
+12. Add-on lenses are absent from the Foundations architecture except as optional stress vectors.
 
 ---
 
@@ -74,7 +74,7 @@ chapter:
   required_counterpressure:
   redundancy_guard:
   model_relation:
-  appendix_migration:
+  downstream_operationalization:
   completion_test:
 ```
 
@@ -178,13 +178,13 @@ chapter:
     - PMS-STRATA.yaml
     - Output_Classes.yaml
     - Admissibility_Rules.yaml
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - governing claim
     - No Meta-PMS
     - No Ontology of Layers
     - initial claim boundary
-    migrate:
+    carriers:
     - expanded valid/invalid claim examples to Appendix_H_Valid_and_Invalid_Transformation_Patterns.md
     - extended confusion cases to Appendix_I_Boundary_and_Confusion_Cases.md
   completion_test:
@@ -283,12 +283,12 @@ chapter:
     - Operation_Registry.yaml
     model_limit: The model may validate declared object categories and fields; it may not determine empirical object
       identity.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - canonical object definitions
     - foundational object distinctions
     - identity criteria
-    migrate:
+    carriers:
     - expanded definition tables to Appendix_A_Core_Definitions.md
     - formal object notation to Appendix_B_Formal_Notation.md
     - edge-case catalogues to Appendix_H_Valid_and_Invalid_Transformation_Patterns.md
@@ -387,12 +387,12 @@ chapter:
     - Boundary_Decision_Tree.yaml
     model_limit: Schemas may require coordinate declarations but may not infer a universal hierarchy or determine
       the best granularity.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - canonical coordinate definitions
     - minimal level declaration
     - coordinate-change distinctions
-    migrate:
+    carriers:
     - formal coordinate notation to Appendix_B_Formal_Notation.md
     - extended mismatch patterns to Appendix_I_Boundary_and_Confusion_Cases.md
   completion_test:
@@ -498,12 +498,12 @@ chapter:
     - Boundary_Decision_Tree.yaml
     model_limit: The model may validate the declared chain and required fields but may not infer historical availability,
       causality, or path dependence from timestamps alone.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - canonical temporal definitions
     - minimal temporal object chain
     - path-dependence distinction
-    migrate:
+    carriers:
     - formal temporal notation to Appendix_B_Formal_Notation.md
     - expanded trajectory and weighting tests to Appendix_J_Operator_Weighting_and_Trajectory_Stress_Tests.md
     - full cases to Chapters 17 and the case repository
@@ -619,13 +619,13 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: Formal classification may flag missing declarations or category conflicts; it may not establish semantic
       adequacy or empirical validity.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - operation definitions
     - direction and identity distinctions
     - non-invertibility
     - minimal operation declaration
-    migrate:
+    carriers:
     - full operation record templates to Appendices D–F
     - expanded valid/invalid patterns to Appendix H
     - confusion decision cases to Appendix I
@@ -739,12 +739,12 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: The model may require continuity declarations and detect direct type replacement; it may not determine
       semantic continuity automatically.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - canonical type/function/context definitions
     - continuity criteria
     - minimal projection form
-    migrate:
+    carriers:
     - formal notation to Appendix B
     - expanded PROJECT_AS schema to Appendix F
     - continuity edge cases to Appendices H and I
@@ -856,14 +856,14 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: The model may detect missing or incompatible declarations and map outputs; it may not decide empirical
       relevance, semantic adequacy, or causal truth.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - canonical boundary definitions
     - unified admissibility formula
     - praxis-relevant dimensions
     - counterfactual core question
     - No Universal STRATA Scale
-    migrate:
+    carriers:
     - expanded test catalogue to Appendix G
     - valid and invalid patterns to Appendix H
     - boundary confusion cases to Appendix I
@@ -967,13 +967,13 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: Schema validation can test presence, type, and allowed values; it cannot validate the truth or adequacy
       of the populated claims.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - canonical shared envelope
     - field-family purposes
     - record status
     - local and integrated use rule
-    migrate:
+    carriers:
     - full schema to Appendix C
     - COMPOSE template to Appendix D
     - DECOMPOSE template to Appendix E
@@ -1094,12 +1094,12 @@ chapter:
     - PMS-STRATA.schema.json
     model_limit: The model can flag explicit equivalence violations; it cannot reliably infer every semantic collapse
       from natural language.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - canonical non-equivalence statements
     - brief explanation of each
     - minimal valid/invalid contrasts
-    migrate:
+    carriers:
     - expanded pattern catalogue to Appendix H
     - confusion cases to Appendix I
     - cross-domain analogy stress tests to Appendix K
@@ -1148,7 +1148,7 @@ Chapter 8
 → converts the whole foundation into reusable non-equivalence tests
 ```
 
-This is a production dependency, not a hierarchy of truth or authority.
+This is a structural dependency, not a hierarchy of truth or authority.
 
 ---
 
@@ -1168,9 +1168,9 @@ This is a production dependency, not a hierarchy of truth or authority.
 
 ---
 
-## 15. Round 1 Completion Gate
+## 15. Foundations Contract Completion Gate
 
-Round 1 is provisionally complete only when:
+The Foundations contract subset is complete only when:
 
 - exactly nine chapter contracts exist for Chapters 0–8;
 - every contract contains all canonical schema fields;
@@ -1186,23 +1186,20 @@ Round 1 is provisionally complete only when:
 - Chapter 8 closes Foundations without creating a second definition layer;
 - PATH can begin after Foundations without an unresolved object, coordinate, temporal, operation, type, record, or admissibility question.
 
-**Round status after generation:** `provisionally_complete`  
-**Next contract round:** Chapters 9–28 — PATH and SUB, produced as two internal subpasses (9–17 and 18–28) within output 2/4
+**Current subset status:** complete.
 
 ---
 
-# ROUND 2 OF 4 — PATH AND SUB CHAPTER CONTRACTS
+## 16. PATH and SUB Contract Scope and Rules
 
-## 16. Round 2 Function and Global Rules
-
-Round 2 adds the complete contracts for Chapters 9–28. It is produced as two internal subpasses:
+The PATH and SUB contract subset covers Chapters 9–28:
 
 ```text
 PATH  → Chapters 9–17
 SUB   → Chapters 18–28
 ```
 
-The round is governed by these constraints:
+The subset is governed by these constraints:
 
 1. PATH forms temporal analytical objects through `COMPOSE`; it does not assign later contextual functions.
 2. Θ enables temporal structure but does not alone establish trajectory or path dependence.
@@ -1304,13 +1301,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can validate declared configurations, temporal order, and changed fields; it cannot infer
       actual transition causality.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - temporal primitives
     - transition preconditions
     - minimal transition record
     - transition failure
-    migrate:
+    carriers:
     - extended temporal notation to Appendix B
     - transition record template details to Appendix D
     - confusion examples to Appendix I
@@ -1408,12 +1405,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model may check that a path has configurations, transitions, frame, evidence status, and claim
       scope; it cannot decide which elements are historically salient.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - definition and path variants
     - comparison criteria
     - minimal path record
-    migrate:
+    carriers:
     - expanded path taxonomies to Appendix A
     - record mechanics to Appendix D
     - case variants to Appendix M
@@ -1521,12 +1518,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model may require sedimentation-related declarations; it cannot determine whether historical
       load is substantively sufficient.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - trajectory criteria
     - false trajectory conditions
     - minimal trajectory record
-    migrate:
+    carriers:
     - expanded operator-combination tests to Appendix J
     - trajectory case sets to Appendix M
     - notation to Appendix B
@@ -1628,13 +1625,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can record the claimed historical dependencies and test fields; it cannot prove causal
       necessity.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - graded dependence criteria
     - operator-combination logic
     - test questions
     - failure conditions
-    migrate:
+    carriers:
     - extended stress tests to Appendix J
     - counterfactual forms to Appendix G
     - case index material to Appendix M
@@ -1733,12 +1730,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model may validate that availability and evidence status were declared; it cannot establish historical
       possibility from syntax.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - branch taxonomy
     - source-bounded counterfactual rule
     - alternative status record
-    migrate:
+    carriers:
     - large counterfactual case sets to Appendix G
     - confusion patterns to Appendix I
     - case index to Appendix M
@@ -1841,13 +1838,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model may require expectation and source fields; it cannot infer a normatively binding expectation
       or hidden intention.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - expectation-grounded definition
     - preservation rules
     - false non-event criteria
     - minimal record
-    migrate:
+    carriers:
     - expanded Λ patterns to Appendix J
     - record template detail to Appendix D
     - countercases to Appendix I
@@ -1952,14 +1949,14 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model may validate declarations and output mapping; it cannot determine whether the selected
       history is substantively best.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - preconditions
     - selection/order/formation rules
     - loss categories
     - failure conditions
     - COMPOSE record
-    migrate:
+    carriers:
     - full record template to Appendix D
     - pattern catalogue to Appendix H
     - case files to Appendix M
@@ -2056,12 +2053,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can flag missing trace fields and boundary statuses; it cannot judge historical salience
       automatically.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - local boundary rules
     - purchase and trace tests
     - stop/non-capture conditions
-    migrate:
+    carriers:
     - expanded boundary tests to Appendix G
     - invalid patterns to Appendix H
     - confusion cases to Appendix I
@@ -2162,13 +2159,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can validate record completeness and declared output class; it cannot replace expert case
       interpretation.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - minimum lock cases
     - local audit
     - output mapping
     - closing statement
-    migrate:
+    carriers:
     - full case narratives to 03_cases/markdown
     - YAML records to 03_cases/yaml
     - index to Appendix M
@@ -2264,13 +2261,13 @@ chapter:
     - Boundary_Decision_Tree.yaml
     - Transformation_Record.schema.json
     model_limit: The model can require a source declaration and decomposition reason; it cannot infer hidden components.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - source-object criteria
     - provisional elementarity
     - preservation requirement
     - minimal source declaration
-    migrate:
+    carriers:
     - expanded source-object types to Appendix A
     - record details to Appendix E
     - non-operator remainder issues to Appendix L
@@ -2367,12 +2364,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model may validate declared coordinates and comparability fields; it cannot rank granularities
       by truth.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - granularity relation
     - component criteria
     - comparability conditions
-    migrate:
+    carriers:
     - formal notation to Appendix B
     - comparative examples to Appendix I
     - boundary tests to Appendix G
@@ -2474,13 +2471,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model may validate that components, relations, granularity, and source-function status were declared;
       it cannot discover actual constituents.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - preconditions and procedure
     - source-function outcome classes
     - failure conditions
     - record
-    migrate:
+    carriers:
     - full record template to Appendix E
     - valid/invalid patterns to Appendix H
     - case files to Appendix M
@@ -2583,12 +2580,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model may record occurrence typing and component evidence; it cannot validate the substantive
       PMS typing automatically.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - general rule
     - representative occurrence families
     - failure pattern
-    migrate:
+    carriers:
     - expanded operator-family stress tests to Appendix J
     - case details to Appendix M
     - operator index links to 04_reference
@@ -2687,13 +2684,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can record component roles and relations; it cannot determine emergent function from enumeration
       alone.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - relational composite logic
     - component roles
     - stability and conflict
     - profile boundary
-    migrate:
+    carriers:
     - detailed composition maps to Appendix E
     - profile stress tests to Appendix J
     - remainder cases to Appendix L
@@ -2793,12 +2790,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model may validate declared phases and expectation fields; it cannot determine the true event
       boundary or intention.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - extended event logic
     - non-event preservation
     - drift and inflation failures
-    migrate:
+    carriers:
     - temporal notation to Appendix B
     - record details to Appendix E
     - confusion cases to Appendix I
@@ -2904,13 +2901,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model may require a source path reference and classification choice; it cannot determine whether
       two periodizations represent the same analytical object.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - classification logic
     - temporal component forms
     - compression debt
     - failed trajectory decomposition
-    migrate:
+    carriers:
     - complex trajectory cases to Appendix J
     - confusion patterns to Appendix I
     - case records to Appendix M
@@ -3010,12 +3007,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can require an outcome classification and reason; it cannot decide whether a distinction
       has substantive praxis purchase.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - outcome definitions
     - escape and drift criteria
     - mandatory stop
-    migrate:
+    carriers:
     - test matrix to Appendix G
     - invalid patterns to Appendix H
     - source/remainder cases to Appendix L
@@ -3114,12 +3111,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can classify declared operation features and flag mixed records; it cannot always resolve
       ambiguous prose without analyst judgment.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - decision criteria
     - dual operation
     - invalid collapse
-    migrate:
+    carriers:
     - decision tree examples to Appendix I
     - pattern catalogue to Appendix H
     - record templates to Appendices E–F
@@ -3218,12 +3215,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can check presence of required gates and statuses; it cannot decide component constitutiveness
       from form alone.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - local admissibility test
     - component sensitivity
     - stop/non-capture
-    migrate:
+    carriers:
     - test matrices to Appendix G
     - invalid patterns to Appendix H
     - remainder cases to Appendix L
@@ -3329,13 +3326,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can validate record completeness and output mapping; it cannot substitute for substantive
       component analysis.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - minimum lock cases
     - local audit
     - output mapping
     - closing statement
-    migrate:
+    carriers:
     - full narratives to 03_cases/markdown
     - records to 03_cases/yaml
     - index to Appendix M
@@ -3362,7 +3359,7 @@ Chapter 13  → preserves branches and unavailable alternatives
 Chapter 14  → preserves non-events within temporal objects
 Chapter 15  → operationalizes COMPOSE
 Chapter 16  → applies local PATH boundaries and Stop
-Chapter 17  → tests, audits, and provisionally locks PATH
+Chapter 17  → tests, audits, and establishes the PATH lock boundary
 ```
 
 ## 38. SUB Cross-Chapter Dependency Chain
@@ -3378,10 +3375,10 @@ Chapter 24  → applies it to PATH objects
 Chapter 25  → classifies gain, neutrality, drift, and escape
 Chapter 26  → separates SUB from RETYPE
 Chapter 27  → applies local SUB boundaries and Stop
-Chapter 28  → tests, audits, and provisionally locks SUB
+Chapter 28  → tests, audits, and establishes the SUB lock boundary
 ```
 
-## 39. Round 2 Primary Definition Matrix
+## 39. PATH and SUB Primary Definition Matrix
 
 | Concept family | Primary chapter | Later use without redefinition |
 |---|---:|---|
@@ -3406,7 +3403,7 @@ Chapter 28  → tests, audits, and provisionally locks SUB
 | SUB local boundaries | 27 | 28, LIMITS |
 | SUB audit and outputs | 28 | integrated audit |
 
-## 40. Round 2 Critical Redundancy Guards
+## 40. PATH and SUB Critical Redundancy Guards
 
 ```text
 9 / 10    → transition validity versus path formation
@@ -3425,11 +3422,11 @@ Chapter 28  → tests, audits, and provisionally locks SUB
 27 / 41–53 → local SUB limits versus integrated LIMITS
 ```
 
-## 41. Round 2 Completion Gate
+## 41. PATH and SUB Contract Completion Gate
 
-Round 2 is provisionally complete only when:
+The PATH and SUB contract subset is complete only when:
 
-- exactly twenty new contracts exist for Chapters 9–28;
+- exactly twenty contracts exist for Chapters 9–28;
 - the accumulated file contains exactly Chapters 0–28 without gaps or duplicates;
 - PATH preserves chronology/sequence/path/trajectory/path-dependence distinctions;
 - Θ alone is explicitly insufficient for trajectory and path dependence;
@@ -3443,17 +3440,16 @@ Round 2 is provisionally complete only when:
 - PATH and SUB each include local boundaries, Stop, Non-Capture, cases, audits, and output mapping;
 - no chapter imports additional authority from higher composition or finer resolution;
 - all embedded YAML contracts are syntactically valid;
-- Chapters 29–40 may begin without unresolved PATH or SUB operation-classification questions.
+- Chapters 29–40 remain supportable without unresolved PATH or SUB operation-classification questions.
 
-**Round status after generation:** `provisionally_complete`  
-**Next contract round:** Chapters 29–40 — RETYPE, output 3/4
+**Current subset status:** complete.
 
 
 ---
 
-## 42. Round 3 Scope and Handoff
+## 42. RETYPE Contract Scope and Dependencies
 
-Round 3 governs Chapters 29–40, the complete RETYPE block.
+The RETYPE contract subset covers Chapters 29–40.
 
 ```text
 29–30  → functional-projection logic and PROJECT_AS
@@ -3464,9 +3460,9 @@ Round 3 governs Chapters 29–40, the complete RETYPE block.
 40     → cases, audit, output mapping, and RETYPE Lock
 ```
 
-The round receives typed source objects from Foundations, PATH, and SUB. It does not rewrite those source objects. Every RETYPE claim adds a bounded functional relation in a declared target context.
+The RETYPE contract subset receives typed source objects from Foundations, PATH, and SUB. It does not rewrite those source objects. Every RETYPE claim adds a bounded functional relation in a declared target context.
 
-## 43. Round 3 Global Rules
+## 43. RETYPE Contract Rules
 
 1. `PROJECT_AS` remains the only RETYPE operation and one of exactly three STRATA core operations.
 2. Origin type and target function remain separate in every sentence, record, model field, and case.
@@ -3587,12 +3583,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can verify declared source type, context, target function, and preservation flags; it
       cannot determine whether the function is substantively warranted.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - governing RETYPE claim
     - projection-versus-replacement distinction
     - minimal typed claim form
-    migrate:
+    carriers:
     - extended definitions to Appendix A
     - notation to Appendix B
     - valid/invalid patterns to Appendix H
@@ -3718,14 +3714,14 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The formal model may validate structure, permitted values, and declared dependencies; human or
       domain-grounded analysis remains required for actual function, source load, and semantic continuity.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - minimal signature
     - mandatory declarations
     - source-trace and counterfactual rules
     - loss and alternative requirements
     - result classes
-    migrate:
+    carriers:
     - full record schema to Appendix F
     - formal notation to Appendix B
     - test catalogue to Appendix G
@@ -3839,13 +3835,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can require historical-load fields and contextual limits; it cannot infer that a past
       trajectory actually frames a present scene.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - family claim
     - historical-load criteria
     - counterfactual frame test
     - failure pattern
-    migrate:
+    carriers:
     - extended cases to 03_cases
     - family record examples to Appendix F
     - confusion patterns to Appendix I
@@ -3956,13 +3952,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can verify that wider frame, boundaries, internal-duration trace, and target transition
       effect are declared; it cannot decide the historically correct periodization.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - family claim
     - boundary and duration conditions
     - operation separation
     - failure rule
-    migrate:
+    carriers:
     - extended periodization examples to Appendix I
     - record details to Appendix F
     - notation to Appendix B
@@ -4074,14 +4070,14 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can require multiple source trajectories and declared constitutive recurrence; it cannot
       establish whether the trajectories are genuinely comparable or causally linked.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - family claim
     - source-object rule
     - threshold conditions
     - dynamic/static distinction
     - failure pattern
-    migrate:
+    carriers:
     - extended recurrence tests to Appendix J
     - calibration tests to Appendix G
     - cases to 03_cases
@@ -4196,13 +4192,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can require components, relations, target effect, and traceability; it cannot infer that
       a distributed macrofunction actually exists.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - generic family conditions
     - aggregation/formation distinction
     - emergence boundary
     - authority rule
-    migrate:
+    carriers:
     - extended operator-family examples to Appendix J
     - valid/invalid patterns to Appendix H
     - records to Appendix F
@@ -4237,7 +4233,7 @@ chapter:
     profile_rule: A functional profile summarizes a stable relation among existing operator occurrences and may
       be projected only when it changes later praxis and remains source-traceable.
     person_rule: Profiles belong to declared configurations or composites, not global person or group types.
-    stress_vector_rule: Add-on lenses may later test profiles but do not define STRATA architecture or rules.
+    stress_vector_rule: Add-on lenses may test profiles but do not define STRATA architecture or rules.
   required_distinctions:
   - operator weighting versus operator replacement
   - weighting versus dependency reordering
@@ -4318,13 +4314,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can store declared weights, profiles, scopes, and effects; it cannot derive psychologically
       or empirically valid weights from persons or data by itself.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - definitions and boundaries
     - configuration-scope rule
     - optional projection requirements
     - failure patterns
-    migrate:
+    carriers:
     - extended stress tests to Appendix J
     - person-typing countercases to Appendix I
     - formal profile examples to model examples
@@ -4437,12 +4433,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can compare declared fields and compatibility statuses; it cannot automatically choose
       the semantically or empirically best projection.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - comparison logic
     - minimal comparison record
     - indeterminacy and non-translation outcomes
-    migrate:
+    carriers:
     - full comparison examples to Appendix I
     - records to Appendix F
     - case index to Appendix M
@@ -4552,13 +4548,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can distinguish declared mapping statuses and missing projection fields; it cannot automatically
       judge semantic preservation between domains.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - triad definitions
     - cross-domain boundary
     - analogy-only outcome
     - substitution markers
-    migrate:
+    carriers:
     - cross-domain stress tests to Appendix K
     - valid/invalid mappings to Appendix H
     - cases to Appendix I
@@ -4669,12 +4665,12 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can detect missing declarations and prohibited type assignments; it cannot resolve every
       ambiguous natural-language metaphor without interpretive review.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - error taxonomy
     - minimal invalid record
     - failure-preservation rule
-    migrate:
+    carriers:
     - extended invalid patterns to Appendix H
     - confusion cases to Appendix I
     - person-typing cases to Appendix K or L as appropriate
@@ -4787,13 +4783,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can evaluate declared gates and output routing; it cannot establish actual praxis gain,
       semantic preservation, or the best target function automatically.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - local boundary criteria
     - terminal outputs
     - elasticity rule
     - local formula
-    migrate:
+    carriers:
     - full tests to Appendix G
     - invalid patterns to Appendix H
     - audit form to Appendix N
@@ -4815,7 +4811,7 @@ chapter:
   number: '40'
   title: RETYPE Cases, Countercases, and Local Audit
   role_in_work:
-    primary_function: Demonstrate, audit, map, and provisionally lock the RETYPE discipline through positive, negative,
+    primary_function: Demonstrate, audit, map, and establish the RETYPE lock boundary through positive, negative,
       and confusion cases.
     canonical_status: Primary RETYPE site for case architecture, local audit, operation-specific results, canonical
       mapping, and lock decision.
@@ -4927,13 +4923,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can validate complete records, prohibited assignments, and output mappings; it cannot
       replace substantive contextual and semantic analysis.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - minimum lock cases
     - local audit
     - canonical output mapping
     - closing statement
-    migrate:
+    carriers:
     - full narratives to 03_cases/markdown
     - records to 03_cases/yaml
     - index to Appendix M
@@ -4965,10 +4961,10 @@ Chapter 36  → compares compatible and competing projections
 Chapter 37  → separates projection, analogy, and label substitution
 Chapter 38  → classifies invalid type jumps and level mixing
 Chapter 39  → applies local RETYPE boundaries and Stop
-Chapter 40  → tests, audits, and provisionally locks RETYPE
+Chapter 40  → tests, audits, and establishes the RETYPE lock boundary
 ```
 
-## 45. Round 3 Primary Definition Matrix
+## 45. RETYPE Primary Definition Matrix
 
 | Concept family | Primary chapter | Later use without redefinition |
 |---|---:|---|
@@ -4985,7 +4981,7 @@ Chapter 40  → tests, audits, and provisionally locks RETYPE
 | RETYPE local limits | 39 | 40, integrated LIMITS |
 | RETYPE audit and outputs | 40 | integrated cases and audit |
 
-## 46. Round 3 Critical Redundancy Guards
+## 46. RETYPE Critical Redundancy Guards
 
 ```text
 5 / 29     → foundational type/function definitions versus RETYPE governing claim
@@ -5002,11 +4998,11 @@ Chapter 40  → tests, audits, and provisionally locks RETYPE
 40 / 53    → local RETYPE audit versus integrated STRATA audit
 ```
 
-## 47. Round 3 Completion Gate
+## 47. RETYPE Contract Completion Gate
 
-Round 3 is provisionally complete only when:
+The RETYPE contract subset is complete only when:
 
-- exactly twelve new contracts exist for Chapters 29–40;
+- exactly twelve contracts exist for Chapters 29–40;
 - the accumulated file contains exactly Chapters 0–40 without gaps or duplicates;
 - origin type and target function remain separate throughout;
 - every PROJECT_AS candidate requires target context, target level, validity scope, source trace, counterfactual test, loss, and alternatives;
@@ -5022,26 +5018,25 @@ Round 3 is provisionally complete only when:
 - all operation-specific results map to canonical output classes;
 - no result increases authority or changes PMS Base;
 - all embedded YAML contracts are syntactically valid;
-- Chapters 41–57 and Front Matter may be contracted without unresolved RETYPE classification questions.
+- Chapters 41–57 and Front Matter remain supportable without unresolved RETYPE classification questions.
 
-**Round status after generation:** `provisionally_complete`  
-**Next contract round:** Chapters 41–57 and Front Matter — LIMITS, Conclusion, and orientation layer, output 4/4
+**Current subset status:** complete.
 
 ---
 
-## 48. Round 4 Scope and Handoff
+## 48. LIMITS, Conclusion, and Front Matter Contract Scope
 
-Round 4 closes all remaining chapter and orientation contracts in three internal passes:
+This contract scope covers the remaining chapter and orientation layers in dependency order:
 
 ```text
-Pass A — LIMITS: Chapters 41–53
-Pass B — Conclusion: Chapters 54–57
-Pass C — Front Matter: Preface, Status and Scope, Terminology and Notation, How to Read
+LIMITS      → Chapters 41–53
+Conclusion  → Chapters 54–57
+Front Matter → Preface, Status and Scope, Terminology and Notation, How to Read
 ```
 
-The delivery is compressed into one output, but the dependency order remains LIMITS → Conclusion → Front Matter. Front Matter is oriented by the completed corpus and never supplies independent theory.
+The dependency order remains LIMITS → Conclusion → Front Matter. Front Matter is oriented by the completed corpus and never supplies independent theory.
 
-## 49. Round 4 Global Rules
+## 49. LIMITS, Conclusion, and Front Matter Contract Rules
 
 1. LIMITS is constitutive across PATH, SUB, RETYPE, and operation chains; it is not a fourth operation or meta-PMS.
 2. Chapters 44–45 elaborate the Admissibility Band defined in Chapter 6 without creating a rival definition.
@@ -5148,12 +5143,12 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: The model can require limit checks and preserve prior failures; it cannot decide substantive admissibility
       without source- and context-bound judgment.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - governing LIMITS principle
     - risk rationale
     - relation between local and integrated limits
-    migrate:
+    carriers:
     - expanded valid/invalid patterns to Appendix H
     - confusion cases to Appendix I
     - integrated audit detail to Appendix N
@@ -5249,12 +5244,12 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: Formal validation can detect missing coordinates and prohibited phrases; it cannot prove that a reconstruction
       is ontologically neutral in every substantive use.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - anti-ontology principle
     - corrective formulation
     - key drift markers
-    migrate:
+    carriers:
     - extended non-equivalences to Appendix H
     - borderline formulations to Appendix I
     - notation detail to Appendix B
@@ -5349,12 +5344,12 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: The model can record comparison criteria and output status; it cannot rank granularities independently of
       the substantive claim and source basis.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - comparative rule
     - micro/macro non-equivalences
     - co-validity statement
-    migrate:
+    carriers:
     - extended comparison tests to Appendix G
     - granularity conflicts to Appendix I
   completion_test:
@@ -5451,13 +5446,13 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: The model can require an asserted changed reconstruction and map outputs; it cannot determine whether the
       asserted praxis difference is substantively warranted.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - canonical formulation
     - Changed-Reconstruction Test
     - negative-result rule
     - mandatory lower Stop
-    migrate:
+    carriers:
     - extended tests to Appendix G
     - lower-bound patterns to Appendix H
     - case variants to Appendix I
@@ -5557,13 +5552,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can require source-trace structure and counterfactual dependency declarations; it cannot establish
       that the selected features truly carry the target function.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - canonical formulation
     - TraceableLoad conditions
     - non-exhaustive rule
     - upper Stop and reduction conditions
-    migrate:
+    carriers:
     - extended upper-bound tests to Appendix G
     - valid/invalid traces to Appendix H
     - macro-label cases to Appendix I
@@ -5668,13 +5663,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can validate declared features, changes, expected responses, and classes; it cannot infer real
       counterfactual outcomes or causality.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - core question
     - sensitivity taxonomy
     - source-discipline rule
     - claim effects
-    migrate:
+    carriers:
     - extended counterfactual tests to Appendix G
     - stress patterns to Appendix H
     - case records to Appendix I
@@ -5770,12 +5765,12 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: The model can require separate continuity declarations and detect forbidden type replacement; it cannot determine
       historical identity from labels alone.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - continuity matrix
     - dimension definitions
     - partial-failure effects
-    migrate:
+    carriers:
     - formal matrix to Appendix C
     - valid/invalid patterns to Appendix H
     - chain cases to Appendix I
@@ -5878,13 +5873,13 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: The model can require loss categories and exclusions; it cannot know whether an omission is substantively
       load-bearing unless the record and sources establish it.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - five common loss classes
     - selection effects
     - compression debt
     - admissible-loss rule
-    migrate:
+    carriers:
     - full schema to Appendix C
     - operation templates to Appendices D–F
     - loss patterns to Appendix H
@@ -5986,14 +5981,14 @@ chapter:
     - PMS-STRATA.schema.json
     model_limit: The model can validate source-status declarations and prevent unsupported certainty labels; it cannot evaluate
       the real adequacy of evidence or thresholds automatically.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - source-bounded principle
     - no-record distinction
     - Source Ceiling
     - calibration-open result
     - technical boundary
-    migrate:
+    carriers:
     - source/calibration records to Appendix C
     - stress cases to Appendices G and I
     - technical notes to Appendix B
@@ -6016,7 +6011,7 @@ chapter:
       or absorbing rivals.
     canonical_status: Primary system-wide rule and procedure for failure preservation, granularity escape, higher-level escape,
       projection rescue, rival sensitivity, and the translation success trap.
-    handoff: Constrains Stop, Non-Capture, integrated audit, conclusion, and all later corpus production.
+    handoff: Constrains Stop, Non-Capture, integrated audit, conclusion, and all downstream corpus maintenance.
   governing_question: How can STRATA remain transformatively flexible without making every objection disappear through a new
     analytical position?
   required_claim:
@@ -6095,13 +6090,13 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: The model can preserve records and flag undeclared shifts; it cannot determine whether an objection has been
       substantively answered without analysis.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - canonical rule
     - failure-preservation sequence
     - six-question test
     - rival and success-trap clauses
-    migrate:
+    carriers:
     - invalid patterns to Appendix H
     - escape and rescue cases to Appendix I
     - audit fields to Appendix N
@@ -6209,14 +6204,14 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can detect declared triggers and output mappings; it cannot decide whether the substantive claim
       is sufficient or continuation harmful without context.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - positive Stop definition
     - general and part-specific triggers
     - mandatory/optional distinction
     - claim reduction
     - re-entry rule
-    migrate:
+    carriers:
     - full Stop schema to Appendix C
     - Stop patterns to Appendix G/H
     - cases to Appendix I
@@ -6324,13 +6319,13 @@ chapter:
     - Transformation_Record.schema.json
     model_limit: The model can require a reasoned Non-Capture record and distinguish it from missing fields; it cannot determine
       that an external model is substantively superior.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - definition
     - forms
     - partial-capture logic
     - remainder and rival rules
-    migrate:
+    carriers:
     - extended remainders to Appendix L
     - cases to Appendix I
     - record schema to Appendix C
@@ -6352,7 +6347,7 @@ chapter:
     primary_function: Integrate the local operation and boundary checks into one audit for individual transformations and
       complete chains.
     canonical_status: Primary and only integrated STRATA audit definition, result mapping, and LIMITS lock site.
-    handoff: Closes LIMITS and hands an auditable transformation system to Conclusion, cases, model v0, and later corpus production.
+    handoff: Closes LIMITS and hands an auditable transformation system to Conclusion, cases, model v0, and downstream corpus maintenance.
   governing_question: Can a complete transformation or operation chain demonstrate source entry, correct classification, relevance,
     traceability, continuity, sensitivity, loss, alternatives, limits, failure preservation, Stop, Non-Capture, and authority
     restraint?
@@ -6408,7 +6403,7 @@ chapter:
     - RETYPE Lock (Chapters 29–40)
     - Chapters 41–52
     conditional:
-    - Formal Model v0 will operationalize but not replace the audit.
+    - Formal Model v0 operationalizes but does not replace the audit.
   must_not_claim:
   - Passing the audit proves truth or causality.
   - The audit is a tribunal over persons or institutions.
@@ -6452,14 +6447,14 @@ chapter:
     - PMS-STRATA.yaml
     model_limit: The model can validate stages, records, enums, and prohibited inheritance; it cannot decide empirical truth,
       causality, semantic adequacy, or normative validity.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - audit purpose
     - twelve stages
     - result classes
     - final audit questions
     - LIMITS closing statement
-    migrate:
+    carriers:
     - full audit template to Appendix N
     - extended tests to Appendix G
     - case index to Appendix M
@@ -6558,12 +6553,12 @@ chapter:
     - Admissibility_Rules.yaml
     model_limit: The model artifact may mirror this synthesis but does not acquire authority over the canonical prose or PMS
       Base.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - integrated architecture
     - non-invertibility
     - shared admissibility summary
-    migrate:
+    carriers:
     - detailed notation to Appendix B
     - audit detail to Appendix N
   completion_test:
@@ -6622,7 +6617,7 @@ chapter:
     - RETYPE Lock (Chapters 29–40)
     - Chapter 54 integration
     conditional:
-    - README and Front Matter later present a shorter orientation version.
+    - README and Front Matter present a shorter orientation version.
   must_not_claim:
   - STRATA provides diagnosis, prediction, intervention, ranking, policy, or moral judgment.
   - STRATA guarantees full capture.
@@ -6656,12 +6651,12 @@ chapter:
     - Cross_Reference_Map.md
     - Reader_Pathways.md
     model_limit: Model and reference artifacts can index provided capabilities but cannot enlarge them.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - capability inventory
     - bounded qualification
     - legibility-not-authority statement
-    migrate:
+    carriers:
     - full cross-reference detail to 04_reference
     - reader pathways to Reader_Pathways.md
   completion_test:
@@ -6747,12 +6742,12 @@ chapter:
     - Admissibility_Rules.yaml
     - Claim_Type_Table.md
     model_limit: The model can expose prohibited claim categories; it cannot police every future rhetorical misuse automatically.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - complete negative inventory
     - symmetry with Chapter 55
     - non-override rule
-    migrate:
+    carriers:
     - full prohibited-use index to Claim_Type_Table.md
     - valid/invalid formulations to Appendix H
   completion_test:
@@ -6866,13 +6861,13 @@ chapter:
     - Admissibility_Rules.yaml
     - Claim_Type_Table.md
     model_limit: Formal artifacts must mirror this boundary but cannot substitute for or exceed it.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - final claim
     - transformation rule
     - failure and authority rules
     - closing statement
-    migrate:
+    carriers:
     - none required beyond cross-reference synchronization
   completion_test:
   - Wording aligns with Chapter 0, 6, 41, 53, README, and minified kernel.
@@ -6906,7 +6901,7 @@ chapter:
   - internal specification versus finished universal theory
   dependencies:
     hard:
-    - Completed Chapters 0–57
+    - Chapters 0–57
     status_and_navigation_alignment:
     - README.md
     conditional:
@@ -6939,12 +6934,12 @@ chapter:
     model_artifacts:
     - Reader_Pathways.md
     model_limit: No model artifact derives theoretical rules from the Preface.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - motivation
     - status
     - relationship to PMS Base
-    migrate:
+    carriers:
     - development chronology may remain in project documentation rather than appendices
   completion_test:
   - No primary definition appears.
@@ -6977,7 +6972,7 @@ chapter:
     - no person typing
     - no automatic application authority
     - formal implementation is not truth proof
-    add_on_rule: Add-on lenses may appear only as optional later stress vectors and do not ground STRATA rules.
+    add_on_rule: Add-on lenses may appear only as optional stress vectors and do not ground STRATA rules.
     status_rule: Maturity and release status must match the repository at publication time.
   required_distinctions:
   - theoretical basis versus optional test vector
@@ -7023,12 +7018,12 @@ chapter:
     - PMS-STRATA.yaml
     - Claim_Type_Table.md
     model_limit: The model may expose status metadata but does not derive validity from it.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - status
     - dependency on PMS Base
     - major scope exclusions
-    migrate:
+    carriers:
     - detailed use constraints to reference tables
   completion_test:
   - Status matches the repository.
@@ -7106,13 +7101,13 @@ chapter:
     - Operator_Index.md
     - Transformation_Operation_Index.md
     model_limit: Formal schemas may enforce field types but cannot establish semantic correctness.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - language convention
     - symbol distinctions
     - coordinate distinctions
     - formula and schema status
-    migrate:
+    carriers:
     - full notation to Appendix B and Glossary
   completion_test:
   - No new symbol or meaning is introduced.
@@ -7137,7 +7132,7 @@ chapter:
     and reference layer?
   required_claim:
     core: Foundations precedes operation-specific Parts; PATH, SUB, and RETYPE are locally audited; LIMITS applies throughout
-      and is later systematized.
+      and is systematized in LIMITS.
     artifact_rule: Canonical prose, minified controls, formal model, cases, appendices, references, derivatives, and Reader
       have distinct authority and navigation roles.
     reading_paths:
@@ -7155,11 +7150,11 @@ chapter:
   dependencies:
     hard:
     - Block_Contracts.md
-    - Completed Chapters 0–57
+    - Chapters 0–57
     status_and_navigation_alignment:
     - README.md
     conditional:
-    - Reference Kernel and Reader Pathways later provide detailed navigation.
+    - Reference Kernel and Reader Pathways provide detailed navigation.
   must_not_claim:
   - Readers may begin with derivatives as sources of truth.
   - LIMITS is relevant only after RETYPE.
@@ -7194,12 +7189,12 @@ chapter:
     - Cross_Reference_Map.md
     - PMS-STRATA.yaml
     model_limit: Navigation tools can surface dependencies and files but cannot perform or validate analysis independently.
-  appendix_migration:
+  downstream_operationalization:
     retain_in_chapter:
     - full route
     - specialist routes
     - artifact authority reminders
-    migrate:
+    carriers:
     - detailed pathways to Reader_Pathways.md and the Reader
   completion_test:
   - Foundations dependencies are visible.
@@ -7209,7 +7204,7 @@ chapter:
   - The guide routes into Chapter 0 without redefining content.
 ```
 
-## 71. Round 4 Dependency Chain
+## 71. LIMITS, Conclusion, and Front Matter Dependency Chain
 
 ```text
 41 → establishes why limits are constitutive
@@ -7235,7 +7230,7 @@ FM-TERMINOLOGY-NOTATION → explains language and notation without new semantics
 FM-HOW-TO-READ → routes readers without creating authority hierarchy
 ```
 
-## 72. Round 4 Primary Definition Matrix
+## 72. LIMITS, Conclusion, and Front Matter Primary Definition Matrix
 
 | Concept family | Primary contract | Later use without redefinition |
 |---|---:|---|
@@ -7261,7 +7256,7 @@ FM-HOW-TO-READ → routes readers without creating authority hierarchy
 | Notation orientation | FM-TERMINOLOGY-NOTATION | reference layer |
 | Reading pathways | FM-HOW-TO-READ | Reader and reference layer |
 
-## 73. Round 4 Critical Redundancy Guards
+## 73. LIMITS, Conclusion, and Front Matter Critical Redundancy Guards
 
 ```text
 0 / 57      → initial versus final claim boundary; semantic alignment required
@@ -7281,9 +7276,9 @@ FM-HOW-TO-READ → routes readers without creating authority hierarchy
 README / FM-HOW-TO-READ → repository authority map versus reading navigation
 ```
 
-## 74. Gate 2 Final Completion Gate
+## 74. Chapter Contract Set Completion Gate
 
-Gate 2 is complete only when:
+The Chapter Contract set is complete only when:
 
 - exactly 58 numeric chapter contracts exist for Chapters 0–57 with no gaps or duplicates;
 - exactly four nonnumeric Front Matter contracts exist: `FM-PREFACE`, `FM-STATUS-SCOPE`, `FM-TERMINOLOGY-NOTATION`, and `FM-HOW-TO-READ`;
@@ -7300,24 +7295,15 @@ Gate 2 is complete only when:
 - Conclusion introduces no new theory;
 - Front Matter is removable without changing the canonical theory;
 - all model relations remain operationalizations rather than sources of substantive truth;
-- the repository copy and delivered artifact are byte-identical.
+- all contract objects remain internally consistent with the canonical corpus and current repository paths.
 
-**Gate 2 status after generation:** `complete`  
-**Next phase:** Phase 3 — Reference Kernel, followed by Formal Model v0.
+**Current contract-set status:** complete.
 
 ---
 
-## 75. Current Downstream Status Note
+## 75. Current Contract Role
 
-The historical Gate 2 handoff to the Reference Kernel and Formal Model v0 has been completed. The canonical chapter corpus, final bounded RETYPE/LIMITS/Conclusion locks, corpus-wide integration, substantive Front Matter, repository hygiene, and 59/59 case Record pairing now exist.
+The 62 contract objects remain binding controls for Chapters 0–57 and the four Front Matter components. Their `downstream_operationalization` fields identify current appendix, case, reference, and formal-carrier relations.
 
-```text
-current controlled phase:
-Appendices A–N
-
-next appendix:
-Appendix A — Core Definitions
-```
-
-The 62 contract objects and their `appendix_migration` fields remain unchanged in meaning. This note updates production status only and creates no new contract burden.
+The canonical chapter corpus, Front Matter, cases, appendices, Reference Kernel, and formal carriers are active downstream realizations. They may operationalize and test these contracts but may not silently revise their claim ownership, dependencies, non-claims, completion tests, or authority boundaries.
 

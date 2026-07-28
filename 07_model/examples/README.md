@@ -1,16 +1,16 @@
-# PMS-STRATA Formal Model v0 — Canonical Smoke Examples
+# PMS-STRATA Formal Model — Canonical Smoke Examples
 
-**Artifact role:** controlled index and execution boundary for the canonical Formal Model v0 smoke-record suite  
+**Artifact role:** active index and execution boundary for the canonical formal-model smoke-record suite  
 **Current suite state:** eight canonical YAML records populated; seven `operation_occurrence` records and one `integrated_chain` record  
 **Routing state of committed records:** `routed`  
-**Current model versions:** Operation Registry `0.1.1`; Output Classes `0.1.1`; Admissibility Rules `0.1.2`; Boundary Decision Tree `0.1.1`; Transformation Record Schema `0.1.2`  
-**Gate status:** record production, suite-level cross-record audit, Reference/status synchronization, Root fingerprint/provenance synchronization, and final Formal Model v0 internal smoke-gate rerun complete and passed
+**Current model versions:** Operation Registry `0.2.0`; Output Classes `0.2.0`; Admissibility Rules `0.2.0`; Boundary Decision Tree `0.2.0`; Transformation Record Schema `0.2.0`  
+**Integrity status:** eight canonical records validated structurally; suite-level relations, owner references, and route expectations checked  
 
 ---
 
 ## 1. Purpose
 
-This directory contains the smallest canonical set of synthetic records used to test whether the current PMS-STRATA Formal Model v0 can:
+This directory contains the smallest canonical set of synthetic records used to test whether the active PMS-STRATA formal model can:
 
 - represent each of the three operations without adding a fourth operation;
 - distinguish positive transformation, failure, claim reduction, mandatory stop, and non-capture;

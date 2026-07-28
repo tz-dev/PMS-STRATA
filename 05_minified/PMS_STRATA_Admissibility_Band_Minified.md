@@ -1,6 +1,6 @@
 # PMS-STRATA — Admissibility Band Minified
 
-**Status:** canonical control artifact for corpus production  
+**Status:** canonical control artifact for corpus maintenance and audit  
 **Dependency:** `PMS_STRATA_Claim_Boundary_Minified.md`, `PMS_STRATA_Operation_Signatures_Minified.md`, PMS Base as represented by `PMS.yaml`, and the current `PMS-STRATA_Structure.md`  
 **Function:** compact specification of the operating range within which `COMPOSE`, `DECOMPOSE`, and `PROJECT_AS` count as bounded, source-traceable, type-integral, and criticizable STRATA transformations
 

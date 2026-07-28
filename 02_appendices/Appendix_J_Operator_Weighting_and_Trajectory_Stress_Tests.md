@@ -315,7 +315,7 @@ deferred
 ≠ uninterrupted continuation
 ```
 
-A branch may be visualized in the later Reader only where its status, historical cut, source basis, and temporal window are declared.
+A branch may be visualized in the Reader only where its status, historical cut, source basis, and temporal window are declared.
 
 ```text
 visualized branch
@@ -427,7 +427,7 @@ The matrix suggests tests; it does not select Output Classes mechanically.
 
 ## J.14 Graph and Reader Stress Boundary
 
-The later Reader may display:
+The Reader may display:
 
 - source chronology;
 - realized Path;

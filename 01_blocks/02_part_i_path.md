@@ -12,7 +12,7 @@ The governing question is:
 
 > When does a temporal difference constitute a reconstructible transition rather than two disconnected descriptions?
 
-The chapter will answer that question progressively. This first work package establishes the purpose of PATH, bounds the role of `Θ`, defines temporal-position declarations, and specifies order dependence. It does not yet define duration, delay, persistence, bounded irreversibility, temporal recontextualization, or the full transition test. Those duties remain in Sections 9.5–9.12.
+The chapter will answer that question progressively. Sections 9.1–9.4 establish the purpose of PATH, bound the role of `Θ`, define temporal-position declarations, and specify order dependence. It does not yet define duration, delay, persistence, bounded irreversibility, temporal recontextualization, or the full transition test. Those duties remain in Sections 9.5–9.12.
 
 The local result of Sections 9.1–9.4 is not a path. It is a controlled set of temporal declarations and order-sensitive claims that later sections may use when testing transition candidates.
 
@@ -1473,7 +1473,7 @@ record-field availability
 ≠ transition warrant
 ```
 
-No new schema field is canonically required at WP3. The WP4 prose-to-model audit will verify whether the existing carriers remain sufficient after integrated Chapter 9 review.
+No new schema field is canonically required at the integration section. The chapter audit prose-to-model audit will verify whether the existing carriers remain sufficient after integrated Chapter 9 review.
 
 #### Transition evidence matrix
 
@@ -1750,10 +1750,10 @@ Chapter 9 provisional lock
 ≠ higher authority
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 10 — Preparation:
+Chapter 10 — Entry Conditions:
 Path
 ```
 
@@ -1767,7 +1767,7 @@ Chapter 9 established when two or more configurations may be connected by a warr
 
 A path is not discovered merely by placing records in date order. It is reconstructed by showing that selected configurations and transitions were actually traversed by a bounded reference object, that their connection is constitutive for the tested claim, and that the analyst has disclosed the frame, selection rule, omissions, alternatives, uncertainty, and loss through which the path is represented.
 
-This first work package establishes the definition, chronology boundary, component architecture, selection discipline, path frame, and evidence burden. It does not yet fully define realized, blocked, aborted, or deferred status, path comparison, similar-endpoint divergence, path without strong dependence, or the minimal path record. Those duties remain in Sections 10.7–10.14.
+Sections 10.1–10.6 establish the definition, chronology boundary, component architecture, selection discipline, path frame, and evidence burden. It does not yet fully define realized, blocked, aborted, or deferred status, path comparison, similar-endpoint divergence, path without strong dependence, or the minimal path record. Those duties remain in Sections 10.7–10.14.
 
 The local result of Sections 10.1–10.6 is therefore a controlled path candidate or warranted path claim, not a trajectory, path-dependence result, causal explanation, target function, or completed `COMPOSE` occurrence.
 
@@ -1877,7 +1877,7 @@ T1: K0 → K1
 T2: K1 → K2
 ```
 
-The record also supports that the review object actually passed through `K0`, `K1`, and `K2`; that `T1` changed the expectation structure; and that `T2` changed the action corridor and left an unresolved commitment. One continuation—reconsideration before adoption—was source-supported as available at `K1` but was not realized. Its precise blocked/deferred status remains for Sections 10.8–10.10; WP1 records it only as a non-realized continuation with a supported availability relation and an unresolved status.
+The record also supports that the review object actually passed through `K0`, `K1`, and `K2`; that `T1` changed the expectation structure; and that `T2` changed the action corridor and left an unresolved commitment. One continuation—reconsideration before adoption—was source-supported as available at `K1` but was not realized. Its precise blocked/deferred status remains for Sections 10.8–10.10; the scope section records it only as a non-realized continuation with a supported availability relation and an unresolved status.
 
 The bounded path is:
 
@@ -2280,7 +2280,7 @@ The unmarked unified claim remains `formal_diagnostic` until reference, periodiz
 
 Path evidence must support the chain as a chain. It is not sufficient to accumulate records about its endpoints or to count the number of dated items.
 
-The WP1 evidence architecture distinguishes six relations:
+The scope section evidence architecture distinguishes six relations:
 
 | Relation | Control question |
 | --- | --- |
@@ -2355,7 +2355,7 @@ admissible_but_provisional
 
 The record must preserve the inferential bridge, the missing review step, and the re-entry evidence that could strengthen or defeat the claim. It may not present the path as directly observed or use it to infer intention, trajectory, or path dependence.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
 Sections 10.1–10.6 establish:
 
@@ -2369,17 +2369,17 @@ Sections 10.1–10.6 establish:
 - a six-relation evidence matrix with direct, indirect, gap, and rival-reconstruction handling;
 - six canonical pressure cases from `C10-DEF-01` through `C10-EVID-01`.
 
-The WP1 result is bounded. It does not yet settle the distinct burdens of realized, blocked, aborted, and deferred paths. It also does not perform path comparison, establish path dependence, supply a trajectory, or complete the Shared Transformation Record.
+The scope result is bounded. It does not yet settle the distinct burdens of realized, blocked, aborted, and deferred paths. It also does not perform path comparison, establish path dependence, supply a trajectory, or complete the Shared Transformation Record.
 
 ```text
-WP1 path threshold established
+The scope section path threshold established
 ≠ Chapter 10 provisional lock
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 10 — WP2:
+Chapter 10 — Method Extension:
 Realized, Blocked, Aborted,
 and Deferred Paths
 ```
@@ -2489,7 +2489,7 @@ status-event time
 ≠ status-revision time
 ```
 
-The claim lineage should preserve the earlier diagnostic or provisional record, the later source, and the reason for revision. New evidence supports a new testable status claim rather than silently rewriting production history.
+The claim lineage should preserve the earlier diagnostic or provisional record, the later source, and the reason for revision. New evidence supports a new testable status claim rather than silently rewriting the prior record lineage.
 
 #### Open endpoints
 
@@ -3092,7 +3092,7 @@ admissible_with_bounded_claim
 
 The record must preserve the increased cost, actor change, uncertainty, and review condition. It may not describe the continuation as uninterrupted, guarantee later realization, or assume unchanged path identity.
 
-#### WP2 status matrix
+#### Method status matrix
 
 | Status | Minimum historical relation | What remains prohibited |
 | --- | --- | --- |
@@ -3108,7 +3108,7 @@ status declaration completeness
 ≠ status truth automatically
 ```
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 Sections 10.7–10.10 establish a qualified path-status architecture without creating four ontologically distinct path kinds. The statuses are bounded historical relations attached to segments, continuations, and analytical cuts.
 
@@ -3119,14 +3119,14 @@ path status
 ≠ canonical Output Class
 ```
 
-WP2 does not authorize a path-status enum, a new schema field, a status score, or an automatic status detector.
+The method section does not authorize a path-status enum, a new schema field, a status score, or an automatic status detector.
 
-WP2 does not yet settle Path Comparison, Similar Endpoints, Path without Strong Dependence, the Minimal Path Record, Stop and Non-Capture integration, or the Chapter-11 handoff. Those duties remain in Sections 10.11–10.14 and WP4.
+The method section does not yet settle Path Comparison, Similar Endpoints, Path without Strong Dependence, the Minimal Path Record, Stop and Non-Capture integration, or the Chapter-11 handoff. Those duties remain in Sections 10.11–10.14 and the chapter audit.
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 10 — WP3:
+Chapter 10 — Integration:
 Path Comparison, Same Endpoints,
 Non-Dependence, and Minimal Record
 ```
@@ -4003,10 +4003,10 @@ Chapter 10 provisional lock
 ≠ higher authority
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 11 — Preparation:
+Chapter 11 — Entry Conditions:
 Trajectory
 ```
 
@@ -4720,9 +4720,9 @@ non-teleological directionality
 ≠ strong Path Dependence automatically
 ```
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
-Sections 11.1–11.4 establish the operational Trajectory definition, the Path-to-Trajectory threshold, Historical Sedimentation, historical co-determination, and directionality without teleology. They realize the six assigned WP1 pressure cases:
+Sections 11.1–11.4 establish the operational Trajectory definition, the Path-to-Trajectory threshold, Historical Sedimentation, historical co-determination, and directionality without teleology. They realize the six assigned scope pressure cases:
 
 ```text
 C11-DEF-01
@@ -4733,7 +4733,7 @@ C11-DIR-01
 C11-TEL-01
 ```
 
-WP1 does not yet establish the complete Chapter-11 object. It does not operationalize the four operator-combination profiles in full, complete Changed Action Corridors, fix Trajectory Boundary or Compression, adjudicate competing constructions, define False Trajectory comprehensively, produce the Minimal Trajectory Record, or provisionally lock Chapter 11.
+The scope section does not yet establish the complete Chapter-11 object. It does not operationalize the four operator-combination profiles in full, complete Changed Action Corridors, fix Trajectory Boundary or Compression, adjudicate competing constructions, define False Trajectory comprehensively, specify the Minimal Trajectory Record, or provisionally lock Chapter 11.
 
 The local result is:
 
@@ -4741,10 +4741,10 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP1 defect. It preserves pressure from Sections 11.5–11.14, Chapter 12 Path Dependence, Chapter 15 `COMPOSE`, later Parts, cases, appendices, LIMITS, Corpus Audit, and Model Finalization.
+The provisionality identifies no known defect in the scope section. It preserves pressure from Sections 11.5–11.14, Chapter 12 Path Dependence, Chapter 15 `COMPOSE`, later method sections, cases, appendices, LIMITS, corpus audit, and formal-model synchronization.
 
 ```text
-Chapter 11 WP1 completion
+Chapter 11 scope completion
 ≠ Chapter 11 provisional lock
 ≠ Path-Dependence confirmation
 ≠ COMPOSE authorization
@@ -4752,10 +4752,10 @@ Chapter 11 WP1 completion
 ≠ higher authority
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 11 — WP2:
+Chapter 11 — Method Extension:
 Attractor Sedimentation,
 Asymmetry Accumulation,
 Binding Accumulation,
@@ -4901,7 +4901,7 @@ This is a chapter-level declaration pattern, not a new formal schema field. The 
 
 #### Cross-profile boundary
 
-Attractor Sedimentation is distinct from the other WP2 profiles:
+Attractor Sedimentation is distinct from the other the method section profiles:
 
 ```text
 Attractor Sedimentation
@@ -5754,7 +5754,7 @@ Residual Accumulation:
 
 The result supports a bounded changed-corridor claim. It does not establish inevitability, legal or political legitimacy, person responsibility, strong Path Dependence, or a recommendation to remain in or exit the network.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 Sections 11.5–11.9 operationalize the four occurrence-level temporal profiles and their present corridor effects:
 
@@ -5766,7 +5766,7 @@ C11-RES-01
 C11-CORR-01
 ```
 
-WP2 establishes:
+The method section establishes:
 
 - Attractor Sedimentation as changed local friction or default accessibility supported by an `Α` occurrence and temporal carrier;
 - Asymmetry Accumulation as retained, redistributed, or hardened differential load supported by an `Ω` occurrence and temporal distribution trace;
@@ -5781,7 +5781,7 @@ The local result remains:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP2 defect. It preserves the remaining Chapter-11 burdens:
+The provisionality identifies no known defect in the method section. It preserves the remaining Chapter-11 burdens:
 
 - Trajectory identity, boundary, and periodization;
 - Trajectory Compression and Loss;
@@ -5791,7 +5791,7 @@ The provisionality identifies no known WP2 defect. It preserves the remaining Ch
 - Stop, Non-Capture, integrated audit, and Provisional Lock.
 
 ```text
-WP2 completion
+method completion
 ≠ Chapter 11 provisional lock
 ≠ all four profiles required in every Trajectory
 ≠ Path-Dependence confirmation
@@ -5801,10 +5801,10 @@ WP2 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 11 — WP3:
+Chapter 11 — Integration:
 Trajectory Boundary,
 Trajectory Compression,
 Competing Trajectory Constructions,
@@ -6621,7 +6621,7 @@ The compact Trajectory view requires the Shared Transformation Record to retain:
 - Stop, Non-Capture, re-entry, and no-erasure lineage;
 - extension ownership for Trajectory-specific declarations.
 
-The existing Record carriers are sufficient at WP3. No schema expansion is required merely because the compact view is useful.
+The existing Record carriers are sufficient at the integration section. No schema expansion is required merely because the compact view is useful.
 
 #### Record completeness and substantive sufficiency
 
@@ -6739,7 +6739,7 @@ The handoff must include:
 
 Chapter 12 may confirm weak order dependence, strong Path Dependence, a reduced dependence claim, Failure, Stop, or Non-Capture. It may not retroactively repair an unsupported Trajectory.
 
-#### WP3 completion boundary
+#### Integrated chapter boundary
 
 Sections 11.10–11.14 canonically establish:
 
@@ -6755,7 +6755,7 @@ Sections 11.10–11.14 canonically establish:
 - Record completeness without substantive truth inference;
 - the explicit Chapter-12 handoff and no-retroactive-repair rule.
 
-The eight assigned WP3 pressure cases are represented:
+The eight assigned integration pressure cases are represented:
 
 ```text
 C11-BOUND-01
@@ -6774,7 +6774,7 @@ The local result remains:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP3 defect. It preserves the remaining Chapter-11 WP4 duties:
+The provisionality identifies no known defect in the integration section. It preserves the remaining Chapter-11 audit duties:
 
 - integrated redundancy and dependency audit;
 - verification of all nineteen Chapter-11 case duties;
@@ -6783,7 +6783,7 @@ The provisionality identifies no known WP3 defect. It preserves the remaining Ch
 - Chapter-11 Provisional Lock.
 
 ```text
-WP3 completion
+integrated completion
 ≠ Chapter 11 provisional lock
 ≠ Path-Dependence confirmation
 ≠ completed COMPOSE occurrence
@@ -6792,10 +6792,10 @@ WP3 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 11 — WP4:
+Chapter 11 — Audit and Lock:
 Synchronization,
 Integrated Audit,
 and Provisional Lock
@@ -6828,7 +6828,7 @@ The Chapter 11 completion test is satisfied:
 11. False Trajectory remains a diagnostic of a failed or overclaimed construction, while warranted weaker findings—such as chronology, duration, transitions, Path segments, recurrence, local Asymmetry, discrete Binding, framed Non-Events, bounded residue, present constraint, or source uncertainty—remain preserved;
 12. the Minimal Trajectory Record remains a compact view inside the Shared Transformation Record and cannot convert field presence, schema validity, or machine-readable completeness into historical-load sufficiency, substantive admissibility, or truth;
 13. Chapter 12 receives a developed Trajectory object for a separate graded Path-Dependence test, while Chapter 15 retains complete `COMPOSE` mechanics and RETYPE retains contextual target-function assignment;
-14. all nineteen prepared Chapter-11 pressure cases are represented in the canonical chapter without being misreported as completed `03_cases/*` artifacts, empirical evidence, or calibration data;
+14. all nineteen specified Chapter-11 Pressure Cases are represented in the canonical chapter without being misreported as completed `03_cases/*` artifacts, empirical evidence, or calibration data;
 15. Failure, Claim Reduction, Mandatory Stop, and Non-Capture preserve lineage, weaker findings, Loss, uncertainty, rival constructions, and re-entry conditions without authority inheritance.
 
 The integrated audit confirms that the chapter's four historical-load profiles are neither additive scores nor compensatory shortcuts. A rich Attractor profile cannot repair a failed Path substrate; accumulated Asymmetry cannot substitute for missing present effect; Binding history cannot establish consent, obligation, or enforceability; and repeated absence cannot become Residual Accumulation without a warranted expectation frame. Each claim retains its own carrier, temporal trace, present effect, counterpressure, source basis, and ceiling.
@@ -6875,10 +6875,10 @@ Chapter 11 provisional lock
 
 Reopen Chapter 11 only if later work demonstrates a concrete conflict involving the Path-to-Trajectory threshold, sedimentation carrier, Source–Result Dependency, present historical-load effect, profile separation, corridor declaration, boundary, compression, competing construction, False Trajectory routing, Minimal Record mapping, Chapter-12 input requirements, or the unchanged PMS Base. Mere preference for a different periodization, richer narrative, broader label, finer detail, or stronger conclusion is not a reopening ground.
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 12 — Preparation:
+Chapter 12 — Entry Conditions:
 Path Dependence and Sedimentation
 ```
 
@@ -7404,7 +7404,7 @@ But different histories alone do not prove different present structures. The pre
 
 #### Source-bounded omission pressure
 
-At WP1, the minimum omission question is:
+At the scope section, the minimum omission question is:
 
 ```text
 What materially disappears from the warranted present reconstruction
@@ -7420,7 +7420,7 @@ A strong candidate should identify a non-trivial loss such as:
 - a continuation appears equally reachable when it is not;
 - a present default appears current-rule-based although it is historically stabilized.
 
-The full Historical-Omission and source-bounded Alternative-History test architecture is completed in Section 12.11. WP1 establishes the burden without pre-empting Chapter 13 branch taxonomy or Chapter 46 general counterfactual theory.
+The full Historical-Omission and source-bounded Alternative-History test architecture is completed in Section 12.11. The scope section establishes the burden without pre-empting Chapter 13 branch taxonomy or Chapter 46 general counterfactual theory.
 
 #### `Θ` alone is insufficient
 
@@ -7468,7 +7468,7 @@ historical indispensability for reconstruction
 ≠ deterministic causation
 ```
 
-Section 12.10 later develops this non-determinism boundary in full. WP1 already prohibits any use of the strong label as destiny or forecast.
+Section 12.10 later develops this non-determinism boundary in full. The scope section already prohibits any use of the strong label as destiny or forecast.
 
 #### Failure, reduction, and preservation
 
@@ -7538,7 +7538,7 @@ approximately same current contract surface
 → bounded strong Path-Dependence candidate in exit cost
 ```
 
-The claim remains dimension-specific. It does not establish that every current feature of Path B is strongly path-dependent, that exit is impossible, that the earlier Path was illegitimate, or that future continuation is determined. A suitable local result is `admissible_but_provisional` until the operator-profile and full test duties of WP2–WP3 are completed.
+The claim remains dimension-specific. It does not establish that every current feature of Path B is strongly path-dependent, that exit is impossible, that the earlier Path was illegitimate, or that future continuation is determined. A suitable local result is `admissible_but_provisional` until the operator-profile and full chapter tests are satisfied.
 
 #### C12-OBJ-01 — Trajectory label used as automatic strong-dependence proof
 
@@ -7595,7 +7595,7 @@ long duration
 
 If the analysis made only a strong dependence claim, the result is `claim_reduction_required` or `resolution_neutral`, depending on whether any bounded order effect remains. The historical record is not erased. `Θ` remains relevant to the chronology, but temporality alone does not establish the property.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
 Sections 12.1–12.3 now canonically establish:
 
@@ -7613,7 +7613,7 @@ Sections 12.1–12.3 now canonically establish:
 - Source–Result and omission pressure without pre-empting the full Chapter-12 test, Chapter-13 branch taxonomy, or Chapter-46 counterfactual architecture;
 - explicit insufficiency of `Θ`, duration, repetition, institutional age, narrative coherence, archival density, or Trajectory status alone;
 - failure and reduction with preservation of warranted Path, Trajectory, sedimentation, residue, or local order findings;
-- all five assigned WP1 pressure cases.
+- all five assigned Pressure Cases for the scope section.
 
 The local result is:
 
@@ -7621,7 +7621,7 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP1 defect. It preserves the remaining Chapter-12 burdens:
+The provisionality identifies no known defect in the scope section. It preserves the remaining Chapter-12 burdens:
 
 - dependence-bearing `Α + Θ`, `Ω + Θ`, `Ψ + Θ`, and `Λ + Θ` profiles;
 - profile interaction and non-compensation;
@@ -7633,7 +7633,7 @@ The provisionality identifies no known WP1 defect. It preserves the remaining Ch
 - integrated Chapter-12 audit and Provisional Lock.
 
 ```text
-WP1 completion
+scope completion
 ≠ Chapter 12 provisional lock
 ≠ full operator-profile support
 ≠ completed Path-Dependence test
@@ -7644,10 +7644,10 @@ WP1 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 12 — WP2:
+Chapter 12 — Method Extension:
 Dependence-Bearing Operator Profiles
 ```
 
@@ -7801,7 +7801,7 @@ same current policy surface
 → bounded Attractor-Dependence candidate
 ```
 
-The claim is limited to coordination friction and route accessibility. It does not establish that Unit A cannot change, that its dominant route is legitimate, or that every feature of the unit is strongly Path Dependent. Pending WP3's complete Historical-Omission and Alternative-History tests, a suitable local result is `admissible_but_provisional`.
+The claim is limited to coordination friction and route accessibility. It does not establish that Unit A cannot change, that its dominant route is legitimate, or that every feature of the unit is strongly Path Dependent. Pending the complete integrated Historical-Omission and Alternative-History tests, a suitable local result is `admissible_but_provisional`.
 
 <a id="12-5-o-theta-asymmetry-dependence"></a>
 
@@ -8034,7 +8034,7 @@ A binding carrier may:
 - be repaired through explicit renegotiation;
 - lose present load where the carrier is genuinely dissolved.
 
-A new label, renewed agreement, changed role title, or declared restart does not by itself establish either persistence or erasure. WP3 later owns the complete modifier and reset test.
+A new label, renewed agreement, changed role title, or declared restart does not by itself establish either persistence or erasure. The integration section owns the complete modifier and reset test.
 
 #### Revision and exit remain possible
 
@@ -8102,7 +8102,7 @@ same current agreement
 → bounded Binding-Dependence candidate
 ```
 
-The result concerns reopening and transition cost. It does not prove that the provider acted wrongfully, that continued participation is required, or that exit is impossible. Pending WP3, a suitable local result is `admissible_but_provisional`.
+The result concerns reopening and transition cost. It does not prove that the provider acted wrongfully, that continued participation is required, or that exit is impossible. Pending the integrated chapter tests, a suitable local result is `admissible_but_provisional`.
 
 <a id="12-7-lambda-theta-residual-dependence"></a>
 
@@ -8182,7 +8182,7 @@ historical Non-Event
 ≠ permanent residue automatically
 ```
 
-WP3 later owns the full `Φ`, modifier, and reset architecture.
+The integration section owns the full `Φ`, modifier, and reset architecture.
 
 #### Counterpressure and false residual dependence
 
@@ -8371,7 +8371,7 @@ four historical sedimentation profiles
 
 The strong claim requires `claim_reduction_required`. Warranted historical findings remain preserved; depending on the tested level, the current dependence result may be `resolution_neutral`. The case demonstrates both non-compensation and the prohibition on additive profile scoring.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 Sections 12.4–12.7 now canonically establish:
 
@@ -8380,13 +8380,13 @@ Sections 12.4–12.7 now canonically establish:
 - `Ψ + Θ` Binding Dependence as historically indispensable commitment, reliance, coordination investment, reopening cost, or release condition rather than expectation or current enforceability alone;
 - `Λ + Θ` Residual Dependence as historically indispensable present residue from a warranted expectation-bound Non-Event rather than missing information or mere absence;
 - current-state sufficiency challenges specific to each profile;
-- profile-specific omission and source-variation pressure without pre-empting WP3's complete Path-Dependence test;
+- profile-specific omission and source-variation pressure without pre-empting the integration section's complete Path-Dependence test;
 - separation of sedimentation support from dependence warrant;
 - separation of operator type, occurrence relation, Path-Dependence property, operation, target function, and authority;
 - interaction among profiles without operator fusion, universal causal chain, additive score, or all-profile requirement;
 - the possibility that one profile supports one bounded dependence dimension while other profiles remain absent, neutral, reduced, provisional, failed, or non-captured;
 - strict non-compensation for invalid substrate, missing present effect, failed current-state challenge, unsupported Source–Result Dependency, or source and claim ceiling breach;
-- all five assigned WP2 Pressure Cases.
+- all five assigned Pressure Cases for the method section.
 
 The local result is:
 
@@ -8394,7 +8394,7 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP2 defect. It preserves the remaining Chapter-12 burdens:
+The provisionality identifies no known defect in the method section. It preserves the remaining Chapter-12 burdens:
 
 - `Φ` under Path Dependence;
 - recontextualization versus reset;
@@ -8406,7 +8406,7 @@ The provisionality identifies no known WP2 defect. It preserves the remaining Ch
 - integrated Chapter-12 audit and Provisional Lock.
 
 ```text
-WP2 completion
+method completion
 ≠ Chapter 12 provisional lock
 ≠ completed Path-Dependence test
 ≠ profile fusion
@@ -8418,10 +8418,10 @@ WP2 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 12 — WP3:
+Chapter 12 — Integration:
 Recontextualization, Modifiers,
 Non-Determinism, Test, Failure,
 Record, Stop, and Non-Capture
@@ -9348,7 +9348,7 @@ warranted Path Dependence
 ≠ PROJECT_AS authorization
 ```
 
-#### WP3 completion boundary
+#### Integrated chapter boundary
 
 Sections 12.8–12.12 now canonically establish:
 
@@ -9361,7 +9361,7 @@ Sections 12.8–12.12 now canonically establish:
 - a Minimal Path-Dependence Claim View inside the Shared Transformation Record rather than a second schema;
 - explicit failure conditions, reduction ladder, resolution neutrality, Mandatory Stop, Non-Capture, and anti-laundering discipline;
 - protected handoffs to Chapters 13, 15, 24, and 46 and continued separation from RETYPE;
-- all nine assigned WP3 Pressure Cases.
+- all nine assigned Pressure Cases for the integration section.
 
 The local result is:
 
@@ -9369,7 +9369,7 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP3 repair requirement. It preserves the remaining Chapter-12 WP4 duties:
+The provisionality identifies no known repair requirement in the integration section. It preserves the remaining Chapter-12 audit duties:
 
 - integrated redundancy and ownership audit across Sections 12.1–12.12;
 - confirmation of all nineteen Pressure Cases;
@@ -9378,7 +9378,7 @@ The provisionality identifies no known WP3 repair requirement. It preserves the 
 - Chapter-12 Completion Test and Provisional Lock.
 
 ```text
-WP3 completion
+integrated completion
 ≠ Chapter 12 provisional lock
 ≠ causal proof
 ≠ prediction
@@ -9388,10 +9388,10 @@ WP3 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 12 — WP4:
+Chapter 12 — Audit and Lock:
 Synchronization,
 Integrated Audit,
 and Provisional Lock
@@ -9427,7 +9427,7 @@ The Chapter 12 completion test is satisfied:
 14. Failure and Claim Reduction preserve warranted weaker findings through the ladder from strong dependence to weak order dependence, Trajectory without established dependence, Path without established Trajectory, and sequence or chronology, each under its own burden;
 15. Mandatory Stop applies where a known failed dependence claim is reused for prediction, target-function assignment, person classification, intervention, sanction, legitimacy, or authority; Non-Capture remains available where materially rival historical and current explanations remain source-responsible but undecidable;
 16. Chapter 13 receives bounded alternative-space and source-bounded comparison pressure without inherited branch classifications, Chapter 15 retains complete `COMPOSE` mechanics, Chapter 24 retains later `DECOMPOSE` analysis of carriers, Chapter 46 retains general Counterfactual-Sensitivity architecture, and RETYPE receives no target function;
-17. all nineteen prepared Chapter-12 Pressure Cases are represented in the canonical chapter without being misreported as produced `03_cases/*` artifacts, empirical evidence, calibration data, training data, graph specifications, or application findings;
+17. all nineteen specified Chapter-12 Pressure Cases are represented in the canonical chapter without being misreported as produced `03_cases/*` artifacts, empirical evidence, calibration data, training data, graph specifications, or application findings;
 18. a graph, Reader view, revised frame, new label, granularity, periodization, operation, projection, or visualization cannot erase a failed result or inherit missing warrant;
 19. no part of Chapter 12 changes `PMS.yaml`, the Δ–Ψ inventory, operator order, operator dependencies, the three-operation grammar, the ten Output Classes, the sixteen Admissibility Rules, or the twelve audit stages.
 
@@ -9480,10 +9480,10 @@ Chapter 12 provisional lock
 
 Reopen Chapter 12 only if later work demonstrates a concrete conflict involving the property/object distinction, dependence gradient, tested dimension, present analytical cut, Current-State Sufficiency Challenge, Historical Omission, source-bounded Alternative History, profile carrier, modifier status, non-determinism boundary, Failure/Reduction route, Minimal Claim View, Stop/Non-Capture route, Chapter-13/15/24/46 handoff, or unchanged PMS Base. Mere preference for a richer history, broader claim, more dramatic graph, stronger label, finer detail, or more decisive conclusion is not a reopening ground.
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 13 — Preparation:
+Chapter 13 — Entry Conditions:
 Branches, Aborts, Delays,
 and Unavailable Alternatives
 ```
@@ -9517,7 +9517,7 @@ Sections 13.1–13.4 establish:
 - Realized Branch without rationality, legitimacy, optimality, or inevitability inference;
 - Rejected Branch as documented non-selection of a materially available continuation;
 - the separation of rejection from blockage, impossibility, non-occurrence, and mere absence of evidence;
-- five WP1 Pressure Cases.
+- five Pressure Cases for the scope section.
 
 Sections 13.5–13.8 later distinguish Blocked, Aborted, Deferred, and Lost alternatives. Sections 13.9–13.12 later establish source-bounded Counterfactual Paths, Non-Selection as praxis structure, Alternative-Space Compression, the Alternative Status Record, Failure, Claim Reduction, Stop, and Non-Capture. Chapter 14 retains the full Non-Event analysis. Chapter 15 retains the complete `COMPOSE` procedure. Chapter 46 retains the general Counterfactual-Sensitivity architecture.
 
@@ -9888,7 +9888,7 @@ A Realized Branch may arise through:
 - **procedural selection** — a rule or threshold activates one route;
 - **Non-Event selection** — failure to decide, respond, renew, or act allows a window to close and leaves one continuation as the traversed Path.
 
-Chapter 14 later owns the full Non-Event test. WP1 only preserves that a realized route may emerge without one positive decision event.
+Chapter 14 later owns the full Non-Event test. The scope section only preserves that a realized route may emerge without one positive decision event.
 
 #### No rationality, legitimacy, or inevitability inference
 
@@ -10091,7 +10091,7 @@ materially available continuation
 
 The finding does not prove that migration would have succeeded or that the rejection was illegitimate. A bounded result may map to `admissible_with_bounded_claim`.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
 Sections 13.1–13.4 now canonically establish:
 
@@ -10107,7 +10107,7 @@ Sections 13.1–13.4 now canonically establish:
 - Rejected Branch as documented non-selection or refusal while availability remained open;
 - strict separation of rejection from blockage, impossibility, mere non-realization, and unsupported alternatives;
 - later reachability and residual effects as separate, source-bounded claims;
-- all five assigned WP1 Pressure Cases.
+- all five assigned Pressure Cases for the scope section.
 
 The local result is:
 
@@ -10115,17 +10115,17 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP1 repair requirement. It preserves the remaining Chapter-13 duties:
+The provisionality identifies no known repair requirement in the scope section. It preserves the remaining Chapter-13 duties:
 
-- WP2 classification of Blocked, Aborted, Deferred, and Lost alternatives;
-- WP3 Counterfactual Path, Non-Selection, Alternative-Space Compression, Alternative Status Record, Failure, Reduction, Stop, Non-Capture, and schema decision;
-- WP4 integrated audit and Provisional Lock;
+- the method section classification of Blocked, Aborted, Deferred, and Lost alternatives;
+- the integration section Counterfactual Path, Non-Selection, Alternative-Space Compression, Alternative Status Record, Failure, Reduction, Stop, Non-Capture, and schema decision;
+- the integrated chapter audit and Provisional Lock;
 - later Chapter-14 Non-Event detail;
 - later Chapter-15 `COMPOSE` procedure;
 - later Chapter-46 general Counterfactual-Sensitivity architecture.
 
 ```text
-WP1 completion
+scope completion
 ≠ Chapter 13 provisional lock
 ≠ full branch taxonomy
 ≠ lost-alternative proof
@@ -10135,10 +10135,10 @@ WP1 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 13 — WP2:
+Chapter 13 — Method Extension:
 Blocked Branch,
 Aborted Branch,
 Deferred Branch,
@@ -10769,7 +10769,7 @@ earlier materially available Site-B continuation
 
 The claim does not prove that Site B would have produced better outcomes or that the selection of Site A was wrongful. A later proposal for a depot near Site B would require new land, new approval, and a new Branch Point. It would not automatically restore the earlier alternative. A bounded local mapping is `admissible_with_bounded_claim`.
 
-#### WP2 status matrix
+#### Method status matrix
 
 | Status | Minimum positive burden | Must remain distinct from |
 | --- | --- | --- |
@@ -10780,7 +10780,7 @@ The claim does not prove that Site B would have produced better outcomes or that
 
 These are local branch-status findings, not canonical Output Classes. They may coexist across different cuts or describe different aspects of one continuation. Each must map to the fixed output vocabulary according to support, boundedness, uncertainty, and claim pressure.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 Sections 13.5–13.8 now canonically establish:
 
@@ -10799,7 +10799,7 @@ Sections 13.5–13.8 now canonically establish:
 - `Θ`, `Ω`, `Ψ`, `Λ`, and `□` as possible loss-bearing occurrences without automatic status classification;
 - later functional equivalence as insufficient to restore the same historical alternative;
 - Lost Alternative as distinct from the canonical five-part `loss` declaration;
-- all six assigned WP2 Pressure Cases.
+- all six assigned Pressure Cases for the method section.
 
 The local result is:
 
@@ -10807,17 +10807,17 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP2 repair requirement. It preserves the remaining Chapter-13 duties:
+The provisionality identifies no known repair requirement in the method section. It preserves the remaining Chapter-13 duties:
 
-- WP3 Counterfactual Path, Non-Selection, Alternative-Space Compression, Alternative Status Record, Failure, Reduction, Stop, Non-Capture, and schema decision;
-- WP4 integrated audit and Provisional Lock;
+- the integration section Counterfactual Path, Non-Selection, Alternative-Space Compression, Alternative Status Record, Failure, Reduction, Stop, Non-Capture, and schema decision;
+- the integrated chapter audit and Provisional Lock;
 - later Chapter-14 Non-Event detail;
 - later Chapter-15 `COMPOSE` procedure;
 - later Chapter-46 general Counterfactual-Sensitivity architecture;
 - later Reader graph implementation without status inference.
 
 ```text
-WP2 completion
+method completion
 ≠ Chapter 13 provisional lock
 ≠ completed counterfactual Path
 ≠ completed COMPOSE occurrence
@@ -10827,10 +10827,10 @@ WP2 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 13 — WP3:
+Chapter 13 — Integration:
 Counterfactual Path,
 Non-Selection,
 Alternative-Space Compression,
@@ -11212,7 +11212,7 @@ historical alternative
 ≠ rival STRATA transformation
 ```
 
-WP3 therefore does **not** overload that field. It also does not add a new required top-level schema field. The existing controlled `extensions` carrier is sufficient because it already requires:
+The integration section therefore does **not** overload that field. It also does not add a new required top-level schema field. The existing controlled `extensions` carrier is sufficient because it already requires:
 
 - an extension identifier;
 - an owner or source;
@@ -11417,7 +11417,7 @@ blocked branch
 
 Both arrows are invalid. The branch finding is source material for a possible later composition and projection. It is neither a completed operation nor a target function. The claims must be separated; known continued reuse without the required records triggers `mandatory_stop`.
 
-#### WP3 completion boundary
+#### Integrated chapter boundary
 
 Sections 13.9–13.12 now canonically establish:
 
@@ -11437,7 +11437,7 @@ Sections 13.9–13.12 now canonically establish:
 - formal completeness as distinct from historical availability or branch-status proof;
 - Failure, Claim Reduction, Mandatory Stop, and Non-Capture routes;
 - operation and RETYPE-function handoff without inheritance;
-- all eight assigned WP3 Pressure Cases.
+- all eight assigned Pressure Cases for the integration section.
 
 The local result is:
 
@@ -11445,16 +11445,16 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP3 repair requirement. It preserves the remaining Chapter-13 duties:
+The provisionality identifies no known repair requirement in the integration section. It preserves the remaining Chapter-13 duties:
 
-- WP4 integrated Contract, case-duty, source-window, Loss, anti-laundering, Stop, Non-Capture, Reference, and Formal-Model audit;
+- the integrated chapter audit Contract, case-duty, source-window, Loss, anti-laundering, Stop, Non-Capture, Reference, and Formal-Model audit;
 - later Chapter-14 Non-Event detail;
 - later Chapter-15 complete `COMPOSE` procedure;
 - later Chapter-46 general Counterfactual-Sensitivity architecture;
 - later Reader graph implementation under the declared status and source boundaries.
 
 ```text
-WP3 completion
+integrated completion
 ≠ Chapter 13 provisional lock
 ≠ counterfactual truth
 ≠ completed COMPOSE occurrence
@@ -11463,10 +11463,10 @@ WP3 completion
 ≠ causal, normative, predictive, or application authority
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 13 — WP4:
+Chapter 13 — Audit and Lock:
 Synchronization,
 Integrated Audit,
 and Provisional Lock
@@ -11507,7 +11507,7 @@ The Chapter 13 completion test is satisfied:
 19. Mandatory Stop applies where an unsupported alternative, free counterfactual, graph, label, or branch status is knowingly reused for prediction, sanction, legitimacy, person judgment, target-function assignment, irreversible classification, completed-operation claims, or authority;
 20. Non-Capture remains available where the material alternative problem is source-supported but availability, rejection/blockage, resumption/reconstitution, selection/non-selection, or the counterfactual horizon cannot be responsibly resolved;
 21. Chapter 14 receives bounded decision-window and non-selection candidates without inherited `Λ` typing, Chapter 15 receives source-supported alternatives and Loss declarations without completed `COMPOSE`, Chapter 16 retains PATH boundary tests, Chapter 17 retains integrated cases/audit, Chapter 46 retains general Counterfactual Sensitivity, and RETYPE receives no target function;
-22. all nineteen prepared Chapter-13 Pressure Cases are represented in the canonical chapter without being misreported as produced `03_cases/*` artifacts, empirical evidence, calibration data, training data, finished graph specifications, historical truth, or application findings;
+22. all nineteen specified Chapter-13 Pressure Cases are represented in the canonical chapter without being misreported as produced `03_cases/*` artifacts, empirical evidence, calibration data, training data, finished graph specifications, historical truth, or application findings;
 23. no graph, Reader rendering, revised frame, new label, granularity, periodization, operation, projection, record completion, schema validity, or visual complexity may erase a failed result or inherit missing historical warrant;
 24. no part of Chapter 13 changes `PMS.yaml`, the Δ–Ψ inventory, operator order, operator dependencies, the three-operation grammar, the ten Output Classes, the sixteen Admissibility Rules, or the twelve audit stages.
 
@@ -11560,10 +11560,10 @@ Chapter 13 provisional lock
 
 Reopen Chapter 13 only if later work demonstrates a concrete conflict involving historical availability, temporal windows, Branch Point threshold, realized/rejected/blocked/aborted/deferred/lost distinction, status/mechanism separation, continuation identity, counterfactual horizon, Non-Selection burden, Alternative-Space Compression, five-part Loss, Alternative Status Record ownership, Failure/Reduction route, Stop/Non-Capture route, Chapter-14/15/16/17/46 handoff, RETYPE separation, or unchanged PMS Base. Mere preference for more branches, a fuller graph, a stronger counterfactual, a cleaner status, a more decisive conclusion, or a larger alternative field is not a reopening ground.
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 14 — Preparation:
+Chapter 14 — Entry Conditions:
 Non-Events within Paths and Trajectories
 ```
 
@@ -11607,7 +11607,7 @@ Sections 14.1–14.3 establish:
 - frame-sensitive comparison of identical surface absences;
 - Delay as a Non-Event without erasing positive postponement or coordination events;
 - praxeological load, changed alternatives, and bounded later relevance;
-- four WP1 Pressure Cases.
+- four Pressure Cases for the scope section.
 
 Sections 14.4–14.8 later address repeated Non-Decision, Blocked Responsibility, Missing Repair, Missing Exit, and Non-Event Sedimentation. Sections 14.9–14.11 later establish preservation through composition, False Non-Event, the Minimal Non-Event Record, Failure, Claim Reduction, Stop, Non-Capture, and the schema/extension decision. Chapter 15 retains the complete `COMPOSE` procedure. Chapter 23 retains internal decomposition mechanics. Chapter 49 retains the general source-gap architecture.
 
@@ -12232,7 +12232,7 @@ The April authorization does not erase the February missed-window Non-Event. It 
 
 A bounded local result is `admissible_with_bounded_claim`.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
 Sections 14.1–14.3 now canonically establish:
 
@@ -12253,7 +12253,7 @@ Sections 14.1–14.3 now canonically establish:
 - later realization without automatic erasure of the earlier missed-window Non-Event;
 - delay without automatic intention, blame, legitimacy, sanction, or authority inference;
 - Deferred Branch and Delay Non-Event as distinct claims that may coexist but do not entail each other;
-- all four assigned WP1 Pressure Cases without presenting them as produced Case files or empirical evidence.
+- all four assigned Pressure Cases for the scope section without presenting them as produced Case files or empirical evidence.
 
 The local result is:
 
@@ -12261,18 +12261,18 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP1 repair requirement. It preserves the remaining Chapter-14 duties:
+The provisionality identifies no known repair requirement in the scope section. It preserves the remaining Chapter-14 duties:
 
-- WP2 Repeated Non-Decision, Blocked Responsibility, Missing Repair, Missing Exit, Non-Event Sedimentation, and seven assigned Pressure Cases;
-- WP3 preservation through composition, False Non-Event, Minimal Non-Event Record, schema/extension decision, Failure, Claim Reduction, Stop, Non-Capture, and eight assigned Pressure Cases;
-- WP4 integrated audit and Provisional Lock;
+- the method section Repeated Non-Decision, Blocked Responsibility, Missing Repair, Missing Exit, Non-Event Sedimentation, and seven assigned Pressure Cases;
+- the integration section preservation through composition, False Non-Event, Minimal Non-Event Record, schema/extension decision, Failure, Claim Reduction, Stop, Non-Capture, and eight assigned Pressure Cases;
+- the integrated chapter audit and Provisional Lock;
 - later Chapter-15 `COMPOSE` execution;
 - later Chapter-23 internal Non-Event decomposition;
 - later Chapter-49 source-limit architecture;
 - later case, appendix, model-finalization, and Reader/Graph implementation.
 
 ```text
-WP1 completion
+scope completion
 ≠ Chapter 14 provisional lock
 ≠ Non-Event sedimentation automatically
 ≠ completed COMPOSE occurrence
@@ -12283,10 +12283,10 @@ WP1 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 14 — WP2:
+Chapter 14 — Method Extension:
 Repeated Non-Decision,
 Blocked Responsibility,
 Missing Repair,
@@ -13073,7 +13073,7 @@ repeated absence of disposition
 
 Where the sources cannot determine whether the agenda rule required a vote or merely permitted one, the stronger repeated Non-Decision claim must be reduced or receive `non_capture`.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 Sections 14.4–14.8 now canonically establish:
 
@@ -13097,7 +13097,7 @@ Sections 14.4–14.8 now canonically establish:
 - repetition and duration as insufficient without a later sedimentation carrier;
 - changed action corridors without determinism or impossibility inference;
 - sedimentation without automatic strong Path Dependence;
-- all seven assigned WP2 Pressure Cases without presenting them as produced Case files, empirical evidence, calibration data, training data, or Reader graph specifications.
+- all seven assigned Pressure Cases for the method section without presenting them as produced Case files, empirical evidence, calibration data, training data, or Reader graph specifications.
 
 The local result is:
 
@@ -13105,17 +13105,17 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP2 repair requirement. It preserves the remaining Chapter-14 duties:
+The provisionality identifies no known repair requirement in the method section. It preserves the remaining Chapter-14 duties:
 
-- WP3 preservation of `Λ` through composition, False Non-Event, Minimal Non-Event Record, schema/extension decision, Failure, Claim Reduction, Mandatory Stop, Non-Capture, and eight assigned Pressure Cases;
-- WP4 integrated audit and Provisional Lock;
+- the integration section preservation of `Λ` through composition, False Non-Event, Minimal Non-Event Record, schema/extension decision, Failure, Claim Reduction, Mandatory Stop, Non-Capture, and eight assigned Pressure Cases;
+- the integrated chapter audit and Provisional Lock;
 - later Chapter-15 `COMPOSE` execution;
 - later Chapter-23 internal Non-Event decomposition;
 - later Chapter-49 source-limit architecture;
 - later case, appendix, model-finalization, and Reader/Graph implementation.
 
 ```text
-WP2 completion
+method completion
 ≠ Chapter 14 provisional lock
 ≠ every repeated absence is Λ
 ≠ Non-Event sedimentation automatically
@@ -13128,10 +13128,10 @@ WP2 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 14 — WP3:
+Chapter 14 — Integration:
 Preserving Λ in Composition,
 False Non-Event,
 and Minimal Non-Event Record
@@ -13622,7 +13622,7 @@ All three moves fail:
 
 The local Non-Event may remain admissible. The operation and function claims require reduction; continued authoritative use requires `mandatory_stop`.
 
-#### WP3 completion boundary
+#### Integrated chapter boundary
 
 Sections 14.9–14.11 now canonically establish:
 
@@ -13641,7 +13641,7 @@ Sections 14.9–14.11 now canonically establish:
 - Mandatory Stop where unsupported `Λ` claims are reused for person attribution, sanction, authority, prediction, operation, or function;
 - Non-Capture where material source and non-realization structures remain responsibly undecidable;
 - Chapter 15, Chapter 23, Chapter 49, and RETYPE ownership without authority inheritance;
-- all eight assigned WP3 Pressure Cases without presenting them as produced Case files, empirical evidence, calibration data, training data, or Reader graph specifications.
+- all eight assigned Pressure Cases for the integration section without presenting them as produced Case files, empirical evidence, calibration data, training data, or Reader graph specifications.
 
 The local result is:
 
@@ -13649,9 +13649,9 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP3 repair requirement. It preserves:
+The provisionality identifies no known repair requirement in the integration section. It preserves:
 
-- WP4 integrated audit and Provisional Lock;
+- the integrated chapter audit and Provisional Lock;
 - Chapter 15 execution of `COMPOSE`;
 - Chapter 17 integrated PATH cases and audit;
 - Chapter 23 internal Non-Event decomposition;
@@ -13659,7 +13659,7 @@ The provisionality identifies no known WP3 repair requirement. It preserves:
 - later appendices, Reference Freeze, Corpus Audit, Model Finalization, and Reader/Graph implementation.
 
 ```text
-WP3 completion
+integrated completion
 ≠ Chapter 14 provisional lock
 ≠ every absence or source gap is Λ
 ≠ semantic proof from record completeness
@@ -13670,10 +13670,10 @@ WP3 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 14 — WP4:
+Chapter 14 — Audit and Lock:
 Synchronization,
 Integrated Audit,
 and Provisional Lock
@@ -13714,7 +13714,7 @@ The Chapter 14 completion test is satisfied:
 20. Mandatory Stop applies where a known unsupported `Λ`, inferred intention, blame, duty, motive, coercion, sanction, graph gap, record completion, operator profile, operation label, or target function is reused to manufacture authority or irreversible conclusions;
 21. Non-Capture remains available where a materially relevant expectation and temporal burden are source-supported but realization status, forum change, occurrence boundaries, responsibility configuration, repair completion, exit status, or sedimentation cannot be responsibly resolved;
 22. Chapter 15 receives preservable source structures and Loss burdens without inherited `COMPOSE` authorization, Chapter 23 retains internal Non-Event `DECOMPOSE`, Chapter 49 retains general source limits, Chapter 16 retains PATH boundary tests, Chapter 17 retains integrated cases and audit, and RETYPE receives no target function;
-23. all nineteen prepared Chapter-14 Pressure Cases are represented in canonical prose without being misreported as produced `03_cases/*` artifacts, empirical evidence, calibration data, training data, finished graph specifications, operation results, person findings, or application authority;
+23. all nineteen specified Chapter-14 Pressure Cases are represented in canonical prose without being misreported as produced `03_cases/*` artifacts, empirical evidence, calibration data, training data, finished graph specifications, operation results, person findings, or application authority;
 24. no graph, Reader rendering, revised frame, new label, finer granularity, longer duration, operation, projection, extension record, schema validity, or visual complexity may erase a failed claim or inherit missing expectation and source warrant;
 25. no part of Chapter 14 changes `PMS.yaml`, the Δ–Ψ inventory, operator order, operator dependencies, the three-operation grammar, the ten Output Classes, the sixteen Admissibility Rules, or the twelve audit stages.
 
@@ -13767,10 +13767,10 @@ Chapter 14 provisional lock
 
 Reopen Chapter 14 only if later work demonstrates a concrete conflict involving expectation relation, frame, expected window, non-realization support, positive sub-events, Delay, repeated Non-Decision, Blocked Responsibility, Missing Repair, Missing Exit, occurrence architecture, sedimentation carrier, `Λ` preservation through composition, canonical Loss, False Non-Event, Minimal Non-Event Record ownership, Failure/Reduction route, Stop/Non-Capture route, Chapter-15/16/17/23/49 handoff, RETYPE separation, or unchanged PMS Base. Mere preference for more inferred absences, a cleaner graph, stronger intentionality, a more decisive status, more detail, or a larger Non-Event inventory is not a reopening ground.
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 15 — Preparation:
+Chapter 15 — Entry Conditions:
 COMPOSE: Selection, Formation, and Compression
 ```
 
@@ -14123,7 +14123,7 @@ heterogeneous typed inputs
 ≠ operator fusion
 ```
 
-At the source-object stage, the candidate is `admissible_with_bounded_claim`. Formation and constitutive load remain to be established in WP2 and WP3.
+At the source-object stage, the candidate is `admissible_with_bounded_claim`. Formation and constitutive load remain to be established in the method section and the integration section.
 
 <a id="15-4-selection-rule"></a>
 
@@ -14436,7 +14436,7 @@ same source field
 
 The local result is `admissible_but_provisional` for both candidates, pending formation and Loss testing. Treating the two composites as one universal transformation would exceed the traceable frame load.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
 Sections 15.1–15.6 have established the operation-entry side of PATH-specific `COMPOSE`:
 
@@ -14448,9 +14448,9 @@ Sections 15.1–15.6 have established the operation-entry side of PATH-specific 
 - the composition frame is explicit and remains distinct from granularity, level, formation, target function, and authority;
 - rival composition and no-composition routes remain available.
 
-All six assigned WP1 Pressure Cases are represented once in the canonical chapter prose.
+All six assigned Pressure Cases for the scope section are represented once in the canonical chapter prose.
 
-These cases are methodological chapter tests and later `03_cases/*` seeds. They are not empirical findings, produced case artifacts, calibration data, training data, completed Reader graphs, or application outputs.
+These cases are methodological chapter tests and not themselves standalone `03_cases/*` artifacts. They are not empirical findings, produced case artifacts, calibration data, training data, completed Reader graphs, or application outputs.
 
 The local result is:
 
@@ -14458,11 +14458,11 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP1 repair requirement. It preserves:
+The provisionality identifies no known repair requirement in the scope section. It preserves:
 
-- WP2 formation and five-part Loss;
-- WP3 composition claims, no-retyping, sensitivity, failure, record, Stop, and Non-Capture;
-- WP4 integrated audit and Provisional Lock;
+- the method section formation and five-part Loss;
+- the integration section composition claims, no-retyping, sensitivity, failure, record, Stop, and Non-Capture;
+- the integrated chapter audit and Provisional Lock;
 - Chapter 16 PATH boundaries;
 - Chapter 17 integrated cases;
 - Chapter 24 `DECOMPOSE`;
@@ -14471,7 +14471,7 @@ The provisionality identifies no known WP1 repair requirement. It preserves:
 - later case production, appendices, Corpus Audit, Model Finalization, and Reader/Graph implementation.
 
 ```text
-WP1 completion
+scope completion
 ≠ Chapter 15 provisional lock
 ≠ completed formation test
 ≠ lossless composition
@@ -14482,10 +14482,10 @@ WP1 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 15 — WP2:
+Chapter 15 — Method Extension:
 Formation Rule,
 Preserved Structure,
 Compressed Structure,
@@ -14577,7 +14577,7 @@ The rule must not fuse source types. An operator-typed occurrence remains typed 
 
 #### Formation hypothesis and formation finding
 
-Before Loss and counterpressure are complete, the analyst may state a **formation hypothesis**. It becomes a formation finding only after the source trace, target threshold, preservation, compression, exclusion, uncertainty, irrecoverability, and later WP3 sensitivity tests are satisfied.
+Before Loss and counterpressure are complete, the analyst may state a **formation hypothesis**. It becomes a formation finding only after the source trace, target threshold, preservation, compression, exclusion, uncertainty, irrecoverability, and later the integration section sensitivity tests are satisfied.
 
 ```text
 formation hypothesis
@@ -15006,7 +15006,7 @@ The office-level heterogeneity is source-inherited and irrecoverable. A regional
 
 The analyst may not label the totals “complete regional recovery” merely because the aggregate returns to baseline.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 Sections 15.7–15.11 have established the formation-and-Loss side of PATH-specific `COMPOSE`:
 
@@ -15021,9 +15021,9 @@ Sections 15.7–15.11 have established the formation-and-Loss side of PATH-speci
 - exactly the five canonical Loss fields remain in force;
 - the presence of Loss does not automatically fail the operation, but concealed or constitutive Loss can require reduction, failure, Stop, or Non-Capture.
 
-All six assigned WP2 Pressure Cases are represented once in the canonical chapter prose.
+All six assigned Pressure Cases for the method section are represented once in the canonical chapter prose.
 
-These cases are methodological chapter tests and later `03_cases/*` seeds. They are not empirical findings, produced case artifacts, calibration data, training data, finished Reader graphs, or application outputs.
+These cases are methodological chapter tests and not themselves standalone `03_cases/*` artifacts. They are not empirical findings, produced case artifacts, calibration data, training data, finished Reader graphs, or application outputs.
 
 The local result is:
 
@@ -15031,10 +15031,10 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP2 repair requirement. It preserves:
+The provisionality identifies no known repair requirement in the method section. It preserves:
 
-- WP3 composition claims, no-retyping, sensitivity, overelasticity, failure, record, Stop, and Non-Capture;
-- WP4 integrated audit and Provisional Lock;
+- the integration section composition claims, no-retyping, sensitivity, overelasticity, failure, record, Stop, and Non-Capture;
+- the integrated chapter audit and Provisional Lock;
 - Chapter 16 PATH boundaries;
 - Chapter 17 integrated cases;
 - Chapter 24 `DECOMPOSE` and non-invertibility;
@@ -15043,7 +15043,7 @@ The provisionality identifies no known WP2 repair requirement. It preserves:
 - later case production, appendices, Corpus Audit, Model Finalization, and Reader/Graph implementation.
 
 ```text
-WP2 completion
+method completion
 ≠ Chapter 15 provisional lock
 ≠ completed counterfactual-sensitivity test
 ≠ completed COMPOSE occurrence automatically
@@ -15055,10 +15055,10 @@ WP2 completion
 ≠ authority increase
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 15 — WP3:
+Chapter 15 — Integration:
 Composition Claim,
 Composition without Retyping,
 Counterfactual Sensitivity,
@@ -15469,7 +15469,7 @@ One source family supports a Path organized around technical activation and loca
 
 The result is `non_capture`. Both bounded candidate records remain available. A single “overall transformation Path” would conceal the unresolved formation conflict.
 
-#### WP3 completion boundary
+#### Integrated chapter boundary
 
 Sections 15.12–15.16 have completed the claim, sensitivity, failure, and record side of PATH-specific `COMPOSE`:
 
@@ -15484,9 +15484,9 @@ Sections 15.12–15.16 have completed the claim, sensitivity, failure, and recor
 - Composition Failure preserves controlled reduction, prior failure, Stop, and Non-Capture routes;
 - the Shared Transformation Record and existing `composeDetails` carrier are sufficient;
 - schema completeness remains distinct from substantive admissibility;
-- all seven WP3 Pressure Cases are represented once in canonical prose.
+- all seven assigned Pressure Cases for the integration section are represented once in canonical prose.
 
-These cases are methodological chapter tests and later `03_cases/*` seeds. They are not produced case artifacts, empirical findings, calibration data, training data, finished Reader graphs, automated decisions, or application outputs.
+These cases are methodological chapter tests and not themselves standalone `03_cases/*` artifacts. They are not produced case artifacts, empirical findings, calibration data, training data, finished Reader graphs, automated decisions, or application outputs.
 
 The local result is:
 
@@ -15494,9 +15494,9 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality identifies no known WP3 repair requirement. It preserves:
+The provisionality identifies no known repair requirement in the integration section. It preserves:
 
-- WP4 integrated synchronization, audit, and Provisional Lock;
+- the integrated chapter audit synchronization, audit, and Provisional Lock;
 - Chapter 16 PATH boundary adjudication;
 - Chapter 17 integrated cases and audit;
 - Chapter 24 `DECOMPOSE` and non-invertibility;
@@ -15505,7 +15505,7 @@ The provisionality identifies no known WP3 repair requirement. It preserves:
 - later standalone case production, appendices, Corpus Audit, Model Finalization, and Reader/Graph implementation.
 
 ```text
-WP3 completion
+integrated completion
 ≠ Chapter 15 provisional lock
 ≠ every COMPOSE candidate admissible
 ≠ causal necessity proof
@@ -15517,10 +15517,10 @@ WP3 completion
 ≠ higher authority
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 15 — WP4:
+Chapter 15 — Audit and Lock:
 Synchronization,
 Integrated Audit,
 and Provisional Lock
@@ -15566,7 +15566,7 @@ The Chapter 15 completion test is satisfied:
 27. Mandatory Stop applies where a known failed or overelastic composition is reused for person-level inference, sanction, legitimacy, prediction, irreversible classification, target-function assignment, or authority inheritance;
 28. Non-Capture remains available where two or more materially supported compositions are irreducible, where target identity depends on unresolved selection or frame choices, or where the source field cannot responsibly support one formation without destroying another;
 29. Chapter 16 receives the complete `COMPOSE` procedure for local lower- and upper-boundary testing; Chapter 17 receives all nineteen chapter-level Pressure Cases and integrated audit duties; Chapter 24 retains `DECOMPOSE`; Chapter 48 retains the general Loss ontology; RETYPE retains `PROJECT_AS` and contextual target functions;
-30. all nineteen prepared Chapter-15 Pressure Cases are represented in canonical prose without being misreported as produced `03_cases/*` artifacts, empirical evidence, calibration data, training data, finished Reader graphs, application outputs, or automatic decisions;
+30. all nineteen specified Chapter-15 Pressure Cases are represented in canonical prose without being misreported as produced `03_cases/*` artifacts, empirical evidence, calibration data, training data, finished Reader graphs, application outputs, or automatic decisions;
 31. no graph, revised frame, new label, target class, operation name, extension, schema, later projection, or application context may erase a failed composition claim or inherit missing source, order, formation, sensitivity, Loss, or authority warrant;
 32. no part of Chapter 15 changes `PMS.yaml`, the Δ–Ψ inventory, operator order, operator dependencies, the three-operation grammar, the ten Output Classes, the sixteen Admissibility Rules, or the twelve audit stages.
 
@@ -15645,10 +15645,10 @@ Chapter 15 provisional lock
 
 Reopen Chapter 15 only if later work demonstrates a concrete conflict involving source or target typing, Selection Rule, ordering, Composition Frame, Formation Rule, constitutive relation, target-class threshold, preservation, compression, exclusion, uncertainty, irrecoverability, five-part Loss, claim segmentation, no-retyping, Counterfactual Sensitivity, overelasticity, failure/reduction route, Shared Record mapping, Stop/Non-Capture route, Chapter-16/17/24/48 handoff, RETYPE separation, or unchanged PMS Base. Mere preference for a cleaner graph, broader target, stronger conclusion, more sources, more detail, a single total order, or less visible Loss is not a reopening ground.
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 16 — Preparation:
+Chapter 16 — Entry Conditions:
 PATH Boundary Conditions
 ```
 
@@ -16241,7 +16241,7 @@ admissible Trajectory candidate
 
 The difference lies in praxeological purchase, source-to-result dependency, preserved internal temporality, declared Loss, and Claim Ceiling—not in visual preference. A Reader may render all three for comparison, but it must not present them as equally warranted views or allow the cleaner macro-node to conceal its failed trace burden.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
 Sections 16.1–16.5 now establish:
 
@@ -16262,7 +16262,7 @@ admissible_but_provisional
 The provisionality preserves pressure from Sections 16.6–16.15, Chapter 17 cases and local audit, SUB, RETYPE, LIMITS, appendices, standalone `03_cases/*` production, Reference Freeze, Corpus Audit, Model Finalization, and Reader/Graph implementation.
 
 ```text
-WP1 completion
+scope completion
 ≠ Chapter 16 provisional lock
 ≠ full PATH boundary passage
 ≠ teleology audit
@@ -16273,10 +16273,10 @@ WP1 completion
 ≠ higher authority
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 16 — WP2:
+Chapter 16 — Method Extension:
 Artificial Directionality,
 Hidden Teleology,
 Omitted Non-Events,
@@ -16771,7 +16771,7 @@ more local records
 
 The attempted SUB rescue maps to `failed_transformation`. The new local analyses remain separate testable claims and may be `admissible_but_provisional`. Treating interface expansion or data volume as automatic `DECOMPOSE` authority would require `mandatory_stop` where used to erase the earlier failure.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 Sections 16.6–16.11 now establish:
 
@@ -16790,10 +16790,10 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality preserves pressure from Sections 16.12–16.15, WP4 integrated closure, Chapter 17 cases and local PATH audit, SUB, RETYPE, LIMITS, appendices, standalone `03_cases/*` production, Reference Freeze, Corpus Audit, Model Finalization, and Reader/Graph implementation.
+The provisionality preserves pressure from Sections 16.12–16.15, the integrated chapter audit closure, Chapter 17 cases and local PATH audit, SUB, RETYPE, LIMITS, appendices, standalone `03_cases/*` production, Reference Freeze, Corpus Audit, Model Finalization, and Reader/Graph implementation.
 
 ```text
-WP2 completion
+method completion
 ≠ Chapter 16 provisional lock
 ≠ full PATH Purchase or Trace passage
 ≠ completed DECOMPOSE
@@ -16804,10 +16804,10 @@ WP2 completion
 ≠ higher authority
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 16 — WP3:
+Chapter 16 — Integration:
 Praxeological Purchase Test,
 Traceable Path Test,
 Claim Reduction,
@@ -17278,7 +17278,7 @@ Chapter 16 supplies Chapter 17 with:
 
 It does not supply produced `03_cases/*` artifacts, a final local PATH audit, a final Part-I lock, automatic Output-Class selection, `DECOMPOSE`, `PROJECT_AS`, application authority, or authority inheritance.
 
-#### WP3 completion boundary
+#### Integrated chapter boundary
 
 Sections 16.12–16.15 now establish:
 
@@ -17295,7 +17295,7 @@ Sections 16.12–16.15 now establish:
 - the Chapter-17 handoff;
 - seven Chapter-16 Pressure Cases.
 
-All nineteen assigned Chapter-16 Pressure Cases are now represented exactly once across WP1–WP3 in canonical prose. They remain methodological chapter pressure tests and later `03_cases/*` seeds, not produced standalone cases, empirical evidence, calibration data, training data, Reader graphs, operation results, or application outputs.
+All nineteen assigned Chapter-16 Pressure Cases are now represented exactly once across the scope, method, and integration sections in canonical prose. They remain methodological chapter pressure tests, not standalone `03_cases/*` artifacts, empirical evidence, calibration data, training data, Reader graphs, operation results, or application outputs.
 
 The local result is:
 
@@ -17303,10 +17303,10 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality preserves WP4 integrated closure, Chapter 17 case production and local PATH audit, SUB, RETYPE, LIMITS, appendices, Reference Freeze, Corpus Audit, Model Finalization, derivatives, and Reader/Graph implementation.
+The provisionality preserves the integrated chapter audit closure, Chapter 17 case production and local PATH audit, SUB, RETYPE, LIMITS, appendices, Reference Freeze, Corpus Audit, Model Finalization, derivatives, and Reader/Graph implementation.
 
 ```text
-WP3 completion
+integrated completion
 ≠ Chapter 16 provisional lock
 ≠ final Part-I PATH audit
 ≠ completed 03_cases/* corpus
@@ -17318,10 +17318,10 @@ WP3 completion
 ≠ higher authority
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 16 — WP4:
+Chapter 16 — Audit and Lock:
 Synchronization,
 Integrated Audit,
 and Provisional Lock
@@ -17373,9 +17373,9 @@ The Chapter 16 completion test is satisfied:
 30. multiple bounded Paths, rival periodizations, Partial Orders, chronologies, source collections, and localized occurrences may remain available under `non_capture`;
 31. a new frame, granularity, relative level, graph view, source selection, periodization, SUB label, RETYPE label, operation name, extension, or application context creates a new testable claim and cannot erase a prior failed PATH claim;
 32. the same-material three-way Contract example is complete: one source-sensitive Trajectory candidate lies within the Band, one detail-rich chronology falls below the Floor for Trajectory gain while remaining useful, and one source-indifferent macro-label exceeds the Ceiling and triggers reduction, failure, or Stop according to use;
-33. all nineteen prepared Chapter-16 Pressure Cases are represented in canonical prose without being misreported as produced `03_cases/*` artifacts, empirical evidence, calibration or training data, finished Reader graphs, automatic decisions, application outputs, or authority;
+33. all nineteen specified Chapter-16 Pressure Cases are represented in canonical prose without being misreported as produced `03_cases/*` artifacts, empirical evidence, calibration or training data, finished Reader graphs, automatic decisions, application outputs, or authority;
 34. the existing Shared Transformation Record, controlled boundary vocabularies, sixteen Admissibility Rules, twelve audit stages, operation registry, five-part Loss structure, Counterfactual Sensitivity, alternatives, governance, Stop, Failure, Claim Reduction, and Non-Capture carriers remain sufficient;
-35. formal-model and schema validation may establish syntax, allowed values, pointer integrity, audit order, package integrity, and internal consistency, but cannot decide historical salience, praxeological purchase, source trace adequacy, directionality, teleology, omission, periodization, target class, Output Class, operation success, target function, causality, person judgment, legitimacy, sanction, or authority;
+35. formal-model and schema validation may establish syntax, allowed values, pointer integrity, audit order, repository integrity, and internal consistency, but cannot decide historical salience, praxeological purchase, source trace adequacy, directionality, teleology, omission, periodization, target class, Output Class, operation success, target function, causality, person judgment, legitimacy, sanction, or authority;
 36. Chapter 17 receives both PATH boundaries, all local failure modes, the Purchase and Trace tests, reduction ladder, Stop and Non-Capture conditions, and all nineteen case duties for standalone cases and final local PATH audit; it does not receive pre-adjudicated case artifacts, automatic routing, `DECOMPOSE`, `PROJECT_AS`, or final Part-I lock;
 37. no part of Chapter 16 changes `PMS.yaml`, the Δ–Ψ inventory or dependencies, the exact three-operation grammar, the ten canonical Output Classes, the sixteen Admissibility Rules, the twelve audit stages, or the two controlled local boundary vocabularies.
 
@@ -17517,7 +17517,7 @@ schema-valid case record
 
 #### Local audit discipline
 
-WP1 uses the twelve existing ordered audit stages as the local case-audit spine:
+The scope section uses the twelve existing ordered audit stages as the local case-audit spine:
 
 1. Source and Claim Entry;
 2. Operation Classification;
@@ -17604,7 +17604,7 @@ clean graph
 ≠ complete historical capture
 ```
 
-The first WP1 artifacts are indexed in:
+The first scope artifacts are indexed in:
 
 - [`03_cases/Case_Index.md`](../03_cases/Case_Index.md);
 - [`03_cases/Case_Index.yaml`](../03_cases/Case_Index.yaml).
@@ -17684,7 +17684,7 @@ Artifacts:
 
 #### Counterpressure
 
-The case is defeated if the same four timestamps are retained but continuation relations are removed. That mutation yields an ordered source field or Sequence, not the present Path. This pressure anticipates `C17-CHRON-01` without producing that countercase in WP1.
+The case is defeated if the same four timestamps are retained but continuation relations are removed. That mutation yields an ordered source field or Sequence, not the present Path. This pressure anticipates `C17-CHRON-01` without producing that countercase in the scope section.
 
 <a id="17-3-case-2-branching-path"></a>
 
@@ -17899,7 +17899,7 @@ admissible Trajectory composition
 
 It does not by itself complete the Chapter-17 case corpus or provisionally lock Part I.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
 Sections 17.1–17.4 now establish:
 
@@ -17915,7 +17915,7 @@ Sections 17.1–17.4 now establish:
 - a lock-critical source-sensitive Trajectory with central `Λ`;
 - three linked Markdown/YAML artifact sets;
 - synchronized Markdown and YAML Case Indices;
-- three WP1 Pressure Cases.
+- three the scope section Pressure Cases.
 
 The local result is:
 
@@ -17923,10 +17923,10 @@ The local result is:
 admissible_but_provisional
 ```
 
-The provisionality preserves WP2 counterpressure and lock-critical Macro-Label production, WP3 confusion cases and PATH Local Audit, WP4 integrated Part-I lock, SUB, RETYPE, LIMITS, integrated cases, appendices, Reference Freeze, Corpus Audit, Model Finalization, derivatives, and Reader/Graph implementation.
+The provisionality preserves method-section counterpressure and lock-critical Macro-Label production, integration-section confusion cases and PATH Local Audit, the integrated chapter audit Part-I lock, SUB, RETYPE, LIMITS, integrated cases, appendices, Reference Freeze, Corpus Audit, Model Finalization, derivatives, and Reader/Graph implementation.
 
 ```text
-WP1 completion
+scope completion
 ≠ Chapter 17 provisional lock
 ≠ Part I provisional lock
 ≠ complete PATH case corpus
@@ -17938,10 +17938,10 @@ WP1 completion
 ≠ higher authority
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 17 — WP2:
+Chapter 17 — Method Extension:
 Remaining Positive Cases and Countercases
 ```
 
@@ -18020,7 +18020,7 @@ The counterpressure is important for the entire PATH part. Without it, any repea
 
 ---
 
-#### WP2-A completion boundary
+#### Method completion boundary
 
 Sections 17.5–17.6 now add the two remaining positive PATH cases required before countercase production:
 
@@ -18040,12 +18040,12 @@ current-state sufficiency
 ≠ history irrelevant
 ```
 
-WP2-A preserves for WP2-B and WP2-C:
+Method section A preserves for method sections B and C:
 
 - all five required countercases;
 - the lock-critical Macro-Label artifact;
 - countercase-specific reduction, failure, Stop, and retained-source distinctions;
-- final WP2 synchronization and completion boundary.
+- final method-section synchronization and completion boundary.
 
 The local result is:
 
@@ -18054,17 +18054,17 @@ admissible_but_provisional
 ```
 
 ```text
-WP2-A completion
-≠ full WP2 completion
+Method section A completion
+≠ full method completion
 ≠ Chapter 17 completion
 ≠ PATH Local Audit completion
 ≠ Part I provisional lock
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 17 — WP2-B:
+Chapter 17 — method section B:
 Chronology Presented as Path,
 Macro-Label without Traceable Path,
 and Teleological Composition
@@ -18160,7 +18160,7 @@ Artifacts:
 
 ---
 
-#### WP2-B completion boundary
+#### Method completion boundary
 
 Sections 17.7–17.9 instantiate three distinct countercase routes:
 
@@ -18186,7 +18186,7 @@ failed or reduced PATH claim
 ≠ repaired claim
 ```
 
-Every weaker chronology, regional Path, realized Path, or alternative composition remains a new testable claim requiring its own record. WP2-B also completes the second of three lock-critical Chapter-17 artifacts through `C17-MACRO-01`.
+Every weaker chronology, regional Path, realized Path, or alternative composition remains a new testable claim requiring its own record. Method section B also completes the second of three lock-critical Chapter-17 artifacts through `C17-MACRO-01`.
 
 The local result is:
 
@@ -18195,20 +18195,20 @@ admissible_but_provisional
 ```
 
 ```text
-WP2-B completion
-≠ full WP2 completion
+Method section B completion
+≠ full method completion
 ≠ Chapter 17 completion
 ≠ PATH Local Audit completion
 ≠ Part I provisional lock
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 17 — WP2-C:
+Chapter 17 — method section C:
 Composition through Omitted Asymmetry,
 False Central Non-Event,
-Full WP2 Synchronization and Completion Boundary
+Full the method section Synchronization and Completion Boundary
 ```
 
 
@@ -18270,9 +18270,9 @@ Artifacts:
 
 ---
 
-#### Full WP2 completion boundary
+#### Method completion boundary
 
-Sections 17.5–17.11 now instantiate the complete positive-comparison and countercase set assigned to Chapter 17 WP2:
+Sections 17.5–17.11 now instantiate the complete positive-comparison and countercase set assigned to Chapter 17's method section:
 
 - `C17-HISTORY-01` — similar endpoints with dimension-specific historical load;
 - `C17-WEAKPD-01` — repetition with weak order dependence under current-state sufficiency;
@@ -18292,7 +18292,7 @@ two bounded positive mappings
 
 This distribution is not a quota and not an automatic routing pattern. It records the case-specific results of seven separately delimited claims.
 
-Across WP2, four controls are now explicit:
+Across the method section, four controls are now explicit:
 
 ```text
 similar endpoint
@@ -18308,7 +18308,7 @@ missing information
 ≠ Non-Event
 ```
 
-The second lock-critical artifact is complete through `C17-MACRO-01`. The third remains `C17-PROJ-01` and belongs to WP3 because PATH reconstruction and contextual projection must be represented by separate operation records.
+The second lock-critical artifact is complete through `C17-MACRO-01`. The third remains `C17-PROJ-01` and belongs to the integration section because PATH reconstruction and contextual projection must be represented by separate operation records.
 
 The local result is:
 
@@ -18317,16 +18317,16 @@ admissible_but_provisional
 ```
 
 ```text
-full WP2 completion
+full method completion
 ≠ Chapter 17 completion
 ≠ PATH Local Audit completion
 ≠ Part I provisional lock
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 17 — WP3:
+Chapter 17 — Integration:
 Path or Projection?,
 Path or Resolution Drift?,
 Trajectory or Attractor?,
@@ -18425,7 +18425,7 @@ Artifacts:
 
 ---
 
-#### WP3-A completion boundary
+#### Integrated chapter boundary
 
 Sections 17.12–17.14 instantiate the complete Chapter-17 confusion-case set:
 
@@ -18454,7 +18454,7 @@ C17-MACRO-01
 C17-PROJ-01
 ```
 
-Their existence does not automatically lock Part I. WP3-B must still execute the integrated PATH Local Audit, verify Loss and alternatives across the case corpus, map local results only to canonical classes, test Stop and Non-Capture, produce the PATH Closing Statement, and determine Part-I lock readiness.
+Their existence does not automatically lock Part I. Integration section B executes the integrated PATH Local Audit, verify Loss and alternatives across the case corpus, map local results only to canonical classes, test Stop and Non-Capture, records the PATH Closing Statement, and determine Part-I lock readiness.
 
 The local result is:
 
@@ -18463,16 +18463,16 @@ admissible_but_provisional
 ```
 
 ```text
-WP3-A completion
-≠ full WP3 completion
+Integration section A completion
+≠ full integrated completion
 ≠ Chapter 17 completion
 ≠ Part I provisional lock
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 17 — WP3-B:
+Chapter 17 — integration section B:
 PATH Local Audit,
 PATH Output Classes,
 PATH Closing Statement,
@@ -18581,7 +18581,7 @@ The Chapter-17 production and local audit result is:
 admissible_but_provisional
 ```
 
-This chapter-level result records completed local production with the Part-I lock still pending the integrated WP4 synchronization. It does not overwrite any case result and does not create a fourteenth transformation record.
+This chapter-level result records completed local production with the Part-I lock still pending the integrated chapter audit synchronization. It does not overwrite any case result and does not create a fourteenth transformation record.
 
 ---
 
@@ -18639,10 +18639,10 @@ The resulting readiness decision is:
 
 ```text
 Part-I lock readiness: pass
-Part-I provisional lock: pending WP4
+Part-I provisional lock: determined by the chapter audit
 ```
 
-WP4 must still perform the integrated Part-I synchronization, redundancy and contract check over Chapters 9–17, formal-model/reference/package audit, and provisional-lock act. The readiness decision supplies its input; it does not pre-empt its result.
+The chapter audit performs the integrated Part-I synchronization, redundancy and contract check over Chapters 9–17, formal-model, Reference, and repository-integrity audit, and provisional-lock assessment. The readiness decision supplies its input; it does not pre-empt its result.
 
 ```text
 Chapter 17 complete
@@ -18652,7 +18652,7 @@ Chapter 17 complete
 ≠ application authority
 ```
 
-#### WP3-B completion boundary
+#### Integrated chapter boundary
 
 Chapter 17 is canonically complete through Sections 17.1–17.17. The six remaining Preparation duties are discharged:
 
@@ -18673,10 +18673,10 @@ The local result remains:
 admissible_but_provisional
 ```
 
-The next controlled production step is:
+The corpus continues with:
 
 ```text
-Chapter 17 — WP4:
+Chapter 17 — Audit and Lock:
 Integrated Part-I Audit,
 Synchronization,
 and Provisional PATH Lock
@@ -18684,7 +18684,7 @@ and Provisional PATH Lock
 
 #### Part I — PATH provisional-lock boundary
 
-Part I is provisionally locked after integrated audit of Chapters 9–17, the thirteen standalone Chapter-17 case records, the Chapter-17 Local Audit, the PATH Gate, the Reference Layer, the Formal Model mirror, and the release package. The lock closes the present PATH production cycle; it does not make PATH universally sufficient, empirically validated, ontologically final, or immune from reopening under a concrete conflict.
+Part I is provisionally locked after integrated audit of Chapters 9–17, the thirteen standalone Chapter-17 case records, the Chapter-17 Local Audit, the PATH Gate, the Reference Layer, the Formal Model mirror, and the release layer. The lock closes the bounded PATH corpus cycle; it does not make PATH universally sufficient, empirically validated, ontologically final, or immune from reopening under a concrete conflict.
 
 The integrated ownership chain is preserved:
 

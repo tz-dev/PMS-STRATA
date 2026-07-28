@@ -854,7 +854,7 @@ automatic adjudication
 
 The repository separates architectural authority, canonical prose, formalization, tests, references, publications, and presentation.
 
-This `README.md` is a package-navigation and orientation document. It is not an independent theoretical authority.
+This `README.md` is a repository-navigation and orientation document. It is not an independent theoretical authority.
 
 The authority order is:
 
@@ -909,12 +909,12 @@ PMS.yaml
 ### `05_minified/*`
 
 - Compact control artifacts.
-- Contains the Claim Boundary, Operation Signatures, Admissibility Kernel, Block Contracts, and Chapter Contracts.
+- Contains the Canonical Kernel, Claim Boundary, Operation Signatures, Admissibility Band, Block Contracts, and Chapter Contracts.
 - Used for consistency control rather than as an independent theory source.
 
 ### `06_derivative_publications/*`
 
-- Reserved for the compact overview, publishable paper, and technical whitepaper.
+- Contains the compact overview, derived publishable paper, and technical whitepaper.
 - Derivative publications possess no authority to revise the source corpus.
 
 ### `07_model/*`

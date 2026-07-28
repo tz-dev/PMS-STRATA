@@ -9,35 +9,34 @@ record_metadata:
   producer_id: PMS-STRATA.formal-model-smoke-suite
   repository_or_case_pointer: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml
   record_provenance:
-  - Synthetic negative-boundary smoke fixture for a mandatory stop at the Praxeological Relevance Floor; no empirical case
-    truth or external domain warrant is asserted.
-  - Built against controlled working state ZIP 46 and Transformation_Record.schema.json v0.1.2.
+    - Synthetic negative-boundary smoke fixture for a mandatory stop at the Praxeological Relevance Floor; no empirical case truth or 
+      external domain warrant is asserted.
+    - Validated against the active formal-model component set; no empirical or external-domain warrant is asserted.
   model_versions:
-    operation_registry: 0.1.1
-    output_classes: 0.1.1
-    admissibility_rules: 0.1.2
-    boundary_decision_tree: 0.1.1
+    operation_registry: 0.2.0
+    output_classes: 0.2.0
+    admissibility_rules: 0.2.0
+    boundary_decision_tree: 0.2.0
   formal_validation_not_substantive_validation_acknowledged: true
-  record_status_note: Canonical DECOMPOSE smoke record for mandatory_stop when further resolution yields distinction without
-    praxeological purchase.
+  record_status_note: Canonical DECOMPOSE smoke record for mandatory_stop when further resolution yields distinction without praxeological 
+    purchase.
 claim:
   claim_id: claim.decompose.relevance-floor-stop.02
-  statement: The proposed finer reconstruction of the synthetic acknowledgment occurrence must not continue because the added
-    micro-interval distinctions produce no source-supported praxeological difference beyond the retained occurrence-level
-    claim.
+  statement: The proposed finer reconstruction of the synthetic acknowledgment occurrence must not continue because the added micro-interval
+    distinctions produce no source-supported praxeological difference beyond the retained occurrence-level claim.
   claim_type:
     value: mandatory stop claim
     control_source: 04_reference/Claim_Type_Table.md#42-transformation-claims
     inventory_status: extension
-    extension_rationale: The local label identifies a stop determination for this synthetic transformation occurrence without
-      adding a new canonical claim type.
+    extension_rationale: The local label identifies a stop determination for this synthetic transformation occurrence without adding a new 
+      canonical claim type.
   claim_role:
     value: primary transformation claim
     control_source: 04_reference/Claim_Type_Table.md#32-claim-family-claim-type-and-claim-role
     inventory_status: current_controlled
   claim_scope:
-    reference_object_boundary: Only synthetic acknowledgment occurrence beta and the contemplated decomposition into three
-      source-supported micro-intervals.
+    reference_object_boundary: Only synthetic acknowledgment occurrence beta and the contemplated decomposition into three source-supported 
+      micro-intervals.
     operation_occurrence_boundary: Only DECOMPOSE occurrence decompose.occurrence.02.
     frame:
       value: synthetic acknowledgment occurrence frame
@@ -55,36 +54,35 @@ claim:
       inventory_status: extension
       extension_rationale: Local wording instantiates the controlled relative-level relation.
     temporal_scope: Synthetic interval t0–t1 for one completed acknowledgment occurrence.
-    source_scope: One independently identifiable compressed occurrence, occurrence.ack.beta, plus direct synthetic declarations
-      of three uniform micro-intervals.
+    source_scope: One independently identifiable compressed occurrence, occurrence.ack.beta, plus direct synthetic declarations of three 
+      uniform micro-intervals.
     context_scope: Formal smoke-test fixture only.
     generalization_boundary: No extension beyond this fixture and no claim that all fine-grained decompositions are irrelevant.
     excluded_reach:
-    - No claim that finer resolution is false, impossible, or universally useless.
-    - No operator-type decomposition is attempted.
-    - No new path, trajectory, contextual function, causal mechanism, or authority claim is introduced.
-    - No person, institution, or real technical system is evaluated.
-  validity_scope: Valid only as a synthetic demonstration that a source-supported but praxeologically neutral continuation
-    can route to mandatory_stop.
+      - No claim that finer resolution is false, impossible, or universally useless.
+      - No operator-type decomposition is attempted.
+      - No new path, trajectory, contextual function, causal mechanism, or authority claim is introduced.
+      - No person, institution, or real technical system is evaluated.
+  validity_scope: Valid only as a synthetic demonstration that a source-supported but praxeologically neutral continuation can route to 
+    mandatory_stop.
   claim_ceiling:
-    asserted_relation: The contemplated micro-interval distinctions do not alter the occurrence identity, source function,
-      internal relation relevant to the claim, or any counterfactual result; continuation therefore falls below the Relevance
-      Floor.
+    asserted_relation: The contemplated micro-interval distinctions do not alter the occurrence identity, source function, internal relation
+      relevant to the claim, or any counterfactual result; continuation therefore falls below the Relevance Floor.
     reach: The single synthetic occurrence beta and the three declared micro-intervals.
     precision: Occurrence identity, completion, and the absence of a differentiating state or relation across the micro-intervals.
     generality: Single synthetic fixture.
-    functional_scope: The retained source function is only to register one completed acknowledgment occurrence; no target
-      function is projected.
-    dependence_strength: The stop claim depends on the source-supported equivalence of the three micro-intervals for the tested
+    functional_scope: The retained source function is only to register one completed acknowledgment occurrence; no target function is 
+      projected.
+    dependence_strength: The stop claim depends on the source-supported equivalence of the three micro-intervals for the tested 
       occurrence-level claim.
     inferential_distance: One contemplated DECOMPOSE continuation assessed against the Relevance Floor.
     limiting_sources:
-    - source.fixture.ack.beta
-    - source.fixture.micro-intervals.beta
-    rationale: The sources support a stop determination for this continuation but do not establish that every possible decomposition
-      of the occurrence would be neutral.
-  authority_boundary: The record authorizes only formal routing of this synthetic stop claim; it grants no empirical truth,
-    engineering decision, or application authority.
+      - source.fixture.ack.beta
+      - source.fixture.micro-intervals.beta
+    rationale: The sources support a stop determination for this continuation but do not establish that every possible decomposition of the 
+      occurrence would be neutral.
+  authority_boundary: The record authorizes only formal routing of this synthetic stop claim; it grants no empirical truth, engineering 
+    decision, or application authority.
 source:
   reference_object:
     object_id: occurrence.ack.beta
@@ -116,156 +114,6 @@ source:
   temporal_scope: Synthetic interval t0–t1.
   source_scope: Exactly occurrence.ack.beta and the fixture declarations needed to test the contemplated finer reconstruction.
   source_basis:
-  - source_item_id: source.fixture.ack.beta
-    source_pointer: fixture://pms-strata/decompose-02/ack-beta
-    provenance_description: Synthetic declaration that one acknowledgment occurrence begins at t0 and completes at t1.
-    affected_claim_component: Identity, temporal boundary, and completion of the retained source occurrence.
-    support_mode: direct
-    evidence_role:
-      value: synthetic fixture declaration
-      control_source: 04_reference/Evidence_Map.md
-      inventory_status: extension
-      extension_rationale: Local evidence role used only for formal smoke validation.
-    evidence_availability: available
-    temporal_scope: t0–t1
-    reference_scope: occurrence.ack.beta
-    uncertainty_or_provenance_limit: Synthetic declaration; no external empirical warrant is supplied.
-    warrant_route: strata_internal_support_assessable
-  - source_item_id: source.fixture.micro-intervals.beta
-    source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
-    provenance_description: Synthetic declaration that the interval can be partitioned into three ordered micro-intervals
-      with no state, role, or relation change relevant to the tested acknowledgment claim.
-    affected_claim_component: Assessment that the proposed finer distinctions add no praxeological purchase.
-    support_mode: direct
-    evidence_role:
-      value: synthetic fixture declaration
-      control_source: 04_reference/Evidence_Map.md
-      inventory_status: extension
-      extension_rationale: Local evidence role used only for formal smoke validation.
-    evidence_availability: available
-    temporal_scope: t0–t1
-    reference_scope: three contemplated micro-intervals within occurrence.ack.beta
-    uncertainty_or_provenance_limit: The fixture supports only the declared neutral micro-interval comparison, not all possible
-      internal reconstructions.
-    warrant_route: strata_internal_support_assessable
-  constitutive_source_trace:
-  - trace_id: trace.ack.beta
-    source_feature: Independently identifiable completed acknowledgment occurrence.
-    affected_claim_component: Earlier result preserved by the stop.
-    trace_role: load_bearing
-    result_dependency: Without the source occurrence, there is no same-reference decomposition question and no earlier result
-      to preserve.
-    expected_result_change: Removing or replacing the occurrence defeats the present stop claim.
-    temporal_or_relational_dependency: The occurrence spans t0–t1 and remains the reference object throughout the contemplated
-      decomposition.
-    claim_limitation: Supports only the retained occurrence identity and completion.
-    source_pointer: fixture://pms-strata/decompose-02/ack-beta
-  - trace_id: trace.micro-neutrality.beta
-    source_feature: Three ordered micro-intervals contain no source-supported distinction that changes the tested occurrence-level
-      claim.
-    affected_claim_component: Praxeological Relevance Floor determination.
-    trace_role: limiting
-    result_dependency: The mandatory stop depends on the absence of a differentiating state, relation, or function at the
-      contemplated finer granularity.
-    expected_result_change: If a new source-supported component difference changed the claim or source function, the stop
-      determination would require a new record.
-    temporal_or_relational_dependency: The three intervals are ordered but homogeneous for the tested claim.
-    claim_limitation: Does not prove that no other finer evidence could ever matter.
-    source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
-  known_gaps:
-  - No external measurement or real implementation trace is represented.
-  - Only the declared three-interval candidate decomposition is tested; unrepresented internal structure remains outside the
-    claim.
-  source_ceiling:
-    asserted_relation: One completed occurrence and three ordered but claim-equivalent micro-intervals are synthetically declared.
-    reach: Occurrence identity, completion, interval order, and absence of a claim-relevant distinction among the intervals.
-    precision: Enough to test praxeological neutrality of this contemplated continuation, not to characterize real microdynamics.
-    generality: Single synthetic fixture.
-    functional_scope: Source function limited to registering one completed acknowledgment occurrence.
-    dependence_strength: Direct fixture declarations.
-    inferential_distance: Source declarations only; stop routing is tested separately.
-    limiting_sources:
-    - source.fixture.ack.beta
-    - source.fixture.micro-intervals.beta
-    rationale: The sources carry the relevance-floor determination but not broader claims about internal mechanisms or universal
-      decomposition limits.
-operation:
-  occurrence_id: decompose.occurrence.02
-  kind: DECOMPOSE
-  justification: The same source occurrence can be represented at finer temporal granularity, so the proposed continuation
-    is a DECOMPOSE question rather than COMPOSE or PROJECT_AS; the audit tests whether the additional distinctions have praxeological
-    purchase.
-  expected_praxeological_difference: A continuation would be warranted only if the finer components or their relations changed
-    the occurrence reconstruction, source-function assessment, counterfactual result, or another bounded claim.
-  selection_rule: Retain the same source occurrence and inspect exactly the three synthetically declared ordered micro-intervals;
-    do not introduce new events, functions, frames, or source objects.
-  transformation_context: Synthetic formal-model smoke test of a mandatory stop at the Praxeological Relevance Floor.
-  details:
-    source_function:
-      value: register one completed acknowledgment occurrence
-      control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/source_function
-      inventory_status: extension
-      extension_rationale: Fixture-specific source function retained as the test object; it is not a new PMS primitive or
-        contextual target function.
-    decomposition_question: Do three ordered micro-intervals within occurrence.ack.beta reveal a source-supported component
-      or relation difference that changes the occurrence-level claim or its source function?
-    insufficiency_of_current_compression: 'No material insufficiency is established: the only proposed deficit is absence
-      of three-way temporal sampling, and the declared samples add no praxeologically differentiating state, relation, or
-      function.'
-    components:
-    - object_id: microinterval.ack.beta.1
-      description: Contemplated early micro-interval of the same acknowledgment occurrence; no claim-relevant state or role
-        change is declared.
-      typing:
-        value: temporal micro-interval
-        control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/components
-        inventory_status: extension
-        extension_rationale: Local candidate component type used only to test the Relevance Floor.
-      source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
-    - object_id: microinterval.ack.beta.2
-      description: Contemplated middle micro-interval of the same acknowledgment occurrence; no claim-relevant state or role
-        change is declared.
-      typing:
-        value: temporal micro-interval
-        control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/components
-        inventory_status: extension
-        extension_rationale: Local candidate component type used only to test the Relevance Floor.
-      source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
-    - object_id: microinterval.ack.beta.3
-      description: Contemplated late micro-interval of the same acknowledgment occurrence; no claim-relevant state or role
-        change is declared.
-      typing:
-        value: temporal micro-interval
-        control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/components
-        inventory_status: extension
-        extension_rationale: Local candidate component type used only to test the Relevance Floor.
-      source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
-    component_relations:
-    - relation_id: relation.microinterval.beta.1-before-2
-      relation_type:
-        value: immediate temporal succession
-        control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/component_relations
-        inventory_status: extension
-        extension_rationale: Local relation wording for the synthetic interval ordering.
-      from_object_id: microinterval.ack.beta.1
-      to_object_id: microinterval.ack.beta.2
-      description: The earlier contemplated micro-interval precedes the next interval without a declared claim-relevant transition.
-      constitutive: true
-      source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
-    - relation_id: relation.microinterval.beta.2-before-3
-      relation_type:
-        value: immediate temporal succession
-        control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/component_relations
-        inventory_status: extension
-        extension_rationale: Local relation wording for the synthetic interval ordering.
-      from_object_id: microinterval.ack.beta.2
-      to_object_id: microinterval.ack.beta.3
-      description: The earlier contemplated micro-interval precedes the next interval without a declared claim-relevant transition.
-      constitutive: true
-      source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
-    internal_temporality: Three ordered micro-intervals span t0–t1; their ordering is declared, but no claim-relevant internal
-      transition is present.
-    source_support:
     - source_item_id: source.fixture.ack.beta
       source_pointer: fixture://pms-strata/decompose-02/ack-beta
       provenance_description: Synthetic declaration that one acknowledgment occurrence begins at t0 and completes at t1.
@@ -283,8 +131,8 @@ operation:
       warrant_route: strata_internal_support_assessable
     - source_item_id: source.fixture.micro-intervals.beta
       source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
-      provenance_description: Synthetic declaration that the interval can be partitioned into three ordered micro-intervals
-        with no state, role, or relation change relevant to the tested acknowledgment claim.
+      provenance_description: Synthetic declaration that the interval can be partitioned into three ordered micro-intervals with no state, 
+        role, or relation change relevant to the tested acknowledgment claim.
       affected_claim_component: Assessment that the proposed finer distinctions add no praxeological purchase.
       support_mode: direct
       evidence_role:
@@ -295,15 +143,160 @@ operation:
       evidence_availability: available
       temporal_scope: t0–t1
       reference_scope: three contemplated micro-intervals within occurrence.ack.beta
-      uncertainty_or_provenance_limit: The fixture supports only the declared neutral micro-interval comparison, not all possible
-        internal reconstructions.
+      uncertainty_or_provenance_limit: The fixture supports only the declared neutral micro-interval comparison, not all possible internal 
+        reconstructions.
       warrant_route: strata_internal_support_assessable
+  constitutive_source_trace:
+    - trace_id: trace.ack.beta
+      source_feature: Independently identifiable completed acknowledgment occurrence.
+      affected_claim_component: Earlier result preserved by the stop.
+      trace_role: load_bearing
+      result_dependency: Without the source occurrence, there is no same-reference decomposition question and no earlier result to preserve.
+      expected_result_change: Removing or replacing the occurrence defeats the present stop claim.
+      temporal_or_relational_dependency: The occurrence spans t0–t1 and remains the reference object throughout the contemplated 
+        decomposition.
+      claim_limitation: Supports only the retained occurrence identity and completion.
+      source_pointer: fixture://pms-strata/decompose-02/ack-beta
+    - trace_id: trace.micro-neutrality.beta
+      source_feature: Three ordered micro-intervals contain no source-supported distinction that changes the tested occurrence-level claim.
+      affected_claim_component: Praxeological Relevance Floor determination.
+      trace_role: limiting
+      result_dependency: The mandatory stop depends on the absence of a differentiating state, relation, or function at the contemplated 
+        finer granularity.
+      expected_result_change: If a new source-supported component difference changed the claim or source function, the stop determination 
+        would require a new record.
+      temporal_or_relational_dependency: The three intervals are ordered but homogeneous for the tested claim.
+      claim_limitation: Does not prove that no other finer evidence could ever matter.
+      source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
+  known_gaps:
+    - No external measurement or real implementation trace is represented.
+    - Only the declared three-interval candidate decomposition is tested; unrepresented internal structure remains outside the claim.
+  source_ceiling:
+    asserted_relation: One completed occurrence and three ordered but claim-equivalent micro-intervals are synthetically declared.
+    reach: Occurrence identity, completion, interval order, and absence of a claim-relevant distinction among the intervals.
+    precision: Enough to test praxeological neutrality of this contemplated continuation, not to characterize real microdynamics.
+    generality: Single synthetic fixture.
+    functional_scope: Source function limited to registering one completed acknowledgment occurrence.
+    dependence_strength: Direct fixture declarations.
+    inferential_distance: Source declarations only; stop routing is tested separately.
+    limiting_sources:
+      - source.fixture.ack.beta
+      - source.fixture.micro-intervals.beta
+    rationale: The sources carry the relevance-floor determination but not broader claims about internal mechanisms or universal 
+      decomposition limits.
+operation:
+  occurrence_id: decompose.occurrence.02
+  kind: DECOMPOSE
+  justification: The same source occurrence can be represented at finer temporal granularity, so the proposed continuation is a DECOMPOSE 
+    question rather than COMPOSE or PROJECT_AS; the audit tests whether the additional distinctions have praxeological purchase.
+  expected_praxeological_difference: A continuation would be warranted only if the finer components or their relations changed the 
+    occurrence reconstruction, source-function assessment, counterfactual result, or another bounded claim.
+  selection_rule: Retain the same source occurrence and inspect exactly the three synthetically declared ordered micro-intervals; do not 
+    introduce new events, functions, frames, or source objects.
+  transformation_context: Synthetic formal-model smoke test of a mandatory stop at the Praxeological Relevance Floor.
+  details:
+    source_function:
+      value: register one completed acknowledgment occurrence
+      control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/source_function
+      inventory_status: extension
+      extension_rationale: Fixture-specific source function retained as the test object; it is not a new PMS primitive or contextual target 
+        function.
+    decomposition_question: Do three ordered micro-intervals within occurrence.ack.beta reveal a source-supported component or relation 
+      difference that changes the occurrence-level claim or its source function?
+    insufficiency_of_current_compression: 'No material insufficiency is established: the only proposed deficit is absence of three-way temporal
+      sampling, and the declared samples add no praxeologically differentiating state, relation, or function.'
+    components:
+      - object_id: microinterval.ack.beta.1
+        description: Contemplated early micro-interval of the same acknowledgment occurrence; no claim-relevant state or role change is 
+          declared.
+        typing:
+          value: temporal micro-interval
+          control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/components
+          inventory_status: extension
+          extension_rationale: Local candidate component type used only to test the Relevance Floor.
+        source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
+      - object_id: microinterval.ack.beta.2
+        description: Contemplated middle micro-interval of the same acknowledgment occurrence; no claim-relevant state or role change is 
+          declared.
+        typing:
+          value: temporal micro-interval
+          control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/components
+          inventory_status: extension
+          extension_rationale: Local candidate component type used only to test the Relevance Floor.
+        source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
+      - object_id: microinterval.ack.beta.3
+        description: Contemplated late micro-interval of the same acknowledgment occurrence; no claim-relevant state or role change is 
+          declared.
+        typing:
+          value: temporal micro-interval
+          control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/components
+          inventory_status: extension
+          extension_rationale: Local candidate component type used only to test the Relevance Floor.
+        source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
+    component_relations:
+      - relation_id: relation.microinterval.beta.1-before-2
+        relation_type:
+          value: immediate temporal succession
+          control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/component_relations
+          inventory_status: extension
+          extension_rationale: Local relation wording for the synthetic interval ordering.
+        from_object_id: microinterval.ack.beta.1
+        to_object_id: microinterval.ack.beta.2
+        description: The earlier contemplated micro-interval precedes the next interval without a declared claim-relevant transition.
+        constitutive: true
+        source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
+      - relation_id: relation.microinterval.beta.2-before-3
+        relation_type:
+          value: immediate temporal succession
+          control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/operation/details/component_relations
+          inventory_status: extension
+          extension_rationale: Local relation wording for the synthetic interval ordering.
+        from_object_id: microinterval.ack.beta.2
+        to_object_id: microinterval.ack.beta.3
+        description: The earlier contemplated micro-interval precedes the next interval without a declared claim-relevant transition.
+        constitutive: true
+        source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
+    internal_temporality: Three ordered micro-intervals span t0–t1; their ordering is declared, but no claim-relevant internal transition is
+      present.
+    source_support:
+      - source_item_id: source.fixture.ack.beta
+        source_pointer: fixture://pms-strata/decompose-02/ack-beta
+        provenance_description: Synthetic declaration that one acknowledgment occurrence begins at t0 and completes at t1.
+        affected_claim_component: Identity, temporal boundary, and completion of the retained source occurrence.
+        support_mode: direct
+        evidence_role:
+          value: synthetic fixture declaration
+          control_source: 04_reference/Evidence_Map.md
+          inventory_status: extension
+          extension_rationale: Local evidence role used only for formal smoke validation.
+        evidence_availability: available
+        temporal_scope: t0–t1
+        reference_scope: occurrence.ack.beta
+        uncertainty_or_provenance_limit: Synthetic declaration; no external empirical warrant is supplied.
+        warrant_route: strata_internal_support_assessable
+      - source_item_id: source.fixture.micro-intervals.beta
+        source_pointer: fixture://pms-strata/decompose-02/micro-intervals-beta
+        provenance_description: Synthetic declaration that the interval can be partitioned into three ordered micro-intervals with no state,
+          role, or relation change relevant to the tested acknowledgment claim.
+        affected_claim_component: Assessment that the proposed finer distinctions add no praxeological purchase.
+        support_mode: direct
+        evidence_role:
+          value: synthetic fixture declaration
+          control_source: 04_reference/Evidence_Map.md
+          inventory_status: extension
+          extension_rationale: Local evidence role used only for formal smoke validation.
+        evidence_availability: available
+        temporal_scope: t0–t1
+        reference_scope: three contemplated micro-intervals within occurrence.ack.beta
+        uncertainty_or_provenance_limit: The fixture supports only the declared neutral micro-interval comparison, not all possible internal
+          reconstructions.
+        warrant_route: strata_internal_support_assessable
     source_reference_preserved: true
     prior_source_claim_id: claim.source.ack.beta.completed
     unresolved_structure: []
-    counterfactual_component_test: Removing, merging, or reordering any of the three homogeneous micro-intervals leaves the
-      tested occurrence identity, completion, and source-function assessment unchanged; a new source-supported differentiating
-      component would require a new record.
+    counterfactual_component_test: Removing, merging, or reordering any of the three homogeneous micro-intervals leaves the tested 
+      occurrence identity, completion, and source-function assessment unchanged; a new source-supported differentiating component would 
+      require a new record.
     source_function_effect_pointer: /result/operation_specific_result/source_function_effect
     resolution_test_result_pointer: /result/status_declaration/resolution_test_result
     source_reference_object_pointer: /source/reference_object
@@ -312,8 +305,8 @@ operation:
 target:
   reference_object:
     object_id: occurrence.ack.beta
-    description: The same acknowledgment occurrence under a contemplated three-micro-interval reconstruction; the finer continuation
-      is not admitted beyond the stop.
+    description: The same acknowledgment occurrence under a contemplated three-micro-interval reconstruction; the finer continuation is not 
+      admitted beyond the stop.
     typing:
       value: operator-typed occurrence
       control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/source_contract/recognized_object_families
@@ -323,9 +316,8 @@ target:
     value: finer relational reconstruction of the same reference object
     control_source: 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE/target_contract/primary_result_kind
     inventory_status: extension
-    extension_rationale: Local target description instantiates the DECOMPOSE target contract without replacing the source
-      object.
-  contextual_function: null
+    extension_rationale: Local target description instantiates the DECOMPOSE target contract without replacing the source object.
+  contextual_function:
   frame:
     value: synthetic acknowledgment occurrence frame
     control_source: 07_model/examples/02_DECOMPOSE_Relevance_Floor_Stop.yaml#/claim/claim_scope/frame
@@ -343,7 +335,7 @@ target:
     extension_rationale: Local target-side relative-level wording.
   temporal_scope: The same synthetic interval t0–t1.
   validity_scope: Contemplated target declaration only; the continuation is stopped and no finer substantive result is promoted.
-  contextual_function_origin_occurrence_ref: null
+  contextual_function_origin_occurrence_ref:
 admissibility:
   audit_stages:
     source_and_claim_entry:
@@ -351,153 +343,151 @@ admissibility:
       assessment_mode: declaration_entry
       completion_state: complete
       summary_finding: Source occurrence, contemplated finer target, stop claim, ceilings, and authority boundary are complete.
-      rationale: The same reference object and the exact continuation claim are explicit; no empirical or universal no-decomposition
-        claim is introduced.
+      rationale: The same reference object and the exact continuation claim are explicit; no empirical or universal no-decomposition claim 
+        is introduced.
       rule_assessment_pointers:
-      - source_ceiling
-      - contextual_boundedness
-      - claim_ceiling
+        - source_ceiling
+        - contextual_boundedness
+        - claim_ceiling
       evidence_or_artifact_pointers:
-      - /claim
-      - /source
-      - /target
+        - /claim
+        - /source
+        - /target
       unresolved_items: []
     operation_classification:
       stage_id: operation_classification
       assessment_mode: operation_classification
       completion_state: complete
       summary_finding: The contemplated occurrence is correctly classified as DECOMPOSE.
-      rationale: One identifiable compressed occurrence is tested under finer granularity while retaining the same source
-        reference and source function; no operator type is opened.
+      rationale: One identifiable compressed occurrence is tested under finer granularity while retaining the same source reference and 
+        source function; no operator type is opened.
       rule_assessment_pointers: []
       evidence_or_artifact_pointers:
-      - /operation
-      - 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE
+        - /operation
+        - 07_model/Operation_Registry.yaml#/operation_types/DECOMPOSE
       unresolved_items: []
     relevance_floor:
       stage_id: relevance_floor
       assessment_mode: substantive_assessment
       completion_state: complete
       summary_finding: The proposed continuation falls below the Praxeological Relevance Floor.
-      rationale: The three finer intervals add no source-supported distinction that changes the occurrence claim, source function,
-        or counterfactual result.
+      rationale: The three finer intervals add no source-supported distinction that changes the occurrence claim, source function, or 
+        counterfactual result.
       rule_assessment_pointers:
-      - praxis_purchase
+        - praxis_purchase
       evidence_or_artifact_pointers:
-      - /admissibility/rule_assessments/praxis_purchase
-      - /operation/details/counterfactual_component_test
+        - /admissibility/rule_assessments/praxis_purchase
+        - /operation/details/counterfactual_component_test
       unresolved_items: []
     traceability_ceiling:
       stage_id: traceability_ceiling
       assessment_mode: substantive_assessment
       completion_state: complete
-      summary_finding: The contemplated finer distinctions remain traceable, but traceability does not compensate for absent
-        relevance.
-      rationale: The intervals and their order are declared and source-supported; the mandatory stop is triggered by below-floor
-        purchase, not by lost traceability.
+      summary_finding: The contemplated finer distinctions remain traceable, but traceability does not compensate for absent relevance.
+      rationale: The intervals and their order are declared and source-supported; the mandatory stop is triggered by below-floor purchase, 
+        not by lost traceability.
       rule_assessment_pointers:
-      - traceable_load
+        - traceable_load
       evidence_or_artifact_pointers:
-      - /admissibility/rule_assessments/traceable_load
-      - /operation/details/source_support
+        - /admissibility/rule_assessments/traceable_load
+        - /operation/details/source_support
       unresolved_items: []
     continuity_and_type_integrity:
       stage_id: continuity_and_type_integrity
       assessment_mode: substantive_assessment
       completion_state: complete
       summary_finding: Reference, type, frame, temporal scope, and source-function test object remain intact.
-      rationale: The same occurrence remains the reference object, the source type is not replaced, and no contextual target
-        function is inferred.
+      rationale: The same occurrence remains the reference object, the source type is not replaced, and no contextual target function is 
+        inferred.
       rule_assessment_pointers:
-      - type_integrity
-      - reference_continuity
-      - functional_continuity
-      - temporal_continuity
-      - contextual_boundedness
+        - type_integrity
+        - reference_continuity
+        - functional_continuity
+        - temporal_continuity
+        - contextual_boundedness
       evidence_or_artifact_pointers:
-      - /source/reference_object
-      - /operation/details/source_reference_preserved
-      - /result/operation_specific_result/source_function_effect
+        - /source/reference_object
+        - /operation/details/source_reference_preserved
+        - /result/operation_specific_result/source_function_effect
       unresolved_items: []
     counterfactual_sensitivity:
       stage_id: counterfactual_sensitivity
       assessment_mode: substantive_assessment
       completion_state: complete
       summary_finding: The proposed micro-interval distinctions are insensitive for the tested claim.
-      rationale: Removing, merging, or reordering homogeneous intervals does not alter the occurrence-level claim or source-function
+      rationale: Removing, merging, or reordering homogeneous intervals does not alter the occurrence-level claim or source-function 
         assessment.
       rule_assessment_pointers:
-      - counterfactual_sensitivity
+        - counterfactual_sensitivity
       evidence_or_artifact_pointers:
-      - /operation/details/counterfactual_component_test
-      - /admissibility/rule_assessments/counterfactual_sensitivity
+        - /operation/details/counterfactual_component_test
+        - /admissibility/rule_assessments/counterfactual_sensitivity
       unresolved_items: []
     loss_and_selection:
       stage_id: loss_and_selection
       assessment_mode: substantive_assessment
       completion_state: complete
       summary_finding: The stop preserves the earlier occurrence result and leaves the non-purchased microdetail compressed.
-      rationale: No finer result is promoted; the existing occurrence identity and source function remain available without
-        irreversible loss.
+      rationale: No finer result is promoted; the existing occurrence identity and source function remain available without irreversible 
+        loss.
       rule_assessment_pointers:
-      - selection_and_loss
+        - selection_and_loss
       evidence_or_artifact_pointers:
-      - /loss
-      - /operation/selection_rule
-      - /admissibility/stop_assessment
+        - /loss
+        - /operation/selection_rule
+        - /admissibility/stop_assessment
       unresolved_items: []
     alternatives:
       stage_id: alternatives
       assessment_mode: substantive_assessment
       completion_state: complete
       summary_finding: No-transformation and conditional reentry under newly differentiating evidence are explicit.
-      rationale: Retaining occurrence granularity is selected now; a new decomposition record remains possible if new source-supported
+      rationale: Retaining occurrence granularity is selected now; a new decomposition record remains possible if new source-supported 
         purchase appears.
       rule_assessment_pointers:
-      - alternatives
+        - alternatives
       evidence_or_artifact_pointers:
-      - /alternatives
+        - /alternatives
       unresolved_items: []
     source_and_calibration_limits:
       stage_id: source_and_calibration_limits
       assessment_mode: substantive_assessment
       completion_state: complete
       summary_finding: The fixture discriminates a below-floor continuation from a hypothetical differentiating continuation.
-      rationale: The synthetic source supports this stop only; external calibration and real microdynamics remain outside
-        the record.
+      rationale: The synthetic source supports this stop only; external calibration and real microdynamics remain outside the record.
       rule_assessment_pointers:
-      - source_ceiling
-      - calibration
+        - source_ceiling
+        - calibration
       evidence_or_artifact_pointers:
-      - /source/source_ceiling
-      - /admissibility/rule_assessments/calibration
+        - /source/source_ceiling
+        - /admissibility/rule_assessments/calibration
       unresolved_items: []
     anti_immunization:
       stage_id: anti_immunization
       assessment_mode: cross_cutting_assessment
       completion_state: complete
       summary_finding: The stop does not immunize the source function or erase future testability.
-      rationale: A later finer reconstruction with new evidence would be a new claim and would not retroactively invalidate
-        this bounded stop result.
+      rationale: A later finer reconstruction with new evidence would be a new claim and would not retroactively invalidate this bounded 
+        stop result.
       rule_assessment_pointers: []
       evidence_or_artifact_pointers:
-      - /admissibility/anti_immunization_assessment
-      - /relations/prior_claim_ids
+        - /admissibility/anti_immunization_assessment
+        - /relations/prior_claim_ids
       unresolved_items: []
     stop_and_non_capture:
       stage_id: stop_and_non_capture
       assessment_mode: preliminary_trigger_assessment
       completion_state: complete
       summary_finding: A mandatory stop is reached; no non-capture limit is asserted.
-      rationale: Continuation would add distinction without praxeological purchase, while an adequate retained occurrence-level
-        claim remains.
+      rationale: Continuation would add distinction without praxeological purchase, while an adequate retained occurrence-level claim 
+        remains.
       rule_assessment_pointers:
-      - stop
-      - non_capture
-      - claim_ceiling
+        - stop
+        - non_capture
+        - claim_ceiling
       evidence_or_artifact_pointers:
-      - /admissibility/stop_assessment
-      - /admissibility/non_capture_assessment
+        - /admissibility/stop_assessment
+        - /admissibility/non_capture_assessment
       unresolved_items: []
     claim_and_authority_ceiling:
       stage_id: claim_and_authority_ceiling
@@ -506,12 +496,12 @@ admissibility:
       summary_finding: The final result is limited to mandatory stop for this continuation.
       rationale: Formal routing does not establish that finer resolution is generally false or grant application authority.
       rule_assessment_pointers:
-      - claim_ceiling
-      - authority_ceiling
-      - contextual_boundedness
+        - claim_ceiling
+        - authority_ceiling
+        - contextual_boundedness
       evidence_or_artifact_pointers:
-      - /claim/claim_ceiling
-      - /governance/authority_ceiling
+        - /claim/claim_ceiling
+        - /governance/authority_ceiling
       unresolved_items: []
   rule_assessments:
     praxis_purchase:
@@ -519,9 +509,9 @@ admissibility:
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/praxis_purchase
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/relevance_floor
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/relevance_floor
+        - /operation
+        - /claim
       reasoned_finding: The contemplated finer distinctions yield no additional praxeological purchase for the tested claim.
       claim_or_artifact_effect:
         family:
@@ -536,9 +526,9 @@ admissibility:
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/traceable_load
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/traceability_ceiling
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/traceability_ceiling
+        - /operation
+        - /claim
       reasoned_finding: The source occurrence, intervals, order, and limits remain reconstructible.
       claim_or_artifact_effect:
         family:
@@ -553,11 +543,11 @@ admissibility:
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/type_integrity
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/continuity_and_type_integrity
-      - /operation
-      - /claim
-      reasoned_finding: The source remains an operator-typed occurrence and the target remains a contemplated finer reconstruction,
-        not a new primitive.
+        - /admissibility/audit_stages/continuity_and_type_integrity
+        - /operation
+        - /claim
+      reasoned_finding: The source remains an operator-typed occurrence and the target remains a contemplated finer reconstruction, not a 
+        new primitive.
       claim_or_artifact_effect:
         family:
           value: retain
@@ -565,15 +555,15 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Preserve origin type and do not decompose the operator type.
-      controlled_local_result: null
+      controlled_local_result:
     reference_continuity:
       applicability: applicable
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/reference_continuity
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/continuity_and_type_integrity
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/continuity_and_type_integrity
+        - /operation
+        - /claim
       reasoned_finding: The same occurrence.ack.beta remains the reference object throughout.
       claim_or_artifact_effect:
         family:
@@ -582,17 +572,17 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Preserve the source reference and reject any replacement object.
-      controlled_local_result: null
+      controlled_local_result:
     functional_continuity:
       applicability: applicable
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/functional_continuity
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/continuity_and_type_integrity
-      - /operation
-      - /claim
-      reasoned_finding: The source function remains confirmed at the retained occurrence level; the neutral micro-intervals
-        do not refine it.
+        - /admissibility/audit_stages/continuity_and_type_integrity
+        - /operation
+        - /claim
+      reasoned_finding: The source function remains confirmed at the retained occurrence level; the neutral micro-intervals do not refine 
+        it.
       claim_or_artifact_effect:
         family:
           value: retain
@@ -600,15 +590,15 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Maintain the prior source-function claim without treating it as immunized.
-      controlled_local_result: null
+      controlled_local_result:
     temporal_continuity:
       applicability: applicable
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/temporal_continuity
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/continuity_and_type_integrity
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/continuity_and_type_integrity
+        - /operation
+        - /claim
       reasoned_finding: The micro-intervals remain within t0–t1 and preserve source temporality.
       claim_or_artifact_effect:
         family:
@@ -617,15 +607,15 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Retain the declared temporal boundary and interval order.
-      controlled_local_result: null
+      controlled_local_result:
     contextual_boundedness:
       applicability: applicable
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/contextual_boundedness
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/source_and_claim_entry
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/source_and_claim_entry
+        - /operation
+        - /claim
       reasoned_finding: Frame, granularities, relative level, and fixture-only context are explicit.
       claim_or_artifact_effect:
         family:
@@ -634,15 +624,15 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Apply the stop only to this declared continuation.
-      controlled_local_result: null
+      controlled_local_result:
     counterfactual_sensitivity:
       applicability: applicable
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/counterfactual_sensitivity
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/counterfactual_sensitivity
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/counterfactual_sensitivity
+        - /operation
+        - /claim
       reasoned_finding: Removing, merging, or reordering the homogeneous candidate intervals does not change the tested claim.
       claim_or_artifact_effect:
         family:
@@ -657,9 +647,9 @@ admissibility:
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/source_ceiling
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/source_and_claim_entry
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/source_and_claim_entry
+        - /operation
+        - /claim
       reasoned_finding: The sources support the neutral interval comparison but no stronger statement about all internal structure.
       claim_or_artifact_effect:
         family:
@@ -668,16 +658,16 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Keep the stop claim within the fixture source ceiling.
-      controlled_local_result: null
+      controlled_local_result:
     calibration:
       applicability: applicable
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/calibration
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/source_and_calibration_limits
-      - /operation
-      - /claim
-      reasoned_finding: The fixture distinguishes the current neutral continuation from a mutation containing a source-supported
+        - /admissibility/audit_stages/source_and_calibration_limits
+        - /operation
+        - /claim
+      reasoned_finding: The fixture distinguishes the current neutral continuation from a mutation containing a source-supported 
         function-changing component.
       claim_or_artifact_effect:
         family:
@@ -695,11 +685,10 @@ admissibility:
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/selection_and_loss
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/loss_and_selection
-      - /operation
-      - /claim
-      reasoned_finding: The selection preserves the source occurrence and leaves non-purchased detail compressed without irreversible
-        loss.
+        - /admissibility/audit_stages/loss_and_selection
+        - /operation
+        - /claim
+      reasoned_finding: The selection preserves the source occurrence and leaves non-purchased detail compressed without irreversible loss.
       claim_or_artifact_effect:
         family:
           value: retain
@@ -707,15 +696,15 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Retain the explicit loss profile and do not promote the finer target.
-      controlled_local_result: null
+      controlled_local_result:
     alternatives:
       applicability: applicable
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/alternatives
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/alternatives
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/alternatives
+        - /operation
+        - /claim
       reasoned_finding: No-transformation is selected now; conditional reentry under changed evidence remains available.
       claim_or_artifact_effect:
         family:
@@ -724,15 +713,15 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Keep alternatives separate from the current stop claim.
-      controlled_local_result: null
+      controlled_local_result:
     claim_ceiling:
       applicability: applicable
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/claim_ceiling
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/source_and_claim_entry
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/source_and_claim_entry
+        - /operation
+        - /claim
       reasoned_finding: The claim is only that this continuation lacks purchase and must stop.
       claim_or_artifact_effect:
         family:
@@ -741,15 +730,15 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Do not infer that finer resolution is generally false or impossible.
-      controlled_local_result: null
+      controlled_local_result:
     authority_ceiling:
       applicability: applicable
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/authority_ceiling
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/claim_and_authority_ceiling
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/claim_and_authority_ceiling
+        - /operation
+        - /claim
       reasoned_finding: Formal mandatory-stop routing grants no engineering, empirical, or intervention authority.
       claim_or_artifact_effect:
         family:
@@ -758,15 +747,15 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Maintain all governance prohibitions.
-      controlled_local_result: null
+      controlled_local_result:
     stop:
       applicability: applicable
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/stop
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/stop_and_non_capture
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/stop_and_non_capture
+        - /operation
+        - /claim
       reasoned_finding: Continuation after the below-floor finding would be inadmissible and must stop.
       claim_or_artifact_effect:
         family:
@@ -781,9 +770,9 @@ admissibility:
       assessment_state: complete
       control_source_pointer: 07_model/Admissibility_Rules.yaml#/rule_profiles/non_capture
       evidence_or_artifact_pointers:
-      - /admissibility/audit_stages/stop_and_non_capture
-      - /operation
-      - /claim
+        - /admissibility/audit_stages/stop_and_non_capture
+        - /operation
+        - /claim
       reasoned_finding: An adequate retained occurrence-level claim remains; no material capture limit is asserted.
       claim_or_artifact_effect:
         family:
@@ -792,139 +781,138 @@ admissibility:
           inventory_status: current_controlled
         description: The current stop determination and preserved earlier result are controlled by this rule finding.
       required_action: Do not route to non_capture.
-      controlled_local_result: null
+      controlled_local_result:
   non_compensation_confirmation: true
-  audit_to_routing_basis: All applicable Rule assessments are complete; PraxisPurchase is below_floor, TraceableLoad remains
-    within_ceiling, the source reference and function are preserved, and continuation would add only source-supported but
-    praxeologically neutral detail. Traceability and formal detail do not compensate for the failed relevance condition.
-  anti_immunization_assessment: The mandatory stop preserves the earlier occurrence-level result but does not immunize it
-    or prohibit future finer testing. Any reentry based on newly differentiating evidence is a new separately testable claim.
+  audit_to_routing_basis: All applicable Rule assessments are complete; PraxisPurchase is below_floor, TraceableLoad remains within_ceiling,
+    the source reference and function are preserved, and continuation would add only source-supported but praxeologically neutral detail. 
+    Traceability and formal detail do not compensate for the failed relevance condition.
+  anti_immunization_assessment: The mandatory stop preserves the earlier occurrence-level result but does not immunize it or prohibit future
+    finer testing. Any reentry based on newly differentiating evidence is a new separately testable claim.
   stop_assessment:
     reached: true
     condition_assessed: true
-    rationale: Further decomposition of the declared homogeneous micro-intervals would repeat a resolution-neutral distinction
-      without new source-supported praxeological purchase.
+    rationale: Further decomposition of the declared homogeneous micro-intervals would repeat a resolution-neutral distinction without new 
+      source-supported praxeological purchase.
     mode: mandatory
-    stop_condition: PraxisPurchase is below_floor for the contemplated continuation while an adequate source-supported occurrence-level
+    stop_condition: PraxisPurchase is below_floor for the contemplated continuation while an adequate source-supported occurrence-level 
       result remains.
-    preserved_result: The earlier claim that occurrence.ack.beta is one completed acknowledgment occurrence with its retained
-      source function.
+    preserved_result: The earlier claim that occurrence.ack.beta is one completed acknowledgment occurrence with its retained source 
+      function.
     reentry_contemplated: true
     reentry_conditions:
-    - changed_condition: New source-supported evidence identifies a component, relation, threshold, asymmetry, or internal
-        temporal distinction that changes the occurrence reconstruction or source-function assessment.
-      new_or_revised_record_id: smoke.decompose.relevance-floor-reentry.02a
-      rationale: Changed evidence would create a new decomposition claim rather than extend the stopped occurrence by default.
+      - changed_condition: New source-supported evidence identifies a component, relation, threshold, asymmetry, or internal temporal 
+          distinction that changes the occurrence reconstruction or source-function assessment.
+        new_or_revised_record_id: smoke.decompose.relevance-floor-reentry.02a
+        rationale: Changed evidence would create a new decomposition claim rather than extend the stopped occurrence by default.
   non_capture_assessment:
     adequate_capture_assessed: true
     material_capture_limit_asserted: false
     adequate_retained_claim_remains: true
     partial_capture_asserted: false
     non_capture_form_asserted: false
-    rationale: The occurrence-level claim and source-function assessment remain adequately captured; the stop concerns lack
-      of purchase in the proposed continuation, not an in-principle capture failure.
+    rationale: The occurrence-level claim and source-function assessment remain adequately captured; the stop concerns lack of purchase in 
+      the proposed continuation, not an in-principle capture failure.
 loss:
   preserved:
-  - item_id: loss.preserved.source-occurrence
-    affected_element: Source reference object
-    description: occurrence.ack.beta remains the same identifiable source and test object.
-    reason: Mandatory stop preserves rather than replaces the earlier result.
-    claim_effect:
-      family:
-        value: retain
-        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
-        inventory_status: current_controlled
-      description: The earlier occurrence-level claim remains available.
-  - item_id: loss.preserved.source-function
-    affected_element: Prior source function
-    description: The function register one completed acknowledgment occurrence remains confirmed at retained granularity.
-    reason: The contemplated micro-intervals do not change the source-function assessment.
-    claim_effect:
-      family:
-        value: retain
-        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
-        inventory_status: current_controlled
-      description: The prior source-function claim remains testable and maintained.
-  - item_id: loss.preserved.reentry
-    affected_element: Future testability
-    description: Reentry remains possible under changed source-supported conditions.
-    reason: Stop is a positive bounded result, not permanent closure.
-    claim_effect:
-      family:
-        value: bound
-        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
-        inventory_status: current_controlled
-      description: Any future finer claim requires a new record.
+    - item_id: loss.preserved.source-occurrence
+      affected_element: Source reference object
+      description: occurrence.ack.beta remains the same identifiable source and test object.
+      reason: Mandatory stop preserves rather than replaces the earlier result.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The earlier occurrence-level claim remains available.
+    - item_id: loss.preserved.source-function
+      affected_element: Prior source function
+      description: The function register one completed acknowledgment occurrence remains confirmed at retained granularity.
+      reason: The contemplated micro-intervals do not change the source-function assessment.
+      claim_effect:
+        family:
+          value: retain
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The prior source-function claim remains testable and maintained.
+    - item_id: loss.preserved.reentry
+      affected_element: Future testability
+      description: Reentry remains possible under changed source-supported conditions.
+      reason: Stop is a positive bounded result, not permanent closure.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: Any future finer claim requires a new record.
   compressed:
-  - item_id: loss.compressed.micro-interval-detail
-    affected_element: Three homogeneous micro-interval distinctions
-    description: The finer interval labels remain unpromoted at the retained occurrence granularity.
-    reason: They add no praxeological purchase for the tested claim.
-    claim_effect:
-      family:
-        value: bound
-        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
-        inventory_status: current_controlled
-      description: The current claim remains at occurrence granularity.
-    source_or_evidence_pointer: /operation/details/components
-    recoverability_or_reentry_note: Recoverable in a new record if changed evidence establishes a differentiating component
-      or relation.
+    - item_id: loss.compressed.micro-interval-detail
+      affected_element: Three homogeneous micro-interval distinctions
+      description: The finer interval labels remain unpromoted at the retained occurrence granularity.
+      reason: They add no praxeological purchase for the tested claim.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The current claim remains at occurrence granularity.
+      source_or_evidence_pointer: /operation/details/components
+      recoverability_or_reentry_note: Recoverable in a new record if changed evidence establishes a differentiating component or relation.
   excluded:
-  - item_id: loss.excluded.real-implementation-dynamics
-    affected_element: Unrepresented real microdynamics
-    description: Real implementation mechanisms, measurements, and actor-level details are outside the synthetic fixture.
-    reason: No external evidence is supplied.
-    claim_effect:
-      family:
-        value: bound
-        control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
-        inventory_status: current_controlled
-      description: The stop cannot be generalized to real systems.
-    source_or_evidence_pointer: /source/known_gaps
-    recoverability_or_reentry_note: Requires external source material and a new transformation record.
+    - item_id: loss.excluded.real-implementation-dynamics
+      affected_element: Unrepresented real microdynamics
+      description: Real implementation mechanisms, measurements, and actor-level details are outside the synthetic fixture.
+      reason: No external evidence is supplied.
+      claim_effect:
+        family:
+          value: bound
+          control_source: 07_model/Admissibility_Rules.yaml#/controlled_local_vocabularies/claim_effect_family
+          inventory_status: current_controlled
+        description: The stop cannot be generalized to real systems.
+      source_or_evidence_pointer: /source/known_gaps
+      recoverability_or_reentry_note: Requires external source material and a new transformation record.
   uncertain: []
   irrecoverable: []
 alternatives:
   rival_compositions: []
   rival_decompositions:
-  - alternative_id: alternative.function-changing-decomposition
-    claim_relation: A different finer reconstruction identifies a source-supported component or relation that changes the
-      source-function assessment.
-    source_basis_or_evidence_pointer: /admissibility/stop_assessment/reentry_conditions
-    comparative_burden: Requires new evidence and a new record demonstrating praxeological purchase while preserving the same
-      reference object.
-    current_handling: unresolved
-    rationale: The present fixture neither supplies nor rules out such changed evidence.
+    - alternative_id: alternative.function-changing-decomposition
+      claim_relation: A different finer reconstruction identifies a source-supported component or relation that changes the source-function 
+        assessment.
+      source_basis_or_evidence_pointer: /admissibility/stop_assessment/reentry_conditions
+      comparative_burden: Requires new evidence and a new record demonstrating praxeological purchase while preserving the same reference 
+        object.
+      current_handling: unresolved
+      rationale: The present fixture neither supplies nor rules out such changed evidence.
   rival_projections: []
   no_transformation:
-  - alternative_id: alternative.retain-occurrence-granularity
-    claim_relation: Retain occurrence.ack.beta as one completed occurrence without promoting the neutral micro-interval reconstruction.
-    source_basis_or_evidence_pointer: /source/reference_object
-    comparative_burden: Lower inferential burden and fully adequate for the tested occurrence-level claim.
-    current_handling: retained
-    rationale: This is the result preserved by the mandatory stop.
+    - alternative_id: alternative.retain-occurrence-granularity
+      claim_relation: Retain occurrence.ack.beta as one completed occurrence without promoting the neutral micro-interval reconstruction.
+      source_basis_or_evidence_pointer: /source/reference_object
+      comparative_burden: Lower inferential burden and fully adequate for the tested occurrence-level claim.
+      current_handling: retained
+      rationale: This is the result preserved by the mandatory stop.
   non_translation: []
   unresolved: []
   no_additional_alternatives_asserted: false
 governance:
-  authority_ceiling: Formal schema conformance and mandatory-stop routing apply only to this synthetic continuation claim;
-    they do not establish empirical truth, universal limits on decomposition, technical design guidance, causality, legitimacy,
-    diagnosis, sanction, or application authority.
+  authority_ceiling: Formal schema conformance and mandatory-stop routing apply only to this synthetic continuation claim; they do not 
+    establish empirical truth, universal limits on decomposition, technical design guidance, causality, legitimacy, diagnosis, sanction, or 
+    application authority.
   external_warrant: []
   prohibited_inferences_acknowledged:
-  - mandatory_stop does not mean finer resolution is false or ontologically unreal
-  - more detail does not automatically create praxeological purchase
-  - DECOMPOSE opens an occurrence or composite, never a PMS Base operator type
-  - preserving the source function does not immunize it from future testing
-  - formal validation does not grant application or intervention authority
+    - mandatory_stop does not mean finer resolution is false or ontologically unreal
+    - more detail does not automatically create praxeological purchase
+    - DECOMPOSE opens an occurrence or composite, never a PMS Base operator type
+    - preserving the source function does not immunize it from future testing
+    - formal validation does not grant application or intervention authority
   authority_inheritance: prohibited
   formal_validation_not_substantive_validation_acknowledged: true
   application_authority_not_granted: true
   claim_ceiling_pointer: /claim/claim_ceiling
 result:
   operation_specific_result:
-    summary: The same source occurrence is examined under three finer temporal intervals; the intervals are traceable but
-      add no praxeological distinction, so continuation is stopped and the earlier occurrence-level result is preserved.
+    summary: The same source occurrence is examined under three finer temporal intervals; the intervals are traceable but add no 
+      praxeological distinction, so continuation is stopped and the earlier occurrence-level result is preserved.
     result_family:
       value: mandatory relevance-floor stop
       control_source: 07_model/Output_Classes.yaml#/output_classes/mandatory_stop/representative_local_results
@@ -937,13 +925,13 @@ result:
     prior_source_claim_disposition: maintained
     current_claim_pointer: /claim/claim_id
     additional_affected_claim_ids:
-    - claim.source.ack.beta.completed
+      - claim.source.ack.beta.completed
   status_declaration:
     support_status: supported
     resolution_test_result: resolution_neutral
     capture_statement:
-      statement: The retained occurrence-level claim is adequately captured; the proposed finer distinctions are stopped for
-        lack of purchase, not because of a material capture limit.
+      statement: The retained occurrence-level claim is adequately captured; the proposed finer distinctions are stopped for lack of 
+        purchase, not because of a material capture limit.
       claim_relative: true
       capture_limit_present: false
     evidence_availability_summary: available
@@ -957,7 +945,7 @@ result:
         constitutive_condition_pointers: []
         preserved_finding: No admissible result is selected for the current delimited claim.
         separated_claim_or_record_ids: []
-        boundary_adjudication: null
+        boundary_adjudication:
       admissible_with_bounded_claim:
         candidate_class: admissible_with_bounded_claim
         status: not_generated
@@ -965,7 +953,7 @@ result:
         constitutive_condition_pointers: []
         preserved_finding: No admissible_with_bounded_claim result is selected for the current delimited claim.
         separated_claim_or_record_ids: []
-        boundary_adjudication: null
+        boundary_adjudication:
       admissible_but_provisional:
         candidate_class: admissible_but_provisional
         status: not_generated
@@ -973,17 +961,15 @@ result:
         constitutive_condition_pointers: []
         preserved_finding: No admissible_but_provisional result is selected for the current delimited claim.
         separated_claim_or_record_ids: []
-        boundary_adjudication: null
+        boundary_adjudication:
       resolution_neutral:
         candidate_class: resolution_neutral
         status: not_generated
-        rationale: The finer comparison is resolution-neutral, but continuation after that finding is the claim under test
-          and must stop.
+        rationale: The finer comparison is resolution-neutral, but continuation after that finding is the claim under test and must stop.
         constitutive_condition_pointers: []
-        preserved_finding: Resolution-neutrality remains recorded as a status-axis finding without replacing the mandatory-stop
-          class.
+        preserved_finding: Resolution-neutrality remains recorded as a status-axis finding without replacing the mandatory-stop class.
         separated_claim_or_record_ids: []
-        boundary_adjudication: null
+        boundary_adjudication:
       analogy_only:
         candidate_class: analogy_only
         status: not_generated
@@ -991,7 +977,7 @@ result:
         constitutive_condition_pointers: []
         preserved_finding: No analogy_only result is selected for the current delimited claim.
         separated_claim_or_record_ids: []
-        boundary_adjudication: null
+        boundary_adjudication:
       partially_admissible:
         candidate_class: partially_admissible
         status: not_generated
@@ -999,7 +985,7 @@ result:
         constitutive_condition_pointers: []
         preserved_finding: No partially_admissible result is selected for the current delimited claim.
         separated_claim_or_record_ids: []
-        boundary_adjudication: null
+        boundary_adjudication:
       claim_reduction_required:
         candidate_class: claim_reduction_required
         status: not_generated
@@ -1007,29 +993,29 @@ result:
         constitutive_condition_pointers: []
         preserved_finding: No claim_reduction_required result is selected for the current delimited claim.
         separated_claim_or_record_ids: []
-        boundary_adjudication: null
+        boundary_adjudication:
       mandatory_stop:
         candidate_class: mandatory_stop
         status: selected
-        rationale: Continuation beyond the completed resolution-neutral comparison would add distinction without praxeological
-          purchase, while the earlier source-supported result remains available.
+        rationale: Continuation beyond the completed resolution-neutral comparison would add distinction without praxeological purchase, 
+          while the earlier source-supported result remains available.
         constitutive_condition_pointers:
-        - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
-        - /admissibility/stop_assessment/reached
-        - /admissibility/stop_assessment/mode
-        - /result/status_declaration/resolution_test_result
+          - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+          - /admissibility/stop_assessment/reached
+          - /admissibility/stop_assessment/mode
+          - /result/status_declaration/resolution_test_result
         preserved_finding: The earlier occurrence-level claim and source-function assessment are preserved.
         separated_claim_or_record_ids: []
-        boundary_adjudication: null
+        boundary_adjudication:
       failed_transformation:
         candidate_class: failed_transformation
         status: not_generated
-        rationale: The occurrence is correctly identified as DECOMPOSE and the same reference, components, relations, and
-          source support are present; the operation is stopped rather than silently malformed.
+        rationale: The occurrence is correctly identified as DECOMPOSE and the same reference, components, relations, and source support are
+          present; the operation is stopped rather than silently malformed.
         constitutive_condition_pointers: []
         preserved_finding: No failed_transformation result is selected for the current delimited claim.
         separated_claim_or_record_ids: []
-        boundary_adjudication: null
+        boundary_adjudication:
       non_capture:
         candidate_class: non_capture
         status: not_generated
@@ -1037,55 +1023,54 @@ result:
         constitutive_condition_pointers: []
         preserved_finding: No non_capture result is selected for the current delimited claim.
         separated_claim_or_record_ids: []
-        boundary_adjudication: null
+        boundary_adjudication:
     selected_class: mandatory_stop
     route_id: route_mandatory_stop
     matched_constitutive_conditions:
-    - /operation/kind
-    - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
-    - /admissibility/rule_assessments/traceable_load/controlled_local_result
-    - /admissibility/stop_assessment/reached
-    - /admissibility/stop_assessment/mode
-    - /admissibility/stop_assessment/preserved_result
-    - /result/status_declaration/resolution_test_result
+      - /operation/kind
+      - /admissibility/rule_assessments/praxis_purchase/controlled_local_result
+      - /admissibility/rule_assessments/traceable_load/controlled_local_result
+      - /admissibility/stop_assessment/reached
+      - /admissibility/stop_assessment/mode
+      - /admissibility/stop_assessment/preserved_result
+      - /result/status_declaration/resolution_test_result
     same_claim_collision_assessed: true
     same_claim_collision_present: false
     collision_resolution_state: no_collision
     preserved_non_selected_findings:
-    - The contemplated finer comparison is resolution-neutral, but the current claim concerns inadmissible continuation after
-      that completed finding.
+      - The contemplated finer comparison is resolution-neutral, but the current claim concerns inadmissible continuation after that 
+        completed finding.
     split_decision:
       required: false
-      rationale: The resolution-neutral status finding and mandatory-stop route concern the same delimited continuation claim
-        and are represented on separate axes rather than split into competing class claims.
+      rationale: The resolution-neutral status finding and mandatory-stop route concern the same delimited continuation claim and are 
+        represented on separate axes rather than split into competing class claims.
       separated_claim_or_record_ids_source_pointer: /result/routing/candidate_assessments
-    class_selection_rationale: PraxisPurchase is below_floor for continuation, TraceableLoad remains within_ceiling, the same
-      source reference and source function are preserved, no stronger finer claim is retained, and an adequate earlier result
-      remains. Mandatory stop is therefore the decisive class; resolution-neutrality remains a status-axis finding rather
-      than the final Output Class.
+    class_selection_rationale: PraxisPurchase is below_floor for continuation, TraceableLoad remains within_ceiling, the same source 
+      reference and source function are preserved, no stronger finer claim is retained, and an adequate earlier result remains. Mandatory 
+      stop is therefore the decisive class; resolution-neutrality remains a status-axis finding rather than the final Output Class.
     current_claim_disposition:
       value: maintained
-      rationale: The stop claim is retained, and it preserves the earlier occurrence-level claim without promoting the contemplated
-        finer reconstruction.
+      rationale: The stop claim is retained, and it preserves the earlier occurrence-level claim without promoting the contemplated finer 
+        reconstruction.
     substantive_judgment_acknowledged: true
     boundary_adjudication_source_pointer: /result/routing/candidate_assessments
   class_payload:
     class_id: mandatory_stop
-    load_bearing_trigger: Further DECOMPOSE continuation after a source-supported resolution-neutral comparison would remain
-      below the Praxeological Relevance Floor.
+    load_bearing_trigger: Further DECOMPOSE continuation after a source-supported resolution-neutral comparison would remain below the 
+      Praxeological Relevance Floor.
     continuation_claim_pointer: /claim/claim_id
     earlier_result_preserved: true
-    reentry_condition_or_explicit_absence: Reentry requires a new record with new source-supported evidence that a finer component
-      or relation changes the reconstruction, source-function assessment, or another bounded claim.
-    rationale: 'Stop is a positive result here: it prevents irrelevant differentiation while preserving the earlier occurrence-level
-      result and future testability under changed conditions.'
+    reentry_condition_or_explicit_absence: Reentry requires a new record with new source-supported evidence that a finer component or 
+      relation changes the reconstruction, source-function assessment, or another bounded claim.
+    rationale: 'Stop is a positive result here: it prevents irrelevant differentiation while preserving the earlier occurrence-level result and
+      future testability under changed conditions.'
 relations:
   prior_record_ids: []
   prior_claim_ids:
-  - claim.source.ack.beta.completed
+    - claim.source.ack.beta.completed
   sibling_claim_or_record_ids: []
   rival_record_ids: []
   countercase_refs:
-  - 'planned-negative-mutation: change PraxisPurchase to gain while retaining mandatory_stop'
-  - 'planned-negative-mutation: remove preserved earlier result'
-  - 'planned-negative-mutation: change operation kind away from DECOMPOSE'
+    - 'planned-negative-mutation: change PraxisPurchase to gain while retaining mandatory_stop'
+    - 'planned-negative-mutation: remove preserved earlier result'
+    - 'planned-negative-mutation: change operation kind away from DECOMPOSE'

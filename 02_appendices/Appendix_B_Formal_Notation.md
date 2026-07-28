@@ -1,6 +1,6 @@
 # Appendix B — Formal Notation
 
-**Status:** substantive bounded provisional completion; final Appendix lock remains pending until Appendices A–N, Reference Freeze, and the Integrated Corpus Audit  
+**Status:** substantive bounded provisional completion; cross-artifact lock conditioned on Reference Freeze and the Integrated Corpus Audit  
 **Repository role:** formal notation and cross-artifact translation supplement; not an independent semantic, mathematical, or theory source  
 **Authority basis:** `PMS.yaml` → `00_source/PMS-STRATA_Structure.md` → canonical prose in `01_blocks/*` → binding controls in `05_minified/*` → formal operationalization in `07_model/*`  
 **Primary inputs:** Chapters 2, 3, 5, 9, 11, 19, 23, 29, 30, 32, 42, 49, and 54; `05_minified/PMS_STRATA_Operation_Signatures_Minified.md`; `04_reference/Transformation_Operation_Index.md`; `07_model/Operation_Registry.yaml`; `07_model/Transformation_Record.schema.json`
@@ -1245,7 +1245,7 @@ Appendix B notation maps to existing record paths. The notation does not add fie
 | `class(T_i)` | `/result/selected_output_class` or current schema-equivalent field |
 | Stop notation | `/governance/*`, `/result/*`, and applicable admissibility findings |
 
-Where the schema uses a more specific field name than this table, the schema governs. Appendix C will explain the current field groups in detail.
+Where the schema uses a more specific field name than this table, the schema governs. Appendix C explains the current field groups in detail.
 
 ### B.13.1 JSON Pointer notation
 
@@ -1287,7 +1287,7 @@ means both duties matter. It does not allow a high value on one to compensate fo
 
 ### B.14.3 Arrows
 
-An arrow may mean temporal precedence, operation direction, handoff, or production routing. The surrounding label must disambiguate it.
+An arrow may mean temporal precedence, operation direction, handoff, navigation, or a declared dependency. The surrounding label must disambiguate it.
 
 ```text
 X_1 → X_2
@@ -1299,7 +1299,7 @@ alone is insufficient. Prefer:
 X_1 ≺_τ X_2                 temporal precedence
 T_i : X --COMPOSE--> Y      operation occurrence
 H_{i,i+1}: Y → Z            chain handoff
-Appendix B → Appendix C     production order
+Appendix B → Appendix C     navigation or declared dependency
 ```
 
 ### B.14.4 Graph notation
@@ -1547,7 +1547,7 @@ Non-Capture requires adequate bounded attempts and a persistent claim-relative c
 | chain notation | Chapters 47 and 54 | occurrence/handoff/loss-preservation syntax | Appendices C and N |
 | record paths | Transformation Record Schema | human-readable crosswalk | Appendix C |
 | case examples | `03_cases/*` | notation illustration only | Appendices H–M |
-| graph notation | Reader boundary and Chapter 13 branch rules | typed-edge guard | later Reader |
+| graph notation | Reader boundary and Chapter 13 branch rules | typed-edge guard | Reader |
 
 ---
 
@@ -1569,7 +1569,7 @@ Appendix B is complete for its assigned migration burden when:
 - notation maps to existing record fields without creating new schema requirements;
 - authority inheritance remains prohibited.
 
-The present result satisfies those conditions at a substantive bounded provisional level.
+Appendix B satisfies those conditions at a substantive bounded provisional level.
 
 ```text
 Appendix B complete
@@ -1584,4 +1584,3 @@ Appendix B complete
 ≠ final release lock
 ```
 
-**Next controlled appendix:** Appendix C — Shared Transformation Record Schema.

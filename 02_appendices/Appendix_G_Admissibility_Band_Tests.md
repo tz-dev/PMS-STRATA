@@ -646,7 +646,7 @@ failed_transformation
 → the declared operation does not carry its claim
 ```
 
-The distinction is claim- and route-specific. Appendix I will examine the boundary collisions in detail.
+The distinction is claim- and route-specific. Appendix I examines the boundary collisions in detail.
 
 ---
 

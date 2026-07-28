@@ -214,4 +214,4 @@ many links ≠ stronger warrant
 
 ## M.9 Completion boundary
 
-Appendix M is complete for the present 59-Record corpus. It remains bounded provisional until Reference Freeze and the Integrated Corpus Audit confirm that identifiers, links, chapter ownership, and final Block wording remain aligned. A later case addition must update the YAML Index, Markdown Index, pairing manifest, Output-Class coverage, package membership where applicable, and this Appendix in one controlled revision.
+Appendix M is complete for the current 59-Record corpus. Its cross-artifact lock is conditioned on Reference Freeze and the Integrated Corpus Audit confirming that identifiers, links, chapter ownership, and canonical Block wording remain aligned. Any case addition must update the YAML Index, Markdown Index, pairing manifest, Output-Class coverage, package membership where applicable, and this Appendix in one controlled revision.

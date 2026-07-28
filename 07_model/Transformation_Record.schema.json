@@ -11646,16 +11646,16 @@
           "type": "object",
           "properties": {
             "operation_registry": {
-              "const": "0.1.1"
+              "const": "0.2.0"
             },
             "output_classes": {
-              "const": "0.1.1"
+              "const": "0.2.0"
             },
             "admissibility_rules": {
-              "const": "0.1.2"
+              "const": "0.2.0"
             },
             "boundary_decision_tree": {
-              "const": "0.1.1"
+              "const": "0.2.0"
             }
           },
           "additionalProperties": false,
@@ -13391,9 +13391,8 @@
   },
   "x-pms-strata-artifact": {
     "artifact_id": "Transformation_Record.schema.json",
-    "version": "0.1.3",
-    "status": "provisional_formal_model_v0",
-    "build_step": 5,
+    "version": "0.2.0",
+    "status": "active_formal_model",
     "registered_scope": "record field syntax, requiredness, conditional payloads, occurrence/chain discrimination, routed/diagnostic discrimination, exact audit-stage Rule bindings, authoritative-axis pointers, candidate-boundary adjudication consistency, current-claim pointers, and structural cross-field consistency",
     "route_selection_owner": "07_model/Boundary_Decision_Tree.yaml",
     "class_identity_owner": "07_model/Output_Classes.yaml",
@@ -13412,7 +13411,7 @@
       "current_tested_claim": "/claim/claim_id",
       "candidate_boundary_adjudications": "/result/routing/candidate_assessments"
     },
-    "cross_record_checks_deferred": [
+    "cross_record_integrity_checks": [
       "referenced claim and record IDs exist",
       "chain reference count matches declared operation sequence",
       "external occurrence order is consistent",
@@ -13577,11 +13576,10 @@
   },
   "x-pms-strata-chapter-7-record-handoff": {
     "canonical_prose_owner": "01_blocks/01_foundations.md#chapter-7-shared-transformation-record",
-    "handoff_status": "chapter_7_provisionally_locked",
+    "handoff_status": "active_formal_carrier",
     "schema_role": "lower_authority_structural_carrier",
     "structural_instance_schema_version_unchanged": "0.1.2",
     "structural_revision_required": false,
-    "smoke_record_migration_required": false,
     "covered_common_families": [
       "source",
       "operation",
@@ -13627,7 +13625,8 @@
       ],
       "authority_inheritance": "prohibited"
     },
-    "package_checks_remain_external": [
+    "smoke_record_update_required": false,
+    "package_checks_execute_outside_schema": [
       "referenced IDs exist",
       "chain order and handoffs resolve",
       "relation graphs are acyclic",

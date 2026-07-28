@@ -332,7 +332,7 @@ external method superior for claim Q
 
 ## L.11 Reader and graph boundary
 
-A later Reader may display captured components, residual relations, uncertain edges, Stop points, rival decompositions, and Non-Capture boundaries. It may not convert graph gaps into hidden entities or missing operators.
+The Reader may display captured components, residual relations, uncertain edges, Stop points, rival decompositions, and Non-Capture boundaries. It may not convert graph gaps into hidden entities or missing operators.
 
 ```text
 unrendered remainder

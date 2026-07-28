@@ -1,11 +1,10 @@
 artifact:
   id: pms_strata_output_classes
   title: PMS-STRATA Output Classes
-  version: 0.1.1
-  status: formal_model_v0_provisional
-  build_step: 2
-  artifact_role: Machine-readable registry of the ten canonical PMS-STRATA Output Classes, their meanings, semantic
-    boundaries, claim effects, and cross-artifact handoffs.
+  version: 0.2.0
+  status: active_formal_model
+  artifact_role: Machine-readable registry of the ten canonical PMS-STRATA Output Classes, their meanings, semantic boundaries, claim 
+    effects, and cross-artifact handoffs.
   registered_scope:
     - exact canonical Output Class inventory and spelling
     - class meanings and semantic use boundaries
@@ -29,9 +28,9 @@ artifact:
     - path: 05_minified/PMS_STRATA_Operation_Signatures_Minified.md
       role: operation-local result and class-mapping handoff control
     - path: 05_minified/Block_Contracts.md
-      role: block-level production contract
+      role: block-level control contract
     - path: 05_minified/Chapter_Contracts.md
-      role: chapter-level production contract
+      role: chapter-level control contract
   supporting_reference_inputs:
     - path: 04_reference/Output_Class_Index.md
       role: principal populated class and boundary reference without independent theory authority
@@ -56,12 +55,11 @@ artifact:
   existing_formal_input:
     - path: 07_model/Operation_Registry.yaml
       role: operation identity, operation-specific boundaries, and ownership handoff input
-  prose_precedence: This registry mirrors and tests controlled prose. It does not replace PMS Base, controlled prose,
-    including later provisionally or finally locked canonical corpus prose, or substantive human and domain-grounded
-    judgment.
-  non_authority_statement: Enum validity, class membership, YAML validity, schema validity, formal completeness, or a
-    selected class label do not establish substantive admissibility, empirical truth, actual causality, semantic
-    validity, normative validity, person judgment, legitimacy, or application authority.
+  prose_precedence: This registry mirrors and tests the active controlled prose. It does not replace PMS Base, canonical corpus prose, 
+    binding compact controls, or substantive human and domain-grounded judgment.
+  non_authority_statement: Enum validity, class membership, YAML validity, schema validity, formal completeness, or a selected class label 
+    do not establish substantive admissibility, empirical truth, actual causality, semantic validity, normative validity, person judgment, 
+    legitimacy, or application authority.
 class_registry_constraints:
   exact_class_count: 10
   canonical_class_ids:
@@ -150,19 +148,17 @@ shared_output_contract:
 output_classes:
   admissible:
     canonical_value: admissible
-    canonical_meaning: The declared operation satisfies all applicable common and operation-specific requirements for
-      the claim and scope already stated, without a further output-relevant restriction beyond ordinary STRATA
-      boundedness.
-    primary_governance_question: Does the tested claim pass as declared without a material output-relevant restriction
-      beyond ordinary boundedness?
+    canonical_meaning: The declared operation satisfies all applicable common and operation-specific requirements for the claim and scope 
+      already stated, without a further output-relevant restriction beyond ordinary STRATA boundedness.
+    primary_governance_question: Does the tested claim pass as declared without a material output-relevant restriction beyond ordinary 
+      boundedness?
     use_conditions:
       - the operation identity is correct
       - all applicable common and operation-specific requirements have been substantively addressed
       - PraxisPurchase and TraceableLoad are sufficient for the declared claim
-      - Type Integrity, continuity, boundedness, counterfactual sensitivity, ceilings, loss, stop, and Non-Capture
-        duties are addressed as applicable
-      - no material scope reduction, provisional support condition, partial split, or claim reduction is the primary
-        governance result
+      - Type Integrity, continuity, boundedness, counterfactual sensitivity, ceilings, loss, stop, and Non-Capture duties are addressed as 
+        applicable
+      - no material scope reduction, provisional support condition, partial split, or claim reduction is the primary governance result
     exclusion_conditions:
       - empirical truth or causal proof
       - semantic or normative validity
@@ -171,14 +167,11 @@ output_classes:
       - ordinary contextual boundedness treated as a bounded-claim output
     claim_effect:
       immediate: Retain the tested claim in its declared form and scope.
-      preserved_result: The local operation result, loss profile, declared scope, and all prior records remain
-        visible.
-      withdrawn_or_unretained_result: No broader, stronger, transferred, or authority-bearing claim is retained by
-        this class.
+      preserved_result: The local operation result, loss profile, declared scope, and all prior records remain visible.
+      withdrawn_or_unretained_result: No broader, stronger, transferred, or authority-bearing claim is retained by this class.
     continuation_and_reentry:
       continuation_principle: Further analysis is optional and requires separate praxeological justification.
-      reentry_principle: Any extension of source, frame, scope, granularity, level, operation, or target function is a
-        new testable claim.
+      reentry_principle: Any extension of source, frame, scope, granularity, level, operation, or target function is a new testable claim.
       new_record_required_for_material_extension_or_changed_grounds: true
       prior_result_must_remain_recorded: true
     special_preconditions:
@@ -207,13 +200,12 @@ output_classes:
       - admissible_vs_bounded_claim
   admissible_with_bounded_claim:
     canonical_value: admissible_with_bounded_claim
-    canonical_meaning: The transformation is warranted, but a material narrowing of context, time, level, object,
-      function, case population, or generality is itself the decisive governance result.
-    primary_governance_question: Is a material restriction of reach or scope itself the decisive result for an already
-      revised and tested claim?
+    canonical_meaning: The transformation is warranted, but a material narrowing of context, time, level, object, function, case population,
+      or generality is itself the decisive governance result.
+    primary_governance_question: Is a material restriction of reach or scope itself the decisive result for an already revised and tested 
+      claim?
     use_conditions:
-      - the transformation passes only after a material narrowing relative to the initially tested or normally
-        expected claim
+      - the transformation passes only after a material narrowing relative to the initially tested or normally expected claim
       - the limitation concerns reach or scope rather than unresolved support alone
       - the bounded claim itself has already been revised and tested
       - the record states both the retained scope and what lies outside it
@@ -226,8 +218,7 @@ output_classes:
       - a claim labelled bounded without a material output-relevant restriction
     claim_effect:
       immediate: Retain only the tested narrower claim.
-      preserved_result: The declared scope boundary, local result, loss profile, and original broader claim record
-        remain visible.
+      preserved_result: The declared scope boundary, local result, loss profile, and original broader claim record remain visible.
       withdrawn_or_unretained_result: The broader or transferred formulation is not retained as if it had passed.
     continuation_and_reentry:
       continuation_principle: No scope transfer is authorized by the bounded result.
@@ -264,14 +255,12 @@ output_classes:
       - claim_reduction_vs_bounded_claim
   admissible_but_provisional:
     canonical_value: admissible_but_provisional
-    canonical_meaning: The operation is coherent and sufficiently supported for controlled use, while material source,
-      counterfactual, calibration, temporal, or rival-reconstruction limits remain unresolved.
-    primary_governance_question: Does one coherent delimited claim remain usable while a material support or
-      calibration limitation remains?
+    canonical_meaning: The operation is coherent and sufficiently supported for controlled use, while material source, counterfactual, 
+      calibration, temporal, or rival-reconstruction limits remain unresolved.
+    primary_governance_question: Does one coherent delimited claim remain usable while a material support or calibration limitation remains?
     use_conditions:
       - the claim is usable under current support
-      - the unresolved issue concerns evidential, counterfactual, calibration, temporal, or rival stability rather
-        than scope alone
+      - the unresolved issue concerns evidential, counterfactual, calibration, temporal, or rival stability rather than scope alone
       - the record names the material uncertainty and its claim effect
       - the claim remains revisable without being treated as failed
     exclusion_conditions:
@@ -282,13 +271,13 @@ output_classes:
       - no adequate retained claim
     claim_effect:
       immediate: Retain the current claim with an explicit provisional qualification.
-      preserved_result: The usable claim, its material uncertainty, supporting evidence, rivals, loss, and re-entry
-        condition remain visible.
+      preserved_result: The usable claim, its material uncertainty, supporting evidence, rivals, loss, and re-entry condition remain 
+        visible.
       withdrawn_or_unretained_result: No claim of settled support, stability, uniqueness, or completeness is retained.
     continuation_and_reentry:
       continuation_principle: Further support, calibration, counterfactual testing, or rival comparison may continue.
-      reentry_principle: New evidence, calibration criteria, temporal support, or rival comparison may strengthen,
-        narrow, split, or defeat the claim.
+      reentry_principle: New evidence, calibration criteria, temporal support, or rival comparison may strengthen, narrow, split, or defeat 
+        the claim.
       new_record_required_for_material_extension_or_changed_grounds: true
       prior_result_must_remain_recorded: true
     special_preconditions:
@@ -322,10 +311,9 @@ output_classes:
       - provisional_vs_resolution_neutral
   resolution_neutral:
     canonical_value: resolution_neutral
-    canonical_meaning: A valid finer-resolution or explicit granularity test is permissible, but the added
-      distinctions do not change the warranted praxis reconstruction or claim.
-    primary_governance_question: Did a source-supported resolution test occur without changing the warranted
-      reconstruction?
+    canonical_meaning: A valid finer-resolution or explicit granularity test is permissible, but the added distinctions do not change the 
+      warranted praxis reconstruction or claim.
+    primary_governance_question: Did a source-supported resolution test occur without changing the warranted reconstruction?
     use_conditions:
       - a genuine finer-resolution or explicit granularity comparison has occurred
       - the added distinctions are source-supported
@@ -340,14 +328,12 @@ output_classes:
       - automatic mandatory stop for the valid neutral test itself
     claim_effect:
       immediate: Retain the prior warranted reconstruction and reject only the tested resolution-gain claim.
-      preserved_result: The valid resolution test, added distinctions, prior warranted claim, and
-        unchanged-reconstruction finding remain visible.
-      withdrawn_or_unretained_result: No additional praxis finding or resolution-gain claim is retained from this
-        test.
+      preserved_result: The valid resolution test, added distinctions, prior warranted claim, and unchanged-reconstruction finding remain 
+        visible.
+      withdrawn_or_unretained_result: No additional praxis finding or resolution-gain claim is retained from this test.
     continuation_and_reentry:
       continuation_principle: Repetition of the identical refinement without changed grounds is unnecessary.
-      reentry_principle: A different distinction, source basis, frame, granularity relation, or claim may justify a
-        new resolution test.
+      reentry_principle: A different distinction, source basis, frame, granularity relation, or claim may justify a new resolution test.
       new_record_required_for_material_extension_or_changed_grounds: true
       prior_result_must_remain_recorded: true
     special_preconditions:
@@ -378,10 +364,10 @@ output_classes:
       - provisional_vs_resolution_neutral
   analogy_only:
     canonical_value: analogy_only
-    canonical_meaning: A useful and declared structural resemblance is retained, while semantic preservation or a
-      source-traceable contextual target function is not established.
-    primary_governance_question: Does a bounded resemblance remain useful while a valid functional projection or
-      semantic preservation is not established?
+    canonical_meaning: A useful and declared structural resemblance is retained, while semantic preservation or a source-traceable 
+      contextual target function is not established.
+    primary_governance_question: Does a bounded resemblance remain useful while a valid functional projection or semantic preservation is 
+      not established?
     use_conditions:
       - the resemblance has explanatory or comparative value
       - the relation is explicitly marked as analogy
@@ -397,14 +383,12 @@ output_classes:
       - non-capture merely because a projection is not established
     claim_effect:
       immediate: Retain only the bounded analogy claim.
-      preserved_result: The resemblance, its declared limits, breaking points, and any separate projection result
-        remain visible.
-      withdrawn_or_unretained_result: Any stronger projection, identity, semantic-preservation, or target-function
-        claim is not retained unless separately tested.
+      preserved_result: The resemblance, its declared limits, breaking points, and any separate projection result remain visible.
+      withdrawn_or_unretained_result: Any stronger projection, identity, semantic-preservation, or target-function claim is not retained 
+        unless separately tested.
     continuation_and_reentry:
       continuation_principle: Resemblance does not authorize PROJECT_AS or origin-type substitution.
-      reentry_principle: A later projection claim must satisfy the full PROJECT_AS duties in a new operation
-        occurrence and record.
+      reentry_principle: A later projection claim must satisfy the full PROJECT_AS duties in a new operation occurrence and record.
       new_record_required_for_material_extension_or_changed_grounds: true
       prior_result_must_remain_recorded: true
     special_preconditions:
@@ -433,10 +417,9 @@ output_classes:
       - analogy_only_vs_failed_projection
   partially_admissible:
     canonical_value: partially_admissible
-    canonical_meaning: Clearly identified stages, parts, relations, or subclaims satisfy the applicable tests while
-      other parts require reduction, separation, rejection, or unresolved status.
-    primary_governance_question: Can the retained and non-retained parts be explicitly separated and independently
-      traced?
+    canonical_meaning: Clearly identified stages, parts, relations, or subclaims satisfy the applicable tests while other parts require 
+      reduction, separation, rejection, or unresolved status.
+    primary_governance_question: Can the retained and non-retained parts be explicitly separated and independently traced?
     use_conditions:
       - the retained and non-retained or differently classified separable portions can be named
       - the retained parts remain independently traceable
@@ -450,15 +433,12 @@ output_classes:
       - an average score across incompatible components
     claim_effect:
       immediate: Retain only the specified admissible components, relations, stages, or subclaims.
-      preserved_result: Each retained part and each non-retained, failed, provisional, reduced, or uncaptured
-        remainder remain separately identified.
-      withdrawn_or_unretained_result: No whole-operation, whole-object, or whole-chain validation is retained unless
-        separately established.
+      preserved_result: Each retained part and each non-retained, failed, provisional, reduced, or uncaptured remainder remain separately 
+        identified.
+      withdrawn_or_unretained_result: No whole-operation, whole-object, or whole-chain validation is retained unless separately established.
     continuation_and_reentry:
-      continuation_principle: Unresolved, failed, or uncaptured parts remain separate and may not inherit the retained
-        result.
-      reentry_principle: Each non-retained part requires its own revised claim, operation occurrence, record, or rival
-        reconstruction.
+      continuation_principle: Unresolved, failed, or uncaptured parts remain separate and may not inherit the retained result.
+      reentry_principle: Each non-retained part requires its own revised claim, operation occurrence, record, or rival reconstruction.
       new_record_required_for_material_extension_or_changed_grounds: true
       prior_result_must_remain_recorded: true
     special_preconditions:
@@ -491,14 +471,13 @@ output_classes:
       - partial_vs_non_capture
   claim_reduction_required:
     canonical_value: claim_reduction_required
-    canonical_meaning: The currently tested claim is too strong, but a concrete weaker object class, function, level,
-      scope, confidence, or relation has identifiable source- or rule-grounded support sufficient to justify explicit
-      reformulation and retesting without pre-authorizing its admissibility.
+    canonical_meaning: The currently tested claim is too strong, but a concrete weaker object class, function, level, scope, confidence, or 
+      relation has identifiable source- or rule-grounded support sufficient to justify explicit reformulation and retesting without 
+      pre-authorizing its admissibility.
     primary_governance_question: Must the present claim be weakened before any retained result can be tested?
     use_conditions:
       - the stronger claim does not pass as stated
-      - a concrete weaker formulation has identifiable source- or rule-grounded support sufficient to justify
-        reformulation and retesting
+      - a concrete weaker formulation has identifiable source- or rule-grounded support sufficient to justify reformulation and retesting
       - the weaker formulation has not been treated as automatically validated
       - the reduction preserves the original failure or overreach
     exclusion_conditions:
@@ -509,20 +488,17 @@ output_classes:
       - a source-function effect that does not alter the tested operation claim
     claim_effect:
       immediate: Do not retain the current claim as stated; formulate the weaker claim explicitly for a new test.
-      preserved_result: The original claim, its failed or excessive reach, the proposed reduction, and all prior
-        results remain recorded.
-      withdrawn_or_unretained_result: The current stronger claim and any presumption that the reduced claim has
-        already passed are not retained.
+      preserved_result: The original claim, its failed or excessive reach, the proposed reduction, and all prior results remain recorded.
+      withdrawn_or_unretained_result: The current stronger claim and any presumption that the reduced claim has already passed are not 
+        retained.
     continuation_and_reentry:
       continuation_principle: The current claim may not continue unchanged.
-      reentry_principle: The reduced claim re-enters as a new testable claim with its own source, scope, loss,
-        rationale, and output class.
+      reentry_principle: The reduced claim re-enters as a new testable claim with its own source, scope, loss, rationale, and output class.
       new_record_required_for_material_extension_or_changed_grounds: true
       prior_result_must_remain_recorded: true
     special_preconditions:
       - the current claim exceeds its warranted ceiling or specificity
-      - a concrete weaker formulation is source- or rule-grounded and sufficiently plausible to warrant explicit
-        retesting
+      - a concrete weaker formulation is source- or rule-grounded and sufficiently plausible to warrant explicit retesting
       - the weaker formulation has not yet received substantive testing
       - the original result remains preserved rather than rewritten
     representative_local_results:
@@ -551,9 +527,9 @@ output_classes:
       - claim_reduction_vs_mandatory_stop
   mandatory_stop:
     canonical_value: mandatory_stop
-    canonical_meaning: Continuation of the present operation under the present conditions would violate a load-bearing
-      STRATA boundary such as the Relevance Floor, Traceability Ceiling, Source Ceiling, Type Integrity, contextual
-      boundedness, calibration, or anti-immunization requirements.
+    canonical_meaning: Continuation of the present operation under the present conditions would violate a load-bearing STRATA boundary such 
+      as the Relevance Floor, Traceability Ceiling, Source Ceiling, Type Integrity, contextual boundedness, calibration, or 
+      anti-immunization requirements.
     primary_governance_question: Would further continuation under the present conditions cross a mandatory boundary?
     use_conditions:
       - the current continuation, not merely analyst preference, would be inadmissible
@@ -569,14 +545,12 @@ output_classes:
       - the mere existence of a valid resolution-neutral result
     claim_effect:
       immediate: End the current continuation and record the reached mandatory boundary.
-      preserved_result: Preserve any valid prior result, loss, source object, partial claim, failure, or non-capture
-        statement.
-      withdrawn_or_unretained_result: No further unmodified continuation under the present conditions is retained or
-        authorized.
+      preserved_result: Preserve any valid prior result, loss, source object, partial claim, failure, or non-capture statement.
+      withdrawn_or_unretained_result: No further unmodified continuation under the present conditions is retained or authorized.
     continuation_and_reentry:
       continuation_principle: Continuation under the present grounds is prohibited.
-      reentry_principle: Re-entry requires changed grounds and a new record, such as new sources, a different claim,
-        or newly justified calibration.
+      reentry_principle: Re-entry requires changed grounds and a new record, such as new sources, a different claim, or newly justified 
+        calibration.
       new_record_required_for_material_extension_or_changed_grounds: true
       prior_result_must_remain_recorded: true
     special_preconditions:
@@ -609,10 +583,9 @@ output_classes:
       - claim_reduction_vs_mandatory_stop
   failed_transformation:
     canonical_value: failed_transformation
-    canonical_meaning: The declared operation does not satisfy its defining identity or one or more necessary
-      admissibility conditions and therefore does not establish the claimed transformation result.
-    primary_governance_question: Did the declared operation fail its identity or necessary conditions for the tested
-      claim?
+    canonical_meaning: The declared operation does not satisfy its defining identity or one or more necessary admissibility conditions and 
+      therefore does not establish the claimed transformation result.
+    primary_governance_question: Did the declared operation fail its identity or necessary conditions for the tested claim?
     use_conditions:
       - COMPOSE is asserted without a constitutive formation relation
       - DECOMPOSE is asserted as a parts list without relational reconstruction
@@ -627,15 +600,13 @@ output_classes:
       - a surviving bounded analogy claim
     claim_effect:
       immediate: Reject the declared transformation result for the tested claim.
-      preserved_result: Valid source objects, prior claims, reduced alternatives, analogies, losses, and rival
-        operations remain separately available where warranted.
-      withdrawn_or_unretained_result: The claimed operation result and any retroactive rescue of that occurrence are
-        not retained.
+      preserved_result: Valid source objects, prior claims, reduced alternatives, analogies, losses, and rival operations remain separately 
+        available where warranted.
+      withdrawn_or_unretained_result: The claimed operation result and any retroactive rescue of that occurrence are not retained.
     continuation_and_reentry:
-      continuation_principle: The failed occurrence may not be treated as successful through a later operation or
-        relabelling.
-      reentry_principle: A materially revised operation is a new claim and new occurrence; it is not retroactive
-        success of the failed transformation.
+      continuation_principle: The failed occurrence may not be treated as successful through a later operation or relabelling.
+      reentry_principle: A materially revised operation is a new claim and new occurrence; it is not retroactive success of the failed 
+        transformation.
       new_record_required_for_material_extension_or_changed_grounds: true
       prior_result_must_remain_recorded: true
     special_preconditions:
@@ -668,11 +639,10 @@ output_classes:
       - analogy_only_vs_failed_projection
   non_capture:
     canonical_value: non_capture
-    canonical_meaning: The present STRATA grammar, source basis, granularity, composition, calibration, or projection
-      cannot adequately capture the declared object, relation, or function without distortion, unsupported extension,
-      or false closure.
-    primary_governance_question: Does no adequate retained STRATA claim remain under the present limiting conditions
-      without distortion or false closure?
+    canonical_meaning: The present STRATA grammar, source basis, granularity, composition, calibration, or projection cannot adequately 
+      capture the declared object, relation, or function without distortion, unsupported extension, or false closure.
+    primary_governance_question: Does no adequate retained STRATA claim remain under the present limiting conditions without distortion or 
+      false closure?
     use_conditions:
       - captured and uncaptured portions are identified
       - the limiting condition is stated
@@ -688,14 +658,13 @@ output_classes:
       - an adequate retained claim for the same delimited tested claim
     claim_effect:
       immediate: State what remains uncaptured and reduce any totalizing claim.
-      preserved_result: Captured portions, attempted operations, limiting conditions, failures, partial results, and
-        rivals remain explicitly recorded.
-      withdrawn_or_unretained_result: No adequate whole or totalizing STRATA claim is retained under the present
-        conditions.
+      preserved_result: Captured portions, attempted operations, limiting conditions, failures, partial results, and rivals remain 
+        explicitly recorded.
+      withdrawn_or_unretained_result: No adequate whole or totalizing STRATA claim is retained under the present conditions.
     continuation_and_reentry:
       continuation_principle: False closure, unsupported extension, and protective use of weak claims are prohibited.
-      reentry_principle: Re-entry requires a changed limiting condition, new source basis, new calibration, different
-        operation, or rival framework; the original non-capture remains recorded.
+      reentry_principle: Re-entry requires a changed limiting condition, new source basis, new calibration, different operation, or rival 
+        framework; the original non-capture remains recorded.
       new_record_required_for_material_extension_or_changed_grounds: true
       prior_result_must_remain_recorded: true
     special_preconditions:
@@ -741,12 +710,11 @@ class_boundary_contract:
           id: admissible
         - kind: canonical_class
           id: admissible_with_bounded_claim
-      distinguishing_question: Is a material restriction relative to the tested or normally expected claim itself the
-        decisive governance result?
+      distinguishing_question: Is a material restriction relative to the tested or normally expected claim itself the decisive governance 
+        result?
       semantic_rule:
         - ordinary required contextual boundedness with no further output-relevant narrowing -> admissible
-        - material narrowing of reach or scope as the decisive result for an already tested claim ->
-          admissible_with_bounded_claim
+        - material narrowing of reach or scope as the decisive result for an already tested claim -> admissible_with_bounded_claim
       no_default_precedence: true
       route_owner: 07_model/Boundary_Decision_Tree.yaml
     - boundary_id: bounded_claim_vs_provisional
@@ -755,14 +723,14 @@ class_boundary_contract:
           id: admissible_with_bounded_claim
         - kind: canonical_class
           id: admissible_but_provisional
-      distinguishing_question: Is the primary result a material scope restriction or a material unresolved support or
-        calibration condition within one coherent scope?
+      distinguishing_question: Is the primary result a material scope restriction or a material unresolved support or calibration condition 
+        within one coherent scope?
       semantic_rule:
         - already revised and tested narrower reach as primary issue -> admissible_with_bounded_claim
-        - one coherent claim remains usable but support, calibration, temporal, counterfactual, or rival stability
-          remains material -> admissible_but_provisional
-        - where both matter, state both conditions separately and select the class representing the primary governance
-          result for the delimited claim
+        - one coherent claim remains usable but support, calibration, temporal, counterfactual, or rival stability remains material -> 
+          admissible_but_provisional
+        - where both matter, state both conditions separately and select the class representing the primary governance result for the 
+          delimited claim
       no_default_precedence: true
       route_owner: 07_model/Boundary_Decision_Tree.yaml
     - boundary_id: bounded_claim_vs_partial
@@ -771,12 +739,10 @@ class_boundary_contract:
           id: admissible_with_bounded_claim
         - kind: canonical_class
           id: partially_admissible
-      distinguishing_question: Does one whole claim pass under narrower reach, or do separable parts receive different
-        outcomes?
+      distinguishing_question: Does one whole claim pass under narrower reach, or do separable parts receive different outcomes?
       semantic_rule:
         - one whole claim passes under materially narrower reach -> admissible_with_bounded_claim
-        - specified separable parts, stages, or subclaims have different admissibility outcomes ->
-          partially_admissible
+        - specified separable parts, stages, or subclaims have different admissibility outcomes -> partially_admissible
       no_default_precedence: true
       route_owner: 07_model/Boundary_Decision_Tree.yaml
     - boundary_id: partial_vs_provisional
@@ -785,8 +751,7 @@ class_boundary_contract:
           id: partially_admissible
         - kind: canonical_class
           id: admissible_but_provisional
-      distinguishing_question: Are there different outcomes across separable parts, or one coherent usable claim with
-        unresolved support?
+      distinguishing_question: Are there different outcomes across separable parts, or one coherent usable claim with unresolved support?
       semantic_rule:
         - separable subclaims or stages have different outcomes -> partially_admissible
         - one coherent claim remains usable but support or rival comparison is unsettled -> admissible_but_provisional
@@ -798,13 +763,12 @@ class_boundary_contract:
           id: admissible_but_provisional
         - kind: canonical_class
           id: resolution_neutral
-      distinguishing_question: Does one usable claim remain under material support limits, or did a valid resolution
-        test leave the warranted reconstruction unchanged?
+      distinguishing_question: Does one usable claim remain under material support limits, or did a valid resolution test leave the 
+        warranted reconstruction unchanged?
       semantic_rule:
-        - one coherent delimited claim remains usable while material source, counterfactual, calibration, temporal, or
-          rival limits remain -> admissible_but_provisional
-        - a valid source-supported resolution test adds distinctions but does not change the warranted reconstruction
-          -> resolution_neutral
+        - one coherent delimited claim remains usable while material source, counterfactual, calibration, temporal, or rival limits remain 
+          -> admissible_but_provisional
+        - a valid source-supported resolution test adds distinctions but does not change the warranted reconstruction -> resolution_neutral
       no_default_precedence: true
       route_owner: 07_model/Boundary_Decision_Tree.yaml
     - boundary_id: provisional_vs_non_capture
@@ -813,8 +777,7 @@ class_boundary_contract:
           id: admissible_but_provisional
         - kind: canonical_class
           id: non_capture
-      distinguishing_question: Does one adequate claim remain usable under a material qualifier, or does no adequate
-        retained claim remain?
+      distinguishing_question: Does one adequate claim remain usable under a material qualifier, or does no adequate retained claim remain?
       semantic_rule:
         - one coherent claim remains usable under a material provisional qualifier -> admissible_but_provisional
         - no adequate claim remains without distortion, unsupported extension, or false closure -> non_capture
@@ -838,8 +801,7 @@ class_boundary_contract:
           id: claim_reduction_required
         - kind: canonical_class
           id: admissible_with_bounded_claim
-      distinguishing_question: Has the narrower claim already been revised and tested, or must the current claim still
-        be weakened?
+      distinguishing_question: Has the narrower claim already been revised and tested, or must the current claim still be weakened?
       semantic_rule:
         - current claim must still be weakened and retested -> claim_reduction_required
         - narrower claim has already been revised, tested, and passed -> admissible_with_bounded_claim
@@ -851,14 +813,13 @@ class_boundary_contract:
           id: claim_reduction_required
         - kind: canonical_class
           id: mandatory_stop
-      distinguishing_question: Can a grounded weaker claim be formulated and retested, or is continuation of the
-        present operation under the present conditions inadmissible?
+      distinguishing_question: Can a grounded weaker claim be formulated and retested, or is continuation of the present operation under the
+        present conditions inadmissible?
       semantic_rule:
         - a concrete source- or rule-grounded weaker claim may be formulated and retested -> claim_reduction_required
-        - continuation of the current operation under the present conditions would cross a mandatory boundary ->
-          mandatory_stop
-        - claim reduction does not pre-authorize the reduced claim, and mandatory stop does not prohibit all future
-          re-entry under changed grounds
+        - continuation of the current operation under the present conditions would cross a mandatory boundary -> mandatory_stop
+        - claim reduction does not pre-authorize the reduced claim, and mandatory stop does not prohibit all future re-entry under changed 
+          grounds
       no_default_precedence: true
       route_owner: 07_model/Boundary_Decision_Tree.yaml
     - boundary_id: mandatory_stop_vs_failed_transformation
@@ -867,8 +828,8 @@ class_boundary_contract:
           id: mandatory_stop
         - kind: canonical_class
           id: failed_transformation
-      distinguishing_question: Has the attempted operation already failed, or would further continuation cross a
-        mandatory boundary while prior results may remain?
+      distinguishing_question: Has the attempted operation already failed, or would further continuation cross a mandatory boundary while 
+        prior results may remain?
       semantic_rule:
         - declared operation fails its identity or necessary conditions -> failed_transformation
         - further continuation crosses a mandatory boundary while a prior result may remain -> mandatory_stop
@@ -881,8 +842,8 @@ class_boundary_contract:
           id: failed_transformation
         - kind: canonical_class
           id: non_capture
-      distinguishing_question: Did one declared operation fail, or does no adequate retained reconstruction remain
-        after bounded tests and alternatives?
+      distinguishing_question: Did one declared operation fail, or does no adequate retained reconstruction remain after bounded tests and 
+        alternatives?
       semantic_rule:
         - declared operation fails its test -> failed_transformation
         - no adequate retained claim remains without distortion or false closure -> non_capture
@@ -908,13 +869,13 @@ class_boundary_contract:
           id: resolution_neutral
         - kind: canonical_class
           id: claim_reduction_required
-      distinguishing_question: Did a supported finer-resolution test leave the warranted reconstruction unchanged, or
-        must a stronger claim be reformulated?
+      distinguishing_question: Did a supported finer-resolution test leave the warranted reconstruction unchanged, or must a stronger claim 
+        be reformulated?
       semantic_rule:
         - supported resolution test produces no changed warranted reconstruction -> resolution_neutral
         - current stronger claim must be reformulated and retested -> claim_reduction_required
-        - unsupported refinement points instead to failed_transformation or mandatory_stop according to the tested
-          claim and continuation boundary
+        - unsupported refinement points instead to failed_transformation or mandatory_stop according to the tested claim and continuation 
+          boundary
       no_default_precedence: true
       route_owner: 07_model/Boundary_Decision_Tree.yaml
     - boundary_id: analogy_only_vs_failed_projection
@@ -923,13 +884,11 @@ class_boundary_contract:
           id: analogy_only
         - kind: operation_specific_result
           id: failed PROJECT_AS claim
-      distinguishing_question: Does a bounded analogy survive separately from an unestablished or failed projection
-        claim?
+      distinguishing_question: Does a bounded analogy survive separately from an unestablished or failed projection claim?
       semantic_rule:
         - failed PROJECT_AS claim is recorded as failed_transformation for that projection occurrence where applicable
         - a separately retained useful bounded resemblance is recorded as analogy_only for the analogy claim
-        - the two results require separated claims or record segments and do not constitute class stacking for one
-          claim
+        - the two results require separated claims or record segments and do not constitute class stacking for one claim
       no_default_precedence: true
       route_owner: 07_model/Boundary_Decision_Tree.yaml
   exact_boundary_count: 14
@@ -1009,8 +968,7 @@ cross_artifact_handoffs:
       - operation identities and signatures
       - operation-specific duties
       - operation-level outcome handoffs
-    output_classes_relation: may reference canonical class identifiers but must not redefine class semantics or select
-      routes
+    output_classes_relation: may reference canonical class identifiers but must not redefine class semantics or select routes
   07_model/Output_Classes.yaml:
     owns:
       - exact ten-class inventory
@@ -1040,8 +998,7 @@ cross_artifact_handoffs:
       - operation-specific result field
       - canonical class value validation
       - separate support, resolution, disposition, capture, source-function, and prior-result fields
-    output_classes_relation: validates exact class identifiers and required separation without deciding substantive
-      correctness
+    output_classes_relation: validates exact class identifiers and required separation without deciding substantive correctness
   07_model/PMS-STRATA.yaml:
     owns:
       - formal-model manifest

@@ -1,6 +1,6 @@
 # PMS-STRATA — Claim Boundary Minified
 
-**Status:** canonical control artifact for corpus production  
+**Status:** canonical control artifact for corpus maintenance and audit  
 **Dependency:** PMS Base as represented by the repository-reference `PMS.yaml`  
 **Function:** compact boundary against which all STRATA prose, cases, formalizations, derivatives, and reader functions must be checked
 

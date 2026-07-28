@@ -2,19 +2,19 @@
 
 ## Granularity, Trajectory, Composition, and Cross-Level Functional Projection in PMS
 
-### Expanded Provisional Table of Contents
+### Architecture and Chapter Blueprint
 
-### Complete Working Structure
+### Active Structural Source
 
 # FRONT MATTER
 
 ## Preface
 
-* Starting point of the development of PMS-STRATA
+* Problem context from which PMS-STRATA was developed
 * The previously implicit problem of vertical PMS operations
 * STRATA as a specification, not an extension, of the base grammar
 * Relationship between theoretical ambition and methodological limitation
-* Status of the present text as an internal specification
+* Status and authority of this document as the active architecture and chapter blueprint
 
 ## Status and Scope Note
 

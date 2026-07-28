@@ -447,13 +447,13 @@ GOVERNANCE
 
 ## N.11 Completion boundary
 
-Appendix N completes the planned Appendix A–N set and fills the final assigned case template. It does not finalize the Reference Kernel, audit the complete canonical Blocks, finalize the Formal Model, create the Reader, or authorize release.
+Appendix N completes the Appendix A–N operational set and provides the integrated audit template. It does not finalize the Reference Kernel, perform the Integrated Corpus Audit, finalize the Formal Model, or authorize release.
 
 ```text
-Appendices A–N complete
-→ Reference Freeze next
-→ Integrated Corpus Audit after freeze preparation
-→ Model Finalization later
+Appendix set status: complete at a bounded provisional level
+Reference Kernel status: subject to Reference Freeze
+Canonical corpus status: subject to the Integrated Corpus Audit
+Formal Model status: subject to Model Finalization
 ```
 
-The final Appendix lock remains bounded provisional until Reference Freeze and the Integrated Corpus Audit confirm cross-artifact alignment, including the later rule-guided iteration of `01_blocks/*`.
+The Appendix-set lock remains bounded provisional until Reference Freeze and the Integrated Corpus Audit confirm cross-artifact alignment with canonical `01_blocks/*`.

@@ -1,6 +1,6 @@
 # PMS-STRATA — Minified Canonical
 
-**Status:** canonical integration artifact for corpus production  
+**Status:** canonical integration artifact for corpus maintenance and audit  
 **Dependency:** PMS Base as represented by `PMS.yaml`; `PMS_STRATA_Claim_Boundary_Minified.md`; `PMS_STRATA_Operation_Signatures_Minified.md`; `PMS_STRATA_Admissibility_Band_Minified.md`; the current `PMS-STRATA_Structure.md`  
 **Function:** shortest complete control representation of PMS-STRATA as a bounded transformation discipline
 
@@ -40,7 +40,7 @@ PMS_STRATA_Minified_Canonical.md
 → integrated compact control representation
 
 01_blocks/*
-→ canonical corpus once produced and audited
+→ canonical corpus
 
 07_model/*
 → machine-readable operationalization
@@ -1595,14 +1595,15 @@ They do not become independent theoretical authorities.
 
 ---
 
-## 26. Corpus Production Rule
+## 26. Corpus Production and Maintenance Rule
 
-The canonical production order remains:
+The canonical production and maintenance dependency order is:
 
 ```text
 Structure
 → Contracts
 → Canonical Kernel
+→ Reference Kernel v0
 → Formal Model v0
 → Foundations
 → PATH
@@ -1611,9 +1612,11 @@ Structure
 → LIMITS
 → Integrated Cases and Audit
 → Conclusion and Front Matter
-→ Appendices and Reference Freeze
-→ Corpus Integration
-→ Derivative Publications
+→ Appendices
+→ Reference Freeze
+→ Corpus Audit
+→ Model Finalization
+→ Derivatives
 → Reader
 → Release
 ```
@@ -1621,13 +1624,13 @@ Structure
 The standard chapter work unit is:
 
 ```text
-1. Read contract
-2. Check dependencies
+1. Read chapter contract
+2. Check dependencies and PMS Base
 3. Draft chapter
 4. Run redundancy guard
 5. Update glossary and references
-6. Update model where relevant
-7. Produce or assign test case
+6. Synchronize formal model
+7. Produce or assign case/countercase
 8. Run local admissibility audit
 9. Apply completion test
 10. Freeze provisionally
@@ -1699,7 +1702,7 @@ Every STRATA artifact must pass the following compact audit.
 
 ---
 
-## 28. Gate 1 Completion Test
+## 28. Canonical Kernel Completion Test
 
 The Canonical Minified Kernel is stable only if all of the following hold:
 
@@ -1724,7 +1727,7 @@ The Canonical Minified Kernel is stable only if all of the following hold:
 19. No person-level, clinical, psychological, moral, or ontological typing is introduced.
 20. No sentence implies a silent revision of PMS Base.
 
-If any condition fails, Gate 1 remains open.
+If any condition fails, the Canonical Minified Kernel is not complete.
 
 ---
 

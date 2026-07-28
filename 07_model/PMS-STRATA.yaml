@@ -1,65 +1,63 @@
 artifact:
   id: pms_strata_formal_model_root
   title: PMS-STRATA Formal Model Root
-  version: 0.1.303
-  status: formal_model_v0_provisional
-  build_step: 6
+  version: 0.2.0
+  status: active_formal_model
   artifact_role: Formal-model manifest, package-level assembly contract, and cross-artifact integrity declaration.
   registered_scope:
-  - component identity, path, version, status, and integrity binding
-  - dependency and ownership relations
-  - cross-artifact inventory snapshots
-  - integrated operational handoff sequence
-  - record-schema and validation-companion registration
-  - package-level deferred checks
-  - formal-model and authority boundaries
+    - component identity, path, version, status, and integrity binding
+    - dependency and ownership relations
+    - cross-artifact inventory bindings
+    - integrated operational handoff sequence
+    - record-schema and validation-companion registration
+    - package-level integrity checks
+    - formal-model and authority boundaries
   assembly_basis:
     repository_root: 16. PMS-STRATA/
-    built_from_snapshot: PMS-STRATA_Source_of_Truth_ZIP_337.zip
-    built_from_snapshot_sha256: d924bede7a2f191e40c77a2fb8855c8b868759f5b68eea54bf2643458f22b998
     active_component_count: 5
     self_fingerprint_embedded: false
     self_fingerprint_reason: A root artifact cannot contain a stable checksum of its own serialized bytes.
-  non_authority_statement: Root assembly, manifest validity, checksum agreement, dependency consistency, inventory equality,
-    schema validity, or workflow completeness do not establish substantive admissibility, empirical truth, actual causality,
-    semantic or normative validity, person judgment, legitimacy, application authority, or completeness of capture.
+    integrity_binding_scope: current registered repository files
+  non_authority_statement: Root assembly, manifest validity, checksum agreement, dependency consistency, inventory equality, schema 
+    validity, or workflow completeness do not establish substantive admissibility, empirical truth, actual causality, semantic or normative 
+    validity, person judgment, legitimacy, application authority, or completeness of capture.
   core_non_equivalences:
-  - more structure != more authority
-  - machine-readable consistency != truth proof
-  - root assembly != new PMS primitive
-  - manifest registration != semantic ownership
+    - more structure != more authority
+    - machine-readable consistency != truth proof
+    - root assembly != new PMS primitive
+    - manifest registration != semantic ownership
 authority_and_precedence:
   precedence_order:
-  - level: 1
-    source: PMS.yaml
-    role: unchanged PMS Base and Delta-Psi dependency
-  - level: 2
-    source: 00_source/PMS-STRATA_Structure.md
-    role: architecture and chapter blueprint
-  - level: 3
-    source: 01_blocks/*
-    role: canonical corpus prose after lock
-  - level: 4
-    source: 05_minified/*
-    role: binding compact controls and contracts
-  - level: 5
-    source: 07_model/*
-    role: formal operationalization without replacement of controlled prose
-  - level: 6
-    source: 02_appendices/*
-    role: schemas, templates, and supplements without upstream redefinition
-  - level: 7
-    source: 03_cases/*
-    role: cases, countercases, and confusion cases without theory-source status
-  - level: 8
-    source: 04_reference/*
-    role: terminology and cross-reference support without independent theory authority
-  - level: 9
-    source: 06_derivative_publications/*
-    role: derivative publications without upstream authority
-  - level: 10
-    source: 08_PMS-STRATA Reader/*
-    role: presentation and navigation layer without upstream authority
+    - level: 1
+      source: PMS.yaml
+      role: unchanged PMS Base and Delta-Psi dependency
+    - level: 2
+      source: 00_source/PMS-STRATA_Structure.md
+      role: architecture and chapter blueprint
+    - level: 3
+      source: 01_blocks/*
+      role: canonical corpus prose after lock
+    - level: 4
+      source: 05_minified/*
+      role: binding compact controls and contracts
+    - level: 5
+      source: 07_model/*
+      role: formal operationalization without replacement of controlled prose
+    - level: 6
+      source: 02_appendices/*
+      role: schemas, templates, and supplements without upstream redefinition
+    - level: 7
+      source: 03_cases/*
+      role: cases, countercases, and confusion cases without theory-source status
+    - level: 8
+      source: 04_reference/*
+      role: terminology and cross-reference support without independent theory authority
+    - level: 9
+      source: 06_derivative_publications/*
+      role: derivative publications without upstream authority
+    - level: 10
+      source: 08_PMS-STRATA Reader/*
+      role: presentation and navigation layer without upstream authority
   external_governing_authority:
     path: PMS.yaml
     location_scope: external_to_repository_package
@@ -68,71 +66,71 @@ authority_and_precedence:
     role: unchanged PMS Base dependency
     authority_inheritance_by_root: prohibited
   governing_repository_controls:
-  - path: 00_source/PMS-STRATA_Structure.md
-    role: architecture and chapter blueprint
-    sha256: 5404a2af5b0cf55b7f18880e48bee016e4306da080d41897b7b5e8dfa597e332
-  - path: 05_minified/PMS_STRATA_Minified_Canonical.md
-    role: canonical compact control
-    sha256: 5964ebecc4dbce92fba91a0f48aaff754a818338d3beebd36b287fa6ac1605dd
-  - path: 05_minified/PMS_STRATA_Operation_Signatures_Minified.md
-    role: operation-signature control
-    sha256: 3a3a18a8a7626e70fc488267d58348121cd2579a9c84188b86a303869dd859a2
-  - path: 05_minified/PMS_STRATA_Admissibility_Band_Minified.md
-    role: admissibility-band and twelve-stage audit control
-    sha256: 09621e041e76a0afffdf62e67cad0f5b64887547a874802e18baa74a148cfa6e
-  - path: 05_minified/PMS_STRATA_Claim_Boundary_Minified.md
-    role: claim and authority boundary control
-    sha256: 4b8aa6fccf2e9fd3a3456472473def7387626cf0ef9bd86947492e53b905c2c3
-  - path: 05_minified/Block_Contracts.md
-    role: block-level production contracts
-    sha256: 8f06f70e1972aa87ac741c71d4e42b67b5011f5196e29d5c02fc320f1003298a
-  - path: 05_minified/Chapter_Contracts.md
-    role: chapter-level production contracts
-    sha256: dfd9ef3bb7221888e93bcfad415cad2b1bf4e917082208ca954529a4ba4e531b
+    - path: 00_source/PMS-STRATA_Structure.md
+      role: architecture and chapter blueprint
+      sha256: c3c6da74f1ecda5f18bb88f04298fd0e9a8db966ed56fee4554a1b530940ce11
+    - path: 05_minified/PMS_STRATA_Minified_Canonical.md
+      role: canonical compact control
+      sha256: 637a43e63e98261d1ae344687274df97d829f96567471b8557e720ce149cbe4a
+    - path: 05_minified/PMS_STRATA_Operation_Signatures_Minified.md
+      role: operation-signature control
+      sha256: 57b543e62237281362676ad0a40dd6e18f30597f59c72ee8f2ed3cb2dd0418fd
+    - path: 05_minified/PMS_STRATA_Admissibility_Band_Minified.md
+      role: admissibility-band and twelve-stage audit control
+      sha256: f5df2bdb146e4f7b94d811ceb4b3208c0c30c4708af43467a497eacc8f55a0eb
+    - path: 05_minified/PMS_STRATA_Claim_Boundary_Minified.md
+      role: claim and authority boundary control
+      sha256: 998c4ece919ea96d7aaf9f6c767f9f4bb678a8420db1cd3f0016fb2a82349d4e
+    - path: 05_minified/Block_Contracts.md
+      role: block-level control contract
+      sha256: 35a93b7205a724fa14beabd5ac5d5b2cd315da16f9929765ca75834cdd69288f
+    - path: 05_minified/Chapter_Contracts.md
+      role: chapter-level control contract
+      sha256: 9989f419eb1584787830ae8dfa11c658ea7b26b6dea6bc48051079642901fbe2
   supporting_reference_inputs:
     authority_role: supporting_reference_only
     independent_theory_authority: false
     formal_model_may_mirror_but_not_redefine: true
     entries:
-    - path: 04_reference/Glossary.md
-      role: terminology support
-      sha256: ae62cbb8636ec6199bfb6090ec3beceb4d972cd6e3a749701e1606e591efca48
-    - path: 04_reference/Operator_Index.md
-      role: operator terminology and cross-reference support
-      sha256: 6e232691236ed8f77f7791d4d6607c9da26d768c8599b97ca8065dc3ac4a51ab
-    - path: 04_reference/Transformation_Operation_Index.md
-      role: operation and transformation cross-reference support
-      sha256: 3d7a8838b5a5ccd992f1c3e30822917a559656d0d764f19cfd4bbc70a10fffc6
-    - path: 04_reference/Non_Equivalence_Index.md
-      role: non-equivalence and category-collapse support
-      sha256: 055e8480b2cf5538d2cf93f9855e6eec7d17357bbba66ca917534ad1af7e6064
-    - path: 04_reference/Output_Class_Index.md
-      role: output-class and boundary support
-      sha256: 01bf0f0dda39e6ab059a8c23ebedef95fe3f97728ce739db5e0a62174ba73ba1
-    - path: 04_reference/Claim_Type_Table.md
-      role: claim, support, disposition, and capture-axis support
-      sha256: 05f17cdd6466b8fa2d4cc772c1b5cae3236116837a180ab21a8cbd39cc00cbf0
-    - path: 04_reference/Admissibility_Band_Reference.md
-      role: admissibility and synchronized twelve-stage audit support
-      sha256: f331e7e32749a9d30b8a6aebe578ed48ba023fd7c848ca9c8e284f471626a0fe
-    - path: 04_reference/Cross_Reference_Map.md
-      role: cross-artifact navigation support
-      sha256: 58666819ccd8323ffc7e41e2da37bd47e4af65685735b3c98b3eee96eec3fb97
-    - path: 04_reference/Evidence_Map.md
-      role: source, support, and warrant routing support
-      sha256: 1794725e549e4a9104205b11608dc26f050e27e8ad5a0e33c295f0f7810b450e
-    - path: 04_reference/Audit_Checklist.md
-      role: audit-stage and output-mapping separation support
-      sha256: dae250875001fe55c8993a38803b284668a3ac47c7d15ad68bb51f37cf036ce2
-    - path: 04_reference/Reader_Pathways.md
-      role: formal-model build and reading-route support
-      sha256: c7c282750b23bb4392723d68e042d73f2ab8a566f0142543d0d5b4b91987a7c3
+      - path: 04_reference/Glossary.md
+        role: terminology support
+        sha256: 564e6f53f72ad991e52464203e263daf65278f6a40f069d92110f282eaa10286
+      - path: 04_reference/Operator_Index.md
+        role: operator terminology and cross-reference support
+        sha256: d28123e698ae4ff26c839307fb10cb3562b79bf3817801ebc28458c83783c312
+      - path: 04_reference/Transformation_Operation_Index.md
+        role: operation and transformation cross-reference support
+        sha256: 279094d292d879f0ae148f4c9cd7f3abf9e16e01152aa69af2eb9959e099ec9a
+      - path: 04_reference/Non_Equivalence_Index.md
+        role: non-equivalence and category-collapse support
+        sha256: 519e2ef8ac58ad69fc0edb2a62a4084f221d43b4e626b4e6c54e475b43c8f2d2
+      - path: 04_reference/Output_Class_Index.md
+        role: output-class and boundary support
+        sha256: 94101fe3e22ccdfa37a00918cd3b2962618ddef70bc66524aa0f0fe0ce4f9a29
+      - path: 04_reference/Claim_Type_Table.md
+        role: claim, support, disposition, and capture-axis support
+        sha256: 45f75b2e9339ed6cbdd63e4b55b79f83c314ec1ca50eb170a05444d7f984555a
+      - path: 04_reference/Admissibility_Band_Reference.md
+        role: admissibility and synchronized twelve-stage audit support
+        sha256: 1d56dfb023a3133417c32d004f0048e2a8a2913375deb372982d95a8cf0311f5
+      - path: 04_reference/Cross_Reference_Map.md
+        role: cross-artifact navigation support
+        sha256: 5ec920a18f5208363fd3c0899269488bbd5b030a7cfc3481225eff17f99a82e4
+      - path: 04_reference/Evidence_Map.md
+        role: source, support, and warrant routing support
+        sha256: c60ebbdee963282bdb4bc384c08ec2fdd462f2681438cd5bc8debd7ba88f19aa
+      - path: 04_reference/Audit_Checklist.md
+        role: audit-stage and output-mapping separation support
+        sha256: 81b2d3275f5a90978cc421ffafdfb4b0c17f89fee9a57bf201a94b243a05eebf
+      - path: 04_reference/Reader_Pathways.md
+        role: formal-model build and reading-route support
+        sha256: 514d6bfe0d037e9bd6f8a96512884df92345c5fdc6951bdaf87deace2c58c7dd
   readme_role:
     path: README.md
     role: navigation and repository status only
     governing_authority: false
-  prose_precedence: The formal model mirrors and tests controlled prose. It does not replace PMS Base, controlled prose, including
-    later provisionally or finally locked canonical corpus prose, or substantive human and domain-grounded judgment.
+  prose_precedence: The formal model mirrors and tests the active controlled prose. It does not replace PMS Base, canonical corpus prose, 
+    binding compact controls, or substantive human and domain-grounded judgment.
 assembly_constraints:
   exact_active_component_count: 5
   root_is_not_counted_as_active_component: true
@@ -162,24 +160,23 @@ component_manifest:
       path: 07_model/Operation_Registry.yaml
       format: yaml
       artifact_id: pms_strata_operation_registry
-      version: 0.1.6
-      declared_status: formal_model_v0_provisional
-      build_step: 1
-      sha256: fb4b05f39a045b586706f59b74049d2891d11f23b910057e6a677367d49552c2
+      version: 0.2.0
+      declared_status: active_formal_model
+      sha256: b824787db520c63864340de0510b9dd70a354fac11cba6b356a5ffe5757fb6a3
       role: Canonical registry of operation identities, signatures, applicability, occurrence burdens, and chain constraints.
       owned_scope:
-      - operation type identity
-      - operation signatures and invariants
-      - shared and operation-specific occurrence burdens
-      - check applicability metadata
-      - operation-chain constraints
+        - operation type identity
+        - operation signatures and invariants
+        - shared and operation-specific occurrence burdens
+        - check applicability metadata
+        - operation-chain constraints
       consumes_from: []
       provides_to:
-      - output_classes
-      - admissibility_rules
-      - boundary_decision_tree
-      - transformation_record_schema
-      - pms_strata_root
+        - output_classes
+        - admissibility_rules
+        - boundary_decision_tree
+        - transformation_record_schema
+        - pms_strata_root
       semantic_content_embedded: false
       integrity_binding:
         algorithm: sha256
@@ -189,24 +186,23 @@ component_manifest:
       path: 07_model/Output_Classes.yaml
       format: yaml
       artifact_id: pms_strata_output_classes
-      version: 0.1.1
-      declared_status: formal_model_v0_provisional
-      build_step: 2
-      sha256: b582f587d14ec8ac31bedb319a19f3fba0fbd22a2519fe18de293dc77ea4f442
+      version: 0.2.0
+      declared_status: active_formal_model
+      sha256: 181fb25754b9561a593d7b9bcc118969a7489d1892f82a5f133f02c061cadc26
       role: Canonical registry of Output Class identity, meaning, semantic boundaries, and claim effects.
       owned_scope:
-      - canonical Output Class inventory and spelling
-      - class identity and meaning
-      - semantic use and exclusion boundaries
-      - claim, continuation, and re-entry effects
-      - current load-bearing class-boundary definitions
+        - canonical Output Class inventory and spelling
+        - class identity and meaning
+        - semantic use and exclusion boundaries
+        - claim, continuation, and re-entry effects
+        - current load-bearing class-boundary definitions
       consumes_from:
-      - operation_registry
+        - operation_registry
       provides_to:
-      - admissibility_rules
-      - boundary_decision_tree
-      - transformation_record_schema
-      - pms_strata_root
+        - admissibility_rules
+        - boundary_decision_tree
+        - transformation_record_schema
+        - pms_strata_root
       semantic_content_embedded: false
       integrity_binding:
         algorithm: sha256
@@ -216,24 +212,23 @@ component_manifest:
       path: 07_model/Admissibility_Rules.yaml
       format: yaml
       artifact_id: pms_strata_admissibility_rules
-      version: 0.1.234
-      declared_status: formal_model_v0_provisional
-      build_step: 3
-      sha256: d96512d116f67c7a31d242148c424fd312ed1e8cd0dd0f171dd57d329f1062b3
+      version: 0.2.0
+      declared_status: active_formal_model
+      sha256: cadd88459e3ecf6693bdf2567dbe9e61a6acd5342375040921c4b09a358954c4
       role: Canonical rule semantics, controlled local findings, non-compensation, and twelve-stage audit contract.
       owned_scope:
-      - sixteen Rule identities and semantics
-      - controlled local result vocabularies
-      - twelve-stage audit order and Rule bindings
-      - non-compensation and qualified-result constraints
-      - Claim Reduction, Stop, Non-Capture, anti-immunization, Claim Ceiling, and Authority Ceiling rules
+        - sixteen Rule identities and semantics
+        - controlled local result vocabularies
+        - twelve-stage audit order and Rule bindings
+        - non-compensation and qualified-result constraints
+        - Claim Reduction, Stop, Non-Capture, anti-immunization, Claim Ceiling, and Authority Ceiling rules
       consumes_from:
-      - operation_registry
-      - output_classes
+        - operation_registry
+        - output_classes
       provides_to:
-      - boundary_decision_tree
-      - transformation_record_schema
-      - pms_strata_root
+        - boundary_decision_tree
+        - transformation_record_schema
+        - pms_strata_root
       semantic_content_embedded: false
       integrity_binding:
         algorithm: sha256
@@ -243,25 +238,24 @@ component_manifest:
       path: 07_model/Boundary_Decision_Tree.yaml
       format: yaml
       artifact_id: pms_strata_boundary_decision_tree
-      version: 0.1.2
-      declared_status: formal_model_v0_provisional
-      build_step: 4
-      sha256: c17be9222ff8dab68b789b0da29f03f4f45647d24254772ef959521fb13e7a74
+      version: 0.2.0
+      declared_status: active_formal_model
+      sha256: 93707299dbac0cc705090d308ceba575ed12b504690563969b45bbe230e69be6
       role: Post-audit candidate generation, claim segmentation, collision adjudication, and unique route selection.
       owned_scope:
-      - routing readiness after the twelve-stage audit
-      - candidate generation from the full applicable cross-rule pattern
-      - claim and record segmentation before final selection
-      - Same-Claim collision adjudication
-      - exactly one canonical class per delimited routed claim
-      - formal routing diagnostics without canonical class assignment
+        - routing readiness after the twelve-stage audit
+        - candidate generation from the full applicable cross-rule pattern
+        - claim and record segmentation before final selection
+        - Same-Claim collision adjudication
+        - exactly one canonical class per delimited routed claim
+        - formal routing diagnostics without canonical class assignment
       consumes_from:
-      - operation_registry
-      - output_classes
-      - admissibility_rules
+        - operation_registry
+        - output_classes
+        - admissibility_rules
       provides_to:
-      - transformation_record_schema
-      - pms_strata_root
+        - transformation_record_schema
+        - pms_strata_root
       semantic_content_embedded: false
       integrity_binding:
         algorithm: sha256
@@ -273,32 +267,31 @@ component_manifest:
       json_schema_draft: 2020-12
       schema_id: https://pms-strata.local/schema/Transformation_Record.schema.json
       artifact_id: Transformation_Record.schema.json
-      version: 0.1.3
-      declared_status: provisional_formal_model_v0
-      build_step: 5
-      sha256: 09a5b7814b6dcf346284c11ffc6e6939f5625286189d92ad021571ed6be61454
+      version: 0.2.0
+      declared_status: active_formal_model
+      sha256: 122f957bc0fd818e89f9950fe037e07b6cb68554a54ce406aae7f3634e21da03
       role: Concrete Transformation Record syntax, requiredness, conditional payloads, pointers, and structural consistency.
       owned_scope:
-      - operation-occurrence and integrated-chain record syntax
-      - routed and formal-diagnostic record discrimination
-      - field requiredness and conditional payloads
-      - authoritative-axis pointers
-      - candidate-local boundary adjudication encoding
-      - structural cross-field consistency
+        - operation-occurrence and integrated-chain record syntax
+        - routed and formal-diagnostic record discrimination
+        - field requiredness and conditional payloads
+        - authoritative-axis pointers
+        - candidate-local boundary adjudication encoding
+        - structural cross-field consistency
       consumes_from:
-      - operation_registry
-      - output_classes
-      - admissibility_rules
-      - boundary_decision_tree
+        - operation_registry
+        - output_classes
+        - admissibility_rules
+        - boundary_decision_tree
       provides_to:
-      - pms_strata_root
+        - pms_strata_root
       semantic_content_embedded: false
       integrity_binding:
         algorithm: sha256
         package_resolver_required: true
   component_semantics_embedded_in_root: false
-  component_status_strings_preserved_exactly: true
   status_spelling_does_not_imply_rank: true
+  component_status_values_match_components: true
 validation_companion_contract:
   path: 07_model/PMS-STRATA.schema.json
   format: json_schema
@@ -307,13 +300,12 @@ validation_companion_contract:
   registered_as_semantic_component: false
   must_not_duplicate_component_semantics: true
   must_not_decide_substantive_validity: true
-  required_for_formal_model_v0_gate: true
   current_content_asserted_by_root: true
   artifact_id: pms_strata_root_schema
   schema_id: https://pms-strata.local/schema/PMS-STRATA.schema.json
-  version: 0.1.0
+  version: 0.2.0
   json_schema_draft: 2020-12
-  sha256: 95b911d07cbe240f8a6a25825b2eaf758874b16c709079745cbbc3056ad47db7
+  sha256: 8b2eb0a905f9332b0f1e2f0a6840c630369918954ff032d562fcab8a9e98978a
   integrity_binding:
     algorithm: sha256
     package_resolver_required: true
@@ -321,28 +313,29 @@ validation_companion_contract:
     static_root_schema_validation:
       executor: 07_model/PMS-STRATA.schema.json
       may_validate:
-      - required root fields and descriptor structure
-      - path, version, status, and SHA-256 formats
-      - exact closed-inventory snapshots
-      - current open-inventory snapshot structure
-      - allowed dependency-edge types and endpoint syntax
-      - ownership-matrix structure
-      - workflow-step completeness
-      - prohibited safeguard values
+        - required root fields and descriptor structure
+        - path, version, status, and SHA-256 formats
+        - exact closed-inventory bindings
+        - current open-inventory binding structure
+        - allowed dependency-edge types and endpoint syntax
+        - ownership-matrix structure
+        - workflow-step completeness
+        - prohibited safeguard values
     package_resolver_validation:
       executor: package-aware validator or smoke-test harness
       required_for:
-      - file existence at registered paths
-      - actual checksum calculation and comparison
-      - component ID, version, and status comparison
-      - cross-file inventory equality
-      - dependency endpoint resolution
-      - semantic-cycle detection
-      - schema-ID and route-ID resolution
+        - file existence at registered paths
+        - actual checksum calculation and comparison
+        - component ID, version, and status comparison
+        - cross-file inventory equality
+        - dependency endpoint resolution
+        - semantic-cycle detection
+        - schema-ID and route-ID resolution
       json_schema_alone_is_sufficient: false
     substantive_judgment:
-      formal_executor: null
+      formal_executor:
       not_decidable_by_formal_model: true
+  required_for_active_model_integrity: true
 dependency_graph:
   authoritative_relation_registry: edges
   component_manifest_dependency_lists_are_projections: true
@@ -353,92 +346,92 @@ dependency_graph:
     assembly_handoff: Component is registered and integrity-bound by the root without reverse semantic dependency.
     validation_relation: Validation artifact checks structure without defining theory or component semantics.
   nodes:
-  - node_id: operation_registry
-    path: 07_model/Operation_Registry.yaml
-    node_role: semantic_component
-  - node_id: output_classes
-    path: 07_model/Output_Classes.yaml
-    node_role: semantic_component
-  - node_id: admissibility_rules
-    path: 07_model/Admissibility_Rules.yaml
-    node_role: semantic_component
-  - node_id: boundary_decision_tree
-    path: 07_model/Boundary_Decision_Tree.yaml
-    node_role: semantic_component
-  - node_id: transformation_record_schema
-    path: 07_model/Transformation_Record.schema.json
-    node_role: record_schema_component
-  - node_id: pms_strata_root
-    path: 07_model/PMS-STRATA.yaml
-    node_role: assembly_root
-  - node_id: pms_strata_root_schema
-    path: 07_model/PMS-STRATA.schema.json
-    node_role: validation_companion
+    - node_id: operation_registry
+      path: 07_model/Operation_Registry.yaml
+      node_role: semantic_component
+    - node_id: output_classes
+      path: 07_model/Output_Classes.yaml
+      node_role: semantic_component
+    - node_id: admissibility_rules
+      path: 07_model/Admissibility_Rules.yaml
+      node_role: semantic_component
+    - node_id: boundary_decision_tree
+      path: 07_model/Boundary_Decision_Tree.yaml
+      node_role: semantic_component
+    - node_id: transformation_record_schema
+      path: 07_model/Transformation_Record.schema.json
+      node_role: record_schema_component
+    - node_id: pms_strata_root
+      path: 07_model/PMS-STRATA.yaml
+      node_role: assembly_root
+    - node_id: pms_strata_root_schema
+      path: 07_model/PMS-STRATA.schema.json
+      node_role: validation_companion
   edges:
-  - from: operation_registry
-    to: output_classes
-    edge_type: semantic_dependency
-    handoff: operation identity and operation-boundary ownership
-  - from: operation_registry
-    to: admissibility_rules
-    edge_type: semantic_dependency
-    handoff: operation identifiers and check applicability
-  - from: output_classes
-    to: admissibility_rules
-    edge_type: semantic_dependency
-    handoff: class identities used only as final compatibility references
-  - from: operation_registry
-    to: boundary_decision_tree
-    edge_type: semantic_dependency
-    handoff: operation inventory and operation-selection ownership
-  - from: output_classes
-    to: boundary_decision_tree
-    edge_type: semantic_dependency
-    handoff: class identities and class-boundary definitions
-  - from: admissibility_rules
-    to: boundary_decision_tree
-    edge_type: semantic_dependency
-    handoff: full Rule findings and twelve-stage audit completion
-  - from: operation_registry
-    to: transformation_record_schema
-    edge_type: record_encoding_dependency
-    handoff: operation identities, burdens, and loss contract
-  - from: output_classes
-    to: transformation_record_schema
-    edge_type: record_encoding_dependency
-    handoff: canonical class identities and class-specific structural payloads
-  - from: admissibility_rules
-    to: transformation_record_schema
-    edge_type: record_encoding_dependency
-    handoff: Rule IDs and exact audit-stage bindings
-  - from: boundary_decision_tree
-    to: transformation_record_schema
-    edge_type: record_encoding_dependency
-    handoff: routes, candidate assessments, collision adjudications, and diagnostics
-  - from: operation_registry
-    to: pms_strata_root
-    edge_type: assembly_handoff
-    handoff: component registration and integrity binding
-  - from: output_classes
-    to: pms_strata_root
-    edge_type: assembly_handoff
-    handoff: component registration and integrity binding
-  - from: admissibility_rules
-    to: pms_strata_root
-    edge_type: assembly_handoff
-    handoff: component registration and integrity binding
-  - from: boundary_decision_tree
-    to: pms_strata_root
-    edge_type: assembly_handoff
-    handoff: component registration and integrity binding
-  - from: transformation_record_schema
-    to: pms_strata_root
-    edge_type: assembly_handoff
-    handoff: component registration and integrity binding
-  - from: pms_strata_root_schema
-    to: pms_strata_root
-    edge_type: validation_relation
-    handoff: root-instance structural validation
+    - from: operation_registry
+      to: output_classes
+      edge_type: semantic_dependency
+      handoff: operation identity and operation-boundary ownership
+    - from: operation_registry
+      to: admissibility_rules
+      edge_type: semantic_dependency
+      handoff: operation identifiers and check applicability
+    - from: output_classes
+      to: admissibility_rules
+      edge_type: semantic_dependency
+      handoff: class identities used only as final compatibility references
+    - from: operation_registry
+      to: boundary_decision_tree
+      edge_type: semantic_dependency
+      handoff: operation inventory and operation-selection ownership
+    - from: output_classes
+      to: boundary_decision_tree
+      edge_type: semantic_dependency
+      handoff: class identities and class-boundary definitions
+    - from: admissibility_rules
+      to: boundary_decision_tree
+      edge_type: semantic_dependency
+      handoff: full Rule findings and twelve-stage audit completion
+    - from: operation_registry
+      to: transformation_record_schema
+      edge_type: record_encoding_dependency
+      handoff: operation identities, burdens, and loss contract
+    - from: output_classes
+      to: transformation_record_schema
+      edge_type: record_encoding_dependency
+      handoff: canonical class identities and class-specific structural payloads
+    - from: admissibility_rules
+      to: transformation_record_schema
+      edge_type: record_encoding_dependency
+      handoff: Rule IDs and exact audit-stage bindings
+    - from: boundary_decision_tree
+      to: transformation_record_schema
+      edge_type: record_encoding_dependency
+      handoff: routes, candidate assessments, collision adjudications, and diagnostics
+    - from: operation_registry
+      to: pms_strata_root
+      edge_type: assembly_handoff
+      handoff: component registration and integrity binding
+    - from: output_classes
+      to: pms_strata_root
+      edge_type: assembly_handoff
+      handoff: component registration and integrity binding
+    - from: admissibility_rules
+      to: pms_strata_root
+      edge_type: assembly_handoff
+      handoff: component registration and integrity binding
+    - from: boundary_decision_tree
+      to: pms_strata_root
+      edge_type: assembly_handoff
+      handoff: component registration and integrity binding
+    - from: transformation_record_schema
+      to: pms_strata_root
+      edge_type: assembly_handoff
+      handoff: component registration and integrity binding
+    - from: pms_strata_root_schema
+      to: pms_strata_root
+      edge_type: validation_relation
+      handoff: root-instance structural validation
   root_dependency_rule:
     root_depends_on_components: true
     components_semantically_depend_on_root: false
@@ -458,269 +451,42 @@ ownership_matrix:
   manifest_registration_does_not_create_semantic_ownership: true
   validation_relation_does_not_create_authority: true
   concerns:
-  - concern: PMS Base and Delta-Psi identities, order, and dependencies
-    owner: PMS.yaml
-  - concern: architecture and chapter blueprint
-    owner: 00_source/PMS-STRATA_Structure.md
-  - concern: binding compact controls
-    owner: 05_minified/*
-  - concern: operation identity, signatures, applicability, and occurrence burdens
-    owner: 07_model/Operation_Registry.yaml
-  - concern: canonical Output Class identity, meaning, and semantic boundaries
-    owner: 07_model/Output_Classes.yaml
-  - concern: Rule semantics and twelve-stage audit contract
-    owner: 07_model/Admissibility_Rules.yaml
-  - concern: candidate generation, claim segmentation, collision adjudication, and route selection
-    owner: 07_model/Boundary_Decision_Tree.yaml
-  - concern: concrete Transformation Record syntax and structural consistency
-    owner: 07_model/Transformation_Record.schema.json
-  - concern: formal-model manifest and package assembly
-    owner: 07_model/PMS-STRATA.yaml
-  - concern: root-instance structural validation
-    owner: 07_model/PMS-STRATA.schema.json
-  - concern: substantive truth, causality, semantic or normative validity, and domain warrant
-    owner: null
-  unowned_formal_concern_statement: No formal-model artifact owns substantive truth, causal truth, legitimacy, diagnosis,
-    or application authority.
-inventory_integrity_snapshots:
-  snapshot_rule: Mirrored inventory does not become root-owned inventory.
-  owner_revision_required_before_root_snapshot_revision: true
-  closed_inventories:
-    operations:
+    - concern: PMS Base and Delta-Psi identities, order, and dependencies
+      owner: PMS.yaml
+    - concern: architecture and chapter blueprint
+      owner: 00_source/PMS-STRATA_Structure.md
+    - concern: binding compact controls
+      owner: 05_minified/*
+    - concern: operation identity, signatures, applicability, and occurrence burdens
       owner: 07_model/Operation_Registry.yaml
-      exact_count: 3
-      closed: true
-      order_sensitive: true
-      values:
-      - COMPOSE
-      - DECOMPOSE
-      - PROJECT_AS
-    output_classes:
+    - concern: canonical Output Class identity, meaning, and semantic boundaries
       owner: 07_model/Output_Classes.yaml
-      exact_count: 10
-      closed: true
-      order_sensitive: true
-      values:
-      - admissible
-      - admissible_with_bounded_claim
-      - admissible_but_provisional
-      - resolution_neutral
-      - analogy_only
-      - partially_admissible
-      - claim_reduction_required
-      - mandatory_stop
-      - failed_transformation
-      - non_capture
-    admissibility_rules:
+    - concern: Rule semantics and twelve-stage audit contract
       owner: 07_model/Admissibility_Rules.yaml
-      exact_count: 16
-      closed: true
-      order_sensitive: true
-      values:
-      - praxis_purchase
-      - traceable_load
-      - type_integrity
-      - reference_continuity
-      - functional_continuity
-      - temporal_continuity
-      - contextual_boundedness
-      - counterfactual_sensitivity
-      - source_ceiling
-      - calibration
-      - selection_and_loss
-      - alternatives
-      - claim_ceiling
-      - authority_ceiling
-      - stop
-      - non_capture
-    audit_stages:
-      owner: 07_model/Admissibility_Rules.yaml
-      exact_count: 12
-      closed: true
-      order_sensitive: true
-      values:
-      - source_and_claim_entry
-      - operation_classification
-      - relevance_floor
-      - traceability_ceiling
-      - continuity_and_type_integrity
-      - counterfactual_sensitivity
-      - loss_and_selection
-      - alternatives
-      - source_and_calibration_limits
-      - anti_immunization
-      - stop_and_non_capture
-      - claim_and_authority_ceiling
-      stage_rule_bindings:
-      - stage_id: source_and_claim_entry
-        order: 1
-        assessment_mode: declaration_entry
-        principal_rule_ids:
-        - source_ceiling
-        - contextual_boundedness
-        - claim_ceiling
-      - stage_id: operation_classification
-        order: 2
-        assessment_mode: operation_classification
-        principal_rule_ids: []
-      - stage_id: relevance_floor
-        order: 3
-        assessment_mode: substantive_assessment
-        principal_rule_ids:
-        - praxis_purchase
-      - stage_id: traceability_ceiling
-        order: 4
-        assessment_mode: substantive_assessment
-        principal_rule_ids:
-        - traceable_load
-      - stage_id: continuity_and_type_integrity
-        order: 5
-        assessment_mode: substantive_assessment
-        principal_rule_ids:
-        - type_integrity
-        - reference_continuity
-        - functional_continuity
-        - temporal_continuity
-        - contextual_boundedness
-      - stage_id: counterfactual_sensitivity
-        order: 6
-        assessment_mode: substantive_assessment
-        principal_rule_ids:
-        - counterfactual_sensitivity
-      - stage_id: loss_and_selection
-        order: 7
-        assessment_mode: substantive_assessment
-        principal_rule_ids:
-        - selection_and_loss
-      - stage_id: alternatives
-        order: 8
-        assessment_mode: substantive_assessment
-        principal_rule_ids:
-        - alternatives
-      - stage_id: source_and_calibration_limits
-        order: 9
-        assessment_mode: substantive_assessment
-        principal_rule_ids:
-        - source_ceiling
-        - calibration
-      - stage_id: anti_immunization
-        order: 10
-        assessment_mode: cross_cutting_assessment
-        principal_rule_ids: []
-      - stage_id: stop_and_non_capture
-        order: 11
-        assessment_mode: preliminary_trigger_assessment
-        principal_rule_ids:
-        - stop
-        - non_capture
-        - claim_ceiling
-      - stage_id: claim_and_authority_ceiling
-        order: 12
-        assessment_mode: final_ceiling_determination
-        principal_rule_ids:
-        - claim_ceiling
-        - authority_ceiling
-        - contextual_boundedness
-    loss_fields:
-      owner: 07_model/Operation_Registry.yaml
-      record_syntax_owner: 07_model/Transformation_Record.schema.json
-      exact_count: 5
-      closed: true
-      order_sensitive: true
-      values:
-      - preserved
-      - compressed
-      - excluded
-      - uncertain
-      - irrecoverable
-    final_routes:
+    - concern: candidate generation, claim segmentation, collision adjudication, and route selection
       owner: 07_model/Boundary_Decision_Tree.yaml
-      exact_count: 10
-      closed_for_current_output_class_inventory: true
-      one_to_one_with_output_classes: true
-      values:
-      - route_id: route_admissible
-        selected_canonical_class: admissible
-      - route_id: route_admissible_with_bounded_claim
-        selected_canonical_class: admissible_with_bounded_claim
-      - route_id: route_admissible_but_provisional
-        selected_canonical_class: admissible_but_provisional
-      - route_id: route_resolution_neutral
-        selected_canonical_class: resolution_neutral
-      - route_id: route_analogy_only
-        selected_canonical_class: analogy_only
-      - route_id: route_partially_admissible
-        selected_canonical_class: partially_admissible
-      - route_id: route_claim_reduction_required
-        selected_canonical_class: claim_reduction_required
-      - route_id: route_mandatory_stop
-        selected_canonical_class: mandatory_stop
-      - route_id: route_failed_transformation
-        selected_canonical_class: failed_transformation
-      - route_id: route_non_capture
-        selected_canonical_class: non_capture
-    record_scopes:
+    - concern: concrete Transformation Record syntax and structural consistency
       owner: 07_model/Transformation_Record.schema.json
-      exact_count: 2
-      closed: true
-      values: &id001
-      - operation_occurrence
-      - integrated_chain
-    routing_states:
-      owner: 07_model/Transformation_Record.schema.json
-      exact_count: 2
-      closed: true
-      values: &id002
-      - routed
-      - formal_diagnostic
-  current_open_inventories:
-    class_boundaries:
-      owner: 07_model/Output_Classes.yaml
-      routing_consumer: 07_model/Boundary_Decision_Tree.yaml
-      record_encoding_consumer: 07_model/Transformation_Record.schema.json
-      current_exact_count: 14
-      current_values_must_match: true
-      inventory_closed: false
-      values:
-      - admissible_vs_bounded_claim
-      - bounded_claim_vs_provisional
-      - bounded_claim_vs_partial
-      - partial_vs_provisional
-      - provisional_vs_resolution_neutral
-      - provisional_vs_non_capture
-      - partial_vs_non_capture
-      - claim_reduction_vs_bounded_claim
-      - claim_reduction_vs_mandatory_stop
-      - mandatory_stop_vs_failed_transformation
-      - failed_transformation_vs_non_capture
-      - mandatory_stop_vs_non_capture
-      - resolution_neutral_vs_claim_reduction
-      - analogy_only_vs_failed_projection
-    formal_diagnostics:
-      owner: 07_model/Boundary_Decision_Tree.yaml
-      record_encoding_consumer: 07_model/Transformation_Record.schema.json
-      current_exact_count: 5
-      current_values_must_match: true
-      inventory_closed: false
-      controlled_extensions_permitted: true
-      values:
-      - incomplete_packet
-      - unresolved_claim_segmentation
-      - no_supported_candidate
-      - unresolved_collision
-      - unresolved_selection
+    - concern: formal-model manifest and package assembly
+      owner: 07_model/PMS-STRATA.yaml
+    - concern: root-instance structural validation
+      owner: 07_model/PMS-STRATA.schema.json
+    - concern: substantive truth, causality, semantic or normative validity, and domain warrant
+      owner:
+  unowned_formal_concern_statement: No formal-model artifact owns substantive truth, causal truth, legitimacy, diagnosis, or application 
+    authority.
 open_inventory_contract:
   open_inventory_does_not_mean_uncontrolled_free_text: true
-  current_snapshot_must_match_owner: true
   extension_requires_owner_control_source_and_rationale: true
   root_may_not_create_extension: true
   root_update_required_after_valid_owner_revision: true
   record_local_extension_does_not_revise_owner_inventory: true
-  record_local_extension_does_not_change_root_snapshot: true
-  owner_inventory_revision_requires_root_snapshot_update: true
   open_inventories:
-  - class_boundaries
-  - formal_diagnostics
+    - class_boundaries
+    - formal_diagnostics
+  current_binding_must_match_owner: true
+  record_local_extension_does_not_change_root_binding: true
+  owner_inventory_revision_requires_root_binding_update: true
 integrated_workflow:
   workflow_is_not_a_fourth_operation: true
   workflow_is_not_an_additional_audit_stage: true
@@ -733,133 +499,137 @@ integrated_workflow:
     input_semantics_retain_their_upstream_owners: true
     encoding_ownership_does_not_create_semantic_ownership: true
   steps:
-  - order: 1
-    step_id: bind_assembly_snapshot
-    primary_process_owner: 07_model/PMS-STRATA.yaml
-    inputs:
-    - governing controls
-    - component descriptors
-    - registered fingerprints
-    outputs:
-    - bound formal-model assembly snapshot
-    prohibited_inference: checksum agreement or manifest completeness proves semantic correctness
-  - order: 2
-    step_id: identify_operation_or_chain_scope
-    primary_process_owner: 07_model/Operation_Registry.yaml
-    inputs:
-    - source structures
-    - analytical purpose
-    - operation-selection rationale
-    outputs:
-    - one operation occurrence or integrated chain of separately identified occurrences
-    prohibited_inference: an integrated chain is a fourth operation
-  - order: 3
-    step_id: enter_source_claim_context_and_record_declarations
-    primary_process_owner: 07_model/Transformation_Record.schema.json
-    inputs:
-    - source declaration
-    - claim declaration
-    - context
-    - operation or chain identity
-    outputs:
-    - audit-ready record packet
-    prohibited_inference: field completeness establishes substantive warrant
-  - order: 4
-    step_id: execute_twelve_stage_audit
-    primary_process_owner: 07_model/Admissibility_Rules.yaml
-    inputs:
-    - audit-ready record packet
-    - applicable Rule profiles
-    outputs:
-    - twelve-stage findings and triggered payloads
-    prohibited_inference: audit completion is an automatic admissibility pass
-  - order: 5
-    step_id: preserve_local_findings_and_record_axes
-    primary_process_owner: 07_model/Admissibility_Rules.yaml
-    inputs:
-    - Rule findings
-    - support axes
-    - loss
-    - alternatives
-    - Stop and Non-Capture assessments
-    outputs:
-    - complete cross-rule pattern with preserved local results
-    prohibited_inference: local finding independently selects a final class
-  - order: 6
-    step_id: assess_routing_readiness
-    primary_process_owner: 07_model/Boundary_Decision_Tree.yaml
-    inputs:
-    - complete cross-rule pattern
-    - audit-to-routing basis
-    - Rule-specific rationales
-    outputs:
-    - routing-ready packet or formal diagnostic
-    prohibited_inference: formal incompleteness is failed_transformation, mandatory_stop, or non_capture
-  - order: 7
-    step_id: generate_class_candidates
-    primary_process_owner: 07_model/Boundary_Decision_Tree.yaml
-    inputs:
-    - routing-ready full applicable pattern
-    - ten-class inventory
-    outputs:
-    - candidate assessments
-    prohibited_inference: first match, score, rank, or single Rule determines the route
-  - order: 8
-    step_id: segment_claims_and_records_where_required
-    primary_process_owner: 07_model/Boundary_Decision_Tree.yaml
-    inputs:
-    - candidate assessments
-    - claim and occurrence axes
-    outputs:
-    - delimited Same-Claim packets or separated claim/record packets
-    prohibited_inference: multiple material findings require class stacking on one undifferentiated claim
-  - order: 9
-    step_id: adjudicate_same_claim_collisions
-    primary_process_owner: 07_model/Boundary_Decision_Tree.yaml
-    inputs:
-    - Same-Claim candidates
-    - current class-boundary controls
-    outputs:
-    - resolved candidate set or formal diagnostic
-    prohibited_inference: class ranking, default precedence, or unchanged candidate loops are permitted
-  - order: 10
-    step_id: select_unique_route_or_retain_diagnostic
-    primary_process_owner: 07_model/Boundary_Decision_Tree.yaml
-    inputs:
-    - resolved candidate set
-    - constitutive-condition recheck
-    outputs:
-    - one canonical Output Class per routed claim or formal diagnostic without class
-    prohibited_inference: Output Class automatically determines Claim Disposition or application authority
-  - order: 11
-    step_id: encode_and_validate_transformation_record
-    primary_process_owner: 07_model/Transformation_Record.schema.json
-    inputs:
-    - selected route or formal diagnostic
-    - authoritative record axes
-    - relations and preservation duties
-    outputs:
-    - schema-valid Transformation Record or structural validation errors
-    prohibited_inference: schema-valid record proves substantive admissibility or truth
-  - order: 12
-    step_id: perform_package_and_cross_record_checks
-    primary_process_owner: future package validator and 07_model/examples/* smoke tests
-    inputs:
-    - root manifest
-    - component files
-    - records
-    - cross-record relations
-    outputs:
-    - package-integrity and cross-record validation report
-    prohibited_inference: package-level consistency resolves substantive judgment or completeness of capture
+    - order: 1
+      step_id: bind_current_assembly
+      primary_process_owner: 07_model/PMS-STRATA.yaml
+      inputs:
+        - governing controls
+        - component descriptors
+        - registered fingerprints
+      outputs:
+        - bound current formal-model assembly
+      prohibited_inference: checksum agreement or manifest completeness proves semantic correctness
+    - order: 2
+      step_id: identify_operation_or_chain_scope
+      primary_process_owner: 07_model/Operation_Registry.yaml
+      inputs:
+        - source structures
+        - analytical purpose
+        - operation-selection rationale
+      outputs:
+        - one operation occurrence or integrated chain of separately identified occurrences
+      prohibited_inference: an integrated chain is a fourth operation
+    - order: 3
+      step_id: enter_source_claim_context_and_record_declarations
+      primary_process_owner: 07_model/Transformation_Record.schema.json
+      inputs:
+        - source declaration
+        - claim declaration
+        - context
+        - operation or chain identity
+      outputs:
+        - audit-ready record packet
+      prohibited_inference: field completeness establishes substantive warrant
+    - order: 4
+      step_id: execute_twelve_stage_audit
+      primary_process_owner: 07_model/Admissibility_Rules.yaml
+      inputs:
+        - audit-ready record packet
+        - applicable Rule profiles
+      outputs:
+        - twelve-stage findings and triggered payloads
+      prohibited_inference: audit completion is an automatic admissibility pass
+    - order: 5
+      step_id: preserve_local_findings_and_record_axes
+      primary_process_owner: 07_model/Admissibility_Rules.yaml
+      inputs:
+        - Rule findings
+        - support axes
+        - loss
+        - alternatives
+        - Stop and Non-Capture assessments
+      outputs:
+        - complete cross-rule pattern with preserved local results
+      prohibited_inference: local finding independently selects a final class
+    - order: 6
+      step_id: assess_routing_readiness
+      primary_process_owner: 07_model/Boundary_Decision_Tree.yaml
+      inputs:
+        - complete cross-rule pattern
+        - audit-to-routing basis
+        - Rule-specific rationales
+      outputs:
+        - routing-ready packet or formal diagnostic
+      prohibited_inference: formal incompleteness is failed_transformation, mandatory_stop, or non_capture
+    - order: 7
+      step_id: generate_class_candidates
+      primary_process_owner: 07_model/Boundary_Decision_Tree.yaml
+      inputs:
+        - routing-ready full applicable pattern
+        - ten-class inventory
+      outputs:
+        - candidate assessments
+      prohibited_inference: first match, score, rank, or single Rule determines the route
+    - order: 8
+      step_id: segment_claims_and_records_where_required
+      primary_process_owner: 07_model/Boundary_Decision_Tree.yaml
+      inputs:
+        - candidate assessments
+        - claim and occurrence axes
+      outputs:
+        - delimited Same-Claim packets or separated claim/record packets
+      prohibited_inference: multiple material findings require class stacking on one undifferentiated claim
+    - order: 9
+      step_id: adjudicate_same_claim_collisions
+      primary_process_owner: 07_model/Boundary_Decision_Tree.yaml
+      inputs:
+        - Same-Claim candidates
+        - current class-boundary controls
+      outputs:
+        - resolved candidate set or formal diagnostic
+      prohibited_inference: class ranking, default precedence, or unchanged candidate loops are permitted
+    - order: 10
+      step_id: select_unique_route_or_retain_diagnostic
+      primary_process_owner: 07_model/Boundary_Decision_Tree.yaml
+      inputs:
+        - resolved candidate set
+        - constitutive-condition recheck
+      outputs:
+        - one canonical Output Class per routed claim or formal diagnostic without class
+      prohibited_inference: Output Class automatically determines Claim Disposition or application authority
+    - order: 11
+      step_id: encode_and_validate_transformation_record
+      primary_process_owner: 07_model/Transformation_Record.schema.json
+      inputs:
+        - selected route or formal diagnostic
+        - authoritative record axes
+        - relations and preservation duties
+      outputs:
+        - schema-valid Transformation Record or structural validation errors
+      prohibited_inference: schema-valid record proves substantive admissibility or truth
+    - order: 12
+      step_id: perform_package_and_cross_record_checks
+      primary_process_owner: repository integrity validator and 07_model/examples/* smoke tests
+      inputs:
+        - root manifest
+        - component files
+        - records
+        - cross-record relations
+      outputs:
+        - package-integrity and cross-record validation report
+      prohibited_inference: package-level consistency resolves substantive judgment or completeness of capture
 record_and_schema_handoff:
   record_schema:
     path: 07_model/Transformation_Record.schema.json
     schema_id: https://pms-strata.local/schema/Transformation_Record.schema.json
-    version: 0.1.3
+    version: 0.2.0
     json_schema_draft: 2020-12
-    supported_record_scopes: *id001
-    supported_routing_states: *id002
+    supported_record_scopes: &id001
+      - operation_occurrence
+      - integrated_chain
+    supported_routing_states: &id002
+      - routed
+      - formal_diagnostic
   authoritative_axis_contract:
     owner: 07_model/Transformation_Record.schema.json
     root_mirrors_pointers_without_redefining_syntax: true
@@ -874,77 +644,45 @@ record_and_schema_handoff:
       current_tested_claim: /claim/claim_id
       candidate_boundary_adjudications: /result/routing/candidate_assessments
   status_and_result_axis_separation:
-  - support status != canonical Output Class
-  - resolution test result != canonical Output Class
-  - Claim Disposition != canonical Output Class
-  - capture statement != automatic non_capture
-  - local operation result != final route
-  - formal diagnostic != canonical Output Class
+    - support status != canonical Output Class
+    - resolution test result != canonical Output Class
+    - Claim Disposition != canonical Output Class
+    - capture statement != automatic non_capture
+    - local operation result != final route
+    - formal diagnostic != canonical Output Class
   record_validation_owner: 07_model/Transformation_Record.schema.json
   root_validates_concrete_records: false
   root_registers_record_contract: true
-package_level_deferred_checks:
-  executor:
-  - future package validator
-  - 07_model/examples/* smoke-test harness
-  root_registers_but_does_not_claim_execution: true
-  checks:
-  - external PMS fingerprint matches the registered SHA-256 value
-  - governing repository control fingerprints match their registered SHA-256 values
-  - supporting reference input fingerprints match their registered SHA-256 values
-  - registered component files exist at their paths
-  - actual component hashes match manifest fingerprints
-  - build-snapshot fingerprint matches where the provenance artifact is available
-  - component-declared IDs, versions, statuses, and build steps match the manifest
-  - mirrored inventories equal their owning files
-  - dependency-graph edges equal component-manifest dependency-list projections
-  - component graph-node paths equal component-manifest paths
-  - audit-stage Rule-binding snapshot equals Admissibility_Rules.yaml
-  - authoritative-pointer snapshot equals Transformation_Record.schema.json
-  - validation-companion content status matches the actual file-content state
-  - all dependency endpoints resolve
-  - no prohibited semantic or record-encoding dependency cycle exists
-  - referenced claim and record IDs exist
-  - chain reference count matches declared operation sequence
-  - external occurrence order is consistent
-  - claim and record relation graphs are acyclic
-  - segment references resolve
-  - source and target object IDs agree across linked records
-  - each final route maps to exactly one canonical Output Class
-  - no formal diagnostic is stored as a canonical Output Class
-  - each example declares the component versions against which it was validated
-  cross_file_execution_required: true
-  json_schema_alone_cannot_execute_all_checks: true
 formal_model_boundary:
   may_validate:
-  - component identity, format, version, status, build step, and declared fingerprint
-  - structural completeness of the root instance
-  - exact closed-inventory equality
-  - current open-inventory snapshot equality
-  - ownership and dependency consistency
-  - operation, Rule, class, stage, boundary, route, scope, and state identifier consistency
-  - workflow and record-schema handoff completeness
-  - absence of prohibited scoring, ranking, compensation, fourth-operation, eleventh-class, and authority-inheritance structures
+    - component identity, format, version, status, and declared fingerprint
+    - structural completeness of the root instance
+    - exact closed-inventory equality
+    - current open-inventory binding equality
+    - ownership and dependency consistency
+    - operation, Rule, class, stage, boundary, route, scope, and state identifier consistency
+    - workflow and record-schema handoff completeness
+    - absence of prohibited scoring, ranking, compensation, fourth-operation, eleventh-class, and authority-inheritance structures
   may_not_determine:
-  - empirical truth
-  - actual causality
-  - semantic validity
-  - normative validity
-  - person evaluation or diagnosis
-  - political or legal legitimacy
-  - material source sufficiency
-  - application authority
-  - substantive superiority of a reconstruction
-  - completeness of capture
+    - empirical truth
+    - actual causality
+    - semantic validity
+    - normative validity
+    - person evaluation or diagnosis
+    - political or legal legitimacy
+    - material source sufficiency
+    - application authority
+    - substantive superiority of a reconstruction
+    - completeness of capture
   required_non_equivalences:
-  - valid component manifest != valid substantive model claim
-  - matching checksum != semantic correctness
-  - cross-artifact consistency != empirical truth
-  - schema-valid record != admissible transformation
-  - selected route != application authorization
-  - formal-model completeness != PMS completeness
-  - root manifest != meta-PMS
-  - more structure != more authority
+    - valid component manifest != valid substantive model claim
+    - matching checksum != semantic correctness
+    - cross-artifact consistency != empirical truth
+    - schema-valid record != admissible transformation
+    - selected route != application authorization
+    - formal-model completeness != PMS completeness
+    - root manifest != meta-PMS
+    - more structure != more authority
   authority_inheritance: prohibited
 downstream_handoffs:
   root_schema:
@@ -953,8 +691,8 @@ downstream_handoffs:
   examples:
     path_pattern: 07_model/examples/*
     role: positive and negative smoke tests of the integrated model
-    required_for_formal_model_v0_gate: true
     examples_are_not_theory_sources: true
+    required_for_active_model_integrity: true
   appendices:
     path_pattern: 02_appendices/Appendix_[C-N]_*.md
     role: derive templates and audit structures without redefining the formal model
@@ -965,3 +703,256 @@ downstream_handoffs:
     path_pattern: 08_PMS-STRATA Reader/*
     role: navigate and present the model without becoming an authority source
   downstream_semantic_backflow: prohibited
+inventory_integrity_bindings:
+  closed_inventories:
+    operations:
+      owner: 07_model/Operation_Registry.yaml
+      exact_count: 3
+      closed: true
+      order_sensitive: true
+      values:
+        - COMPOSE
+        - DECOMPOSE
+        - PROJECT_AS
+    output_classes:
+      owner: 07_model/Output_Classes.yaml
+      exact_count: 10
+      closed: true
+      order_sensitive: true
+      values:
+        - admissible
+        - admissible_with_bounded_claim
+        - admissible_but_provisional
+        - resolution_neutral
+        - analogy_only
+        - partially_admissible
+        - claim_reduction_required
+        - mandatory_stop
+        - failed_transformation
+        - non_capture
+    admissibility_rules:
+      owner: 07_model/Admissibility_Rules.yaml
+      exact_count: 16
+      closed: true
+      order_sensitive: true
+      values:
+        - praxis_purchase
+        - traceable_load
+        - type_integrity
+        - reference_continuity
+        - functional_continuity
+        - temporal_continuity
+        - contextual_boundedness
+        - counterfactual_sensitivity
+        - source_ceiling
+        - calibration
+        - selection_and_loss
+        - alternatives
+        - claim_ceiling
+        - authority_ceiling
+        - stop
+        - non_capture
+    audit_stages:
+      owner: 07_model/Admissibility_Rules.yaml
+      exact_count: 12
+      closed: true
+      order_sensitive: true
+      values:
+        - source_and_claim_entry
+        - operation_classification
+        - relevance_floor
+        - traceability_ceiling
+        - continuity_and_type_integrity
+        - counterfactual_sensitivity
+        - loss_and_selection
+        - alternatives
+        - source_and_calibration_limits
+        - anti_immunization
+        - stop_and_non_capture
+        - claim_and_authority_ceiling
+      stage_rule_bindings:
+        - stage_id: source_and_claim_entry
+          order: 1
+          assessment_mode: declaration_entry
+          principal_rule_ids:
+            - source_ceiling
+            - contextual_boundedness
+            - claim_ceiling
+        - stage_id: operation_classification
+          order: 2
+          assessment_mode: operation_classification
+          principal_rule_ids: []
+        - stage_id: relevance_floor
+          order: 3
+          assessment_mode: substantive_assessment
+          principal_rule_ids:
+            - praxis_purchase
+        - stage_id: traceability_ceiling
+          order: 4
+          assessment_mode: substantive_assessment
+          principal_rule_ids:
+            - traceable_load
+        - stage_id: continuity_and_type_integrity
+          order: 5
+          assessment_mode: substantive_assessment
+          principal_rule_ids:
+            - type_integrity
+            - reference_continuity
+            - functional_continuity
+            - temporal_continuity
+            - contextual_boundedness
+        - stage_id: counterfactual_sensitivity
+          order: 6
+          assessment_mode: substantive_assessment
+          principal_rule_ids:
+            - counterfactual_sensitivity
+        - stage_id: loss_and_selection
+          order: 7
+          assessment_mode: substantive_assessment
+          principal_rule_ids:
+            - selection_and_loss
+        - stage_id: alternatives
+          order: 8
+          assessment_mode: substantive_assessment
+          principal_rule_ids:
+            - alternatives
+        - stage_id: source_and_calibration_limits
+          order: 9
+          assessment_mode: substantive_assessment
+          principal_rule_ids:
+            - source_ceiling
+            - calibration
+        - stage_id: anti_immunization
+          order: 10
+          assessment_mode: cross_cutting_assessment
+          principal_rule_ids: []
+        - stage_id: stop_and_non_capture
+          order: 11
+          assessment_mode: preliminary_trigger_assessment
+          principal_rule_ids:
+            - stop
+            - non_capture
+            - claim_ceiling
+        - stage_id: claim_and_authority_ceiling
+          order: 12
+          assessment_mode: final_ceiling_determination
+          principal_rule_ids:
+            - claim_ceiling
+            - authority_ceiling
+            - contextual_boundedness
+    loss_fields:
+      owner: 07_model/Operation_Registry.yaml
+      record_syntax_owner: 07_model/Transformation_Record.schema.json
+      exact_count: 5
+      closed: true
+      order_sensitive: true
+      values:
+        - preserved
+        - compressed
+        - excluded
+        - uncertain
+        - irrecoverable
+    final_routes:
+      owner: 07_model/Boundary_Decision_Tree.yaml
+      exact_count: 10
+      closed_for_current_output_class_inventory: true
+      one_to_one_with_output_classes: true
+      values:
+        - route_id: route_admissible
+          selected_canonical_class: admissible
+        - route_id: route_admissible_with_bounded_claim
+          selected_canonical_class: admissible_with_bounded_claim
+        - route_id: route_admissible_but_provisional
+          selected_canonical_class: admissible_but_provisional
+        - route_id: route_resolution_neutral
+          selected_canonical_class: resolution_neutral
+        - route_id: route_analogy_only
+          selected_canonical_class: analogy_only
+        - route_id: route_partially_admissible
+          selected_canonical_class: partially_admissible
+        - route_id: route_claim_reduction_required
+          selected_canonical_class: claim_reduction_required
+        - route_id: route_mandatory_stop
+          selected_canonical_class: mandatory_stop
+        - route_id: route_failed_transformation
+          selected_canonical_class: failed_transformation
+        - route_id: route_non_capture
+          selected_canonical_class: non_capture
+    record_scopes:
+      owner: 07_model/Transformation_Record.schema.json
+      exact_count: 2
+      closed: true
+      values: *id001
+    routing_states:
+      owner: 07_model/Transformation_Record.schema.json
+      exact_count: 2
+      closed: true
+      values: *id002
+  current_open_inventories:
+    class_boundaries:
+      owner: 07_model/Output_Classes.yaml
+      routing_consumer: 07_model/Boundary_Decision_Tree.yaml
+      record_encoding_consumer: 07_model/Transformation_Record.schema.json
+      current_exact_count: 14
+      current_values_must_match: true
+      inventory_closed: false
+      values:
+        - admissible_vs_bounded_claim
+        - bounded_claim_vs_provisional
+        - bounded_claim_vs_partial
+        - partial_vs_provisional
+        - provisional_vs_resolution_neutral
+        - provisional_vs_non_capture
+        - partial_vs_non_capture
+        - claim_reduction_vs_bounded_claim
+        - claim_reduction_vs_mandatory_stop
+        - mandatory_stop_vs_failed_transformation
+        - failed_transformation_vs_non_capture
+        - mandatory_stop_vs_non_capture
+        - resolution_neutral_vs_claim_reduction
+        - analogy_only_vs_failed_projection
+    formal_diagnostics:
+      owner: 07_model/Boundary_Decision_Tree.yaml
+      record_encoding_consumer: 07_model/Transformation_Record.schema.json
+      current_exact_count: 5
+      current_values_must_match: true
+      inventory_closed: false
+      controlled_extensions_permitted: true
+      values:
+        - incomplete_packet
+        - unresolved_claim_segmentation
+        - no_supported_candidate
+        - unresolved_collision
+        - unresolved_selection
+  binding_rule: Mirrored inventory does not become root-owned inventory.
+  owner_revision_precedes_root_binding_update: true
+package_integrity_checks:
+  executor:
+    - repository integrity validator
+    - 07_model/examples/* smoke-test harness
+  root_registers_but_does_not_claim_execution: true
+  checks:
+    - external PMS fingerprint matches the registered SHA-256 value
+    - governing repository control fingerprints match their registered SHA-256 values
+    - supporting reference input fingerprints match their registered SHA-256 values
+    - registered component files exist at their paths
+    - actual component hashes match manifest fingerprints
+    - mirrored inventories equal their owning files
+    - dependency-graph edges equal component-manifest dependency-list projections
+    - component graph-node paths equal component-manifest paths
+    - audit-stage Rule binding equals Admissibility_Rules.yaml
+    - authoritative-pointer binding equals Transformation_Record.schema.json
+    - validation-companion content status matches the actual file-content state
+    - all dependency endpoints resolve
+    - no prohibited semantic or record-encoding dependency cycle exists
+    - referenced claim and record IDs exist
+    - chain reference count matches declared operation sequence
+    - external occurrence order is consistent
+    - claim and record relation graphs are acyclic
+    - segment references resolve
+    - source and target object IDs agree across linked records
+    - each final route maps to exactly one canonical Output Class
+    - no formal diagnostic is stored as a canonical Output Class
+    - each example declares the component versions against which it was validated
+  cross_file_execution_required: true
+  json_schema_alone_cannot_execute_all_checks: true

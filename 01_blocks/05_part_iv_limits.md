@@ -451,9 +451,9 @@ A larger composite may sometimes improve discrimination. It may reveal accumulat
 
 The correct stopping point is therefore relational rather than numeric. STRATA does not define one universal maximum number of components, one maximum time span, or one highest legitimate level. Composition stops when the declared target object no longer gains warranted praxeological structure from additional source material, when source trace can no longer carry the abstraction, or when enlargement would conceal rather than clarify decisive Loss and contradiction.
 
-#### C41-WP1-HANDOFF-01 — WP1 hands forward a stable, unadjudicated recursive-pressure chain
+#### C41-SCOPE-BOUNDARY-01 — The scope boundary preserves a stable, unadjudicated recursive-pressure chain
 
-Sections 41.1–41.4 establish the following pressure architecture for WP2:
+Sections 41.1–41.4 establish the following pressure architecture for the method section:
 
 ```text
 Q0
@@ -476,16 +476,16 @@ Q3
 = unadjudicated
 ```
 
-WP1 has not selected an operation result for Q1–Q3, a chain result, a route, or a canonical Output Class. It has not applied the detailed tests of Chapters 44–53 and has not repaired the missing RETYPE lock-critical artifacts. It has established only the general requirement that every recursive move remain independently justified, independently recorded, Loss-bearing, and unable to erase prior dispositions.
+The scope section has not selected an operation result for Q1–Q3, a chain result, a route, or a canonical Output Class. It has not applied the detailed tests of Chapters 44–53 and has not repaired the missing RETYPE lock-critical artifacts. It has established only the general requirement that every recursive move remain independently justified, independently recorded, Loss-bearing, and unable to erase prior dispositions.
 
-WP2 receives four settled propositions:
+The method section receives four settled propositions:
 
 1. Analytical mobility is productive but creates a structural risk of claim relocation.
 2. Recursive availability never establishes recursive necessity or admissibility.
 3. Infinite decomposition can reduce relevance, source support, reference integrity, and discrimination.
 4. Unlimited composition can erase heterogeneity, contradiction, relation trace, and Loss while inflating macrofunction claims.
 
-WP2 will extend this architecture to arbitrary projection, vertical authority drift, and analytical self-immunization. It receives no permission to adjudicate Q0 again, to adjudicate Q1–Q3 without records, or to convert chain length into analytical authority.
+The method section will extend this architecture to arbitrary projection, vertical authority drift, and analytical self-immunization. It receives no permission to adjudicate Q0 again, to adjudicate Q1–Q3 without records, or to convert chain length into analytical authority.
 
 <a id="41-5-the-risk-of-arbitrary-projection"></a>
 
@@ -739,7 +739,7 @@ Continuity does not mean that every later claim must fail because an earlier cla
 
 The Q0–Q3 pressure chain is deliberately minimal:
 
-| Claim | Status entering WP2 | What a later result may do | What it may not do |
+| Claim | Status entering the method section | What a later result may do | What it may not do |
 |---|---|---|---|
 | Q0 | stipulated prior `failed_transformation` | remain as a visible premise for testing later claims | be readjudicated or erased without its own reopening procedure |
 | Q1 | unadjudicated `DECOMPOSE` candidate | reconstruct finer source structure if separately warranted | count as repair merely because more detail exists |
@@ -797,7 +797,7 @@ Self-immunization is avoided only if these outcomes remain genuinely reachable. 
 
 Chapter 50 owns the detailed anti-immunization procedure, including objection lineage, re-entry conditions, and tests for claim relocation. Chapters 51 and 52 own the full Stop and Non-Capture records. The present section establishes why those later procedures are constitutive: without failure continuity, independent chain admissibility, and reachable terminal results, the three operations could generate indefinite analytical motion without a stable claim boundary.
 
-#### C41-WP2-HANDOFF-01 — WP2 hands forward the complete risk architecture without selecting a route or authority claim
+#### C41-METHOD-BOUNDARY-01 — The method boundary preserves the complete risk architecture without selecting a route or authority claim
 
 Sections 41.1–41.7 now establish five connected risk families:
 
@@ -820,9 +820,9 @@ They also preserve the following controls:
 7. Q0 remains a stipulated prior `failed_transformation` disposition;
 8. Q1–Q3 remain unadjudicated.
 
-WP2 has not selected a route, operation result, chain result, or canonical Output Class for Q1–Q3. It has not applied the detailed tests of Chapters 44–53, has not produced any missing RETYPE case package, and has not established Part-IV lock.
+The method section has not selected a route, operation result, chain result, or canonical Output Class for Q1–Q3. It has not applied the detailed tests of Chapters 44–53, has not produced any missing RETYPE case package, and has not established Part-IV lock.
 
-WP3 receives the complete Chapter-41 risk architecture. Its task is not to add another risk family or to adjudicate the pressure chain. It must state why LIMITS already governs every operation and chain, preserve LIMITS as a Part rather than a fourth operation or meta-level, and formulate the governing principle that analytical availability never establishes admissibility.
+The integration section receives the complete Chapter-41 risk architecture. Its task is not to add another risk family or to adjudicate the pressure chain. It must state why LIMITS already governs every operation and chain, preserve LIMITS as a Part rather than a fourth operation or meta-level, and formulate the governing principle that analytical availability never establishes admissibility.
 
 <a id="41-8-limits-as-constitutive-structure"></a>
 
@@ -1029,7 +1029,7 @@ No later chapter may convert its local test into a superior rule that overrides 
 
 Chapters 42–43 first protect the anti-ontology and anti-privilege boundary. Chapters 44–49 then specify the operating range and continuity burdens. Chapters 50–52 preserve failure, Stop, and outside. Chapter 53 assembles the integrated audit. This sequence elaborates one constitutive structure; it does not create a hierarchy of increasingly authoritative chapters.
 
-#### C41-HANDOFF-01 — WP3 completes the Chapter-41 rationale and hands WP4 an audit-and-lock task only
+#### C41-AUDIT-BOUNDARY-01 — The integration boundary completes the Chapter-41 rationale and leaves the chapter audit only the audit-and-lock task
 
 Sections 41.1–41.9 now provide the full method-level rationale for LIMITS:
 
@@ -1046,7 +1046,7 @@ Sections 41.1–41.9 now provide the full method-level rationale for LIMITS:
 - analytical availability never establishes admissibility;
 - Chapters 42–53 have distinct, bounded assignments.
 
-The Q0–Q3 pressure chain remains exactly as it entered WP3:
+The Q0–Q3 pressure chain remains exactly as it entered the integration section:
 
 ```text
 Q0
@@ -1060,9 +1060,9 @@ Q3 PROJECT_AS
 → unadjudicated
 ```
 
-WP3 selects no route, operation result, chain result, Local Audit result, or canonical Output Class for Q1–Q3. It creates no Case, Test, or Smoke artifact and does not substitute for the three missing RETYPE lock-critical packages. It also does not claim Part-IV lock.
+The integration section selects no route, operation result, chain result, Local Audit result, or canonical Output Class for Q1–Q3. It creates no Case, Test, or Smoke artifact and does not substitute for the three missing RETYPE lock-critical packages. It also does not claim Part-IV lock.
 
-WP4 receives no new conceptual duty. Its task is to verify the Chapter-41 Contract, redundancy boundaries, exact representation of all twenty-four duties, preservation of Q0 and non-adjudication of Q1–Q3, consistency with the Minified Kernel and formal model, and the exact provisional-lock disposition. Only after that audit may Chapter 42 preparation begin.
+The chapter audit adds no new conceptual duty. It verifies the Chapter-41 Contract, redundancy boundaries, exact representation of all twenty-four duties, preservation of Q0 and non-adjudication of Q1–Q3, consistency with the Minified Kernel and formal model, and the exact provisional-lock disposition. It also establishes the Chapter-42 entry boundary without adding a conceptual duty.
 
 Chapter 41 therefore closes its substantive argument with a bounded claim:
 
@@ -1103,7 +1103,7 @@ warrant for discrete reality layers
 
 The pressure can arise in either direction. A finer reconstruction may be treated as access to a deeper reality. A broader composite may be treated as a higher or more complete reality. A projected function may later be treated as a new kind of thing. Chapter 42 blocks all three conversions while preserving the legitimate analytical work performed by fine, broad, and functional reconstructions.
 
-For WP1, the pressure is held in one synthetic packet:
+For the scope section, the pressure is held in one synthetic packet:
 
 ```text
 O0
@@ -1121,7 +1121,7 @@ R2
   for a separately bounded claim
 ```
 
-`O0` is an ontology-pressure statement and is not accepted. `R1` and `R2` are bounded reconstruction candidates and remain unadjudicated. WP1 does not select a preferred granularity, operation result, route, or canonical Output Class. It establishes only the relational conditions under which the reconstructions can be stated without becoming an ontology.
+`O0` is an ontology-pressure statement and is not accepted. `R1` and `R2` are bounded reconstruction candidates and remain unadjudicated. The scope section does not select a preferred granularity, operation result, route, or canonical Output Class. It establishes only the relational conditions under which the reconstructions can be stated without becoming an ontology.
 
 <a id="42-1-analytical-levels"></a>
 
@@ -1270,7 +1270,7 @@ STRATA does not merely label objects at different positions. It reconstructs rel
 
 Five relation families are especially vulnerable to ontology drift.
 
-**Part and whole.** A source occurrence may be reconstructed as a constituent of a composite object. The relation depends on selection, relation trace, Frame, granularity, temporal scope, and claim. The part is not thereby a final constituent, and the composite is not thereby an ultimate whole. Those operation-specific prohibitions belong to WP2; WP1 establishes the relational premise on which they depend.
+**Part and whole.** A source occurrence may be reconstructed as a constituent of a composite object. The relation depends on selection, relation trace, Frame, granularity, temporal scope, and claim. The part is not thereby a final constituent, and the composite is not thereby an ultimate whole. Those operation-specific prohibitions belong to the method section; the scope section establishes the relational premise on which they depend.
 
 **Sequence and trajectory.** Events, non-events, transitions, paths, and trajectories can be related through supported temporal reconstruction. A trajectory is not a deeper layer beneath the sequence, nor is the sequence a more fundamental reality beneath the trajectory. They are distinct analytical objects with different formation burdens.
 
@@ -1387,7 +1387,7 @@ PROJECT_AS changes bounded contextual function
 ≠ movement into a new ontological stratum
 ```
 
-Nor does the Δ–Ψ dependency order settle the matter. PMS Base provides an operator grammar with a declared sequence and organizational layers. Chapter 42 WP3 will state the full grammar/world distinction. For WP1, the relevant constraint is already clear: analytical order and organizational grouping do not by themselves describe the furniture or layer structure of reality.
+Nor does the Δ–Ψ dependency order settle the matter. PMS Base provides an operator grammar with a declared sequence and organizational layers. The integration section of Chapter 42 will state the full grammar/world distinction. For the scope section, the relevant constraint is already clear: analytical order and organizational grouping do not by themselves describe the furniture or layer structure of reality.
 
 The absence of discrete universal layers does not prohibit local partitions. A study may distinguish interactional, procedural, and institutional positions because the sources and claim require those coordinates. Another study may use event, episode, and trajectory. A third may use occurrence, composite, and target function. The partitions are admissible when their relation, purpose, sources, and limits are declared.
 
@@ -1449,15 +1449,15 @@ R1 legitimate
 ≠ coarser must dominate
 ```
 
-The two reconstructions may be compatible, partially overlapping, competing, or non-translatable for a particular predicate. That determination belongs to their substantive comparison and, where performance privilege is at issue, to Chapter 43. Chapter 42 WP1 establishes only the anti-ontology constraint: legitimacy at one granularity does not transform that granularity into reality's privileged resolution.
+The two reconstructions may be compatible, partially overlapping, competing, or non-translatable for a particular predicate. That determination belongs to their substantive comparison and, where performance privilege is at issue, to Chapter 43. The scope section of Chapter 42 establishes only the anti-ontology constraint: legitimacy at one granularity does not transform that granularity into reality's privileged resolution.
 
 The same rule applies when one reconstruction is more stable. If `R1` repeatedly supports the bounded institutional claim while `R2` varies with local source detail, `R1` may outperform `R2` for that claim. The result would concern discriminative performance, not ontological superiority. Conversely, if `R2` exposes a decisive asymmetry hidden by `R1`, the finer reconstruction may require qualification or reduction of the coarse claim. That correction still does not reveal a deeper layer of being.
 
-No Output Class is selected for `R1` or `R2` in WP1. The ontology-pressure statement `O0` remains rejected as a permitted inference, while the bounded reconstructions remain open to later testing.
+No Output Class is selected for `R1` or `R2` in the scope section. The ontology-pressure statement `O0` remains rejected as a permitted inference, while the bounded reconstructions remain open to later testing.
 
-#### C42-WP1-HANDOFF-01 — WP1 hands WP2 a relational boundary without constituent or totality claims
+#### C42-SCOPE-BOUNDARY-01 — The scope boundary preserves a relational boundary without constituent or totality claims
 
-WP1 establishes the following stable boundary:
+The scope section establishes the following stable boundary:
 
 - analytical levels are locally declared relations;
 - every level statement must expose its Frame, granularity, source/target relation, transformation or comparison context, and Claim Scope;
@@ -1468,7 +1468,7 @@ WP1 establishes the following stable boundary:
 - two legitimate granularities may coexist without either becoming the real layer;
 - `O0` is not accepted, while `R1` and `R2` remain unadjudicated.
 
-WP1 does not determine whether a decomposition reaches final constituents, whether a composition forms an ultimate whole, or whether a projection ontologically promotes its source. Those operation-specific anti-ontology burdens belong to WP2.
+The scope section does not determine whether a decomposition reaches final constituents, whether a composition forms an ultimate whole, or whether a projection ontologically promotes its source. Those operation-specific anti-ontology burdens belong to the method section.
 
 The controlled handoff is:
 
@@ -1479,11 +1479,11 @@ relational anti-ontology boundary established
 + O0 prohibited as inference
 + R1 and R2 unadjudicated
 
-→ Chapter 42 WP2
+→ Chapter 42's method section
 → §§42.4–42.6
 ```
 
-WP2 receives no preferred granularity, no selected operation result, no pressure-object Output Class, no final constituent, no ultimate composite, and no world-structure claim. It receives a precise premise: every operation works on declared analytical relations, and no successful operation may convert those relations into an ontology by implication.
+The method section receives no preferred granularity, no selected operation result, no pressure-object Output Class, no final constituent, no ultimate composite, and no world-structure claim. It receives a precise premise: every operation works on declared analytical relations, and no successful operation may convert those relations into an ontology by implication.
 
 <a id="42-4-no-final-constituents"></a>
 
@@ -1830,9 +1830,9 @@ The formulation may be shortened in local prose only when those conditions remai
 
 Projection therefore neither promotes the source object upward nor translates it into a deeper category. It changes the analytical function assigned within a declared context. The movement is contextual and claim-bound, not ontological.
 
-#### C42-WP2-HANDOFF-01 — WP2 hands WP3 operation-specific anti-ontology limits without assigning world structure
+#### C42-METHOD-BOUNDARY-01 — The method boundary preserves operation-specific anti-ontology limits without assigning world structure
 
-WP2 establishes the following stable operation-specific boundaries:
+The method section establishes the following stable operation-specific boundaries:
 
 - `DECOMPOSE` reconstructs finer structures but never discovers final constituents;
 - every decomposition remains dependent on Frame, source basis, granularity, question, and Claim Scope;
@@ -1845,7 +1845,7 @@ WP2 establishes the following stable operation-specific boundaries:
 - `O0` remains a prohibited inference;
 - `R1` and `R2` remain unadjudicated and no preferred granularity is selected.
 
-WP2 does not yet systematize the distinction between the Δ–Ψ operator grammar and world structure, define the full ontology-drift marker set, or establish the canonical corrective formulation. Those tasks belong to WP3.
+The method section does not yet systematize the distinction between the Δ–Ψ operator grammar and world structure, define the full ontology-drift marker set, or establish the canonical corrective formulation. Those tasks belong to the integration section.
 
 The controlled handoff is:
 
@@ -1858,11 +1858,11 @@ no-final-constituents rule established
 + O0 prohibited as inference
 + R1 and R2 unadjudicated
 
-→ Chapter 42 WP3
+→ Chapter 42's integration section
 → §§42.7–42.9
 ```
 
-WP3 receives no ontology claim, no preferred granularity, no pressure-object Output Class, no new operator, no new primitive, and no world inventory. It receives three precise negative limits on the existing operation grammar and the task of stating how that grammar must be distinguished from claims about the structure of reality.
+The integration section receives no ontology claim, no preferred granularity, no pressure-object Output Class, no new operator, no new primitive, and no world inventory. It receives three precise negative limits on the existing operation grammar and the task of stating how that grammar must be distinguished from claims about the structure of reality.
 
 <a id="42-7-operator-grammar-versus-world-structure"></a>
 
@@ -2333,9 +2333,9 @@ no ontological privilege
 
 Chapter 43 may compare `R1` and `R2` only through declared performance criteria. It may not identify either as the real layer, infer that finer wins, or treat coexistence as automatic equivalence. Chapter 42 supplies the anti-ontological floor; Chapter 43 owns the comparative test.
 
-#### C42-HANDOFF-01 — WP3 hands WP4 a complete anti-ontology method without adjudicating the pressure packet
+#### C42-AUDIT-BOUNDARY-01 — The integration boundary preserves a complete anti-ontology method without adjudicating the pressure packet
 
-WP3 completes the substantive Chapter-42 method. The chapter now establishes:
+integration boundary completes the substantive Chapter-42 method. The chapter now establishes:
 
 - analytical levels as locally declared relations;
 - reconstructive relations without discrete reality layers;
@@ -2368,7 +2368,7 @@ R2:
   preferred_granularity: not_selected
 ```
 
-WP3 selects no operation result, comparison result, route, Local Audit result, preferred granularity, or canonical Output Class for `R1` or `R2`. It creates no Case, Test, or Smoke YAML and does not repair the RETYPE artifact gap.
+The integration section selects no operation result, comparison result, route, Local Audit result, preferred granularity, or canonical Output Class for `R1` or `R2`. It creates no Case, Test, or Smoke YAML and does not repair the RETYPE artifact gap.
 
 The controlled handoff is:
 
@@ -2379,15 +2379,15 @@ Chapter 42 §§42.1–42.9 substantively complete
 + R1 and R2 unadjudicated
 + Chapter 43 comparative ownership preserved
 
-→ Chapter 42 WP4
+→ Chapter 42's chapter audit
 → Contract and redundancy audit
 → exact 24-duty verification
 → pressure-packet non-adjudication check
 → provisional-lock decision
-→ Chapter 43 Preparation Gate
+→ Chapter 43 Entry Conditions
 ```
 
-WP4 receives a complete anti-ontology method. It receives no ontology verdict, no preferred reconstruction, no pressure-object Output Class, no Part-IV lock, and no authority to infer what reality ultimately is or is not.
+The chapter audit receives a complete anti-ontology method. It receives no ontology verdict, no preferred reconstruction, no pressure-object Output Class, no Part-IV lock, and no authority to infer what reality ultimately is or is not.
 
 ---
 
@@ -2428,7 +2428,7 @@ RH
 → unadjudicated
 ```
 
-`P0` is a privilege assertion and is not accepted. `RC`, `RF`, and `RH` are reconstruction candidates. WP1 does not rank them, merge them, select a preferred granularity, decide comparability, adjudicate an operation occurrence, or assign a canonical Output Class. It establishes only why analytical direction cannot decide the comparison in advance.
+`P0` is a privilege assertion and is not accepted. `RC`, `RF`, and `RH` are reconstruction candidates. The scope section does not rank them, merge them, select a preferred granularity, decide comparability, adjudicate an operation occurrence, or assign a canonical Output Class. It establishes only why analytical direction cannot decide the comparison in advance.
 
 <a id="43-1-symmetrical-limitation"></a>
 
@@ -2525,7 +2525,7 @@ more included scenes in RH
 
 A legitimate preference, if one later becomes warranted, must state the question for which the preference holds and the comparison dimensions that support it. It must also preserve the losing or non-selected candidate's distinct claim where that claim remains warranted. Chapter 43 therefore rejects a universal preferred granularity while retaining local, revisable, claim-specific preference.
 
-WP1 does not perform that later comparison. `RC`, `RF`, and `RH` remain unadjudicated and unranked. The chapter-level production status does not flow to the candidates.
+The scope section does not perform that later comparison. `RC`, `RF`, and `RH` remain unadjudicated and unranked. The chapter-level production status does not flow to the candidates.
 
 <a id="43-2-finer-is-not-better"></a>
 
@@ -2574,7 +2574,7 @@ The risks of fine reconstruction are not confined to “too much information.”
 
 **Source overreach.** Fine distinctions require fine support. If the source material records only broad procedural phases, a reconstruction of minute local motives, role shifts, or operator occurrences exceeds the Source Ceiling. Formal detail cannot repair absent evidence.
 
-**Noise and non-discrimination.** Additional distinctions can multiply variation that does not change any warranted praxis claim. The result may look richer while distinguishing no relevant cases. Chapter 44 will own the full Relevance-Floor procedure; WP1 retains the pressure without adjudicating it.
+**Noise and non-discrimination.** Additional distinctions can multiply variation that does not change any warranted praxis claim. The result may look richer while distinguishing no relevant cases. Chapter 44 owns the full Relevance-Floor procedure; the scope section retains the pressure without adjudicating it.
 
 **Fragmentation.** A compressed occurrence or composite may be opened into components that no longer form a reconstructible source object. Supported fragments alone do not establish `DECOMPOSE` if the relation to the reference object cannot be preserved.
 
@@ -2629,7 +2629,7 @@ not:
 coarse reconstruction is generally superior
 ```
 
-A local preference for `RC` leaves `RF` available for `QF`. It does not erase the heterogeneous production conditions that `RF` may reconstruct. The two claims may later remain co-valid, compete, or prove non-comparable. WP2 owns that architecture.
+A local preference for `RC` leaves `RF` available for `QF`. It does not erase the heterogeneous production conditions that `RF` may reconstruct. The two claims may later remain co-valid, compete, or prove non-comparable. The method section owns that architecture.
 
 #### C43-COARSEPERFORMANCE-01 — coarse performance must be stated without coarse privilege, ontology, or suppression of Loss
 
@@ -2665,9 +2665,9 @@ This Loss profile is illustrative, not adjudicated. Its function is to show that
 
 Coarse performance also does not mean that the object occupies a more authoritative level. Chapter 42 has already prohibited ontological promotion. Chapter 43 adds that explanatory economy cannot become a hidden authority claim. A coarse reconstruction remains one bounded analytical object among alternatives.
 
-#### C43-WP1-HANDOFF-01 — WP1 hands WP2 symmetrical non-privilege without selecting comparison results or scale-relative criteria
+#### C43-SCOPE-BOUNDARY-01 — The scope boundary preserves symmetrical non-privilege without selecting comparison results or scale-relative criteria
 
-WP1 establishes the following boundary:
+The scope section establishes the following boundary:
 
 - finer reconstruction and broader composition carry symmetrical burdens of warrant;
 - symmetrical limitation does not require identical substantive results;
@@ -2700,7 +2700,7 @@ RH:
   preferred_scope: not_selected
 ```
 
-WP1 does not decide which candidate performs better, whether `RC` and `RF` are compatible, whether a wider composition carries additional explanation, or whether any candidate crosses the Relevance Floor or Traceability Ceiling. Those questions remain downstream.
+The scope section does not decide which candidate performs better, whether `RC` and `RF` are compatible, whether a wider composition carries additional explanation, or whether any candidate crosses the Relevance Floor or Traceability Ceiling. Those questions remain downstream.
 
 The controlled handoff is:
 
@@ -2711,11 +2711,11 @@ symmetrical limitation established
 + candidate ranking withheld
 + exact Loss and authority boundaries preserved
 
-→ Chapter 43 WP2
+→ Chapter 43's method section
 → §§43.4–43.6
 ```
 
-WP2 receives no preferred granularity, no selected comparison result, no forced merger, no candidate Output Class, no Relevance-Floor result, and no Traceability-Ceiling result. It receives a precise premise: broader scope does not explain more by definition, performance is scale-relative, and coarse/fine co-validity must remain possible without collapse.
+The method section receives no preferred granularity, no selected comparison result, no forced merger, no candidate Output Class, no Relevance-Floor result, and no Traceability-Ceiling result. It receives a precise premise: broader scope does not explain more by definition, performance is scale-relative, and coarse/fine co-validity must remain possible without collapse.
 <a id="43-4-higher-composition-is-not-greater-explanation"></a>
 
 ### 43.4 Higher Composition Is Not Greater Explanation
@@ -2881,7 +2881,7 @@ comparison underdetermined
 
 This chapter does not select a canonical Output Class for the synthetic candidates. Later instantiated records must map their local findings to the closed ten-class inventory. The method point is that a comparison can legitimately preserve several candidates, reduce a claim, stop, or record Non-Capture rather than fabricate a ranking.
 
-Chapter 44 will own the detailed Praxeological Relevance Floor and Chapter 45 the detailed Praxeological Traceability Ceiling. Section 43.5 uses praxis difference and traceability as comparison coordinates but does not adjudicate either boundary for `RC`, `RF`, or `RH`.
+Chapter 44 owns the detailed Praxeological Relevance Floor and Chapter 45 the detailed Praxeological Traceability Ceiling. Section 43.5 uses praxis difference and traceability as comparison coordinates but does not adjudicate either boundary for `RC`, `RF`, or `RH`.
 
 <a id="43-6-coarse-and-fine-co-validity"></a>
 
@@ -2969,9 +2969,9 @@ Where integration is pursued, it creates a new claim and must pass the full `COM
 
 A deliberate non-merger can therefore be the more traceable result. It preserves what each reconstruction establishes and prevents explanatory inflation. Optional Stop remains available where further integration is technically possible but adds no warranted praxis purchase. Mandatory Stop remains available where integration would exceed source, type, continuity, traceability, or claim boundaries. Neither Stop creates an additional Output Class.
 
-#### C43-WP2-HANDOFF-01 — WP2 hands WP3 scale-relative comparison and co-validity without reduction or candidate disposition
+#### C43-METHOD-BOUNDARY-01 — The method boundary preserves scale-relative comparison and co-validity without reduction or candidate disposition
 
-WP2 establishes the following architecture:
+The method section establishes the following architecture:
 
 - higher composition creates no automatic explanatory, evidential, or authority gain;
 - a wider composite must disclose relation dilution, heterogeneity compression, exclusion, uncertainty, and irrecoverable Loss;
@@ -3012,7 +3012,7 @@ comparison:
   traceability_ceiling_result: not_selected
 ```
 
-WP2 does not decide whether `RC`, `RF`, and `RH` are admissible, which candidate performs better, whether `RC` and `RF` are compatible, whether micro-support entails a macroclaim, or whether macrofunction requires micro-homogeneity. It selects no route and no canonical Output Class for any pressure object.
+The method section does not decide whether `RC`, `RF`, and `RH` are admissible, which candidate performs better, whether `RC` and `RF` are compatible, whether micro-support entails a macroclaim, or whether macrofunction requires micro-homogeneity. It selects no route and no canonical Output Class for any pressure object.
 
 The controlled handoff is:
 
@@ -3024,11 +3024,11 @@ higher-composition privilege rejected
 + forced merger prohibited
 + non-comparability and underdetermination retained
 
-→ Chapter 43 WP3
+→ Chapter 43's integration section
 → §§43.7–43.10
 ```
 
-WP3 receives a comparison architecture without a comparison verdict. It must establish no automatic reduction, the comparative granularity test, granularity humility, and the LIMITS Record-View control while preserving the closed operation, Rule, audit-stage, Output-Class, sensitivity, loss-field, and schema inventories.
+The integration section receives a comparison architecture without a comparison verdict. It must establish no automatic reduction, the comparative granularity test, granularity humility, and the LIMITS Record-View control while preserving the closed operation, Rule, audit-stage, Output-Class, sensitivity, loss-field, and schema inventories.
 
 <a id="43-7-no-automatic-reduction"></a>
 
@@ -3391,9 +3391,9 @@ schema-valid comparison view
 
 This control prevents record proliferation from becoming conceptual proliferation. More views do not produce more primitives, more operations, or more authority.
 
-#### C43-HANDOFF-01 — WP3 hands WP4 a complete comparative method without candidate adjudication
+#### C43-AUDIT-BOUNDARY-01 — The integration boundary preserves a complete comparative method without candidate adjudication
 
-WP3 completes the Chapter-43 method architecture:
+integration boundary completes the Chapter-43 method architecture:
 
 - macroclaims are not automatically replaced by microclaims;
 - micro-support does not entail a macroclaim;
@@ -3437,7 +3437,7 @@ comparison:
   output_class_selected: false
 ```
 
-WP3 does not decide whether `RC`, `RF`, or `RH` is admissible, which candidate performs better, whether the candidates are compatible, whether reduction succeeds, whether a Stop or Non-Capture result applies, or which canonical Output Class should be selected. It creates no Case, Test, or Smoke artifact.
+The integration section does not decide whether `RC`, `RF`, or `RH` is admissible, which candidate performs better, whether the candidates are compatible, whether reduction succeeds, whether a Stop or Non-Capture result applies, or which canonical Output Class should be selected. It creates no Case, Test, or Smoke artifact.
 
 The controlled handoff is:
 
@@ -3451,15 +3451,15 @@ symmetrical non-privilege
 + granularity humility
 + Shared-Record view control
 
-→ Chapter 43 WP4
+→ Chapter 43's chapter audit
 → integrated Contract and redundancy audit
 → exact 24-duty verification
 → P0/RC/RF/RH non-adjudication check
 → provisional-lock decision
-→ Chapter 44 Preparation Gate
+→ Chapter 44 Entry Conditions
 ```
 
-Chapter 43 is substantively drafted through §43.10. It remains open until WP4 completes the integrated audit and selects the bounded chapter-level disposition without transferring that disposition to `P0`, `RC`, `RF`, or `RH`.
+Sections 43.1–43.10 provide the complete Chapter-43 method. The chapter-level disposition is recorded by the integrated audit without transferring that disposition to `P0`, `RC`, `RF`, or `RH`.
 ---
 
 <a id="chapter-44-praxeological-relevance-floor"></a>
@@ -3506,7 +3506,7 @@ Is D supported by the source basis?
 ≠ Which canonical Output Class follows after all applicable checks?
 ```
 
-WP1 establishes the lower-bound architecture, the dimensions of PraxisPurchase, and the claim-relative coordinate burden. It does not decide `D`, `DG`, `DN`, or `DS`; it does not select a preferred granularity, a lower-bound result, a route, or a canonical Output Class. The detailed distinction between added detail and changed reconstruction belongs to WP2. Negative findings, `resolution_neutral`, Shared-Record mapping, Mandatory Lower Stop, and bounded re-entry belong to WP3.
+The scope section establishes the lower-bound architecture, the dimensions of PraxisPurchase, and the claim-relative coordinate burden. It does not decide `D`, `DG`, `DN`, or `DS`; it does not select a preferred granularity, a lower-bound result, a route, or a canonical Output Class. The detailed distinction between added detail and changed reconstruction belongs to the method section. Negative findings, `resolution_neutral`, Shared-Record mapping, Mandatory Lower Stop, and bounded re-entry belong to the integration section.
 
 <a id="44-1-definition"></a>
 
@@ -3703,7 +3703,7 @@ source does not support testing D
 Three states must therefore remain distinct:
 
 1. **supported distinction with changed reconstruction:** a possible positive lower-bound finding, subject to all remaining gates;
-2. **supported distinction with no changed reconstruction:** a possible neutral or below-floor finding, whose exact interpretation remains WP3's task;
+2. **supported distinction with no changed reconstruction:** a possible neutral or below-floor finding, whose exact interpretation remains the integration section's task;
 3. **distinction or effect not adequately supported:** a source-limited, underdetermined, or capture-limited state that cannot be relabeled as neutrality.
 
 `DS` represents the third pressure possibility. It does not mean that `D` is irrelevant. It means that the current sources do not carry a warranted decision about the proposed difference or its claimed effect. New sources, a revised claim, or a more defensible coordinate declaration may later support a new test. That later test is a new claim with record continuity; it does not rewrite the earlier source limitation as though the limitation had never occurred.
@@ -3765,9 +3765,9 @@ new claim
 
 The same rule protects operator-occurrence analyses. A finer distinction among operator-typed occurrences may matter to a claim about local formation while remaining neutral to a claim about a stable composite function. The operator types and their dependency order remain unchanged; only the bounded reconstruction claim differs.
 
-#### C44-WP1-HANDOFF-01 — WP1 hands WP2 the lower-bound and claim-relative architecture without pressure-object adjudication or Output-Class selection
+#### C44-SCOPE-BOUNDARY-01 — The scope boundary preserves the lower-bound and claim-relative architecture without pressure-object adjudication or Output-Class selection
 
-WP1 establishes the following controlled premises:
+The scope section establishes the following controlled premises:
 
 - the Praxeological Relevance Floor is the lower relational boundary below which an added distinction creates no additional warranted praxis finding for the tested claim;
 - the Chapter-6 compact definition remains controlling;
@@ -3807,7 +3807,7 @@ lower_bound:
   output_class_selected: false
 ```
 
-WP1 selects no lower-bound result, no pressure-object disposition, no route, no canonical Output Class, no Relevance-Floor record result, and no Mandatory Lower Stop. It creates no Case, Test, or Smoke YAML and does not repair the missing RETYPE lock-critical packages.
+The scope section selects no lower-bound result, no pressure-object disposition, no route, no canonical Output Class, no Relevance-Floor record result, and no Mandatory Lower Stop. It creates no Case, Test, or Smoke YAML and does not repair the missing RETYPE lock-critical packages.
 
 The controlled handoff is:
 
@@ -3820,13 +3820,13 @@ lower boundary fixed
 + source limitation separated
 + claim relativity established
 
-→ Chapter 44 WP2
+→ Chapter 44's method section
 → §44.4 Detail versus Difference
 → §44.5 Lower-Bound Failure Forms
 → §44.6 The Changed-Reconstruction Test
 ```
 
-WP2 receives no adjudicated `D`, `DG`, `DN`, or `DS`, no selected Output Class, and no permission to infer relevance from detail count, terminology, formal completeness, source abundance, or PMS operator-occurrence density. It receives one exact burden: any asserted gain must identify the defensible statement that changes because of the added distinction.
+The method section receives no adjudicated `D`, `DG`, `DN`, or `DS`, no selected Output Class, and no permission to infer relevance from detail count, terminology, formal completeness, source abundance, or PMS operator-occurrence density. It receives one exact burden: any asserted gain must identify the defensible statement that changes because of the added distinction.
 
 
 <a id="44-4-detail-versus-difference"></a>
@@ -3995,7 +3995,7 @@ This marker preserves the formal-model boundary. YAML, JSON Schema, decision tre
 
 These six forms are neither exhaustive nor mutually exclusive. One candidate can exhibit several at once, and a suspected form can prove false when the Changed-Reconstruction Test identifies a supported claim change. The labels therefore remain secondary to the test.
 
-A failure marker also does not select a canonical Output Class. `resolution_neutral`, `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, or `non_capture` require their own conditions and later mapping. WP2 identifies the risk architecture but leaves negative-result interpretation and lower Stop to WP3.
+A failure marker also does not select a canonical Output Class. `resolution_neutral`, `claim_reduction_required`, `mandatory_stop`, `failed_transformation`, or `non_capture` require their own conditions and later mapping. The method section identifies the risk architecture but leaves negative-result interpretation and lower Stop to the integration section.
 
 ```text
 failure-form marker
@@ -4114,11 +4114,11 @@ This provision prevents confirmation bias. The analyst may not count only distin
 
 Countercase visibility still does not presume success. The countercase must be source-supported, refer to the declared object and claim, and alter the warranted reconstruction rather than merely suggest a possibility. Where the sources cannot determine whether the countercase holds, the result remains source-limited or underdetermined. Where the countercase concerns a different object or question, it becomes a new testable claim rather than an automatic revision of `Q`.
 
-The same discipline applies to Stop. Recognizing that no further differentiation is warranted can be a substantive changed reconstruction, but WP2 does not yet select Mandatory Lower Stop. Chapter 44 WP3 owns the exact negative-result, neutrality, Stop, record-view, and re-entry mapping.
+The same discipline applies to Stop. Recognizing that no further differentiation is warranted can be a substantive changed reconstruction, but the method section does not yet select Mandatory Lower Stop. Chapter 44's integration section owns the exact negative-result, neutrality, Stop, record-view, and re-entry mapping.
 
-#### C44-WP2-HANDOFF-01 — WP2 hands WP3 a complete Changed-Reconstruction Test without deciding negative-result mapping, lower Stop, re-entry, or pressure-object disposition
+#### C44-METHOD-BOUNDARY-01 — The method boundary preserves a complete Changed-Reconstruction Test without deciding negative-result mapping, lower Stop, re-entry, or pressure-object disposition
 
-WP2 establishes the following controlled premises:
+The method section establishes the following controlled premises:
 
 - descriptive detail and praxeological difference are non-equivalent;
 - more information without an exact changed warranted claim does not demonstrate PraxisPurchase;
@@ -4159,7 +4159,7 @@ lower_bound:
   mandatory_lower_stop_selected: false
 ```
 
-WP2 selects no lower-bound result, no pressure-object disposition, no preferred granularity, no route, no canonical Output Class, no Mandatory Lower Stop, and no re-entry decision. It creates no Case, Test, or Smoke YAML and does not alter the artifact-complete RETYPE `mandatory_stop`.
+The method section selects no lower-bound result, no pressure-object disposition, no preferred granularity, no route, no canonical Output Class, no Mandatory Lower Stop, and no re-entry decision. It creates no Case, Test, or Smoke YAML and does not alter the artifact-complete RETYPE `mandatory_stop`.
 
 The controlled handoff is:
 
@@ -4172,14 +4172,14 @@ detail/difference boundary fixed
 + praxis dimensions declared
 + countercase and narrowing visibility retained
 
-→ Chapter 44 WP3
+→ Chapter 44's integration section
 → §44.7 Negative Findings
 → §44.8 Resolution Neutrality
 → §44.9 Mandatory Lower Stop and Re-entry
 → §44.10 Shared-Record View and Handoff
 ```
 
-WP3 receives a complete test architecture but no adjudicated `D`, `DG`, `DN`, or `DS`, no selected lower-bound result, and no permission to collapse source limitation, resolution neutrality, failed transformation, Mandatory Stop, or Non-Capture into one another.
+The integration section receives a complete test architecture but no adjudicated `D`, `DG`, `DN`, or `DS`, no selected lower-bound result, and no permission to collapse source limitation, resolution neutrality, failed transformation, Mandatory Stop, or Non-Capture into one another.
 <a id="44-7-negative-findings"></a>
 
 ### 44.7 Negative Findings
@@ -4483,9 +4483,9 @@ Chapter 53 receives:
 
 Chapter 44 does not perform Chapter 51's integrated collision handling or Chapter 53's complete audit. It supplies their lower-bound inputs.
 
-#### C44-HANDOFF-01 — WP3 hands WP4 a complete lower-bound method without adjudicating the synthetic pressure packet, selecting a route, or assigning a pressure-object Output Class
+#### C44-AUDIT-BOUNDARY-01 — The integration boundary preserves a complete lower-bound method without adjudicating the synthetic pressure packet, selecting a route, or assigning a pressure-object Output Class
 
-WP3 completes the Chapter-44 substantive method:
+integration boundary completes the Chapter-44 substantive method:
 
 - supported negative findings are retained without turning absent evidence into evidence of absence;
 - resolution neutrality is distinguished from gain, failure, source limitation, formal incompleteness, and Non-Capture;
@@ -4526,7 +4526,7 @@ lower_bound:
   reentry_selected: false
 ```
 
-WP3 selects no result for `D`, `DG`, `DN`, or `DS`; no preferred granularity; no route; no Mandatory Lower Stop for the packet; no re-entry; and no canonical pressure-object Output Class. It creates no Case, Test, or Smoke YAML and does not alter the artifact-complete RETYPE `mandatory_stop`.
+The integration section selects no result for `D`, `DG`, `DN`, or `DS`; no preferred granularity; no route; no Mandatory Lower Stop for the packet; no re-entry; and no canonical pressure-object Output Class. It creates no Case, Test, or Smoke YAML and does not alter the artifact-complete RETYPE `mandatory_stop`.
 
 The controlled handoff is:
 
@@ -4540,12 +4540,12 @@ complete Relevance-Floor definition and PraxisPurchase architecture
 + Shared-Record view and canonical output-mapping boundary
 + Chapter 51 and 53 ownership preserved
 
-→ Chapter 44 WP4
+→ Chapter 44's chapter audit
 → integrated Contract and redundancy audit
 → exact 24-duty verification
 → L0/D/DG/DN/DS non-adjudication check
 → provisional-lock decision
-→ Chapter 45 Preparation Gate
+→ Chapter 45 Entry Conditions
 ```
 
 ---
@@ -4595,7 +4595,7 @@ Is a source identified?
 ≠ Which canonical Output Class follows after all applicable checks?
 ```
 
-WP1 establishes the upper boundary, the minimum architecture of TraceableLoad, and the more-than-citation requirement. It does not decide `T`, `TL`, `TE`, or `TS`; it does not select an upper-bound result, route, Stop, Claim Reduction, or canonical Output Class. The detailed Constitutive Source Trace, source-target dependency test, rival-source pressure, source limitation, macro-label elasticity, non-exhaustiveness, upper Stop, and Claim Reduction belong to WP2 and WP3.
+The scope section establishes the upper boundary, the minimum architecture of TraceableLoad, and the more-than-citation requirement. It does not decide `T`, `TL`, `TE`, or `TS`; it does not select an upper-bound result, route, Stop, Claim Reduction, or canonical Output Class. The detailed Constitutive Source Trace, source-target dependency test, rival-source pressure, source limitation, macro-label elasticity, non-exhaustiveness, upper Stop, and Claim Reduction belong to the method section and the integration section.
 
 <a id="45-1-definition"></a>
 
@@ -4701,7 +4701,7 @@ A minimum TraceableLoad account must make five burdens inspectable:
 5. a stated reason the target claim depends on this trace
 ```
 
-These burdens are jointly oriented but not mechanically additive. Their relevance varies with the source object, operation, and claim. A target need not preserve every source feature. It must preserve or explicitly account for those features whose alteration would change the warranted target claim, its scope, its function, its alternatives, or its Loss profile. WP2 will specify the full source-trace classes and dependency test; WP1 establishes the minimum load architecture.
+These burdens are jointly oriented but not mechanically additive. Their relevance varies with the source object, operation, and claim. A target need not preserve every source feature. It must preserve or explicitly account for those features whose alteration would change the warranted target claim, its scope, its function, its alternatives, or its Loss profile. The method section specifies the full source-trace classes and dependency test; the scope section establishes the minimum load architecture.
 
 #### C45-STRUCTURALMAPPING-01 — source features and relations must be explicitly mapped to the target-claim elements they support
 
@@ -4839,7 +4839,7 @@ many sources
 
 This distinction applies equally to PMS operator references. Citing `PMS.yaml`, naming an operator type, or listing many operator-typed occurrences does not prove that a STRATA target claim carries PMS source load. The record must identify the actual occurrences, the relations among them, the relevant dependency order where claim-bearing, and the precise target-claim elements they support. Operator-layer membership remains organizational, not a source-load shortcut or authority multiplier.
 
-Traceability is also more than rhetorical fit. A label can summarize the material elegantly while remaining elastically applicable to opposed sources. A trajectory can be called a frame, an arrangement can be called an attractor, or a composite can be called a regime in ordinary analytical language. `PROJECT_AS` requires more: a bounded target-function claim with origin type preserved and constitutive source support. WP2 will test dependency and rival-source pressure in detail. WP1 fixes the rule that semantic resemblance and citation proximity are insufficient.
+Traceability is also more than rhetorical fit. A label can summarize the material elegantly while remaining elastically applicable to opposed sources. A trajectory can be called a frame, an arrangement can be called an attractor, or a composite can be called a regime in ordinary analytical language. `PROJECT_AS` requires more: a bounded target-function claim with origin type preserved and constitutive source support. The method section will test dependency and rival-source pressure in detail. The scope section fixes the rule that semantic resemblance and citation proximity are insufficient.
 
 ```text
 plausible label
@@ -4856,7 +4856,7 @@ source location and support
 
 Neither absorbs the other. Unsupported mapping is not rescued by elegance; unmapped citation is not rescued by volume.
 
-The distinction between absent TraceableLoad and source limitation remains open. Where current materials do not permit a dependency test, the correct finding may be underdetermined or untestable rather than traceability failure. WP2 owns that separation. Similarly, the fact that a target appears insensitive to source variation may indicate robustness or elasticity; Chapter 46 owns the full six-value Counterfactual Sensitivity procedure. WP1 does not assign either result.
+The distinction between absent TraceableLoad and source limitation remains open. Where current materials do not permit a dependency test, the correct finding may be underdetermined or untestable rather than traceability failure. The method section owns that separation. Similarly, the fact that a target appears insensitive to source variation may indicate robustness or elasticity; Chapter 46 owns the full six-value Counterfactual Sensitivity procedure. The scope section does not assign either result.
 
 The synthetic pressure packet therefore remains protected:
 
@@ -4884,9 +4884,9 @@ upper_bound:
   claim_reduction_selected: false
 ```
 
-#### C45-WP1-HANDOFF-01 — WP1 hands WP2 the upper-bound, TraceableLoad, and more-than-citation architecture without adjudicating the pressure packet or selecting an Output Class
+#### C45-SCOPE-BOUNDARY-01 — The scope boundary preserves the upper-bound, TraceableLoad, and more-than-citation architecture without adjudicating the pressure packet or selecting an Output Class
 
-WP1 establishes:
+The scope section establishes:
 
 - the Praxeological Traceability Ceiling as the upper relational boundary against source-indifferent abstraction and source-object-losing fragmentation;
 - TraceableLoad through identifiable source features, preserved relations, temporal formation, visible costs and asymmetries, and a stated dependency reason;
@@ -4896,9 +4896,9 @@ WP1 establishes:
 - citation, source listing, rhetorical fit, documentation volume, and PMS operator density as insufficient by themselves;
 - non-compensation between TraceableLoad and other admissibility dimensions.
 
-WP1 does not establish the full Constitutive Source Trace classes, Source-Target Dependency procedure, operation-specific upper-bound variants, rival-source test, source-limitation result, macro-label elasticity test, non-exhaustiveness boundary, Mandatory Upper Stop, Claim Reduction, or final Output mapping. Those remain assigned to WP2 and WP3.
+The scope section does not establish the full Constitutive Source Trace classes, Source-Target Dependency procedure, operation-specific upper-bound variants, rival-source test, source-limitation result, macro-label elasticity test, non-exhaustiveness boundary, Mandatory Upper Stop, Claim Reduction, or final Output mapping. Those remain assigned to the method section and the integration section.
 
-No result is selected for `T`, `TL`, `TE`, or `TS`; no route, Stop, Claim Reduction, preferred target, or canonical Output Class is selected. No Case, Test, or Smoke YAML is created. The three-operation, ten-class, sixteen-Rule, twelve-stage, six-sensitivity-value, and five-Loss-field inventories remain unchanged. `authority_inheritance` remains prohibited.
+No result is selected for `T`, `TL`, `TE`, or `TS`; no route, Stop, Claim Reduction, preferred target, or canonical Output Class is selected. This local method does not itself create Case, Test, or Smoke YAML artifacts. The three-operation, ten-class, sixteen-Rule, twelve-stage, six-sensitivity-value, and five-Loss-field inventories remain unchanged. `authority_inheritance` remains prohibited.
 
 The controlled handoff is:
 
@@ -4911,7 +4911,7 @@ upper relational boundary
 + traceability more than citation
 + pressure-packet non-adjudication
 
-→ Chapter 45 WP2
+→ Chapter 45's method section
 → §45.4 Upper-Bound Failure Forms
 → §45.5 Constitutive Source Trace
 → §45.6 Source-Target Dependency
@@ -4954,7 +4954,7 @@ many supporting-looking items
 → no compensation
 ```
 
-The markers also do not establish falsity. Where the available source basis cannot determine whether the alleged source-target relation holds, the correct local finding may be source-limited, underdetermined, or currently untestable. The distinction between failed TraceableLoad and unavailable testing remains mandatory throughout WP2.
+The markers also do not establish falsity. Where the available source basis cannot determine whether the alleged source-target relation holds, the correct local finding may be source-limited, underdetermined, or currently untestable. The distinction between failed TraceableLoad and unavailable testing remains mandatory throughout the method section.
 
 <a id="45-5-constitutive-source-trace"></a>
 
@@ -5105,7 +5105,7 @@ label fit
 ≠ Constitutive Source Trace
 ```
 
-This distinction preserves analogy as a possible bounded output rather than allowing it to masquerade as functional dependence. Where resemblance is informative but source-target dependency is absent, the eventual result may require `analogy_only`, Claim Reduction, Stop, or another canonical class after all applicable checks. WP2 selects none of them for the synthetic pressure packet.
+This distinction preserves analogy as a possible bounded output rather than allowing it to masquerade as functional dependence. Where resemblance is informative but source-target dependency is absent, the eventual result may require `analogy_only`, Claim Reduction, Stop, or another canonical class after all applicable checks. The method section selects none of them for the synthetic pressure packet.
 
 #### C45-OPERATIONVARIANTS-01 — each core operation carries a distinct upper-bound burden without changing its signature
 
@@ -5228,9 +5228,9 @@ upper_bound:
   claim_reduction_selected: false
 ```
 
-#### C45-WP2-HANDOFF-01 — WP2 hands WP3 a complete source-trace and dependency architecture without adjudicating elasticity, exhaustiveness, Stop, Claim Reduction, or the pressure packet
+#### C45-METHOD-BOUNDARY-01 — The method boundary preserves a complete source-trace and dependency architecture without adjudicating elasticity, exhaustiveness, Stop, Claim Reduction, or the pressure packet
 
-WP2 establishes:
+The method section establishes:
 
 - recurrent upper-bound failure forms as non-automatic pressure markers;
 - a Constitutive Source Trace distinguishing load-bearing, modulating, compressed, excluded, and uncertain features;
@@ -5241,9 +5241,9 @@ WP2 establishes:
 - rival-source pressure where available, while reserving the full six-value sensitivity procedure to Chapter 46;
 - source limitation and current untestability as distinct from absent TraceableLoad.
 
-WP2 does not establish the complete macro-label elasticity test, the non-exhaustive preservation rule, Shared-Record mapping, Mandatory Upper Stop, Claim Reduction, final Output mapping, or the integrated Chapters 46–53 procedures. It does not adjudicate `T`, `TL`, `TE`, or `TS`; select a route; assign a sensitivity value; choose Stop or Claim Reduction; or map a pressure object to a canonical Output Class.
+The method section does not establish the complete macro-label elasticity test, the non-exhaustive preservation rule, Shared-Record mapping, Mandatory Upper Stop, Claim Reduction, final Output mapping, or the integrated Chapters 46–53 procedures. It does not adjudicate `T`, `TL`, `TE`, or `TS`; select a route; assign a sensitivity value; choose Stop or Claim Reduction; or map a pressure object to a canonical Output Class.
 
-No Case, Test, or Smoke YAML is created. The three-operation, ten-class, sixteen-Rule, twelve-stage, six-sensitivity-value, and five-Loss-field inventories remain unchanged. `authority_inheritance` remains prohibited.
+This local method does not itself create Case, Test, or Smoke YAML artifacts. The three-operation, ten-class, sixteen-Rule, twelve-stage, six-sensitivity-value, and five-Loss-field inventories remain unchanged. `authority_inheritance` remains prohibited.
 
 The controlled handoff is:
 
@@ -5256,7 +5256,7 @@ upper-bound failure-form markers
 + source-limitation distinction
 + pressure-packet non-adjudication
 
-→ Chapter 45 WP3
+→ Chapter 45's integration section
 → §45.7 Macro-Label Elasticity
 → §45.8 Traceability without Exhaustiveness
 → §45.9 Shared-Record View
@@ -5325,7 +5325,7 @@ more operator occurrences absorbed by Q
 ≠ stronger Source-Target Dependency
 ```
 
-The synthetic pressure object `TE` remains unadjudicated. WP3 establishes the method for identifying elasticity; it does not determine whether `TE` is robust, elastic, underdetermined, source-limited, or untestable.
+The synthetic pressure object `TE` remains unadjudicated. The integration section establishes the method for identifying elasticity; it does not determine whether `TE` is robust, elastic, underdetermined, source-limited, or untestable.
 
 <a id="45-8-traceability-without-exhaustiveness"></a>
 
@@ -5612,7 +5612,7 @@ upper_bound:
   claim_reduction_selected: false
 ```
 
-WP3 does not infer a result from the synthetic packet. It completes the method by which a future instantiated record could be tested.
+The integration section does not infer a result from the synthetic packet. It completes the method by which a future instantiated record could be tested.
 
 #### C45-HANDOFF46-53-01 — Chapter 45 hands remaining burdens to Chapters 46–53 without pre-empting their integrated procedures
 
@@ -5660,7 +5660,7 @@ governance:
   authority_inheritance: prohibited
 ```
 
-#### C45-HANDOFF-01 — WP3 hands WP4 a complete upper-bound method without adjudicating the synthetic pressure packet
+#### C45-AUDIT-BOUNDARY-01 — The integration boundary preserves a complete upper-bound method without adjudicating the synthetic pressure packet
 
 Chapter 45 now establishes:
 
@@ -5681,9 +5681,9 @@ The canonical formulation is:
 
 > **Above the Praxeological Traceability Ceiling, abstraction no longer carries reconstructible praxis load. It becomes a label without traceable source structure.**
 
-Chapter 45 remains open pending WP4. WP4 must perform the integrated Contract, redundancy, ownership, pressure-packet, inventory, model, and authority audit; verify all twenty-four duties exactly once; determine the bounded chapter-level lock; and prepare Chapter 46. It must not adjudicate `T`, `TL`, `TE`, or `TS`; select a route; assign a Counterfactual Sensitivity value; choose a pressure-object Stop or Claim Reduction; or map a pressure object to a canonical Output Class.
+This local boundary remains distinct from the chapter audit. The chapter audit performs the integrated Contract, redundancy, ownership, pressure-packet, inventory, model, and authority audit; verify all twenty-four duties exactly once; determine the bounded chapter-level lock; and establishes the entry boundary for Chapter 46. It must not adjudicate `T`, `TL`, `TE`, or `TS`; select a route; assign a Counterfactual Sensitivity value; choose a pressure-object Stop or Claim Reduction; or map a pressure object to a canonical Output Class.
 
-No Case, Test, or Smoke YAML is created. The three-operation, ten-class, sixteen-Rule, twelve-stage, six-sensitivity-value, and five-Loss-field inventories remain unchanged. `authority_inheritance` remains prohibited.
+This local method does not itself create Case, Test, or Smoke YAML artifacts. The three-operation, ten-class, sixteen-Rule, twelve-stage, six-sensitivity-value, and five-Loss-field inventories remain unchanged. `authority_inheritance` remains prohibited.
 
 ## 46. Counterfactual Sensitivity
 
@@ -5731,7 +5731,7 @@ sensitivity of T under C for Q
 ≠ universal sensitivity of X
 ```
 
-The test may produce strong, partial, weak, insensitive, underdetermined, or untestable local findings. Those six values are developed in §§46.4–46.8. They are neither ordered ranks nor canonical Output Classes. Chapter 46 WP1 establishes only the purpose, core question, admissible modification burden, baseline, expected-change requirement, and source discipline needed before any value can be selected.
+The test may produce strong, partial, weak, insensitive, underdetermined, or untestable local findings. Those six values are developed in §§46.4–46.8. They are neither ordered ranks nor canonical Output Classes. The scope section of Chapter 46 establishes only the purpose, core question, admissible modification burden, baseline, expected-change requirement, and source discipline needed before any value can be selected.
 
 #### C46-PURPOSE-01 — Counterfactual Sensitivity is a supplementary source-dependence load test
 
@@ -6059,9 +6059,9 @@ unbounded rewrite of S
 → no controlled sensitivity test
 ```
 
-#### C46-WP1-HANDOFF-01 — WP1 hands WP2 a complete baseline and modification architecture without selecting a result
+#### C46-SCOPE-BOUNDARY-01 — The scope boundary preserves a complete baseline and modification architecture without selecting a result
 
-WP1 establishes:
+The scope section establishes:
 
 - Counterfactual Sensitivity as a supplementary source-dependence load test;
 - the core question linking relevant source change to target change;
@@ -6099,9 +6099,9 @@ counterfactual_test:
   claim_reduction_selected: false
 ```
 
-WP1 selects no sensitivity value, pressure-object result, route, Stop, Claim Reduction, or canonical Output Class. It creates no Case, Test, or Smoke YAML. It adds no operation, Rule, audit stage, Loss field, schema field, PMS operator, dependency, person taxonomy, application route, or authority mechanism.
+The scope section selects no sensitivity value, pressure-object result, route, Stop, Claim Reduction, or canonical Output Class. It creates no Case, Test, or Smoke YAML. It adds no operation, Rule, audit stage, Loss field, schema field, PMS operator, dependency, person taxonomy, application route, or authority mechanism.
 
-WP2 receives the baseline, relevant-modification, expected-response, and source-discipline architecture. It must specify the distinct `COMPOSE`, `DECOMPOSE`, and `PROJECT_AS` test forms, fix the six-value vocabulary, distinguish strong, partial, weak, and insensitive findings, and preserve multiple plausible responses without adjudicating `F`, `M`, `R`, `K`, or `U`.
+The method section receives the baseline, relevant-modification, expected-response, and source-discipline architecture. It must specify the distinct `COMPOSE`, `DECOMPOSE`, and `PROJECT_AS` test forms, fix the six-value vocabulary, distinguish strong, partial, weak, and insensitive findings, and preserve multiple plausible responses without adjudicating `F`, `M`, `R`, `K`, or `U`.
 
 <a id="46-4-operation-specific-tests"></a>
 
@@ -6345,7 +6345,7 @@ or plausible ΔQ2
 
 The correct response is not to select the analytically preferred outcome, average the alternatives, or label the result partially sensitive by default. `underdetermined` means that the modification can be formulated and relevant responses are identifiable, but the available warrant does not determine which response or sensitivity relation obtains.
 
-This is distinct from `untestable`. An `untestable` result arises where the source basis does not support the modification, preserved conditions, response space, or comparison strongly enough to perform the test. WP3 will complete that source-status distinction and its claim effects.
+This is distinct from `untestable`. An `untestable` result arises where the source basis does not support the modification, preserved conditions, response space, or comparison strongly enough to perform the test. The integration section will complete that source-status distinction and its claim effects.
 
 Multiple response preservation also protects against hidden teleology. The target response may strengthen, weaken, narrow, split, disappear, remain stable for a warranted reason, or become unavailable. The method may not choose the response that best preserves the original theory.
 
@@ -6426,9 +6426,9 @@ Q stable under M1(F)
 
 The result carries no normative, diagnostic, governance, application, or action authority.
 
-#### C46-WP2-HANDOFF-01 — WP2 hands WP3 the operation forms and closed sensitivity architecture without adjudicating the pressure packet
+#### C46-METHOD-BOUNDARY-01 — The method boundary preserves the operation forms and closed sensitivity architecture without adjudicating the pressure packet
 
-WP2 establishes:
+The method section establishes:
 
 - distinct `COMPOSE`, `DECOMPOSE`, and `PROJECT_AS` modification forms without operation redefinition;
 - one bounded test form for each operation and one unchanged-label failure form;
@@ -6466,9 +6466,9 @@ counterfactual_test:
   claim_reduction_selected: false
 ```
 
-No sensitivity value is assigned to the packet. No pressure-object result, route, Stop, Claim Reduction, or canonical Output Class is selected. No Case, Test, or Smoke YAML is created.
+No sensitivity value is assigned to the packet. No pressure-object result, route, Stop, Claim Reduction, or canonical Output Class is selected. This local method does not itself create Case, Test, or Smoke YAML artifacts.
 
-WP3 receives the operation-specific forms, closed six-value vocabulary, multiple-response rule, and insensitivity interpretation burden. It must distinguish source-grounded counterfactuals, bounded hypothetical variations, speculative scenarios, `underdetermined`, and `untestable`; define the controlled Shared-Record view and claim effects; preserve prior dispositions across re-entry; and hand the completed method to Chapters 47–53 without adjudicating `F`, `M`, `R`, `K`, or `U`.
+The integration section receives the operation-specific forms, closed six-value vocabulary, multiple-response rule, and insensitivity interpretation burden. It must distinguish source-grounded counterfactuals, bounded hypothetical variations, speculative scenarios, `underdetermined`, and `untestable`; define the controlled Shared-Record view and claim effects; preserve prior dispositions across re-entry; and hand the completed method to Chapters 47–53 without adjudicating `F`, `M`, `R`, `K`, or `U`.
 
 <a id="46-7-counterfactual-source-discipline"></a>
 
@@ -6839,7 +6839,7 @@ Chapter 53
 
 Chapter 46 does not pre-empt any of these owners. A sensitivity result may generate pressure relevant to them, but each later burden requires its own record-level test.
 
-#### C46-HANDOFF-01 — WP3 hands WP4 a complete method without adjudicating the synthetic pressure packet
+#### C46-AUDIT-BOUNDARY-01 — The integration boundary preserves a complete method without adjudicating the synthetic pressure packet
 
 Chapter 46 now establishes:
 
@@ -6883,7 +6883,7 @@ counterfactual_test:
   claim_reduction_selected: false
 ```
 
-No sensitivity value, route, Stop, Claim Reduction, canonical Output Class, Case, Test, or Smoke artifact is selected or created. WP4 must audit the full Chapter-46 Contract, all twenty-four duties, the exact six-value vocabulary, the pressure packet, PMS and record integrity, redundancy, ownership, and authority boundaries; determine the bounded chapter-level lock; and prepare Chapter 47 without allowing a chapter-level result to flow to `F`, `M`, `R`, `K`, or `U`.
+No sensitivity value, route, Stop, Claim Reduction, canonical Output Class, Case, Test, or Smoke artifact is selected or created. The chapter audit audit the full Chapter-46 Contract, all twenty-four duties, the exact six-value vocabulary, the pressure packet, PMS and record integrity, redundancy, ownership, and authority boundaries; determine the bounded chapter-level lock; and establishes the entry boundary for Chapter 47 without allowing a chapter-level result to flow to `F`, `M`, `R`, `K`, or `U`.
 
 ## 47. Reference, Type, and Function Continuity
 
@@ -6982,7 +6982,7 @@ derived profile
 
 For `PROJECT_AS`, the source object retains its origin type while performing a bounded target function. For `COMPOSE`, the new composite analytical object does not retroactively rewrite the types of its components. For `DECOMPOSE`, only an occurrence or composite is opened; the operator type itself is not decomposed.
 
-These are applications of `TypeIntegrity`. Chapter 47 does not redefine the Rule, and WP1 does not yet operationalize the full operation-specific type procedure owned by §§47.4–47.5. It fixes only the architectural status of the type-continuity language so later continuity findings cannot silently create a new Rule.
+These are applications of `TypeIntegrity`. Chapter 47 does not redefine the Rule, and The scope section does not yet operationalize the full operation-specific type procedure owned by §§47.4–47.5. It fixes only the architectural status of the type-continuity language so later continuity findings cannot silently create a new Rule.
 
 The formal implication is limited:
 
@@ -7025,7 +7025,7 @@ one local failure
 ≠ all dimensions fail automatically
 ```
 
-Mixed findings can be methodologically decisive. If reference remains stable but function becomes source-independent, the target function may fail while the source-object reconstruction remains usable. If type and function remain stable but relevant temporal formation is uncertain, a temporally broad claim may require narrowing without invalidating every local statement. The exact mapping belongs to WP3 and later audit chapters.
+Mixed findings can be methodologically decisive. If reference remains stable but function becomes source-independent, the target function may fail while the source-object reconstruction remains usable. If type and function remain stable but relevant temporal formation is uncertain, a temporally broad claim may require narrowing without invalidating every local statement. The exact mapping belongs to the integration section and later audit chapters.
 
 The synthetic continuity pressure packet remains untouched:
 
@@ -7044,7 +7044,7 @@ CC:
   result: unadjudicated
 ```
 
-No local or chain continuity result, route, Stop, Claim Reduction, or canonical Output Class is selected in WP1.
+No local or chain continuity result, route, Stop, Claim Reduction, or canonical Output Class is selected in the scope section.
 
 <a id="47-2-reference-continuity"></a>
 
@@ -7102,7 +7102,7 @@ substantial declared compression
 
 Reference Continuity is compatible with change. A historical institution, practice configuration, trajectory, or composite can change while remaining the same referent for a bounded claim, provided the record states which continuities and transformations sustain that identification. The method does not require metaphysical sameness or an immutable core. It requires a reconstructible warrant for continued reference.
 
-This is especially important for temporal objects. A trajectory or path is not identified merely by a recurring label but by the ordered formation, constraints, turning points, and dependencies relevant to the claim. The complete Temporal Continuity test remains WP3, but reference identity cannot ignore historical formation where that formation constitutes the object.
+This is especially important for temporal objects. A trajectory or path is not identified merely by a recurring label but by the ordered formation, constraints, turning points, and dependencies relevant to the claim. The complete Temporal Continuity test remains the integration section, but reference identity cannot ignore historical formation where that formation constitutes the object.
 
 #### C47-SAMEREFERENT-01 — The record must declare object, process, relation bundle, and preservation criterion
 
@@ -7123,7 +7123,7 @@ same_referent_declaration:
 
 The **preservation criterion** is essential. It states what must remain true for the target claim still to concern the source object. A preservation criterion may require continuity of a relation bundle, a documented institutional lineage, a source-function dependency, an ordered temporal formation, or another claim-bearing identifier. It cannot be reduced to `same name` or `analyst treats as same`.
 
-The criterion must also be discriminating. If materially different source objects, histories, and relation bundles all satisfy it without explanation, the criterion is too elastic to carry Reference Continuity. That problem may interact with the Traceability Ceiling, Counterfactual Sensitivity, calibration, or Anti-Immunization, but WP1 records only the reference burden.
+The criterion must also be discriminating. If materially different source objects, histories, and relation bundles all satisfy it without explanation, the criterion is too elastic to carry Reference Continuity. That problem may interact with the Traceability Ceiling, Counterfactual Sensitivity, calibration, or Anti-Immunization, but The scope section records only the reference burden.
 
 For PMS-typed material, the referent is a concrete occurrence, configuration, sequence, path, trajectory, or composite — not the abstract Δ–Ψ operator type. A stable operator label can aid navigation but cannot establish that two historical occurrences are the same referent.
 
@@ -7217,9 +7217,9 @@ later bounded continuity
 
 Reference Discontinuity also does not automatically decide TypeIntegrity, Functional Continuity, Temporal Continuity, or the final canonical Output Class. A target may retain a useful analogy after reference identity fails; a narrower claim may survive; a chain may require Stop; or the record may reveal Non-Capture. Those effects require the later dimension and integrated audits.
 
-#### C47-WP1-HANDOFF-01 — WP1 hands WP2 a dimension-specific reference architecture without adjudication
+#### C47-SCOPE-BOUNDARY-01 — The scope boundary preserves a dimension-specific reference architecture without adjudication
 
-WP1 now establishes:
+The scope section now establishes:
 
 - three distinct continuity dimensions: Reference, Functional, and Temporal where applicable;
 - `type continuity` only as a continuity view under canonical `TypeIntegrity`;
@@ -7253,7 +7253,7 @@ continuity_audit:
   output_class_selected: false
 ```
 
-WP2 receives the dimension architecture and the reference findings. It must operationalize origin-type preservation under `TypeIntegrity`, type-discontinuity forms, Functional Continuity, Functional Discontinuity, source-function dependence, and the analogy boundary. It must not adjudicate `N0`, `CR`, `CT`, `CF`, `CTM`, or `CC`; select a chain result; pre-empt WP3 Temporal Continuity and continuity-matrix procedures; or map the pressure packet to a canonical Output Class.
+The method section receives the dimension architecture and the reference findings. It must operationalize origin-type preservation under `TypeIntegrity`, type-discontinuity forms, Functional Continuity, Functional Discontinuity, source-function dependence, and the analogy boundary. It must not adjudicate `N0`, `CR`, `CT`, `CF`, `CTM`, or `CC`; select a chain result; pre-empt the integration section Temporal Continuity and continuity-matrix procedures; or map the pressure packet to a canonical Output Class.
 <a id="47-4-type-continuity-as-a-typeintegrity-view"></a>
 
 ### 47.4 Type Continuity as a TypeIntegrity View
@@ -7554,9 +7554,9 @@ analogy retained
 
 This boundary protects both sides. It prevents a metaphor from being presented as a source-dependent function, and it prevents a useful analogy from being discarded merely because it is not a valid `PROJECT_AS` result.
 
-#### C47-WP2-HANDOFF-01 — WP2 hands WP3 separate type-view and function findings without chain adjudication
+#### C47-METHOD-BOUNDARY-01 — The method boundary preserves separate type-view and function findings without chain adjudication
 
-WP2 now establishes:
+The method section now establishes:
 
 - type continuity only as preservation or warranted revision under canonical `TypeIntegrity`;
 - explicit operation-specific type burdens for `COMPOSE`, `DECOMPOSE`, and `PROJECT_AS`;
@@ -7592,7 +7592,7 @@ continuity_audit:
   output_class_selected: false
 ```
 
-WP3 receives separate Reference, TypeIntegrity-view, and Functional findings. It must operationalize Temporal Continuity, reject exhaustive chronology, construct the dimension-specific continuity matrix, preserve partial and mixed findings, specify bounded claim effects, map the view to existing Shared-Record fields, and hand Chapters 48–53 their independent burdens. It must not adjudicate `N0`, `CR`, `CT`, `CF`, `CTM`, or `CC`; select a chain result, route, Stop, Claim Reduction, or canonical Output Class; or allow a local type or function finding to stand for the complete continuity audit.
+The integration section receives separate Reference, TypeIntegrity-view, and Functional findings. It must operationalize Temporal Continuity, reject exhaustive chronology, construct the dimension-specific continuity matrix, preserve partial and mixed findings, specify bounded claim effects, map the view to existing Shared-Record fields, and hand Chapters 48–53 their independent burdens. It must not adjudicate `N0`, `CR`, `CT`, `CF`, `CTM`, or `CC`; select a chain result, route, Stop, Claim Reduction, or canonical Output Class; or allow a local type or function finding to stand for the complete continuity audit.
 
 <a id="47-8-temporal-continuity"></a>
 
@@ -7938,14 +7938,14 @@ Chapter 53
 
 Chapter 47 does not convert a continuity matrix into a complete admissibility decision. It does not hide Loss in a `preserved` entry, treat source limitation as continuity, protect a successor claim from prior failure, select Stop or re-entry, or use Non-Capture to shield a weak claim.
 
-The artifact-complete RETYPE lock remains `mandatory_stop`; the missing lock-critical packages remain `0/3`; and Part IV final lock remains unavailable. Continuity prose cannot repair absent artifacts or inherit authority from a chapter-level method result.
+This local chapter result neither reopens the bounded RETYPE lock nor establishes the Part-IV final lock; those statuses remain governed by their canonical lock records, and no authority is inherited from this local method result.
 
 ```yaml
 governance:
   authority_inheritance: prohibited
 ```
 
-#### C47-HANDOFF-01 — WP3 hands WP4 a complete continuity method without adjudicating the pressure packet
+#### C47-AUDIT-BOUNDARY-01 — The integration boundary preserves a complete continuity method without adjudicating the pressure packet
 
 Chapter 47 now establishes:
 
@@ -7987,7 +7987,7 @@ continuity_audit:
   output_class_selected: false
 ```
 
-WP4 receives a substantively complete Chapter 47. It must run the integrated Contract, redundancy, ownership, pressure-packet, record-view, inventory, PMS, model, and authority audit; verify all twenty-four duties exactly once; determine the bounded Chapter-level result without allowing it to flow to `N0`, `CR`, `CT`, `CF`, `CTM`, or `CC`; and prepare Chapter 48 without creating or adjudicating continuity, Loss, Case, Test, or Smoke artifacts.
+The chapter audit receives a substantively complete Chapter 47. It must run the integrated Contract, redundancy, ownership, pressure-packet, record-view, inventory, PMS, model, and authority audit; verify all twenty-four duties exactly once; determine the bounded Chapter-level result without allowing it to flow to `N0`, `CR`, `CT`, `CF`, `CTM`, or `CC`; and establishes the entry boundary for Chapter 48 without creating or adjudicating continuity, Loss, Case, Test, or Smoke artifacts.
 
 <a id="chapter-48-compression-loss-and-reconstruction-selection"></a>
 
@@ -8008,7 +8008,7 @@ loss:
 
 These fields do not form an information ontology, a completeness score, or a second Transformation Record. They are common record paths through which operation-specific selection and Loss become inspectable. Their presence does not prove that Loss is admissible. Their absence cannot be excused by a clear target, a compact result, or a formally complete model.
 
-The chapter uses one synthetic pressure packet introduced in the Preparation Record. It is method pressure only. `S0` remains an unaccepted losslessness assertion, while `LP`, `LC`, `LE`, `LU`, `LI`, `CD`, and `HL` remain unadjudicated. No Case, Test, Smoke, route, Stop, Claim Reduction, or Output Class is selected here.
+The chapter uses one synthetic pressure packet defined for this local method. It is method pressure only. `S0` remains an unaccepted losslessness assertion, while `LP`, `LC`, `LE`, `LU`, `LI`, `CD`, and `HL` remain unadjudicated. No Case, Test, Smoke, route, Stop, Claim Reduction, or Output Class is selected here.
 
 <a id="48-1-no-transformation-without-selection"></a>
 
@@ -8289,9 +8289,9 @@ exclusion
 → structure deliberately not included
 ```
 
-A large compression can remain compatible with a bounded claim where the load-bearing relation is preserved, the source trace remains available, alternatives are disclosed, and the claim does not pretend exhaustive capture. This possibility is retained as required counterpressure but not adjudicated for the synthetic packet in WP1.
+A large compression can remain compatible with a bounded claim where the load-bearing relation is preserved, the source trace remains available, alternatives are disclosed, and the claim does not pretend exhaustive capture. This possibility is retained as required counterpressure but not adjudicated for the synthetic packet in the scope section.
 
-Compression also creates no presumption of invertibility. A reduced representation may permit later reopening from retained sources without allowing the original target to be mechanically reversed into every source detail. Compression Debt and irrecoverability belong to WP2–WP3 and are not selected here.
+Compression also creates no presumption of invertibility. A reduced representation may permit later reopening from retained sources without allowing the original target to be mechanically reversed into every source detail. Compression Debt and irrecoverability belong to the method and integration sections and are not selected here.
 
 ```text
 reopening possible
@@ -8362,9 +8362,9 @@ not established by source
 
 The same discipline applies to PMS occurrences. A transformation may exclude a documented operator occurrence from a bounded reconstruction only with an operation- and claim-specific reason. It may not treat the occurrence as irrelevant merely because another operator label seems to summarize the scene. Operator type, layer, or dependency position cannot substitute for the excluded occurrence-level relation.
 
-#### C48-WP1-HANDOFF-01 — WP1 hands WP2 the selection and first three Loss-field architecture without adjudicating the pressure packet
+#### C48-SCOPE-BOUNDARY-01 — The scope boundary preserves the selection and first three Loss-field architecture without adjudicating the pressure packet
 
-WP1 establishes:
+The scope section establishes:
 
 - no transformation is selection-free or lossless;
 - selection is bounded reconstruction rather than discovery or arbitrariness;
@@ -8374,10 +8374,10 @@ WP1 establishes:
 - `excluded` identifies deliberate non-inclusion requiring reason, scope, and claim-effect pressure;
 - label persistence, operator typing, source volume, or formal completeness cannot substitute for substantive Loss tracing.
 
-WP1 does not determine the status of `LP`, `LC`, or `LE` in the synthetic pressure packet. It also does not define or select `uncertain`, `irrecoverable`, Compression Debt, hidden Loss, Stop, Claim Reduction, or an Output Class. Those burdens remain for WP2, WP3, and the later integrated audit.
+The scope section does not determine the status of `LP`, `LC`, or `LE` in the synthetic pressure packet. It also does not define or select `uncertain`, `irrecoverable`, Compression Debt, hidden Loss, Stop, Claim Reduction, or an Output Class. Those burdens remain for the method section, the integration section, and the later integrated audit.
 
 ```yaml
-loss_pressure_packet_after_wp1:
+loss_pressure_packet_at_scope_boundary:
   S0: lossless_transformation_assertion_not_accepted
   LP: unadjudicated
   LC: unadjudicated
@@ -8392,7 +8392,7 @@ loss_pressure_packet_after_wp1:
   output_class_selected: false
 ```
 
-The artifact-complete RETYPE lock remains `mandatory_stop`; the required lock packages remain `0/3`; Part IV remains open; and Part IV final lock remains unavailable.
+This local chapter result neither reopens the bounded RETYPE lock nor establishes the Part-IV final lock; those statuses remain governed by their canonical lock records, and no authority is inherited from this local method result.
 
 ```yaml
 governance:
@@ -8453,7 +8453,7 @@ precise field value
 ≠ precise warrant
 ```
 
-The correct response may be a bounded range, several preserved alternatives, a provisional relation, a narrower claim, or an explicitly unresolved result. Which canonical Output Class follows remains a later audit question. WP2 does not map `LU` or any other pressure candidate to an Output Class.
+The correct response may be a bounded range, several preserved alternatives, a provisional relation, a narrower claim, or an explicitly unresolved result. Which canonical Output Class follows remains a later audit question. The method section does not map `LU` or any other pressure candidate to an Output Class.
 
 Uncertainty must also remain distinguishable from ordinary variation. A source object can contain documented heterogeneity without the reconstruction being uncertain about that heterogeneity. Conversely, a stable target label can conceal uncertainty where the relation carrying it has not been established.
 
@@ -8482,7 +8482,7 @@ sources cannot establish whether the relation existed or was lost
 
 The method must not call a structure irrecoverable merely because it is presently inconvenient to recover, nor call it uncertain when the record already establishes that the relevant source relation has been destroyed or never recorded. Equally, it must not manufacture a distinction between uncertainty and irrecoverability where the source basis cannot carry that distinction.
 
-This separation matters for later reopening. Uncertainty may be reduced by new evidence or a better reconstruction while preserving the prior unresolved disposition. Irrecoverability may permit only a bounded successor claim, an explicit Non-Capture result, or a Stop. The complete consequences belong to WP3 and Chapters 49–53.
+This separation matters for later reopening. Uncertainty may be reduced by new evidence or a better reconstruction while preserving the prior unresolved disposition. Irrecoverability may permit only a bounded successor claim, an explicit Non-Capture result, or a Stop. The complete consequences belong to the integration section and Chapters 49–53.
 
 <a id="48-6-irrecoverability"></a>
 
@@ -8656,7 +8656,7 @@ only while supported alternative is suppressed
 → possible selection-bias pressure
 ```
 
-The finding does not yet establish hidden Loss in the Chapter-48-WP3 sense. It identifies where Loss disclosure and later audit must concentrate. Nor does it require forced integration of every alternative. The correct result may be separate bounded reconstructions, a narrower claim, explicit uncertainty, a later Claim Reduction, Stop, or Non-Capture. Those outcomes remain unselected here.
+The finding does not yet establish hidden Loss in the Chapter-48-the integration section sense. It identifies where Loss disclosure and later audit must concentrate. Nor does it require forced integration of every alternative. The correct result may be separate bounded reconstructions, a narrower claim, explicit uncertainty, a later Claim Reduction, Stop, or Non-Capture. Those outcomes remain unselected here.
 
 A useful counterpressure is symmetry of burden:
 
@@ -8668,9 +8668,9 @@ rejected alternative must state why it is outside scope or unsupported
 
 The method must not treat the selected reconstruction as the default truth and alternatives as optional objections. Selection is part of the claim and therefore part of the audit burden.
 
-#### C48-WP2-HANDOFF-01 — WP2 hands WP3 all five Loss fields and the complete Selection architecture without adjudicating debt or hidden Loss
+#### C48-METHOD-BOUNDARY-01 — The method boundary preserves all five Loss fields and the complete Selection architecture without adjudicating debt or hidden Loss
 
-WP2 establishes:
+The method section establishes:
 
 - `uncertain` as unresolved source or reconstruction status that cannot be translated into false precision;
 - `irrecoverable` as loss that cannot be reliably reconstructed under current source and record conditions;
@@ -8680,10 +8680,10 @@ WP2 establishes:
 - Selection Effects covering foregrounding, Non-Event concealment, asymmetry homogenization, path linearization, target-function privileging, and other claim-shaping effects;
 - hidden-bias pressure without a hidden-Loss verdict.
 
-WP2 does not adjudicate `LU` or `LI`, choose among `LP/LC/LE`, select Compression Debt or hidden Loss, apply Stop or Claim Reduction, choose a route, or assign a canonical Output Class.
+The method section does not adjudicate `LU` or `LI`, choose among `LP/LC/LE`, select Compression Debt or hidden Loss, apply Stop or Claim Reduction, choose a route, or assign a canonical Output Class.
 
 ```yaml
-loss_pressure_packet_after_wp2:
+loss_pressure_packet_at_method_boundary:
   S0: lossless_transformation_assertion_not_accepted
   LP: unadjudicated
   LC: unadjudicated
@@ -8698,7 +8698,7 @@ loss_pressure_packet_after_wp2:
   output_class_selected: false
 ```
 
-The artifact-complete RETYPE lock remains `mandatory_stop`; the required lock packages remain `0/3`; Part IV remains open; and Part IV final lock remains unavailable.
+This local chapter result neither reopens the bounded RETYPE lock nor establishes the Part-IV final lock; those statuses remain governed by their canonical lock records, and no authority is inherited from this local method result.
 
 ```yaml
 governance:
@@ -9013,9 +9013,9 @@ It does not decide:
 
 Local findings such as `Compression Debt`, `hidden Loss`, `large disclosed Loss`, `small claim-defeating exclusion`, or `reopening burden` are not new Output Classes.
 
-#### C48-HANDOFF-01 — WP3 hands WP4 a complete Loss method without adjudicating the synthetic pressure packet
+#### C48-AUDIT-BOUNDARY-01 — The integration boundary preserves a complete Loss method without adjudicating the synthetic pressure packet
 
-WP3 completes the Chapter-48 method by establishing:
+integration boundary completes the Chapter-48 method by establishing:
 
 - Compression Debt as a later reopening or revision burden;
 - reopening without a presumption of invertibility or recovery;
@@ -9028,7 +9028,7 @@ WP3 completes the Chapter-48 method by establishing:
 The synthetic pressure packet remains unchanged:
 
 ```yaml
-loss_pressure_packet_after_wp3:
+loss_pressure_packet_at_integration_boundary:
   S0: lossless_transformation_assertion_not_accepted
   LP: unadjudicated
   LC: unadjudicated
@@ -9043,7 +9043,7 @@ loss_pressure_packet_after_wp3:
   output_class_selected: false
 ```
 
-No Loss result, Compression-Debt result, Hidden-Loss result, route, Stop, Claim Reduction, or canonical Output Class has been selected. No Case, Test, or Smoke YAML has been created. The artifact-complete RETYPE lock remains `mandatory_stop`; the required lock packages remain `0/3`; Part IV remains open; and Part IV final lock remains unavailable.
+No Loss result, Compression-Debt result, Hidden-Loss result, route, Stop, Claim Reduction, or canonical Output Class has been selected. This local method does not itself create Case, Test, or Smoke YAML artifacts. This local chapter result neither reopens the bounded RETYPE lock nor establishes the Part-IV final lock; those statuses remain governed by their canonical lock records, and no authority is inherited from this local method result.
 
 ```yaml
 governance:
@@ -9127,7 +9127,7 @@ source-limited relation
 → retain limitation
 ```
 
-Machine-readable exactness remains useful because it can expose contradictions, missing declarations, and category errors. Its value is inspectability, not epistemic supplementation. Chapter 49 WP3 owns the full Technical Formalization Boundary; this section establishes only the source-precision constraint that precedes it.
+Machine-readable exactness remains useful because it can expose contradictions, missing declarations, and category errors. Its value is inspectability, not epistemic supplementation. Chapter 49's integration section owns the full Technical Formalization Boundary; this section establishes only the source-precision constraint that precedes it.
 
 <a id="49-2-source-types"></a>
 
@@ -9241,7 +9241,7 @@ A familiar PMS label never supplies missing occurrence evidence:
 ≠ Λ occurred in this source object
 ```
 
-Where the source cannot discriminate among occurrence, non-occurrence, and incomplete recording, the proper result remains source-limited. Later Chapters 51–53 may determine Claim Reduction, Stop, Non-Capture, or canonical Output mapping; WP1 selects none of them.
+Where the source cannot discriminate among occurrence, non-occurrence, and incomplete recording, the proper result remains source-limited. Later Chapters 51–53 may determine Claim Reduction, Stop, Non-Capture, or canonical Output mapping; the scope section selects none of them.
 
 <a id="49-4-inferential-distance"></a>
 
@@ -9322,9 +9322,9 @@ Claim contraction is not automatically a canonical `claim_reduction_required` re
 
 A later source, newly supported bridge, or revised target claim creates a new testable claim. It does not erase the earlier inferential gap or retroactively convert an unsupported bridge into direct support.
 
-#### C49-WP1-HANDOFF-01 — WP1 hands WP2 a source-bounded architecture without adjudicating the pressure packet
+#### C49-SCOPE-BOUNDARY-01 — The scope boundary preserves a source-bounded architecture without adjudicating the pressure packet
 
-WP1 establishes:
+The scope section establishes:
 
 - Source-Bounded Reconstruction and the source-precision constraint;
 - six source-type profiles with claim- and operation-specific limits;
@@ -9333,12 +9333,12 @@ WP1 establishes:
 - Inferential Distance as a qualitative source-to-claim burden;
 - claim contraction where material inferential bridges lack independent support.
 
-WP2 receives this architecture for Calibration, Calibration Loss, Granularity Calibration, comparability, countercase openness, and calibration openness. WP1 does not define a universal threshold, decide the Source Ceiling, establish a Calibration-Open Result, or pre-empt the Technical Formalization Boundary.
+The method section receives this architecture for Calibration, Calibration Loss, Granularity Calibration, comparability, countercase openness, and calibration openness. The scope section does not define a universal threshold, decide the Source Ceiling, establish a Calibration-Open Result, or pre-empt the Technical Formalization Boundary.
 
 The synthetic source-and-calibration pressure packet remains unchanged:
 
 ```yaml
-source_calibration_pressure_packet_after_wp1:
+source_calibration_pressure_packet_at_scope_boundary:
   P0: formal_precision_overreach_assertion_not_accepted
   DS: unadjudicated
   IS: unadjudicated
@@ -9357,7 +9357,7 @@ source_calibration_pressure_packet_after_wp1:
   output_class_selected: false
 ```
 
-No Case, Test, or Smoke YAML is created. The artifact-complete RETYPE lock remains `mandatory_stop`; the required lock packages remain `0/3`; Part IV remains open; and Part IV final lock remains unavailable.
+This local method does not itself create Case, Test, or Smoke YAML artifacts. This local chapter result neither reopens the bounded RETYPE lock nor establishes the Part-IV final lock; those statuses remain governed by their canonical lock records, and no authority is inherited from this local method result.
 
 ```yaml
 governance:
@@ -9445,7 +9445,7 @@ countercase appears
 → calibration-loss pressure
 ```
 
-The method does not require every countercase to defeat the entire transformation. It may defeat one dimension, one threshold, one Claim Scope, or one operation occurrence. What is prohibited is immunizing the term by turning every apparent failure into a new success condition. Chapter 50 owns the integrated Anti-Immunization procedure; WP2 preserves the necessary calibration-side openness without pre-empting that chapter.
+The method does not require every countercase to defeat the entire transformation. It may defeat one dimension, one threshold, one Claim Scope, or one operation occurrence. What is prohibited is immunizing the term by turning every apparent failure into a new success condition. Chapter 50 owns the integrated Anti-Immunization procedure; the method section preserves the necessary calibration-side openness without pre-empting that chapter.
 
 <a id="49-6-calibration-loss"></a>
 
@@ -9485,7 +9485,7 @@ A bounded calibration-loss record should identify:
 6. the resulting Claim Effect;
 7. whether recalibration is possible under a new declared claim.
 
-Calibration Loss does not automatically mean that the observed structural material disappears. A recurrent pattern may still be visible while the threshold for calling it sedimented remains unstable. A source feature may plausibly support a function while the degree or scope of that support remains uncalibrated. The correct response may therefore be a bounded open result, claim narrowing, or later Stop; WP2 selects none of these automatically.
+Calibration Loss does not automatically mean that the observed structural material disappears. A recurrent pattern may still be visible while the threshold for calling it sedimented remains unstable. A source feature may plausibly support a function while the degree or scope of that support remains uncalibrated. The correct response may therefore be a bounded open result, claim narrowing, or later Stop; the method section selects none of these automatically.
 
 ```text
 structural indication remains
@@ -9570,11 +9570,11 @@ calibration open
 ≠ claim immune to counterexample
 ```
 
-WP2 establishes the architecture for openness but does not select the canonical Calibration-Open Result owned by WP3. Likewise, an open threshold does not automatically select `admissible_but_provisional`, `claim_reduction_required`, `mandatory_stop`, or `non_capture`.
+The method section establishes the architecture for openness but does not select the canonical Calibration-Open Result owned by the integration section. Likewise, an open threshold does not automatically select `admissible_but_provisional`, `claim_reduction_required`, `mandatory_stop`, or `non_capture`.
 
-#### C49-WP2-HANDOFF-01 — WP2 hands WP3 the complete Calibration architecture without adjudicating the pressure packet
+#### C49-METHOD-BOUNDARY-01 — The method boundary preserves the complete Calibration architecture without adjudicating the pressure packet
 
-WP2 establishes:
+The method section establishes:
 
 - Calibration through comparability, relevant differentiation, threshold visibility, and countercase possibility;
 - operation- and claim-relative comparison coordinates;
@@ -9583,12 +9583,12 @@ WP2 establishes:
 - rejection of universal ex-ante thresholds together with mandatory local threshold declaration;
 - explicit calibration openness as distinct from vagueness, arbitrary accommodation, or immunity.
 
-WP3 receives this architecture for the Source Ceiling, Calibration-Open Result, Source-and-Calibration record view, Technical Formalization Boundary, ceiling distinctions, and handoff to Chapters 50–53. WP2 does not determine whether the Source Ceiling has been reached and does not select Stop, Claim Reduction, Non-Capture, or a canonical Output Class.
+The integration section receives this architecture for the Source Ceiling, Calibration-Open Result, Source-and-Calibration record view, Technical Formalization Boundary, ceiling distinctions, and handoff to Chapters 50–53. The method section does not determine whether the Source Ceiling has been reached and does not select Stop, Claim Reduction, Non-Capture, or a canonical Output Class.
 
 The synthetic pressure packet remains unchanged:
 
 ```yaml
-source_calibration_pressure_packet_after_wp2:
+source_calibration_pressure_packet_at_method_boundary:
   P0: formal_precision_overreach_assertion_not_accepted
   DS: unadjudicated
   IS: unadjudicated
@@ -9608,7 +9608,7 @@ source_calibration_pressure_packet_after_wp2:
   output_class_selected: false
 ```
 
-No Case, Test, or Smoke YAML is created. The artifact-complete RETYPE lock remains `mandatory_stop`; required RETYPE lock packages remain `0/3`; Part IV remains open; and Part IV final lock remains unavailable.
+This local method does not itself create Case, Test, or Smoke YAML artifacts. This local chapter result neither reopens the bounded RETYPE lock nor establishes the Part-IV final lock; those statuses remain governed by their canonical lock records, and no authority is inherited from this local method result.
 
 ```yaml
 governance:
@@ -9845,7 +9845,7 @@ Chapter 49 hands Chapter 50 explicit thresholds, countercases, Calibration Loss,
 
 No handoff changes prior dispositions. A new source, threshold, Frame, granularity, or successor reconstruction creates a new testable claim.
 
-#### C49-HANDOFF-01 — WP3 hands WP4 a complete Source-and-Calibration method without adjudicating the pressure packet
+#### C49-AUDIT-BOUNDARY-01 — The integration boundary preserves a complete Source-and-Calibration method without adjudicating the pressure packet
 
 Chapter 49 now contains the complete substantive method for:
 
@@ -9862,7 +9862,7 @@ Chapter 49 now contains the complete substantive method for:
 The synthetic pressure packet remains unchanged:
 
 ```yaml
-source_calibration_pressure_packet_after_wp3:
+source_calibration_pressure_packet_at_integration_boundary:
   P0: formal_precision_overreach_assertion_not_accepted
   DS: unadjudicated
   IS: unadjudicated
@@ -9874,9 +9874,9 @@ source_calibration_pressure_packet_after_wp3:
   TF: unadjudicated
 ```
 
-No Source-Ceiling result, Calibration result, Calibration-Open result, route, Stop, Claim Reduction, Non-Capture, or canonical Output Class has been selected for the packet. WP4 receives the complete chapter for integrated Contract, redundancy, ownership, pressure-packet, Shared-Record, inventory, PMS, model, and authority audit and for preparation of Chapter 50.
+No Source-Ceiling result, Calibration result, Calibration-Open result, route, Stop, Claim Reduction, Non-Capture, or canonical Output Class has been selected for the packet. The chapter audit uses the complete chapter for integrated Contract, redundancy, ownership, pressure-packet, Shared-Record, inventory, PMS, model, and authority audit and establishes the Chapter-50 entry boundary.
 
-No Case, Test, or Smoke YAML has been created. The artifact-complete RETYPE lock remains `mandatory_stop`; the required lock packages remain `0/3`; Part IV remains open; and Part IV final lock remains unavailable.
+This local method does not itself create Case, Test, or Smoke YAML artifacts. This local chapter result neither reopens the bounded RETYPE lock nor establishes the Part-IV final lock; those statuses remain governed by their canonical lock records, and no authority is inherited from this local method result.
 <a id="chapter-50-anti-immunization"></a>
 
 ## Chapter 50 — Anti-Immunization
@@ -10137,9 +10137,9 @@ higher analytical level
 
 A bounded example is a failed trajectory claim followed by a narrower path claim. Suppose `Q0` claims that several sequences form one trajectory. A countercase shows a branch with incompatible directional logic. A later `COMPOSE` claim may still test whether the branches constitute a heterogeneous composite under a different target question. That composite claim is not a repaired trajectory claim. It is `Q1`, with its own selection, Loss, source basis, and test burden.
 
-#### C50-WP1-HANDOFF-01 — WP1 hands WP2 the original-claim and escape architecture without adjudicating the pressure packet
+#### C50-SCOPE-BOUNDARY-01 — The scope boundary preserves the original-claim and escape architecture without adjudicating the pressure packet
 
-WP1 establishes that analytical mobility is permissible only under preserved criticizability. It fixes:
+The scope section establishes that analytical mobility is permissible only under preserved criticizability. It fixes:
 
 - the separately identifiable original claim and objection;
 - the new-claim rule for changed coordinates, operation occurrences, composition, or target function;
@@ -10151,7 +10151,7 @@ WP1 establishes that analytical mobility is permissible only under preserved cri
 The synthetic pressure packet remains unchanged:
 
 ```yaml
-anti_immunization_pressure_packet_after_wp1:
+anti_immunization_pressure_packet_at_scope_boundary:
   I0: analytical_shift_repairs_or_erases_prior_failure_assertion_not_accepted
   OC: unadjudicated
   OB: unadjudicated
@@ -10163,7 +10163,7 @@ anti_immunization_pressure_packet_after_wp1:
   TS: unadjudicated
 ```
 
-No route, Stop, Claim Reduction, Non-Capture, or canonical Output Class is selected. WP2 receives the original-claim, direct-answer, operation-declaration, and escape architecture for Projection Rescue, Moving versus Answering, and Failure Preservation.
+No route, Stop, Claim Reduction, Non-Capture, or canonical Output Class is selected. The method section receives the original-claim, direct-answer, operation-declaration, and escape architecture for Projection Rescue, Moving versus Answering, and Failure Preservation.
 
 <a id="50-4-the-projection-rescue"></a>
 
@@ -10362,9 +10362,9 @@ Each chain step must therefore preserve:
 
 For example, `COMPOSE → PROJECT_AS` may not use the projected target function to erase selection loss in the composite. `DECOMPOSE → COMPOSE` may not treat reconstructed components as though their uncertain internal relations were directly observed. `PROJECT_AS → DECOMPOSE` may open the source object but cannot retrospectively make the earlier projection's source-function dependency certain.
 
-#### C50-WP2-HANDOFF-01 — WP2 hands WP3 complete failure-preservation and rescue controls without selecting later dispositions
+#### C50-METHOD-BOUNDARY-01 — The method boundary preserves complete failure-preservation and rescue controls without selecting later dispositions
 
-WP2 establishes:
+The method section establishes:
 
 - Projection Rescue versus independent bounded `PROJECT_AS`;
 - Moving versus Answering an Objection;
@@ -10376,7 +10376,7 @@ WP2 establishes:
 The pressure packet remains unchanged:
 
 ```yaml
-anti_immunization_pressure_packet_after_wp2:
+anti_immunization_pressure_packet_at_method_boundary:
   I0: analytical_shift_repairs_or_erases_prior_failure_assertion_not_accepted
   OC: unadjudicated
   OB: unadjudicated
@@ -10388,7 +10388,7 @@ anti_immunization_pressure_packet_after_wp2:
   TS: unadjudicated
 ```
 
-No Stop, Claim Reduction, Non-Capture, route, or canonical Output Class is selected. WP3 receives the complete escape, rescue, claim-separation, and failure-preservation architecture for rival sensitivity, no-transformation, translation boundaries, and the six-question test.
+No Stop, Claim Reduction, Non-Capture, route, or canonical Output Class is selected. The integration section receives the complete escape, rescue, claim-separation, and failure-preservation architecture for rival sensitivity, no-transformation, translation boundaries, and the six-question test.
 
 <a id="50-7-rival-sensitivity"></a>
 
@@ -10614,7 +10614,7 @@ Chapter 50 hands Chapter 53:
 
 Chapter 53 owns the integrated twelve-stage audit and final routing. Chapter 50 selects none of these outcomes for the synthetic packet.
 
-#### C50-HANDOFF-01 — WP3 hands WP4 the complete Anti-Immunization method without adjudicating the pressure packet
+#### C50-AUDIT-BOUNDARY-01 — The integration boundary preserves the complete Anti-Immunization method without adjudicating the pressure packet
 
 Chapter 50 now contains the complete substantive method for:
 
@@ -10633,7 +10633,7 @@ Chapter 50 now contains the complete substantive method for:
 The synthetic pressure packet remains unchanged:
 
 ```yaml
-anti_immunization_pressure_packet_after_wp3:
+anti_immunization_pressure_packet_at_integration_boundary:
   I0: analytical_shift_repairs_or_erases_prior_failure_assertion_not_accepted
   OC: unadjudicated
   OB: unadjudicated
@@ -10645,7 +10645,7 @@ anti_immunization_pressure_packet_after_wp3:
   TS: unadjudicated
 ```
 
-No Anti-Immunization result, route, Stop, Claim Reduction, Non-Capture, or canonical Output Class has been selected. No Case, Test, or Smoke YAML has been created. The artifact-complete RETYPE lock remains `mandatory_stop`; the required lock packages remain `0/3`; Part IV remains open; and Part IV final lock remains unavailable. WP4 receives the complete chapter for integrated Contract, redundancy, ownership, pressure-packet, Shared-Record, inventory, PMS, model, and authority audit and for preparation of Chapter 51.
+No Anti-Immunization result, route, Stop, Claim Reduction, Non-Capture, or canonical Output Class has been selected. This local method does not itself create Case, Test, or Smoke YAML artifacts. This local chapter result neither reopens the bounded RETYPE lock nor establishes the Part-IV final lock; those statuses remain governed by their canonical lock records, and no authority is inherited from this local method result. The chapter audit uses the complete chapter for integrated Contract, redundancy, ownership, pressure-packet, Shared-Record, inventory, PMS, model, and authority audit and establishes the Chapter-51 entry boundary.
 ## Chapter 51 — Stop Conditions
 
 Chapter 51 integrates Stop, Claim Reduction, preserved results, and re-entry across the complete STRATA method. It does not add a fourth operation, an additional Rule, a thirteenth audit stage, or a new Output Class. It determines when continued transformation is unnecessary, when it would violate a load-bearing boundary, when a narrower claim remains warranted, and what must remain visible if later work resumes.
@@ -10869,14 +10869,14 @@ sources could support more detail
 
 PATH Stop is occurrence-based. It does not alter Δ–Ψ types or infer historical sequence from PMS dependency order.
 
-#### C51-WP1-HANDOFF-01 — WP1 hands WP2 the general and PATH Stop architecture without adjudicating the pressure packet
+#### C51-SCOPE-BOUNDARY-01 — The scope boundary preserves the general and PATH Stop architecture without adjudicating the pressure packet
 
-WP1 has established Stop as a positive result, the current-claim declaration, general trigger families, unnecessary versus inadmissible continuation, non-compensation, trigger declaration, and PATH-specific Stop conditions.
+The scope section has established Stop as a positive result, the current-claim declaration, general trigger families, unnecessary versus inadmissible continuation, non-compensation, trigger declaration, and PATH-specific Stop conditions.
 
 The synthetic packet remains unchanged:
 
 ```yaml
-stop_pressure_packet_after_wp1:
+stop_pressure_packet_at_scope_boundary:
   J0: further_transformation_is_always_preferable_to_stop_assertion_not_accepted
   GC: unadjudicated
   PS: unadjudicated
@@ -10945,12 +10945,12 @@ The method does not prohibit later decomposition under a different claim. That l
 - the target context is selected arbitrarily or expanded after counterpressure;
 - the projected function is portable across unrelated source objects without reconstructible source load;
 - the projection is used to rescue a failed origin-type claim;
-- an artifact-complete RETYPE lock is claimed while required lock packages remain absent.
+- an artifact-complete RETYPE lock is requested while its declared required artifacts are absent.
 
-The existing RETYPE artifact-complete lock therefore remains a real Mandatory Stop:
+Where required artifacts are absent, the requested artifact-complete lock requires Mandatory Stop:
 
 ```text
-required RETYPE lock packages: 0/3
+required RETYPE lock artifacts: absent
 artifact-complete RETYPE lock requested
 → continuation to artifact-complete lock is inadmissible
 → mandatory_stop remains required
@@ -11101,14 +11101,14 @@ resolution_neutral
 
 `failed_transformation` requires its own substantive rationale: the attempted transformation did not produce an admissible result under the applicable operation and claim. Final class routing remains Chapter 53-owned.
 
-#### C51-WP2-HANDOFF-01 — WP2 hands WP3 complete operation-specific Stop and Claim-Reduction controls without selecting final routes
+#### C51-METHOD-BOUNDARY-01 — The method boundary preserves complete operation-specific Stop and Claim-Reduction controls without selecting final routes
 
-WP2 has added SUB and RETYPE Stop conditions, Mandatory versus Optional Stop, Claim Reduction, support downgrade, resolution neutrality, and the non-automatic-failure boundary.
+The method section has added SUB and RETYPE Stop conditions, Mandatory versus Optional Stop, Claim Reduction, support downgrade, resolution neutrality, and the non-automatic-failure boundary.
 
 The pressure packet remains:
 
 ```yaml
-stop_pressure_packet_after_wp2:
+stop_pressure_packet_at_method_boundary:
   J0: further_transformation_is_always_preferable_to_stop_assertion_not_accepted
   GC: unadjudicated
   PS: unadjudicated
@@ -11314,7 +11314,7 @@ Chapter 51 hands Chapter 53:
 
 Chapter 53 owns integrated twelve-stage final routing. Chapter 51 does not mechanically map every local Stop to a final Output Class.
 
-#### C51-HANDOFF-01 — WP3 hands WP4 the complete Stop, Claim-Reduction, and re-entry method for integrated audit
+#### C51-AUDIT-BOUNDARY-01 — The integration boundary preserves the complete Stop, Claim-Reduction, and re-entry method for integrated audit
 
 Chapter 51 now contains the complete substantive method for:
 
@@ -11334,7 +11334,7 @@ Chapter 51 now contains the complete substantive method for:
 The synthetic pressure packet remains unchanged:
 
 ```yaml
-stop_pressure_packet_after_wp3:
+stop_pressure_packet_at_integration_boundary:
   J0: further_transformation_is_always_preferable_to_stop_assertion_not_accepted
   GC: unadjudicated
   PS: unadjudicated
@@ -11346,7 +11346,7 @@ stop_pressure_packet_after_wp3:
   PR: unadjudicated
 ```
 
-No pressure-object Stop, Claim Reduction, retained claim, re-entry, Non-Capture, route, or canonical Output Class has been selected. No Case, Test, or Smoke YAML has been created. The artifact-complete RETYPE lock remains `mandatory_stop`; required lock packages remain `0/3`; Part IV remains open; and Part IV final lock remains unavailable.
+No pressure-object Stop, Claim Reduction, retained claim, re-entry, Non-Capture, route, or canonical Output Class has been selected. This local method does not itself create Case, Test, or Smoke YAML artifacts. This local chapter result neither reopens the bounded RETYPE lock nor establishes the Part-IV final lock; those statuses remain governed by their canonical lock records, and no authority is inherited from this local method result.
 ## Chapter 52 — Non-Capture
 
 Chapter 52 establishes Non-Capture as a positive, bounded, and criticizable result of PMS-STRATA. It applies where an adequately attempted reconstruction cannot retain a sufficient claim about all or a delimited part of the relevant object without distortion, unsupported extension, false closure, or destruction of a constitutive feature. It does not add a fourth operation, a new PMS primitive, a seventeenth Rule, a thirteenth audit stage, or an eleventh Output Class.
@@ -11519,7 +11519,7 @@ The forms are non-exhaustive of every possible reason for an unsuccessful transf
 #### C52-PRESSUREPRESERVATION-01 — The synthetic pressure packet remains a test architecture rather than an adjudicated case
 
 ```yaml
-non_capture_pressure_packet_after_wp1:
+non_capture_pressure_packet_at_scope_boundary:
   NC0: total_capture_assertion_not_accepted
   SRC: unadjudicated
   GRN: unadjudicated
@@ -11569,14 +11569,14 @@ source Non-Capture for sequence claim
 ≠ unknown transition converted into Λ
 ```
 
-#### C52-WP1-HANDOFF-01 — WP1 hands WP2 the bounded definition, anti-shield control, seven forms, and source architecture
+#### C52-SCOPE-BOUNDARY-01 — The scope boundary preserves the bounded definition, anti-shield control, seven forms, and source architecture
 
-WP1 has established the Non-Capture definition, attempt disclosure, anti-shield control, Stop/failure distinction, exact seven-form vocabulary, pressure preservation, and source Non-Capture.
+The scope section has established the Non-Capture definition, attempt disclosure, anti-shield control, Stop/failure distinction, exact seven-form vocabulary, pressure preservation, and source Non-Capture.
 
 The synthetic packet remains unchanged:
 
 ```yaml
-non_capture_pressure_packet_after_wp1_handoff:
+non_capture_pressure_packet_after_scope_handoff:
   NC0: total_capture_assertion_not_accepted
   SRC: unadjudicated
   GRN: unadjudicated
@@ -11769,9 +11769,9 @@ PMS-STRATA Non-Capture
 
 A rival-superiority claim requires independent sources, coordinates, comparison criteria, Loss disclosure, and countercases. Chapter 52 keeps that claim possible but unselected.
 
-#### C52-WP2-HANDOFF-01 — WP2 hands WP3 the operation- and coordinate-specific capture limits
+#### C52-METHOD-BOUNDARY-01 — The method boundary preserves the operation- and coordinate-specific capture limits
 
-WP2 has established granularity, compositional, projection, and calibration Non-Capture, competing reconstruction pressure, the no-single-failure rule, and rival sensitivity.
+The method section has established granularity, compositional, projection, and calibration Non-Capture, competing reconstruction pressure, the no-single-failure rule, and rival sensitivity.
 
 The synthetic packet remains unchanged and unadjudicated. No local candidate is mapped mechanically to `non_capture` or any other canonical Output Class.
 
@@ -11966,14 +11966,14 @@ Chapter 53 receives:
 
 Chapter 53 retains ownership of integrated routing and final Output-Class selection.
 
-#### C52-HANDOFF-01 — WP3 hands WP4 the complete Non-Capture method without adjudicating the pressure packet
+#### C52-AUDIT-BOUNDARY-01 — The integration boundary preserves the complete Non-Capture method without adjudicating the pressure packet
 
 Chapter 52 now contains all twenty-four duties across §§52.1–52.13. The method preserves exact operation, Rule, audit-stage, Output-Class, sensitivity, and Loss inventories. It creates no new primitive, schema field family, or authority relation.
 
 The synthetic packet remains unchanged:
 
 ```yaml
-non_capture_pressure_packet_after_wp3:
+non_capture_pressure_packet_at_integration_boundary:
   NC0: total_capture_assertion_not_accepted
   SRC: unadjudicated
   GRN: unadjudicated
@@ -11985,7 +11985,7 @@ non_capture_pressure_packet_after_wp3:
   RIV: unadjudicated
 ```
 
-No pressure-object Non-Capture form, rival, Stop, Claim Reduction, Failure, re-entry, route, or canonical Output Class has been selected. No Case, Test, or Smoke YAML has been created. The artifact-complete RETYPE lock remains `mandatory_stop`; required lock packages remain `0/3`; Part IV remains open; and Part IV final lock remains unavailable.
+No pressure-object Non-Capture form, rival, Stop, Claim Reduction, Failure, re-entry, route, or canonical Output Class has been selected. This local method does not itself create Case, Test, or Smoke YAML artifacts. This local chapter result neither reopens the bounded RETYPE lock nor establishes the Part-IV final lock; those statuses remain governed by their canonical lock records, and no authority is inherited from this local method result.
 ## Chapter 53 — Integrated STRATA Admissibility Audit
 
 Chapter 53 integrates the local results of PATH, SUB, RETYPE, and LIMITS into one bounded audit route. It does not replace the operation-specific methods, reopen provisionally locked chapters, or convert formal completeness into substantive warrant. Its task is to preserve every claim-bearing burden while determining which canonical result class, if any, is supported for the audited object.
@@ -12241,14 +12241,14 @@ Operator labels are insufficient. The presence of a Δ–Ψ type in both source 
 
 One local success may survive a chain-handoff failure. For example, a `COMPOSE` record may correctly reconstruct a bounded sequence, but a later `PROJECT_AS` record may omit the source feature claimed to carry the target function. The Stage-4 failure belongs to the projection handoff. The earlier composition remains locally supported; the chain-level functional claim does not.
 
-#### C53-WP1-HANDOFF-01 — WP1 hands WP2 the audit object, exact stage order, and Stages 1–4 without adjudication
+#### C53-SCOPE-BOUNDARY-01 — The scope boundary preserves the audit object, exact stage order, and Stages 1–4 without adjudication
 
-WP1 has established the integrated audit purpose, admissible audit objects, exact twelve-stage order, Source and Claim Entry, Operation Classification, Relevance Floor, and Traceability Ceiling.
+The scope section has established the integrated audit purpose, admissible audit objects, exact twelve-stage order, Source and Claim Entry, Operation Classification, Relevance Floor, and Traceability Ceiling.
 
 The synthetic pressure packet remains unchanged:
 
 ```yaml
-integrated_audit_pressure_packet_after_wp1:
+integrated_audit_pressure_packet_at_scope_boundary:
   A0: technical_and_local_consistency_is_sufficient_assertion_not_accepted
   E1: unadjudicated
   E2: unadjudicated
@@ -12499,9 +12499,9 @@ stage_summary:
 
 The functional failure cannot be cancelled by the remaining passes. The audit may retain a narrower non-functional claim, require Claim Reduction, stop the transformation, or route the functional claim to failure or Non-Capture depending on the complete record.
 
-#### C53-WP2-HANDOFF-01 — WP2 hands WP3 Stages 5–10 and non-compensatory chain logic
+#### C53-METHOD-BOUNDARY-01 — The method boundary preserves Stages 5–10 and non-compensatory chain logic
 
-WP2 has established continuity and TypeIntegrity, Counterfactual Sensitivity, Loss and Selection, Alternatives, Source and Calibration Limits, Anti-Immunization, and the prohibition on cross-stage compensation.
+The method section has established continuity and TypeIntegrity, Counterfactual Sensitivity, Loss and Selection, Alternatives, Source and Calibration Limits, Anti-Immunization, and the prohibition on cross-stage compensation.
 
 The pressure packet remains unadjudicated. No stage candidate or final route has been selected.
 
@@ -13020,9 +13020,9 @@ LIMITS
 
 A LIMITS finding does not transform an object. It evaluates whether a transformation, handoff, chain, or claim remains admissible under the declared conditions. Likewise, a Stop, Claim Reduction, Failure, or Non-Capture result is not an operation occurrence.
 
-#### C54-WP1-HANDOFF-01 — WP1 hands the bounded problem, four-Part architecture, and three-operation inventory forward without adjudication
+#### C54-SCOPE-BOUNDARY-01 — the scope boundary preserves the bounded problem, four-Part architecture, and three-operation inventory without adjudication
 
-WP1 establishes the limited problem, PMS dependence, four Parts, and exact three-operation inventory. It selects no result for the synthetic pressure packet. `M0` remains unaccepted; `PD/FA/PC/SD/RP/LB/CL/NI/IM` remain unadjudicated.
+The scope section establishes the limited problem, PMS dependence, four Parts, and exact three-operation inventory. It selects no result for the synthetic pressure packet. `M0` remains unaccepted; `PD/FA/PC/SD/RP/LB/CL/NI/IM` remain unadjudicated.
 
 <a id="54-3-path-and-compose"></a>
 
@@ -13323,9 +13323,9 @@ new handoff
 
 A later success cannot erase an earlier handoff failure. A narrower re-entry can be admissible, but it is a new record with a new claim and must retain the earlier disposition in provenance.
 
-#### C54-WP2-HANDOFF-01 — WP2 hands the complete four-Part chain architecture forward without final synthesis adjudication
+#### C54-METHOD-BOUNDARY-01 — the method boundary preserves the complete four-Part chain architecture without final synthesis adjudication
 
-WP2 completes SUB, RETYPE, LIMITS, operation-chain, and handoff synthesis. It selects no result for `SD/RP/LB/CL` or any other synthetic candidate. The pressure packet remains unchanged.
+The method boundary completes SUB, RETYPE, LIMITS, operation-chain, and handoff synthesis. It selects no result for `SD/RP/LB/CL` or any other synthetic candidate. The pressure packet remains unchanged.
 
 <a id="54-8-non-invertibility"></a>
 
@@ -13550,7 +13550,7 @@ Chapter 55 receives an integrated but strictly bounded capability basis:
 
 Chapter 54 does not yet define the final positive inventory, its reader-facing formulation, or its symmetry with Chapter 56. Nor does this handoff complete Chapters 55–57, integrated cases, Conclusion lock, Reference Freeze, Corpus Audit, Model Finalization, derivatives, Reader, or release.
 
-#### C54-HANDOFF-01 — The Conclusion lock adjudicates the integrated model without creating a superior layer
+#### C54-AUDIT-BOUNDARY-01 — The Conclusion lock adjudicates the integrated model without creating a superior layer
 
 All twenty-four Chapter-54 duties are represented across §§54.1–54.10. The exact four Parts, three operations, ten Output Classes, sixteen Rules, twelve audit stages, six sensitivity values, and five Loss fields remain unchanged.
 

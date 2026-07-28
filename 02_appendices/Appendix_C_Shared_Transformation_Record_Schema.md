@@ -57,7 +57,7 @@ The Appendix status is:
 substantive bounded provisional completion
 ```
 
-Its final lock remains dependent on the completion of Appendices D–N, Reference Freeze, the Integrated Corpus Audit, and Model Finalization.
+Its cross-artifact lock is conditioned on Reference Freeze, the Integrated Corpus Audit, and Model Finalization.
 
 ---
 
@@ -528,7 +528,7 @@ target_reference_object_pointer:
 target_object_typing_pointer:
 ```
 
-Appendix D will provide the usable occurrence template. Appendix C fixes only the shared schema relation.
+Appendix D provides the usable occurrence template. Appendix C fixes only the shared schema relation.
 
 ### C.6.4 DECOMPOSE details
 
@@ -574,7 +574,7 @@ target_frame_pointer:
 validity_scope_pointer:
 ```
 
-Appendix F will provide the complete reusable template.
+Appendix F provides the complete reusable template.
 
 ---
 
@@ -1486,7 +1486,7 @@ Layer 4
 ≠ Layer 5
 ```
 
-Appendix N will integrate the full twelve-stage substantive audit and chain handoff. Model Finalization will revisit schema synchronization after the corpus and references are frozen.
+Appendix N integrates the full twelve-stage substantive audit and chain handoff. Schema synchronization remains an explicit Model Finalization obligation after corpus and reference freeze.
 
 ---
 
@@ -1540,7 +1540,7 @@ Appendix C is substantively complete when all of the following hold:
 19. the human-readable companion template is populated;
 20. no new operation, class, primitive, field family, or authority is introduced.
 
-The current result is:
+The Appendix-level result is:
 
 ```text
 admissible_with_bounded_claim

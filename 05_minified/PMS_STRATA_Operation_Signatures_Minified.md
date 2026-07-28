@@ -1,6 +1,6 @@
 # PMS-STRATA — Operation Signatures Minified
 
-**Status:** canonical control artifact for corpus production  
+**Status:** canonical control artifact for corpus maintenance and audit  
 **Dependency:** `PMS_STRATA_Claim_Boundary_Minified.md`, PMS Base as represented by `PMS.yaml`, and the current `PMS-STRATA_Structure.md`  
 **Function:** compact specification of the three canonical STRATA operations, their inputs, outputs, preservation duties, losses, admissibility requirements, and failure modes
 

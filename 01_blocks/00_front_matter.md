@@ -2,7 +2,7 @@
 
 ## Granularity, Trajectory, Composition, and Cross-Level Functional Projection in PMS
 
-> **Front Matter status:** substantive orientation layer complete at bounded provisional status. It reflects the corpus state after corpus-wide integration of the final bounded RETYPE, LIMITS, and Conclusion locks. Appendices, Reference Freeze, Integrated Corpus Audit, Model Finalization, derivatives, Reader completion, and release remain pending. This Front Matter does not itself alter the theory, the lock state of any Part, or the authority of PMS Base.
+> **Front Matter status:** canonical orientation layer aligned to the current corpus. It records bounded Part status and declared residual obligations without altering theory, Part lock status, or the authority of PMS Base.
 
 ---
 
@@ -214,18 +214,18 @@ transformation discipline
 
 The present corpus contains canonical prose for Chapters 0–57, three final bounded artifact-complete locks for RETYPE, LIMITS, and Conclusion, and a corpus-wide integration of those lock surfaces. Foundations, PATH, and SUB retain bounded provisional locks. The case repository contains 59 case operation Records, all ten canonical Output Classes, and all six required minimum operation-chain families.
 
-Two case-coverage obligations remain explicitly partial rather than missing: a same-source PATH boundary package for Chapter 16 and a same-source four-result resolution package for Chapter 25. Their presence does not invalidate the later final locks, and their absence is not concealed. They remain bounded residual obligations within the provisional PATH and SUB lock surfaces.
+Two case-coverage obligations are explicitly partial rather than missing: a same-source PATH boundary package for Chapter 16 and a same-source four-result resolution package for Chapter 25. Their partial status is visible and remains a bounded residual obligation within the PATH and SUB audit surfaces.
 
-This Front Matter is produced after the canonical prose and the three final later-Part locks, but before Appendices finalization, Reference Freeze, Integrated Corpus Audit, Model Finalization, derivative publications, Reader completion, and release. Its present status is therefore substantive and aligned, but not yet a final release lock.
+This Front Matter orients to the canonical prose and bounded lock statuses of the Parts. It does not certify independent completion of Appendices, Reference, Model, derivative, Reader, corpus-audit, or release layers.
 
 The distinction matters:
 
 ```text
-substantive Front Matter complete
-≠ final release package complete
+canonical Front Matter orientation
+≠ independent completion of support or release layers
 ```
 
-The Front Matter may orient the reader to what exists. It may not promise the completion of artifacts that remain pending.
+The Front Matter may orient the reader to what exists. It may not certify completion of independently governed artifacts.
 
 ---
 
@@ -451,7 +451,7 @@ A visualized branch is not automatically a historically available branch. A rend
 
 ### Current corpus status
 
-At the time of this Front Matter production:
+At the current corpus state:
 
 | Corpus surface | Current status |
 | --- | --- |
@@ -467,16 +467,16 @@ At the time of this Front Matter production:
 | Required minimum chain families | 6/6 |
 | Missing chapter case obligations | 0 |
 | Explicitly partial same-source obligations | 2 |
-| Front Matter | substantive bounded provisional completion |
-| Appendices | next production stage; not final |
-| Reference Freeze | pending |
-| Integrated Corpus Audit | pending |
-| Model Finalization | pending |
-| Derivatives | pending |
-| Reader and controlled graph/3D-path layer | pending |
-| Release | pending |
+| Front Matter | canonical orientation aligned to the current corpus |
+| Appendices | present as operationalization and audit support; no theory-source authority |
+| Reference Kernel | populated; corpus-audit synchronization and final freeze remain separately governed |
+| Integrated Corpus Audit | active, folder-bounded, and not yet complete |
+| Formal Model | present; final synchronization remains downstream of the corpus audit |
+| Derivatives | present without back-effect on the canonical corpus |
+| Reader and controlled graph/3D-path layer | present as navigation and inspection support; final polish and release remain separate |
+| Release | not established by corpus or Reader completion |
 
-This table is a status declaration, not a theory source. Current repository status and exact production history are maintained in `README.md` and the relevant Reference records.
+This table is a status declaration, not a theory source. Current repository status and exact record history are maintained in `README.md` and the relevant Reference records.
 
 ### Scientific status
 
@@ -1008,7 +1008,7 @@ appendix invents
 → corpus silently inherits
 ```
 
-The Appendix layer follows this Front Matter in the production sequence and remains pending finalization at the present status.
+The Appendix layer operationalizes the canonical corpus through bounded schemas, templates, records, and audit aids without redefining the Blocks.
 
 ### Failure-first reading
 

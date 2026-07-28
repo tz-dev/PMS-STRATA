@@ -292,7 +292,7 @@ An external method may be superior. STRATA must preserve that possibility rather
 
 ## K.8 Reader and graph boundary
 
-A later Reader may display source and target nodes, correspondence edges, residuals, source-variation tests, analogy-only routes, and failed label transfers. It may not infer semantic preservation or target function from geometric alignment.
+The Reader may display source and target nodes, correspondence edges, residuals, source-variation tests, analogy-only routes, and failed label transfers. It may not infer semantic preservation or target function from geometric alignment.
 
 ```text
 parallel graph geometry

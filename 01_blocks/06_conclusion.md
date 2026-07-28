@@ -125,7 +125,7 @@ The origin type remains visible. The target function is contextual, derived, and
 
 Examples already established in the corpus include a trajectory functioning as a frame element, macro-event, attractor-like form, or distributed profile. Chapter 55 adds no new example or promise. It records that STRATA provides a typed procedure for such claims and a method for rejecting projection where source trace, context, sensitivity, or TypeIntegrity fails.
 
-#### C55-PRIMARYOWNERS-01 — WP1 capabilities retain their established primary owners
+#### C55-PRIMARYOWNERS-01 — Scope-defined capabilities retain their established primary owners
 
 | Capability | Method Part / operation | Primary owners | Bounded output form |
 |---|---|---|---|
@@ -152,12 +152,12 @@ methodological capability
 ≠ application authority
 ```
 
-#### C55-WP1-HANDOFF-01 — WP1 hands WP2 the first capability family without adjudicating the synthetic packet
+#### C55-SCOPE-BOUNDARY-01 — The scope boundary preserves the first capability family without adjudicating the synthetic packet
 
 The positive-provision pressure packet remains open:
 
 ```yaml
-positive_provision_pressure_packet_after_wp1:
+positive_provision_pressure_packet_at_scope_boundary:
   V0: established_capabilities_create_broader_truth_or_application_authority_assertion_not_accepted
   VD: unadjudicated
   TC: unadjudicated
@@ -323,7 +323,7 @@ The positive inventory includes the capacity to return:
 
 A method that can only expand or confirm would not provide controlled reconstruction. Stop, Failure, and Non-Capture are therefore capabilities of the method, not defects to be hidden.
 
-#### C55-WP2-HANDOFF-01 — WP2 hands WP3 the occurrence, Loss, alternatives, testing, and profile capabilities without adjudicating the inventory
+#### C55-METHOD-BOUNDARY-01 — The method boundary preserves the occurrence, Loss, alternatives, testing, and profile capabilities without adjudicating the inventory
 
 The positive-provision pressure packet remains unchanged. `V0` remains unaccepted; `VD/TC/DC/FP/OL/AT/AA/SN/IL` remain unadjudicated. No capability candidate or final route is selected.
 
@@ -469,7 +469,7 @@ positive capability
 
 Chapter 55 does not pre-empt the complete prohibited-claim registry, non-override rule, or final exclusion language owned by Chapter 56.
 
-#### C55-HANDOFF-01 — The Conclusion lock closes the positive inventory at bounded capability scope
+#### C55-AUDIT-BOUNDARY-01 — The Conclusion lock closes the positive inventory at bounded capability scope
 
 All twenty-four Chapter-55 duties are represented across §§55.1–55.13. The exact four Parts, three operations, ten Output Classes, sixteen Rules, twelve audit stages, six sensitivity values, and five Loss fields remain unchanged.
 
@@ -648,7 +648,7 @@ finer
 
 A coarser reconstruction may remain preferable where it preserves the relevant relation with less unsupported detail. A finer reconstruction must therefore establish its own PraxisPurchase, Source Support, TraceableLoad, Preservation Criterion, Loss profile, and Claim Ceiling.
 
-#### C56-SYMMETRY-WP1-01 — The first positive capabilities remain valid only under these negative ceilings
+#### C56-SYMMETRY-SCOPE-01 — The first positive capabilities remain valid only under these negative ceilings
 
 The Chapter-55 capabilities are not withdrawn. Their ceilings specify what those capabilities do not entail:
 
@@ -665,7 +665,7 @@ capability preserved
 → bounded symmetry
 ```
 
-#### C56-WP1-HANDOFF-01 — WP1 hands WP2 the Base, ontology, constituent, totality, and resolution exclusions without adjudicating the packet
+#### C56-SCOPE-BOUNDARY-01 — The scope boundary preserves the Base, ontology, constituent, totality, and resolution exclusions without adjudicating the packet
 
 The negative-scope pressure packet remains unchanged. `N0` remains unaccepted; `BL/OC/SC/RL/RT/CX/PA/CC/NS` remain unadjudicated. No exclusion candidate, route, Stop, Claim Reduction, Failure, Non-Capture, re-entry, or Output Class is selected.
 
@@ -814,7 +814,7 @@ successful case
 
 A case that appears to require an override instead indicates one of four possibilities: the case claim is too strong, the exclusion has been misunderstood, a different external method is required, or a corpus-level revision must be proposed explicitly under the established authority order. No case silently rewrites the boundary.
 
-#### C56-WP2-HANDOFF-01 — WP2 hands WP3 the composition, retyping, Loss, recursion, threshold, and causal exclusions without adjudication
+#### C56-METHOD-BOUNDARY-01 — The method boundary preserves the composition, retyping, Loss, recursion, threshold, and causal exclusions without adjudication
 
 `N0` remains unaccepted; `BL/OC/SC/RL/RT/CX/PA/CC/NS` remain unadjudicated. No final exclusion result or route is selected.
 
@@ -1004,7 +1004,7 @@ Chapter 57 receives:
 
 Chapter 57 may restate and close these elements. It may not add a missing capability, exclusion, operation, Rule, stage, Output Class, sensitivity value, Loss field, primitive, or authority claim.
 
-#### C56-HANDOFF-01 — The Conclusion lock closes the negative inventory as non-overridable method ceilings
+#### C56-AUDIT-BOUNDARY-01 — The Conclusion lock closes the negative inventory as non-overridable method ceilings
 
 All twenty-four Chapter-56 duties are represented across §§56.1–56.18. Exact inventories remain unchanged.
 
@@ -1119,7 +1119,7 @@ A transformation is not warranted merely because it creates more detail, a large
 
 The Admissibility Band remains non-compensatory. Formal elegance cannot repair absent PraxisPurchase. Additional detail cannot repair lost TraceableLoad. Technical consistency cannot repair TypeIntegrity failure. A source-rich record cannot justify an arbitrary target function. A successful local operation cannot erase a failed handoff.
 
-#### C57-WP1-SYNTHESIS-01 — The final boundary synthesizes Chapters 0 and 41–56 without redefining their owned concepts
+#### C57-SCOPE-SYNTHESIS-01 — The final boundary synthesizes Chapters 0 and 41–56 without redefining their owned concepts
 
 Chapter 0 established the initial claim boundary. Chapters 41–53 established LIMITS and the integrated twelve-stage audit. Chapter 54 synthesized the four-Part model. Chapter 55 stated the positive capability inventory. Chapter 56 stated the complete negative inventory. Chapter 57 closes these elements by restatement only.
 
@@ -1172,9 +1172,9 @@ cross-level projection
 
 A finer reconstruction can remain irrelevant, source-limited, or TypeIntegrity-defeating. A larger composite can erase heterogeneity or traceable load. A more precise schema can represent an unsupported claim with perfect technical consistency. A successful implementation can preserve syntax while losing semantics. A bounded target function can remain analytically useful without becoming an origin type or granting practical authority.
 
-#### C57-NOCOMPLETIONOVERREACH-01 — Final prose and final locks remain bounded production claims, not empirical or release completion
+#### C57-NOCOMPLETIONOVERREACH-01 — Final prose and final locks remain bounded corpus-status claims, not empirical or release completion
 
-Completion of final-chapter drafting alone did not establish any Part or Conclusion lock. RETYPE, LIMITS, and the present Conclusion lock were selected only through later, separately recorded bounded reassessments.
+Completion of final-chapter prose alone did not establish any Part or Conclusion lock. RETYPE, LIMITS, and the present Conclusion lock were selected only through later, separately recorded bounded reassessments.
 
 Those final bounded locks still do not establish:
 
@@ -1198,9 +1198,9 @@ final bounded Conclusion lock
 ≠ completing release
 ```
 
-#### C57-WP1-HANDOFF-01 — WP1 hands WP2 the bounded extension, Admissibility Band, and governing distinction without adjudicating the final-boundary packet
+#### C57-SCOPE-BOUNDARY-01 — The scope boundary preserves the bounded extension, Admissibility Band, and governing distinction without adjudicating the final-boundary packet
 
-At the WP1 boundary, `F0` remains unaccepted and `BE/AB/GD/TR/FR/NC/AR/ML/FF` remain unadjudicated. No final-boundary result, route, Stop, Claim Reduction, Failure, Non-Capture, re-entry, or canonical Output Class has been selected.
+At the scope boundary, `F0` remains unaccepted and `BE/AB/GD/TR/FR/NC/AR/ML/FF` remain unadjudicated. No final-boundary result, route, Stop, Claim Reduction, Failure, Non-Capture, re-entry, or canonical Output Class has been selected.
 
 <a id="57-4-the-transformation-rule"></a>
 
@@ -1378,9 +1378,9 @@ governance:
   authority_inheritance: prohibited
 ```
 
-#### C57-WP2-HANDOFF-01 — WP2 hands WP3 the transformation, failure, Non-Capture, and Authority Rules without adjudicating the final-boundary packet
+#### C57-METHOD-BOUNDARY-01 — The method boundary preserves the transformation, failure, Non-Capture, and Authority Rules without adjudicating the final-boundary packet
 
-At the WP2 boundary, the final-boundary pressure packet remains unchanged. No candidate, route, Stop, Claim Reduction, Failure, Non-Capture, re-entry, or Output Class is selected.
+At the method boundary, the final-boundary pressure packet remains unchanged. No candidate, route, Stop, Claim Reduction, Failure, Non-Capture, re-entry, or Output Class is selected.
 
 <a id="57-8-no-required-further-meta-layer"></a>
 
@@ -1481,25 +1481,20 @@ includes
 knowing when not to transform
 ```
 
-#### C57-POSTCORPUSHANDOFF-01 — Final Conclusion lock hands remaining production phases their proper sequence without transferring authority
+#### C57-POSTCORPUS-LAYER-BOUNDARY-01 — Final Conclusion lock preserves the independent authority boundaries of supporting layers
 
-Canonical Prose Overflight, integrated case production, the six required operation-chain families, and the separate final RETYPE and LIMITS lock reassessments are complete. The present reassessment closes Chapters 54–57 at final bounded conclusion scope.
+The final bounded Conclusion lock closes the canonical Chapters 54–57 claim. It does not certify, replace, or inherit completion for Appendices, the Reference Kernel, the Integrated Corpus Audit, the Formal Model, derivatives, Reader functions, or release.
 
-The following remain separate controlled phases:
+Each supporting layer retains its own source, claim type, validation burden, correction route, and Stop conditions. Existing artifacts may operationalize, formalize, navigate, test, or derive from the canonical corpus. They do not become theory sources and do not transfer authority back into the Blocks.
 
-1. corpus-level lock integration;
-2. Front Matter completion;
-3. appendix production;
-4. Reference Freeze;
-5. integrated Corpus Audit;
-6. Formal Model finalization;
-7. derivative publications and prior-art work;
-8. Reader production, including controlled graph and 3D-path visualization;
-9. release audit and release.
+```text
+canonical Conclusion lock
+≠ support-layer completion
+≠ release completion
+≠ authority inheritance
+```
 
-No remaining phase inherits completion or authority from the Conclusion lock. Each retains its own gate, evidence, validation, and Stop conditions.
-
-#### C57-HANDOFF-01 — The final-boundary packet is accepted at bounded method-and-artifact scope
+#### C57-AUDIT-BOUNDARY-01 — The final-boundary packet is accepted at bounded method-and-artifact scope
 
 All twenty-four Chapter-57 duties are represented across §§57.1–57.10. Exact inventories remain unchanged.
 
@@ -1528,4 +1523,4 @@ The earlier chapter-level `admissible_but_provisional` result remains historical
 
 #### Conclusion completion boundary
 
-Chapters 54–57 are final-locked at bounded method-and-artifact scope. This closes the canonical Conclusion dependency for corpus-level lock integration, not Front Matter, Appendices, Reference Freeze, Model Finalization, Reader production, or release.
+Chapters 54–57 are final-locked at bounded method-and-artifact scope. This closes the canonical Conclusion dependency while leaving Front Matter orientation, Appendices, Reference synchronization, Formal-Model synchronization, Reader support, corpus audit, and release under their own bounded claims and gates.

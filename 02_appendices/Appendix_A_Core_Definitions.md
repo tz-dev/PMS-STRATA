@@ -1,8 +1,8 @@
 # Appendix A — Core Definitions
 
-**Status:** substantive bounded provisional completion; final Appendix lock remains pending until all Appendices A–N, Reference Freeze, and the Integrated Corpus Audit  
+**Status:** substantive bounded provisional completion; cross-artifact lock conditioned on Reference Freeze and the Integrated Corpus Audit  
 **Repository role:** consolidated definition and navigation supplement; not a competing theory source  
-**Authority basis:** `PMS.yaml` → `00_source/PMS-STRATA_Structure.md` → locked or provisionally locked canonical prose in `01_blocks/*` → binding controls in `05_minified/*` → formal operationalization in `07_model/*`  
+**Authority basis:** `PMS.yaml` → `00_source/PMS-STRATA_Structure.md` → canonical prose in `01_blocks/*` → binding controls in `05_minified/*` → formal operationalization in `07_model/*`  
 **Primary inputs:** Chapter 1, Chapter 10, Chapter 18, Chapter 29, `04_reference/Glossary.md`, and `04_reference/Non_Equivalence_Index.md`
 
 ---
@@ -995,7 +995,7 @@ Appendix A is complete for its assigned migration burden when:
 - protected non-equivalences and authority limits are visible;
 - no new primitive, class, Rule, field requirement, person category, or application authority is introduced.
 
-The present result satisfies those conditions at a substantive bounded provisional level.
+Appendix A satisfies those conditions at a substantive bounded provisional level.
 
 ```text
 Appendix A complete
@@ -1007,4 +1007,3 @@ Appendix A complete
 ≠ final release lock
 ```
 
-**Next controlled appendix:** Appendix B — Formal Notation.

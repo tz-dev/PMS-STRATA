@@ -486,7 +486,7 @@ or DECOMPOSE is admissible already.
 
 The same reference object may also support a compatible or rival Asymmetry typing. Chapter 18 does not force one exclusive origin type where the sources support multiple functions. The later decomposition question must state which source-side claim is under test and preserve the other supported typing as alternative or counterpressure.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
 Sections 18.1–18.4 establish:
 
@@ -501,7 +501,7 @@ Sections 18.1–18.4 establish:
 - the possibility of multiple or rival occurrence typings without Base revision;
 - the protected ownership of Chapter 19 granularity mechanics and Chapter 20 operation procedure.
 
-The eight WP1 Pressure Duties are represented in canonical prose. They remain methodological pressure tests and later integrated-case seeds. They are not standalone `03_cases/*` artifacts, empirical findings, completed transformation records, training data, or application outputs.
+The eight Pressure Duties assigned to the scope section are represented in canonical prose. They remain methodological pressure tests and not themselves standalone integrated-case artifacts. They are not standalone `03_cases/*` artifacts, empirical findings, completed transformation records, training data, or application outputs.
 
 The chapter-production result remains:
 
@@ -509,17 +509,17 @@ The chapter-production result remains:
 admissible_but_provisional
 ```
 
-This classifies the bounded state of the canonical WP1 production. It does not classify a `DECOMPOSE` occurrence, because none has been executed.
+This classifies the bounded state of the canonical scope section. It does not classify a `DECOMPOSE` occurrence, because none has been executed.
 
 The controlled handoff is:
 
 ```text
-WP1 source-candidate architecture
-→ WP2 necessity and insufficiency of compression
+The scope section source-candidate architecture
+→ the method section necessity and insufficiency of compression
 → reasons to decompose and reasons not to decompose
 ```
 
-WP1 completion therefore does not establish source insufficiency, target granularity, component identity, component relations, resolution gain, source-function outcome, Chapter-18 completion, SUB lock, or additional authority.
+scope completion therefore does not establish source insufficiency, target granularity, component identity, component relations, resolution gain, source-function outcome, Chapter-18 completion, SUB lock, or additional authority.
 
 <a id="18-5-why-compression-is-necessary"></a>
 
@@ -979,9 +979,9 @@ Further resolution should stop when:
 - comparison becomes unstable;
 - or the analysis loses the reference object it was meant to reconstruct.
 
-The full Optional Stop, Mandatory Stop, and Non-Capture integration belongs to Sections 18.9–18.10 and later LIMITS. WP2 establishes that reasons not to decompose are constitutive of SUB entry discipline rather than exceptions to it.
+The full Optional Stop, Mandatory Stop, and Non-Capture integration belongs to Sections 18.9–18.10 and later LIMITS. The method section establishes that reasons not to decompose are constitutive of SUB entry discipline rather than exceptions to it.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 Sections 18.5–18.8 establish:
 
@@ -994,9 +994,9 @@ Sections 18.5–18.8 establish:
 - coarse sufficiency, no purchase, source insufficiency, claim irrelevance, and calibration loss as legitimate no-decomposition routes;
 - no-decomposition as a positive bounded entry decision rather than `resolution_neutral`, permanent closure, or a new Output Class;
 - operation mismatch and recursive detail appetite as reasons to withhold `DECOMPOSE`;
-- continued ownership of target granularity by Chapter 19, operation execution by Chapter 20, resolution classification by Chapter 25, and full preservation/Stop/Non-Capture integration by WP3.
+- continued ownership of target granularity by Chapter 19, operation execution by Chapter 20, resolution classification by Chapter 25, and full preservation/Stop/Non-Capture integration by the integration section.
 
-The six WP2 Pressure Duties are now executed in canonical prose:
+The six Pressure Duties assigned to the method section are now executed in canonical prose:
 
 ```text
 necessary compression
@@ -1392,7 +1392,7 @@ Chapter 18 source readiness
 
 #### Chapter 18 completion boundary
 
-The integrated WP4 audit confirms Chapter 18 as canonically complete and provisionally locked because:
+The integrated chapter audit confirms Chapter 18 as canonically complete and provisionally locked because:
 
 1. operator types remain non-decomposable;
 2. source candidates are limited to occurrences and composites;
@@ -1405,7 +1405,7 @@ The integrated WP4 audit confirms Chapter 18 as canonically complete and provisi
 9. inherited Loss, uncertainty, prior failure, Stop, and Non-Capture remain visible;
 10. target granularity, component relations, source-function effect, and operation result remain owned by Chapters 19 and 20.
 
-All eighteen Chapter-18 Pressure Duties are now represented exactly once in the canonical prose. They remain chapter-local tests and later Integrated Cases and Audit seeds. No new standalone case, YAML record, Case Index entry, schema, Smoke Record, or test artifact is created during this block-production step.
+All eighteen Chapter-18 Pressure Duties are now represented exactly once in the canonical prose. They remain chapter-local tests and not themselves Integrated Cases or Audit artifacts. No new standalone case, YAML record, Case Index entry, schema, Smoke Record, or test artifact is created within this chapter section.
 
 The integrated Chapter-18 result is:
 
@@ -1413,7 +1413,7 @@ The integrated Chapter-18 result is:
 admissible_but_provisional
 ```
 
-Chapter 18 is therefore **provisionally locked**. The class names the chapter-level methodological result under the still-open SUB Part and later corpus-wide audits. It is not the result of a `DECOMPOSE` occurrence, does not select a target granularity or source-function effect, and does not provisionally lock Part II.
+Chapter 18 is therefore **provisionally locked**. The class names only the bounded chapter-level methodological result; it does not establish Part-II lock or corpus-wide completion. It is not the result of a `DECOMPOSE` occurrence, does not select a target granularity or source-function effect, and does not provisionally lock Part II.
 
 Reopening requires a concrete conflict involving PMS Base, Structure or Contract ownership, operator-type integrity, source-reference continuity, Chapter-19/20 boundaries, the closed operation or Output-Class inventories, an assigned Pressure Duty, a Reference or Formal-Model binding, or a later integrated dependency. Preference for more detail, a different internal model, a stronger coarse label, cleaner notation, or premature operation execution is insufficient.
 
@@ -1421,7 +1421,7 @@ The controlled continuation is:
 
 ```text
 Chapter 18 provisional lock
-→ Chapter 19 Preparation Gate
+→ Chapter 19 Entry Conditions
 → Chapter 19 — granularity relation
 → Chapter 20 — DECOMPOSE procedure
 ```
@@ -1961,7 +1961,7 @@ new Frame
 
 The same rule applies to Stop and Non-Capture. A Mandatory Stop under one proposed granularity relation remains part of the record. A later Frame may support another admissible inquiry, but it does not remove the source limitation that stopped the earlier one.
 
-#### WP1 handoff
+#### Scope boundary
 
 Sections 19.1–19.4 establish:
 
@@ -1997,7 +1997,7 @@ Sections 19.1–19.4
 → Chapter 20: DECOMPOSE procedure and result
 ```
 
-The local WP1 status remains:
+The local scope status remains:
 
 ```text
 admissible_but_provisional
@@ -2365,7 +2365,7 @@ functional component
 ≠ automatically causal component
 ```
 
-#### WP2 handoff
+#### Method boundary
 
 Sections 19.5–19.7 establish:
 
@@ -2401,7 +2401,7 @@ Sections 19.5–19.7
 → Chapter 20: component/relation reconstruction and DECOMPOSE result
 ```
 
-The local WP2 status remains:
+The local method status remains:
 
 ```text
 admissible_but_provisional
@@ -2735,7 +2735,7 @@ Optional Stop is warranted where:
 
 - the current/coarser representation already carries the bounded claim;
 - the proposed distinction lacks additional praxeological purchase;
-- the target relation is unnecessary for the present work package;
+- the target relation is unnecessary for the present analytical task;
 - further partition would reduce calibration or comparability;
 - or the same expected difference can be tested without executing a finer reconstruction.
 
@@ -2883,7 +2883,7 @@ A record-local extension must state:
 - relation to required fields;
 - and that it neither replaces the schema nor adds automatic semantic authority.
 
-No schema change is required for WP3. A later model revision may promote a recurring field only if the corpus establishes a stable owner need and the closed inventories remain intact.
+No schema change is required for the integration section. A later model revision may promote a recurring field only if the corpus establishes a stable owner need and the closed inventories remain intact.
 
 #### Boolean caution and uncertainty
 
@@ -2959,7 +2959,7 @@ Chapter 20
 
 #### Chapter-19 completion boundary
 
-The integrated WP4 audit confirms Chapter 19 as canonically complete and provisionally locked because Sections 19.1–19.11 establish:
+The integrated chapter audit confirms Chapter 19 as canonically complete and provisionally locked because Sections 19.1–19.11 establish:
 
 - granularity change as distinction-set change rather than added volume;
 - multi-dimensional resolution without truth descent;
@@ -2992,7 +2992,7 @@ The integrated Chapter-19 result is:
 admissible_but_provisional
 ```
 
-Chapter 19 is therefore **provisionally locked**. The class names the chapter-level methodological result under the still-open SUB Part and later corpus-wide audits. It is not a `DECOMPOSE` result, does not establish actual components or component relations, does not select a source-function effect or Chapter-25 resolution outcome, and does not increase claim or application authority.
+Chapter 19 is therefore **provisionally locked**. The class names only the bounded chapter-level methodological result; it does not establish Part-II lock or corpus-wide completion. It is not a `DECOMPOSE` result, does not establish actual components or component relations, does not select a source-function effect or Chapter-25 resolution outcome, and does not increase claim or application authority.
 
 Reopening requires a concrete conflict involving PMS Base, Structure or Contract ownership, the separation of Frame/granularity/relative level, source-reference continuity, functional-component criteria, comparability or contradiction handling, the exact Minimal Granularity Relation, Chapter-20/25/26 ownership, a Pressure Duty, a Reference or Formal-Model binding, or a later integrated dependency. Preference for more detail, a universal micro/macro scale, cleaner notation, automatic semantic translation, or premature operation execution is insufficient.
 
@@ -3000,7 +3000,7 @@ The controlled continuation is:
 
 ```text
 Chapter 19 provisional lock
-→ Chapter 20 Preparation Gate
+→ Chapter 20 Entry Conditions
 → Chapter 20 — DECOMPOSE: Conditions, Procedure, and Preservation Requirements
 ```
 
@@ -3469,7 +3469,7 @@ The route constrains semantic precision. It prevents the question from becoming 
 
 A precise question must specify how the operation can fail to add a warranted praxis distinction.
 
-For the review case, no gain may occur if the finer interactional and procedural units are source-supported but do not alter the bounded reconstruction of objection uptake, closure, role access, temporal residue, or later reachability. This keeps `resolution_neutral` available later without preclassifying the result in Chapter 20 WP1.
+For the review case, no gain may occur if the finer interactional and procedural units are source-supported but do not alter the bounded reconstruction of objection uptake, closure, role access, temporal residue, or later reachability. This keeps `resolution_neutral` available later without preclassifying the result in Chapter 20's scope section.
 
 Stop may be required if:
 
@@ -3488,7 +3488,7 @@ For the review occurrence, the complete leading question is:
 
 The question does not assert that distributed authority asymmetry exists. It names one bounded possibility that later source and relation reconstruction may support, weaken, reject, or leave underdetermined.
 
-#### WP1 boundary
+#### Scope boundary
 
 Sections 20.1–20.4 establish operation identity, conjunctive preconditions, the source-object burden, and the question architecture. They do not yet establish:
 
@@ -3507,7 +3507,7 @@ Sections 20.1–20.4 establish operation identity, conjunctive preconditions, th
 - or the completed `DECOMPOSE` Record.
 
 ```text
-WP1 complete
+scope boundary complete
 ≠ Chapter 20 complete
 ≠ DECOMPOSE executed
 ≠ components established
@@ -4071,7 +4071,7 @@ opening internal transitions of the same declared Path
 
 This boundary is fully adjudicated later in Chapter 26. Chapter 20 preserves it procedurally.
 
-#### WP2 boundary
+#### Method boundary
 
 Sections 20.5–20.8 establish:
 
@@ -4098,7 +4098,7 @@ They do not yet select:
 - or the completed `DECOMPOSE` Record.
 
 ```text
-WP2 complete
+method boundary complete
 ≠ Chapter 20 complete
 ≠ source-function effect selected
 ≠ operation result selected
@@ -4195,7 +4195,7 @@ For review R-17, the coarser function under test is:
 
 > The review integrated the entered objection before closure.
 
-WP2 established a source-supported relational model in which:
+The method section established a source-supported relational model in which:
 
 - the objection is entered;
 - a response is issued;
@@ -4726,7 +4726,7 @@ This record is complete enough to expose the operation’s source, question, com
 
 #### Chapter 20 completion boundary
 
-The integrated WP4 audit confirms Chapter 20 as canonically complete and provisionally locked because Sections 20.1–20.13 establish the complete generic `DECOMPOSE` procedure:
+The integrated chapter audit confirms Chapter 20 as canonically complete and provisionally locked because Sections 20.1–20.13 establish the complete generic `DECOMPOSE` procedure:
 
 ```text
 source entry
@@ -4751,7 +4751,7 @@ All twenty-eight Chapter-20 Pressure Duties are operationalized exactly once in 
 admissible_but_provisional
 ```
 
-Chapter 20 is therefore **provisionally locked**. The class names the chapter-level methodological result under the still-open SUB Part and later corpus-wide audits. It does not imply that every attempted decomposition is admissible, does not elevate the review-R17 example into a general empirical finding, and does not increase claim or application authority.
+Chapter 20 is therefore **provisionally locked**. The class names only the bounded chapter-level methodological result; it does not establish Part-II lock or corpus-wide completion. It does not imply that every attempted decomposition is admissible, does not elevate the review-R17 example into a general empirical finding, and does not increase claim or application authority.
 
 ```text
 Chapter 20 provisionally locked
@@ -4768,7 +4768,7 @@ The controlled continuation is:
 
 ```text
 Chapter 20 provisional lock
-→ Chapter 21 Preparation Gate
+→ Chapter 21 Entry Conditions
 → Chapter 21 — Decomposing Operator-Typed Occurrences
 ```
 
@@ -5177,7 +5177,7 @@ rejected
 underdetermined
 ```
 
-WP1 does not select a final effect. It establishes why the Frame typing is genuinely testable. Finer evidence must be able to alter the claim; otherwise the decomposition has been constructed as an immunity device.
+The scope section does not select a final effect. It establishes why the Frame typing is genuinely testable. Finer evidence must be able to alter the claim; otherwise the decomposition has been constructed as an immunity device.
 
 ```text
 all finer evidence translated into support for Frame typing
@@ -5199,20 +5199,20 @@ Further Frame decomposition should stop when:
 
 An Optional Stop records sufficient resolution. A Mandatory Stop prevents operation drift, source overreach, person inference, or operator redefinition. Non-Capture remains available where no stable source-supported formation model can be retained; it does not restore the original Frame typing by default.
 
-#### Chapter 21 WP1 completion boundary
+#### Chapter 21 scope completion boundary
 
 Sections 21.1–21.4 establish the operator-type/occurrence boundary and operationalize the Frame family through production and maintenance conditions, formation/function separation, stable coarse function with internal variation, component substitution, counterevidence, multiple typings, and the person-inference prohibition.
 
-All eight WP1 Pressure Duties are represented exactly once. The local result remains:
+All eight Pressure Duties assigned to the scope section are represented exactly once. The local result remains:
 
 ```text
 admissible_but_provisional
 ```
 
-WP1 does not yet operationalize Attractor-, Asymmetry-, Impulse-, or Binding-typed occurrences, complete the Chapter-21 source-function analysis, select a canonical chapter-level Output Class beyond the local production status, create standalone case or Record artifacts, or provisionally lock Chapter 21.
+The scope section does not yet operationalize Attractor-, Asymmetry-, Impulse-, or Binding-typed occurrences, complete the Chapter-21 source-function analysis, select a canonical chapter-level Output Class beyond the local section result, create standalone case or Record artifacts, or provisionally lock Chapter 21.
 
 ```text
-WP1 complete
+scope boundary complete
 ≠ Chapter 21 complete
 ≠ operator-family theory complete
 ≠ occurrence typing automatically confirmed
@@ -5220,11 +5220,11 @@ WP1 complete
 ≠ SUB provisionally locked
 ```
 
-The next controlled step is:
+The corpus continues with:
 
 ```text
-Chapter 21 WP1 complete
-→ Chapter 21 WP2, §§21.5–21.9
+Chapter 21 scope boundary complete
+→ Chapter 21's method section, §§21.5–21.9
 → Attractor- and Asymmetry-typed occurrences
 ```
 
@@ -5610,7 +5610,7 @@ PROJECT_AS
 
 No operation inherits success from another. A valid R-17 decomposition does not validate a broader institutional composition. A valid composition does not establish a projected Frame-, Attractor-, or governance function. Each transformation is a new testable claim with its own Loss, Source Trace, Counterfactual Sensitivity, Stop, and Non-Capture conditions.
 
-#### WP2 source-function and output boundary
+#### Method-section source-function and output boundary
 
 Sections 21.5–21.9 establish Attractor- and Asymmetry-family burdens, but they do not select the final Chapter-21 Source-Function Effects or canonical Output Classes. Family-specific findings may later be confirmed, refined, internally differentiated, partially preserved, rejected, or left underdetermined. Their operation results and classes remain claim-segmented.
 
@@ -5624,11 +5624,11 @@ Further analysis must stop where:
 - a new macro-object is formed without `COMPOSE`;
 - a contextual function is assigned without `PROJECT_AS`.
 
-WP3 retains ownership of the Impulse and Binding families, explicit application of source-function effects across Chapter 21, Failed Operator-Occurrence Decomposition, Mandatory Stop, Non-Capture, the completion boundary, and Chapter-22 handoff.
+The integration section retains ownership of the Impulse and Binding families, explicit application of source-function effects across Chapter 21, Failed Operator-Occurrence Decomposition, Mandatory Stop, Non-Capture, the completion boundary, and Chapter-22 handoff.
 
-#### Chapter 21 WP2 completion boundary
+#### Chapter 21 method completion boundary
 
-Sections 21.5–21.9 operationalize Attractor and Asymmetry occurrence families through recurrence, friction, expectation, Non-Events, thresholds, dynamic transition forms, dimension-specific gradients, distributed coordination, offset, and macro-claim restraint. All eight WP2 Pressure Duties are represented exactly once.
+Sections 21.5–21.9 operationalize Attractor and Asymmetry occurrence families through recurrence, friction, expectation, Non-Events, thresholds, dynamic transition forms, dimension-specific gradients, distributed coordination, offset, and macro-claim restraint. All eight Pressure Duties assigned to the method section are represented exactly once.
 
 The local result remains:
 
@@ -5637,7 +5637,7 @@ admissible_but_provisional
 ```
 
 ```text
-WP2 complete
+method boundary complete
 ≠ Chapter 21 complete
 ≠ final source-function effect selected
 ≠ macro-Asymmetry composed
@@ -5646,7 +5646,7 @@ WP2 complete
 ≠ SUB provisionally locked
 ```
 
-The next controlled step is Chapter 21 WP3, §§21.10–21.12: Impulse-Typed Occurrence, Binding-Typed Occurrence, Failed Operator-Occurrence Decomposition, complete source-function/failure/Stop/Non-Capture logic, and the Chapter-22 handoff.
+The Chapter-21 integration section addresses §§21.10–21.12: Impulse-Typed Occurrence, Binding-Typed Occurrence, Failed Operator-Occurrence Decomposition, complete source-function/failure/Stop/Non-Capture logic, and the Chapter-22 handoff.
 
 <a id="21-10-impulse-typed-occurrence"></a>
 
@@ -5986,15 +5986,15 @@ local operation result
 ≠ canonical Output Class
 ```
 
-The integrated WP4 audit confirms all ten Chapter-21 completion tests, the family-comparison architecture, operator-type integrity, result-axis separation, and the person/authority boundary. The Chapter-21 result is:
+The integrated chapter audit confirms all ten Chapter-21 completion tests, the family-comparison architecture, operator-type integrity, result-axis separation, and the person/authority boundary. The Chapter-21 result is:
 
 ```text
 admissible_but_provisional
 ```
 
-Chapter 21 is therefore **provisionally locked**. The class names the chapter-level methodological result under the still-open SUB Part and later corpus-wide audits. It does not confirm every occurrence typing, make the five families exhaustive, authorize person inference, compose a new macro-object, assign a contextual target function, or increase claim or application authority.
+Chapter 21 is therefore **provisionally locked**. The class names only the bounded chapter-level methodological result; it does not establish Part-II lock or corpus-wide completion. It does not confirm every occurrence typing, make the five families exhaustive, authorize person inference, compose a new macro-object, assign a contextual target function, or increase claim or application authority.
 
-All twenty-four Chapter-21 Pressure Duties occur exactly once in the canonical prose. No standalone case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, occurrence-family enum, person type, or authority mechanism has been produced.
+All twenty-four Chapter-21 Pressure Duties occur exactly once in the canonical prose. The chapter introduces no standalone case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, occurrence-family enum, person type, or authority mechanism.
 
 ```text
 Chapter 21 provisionally locked
@@ -6012,7 +6012,7 @@ The controlled continuation is:
 
 ```text
 Chapter 21 provisional lock
-→ Chapter 22 Preparation Gate
+→ Chapter 22 Entry Conditions
 → Chapter 22 — Decomposing Composite Structures
 ```
 
@@ -6037,7 +6037,7 @@ composite decomposition
 
 No Chapter-21 family result automatically establishes a composite. Where several occurrences are selected into one new object, `COMPOSE` remains separately required. Where an origin-typed occurrence is assigned a bounded contextual function, `PROJECT_AS` remains separately required.
 
-The next controlled step is the Chapter-22 Preparation Gate for **Decomposing Composite Structures**.
+The corpus continues with Chapter 22, **Decomposing Composite Structures**.
 
 <a id="chapter-22-decomposing-composite-structures"></a>
 
@@ -6265,7 +6265,7 @@ The competing maps must declare what changes:
 - source support;
 - expected praxeological consequence.
 
-A rival map is not automatically a rival truth. It is a separately testable reconstruction. The current operation may remain provisional, partially admissible, stopped, or non-capturing depending on later audits; WP1 does not assign that result.
+A rival map is not automatically a rival truth. It is a separately testable reconstruction. The current operation may remain provisional, partially admissible, stopped, or non-capturing depending on later audits; the scope section does not assign that result.
 
 <a id="22-3-component-hierarchy"></a>
 
@@ -6468,7 +6468,7 @@ residual structure
 
 The practical meaning of dominance may change across time. Before closure, approval Asymmetry may carry the largest load. During reconsideration, access to records and deadlines may become more decisive. After expiry, repeated Non-Reopening and established routing expectations may carry the stabilizing burden. Time-sensitive weighting is not inconsistency; it is required where the source composite changes its internal load distribution while preserving the same bounded reference.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
 Sections 22.1–22.4 establish the source-entry and mapping architecture for composite decomposition:
 
@@ -6495,7 +6495,7 @@ They do not yet complete:
 - Chapter-22 provisional lock.
 
 ```text
-WP1 complete
+scope boundary complete
 ≠ Chapter 22 complete
 ≠ composite function confirmed
 ≠ final component hierarchy fixed
@@ -6509,7 +6509,7 @@ The local Chapter-22 status remains:
 admissible_but_provisional
 ```
 
-The next controlled Chapter-22 step is WP2, Sections 22.5–22.8: Modulating Profiles, Distributed Function, Redundant and Substitutable Components, and Internal Conflict.
+The next controlled Chapter-22 step is the method section, Sections 22.5–22.8: Modulating Profiles, Distributed Function, Redundant and Substitutable Components, and Internal Conflict.
 
 <a id="22-5-modulating-profiles"></a>
 
@@ -6797,7 +6797,7 @@ Persistence of the composite cannot decide which outcome applies. The same visib
 
 For R-17C, closure finality and bounded reconsideration create a structured tension. The tension may be functionally integrated if the reconsideration route is accessible, source-supported, temporally viable, and capable of returning a revised status to the same review record. It may remain residual if objections persist but cannot activate the route. It may be suppressed through Asymmetry if access or authorization is selectively controlled. Several outcomes may remain partially supported across different phases, but they must not be collapsed into one total judgment.
 
-The finer reconstruction may later confirm, refine, internally differentiate, partially preserve, reject, or leave underdetermined the bounded composite function. WP2 does not yet select the final Source-Function Effect. It prepares the conflict evidence that the full Chapter-22 result must test.
+The finer reconstruction may later confirm, refine, internally differentiate, partially preserve, reject, or leave underdetermined the bounded composite function. The method section does not yet select the final Source-Function Effect. It prepares the conflict evidence that the full Chapter-22 result must test.
 
 #### C22-OPBOUND-01 — operation-boundary control
 
@@ -6822,7 +6822,7 @@ The operation boundary also applies to profiles, distributed function, redundanc
 
 A changed Frame, granularity, component map, or operation does not erase an earlier failed claim. If the original composite identity cannot be preserved, the analyst must reduce, stop, fail, or leave the reconstruction uncaptured according to the later Chapter-22 completion tests. It may not preserve the old label solely to continue the analysis.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 Sections 22.5–22.8 establish the middle relational architecture of composite decomposition:
 
@@ -6850,7 +6850,7 @@ They do not yet complete:
 - Chapter-22 provisional lock.
 
 ```text
-WP2 complete
+method boundary complete
 ≠ Chapter 22 complete
 ≠ distributed function confirmed globally
 ≠ substitution lossless
@@ -6865,7 +6865,7 @@ The local Chapter-22 status remains:
 admissible_but_provisional
 ```
 
-The next controlled Chapter-22 step is WP3, Sections 22.9–22.11: Composite Stability, Decomposition without Fragmentation, Failed Composite Decomposition, the Composite Decomposition Record View, Completion Boundary, and Chapter-23 Handoff.
+The next controlled Chapter-22 step is the integration section, Sections 22.9–22.11: Composite Stability, Decomposition without Fragmentation, Failed Composite Decomposition, the Composite Decomposition Record View, Completion Boundary, and Chapter-23 Handoff.
 
 <a id="22-9-composite-stability"></a>
 
@@ -7177,15 +7177,15 @@ warranted source composite
 → Failure, Stop, Non-Capture, Record, and canonical Output mapping
 ```
 
-The integrated WP4 audit confirms the Chapter-22 Contract, all twenty-one Preparation-Audit controls, all twenty-four Pressure Duties, composite-source identity, inherited/new Loss separation, relational-map integrity, role and profile anti-type boundaries, operation boundaries, result-axis separation, and package consistency. The Chapter-22 result is:
+The integrated chapter audit confirms the Chapter-22 Contract, all twenty-one Entry-Audit controls, all twenty-four Pressure Duties, composite-source identity, inherited/new Loss separation, relational-map integrity, role and profile anti-type boundaries, operation boundaries, result-axis separation, and package consistency. The Chapter-22 result is:
 
 ```text
 admissible_but_provisional
 ```
 
-Chapter 22 is therefore **provisionally locked**. The class names the chapter-level methodological result under the still-open SUB Part and later corpus-wide audits. It does not capture every composite, validate every role assignment or stability claim, restore a pre-composition information state, authorize a component ontology or scoring system, complete Chapter-23 temporal theory, or increase claim, application, or governance authority.
+Chapter 22 is therefore **provisionally locked**. The class names only the bounded chapter-level methodological result; it does not establish Part-II lock or corpus-wide completion. It does not capture every composite, validate every role assignment or stability claim, restore a pre-composition information state, authorize a component ontology or scoring system, complete Chapter-23 temporal theory, or increase claim, application, or governance authority.
 
-All twenty-four Chapter-22 Pressure Duties occur exactly once in the canonical prose. No standalone case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, component-role enum, profile type, operator score, person type, or authority mechanism has been produced.
+All twenty-four Chapter-22 Pressure Duties occur exactly once in the canonical prose. The chapter introduces no standalone case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, component-role enum, profile type, operator score, person type, or authority mechanism.
 
 ```text
 Chapter 22 provisionally locked
@@ -7199,13 +7199,13 @@ Chapter 22 provisionally locked
 
 Reopening requires a concrete conflict involving PMS Base, Structure or Contract ownership, source-composite identity, composite boundary or reference continuity, composition lineage or inherited Loss, component/relation mapping, role claims, operator weighting, source-side profiles, distributed function, redundancy or substitution, internal conflict, stability, non-fragmentation, result axes, Failure/Stop/Non-Capture, a Pressure Duty, a Reference or Formal-Model binding, or a later integrated dependency. Preference for more components, stronger causal language, universal scores, a closed role/profile taxonomy, automatic function inference, person typing, or premature event/Path/RETYPE theory is insufficient.
 
-#### C22-HANDOFF-01 — controlled Chapter-23 handoff
+#### C22-AUDIT-BOUNDARY-01 — controlled Chapter-23 handoff
 
 The controlled continuation is:
 
 ```text
 Chapter 22 provisional lock
-→ Chapter 23 Preparation Gate
+→ Chapter 23 Entry Conditions
 → Chapter 23 — Event and Non-Event Decomposition
 ```
 
@@ -7384,7 +7384,7 @@ Potential Event components include:
 
 Their inclusion remains claim-bound. A preparatory document is not automatically part of the Event merely because it came first. A communication is not automatically part of completion merely because it came later. Each component must alter the warranted reconstruction of the source Event's formation, operation, completion, role structure, access, cost, alternative space, uncertainty, or Loss.
 
-A component can also pressure the coarse category negatively. If the purported decision entry merely copied an earlier binding disposition, the later entry may not be the Event at all. If the supposed vote lacked the required quorum, the claimed completion may fail. If communication was necessary to activate the decision but never occurred, the source may remain incomplete or may require later Non-Event analysis. WP1 keeps these possibilities open without completing the Non-Event architecture.
+A component can also pressure the coarse category negatively. If the purported decision entry merely copied an earlier binding disposition, the later entry may not be the Event at all. If the supposed vote lacked the required quorum, the claimed completion may fail. If communication was necessary to activate the decision but never occurred, the source may remain incomplete or may require later Non-Event analysis. The scope section keeps these possibilities open without completing the Non-Event architecture.
 
 <a id="23-2-extended-event"></a>
 
@@ -7531,7 +7531,7 @@ previously independent Events selected and related
 
 The operation boundary cannot be repaired by retaining the old label. `DECOMPOSE` preserves or revises the same reference object. `COMPOSE` selects and forms a new object. A cluster may be a valid target of either route, but the Records, selection burdens, Loss, and claims differ.
 
-An Event Cluster also remains distinct from a Path. A cluster may contain order and dependency while remaining bounded around one common transition or completion environment. A Path requires a realized sequence of configurations and transitions with broader continuation structure, branch relations, and altered action corridors. Chapter 24 owns the decomposition of Path and Trajectory objects; WP1 does not convert E-23 into one.
+An Event Cluster also remains distinct from a Path. A cluster may contain order and dependency while remaining bounded around one common transition or completion environment. A Path requires a realized sequence of configurations and transitions with broader continuation structure, branch relations, and altered action corridors. Chapter 24 owns the decomposition of Path and Trajectory objects; the scope section does not convert E-23 into one.
 
 #### C23-COUNTER-01 — coarse Event category remains revisable
 
@@ -7559,7 +7559,7 @@ one coarse Event
 
 No outcome has truth priority merely because it is finer. A single Event may remain the best reconstruction where local distinctions do not alter transition, role, threshold, completion, access, cost, alternatives, or Loss. A cluster may be required where several locally complete changes retain distinct practical effects. Rejection may be necessary where the coarse account conflated records, repeated descriptions, or administrative carriers with the Event itself.
 
-WP1 does not select a final Source-Function Effect, prior-claim disposition, or canonical Output Class. It establishes that category preservation is an auditable result dimension rather than an assumption. The later integrated result must keep the local operation result, category effect, prior coarse claim, and Output Class separate.
+The scope section does not select a final Source-Function Effect, prior-claim disposition, or canonical Output Class. It establishes that category preservation is an auditable result dimension rather than an assumption. The later integrated result must keep the local operation result, category effect, prior coarse claim, and Output Class separate.
 
 <a id="23-4-event-inflation"></a>
 
@@ -7616,7 +7616,7 @@ The Event unit must also resist instrumental bias. Different systems expose diff
 
 Where a finer distinction fails the local stop rule, the analysis should preserve the coarser unit for the current claim. This does not prove that the finer material is meaningless. It may become relevant under another Frame, claim, or source object. Under the present `DECOMPOSE` occurrence, however, it remains below the Praxeological Relevance Floor.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
 Sections 23.1–23.4 now establish:
 
@@ -7631,10 +7631,10 @@ Sections 23.1–23.4 now establish:
 - Event Inflation and a local praxeological stop rule;
 - a claim-, Frame-, source-, transition-, and reference-bound Event unit.
 
-WP1 does not yet establish the full decomposition of Non-Events, preservation of `Λ` through positive sub-events, expectation support, missing-information boundaries, delay mechanisms, repeated non-decision, internal temporal order, multiple clocks, temporal drift taxonomy, Event/Non-Event confusion, the final four-axis result, Failure, Mandatory Stop, Non-Capture, the seventeen-field temporal Record view, Chapter-24 handoff, or Chapter-23 lock.
+The scope section does not yet establish the full decomposition of Non-Events, preservation of `Λ` through positive sub-events, expectation support, missing-information boundaries, delay mechanisms, repeated non-decision, internal temporal order, multiple clocks, temporal drift taxonomy, Event/Non-Event confusion, the final four-axis result, Failure, Mandatory Stop, Non-Capture, the seventeen-field temporal Record view, Chapter-24 handoff, or Chapter-23 lock.
 
 ```text
-WP1 complete
+scope boundary complete
 ≠ Chapter 23 complete
 ≠ one Event category automatically confirmed
 ≠ Non-Event decomposition complete
@@ -7644,7 +7644,7 @@ WP1 complete
 ≠ SUB provisionally locked
 ```
 
-The Chapter-23 result therefore remains `admissible_but_provisional`. The next controlled step is WP2, §§23.5–23.8: Non-Event Decomposition, preservation of the Non-Event character, Delay Structure, and Repeated Non-Decision.
+The Chapter-23 result therefore remains `admissible_but_provisional`. The method section addresses §§23.5–23.8: Non-Event Decomposition, preservation of the Non-Event character, Delay Structure, and Repeated Non-Decision.
 
 <a id="23-5-non-event-decomposition"></a>
 
@@ -7924,7 +7924,7 @@ Candidate D:
 a broader temporal object whose continuation already requires Path classification
 ```
 
-WP2 does not select among these candidates merely because repetition is present. The decision depends on reference continuity, expectation windows, local completion conditions, relation among the repetitions, and the scope of the source claim. If each meeting carried an independent duty to decide and each window closed separately, several Non-Events may be appropriate. If all cycles remained phases of one open procedure with one final deadline, one Extended Non-Event may be more accurate. If the analyst must form a broader realized sequence with branch and continuation structure, Chapter 24 or PATH ownership becomes relevant.
+The method section does not select among these candidates merely because repetition is present. The decision depends on reference continuity, expectation windows, local completion conditions, relation among the repetitions, and the scope of the source claim. If each meeting carried an independent duty to decide and each window closed separately, several Non-Events may be appropriate. If all cycles remained phases of one open procedure with one final deadline, one Extended Non-Event may be more accurate. If the analyst must form a broader realized sequence with branch and continuation structure, Chapter 24 or PATH ownership becomes relevant.
 
 Reframing also requires care. A repeated shift in how the issue is stated may defer decision while preserving the underlying object, or it may materially replace the question and terminate the original expectation. A responsibility transfer can continue the same process, create a new decision window, or break reference continuity. These are category pressures, not automatic classifications.
 
@@ -7954,9 +7954,9 @@ The finer analysis must identify:
 
 A committee may deliberate extensively without producing the authorized vote. An office may issue guidance that lacks operative force. A chair may close discussion without resolving the admitted objection. These positive acts can be important while the binding occurrence remains absent.
 
-The binding boundary also prevents Chapter 23 from importing the full operator-occurrence analysis of Chapter 21. WP2 may identify the absence of a required `Ψ`-typed occurrence as part of the temporal source object. It does not decompose `Ψ`, type a person through Ψ, or infer a general capacity for self-binding. The claim remains relational, procedural, occurrence-specific, and source-bound.
+The binding boundary also prevents Chapter 23 from importing the full operator-occurrence analysis of Chapter 21. The method section may identify the absence of a required `Ψ`-typed occurrence as part of the temporal source object. It does not decompose `Ψ`, type a person through Ψ, or infer a general capacity for self-binding. The claim remains relational, procedural, occurrence-specific, and source-bound.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 Sections 23.5–23.8 now establish:
 
@@ -7971,10 +7971,10 @@ Sections 23.5–23.8 now establish:
 - occurrence-specific binding analysis without person typing or moral rank;
 - open classification among one continuing Non-Event, several Non-Events, Event Cluster plus higher-level Non-Event, or a broader object requiring Chapter-24/PATH classification.
 
-WP2 does not yet establish the complete internal temporal order, overlap and multiple-clock representation, temporal granularity drift result, Event/Non-Event confusion audit, final category effect, prior-claim disposition, canonical Output Class, Failure, Mandatory Stop, Non-Capture, the seventeen-field temporal Record view, Chapter-24 handoff, or Chapter-23 lock.
+The method section does not yet establish the complete internal temporal order, overlap and multiple-clock representation, temporal granularity drift result, Event/Non-Event confusion audit, final category effect, prior-claim disposition, canonical Output Class, Failure, Mandatory Stop, Non-Capture, the seventeen-field temporal Record view, Chapter-24 handoff, or Chapter-23 lock.
 
 ```text
-WP2 complete
+method boundary complete
 ≠ Chapter 23 complete
 ≠ every positive process belongs to one Non-Event
 ≠ expectation automatically warranted
@@ -7985,7 +7985,7 @@ WP2 complete
 ≠ SUB provisionally locked
 ```
 
-The Chapter-23 result remains `admissible_but_provisional`. The next controlled step is WP3, §§23.9–23.11: Internal Temporal Order, Temporal Granularity Drift, Event/Non-Event Confusion, result-axis completion, Failure, Mandatory Stop, Non-Capture, the temporal Record view, and the Chapter-24 handoff.
+The Chapter-23 result remains `admissible_but_provisional`. The integration section addresses §§23.9–23.11: Internal Temporal Order, Temporal Granularity Drift, Event/Non-Event Confusion, result-axis completion, Failure, Mandatory Stop, Non-Capture, the temporal Record view, and the Chapter-24 handoff.
 
 <a id="23-9-internal-temporal-order"></a>
 
@@ -8287,13 +8287,13 @@ The view maps into the Shared Transformation Record rather than replacing it. Co
 
 A complete Record cannot compensate for weak expectation support, missing relations, Type Integrity failure, Reference Drift, absent praxeological purchase, or traceability failure.
 
-#### C23-HANDOFF-01 — protected completion and Chapter-24 handoff
+#### C23-AUDIT-BOUNDARY-01 — protected completion and Chapter-24 handoff
 
 The controlled continuation is:
 
 ```text
 Chapter 23 provisional lock
-→ Chapter 24 Preparation Gate
+→ Chapter 24 Entry Conditions
 → Chapter 24 — Decomposing Paths and Trajectories
 ```
 
@@ -8335,15 +8335,15 @@ Sections 23.9–23.11 now establish:
 - the seventeen-field Temporal Decomposition Record View and Shared Record mapping;
 - protected handoff to Chapter 24 and later owners.
 
-The integrated WP4 audit confirms the Chapter-23 Contract, all twenty-four Preparation-Audit controls, all twenty-four Pressure Duties, Event/Non-Event source identity, boundary and expectation discipline, `Λ` preservation, missing-information and intention boundaries, internal-order and multiple-clock integrity, temporal drift control, result-axis separation, and package consistency. The Chapter-23 result is:
+The integrated chapter audit confirms the Chapter-23 Contract, all twenty-four Entry-Audit controls, all twenty-four Pressure Duties, Event/Non-Event source identity, boundary and expectation discipline, `Λ` preservation, missing-information and intention boundaries, internal-order and multiple-clock integrity, temporal drift control, result-axis separation, and package consistency. The Chapter-23 result is:
 
 ```text
 admissible_but_provisional
 ```
 
-Chapter 23 is therefore **provisionally locked**. The class names the chapter-level methodological result under the still-open SUB Part and later corpus-wide audits. It does not capture every temporal object, validate every Event boundary or expectation, convert uncertainty into chronology, establish intention or causality, complete Path/Trajectory decomposition, or increase claim, application, governance, or person-level authority.
+Chapter 23 is therefore **provisionally locked**. The class names only the bounded chapter-level methodological result; it does not establish Part-II lock or corpus-wide completion. It does not capture every temporal object, validate every Event boundary or expectation, convert uncertainty into chronology, establish intention or causality, complete Path/Trajectory decomposition, or increase claim, application, governance, or person-level authority.
 
-All twenty-four Chapter-23 Pressure Duties occur exactly once in the canonical prose. No standalone Case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, temporal-object enum, clock score, intention field interpreted as fact, person type, or authority mechanism has been produced.
+All twenty-four Chapter-23 Pressure Duties occur exactly once in the canonical prose. The chapter introduces no standalone Case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, temporal-object enum, clock score, intention field interpreted as fact, person type, or authority mechanism.
 
 ```text
 Chapter 23 provisionally locked
@@ -8610,7 +8610,7 @@ Subpaths must not replace the source Path with a bag of internal courses. Their 
 
 For example, the admission subpath may remain open while the authority subpath becomes more concentrated. The closure subpath may complete formally while reconsideration remains practically inaccessible. These differences do not automatically destroy the coarse Path. They show that its internal coherence may depend on unequal timing and partially divergent functions.
 
-If the subpaths cannot be related to one historical reference and one tested coarse function, the source object may fragment or the analysis may be constructing several independent Paths. WP1 does not decide the final category. It requires the analyst to expose the pressure rather than preserve one Path by label alone.
+If the subpaths cannot be related to one historical reference and one tested coarse function, the source object may fragment or the analysis may be constructing several independent Paths. The scope section does not decide the final category. It requires the analyst to expose the pressure rather than preserve one Path by label alone.
 
 #### C24-ORDER-01 — internal order without forced linearity
 
@@ -8686,7 +8686,7 @@ A transition cluster also cannot be established by an expanded Event list alone.
 
 #### C24-OPBOUND-01 — new Path formation and target function remain separate operations
 
-WP1 must stop where the finer reconstruction ceases to open the same source Path.
+The scope section must stop where the finer reconstruction ceases to open the same source Path.
 
 A separate `COMPOSE` claim is required where the analyst:
 
@@ -8712,9 +8712,9 @@ Path assigned a bounded contextual function
 
 Operation classification is not a stylistic choice. Each route creates a different testable claim with its own source declarations, Loss, counterpressure, and result. Retaining the R-24 label does not preserve `DECOMPOSE` after the selection or formation rule has materially changed.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
-WP1 establishes PATH-produced source entry, explicit formation lineage, a bounded decomposition reason, Same-Reference pressure, subpath versus fragment, internal subpath relations, transition clusters, intermediate configurations, and the `DECOMPOSE`/`COMPOSE`/`PROJECT_AS` boundary.
+The scope section establishes PATH-produced source entry, explicit formation lineage, a bounded decomposition reason, Same-Reference pressure, subpath versus fragment, internal subpath relations, transition clusters, intermediate configurations, and the `DECOMPOSE`/`COMPOSE`/`PROJECT_AS` boundary.
 
 It does not yet establish:
 
@@ -8734,7 +8734,7 @@ It does not yet establish:
 - Chapter-24 provisional lock.
 
 ```text
-WP1 complete
+scope boundary complete
 ≠ Chapter 24 complete
 ≠ Same-Path automatically confirmed
 ≠ subpaths automatically constitutive
@@ -8980,7 +8980,7 @@ changed local function
 ≠ source continuity lost automatically
 ```
 
-Where continuity remains underdetermined, Chapter 24 preserves the rival constructions for WP3 rather than selecting one by narrative convenience.
+Where continuity remains underdetermined, Chapter 24 preserves the rival constructions for the integration section rather than selecting one by narrative convenience.
 
 <a id="24-8-competing-continuations"></a>
 
@@ -9064,11 +9064,11 @@ The analyst must state whether the coarse direction:
 - requires qualification;
 - or becomes underdetermined.
 
-WP2 does not select the final source-function effect or Output Class. It exposes the continuation and non-linearity structure that WP3 must integrate with inherited Loss, Path-Dependence load, rival PATH construction, and the four result axes.
+The method section does not select the final source-function effect or Output Class. It exposes the continuation and non-linearity structure that The integration section must integrate with inherited Loss, Path-Dependence load, rival PATH construction, and the four result axes.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
-WP2 establishes turning-point burden, changed alternatives and loads, branch statuses, source-bounded counterfactuals, internal Frame changes, reference and functional continuity, competing continuations, unequal accessibility, and preservation of non-linearity.
+The method section establishes turning-point burden, changed alternatives and loads, branch statuses, source-bounded counterfactuals, internal Frame changes, reference and functional continuity, competing continuations, unequal accessibility, and preservation of non-linearity.
 
 It does not yet establish:
 
@@ -9083,7 +9083,7 @@ It does not yet establish:
 - Chapter-24 provisional lock.
 
 ```text
-WP2 complete
+method boundary complete
 ≠ Chapter 24 complete
 ≠ one universal turning point established
 ≠ counterfactual success proven
@@ -9459,13 +9459,13 @@ The view maps into the Shared Transformation Record plus controlled `extensions`
 
 The `admissibility_result` must preserve the four result axes and identify any separate rival `COMPOSE` record. The `loss` field retains the canonical five-part Loss structure. `inherited_compose_loss` records the source Path's prior Loss without pretending that it was generated by the current operation.
 
-#### C24-HANDOFF-01 — bounded Chapter-25 handoff
+#### C24-AUDIT-BOUNDARY-01 — bounded Chapter-25 handoff
 
 The controlled continuation is:
 
 ```text
 Chapter 24 provisional lock
-→ Chapter 25 Preparation Gate
+→ Chapter 25 Entry Conditions
 → Chapter 25 — Resolution Gain, Neutrality, Drift, and Escape
 ```
 
@@ -9500,15 +9500,15 @@ RETYPE
 
 #### Chapter 24 completion boundary
 
-The integrated WP4 audit confirms the Chapter-24 Contract, all twenty-four Preparation-Audit controls, all twenty-four Pressure Duties, PATH-source and formation-lineage integrity, Same-Path/rival-PATH separation, subpath and transition-cluster coherence, turning-point and branch source burdens, internal-Frame and continuation boundaries, inherited/current Loss separation, non-invertibility, bounded Path-Dependence load, result-axis separation, Failure, Mandatory Stop, Non-Capture, and package consistency. The Chapter-24 result is:
+The integrated chapter audit confirms the Chapter-24 Contract, all twenty-four Entry-Audit controls, all twenty-four Pressure Duties, PATH-source and formation-lineage integrity, Same-Path/rival-PATH separation, subpath and transition-cluster coherence, turning-point and branch source burdens, internal-Frame and continuation boundaries, inherited/current Loss separation, non-invertibility, bounded Path-Dependence load, result-axis separation, Failure, Mandatory Stop, Non-Capture, and package consistency. The Chapter-24 result is:
 
 ```text
 admissible_but_provisional
 ```
 
-Chapter 24 is therefore **provisionally locked**. The class names the chapter-level methodological result under the still-open SUB Part and later corpus-wide audits. It does not recover complete history, select one universally privileged periodization, establish Path Dependence in every dimension, decide counterfactual truth, predict or recommend a continuation, reject all rival PATH constructions, complete the Chapter-25 Resolution Taxonomy, or increase claim, application, governance, or person-level authority.
+Chapter 24 is therefore **provisionally locked**. The class names only the bounded chapter-level methodological result; it does not establish Part-II lock or corpus-wide completion. It does not recover complete history, select one universally privileged periodization, establish Path Dependence in every dimension, decide counterfactual truth, predict or recommend a continuation, reject all rival PATH constructions, complete the Chapter-25 Resolution Taxonomy, or increase claim, application, governance, or person-level authority.
 
-All twenty-four Chapter-24 Pressure Duties occur exactly once in canonical prose. No standalone Case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, Path/branch/periodization enum, turning-point or Path-Dependence score, probability model, prediction engine, person type, or authority mechanism has been produced.
+All twenty-four Chapter-24 Pressure Duties occur exactly once in canonical prose. The chapter introduces no standalone Case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, Path/branch/periodization enum, turning-point or Path-Dependence score, probability model, prediction engine, person type, or authority mechanism.
 
 ```text
 Chapter 24 provisionally locked
@@ -9720,7 +9720,7 @@ Resolution Neutrality
 ≠ non_capture
 ```
 
-A neutral result may justify Optional Stop because the current claim needs no further opening. It does not by itself require Mandatory Stop. Mandatory Stop belongs to cases where continuation would cross source, purchase, coherence, calibration, anti-immunization, or traceability boundaries. Those complete rules are owned by WP2 and WP3.
+A neutral result may justify Optional Stop because the current claim needs no further opening. It does not by itself require Mandatory Stop. Mandatory Stop belongs to cases where continuation would cross source, purchase, coherence, calibration, anti-immunization, or traceability boundaries. Those complete rules are owned by the method section and the integration section.
 
 Neutrality can also protect the coarse function. If finer distinctions leave the tested reconstruction unchanged, the analyst may state that the coarse account was adequate **for that bounded claim**. This is not permission to treat the coarse account as exhaustive, universally sufficient, or immune to another question.
 
@@ -9781,7 +9781,7 @@ graph density
 
 Drift also differs from honest uncertainty. An analyst may state that several relations remain unknown and stop with a bounded provisional map. Drift arises where unsupported complexity is continued, promoted, or used as if it had increased discriminative power.
 
-WP1 establishes the concept and its characteristic pressure. WP2 owns the complete Source Overreach, Calibration Loss, coarser-function, relation-support, and non-compensation tests. WP3 owns final classification, Stop, Failure, Non-Capture, and re-entry.
+The scope section establishes the concept and its characteristic pressure. The method section owns the complete Source Overreach, Calibration Loss, coarser-function, relation-support, and non-compensation tests. The integration section owns final classification, Stop, Failure, Non-Capture, and re-entry.
 
 <a id="25-4-resolution-escape"></a>
 
@@ -9882,11 +9882,11 @@ resolution result
 ≠ analytical effort
 ```
 
-Attempt D must not proceed as confirmation of the original claim. Attempt C may also require Stop if relation support and source coherence cannot be restored. The complete Stop, Failure, Non-Capture, and re-entry decisions remain deferred to WP3; WP1 establishes only the result-specific pressure and the anti-immunization boundary.
+Attempt D must not proceed as confirmation of the original claim. Attempt C may also require Stop if relation support and source coherence cannot be restored. The complete Stop, Failure, Non-Capture, and re-entry decisions remain deferred to the integration section; the scope section establishes only the result-specific pressure and the anti-immunization boundary.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
-WP1 establishes:
+The scope section establishes:
 
 - bounded comparison entry on the same tested claim;
 - Resolution Gain through changed warranted reconstruction;
@@ -9897,7 +9897,7 @@ WP1 establishes:
 - warranted revision with preserved prior-claim disposition;
 - the four-attempt R-25 anchor and mandatory Stop pressure for Escape.
 
-WP1 does not establish:
+The scope section does not establish:
 
 - the full Detail-without-Purchase test;
 - Components without Coarser Function;
@@ -9912,7 +9912,7 @@ WP1 does not establish:
 - the provisional Chapter-25 or SUB lock.
 
 ```text
-WP1 complete
+scope boundary complete
 ≠ Chapter 25 complete
 ≠ every added detail classified automatically
 ≠ neutral result means failure
@@ -9996,7 +9996,7 @@ The support test separates at least three burdens:
 
 Passing one burden does not pass the others. A record may establish that two activities occurred without establishing their order, dependence, or role in a transition. A graph may faithfully contain both nodes while the edge between them remains hypothetical.
 
-WP3 owns the final routing of unsupported refinement through claim reduction, Failure, Stop, provisional handling, or Non-Capture. WP2 establishes only that unsupported structure cannot be misclassified as supported no-change.
+The integration section owns the final routing of unsupported refinement through claim reduction, Failure, Stop, provisional handling, or Non-Capture. The method section establishes only that unsupported structure cannot be misclassified as supported no-change.
 
 <a id="25-6-components-without-coarser-function"></a>
 
@@ -10216,9 +10216,9 @@ A deep or parallel monitoring kernel could operationalize the declaration layer 
 
 Such a kernel would support the treatment of practical halting conditions for bounded PMS processes. It would not decide the universal halting problem, prove empirical truth, or authorize semantic and normative conclusions. Its output would remain a traceable process record and a bounded Stop recommendation or enforcement under declared invariants.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
-WP2 establishes:
+The method section establishes:
 
 - Detail without Purchase relative to the tested claim;
 - the bounded removal test at the Praxeological Relevance Floor;
@@ -10232,7 +10232,7 @@ WP2 establishes:
 - open and provisional thresholds under explicit revision discipline;
 - bounded monitoring-kernel support without automatic semantic or universal halting decisions.
 
-WP2 does not establish:
+The method section does not establish:
 
 - Decomposition Fatigue;
 - the complete six-family resolution classification;
@@ -10244,7 +10244,7 @@ WP2 does not establish:
 - the provisional Chapter-25 or SUB lock.
 
 ```text
-WP2 complete
+method boundary complete
 ≠ Chapter 25 complete
 ≠ supported component means supported relation
 ≠ graph completeness means coarser function preserved
@@ -10503,13 +10503,13 @@ resolution_assessment:
 
 The view maps into the Shared Transformation Record plus controlled `extensions`. It creates no parallel schema, automatic classifier, complexity score, purchase ratio, fatigue score, or universal stopping oracle. The Formal Model may require that the fields are present, values are drawn from controlled inventories where applicable, mappings are complete, and reasons are recorded. It may not decide substantive PraxisPurchase, source adequacy, semantic relation support, calibration quality, or the correct Stop and re-entry judgment.
 
-#### C25-HANDOFF-01 — Chapter 26 receives only unresolved operation-boundary questions, not a mixed operation
+#### C25-AUDIT-BOUNDARY-01 — Chapter 26 receives only unresolved operation-boundary questions, not a mixed operation
 
 The controlled continuation is:
 
 ```text
 Chapter 25 provisional lock
-→ Chapter 26 Preparation Gate
+→ Chapter 26 Entry Conditions
 → Chapter 26 — The Boundary between SUB and RETYPE
 ```
 
@@ -10543,15 +10543,15 @@ Chapter 27 retains complete SUB Limits. Chapter 28 retains integrated cases, Loc
 
 #### Chapter 25 completion boundary
 
-The integrated WP4 audit confirms the Chapter-25 Contract, all twenty-four Preparation-Audit controls, all twenty-four Pressure Duties, coarse/finer comparison integrity, Gain/Neutrality/Drift/Escape separation, purchase and coarser-function tests, component/relation/claim support separation, Source Overreach and Calibration Loss boundaries, anti-immunization, Decomposition Fatigue, six-family classification, four result axes, Failure, Mandatory Stop, Non-Capture, re-entry, the nineteen-field Record view, Chapter-26 ownership, and package consistency. The Chapter-25 result is:
+The integrated chapter audit confirms the Chapter-25 Contract, all twenty-four Entry-Audit controls, all twenty-four Pressure Duties, coarse/finer comparison integrity, Gain/Neutrality/Drift/Escape separation, purchase and coarser-function tests, component/relation/claim support separation, Source Overreach and Calibration Loss boundaries, anti-immunization, Decomposition Fatigue, six-family classification, four result axes, Failure, Mandatory Stop, Non-Capture, re-entry, the nineteen-field Record view, Chapter-26 ownership, and package consistency. The Chapter-25 result is:
 
 ```text
 admissible_but_provisional
 ```
 
-Chapter 25 is therefore **provisionally locked**. The class names the chapter-level methodological result under the still-open SUB Part and later corpus-wide audits. It does not decide universal halting, guarantee termination of an arbitrary process, automatically classify semantic purchase or source adequacy, turn correct detail into Gain, treat Neutrality as universal sufficiency, convert graph or formal complexity into warrant, erase a failed claim through finer resolution, automate Stop or re-entry, complete the SUB/RETYPE boundary, or increase claim, application, governance, or person-level authority.
+Chapter 25 is therefore **provisionally locked**. The class names only the bounded chapter-level methodological result; it does not establish Part-II lock or corpus-wide completion. It does not decide universal halting, guarantee termination of an arbitrary process, automatically classify semantic purchase or source adequacy, turn correct detail into Gain, treat Neutrality as universal sufficiency, convert graph or formal complexity into warrant, erase a failed claim through finer resolution, automate Stop or re-entry, complete the SUB/RETYPE boundary, or increase claim, application, governance, or person-level authority.
 
-All twenty-four Chapter-25 Pressure Duties occur exactly once in canonical prose. No standalone Case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, resolution enum, purchase/calibration/fatigue score, universal-halting decider, runtime kernel, graph application, Reader implementation, person type, or authority mechanism has been produced.
+All twenty-four Chapter-25 Pressure Duties occur exactly once in canonical prose. The chapter introduces no standalone Case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, resolution enum, purchase/calibration/fatigue score, universal-halting decider, runtime kernel, graph application, Reader implementation, person type, or authority mechanism.
 
 ```text
 Chapter 25 provisionally locked
@@ -10870,7 +10870,7 @@ A compact comparison is:
 
 The table is a decision aid, not an automatic classifier. Ambiguous prose may need analyst judgment, separate claim segmentation, or `non_capture`. A case that genuinely contains both operations must later be represented as an ordered chain with separate occurrences rather than one mixed Record.
 
-The WP1 boundary therefore preserves four possible readings:
+The scope boundary therefore preserves four possible readings:
 
 ```text
 internal constitution claim
@@ -10886,10 +10886,10 @@ both claims present
 → dual-operation pressure; separation required
 ```
 
-WP1 establishes the operation-entry and primary distinction. It does not yet decide subtle trajectory or Attractor cases, fully classify recontextualization, execute a dual-operation chain, map invalid collapse, select final result axes or Output Classes, complete Failure/Stop/Non-Capture, instantiate the nineteen-field boundary view, hand Chapter 27 its limit questions, or lock Chapter 26 or SUB.
+The scope section establishes the operation-entry and primary distinction. It does not yet decide subtle trajectory or Attractor cases, fully classify recontextualization, execute a dual-operation chain, map invalid collapse, select final result axes or Output Classes, complete Failure/Stop/Non-Capture, instantiate the nineteen-field boundary view, hand Chapter 27 its limit questions, or lock Chapter 26 or SUB.
 
 ```text
-WP1 complete
+scope boundary complete
 ≠ Chapter 26 complete
 ≠ target function established
 ≠ recontextualization fully classified
@@ -11158,10 +11158,10 @@ A later Frame may expose a prior counterexample, revise the source function, or 
 
 For the Reader and 3D graph application, rotation, filtering, layer selection, temporal scrubbing, or switching between source and audit views is ordinarily representational recontextualization. An operation begins only when the interaction is captured as a declared claim with the relevant source, granularity, context, function, support, Loss, and failure burden.
 
-WP2 therefore establishes the trajectory and Attractor comparisons, the two-direction misclassification guard, and the positive recontextualization boundary. It does not yet complete the decision procedure, execute or validate a dual-operation chain, define separate-record routing in full, adjudicate invalid collapse, select final result axes or Output Classes, complete Failure/Mandatory Stop/Non-Capture, instantiate the nineteen-field Record view, hand Chapter 27 its complete limit questions, or lock Chapter 26 or SUB.
+The method section therefore establishes the trajectory and Attractor comparisons, the two-direction misclassification guard, and the positive recontextualization boundary. It does not yet complete the decision procedure, execute or validate a dual-operation chain, define separate-record routing in full, adjudicate invalid collapse, select final result axes or Output Classes, complete Failure/Mandatory Stop/Non-Capture, instantiate the nineteen-field Record view, hand Chapter 27 its complete limit questions, or lock Chapter 26 or SUB.
 
 ```text
-WP2 complete
+method boundary complete
 ≠ Chapter 26 complete
 ≠ target function automatically established
 ≠ changed Frame is PROJECT_AS
@@ -11420,13 +11420,13 @@ operation_boundary_assessment:
 
 The view contains exactly nineteen fields and maps into the Shared Transformation Record plus controlled `extensions`. It creates no parallel schema, operation score, automatic classifier, target-function catalogue, origin-type enum, or authority route.
 
-#### C26-HANDOFF-01 — Chapter 27 receives bounded SUB-limit questions only
+#### C26-AUDIT-BOUNDARY-01 — Chapter 27 receives bounded SUB-limit questions only
 
 The controlled continuation is:
 
 ```text
 Chapter 26 provisional lock
-→ Chapter 27 Preparation Gate
+→ Chapter 27 Entry Conditions
 → Chapter 27 — SUB Boundary Conditions
 ```
 
@@ -11445,15 +11445,15 @@ Chapter 27 does not inherit unresolved target-function claims. Those claims requ
 
 #### Chapter 26 completion boundary
 
-The integrated WP4 audit confirms the Chapter-26 Contract, all twenty-four Preparation-Audit controls, all twenty-four Pressure Duties, origin-type preservation, source-function/target-function separation, internal-constitution/contextual-function distinction, granularity/target-context separation, changed-Frame and recontextualization boundaries, Trajectory and Attractor counterpressure, subtle and reverse misclassification guards, target-context and function support, dual-operation occurrence identity, separate Records/Loss/results, chain order, invalid-collapse routing, result-axis separation, Failure, Mandatory Stop, Non-Capture, the nineteen-field Record view, and package consistency. The Chapter-26 result is:
+The integrated chapter audit confirms the Chapter-26 Contract, all twenty-four Entry-Audit controls, all twenty-four Pressure Duties, origin-type preservation, source-function/target-function separation, internal-constitution/contextual-function distinction, granularity/target-context separation, changed-Frame and recontextualization boundaries, Trajectory and Attractor counterpressure, subtle and reverse misclassification guards, target-context and function support, dual-operation occurrence identity, separate Records/Loss/results, chain order, invalid-collapse routing, result-axis separation, Failure, Mandatory Stop, Non-Capture, the nineteen-field Record view, and package consistency. The Chapter-26 result is:
 
 ```text
 admissible_but_provisional
 ```
 
-Chapter 26 is therefore **provisionally locked**. The class names the chapter-level methodological result under the still-open SUB Part and later corpus-wide audits. It does not automatically classify ambiguous prose, prove a contextual target function, convert recontextualization into an operation, permit shared Records or Loss for two operations, create a fourth operation, replace origin type, complete RETYPE, decide Chapter-27 limits, lock SUB, or increase claim, application, governance, or person-level authority.
+Chapter 26 is therefore **provisionally locked**. The class names only the bounded chapter-level methodological result; it does not establish Part-II lock or corpus-wide completion. It does not automatically classify ambiguous prose, prove a contextual target function, convert recontextualization into an operation, permit shared Records or Loss for two operations, create a fourth operation, replace origin type, complete RETYPE, decide Chapter-27 limits, lock SUB, or increase claim, application, governance, or person-level authority.
 
-All twenty-four Chapter-26 Pressure Duties occur exactly once in canonical prose. No standalone Case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, target-function or origin-type enum, operation score, semantic classifier, graph application, Reader implementation, person type, or authority mechanism has been produced.
+All twenty-four Chapter-26 Pressure Duties occur exactly once in canonical prose. The chapter introduces no standalone Case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, target-function or origin-type enum, operation score, semantic classifier, graph application, Reader implementation, person type, or authority mechanism.
 
 ```text
 Chapter 26 provisionally locked
@@ -11608,7 +11608,7 @@ interactive inspection
 ≠ changed claim
 ```
 
-A positive Optional Stop may follow when the coarser reconstruction already carries the tested function and further opening only repeats neutrality. The complete Stop classification remains Chapter 27 WP3. At WP1, the requirement is narrower: no-purchase must be recorded as such rather than rhetorically converted into Gain, depth, or superior truth.
+A positive Optional Stop may follow when the coarser reconstruction already carries the tested function and further opening only repeats neutrality. The complete Stop classification remains Chapter 27's integration section. At the scope section, the requirement is narrower: no-purchase must be recorded as such rather than rhetorically converted into Gain, depth, or superior truth.
 
 Resolution without Purchase also protects the coarser map from unnecessary displacement. The coarser reconstruction may remain preferable where it preserves the relevant function with less Loss, clearer comparison, lower source burden, or better communicability. This preference is local and claim-bound; it does not immunize the coarser claim against a future supported difference.
 
@@ -11697,7 +11697,7 @@ component B supported
 relation A → B supported
 ```
 
-The relevant relation may be sequential, partially ordered, overlapping, substitutive, enabling, blocking, maintaining, conflicting, or underdetermined. A visually convenient edge, temporal adjacency, common label, or shared repository location is not enough. Full Source-Ceiling and support-status treatment remains WP2, but WP1 fixes the non-substitution: parts cannot compensate for missing relations, and formal graph completeness cannot compensate for absent source warrant.
+The relevant relation may be sequential, partially ordered, overlapping, substitutive, enabling, blocking, maintaining, conflicting, or underdetermined. A visually convenient edge, temporal adjacency, common label, or shared repository location is not enough. Full Source-Ceiling and support-status treatment remains the method section, but The scope section fixes the non-substitution: parts cannot compensate for missing relations, and formal graph completeness cannot compensate for absent source warrant.
 
 #### C27-COARSEPRESSURE-01 — coarser-function pressure remains visible from entry through result
 
@@ -11720,14 +11720,14 @@ Fragmentation may therefore lead to different later outcomes:
 - `non_capture` where rival relation maps remain equally supported;
 - Mandatory Stop where further relation claims would exceed source support or require invented structure.
 
-The complete routing belongs to WP3. WP1 establishes the boundary logic: additional distinctions remain admissible only while they carry a praxis-relevant difference and continue to form a source-traceable reconstruction rather than a denser but disconnected inventory.
+The complete routing belongs to the integration section. The scope section establishes the boundary logic: additional distinctions remain admissible only while they carry a praxis-relevant difference and continue to form a source-traceable reconstruction rather than a denser but disconnected inventory.
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
-WP1 establishes the source-bound entry, Lower SUB Boundary, Resolution without Purchase, Upper SUB Boundary, source-reference requirement, component/relation separation, Fragmentation without Reconstruction, and continuous coarser-function pressure. It does not yet classify the complete Source Ceiling, execute component sensitivity counterfactuals, decide type preservation and revision, establish no privilege of fine resolution in full, select final Stop/Claim-Reduction/Failure/Non-Capture outcomes, instantiate the twenty-field Record view, produce Chapter-28 cases, or lock Chapter 27 or SUB.
+The scope section establishes the source-bound entry, Lower SUB Boundary, Resolution without Purchase, Upper SUB Boundary, source-reference requirement, component/relation separation, Fragmentation without Reconstruction, and continuous coarser-function pressure. It does not yet classify the complete Source Ceiling, execute component sensitivity counterfactuals, decide type preservation and revision, establish no privilege of fine resolution in full, select final Stop/Claim-Reduction/Failure/Non-Capture outcomes, instantiate the twenty-field Record view, produce Chapter-28 cases, or lock Chapter 27 or SUB.
 
 ```text
-WP1 complete
+scope boundary complete
 ≠ Chapter 27 complete
 ≠ supported detail always has purchase
 ≠ component presence proves relation
@@ -11738,7 +11738,7 @@ WP1 complete
 ≠ SUB provisionally locked
 ```
 
-The local WP1 result remains:
+The local scope result remains:
 
 ```text
 admissible_but_provisional
@@ -11959,12 +11959,12 @@ For example, an occurrence entered as one Trajectory may decompose into several 
 
 Type revision is a new testable claim. It must preserve the prior claim disposition and Loss. A change of granularity does not erase that the original typing failed or remained underdetermined.
 
-WP2 therefore closes the middle support architecture of Chapter 27: the Source Ceiling bounds what can be claimed; the Counterfactual Component Test estimates local component load; Coarser-Function Traceability returns finer findings to the tested function; and Type Preservation keeps type levels intact while permitting explicit source-type revision. WP3 now completes the local boundary routing through no privilege of fine resolution, Optional and Mandatory Stop, Claim Reduction, Non-Capture, the conjunctive SUB Admissibility Test, separated result axes, anti-escape re-entry, the twenty-field Record view, and the controlled Chapter-28 handoff.
+The method section therefore closes the middle support architecture of Chapter 27: the Source Ceiling bounds what can be claimed; the Counterfactual Component Test estimates local component load; Coarser-Function Traceability returns finer findings to the tested function; and Type Preservation keeps type levels intact while permitting explicit source-type revision. The integration section now completes the local boundary routing through no privilege of fine resolution, Optional and Mandatory Stop, Claim Reduction, Non-Capture, the conjunctive SUB Admissibility Test, separated result axes, anti-escape re-entry, the twenty-field Record view, and the controlled Chapter-28 handoff.
 
-#### WP2 completion boundary
+#### Method completion boundary
 
 ```text
-WP2 complete
+method boundary complete
 ≠ Chapter 27 complete
 ≠ Source Ceiling is a universal evidence score
 ≠ component sensitivity proves universal causality
@@ -11976,7 +11976,7 @@ WP2 complete
 ≠ SUB provisionally locked
 ```
 
-The local WP2 result remains:
+The local method result remains:
 
 ```text
 admissible_but_provisional
@@ -12191,13 +12191,13 @@ sub_boundary_assessment:
 
 The twenty fields do not create a parallel schema, purchase score, support score, sensitivity score, component ontology, automatic Source-Ceiling detector, or automatic Output-Class mapper. The Formal Model may verify presence, closed inventories, field shape, exact counts, and prohibited inferences. It may not determine actual components, relations, constitutiveness, source sufficiency, correct granularity, semantic adequacy, person properties, legitimacy, or authority.
 
-#### C27-HANDOFF-01 — Chapter 28 receives tested boundary findings without inheriting an unearned result
+#### C27-AUDIT-BOUNDARY-01 — Chapter 28 receives tested boundary findings without inheriting an unearned result
 
 The controlled continuation is:
 
 ```text
 Chapter 27 provisional lock
-→ Chapter 28 Preparation Gate
+→ Chapter 28 Entry Conditions
 → Chapter 28 — SUB Cases, Local Audit, and Part Output
 ```
 
@@ -12217,15 +12217,15 @@ Chapter 28 owns the positive, negative, confusion, Stop, and Non-Capture cases; 
 
 #### Chapter 27 completion boundary
 
-The integrated WP4 audit confirms the Chapter-27 Contract, all twenty-four Preparation-Audit controls, all twenty-four Pressure Duties, the non-symmetric Lower and Upper SUB Boundaries, supported Neutrality without PraxisPurchase, Source Ceiling, independent Component and Relation Support, Source Reference, Coarser-Function Traceability, bounded Component Counterfactuals, local Sensitivity, Type Preservation and Revision, No Privilege of Fine Resolution, Optional and Mandatory Stop, Claim Reduction, Failure, Non-Capture, anti-immunization across granularity change, materially bounded re-entry, four result axes, the twenty-field Record view, protected Chapter-28/LIMITS ownership, and package consistency. The Chapter-27 result is:
+The integrated chapter audit confirms the Chapter-27 Contract, all twenty-four Entry-Audit controls, all twenty-four Pressure Duties, the non-symmetric Lower and Upper SUB Boundaries, supported Neutrality without PraxisPurchase, Source Ceiling, independent Component and Relation Support, Source Reference, Coarser-Function Traceability, bounded Component Counterfactuals, local Sensitivity, Type Preservation and Revision, No Privilege of Fine Resolution, Optional and Mandatory Stop, Claim Reduction, Failure, Non-Capture, anti-immunization across granularity change, materially bounded re-entry, four result axes, the twenty-field Record view, protected Chapter-28/LIMITS ownership, and package consistency. The Chapter-27 result is:
 
 ```text
 admissible_but_provisional
 ```
 
-Chapter 27 is therefore **provisionally locked**. The class names the chapter-level methodological result under the still-open SUB Part and later corpus-wide audits. It does not establish that every source boundary is empirically decidable, that fine resolution is preferable, that Stop proves no finer structure exists, that Source Ceiling entails Non-Capture, that Claim Reduction preserves a stronger failed claim, that type integrity immunizes initial typing, that re-entry erases prior Failure or Stop, that Chapter-28 cases or Local Audit have been completed, that SUB is locked, or that any person, legitimacy, application, governance, or authority judgment follows.
+Chapter 27 is therefore **provisionally locked**. The class names only the bounded chapter-level methodological result; it does not establish Part-II lock or corpus-wide completion. It does not establish that every source boundary is empirically decidable, that fine resolution is preferable, that Stop proves no finer structure exists, that Source Ceiling entails Non-Capture, that Claim Reduction preserves a stronger failed claim, that type integrity immunizes initial typing, that re-entry erases prior Failure or Stop, that Chapter-28 cases or Local Audit have been completed, that SUB is locked, or that any person, legitimacy, application, governance, or authority judgment follows.
 
-All twenty-four Chapter-27 Pressure Duties occur exactly once in canonical prose. No standalone Case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, Source-Ceiling enum, Component ontology, Sensitivity/Purchase/Support score, automatic boundary or Output-Class classifier, graph application, Reader implementation, person type, recommendation, sanction, or authority mechanism has been produced.
+All twenty-four Chapter-27 Pressure Duties occur exactly once in canonical prose. The chapter introduces no standalone Case, Transformation Record, Smoke Record, appendix expansion, schema artifact, new operation, Rule, Output Class, audit stage, Source-Ceiling enum, Component ontology, Sensitivity/Purchase/Support score, automatic boundary or Output-Class classifier, graph application, Reader implementation, person type, recommendation, sanction, or authority mechanism.
 
 ```text
 Chapter 27 provisionally locked
@@ -12358,7 +12358,7 @@ The result refines the structured Non-Event and maps to `admissible_with_bounded
 
 #### C28-TRAJECTORY-01 — one warranted Trajectory is opened into subpaths and relations without creating a new PATH
 
-[Admissible Trajectory Decomposition case](../03_cases/Case_Index.md) is the WP1 lock-critical artifact. Its source is one previously warranted review-governance Trajectory. `DECOMPOSE` opens it into an intake subpath, review cluster, formal closure, residual obligation, and later reopening subpath.
+[Admissible Trajectory Decomposition case](../03_cases/Case_Index.md) is the chapter lock-critical artifact. Its source is one previously warranted review-governance Trajectory. `DECOMPOSE` opens it into an intake subpath, review cluster, formal closure, residual obligation, and later reopening subpath.
 
 The load-bearing relation is not mere chronology. Review culminates in closure; closure leaves a declared obligation unresolved; continuing binding provides the source-traceable connection to reopening. Replacing the residual obligation with a non-binding recommendation preserves formal closure but weakens the continuing-binding relation. The Trajectory remains identifiable, while its finer source-function claim changes.
 
@@ -12376,13 +12376,13 @@ Removing access restriction changes participation but not residual binding. Remo
 
 The earlier total authority-concentration claim remains superseded without erasure. The retained bounded dimensions map to `admissible_with_bounded_claim`. No causal monopoly, legitimacy judgment, person attribution, or authority inheritance is produced.
 
-<a id="chapter-28-wp1-completion-boundary"></a>
+<a id="chapter-28-scope-completion-boundary"></a>
 
-#### WP1 completion boundary
+#### Scope completion boundary
 
-WP1 establishes the canonical case architecture, the four-layer artifact contract, six positive case sections, six linked Markdown/YAML/audit/mapping sets, the lock-critical admissible Trajectory artifact, and synchronized Case Index entries. All six YAML records execute `DECOMPOSE`, include components and internal relations, preserve or explicitly revise source function and prior claim disposition, record `resolution_gain`, contain complete five-part Loss fields, declare alternatives and Stop conditions, select exactly one canonical Output Class, and prohibit authority inheritance.
+The scope section establishes the canonical case architecture, the four-layer artifact contract, six positive case sections, six linked Markdown/YAML/audit/mapping sets, the lock-critical admissible Trajectory artifact, and synchronized Case Index entries. All six YAML records execute `DECOMPOSE`, include components and internal relations, preserve or explicitly revise source function and prior claim disposition, record `resolution_gain`, contain complete five-part Loss fields, declare alternatives and Stop conditions, select exactly one canonical Output Class, and prohibit authority inheritance.
 
-WP1 does not yet instantiate the six countercases, the first two confusion cases, the remaining confusion cases, the integrated twenty-four-question SUB Local Audit, Chapter-28 closing statement, Chapter-28 lock, or Part-II lock. These remain owned by WP2, WP3, and WP4.
+The scope section does not yet instantiate the six countercases, the first two confusion cases, the remaining confusion cases, the integrated twenty-four-question SUB Local Audit, Chapter-28 closing statement, Chapter-28 lock, or Part-II lock. These remain owned by the method section, the integration section, and the chapter audit.
 
 The current chapter result remains:
 
@@ -12391,7 +12391,7 @@ admissible_but_provisional
 ```
 
 ```text
-WP1 complete
+scope boundary complete
 ≠ all Chapter-28 cases produced
 ≠ positive cases validate DECOMPOSE generally
 ≠ Chapter 28 complete
@@ -12490,7 +12490,7 @@ shared source
 ≠ shared Record, Loss, or result
 ```
 
-The artifact is lock-critical, but final lock-critical closure remains dependent on the WP3 chain and integrated Local-Audit checks.
+The artifact is lock-critical, but final lock-critical closure remains dependent on the integration chain and integrated Local-Audit checks.
 
 <a id="28-15-sub-or-new-path"></a>
 
@@ -12502,16 +12502,16 @@ The artifact is lock-critical, but final lock-critical closure remains dependent
 
 The source subpath remains a `DECOMPOSE` finding. The independent sequence is not absorbed as another component merely because it appears in the finer packet. It requires a separate `COMPOSE` claim to test whether a rival PATH object exists. The undifferentiated whole maps to `partially_admissible`, with same-source findings retained and the candidate PATH segment separated.
 
-<a id="chapter-28-wp2-completion-boundary"></a>
+<a id="chapter-28-method-completion-boundary"></a>
 
-#### WP2 completion boundary
+#### Method completion boundary
 
-WP2 instantiates six countercases and the first two confusion cases as eight linked Markdown/YAML/audit/mapping sets. The Overfine, Operator-Error, and Fragmentation artifacts satisfy their required complete-artifact burdens. SUB/RETYPE and SUB/new-PATH claims are segmented without mixed operation Records. Stop, Claim Reduction, Failure, partial admissibility, source-function effects, resolution results, prior dispositions, Loss, alternatives, and governance remain separate.
+The method section instantiates six countercases and the first two confusion cases as eight linked Markdown/YAML/audit/mapping sets. The Overfine, Operator-Error, and Fragmentation artifacts satisfy their required complete-artifact burdens. SUB/RETYPE and SUB/new-PATH claims are segmented without mixed operation Records. Stop, Claim Reduction, Failure, partial admissibility, source-function effects, resolution results, prior dispositions, Loss, alternatives, and governance remain separate.
 
-WP2 does not yet instantiate the Analogy and Modulator/New-Operator confusion cases, execute the integrated twenty-four-question SUB Local Audit, close the complete output map, decide Chapter-28 lock readiness, or lock Part II. The SUB/RETYPE lock-critical artifact remains open to the WP3 chain-separation and Local-Audit completion test.
+The method section does not yet instantiate the Analogy and Modulator/New-Operator confusion cases, execute the integrated twenty-four-question SUB Local Audit, close the complete output map, decide Chapter-28 lock readiness, or lock Part II. The SUB/RETYPE lock-critical artifact remains open to the integration chain-separation and Local-Audit completion test.
 
 ```text
-WP2 complete
+method boundary complete
 ≠ all confusion cases complete
 ≠ integrated Local Audit complete
 ≠ Chapter 28 locked
@@ -12645,7 +12645,7 @@ No operation link inherits success, Failure, Stop, Non-Capture, or authority fro
 
 #### C28-LOCK-01 — the integrated audit provisionally locks Chapter 28 and Part II without extending authority
 
-All sixteen specified Chapter-28 targets are represented in canonical prose and as standalone Markdown/YAML/audit/mapping sets. The three lock-critical sets are complete; Operator Decomposition Error and Fragmentation without Source Function satisfy their additional complete-artifact burdens; all indexed Transformation Records validate; each actual Record selects exactly one canonical Output Class; the twenty-four-question Local Audit passes; all twenty-four Chapter-28 Pressure Duties occur exactly once; and indexes, paths, hashes, References, Formal Model, package, CRC, and byte-roundtrip controls agree.
+All sixteen specified Chapter-28 targets are represented in canonical prose and as standalone Markdown/YAML/audit/mapping sets. The three lock-critical sets are complete; Operator Decomposition Error and Fragmentation without Source Function satisfy their additional complete-artifact burdens; all indexed Transformation Records validate; each actual Record selects exactly one canonical Output Class; the twenty-four-question Local Audit passes; all twenty-four Chapter-28 Pressure Duties occur exactly once; and indexes, paths, References, Formal Model, and repository-integrity controls agree.
 
 The Chapter-28 and Part-II result is:
 
@@ -12653,7 +12653,7 @@ The Chapter-28 and Part-II result is:
 admissible_but_provisional
 ```
 
-The class records methodological completion under the still-open RETYPE, LIMITS, integrated-case, corpus, model-finalization, derivative, Reader, Graph, and release audits. It is not a thirtieth case Record, a universal validation of `DECOMPOSE`, empirical confirmation of any synthetic case, or an increase in application authority.
+The class records bounded methodological completion; it does not certify RETYPE, LIMITS, integrated-case, corpus, model, derivative, Reader, Graph, or release completion. It is not a thirtieth case Record, a universal validation of `DECOMPOSE`, empirical confirmation of any synthetic case, or an increase in application authority.
 
 Chapter 28 is therefore **provisionally locked**, and Part II — SUB is **provisionally locked** through Chapters 18–28.
 
@@ -12689,7 +12689,7 @@ failed_transformation:              2
 
 #### Chapter 28 and Part II — SUB completion boundary
 
-The integrated WP4 audit confirms the Chapter-28 Contract, the Part-II Block Contract, all twenty-four Preparation-Gate controls, all twenty-four Chapter-28 Pressure Duties, all sixteen standalone Chapter-28 Artifact Sets, all twenty-nine indexed case Records, the twenty-four-question SUB Local Audit, the closed operation/Rule/Output-Class/audit-stage inventories, the Chapters-18–28 cross-chapter dependency chain, protected Chapter-29/RETYPE and LIMITS ownership, Reference and Formal-Model synchronization, case-index paths and hashes, relative links, fingerprints, package integrity, ZIP CRC, and byte-identical roundtrip.
+The integrated chapter audit confirms the Chapter-28 Contract, the Part-II Block Contract, all twenty-four Entry-Condition controls, all twenty-four Chapter-28 Pressure Duties, all sixteen standalone Chapter-28 Artifact Sets, all twenty-nine indexed case Records, the twenty-four-question SUB Local Audit, the closed operation/Rule/Output-Class/audit-stage inventories, the Chapters-18–28 cross-chapter dependency chain, protected Chapter-29/RETYPE and LIMITS ownership, Reference and Formal-Model synchronization, case-index paths and hashes, relative-link and repository-integrity checks.
 
 ```text
 Chapter 28 provisionally locked
@@ -12713,14 +12713,14 @@ Part II — SUB provisionally locked
 ≠ application authority increased
 ```
 
-Reopening requires a concrete conflict involving PMS Base, Structure or Contract ownership, source-object eligibility, operator-type integrity, granularity, component or relation support, Source Reference, Coarser Function, Source Ceiling, resolution classification, operation boundary, Loss, alternatives, Stop/Reduction/Failure/Non-Capture routing, anti-immunization, case artifact integrity, schema or mapping validity, Reference or Formal-Model binding, package integrity, or a later RETYPE/LIMITS/integrated-audit dependency. Preference for more detail, more cases, a denser graph, a stronger class, fewer visible losses, one automatic score, or a more decisive narrative is insufficient.
+Reopening requires a concrete conflict involving PMS Base, Structure or Contract ownership, source-object eligibility, operator-type integrity, granularity, component or relation support, Source Reference, Coarser Function, Source Ceiling, resolution classification, operation boundary, Loss, alternatives, Stop/Reduction/Failure/Non-Capture routing, anti-immunization, case artifact integrity, schema or mapping validity, Reference or Formal-Model binding, repository integrity, or a later RETYPE/LIMITS/integrated-audit dependency. Preference for more detail, more cases, a denser graph, a stronger class, fewer visible losses, one automatic score, or a more decisive narrative is insufficient.
 
 The controlled handoff is:
 
 ```text
 Part II — SUB provisional lock
 → Part III — RETYPE
-→ Chapter 29 Preparation Gate
+→ Chapter 29 Entry Conditions
 → Functional Projection without Origin-Type Replacement
 ```
 

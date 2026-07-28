@@ -1,8 +1,8 @@
 # PMS-STRATA — Block Contracts
 
-**Status:** Gate 2 complete, accepted block contract set  
+**Status:** accepted and active block contract set  
 **Contract scope:** seven canonical corpus blocks  
-**Governing authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, and the completed Gate 1 minified kernel  
+**Governing authority basis:** `PMS.yaml`, `00_source/PMS-STRATA_Structure.md`, and the Canonical Minified Kernel  
 **Status and navigation input:** `README.md`  
 **Target:** control of block purpose, dependency, scope, overreach, test burden, model relation, appendix relation, and completion
 
@@ -10,11 +10,11 @@
 
 ## 1. Contract Function
 
-These contracts do not summarize the future manuscript. They constrain its production.
+These contracts do not summarize the corpus. They constrain block structure, content, dependencies, and completion.
 
-A block is not complete because its assigned chapters contain substantial prose. A block is complete only when it has produced its required distinctions and outputs, respected its dependencies and claim boundary, exposed its characteristic failure modes, and passed its completion gate.
+A block is not complete merely because its assigned chapters contain substantial prose. It is complete only when it contains its required distinctions and outputs, respects its dependencies and claim boundary, exposes its characteristic failure modes, and passes its completion gate.
 
-The contracts follow the governing production rule:
+The contracts follow the governing corpus rule:
 
 ```text
 Each concept is defined once,
@@ -46,20 +46,20 @@ PMS Base
 PMS-STRATA Structure
 → supplies the architectural blueprint and chapter allocation
 
-Gate 1 minified kernel
+Canonical Minified Kernel
 → supplies the compact canonical constraints
 
 Block Contracts
-→ constrain block production
+→ constrain block structure and completion
 
 Chapter Contracts
-→ constrain individual chapter production
+→ constrain individual chapter structure and completion
 
 Full blocks
-→ become the canonical corpus
+→ constitute the canonical corpus
 
 README.md
-→ reports package status, navigation, and production handoffs without independent theoretical authority
+→ reports repository status and navigation without independent theoretical authority
 ```
 
 No downstream artifact may silently revise an upstream authority. A conflict must be surfaced and resolved explicitly.
@@ -128,7 +128,7 @@ Foundations
 → Front Matter finalization
 ```
 
-This order does not imply theoretical rank. It specifies production dependency.
+This order does not imply theoretical rank. It specifies structural and maintenance dependency.
 
 ### 2.6 Contract status values
 
@@ -174,14 +174,14 @@ block:
   purpose:
     primary_function: Orient the reader to the origin, status, vocabulary, reading order, and bounded ambition of PMS-STRATA without replacing the corpus argument.
     corpus_role: Provide entry conditions and navigation after the substantive corpus has been stabilized.
-    production_timing: Draft provisional scaffolding early if useful, but finalize only after Conclusion, reference artifacts, and integrated audit are stable.
+    lifecycle_timing: Front Matter remains aligned to the audited Conclusion, reference artifacts, and integrated corpus.
     required_alignment:
     - README.md
     - PMS_STRATA_Claim_Boundary_Minified.md
     - PMS_STRATA_Minified_Canonical.md
     - Chapters 0, 6, 41, 53, and 57
   governing_problem:
-    question: How can the reader be prepared to use STRATA correctly without front matter becoming an independent theoretical layer, a promotional claim, or a premature summary of unfinished results?
+    question: How can the reader be prepared to use STRATA correctly without front matter becoming an independent theoretical layer, a promotional claim, or a premature summary of unaudited or unstable claims?
     central_tension: orientation without pre-emption; accessibility without simplification into false certainty; status clarity without authority inflation
   required_outputs:
     preface:
@@ -195,7 +195,7 @@ block:
     - no new base operators or dependencies
     - no increase in claim type or application authority
     - no ontology of layers or universal scale hierarchy
-    - add-on lenses only as optional later stress vectors
+    - add-on lenses only as optional stress vectors
     - formal and technical implementation is not truth proof
     terminology_and_notation_note:
     - canonical English operation names
@@ -401,7 +401,7 @@ block:
     - at least one example where finer resolution adds no warranted difference
     - at least one example where a higher-level label lacks source trace
     - at least one example where a useful analogy is not a valid projection
-    case_migration: Extended cases move to Chapters 17, 28, 40, the case repository, or Appendices H and I.
+    case_carriers: Extended cases are carried by Chapters 17, 28, 40, the case repository, and Appendices H and I.
   model_dependencies:
     must_define_for_model:
     - object categories
@@ -429,7 +429,7 @@ block:
     - Appendix_G_Admissibility_Band_Tests.md
     - Appendix_H_Valid_and_Invalid_Transformation_Patterns.md
     - Appendix_I_Boundary_and_Confusion_Cases.md
-    migration_rule: Definitions remain in Foundations; expanded schemas, tables, enumerations, and test catalogues migrate to appendices.
+    operationalization_rule: Definitions remain in Foundations; expanded schemas, tables, enumerations, and test catalogues are carried by appendices.
   completion_gate:
     must_pass:
     - All downstream core terms have one stable canonical definition.
@@ -569,7 +569,7 @@ block:
     - Appendix_J_Operator_Weighting_and_Trajectory_Stress_Tests.md
     - Appendix_M_Case_and_Countercase_Index.md
     - Appendix_N_Integrated_STRATA_Audit_Template.md
-    migration_rule: Extended case detail, template fields, and stress-test catalogues move to appendices; the canonical temporal claims remain in PATH.
+    operationalization_rule: Extended case detail, template fields, and stress-test catalogues are carried by appendices; the canonical temporal claims remain in PATH.
   completion_gate:
     must_pass:
     - Chronology, sequence, path, trajectory, and path dependence are operationally distinct.
@@ -720,7 +720,7 @@ block:
     - Appendix_L_Non_Operator_Remainders_and_Decomposition_Limits.md
     - Appendix_M_Case_and_Countercase_Index.md
     - Appendix_N_Integrated_STRATA_Audit_Template.md
-    migration_rule: Expanded component taxonomies, decomposition templates, and non-operator remainder catalogues migrate to appendices; the source-preservation logic remains in SUB.
+    operationalization_rule: Expanded component taxonomies, decomposition templates, and non-operator remainder catalogues are carried by appendices; the source-preservation logic remains in SUB.
   completion_gate:
     must_pass:
     - Only occurrences and composites are decomposed; base operator types remain untouched.
@@ -878,7 +878,7 @@ block:
     - Appendix_K_Cross_Domain_Projection_and_Analogy_Stress_Tests.md
     - Appendix_M_Case_and_Countercase_Index.md
     - Appendix_N_Integrated_STRATA_Audit_Template.md
-    migration_rule: Extended projection families, cross-domain mappings, and stress catalogues migrate to appendices; the canonical origin-type and target-function discipline remains in RETYPE.
+    operationalization_rule: Extended projection families, cross-domain mappings, and stress catalogues are carried by appendices; the canonical origin-type and target-function discipline remains in RETYPE.
   completion_gate:
     must_pass:
     - Every PROJECT_AS record preserves origin type and source reference.
@@ -954,7 +954,7 @@ block:
     - PATH Lock
     - SUB Lock
     - RETYPE Lock
-    - completed Gate 1 minified kernel
+    - Canonical Minified Kernel
     - canonical Shared Transformation Record and output mapping
     evidence_received:
     - operation-specific failure modes
@@ -1026,7 +1026,7 @@ block:
     - Appendix_C_Shared_Transformation_Record_Schema.md
     - Appendix_L_Non_Operator_Remainders_and_Decomposition_Limits.md
     - Appendix_M_Case_and_Countercase_Index.md
-    migration_rule: The main block states and explains the governing limits; exhaustive test tables, templates, pattern catalogues, and audit forms migrate to appendices.
+    operationalization_rule: The main block states and explains the governing limits; exhaustive test tables, templates, pattern catalogues, and audit forms are carried by appendices.
   completion_gate:
     must_pass:
     - LIMITS applies to every operation and operation chain rather than appearing as an optional afterthought.
@@ -1221,7 +1221,7 @@ A later block may add operational detail or a new test burden. It may not silent
 
 ---
 
-## 13. Gate 2 Completion Test
+## 13. Contract Set Completion Test
 
 The Block Contract set is complete only if all answers are **yes**:
 
@@ -1232,30 +1232,22 @@ The Block Contract set is complete only if all answers are **yes**:
 5. Can PATH, SUB, and RETYPE be distinguished by object identity and transformation result?
 6. Is LIMITS cross-cutting rather than an optional afterthought?
 7. Are Stop, Failure, Claim Reduction, and Non-Capture preserved in every relevant block?
-8. Are operation-specific cases and model dependencies assigned before full chapter drafting?
-9. Are appendix migrations explicit enough to prevent the main blocks from becoming schema dumps?
+8. Are operation-specific cases and model dependencies assigned and traceable in the active corpus?
+9. Are appendix operationalizations explicit enough to prevent the main blocks from becoming schema dumps?
 10. Does Front Matter remain downstream of the completed corpus?
 11. Does Conclusion integrate without adding theory?
 12. Is every block prevented from borrowing authority from scale, detail, formality, or position?
 13. Are add-on lenses limited to optional stress tests rather than architecture anchors?
 14. Is the distinction between theoretical prose and machine-readable model preserved?
-15. Can Chapter Contracts now be derived without reopening the four-part architecture?
+15. Do the Chapter Contracts remain derivable without reopening the four-part architecture?
 
-**Gate 2 result:** once these contracts are accepted, the next artifact is `05_minified/Chapter_Contracts.md`, produced in controlled chapter-range batches.
+**Contract-set status:** complete. `05_minified/Chapter_Contracts.md` provides the corresponding chapter-level controls without reopening the block architecture.
 
 ---
 
-## 14. Current Downstream Status Note
+## 14. Current Contract Role
 
-The Gate 2 handoff to `Chapter_Contracts.md` was historical and has been completed. The canonical Blocks, final bounded RETYPE/LIMITS/Conclusion locks, corpus-wide integration, Front Matter, repository hygiene, and case YAML/Markdown pairing now exist.
+The Block Contracts remain binding control artifacts for the seven canonical blocks. They constrain block purpose, dependency, overreach, test burden, model relation, appendix relation, completion, and lock conditions.
 
-```text
-current controlled phase:
-Appendices A–N
-
-next appendix:
-Appendix A — Core Definitions
-```
-
-This note updates production status only. It does not alter any Block Contract, concept owner, dependency, lock condition, or authority boundary.
+The canonical Blocks, Front Matter, integrated cases, appendices, Reference Kernel, and formal carriers are active downstream realizations. None may silently revise a Block Contract, concept owner, dependency, lock condition, or authority boundary.
 

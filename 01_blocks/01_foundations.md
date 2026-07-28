@@ -921,7 +921,7 @@ The object category is therefore counterfactually sensitive but not counterfactu
 
 A **transition as object** is a relation-bearing analytical object connecting identifiable configurations through relevant order, realized changes, non-events, and changed praxis conditions. It is more than the difference between two descriptions. It is eligible as a distinct object only when the relation between the configurations is itself supported and analytically relevant.
 
-Chapter 1 defines this object-category eligibility. Chapter 3 owns the stronger temporal definition of `transition`, its relation to state and configuration, and its place in the burden-increasing chain from configuration to sequence, path, and trajectory. Chapter 9 later supplies a PATH validity procedure. WP2 therefore states only the minimum object burden.
+Chapter 1 defines this object-category eligibility. Chapter 3 owns the stronger temporal definition of `transition`, its relation to state and configuration, and its place in the burden-increasing chain from configuration to sequence, path, and trajectory. Chapter 9 later supplies a PATH validity procedure. The method section therefore states only the minimum object burden.
 
 A transition-as-object claim requires at least five elements.
 
@@ -1049,7 +1049,7 @@ If the same-reference relation or temporal order cannot be established, the tran
 
 #### Event, non-event, configuration, and transition
 
-WP2 fixes the following object-category relations:
+The method section fixes the following object-category relations:
 
 | Category | Minimum object claim | Does not establish |
 | --- | --- | --- |
@@ -1081,15 +1081,15 @@ Sections 1.5–1.8 establish the following claims:
 - endpoint difference alone cannot establish a transition;
 - none of these categories automatically establishes sequence, path, trajectory, sedimentation, irreversibility, path dependence, or causal completeness.
 
-The chapter remains incomplete. WP3 must define derived analytical objects, minimal object identity across transformation, nominal-sameness failure, historical-reference pressure, and the remaining Stop or Non-Capture-capable boundary. Chapter 2 still owns analytical coordinates. Chapter 3 still owns the full temporal object chain. Chapters 4–7 still own operation signatures, continuity architecture, admissibility, and records.
+The preceding object-category boundary is extended by the integration section, which defines derived analytical objects, minimal object identity across transformation, nominal-sameness failure, historical-reference pressure, and the remaining Stop- or Non-Capture-capable boundary. Chapter 2 still owns analytical coordinates. Chapter 3 still owns the full temporal object chain. Chapters 4–7 still own operation signatures, continuity architecture, admissibility, and records.
 
-The WP2 result is therefore:
+The method result is therefore:
 
 ```text
 admissible_but_provisional
 ```
 
-The provisionality attaches to the incomplete Chapter 1 production state, not to the four definitions just established. No Chapter 1 provisional lock is claimed.
+The provisionality attaches to the incomplete Chapter 1 corpus status, not to the four definitions just established. No Chapter 1 provisional lock is claimed.
 
 ### 1.9 Derived Analytical Objects and Functions
 
@@ -1667,9 +1667,9 @@ It has not yet defined:
 - empirical truth or causal identity;
 - a universal identity score.
 
-Those remain owned by Chapters 4–7. The object model supplies their input categories and prevents them from adding new objects by formal convenience. Chapter 3 retains the full temporal relations among configuration, event, non-event, transition, sequence, path, and trajectory; WP3 does not define or validate that stronger temporal chain.
+Those remain owned by Chapters 4–7. The object model supplies their input categories and prevents them from adding new objects by formal convenience. Chapter 3 retains the full temporal relations among configuration, event, non-event, transition, sequence, path, and trajectory; the integration section does not define or validate that stronger temporal chain.
 
-#### WP3 completion boundary
+#### Integrated chapter boundary
 
 Sections 1.9–1.11 establish that:
 
@@ -1684,15 +1684,15 @@ Sections 1.9–1.11 establish that:
 - unresolved succession may require Mandatory Stop for the stronger identity claim and Non-Capture for a forced binary classification;
 - all Chapter 1 object categories are now internally integrated without defining the stronger temporal, operational, continuity, admissibility, or record architectures of Chapters 2–7.
 
-The canonical Chapter 1 prose is now substantively complete across Sections 1.1–1.11, but the chapter is not yet provisionally locked. WP4 must synchronize the complete Reference Kernel and Formal Model handoff, assign or produce the required case coverage, run the integrated Chapter 1 completion test, validate the repository package, and determine whether provisional lock is warranted.
+Sections 1.1–1.11 provide the complete canonical Chapter-1 method. This local boundary does not itself establish the chapter lock. The chapter audit synchronizes the complete Reference Kernel and Formal Model handoff, verifies the required case coverage, runs the integrated Chapter-1 completion test, checks repository integrity, and determines the provisional-lock result.
 
-The WP3 result is:
+The integrated result is:
 
 ```text
 admissible_but_provisional
 ```
 
-The provisionality attaches to the pending integrated synchronization and Chapter 1 lock, not to permission to weaken the identity, non-primitive, Stop, or Non-Capture boundaries established here. No Chapter 1 provisional lock is claimed by WP3.
+The provisionality attaches to the separate integrated synchronization and Chapter-1 lock assessment, not to permission to weaken the identity, non-primitive, Stop, or Non-Capture boundaries established here. No Chapter 1 provisional lock is claimed by the integration section.
 
 <a id="chapter-2-frame-granularity-and-relative-level"></a>
 
@@ -1700,7 +1700,7 @@ The provisionality attaches to the pending integrated synchronization and Chapte
 
 Every STRATA transformation requires more than an identifiable source object. It also requires a declaration of **where and how that object is being reconstructed**. A conversation, configuration, non-event structure, transition, or composite may remain the same reference object while the analysis changes what counts as relevant, how finely distinctions are drawn, or where the object is positioned relative to other objects. Those changes are analytically consequential, but they are not interchangeable.
 
-Chapter 2 establishes the coordinate architecture needed to keep them separate. Its first work package defines three primary coordinates:
+Chapter 2 establishes the coordinate architecture needed to keep them separate. Sections 2.1–2.5 define three primary coordinates:
 
 ```text
 frame
@@ -1952,9 +1952,9 @@ Within the project-review decision-coordination frame, the baseline granularity 
 
 This is a **decision-sequence granularity**. It reconstructs the conversation through five functionally relevant units rather than every utterance or every linguistic feature.
 
-A later WP2 or WP3 comparison may hold the frame stable while moving to a finer **utterance-and-repair granularity**, adding interruption placement, response delay, repair initiation, addressee change, and the exact relation between approval language and closure. The finer account would require a declared praxeological reason. It would not inherit truth merely because it contains more distinctions.
+A later changed-granularity comparison may hold the frame stable while moving to a finer **utterance-and-repair granularity**, adding interruption placement, response delay, repair initiation, addressee change, and the exact relation between approval language and closure. The finer account would require a declared praxeological reason. It would not inherit truth merely because it contains more distinctions.
 
-At the WP1 stage, the baseline establishes the coordinate without yet performing the full changed-granularity comparison owned by Section 2.9.
+At this coordinate-entry boundary, the baseline establishes the coordinate without yet performing the full changed-granularity comparison owned by Section 2.9.
 
 Granularity must also remain separate from the canonical output class `resolution_neutral`. Granularity is an analytical coordinate. `resolution_neutral` is a result that may later be assigned when a valid finer-resolution test adds distinctions but does not change the warranted praxis reconstruction or claim. The coordinate does not predict the outcome.
 
@@ -2150,7 +2150,7 @@ The shorthand carries four restrictions.
 
 **Non-inheritance.** A label assigned under one relation cannot be carried into another transformation, case, or domain without a new declaration. A new relation creates a new testable level claim.
 
-The shorthand can also fail to capture a relation adequately. Some structures are distributed, cyclic, overlapping, heterarchical, or differently ordered along several dimensions. Forcing them into one universal micro–meso–macro ladder may distort the very relations under study. Chapter 2 later preserves Non-Capture for such forced classifications. WP1 establishes only that the shorthand is optional and defeasible.
+The shorthand can also fail to capture a relation adequately. Some structures are distributed, cyclic, overlapping, heterarchical, or differently ordered along several dimensions. Forcing them into one universal micro–meso–macro ladder may distort the very relations under study. Chapter 2 later preserves Non-Capture for such forced classifications. The scope section establishes only that the shorthand is optional and defeasible.
 
 The correct order is therefore:
 
@@ -2168,7 +2168,7 @@ assign micro / meso / macro labels
 → infer relation, truth, or authority afterward
 ```
 
-#### WP1 coordinate boundary and handoff
+#### Coordinate-scope boundary
 
 Sections 2.1–2.5 establish the core coordinate architecture:
 
@@ -2183,9 +2183,9 @@ Sections 2.1–2.5 establish the core coordinate architecture:
 - coordinate differences do not identify a STRATA operation;
 - undeclared hierarchy claims require Stop rather than invented verticality.
 
-The baseline conversation case now has a declared reference object, analytical frame, granularity, and relative position. It does not yet have the complete Chapter 2 coordinate declaration. WP2 must define temporal scope, source scope, and claim scope. WP3 must then test stable-frame granularity change, changed-frame stability, changed relative level, multiple valid granularities, granularity conflict, and the minimal non-schema declaration. WP4 must synchronize the complete chapter, assess the bounded Formal Model handoff, run the integrated completion test, and decide the provisional Chapter 2 lock.
+The baseline conversation case now has a declared reference object, analytical frame, granularity, and relative position. It does not yet have the complete Chapter 2 coordinate declaration. The method section defines temporal scope, source scope, and claim scope. The integration section then tests stable-frame granularity change, changed-frame stability, changed relative level, multiple valid granularities, granularity conflict, and the minimal non-schema declaration. The chapter audit synchronizes the complete chapter, assesses the bounded Formal Model relation, runs the integrated completion test, and decides the provisional Chapter 2 lock.
 
-The WP1 result is:
+The scope result is:
 
 ```text
 admissible_but_provisional
@@ -2581,7 +2581,7 @@ A valid scope declaration therefore has a double function:
 
 It does not grant permission to move across those boundaries. Every such movement produces a new testable claim, while the earlier result remains recorded.
 
-#### WP2 scope boundary and handoff
+#### Method-scope boundary
 
 Sections 2.6–2.8 establish the scope architecture required by every later coordinate declaration and transformation record:
 
@@ -2595,9 +2595,9 @@ Sections 2.6–2.8 establish the scope architecture required by every later coor
 - a relatively wider or finer analytical position creates no authority inheritance;
 - claim reduction and Mandatory Stop remain available without erasing the valid local reconstruction.
 
-The baseline conversation now has canonical definitions for all seven conceptual coordinate slots required by Chapter 2: reference object, frame, granularity, relative level, temporal scope, source scope, and claim scope. WP3 must test coordinate changes, multiple valid granularities, apparent and real contradiction, and the minimal explicitly non-schema declaration. WP4 must run integrated synchronization, case assignment, formal-model handoff, completion testing, and the provisional Chapter 2 lock decision.
+The baseline conversation now has canonical definitions for all seven conceptual coordinate slots required by Chapter 2: reference object, frame, granularity, relative level, temporal scope, source scope, and claim scope. The integration section tests coordinate changes, multiple valid granularities, apparent and real contradiction, and the minimal explicitly non-schema declaration. The chapter audit runs integrated synchronization, case assignment, formal-model handoff, completion testing, and the provisional Chapter 2 lock decision.
 
-The WP2 result is:
+The method result is:
 
 ```text
 admissible_but_provisional
@@ -3069,7 +3069,7 @@ These variants satisfy the Chapter Contract requirement to display stable frame 
 
 A minimal declaration fails when it uses absolute level language, omits the comparator, hides simultaneous coordinate changes, treats finer resolution as truth gain, or converts field completion into support. Where the declaration cannot state one universal level because the object occupies several locally valid positions, the analysis should retain the explicit relations. It should not force a universal classification merely to complete a template.
 
-#### WP3 boundary and handoff
+#### Integration boundary
 
 Sections 2.9–2.14 establish the comparison architecture required before Chapter 2 can be integrated:
 
@@ -3084,15 +3084,15 @@ Sections 2.9–2.14 establish the comparison architecture required before Chapte
 - the Minimal Level Declaration is conceptual, prose-bound, and mapped to existing nested record paths;
 - every material coordinate change creates a new testable claim while prior failure remains recorded.
 
-WP4 must now run the integrated redundancy guard, Reference and Formal Model synchronization review, case assignment, Completion Test, and provisional Chapter 2 lock decision. It may correct genuine inconsistencies, but it may not turn coordinate plurality into ontology, operation identity, or authority.
+The chapter audit runs the integrated redundancy guard, Reference and Formal Model synchronization review, case assignment, Completion Test, and provisional Chapter 2 lock decision. It may correct genuine inconsistencies, but it may not turn coordinate plurality into ontology, operation identity, or authority.
 
-The WP3 result is:
+The integrated result is:
 
 ```text
 admissible_but_provisional
 ```
 
-The provisionality attaches to pending integrated Chapter 2 synchronization and lock. It does not weaken the coordinate-change, comparability, non-neutralization, Minimal Declaration, Stop, or Non-Capture boundaries established here.
+The provisionality attaches to the separate integrated Chapter-2 synchronization and lock assessment. It does not weaken the coordinate-change, comparability, non-neutralization, Minimal Declaration, Stop, or Non-Capture boundaries established here.
 
 
 <a id="chapter-3-configuration-event-non-event-transition-path-and-trajectory"></a>
@@ -3525,7 +3525,7 @@ procedural cost shifts to those seeking reconsideration;
 the open commitment becomes residue rather than completed review
 ```
 
-This non-event may become central to a later path or trajectory, but WP1 does not yet make that stronger claim. It establishes only the temporal non-event object and its possible relevance.
+This non-event may become central to a later path or trajectory, but The scope section does not yet make that stronger claim. It establishes only the temporal non-event object and its possible relevance.
 
 Positive sub-events do not eliminate the non-event. Reminders were sent, the commitment was acknowledged, and scheduling messages occurred. Those are realized events inside the interval. The governing expected occurrence—reconsideration—still failed to realize.
 
@@ -3577,7 +3577,7 @@ This Stop is positive. It preserves the difference between evidentiary uncertain
 
 #### Non-event accumulation boundary
 
-Several non-events may later accumulate into historical load, but repetition alone is not yet sedimentation. WP3 will define sedimentation, and PATH will operationalize cumulative non-event roles. WP1 preserves only the possibility:
+Several non-events may later accumulate into historical load, but repetition alone is not yet sedimentation. The integration section defines sedimentation, and PATH operationalizes cumulative non-event roles. The scope section preserves only the possibility:
 
 ```text
 non-event may carry cumulative load
@@ -3734,9 +3734,9 @@ state difference
 
 #### Transition boundary and handoff
 
-WP1 establishes only the transition object burden. It does not yet establish a sequence, path, or trajectory. Several transitions can be ordered without forming a path, and one transition can be represented under several valid granularities without identifying an operation.
+The scope section establishes only the transition object burden. It does not yet establish a sequence, path, or trajectory. Several transitions can be ordered without forming a path, and one transition can be represented under several valid granularities without identifying an operation.
 
-The WP1 burden chain is therefore:
+The scope burden chain is therefore:
 
 ```text
 configuration
@@ -3749,9 +3749,9 @@ transition
 → supported relation between configurations through changed praxis conditions
 ```
 
-The next work package must add the stronger burdens for sequence, path, and trajectory. It may not weaken the distinctions established here.
+Sections 3.6–3.8 add the stronger burdens for sequence, path, and trajectory without weakening the distinctions established here.
 
-#### WP1 result
+#### Scope result
 
 Sections 3.1–3.5 establish:
 
@@ -3765,13 +3765,13 @@ Sections 3.1–3.5 establish:
 - event and transition as non-confusable;
 - local claim reduction and Mandatory Stop without invented temporal certainty.
 
-The WP1 result is:
+The scope result is:
 
 ```text
 admissible_but_provisional
 ```
 
-The provisionality attaches to pending Sections 3.6–3.13 and the integrated Chapter 3 lock. It does not weaken the temporal object boundaries established in this work package.
+The provisionality reflects that this local result does not include Sections 3.6–3.13 or establish the integrated Chapter-3 lock. It does not weaken the temporal object boundaries established in Sections 3.1–3.5.
 
 ### 3.6 Sequence
 
@@ -3927,7 +3927,7 @@ warranted sequence
 → path candidate
 ```
 
-A path may contain events and non-events, but it is not a list of them. Events and non-events matter insofar as they contribute to transitions, block or defer continuations, alter the selected chain, or leave open residue. A path may also identify branch points, rejected continuations, deferred continuations, and supported unavailable alternatives. Their mere conceivability is insufficient; WP3 will specify the stronger alternative burden.
+A path may contain events and non-events, but it is not a list of them. Events and non-events matter insofar as they contribute to transitions, block or defer continuations, alter the selected chain, or leave open residue. A path may also identify branch points, rejected continuations, deferred continuations, and supported unavailable alternatives. Their mere conceivability is insufficient; the integration section specifies the stronger alternative burden.
 
 ```text
 sequence
@@ -3968,7 +3968,7 @@ aborted continuation
 ≠ merely conceivable branch
 ```
 
-The distinction matters because each status changes the path claim differently. A blocked branch may reveal constraint; a deferred branch may preserve later accessibility; an aborted branch may leave sunk cost or residue. Chapter 13 will provide the full branch and alternative discipline. WP2 only requires that a path not invent branch status from silence.
+The distinction matters because each status changes the path claim differently. A blocked branch may reveal constraint; a deferred branch may preserve later accessibility; an aborted branch may leave sunk cost or residue. Chapter 13 will provide the full branch and alternative discipline. The present method requires that a path not invent branch status from silence.
 
 #### Selection, compression, and loss
 
@@ -4127,7 +4127,7 @@ trajectory
 ≠ path dependence automatically
 ```
 
-WP3 will define sedimentation and path dependence in their own right. WP2 uses only the minimum trajectory burden needed to distinguish a trajectory from a path: earlier path structure must remain traceably relevant to later meaning or continuation.
+The integration section defines sedimentation and path dependence in their own right. The method section uses only the minimum trajectory burden needed to distinguish a trajectory from a path: earlier path structure must remain traceably relevant to later meaning or continuation.
 
 #### Sedimented historical load at the trajectory threshold
 
@@ -4276,9 +4276,9 @@ several trajectory candidates
 ≠ one unrestricted master trajectory
 ```
 
-Local co-validity requires that each candidate disclose its frame, selection, support, loss, and rival relation. Under-determination must remain visible. WP3 will provide the stronger property tests and Non-Capture route where the available sources do not warrant one decisive trajectory or path-dependence claim.
+Local co-validity requires that each candidate disclose its frame, selection, support, loss, and rival relation. Under-determination must remain visible. The integration section provides the stronger property tests and Non-Capture route where the available sources do not warrant one decisive trajectory or path-dependence claim.
 
-#### WP2 boundary and handoff
+#### Method boundary
 
 Sections 3.6–3.8 establish the burden-increasing distinction:
 
@@ -4314,17 +4314,17 @@ trajectory
 ≠ path dependence automatically
 ```
 
-WP2 does not yet define path dependence, sedimentation as a full historical-property claim, frame-bound irreversibility, supported unrealized alternatives, or the Minimal Temporal Object Chain. Those remain WP3 responsibilities.
+The method section does not yet define path dependence, sedimentation as a full historical-property claim, frame-bound irreversibility, supported unrealized alternatives, or the Minimal Temporal Object Chain. Those remain owned by the integration section.
 
-WP2 also does not duplicate the full `COMPOSE` procedure, PATH branch taxonomy, operation selection, continuity architecture, general admissibility judgment, or Shared Transformation Record.
+The method section also does not duplicate the full `COMPOSE` procedure, PATH branch taxonomy, operation selection, continuity architecture, general admissibility judgment, or Shared Transformation Record.
 
-The WP2 result is:
+The method result is:
 
 ```text
 admissible_but_provisional
 ```
 
-The provisionality attaches to pending Sections 3.9–3.13 and the integrated Chapter 3 lock. It does not weaken the sequence, path, or trajectory distinctions established here.
+The provisionality reflects that this local result does not include Sections 3.9–3.13 or establish the integrated Chapter-3 lock. It does not weaken the sequence, path, or trajectory distinctions established here.
 
 
 ### 3.9 Path Dependence
@@ -5024,7 +5024,7 @@ new transformation
 = new testable claim
 ```
 
-#### WP3 boundary and handoff
+#### Integration boundary
 
 Sections 3.9–3.13 establish:
 
@@ -5035,7 +5035,7 @@ Sections 3.9–3.13 establish:
 - the complete Minimal Temporal Object Chain and downgrade ladder;
 - Mandatory Stop and Non-Capture without protection of weak claims.
 
-WP3 does not:
+The integration section does not:
 
 - operationalize PATH Chapters 9–13;
 - define the full branch taxonomy;
@@ -5046,13 +5046,13 @@ WP3 does not:
 - infer causality, alternative availability, path dependence, teleology, or irreversibility from timestamps or labels;
 - create a new PMS primitive, fourth STRATA operation, or new Output Class.
 
-The WP3 result is:
+The integrated result is:
 
 ```text
 admissible_but_provisional
 ```
 
-The provisionality now attaches only to the integrated Chapter 3 synchronization, completion test, formal handoff, case assignment, and provisional lock decision in WP4.
+The provisionality now attaches only to the integrated Chapter 3 synchronization, completion test, formal handoff, case assignment, and provisional lock decision in the chapter audit.
 
 #### Chapter 3 integrated completion boundary
 
@@ -5679,7 +5679,7 @@ Projection begins only when the origin-typed source object is claimed to perform
 
 Detailed `PROJECT_AS` procedure remains owned by Chapter 30.
 
-#### WP1 core-signature boundary and handoff
+#### Core-signature scope boundary
 
 Sections 4.1–4.4 establish:
 
@@ -5690,9 +5690,9 @@ Sections 4.1–4.4 establish:
 - common-source-family positive and negative examples;
 - the prohibition on decomposing operator types or replacing origin type.
 
-At the WP1 checkpoint, Sections 4.1–4.4 did not yet define direction, relative-level tendencies, or the full operation-chain architecture. Sections 4.5–4.7 now supply those duties without revising the three core signatures.
+At the scope boundary, Sections 4.1–4.4 did not yet define direction, relative-level tendencies, or the full operation-chain architecture. Sections 4.5–4.7 now supply those duties without revising the three core signatures.
 
-The following remain outside WP1 and WP2:
+The following remain outside the scope section and the method section:
 
 - non-invertibility;
 - the integrated operation-confusion analysis;
@@ -5701,7 +5701,7 @@ The following remain outside WP1 and WP2:
 - the Shared Transformation Record;
 - the full continuity or Admissibility Band architecture.
 
-The WP1 result is:
+The scope result is:
 
 ```text
 admissible_but_provisional
@@ -6155,9 +6155,9 @@ Before the chain can be evaluated, the analyst must separate:
 2. the contextual function claim;
 3. the handoff between them.
 
-Refusal to separate the links requires `mandatory_stop`. The full `C4-STOP-01` and unresolved-identity `C4-NC-01` confusion cases remain reserved for WP3, where operation confusion and the Minimal Operation Declaration are integrated.
+Refusal to separate the links requires `mandatory_stop`. The full `C4-STOP-01` and unresolved-identity `C4-NC-01` confusion cases remain reserved for the integration section, where operation confusion and the Minimal Operation Declaration are integrated.
 
-#### WP2 direction-and-chain boundary and handoff
+#### Direction-and-chain method boundary
 
 Sections 4.5–4.7 establish:
 
@@ -6171,16 +6171,16 @@ Sections 4.5–4.7 establish:
 - all required chain-family patterns;
 - preservation of earlier admissible results when a later link fails.
 
-At the WP2 checkpoint, Sections 4.5–4.7 did not yet define the three canonical non-invertibility statements, the integrated confusion matrix, or the complete Minimal Operation Declaration. Sections 4.8–4.10 now supply those duties without revising the earlier operation identities or chain rules.
+At the method boundary, Sections 4.5–4.7 did not yet define the three canonical non-invertibility statements, the integrated confusion matrix, or the complete Minimal Operation Declaration. Sections 4.8–4.10 now supply those duties without revising the earlier operation identities or chain rules.
 
-The following remain outside WP1–WP3:
+The following remain outside the scope, method, and integration sections:
 
 - the complete Shared Transformation Record;
 - detailed operation procedures;
 - the full continuity and Admissibility Band architectures;
 - integrated synchronization, formal-model handoff, case assignment, completion testing, and the Chapter 4 provisional-lock decision.
 
-The historical WP2 result remains:
+The historical method result remains:
 
 ```text
 admissible_but_provisional
@@ -6651,7 +6651,7 @@ complete declaration
 ≠ authority
 ```
 
-#### WP3 boundary and handoff
+#### Integration boundary
 
 Sections 4.8–4.10 establish:
 
@@ -6666,7 +6666,7 @@ Sections 4.8–4.10 establish:
 - three non-interchangeable declarations from one source family;
 - formal and authority limits of declaration completeness.
 
-WP3 does not yet perform:
+The integration section does not yet perform:
 
 - integrated Chapter 4 synchronization and completion testing;
 - final case-duty assignment;
@@ -6675,13 +6675,13 @@ WP3 does not yet perform:
 - detailed procedures from Chapters 15, 20, and 30;
 - the complete Shared Transformation Record from Chapter 7.
 
-The WP3 result is:
+The integrated result is:
 
 ```text
 admissible_but_provisional
 ```
 
-The provisionality attaches to the WP4 integrated audit and lock decision, not to a known local defect in Sections 4.8–4.10.
+The provisionality attaches to the integrated chapter audit and lock decision, not to a known local defect in Sections 4.8–4.10.
 
 #### Chapter 4 integrated completion and provisional lock
 
@@ -6968,7 +6968,7 @@ contextual usefulness without constitutive source trace
 ≠ functional continuity
 ```
 
-Section 5.6 later defines the full functional-continuity test. WP1 fixes the entry burden: a target function must already identify what source features are alleged to carry it and what kind of material source change would require the function claim to change.
+Section 5.6 later defines the full functional-continuity test. The scope section fixes the entry burden: a target function must already identify what source features are alleged to carry it and what kind of material source change would require the function claim to change.
 
 #### Source-change sensitivity
 
@@ -7030,13 +7030,13 @@ excluded claims: universal institutional framing, decision authority,
 
 The function foregrounds the difference between completed adoption and non-realized review. It does not determine what decision participants should make. It does not prove a general institutional pattern. It does not convert the path into `Frame` as an origin type.
 
-At the WP1 level, the local candidate is:
+At the scope boundary, the local candidate is:
 
 ```text
 admissible_with_bounded_claim
 ```
 
-This is a provisional chapter-local candidate because the full continuity matrix and contextual-boundedness test remain to be completed in WP2 and WP3.
+This is a provisional chapter-local candidate because it does not yet include the full continuity matrix and contextual-boundedness test defined in the method and integration sections.
 
 #### C5-TF-02 — same source, different compatible functions
 
@@ -7265,7 +7265,7 @@ contextual fit
 
 The frame-function may help organize a review question. It cannot decide the review outcome, authorize sanctions, rank persons, or inherit authority from the source path, the analyst, or the formal record.
 
-#### WP1 boundary and handoff
+#### Scope boundary
 
 Sections 5.1–5.3 establish:
 
@@ -7280,7 +7280,7 @@ Sections 5.1–5.3 establish:
 - mapping to existing Shared Record paths without schema duplication;
 - four controlled local cases: `C5-OT-01`, `C5-TF-01`, `C5-TF-02`, and `C5-CTX-01`.
 
-At WP1 completion, the chapter did not yet complete:
+The scope boundary does not include:
 
 - reference continuity criteria;
 - type-integrity failure routing;
@@ -7291,7 +7291,7 @@ At WP1 completion, the chapter did not yet complete:
 - the integrated continuity matrix;
 - final Chapter 5 synchronization and provisional lock.
 
-The WP1 result is:
+The scope result is:
 
 ```text
 admissible_but_provisional
@@ -7557,7 +7557,7 @@ The appropriate stronger disposition is:
 failed_transformation
 ```
 
-If the analyst is warned and nevertheless insists that the function replaces the origin type, continuation reaches the Chapter 5 Stop boundary reserved for WP3:
+If the analyst is warned and nevertheless insists that the function replaces the origin type, continuation reaches the Chapter 5 Stop boundary reserved for the integration section:
 
 ```text
 mandatory_stop
@@ -7801,9 +7801,9 @@ bounded support
 → admissible_but_provisional candidate
 ```
 
-Where two rival functions remain equally compatible with the available source and no discriminating evidence exists, Chapter 5 must leave room for `non_capture`. WP3 supplies the dedicated case and re-entry form.
+Where two rival functions remain equally compatible with the available source and no discriminating evidence exists, Chapter 5 preserves room for `non_capture`. The integration section supplies the dedicated case and re-entry form.
 
-#### WP2 boundary and handoff
+#### Method boundary
 
 Sections 5.4–5.6 establish:
 
@@ -7819,7 +7819,7 @@ Sections 5.4–5.6 establish:
 - separate local outputs for distinct continuity dimensions;
 - six controlled cases: `C5-REF-01`, `C5-REF-02`, `C5-TYPE-01`, `C5-FUNC-01`, `C5-FUNC-02`, and `C5-FUNC-03`.
 
-At WP2 completion, the chapter did not yet complete:
+The method boundary does not include:
 
 - temporal continuity;
 - the non-erasure rule for later functions and earlier history;
@@ -7829,7 +7829,7 @@ At WP2 completion, the chapter did not yet complete:
 - the dedicated Mandatory Stop and Non-Capture cases;
 - final Chapter 5 synchronization and provisional lock.
 
-The WP2 result is:
+The method result is:
 
 ```text
 admissible_but_provisional
@@ -8484,7 +8484,7 @@ machine-readable declaration
 ≠ authority
 ```
 
-#### Integrated WP3 continuity boundary
+#### Integrated continuity boundary
 
 Sections 5.7–5.9 complete the four foundational continuity dimensions:
 
@@ -8497,7 +8497,7 @@ temporal continuity
 
 They also establish contextual boundedness and the prose-bound Minimal Projection Form. The dimensions remain non-compensatory, and each target context creates a new testable claim.
 
-WP3 does not perform:
+The integration section does not perform:
 
 - the complete Admissibility Band procedure of Chapter 6;
 - Shared Transformation Record serialization of Chapter 7;
@@ -8506,13 +8506,13 @@ WP3 does not perform:
 - full continuity-failure routing of Chapter 47;
 - integrated STRATA audit of Chapter 53.
 
-The WP3 result is:
+The integrated result is:
 
 ```text
 admissible_but_provisional
 ```
 
-No known local defect remains in Sections 5.7–5.9. Provisionality attaches to final Chapter 5 synchronization, case-duty assignment, formal-model handoff, integrated audit, and provisional lock in WP4.
+No known local defect remains in Sections 5.7–5.9. Provisionality attaches to final Chapter 5 synchronization, case-duty assignment, formal-model handoff, integrated audit, and provisional lock in the chapter audit.
 
 
 #### Chapter 5 integrated completion and provisional lock
@@ -8628,7 +8628,7 @@ and
 result must remain source-carried
 ```
 
-WP1 defines the first burden. Sections 6.5–6.8 define the upper source-load burden. Sections 6.9–6.13 now complete the integrated non-compensatory gate and relational band architecture.
+The scope section defines the first burden. Sections 6.5–6.8 define the upper source-load burden. Sections 6.9–6.13 now complete the integrated non-compensatory gate and relational band architecture.
 
 #### The operating range is claim-specific
 
@@ -8677,7 +8677,7 @@ A bounded `DECOMPOSE` occurrence reconstructs `P_review` more finely by distingu
 
 The distinction changes the warranted reconstruction of why reopening in `K2` carries a different procedural burden from initial adoption in `K0–K1`. It preserves the same path referent, the temporal order, the origin typing, and the bounded review frame.
 
-At the WP1 stage, this is an **operating-range candidate** because the lower-bound question receives a positive answer:
+At the scope stage, this is an **operating-range candidate** because the lower-bound question receives a positive answer:
 
 ```text
 changed warranted reconstruction: yes
@@ -9057,7 +9057,7 @@ If the analyst accepts the boundary, the prior neutral result remains. If the an
 mandatory_stop
 ```
 
-#### WP1 boundary and handoff
+#### Scope boundary
 
 Sections 6.1–6.4 establish:
 
@@ -9072,7 +9072,7 @@ Sections 6.1–6.4 establish:
 - lower-bound Stop pressure;
 - five controlled cases: `C6-RANGE-01`, `C6-FLOOR-01`, `C6-FLOOR-02`, `C6-FLOOR-03`, and `C6-DIM-01`.
 
-At the WP1 checkpoint, the following were not yet complete:
+At the scope boundary, the following were not yet complete:
 
 - the Praxeological Traceability Ceiling;
 - `TraceableLoad`;
@@ -9083,13 +9083,13 @@ At the WP1 checkpoint, the following were not yet complete:
 - No Universal STRATA Scale;
 - final Chapter 6 synchronization and provisional lock.
 
-The WP1 result is:
+The scope result is:
 
 ```text
 admissible_but_provisional
 ```
 
-No known local defect remains in Sections 6.1–6.4. Their historical provisionality attached to the then-uncompleted upper-bound and integrated admissibility architecture, not to a claimed full-band passage.
+No known local defect remains in Sections 6.1–6.4. These sections do not by themselves complete the upper-bound and integrated admissibility architecture or establish full-band passage.
 
 ### 6.5 Praxeological Traceability Ceiling
 
@@ -9188,7 +9188,7 @@ source-result dependency: supported
 TraceableLoad: supported
 ```
 
-This is a positive ceiling finding. It does not yet complete the unified Chapter-6 result because Type Integrity, Contextual Boundedness, non-compensation, and final routing remain integrated in WP3.
+This is a positive ceiling finding. It does not yet complete the unified Chapter-6 result because Type Integrity, Contextual Boundedness, non-compensation, and final routing remain integrated in the integration section.
 
 ### 6.6 Traceable Load
 
@@ -9314,7 +9314,7 @@ material source-change response: absent
 TraceableLoad: failed
 ```
 
-The universal projection therefore crosses the Traceability Ceiling. A narrower resemblance may remain available as `analogy_only`. A bounded local function may require `claim_reduction_required` and a new test. If no source-dependent target survives, the declared transformation may route to `failed_transformation`. Insistence that rhetorical fit compensates for missing load creates Stop pressure. Final class selection remains assigned to the integrated WP3 gate.
+The universal projection therefore crosses the Traceability Ceiling. A narrower resemblance may remain available as `analogy_only`. A bounded local function may require `claim_reduction_required` and a new test. If no source-dependent target survives, the declared transformation may route to `failed_transformation`. Insistence that rhetorical fit compensates for missing load creates Stop pressure. Final class selection remains assigned to the integrated gate.
 
 #### Partial load and separable claims
 
@@ -9455,7 +9455,7 @@ untestable
 
 The analyst must name the missing interval, the rival source possibilities, and the re-entry condition. Where a narrower claim remains coherent—for example, that later reopening pressure is documented without specifying its precise reconsideration mechanism—the result may remain provisional or require reduction. Missing material alone does not authorize a causal inference and does not automatically produce `non_capture`.
 
-#### WP2 boundary and handoff
+#### Method boundary
 
 Sections 6.5–6.8 establish:
 
@@ -9471,7 +9471,7 @@ Sections 6.5–6.8 establish:
 - `strongly_sensitive`, `partially_sensitive`, `weakly_sensitive`, `insensitive`, `underdetermined`, and `untestable` distinctions;
 - four controlled cases: `C6-CEIL-01`, `C6-CEIL-02`, `C6-CF-01`, and `C6-CF-02`.
 
-At the WP2 checkpoint, the following remained incomplete:
+At the method boundary, the following remained incomplete:
 
 - the integrated Type Integrity and Reference Continuity handoff;
 - the unified non-compensatory formula as a full gate;
@@ -9480,13 +9480,13 @@ At the WP2 checkpoint, the following remained incomplete:
 - No Universal STRATA Scale;
 - the Formal Model handoff and Chapter 6 provisional lock.
 
-The WP2 result is:
+The method result is:
 
 ```text
 admissible_but_provisional
 ```
 
-No known local defect remains in Sections 6.5–6.8. Their historical provisionality attached to the then-uncompleted integrity, non-compensation, routing, scale, model-handoff, and lock architecture.
+No known local defect remains in Sections 6.5–6.8. These sections do not by themselves complete the integrity, non-compensation, routing, scale, model relation, and chapter-lock architecture.
 ### 6.9 Type Integrity
 
 The Admissibility Band does not replace the type discipline established in Chapters 1, 4, and 5. A transformation may possess clear praxeological purchase and substantial source trace while still failing because it silently changes what kind of object is being discussed. **Type Integrity** therefore remains a load-bearing condition of admissibility.
@@ -9970,7 +9970,7 @@ mandatory_stop
 
 Local descriptive indicators may still be recorded where explicitly bounded, but they cannot replace rule-level findings, substantive adjudication, or canonical Output Class routing.
 
-#### WP3 boundary and handoff
+#### Integration boundary
 
 Sections 6.9–6.13 establish:
 
@@ -9986,7 +9986,7 @@ Sections 6.9–6.13 establish:
 - No Universal STRATA Scale and the permissibility of bounded local comparison;
 - seven controlled cases: `C6-TYPE-01`, `C6-REF-01`, `C6-NCOMP-01`, `C6-REDUCE-01`, `C6-STOP-01`, `C6-NC-01`, and `C6-SCALE-01`.
 
-At the WP3 checkpoint, the following remained incomplete:
+At the integration boundary, the following remained incomplete:
 
 - the integrated Chapter-6 redundancy and completion audit;
 - final Reference Kernel synchronization across all current routes;
@@ -9995,13 +9995,13 @@ At the WP3 checkpoint, the following remained incomplete:
 - schema, package, fingerprint, and release-roundtrip verification;
 - the Chapter 6 provisional-lock decision.
 
-The WP3 result is:
+The integrated result is:
 
 ```text
 admissible_but_provisional
 ```
 
-No known local defect remains in Sections 6.9–6.13. Their historical provisionality attached to the then-uncompleted integrated audit, model handoff, case registration, package verification, and lock decision.
+No known local defect remains in Sections 6.9–6.13. These sections remain distinct from the integrated audit, model relation, case registration, repository verification, and chapter-lock assessment.
 
 #### Chapter 6 integrated completion and provisional lock
 
@@ -10536,7 +10536,7 @@ function origin reference
 | `DECOMPOSE` | compressed occurrence or composite | finer reconstruction of the same reference object | detail ≠ new object automatically |
 | `PROJECT_AS` | origin-typed source object | same reference and origin typing plus bounded function | function ≠ type replacement |
 
-#### WP1 boundary and handoff
+#### Scope boundary
 
 Sections 7.1–7.4 establish:
 
@@ -10553,7 +10553,7 @@ Sections 7.1–7.4 establish:
 - target object, target typing, and contextual function separation;
 - five controlled cases: `C7-REC-01`, `C7-REC-02`, `C7-SRC-01`, `C7-OP-01`, and `C7-OP-02`.
 
-At the WP1 checkpoint (retained as a historical handoff), the following remained incomplete:
+At the scope boundary, the following remained incomplete:
 
 - Admissibility Declaration;
 - the five-part Loss Declaration;
@@ -10563,15 +10563,15 @@ At the WP1 checkpoint (retained as a historical handoff), the following remained
 - routed versus formal-diagnostic use;
 - operation-chain representation;
 - local extensions and integrated use;
-- integrated Chapter-7 audit, case registration, model handoff, schema comparison, package verification, and provisional lock.
+- integrated Chapter-7 audit, case registration, model handoff, schema comparison, repository-integrity verification, and provisional lock.
 
-The WP1 result is:
+The scope result is:
 
 ```text
 admissible_but_provisional
 ```
 
-No known local defect remains in Sections 7.1–7.4. Their provisionality attaches to the still-open record families, status architecture, chain and extension rules, formal-model comparison, integrated audit, and lock decision.
+No known local defect remains in Sections 7.1–7.4. Their provisionality preserves separate ownership for the remaining record families, status architecture, chain and extension rules, formal-model comparison, integrated audit, and lock assessment.
 
 ### 7.5 Admissibility Declaration
 
@@ -10962,7 +10962,7 @@ mandatory_stop
 
 The Stop attaches to the prohibited continuation and authority inference. It does not retroactively erase a separately supported bounded analytical function.
 
-#### WP2 boundary and handoff
+#### Method boundary
 
 Sections 7.5–7.8 establish:
 
@@ -10975,7 +10975,7 @@ Sections 7.5–7.8 establish:
 - distributed mapping to existing Claim, Admissibility, and Governance carriers;
 - four controlled cases: `C7-LOSS-01`, `C7-ALT-01`, `C7-ALT-02`, and `C7-GOV-01`.
 
-At the WP2 checkpoint (retained as a historical handoff), the following remained incomplete:
+At the method boundary, the following remained incomplete:
 
 - separated support, resolution, disposition, capture, routing, and canonical-result axes;
 - routed versus formal-diagnostic records;
@@ -10983,15 +10983,15 @@ At the WP2 checkpoint (retained as a historical handoff), the following remained
 - declaration completeness, epistemic incompleteness, and claim-relative Non-Capture in integrated use;
 - the local extension rule;
 - completion of the positive and negative compact record pair;
-- integrated Chapter-7 audit, case registration, model handoff, schema comparison, package verification, and provisional lock.
+- integrated Chapter-7 audit, case registration, model handoff, schema comparison, repository-integrity verification, and provisional lock.
 
-The WP2 result is:
+The method result is:
 
 ```text
 admissible_but_provisional
 ```
 
-No known local defect remains in Sections 7.5–7.8. Their provisionality attaches to the still-open status architecture, chain and extension rules, integrated record use, formal-model comparison, audit, and lock decision.
+No known local defect remains in Sections 7.5–7.8. Their provisionality preserves separate ownership for the remaining status architecture, chain and extension rules, integrated record use, formal-model comparison, audit, and lock assessment.
 
 ### 7.9 Separated Record Status and Result Axes
 
@@ -11541,7 +11541,7 @@ integrated traceability
 ≠ integrated authority
 ```
 
-#### WP3 boundary and handoff
+#### Integration boundary
 
 Sections 7.9–7.10 establish:
 
@@ -11556,7 +11556,7 @@ Sections 7.9–7.10 establish:
 - integrated use that distinguishes declaration completeness, epistemic incompleteness, semantic defect, and formal routing incompleteness;
 - seven controlled cases: `C7-STAT-01`, `C7-STAT-02`, `C7-DIAG-01`, `C7-CHAIN-01`, `C7-EXT-01`, `C7-EXT-02`, and `C7-NC-01`.
 
-At the WP3 checkpoint, Chapter 7 was theoretically complete through Section 7.10. The following then remained assigned to WP4:
+At the integration boundary, Chapter 7 was theoretically complete through Section 7.10. The following then remained assigned to the chapter audit:
 
 - integrated redundancy and ownership audit across Sections 7.1–7.10;
 - registration of the sixteen Chapter-7 case obligations without false evidence claims;
@@ -11565,13 +11565,13 @@ At the WP3 checkpoint, Chapter 7 was theoretically complete through Section 7.10
 - Root, Reference, package, link, schema, fingerprint, and roundtrip verification;
 - provisional-lock decision.
 
-The WP3 result is:
+The integrated result is:
 
 ```text
 admissible_but_provisional
 ```
 
-No known local defect remains in Sections 7.9–7.10. Their historical provisionality attached only to the then-uncompleted integrated audit, formal-model comparison, case registration, package verification, and lock decision.
+No known local defect remains in Sections 7.9–7.10. These sections remain distinct from the integrated audit, formal-model comparison, case registration, repository verification, and chapter-lock assessment.
 
 #### Chapter 7 integrated completion and provisional lock
 
@@ -12076,7 +12076,7 @@ This pair returns to:
 
 Chapter 8 adds no constituent ontology. It preserves finer reconstruction as a bounded, revisable analytical operation.
 
-#### WP1 comparison matrix
+#### scope comparison matrix
 
 | Non-equivalence | Invalid identity claim | Admissible relation or transformation | Primary definition return |
 | --- | --- | --- | --- |
@@ -12085,7 +12085,7 @@ Chapter 8 adds no constituent ontology. It preserves finer reconstruction as a b
 | composition ≠ lossless addition | composite equals complete sum of sources | `COMPOSE` forms a new bounded object with disclosed selection and loss | Chapters 1, 4, 6, 7 |
 | decomposition ≠ discovery of final constituents | finer elements are ultimate real parts | `DECOMPOSE` reconstructs the same reference object at a declared, revisable resolution | Chapters 1, 2, 4, 6, 7 |
 
-The matrix establishes a reusable pattern: deny unmarked identity while preserving a typed, bounded relation. The remaining nine rows are assigned to WP2 and WP3.
+The matrix establishes a reusable pattern: deny unmarked identity while preserving a typed, bounded relation. The remaining nine rows are assigned to the method section and the integration section.
 
 #### C8-AUD-01 — non-equivalence with admissible relation
 
@@ -12126,7 +12126,7 @@ mandatory_stop
 
 The diagnostic state is not an eleventh Output Class. It records that the claim has not yet been delimited sufficiently for canonical routing.
 
-#### WP1 boundary and handoff
+#### Scope boundary
 
 Sections 8.1–8.4 establish:
 
@@ -12139,13 +12139,13 @@ Sections 8.1–8.4 establish:
 - decomposition versus discovery of final constituents;
 - seven controlled pressure cases: `C8-AUD-01`, `C8-AUD-02`, `C8-GRAN-01`, `C8-GRAN-02`, `C8-LEVEL-01`, `C8-COMP-01`, and `C8-DEC-01`.
 
-The WP1 result is:
+The scope result is:
 
 ```text
 admissible_but_provisional
 ```
 
-The provisionality is not a known local defect. It preserves the still-pending temporal, type, function, operator, analogy, recursion, authority, integrated-catalogue, model-handoff, and lock duties of WP2–WP4.
+The provisionality is not a known local defect. It preserves the separately owned temporal, type, function, operator, analogy, recursion, authority, integrated-catalogue, model-relation, and lock duties of the method, integration, and chapter-audit sections.
 
 ### 8.5 Path Is Not Sequence
 
@@ -12616,7 +12616,7 @@ and no operator-identity claim
 
 The projection may be admissible, provisional, reduced, analogical, or failed depending on its source trace and target scope. None of those results changes the PMS operator inventory.
 
-A structural analogy to an operator may assist orientation. That analogy must remain marked and cannot substitute for the stronger projection burden. WP3 will test that separate pair.
+A structural analogy to an operator may assist orientation. That analogy must remain marked and cannot substitute for the stronger projection burden. The integration section tests that separate pair.
 
 #### C8-PROJ-01 — operator-like function inflated into a primitive
 
@@ -12777,7 +12777,7 @@ This pair returns to:
 
 Chapter 8 does not define the full operator-weighting procedure in advance. It establishes the foundational prohibition against replacement, reordering, dependency deletion, primitive inflation, and person typing.
 
-#### WP2 comparison-matrix extension
+#### method comparison-matrix extension
 
 | Non-equivalence | Invalid identity claim | Admissible relation or transformation | Primary definition return |
 | --- | --- | --- | --- |
@@ -12788,9 +12788,9 @@ Chapter 8 does not define the full operator-weighting procedure in advance. It e
 | projection ≠ operator identity | recurrent operator-like function creates a new PMS operator | a source-traceable contextual function remains derived and non-primitive | PMS Base; Chapters 0, 1, 4, 5, 7 |
 | operator weighting ≠ operator replacement | local dominance deletes dependencies or creates a new type | source-supported relative weighting may describe a configuration while Δ–Ψ remains unchanged | PMS Base; Chapters 0, 1, 2, 5, 6, 7; later Chapter 35 |
 
-Together with the four WP1 rows, the running matrix now contains ten of the thirteen foundational pairs. The remaining analogy, recursion, and authority rows belong to WP3.
+Together with the four scope-section rows, the running matrix now contains ten of the thirteen foundational pairs. The remaining analogy, recursion, and authority rows are defined in the integration section.
 
-#### WP2 cross-pair pressure
+#### Method-section cross-pair pressure
 
 The six pairs form two linked control sequences:
 
@@ -12819,7 +12819,7 @@ new relation
 
 A failure at a stronger step does not erase a weaker result. A valid weaker result does not compensate for a failed stronger claim.
 
-#### WP2 boundary and handoff
+#### Method boundary
 
 Sections 8.5–8.10 establish:
 
@@ -12834,13 +12834,13 @@ Sections 8.5–8.10 establish:
 - explicit protection of Δ–Ψ identity, order, dependencies, non-decomposability, and closed operator inventory;
 - preservation of weaker temporal, functional, and weighting claims when stronger identity claims fail.
 
-The WP2 result is:
+The method result is:
 
 ```text
 admissible_but_provisional
 ```
 
-The provisionality is not a known local defect. It preserves the still-pending analogy, recursion, authority, integrated-catalogue, Formal-Model-handoff, Foundations-completion, and provisional-lock duties of WP3–WP4.
+The provisionality is not a known local defect. It preserves the separately owned analogy, recursion, authority, integrated-catalogue, Formal-Model, Foundations-completion, and provisional-lock duties of the integration and chapter-audit sections.
 
 ### 8.11 Structural Analogy Is Not Valid Projection
 
@@ -13362,7 +13362,7 @@ The Formal Model may validate:
 - declared provenance;
 - loss-category presence;
 - explicit authority-inheritance prohibition;
-- package fingerprints and schema conformance.
+- record identifiers and schema conformance.
 
 It may not automatically decide:
 
@@ -13490,7 +13490,7 @@ responsibly unresolved rival claims
 
 Neither result protects the original strong claim. Stop blocks it; Non-Capture withholds selection among bounded rivals.
 
-#### WP3 boundary and handoff
+#### Integration boundary
 
 Sections 8.11–8.13 establish:
 
@@ -13504,15 +13504,15 @@ Sections 8.11–8.13 establish:
 - formal and machine legibility without truth, legitimacy, person judgment, or application authority;
 - integrated catalogue use without a fourth operation, automatic Output Class, or replacement of Chapters 0–7.
 
-All eighteen prepared Chapter-8 pressure cases are now represented in canonical prose. Their later Case files, appendix expansions, Formal-Model synchronization, Foundations completion audit, and provisional-lock decision remain assigned to WP4 and downstream production.
+All eighteen specified Chapter-8 Pressure Cases are now represented in canonical prose. Their Case, Appendix, Formal-Model, Foundations-audit, and provisional-lock relations remain governed by their active canonical owners and synchronization duties.
 
-The WP3 result is:
+The integrated result is:
 
 ```text
 admissible_but_provisional
 ```
 
-The provisionality is not a known local defect. It preserves the integrated synchronization, Formal-Model handoff, Foundations-completion, Case-registration, repository-audit, and provisional-lock duties of WP4.
+The provisionality is not a known local defect. It preserves the integrated synchronization, Formal-Model handoff, Foundations-completion, Case-registration, repository-audit, and provisional-lock duties of the chapter audit.
 
 #### Chapter 8 integrated completion and Foundations provisional lock
 
@@ -13605,4 +13605,4 @@ The integrated Chapter-8 and Foundations result is:
 admissible_but_provisional
 ```
 
-Chapter 8 and Foundations are provisionally locked. The next controlled production step is Chapter 9 Preparation: Temporal Order and Transition in Part I — PATH.
+Chapter 8 and Foundations are provisionally locked. Part I — PATH begins with Chapter 9, Temporal Order and Transition.
