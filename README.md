@@ -64,6 +64,41 @@ STRATA makes level movement inspectable. It does not make level movement authori
 
 ---
 
+### Reader Interface
+
+![PMS-STRATA Reader interface](08_PMS-STRATA%20Reader/screenshot01.png)
+
+*The experimental PMS-STRATA Reader displaying the active corpus, document headings, full-text search, and rendered repository content.*
+
+### 3D Case Tree
+
+![PMS-STRATA Reader 3D Case Tree](08_PMS-STRATA%20Reader/screenshot02.png)
+
+*The rotatable 3D Case Tree generated from the active Transformation Records and organized by operation, Output Class, and individual Record.*
+
+## Repository Authority Order
+
+The repository separates architectural authority, canonical prose, formalization, tests, references, publications, and presentation.
+
+This `README.md` is a repository-navigation and orientation document. It is not an independent theoretical authority.
+
+The authority order is:
+
+```text
+PMS.yaml
+→ PMS-STRATA Structure
+→ canonical Blocks
+→ Minified Controls
+→ Formal Model
+→ Appendices
+→ Cases
+→ Reference Kernel
+→ Derivative Publications
+→ Reader
+```
+
+---
+
 ## Core Architecture
 
 PMS-STRATA is organized into shared Foundations and four Parts.
@@ -876,39 +911,6 @@ historically available branch
 interactive trace
 ≠
 automatic adjudication
-```
-
-### Reader Interface
-
-![PMS-STRATA Reader interface](08_PMS-STRATA%20Reader/screenshot01.png)
-
-*The experimental PMS-STRATA Reader displaying the active corpus, document headings, full-text search, and rendered repository content.*
-
-### 3D Case Tree
-
-![PMS-STRATA Reader 3D Case Tree](08_PMS-STRATA%20Reader/screenshot02.png)
-
-*The rotatable 3D Case Tree generated from the active Transformation Records and organized by operation, Output Class, and individual Record.*
-
-## Repository Authority Order
-
-The repository separates architectural authority, canonical prose, formalization, tests, references, publications, and presentation.
-
-This `README.md` is a repository-navigation and orientation document. It is not an independent theoretical authority.
-
-The authority order is:
-
-```text
-PMS.yaml
-→ PMS-STRATA Structure
-→ canonical Blocks
-→ Minified Controls
-→ Formal Model
-→ Appendices
-→ Cases
-→ Reference Kernel
-→ Derivative Publications
-→ Reader
 ```
 
 ### `PMS.yaml`
