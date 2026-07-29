@@ -102,11 +102,11 @@ A candidate that cannot be typed this way requires corpus-level revision. It may
 STRATA controls level movement through an admissibility band:
 
 ```text
-Praxeological Relevance Floor
+Praxeological Traceability Ceiling
 ─────────────────────────────
 admissible transformation
 ─────────────────────────────
-Praxeological Traceability Ceiling
+Praxeological Relevance Floor
 ```
 
 Lower boundary:
