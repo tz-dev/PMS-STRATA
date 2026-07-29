@@ -1,13 +1,13 @@
 # PMS-STRATA Reader
 
 **Status:** experimental executable prototype; downstream presentation and navigation layer only  
-**Version:** `0.5.4-toolbar-cleanup`  
+**Version:** `0.5.5-derivative-routing`  
 **Implementation:** single-file Python/Tkinter desktop application  
 **Authority:** none beyond the artifacts it reads
 
 The current prototype adapts the first executable PMS-EM Reader layer to the active PMS-STRATA repository. It can open either the repository folder or a Source-of-Truth ZIP and provides ordinary corpus reading together with an interactive graph layer.
 
-Version `0.4.0-audit-support` supplied the bounded Reader Audit Support Patch required for reliable Corpus Audit work. Version `0.5.0-graph-lab` added the separately scoped **Graph Lab Package**. Version `0.5.1-reader-fixes` corrected file-browser scope, resize handles, startup pane minima, conditional horizontal table scrollbars, and the Search label. Version `0.5.2-graph-navigation` added explicit README naming under Start, middle/right-button graph panning, selected-node rotation pivots, blank-space deselection, and selected-node artifact rendering in the Graph Lab detail tabs. Version `0.5.3-rendered-details` completed rendered detail views and selected-node centering. Version `0.5.4-toolbar-cleanup` removes the redundant Browse Files, Open Folder, and Open ZIP controls; corpus selection occurs at launch, while Graph Lab navigation is node-selection based. These versions change only the Reader presentation layer and do not modify canonical theory or authority.
+Version `0.4.0-audit-support` supplied the bounded Reader Audit Support Patch required for reliable Corpus Audit work. Version `0.5.0-graph-lab` added the separately scoped **Graph Lab Package**. Version `0.5.1-reader-fixes` corrected file-browser scope, resize handles, startup pane minima, conditional horizontal table scrollbars, and the Search label. Version `0.5.2-graph-navigation` added explicit README naming under Start, middle/right-button graph panning, selected-node rotation pivots, blank-space deselection, and selected-node artifact rendering in the Graph Lab detail tabs. Version `0.5.3-rendered-details` completed rendered detail views and selected-node centering. Version `0.5.4-toolbar-cleanup` removes the redundant Browse Files, Open Folder, and Open ZIP controls; corpus selection occurs at launch, while Graph Lab navigation is node-selection based. Version `0.5.5-derivative-routing` labels and routes the three derivative publications explicitly and excludes internal derivative production controls from active Reader ingestion. These versions change only the Reader presentation layer and do not modify canonical theory or authority.
 
 ```text
 Reader
@@ -70,19 +70,21 @@ plain text
 Python source
 ```
 
-The following layer is excluded by default and is not searchable, rendered, indexed, or graphed:
+The following internal layers are excluded by default and are not searchable, rendered, indexed, or graphed:
 
 ```text
 _workfiles/**
+06_derivative_publications/_production_controls/**
 ```
 
-This is intentional. `_workfiles` is production provenance, not active Reader input.
+This is intentional. Workfiles and derivative production controls are production provenance, not active Reader input. The Derivative Publications section therefore routes only to the compact overview, publishable paper, and technical whitepaper.
 
 ## 3. Corpus Reader
 
 The main window provides:
 
 - a nested active-artifact navigator with **Start → README** as the root entry;
+- a Derivative Publications branch with explicit labels for the compact overview, publishable paper, and technical whitepaper;
 - canonical block labels in actual corpus order: Front Matter, Foundations, PATH, SUB, RETYPE, LIMITS, Conclusion;
 - a heading navigator for Markdown and shallow YAML structure;
 - automatic active-heading synchronization during document scrolling;
@@ -422,6 +424,6 @@ Graphdarstellung
 
 ## 7. Prototype status boundary
 
-The presence of this executable prototype does not change the controlled production sequence. Reference Freeze, Integrated Corpus Audit, Model Finalization, derivatives, final Reader work, and Release remain separate downstream stages.
+The three derivative publications are present and explicitly routed in this Reader version. Their visibility does not change the repository authority order, create backflow into the canonical corpus, or turn Reader navigation into validation.
 
-The prototype may be used for inspection and design learning now. It must not be cited as a completed final Reader or as evidence that the later graph model is formally frozen.
+The Reader remains an experimental presentation layer. It may be used for inspection and design learning, but it must not be cited as substantive evidence, a completed semantic validator, or a source of analytical authority.

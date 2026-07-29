@@ -363,6 +363,8 @@ admissible transformation
 Praxeological Relevance Floor
 ```
 
+The diagram is topological and procedural rather than metric. The Traceability Ceiling is shown above the admissible range and the Relevance Floor below it; this orientation names the upper and lower bounds without implying a numerical scale.
+
 ### Praxeological Relevance Floor
 
 Below the lower bound, additional distinctions produce no further warranted praxis-relevant difference.
@@ -956,8 +958,15 @@ automatic adjudication
 
 ### `06_derivative_publications/*`
 
-- Contains the compact overview, derived publishable paper, and technical whitepaper.
-- Derivative publications possess no authority to revise the source corpus.
+The repository contains three downstream publications:
+
+| Publication | Function |
+| --- | --- |
+| [`PMS-STRATA in Brief`](06_derivative_publications/PMS_STRATA_Compact_Overview.md) | Compact orientation and continuation routes. |
+| [`More Structure Is Not More Authority`](06_derivative_publications/PMS_STRATA_Derived_Publishable_Paper.md) | Focused methodological argument for controlled transformation without authority inflation. |
+| [`PMS-STRATA: Technical Specification`](06_derivative_publications/PMS_STRATA_Technical_Whitepaper.md) | Detailed technical synthesis, operation specifications, cases, formal boundary, and repository routes. |
+
+Derivative publications possess no authority to revise the source corpus. Internal production controls remain outside the active Reader corpus.
 
 ### `07_model/*`
 
@@ -975,7 +984,7 @@ automatic adjudication
 
 ## Status
 
-The repository is in corpus-form release state except for derivative publication files that may be added or refreshed separately. Derivatives do not define STRATA; they render or summarize already bounded material.
+The repository is in corpus-form release state with the compact overview, derived publishable paper, and technical whitepaper integrated as downstream publications. These derivatives do not define STRATA; they render or summarize already bounded material and remain subordinate to the repository authority order.
 
 ---
 

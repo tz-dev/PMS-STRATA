@@ -77,11 +77,11 @@ The Chapter 1 bounded lock supplies object-category, type-integrity, derivation,
 The Admissibility Band is a relational operating range for a declared transformation occurrence and claim. It is not an interval measured by one variable.
 
 ```text
-Praxeological Relevance Floor
+Praxeological Traceability Ceiling
 ─────────────────────────────
 admissible transformation range
 ─────────────────────────────
-Praxeological Traceability Ceiling
+Praxeological Relevance Floor
 ```
 
 Below the lower boundary lies:
@@ -96,7 +96,7 @@ Above the upper boundary lies:
 abstraction without traceable load
 ```
 
-The diagram is topological and procedural, not metric. The Floor and Ceiling test different failure modes. Passing them does not by itself establish full admissibility.
+The diagram is topological and procedural, not metric. The Traceability Ceiling is shown above the admissible range and the Relevance Floor below it. The two bounds test different failure modes, and passing them does not by itself establish full admissibility.
 Canonical separations:
 
 ```text

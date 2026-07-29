@@ -10,6 +10,7 @@ Prototype features:
 - Loads the active PMS-STRATA corpus from a folder or a .zip file.
 - Excludes ``_workfiles/**`` from normal ingestion.
 - Navigates Markdown, YAML, JSON, CSV, and reader source files.
+- Renders local Markdown images directly in the main reader area.
 - Provides corpus-wide full-text search and heading navigation.
 - Parses the 59 transformation records into lightweight record summaries.
 - Includes an interactive Graph Lab with:
@@ -35,6 +36,7 @@ package it separately as ``python3-tk``.
 
 from __future__ import annotations
 
+import base64
 import bisect
 import csv
 import json
@@ -63,7 +65,7 @@ except ImportError as exc:  # pragma: no cover
     ) from exc
 
 APP_TITLE = "PMS-STRATA Reader"
-APP_VERSION = "0.5.4-toolbar-cleanup"
+APP_VERSION = "0.5.6-image-rendering"
 
 DEBUG = True  # set False to silence console output
 
@@ -109,6 +111,9 @@ CANONICAL_BLOCK_LABELS: Dict[str, str] = {
     "01_blocks/04_part_iii_retype.md": "RETYPE",
     "01_blocks/05_part_iv_limits.md": "LIMITS",
     "01_blocks/06_conclusion.md": "Conclusion",
+    "06_derivative_publications/PMS_STRATA_Compact_Overview.md": "PMS-STRATA - In Brief",
+    "06_derivative_publications/PMS_STRATA_Derived_Publishable_Paper.md": "PMS-STRATA - More Structure Is Not More Authority",
+    "06_derivative_publications/PMS_STRATA_Technical_Whitepaper.md": "PMS-STRATA - Technical Specification",
 }
 
 # Graph Lab's browser is deliberately narrower than the general Reader tree.
@@ -125,6 +130,7 @@ GRAPH_BROWSER_FILE_TYPES = {"md", "yaml", "yml", "json", "csv", "txt"}
 
 ACTIVE_TEXT_EXTENSIONS = {".md", ".yaml", ".yml", ".json", ".csv", ".txt", ".py"}
 EXCLUDED_TOP_LEVEL = {"_workfiles", ".git", "__pycache__"}
+EXCLUDED_PATH_PREFIXES = {"06_derivative_publications/_production_controls/"}
 
 PREFERRED_HOME_FILES = [
     "README.md",
@@ -146,6 +152,7 @@ HTML_ANCHOR_RE = re.compile(
     re.IGNORECASE,
 )
 MARKDOWN_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+MARKDOWN_IMAGE_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 
 # Above this threshold the renderer avoids per-line source marks.
 LARGE_DOC_LINE_THRESHOLD = 8000
@@ -156,6 +163,7 @@ CHUNKED_RENDER_LINE_THRESHOLD = 10_000
 CHUNKED_RENDER_BYTE_THRESHOLD = 1_048_576
 CHUNK_TARGET_BYTES = 192 * 1024
 MAX_SEARCH_HIGHLIGHTS = 2_000
+IMAGE_MAX_DISPLAY_WIDTH = 1_200
 
 YAML_OUTLINE_LEVEL3_KEYS = {
     "claim",
@@ -226,6 +234,22 @@ class Document:
 class RenderChunk:
     text: str
     start_line: int
+
+
+@dataclass
+class EmbeddedImage:
+    """One local Markdown image embedded in the main reader surface."""
+
+    rel_path: str
+    alt_text: str
+    encoded_data: str
+    source_width: int
+    source_height: int
+    frame: tk.Frame
+    image_label: tk.Label
+    caption_label: Optional[tk.Label]
+    displayed_image: Optional[tk.PhotoImage] = None
+    scale_factor: int = 0
 
 
 @dataclass
@@ -309,6 +333,8 @@ class CorpusSource:
         first = rel_path.split("/", 1)[0]
         if first in EXCLUDED_TOP_LEVEL:
             return False
+        if any(rel_path.startswith(prefix) for prefix in EXCLUDED_PATH_PREFIXES):
+            return False
         return Path(rel_path).suffix.lower() in ACTIVE_TEXT_EXTENSIONS
 
     def exists(self, rel_path: str) -> bool:
@@ -330,6 +356,51 @@ class CorpusSource:
         with self._zip.open(self._zip_name(rel_path), "r") as handle:
             raw = handle.read()
         return raw.decode("utf-8", errors="replace")
+
+    @staticmethod
+    def _safe_asset_rel_path(rel_path: str) -> Optional[str]:
+        normalized = normalize_rel_path(posixpath.normpath(unquote(rel_path)))
+        if not normalized or normalized in {".", ".."} or normalized.startswith("../"):
+            return None
+        first = normalized.split("/", 1)[0]
+        if first in EXCLUDED_TOP_LEVEL:
+            return None
+        if any(normalized.startswith(prefix) for prefix in EXCLUDED_PATH_PREFIXES):
+            return None
+        return normalized
+
+    def asset_exists(self, rel_path: str) -> bool:
+        """Return whether a non-text repository asset exists inside the active root."""
+        safe_path = self._safe_asset_rel_path(rel_path)
+        if safe_path is None:
+            return False
+        if self.kind == "folder":
+            assert self.root_dir is not None
+            candidate = (self.root_dir / safe_path).resolve()
+            try:
+                candidate.relative_to(self.root_dir.resolve())
+            except ValueError:
+                return False
+            return candidate.is_file()
+        assert self._zip is not None
+        return self._zip_name(safe_path) in self._zip.namelist()
+
+    def read_bytes(self, rel_path: str) -> bytes:
+        """Read a repository asset without admitting it to the active text corpus."""
+        safe_path = self._safe_asset_rel_path(rel_path)
+        if safe_path is None:
+            raise CorpusError(f"Unsafe repository asset path: {rel_path}")
+        if self.kind == "folder":
+            assert self.root_dir is not None
+            candidate = (self.root_dir / safe_path).resolve()
+            try:
+                candidate.relative_to(self.root_dir.resolve())
+            except ValueError as exc:
+                raise CorpusError(f"Repository asset leaves the active root: {rel_path}") from exc
+            return candidate.read_bytes()
+        assert self._zip is not None
+        with self._zip.open(self._zip_name(safe_path), "r") as handle:
+            return handle.read()
 
     def available_files(self) -> List[str]:
         if self.kind == "folder":
@@ -1121,7 +1192,7 @@ class GraphLab(tk.Toplevel):
             ("02_appendices", "schemas, templates, supplements", "02_appendices/Appendix_A_Core_Definitions.md"),
             ("03_cases", "cases and transformation records", "03_cases/Case_Index.md"),
             ("04_reference", "terminology and cross-reference support", "04_reference/Reader_Pathways.md"),
-            ("06_derivative_publications", "derivatives without backflow; currently pending", ""),
+            ("06_derivative_publications", "three downstream publications; no backflow", "06_derivative_publications/PMS_STRATA_Compact_Overview.md"),
             ("08 Reader", "presentation and navigation only", "08_PMS-STRATA Reader/README.md"),
         ]
         nodes: List[GraphNode] = []
@@ -2006,6 +2077,8 @@ class PmsStrataReaderApp(tk.Tk):
         self._next_link_id = 0
         self._embedded_tables: List[tk.Widget] = []
         self._table_resize_after_id: Optional[str] = None
+        self._embedded_images: List[EmbeddedImage] = []
+        self._image_resize_after_id: Optional[str] = None
 
         # Queue for results coming back from the background loader thread.
         self._load_queue: queue.Queue = queue.Queue()
@@ -2413,6 +2486,7 @@ class PmsStrataReaderApp(tk.Tk):
         self.text.tag_configure("quote", lmargin1=24, lmargin2=24, foreground="#555555")
         self.text.tag_configure("table", font=self.mono_font, lmargin1=24, lmargin2=24, spacing1=4, spacing3=4)
         self.text.tag_configure("rule", foreground="#777777")
+        self.text.tag_configure("image_block", justify=tk.CENTER, spacing1=8, spacing3=8)
         self.text.tag_configure("search", background="#fff2a8")
         self.text.tag_configure("current_line", background="#eef5ff")
         self.text.tag_configure("link", foreground="#0563c1", underline=True)
@@ -2579,6 +2653,15 @@ class PmsStrataReaderApp(tk.Tk):
         self.text.tag_configure("link_hover", background=link_hover_bg, foreground=link_fg)
         self.text.tag_configure("loading", background=text_bg, foreground=text_fg)
 
+        for embedded in self._embedded_images:
+            try:
+                embedded.frame.configure(background=text_bg)
+                embedded.image_label.configure(background=text_bg)
+                if embedded.caption_label is not None:
+                    embedded.caption_label.configure(background=text_bg, foreground=muted_fg)
+            except tk.TclError:
+                continue
+
         if self.graph_lab is not None and self.graph_lab.winfo_exists():
             self.graph_lab.apply_theme()
 
@@ -2590,6 +2673,12 @@ class PmsStrataReaderApp(tk.Tk):
             except tk.TclError:
                 pass
         self._table_resize_after_id = self.after(40, self._resize_embedded_tables)
+        if self._image_resize_after_id is not None:
+            try:
+                self.after_cancel(self._image_resize_after_id)
+            except tk.TclError:
+                pass
+        self._image_resize_after_id = self.after(80, self._resize_embedded_images)
 
     def _resize_embedded_tables(self) -> None:
         self._table_resize_after_id = None
@@ -2611,6 +2700,37 @@ class PmsStrataReaderApp(tk.Tk):
             except tk.TclError:
                 continue
         self._embedded_tables = live_frames
+
+    def _resize_embedded_images(self) -> None:
+        self._image_resize_after_id = None
+        available_width = min(
+            IMAGE_MAX_DISPLAY_WIDTH,
+            max(320, self.text.winfo_width() - 64),
+        )
+        live_images: List[EmbeddedImage] = []
+        for embedded in self._embedded_images:
+            try:
+                if not embedded.frame.winfo_exists():
+                    continue
+                live_images.append(embedded)
+                factor = max(1, math.ceil(embedded.source_width / available_width))
+                if factor != embedded.scale_factor or embedded.displayed_image is None:
+                    source_image = tk.PhotoImage(data=embedded.encoded_data)
+                    display_image = (
+                        source_image
+                        if factor == 1
+                        else source_image.subsample(factor, factor)
+                    )
+                    embedded.displayed_image = display_image
+                    embedded.scale_factor = factor
+                    embedded.image_label.configure(image=display_image)
+                if embedded.caption_label is not None:
+                    embedded.caption_label.configure(
+                        wraplength=max(240, min(available_width, embedded.displayed_image.width()))
+                    )
+            except tk.TclError as exc:
+                dbg(f"image resize skipped for {embedded.rel_path}: {exc}")
+        self._embedded_images = live_images
 
     def _configure_clickable_cursors(self) -> None:
         """Apply consistent interaction cursors without changing semantics."""
@@ -3061,6 +3181,19 @@ class PmsStrataReaderApp(tk.Tk):
                 pass
         self._embedded_tables.clear()
 
+        if self._image_resize_after_id is not None:
+            try:
+                self.after_cancel(self._image_resize_after_id)
+            except tk.TclError:
+                pass
+            self._image_resize_after_id = None
+        for embedded in self._embedded_images:
+            try:
+                embedded.frame.destroy()
+            except tk.TclError:
+                pass
+        self._embedded_images.clear()
+
         for tag_name in self._link_tags:
             try:
                 self.text.tag_delete(tag_name)
@@ -3318,6 +3451,13 @@ class PmsStrataReaderApp(tk.Tk):
                 i += 1
                 continue
 
+            image_match = MARKDOWN_IMAGE_RE.fullmatch(raw_line.strip())
+            if image_match:
+                alt_text, image_target = image_match.groups()
+                self._insert_markdown_image(doc, alt_text.strip(), image_target)
+                i += 1
+                continue
+
             fence_match = FENCE_RE.match(raw_line)
             if fence_match:
                 language = (fence_match.group(2) or "").lower()
@@ -3394,6 +3534,104 @@ class PmsStrataReaderApp(tk.Tk):
 
         dbg(f"_render_markdown_blocks: done ({heading_counter} headings rendered)")
         return heading_counter
+
+    def _insert_markdown_image(
+        self,
+        doc: Optional[Document],
+        alt_text: str,
+        raw_target: str,
+    ) -> None:
+        """Render one local Markdown image in the main document surface."""
+        if self.corpus is None or doc is None:
+            self._insert_image_fallback(alt_text, raw_target, "No active corpus is available.")
+            return
+
+        target = clean_markdown_destination(raw_target)
+        parsed = urlparse(target)
+        if parsed.scheme.lower() in {"http", "https"}:
+            self._insert_image_fallback(
+                alt_text,
+                target,
+                "External images are not downloaded by the Reader.",
+                link_target=target,
+            )
+            return
+
+        file_part = target.partition("#")[0]
+        candidate = resolve_repository_relative_path(doc.rel_path, file_part)
+        if candidate is None:
+            self._insert_image_fallback(alt_text, target, "The image path leaves the active repository root.")
+            return
+        if not self.corpus.source.asset_exists(candidate):
+            self._insert_image_fallback(alt_text, target, f"No repository image exists at {candidate}.")
+            return
+
+        try:
+            raw = self.corpus.source.read_bytes(candidate)
+            encoded = base64.b64encode(raw).decode("ascii")
+            probe = tk.PhotoImage(data=encoded)
+            source_width = probe.width()
+            source_height = probe.height()
+            if source_width <= 0 or source_height <= 0:
+                raise tk.TclError("image has no displayable dimensions")
+        except (OSError, CorpusError, tk.TclError) as exc:
+            self._insert_image_fallback(
+                alt_text,
+                target,
+                f"The dependency-free image renderer could not decode this asset: {exc}",
+            )
+            return
+
+        text_bg = self.text.cget("background")
+        caption_fg = "#a0a0a0" if self.dark_mode else "#555555"
+        frame = tk.Frame(self.text, background=text_bg, borderwidth=0, highlightthickness=0)
+        image_label = tk.Label(frame, background=text_bg, borderwidth=0, highlightthickness=0)
+        image_label.pack(anchor=tk.CENTER)
+        caption_label: Optional[tk.Label] = None
+        if alt_text:
+            caption_label = tk.Label(
+                frame,
+                text=alt_text,
+                background=text_bg,
+                foreground=caption_fg,
+                font=("Segoe UI", 9, "italic"),
+                justify=tk.CENTER,
+                pady=4,
+            )
+            caption_label.pack(anchor=tk.CENTER)
+
+        embedded = EmbeddedImage(
+            rel_path=candidate,
+            alt_text=alt_text,
+            encoded_data=encoded,
+            source_width=source_width,
+            source_height=source_height,
+            frame=frame,
+            image_label=image_label,
+            caption_label=caption_label,
+        )
+        self._embedded_images.append(embedded)
+        self._resize_embedded_images()
+
+        start = self.text.index(tk.INSERT)
+        self.text.window_create(tk.END, window=frame, padx=8, pady=8, align=tk.CENTER)
+        end = self.text.index(tk.INSERT)
+        self.text.tag_add("image_block", start, end)
+        self.text.insert(tk.END, "\n", ("body",))
+
+    def _insert_image_fallback(
+        self,
+        alt_text: str,
+        target: str,
+        reason: str,
+        link_target: Optional[str] = None,
+    ) -> None:
+        label = alt_text or Path(unquote(target.partition("#")[0])).name or "Image"
+        self.text.insert(tk.END, f"[Image: {label}] ", ("quote",))
+        if link_target:
+            self._insert_markdown_link("Open source", link_target, ("quote",))
+            self.text.insert(tk.END, " — ", ("quote",))
+        self.text.insert(tk.END, reason + "\n", ("quote",))
 
     def _insert_code_block(self, block_lines: List[str], language: str) -> None:
         """Insert a fenced code block without showing the fence markers."""
@@ -3974,6 +4212,30 @@ def parse_case_index(text: str) -> Dict[str, Dict[str, str]]:
     return result
 
 
+def clean_markdown_destination(raw_target: str) -> str:
+    target = raw_target.strip()
+    if target.startswith("<") and target.endswith(">"):
+        target = target[1:-1].strip()
+    title_match = re.match(r'^(\S+?)(?:\s+["\'].*["\'])?$', target)
+    if title_match:
+        target = title_match.group(1)
+    return unquote(target)
+
+
+def resolve_repository_relative_path(current_rel_path: str, raw_target: str) -> Optional[str]:
+    target = clean_markdown_destination(raw_target)
+    if not target:
+        return None
+    if target.startswith("/"):
+        candidate = normalize_rel_path(posixpath.normpath(target))
+    else:
+        base_dir = posixpath.dirname(current_rel_path)
+        candidate = normalize_rel_path(posixpath.normpath(posixpath.join(base_dir, target)))
+    if candidate in {"", ".", ".."} or candidate.startswith("../"):
+        return None
+    return candidate
+
+
 def normalize_rel_path(path: str) -> str:
     return path.replace("\\", "/").lstrip("/")
 
@@ -4272,6 +4534,24 @@ def run_self_test(source_path: Optional[Path]) -> int:
         for record in corpus.records:
             operations[record.operation] = operations.get(record.operation, 0) + 1
             classes[record.output_class] = classes.get(record.output_class, 0) + 1
+        image_refs: List[Tuple[str, str]] = []
+        missing_image_assets: List[str] = []
+        for rel_path, doc in corpus.documents.items():
+            if doc.file_type != "md":
+                continue
+            for match in MARKDOWN_IMAGE_RE.finditer(doc.text):
+                target = clean_markdown_destination(match.group(2)).partition("#")[0]
+                parsed = urlparse(target)
+                if parsed.scheme.lower() in {"http", "https"}:
+                    continue
+                candidate = resolve_repository_relative_path(rel_path, target)
+                if candidate is None:
+                    missing_image_assets.append(f"{rel_path} -> {target}")
+                    continue
+                image_refs.append((rel_path, candidate))
+                if not corpus.source.asset_exists(candidate):
+                    missing_image_assets.append(f"{rel_path} -> {candidate}")
+
         summary = {
             "source": corpus.source.describe(),
             "active_artifacts": corpus.document_count,
@@ -4281,9 +4561,15 @@ def run_self_test(source_path: Optional[Path]) -> int:
             "workfiles_ingested": any(path.startswith("_workfiles/") for path in corpus.ordered_paths),
             "record_yaml_markdown_pairs": sum(1 for record in corpus.records if record.markdown_path),
             "package_linked_records": sum(1 for record in corpus.records if record.package_path),
+            "local_markdown_images": len(image_refs),
+            "missing_image_assets": missing_image_assets,
         }
         print(json.dumps(summary, indent=2, ensure_ascii=False, sort_keys=True))
-        return 0 if len(corpus.records) == 59 and not summary["workfiles_ingested"] else 1
+        return 0 if (
+            len(corpus.records) == 59
+            and not summary["workfiles_ingested"]
+            and not missing_image_assets
+        ) else 1
     finally:
         source.close()
 

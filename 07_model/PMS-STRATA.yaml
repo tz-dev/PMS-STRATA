@@ -68,7 +68,7 @@ authority_and_precedence:
   governing_repository_controls:
     - path: 00_source/PMS-STRATA_Structure.md
       role: architecture and chapter blueprint
-      sha256: c3c6da74f1ecda5f18bb88f04298fd0e9a8db966ed56fee4554a1b530940ce11
+      sha256: 8d37acd41ba54a16c0614bda6b8a10ccf45c8e04be4d9ad5dbfd817081226a7a
     - path: 05_minified/PMS_STRATA_Minified_Canonical.md
       role: canonical compact control
       sha256: 637a43e63e98261d1ae344687274df97d829f96567471b8557e720ce149cbe4a
@@ -112,7 +112,7 @@ authority_and_precedence:
         sha256: 45f75b2e9339ed6cbdd63e4b55b79f83c314ec1ca50eb170a05444d7f984555a
       - path: 04_reference/Admissibility_Band_Reference.md
         role: admissibility and synchronized twelve-stage audit support
-        sha256: 1d56dfb023a3133417c32d004f0048e2a8a2913375deb372982d95a8cf0311f5
+        sha256: c4eadf94c6d899b2bb7d626c7937056fd49916e16fbdfc7a8dae78f05263535f
       - path: 04_reference/Cross_Reference_Map.md
         role: cross-artifact navigation support
         sha256: 09748a83c9b0ec44b28ae102b8412299164655df7d111590421e566b6550a4da

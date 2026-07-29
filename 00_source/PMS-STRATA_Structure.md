@@ -7397,11 +7397,11 @@ LIMITS defines the admissible range within which PATH, SUB, and RETYPE may opera
 Its central structure is the STRATA Admissibility Band:
 
 ```text
-Praxeological Relevance Floor
+Praxeological Traceability Ceiling
 ────────────────────────────────
 admissible STRATA transformation
 ────────────────────────────────
-Praxeological Traceability Ceiling
+Praxeological Relevance Floor
 ```
 
 Below the lower boundary:
