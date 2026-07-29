@@ -19,7 +19,8 @@ Prototype features:
   * Dependency Graph,
   * Transformation Flow,
   * selected Record Trace,
-  * selected Chain Graph.
+  * selected Chain Graph,
+  * a Browse Files selector limited to the clickable nodes in the active graph view.
 
 The graph layer only visualizes declared repository relations. It does not
 create theory, evidence, classifications, dependencies, or authority.
@@ -65,7 +66,7 @@ except ImportError as exc:  # pragma: no cover
     ) from exc
 
 APP_TITLE = "PMS-STRATA Reader"
-APP_VERSION = "0.5.6-image-rendering"
+APP_VERSION = "0.5.9-graph-node-browser-visible"
 
 DEBUG = True  # set False to silence console output
 
@@ -116,17 +117,6 @@ CANONICAL_BLOCK_LABELS: Dict[str, str] = {
     "06_derivative_publications/PMS_STRATA_Technical_Whitepaper.md": "PMS-STRATA - Technical Specification",
 }
 
-# Graph Lab's browser is deliberately narrower than the general Reader tree.
-# It lists only audit- and graph-relevant artifacts that the Reader can render.
-GRAPH_BROWSER_SECTIONS = {
-    "01_blocks",
-    "02_appendices",
-    "03_cases",
-    "04_reference",
-    "05_minified",
-    "07_model",
-}
-GRAPH_BROWSER_FILE_TYPES = {"md", "yaml", "yml", "json", "csv", "txt"}
 
 ACTIVE_TEXT_EXTENSIONS = {".md", ".yaml", ".yml", ".json", ".csv", ".txt", ".py"}
 EXCLUDED_TOP_LEVEL = {"_workfiles", ".git", "__pycache__"}
@@ -705,12 +695,11 @@ class AutoHideScrollbar(ttk.Scrollbar):
 
 
 class BrowseFilesDialog(tk.Toplevel):
-    """Searchable, category-aware browser for active Reader artifacts."""
+    """Searchable selector for the clickable nodes in the active graph view."""
 
     def __init__(self, graph_lab: "GraphLab"):
         super().__init__(graph_lab)
         self.graph_lab = graph_lab
-        self.app = graph_lab.app
         self.title(f"{APP_TITLE} — Browse Files")
         self.geometry("980x680")
         self.minsize(720, 480)
@@ -719,20 +708,20 @@ class BrowseFilesDialog(tk.Toplevel):
 
         self.query_var = tk.StringVar()
         self.status_var = tk.StringVar()
+        self.heading_var = tk.StringVar()
         self._category_items: Dict[str, str] = {}
-        self._row_to_path: Dict[str, str] = {}
-        self._selected_section = "ALL"
+        self._row_to_node_id: Dict[str, str] = {}
+        self._selected_kind = "ALL"
 
         self._build_ui()
         self.apply_theme()
-        self._populate_categories()
-        self.refresh_files()
+        self.refresh_from_graph()
         self.after_idle(self._center_over_parent)
 
     def _build_ui(self) -> None:
         top = ttk.Frame(self, padding=(10, 10, 10, 6))
         top.pack(fill=tk.X)
-        ttk.Label(top, text="Search active files").pack(side=tk.LEFT)
+        ttk.Label(top, text="Search clickable nodes").pack(side=tk.LEFT)
         self.search_entry = ttk.Entry(top, textvariable=self.query_var, width=44)
         self.search_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(8, 8))
         self.search_entry.bind("<KeyRelease>", lambda event: self.refresh_files())
@@ -747,7 +736,7 @@ class BrowseFilesDialog(tk.Toplevel):
         pane.add(categories_frame, weight=1)
         pane.add(files_frame, weight=4)
 
-        ttk.Label(categories_frame, text="Categories", font=("Segoe UI", 10, "bold")).pack(anchor=tk.W, pady=(0, 5))
+        ttk.Label(categories_frame, text="Node types", font=("Segoe UI", 10, "bold")).pack(anchor=tk.W, pady=(0, 5))
         self.categories = ttk.Treeview(categories_frame, show="tree", selectmode="browse", style="Browser.Treeview")
         cat_scroll = ttk.Scrollbar(categories_frame, orient=tk.VERTICAL, command=self.categories.yview)
         self.categories.configure(yscrollcommand=cat_scroll.set)
@@ -755,22 +744,22 @@ class BrowseFilesDialog(tk.Toplevel):
         cat_scroll.pack(side=tk.RIGHT, fill=tk.Y)
         self.categories.bind("<<TreeviewSelect>>", self._on_category_selected)
 
-        ttk.Label(files_frame, text="Graph-relevant files", font=("Segoe UI", 10, "bold")).pack(anchor=tk.W, pady=(0, 5))
+        ttk.Label(files_frame, textvariable=self.heading_var, font=("Segoe UI", 10, "bold")).pack(anchor=tk.W, pady=(0, 5))
         table_wrap = ttk.Frame(files_frame)
         table_wrap.pack(fill=tk.BOTH, expand=True)
         self.files = ttk.Treeview(
             table_wrap,
-            columns=("title", "path", "type"),
+            columns=("node", "artifact", "kind"),
             show="headings",
             selectmode="browse",
             style="Browser.Treeview",
         )
-        self.files.heading("title", text="Title")
-        self.files.heading("path", text="Repository path")
-        self.files.heading("type", text="Type")
-        self.files.column("title", width=250, minwidth=140, stretch=True)
-        self.files.column("path", width=470, minwidth=220, stretch=True)
-        self.files.column("type", width=70, minwidth=55, stretch=False, anchor=tk.CENTER)
+        self.files.heading("node", text="Clickable node")
+        self.files.heading("artifact", text="Linked repository artifact")
+        self.files.heading("kind", text="Node type")
+        self.files.column("node", width=285, minwidth=150, stretch=True)
+        self.files.column("artifact", width=450, minwidth=220, stretch=True)
+        self.files.column("kind", width=105, minwidth=80, stretch=False, anchor=tk.CENTER)
         yscroll = ttk.Scrollbar(table_wrap, orient=tk.VERTICAL, command=self.files.yview)
         xscroll = AutoHideScrollbar(table_wrap, orient=tk.HORIZONTAL, command=self.files.xview)
         self.files.configure(yscrollcommand=yscroll.set, xscrollcommand=xscroll.set)
@@ -779,52 +768,53 @@ class BrowseFilesDialog(tk.Toplevel):
         xscroll.grid(row=1, column=0, sticky="ew")
         table_wrap.rowconfigure(0, weight=1)
         table_wrap.columnconfigure(0, weight=1)
-        self.files.bind("<Double-1>", lambda event: self.open_selected())
-        self.files.bind("<Return>", lambda event: self.open_selected())
+        self.files.bind("<<TreeviewSelect>>", self._on_node_selected)
+        self.files.bind("<Double-1>", lambda event: self.select_selected(close=True))
+        self.files.bind("<Return>", lambda event: self.select_selected(close=True))
 
         bottom = ttk.Frame(self, padding=(10, 4, 10, 10))
         bottom.pack(fill=tk.X)
         ttk.Label(bottom, textvariable=self.status_var, style="Status.TLabel").pack(side=tk.LEFT, fill=tk.X, expand=True)
-        ttk.Button(bottom, text="Open", command=self.open_selected).pack(side=tk.RIGHT)
+        ttk.Button(bottom, text="Select Node", command=self.select_selected).pack(side=tk.RIGHT)
 
         for widget in (self.categories, self.files):
             widget.configure(cursor="hand2")
         self.search_entry.configure(cursor="xterm")
 
+    @staticmethod
+    def _kind_label(kind: str) -> str:
+        return kind.replace("_", " ").replace("-", " ").title()
+
+    def refresh_from_graph(self) -> None:
+        """Rebuild the selector from the nodes in the Graph Lab's active view."""
+        self.heading_var.set(f"Clickable nodes — {self.graph_lab.view_var.get()}")
+        self._populate_categories()
+        self.refresh_files()
+
     def _populate_categories(self) -> None:
+        previous_kind = self._selected_kind
         self.categories.delete(*self.categories.get_children())
         self._category_items.clear()
-        self._selected_section = "ALL"
-        all_item = self.categories.insert("", tk.END, text="All Files", open=True)
+
+        all_item = self.categories.insert("", tk.END, text="All Nodes", open=True)
         self._category_items[all_item] = "ALL"
-        corpus = self.app.corpus
-        if corpus is not None:
-            sections = []
-            seen = set()
-            for rel_path in corpus.ordered_paths:
-                section = rel_path.split("/", 1)[0] if "/" in rel_path else rel_path
-                doc = corpus.documents.get(rel_path)
-                if (
-                    section not in GRAPH_BROWSER_SECTIONS
-                    or doc is None
-                    or doc.file_type not in GRAPH_BROWSER_FILE_TYPES
-                ):
-                    continue
-                if section not in seen:
-                    seen.add(section)
-                    sections.append(section)
-            for section in sections:
-                label = SECTION_LABELS.get(section, section)
-                item = self.categories.insert("", tk.END, text=label)
-                self._category_items[item] = section
-        self.categories.selection_set(all_item)
-        self.categories.focus(all_item)
+        kinds = sorted({node.kind for node in self.graph_lab.nodes}, key=self._kind_label)
+        selected_item = all_item
+        for kind in kinds:
+            item = self.categories.insert("", tk.END, text=self._kind_label(kind))
+            self._category_items[item] = kind
+            if kind == previous_kind:
+                selected_item = item
+
+        self._selected_kind = self._category_items[selected_item]
+        self.categories.selection_set(selected_item)
+        self.categories.focus(selected_item)
 
     def _on_category_selected(self, event: tk.Event) -> None:
         selection = self.categories.selection()
         if not selection:
             return
-        self._selected_section = self._category_items.get(selection[0], "ALL")
+        self._selected_kind = self._category_items.get(selection[0], "ALL")
         self.refresh_files()
 
     def _clear_search(self) -> None:
@@ -833,39 +823,51 @@ class BrowseFilesDialog(tk.Toplevel):
         self.search_entry.focus_set()
 
     def refresh_files(self) -> None:
+        current_node_id = self.graph_lab.selected_node_id
         self.files.delete(*self.files.get_children())
-        self._row_to_path.clear()
-        corpus = self.app.corpus
-        if corpus is None:
-            self.status_var.set("No corpus loaded")
-            return
+        self._row_to_node_id.clear()
         query = self.query_var.get().strip().casefold()
         visible = 0
-        for rel_path in corpus.ordered_paths:
-            section = rel_path.split("/", 1)[0] if "/" in rel_path else rel_path
-            doc = corpus.documents[rel_path]
-            if section not in GRAPH_BROWSER_SECTIONS or doc.file_type not in GRAPH_BROWSER_FILE_TYPES:
+        selected_row = ""
+
+        for node in self.graph_lab.nodes:
+            if self._selected_kind != "ALL" and node.kind != self._selected_kind:
                 continue
-            if self._selected_section != "ALL" and section != self._selected_section:
-                continue
-            haystack = f"{doc.title} {rel_path}".casefold()
+            label = node.label.replace("\n", " / ").strip()
+            artifact = node.rel_path or "—"
+            kind_label = self._kind_label(node.kind)
+            haystack = f"{label} {artifact} {kind_label} {node.details}".casefold()
             if query and query not in haystack:
                 continue
-            row = self.files.insert("", tk.END, values=(doc.title, rel_path, doc.file_type.upper()))
-            self._row_to_path[row] = rel_path
+            row = self.files.insert("", tk.END, values=(label, artifact, kind_label))
+            self._row_to_node_id[row] = node.node_id
+            if node.node_id == current_node_id:
+                selected_row = row
             visible += 1
-        self.status_var.set(f"{visible:,} graph-relevant file{'s' if visible != 1 else ''}")
 
-    def open_selected(self) -> None:
+        if selected_row:
+            self.files.selection_set(selected_row)
+            self.files.focus(selected_row)
+            self.files.see(selected_row)
+        self.status_var.set(
+            f"{visible:,} clickable node{'s' if visible != 1 else ''} in {self.graph_lab.view_var.get()}"
+        )
+
+    def _on_node_selected(self, event: tk.Event) -> None:
+        self.select_selected()
+
+    def select_selected(self, close: bool = False) -> None:
         selection = self.files.selection()
         if not selection:
             return
-        rel_path = self._row_to_path.get(selection[0])
-        if not rel_path:
+        node_id = self._row_to_node_id.get(selection[0])
+        if not node_id:
             return
-        self.app.open_document(rel_path)
-        self.app.deiconify()
-        self.app.lift()
+        if self.graph_lab.select_node_by_id(node_id):
+            self.graph_lab.deiconify()
+            self.graph_lab.lift()
+            if close:
+                self.withdraw()
 
     def apply_theme(self) -> None:
         palette = self.graph_lab.theme_palette()
@@ -955,6 +957,13 @@ class GraphLab(tk.Toplevel):
     def _build_ui(self) -> None:
         toolbar = ttk.Frame(self, padding=(8, 8, 8, 5))
         toolbar.pack(fill=tk.X)
+
+        # Keep node selection immediately visible in the Graph Lab's
+        # upper-left corner. The dialog lists only clickable nodes from the
+        # currently active graph view; it is not a general corpus browser.
+        ttk.Button(toolbar, text="Browse Files", command=self.browse_files).pack(
+            side=tk.LEFT, padx=(0, 12)
+        )
 
         ttk.Label(toolbar, text="View").pack(side=tk.LEFT)
         self.view_box = ttk.Combobox(
@@ -1088,8 +1097,7 @@ class GraphLab(tk.Toplevel):
         else:
             self.browser_dialog.deiconify()
             self.browser_dialog.lift()
-            self.browser_dialog._populate_categories()
-            self.browser_dialog.refresh_files()
+            self.browser_dialog.refresh_from_graph()
             self.browser_dialog.apply_theme()
             self.browser_dialog.after_idle(self.browser_dialog._center_over_parent)
 
@@ -1104,6 +1112,21 @@ class GraphLab(tk.Toplevel):
         self.pan_x = 0.0
         self.pan_y = 0.0
         self.redraw()
+
+    def select_node_by_id(self, node_id: str) -> bool:
+        """Select the same node that a canvas click would select."""
+        node = self.node_by_id.get(node_id)
+        if node is None:
+            return False
+        self.selected_node_id = node.node_id
+        self.pan_x = 0.0
+        self.pan_y = 0.0
+        self._show_node_details(node)
+        self.status_var.set(
+            f"Selected pivot: {node.label} • left-drag rotates around it • middle/right-drag pans"
+        )
+        self.redraw()
+        return True
 
     def refresh(self) -> None:
         corpus = self.app.corpus
@@ -1135,6 +1158,8 @@ class GraphLab(tk.Toplevel):
         self.pan_y = 0.0
         self._show_general_details(self._view_description(view))
         self.redraw()
+        if self.browser_dialog is not None and self.browser_dialog.winfo_exists():
+            self.browser_dialog.refresh_from_graph()
 
     def _filtered_records(self) -> List[RecordSummary]:
         assert self.app.corpus is not None
@@ -1862,20 +1887,15 @@ class GraphLab(tk.Toplevel):
         if not self._drag_moved:
             node = self._nearest_node(event.x, event.y)
             if node:
-                self.selected_node_id = node.node_id
-                self.pan_x = 0.0
-                self.pan_y = 0.0
-                self._show_node_details(node)
-                self.status_var.set(
-                    f"Selected pivot: {node.label} • left-drag rotates around it • middle/right-drag pans"
-                )
+                self.select_node_by_id(node.node_id)
             else:
                 self.selected_node_id = ""
                 self._show_general_details(self._view_description(self.view_var.get()))
                 self.status_var.set(
                     "Selection cleared • left-drag to rotate • middle/right-drag to pan • wheel to zoom"
                 )
-            self.redraw()
+            if node is None:
+                self.redraw()
         self._drag_start = None
 
     def _on_pan_press(self, event: tk.Event) -> str:
